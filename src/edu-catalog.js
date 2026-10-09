@@ -1,3 +1,5 @@
+import { portedLessons } from './edu-ports.js';
+
 const physics = 'https://openstax.org/books/college-physics-2e/pages/1-introduction-to-science-and-the-realm-of-physics-physical-quantities-and-units';
 export const subjects = [
   { id: 'todas', name: 'Todas as matérias', color: '#243f36' },
@@ -60,6 +62,7 @@ export const lessons = [
   lesson('conveccao', 'O ar faz uma volta pela sala', 'fisica', 'convection', 'window-draft', 'Aquecimento e ventilação desenham caminhos invisíveis.', [c('a','Temperatura do aquecedor',25,65,5,45,'°C'),c('b','Abertura da janela',0,100,10,20,'%')], 'Como uma fonte quente pode mover o ar de uma sala?', 'O ar aquecido tende a subir, enquanto o ar mais frio pode descer. Essa circulação transporta energia. Uma abertura também pode trazer ar de fora.', 'Circuito visual qualitativo; ambiente fixado em 20 °C. O índice térmico é inventado para comparação, sem solver de fluidos ou estimativa de conforto.', 'Compare janela fechada e aberta com o mesmo aquecedor. Descreva as duas correntes.', { tags: ['fisica','geografia'], scientific: 'https://openstax.org/books/college-physics-2e/pages/14-6-convection' }),
   lesson('prompt', 'O caminho de uma pergunta', 'tecnologia', 'pipeline', 'prompt', 'Do envio do texto à resposta, há várias etapas.', [c('a','Tokens da resposta',16,128,8,48),c('b','Taxa de geração',4,40,2,16,'tokens/s')], 'Uma resposta longa aparece toda de uma vez?', 'O texto de entrada precisa ser processado. Depois, as unidades da resposta são geradas ao longo do tempo. A bancada separa espera inicial e geração.', 'Etapas e atraso inicial de 0,2 s são hipotéticos. Não chama IA nem reproduz a arquitetura ou a velocidade de um serviço real.', 'Mantenha a taxa e dobre os tokens. Compare o tempo total e a parcela fixa de espera.', { tags: ['tecnologia','portugues','matematica'], scientific: 'https://arxiv.org/abs/1706.03762' }),
 ];
+lessons.push(...portedLessons);
 export const getLesson = id => lessons.find(l => l.id === id);
 export const lessonUrl = l => l.href || `/aula.html?id=${l.id}`;
 export const subjectOf = l => subjects.find(s => s.id === l.subject);

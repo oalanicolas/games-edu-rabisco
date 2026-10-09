@@ -39,6 +39,37 @@ o movimento é declarado ampliado ou desacelerado quando necessário.
 
 ## Arquitetura
 
+### Portabilidade aprovada em 09/10/2026
+
+Alan pediu apenas Three.js e autorizou converter o que for possível. Escala:
+product, superfície Aprender. Reutilizar renderizador, materiais, tablado,
+fontes, caderno, controles, ensaios, impressão e offline. Criar modelos e cenas
+para temas ausentes. Todas as bancadas locais usam Three.js; Canvas 2D serve
+somente à textura dos rótulos, sem motor externo ou iframe de simulação.
+
+Escopo verificável desta leva: difusão, osmose, reação, DNA, frações,
+probabilidade, balança algébrica, funções, predador-presa, bandos, trânsito em
+anel, realimentação, ritmo, circuito em série, circuito paralelo, órbita elíptica,
+trilateração, engrenagens, montanha-russa e ressonância em tubo. Fontes de
+perguntas já pesquisadas: Concord, Polypad, GeoGebra, Complexity, LOOPY,
+Chrome Music Lab, Falstad, NASA, Bartosz e myPhysicsLab. Código, arte e texto
+próprios; sem transcrever clientes de licença não confirmada. Portabilidade de
+modelos e interação, não réplica integral de cada aplicativo nem de todo acervo.
+
+Hipótese de experiência: se a cena e a leitura dependem do mesmo estado, mudar
+uma variável ajuda a relacionar causa e consequência. Refuta-se por leituras
+divergentes, movimento sem relação com parâmetro ou reinício não reprodutível.
+Modelos evolutivos usam um relógio determinístico; seus ensaios guardam também
+o instante, permitindo comparar, recarregar e imprimir a mesma observação.
+Coeficientes hipotéticos e desaceleração visual constam nos limites de cada aula.
+Ritmo usa gravação CC0 de palma do acervo, somente após ação explícita, com
+som opcional e sem efeitos em prévias. Sem substituição da identidade vigente.
+
+Aceite: todos os novos temas têm bancada 3D própria, dois controles operantes,
+fonte, pergunta, desafio, leituras coerentes com o instante, pausa/reinício,
+registro, ficha e offline; percorrer também a coleção anterior. Não inventar
+aprovação humana, fidelidade integral, piloto ou desempenho em telefone real.
+
 Vite 7.3.7, Three.js 0.183.2, npm com lockfile. Vite herdado foi atualizado de 7.1.7
 após audit indicar falhas corrigidas na mesma versão principal; sem troca de engine.
 `edu-catalog.js`: conteúdo e parâmetros. `edu-models.js`: relações matemáticas puras.
@@ -74,11 +105,13 @@ inventar marcos históricos, atribuições curriculares ou benefícios clínicos
 - Priorizar todas as experiências da categoria Explainers e temas transversais com
   modelos locais estáveis; mundos e dados vivos restantes permanecem como referências.
 - Sem áudio automático ou contas. Mediação de 30 minutos para os novos cadernos.
-- Preparar destino público; manter publicação pendente de pedido explícito de push/deploy.
+- Publicação autorizada por Alan nesta conversa (“Faça deploy”); cada atualização
+  precisa de conferência no domínio antes da entrega.
 
 ## Prova e pendências
 
 `doctor` confere relações, parâmetros e produção. `qa` percorre o conjunto completo
 no navegador, incluindo casos sem rede e sem WebGL. As capturas devem ser lidas em
 prancha com as referências. Uma imagem ou gate não declara aprovação de Alan.
-Pendências: aceite visual, piloto pedagógico, dispositivo móvel real e publicação.
+Pendências: aceite visual, piloto pedagógico e dispositivo móvel real.
+A publicação e o commit servido são registrados no recibo do hub.

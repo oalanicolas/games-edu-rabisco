@@ -22,7 +22,8 @@ Código e arte próprios; referência de perguntas em `src/edu-inventory.json`.
 
 ## Recusado por Alan
 
-Nenhuma recusa específica registrada para este portal.
+- 09/10/2026: aulas com engines externas ou iframes. Todas as bancadas locais
+  devem ser Three.js. Rótulos podem usar CanvasTexture; a interface permanece HTML.
 
 ## Aprovação visual
 

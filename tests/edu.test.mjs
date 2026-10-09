@@ -7,7 +7,8 @@ test('catálogo cobre todos os cards da fonte, sem confundir links externos e au
   const inventory=JSON.parse(await readFile(new URL('../src/edu-inventory.json',import.meta.url),'utf8'));
   assert.equal(inventory.length,57);assert.equal(new Set(inventory.map(i=>i.url)).size,57);
   assert.equal(new Set(lessons.map(l=>l.id)).size,lessons.length);
-  assert.ok(lessons.every(l=>inventory.some(i=>i.url.replace(/\/$/,'')===l.source.replace(/\/$/,''))));
+  assert.ok(lessons.filter(l=>!l.portable).every(l=>inventory.some(i=>i.url.replace(/\/$/,'')===l.source.replace(/\/$/,''))));
+  assert.ok(lessons.filter(l=>l.portable).every(l=>l.engine==='three'&&l.sourceName&&l.scientific&&l.limit));
   assert.ok(subjects.filter(s=>s.id!=='todas').every(s=>lessons.some(l=>l.tags.includes(s.id))));
 });
 test('todos os modelos permanecem finitos nos extremos permitidos e ambos os controles mudam uma leitura',()=>{

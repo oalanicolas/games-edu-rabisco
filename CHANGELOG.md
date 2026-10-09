@@ -2,6 +2,14 @@
 
 ## 2026-10-09
 
+- Vinte novas adaptações em Three.js: moléculas, DNA, frações, probabilidade,
+  populações, bandos, trânsito, realimentação, ritmo, circuitos, GPS, órbitas,
+  engrenagens, montanha-russa e ressonância.
+- Leituras evolutivas e registros agora preservam o instante no CSV e na ficha.
+- Gravação CC0 de palma, opcional e ativada pelo estudante, no caderno de ritmo.
+- Fontes novas identificadas pelo autor correto; nenhuma simulação por iframe.
+- Rótulos ajustam o texto para não cortar; inspeção corrigiu DNA e trilateração.
+
 - Preparação da publicação em edu.rabisco.net pelo fluxo do estúdio.
 - Verificação completa pode apontar para o domínio público com `EDU_QA_URL`.
 - Capturas de QA temporárias; resultados e recibos preservados após limpeza.

@@ -1,4 +1,7 @@
-export function model(mode, a, b) {
+import { portedModes, portState } from './edu-port-models.js';
+
+export function model(mode, a, b, time = 0) {
+  if(portedModes.has(mode))return portState(mode,a,b,time);
   const read = (label, value, unit = '') => ({ label, value, unit });
   let metrics = [], value = 0;
   switch (mode) {
@@ -49,8 +52,8 @@ export function model(mode, a, b) {
   }
   return { metrics, value };
 }
-export function evaluateLesson(lesson, values) {
-  const { metrics, value } = model(lesson.mode, values.a, values.b);
+export function evaluateLesson(lesson, values, time = 0) {
+  const { metrics, value } = model(lesson.mode, values.a, values.b, time);
   return { value, metrics: metrics.map(m => ({...m,label:m.label,unit:m.unit})) };
 }
 export const defaults = lesson => Object.fromEntries(lesson.controls.map(c => [c.id,c.value]));

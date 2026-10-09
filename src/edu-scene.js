@@ -1,6 +1,8 @@
 import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { model } from './edu-models.js';
+import { portedModes, simulationLimits } from './edu-port-models.js';
+import { buildPortScene } from './edu-port-scenes.js';
 
 const ink=0x283d36, blue=0x528faf, green=0x668d59, orange=0xd9894b, red=0xbe5d56, cream=0xf3eddd;
 const v=(x,y,z=0)=>new THREE.Vector3(x,y,z);
@@ -15,7 +17,7 @@ export function createScene(mode, values={a:.7,b:1.2}) {
   const line=(points,color=ink,width=1)=>{const m=new THREE.Line(new THREE.BufferGeometry().setFromPoints(points),new THREE.LineBasicMaterial({color,linewidth:width}));root.add(m);return m;};
   const tube=(points,r,color,options={})=>mesh(new THREE.TubeGeometry(new THREE.CatmullRomCurve3(points),64,r,8,false),color,0,0,0,options);
   const label=(text,x,y,z=0,color='#283d36')=>{
-    const canvas=document.createElement('canvas');canvas.width=768;canvas.height=192;const ctx=canvas.getContext('2d');ctx.fillStyle=color;ctx.font='600 60px Barlow, sans-serif';ctx.textAlign='center';ctx.textBaseline='middle';ctx.fillText(text,384,96);
+    const canvas=document.createElement('canvas');canvas.width=768;canvas.height=192;const ctx=canvas.getContext('2d');ctx.fillStyle=color;let size=60;ctx.font=`600 ${size}px Barlow, sans-serif`;while(ctx.measureText(text).width>720){size--;ctx.font=`600 ${size}px Barlow, sans-serif`;}ctx.textAlign='center';ctx.textBaseline='middle';ctx.fillText(text,384,96);
     const texture=new THREE.CanvasTexture(canvas);texture.colorSpace=THREE.SRGBColorSpace;const sprite=new THREE.Sprite(new THREE.SpriteMaterial({map:texture,depthTest:false,toneMapped:false}));sprite.position.set(x,y,z);sprite.scale.set(3,.75,1);root.add(sprite);return sprite;
   };
   const arrow=(start,end,color=orange)=>{const d=end.clone().sub(start);const a=new THREE.ArrowHelper(d.clone().normalize(),start,d.length(),color,.22,.12);root.add(a);return a;};
@@ -26,6 +28,7 @@ export function createScene(mode, values={a:.7,b:1.2}) {
   const {a,b}=values;
   let result;
   if(!['river','quake'].includes(mode))result=model(mode,a,b);
+  if(portedModes.has(mode))buildPortScene(mode,values,{root,dynamic,mesh,box,sphere,cylinder,line,tube,label,arrow,ring,pointsOn,v,ink,blue,green,orange,red,cream});
   switch(mode){
     case 'pendulum': {
       box(4.8,.15,.25,ink,0,3.2,0);box(.14,3.2,.2,ink,-2.35,1.6,0);box(.14,3.2,.2,ink,2.35,1.6,0);
@@ -200,16 +203,16 @@ export function makeWorld() {
   const sun=new THREE.DirectionalLight(0xffefd8,3);sun.position.set(-3,8,6);sun.castShadow=true;sun.shadow.mapSize.set(2048,2048);sun.shadow.camera.left=-5;sun.shadow.camera.right=5;sun.shadow.camera.top=5;sun.shadow.camera.bottom=-5;sun.shadow.normalBias=.035;scene.add(sun);
   const camera=new THREE.PerspectiveCamera(38,1,.1,100);camera.position.set(6,4.8,7.6);camera.zoom=1.13;camera.lookAt(0,1,0);camera.updateProjectionMatrix();return {scene,camera};
 }
-export function mountLab(canvas,mode,values) {
+export function mountLab(canvas,mode,values,onFrame=()=>{}) {
   const renderer=makeRenderer(canvas),{scene,camera}=makeWorld();let content=createScene(mode,values);scene.add(content.root);
   const controls=new OrbitControls(camera,canvas);controls.target.set(0,1,0);controls.enableDamping=true;controls.minDistance=4;controls.maxDistance=18;controls.maxPolarAngle=Math.PI*.48;controls.enablePan=false;
   const resize=()=>{const rect=canvas.getBoundingClientRect();renderer.setSize(Math.max(1,rect.width),Math.max(1,rect.height),false);camera.aspect=rect.width/Math.max(1,rect.height);camera.updateProjectionMatrix();};
   const observer=new ResizeObserver(resize);observer.observe(canvas);resize();
   let playing=false,time=0,previous=performance.now(),frames=0;
-  renderer.setAnimationLoop(now=>{if(playing)time+=Math.min(.05,(now-previous)/1000);previous=now;controls.update();content.update(time);renderer.render(scene,camera);frames++;});
+  renderer.setAnimationLoop(now=>{if(playing){time=Math.min(simulationLimits[mode]??Infinity,time+Math.min(.05,(now-previous)/1000));if(time===simulationLimits[mode])playing=false;}previous=now;controls.update();content.update(time);renderer.render(scene,camera);frames++;onFrame(time,playing);});
   return {
     setValues(next){scene.remove(content.root);content.dispose();content=createScene(mode,next);scene.add(content.root);time=0;},
-    play(value){playing=value;},advance(seconds){time+=seconds;content.update(time);renderer.render(scene,camera);},reset(){time=0;playing=false;controls.reset();},
+    play(value){playing=value;},advance(seconds){time=Math.min(simulationLimits[mode]??Infinity,time+seconds);content.update(time);renderer.render(scene,camera);},reset(){time=0;playing=false;controls.reset();},
     observe(){const gl=renderer.getContext(),ext=gl.getExtension('WEBGL_debug_renderer_info');return {time,playing,frames,camera:camera.position.toArray(),renderer:ext?gl.getParameter(ext.UNMASKED_RENDERER_WEBGL):gl.getParameter(gl.RENDERER)};},
     dispose(){renderer.setAnimationLoop(null);observer.disconnect();controls.dispose();content.dispose();renderer.dispose();},
   };

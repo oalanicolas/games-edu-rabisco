@@ -60,3 +60,36 @@ e a conferência no domínio; `EDU_QA_URL` permite repetir o ciclo nesse endere�
 Pesquisa e fontes: `docs/pesquisas/Edu Rabisco — laboratórios visuais por matéria a partir do Sael.md`
 no hub. Capturas ficam fora do Git e são apagadas após comparação, assim como
 pacotes exclusivos de QA e suas cópias no Drive. Resultados e recibos permanecem.
+
+## Portabilidade — comparação numérica
+
+O novo check de leitura no mesmo instante comparava doubles com igualdade exata
+entre Node e Chrome. A bússola retornou 60,4612177404419 e
+60,46121774044192 graus, diferença de arredondamento da biblioteca matemática.
+A comparação agora exige rótulos e unidades idênticos e erro até
+1e−10 × max(1, |valor esperado|), muito abaixo da precisão exibida. Essa mudança
+de assertiva trata aritmética entre runtimes, não relaxa conservação, finitude,
+controle ou igualdade do instante. Os testes físicos permanecem inalterados.
+
+## Leva de portabilidade — 09/10/2026
+
+- Doctor: 23/23 testes, produção e offline aprovados.
+- QA local: 73/73 cenários; 61/61 aulas, 59/59 bancadas, 20/20 adaptações novas.
+- Membrana, osmose, cinética e energia conservadas nos regimes declarados.
+- Leis dos circuitos, órbita e trilateração conferidas; populações positivas e
+  tráfego sem interpenetração. Bandos com bordas periódicas e semente fixa.
+- Ensaios evolutivos preservam o instante, números, CSV, recarga e impressão.
+- Palma decodificada e reproduzida somente após ativação e reprodução; pausa,
+  avanço manual e silenciamento não criam novos sons. Sem avaliação auditiva humana.
+- Nenhum iframe em todas as bancadas locais. Todos usam renderer Three.js.
+- 61/61 aulas offline; coleção integral sem overflow a 390 px emulados.
+- Renderer: ANGLE (Apple, ANGLE Metal Renderer: Apple M3 Ultra, Unspecified Version). Não testado em aparelho real.
+- Pranchas temporárias e comparação do portal antes/depois; diferença principal:
+  novo conteúdo e contagem, preservando identidade, hero e bancadas anteriores.
+- Correções visuais: legenda do DNA movida para a base e texto de trilateração
+  encurtado; rótulos adaptam o corpo da fonte à largura da textura.
+- Capturas retornam ao topo da página para comparar a mesma composição.
+  Relógio e leituras são atualizados juntos no avanço manual.
+
+O recibo no hub registra o commit, os recursos servidos e a conferência do domínio.
+Use `EDU_QA_URL=https://edu.rabisco.net/ npm run qa` para conferir a produção.

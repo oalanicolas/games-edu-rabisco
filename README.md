@@ -6,7 +6,8 @@ os demais cadernos têm maquetes 3D, controles, leituras, investigação guiada,
 registros, exportação CSV, ficha imprimível e mediação de 30 minutos.
 
 Catálogo completo de referência: `src/edu-inventory.json`, consultado em 08/10/2026.
-Esta edição tem 41 aulas: 39 laboratórios novos e os dois do Geografia Rabisco.
+Esta edição tem 61 aulas: 59 bancadas próprias e os dois cadernos do Geografia Rabisco.
+Inclui 20 novas adaptações em Three.js a partir da curadoria de fontes além do Sael.
 Dos 57 itens catalogados no Sael, 41 têm adaptação e 16 permanecem como referências.
 O portal diferencia temas adaptados e referências externas ainda sem aula local.
 Há filtros por Geografia, Física, Biologia, Química, Matemática, Tecnologia, Artes,
@@ -43,7 +44,9 @@ inclusive cópias no Drive. Preserve resultados JSON/texto e recibo de limpeza.
 
 Escolha uma matéria, pesquise um tema e abra o caderno. Os laboratórios começam
 pausados. Mude uma variável de cada vez, registre duas configurações e compare
-as leituras. Uma mudança reinicia e pausa o relógio; “Recomeçar” restaura os dois
+as leituras. Os ensaios guardam também o instante e as leituras daquele momento.
+No caderno de ritmos, ative as palmas para ouvir uma gravação real, opcional.
+Uma mudança reinicia e pausa o relógio; “Recomeçar” restaura os dois
 controles. Arraste para girar a bancada e use a rolagem para aproximar.
 
 A aba “Investigar e registrar” guarda até 12 configurações por aula nesta aba do
@@ -66,3 +69,12 @@ não foram importados. Os links preservam a autoria de Ryan Sael.
 Nenhum piloto com turma real, certificação curricular ou teste em aparelho móvel
 real foi realizado. A validação móvel é emulação no Chrome. Evidência e estado
 de verificação: `QA.md`.
+
+## Portabilidade em Three.js
+
+`src/edu-ports.js` registra a coleção por matéria, referência e leitura de apoio.
+`src/edu-port-models.js` calcula as relações e os estados determinísticos;
+`src/edu-port-scenes.js` apresenta o mesmo instante com objetos Three.js.
+São adaptações didáticas com código, arte e texto próprios, não reconstruções
+integrais dos clientes originais. Nenhum cliente de licença restrita foi incorporado.
+Modelos contínuos, horizontes, unidades e coeficientes assumidos ficam nos cadernos.

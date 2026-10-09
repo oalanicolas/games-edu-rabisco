@@ -5,6 +5,7 @@ import {fileURLToPath} from 'node:url';
 import assert from 'node:assert/strict';
 import {lessons,subjects,lessonUrl} from '../src/edu-catalog.js';
 import {defaults,evaluateLesson} from '../src/edu-models.js';
+import {portedLessons} from '../src/edu-ports.js';
 const hub=fileURLToPath(new URL('../../../',import.meta.url));
 const served=process.env.EDU_QA_URL?{url:process.env.EDU_QA_URL}:JSON.parse(execFileSync('python3',['framework/scripts/game.py','serve','apps/edu-rabisco','--json'],{cwd:hub,encoding:'utf8'}));
 const base=served.url,destination=new URL('../../../output/edu-rabisco/qa/',import.meta.url);await mkdir(destination,{recursive:true});
@@ -13,11 +14,12 @@ const context=await browser.newContext({viewport:{width:1440,height:1050},device
 const page=await context.newPage(),errors=[],checks=[],shots=[];let renderer='';
 page.on('pageerror',e=>errors.push(String(e)));
 page.on('response',r=>{if(new URL(r.url()).origin===new URL(base).origin&&r.status()>=400)errors.push(`${r.status()} ${new URL(r.url()).pathname}`);});
-const shot=async name=>{const path=fileURLToPath(new URL(`${name}.png`,destination));await page.screenshot({path,fullPage:false});shots.push(path);};
+const shot=async name=>{const path=fileURLToPath(new URL(`${name}.png`,destination));await page.evaluate(()=>window.scrollTo(0,0));await page.screenshot({path,fullPage:false});shots.push(path);};
 const check=async(name,fn)=>{await fn();checks.push(name);console.log(`PASS ${name}`);};
+const sameMetrics=(actual,expected)=>{assert.equal(actual.length,expected.length);actual.forEach((m,i)=>{assert.equal(m.label,expected[i].label);assert.equal(m.unit,expected[i].unit);assert.ok(Math.abs(m.value-expected[i].value)<=1e-10*Math.max(1,Math.abs(expected[i].value)),`${m.label}: ${m.value} != ${expected[i].value}`);});};
 try{
  await page.goto(base);await page.waitForFunction(()=>window.__EDU_HOME__?.ready,{timeout:30000});
- await check('catálogo integral, prévias e matérias',async()=>{const home=await page.evaluate(()=>window.__EDU_HOME__);assert.equal(home.count,lessons.length);assert.equal(home.previews,lessons.length);assert.equal(home.inventory,57);assert.equal(await page.locator('.card').count(),lessons.length);assert.equal(await page.locator('.source-list li').count(),57);});
+ await check('catálogo integral, prévias e matérias',async()=>{const home=await page.evaluate(()=>window.__EDU_HOME__);assert.equal(home.count,lessons.length);assert.equal(home.previews,lessons.length);assert.equal(home.inventory,57);assert.equal(await page.locator('.card').count(),lessons.length);assert.equal(await page.locator('#referencias .source-list li').count(),57);assert.equal(await page.locator('[data-ported]').count(),portedLessons.length);});
  await shot('portal-desktop');
  await check('cada filtro mostra a coleção inteira da matéria',async()=>{for(const subject of subjects){await page.locator(`[data-subject="${subject.id}"]`).click();assert.equal(await page.locator('.card').count(),subject.id==='todas'?lessons.length:lessons.filter(l=>l.tags.includes(subject.id)).length);}await page.locator('[data-subject="todas"]').click();});
  await check('busca ignora acentos e aceita nenhum resultado',async()=>{await page.locator('#search').fill('pendulos');assert.equal(await page.locator('.card').count(),1);await page.locator('#search').fill('zzzzzzz');assert.equal(await page.locator('.card').count(),0);await page.locator('#clear-filter').click();assert.equal(await page.locator('.card').count(),lessons.length);});
@@ -26,17 +28,33 @@ try{
  for(const l of local){
   await page.goto(new URL(lessonUrl(l),base).href);await page.waitForFunction(()=>window.__EDU__?.ready);await page.waitForFunction(()=>window.__EDU__.observe().frames>2);
   await check(`ciclo completo ${l.id}`,async()=>{
-   let state=await page.evaluate(()=>window.__EDU__.observe());assert.equal(state.playing,false);assert.deepEqual(state.values,defaults(l));assert.ok(state.metrics.every(m=>Number.isFinite(m.value)));renderer=state.renderer;assert.doesNotMatch(renderer,/SwiftShader|llvmpipe/i);
+   let state=await page.evaluate(()=>window.__EDU__.observe());assert.equal(state.playing,false);assert.deepEqual(state.values,defaults(l));assert.ok(state.metrics.every(m=>Number.isFinite(m.value)));assert.equal(await page.locator('iframe').count(),0);sameMetrics(state.metrics,evaluateLesson(l,state.values,state.time).metrics);renderer=state.renderer;assert.doesNotMatch(renderer,/SwiftShader|llvmpipe/i);
    for(const c of l.controls){await page.locator('#reset').click();state=await page.evaluate(()=>window.__EDU__.observe());const before=state.metrics.map(m=>m.value),changed=c.value===c.max?c.min:c.max;await page.locator(`#control-${c.id}`).evaluate((el,value)=>{el.value=value;el.dispatchEvent(new Event('input',{bubbles:true}));},changed);state=await page.evaluate(()=>window.__EDU__.observe());assert.equal(state.values[c.id],changed);assert.equal(state.playing,false);assert.equal(state.time,0);assert.ok(state.metrics.some((m,i)=>m.value!==before[i]),`${l.id}/${c.id}`);}
    await page.locator('#reset').click();state=await page.evaluate(()=>window.__EDU__.observe());assert.deepEqual(state.values,defaults(l));
-   await page.locator('#step').click();assert.equal((await page.evaluate(()=>window.__EDU__.observe())).time,.5);
+   await page.locator('#step').click();assert.equal((await page.evaluate(()=>window.__EDU__.observe())).time,.5);assert.equal(await page.locator('#lab-time').textContent(),'0,5 s');
    await page.locator('#play').click();await page.waitForTimeout(100);await page.locator('#play').click();assert.ok((await page.evaluate(()=>window.__EDU__.observe())).time>.5);
    await page.locator('#tab-investigar').click();await page.locator('#clear-records').click();await page.locator('#record').click();await page.locator('#control-a').evaluate((el,value)=>{el.value=value;el.dispatchEvent(new Event('input',{bubbles:true}));},l.controls[0].max);await page.locator('#record').click();assert.equal(await page.locator('#records tbody tr').count(),2);
    await page.locator('#hypothesis').fill('Minha hipótese fica nesta página.');await page.reload();await page.waitForFunction(()=>window.__EDU__?.ready);assert.equal(await page.locator('#records tbody tr').count(),2);assert.equal(await page.locator('#hypothesis').inputValue(),'');
    await page.locator('#tab-professor').click();assert.equal(await page.locator('.teacher-plan li').count(),5);assert.match(await page.locator('#professor').textContent(),/limita/);await page.locator('#reset').click();
   });
-  await page.locator('#tab-entender').click();await shot(`aula-${l.id}`);
+  await page.locator('#tab-entender').click();if(l.portable)await page.evaluate(()=>window.__EDU__.advance(8));await shot(`aula-${l.id}`);
  }
+ await check('leituras evoluem e ensaio preserva instante, números, CSV e ficha após recarga',async()=>{
+  await page.goto(new URL('/aula.html?id=difusao',base).href);await page.waitForFunction(()=>window.__EDU__?.ready);
+  await page.evaluate(()=>window.__EDU__.advance(20));const snapshot=await page.evaluate(()=>window.__EDU__.observe());assert.ok(snapshot.metrics[1].value>0);
+  await page.locator('#tab-investigar').click();await page.locator('#clear-records').click();await page.locator('#record').click();const cells=await page.locator('#records tbody').textContent();assert.match(cells,/20 s/);
+  const downloadPromise=page.waitForEvent('download');await page.locator('#download').click();const download=await downloadPromise;const csv=await readFile(await download.path(),'utf8');assert.match(csv,/instante \(s\)/);assert.ok(csv.includes(String(snapshot.metrics[1].value)));
+  await page.reload();await page.waitForFunction(()=>window.__EDU__?.ready);assert.equal(await page.locator('#records tbody').textContent(),cells);await page.evaluate(()=>window.dispatchEvent(new Event('beforeprint')));assert.match(await page.locator('#print-records').textContent(),/20 s/);
+  await page.locator('#reset').click();assert.equal((await page.evaluate(()=>window.__EDU__.observe())).time,0);assert.equal((await page.evaluate(()=>window.__EDU__.observe())).metrics[1].value,0);
+ });
+ await check('portabilidade real: pausa, animação, cenário e modelo usam o mesmo tempo',async()=>{
+  for(const l of portedLessons){await page.goto(new URL(lessonUrl(l),base).href);await page.waitForFunction(()=>window.__EDU__?.ready);await page.evaluate(()=>window.__EDU__.advance(5));let state=await page.evaluate(()=>window.__EDU__.observe());sameMetrics(state.metrics,evaluateLesson(l,state.values,5).metrics);await page.waitForTimeout(100);assert.equal((await page.evaluate(()=>window.__EDU__.observe())).time,5);await page.locator('#reset').click();assert.equal((await page.evaluate(()=>window.__EDU__.observe())).time,0);}
+ });
+ await check('palmas só após ativação e reprodução; pausa e avanço manual ficam silenciosos',async()=>{
+  await page.goto(new URL('/aula.html?id=ritmos',base).href);await page.waitForFunction(()=>window.__EDU__?.ready);assert.equal((await page.evaluate(()=>window.__EDU__.observe())).sound.played,0);
+  await page.locator('#sound-toggle').click();await page.waitForFunction(()=>window.__EDU__.observe().sound.ready);await page.locator('#step').click();assert.equal((await page.evaluate(()=>window.__EDU__.observe())).sound.played,0);
+  await page.locator('#play').click();await page.waitForFunction(()=>window.__EDU__.observe().sound.played>0);await page.locator('#play').click();const paused=(await page.evaluate(()=>window.__EDU__.observe())).sound.played;await page.waitForTimeout(400);assert.equal((await page.evaluate(()=>window.__EDU__.observe())).sound.played,paused);await page.locator('#sound-toggle').click();await page.locator('#play').click();await page.waitForTimeout(400);assert.equal((await page.evaluate(()=>window.__EDU__.observe())).sound.played,paused);await page.locator('#play').click();
+ });
  await check('cadernos herdados e laboratórios reais acessíveis',async()=>{for(const path of ['/geografia.html','/escola.html','/terremotos.html','/ficha.html','/ficha-terremotos.html','/laboratorio.html']){const response=await page.goto(new URL(path,base).href);assert.equal(response.status(),200);if(path==='/laboratorio.html'){await page.waitForFunction(()=>window.__AMAZONAS__?.ready);assert.ok(await page.locator('canvas').count());}if(path==='/terremotos.html'){await page.waitForFunction(()=>window.__TERREMOTOS__?.ready);assert.ok(await page.locator('#quake-stage canvas').count());}}});
  await page.goto(new URL('/aula.html?id=pendulos',base).href);await page.waitForFunction(()=>window.__EDU__?.ready);
  await check('teclado opera variáveis e as três abas',async()=>{await page.locator('#control-a').focus();await page.keyboard.press('ArrowRight');assert.ok((await page.evaluate(()=>window.__EDU__.observe())).values.a>defaults(local[0]).a);await page.locator('#tab-entender').focus();await page.keyboard.press('ArrowRight');assert.equal(await page.locator('#tab-investigar').getAttribute('aria-selected'),'true');await page.keyboard.press('End');assert.equal(await page.locator('#tab-professor').getAttribute('aria-selected'),'true');});
@@ -47,6 +65,6 @@ try{
  await check('WebGL indisponível mantém investigação, leituras e ficha',async()=>{const fallback=await browser.newContext({viewport:{width:1280,height:900}});await fallback.addInitScript(()=>{const old=HTMLCanvasElement.prototype.getContext;HTMLCanvasElement.prototype.getContext=function(type,...args){return type.includes('webgl')?null:old.call(this,type,...args);};});const p=await fallback.newPage();await p.goto(new URL('/aula.html?id=pendulos',base).href);await p.waitForFunction(()=>window.__EDU__?.ready);assert.equal(await p.locator('.no-webgl').isVisible(),true);assert.equal(await p.locator('#metrics .metric').count(),3);await p.locator('#tab-investigar').click();await p.locator('#record').click();assert.equal(await p.locator('#records tbody tr').count(),1);await fallback.close();});
  assert.deepEqual(errors,[]);
  const inventory=JSON.parse(await readFile(new URL('../src/edu-inventory.json',import.meta.url),'utf8'));
- const report={url:base,passed:true,checks:checks.length,lessons:lessons.length,newLabs:local.length,referenceCount:inventory.length,adaptedReferences:lessons.length,externalReferences:inventory.length-lessons.length,renderer,device:'mobile emulado; não testado em aparelho real',errors,shots,tests:checks};
+ const report={portedLabs:portedLessons.length,url:base,passed:true,checks:checks.length,lessons:lessons.length,newLabs:local.length,referenceCount:inventory.length,adaptedReferences:lessons.filter(l=>!l.portable).length,externalReferences:inventory.length-lessons.filter(l=>!l.portable).length,renderer,device:'mobile emulado; não testado em aparelho real',errors,shots,tests:checks};
  await writeFile(new URL('report.json',destination),JSON.stringify(report,null,2));console.log(JSON.stringify({...report,shots:shots.length,tests:undefined}));
 }finally{await browser.close();}
