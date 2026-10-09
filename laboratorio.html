@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#102923">
+  <meta name="description" content="Um laboratório interativo da paisagem amazônica. Explore a corrente, os sedimentos e o pulso das cheias em um diorama 3D.">
+  <title>Amazonas — um rio vivo</title>
+  <link rel="icon" href="/marca/favicon.png">
+  <link rel="stylesheet" href="/src/style.css">
+  <link rel="canonical" href="https://edu.rabisco.net/laboratorio.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Geografia Rabisco">
+  <meta property="og:title" content="Amazonas — laboratório de Geografia Rabisco">
+  <meta property="og:description" content="Explore corrente, sedimentos, cheia e vazante no laboratório ilustrativo do Amazonas.">
+  <meta property="og:url" content="https://edu.rabisco.net/laboratorio.html">
+  <meta property="og:image" content="https://edu.rabisco.net/marca/og-geografia.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:alt" content="Geografia Rabisco: caderno de investigação do rio Amazonas">
+  <meta name="twitter:card" content="summary_large_image">
+  <script defer src="/stats.js"></script>
+</head>
+<body>
+  <main id="app">
+    <div id="scene" aria-label="Diorama interativo de um trecho ilustrativo do Rio Amazonas"></div>
+    <div class="atmosphere" aria-hidden="true"></div>
+    <header class="masthead">
+      <div class="eyebrow"><span class="brand-line"></span> GEOGRAFIA RABISCO <span class="issue">ESTUDO 01</span></div>
+      <h1>Amazonas<span>um rio vivo.</span></h1>
+      <p>A água passa.<br>A paisagem se transforma.</p>
+    </header>
+    <nav class="view-switch" aria-label="Vistas da paisagem">
+      <button data-view="diorama" aria-pressed="true">Diorama</button>
+      <button data-view="map" aria-pressed="false">Planta</button>
+      <button data-view="section" aria-pressed="false">Corte</button>
+    </nav>
+    <button id="controls-toggle" class="mobile-controls" aria-expanded="false" aria-controls="controls">Ajustar o rio</button>
+    <aside id="controls" class="control-panel">
+      <div class="panel-heading"><span>O PULSO DO RIO</span><span class="live-dot" aria-hidden="true"></span></div>
+      <fieldset class="season"><legend>Ciclo das águas</legend><div class="segmented"><button data-season="dry" aria-pressed="false">Vazante</button><button data-season="normal" aria-pressed="true">Transição</button><button data-season="flood" aria-pressed="false">Cheia</button></div></fieldset>
+      <label class="range-label" for="flow">Força da corrente <output id="flow-value">55%</output></label>
+      <input id="flow" type="range" min="10" max="100" value="55" aria-describedby="flow-note">
+      <p id="flow-note" class="range-note">Nível relativo do controle, sem unidade física. Compare a curva externa.</p>
+      <label class="range-label" for="sediment">Carga de sedimentos <output id="sediment-value">60%</output></label>
+      <input id="sediment" class="sand-range" type="range" min="0" max="100" value="60" aria-describedby="sediment-note">
+      <p id="sediment-note" class="range-note">Nível relativo, sem concentração medida. Deposição na margem interna.</p>
+      <div class="panel-divider"></div>
+      <div class="toggles"><button id="labels" aria-pressed="true"><span class="toggle-dot"></span>Legendas</button><button id="sound" aria-pressed="false"><span class="toggle-dot"></span>Ambiente</button></div>
+      <button id="reset" class="reset-button">Recomeçar o experimento <span aria-hidden="true">↺</span></button>
+    </aside>
+    <div id="labels-layer" aria-hidden="true">
+      <div class="world-label erosion" data-marker="erosion"><span class="marker"></span><b>Margem em erosão</b><small>A corrente escava</small></div>
+      <div class="world-label deposit" data-marker="deposit"><span class="marker"></span><b>Banco de areia</b><small>O sedimento fica</small></div>
+      <div class="world-label forest" data-marker="forest"><span class="marker"></span><b>Floresta de várzea</b><small id="flood-caption">Entre a terra e a água</small></div>
+    </div>
+    <section class="observation" aria-label="Observação da paisagem">
+      <div class="observation-kicker"><span id="season-badge">ÁGUAS EM TRANSIÇÃO</span><span class="observation-number">01 / 03</span></div>
+      <p id="observation-text">Na curva, o rio <em>toma de uma margem</em> e devolve à outra.</p>
+      <div class="metrics"><div><span>Sinuosidade</span><strong id="sinuosity">1,00</strong></div><div><span>Alagado no modelo</span><strong id="flood-area">0<small>%</small></strong></div><div><span>Deslocamento (índice)</span><strong id="migration">0,0</strong></div></div>
+    </section>
+    <section class="timeline" aria-label="Tempo da simulação">
+      <button id="play" aria-label="Pausar simulação" aria-pressed="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path id="play-icon" d="M8 5v14M16 5v14"/></svg></button>
+      <div class="time-readout"><span>EVOLUÇÃO ILUSTRATIVA</span><strong>Etapa <output id="year-value">0</output></strong></div>
+      <div class="time-track"><label class="sr-only" for="year">Etapa do modelo; não representa anos reais</label><input id="year" type="range" min="0" max="300" step="1" value="0"><div class="time-ticks"><span>0</span><span>100</span><span>200</span><span>300 etapas</span></div></div>
+      <div class="speed"><span>ETAPAS / S</span><div role="group" aria-label="Velocidade da evolução ilustrativa"><button data-speed="2" aria-pressed="false">2</button><button data-speed="8" aria-pressed="true">8</button><button data-speed="24" aria-pressed="false">24</button></div></div>
+    </section>
+    <footer class="footer"><span class="orbit-hint">Arraste para explorar <i>·</i> Role para aproximar</span><span class="prototype-note">MODELO ILUSTRATIVO</span><button id="about-open">Sobre este rio <span aria-hidden="true">↗</span></button></footer>
+    <div id="loading"><span class="loading-line"></span>Construindo a paisagem…</div>
+    <dialog id="about">
+      <button id="about-close" class="dialog-close" aria-label="Fechar explicação">×</button>
+      <div class="eyebrow">CADERNO DE CAMPO</div><h2>Um rio que desenha<br>a própria paisagem.</h2>
+      <p>Este laboratório explora três processos: a corrente erode a margem externa das curvas; os sedimentos se acumulam no lado interno; as cheias conectam o rio à floresta de várzea.</p>
+      <h3>Como experimentar</h3><p>Aumente a corrente, avance as etapas e observe as margens. Compare vazante e cheia na mesma etapa para ver a inundação. Arraste a cena para girar, use a planta do modelo para acompanhar o canal e o corte para enxergar o solo.</p>
+      <h3>O que o modelo representa</h3><p>É uma paisagem amazônica estilizada, sem coordenadas de um trecho real. A migração é geométrica. As 300 etapas não equivalem a anos e os controles não são medições físicas. As alturas e camadas de solo são estilizadas; o modelo não forma lagos por corte de meandro. Não prevê cheias, velocidades ou taxas reais de erosão. Sinuosidade é a razão entre comprimento do canal e distância reta; área alagada e deslocamento descrevem apenas o modelo.</p>
+      <h3>Fontes e créditos</h3><p>Conceitos: <a href="https://www.usgs.gov/educational-resources/find-feature-meander" target="_blank" rel="noreferrer">USGS — meandros</a> e <a href="https://science.nasa.gov/earth/earth-observatory/muddy-water-and-a-wide-floodplain-151078/" target="_blank" rel="noreferrer">NASA — várzea amazônica</a>. Referência de experiência: <a href="https://sael.net/river-bend/" target="_blank" rel="noreferrer">River Bend, de Ryan Sael</a>. Implementação e arte procedural próprias. Som opcional: gravação CC0 de Thimras, captada na Austrália; ambiente ilustrativo, não gravação do Amazonas.</p>
+      <p class="keyboard-help">Espaço: pausar · V: mudar vista · R: recomeçar · N: legendas · ← →: voltar ou avançar 10 etapas · Esc: fechar</p>
+    </dialog>
+    <nav class="education-tools" aria-label="Material escolar"><a href="/escola.html">Caderno de Geografia ↗</a><button id="mission-open" hidden>Roteiro da atividade</button></nav>
+    <dialog id="mission" aria-labelledby="mission-title">
+      <button id="mission-close" class="dialog-close" aria-label="Fechar roteiro">×</button><div class="eyebrow">INVESTIGAÇÃO · GEOGRAFIA</div><h2 id="mission-title"></h2><p id="mission-instruction"></p>
+      <div id="mission-presets" class="mission-presets"></div><p>Observe a paisagem pela planta e pelo corte. Registre cada situação e volte ao caderno para comparar. Os valores descrevem só este modelo.</p><button id="record-observation" class="mission-action">Registrar observação</button><p id="record-feedback" role="status"></p><a href="/escola.html#atividades">Voltar ao caderno e comparar →</a>
+    </dialog>
+    <noscript><div class="no-script">A cena precisa de JavaScript. <a href="/escola.html">Abra o caderno de Geografia</a> para ler e usar a ficha.</div></noscript>
+  </main>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
