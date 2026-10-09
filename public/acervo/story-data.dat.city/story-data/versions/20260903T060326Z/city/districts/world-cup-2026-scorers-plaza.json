@@ -1,0 +1,1012 @@
+{
+  "schemaVersion": 1,
+  "contentKind": "dat-city.district",
+  "version": 1,
+  "generatedAt": "2026-08-22T14:56:45.984Z",
+  "versionId": "20260822T145645Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "dashboard-settings:crypto-memecoin-heat",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-08-22T14:56:45.984Z",
+    "versionId": "20260822T145645Z",
+    "adapter": null,
+    "storySlug": "world-cup-2026-scorers",
+    "districtId": "world-cup-2026-scorers-plaza",
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "id": "world-cup-2026-scorers-plaza",
+  "name": "World Cup 2026 Scorers Plaza",
+  "storySlug": "world-cup-2026-scorers",
+  "storyUrl": "/stories/world-cup-2026-scorers/",
+  "publicStoryUrl": "/stories/world-cup-2026-scorers.json",
+  "metric": "2026 goals",
+  "metricKey": "2026-goals",
+  "latestFrameLabel": "July 19, 2026 final scorer table",
+  "summary": "The single-tournament scoring race of the 2026 men's World Cup, won by Kylian Mbappe on 10 goals.",
+  "taxonomy": {
+    "primaryCategory": "sports",
+    "categories": [
+      "sports",
+      "football"
+    ],
+    "tags": [
+      "world-cup",
+      "fifa",
+      "2026",
+      "goals",
+      "golden-boot"
+    ],
+    "entityTypes": [
+      "player"
+    ],
+    "sourceTypes": [
+      "fifa"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "world-cup-all-time-goalscorers",
+      "type": "scoring-records",
+      "weight": 0.9,
+      "reason": "The 2026 tournament goals feed directly into the all-time scorer record."
+    },
+    {
+      "target": "world-cup-golden-boot-peaks",
+      "type": "scoring-records",
+      "weight": 0.88,
+      "reason": "The 2026 Golden Boot race is a single-tournament scoring burst in the same record book."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "world-cup-records",
+    "mainland": "world-cup",
+    "bridgePriority": [
+      "world-cup-all-time-goalscorers",
+      "world-cup-golden-boot-peaks"
+    ]
+  },
+  "thumbnail": "/assets/og/dat-city.webp",
+  "status": "fresh",
+  "dataUpdatedAt": "2026-08-22T14:56:45.984Z",
+  "staleAfterHours": null,
+  "dormant": false,
+  "lastObservationDate": "2026-07-19",
+  "nextRefreshAt": null,
+  "confidence": "Single-tournament goal totals for the completed 2026 men's World Cup, led by Golden Boot winner Kylian Mbappe on 10. Sourced live from FIFA's public GameDay scorer feed, with a checked-in fallback captured after the 19 July 2026 final.",
+  "methodology": "The adapter reads current-tournament goal totals for the 2026 men's World Cup directly from FIFA's public GameDay scorer feed (no historical baselines added). A modeled by-date backfill animates the Golden Boot race across the real tournament calendar.",
+  "sources": [
+    {
+      "title": "FIFA World Cup 2026 statistics",
+      "publisher": "FIFA",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/statistics",
+      "note": "Official 2026 tournament statistics surface; the adapter reads its public GameDay scorer feed when available."
+    },
+    {
+      "title": "FIFA World Cup 2026 Final: Spain 1-0 Argentina",
+      "publisher": "FIFA",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/match-centre",
+      "note": "Spain beat Argentina 1-0 in the New York/New Jersey final on 19 July 2026 to win a second World Cup title."
+    },
+    {
+      "title": "FIFA World Cup all-time leading scorers",
+      "publisher": "FIFA",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/articles/fifa-world-cup-all-time-leading-scorers",
+      "note": "FIFA editorial record of leading men's World Cup goal scorers."
+    }
+  ],
+  "media": {
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-08-22T14:56:45.984Z",
+    "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+    "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+    "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+    "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "imageFit": "cover",
+    "columns": 5,
+    "rows": 5,
+    "width": 1600,
+    "height": 1600,
+    "itemCount": 24,
+    "sourcedImageCount": 24,
+    "generatedImageCount": 0,
+    "placeholderCount": 0
+  },
+  "entities": [
+    {
+      "id": "kylian-mbappe",
+      "name": "Kylian Mbappe",
+      "shortName": "Kylian Mbappe",
+      "value": 10,
+      "rank": 1,
+      "color": "#18c871",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Kylian_Mbappe_France_v_Senegal_16_June_2026-391_%28cropped%29.jpg/960px-Kylian_Mbappe_France_v_Senegal_16_June_2026-391_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "storyUrl": "/stories/world-cup-2026-scorers/",
+      "sourceIds": [
+        "FIFA World Cup 2026 statistics",
+        "FIFA World Cup 2026 Final: Spain 1-0 Argentina",
+        "FIFA World Cup all-time leading scorers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.2,
+          "v1": 0.2
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Kylian_Mbappe_France_v_Senegal_16_June_2026-391_%28cropped%29.jpg/960px-Kylian_Mbappe_France_v_Senegal_16_June_2026-391_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "lionel-messi",
+      "name": "Lionel Messi",
+      "shortName": "Lionel Messi",
+      "value": 8,
+      "rank": 2,
+      "color": "#ffc84a",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg/960px-Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "storyUrl": "/stories/world-cup-2026-scorers/",
+      "sourceIds": [
+        "FIFA World Cup 2026 statistics",
+        "FIFA World Cup 2026 Final: Spain 1-0 Argentina",
+        "FIFA World Cup all-time leading scorers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0,
+          "u1": 0.4,
+          "v1": 0.2
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg/960px-Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "jude-bellingham",
+      "name": "Jude Bellingham",
+      "shortName": "Jude Bellingham",
+      "value": 7,
+      "rank": 3,
+      "color": "#00a6ff",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Jude_Bellingham_England_v_Ghana_23_June_2026-061_%28cropped%29.jpg/960px-Jude_Bellingham_England_v_Ghana_23_June_2026-061_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "storyUrl": "/stories/world-cup-2026-scorers/",
+      "sourceIds": [
+        "FIFA World Cup 2026 statistics",
+        "FIFA World Cup 2026 Final: Spain 1-0 Argentina",
+        "FIFA World Cup all-time leading scorers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0,
+          "u1": 0.6,
+          "v1": 0.2
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Jude_Bellingham_England_v_Ghana_23_June_2026-061_%28cropped%29.jpg/960px-Jude_Bellingham_England_v_Ghana_23_June_2026-061_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "erling-haaland",
+      "name": "Erling Haaland",
+      "shortName": "Erling Haaland",
+      "value": 7,
+      "rank": 4,
+      "color": "#f3f7f0",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Erling_Haaland_Morocco_v_Norway_7_June_2026-51.jpg/960px-Erling_Haaland_Morocco_v_Norway_7_June_2026-51.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "storyUrl": "/stories/world-cup-2026-scorers/",
+      "sourceIds": [
+        "FIFA World Cup 2026 statistics",
+        "FIFA World Cup 2026 Final: Spain 1-0 Argentina",
+        "FIFA World Cup all-time leading scorers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0,
+          "u1": 0.8,
+          "v1": 0.2
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Erling_Haaland_Morocco_v_Norway_7_June_2026-51.jpg/960px-Erling_Haaland_Morocco_v_Norway_7_June_2026-51.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "ousmane-dembele",
+      "name": "Ousmane Dembele",
+      "shortName": "Ousmane Dembele",
+      "value": 6,
+      "rank": 5,
+      "color": "#ff5a61",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Ousmane_Dembele_France_v_Senegal_16_June_2026-341_%28cropped%29_2.jpg/960px-Ousmane_Dembele_France_v_Senegal_16_June_2026-341_%28cropped%29_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "storyUrl": "/stories/world-cup-2026-scorers/",
+      "sourceIds": [
+        "FIFA World Cup 2026 statistics",
+        "FIFA World Cup 2026 Final: Spain 1-0 Argentina",
+        "FIFA World Cup all-time leading scorers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "x": 1280,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.2
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Ousmane_Dembele_France_v_Senegal_16_June_2026-341_%28cropped%29_2.jpg/960px-Ousmane_Dembele_France_v_Senegal_16_June_2026-341_%28cropped%29_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "harry-kane",
+      "name": "Harry Kane",
+      "shortName": "Harry Kane",
+      "value": 6,
+      "rank": 6,
+      "color": "#41a99f",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Harry_Kane_England_v_Ghana_23_June_2026-219_%28cropped%29.jpg/960px-Harry_Kane_England_v_Ghana_23_June_2026-219_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "storyUrl": "/stories/world-cup-2026-scorers/",
+      "sourceIds": [
+        "FIFA World Cup 2026 statistics",
+        "FIFA World Cup 2026 Final: Spain 1-0 Argentina",
+        "FIFA World Cup all-time leading scorers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.2,
+          "u1": 0.2,
+          "v1": 0.4
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Harry_Kane_England_v_Ghana_23_June_2026-219_%28cropped%29.jpg/960px-Harry_Kane_England_v_Ghana_23_June_2026-219_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "mikel-oyarzabal",
+      "name": "Mikel Oyarzabal",
+      "shortName": "Mikel Oyarzabal",
+      "value": 5,
+      "rank": 7,
+      "color": "#86bdf4",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Mikel_Oyarzabal_France_v_Spain_7.24.26-161_%28cropped%29.jpg/960px-Mikel_Oyarzabal_France_v_Spain_7.24.26-161_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "storyUrl": "/stories/world-cup-2026-scorers/",
+      "sourceIds": [
+        "FIFA World Cup 2026 statistics",
+        "FIFA World Cup 2026 Final: Spain 1-0 Argentina",
+        "FIFA World Cup all-time leading scorers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.2,
+          "u1": 0.4,
+          "v1": 0.4
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Mikel_Oyarzabal_France_v_Spain_7.24.26-161_%28cropped%29.jpg/960px-Mikel_Oyarzabal_France_v_Spain_7.24.26-161_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "ismaila-sarr",
+      "name": "Ismaila Sarr",
+      "shortName": "Ismaila Sarr",
+      "value": 4,
+      "rank": 8,
+      "color": "#f18c4f",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Ismaila_Sarr_France_v_Senegal_16_June_2026-425_%28cropped%29.jpg/960px-Ismaila_Sarr_France_v_Senegal_16_June_2026-425_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "storyUrl": "/stories/world-cup-2026-scorers/",
+      "sourceIds": [
+        "FIFA World Cup 2026 statistics",
+        "FIFA World Cup 2026 Final: Spain 1-0 Argentina",
+        "FIFA World Cup all-time leading scorers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.2,
+          "u1": 0.6,
+          "v1": 0.4
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Ismaila_Sarr_France_v_Senegal_16_June_2026-425_%28cropped%29.jpg/960px-Ismaila_Sarr_France_v_Senegal_16_June_2026-425_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "julian-quinones",
+      "name": "Julian Quinones",
+      "shortName": "Julian Quinones",
+      "value": 4,
+      "rank": 9,
+      "color": "#2f4858",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Juli%C3%A1n_Qui%C3%B1ones.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "storyUrl": "/stories/world-cup-2026-scorers/",
+      "sourceIds": [
+        "FIFA World Cup 2026 statistics",
+        "FIFA World Cup 2026 Final: Spain 1-0 Argentina",
+        "FIFA World Cup all-time leading scorers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.2,
+          "u1": 0.8,
+          "v1": 0.4
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Juli%C3%A1n_Qui%C3%B1ones.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "vinicius-junior",
+      "name": "Vinicius Junior",
+      "shortName": "Vinicius Junior",
+      "value": 4,
+      "rank": 10,
+      "color": "#c9a14a",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Vin%C3%ADcius_J%C3%BAnior_Brazil_V_Morocco_13_June_2026-207_%28cropped%29.jpg/960px-Vin%C3%ADcius_J%C3%BAnior_Brazil_V_Morocco_13_June_2026-207_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "storyUrl": "/stories/world-cup-2026-scorers/",
+      "sourceIds": [
+        "FIFA World Cup 2026 statistics",
+        "FIFA World Cup 2026 Final: Spain 1-0 Argentina",
+        "FIFA World Cup all-time leading scorers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "x": 1280,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.2,
+          "u1": 1,
+          "v1": 0.4
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Vin%C3%ADcius_J%C3%BAnior_Brazil_V_Morocco_13_June_2026-207_%28cropped%29.jpg/960px-Vin%C3%ADcius_J%C3%BAnior_Brazil_V_Morocco_13_June_2026-207_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "bukayo-saka",
+      "name": "Bukayo Saka",
+      "shortName": "Bukayo Saka",
+      "value": 3,
+      "rank": 11,
+      "color": "#ef426f",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Bukayo_Saka_England_v_Panama_27_June_26-108_%28cropped%29.jpg/960px-Bukayo_Saka_England_v_Panama_27_June_26-108_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "storyUrl": "/stories/world-cup-2026-scorers/",
+      "sourceIds": [
+        "FIFA World Cup 2026 statistics",
+        "FIFA World Cup 2026 Final: Spain 1-0 Argentina",
+        "FIFA World Cup all-time leading scorers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.4,
+          "u1": 0.2,
+          "v1": 0.6
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Bukayo_Saka_England_v_Panama_27_June_26-108_%28cropped%29.jpg/960px-Bukayo_Saka_England_v_Panama_27_June_26-108_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "deniz-undav",
+      "name": "Deniz Undav",
+      "shortName": "Deniz Undav",
+      "value": 3,
+      "rank": 12,
+      "color": "#7b9b65",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Deniz_Undav_Ecuador_v_Germany_25_June_2026-203_%28cropped%29.jpg/960px-Deniz_Undav_Ecuador_v_Germany_25_June_2026-203_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "storyUrl": "/stories/world-cup-2026-scorers/",
+      "sourceIds": [
+        "FIFA World Cup 2026 statistics",
+        "FIFA World Cup 2026 Final: Spain 1-0 Argentina",
+        "FIFA World Cup all-time leading scorers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.4,
+          "u1": 0.4,
+          "v1": 0.6
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Deniz_Undav_Ecuador_v_Germany_25_June_2026-203_%28cropped%29.jpg/960px-Deniz_Undav_Ecuador_v_Germany_25_June_2026-203_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "johan-manzambi",
+      "name": "Johan Manzambi",
+      "shortName": "Johan Manzambi",
+      "value": 3,
+      "rank": 13,
+      "color": "#18c871",
+      "image": "https://digitalhub.fifa.com/transform/a0cb9413-32ea-4b8f-9801-55474cb12b77/MANZAMBI-Johan_502727",
+      "storyUrl": "/stories/world-cup-2026-scorers/",
+      "sourceIds": [
+        "FIFA World Cup 2026 statistics",
+        "FIFA World Cup 2026 Final: Spain 1-0 Argentina",
+        "FIFA World Cup all-time leading scorers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.4,
+          "u1": 0.6,
+          "v1": 0.6
+        },
+        "image": {
+          "sourceUrl": "https://digitalhub.fifa.com/transform/a0cb9413-32ea-4b8f-9801-55474cb12b77/MANZAMBI-Johan_502727",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "romelu-lukaku",
+      "name": "Romelu Lukaku",
+      "shortName": "Romelu Lukaku",
+      "value": 3,
+      "rank": 14,
+      "color": "#ffc84a",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Romelu_Lukaku_2021.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "storyUrl": "/stories/world-cup-2026-scorers/",
+      "sourceIds": [
+        "FIFA World Cup 2026 statistics",
+        "FIFA World Cup 2026 Final: Spain 1-0 Argentina",
+        "FIFA World Cup all-time leading scorers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.4,
+          "u1": 0.8,
+          "v1": 0.6
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Romelu_Lukaku_2021.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "lautaro-martinez",
+      "name": "Lautaro Martinez",
+      "shortName": "Lautaro Martinez",
+      "value": 3,
+      "rank": 15,
+      "color": "#00a6ff",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Lautaro_Martinez_Argentina_v_Spain_19_July_2026-049_%28cropped%29.jpg/960px-Lautaro_Martinez_Argentina_v_Spain_19_July_2026-049_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "storyUrl": "/stories/world-cup-2026-scorers/",
+      "sourceIds": [
+        "FIFA World Cup 2026 statistics",
+        "FIFA World Cup 2026 Final: Spain 1-0 Argentina",
+        "FIFA World Cup all-time leading scorers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "x": 1280,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.4,
+          "u1": 1,
+          "v1": 0.6
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Lautaro_Martinez_Argentina_v_Spain_19_July_2026-049_%28cropped%29.jpg/960px-Lautaro_Martinez_Argentina_v_Spain_19_July_2026-049_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "charles-de-ketelaere",
+      "name": "Charles De Ketelaere",
+      "shortName": "Charles De Ketelaere",
+      "value": 3,
+      "rank": 16,
+      "color": "#f3f7f0",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Charles_De_Ketelaere_USMNT_v_Belgium_Mar_28_2026-76_%28cropped%29.jpg/960px-Charles_De_Ketelaere_USMNT_v_Belgium_Mar_28_2026-76_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "storyUrl": "/stories/world-cup-2026-scorers/",
+      "sourceIds": [
+        "FIFA World Cup 2026 statistics",
+        "FIFA World Cup 2026 Final: Spain 1-0 Argentina",
+        "FIFA World Cup all-time leading scorers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "x": 0,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.6,
+          "u1": 0.2,
+          "v1": 0.8
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Charles_De_Ketelaere_USMNT_v_Belgium_Mar_28_2026-76_%28cropped%29.jpg/960px-Charles_De_Ketelaere_USMNT_v_Belgium_Mar_28_2026-76_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "cody-gakpo",
+      "name": "Cody Gakpo",
+      "shortName": "Cody Gakpo",
+      "value": 3,
+      "rank": 17,
+      "color": "#ff5a61",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Netherlands_v_Tunisia_2026_World_Cup_-_55373562032_%28Cody_Gakpo%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "storyUrl": "/stories/world-cup-2026-scorers/",
+      "sourceIds": [
+        "FIFA World Cup 2026 statistics",
+        "FIFA World Cup 2026 Final: Spain 1-0 Argentina",
+        "FIFA World Cup all-time leading scorers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "x": 320,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.6,
+          "u1": 0.4,
+          "v1": 0.8
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Netherlands_v_Tunisia_2026_World_Cup_-_55373562032_%28Cody_Gakpo%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "bradley-barcola",
+      "name": "Bradley Barcola",
+      "shortName": "Bradley Barcola",
+      "value": 3,
+      "rank": 18,
+      "color": "#41a99f",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg/960px-Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "storyUrl": "/stories/world-cup-2026-scorers/",
+      "sourceIds": [
+        "FIFA World Cup 2026 statistics",
+        "FIFA World Cup 2026 Final: Spain 1-0 Argentina",
+        "FIFA World Cup all-time leading scorers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "x": 640,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.6,
+          "u1": 0.6,
+          "v1": 0.8
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg/960px-Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "brian-brobbey",
+      "name": "Brian Brobbey",
+      "shortName": "Brian Brobbey",
+      "value": 3,
+      "rank": 19,
+      "color": "#86bdf4",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/GAE_-_Ajax_-_52788469380_%28Brobbey%29.jpg/960px-GAE_-_Ajax_-_52788469380_%28Brobbey%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "storyUrl": "/stories/world-cup-2026-scorers/",
+      "sourceIds": [
+        "FIFA World Cup 2026 statistics",
+        "FIFA World Cup 2026 Final: Spain 1-0 Argentina",
+        "FIFA World Cup all-time leading scorers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "x": 960,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.6,
+          "u1": 0.8,
+          "v1": 0.8
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/GAE_-_Ajax_-_52788469380_%28Brobbey%29.jpg/960px-GAE_-_Ajax_-_52788469380_%28Brobbey%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "elijah-just",
+      "name": "Elijah Just",
+      "shortName": "Elijah Just",
+      "value": 3,
+      "rank": 20,
+      "color": "#f18c4f",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Elijah_Just_%28cropped%29.jpg/960px-Elijah_Just_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "storyUrl": "/stories/world-cup-2026-scorers/",
+      "sourceIds": [
+        "FIFA World Cup 2026 statistics",
+        "FIFA World Cup 2026 Final: Spain 1-0 Argentina",
+        "FIFA World Cup all-time leading scorers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "x": 1280,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.6,
+          "u1": 1,
+          "v1": 0.8
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Elijah_Just_%28cropped%29.jpg/960px-Elijah_Just_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "matheus-cunha",
+      "name": "Matheus Cunha",
+      "shortName": "Matheus Cunha",
+      "value": 3,
+      "rank": 21,
+      "color": "#2f4858",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Matheus_Cunha_Brazil_V_Morocco_13_June_2026-178_%28cropped%29.jpg/960px-Matheus_Cunha_Brazil_V_Morocco_13_June_2026-178_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "storyUrl": "/stories/world-cup-2026-scorers/",
+      "sourceIds": [
+        "FIFA World Cup 2026 statistics",
+        "FIFA World Cup 2026 Final: Spain 1-0 Argentina",
+        "FIFA World Cup all-time leading scorers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "x": 0,
+          "y": 1280,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.8,
+          "u1": 0.2,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Matheus_Cunha_Brazil_V_Morocco_13_June_2026-178_%28cropped%29.jpg/960px-Matheus_Cunha_Brazil_V_Morocco_13_June_2026-178_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "folarin-balogun",
+      "name": "Folarin Balogun",
+      "shortName": "Folarin Balogun",
+      "value": 3,
+      "rank": 22,
+      "color": "#c9a14a",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Folarin_Balogun_Australia_v_USA_19_June_2026-64.jpg/960px-Folarin_Balogun_Australia_v_USA_19_June_2026-64.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "storyUrl": "/stories/world-cup-2026-scorers/",
+      "sourceIds": [
+        "FIFA World Cup 2026 statistics",
+        "FIFA World Cup 2026 Final: Spain 1-0 Argentina",
+        "FIFA World Cup all-time leading scorers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "x": 320,
+          "y": 1280,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.8,
+          "u1": 0.4,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Folarin_Balogun_Australia_v_USA_19_June_2026-64.jpg/960px-Folarin_Balogun_Australia_v_USA_19_June_2026-64.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "raul-jimenez",
+      "name": "Raul Jimenez",
+      "shortName": "Raul Jimenez",
+      "value": 3,
+      "rank": 23,
+      "color": "#ef426f",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Ra%C3%BAl_Jim%C3%A9nez_04032026_%281%29.jpg/960px-Ra%C3%BAl_Jim%C3%A9nez_04032026_%281%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "storyUrl": "/stories/world-cup-2026-scorers/",
+      "sourceIds": [
+        "FIFA World Cup 2026 statistics",
+        "FIFA World Cup 2026 Final: Spain 1-0 Argentina",
+        "FIFA World Cup all-time leading scorers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "x": 640,
+          "y": 1280,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.8,
+          "u1": 0.6,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Ra%C3%BAl_Jim%C3%A9nez_04032026_%281%29.jpg/960px-Ra%C3%BAl_Jim%C3%A9nez_04032026_%281%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "kai-havertz",
+      "name": "Kai Havertz",
+      "shortName": "Kai Havertz",
+      "value": 3,
+      "rank": 24,
+      "color": "#7b9b65",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Kai_Havertz_Ecuador_v_Germany_25_June_2026-118.jpg/960px-Kai_Havertz_Ecuador_v_Germany_25_June_2026-118.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "storyUrl": "/stories/world-cup-2026-scorers/",
+      "sourceIds": [
+        "FIFA World Cup 2026 statistics",
+        "FIFA World Cup 2026 Final: Spain 1-0 Argentina",
+        "FIFA World Cup all-time leading scorers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "x": 960,
+          "y": 1280,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.8,
+          "u1": 0.8,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Kai_Havertz_Ecuador_v_Germany_25_June_2026-118.jpg/960px-Kai_Havertz_Ecuador_v_Germany_25_June_2026-118.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    }
+  ]
+}

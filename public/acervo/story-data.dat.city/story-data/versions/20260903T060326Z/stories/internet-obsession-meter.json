@@ -1,0 +1,5682 @@
+{
+  "id": "internet-obsession-meter",
+  "kicker": "Attention Race",
+  "title": "The Internet's Obsession Meter",
+  "subtitle": "A daily attention race for celebrities, games, films, products, teams, and events that suddenly take over the web.",
+  "badge": "Ranked by pageviews",
+  "visualization": "race-arena",
+  "theme": "creator-arena",
+  "artStyle": "stylized-editorial",
+  "dateRange": [
+    "20240601",
+    "20260901"
+  ],
+  "timelineTicks": [
+    "20240601",
+    "20241001",
+    "20250201",
+    "20250601",
+    "20251001",
+    "20260201",
+    "20260812",
+    "20260816",
+    "20260820",
+    "20260824",
+    "20260828",
+    "20260901"
+  ],
+  "metricLabel": "Daily pageviews",
+  "ogImage": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/internet-obsession-meter.png",
+  "cityPreview": {
+    "districtId": "celebrity-boulevard",
+    "districtName": "Viral Attention Boulevard",
+    "cardLabel": "Attention Race",
+    "summary": "Wikipedia attention spikes for mass-interest people, games, movies, products, teams, and events.",
+    "primaryMetric": "Daily pageviews",
+    "latestFrameLabel": "2026-09-01",
+    "storyUrl": "/stories/internet-obsession-meter/",
+    "thumbnail": "/assets/og/dat-city.webp"
+  },
+  "sourceStatus": "Official Wikimedia Pageviews API",
+  "confidence": "Observed daily English Wikipedia article pageviews through 2026-09-01.",
+  "methodology": "This story is generated from the Wikimedia Pageviews API for selected high-interest English Wikipedia articles. Values are daily all-access, user-agent-filtered pageviews. The story publishes a render-ready projection and keeps raw API responses out of the public payload.",
+  "playback": {
+    "durationSeconds": 26,
+    "initialDate": "20240601",
+    "periodLabel": "daily pageviews"
+  },
+  "visual": {
+    "topCount": 10,
+    "referenceCount": 14,
+    "horizontalCount": 14
+  },
+  "layers": [
+    {
+      "id": "pageviews",
+      "label": "Pageviews",
+      "default": true
+    },
+    {
+      "id": "spikes",
+      "label": "Spikes",
+      "default": true
+    },
+    {
+      "id": "culture",
+      "label": "Culture",
+      "default": true
+    }
+  ],
+  "focus": [
+    {
+      "id": "google",
+      "label": "Google"
+    },
+    {
+      "id": "donald-trump",
+      "label": "Donald Trump"
+    },
+    {
+      "id": "chatgpt",
+      "label": "ChatGPT"
+    },
+    {
+      "id": "instagram",
+      "label": "Instagram"
+    }
+  ],
+  "entities": [
+    {
+      "id": "google",
+      "name": "Google",
+      "article": "Google",
+      "configuredImageUrl": "https://cdn.simpleicons.org/google",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Googleplex_HQ_%28cropped%29.jpg/960px-Googleplex_HQ_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://cdn.simpleicons.org/google",
+      "avatarText": "G",
+      "color": "#ffc84a",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.json",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.2,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/google",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "donald-trump",
+      "name": "Donald Trump",
+      "article": "Donald_Trump",
+      "configuredImageUrl": null,
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/960px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/960px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "avatarText": "DT",
+      "color": "#c9a14a",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.json",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0,
+          "u1": 0.4,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/960px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "article": "ChatGPT",
+      "configuredImageUrl": null,
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/OpenAI_logo_2025_%28symbol%29.svg/960px-OpenAI_logo_2025_%28symbol%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/OpenAI_logo_2025_%28symbol%29.svg/960px-OpenAI_logo_2025_%28symbol%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "avatarText": "C",
+      "color": "#00a6ff",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.json",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0,
+          "u1": 0.6,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/OpenAI_logo_2025_%28symbol%29.svg/960px-OpenAI_logo_2025_%28symbol%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "instagram",
+      "name": "Instagram",
+      "article": "Instagram",
+      "configuredImageUrl": null,
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Instagram_screenshot_%2812_January_2026%2C_16h30m39s%2C_UTC_-3%29.png/960px-Instagram_screenshot_%2812_January_2026%2C_16h30m39s%2C_UTC_-3%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Instagram_screenshot_%2812_January_2026%2C_16h30m39s%2C_UTC_-3%29.png/960px-Instagram_screenshot_%2812_January_2026%2C_16h30m39s%2C_UTC_-3%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "avatarText": "I",
+      "color": "#ff5a61",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.json",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0,
+          "u1": 0.8,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Instagram_screenshot_%2812_January_2026%2C_16h30m39s%2C_UTC_-3%29.png/960px-Instagram_screenshot_%2812_January_2026%2C_16h30m39s%2C_UTC_-3%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "cristiano-ronaldo",
+      "name": "Cristiano Ronaldo",
+      "article": "Cristiano_Ronaldo",
+      "configuredImageUrl": null,
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Cristiano_Ronaldo_Croatia_v_Portugal_2_July_2026-075_%28cropped%29.jpg/960px-Cristiano_Ronaldo_Croatia_v_Portugal_2_July_2026-075_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Cristiano_Ronaldo_Croatia_v_Portugal_2_July_2026-075_%28cropped%29.jpg/960px-Cristiano_Ronaldo_Croatia_v_Portugal_2_July_2026-075_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "avatarText": "CR",
+      "color": "#e34f59",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.json",
+          "x": 1280,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Cristiano_Ronaldo_Croatia_v_Portugal_2_July_2026-075_%28cropped%29.jpg/960px-Cristiano_Ronaldo_Croatia_v_Portugal_2_July_2026-075_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "lionel-messi",
+      "name": "Lionel Messi",
+      "article": "Lionel_Messi",
+      "configuredImageUrl": null,
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg/960px-Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg/960px-Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "avatarText": "LM",
+      "color": "#9aa4b2",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.json",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.25,
+          "u1": 0.2,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg/960px-Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "taylor-swift",
+      "name": "Taylor Swift",
+      "article": "Taylor_Swift",
+      "configuredImageUrl": null,
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%283%29.png/960px-Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%283%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%283%29.png/960px-Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%283%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "avatarText": "TS",
+      "color": "#ffc84a",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.json",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.25,
+          "u1": 0.4,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%283%29.png/960px-Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%283%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "tiktok",
+      "name": "TikTok",
+      "article": "TikTok",
+      "configuredImageUrl": "https://cdn.simpleicons.org/tiktok",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0e/TikTok_logo_%28white_text%29.svg/960px-TikTok_logo_%28white_text%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageUrl": "https://cdn.simpleicons.org/tiktok",
+      "avatarText": "T",
+      "color": "#18c871",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.json",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.25,
+          "u1": 0.6,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/tiktok",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "drake",
+      "name": "Drake",
+      "article": "Drake_(musician)",
+      "configuredImageUrl": null,
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Drake_at_The_Carter_Effect_2017_%2836818935200%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Drake_at_The_Carter_Effect_2017_%2836818935200%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "avatarText": "D",
+      "color": "#8f6bff",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.json",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.25,
+          "u1": 0.8,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Drake_at_The_Carter_Effect_2017_%2836818935200%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "olympic-games",
+      "name": "Olympic Games",
+      "article": "Olympic_Games",
+      "configuredImageUrl": null,
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Olympic_rings_without_rims.svg/960px-Olympic_rings_without_rims.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Olympic_rings_without_rims.svg/960px-Olympic_rings_without_rims.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "avatarText": "OG",
+      "color": "#41a99f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.json",
+          "x": 1280,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.25,
+          "u1": 1,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Olympic_rings_without_rims.svg/960px-Olympic_rings_without_rims.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "super-bowl",
+      "name": "Super Bowl",
+      "article": "Super_Bowl",
+      "configuredImageUrl": null,
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Super_Bowl_rings_on_display.jpg/960px-Super_Bowl_rings_on_display.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Super_Bowl_rings_on_display.jpg/960px-Super_Bowl_rings_on_display.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "avatarText": "SB",
+      "color": "#d78fca",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.json",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.5,
+          "u1": 0.2,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Super_Bowl_rings_on_display.jpg/960px-Super_Bowl_rings_on_display.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "fifa-world-cup",
+      "name": "FIFA World Cup",
+      "article": "FIFA_World_Cup",
+      "configuredImageUrl": "https://cdn.simpleicons.org/fifa",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Spain_World_Cup_Winners_Argentina_v_Spain_19_July_2026-1.jpg/960px-Spain_World_Cup_Winners_Argentina_v_Spain_19_July_2026-1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://cdn.simpleicons.org/fifa",
+      "avatarText": "FW",
+      "color": "#8f6bff",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.json",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.5,
+          "u1": 0.4,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/fifa",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "beyonce",
+      "name": "Beyonce",
+      "article": "Beyoncé",
+      "configuredImageUrl": null,
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Beyonc%C3%A9_-_Tottenham_Hotspur_Stadium_-_1st_June_2023_%2810_of_118%29_%2852946364598%29_%28best_crop%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Beyonc%C3%A9_-_Tottenham_Hotspur_Stadium_-_1st_June_2023_%2810_of_118%29_%2852946364598%29_%28best_crop%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "avatarText": "B",
+      "color": "#ef426f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.json",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.5,
+          "u1": 0.6,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Beyonc%C3%A9_-_Tottenham_Hotspur_Stadium_-_1st_June_2023_%2810_of_118%29_%2852946364598%29_%28best_crop%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "oppenheimer",
+      "name": "Oppenheimer",
+      "article": "Oppenheimer_(film)",
+      "configuredImageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Oppenheimer_logo.svg",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Oppenheimer_%28cropped%29.jpg/960px-Oppenheimer_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Oppenheimer_logo.svg",
+      "avatarText": "O",
+      "color": "#18c871",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.json",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.5,
+          "u1": 0.8,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Oppenheimer_logo.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "minecraft",
+      "name": "Minecraft",
+      "article": "Minecraft",
+      "configuredImageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Minecraft_Logo-en.svg",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/b/be/Minecraft_game_logo_2023.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Minecraft_Logo-en.svg",
+      "avatarText": "M",
+      "color": "#2f4858",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.json",
+          "x": 1280,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.5,
+          "u1": 1,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Minecraft_Logo-en.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "tesla",
+      "name": "Tesla",
+      "article": "Tesla,_Inc.",
+      "configuredImageUrl": null,
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Tesla_Motors.svg/960px-Tesla_Motors.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Tesla_Motors.svg/960px-Tesla_Motors.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "avatarText": "T",
+      "color": "#00a6ff",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.json",
+          "x": 0,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.75,
+          "u1": 0.2,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Tesla_Motors.svg/960px-Tesla_Motors.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "elden-ring",
+      "name": "Elden Ring",
+      "article": "Elden_Ring",
+      "configuredImageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Elden_Ring_logo_black.svg",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/b/b9/Elden_Ring_Box_art.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Elden_Ring_logo_black.svg",
+      "avatarText": "ER",
+      "color": "#f18c4f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.json",
+          "x": 320,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.75,
+          "u1": 0.4,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Elden_Ring_logo_black.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "iphone",
+      "name": "iPhone",
+      "article": "IPhone",
+      "configuredImageUrl": null,
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/IPhone_17_Pro_Vector.svg/960px-IPhone_17_Pro_Vector.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/IPhone_17_Pro_Vector.svg/960px-IPhone_17_Pro_Vector.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "avatarText": "I",
+      "color": "#7b9b65",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.json",
+          "x": 640,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.75,
+          "u1": 0.6,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/IPhone_17_Pro_Vector.svg/960px-IPhone_17_Pro_Vector.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "fortnite",
+      "name": "Fortnite",
+      "article": "Fortnite",
+      "configuredImageUrl": "https://cdn.simpleicons.org/fortnite",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/FortniteLogo.svg/960px-FortniteLogo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageUrl": "https://cdn.simpleicons.org/fortnite",
+      "avatarText": "F",
+      "color": "#86bdf4",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.json",
+          "x": 960,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.75,
+          "u1": 0.8,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/fortnite",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "barbie",
+      "name": "Barbie",
+      "article": "Barbie",
+      "configuredImageUrl": null,
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Barbie_Logo.svg/960px-Barbie_Logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Barbie_Logo.svg/960px-Barbie_Logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "avatarText": "B",
+      "color": "#ff5a61",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.json",
+          "x": 1280,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.75,
+          "u1": 1,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Barbie_Logo.svg/960px-Barbie_Logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    }
+  ],
+  "frames": [
+    {
+      "date": "20240601",
+      "values": [
+        {
+          "id": "cristiano-ronaldo",
+          "value": 56531,
+          "monthlyViews": 1695916,
+          "rank": 1
+        },
+        {
+          "id": "chatgpt",
+          "value": 55829,
+          "monthlyViews": 1674856,
+          "rank": 2
+        },
+        {
+          "id": "donald-trump",
+          "value": 52171,
+          "monthlyViews": 1565116,
+          "rank": 3
+        },
+        {
+          "id": "taylor-swift",
+          "value": 44225,
+          "monthlyViews": 1326757,
+          "rank": 4
+        },
+        {
+          "id": "lionel-messi",
+          "value": 34334,
+          "monthlyViews": 1030033,
+          "rank": 5
+        },
+        {
+          "id": "fifa-world-cup",
+          "value": 31587,
+          "monthlyViews": 947599,
+          "rank": 6
+        },
+        {
+          "id": "instagram",
+          "value": 21488,
+          "monthlyViews": 644646,
+          "rank": 7
+        },
+        {
+          "id": "oppenheimer",
+          "value": 17832,
+          "monthlyViews": 534967,
+          "rank": 8
+        },
+        {
+          "id": "google",
+          "value": 17133,
+          "monthlyViews": 513992,
+          "rank": 9
+        },
+        {
+          "id": "drake",
+          "value": 13059,
+          "monthlyViews": 391780,
+          "rank": 10
+        },
+        {
+          "id": "minecraft",
+          "value": 11894,
+          "monthlyViews": 356816,
+          "rank": 11
+        },
+        {
+          "id": "elden-ring",
+          "value": 11598,
+          "monthlyViews": 347935,
+          "rank": 12
+        },
+        {
+          "id": "tiktok",
+          "value": 10048,
+          "monthlyViews": 301442,
+          "rank": 13
+        },
+        {
+          "id": "beyonce",
+          "value": 8803,
+          "monthlyViews": 264084,
+          "rank": 14
+        },
+        {
+          "id": "olympic-games",
+          "value": 6232,
+          "monthlyViews": 186956,
+          "rank": 15
+        },
+        {
+          "id": "tesla",
+          "value": 6007,
+          "monthlyViews": 180217,
+          "rank": 16
+        },
+        {
+          "id": "iphone",
+          "value": 4821,
+          "monthlyViews": 144616,
+          "rank": 17
+        },
+        {
+          "id": "fortnite",
+          "value": 2636,
+          "monthlyViews": 79093,
+          "rank": 18
+        },
+        {
+          "id": "super-bowl",
+          "value": 2446,
+          "monthlyViews": 73369,
+          "rank": 19
+        },
+        {
+          "id": "barbie",
+          "value": 2003,
+          "monthlyViews": 60077,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20240701",
+      "values": [
+        {
+          "id": "donald-trump",
+          "value": 147080,
+          "monthlyViews": 4559470,
+          "rank": 1
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 57023,
+          "monthlyViews": 1767726,
+          "rank": 2
+        },
+        {
+          "id": "lionel-messi",
+          "value": 49010,
+          "monthlyViews": 1519303,
+          "rank": 3
+        },
+        {
+          "id": "olympic-games",
+          "value": 39556,
+          "monthlyViews": 1226226,
+          "rank": 4
+        },
+        {
+          "id": "fifa-world-cup",
+          "value": 34488,
+          "monthlyViews": 1069142,
+          "rank": 5
+        },
+        {
+          "id": "taylor-swift",
+          "value": 31713,
+          "monthlyViews": 983088,
+          "rank": 6
+        },
+        {
+          "id": "chatgpt",
+          "value": 25402,
+          "monthlyViews": 787459,
+          "rank": 7
+        },
+        {
+          "id": "instagram",
+          "value": 23204,
+          "monthlyViews": 719312,
+          "rank": 8
+        },
+        {
+          "id": "google",
+          "value": 16665,
+          "monthlyViews": 516616,
+          "rank": 9
+        },
+        {
+          "id": "oppenheimer",
+          "value": 15492,
+          "monthlyViews": 480265,
+          "rank": 10
+        },
+        {
+          "id": "drake",
+          "value": 12813,
+          "monthlyViews": 397193,
+          "rank": 11
+        },
+        {
+          "id": "tiktok",
+          "value": 10529,
+          "monthlyViews": 326412,
+          "rank": 12
+        },
+        {
+          "id": "elden-ring",
+          "value": 9089,
+          "monthlyViews": 281768,
+          "rank": 13
+        },
+        {
+          "id": "beyonce",
+          "value": 8739,
+          "monthlyViews": 270898,
+          "rank": 14
+        },
+        {
+          "id": "minecraft",
+          "value": 8462,
+          "monthlyViews": 262335,
+          "rank": 15
+        },
+        {
+          "id": "tesla",
+          "value": 6033,
+          "monthlyViews": 187028,
+          "rank": 16
+        },
+        {
+          "id": "iphone",
+          "value": 4563,
+          "monthlyViews": 141454,
+          "rank": 17
+        },
+        {
+          "id": "super-bowl",
+          "value": 2705,
+          "monthlyViews": 83861,
+          "rank": 18
+        },
+        {
+          "id": "fortnite",
+          "value": 2270,
+          "monthlyViews": 70380,
+          "rank": 19
+        },
+        {
+          "id": "barbie",
+          "value": 2150,
+          "monthlyViews": 66638,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20240801",
+      "values": [
+        {
+          "id": "donald-trump",
+          "value": 48890,
+          "monthlyViews": 1515577,
+          "rank": 1
+        },
+        {
+          "id": "olympic-games",
+          "value": 43428,
+          "monthlyViews": 1346256,
+          "rank": 2
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 33733,
+          "monthlyViews": 1045728,
+          "rank": 3
+        },
+        {
+          "id": "taylor-swift",
+          "value": 32258,
+          "monthlyViews": 1000005,
+          "rank": 4
+        },
+        {
+          "id": "instagram",
+          "value": 22943,
+          "monthlyViews": 711229,
+          "rank": 5
+        },
+        {
+          "id": "chatgpt",
+          "value": 20898,
+          "monthlyViews": 647852,
+          "rank": 6
+        },
+        {
+          "id": "lionel-messi",
+          "value": 18414,
+          "monthlyViews": 570835,
+          "rank": 7
+        },
+        {
+          "id": "google",
+          "value": 16289,
+          "monthlyViews": 504958,
+          "rank": 8
+        },
+        {
+          "id": "oppenheimer",
+          "value": 12680,
+          "monthlyViews": 393072,
+          "rank": 9
+        },
+        {
+          "id": "tiktok",
+          "value": 11521,
+          "monthlyViews": 357138,
+          "rank": 10
+        },
+        {
+          "id": "drake",
+          "value": 9904,
+          "monthlyViews": 307013,
+          "rank": 11
+        },
+        {
+          "id": "fifa-world-cup",
+          "value": 9085,
+          "monthlyViews": 281637,
+          "rank": 12
+        },
+        {
+          "id": "beyonce",
+          "value": 8375,
+          "monthlyViews": 259612,
+          "rank": 13
+        },
+        {
+          "id": "minecraft",
+          "value": 6638,
+          "monthlyViews": 205788,
+          "rank": 14
+        },
+        {
+          "id": "iphone",
+          "value": 6073,
+          "monthlyViews": 188256,
+          "rank": 15
+        },
+        {
+          "id": "tesla",
+          "value": 5848,
+          "monthlyViews": 181287,
+          "rank": 16
+        },
+        {
+          "id": "elden-ring",
+          "value": 5316,
+          "monthlyViews": 164781,
+          "rank": 17
+        },
+        {
+          "id": "super-bowl",
+          "value": 2937,
+          "monthlyViews": 91042,
+          "rank": 18
+        },
+        {
+          "id": "fortnite",
+          "value": 2820,
+          "monthlyViews": 87420,
+          "rank": 19
+        },
+        {
+          "id": "barbie",
+          "value": 1820,
+          "monthlyViews": 56427,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20240901",
+      "values": [
+        {
+          "id": "donald-trump",
+          "value": 47628,
+          "monthlyViews": 1428832,
+          "rank": 1
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 46484,
+          "monthlyViews": 1394527,
+          "rank": 2
+        },
+        {
+          "id": "taylor-swift",
+          "value": 35890,
+          "monthlyViews": 1076696,
+          "rank": 3
+        },
+        {
+          "id": "chatgpt",
+          "value": 35261,
+          "monthlyViews": 1057844,
+          "rank": 4
+        },
+        {
+          "id": "instagram",
+          "value": 24062,
+          "monthlyViews": 721874,
+          "rank": 5
+        },
+        {
+          "id": "lionel-messi",
+          "value": 22805,
+          "monthlyViews": 684162,
+          "rank": 6
+        },
+        {
+          "id": "google",
+          "value": 19029,
+          "monthlyViews": 570875,
+          "rank": 7
+        },
+        {
+          "id": "tiktok",
+          "value": 10998,
+          "monthlyViews": 329930,
+          "rank": 8
+        },
+        {
+          "id": "beyonce",
+          "value": 10641,
+          "monthlyViews": 319227,
+          "rank": 9
+        },
+        {
+          "id": "oppenheimer",
+          "value": 10183,
+          "monthlyViews": 305480,
+          "rank": 10
+        },
+        {
+          "id": "drake",
+          "value": 8543,
+          "monthlyViews": 256293,
+          "rank": 11
+        },
+        {
+          "id": "minecraft",
+          "value": 8187,
+          "monthlyViews": 245618,
+          "rank": 12
+        },
+        {
+          "id": "fifa-world-cup",
+          "value": 7993,
+          "monthlyViews": 239781,
+          "rank": 13
+        },
+        {
+          "id": "iphone",
+          "value": 6880,
+          "monthlyViews": 206403,
+          "rank": 14
+        },
+        {
+          "id": "tesla",
+          "value": 5910,
+          "monthlyViews": 177296,
+          "rank": 15
+        },
+        {
+          "id": "super-bowl",
+          "value": 5804,
+          "monthlyViews": 174119,
+          "rank": 16
+        },
+        {
+          "id": "olympic-games",
+          "value": 5422,
+          "monthlyViews": 162661,
+          "rank": 17
+        },
+        {
+          "id": "elden-ring",
+          "value": 3896,
+          "monthlyViews": 116870,
+          "rank": 18
+        },
+        {
+          "id": "fortnite",
+          "value": 3366,
+          "monthlyViews": 100981,
+          "rank": 19
+        },
+        {
+          "id": "barbie",
+          "value": 1579,
+          "monthlyViews": 47365,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20241001",
+      "values": [
+        {
+          "id": "donald-trump",
+          "value": 57055,
+          "monthlyViews": 1768709,
+          "rank": 1
+        },
+        {
+          "id": "chatgpt",
+          "value": 49427,
+          "monthlyViews": 1532236,
+          "rank": 2
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 37128,
+          "monthlyViews": 1150955,
+          "rank": 3
+        },
+        {
+          "id": "lionel-messi",
+          "value": 29588,
+          "monthlyViews": 917231,
+          "rank": 4
+        },
+        {
+          "id": "instagram",
+          "value": 26356,
+          "monthlyViews": 817031,
+          "rank": 5
+        },
+        {
+          "id": "taylor-swift",
+          "value": 25128,
+          "monthlyViews": 778960,
+          "rank": 6
+        },
+        {
+          "id": "beyonce",
+          "value": 21407,
+          "monthlyViews": 663609,
+          "rank": 7
+        },
+        {
+          "id": "google",
+          "value": 19625,
+          "monthlyViews": 608371,
+          "rank": 8
+        },
+        {
+          "id": "tiktok",
+          "value": 11107,
+          "monthlyViews": 344330,
+          "rank": 9
+        },
+        {
+          "id": "oppenheimer",
+          "value": 9838,
+          "monthlyViews": 304992,
+          "rank": 10
+        },
+        {
+          "id": "drake",
+          "value": 8665,
+          "monthlyViews": 268603,
+          "rank": 11
+        },
+        {
+          "id": "fifa-world-cup",
+          "value": 8249,
+          "monthlyViews": 255711,
+          "rank": 12
+        },
+        {
+          "id": "minecraft",
+          "value": 7812,
+          "monthlyViews": 242175,
+          "rank": 13
+        },
+        {
+          "id": "tesla",
+          "value": 7685,
+          "monthlyViews": 238237,
+          "rank": 14
+        },
+        {
+          "id": "iphone",
+          "value": 4807,
+          "monthlyViews": 149011,
+          "rank": 15
+        },
+        {
+          "id": "super-bowl",
+          "value": 4407,
+          "monthlyViews": 136623,
+          "rank": 16
+        },
+        {
+          "id": "olympic-games",
+          "value": 3473,
+          "monthlyViews": 107670,
+          "rank": 17
+        },
+        {
+          "id": "fortnite",
+          "value": 3317,
+          "monthlyViews": 102825,
+          "rank": 18
+        },
+        {
+          "id": "elden-ring",
+          "value": 3085,
+          "monthlyViews": 95629,
+          "rank": 19
+        },
+        {
+          "id": "barbie",
+          "value": 1655,
+          "monthlyViews": 51291,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20241101",
+      "values": [
+        {
+          "id": "donald-trump",
+          "value": 269548,
+          "monthlyViews": 8086434,
+          "rank": 1
+        },
+        {
+          "id": "chatgpt",
+          "value": 59596,
+          "monthlyViews": 1787879,
+          "rank": 2
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 35528,
+          "monthlyViews": 1065841,
+          "rank": 3
+        },
+        {
+          "id": "taylor-swift",
+          "value": 30103,
+          "monthlyViews": 903082,
+          "rank": 4
+        },
+        {
+          "id": "instagram",
+          "value": 27914,
+          "monthlyViews": 837406,
+          "rank": 5
+        },
+        {
+          "id": "google",
+          "value": 21056,
+          "monthlyViews": 631685,
+          "rank": 6
+        },
+        {
+          "id": "lionel-messi",
+          "value": 20008,
+          "monthlyViews": 600232,
+          "rank": 7
+        },
+        {
+          "id": "tiktok",
+          "value": 12881,
+          "monthlyViews": 386432,
+          "rank": 8
+        },
+        {
+          "id": "beyonce",
+          "value": 11879,
+          "monthlyViews": 356367,
+          "rank": 9
+        },
+        {
+          "id": "tesla",
+          "value": 10594,
+          "monthlyViews": 317815,
+          "rank": 10
+        },
+        {
+          "id": "oppenheimer",
+          "value": 10288,
+          "monthlyViews": 308645,
+          "rank": 11
+        },
+        {
+          "id": "minecraft",
+          "value": 9428,
+          "monthlyViews": 282827,
+          "rank": 12
+        },
+        {
+          "id": "drake",
+          "value": 8518,
+          "monthlyViews": 255544,
+          "rank": 13
+        },
+        {
+          "id": "fifa-world-cup",
+          "value": 8323,
+          "monthlyViews": 249684,
+          "rank": 14
+        },
+        {
+          "id": "iphone",
+          "value": 4837,
+          "monthlyViews": 145114,
+          "rank": 15
+        },
+        {
+          "id": "super-bowl",
+          "value": 4356,
+          "monthlyViews": 130665,
+          "rank": 16
+        },
+        {
+          "id": "fortnite",
+          "value": 4324,
+          "monthlyViews": 129734,
+          "rank": 17
+        },
+        {
+          "id": "elden-ring",
+          "value": 3601,
+          "monthlyViews": 108029,
+          "rank": 18
+        },
+        {
+          "id": "olympic-games",
+          "value": 3388,
+          "monthlyViews": 101654,
+          "rank": 19
+        },
+        {
+          "id": "barbie",
+          "value": 1637,
+          "monthlyViews": 49111,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20241201",
+      "values": [
+        {
+          "id": "chatgpt",
+          "value": 53868,
+          "monthlyViews": 1669915,
+          "rank": 1
+        },
+        {
+          "id": "donald-trump",
+          "value": 50193,
+          "monthlyViews": 1555989,
+          "rank": 2
+        },
+        {
+          "id": "instagram",
+          "value": 34630,
+          "monthlyViews": 1073517,
+          "rank": 3
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 33049,
+          "monthlyViews": 1024526,
+          "rank": 4
+        },
+        {
+          "id": "taylor-swift",
+          "value": 31960,
+          "monthlyViews": 990747,
+          "rank": 5
+        },
+        {
+          "id": "beyonce",
+          "value": 27172,
+          "monthlyViews": 842319,
+          "rank": 6
+        },
+        {
+          "id": "google",
+          "value": 20214,
+          "monthlyViews": 626625,
+          "rank": 7
+        },
+        {
+          "id": "lionel-messi",
+          "value": 18211,
+          "monthlyViews": 564543,
+          "rank": 8
+        },
+        {
+          "id": "tiktok",
+          "value": 15083,
+          "monthlyViews": 467576,
+          "rank": 9
+        },
+        {
+          "id": "oppenheimer",
+          "value": 11912,
+          "monthlyViews": 369263,
+          "rank": 10
+        },
+        {
+          "id": "minecraft",
+          "value": 9879,
+          "monthlyViews": 306245,
+          "rank": 11
+        },
+        {
+          "id": "fifa-world-cup",
+          "value": 9559,
+          "monthlyViews": 296314,
+          "rank": 12
+        },
+        {
+          "id": "tesla",
+          "value": 9291,
+          "monthlyViews": 288034,
+          "rank": 13
+        },
+        {
+          "id": "drake",
+          "value": 8333,
+          "monthlyViews": 258335,
+          "rank": 14
+        },
+        {
+          "id": "fortnite",
+          "value": 5520,
+          "monthlyViews": 171125,
+          "rank": 15
+        },
+        {
+          "id": "super-bowl",
+          "value": 5512,
+          "monthlyViews": 170859,
+          "rank": 16
+        },
+        {
+          "id": "iphone",
+          "value": 5276,
+          "monthlyViews": 163568,
+          "rank": 17
+        },
+        {
+          "id": "elden-ring",
+          "value": 5044,
+          "monthlyViews": 156372,
+          "rank": 18
+        },
+        {
+          "id": "olympic-games",
+          "value": 2914,
+          "monthlyViews": 90322,
+          "rank": 19
+        },
+        {
+          "id": "barbie",
+          "value": 2297,
+          "monthlyViews": 71192,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20250101",
+      "values": [
+        {
+          "id": "donald-trump",
+          "value": 205191,
+          "monthlyViews": 6360922,
+          "rank": 1
+        },
+        {
+          "id": "instagram",
+          "value": 113664,
+          "monthlyViews": 3523583,
+          "rank": 2
+        },
+        {
+          "id": "chatgpt",
+          "value": 82864,
+          "monthlyViews": 2568792,
+          "rank": 3
+        },
+        {
+          "id": "tiktok",
+          "value": 49979,
+          "monthlyViews": 1549345,
+          "rank": 4
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 32192,
+          "monthlyViews": 997940,
+          "rank": 5
+        },
+        {
+          "id": "taylor-swift",
+          "value": 24573,
+          "monthlyViews": 761774,
+          "rank": 6
+        },
+        {
+          "id": "super-bowl",
+          "value": 22451,
+          "monthlyViews": 695966,
+          "rank": 7
+        },
+        {
+          "id": "google",
+          "value": 21569,
+          "monthlyViews": 668644,
+          "rank": 8
+        },
+        {
+          "id": "lionel-messi",
+          "value": 18689,
+          "monthlyViews": 579344,
+          "rank": 9
+        },
+        {
+          "id": "minecraft",
+          "value": 12386,
+          "monthlyViews": 383973,
+          "rank": 10
+        },
+        {
+          "id": "oppenheimer",
+          "value": 11782,
+          "monthlyViews": 365237,
+          "rank": 11
+        },
+        {
+          "id": "beyonce",
+          "value": 11202,
+          "monthlyViews": 347271,
+          "rank": 12
+        },
+        {
+          "id": "tesla",
+          "value": 10011,
+          "monthlyViews": 310334,
+          "rank": 13
+        },
+        {
+          "id": "drake",
+          "value": 8335,
+          "monthlyViews": 258386,
+          "rank": 14
+        },
+        {
+          "id": "fifa-world-cup",
+          "value": 8003,
+          "monthlyViews": 248099,
+          "rank": 15
+        },
+        {
+          "id": "iphone",
+          "value": 4738,
+          "monthlyViews": 146868,
+          "rank": 16
+        },
+        {
+          "id": "fortnite",
+          "value": 4037,
+          "monthlyViews": 125135,
+          "rank": 17
+        },
+        {
+          "id": "elden-ring",
+          "value": 3745,
+          "monthlyViews": 116110,
+          "rank": 18
+        },
+        {
+          "id": "olympic-games",
+          "value": 3086,
+          "monthlyViews": 95661,
+          "rank": 19
+        },
+        {
+          "id": "barbie",
+          "value": 1994,
+          "monthlyViews": 61808,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20250201",
+      "values": [
+        {
+          "id": "donald-trump",
+          "value": 96456,
+          "monthlyViews": 2700764,
+          "rank": 1
+        },
+        {
+          "id": "chatgpt",
+          "value": 92913,
+          "monthlyViews": 2601557,
+          "rank": 2
+        },
+        {
+          "id": "instagram",
+          "value": 49595,
+          "monthlyViews": 1388657,
+          "rank": 3
+        },
+        {
+          "id": "drake",
+          "value": 47364,
+          "monthlyViews": 1326205,
+          "rank": 4
+        },
+        {
+          "id": "super-bowl",
+          "value": 38661,
+          "monthlyViews": 1082508,
+          "rank": 5
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 36543,
+          "monthlyViews": 1023201,
+          "rank": 6
+        },
+        {
+          "id": "taylor-swift",
+          "value": 33660,
+          "monthlyViews": 942486,
+          "rank": 7
+        },
+        {
+          "id": "beyonce",
+          "value": 28950,
+          "monthlyViews": 810610,
+          "rank": 8
+        },
+        {
+          "id": "lionel-messi",
+          "value": 20167,
+          "monthlyViews": 564680,
+          "rank": 9
+        },
+        {
+          "id": "google",
+          "value": 19059,
+          "monthlyViews": 533647,
+          "rank": 10
+        },
+        {
+          "id": "tiktok",
+          "value": 14461,
+          "monthlyViews": 404905,
+          "rank": 11
+        },
+        {
+          "id": "minecraft",
+          "value": 11000,
+          "monthlyViews": 307992,
+          "rank": 12
+        },
+        {
+          "id": "tesla",
+          "value": 10683,
+          "monthlyViews": 299126,
+          "rank": 13
+        },
+        {
+          "id": "oppenheimer",
+          "value": 10584,
+          "monthlyViews": 296349,
+          "rank": 14
+        },
+        {
+          "id": "fifa-world-cup",
+          "value": 8622,
+          "monthlyViews": 241404,
+          "rank": 15
+        },
+        {
+          "id": "iphone",
+          "value": 4421,
+          "monthlyViews": 123775,
+          "rank": 16
+        },
+        {
+          "id": "elden-ring",
+          "value": 3854,
+          "monthlyViews": 107922,
+          "rank": 17
+        },
+        {
+          "id": "fortnite",
+          "value": 3511,
+          "monthlyViews": 98295,
+          "rank": 18
+        },
+        {
+          "id": "olympic-games",
+          "value": 3299,
+          "monthlyViews": 92384,
+          "rank": 19
+        },
+        {
+          "id": "barbie",
+          "value": 1636,
+          "monthlyViews": 45821,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20250301",
+      "values": [
+        {
+          "id": "chatgpt",
+          "value": 88916,
+          "monthlyViews": 2756392,
+          "rank": 1
+        },
+        {
+          "id": "donald-trump",
+          "value": 80057,
+          "monthlyViews": 2481765,
+          "rank": 2
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 30497,
+          "monthlyViews": 945413,
+          "rank": 3
+        },
+        {
+          "id": "instagram",
+          "value": 29637,
+          "monthlyViews": 918743,
+          "rank": 4
+        },
+        {
+          "id": "lionel-messi",
+          "value": 21569,
+          "monthlyViews": 668630,
+          "rank": 5
+        },
+        {
+          "id": "drake",
+          "value": 16787,
+          "monthlyViews": 520400,
+          "rank": 6
+        },
+        {
+          "id": "google",
+          "value": 16246,
+          "monthlyViews": 503628,
+          "rank": 7
+        },
+        {
+          "id": "taylor-swift",
+          "value": 15452,
+          "monthlyViews": 479017,
+          "rank": 8
+        },
+        {
+          "id": "tesla",
+          "value": 15227,
+          "monthlyViews": 472042,
+          "rank": 9
+        },
+        {
+          "id": "fifa-world-cup",
+          "value": 11835,
+          "monthlyViews": 366872,
+          "rank": 10
+        },
+        {
+          "id": "oppenheimer",
+          "value": 11542,
+          "monthlyViews": 357805,
+          "rank": 11
+        },
+        {
+          "id": "minecraft",
+          "value": 11480,
+          "monthlyViews": 355889,
+          "rank": 12
+        },
+        {
+          "id": "tiktok",
+          "value": 10285,
+          "monthlyViews": 318846,
+          "rank": 13
+        },
+        {
+          "id": "beyonce",
+          "value": 8838,
+          "monthlyViews": 273990,
+          "rank": 14
+        },
+        {
+          "id": "iphone",
+          "value": 4135,
+          "monthlyViews": 128177,
+          "rank": 15
+        },
+        {
+          "id": "fortnite",
+          "value": 4099,
+          "monthlyViews": 127079,
+          "rank": 16
+        },
+        {
+          "id": "elden-ring",
+          "value": 3431,
+          "monthlyViews": 106348,
+          "rank": 17
+        },
+        {
+          "id": "olympic-games",
+          "value": 3192,
+          "monthlyViews": 98967,
+          "rank": 18
+        },
+        {
+          "id": "super-bowl",
+          "value": 2214,
+          "monthlyViews": 68639,
+          "rank": 19
+        },
+        {
+          "id": "barbie",
+          "value": 2035,
+          "monthlyViews": 63088,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20250401",
+      "values": [
+        {
+          "id": "chatgpt",
+          "value": 148034,
+          "monthlyViews": 4441034,
+          "rank": 1
+        },
+        {
+          "id": "donald-trump",
+          "value": 66553,
+          "monthlyViews": 1996583,
+          "rank": 2
+        },
+        {
+          "id": "instagram",
+          "value": 31684,
+          "monthlyViews": 950526,
+          "rank": 3
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 29168,
+          "monthlyViews": 875046,
+          "rank": 4
+        },
+        {
+          "id": "minecraft",
+          "value": 20913,
+          "monthlyViews": 627397,
+          "rank": 5
+        },
+        {
+          "id": "lionel-messi",
+          "value": 19559,
+          "monthlyViews": 586775,
+          "rank": 6
+        },
+        {
+          "id": "google",
+          "value": 16130,
+          "monthlyViews": 483899,
+          "rank": 7
+        },
+        {
+          "id": "taylor-swift",
+          "value": 12860,
+          "monthlyViews": 385809,
+          "rank": 8
+        },
+        {
+          "id": "beyonce",
+          "value": 10868,
+          "monthlyViews": 326040,
+          "rank": 9
+        },
+        {
+          "id": "oppenheimer",
+          "value": 9627,
+          "monthlyViews": 288799,
+          "rank": 10
+        },
+        {
+          "id": "tiktok",
+          "value": 9549,
+          "monthlyViews": 286483,
+          "rank": 11
+        },
+        {
+          "id": "fifa-world-cup",
+          "value": 8528,
+          "monthlyViews": 255839,
+          "rank": 12
+        },
+        {
+          "id": "drake",
+          "value": 6897,
+          "monthlyViews": 206897,
+          "rank": 13
+        },
+        {
+          "id": "tesla",
+          "value": 6584,
+          "monthlyViews": 197513,
+          "rank": 14
+        },
+        {
+          "id": "iphone",
+          "value": 4053,
+          "monthlyViews": 121601,
+          "rank": 15
+        },
+        {
+          "id": "elden-ring",
+          "value": 3855,
+          "monthlyViews": 115641,
+          "rank": 16
+        },
+        {
+          "id": "fortnite",
+          "value": 3242,
+          "monthlyViews": 97268,
+          "rank": 17
+        },
+        {
+          "id": "olympic-games",
+          "value": 2629,
+          "monthlyViews": 78862,
+          "rank": 18
+        },
+        {
+          "id": "super-bowl",
+          "value": 1780,
+          "monthlyViews": 53391,
+          "rank": 19
+        },
+        {
+          "id": "barbie",
+          "value": 1685,
+          "monthlyViews": 50544,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20250501",
+      "values": [
+        {
+          "id": "chatgpt",
+          "value": 78117,
+          "monthlyViews": 2421622,
+          "rank": 1
+        },
+        {
+          "id": "donald-trump",
+          "value": 53837,
+          "monthlyViews": 1668941,
+          "rank": 2
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 35446,
+          "monthlyViews": 1098821,
+          "rank": 3
+        },
+        {
+          "id": "instagram",
+          "value": 34211,
+          "monthlyViews": 1060526,
+          "rank": 4
+        },
+        {
+          "id": "lionel-messi",
+          "value": 20458,
+          "monthlyViews": 634208,
+          "rank": 5
+        },
+        {
+          "id": "taylor-swift",
+          "value": 17809,
+          "monthlyViews": 552072,
+          "rank": 6
+        },
+        {
+          "id": "beyonce",
+          "value": 15966,
+          "monthlyViews": 494952,
+          "rank": 7
+        },
+        {
+          "id": "google",
+          "value": 15224,
+          "monthlyViews": 471940,
+          "rank": 8
+        },
+        {
+          "id": "minecraft",
+          "value": 11645,
+          "monthlyViews": 360984,
+          "rank": 9
+        },
+        {
+          "id": "fifa-world-cup",
+          "value": 9456,
+          "monthlyViews": 293136,
+          "rank": 10
+        },
+        {
+          "id": "oppenheimer",
+          "value": 8494,
+          "monthlyViews": 263312,
+          "rank": 11
+        },
+        {
+          "id": "tiktok",
+          "value": 7626,
+          "monthlyViews": 236391,
+          "rank": 12
+        },
+        {
+          "id": "drake",
+          "value": 6547,
+          "monthlyViews": 202959,
+          "rank": 13
+        },
+        {
+          "id": "tesla",
+          "value": 5267,
+          "monthlyViews": 163287,
+          "rank": 14
+        },
+        {
+          "id": "elden-ring",
+          "value": 4635,
+          "monthlyViews": 143695,
+          "rank": 15
+        },
+        {
+          "id": "iphone",
+          "value": 3801,
+          "monthlyViews": 117844,
+          "rank": 16
+        },
+        {
+          "id": "fortnite",
+          "value": 3551,
+          "monthlyViews": 110082,
+          "rank": 17
+        },
+        {
+          "id": "olympic-games",
+          "value": 2556,
+          "monthlyViews": 79236,
+          "rank": 18
+        },
+        {
+          "id": "super-bowl",
+          "value": 1800,
+          "monthlyViews": 55796,
+          "rank": 19
+        },
+        {
+          "id": "barbie",
+          "value": 1610,
+          "monthlyViews": 49905,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20250601",
+      "values": [
+        {
+          "id": "chatgpt",
+          "value": 174755,
+          "monthlyViews": 5242637,
+          "rank": 1
+        },
+        {
+          "id": "donald-trump",
+          "value": 66658,
+          "monthlyViews": 1999749,
+          "rank": 2
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 50097,
+          "monthlyViews": 1502915,
+          "rank": 3
+        },
+        {
+          "id": "instagram",
+          "value": 34354,
+          "monthlyViews": 1030605,
+          "rank": 4
+        },
+        {
+          "id": "lionel-messi",
+          "value": 27579,
+          "monthlyViews": 827373,
+          "rank": 5
+        },
+        {
+          "id": "fifa-world-cup",
+          "value": 16607,
+          "monthlyViews": 498218,
+          "rank": 6
+        },
+        {
+          "id": "google",
+          "value": 14725,
+          "monthlyViews": 441749,
+          "rank": 7
+        },
+        {
+          "id": "taylor-swift",
+          "value": 14701,
+          "monthlyViews": 441042,
+          "rank": 8
+        },
+        {
+          "id": "beyonce",
+          "value": 11435,
+          "monthlyViews": 343053,
+          "rank": 9
+        },
+        {
+          "id": "minecraft",
+          "value": 9000,
+          "monthlyViews": 269995,
+          "rank": 10
+        },
+        {
+          "id": "oppenheimer",
+          "value": 8091,
+          "monthlyViews": 242744,
+          "rank": 11
+        },
+        {
+          "id": "tiktok",
+          "value": 6892,
+          "monthlyViews": 206760,
+          "rank": 12
+        },
+        {
+          "id": "drake",
+          "value": 6451,
+          "monthlyViews": 193530,
+          "rank": 13
+        },
+        {
+          "id": "tesla",
+          "value": 4877,
+          "monthlyViews": 146320,
+          "rank": 14
+        },
+        {
+          "id": "elden-ring",
+          "value": 4037,
+          "monthlyViews": 121106,
+          "rank": 15
+        },
+        {
+          "id": "iphone",
+          "value": 3651,
+          "monthlyViews": 109516,
+          "rank": 16
+        },
+        {
+          "id": "fortnite",
+          "value": 2918,
+          "monthlyViews": 87549,
+          "rank": 17
+        },
+        {
+          "id": "olympic-games",
+          "value": 2583,
+          "monthlyViews": 77489,
+          "rank": 18
+        },
+        {
+          "id": "super-bowl",
+          "value": 1785,
+          "monthlyViews": 53561,
+          "rank": 19
+        },
+        {
+          "id": "barbie",
+          "value": 1546,
+          "monthlyViews": 46371,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20250701",
+      "values": [
+        {
+          "id": "chatgpt",
+          "value": 105048,
+          "monthlyViews": 3256479,
+          "rank": 1
+        },
+        {
+          "id": "donald-trump",
+          "value": 52818,
+          "monthlyViews": 1637349,
+          "rank": 2
+        },
+        {
+          "id": "instagram",
+          "value": 35488,
+          "monthlyViews": 1100132,
+          "rank": 3
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 27677,
+          "monthlyViews": 857982,
+          "rank": 4
+        },
+        {
+          "id": "lionel-messi",
+          "value": 19312,
+          "monthlyViews": 598673,
+          "rank": 5
+        },
+        {
+          "id": "google",
+          "value": 15927,
+          "monthlyViews": 493733,
+          "rank": 6
+        },
+        {
+          "id": "oppenheimer",
+          "value": 13847,
+          "monthlyViews": 429245,
+          "rank": 7
+        },
+        {
+          "id": "taylor-swift",
+          "value": 13824,
+          "monthlyViews": 428534,
+          "rank": 8
+        },
+        {
+          "id": "fifa-world-cup",
+          "value": 10754,
+          "monthlyViews": 333363,
+          "rank": 9
+        },
+        {
+          "id": "beyonce",
+          "value": 10162,
+          "monthlyViews": 315015,
+          "rank": 10
+        },
+        {
+          "id": "minecraft",
+          "value": 9249,
+          "monthlyViews": 286722,
+          "rank": 11
+        },
+        {
+          "id": "tiktok",
+          "value": 8025,
+          "monthlyViews": 248787,
+          "rank": 12
+        },
+        {
+          "id": "drake",
+          "value": 7669,
+          "monthlyViews": 237725,
+          "rank": 13
+        },
+        {
+          "id": "tesla",
+          "value": 4757,
+          "monthlyViews": 147463,
+          "rank": 14
+        },
+        {
+          "id": "iphone",
+          "value": 3585,
+          "monthlyViews": 111143,
+          "rank": 15
+        },
+        {
+          "id": "elden-ring",
+          "value": 3061,
+          "monthlyViews": 94900,
+          "rank": 16
+        },
+        {
+          "id": "olympic-games",
+          "value": 2513,
+          "monthlyViews": 77904,
+          "rank": 17
+        },
+        {
+          "id": "fortnite",
+          "value": 2352,
+          "monthlyViews": 72908,
+          "rank": 18
+        },
+        {
+          "id": "super-bowl",
+          "value": 1978,
+          "monthlyViews": 61311,
+          "rank": 19
+        },
+        {
+          "id": "barbie",
+          "value": 1653,
+          "monthlyViews": 51256,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20250801",
+      "values": [
+        {
+          "id": "chatgpt",
+          "value": 134541,
+          "monthlyViews": 4170760,
+          "rank": 1
+        },
+        {
+          "id": "google",
+          "value": 64618,
+          "monthlyViews": 2003148,
+          "rank": 2
+        },
+        {
+          "id": "donald-trump",
+          "value": 58163,
+          "monthlyViews": 1803055,
+          "rank": 3
+        },
+        {
+          "id": "taylor-swift",
+          "value": 54242,
+          "monthlyViews": 1681498,
+          "rank": 4
+        },
+        {
+          "id": "instagram",
+          "value": 40071,
+          "monthlyViews": 1242216,
+          "rank": 5
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 38961,
+          "monthlyViews": 1207799,
+          "rank": 6
+        },
+        {
+          "id": "lionel-messi",
+          "value": 15943,
+          "monthlyViews": 494238,
+          "rank": 7
+        },
+        {
+          "id": "oppenheimer",
+          "value": 10902,
+          "monthlyViews": 337968,
+          "rank": 8
+        },
+        {
+          "id": "tiktok",
+          "value": 10895,
+          "monthlyViews": 337759,
+          "rank": 9
+        },
+        {
+          "id": "minecraft",
+          "value": 9029,
+          "monthlyViews": 279889,
+          "rank": 10
+        },
+        {
+          "id": "beyonce",
+          "value": 8338,
+          "monthlyViews": 258492,
+          "rank": 11
+        },
+        {
+          "id": "fifa-world-cup",
+          "value": 7097,
+          "monthlyViews": 220017,
+          "rank": 12
+        },
+        {
+          "id": "drake",
+          "value": 7064,
+          "monthlyViews": 218979,
+          "rank": 13
+        },
+        {
+          "id": "tesla",
+          "value": 4127,
+          "monthlyViews": 127923,
+          "rank": 14
+        },
+        {
+          "id": "iphone",
+          "value": 3904,
+          "monthlyViews": 121025,
+          "rank": 15
+        },
+        {
+          "id": "super-bowl",
+          "value": 3074,
+          "monthlyViews": 95303,
+          "rank": 16
+        },
+        {
+          "id": "elden-ring",
+          "value": 2872,
+          "monthlyViews": 89026,
+          "rank": 17
+        },
+        {
+          "id": "olympic-games",
+          "value": 2477,
+          "monthlyViews": 76784,
+          "rank": 18
+        },
+        {
+          "id": "fortnite",
+          "value": 2230,
+          "monthlyViews": 69118,
+          "rank": 19
+        },
+        {
+          "id": "barbie",
+          "value": 1725,
+          "monthlyViews": 53475,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20250901",
+      "values": [
+        {
+          "id": "chatgpt",
+          "value": 145146,
+          "monthlyViews": 4354370,
+          "rank": 1
+        },
+        {
+          "id": "donald-trump",
+          "value": 67243,
+          "monthlyViews": 2017282,
+          "rank": 2
+        },
+        {
+          "id": "instagram",
+          "value": 42578,
+          "monthlyViews": 1277341,
+          "rank": 3
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 31604,
+          "monthlyViews": 948115,
+          "rank": 4
+        },
+        {
+          "id": "google",
+          "value": 23871,
+          "monthlyViews": 716127,
+          "rank": 5
+        },
+        {
+          "id": "lionel-messi",
+          "value": 22370,
+          "monthlyViews": 671106,
+          "rank": 6
+        },
+        {
+          "id": "taylor-swift",
+          "value": 21504,
+          "monthlyViews": 645130,
+          "rank": 7
+        },
+        {
+          "id": "tiktok",
+          "value": 11569,
+          "monthlyViews": 347080,
+          "rank": 8
+        },
+        {
+          "id": "fifa-world-cup",
+          "value": 10435,
+          "monthlyViews": 313048,
+          "rank": 9
+        },
+        {
+          "id": "oppenheimer",
+          "value": 8380,
+          "monthlyViews": 251403,
+          "rank": 10
+        },
+        {
+          "id": "minecraft",
+          "value": 8047,
+          "monthlyViews": 241400,
+          "rank": 11
+        },
+        {
+          "id": "beyonce",
+          "value": 7318,
+          "monthlyViews": 219526,
+          "rank": 12
+        },
+        {
+          "id": "drake",
+          "value": 6328,
+          "monthlyViews": 189852,
+          "rank": 13
+        },
+        {
+          "id": "iphone",
+          "value": 6253,
+          "monthlyViews": 187590,
+          "rank": 14
+        },
+        {
+          "id": "super-bowl",
+          "value": 4659,
+          "monthlyViews": 139767,
+          "rank": 15
+        },
+        {
+          "id": "tesla",
+          "value": 4378,
+          "monthlyViews": 131354,
+          "rank": 16
+        },
+        {
+          "id": "olympic-games",
+          "value": 2606,
+          "monthlyViews": 78169,
+          "rank": 17
+        },
+        {
+          "id": "elden-ring",
+          "value": 2459,
+          "monthlyViews": 73768,
+          "rank": 18
+        },
+        {
+          "id": "fortnite",
+          "value": 2245,
+          "monthlyViews": 67336,
+          "rank": 19
+        },
+        {
+          "id": "barbie",
+          "value": 1580,
+          "monthlyViews": 47412,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20251001",
+      "values": [
+        {
+          "id": "chatgpt",
+          "value": 136272,
+          "monthlyViews": 4224435,
+          "rank": 1
+        },
+        {
+          "id": "donald-trump",
+          "value": 51075,
+          "monthlyViews": 1583326,
+          "rank": 2
+        },
+        {
+          "id": "taylor-swift",
+          "value": 45238,
+          "monthlyViews": 1402382,
+          "rank": 3
+        },
+        {
+          "id": "instagram",
+          "value": 43656,
+          "monthlyViews": 1353341,
+          "rank": 4
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 29025,
+          "monthlyViews": 899783,
+          "rank": 5
+        },
+        {
+          "id": "google",
+          "value": 21284,
+          "monthlyViews": 659798,
+          "rank": 6
+        },
+        {
+          "id": "lionel-messi",
+          "value": 19996,
+          "monthlyViews": 619885,
+          "rank": 7
+        },
+        {
+          "id": "tiktok",
+          "value": 11916,
+          "monthlyViews": 369398,
+          "rank": 8
+        },
+        {
+          "id": "fifa-world-cup",
+          "value": 11555,
+          "monthlyViews": 358200,
+          "rank": 9
+        },
+        {
+          "id": "minecraft",
+          "value": 8562,
+          "monthlyViews": 265408,
+          "rank": 10
+        },
+        {
+          "id": "oppenheimer",
+          "value": 7522,
+          "monthlyViews": 233189,
+          "rank": 11
+        },
+        {
+          "id": "beyonce",
+          "value": 6784,
+          "monthlyViews": 210319,
+          "rank": 12
+        },
+        {
+          "id": "drake",
+          "value": 6589,
+          "monthlyViews": 204249,
+          "rank": 13
+        },
+        {
+          "id": "iphone",
+          "value": 4149,
+          "monthlyViews": 128611,
+          "rank": 14
+        },
+        {
+          "id": "tesla",
+          "value": 4046,
+          "monthlyViews": 125428,
+          "rank": 15
+        },
+        {
+          "id": "super-bowl",
+          "value": 3863,
+          "monthlyViews": 119761,
+          "rank": 16
+        },
+        {
+          "id": "olympic-games",
+          "value": 2569,
+          "monthlyViews": 79629,
+          "rank": 17
+        },
+        {
+          "id": "fortnite",
+          "value": 2435,
+          "monthlyViews": 75492,
+          "rank": 18
+        },
+        {
+          "id": "elden-ring",
+          "value": 2321,
+          "monthlyViews": 71940,
+          "rank": 19
+        },
+        {
+          "id": "barbie",
+          "value": 1499,
+          "monthlyViews": 46478,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20251101",
+      "values": [
+        {
+          "id": "chatgpt",
+          "value": 121316,
+          "monthlyViews": 3639485,
+          "rank": 1
+        },
+        {
+          "id": "donald-trump",
+          "value": 51594,
+          "monthlyViews": 1547809,
+          "rank": 2
+        },
+        {
+          "id": "instagram",
+          "value": 40793,
+          "monthlyViews": 1223798,
+          "rank": 3
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 31546,
+          "monthlyViews": 946380,
+          "rank": 4
+        },
+        {
+          "id": "google",
+          "value": 24471,
+          "monthlyViews": 734140,
+          "rank": 5
+        },
+        {
+          "id": "lionel-messi",
+          "value": 20642,
+          "monthlyViews": 619268,
+          "rank": 6
+        },
+        {
+          "id": "taylor-swift",
+          "value": 16167,
+          "monthlyViews": 484999,
+          "rank": 7
+        },
+        {
+          "id": "fifa-world-cup",
+          "value": 14277,
+          "monthlyViews": 428300,
+          "rank": 8
+        },
+        {
+          "id": "tiktok",
+          "value": 12606,
+          "monthlyViews": 378178,
+          "rank": 9
+        },
+        {
+          "id": "minecraft",
+          "value": 8799,
+          "monthlyViews": 263977,
+          "rank": 10
+        },
+        {
+          "id": "oppenheimer",
+          "value": 7254,
+          "monthlyViews": 217615,
+          "rank": 11
+        },
+        {
+          "id": "beyonce",
+          "value": 6600,
+          "monthlyViews": 197995,
+          "rank": 12
+        },
+        {
+          "id": "drake",
+          "value": 5307,
+          "monthlyViews": 159224,
+          "rank": 13
+        },
+        {
+          "id": "tesla",
+          "value": 4183,
+          "monthlyViews": 125500,
+          "rank": 14
+        },
+        {
+          "id": "iphone",
+          "value": 3612,
+          "monthlyViews": 108346,
+          "rank": 15
+        },
+        {
+          "id": "super-bowl",
+          "value": 3522,
+          "monthlyViews": 105650,
+          "rank": 16
+        },
+        {
+          "id": "fortnite",
+          "value": 3472,
+          "monthlyViews": 104159,
+          "rank": 17
+        },
+        {
+          "id": "olympic-games",
+          "value": 2768,
+          "monthlyViews": 83050,
+          "rank": 18
+        },
+        {
+          "id": "elden-ring",
+          "value": 2706,
+          "monthlyViews": 81165,
+          "rank": 19
+        },
+        {
+          "id": "barbie",
+          "value": 1328,
+          "monthlyViews": 39848,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20251201",
+      "values": [
+        {
+          "id": "chatgpt",
+          "value": 101789,
+          "monthlyViews": 3155462,
+          "rank": 1
+        },
+        {
+          "id": "instagram",
+          "value": 45367,
+          "monthlyViews": 1406376,
+          "rank": 2
+        },
+        {
+          "id": "donald-trump",
+          "value": 42659,
+          "monthlyViews": 1322438,
+          "rank": 3
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 26198,
+          "monthlyViews": 812134,
+          "rank": 4
+        },
+        {
+          "id": "lionel-messi",
+          "value": 25893,
+          "monthlyViews": 802681,
+          "rank": 5
+        },
+        {
+          "id": "taylor-swift",
+          "value": 25703,
+          "monthlyViews": 796789,
+          "rank": 6
+        },
+        {
+          "id": "google",
+          "value": 22258,
+          "monthlyViews": 689993,
+          "rank": 7
+        },
+        {
+          "id": "fifa-world-cup",
+          "value": 15917,
+          "monthlyViews": 493440,
+          "rank": 8
+        },
+        {
+          "id": "tiktok",
+          "value": 12446,
+          "monthlyViews": 385834,
+          "rank": 9
+        },
+        {
+          "id": "oppenheimer",
+          "value": 11604,
+          "monthlyViews": 359711,
+          "rank": 10
+        },
+        {
+          "id": "minecraft",
+          "value": 9101,
+          "monthlyViews": 282124,
+          "rank": 11
+        },
+        {
+          "id": "beyonce",
+          "value": 7251,
+          "monthlyViews": 224768,
+          "rank": 12
+        },
+        {
+          "id": "tesla",
+          "value": 7149,
+          "monthlyViews": 221614,
+          "rank": 13
+        },
+        {
+          "id": "drake",
+          "value": 5630,
+          "monthlyViews": 174515,
+          "rank": 14
+        },
+        {
+          "id": "super-bowl",
+          "value": 4554,
+          "monthlyViews": 141177,
+          "rank": 15
+        },
+        {
+          "id": "iphone",
+          "value": 3614,
+          "monthlyViews": 112024,
+          "rank": 16
+        },
+        {
+          "id": "elden-ring",
+          "value": 3433,
+          "monthlyViews": 106419,
+          "rank": 17
+        },
+        {
+          "id": "olympic-games",
+          "value": 2970,
+          "monthlyViews": 92065,
+          "rank": 18
+        },
+        {
+          "id": "fortnite",
+          "value": 2906,
+          "monthlyViews": 90079,
+          "rank": 19
+        },
+        {
+          "id": "barbie",
+          "value": 1516,
+          "monthlyViews": 47001,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260101",
+      "values": [
+        {
+          "id": "donald-trump",
+          "value": 122023,
+          "monthlyViews": 3782720,
+          "rank": 1
+        },
+        {
+          "id": "chatgpt",
+          "value": 102046,
+          "monthlyViews": 3163419,
+          "rank": 2
+        },
+        {
+          "id": "instagram",
+          "value": 49007,
+          "monthlyViews": 1519224,
+          "rank": 3
+        },
+        {
+          "id": "google",
+          "value": 25853,
+          "monthlyViews": 801434,
+          "rank": 4
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 22221,
+          "monthlyViews": 688849,
+          "rank": 5
+        },
+        {
+          "id": "taylor-swift",
+          "value": 16491,
+          "monthlyViews": 511231,
+          "rank": 6
+        },
+        {
+          "id": "tiktok",
+          "value": 13963,
+          "monthlyViews": 432860,
+          "rank": 7
+        },
+        {
+          "id": "super-bowl",
+          "value": 13547,
+          "monthlyViews": 419960,
+          "rank": 8
+        },
+        {
+          "id": "lionel-messi",
+          "value": 13222,
+          "monthlyViews": 409883,
+          "rank": 9
+        },
+        {
+          "id": "oppenheimer",
+          "value": 9309,
+          "monthlyViews": 288586,
+          "rank": 10
+        },
+        {
+          "id": "fifa-world-cup",
+          "value": 8939,
+          "monthlyViews": 277094,
+          "rank": 11
+        },
+        {
+          "id": "minecraft",
+          "value": 8855,
+          "monthlyViews": 274503,
+          "rank": 12
+        },
+        {
+          "id": "beyonce",
+          "value": 6798,
+          "monthlyViews": 210753,
+          "rank": 13
+        },
+        {
+          "id": "drake",
+          "value": 5828,
+          "monthlyViews": 180664,
+          "rank": 14
+        },
+        {
+          "id": "tesla",
+          "value": 5773,
+          "monthlyViews": 178957,
+          "rank": 15
+        },
+        {
+          "id": "iphone",
+          "value": 3848,
+          "monthlyViews": 119276,
+          "rank": 16
+        },
+        {
+          "id": "olympic-games",
+          "value": 3727,
+          "monthlyViews": 115532,
+          "rank": 17
+        },
+        {
+          "id": "elden-ring",
+          "value": 3047,
+          "monthlyViews": 94451,
+          "rank": 18
+        },
+        {
+          "id": "fortnite",
+          "value": 2332,
+          "monthlyViews": 72289,
+          "rank": 19
+        },
+        {
+          "id": "barbie",
+          "value": 1504,
+          "monthlyViews": 46614,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260201",
+      "values": [
+        {
+          "id": "chatgpt",
+          "value": 87687,
+          "monthlyViews": 2455248,
+          "rank": 1
+        },
+        {
+          "id": "donald-trump",
+          "value": 59174,
+          "monthlyViews": 1656863,
+          "rank": 2
+        },
+        {
+          "id": "instagram",
+          "value": 54869,
+          "monthlyViews": 1536337,
+          "rank": 3
+        },
+        {
+          "id": "super-bowl",
+          "value": 26518,
+          "monthlyViews": 742511,
+          "rank": 4
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 25833,
+          "monthlyViews": 723313,
+          "rank": 5
+        },
+        {
+          "id": "google",
+          "value": 25775,
+          "monthlyViews": 721696,
+          "rank": 6
+        },
+        {
+          "id": "olympic-games",
+          "value": 15034,
+          "monthlyViews": 420942,
+          "rank": 7
+        },
+        {
+          "id": "taylor-swift",
+          "value": 14165,
+          "monthlyViews": 396618,
+          "rank": 8
+        },
+        {
+          "id": "tiktok",
+          "value": 13316,
+          "monthlyViews": 372857,
+          "rank": 9
+        },
+        {
+          "id": "lionel-messi",
+          "value": 13082,
+          "monthlyViews": 366302,
+          "rank": 10
+        },
+        {
+          "id": "fifa-world-cup",
+          "value": 9946,
+          "monthlyViews": 278483,
+          "rank": 11
+        },
+        {
+          "id": "minecraft",
+          "value": 9782,
+          "monthlyViews": 273905,
+          "rank": 12
+        },
+        {
+          "id": "beyonce",
+          "value": 8568,
+          "monthlyViews": 239900,
+          "rank": 13
+        },
+        {
+          "id": "drake",
+          "value": 6519,
+          "monthlyViews": 182538,
+          "rank": 14
+        },
+        {
+          "id": "oppenheimer",
+          "value": 5952,
+          "monthlyViews": 166642,
+          "rank": 15
+        },
+        {
+          "id": "tesla",
+          "value": 3611,
+          "monthlyViews": 101099,
+          "rank": 16
+        },
+        {
+          "id": "iphone",
+          "value": 3577,
+          "monthlyViews": 100143,
+          "rank": 17
+        },
+        {
+          "id": "elden-ring",
+          "value": 2890,
+          "monthlyViews": 80909,
+          "rank": 18
+        },
+        {
+          "id": "fortnite",
+          "value": 2214,
+          "monthlyViews": 62004,
+          "rank": 19
+        },
+        {
+          "id": "barbie",
+          "value": 1382,
+          "monthlyViews": 38687,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260301",
+      "values": [
+        {
+          "id": "chatgpt",
+          "value": 74673,
+          "monthlyViews": 2314878,
+          "rank": 1
+        },
+        {
+          "id": "donald-trump",
+          "value": 67200,
+          "monthlyViews": 2083203,
+          "rank": 2
+        },
+        {
+          "id": "instagram",
+          "value": 38249,
+          "monthlyViews": 1185715,
+          "rank": 3
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 20890,
+          "monthlyViews": 647602,
+          "rank": 4
+        },
+        {
+          "id": "google",
+          "value": 19170,
+          "monthlyViews": 594267,
+          "rank": 5
+        },
+        {
+          "id": "lionel-messi",
+          "value": 15116,
+          "monthlyViews": 468592,
+          "rank": 6
+        },
+        {
+          "id": "taylor-swift",
+          "value": 13422,
+          "monthlyViews": 416093,
+          "rank": 7
+        },
+        {
+          "id": "tiktok",
+          "value": 11827,
+          "monthlyViews": 366644,
+          "rank": 8
+        },
+        {
+          "id": "fifa-world-cup",
+          "value": 11800,
+          "monthlyViews": 365798,
+          "rank": 9
+        },
+        {
+          "id": "minecraft",
+          "value": 8476,
+          "monthlyViews": 262757,
+          "rank": 10
+        },
+        {
+          "id": "oppenheimer",
+          "value": 7084,
+          "monthlyViews": 219618,
+          "rank": 11
+        },
+        {
+          "id": "beyonce",
+          "value": 5992,
+          "monthlyViews": 185758,
+          "rank": 12
+        },
+        {
+          "id": "drake",
+          "value": 5079,
+          "monthlyViews": 157448,
+          "rank": 13
+        },
+        {
+          "id": "iphone",
+          "value": 3795,
+          "monthlyViews": 117644,
+          "rank": 14
+        },
+        {
+          "id": "olympic-games",
+          "value": 3561,
+          "monthlyViews": 110394,
+          "rank": 15
+        },
+        {
+          "id": "tesla",
+          "value": 3290,
+          "monthlyViews": 101983,
+          "rank": 16
+        },
+        {
+          "id": "fortnite",
+          "value": 3006,
+          "monthlyViews": 93181,
+          "rank": 17
+        },
+        {
+          "id": "elden-ring",
+          "value": 2476,
+          "monthlyViews": 76754,
+          "rank": 18
+        },
+        {
+          "id": "super-bowl",
+          "value": 2184,
+          "monthlyViews": 67714,
+          "rank": 19
+        },
+        {
+          "id": "barbie",
+          "value": 1608,
+          "monthlyViews": 49860,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260401",
+      "values": [
+        {
+          "id": "chatgpt",
+          "value": 75509,
+          "monthlyViews": 2265270,
+          "rank": 1
+        },
+        {
+          "id": "donald-trump",
+          "value": 66772,
+          "monthlyViews": 2003154,
+          "rank": 2
+        },
+        {
+          "id": "instagram",
+          "value": 34569,
+          "monthlyViews": 1037055,
+          "rank": 3
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 23697,
+          "monthlyViews": 710908,
+          "rank": 4
+        },
+        {
+          "id": "google",
+          "value": 17605,
+          "monthlyViews": 528159,
+          "rank": 5
+        },
+        {
+          "id": "lionel-messi",
+          "value": 16683,
+          "monthlyViews": 500493,
+          "rank": 6
+        },
+        {
+          "id": "fifa-world-cup",
+          "value": 13915,
+          "monthlyViews": 417447,
+          "rank": 7
+        },
+        {
+          "id": "tiktok",
+          "value": 12422,
+          "monthlyViews": 372655,
+          "rank": 8
+        },
+        {
+          "id": "taylor-swift",
+          "value": 11978,
+          "monthlyViews": 359351,
+          "rank": 9
+        },
+        {
+          "id": "beyonce",
+          "value": 8488,
+          "monthlyViews": 254629,
+          "rank": 10
+        },
+        {
+          "id": "drake",
+          "value": 6769,
+          "monthlyViews": 203064,
+          "rank": 11
+        },
+        {
+          "id": "minecraft",
+          "value": 6642,
+          "monthlyViews": 199258,
+          "rank": 12
+        },
+        {
+          "id": "oppenheimer",
+          "value": 6349,
+          "monthlyViews": 190468,
+          "rank": 13
+        },
+        {
+          "id": "iphone",
+          "value": 3593,
+          "monthlyViews": 107784,
+          "rank": 14
+        },
+        {
+          "id": "elden-ring",
+          "value": 3499,
+          "monthlyViews": 104978,
+          "rank": 15
+        },
+        {
+          "id": "tesla",
+          "value": 3459,
+          "monthlyViews": 103759,
+          "rank": 16
+        },
+        {
+          "id": "olympic-games",
+          "value": 3005,
+          "monthlyViews": 90157,
+          "rank": 17
+        },
+        {
+          "id": "fortnite",
+          "value": 2139,
+          "monthlyViews": 64163,
+          "rank": 18
+        },
+        {
+          "id": "super-bowl",
+          "value": 1915,
+          "monthlyViews": 57462,
+          "rank": 19
+        },
+        {
+          "id": "barbie",
+          "value": 1374,
+          "monthlyViews": 41234,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260501",
+      "values": [
+        {
+          "id": "donald-trump",
+          "value": 1570,
+          "monthlyViews": 48680,
+          "rank": 1
+        },
+        {
+          "id": "chatgpt",
+          "value": 1165,
+          "monthlyViews": 36110,
+          "rank": 2
+        },
+        {
+          "id": "instagram",
+          "value": 989,
+          "monthlyViews": 30652,
+          "rank": 3
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 780,
+          "monthlyViews": 24186,
+          "rank": 4
+        },
+        {
+          "id": "google",
+          "value": 538,
+          "monthlyViews": 16684,
+          "rank": 5
+        },
+        {
+          "id": "taylor-swift",
+          "value": 452,
+          "monthlyViews": 14005,
+          "rank": 6
+        },
+        {
+          "id": "lionel-messi",
+          "value": 423,
+          "monthlyViews": 13126,
+          "rank": 7
+        },
+        {
+          "id": "tiktok",
+          "value": 360,
+          "monthlyViews": 11169,
+          "rank": 8
+        },
+        {
+          "id": "fifa-world-cup",
+          "value": 351,
+          "monthlyViews": 10871,
+          "rank": 9
+        },
+        {
+          "id": "beyonce",
+          "value": 235,
+          "monthlyViews": 7274,
+          "rank": 10
+        },
+        {
+          "id": "drake",
+          "value": 233,
+          "monthlyViews": 7228,
+          "rank": 11
+        },
+        {
+          "id": "oppenheimer",
+          "value": 210,
+          "monthlyViews": 6503,
+          "rank": 12
+        },
+        {
+          "id": "minecraft",
+          "value": 181,
+          "monthlyViews": 5618,
+          "rank": 13
+        },
+        {
+          "id": "iphone",
+          "value": 114,
+          "monthlyViews": 3536,
+          "rank": 14
+        },
+        {
+          "id": "tesla",
+          "value": 114,
+          "monthlyViews": 3530,
+          "rank": 15
+        },
+        {
+          "id": "elden-ring",
+          "value": 82,
+          "monthlyViews": 2546,
+          "rank": 16
+        },
+        {
+          "id": "olympic-games",
+          "value": 80,
+          "monthlyViews": 2471,
+          "rank": 17
+        },
+        {
+          "id": "fortnite",
+          "value": 71,
+          "monthlyViews": 2215,
+          "rank": 18
+        },
+        {
+          "id": "super-bowl",
+          "value": 53,
+          "monthlyViews": 1628,
+          "rank": 19
+        },
+        {
+          "id": "barbie",
+          "value": 39,
+          "monthlyViews": 1211,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260812",
+      "values": [
+        {
+          "id": "barbie",
+          "value": 1152
+        },
+        {
+          "id": "oppenheimer",
+          "value": 12752
+        },
+        {
+          "id": "fifa-world-cup",
+          "value": 8018
+        },
+        {
+          "id": "taylor-swift",
+          "value": 12721
+        },
+        {
+          "id": "elden-ring",
+          "value": 2769
+        },
+        {
+          "id": "olympic-games",
+          "value": 2287
+        },
+        {
+          "id": "super-bowl",
+          "value": 1732
+        },
+        {
+          "id": "iphone",
+          "value": 4487
+        },
+        {
+          "id": "beyonce",
+          "value": 5205
+        },
+        {
+          "id": "fortnite",
+          "value": 1789
+        },
+        {
+          "id": "donald-trump",
+          "value": 32252
+        },
+        {
+          "id": "minecraft",
+          "value": 4912
+        },
+        {
+          "id": "lionel-messi",
+          "value": 27329
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 97550
+        },
+        {
+          "id": "instagram",
+          "value": 19431
+        },
+        {
+          "id": "google",
+          "value": 22554
+        },
+        {
+          "id": "tesla",
+          "value": 2684
+        },
+        {
+          "id": "tiktok",
+          "value": 7095
+        },
+        {
+          "id": "drake",
+          "value": 9848
+        },
+        {
+          "id": "chatgpt",
+          "value": 49060
+        }
+      ]
+    },
+    {
+      "date": "20260813",
+      "values": [
+        {
+          "id": "barbie",
+          "value": 1051
+        },
+        {
+          "id": "oppenheimer",
+          "value": 11680
+        },
+        {
+          "id": "fifa-world-cup",
+          "value": 7492
+        },
+        {
+          "id": "taylor-swift",
+          "value": 17158
+        },
+        {
+          "id": "elden-ring",
+          "value": 2484
+        },
+        {
+          "id": "olympic-games",
+          "value": 2273
+        },
+        {
+          "id": "super-bowl",
+          "value": 1722
+        },
+        {
+          "id": "iphone",
+          "value": 4430
+        },
+        {
+          "id": "beyonce",
+          "value": 5560
+        },
+        {
+          "id": "fortnite",
+          "value": 1781
+        },
+        {
+          "id": "donald-trump",
+          "value": 28449
+        },
+        {
+          "id": "minecraft",
+          "value": 4874
+        },
+        {
+          "id": "lionel-messi",
+          "value": 20959
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 42822
+        },
+        {
+          "id": "instagram",
+          "value": 24203
+        },
+        {
+          "id": "google",
+          "value": 78735
+        },
+        {
+          "id": "tesla",
+          "value": 2730
+        },
+        {
+          "id": "tiktok",
+          "value": 6212
+        },
+        {
+          "id": "drake",
+          "value": 8680
+        },
+        {
+          "id": "chatgpt",
+          "value": 74751
+        }
+      ]
+    },
+    {
+      "date": "20260814",
+      "values": [
+        {
+          "id": "barbie",
+          "value": 1014
+        },
+        {
+          "id": "oppenheimer",
+          "value": 11158
+        },
+        {
+          "id": "fifa-world-cup",
+          "value": 6934
+        },
+        {
+          "id": "taylor-swift",
+          "value": 12691
+        },
+        {
+          "id": "elden-ring",
+          "value": 2451
+        },
+        {
+          "id": "olympic-games",
+          "value": 2471
+        },
+        {
+          "id": "super-bowl",
+          "value": 2123
+        },
+        {
+          "id": "iphone",
+          "value": 4724
+        },
+        {
+          "id": "beyonce",
+          "value": 5339
+        },
+        {
+          "id": "fortnite",
+          "value": 1816
+        },
+        {
+          "id": "donald-trump",
+          "value": 27467
+        },
+        {
+          "id": "minecraft",
+          "value": 4786
+        },
+        {
+          "id": "lionel-messi",
+          "value": 14971
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 35128
+        },
+        {
+          "id": "instagram",
+          "value": 24595
+        },
+        {
+          "id": "google",
+          "value": 34038
+        },
+        {
+          "id": "tesla",
+          "value": 2786
+        },
+        {
+          "id": "tiktok",
+          "value": 6081
+        },
+        {
+          "id": "drake",
+          "value": 7949
+        },
+        {
+          "id": "chatgpt",
+          "value": 39527
+        }
+      ]
+    },
+    {
+      "date": "20260815",
+      "values": [
+        {
+          "id": "barbie",
+          "value": 1098
+        },
+        {
+          "id": "oppenheimer",
+          "value": 12305
+        },
+        {
+          "id": "fifa-world-cup",
+          "value": 6257
+        },
+        {
+          "id": "taylor-swift",
+          "value": 12604
+        },
+        {
+          "id": "elden-ring",
+          "value": 2694
+        },
+        {
+          "id": "olympic-games",
+          "value": 2382
+        },
+        {
+          "id": "super-bowl",
+          "value": 2010
+        },
+        {
+          "id": "iphone",
+          "value": 4209
+        },
+        {
+          "id": "beyonce",
+          "value": 11273
+        },
+        {
+          "id": "fortnite",
+          "value": 1629
+        },
+        {
+          "id": "donald-trump",
+          "value": 24607
+        },
+        {
+          "id": "minecraft",
+          "value": 4664
+        },
+        {
+          "id": "lionel-messi",
+          "value": 13629
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 27358
+        },
+        {
+          "id": "instagram",
+          "value": 20065
+        },
+        {
+          "id": "google",
+          "value": 14581
+        },
+        {
+          "id": "tesla",
+          "value": 2468
+        },
+        {
+          "id": "tiktok",
+          "value": 5864
+        },
+        {
+          "id": "drake",
+          "value": 7615
+        },
+        {
+          "id": "chatgpt",
+          "value": 32582
+        }
+      ]
+    },
+    {
+      "date": "20260816",
+      "values": [
+        {
+          "id": "barbie",
+          "value": 1216
+        },
+        {
+          "id": "oppenheimer",
+          "value": 14861
+        },
+        {
+          "id": "fifa-world-cup",
+          "value": 6826
+        },
+        {
+          "id": "taylor-swift",
+          "value": 12861
+        },
+        {
+          "id": "elden-ring",
+          "value": 2743
+        },
+        {
+          "id": "olympic-games",
+          "value": 2737
+        },
+        {
+          "id": "super-bowl",
+          "value": 2126
+        },
+        {
+          "id": "iphone",
+          "value": 4499
+        },
+        {
+          "id": "beyonce",
+          "value": 6387
+        },
+        {
+          "id": "fortnite",
+          "value": 2121
+        },
+        {
+          "id": "donald-trump",
+          "value": 25343
+        },
+        {
+          "id": "minecraft",
+          "value": 5193
+        },
+        {
+          "id": "lionel-messi",
+          "value": 17254
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 51560
+        },
+        {
+          "id": "instagram",
+          "value": 20709
+        },
+        {
+          "id": "google",
+          "value": 49517
+        },
+        {
+          "id": "tesla",
+          "value": 2554
+        },
+        {
+          "id": "tiktok",
+          "value": 6114
+        },
+        {
+          "id": "drake",
+          "value": 6851
+        },
+        {
+          "id": "chatgpt",
+          "value": 33116
+        }
+      ]
+    },
+    {
+      "date": "20260817",
+      "values": [
+        {
+          "id": "barbie",
+          "value": 1321
+        },
+        {
+          "id": "oppenheimer",
+          "value": 14060
+        },
+        {
+          "id": "fifa-world-cup",
+          "value": 7102
+        },
+        {
+          "id": "taylor-swift",
+          "value": 11908
+        },
+        {
+          "id": "elden-ring",
+          "value": 2691
+        },
+        {
+          "id": "olympic-games",
+          "value": 2588
+        },
+        {
+          "id": "super-bowl",
+          "value": 1867
+        },
+        {
+          "id": "iphone",
+          "value": 5035
+        },
+        {
+          "id": "beyonce",
+          "value": 7343
+        },
+        {
+          "id": "fortnite",
+          "value": 2048
+        },
+        {
+          "id": "donald-trump",
+          "value": 29632
+        },
+        {
+          "id": "minecraft",
+          "value": 4785
+        },
+        {
+          "id": "lionel-messi",
+          "value": 14697
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 52292
+        },
+        {
+          "id": "instagram",
+          "value": 22660
+        },
+        {
+          "id": "google",
+          "value": 210456
+        },
+        {
+          "id": "tesla",
+          "value": 2824
+        },
+        {
+          "id": "tiktok",
+          "value": 6833
+        },
+        {
+          "id": "drake",
+          "value": 6665
+        },
+        {
+          "id": "chatgpt",
+          "value": 56592
+        }
+      ]
+    },
+    {
+      "date": "20260818",
+      "values": [
+        {
+          "id": "barbie",
+          "value": 1178
+        },
+        {
+          "id": "oppenheimer",
+          "value": 11916
+        },
+        {
+          "id": "fifa-world-cup",
+          "value": 6678
+        },
+        {
+          "id": "taylor-swift",
+          "value": 11216
+        },
+        {
+          "id": "elden-ring",
+          "value": 2919
+        },
+        {
+          "id": "olympic-games",
+          "value": 2166
+        },
+        {
+          "id": "super-bowl",
+          "value": 1647
+        },
+        {
+          "id": "iphone",
+          "value": 4716
+        },
+        {
+          "id": "beyonce",
+          "value": 7314
+        },
+        {
+          "id": "fortnite",
+          "value": 2082
+        },
+        {
+          "id": "donald-trump",
+          "value": 30203
+        },
+        {
+          "id": "minecraft",
+          "value": 4646
+        },
+        {
+          "id": "lionel-messi",
+          "value": 13525
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 38363
+        },
+        {
+          "id": "instagram",
+          "value": 19970
+        },
+        {
+          "id": "google",
+          "value": 245180
+        },
+        {
+          "id": "tesla",
+          "value": 2688
+        },
+        {
+          "id": "tiktok",
+          "value": 6534
+        },
+        {
+          "id": "drake",
+          "value": 6170
+        },
+        {
+          "id": "chatgpt",
+          "value": 75539
+        }
+      ]
+    },
+    {
+      "date": "20260819",
+      "values": [
+        {
+          "id": "barbie",
+          "value": 1146
+        },
+        {
+          "id": "oppenheimer",
+          "value": 11859
+        },
+        {
+          "id": "fifa-world-cup",
+          "value": 6637
+        },
+        {
+          "id": "taylor-swift",
+          "value": 11010
+        },
+        {
+          "id": "elden-ring",
+          "value": 2874
+        },
+        {
+          "id": "olympic-games",
+          "value": 2096
+        },
+        {
+          "id": "super-bowl",
+          "value": 1686
+        },
+        {
+          "id": "iphone",
+          "value": 5037
+        },
+        {
+          "id": "beyonce",
+          "value": 6955
+        },
+        {
+          "id": "fortnite",
+          "value": 2007
+        },
+        {
+          "id": "donald-trump",
+          "value": 30259
+        },
+        {
+          "id": "minecraft",
+          "value": 4674
+        },
+        {
+          "id": "lionel-messi",
+          "value": 12580
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 27053
+        },
+        {
+          "id": "instagram",
+          "value": 19857
+        },
+        {
+          "id": "google",
+          "value": 284869
+        },
+        {
+          "id": "tesla",
+          "value": 2632
+        },
+        {
+          "id": "tiktok",
+          "value": 6615
+        },
+        {
+          "id": "drake",
+          "value": 5680
+        },
+        {
+          "id": "chatgpt",
+          "value": 68374
+        }
+      ]
+    },
+    {
+      "date": "20260820",
+      "values": [
+        {
+          "id": "barbie",
+          "value": 1017
+        },
+        {
+          "id": "oppenheimer",
+          "value": 10650
+        },
+        {
+          "id": "fifa-world-cup",
+          "value": 6320
+        },
+        {
+          "id": "taylor-swift",
+          "value": 10831
+        },
+        {
+          "id": "elden-ring",
+          "value": 3219
+        },
+        {
+          "id": "olympic-games",
+          "value": 2087
+        },
+        {
+          "id": "super-bowl",
+          "value": 1635
+        },
+        {
+          "id": "iphone",
+          "value": 5614
+        },
+        {
+          "id": "beyonce",
+          "value": 5920
+        },
+        {
+          "id": "fortnite",
+          "value": 2368
+        },
+        {
+          "id": "donald-trump",
+          "value": 28466
+        },
+        {
+          "id": "minecraft",
+          "value": 4811
+        },
+        {
+          "id": "lionel-messi",
+          "value": 16538
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 23341
+        },
+        {
+          "id": "instagram",
+          "value": 20351
+        },
+        {
+          "id": "google",
+          "value": 126126
+        },
+        {
+          "id": "tesla",
+          "value": 2598
+        },
+        {
+          "id": "tiktok",
+          "value": 7201
+        },
+        {
+          "id": "drake",
+          "value": 5613
+        },
+        {
+          "id": "chatgpt",
+          "value": 68786
+        }
+      ]
+    },
+    {
+      "date": "20260821",
+      "values": [
+        {
+          "id": "barbie",
+          "value": 1073
+        },
+        {
+          "id": "oppenheimer",
+          "value": 10397
+        },
+        {
+          "id": "fifa-world-cup",
+          "value": 6200
+        },
+        {
+          "id": "taylor-swift",
+          "value": 11448
+        },
+        {
+          "id": "elden-ring",
+          "value": 3180
+        },
+        {
+          "id": "olympic-games",
+          "value": 1970
+        },
+        {
+          "id": "super-bowl",
+          "value": 1682
+        },
+        {
+          "id": "iphone",
+          "value": 4644
+        },
+        {
+          "id": "beyonce",
+          "value": 6044
+        },
+        {
+          "id": "fortnite",
+          "value": 2465
+        },
+        {
+          "id": "donald-trump",
+          "value": 27716
+        },
+        {
+          "id": "minecraft",
+          "value": 5358
+        },
+        {
+          "id": "lionel-messi",
+          "value": 12983
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 25900
+        },
+        {
+          "id": "instagram",
+          "value": 21133
+        },
+        {
+          "id": "google",
+          "value": 18499
+        },
+        {
+          "id": "tesla",
+          "value": 2590
+        },
+        {
+          "id": "tiktok",
+          "value": 7202
+        },
+        {
+          "id": "drake",
+          "value": 6322
+        },
+        {
+          "id": "chatgpt",
+          "value": 58801
+        }
+      ]
+    },
+    {
+      "date": "20260822",
+      "values": [
+        {
+          "id": "barbie",
+          "value": 1197
+        },
+        {
+          "id": "oppenheimer",
+          "value": 12085
+        },
+        {
+          "id": "fifa-world-cup",
+          "value": 5856
+        },
+        {
+          "id": "taylor-swift",
+          "value": 12075
+        },
+        {
+          "id": "elden-ring",
+          "value": 3072
+        },
+        {
+          "id": "olympic-games",
+          "value": 1991
+        },
+        {
+          "id": "super-bowl",
+          "value": 1731
+        },
+        {
+          "id": "iphone",
+          "value": 4321
+        },
+        {
+          "id": "beyonce",
+          "value": 6872
+        },
+        {
+          "id": "fortnite",
+          "value": 2018
+        },
+        {
+          "id": "donald-trump",
+          "value": 26910
+        },
+        {
+          "id": "minecraft",
+          "value": 4580
+        },
+        {
+          "id": "lionel-messi",
+          "value": 12769
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 29811
+        },
+        {
+          "id": "instagram",
+          "value": 20296
+        },
+        {
+          "id": "google",
+          "value": 13761
+        },
+        {
+          "id": "tesla",
+          "value": 2447
+        },
+        {
+          "id": "tiktok",
+          "value": 7296
+        },
+        {
+          "id": "drake",
+          "value": 6130
+        },
+        {
+          "id": "chatgpt",
+          "value": 40028
+        }
+      ]
+    },
+    {
+      "date": "20260823",
+      "values": [
+        {
+          "id": "barbie",
+          "value": 1119
+        },
+        {
+          "id": "oppenheimer",
+          "value": 15849
+        },
+        {
+          "id": "fifa-world-cup",
+          "value": 5654
+        },
+        {
+          "id": "taylor-swift",
+          "value": 13434
+        },
+        {
+          "id": "elden-ring",
+          "value": 3134
+        },
+        {
+          "id": "olympic-games",
+          "value": 2131
+        },
+        {
+          "id": "super-bowl",
+          "value": 1843
+        },
+        {
+          "id": "iphone",
+          "value": 4517
+        },
+        {
+          "id": "beyonce",
+          "value": 6559
+        },
+        {
+          "id": "fortnite",
+          "value": 1924
+        },
+        {
+          "id": "donald-trump",
+          "value": 27848
+        },
+        {
+          "id": "minecraft",
+          "value": 4600
+        },
+        {
+          "id": "lionel-messi",
+          "value": 15832
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 23983
+        },
+        {
+          "id": "instagram",
+          "value": 20819
+        },
+        {
+          "id": "google",
+          "value": 13722
+        },
+        {
+          "id": "tesla",
+          "value": 2473
+        },
+        {
+          "id": "tiktok",
+          "value": 6804
+        },
+        {
+          "id": "drake",
+          "value": 6905
+        },
+        {
+          "id": "chatgpt",
+          "value": 42612
+        }
+      ]
+    },
+    {
+      "date": "20260824",
+      "values": [
+        {
+          "id": "barbie",
+          "value": 1167
+        },
+        {
+          "id": "oppenheimer",
+          "value": 26682
+        },
+        {
+          "id": "fifa-world-cup",
+          "value": 5954
+        },
+        {
+          "id": "taylor-swift",
+          "value": 11204
+        },
+        {
+          "id": "elden-ring",
+          "value": 3228
+        },
+        {
+          "id": "olympic-games",
+          "value": 2061
+        },
+        {
+          "id": "super-bowl",
+          "value": 1951
+        },
+        {
+          "id": "iphone",
+          "value": 4810
+        },
+        {
+          "id": "beyonce",
+          "value": 6006
+        },
+        {
+          "id": "fortnite",
+          "value": 2099
+        },
+        {
+          "id": "donald-trump",
+          "value": 30418
+        },
+        {
+          "id": "minecraft",
+          "value": 4662
+        },
+        {
+          "id": "lionel-messi",
+          "value": 12121
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 21210
+        },
+        {
+          "id": "instagram",
+          "value": 19331
+        },
+        {
+          "id": "google",
+          "value": 16982
+        },
+        {
+          "id": "tesla",
+          "value": 2666
+        },
+        {
+          "id": "tiktok",
+          "value": 6892
+        },
+        {
+          "id": "drake",
+          "value": 6394
+        },
+        {
+          "id": "chatgpt",
+          "value": 63020
+        }
+      ]
+    },
+    {
+      "date": "20260825",
+      "values": [
+        {
+          "id": "barbie",
+          "value": 1433
+        },
+        {
+          "id": "oppenheimer",
+          "value": 12246
+        },
+        {
+          "id": "fifa-world-cup",
+          "value": 5509
+        },
+        {
+          "id": "taylor-swift",
+          "value": 14444
+        },
+        {
+          "id": "elden-ring",
+          "value": 3041
+        },
+        {
+          "id": "olympic-games",
+          "value": 1971
+        },
+        {
+          "id": "super-bowl",
+          "value": 1619
+        },
+        {
+          "id": "iphone",
+          "value": 5399
+        },
+        {
+          "id": "beyonce",
+          "value": 7147
+        },
+        {
+          "id": "fortnite",
+          "value": 2057
+        },
+        {
+          "id": "donald-trump",
+          "value": 41558
+        },
+        {
+          "id": "minecraft",
+          "value": 4978
+        },
+        {
+          "id": "lionel-messi",
+          "value": 11273
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 20298
+        },
+        {
+          "id": "instagram",
+          "value": 19224
+        },
+        {
+          "id": "google",
+          "value": 18130
+        },
+        {
+          "id": "tesla",
+          "value": 2774
+        },
+        {
+          "id": "tiktok",
+          "value": 7269
+        },
+        {
+          "id": "drake",
+          "value": 6115
+        },
+        {
+          "id": "chatgpt",
+          "value": 70282
+        }
+      ]
+    },
+    {
+      "date": "20260826",
+      "values": [
+        {
+          "id": "barbie",
+          "value": 1145
+        },
+        {
+          "id": "oppenheimer",
+          "value": 9497
+        },
+        {
+          "id": "fifa-world-cup",
+          "value": 5692
+        },
+        {
+          "id": "taylor-swift",
+          "value": 14471
+        },
+        {
+          "id": "elden-ring",
+          "value": 3744
+        },
+        {
+          "id": "olympic-games",
+          "value": 1809
+        },
+        {
+          "id": "super-bowl",
+          "value": 1708
+        },
+        {
+          "id": "iphone",
+          "value": 5705
+        },
+        {
+          "id": "beyonce",
+          "value": 8773
+        },
+        {
+          "id": "fortnite",
+          "value": 2156
+        },
+        {
+          "id": "donald-trump",
+          "value": 65286
+        },
+        {
+          "id": "minecraft",
+          "value": 5525
+        },
+        {
+          "id": "lionel-messi",
+          "value": 11886
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 21767
+        },
+        {
+          "id": "instagram",
+          "value": 21868
+        },
+        {
+          "id": "google",
+          "value": 17535
+        },
+        {
+          "id": "tesla",
+          "value": 2757
+        },
+        {
+          "id": "tiktok",
+          "value": 7598
+        },
+        {
+          "id": "drake",
+          "value": 5426
+        },
+        {
+          "id": "chatgpt",
+          "value": 64152
+        }
+      ]
+    },
+    {
+      "date": "20260827",
+      "values": [
+        {
+          "id": "barbie",
+          "value": 1081
+        },
+        {
+          "id": "oppenheimer",
+          "value": 8780
+        },
+        {
+          "id": "fifa-world-cup",
+          "value": 5905
+        },
+        {
+          "id": "taylor-swift",
+          "value": 12371
+        },
+        {
+          "id": "elden-ring",
+          "value": 4289
+        },
+        {
+          "id": "olympic-games",
+          "value": 1796
+        },
+        {
+          "id": "super-bowl",
+          "value": 1835
+        },
+        {
+          "id": "iphone",
+          "value": 5400
+        },
+        {
+          "id": "beyonce",
+          "value": 7744
+        },
+        {
+          "id": "fortnite",
+          "value": 2036
+        },
+        {
+          "id": "donald-trump",
+          "value": 47346
+        },
+        {
+          "id": "minecraft",
+          "value": 5464
+        },
+        {
+          "id": "lionel-messi",
+          "value": 11312
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 19701
+        },
+        {
+          "id": "instagram",
+          "value": 20358
+        },
+        {
+          "id": "google",
+          "value": 16776
+        },
+        {
+          "id": "tesla",
+          "value": 2466
+        },
+        {
+          "id": "tiktok",
+          "value": 7565
+        },
+        {
+          "id": "drake",
+          "value": 5346
+        },
+        {
+          "id": "chatgpt",
+          "value": 61729
+        }
+      ]
+    },
+    {
+      "date": "20260828",
+      "values": [
+        {
+          "id": "barbie",
+          "value": 1108
+        },
+        {
+          "id": "oppenheimer",
+          "value": 8440
+        },
+        {
+          "id": "fifa-world-cup",
+          "value": 5066
+        },
+        {
+          "id": "taylor-swift",
+          "value": 11984
+        },
+        {
+          "id": "elden-ring",
+          "value": 4265
+        },
+        {
+          "id": "olympic-games",
+          "value": 1862
+        },
+        {
+          "id": "super-bowl",
+          "value": 1731
+        },
+        {
+          "id": "iphone",
+          "value": 6397
+        },
+        {
+          "id": "beyonce",
+          "value": 7015
+        },
+        {
+          "id": "fortnite",
+          "value": 2009
+        },
+        {
+          "id": "donald-trump",
+          "value": 39499
+        },
+        {
+          "id": "minecraft",
+          "value": 5384
+        },
+        {
+          "id": "lionel-messi",
+          "value": 11388
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 21249
+        },
+        {
+          "id": "instagram",
+          "value": 18353
+        },
+        {
+          "id": "google",
+          "value": 16212
+        },
+        {
+          "id": "tesla",
+          "value": 2415
+        },
+        {
+          "id": "tiktok",
+          "value": 6904
+        },
+        {
+          "id": "drake",
+          "value": 5408
+        },
+        {
+          "id": "chatgpt",
+          "value": 34832
+        }
+      ]
+    },
+    {
+      "date": "20260829",
+      "values": [
+        {
+          "id": "barbie",
+          "value": 1200
+        },
+        {
+          "id": "oppenheimer",
+          "value": 9237
+        },
+        {
+          "id": "fifa-world-cup",
+          "value": 4997
+        },
+        {
+          "id": "taylor-swift",
+          "value": 11794
+        },
+        {
+          "id": "elden-ring",
+          "value": 4006
+        },
+        {
+          "id": "olympic-games",
+          "value": 1777
+        },
+        {
+          "id": "super-bowl",
+          "value": 1903
+        },
+        {
+          "id": "iphone",
+          "value": 6588
+        },
+        {
+          "id": "beyonce",
+          "value": 7228
+        },
+        {
+          "id": "fortnite",
+          "value": 1850
+        },
+        {
+          "id": "donald-trump",
+          "value": 33812
+        },
+        {
+          "id": "minecraft",
+          "value": 4847
+        },
+        {
+          "id": "lionel-messi",
+          "value": 11300
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 23093
+        },
+        {
+          "id": "instagram",
+          "value": 17759
+        },
+        {
+          "id": "google",
+          "value": 13803
+        },
+        {
+          "id": "tesla",
+          "value": 2503
+        },
+        {
+          "id": "tiktok",
+          "value": 6701
+        },
+        {
+          "id": "drake",
+          "value": 5011
+        },
+        {
+          "id": "chatgpt",
+          "value": 25184
+        }
+      ]
+    },
+    {
+      "date": "20260830",
+      "values": [
+        {
+          "id": "barbie",
+          "value": 1255
+        },
+        {
+          "id": "oppenheimer",
+          "value": 10239
+        },
+        {
+          "id": "fifa-world-cup",
+          "value": 5134
+        },
+        {
+          "id": "taylor-swift",
+          "value": 11936
+        },
+        {
+          "id": "elden-ring",
+          "value": 4180
+        },
+        {
+          "id": "olympic-games",
+          "value": 2035
+        },
+        {
+          "id": "super-bowl",
+          "value": 1899
+        },
+        {
+          "id": "iphone",
+          "value": 5600
+        },
+        {
+          "id": "beyonce",
+          "value": 7113
+        },
+        {
+          "id": "fortnite",
+          "value": 1863
+        },
+        {
+          "id": "donald-trump",
+          "value": 33120
+        },
+        {
+          "id": "minecraft",
+          "value": 5035
+        },
+        {
+          "id": "lionel-messi",
+          "value": 43710
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 25237
+        },
+        {
+          "id": "instagram",
+          "value": 20370
+        },
+        {
+          "id": "google",
+          "value": 14787
+        },
+        {
+          "id": "tesla",
+          "value": 2352
+        },
+        {
+          "id": "tiktok",
+          "value": 7263
+        },
+        {
+          "id": "drake",
+          "value": 5171
+        },
+        {
+          "id": "chatgpt",
+          "value": 22602
+        }
+      ]
+    },
+    {
+      "date": "20260831",
+      "values": [
+        {
+          "id": "barbie",
+          "value": 1193
+        },
+        {
+          "id": "oppenheimer",
+          "value": 8593
+        },
+        {
+          "id": "fifa-world-cup",
+          "value": 6116
+        },
+        {
+          "id": "taylor-swift",
+          "value": 11809
+        },
+        {
+          "id": "elden-ring",
+          "value": 3675
+        },
+        {
+          "id": "olympic-games",
+          "value": 2061
+        },
+        {
+          "id": "super-bowl",
+          "value": 2092
+        },
+        {
+          "id": "iphone",
+          "value": 5545
+        },
+        {
+          "id": "beyonce",
+          "value": 6550
+        },
+        {
+          "id": "fortnite",
+          "value": 2059
+        },
+        {
+          "id": "donald-trump",
+          "value": 33712
+        },
+        {
+          "id": "minecraft",
+          "value": 5287
+        },
+        {
+          "id": "lionel-messi",
+          "value": 86893
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 31951
+        },
+        {
+          "id": "instagram",
+          "value": 21575
+        },
+        {
+          "id": "google",
+          "value": 17162
+        },
+        {
+          "id": "tesla",
+          "value": 2476
+        },
+        {
+          "id": "tiktok",
+          "value": 7180
+        },
+        {
+          "id": "drake",
+          "value": 5144
+        },
+        {
+          "id": "chatgpt",
+          "value": 41659
+        }
+      ]
+    },
+    {
+      "date": "20260901",
+      "values": [
+        {
+          "id": "barbie",
+          "value": 1045
+        },
+        {
+          "id": "oppenheimer",
+          "value": 7151
+        },
+        {
+          "id": "fifa-world-cup",
+          "value": 6028
+        },
+        {
+          "id": "taylor-swift",
+          "value": 11688
+        },
+        {
+          "id": "elden-ring",
+          "value": 3257
+        },
+        {
+          "id": "olympic-games",
+          "value": 1950
+        },
+        {
+          "id": "super-bowl",
+          "value": 2088
+        },
+        {
+          "id": "iphone",
+          "value": 4523
+        },
+        {
+          "id": "beyonce",
+          "value": 6621
+        },
+        {
+          "id": "fortnite",
+          "value": 2047
+        },
+        {
+          "id": "donald-trump",
+          "value": 30502
+        },
+        {
+          "id": "minecraft",
+          "value": 4859
+        },
+        {
+          "id": "lionel-messi",
+          "value": 58332
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 27252
+        },
+        {
+          "id": "instagram",
+          "value": 22565
+        },
+        {
+          "id": "google",
+          "value": 17756
+        },
+        {
+          "id": "tesla",
+          "value": 2523
+        },
+        {
+          "id": "tiktok",
+          "value": 7685
+        },
+        {
+          "id": "drake",
+          "value": 5323
+        },
+        {
+          "id": "chatgpt",
+          "value": 40229
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "date": "20240601",
+      "title": "Cristiano Ronaldo leads attention",
+      "body": "Cristiano Ronaldo is the highest selected article on 2024-06-01, with 56,531 pageviews."
+    },
+    {
+      "date": "20250901",
+      "title": "ChatGPT leads attention",
+      "body": "ChatGPT is the highest selected article on 2025-09-01, with 145,146 pageviews."
+    },
+    {
+      "date": "20260818",
+      "title": "Google leads attention",
+      "body": "Google is the highest selected article on 2026-08-18, with 245,180 pageviews."
+    },
+    {
+      "date": "20260901",
+      "title": "Lionel Messi leads attention",
+      "body": "Lionel Messi is the highest selected article on 2026-09-01, with 58,332 pageviews."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Page view analytics",
+      "publisher": "Wikimedia Analytics API",
+      "url": "https://doc.wikimedia.org/generated-data-platform/aqs/analytics-api/reference/page-views.html",
+      "note": "Target official API for daily article pageview time series."
+    }
+  ],
+  "historicalCoverageStart": "20240601",
+  "historicalCoverageEnd": "20260501",
+  "historicalGranularity": "monthly-average-daily",
+  "backfillSource": "Monthly Wikimedia pageviews normalized to average daily pageviews",
+  "backfillGeneratedAt": "2026-06-28T15:08:37.788Z",
+  "historical": {
+    "coverageStart": "20240601",
+    "coverageEnd": "20260501",
+    "granularity": "monthly-average-daily",
+    "source": "Monthly Wikimedia pageviews normalized to average daily pageviews",
+    "generatedAt": "2026-06-28T15:08:37.788Z",
+    "frameCount": 24,
+    "maxFrames": 24,
+    "maxPublicFrames": 72,
+    "notes": [
+      "Monthly pageview totals are divided by days in month so historical values stay comparable with the live daily pageview adapter.",
+      "The current daily adapter still owns the latest observation window."
+    ]
+  },
+  "lastObservationDate": "2026-09-01",
+  "dataFreshness": {
+    "status": "fresh",
+    "refreshCadence": "daily",
+    "lastUpdated": "2026-09-03T06:03:26.958Z",
+    "lastRefreshAttemptedAt": "2026-09-03T06:03:26.958Z",
+    "lastRefreshError": null,
+    "lastObservationDate": "2026-09-01",
+    "nextRefreshAt": "2026-09-04T06:00:00.000Z",
+    "sourceStatus": "Official Wikimedia Pageviews API",
+    "confidence": "Observed daily English Wikipedia article pageviews through 2026-09-01."
+  },
+  "media": {
+    "imageFit": "contain",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-09-03T06:03:26.958Z",
+    "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.webp",
+    "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.webp",
+    "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.json",
+    "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/internet-obsession-meter.json",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 5,
+    "rows": 4,
+    "width": 1600,
+    "height": 1280,
+    "itemCount": 20,
+    "sourcedImageCount": 20,
+    "generatedImageCount": 0,
+    "placeholderCount": 0,
+    "ogImageUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/internet-obsession-meter.png",
+    "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/internet-obsession-meter.png",
+    "ogImageWidth": 1200,
+    "ogImageHeight": 630
+  },
+  "taxonomy": {
+    "primaryCategory": "culture",
+    "categories": [
+      "culture",
+      "internet",
+      "attention"
+    ],
+    "tags": [
+      "wikipedia-pageviews",
+      "celebrities",
+      "events",
+      "trends"
+    ],
+    "entityTypes": [
+      "person",
+      "event",
+      "topic"
+    ],
+    "sourceTypes": [
+      "wikimedia"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "k-pop-attention",
+      "type": "shared-attention-source",
+      "weight": 0.86,
+      "reason": "Both use Wikimedia pageviews to measure cultural attention."
+    },
+    {
+      "target": "top-youtubers",
+      "type": "internet-popularity",
+      "weight": 0.74,
+      "reason": "Both rank online attention and creator/media prominence."
+    },
+    {
+      "target": "what-everyone-is-watching",
+      "type": "culture-trends",
+      "weight": 0.68,
+      "reason": "Both show what audiences are paying attention to."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "culture-attention",
+    "mainland": "culture",
+    "bridgePriority": [
+      "k-pop-attention",
+      "top-youtubers"
+    ]
+  },
+  "schemaVersion": 1,
+  "contentKind": "dat-city.story",
+  "generatedAt": "2026-09-03T06:03:26.958Z",
+  "versionId": "20260903T060326Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "storyops-scheduler",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-09-03T06:03:26.958Z",
+    "versionId": "20260903T060326Z",
+    "adapter": "wikimedia-pageviews",
+    "storySlug": "internet-obsession-meter",
+    "districtId": null,
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "publicProjection": {
+    "kind": "story",
+    "version": 1,
+    "generatedAt": "2026-09-03T06:03:26.958Z",
+    "adapter": "wikimedia-pageviews",
+    "cache": {
+      "browserMaxAgeSeconds": 60,
+      "edgeMaxAgeSeconds": 3600
+    }
+  },
+  "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/internet-obsession-meter.png"
+}

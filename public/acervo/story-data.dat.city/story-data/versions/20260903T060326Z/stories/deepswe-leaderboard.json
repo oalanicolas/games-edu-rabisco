@@ -1,0 +1,3369 @@
+{
+  "id": "deepswe-leaderboard",
+  "kicker": "AI Frontier",
+  "title": "DeepSWE: Frontier Coding Agents",
+  "subtitle": "Frontier models measured by Datacurve's DeepSWE on original, long-horizon software engineering tasks.",
+  "badge": "Ranked by pass rate",
+  "visualization": "race-arena",
+  "theme": "creator-arena",
+  "artStyle": "stylized-editorial",
+  "dateRange": [
+    "20260531",
+    "20260826"
+  ],
+  "timelineTicks": [
+    "20260531",
+    "20260611",
+    "20260620",
+    "20260708",
+    "20260709",
+    "20260710",
+    "20260713",
+    "20260716",
+    "20260717",
+    "20260721",
+    "20260725",
+    "20260804",
+    "20260806",
+    "20260807",
+    "20260813",
+    "20260820",
+    "20260826"
+  ],
+  "metricLabel": "DeepSWE pass rate (%)",
+  "ogImage": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/deepswe-leaderboard.png",
+  "cityPreview": {
+    "districtId": "deep-swe-yards",
+    "districtName": "DeepSWE Yards",
+    "cardLabel": "AI Frontier",
+    "summary": "claude-opus-5 leads DeepSWE v1.1, passing 73.6% of long-horizon tasks.",
+    "primaryMetric": "DeepSWE pass rate (%)",
+    "latestFrameLabel": "2026-08-26 leaderboard",
+    "storyUrl": "/stories/deepswe-leaderboard/",
+    "thumbnail": "/assets/og/dat-city.webp"
+  },
+  "sourceStatus": "DeepSWE v1.1 live leaderboard",
+  "confidence": "Observed 63 DeepSWE v1.1 runs across 26 models at 2026-08-26T07:38:24.821609+00:00.",
+  "methodology": "This adapter reads the public DeepSWE v1.1 live leaderboard published by Datacurve, keeps each frontier model's best run across reasoning efforts on 113 original long-horizon software engineering tasks, ranks them by pass rate, and stores daily StoryOps snapshots so the skyline replays how the coding frontier moves.",
+  "playback": {
+    "durationSeconds": 24,
+    "initialDate": "20260531",
+    "periodLabel": "daily leaderboard snapshots"
+  },
+  "visual": {
+    "topCount": 10,
+    "referenceCount": 16,
+    "horizontalCount": 12
+  },
+  "layers": [
+    {
+      "id": "pass-rate",
+      "label": "Pass rate",
+      "default": true
+    },
+    {
+      "id": "cost",
+      "label": "Cost",
+      "default": true
+    },
+    {
+      "id": "labs",
+      "label": "Labs",
+      "default": true
+    }
+  ],
+  "focus": [
+    {
+      "id": "dsw-claude-opus-5",
+      "label": "claude-opus-5"
+    },
+    {
+      "id": "dsw-gpt-5-6-sol",
+      "label": "gpt-5-6-sol"
+    },
+    {
+      "id": "dsw-claude-fable-5",
+      "label": "claude-fable-5"
+    },
+    {
+      "id": "dsw-gpt-5-6-terra",
+      "label": "gpt-5-6-terra"
+    }
+  ],
+  "entities": [
+    {
+      "id": "dsw-claude-opus-5",
+      "name": "claude-opus-5",
+      "shortName": "claude-opus-5",
+      "creatorName": "Anthropic",
+      "harness": "mini-swe-agent",
+      "reasoningEffort": "max",
+      "passRate": 73.6,
+      "passAt1": 73.6,
+      "passAt4": 88.5,
+      "ciLow": 69.8,
+      "ciHigh": 77.5,
+      "meanCostUsd": 11.84,
+      "medianCostUsd": 10.43,
+      "medianAgentSteps": 90.5,
+      "tasksAttempted": 113,
+      "imageUrl": "https://deepswe.datacurve.ai/icons/Anthropic.svg",
+      "avatarText": "A",
+      "color": "#ff5a61",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.166667,
+          "v1": 0.166667
+        },
+        "image": {
+          "sourceUrl": "https://deepswe.datacurve.ai/icons/Anthropic.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "dsw-gpt-5-6-sol",
+      "name": "gpt-5-6-sol",
+      "shortName": "gpt-5-6-sol",
+      "creatorName": "OpenAI",
+      "harness": "mini-swe-agent",
+      "reasoningEffort": "max",
+      "passRate": 72.7,
+      "passAt1": 72.7,
+      "passAt4": 85.8,
+      "ciLow": 69.8,
+      "ciHigh": 75.5,
+      "meanCostUsd": 8.39,
+      "medianCostUsd": 6.84,
+      "medianAgentSteps": 53,
+      "tasksAttempted": 113,
+      "imageUrl": "https://deepswe.datacurve.ai/icons/OpenAI.svg",
+      "avatarText": "O",
+      "color": "#18c871",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.166667,
+          "v0": 0,
+          "u1": 0.333333,
+          "v1": 0.166667
+        },
+        "image": {
+          "sourceUrl": "https://deepswe.datacurve.ai/icons/OpenAI.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "dsw-gpt-5-5",
+      "name": "gpt-5-5",
+      "shortName": "gpt-5-5",
+      "creatorName": "OpenAI",
+      "harness": "mini-swe-agent",
+      "reasoningEffort": "xhigh",
+      "passRate": 67,
+      "passAt1": 67,
+      "passAt4": 88.5,
+      "ciLow": 60.6,
+      "ciHigh": 73.5,
+      "meanCostUsd": 7.23,
+      "medianCostUsd": 6.11,
+      "medianAgentSteps": 76.5,
+      "tasksAttempted": 113,
+      "imageUrl": "https://deepswe.datacurve.ai/icons/OpenAI.svg",
+      "avatarText": "O",
+      "color": "#7b9b65",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.333333,
+          "v0": 0,
+          "u1": 0.5,
+          "v1": 0.166667
+        },
+        "image": {
+          "sourceUrl": "https://deepswe.datacurve.ai/icons/OpenAI.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "dsw-claude-fable-5",
+      "name": "claude-fable-5",
+      "shortName": "claude-fable-5",
+      "creatorName": "Anthropic",
+      "harness": "mini-swe-agent",
+      "reasoningEffort": "xhigh",
+      "passRate": 69.9,
+      "passAt1": 69.9,
+      "passAt4": 88.5,
+      "ciLow": 66.7,
+      "ciHigh": 73.2,
+      "meanCostUsd": 13.41,
+      "medianCostUsd": 11.34,
+      "medianAgentSteps": 61.5,
+      "tasksAttempted": 113,
+      "imageUrl": "https://deepswe.datacurve.ai/icons/Anthropic.svg",
+      "avatarText": "A",
+      "color": "#ffc84a",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0,
+          "u1": 0.666667,
+          "v1": 0.166667
+        },
+        "image": {
+          "sourceUrl": "https://deepswe.datacurve.ai/icons/Anthropic.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "dsw-gpt-5-6-terra",
+      "name": "gpt-5-6-terra",
+      "shortName": "gpt-5-6-terra",
+      "creatorName": "OpenAI",
+      "harness": "mini-swe-agent",
+      "reasoningEffort": "max",
+      "passRate": 69.6,
+      "passAt1": 69.6,
+      "passAt4": 88.5,
+      "ciLow": 67.1,
+      "ciHigh": 72.2,
+      "meanCostUsd": 4.95,
+      "medianCostUsd": 4.11,
+      "medianAgentSteps": 71,
+      "tasksAttempted": 113,
+      "imageUrl": "https://deepswe.datacurve.ai/icons/OpenAI.svg",
+      "avatarText": "O",
+      "color": "#00a6ff",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "x": 1280,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.666667,
+          "v0": 0,
+          "u1": 0.833333,
+          "v1": 0.166667
+        },
+        "image": {
+          "sourceUrl": "https://deepswe.datacurve.ai/icons/OpenAI.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "dsw-glm-5-3",
+      "name": "glm-5-3",
+      "shortName": "glm-5-3",
+      "creatorName": "Z AI",
+      "harness": "mini-swe-agent",
+      "reasoningEffort": "max",
+      "passRate": 69,
+      "passAt1": 69,
+      "passAt4": 87.6,
+      "ciLow": 65.9,
+      "ciHigh": 72,
+      "meanCostUsd": 3.99,
+      "medianCostUsd": 3.13,
+      "medianAgentSteps": 114,
+      "tasksAttempted": 113,
+      "imageUrl": "https://deepswe.datacurve.ai/icons/ZAI.png",
+      "avatarText": "ZA",
+      "color": "#8f6bff",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "x": 1600,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.833333,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.166667
+        },
+        "image": {
+          "sourceUrl": "https://deepswe.datacurve.ai/icons/ZAI.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "dsw-kimi-k3",
+      "name": "kimi-k3",
+      "shortName": "kimi-k3",
+      "creatorName": "Moonshot",
+      "harness": "mini-swe-agent",
+      "reasoningEffort": "max",
+      "passRate": 68.5,
+      "passAt1": 68.5,
+      "passAt4": 89.4,
+      "ciLow": 64,
+      "ciHigh": 73.1,
+      "meanCostUsd": 4.65,
+      "medianCostUsd": 3.6,
+      "medianAgentSteps": 88,
+      "tasksAttempted": 113,
+      "imageUrl": "https://deepswe.datacurve.ai/icons/Moonshot.png",
+      "avatarText": "M",
+      "color": "#f18c4f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.166667,
+          "u1": 0.166667,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": "https://deepswe.datacurve.ai/icons/Moonshot.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "dsw-grok-4-6",
+      "name": "grok-4-6",
+      "shortName": "grok-4-6",
+      "creatorName": "xAI",
+      "harness": "mini-swe-agent",
+      "reasoningEffort": "medium",
+      "passRate": 67.5,
+      "passAt1": 67.5,
+      "passAt4": 84.1,
+      "ciLow": 65.2,
+      "ciHigh": 69.8,
+      "meanCostUsd": 3.45,
+      "medianCostUsd": 2.95,
+      "medianAgentSteps": 66,
+      "tasksAttempted": 113,
+      "imageUrl": null,
+      "avatarText": "X",
+      "color": "#41a99f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.166667,
+          "v0": 0.166667,
+          "u1": 0.333333,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:dsw-grok-4-6",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "dsw-gpt-5-6-luna",
+      "name": "gpt-5-6-luna",
+      "shortName": "gpt-5-6-luna",
+      "creatorName": "OpenAI",
+      "harness": "mini-swe-agent",
+      "reasoningEffort": "max",
+      "passRate": 67.2,
+      "passAt1": 67.2,
+      "passAt4": 90.3,
+      "ciLow": 63.2,
+      "ciHigh": 71.2,
+      "meanCostUsd": 3.03,
+      "medianCostUsd": 2.29,
+      "medianAgentSteps": 92.5,
+      "tasksAttempted": 113,
+      "imageUrl": "https://deepswe.datacurve.ai/icons/OpenAI.svg",
+      "avatarText": "O",
+      "color": "#d78fca",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.333333,
+          "v0": 0.166667,
+          "u1": 0.5,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": "https://deepswe.datacurve.ai/icons/OpenAI.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "dsw-gemini-3-7-flash",
+      "name": "gemini-3-7-flash",
+      "shortName": "gemini-3-7-flash",
+      "creatorName": "Google",
+      "harness": "mini-swe-agent",
+      "reasoningEffort": "medium",
+      "passRate": 65.5,
+      "passAt1": 65.5,
+      "passAt4": 83.2,
+      "ciLow": 62.4,
+      "ciHigh": 68.6,
+      "meanCostUsd": 2.03,
+      "medianCostUsd": 1.65,
+      "medianAgentSteps": 108,
+      "tasksAttempted": 113,
+      "imageUrl": "https://deepswe.datacurve.ai/icons/Google.svg",
+      "avatarText": "G",
+      "color": "#2f4858",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.166667,
+          "u1": 0.666667,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": "https://deepswe.datacurve.ai/icons/Google.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "dsw-glm-5-3-flash",
+      "name": "glm-5-3-flash",
+      "shortName": "glm-5-3-flash",
+      "creatorName": "Z AI",
+      "harness": "mini-swe-agent",
+      "reasoningEffort": "max",
+      "passRate": 63.4,
+      "passAt1": 63.4,
+      "passAt4": 85,
+      "ciLow": 59,
+      "ciHigh": 67.8,
+      "meanCostUsd": 0.48,
+      "medianCostUsd": 0.39,
+      "medianAgentSteps": 110,
+      "tasksAttempted": 113,
+      "imageUrl": "https://deepswe.datacurve.ai/icons/ZAI.png",
+      "avatarText": "ZA",
+      "color": "#ef426f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "x": 1280,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.666667,
+          "v0": 0.166667,
+          "u1": 0.833333,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": "https://deepswe.datacurve.ai/icons/ZAI.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "dsw-deepseek-v4-pro",
+      "name": "deepseek-v4-pro",
+      "shortName": "deepseek-v4-pro",
+      "avatarText": "D",
+      "color": "#86bdf4",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "x": 1600,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.833333,
+          "v0": 0.166667,
+          "u1": 1,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:dsw-deepseek-v4-pro",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      },
+      "creatorName": "DeepSeek",
+      "harness": "mini-swe-agent",
+      "reasoningEffort": "max",
+      "passRate": 62.8,
+      "passAt1": 62.8,
+      "passAt4": 88.5,
+      "ciLow": 56.5,
+      "ciHigh": 69.2,
+      "meanCostUsd": 0.24,
+      "medianCostUsd": 0.22,
+      "medianAgentSteps": 146,
+      "tasksAttempted": 113,
+      "imageUrl": null
+    },
+    {
+      "id": "dsw-claude-opus-4-8",
+      "name": "claude-opus-4-8",
+      "shortName": "claude-opus-4-8",
+      "creatorName": "Anthropic",
+      "harness": "mini-swe-agent",
+      "reasoningEffort": "max",
+      "passRate": 59,
+      "passAt1": 59,
+      "passAt4": 79.3,
+      "ciLow": 57.2,
+      "ciHigh": 60.7,
+      "meanCostUsd": 13.22,
+      "medianCostUsd": 12.35,
+      "medianAgentSteps": 116,
+      "tasksAttempted": 111,
+      "imageUrl": "https://deepswe.datacurve.ai/icons/Anthropic.svg",
+      "avatarText": "A",
+      "color": "#c9a14a",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.333333,
+          "u1": 0.166667,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://deepswe.datacurve.ai/icons/Anthropic.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "dsw-qwen3-8-max",
+      "name": "qwen3-8-max",
+      "shortName": "qwen3-8-max",
+      "creatorName": null,
+      "harness": "mini-swe-agent",
+      "reasoningEffort": "xhigh",
+      "passRate": 57.5,
+      "passAt1": 57.5,
+      "passAt4": 83.2,
+      "ciLow": 54.8,
+      "ciHigh": 60.1,
+      "meanCostUsd": 3.73,
+      "medianCostUsd": 3.13,
+      "medianAgentSteps": 102,
+      "tasksAttempted": 113,
+      "imageUrl": null,
+      "avatarText": "Q8",
+      "color": "#e34f59",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.166667,
+          "v0": 0.333333,
+          "u1": 0.333333,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:dsw-qwen3-8-max",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "dsw-gpt-5-4",
+      "name": "gpt-5-4",
+      "shortName": "gpt-5-4",
+      "creatorName": "OpenAI",
+      "harness": "mini-swe-agent",
+      "reasoningEffort": "xhigh",
+      "passRate": 51.8,
+      "passAt1": 51.8,
+      "passAt4": 77.9,
+      "ciLow": 50.3,
+      "ciHigh": 53.3,
+      "meanCostUsd": 5.65,
+      "medianCostUsd": 4.35,
+      "medianAgentSteps": 63,
+      "tasksAttempted": 113,
+      "imageUrl": "https://deepswe.datacurve.ai/icons/OpenAI.svg",
+      "avatarText": "O",
+      "color": "#8f6bff",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.333333,
+          "v0": 0.333333,
+          "u1": 0.5,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://deepswe.datacurve.ai/icons/OpenAI.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "dsw-muse-spark-1-2",
+      "name": "muse-spark-1-2",
+      "shortName": "muse-spark-1-2",
+      "creatorName": null,
+      "harness": "mini-swe-agent",
+      "reasoningEffort": "xhigh",
+      "passRate": 54.9,
+      "passAt1": 54.9,
+      "passAt4": 81.4,
+      "ciLow": 52.7,
+      "ciHigh": 57,
+      "meanCostUsd": 3.7,
+      "medianCostUsd": 2.68,
+      "medianAgentSteps": 94,
+      "tasksAttempted": 113,
+      "imageUrl": null,
+      "avatarText": "MS",
+      "color": "#9aa4b2",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.333333,
+          "u1": 0.666667,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:dsw-muse-spark-1-2",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "dsw-claude-opus-4-7",
+      "name": "claude-opus-4-7",
+      "shortName": "claude-opus-4-7",
+      "avatarText": "C",
+      "color": "#ffc84a",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "x": 1280,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.666667,
+          "v0": 0.333333,
+          "u1": 0.833333,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:dsw-claude-opus-4-7",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "dsw-claude-sonnet-5",
+      "name": "claude-sonnet-5",
+      "shortName": "claude-sonnet-5",
+      "creatorName": "Anthropic",
+      "harness": "mini-swe-agent",
+      "reasoningEffort": "max",
+      "passRate": 53.8,
+      "passAt1": 53.8,
+      "passAt4": 78.8,
+      "ciLow": 49.6,
+      "ciHigh": 58.1,
+      "meanCostUsd": 26.4,
+      "medianCostUsd": 23.28,
+      "medianAgentSteps": 260,
+      "tasksAttempted": 113,
+      "imageUrl": "https://deepswe.datacurve.ai/icons/Anthropic.svg",
+      "avatarText": "A",
+      "color": "#ff5a61",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "x": 1600,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.833333,
+          "v0": 0.333333,
+          "u1": 1,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://deepswe.datacurve.ai/icons/Anthropic.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "dsw-grok-4-5",
+      "name": "grok-4-5",
+      "shortName": "grok-4-5",
+      "creatorName": "xAI",
+      "harness": "mini-swe-agent",
+      "reasoningEffort": "high",
+      "passRate": 53.8,
+      "passAt1": 53.8,
+      "passAt4": 77.9,
+      "ciLow": 51.5,
+      "ciHigh": 56,
+      "meanCostUsd": 2.42,
+      "medianCostUsd": 2.02,
+      "medianAgentSteps": 56,
+      "tasksAttempted": 113,
+      "imageUrl": null,
+      "avatarText": "X",
+      "color": "#18c871",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "x": 0,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.5,
+          "u1": 0.166667,
+          "v1": 0.666667
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:dsw-grok-4-5",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "dsw-muse-spark-1-1",
+      "name": "muse-spark-1-1",
+      "shortName": "muse-spark-1-1",
+      "creatorName": null,
+      "harness": "mini-swe-agent",
+      "reasoningEffort": "xhigh",
+      "passRate": 53.3,
+      "passAt1": 53.3,
+      "passAt4": 79.6,
+      "ciLow": 50.3,
+      "ciHigh": 56.4,
+      "meanCostUsd": 2.36,
+      "medianCostUsd": 1.72,
+      "medianAgentSteps": 86,
+      "tasksAttempted": 113,
+      "imageUrl": null,
+      "avatarText": "MS",
+      "color": "#00a6ff",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "x": 320,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.166667,
+          "v0": 0.5,
+          "u1": 0.333333,
+          "v1": 0.666667
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:dsw-muse-spark-1-1",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "dsw-deepseek-v4-flash",
+      "name": "deepseek-v4-flash",
+      "shortName": "deepseek-v4-flash",
+      "creatorName": "DeepSeek",
+      "harness": "mini-swe-agent",
+      "reasoningEffort": "max",
+      "passRate": 53.3,
+      "passAt1": 53.3,
+      "passAt4": 80.5,
+      "ciLow": 49.8,
+      "ciHigh": 56.9,
+      "meanCostUsd": 0.1,
+      "medianCostUsd": 0.09,
+      "medianAgentSteps": 148,
+      "tasksAttempted": 113,
+      "imageUrl": null,
+      "avatarText": "D",
+      "color": "#ffc84a",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "x": 640,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.333333,
+          "v0": 0.5,
+          "u1": 0.5,
+          "v1": 0.666667
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:dsw-deepseek-v4-flash",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "dsw-gemini-3-6-flash",
+      "name": "gemini-3-6-flash",
+      "shortName": "gemini-3-6-flash",
+      "creatorName": "Google",
+      "harness": "mini-swe-agent",
+      "reasoningEffort": "high",
+      "passRate": 46.7,
+      "passAt1": 46.7,
+      "passAt4": 75.2,
+      "ciLow": 43,
+      "ciHigh": 50.4,
+      "meanCostUsd": 4.42,
+      "medianCostUsd": 3.44,
+      "medianAgentSteps": 108,
+      "tasksAttempted": 113,
+      "imageUrl": "https://deepswe.datacurve.ai/icons/Google.svg",
+      "avatarText": "G",
+      "color": "#f18c4f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "x": 960,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.5,
+          "u1": 0.666667,
+          "v1": 0.666667
+        },
+        "image": {
+          "sourceUrl": "https://deepswe.datacurve.ai/icons/Google.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "dsw-glm-5-2",
+      "name": "glm-5-2",
+      "shortName": "glm-5-2",
+      "creatorName": "Z AI",
+      "harness": "mini-swe-agent",
+      "reasoningEffort": "max",
+      "passRate": 43.8,
+      "passAt1": 43.8,
+      "passAt4": 77,
+      "ciLow": 42.1,
+      "ciHigh": 45.5,
+      "meanCostUsd": 3.92,
+      "medianCostUsd": 3.46,
+      "medianAgentSteps": 123,
+      "tasksAttempted": 113,
+      "imageUrl": "https://deepswe.datacurve.ai/icons/ZAI.png",
+      "avatarText": "ZA",
+      "color": "#41a99f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "x": 1280,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.666667,
+          "v0": 0.5,
+          "u1": 0.833333,
+          "v1": 0.666667
+        },
+        "image": {
+          "sourceUrl": "https://deepswe.datacurve.ai/icons/ZAI.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "dsw-gemini-3-5-flash",
+      "name": "gemini-3-5-flash",
+      "shortName": "gemini-3-5-flash",
+      "creatorName": "Google",
+      "harness": "mini-swe-agent",
+      "reasoningEffort": "high",
+      "passRate": 36.1,
+      "passAt1": 36.1,
+      "passAt4": 63.7,
+      "ciLow": 32.1,
+      "ciHigh": 40,
+      "meanCostUsd": 3.45,
+      "medianCostUsd": 2.86,
+      "medianAgentSteps": 97,
+      "tasksAttempted": 113,
+      "imageUrl": "https://deepswe.datacurve.ai/icons/Google.svg",
+      "avatarText": "G",
+      "color": "#d78fca",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "x": 1600,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.833333,
+          "v0": 0.5,
+          "u1": 1,
+          "v1": 0.666667
+        },
+        "image": {
+          "sourceUrl": "https://deepswe.datacurve.ai/icons/Google.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "dsw-claude-sonnet-4-6",
+      "name": "claude-sonnet-4-6",
+      "shortName": "claude-sonnet-4-6",
+      "avatarText": "A",
+      "color": "#2f4858",
+      "creatorName": "Anthropic",
+      "harness": "mini-swe-agent",
+      "reasoningEffort": "high",
+      "passRate": 29.9,
+      "passAt1": 29.9,
+      "passAt4": 56.6,
+      "ciLow": 25.8,
+      "ciHigh": 34,
+      "meanCostUsd": 5.52,
+      "medianCostUsd": 4.87,
+      "medianAgentSteps": 124,
+      "tasksAttempted": 113,
+      "imageUrl": "https://deepswe.datacurve.ai/icons/Anthropic.svg",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "x": 0,
+          "y": 1280,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.666667,
+          "u1": 0.166667,
+          "v1": 0.833333
+        },
+        "image": {
+          "sourceUrl": "https://deepswe.datacurve.ai/icons/Anthropic.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "dsw-kimi-k2-7-code",
+      "name": "kimi-k2-7-code",
+      "shortName": "kimi-k2-7-code",
+      "creatorName": "Moonshot",
+      "harness": "mini-swe-agent",
+      "reasoningEffort": null,
+      "passRate": 30.5,
+      "passAt1": 30.5,
+      "passAt4": 61.1,
+      "ciLow": 30,
+      "ciHigh": 31,
+      "meanCostUsd": 2.82,
+      "medianCostUsd": 2.2,
+      "medianAgentSteps": 139,
+      "tasksAttempted": 113,
+      "imageUrl": "https://deepswe.datacurve.ai/icons/Moonshot.png",
+      "avatarText": "M",
+      "color": "#7b9b65",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "x": 320,
+          "y": 1280,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.166667,
+          "v0": 0.666667,
+          "u1": 0.333333,
+          "v1": 0.833333
+        },
+        "image": {
+          "sourceUrl": "https://deepswe.datacurve.ai/icons/Moonshot.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "dsw-claude-opus-4-6",
+      "name": "claude-opus-4-6",
+      "shortName": "claude-opus-4-6",
+      "avatarText": "C",
+      "color": "#f18c4f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "x": 640,
+          "y": 1280,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.333333,
+          "v0": 0.666667,
+          "u1": 0.5,
+          "v1": 0.833333
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:dsw-claude-opus-4-6",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "dsw-gpt-5-4-mini",
+      "name": "gpt-5-4-mini",
+      "shortName": "gpt-5-4-mini",
+      "avatarText": "G",
+      "color": "#41a99f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "x": 960,
+          "y": 1280,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.666667,
+          "u1": 0.666667,
+          "v1": 0.833333
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:dsw-gpt-5-4-mini",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "dsw-kimi-k2-6",
+      "name": "kimi-k2-6",
+      "shortName": "kimi-k2-6",
+      "avatarText": "K",
+      "color": "#d78fca",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "x": 1280,
+          "y": 1280,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.666667,
+          "v0": 0.666667,
+          "u1": 0.833333,
+          "v1": 0.833333
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:dsw-kimi-k2-6",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "dsw-minimax-m3",
+      "name": "minimax-m3",
+      "shortName": "minimax-m3",
+      "avatarText": "M",
+      "color": "#ffc84a",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "x": 1600,
+          "y": 1280,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.833333,
+          "v0": 0.666667,
+          "u1": 1,
+          "v1": 0.833333
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:dsw-minimax-m3",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "dsw-mimo-v2-5-pro",
+      "name": "mimo-v2-5-pro",
+      "shortName": "mimo-v2-5-pro",
+      "avatarText": "M",
+      "color": "#7b9b65",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "x": 0,
+          "y": 1600,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.833333,
+          "u1": 0.166667,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:dsw-mimo-v2-5-pro",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "dsw-qwen3-7-max",
+      "name": "qwen3-7-max",
+      "shortName": "qwen3-7-max",
+      "avatarText": "Q",
+      "color": "#00a6ff",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "x": 320,
+          "y": 1600,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.166667,
+          "v0": 0.833333,
+          "u1": 0.333333,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:dsw-qwen3-7-max",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    }
+  ],
+  "frames": [
+    {
+      "date": "20260531",
+      "values": [
+        {
+          "id": "dsw-gpt-5-5",
+          "name": "gpt-5-5",
+          "value": 70,
+          "passAt4": 88.3,
+          "medianCostUsd": 5.755558499999999,
+          "sourceId": "dsw-gpt-5-5",
+          "rank": 1
+        },
+        {
+          "id": "dsw-gpt-5-4",
+          "name": "gpt-5-4",
+          "value": 55.5,
+          "passAt4": 77,
+          "medianCostUsd": 3.30643275,
+          "sourceId": "dsw-gpt-5-4",
+          "rank": 2
+        },
+        {
+          "id": "dsw-claude-opus-4-7",
+          "name": "claude-opus-4-7",
+          "value": 54.2,
+          "passAt4": 85.8,
+          "medianCostUsd": 15.951027500000002,
+          "sourceId": "dsw-claude-opus-4-7",
+          "rank": 3
+        },
+        {
+          "id": "dsw-claude-sonnet-4-6",
+          "name": "claude-sonnet-4-6",
+          "value": 31.6,
+          "passAt4": 61.9,
+          "medianCostUsd": 4.751740500000001,
+          "sourceId": "dsw-claude-sonnet-4-6",
+          "rank": 4
+        },
+        {
+          "id": "dsw-gemini-3-5-flash",
+          "name": "gemini-3-5-flash",
+          "value": 28.3,
+          "passAt4": 56.6,
+          "medianCostUsd": 5.6732165000000006,
+          "sourceId": "dsw-gemini-3-5-flash",
+          "rank": 5
+        },
+        {
+          "id": "dsw-claude-opus-4-6",
+          "name": "claude-opus-4-6",
+          "value": 27.1,
+          "passAt4": 50.4,
+          "medianCostUsd": 4.662465875,
+          "sourceId": "dsw-claude-opus-4-6",
+          "rank": 6
+        },
+        {
+          "id": "dsw-gpt-5-4-mini",
+          "name": "gpt-5-4-mini",
+          "value": 24.3,
+          "passAt4": 46,
+          "medianCostUsd": 2.02783005,
+          "sourceId": "dsw-gpt-5-4-mini",
+          "rank": 7
+        },
+        {
+          "id": "dsw-kimi-k2-6",
+          "name": "kimi-k2-6",
+          "value": 23.9,
+          "passAt4": 48.7,
+          "medianCostUsd": 2.6950519500000008,
+          "sourceId": "dsw-kimi-k2-6",
+          "rank": 8
+        },
+        {
+          "id": "dsw-mimo-v2-5-pro",
+          "name": "mimo-v2-5-pro",
+          "value": 19.5,
+          "passAt4": 45.1,
+          "medianCostUsd": 1.6824870000000003,
+          "sourceId": "dsw-mimo-v2-5-pro",
+          "rank": 9
+        },
+        {
+          "id": "dsw-deepseek-v4-pro",
+          "name": "deepseek-v4-pro",
+          "value": 7.5,
+          "passAt4": 18.6,
+          "medianCostUsd": 3.537505265,
+          "sourceId": "dsw-deepseek-v4-pro",
+          "rank": 12
+        }
+      ]
+    },
+    {
+      "date": "20260611",
+      "values": [
+        {
+          "id": "dsw-gpt-5-5",
+          "name": "gpt-5-5",
+          "value": 70,
+          "passAt4": 88.3,
+          "medianCostUsd": 5.755558499999999,
+          "sourceId": "dsw-gpt-5-5",
+          "rank": 1
+        },
+        {
+          "id": "dsw-claude-opus-4-8",
+          "name": "claude-opus-4-8",
+          "value": 58.2,
+          "passAt4": 78.8,
+          "medianCostUsd": 11.281396249999997,
+          "sourceId": "dsw-claude-opus-4-8",
+          "rank": 2
+        },
+        {
+          "id": "dsw-gpt-5-4",
+          "name": "gpt-5-4",
+          "value": 55.5,
+          "passAt4": 77,
+          "medianCostUsd": 3.30643275,
+          "sourceId": "dsw-gpt-5-4",
+          "rank": 3
+        },
+        {
+          "id": "dsw-claude-opus-4-7",
+          "name": "claude-opus-4-7",
+          "value": 54.2,
+          "passAt4": 85.8,
+          "medianCostUsd": 15.951027500000002,
+          "sourceId": "dsw-claude-opus-4-7",
+          "rank": 4
+        },
+        {
+          "id": "dsw-claude-sonnet-4-6",
+          "name": "claude-sonnet-4-6",
+          "value": 31.8,
+          "passAt4": 61.9,
+          "medianCostUsd": 4.751740500000001,
+          "sourceId": "dsw-claude-sonnet-4-6",
+          "rank": 5
+        },
+        {
+          "id": "dsw-gemini-3-5-flash",
+          "name": "gemini-3-5-flash",
+          "value": 28.3,
+          "passAt4": 56.6,
+          "medianCostUsd": 5.6732165000000006,
+          "sourceId": "dsw-gemini-3-5-flash",
+          "rank": 6
+        },
+        {
+          "id": "dsw-claude-opus-4-6",
+          "name": "claude-opus-4-6",
+          "value": 27.6,
+          "passAt4": 50.4,
+          "medianCostUsd": 4.662465875,
+          "sourceId": "dsw-claude-opus-4-6",
+          "rank": 7
+        },
+        {
+          "id": "dsw-gpt-5-4-mini",
+          "name": "gpt-5-4-mini",
+          "value": 24.3,
+          "passAt4": 46,
+          "medianCostUsd": 2.02783005,
+          "sourceId": "dsw-gpt-5-4-mini",
+          "rank": 8
+        },
+        {
+          "id": "dsw-kimi-k2-6",
+          "name": "kimi-k2-6",
+          "value": 23.9,
+          "passAt4": 48.7,
+          "medianCostUsd": 2.6950519500000008,
+          "sourceId": "dsw-kimi-k2-6",
+          "rank": 9
+        },
+        {
+          "id": "dsw-minimax-m3",
+          "name": "minimax-m3",
+          "value": 20.4,
+          "passAt4": 48.7,
+          "medianCostUsd": 5.04354582,
+          "sourceId": "dsw-minimax-m3",
+          "rank": 10
+        },
+        {
+          "id": "dsw-mimo-v2-5-pro",
+          "name": "mimo-v2-5-pro",
+          "value": 19.5,
+          "passAt4": 45.1,
+          "medianCostUsd": 1.6824870000000003,
+          "sourceId": "dsw-mimo-v2-5-pro",
+          "rank": 11
+        },
+        {
+          "id": "dsw-qwen3-7-max",
+          "name": "qwen3-7-max",
+          "value": 17.7,
+          "passAt4": 41.6,
+          "medianCostUsd": 1.8698703749999999,
+          "sourceId": "dsw-qwen3-7-max",
+          "rank": 12
+        },
+        {
+          "id": "dsw-deepseek-v4-pro",
+          "name": "deepseek-v4-pro",
+          "value": 7.5,
+          "passAt4": 18.6,
+          "medianCostUsd": 3.537505265,
+          "sourceId": "dsw-deepseek-v4-pro",
+          "rank": 16
+        }
+      ]
+    },
+    {
+      "date": "20260620",
+      "values": [
+        {
+          "id": "dsw-gpt-5-5",
+          "name": "gpt-5-5",
+          "value": 70,
+          "passAt4": 88.3,
+          "medianCostUsd": 5.755558499999999,
+          "sourceId": "dsw-gpt-5-5",
+          "rank": 1
+        },
+        {
+          "id": "dsw-claude-opus-4-8",
+          "name": "claude-opus-4-8",
+          "value": 58.2,
+          "passAt4": 78.8,
+          "medianCostUsd": 11.281396249999997,
+          "sourceId": "dsw-claude-opus-4-8",
+          "rank": 2
+        },
+        {
+          "id": "dsw-gpt-5-4",
+          "name": "gpt-5-4",
+          "value": 55.5,
+          "passAt4": 77,
+          "medianCostUsd": 3.30643275,
+          "sourceId": "dsw-gpt-5-4",
+          "rank": 3
+        },
+        {
+          "id": "dsw-claude-opus-4-7",
+          "name": "claude-opus-4-7",
+          "value": 54.2,
+          "passAt4": 85.8,
+          "medianCostUsd": 15.951027500000002,
+          "sourceId": "dsw-claude-opus-4-7",
+          "rank": 4
+        },
+        {
+          "id": "dsw-glm-5-2",
+          "name": "glm-5-2",
+          "value": 41.5,
+          "passAt4": 69.9,
+          "medianCostUsd": 3.3501246799999995,
+          "sourceId": "dsw-glm-5-2",
+          "rank": 5
+        },
+        {
+          "id": "dsw-claude-sonnet-4-6",
+          "name": "claude-sonnet-4-6",
+          "value": 31.8,
+          "passAt4": 61.9,
+          "medianCostUsd": 4.751740500000001,
+          "sourceId": "dsw-claude-sonnet-4-6",
+          "rank": 6
+        },
+        {
+          "id": "dsw-gemini-3-5-flash",
+          "name": "gemini-3-5-flash",
+          "value": 28.3,
+          "passAt4": 56.6,
+          "medianCostUsd": 5.6732165000000006,
+          "sourceId": "dsw-gemini-3-5-flash",
+          "rank": 7
+        },
+        {
+          "id": "dsw-claude-opus-4-6",
+          "name": "claude-opus-4-6",
+          "value": 27.6,
+          "passAt4": 50.4,
+          "medianCostUsd": 4.662465875,
+          "sourceId": "dsw-claude-opus-4-6",
+          "rank": 8
+        },
+        {
+          "id": "dsw-gpt-5-4-mini",
+          "name": "gpt-5-4-mini",
+          "value": 24.3,
+          "passAt4": 46,
+          "medianCostUsd": 2.02783005,
+          "sourceId": "dsw-gpt-5-4-mini",
+          "rank": 9
+        },
+        {
+          "id": "dsw-kimi-k2-6",
+          "name": "kimi-k2-6",
+          "value": 23.9,
+          "passAt4": 48.7,
+          "medianCostUsd": 2.6950519500000008,
+          "sourceId": "dsw-kimi-k2-6",
+          "rank": 10
+        },
+        {
+          "id": "dsw-minimax-m3",
+          "name": "minimax-m3",
+          "value": 20.4,
+          "passAt4": 48.7,
+          "medianCostUsd": 5.04354582,
+          "sourceId": "dsw-minimax-m3",
+          "rank": 11
+        },
+        {
+          "id": "dsw-mimo-v2-5-pro",
+          "name": "mimo-v2-5-pro",
+          "value": 19.5,
+          "passAt4": 45.1,
+          "medianCostUsd": 1.6824870000000003,
+          "sourceId": "dsw-mimo-v2-5-pro",
+          "rank": 12
+        },
+        {
+          "id": "dsw-qwen3-7-max",
+          "name": "qwen3-7-max",
+          "value": 17.7,
+          "passAt4": 41.6,
+          "medianCostUsd": 1.8698703749999999,
+          "sourceId": "dsw-qwen3-7-max",
+          "rank": 13
+        },
+        {
+          "id": "dsw-deepseek-v4-pro",
+          "name": "deepseek-v4-pro",
+          "value": 7.5,
+          "passAt4": 18.6,
+          "medianCostUsd": 3.537505265,
+          "sourceId": "dsw-deepseek-v4-pro",
+          "rank": 17
+        }
+      ]
+    },
+    {
+      "date": "20260708",
+      "values": [
+        {
+          "id": "dsw-gpt-5-6-sol",
+          "value": 72.7,
+          "passAt4": 85.8,
+          "medianCostUsd": 6.84
+        },
+        {
+          "id": "dsw-claude-fable-5",
+          "value": 69.9,
+          "passAt4": 88.5,
+          "medianCostUsd": 11.34
+        },
+        {
+          "id": "dsw-gpt-5-6-terra",
+          "value": 69.6,
+          "passAt4": 88.5,
+          "medianCostUsd": 4.11
+        },
+        {
+          "id": "dsw-gpt-5-6-luna",
+          "value": 67.2,
+          "passAt4": 90.3,
+          "medianCostUsd": 2.29
+        },
+        {
+          "id": "dsw-gpt-5-5",
+          "value": 67,
+          "passAt4": 88.5,
+          "medianCostUsd": 6.11
+        },
+        {
+          "id": "dsw-claude-opus-4-8",
+          "value": 59,
+          "passAt4": 79.3,
+          "medianCostUsd": 12.35
+        },
+        {
+          "id": "dsw-claude-sonnet-5",
+          "value": 53.8,
+          "passAt4": 78.8,
+          "medianCostUsd": 23.28
+        },
+        {
+          "id": "dsw-gpt-5-4",
+          "value": 51.8,
+          "passAt4": 77.9,
+          "medianCostUsd": 4.35
+        },
+        {
+          "id": "dsw-glm-5-2",
+          "value": 43.8,
+          "passAt4": 77,
+          "medianCostUsd": 3.46
+        },
+        {
+          "id": "dsw-gemini-3-5-flash",
+          "value": 37.4,
+          "passAt4": 66.4,
+          "medianCostUsd": 6.28
+        },
+        {
+          "id": "dsw-kimi-k2-7-code",
+          "value": 30.5,
+          "passAt4": 61.1,
+          "medianCostUsd": 2.2
+        }
+      ]
+    },
+    {
+      "date": "20260709",
+      "values": [
+        {
+          "id": "dsw-gpt-5-6-sol",
+          "value": 72.7,
+          "passAt4": 85.8,
+          "medianCostUsd": 6.84
+        },
+        {
+          "id": "dsw-claude-fable-5",
+          "value": 69.9,
+          "passAt4": 88.5,
+          "medianCostUsd": 11.34
+        },
+        {
+          "id": "dsw-gpt-5-6-terra",
+          "value": 69.6,
+          "passAt4": 88.5,
+          "medianCostUsd": 4.11
+        },
+        {
+          "id": "dsw-gpt-5-6-luna",
+          "value": 67.2,
+          "passAt4": 90.3,
+          "medianCostUsd": 2.29
+        },
+        {
+          "id": "dsw-gpt-5-5",
+          "value": 67,
+          "passAt4": 88.5,
+          "medianCostUsd": 6.11
+        },
+        {
+          "id": "dsw-claude-opus-4-8",
+          "value": 59,
+          "passAt4": 79.3,
+          "medianCostUsd": 12.35
+        },
+        {
+          "id": "dsw-claude-sonnet-5",
+          "value": 53.8,
+          "passAt4": 78.8,
+          "medianCostUsd": 23.28
+        },
+        {
+          "id": "dsw-gpt-5-4",
+          "value": 51.8,
+          "passAt4": 77.9,
+          "medianCostUsd": 4.35
+        },
+        {
+          "id": "dsw-glm-5-2",
+          "value": 43.8,
+          "passAt4": 77,
+          "medianCostUsd": 3.46
+        },
+        {
+          "id": "dsw-gemini-3-5-flash",
+          "value": 37.4,
+          "passAt4": 66.4,
+          "medianCostUsd": 6.28
+        },
+        {
+          "id": "dsw-kimi-k2-7-code",
+          "value": 30.5,
+          "passAt4": 61.1,
+          "medianCostUsd": 2.2
+        },
+        {
+          "id": "dsw-claude-sonnet-4-6",
+          "value": 29.9,
+          "passAt4": 56.6,
+          "medianCostUsd": 4.87
+        }
+      ]
+    },
+    {
+      "date": "20260710",
+      "values": [
+        {
+          "id": "dsw-gpt-5-6-sol",
+          "value": 72.7,
+          "passAt4": 85.8,
+          "medianCostUsd": 6.84
+        },
+        {
+          "id": "dsw-claude-fable-5",
+          "value": 69.9,
+          "passAt4": 88.5,
+          "medianCostUsd": 11.34
+        },
+        {
+          "id": "dsw-gpt-5-6-terra",
+          "value": 69.6,
+          "passAt4": 88.5,
+          "medianCostUsd": 4.11
+        },
+        {
+          "id": "dsw-gpt-5-6-luna",
+          "value": 67.2,
+          "passAt4": 90.3,
+          "medianCostUsd": 2.29
+        },
+        {
+          "id": "dsw-gpt-5-5",
+          "value": 67,
+          "passAt4": 88.5,
+          "medianCostUsd": 6.11
+        },
+        {
+          "id": "dsw-claude-opus-4-8",
+          "value": 59,
+          "passAt4": 79.3,
+          "medianCostUsd": 12.35
+        },
+        {
+          "id": "dsw-claude-sonnet-5",
+          "value": 53.8,
+          "passAt4": 78.8,
+          "medianCostUsd": 23.28
+        },
+        {
+          "id": "dsw-muse-spark-1-1",
+          "value": 52.2,
+          "passAt4": 77,
+          "medianCostUsd": 2.78
+        },
+        {
+          "id": "dsw-gpt-5-4",
+          "value": 51.8,
+          "passAt4": 77.9,
+          "medianCostUsd": 4.35
+        },
+        {
+          "id": "dsw-glm-5-2",
+          "value": 43.8,
+          "passAt4": 77,
+          "medianCostUsd": 3.46
+        },
+        {
+          "id": "dsw-gemini-3-5-flash",
+          "value": 37.4,
+          "passAt4": 66.4,
+          "medianCostUsd": 6.28
+        },
+        {
+          "id": "dsw-kimi-k2-7-code",
+          "value": 30.5,
+          "passAt4": 61.1,
+          "medianCostUsd": 2.2
+        },
+        {
+          "id": "dsw-claude-sonnet-4-6",
+          "value": 29.9,
+          "passAt4": 56.6,
+          "medianCostUsd": 4.87
+        }
+      ]
+    },
+    {
+      "date": "20260713",
+      "values": [
+        {
+          "id": "dsw-gpt-5-6-sol",
+          "value": 72.7,
+          "passAt4": 85.8,
+          "medianCostUsd": 6.84
+        },
+        {
+          "id": "dsw-claude-fable-5",
+          "value": 69.9,
+          "passAt4": 88.5,
+          "medianCostUsd": 11.34
+        },
+        {
+          "id": "dsw-gpt-5-6-terra",
+          "value": 69.6,
+          "passAt4": 88.5,
+          "medianCostUsd": 4.11
+        },
+        {
+          "id": "dsw-gpt-5-6-luna",
+          "value": 67.2,
+          "passAt4": 90.3,
+          "medianCostUsd": 2.29
+        },
+        {
+          "id": "dsw-gpt-5-5",
+          "value": 67,
+          "passAt4": 88.5,
+          "medianCostUsd": 6.11
+        },
+        {
+          "id": "dsw-claude-opus-4-8",
+          "value": 59,
+          "passAt4": 79.3,
+          "medianCostUsd": 12.35
+        },
+        {
+          "id": "dsw-claude-sonnet-5",
+          "value": 53.8,
+          "passAt4": 78.8,
+          "medianCostUsd": 23.28
+        },
+        {
+          "id": "dsw-muse-spark-1-1",
+          "value": 53.3,
+          "passAt4": 79.6,
+          "medianCostUsd": 1.72
+        },
+        {
+          "id": "dsw-gpt-5-4",
+          "value": 51.8,
+          "passAt4": 77.9,
+          "medianCostUsd": 4.35
+        },
+        {
+          "id": "dsw-glm-5-2",
+          "value": 43.8,
+          "passAt4": 77,
+          "medianCostUsd": 3.46
+        },
+        {
+          "id": "dsw-gemini-3-5-flash",
+          "value": 37.4,
+          "passAt4": 66.4,
+          "medianCostUsd": 6.28
+        },
+        {
+          "id": "dsw-kimi-k2-7-code",
+          "value": 30.5,
+          "passAt4": 61.1,
+          "medianCostUsd": 2.2
+        },
+        {
+          "id": "dsw-claude-sonnet-4-6",
+          "value": 29.9,
+          "passAt4": 56.6,
+          "medianCostUsd": 4.87
+        }
+      ]
+    },
+    {
+      "date": "20260716",
+      "values": [
+        {
+          "id": "dsw-gpt-5-6-sol",
+          "value": 72.7,
+          "passAt4": 85.8,
+          "medianCostUsd": 6.84
+        },
+        {
+          "id": "dsw-claude-fable-5",
+          "value": 69.9,
+          "passAt4": 88.5,
+          "medianCostUsd": 11.34
+        },
+        {
+          "id": "dsw-gpt-5-6-terra",
+          "value": 69.6,
+          "passAt4": 88.5,
+          "medianCostUsd": 4.11
+        },
+        {
+          "id": "dsw-gpt-5-6-luna",
+          "value": 67.2,
+          "passAt4": 90.3,
+          "medianCostUsd": 2.29
+        },
+        {
+          "id": "dsw-gpt-5-5",
+          "value": 67,
+          "passAt4": 88.5,
+          "medianCostUsd": 6.11
+        },
+        {
+          "id": "dsw-claude-opus-4-8",
+          "value": 59,
+          "passAt4": 79.3,
+          "medianCostUsd": 12.35
+        },
+        {
+          "id": "dsw-claude-sonnet-5",
+          "value": 53.8,
+          "passAt4": 78.8,
+          "medianCostUsd": 23.28
+        },
+        {
+          "id": "dsw-grok-4-5",
+          "value": 53.8,
+          "passAt4": 77.9,
+          "medianCostUsd": 2.02
+        },
+        {
+          "id": "dsw-muse-spark-1-1",
+          "value": 53.3,
+          "passAt4": 79.6,
+          "medianCostUsd": 1.72
+        },
+        {
+          "id": "dsw-gpt-5-4",
+          "value": 51.8,
+          "passAt4": 77.9,
+          "medianCostUsd": 4.35
+        },
+        {
+          "id": "dsw-glm-5-2",
+          "value": 43.8,
+          "passAt4": 77,
+          "medianCostUsd": 3.46
+        },
+        {
+          "id": "dsw-gemini-3-5-flash",
+          "value": 37.4,
+          "passAt4": 66.4,
+          "medianCostUsd": 6.28
+        },
+        {
+          "id": "dsw-kimi-k2-7-code",
+          "value": 30.5,
+          "passAt4": 61.1,
+          "medianCostUsd": 2.2
+        },
+        {
+          "id": "dsw-claude-sonnet-4-6",
+          "value": 29.9,
+          "passAt4": 56.6,
+          "medianCostUsd": 4.87
+        }
+      ]
+    },
+    {
+      "date": "20260717",
+      "values": [
+        {
+          "id": "dsw-gpt-5-6-sol",
+          "value": 72.7,
+          "passAt4": 85.8,
+          "medianCostUsd": 6.84
+        },
+        {
+          "id": "dsw-claude-fable-5",
+          "value": 69.9,
+          "passAt4": 88.5,
+          "medianCostUsd": 11.34
+        },
+        {
+          "id": "dsw-gpt-5-6-terra",
+          "value": 69.6,
+          "passAt4": 88.5,
+          "medianCostUsd": 4.11
+        },
+        {
+          "id": "dsw-kimi-k3",
+          "value": 68.5,
+          "passAt4": 89.4,
+          "medianCostUsd": 3.6
+        },
+        {
+          "id": "dsw-gpt-5-6-luna",
+          "value": 67.2,
+          "passAt4": 90.3,
+          "medianCostUsd": 2.29
+        },
+        {
+          "id": "dsw-gpt-5-5",
+          "value": 67,
+          "passAt4": 88.5,
+          "medianCostUsd": 6.11
+        },
+        {
+          "id": "dsw-claude-opus-4-8",
+          "value": 59,
+          "passAt4": 79.3,
+          "medianCostUsd": 12.35
+        },
+        {
+          "id": "dsw-claude-sonnet-5",
+          "value": 53.8,
+          "passAt4": 78.8,
+          "medianCostUsd": 23.28
+        },
+        {
+          "id": "dsw-grok-4-5",
+          "value": 53.8,
+          "passAt4": 77.9,
+          "medianCostUsd": 2.02
+        },
+        {
+          "id": "dsw-muse-spark-1-1",
+          "value": 53.3,
+          "passAt4": 79.6,
+          "medianCostUsd": 1.72
+        },
+        {
+          "id": "dsw-gpt-5-4",
+          "value": 51.8,
+          "passAt4": 77.9,
+          "medianCostUsd": 4.35
+        },
+        {
+          "id": "dsw-glm-5-2",
+          "value": 43.8,
+          "passAt4": 77,
+          "medianCostUsd": 3.46
+        },
+        {
+          "id": "dsw-gemini-3-5-flash",
+          "value": 37.4,
+          "passAt4": 66.4,
+          "medianCostUsd": 6.28
+        },
+        {
+          "id": "dsw-kimi-k2-7-code",
+          "value": 30.5,
+          "passAt4": 61.1,
+          "medianCostUsd": 2.2
+        },
+        {
+          "id": "dsw-claude-sonnet-4-6",
+          "value": 29.9,
+          "passAt4": 56.6,
+          "medianCostUsd": 4.87
+        }
+      ]
+    },
+    {
+      "date": "20260721",
+      "values": [
+        {
+          "id": "dsw-gpt-5-6-sol",
+          "value": 72.7,
+          "passAt4": 85.8,
+          "medianCostUsd": 6.84
+        },
+        {
+          "id": "dsw-claude-fable-5",
+          "value": 69.9,
+          "passAt4": 88.5,
+          "medianCostUsd": 11.34
+        },
+        {
+          "id": "dsw-gpt-5-6-terra",
+          "value": 69.6,
+          "passAt4": 88.5,
+          "medianCostUsd": 4.11
+        },
+        {
+          "id": "dsw-kimi-k3",
+          "value": 68.5,
+          "passAt4": 89.4,
+          "medianCostUsd": 3.6
+        },
+        {
+          "id": "dsw-gpt-5-6-luna",
+          "value": 67.2,
+          "passAt4": 90.3,
+          "medianCostUsd": 2.29
+        },
+        {
+          "id": "dsw-gpt-5-5",
+          "value": 67,
+          "passAt4": 88.5,
+          "medianCostUsd": 6.11
+        },
+        {
+          "id": "dsw-claude-opus-4-8",
+          "value": 59,
+          "passAt4": 79.3,
+          "medianCostUsd": 12.35
+        },
+        {
+          "id": "dsw-claude-sonnet-5",
+          "value": 53.8,
+          "passAt4": 78.8,
+          "medianCostUsd": 23.28
+        },
+        {
+          "id": "dsw-grok-4-5",
+          "value": 53.8,
+          "passAt4": 77.9,
+          "medianCostUsd": 2.02
+        },
+        {
+          "id": "dsw-muse-spark-1-1",
+          "value": 53.3,
+          "passAt4": 79.6,
+          "medianCostUsd": 1.72
+        },
+        {
+          "id": "dsw-gpt-5-4",
+          "value": 51.8,
+          "passAt4": 77.9,
+          "medianCostUsd": 4.35
+        },
+        {
+          "id": "dsw-gemini-3-6-flash",
+          "value": 48.6,
+          "passAt4": 76.1,
+          "medianCostUsd": 2.65
+        },
+        {
+          "id": "dsw-glm-5-2",
+          "value": 43.8,
+          "passAt4": 77,
+          "medianCostUsd": 3.46
+        },
+        {
+          "id": "dsw-gemini-3-5-flash",
+          "value": 37.4,
+          "passAt4": 66.4,
+          "medianCostUsd": 6.28
+        },
+        {
+          "id": "dsw-kimi-k2-7-code",
+          "value": 30.5,
+          "passAt4": 61.1,
+          "medianCostUsd": 2.2
+        },
+        {
+          "id": "dsw-claude-sonnet-4-6",
+          "value": 29.9,
+          "passAt4": 56.6,
+          "medianCostUsd": 4.87
+        }
+      ]
+    },
+    {
+      "date": "20260725",
+      "values": [
+        {
+          "id": "dsw-claude-opus-5",
+          "value": 73.6,
+          "passAt4": 88.5,
+          "medianCostUsd": 10.43
+        },
+        {
+          "id": "dsw-gpt-5-6-sol",
+          "value": 72.7,
+          "passAt4": 85.8,
+          "medianCostUsd": 6.84
+        },
+        {
+          "id": "dsw-claude-fable-5",
+          "value": 69.9,
+          "passAt4": 88.5,
+          "medianCostUsd": 11.34
+        },
+        {
+          "id": "dsw-gpt-5-6-terra",
+          "value": 69.6,
+          "passAt4": 88.5,
+          "medianCostUsd": 4.11
+        },
+        {
+          "id": "dsw-kimi-k3",
+          "value": 68.5,
+          "passAt4": 89.4,
+          "medianCostUsd": 3.6
+        },
+        {
+          "id": "dsw-gpt-5-6-luna",
+          "value": 67.2,
+          "passAt4": 90.3,
+          "medianCostUsd": 2.29
+        },
+        {
+          "id": "dsw-gpt-5-5",
+          "value": 67,
+          "passAt4": 88.5,
+          "medianCostUsd": 6.11
+        },
+        {
+          "id": "dsw-claude-opus-4-8",
+          "value": 59,
+          "passAt4": 79.3,
+          "medianCostUsd": 12.35
+        },
+        {
+          "id": "dsw-claude-sonnet-5",
+          "value": 53.8,
+          "passAt4": 78.8,
+          "medianCostUsd": 23.28
+        },
+        {
+          "id": "dsw-grok-4-5",
+          "value": 53.8,
+          "passAt4": 77.9,
+          "medianCostUsd": 2.02
+        },
+        {
+          "id": "dsw-muse-spark-1-1",
+          "value": 53.3,
+          "passAt4": 79.6,
+          "medianCostUsd": 1.72
+        },
+        {
+          "id": "dsw-gpt-5-4",
+          "value": 51.8,
+          "passAt4": 77.9,
+          "medianCostUsd": 4.35
+        },
+        {
+          "id": "dsw-gemini-3-6-flash",
+          "value": 48.6,
+          "passAt4": 76.1,
+          "medianCostUsd": 2.65
+        },
+        {
+          "id": "dsw-glm-5-2",
+          "value": 43.8,
+          "passAt4": 77,
+          "medianCostUsd": 3.46
+        },
+        {
+          "id": "dsw-gemini-3-5-flash",
+          "value": 37.4,
+          "passAt4": 66.4,
+          "medianCostUsd": 6.28
+        },
+        {
+          "id": "dsw-kimi-k2-7-code",
+          "value": 30.5,
+          "passAt4": 61.1,
+          "medianCostUsd": 2.2
+        },
+        {
+          "id": "dsw-claude-sonnet-4-6",
+          "value": 29.9,
+          "passAt4": 56.6,
+          "medianCostUsd": 4.87
+        }
+      ]
+    },
+    {
+      "date": "20260804",
+      "values": [
+        {
+          "id": "dsw-claude-opus-5",
+          "value": 73.6,
+          "passAt4": 88.5,
+          "medianCostUsd": 10.43
+        },
+        {
+          "id": "dsw-gpt-5-6-sol",
+          "value": 72.7,
+          "passAt4": 85.8,
+          "medianCostUsd": 6.84
+        },
+        {
+          "id": "dsw-claude-fable-5",
+          "value": 69.9,
+          "passAt4": 88.5,
+          "medianCostUsd": 11.34
+        },
+        {
+          "id": "dsw-gpt-5-6-terra",
+          "value": 69.6,
+          "passAt4": 88.5,
+          "medianCostUsd": 4.11
+        },
+        {
+          "id": "dsw-kimi-k3",
+          "value": 68.5,
+          "passAt4": 89.4,
+          "medianCostUsd": 3.6
+        },
+        {
+          "id": "dsw-gpt-5-6-luna",
+          "value": 67.2,
+          "passAt4": 90.3,
+          "medianCostUsd": 2.29
+        },
+        {
+          "id": "dsw-gpt-5-5",
+          "value": 67,
+          "passAt4": 88.5,
+          "medianCostUsd": 6.11
+        },
+        {
+          "id": "dsw-claude-opus-4-8",
+          "value": 59,
+          "passAt4": 79.3,
+          "medianCostUsd": 12.35
+        },
+        {
+          "id": "dsw-qwen3-8-max",
+          "value": 57.5,
+          "passAt4": 83.2,
+          "medianCostUsd": 3.13
+        },
+        {
+          "id": "dsw-claude-sonnet-5",
+          "value": 53.8,
+          "passAt4": 78.8,
+          "medianCostUsd": 23.28
+        },
+        {
+          "id": "dsw-grok-4-5",
+          "value": 53.8,
+          "passAt4": 77.9,
+          "medianCostUsd": 2.02
+        },
+        {
+          "id": "dsw-muse-spark-1-1",
+          "value": 53.3,
+          "passAt4": 79.6,
+          "medianCostUsd": 1.72
+        },
+        {
+          "id": "dsw-gpt-5-4",
+          "value": 51.8,
+          "passAt4": 77.9,
+          "medianCostUsd": 4.35
+        },
+        {
+          "id": "dsw-gemini-3-6-flash",
+          "value": 48.6,
+          "passAt4": 76.1,
+          "medianCostUsd": 2.65
+        },
+        {
+          "id": "dsw-glm-5-2",
+          "value": 43.8,
+          "passAt4": 77,
+          "medianCostUsd": 3.46
+        },
+        {
+          "id": "dsw-gemini-3-5-flash",
+          "value": 37.4,
+          "passAt4": 66.4,
+          "medianCostUsd": 6.28
+        },
+        {
+          "id": "dsw-kimi-k2-7-code",
+          "value": 30.5,
+          "passAt4": 61.1,
+          "medianCostUsd": 2.2
+        },
+        {
+          "id": "dsw-claude-sonnet-4-6",
+          "value": 29.9,
+          "passAt4": 56.6,
+          "medianCostUsd": 4.87
+        }
+      ]
+    },
+    {
+      "date": "20260806",
+      "values": [
+        {
+          "id": "dsw-claude-opus-5",
+          "value": 73.6,
+          "passAt4": 88.5,
+          "medianCostUsd": 10.43
+        },
+        {
+          "id": "dsw-gpt-5-6-sol",
+          "value": 72.7,
+          "passAt4": 85.8,
+          "medianCostUsd": 6.84
+        },
+        {
+          "id": "dsw-claude-fable-5",
+          "value": 69.9,
+          "passAt4": 88.5,
+          "medianCostUsd": 11.34
+        },
+        {
+          "id": "dsw-gpt-5-6-terra",
+          "value": 69.6,
+          "passAt4": 88.5,
+          "medianCostUsd": 4.11
+        },
+        {
+          "id": "dsw-kimi-k3",
+          "value": 68.5,
+          "passAt4": 89.4,
+          "medianCostUsd": 3.6
+        },
+        {
+          "id": "dsw-gpt-5-6-luna",
+          "value": 67.2,
+          "passAt4": 90.3,
+          "medianCostUsd": 2.29
+        },
+        {
+          "id": "dsw-gpt-5-5",
+          "value": 67,
+          "passAt4": 88.5,
+          "medianCostUsd": 6.11
+        },
+        {
+          "id": "dsw-claude-opus-4-8",
+          "value": 59,
+          "passAt4": 79.3,
+          "medianCostUsd": 12.35
+        },
+        {
+          "id": "dsw-qwen3-8-max",
+          "value": 57.5,
+          "passAt4": 83.2,
+          "medianCostUsd": 3.13
+        },
+        {
+          "id": "dsw-claude-sonnet-5",
+          "value": 53.8,
+          "passAt4": 78.8,
+          "medianCostUsd": 23.28
+        },
+        {
+          "id": "dsw-grok-4-5",
+          "value": 53.8,
+          "passAt4": 77.9,
+          "medianCostUsd": 2.02
+        },
+        {
+          "id": "dsw-deepseek-v4-flash",
+          "value": 53.3,
+          "passAt4": 80.5,
+          "medianCostUsd": 0.09
+        },
+        {
+          "id": "dsw-muse-spark-1-1",
+          "value": 53.3,
+          "passAt4": 79.6,
+          "medianCostUsd": 1.72
+        },
+        {
+          "id": "dsw-gpt-5-4",
+          "value": 51.8,
+          "passAt4": 77.9,
+          "medianCostUsd": 4.35
+        },
+        {
+          "id": "dsw-gemini-3-6-flash",
+          "value": 48.6,
+          "passAt4": 76.1,
+          "medianCostUsd": 2.65
+        },
+        {
+          "id": "dsw-glm-5-2",
+          "value": 43.8,
+          "passAt4": 77,
+          "medianCostUsd": 3.46
+        },
+        {
+          "id": "dsw-gemini-3-5-flash",
+          "value": 37.4,
+          "passAt4": 66.4,
+          "medianCostUsd": 6.28
+        },
+        {
+          "id": "dsw-kimi-k2-7-code",
+          "value": 30.5,
+          "passAt4": 61.1,
+          "medianCostUsd": 2.2
+        },
+        {
+          "id": "dsw-claude-sonnet-4-6",
+          "value": 29.9,
+          "passAt4": 56.6,
+          "medianCostUsd": 4.87
+        }
+      ]
+    },
+    {
+      "date": "20260807",
+      "values": [
+        {
+          "id": "dsw-claude-opus-5",
+          "value": 73.6,
+          "passAt4": 88.5,
+          "medianCostUsd": 10.43
+        },
+        {
+          "id": "dsw-gpt-5-6-sol",
+          "value": 72.7,
+          "passAt4": 85.8,
+          "medianCostUsd": 6.84
+        },
+        {
+          "id": "dsw-claude-fable-5",
+          "value": 69.9,
+          "passAt4": 88.5,
+          "medianCostUsd": 11.34
+        },
+        {
+          "id": "dsw-gpt-5-6-terra",
+          "value": 69.6,
+          "passAt4": 88.5,
+          "medianCostUsd": 4.11
+        },
+        {
+          "id": "dsw-kimi-k3",
+          "value": 68.5,
+          "passAt4": 89.4,
+          "medianCostUsd": 3.6
+        },
+        {
+          "id": "dsw-gpt-5-6-luna",
+          "value": 67.2,
+          "passAt4": 90.3,
+          "medianCostUsd": 2.29
+        },
+        {
+          "id": "dsw-gpt-5-5",
+          "value": 67,
+          "passAt4": 88.5,
+          "medianCostUsd": 6.11
+        },
+        {
+          "id": "dsw-claude-opus-4-8",
+          "value": 59,
+          "passAt4": 79.3,
+          "medianCostUsd": 12.35
+        },
+        {
+          "id": "dsw-qwen3-8-max",
+          "value": 57.5,
+          "passAt4": 83.2,
+          "medianCostUsd": 3.13
+        },
+        {
+          "id": "dsw-muse-spark-1-2",
+          "value": 54.9,
+          "passAt4": 81.4,
+          "medianCostUsd": 2.68
+        },
+        {
+          "id": "dsw-claude-sonnet-5",
+          "value": 53.8,
+          "passAt4": 78.8,
+          "medianCostUsd": 23.28
+        },
+        {
+          "id": "dsw-grok-4-5",
+          "value": 53.8,
+          "passAt4": 77.9,
+          "medianCostUsd": 2.02
+        },
+        {
+          "id": "dsw-deepseek-v4-flash",
+          "value": 53.3,
+          "passAt4": 80.5,
+          "medianCostUsd": 0.09
+        },
+        {
+          "id": "dsw-muse-spark-1-1",
+          "value": 53.3,
+          "passAt4": 79.6,
+          "medianCostUsd": 1.72
+        },
+        {
+          "id": "dsw-gpt-5-4",
+          "value": 51.8,
+          "passAt4": 77.9,
+          "medianCostUsd": 4.35
+        },
+        {
+          "id": "dsw-gemini-3-6-flash",
+          "value": 48.6,
+          "passAt4": 76.1,
+          "medianCostUsd": 2.65
+        },
+        {
+          "id": "dsw-glm-5-2",
+          "value": 43.8,
+          "passAt4": 77,
+          "medianCostUsd": 3.46
+        },
+        {
+          "id": "dsw-gemini-3-5-flash",
+          "value": 37.4,
+          "passAt4": 66.4,
+          "medianCostUsd": 6.28
+        },
+        {
+          "id": "dsw-kimi-k2-7-code",
+          "value": 30.5,
+          "passAt4": 61.1,
+          "medianCostUsd": 2.2
+        },
+        {
+          "id": "dsw-claude-sonnet-4-6",
+          "value": 29.9,
+          "passAt4": 56.6,
+          "medianCostUsd": 4.87
+        }
+      ]
+    },
+    {
+      "date": "20260813",
+      "values": [
+        {
+          "id": "dsw-claude-opus-5",
+          "value": 73.6,
+          "passAt4": 88.5,
+          "medianCostUsd": 10.43
+        },
+        {
+          "id": "dsw-gpt-5-6-sol",
+          "value": 72.7,
+          "passAt4": 85.8,
+          "medianCostUsd": 6.84
+        },
+        {
+          "id": "dsw-claude-fable-5",
+          "value": 69.9,
+          "passAt4": 88.5,
+          "medianCostUsd": 11.34
+        },
+        {
+          "id": "dsw-gpt-5-6-terra",
+          "value": 69.6,
+          "passAt4": 88.5,
+          "medianCostUsd": 4.11
+        },
+        {
+          "id": "dsw-kimi-k3",
+          "value": 68.5,
+          "passAt4": 89.4,
+          "medianCostUsd": 3.6
+        },
+        {
+          "id": "dsw-grok-4-6",
+          "value": 67.5,
+          "passAt4": 84.1,
+          "medianCostUsd": 2.95
+        },
+        {
+          "id": "dsw-gpt-5-6-luna",
+          "value": 67.2,
+          "passAt4": 90.3,
+          "medianCostUsd": 2.29
+        },
+        {
+          "id": "dsw-gpt-5-5",
+          "value": 67,
+          "passAt4": 88.5,
+          "medianCostUsd": 6.11
+        },
+        {
+          "id": "dsw-gemini-3-7-flash",
+          "value": 65.5,
+          "passAt4": 83.2,
+          "medianCostUsd": 1.65
+        },
+        {
+          "id": "dsw-deepseek-v4-pro",
+          "value": 62.8,
+          "passAt4": 88.5,
+          "medianCostUsd": 0.22
+        },
+        {
+          "id": "dsw-claude-opus-4-8",
+          "value": 59,
+          "passAt4": 79.3,
+          "medianCostUsd": 12.35
+        },
+        {
+          "id": "dsw-qwen3-8-max",
+          "value": 57.5,
+          "passAt4": 83.2,
+          "medianCostUsd": 3.13
+        },
+        {
+          "id": "dsw-muse-spark-1-2",
+          "value": 54.9,
+          "passAt4": 81.4,
+          "medianCostUsd": 2.68
+        },
+        {
+          "id": "dsw-claude-sonnet-5",
+          "value": 53.8,
+          "passAt4": 78.8,
+          "medianCostUsd": 23.28
+        },
+        {
+          "id": "dsw-grok-4-5",
+          "value": 53.8,
+          "passAt4": 77.9,
+          "medianCostUsd": 2.02
+        },
+        {
+          "id": "dsw-deepseek-v4-flash",
+          "value": 53.3,
+          "passAt4": 80.5,
+          "medianCostUsd": 0.09
+        },
+        {
+          "id": "dsw-muse-spark-1-1",
+          "value": 53.3,
+          "passAt4": 79.6,
+          "medianCostUsd": 1.72
+        },
+        {
+          "id": "dsw-gpt-5-4",
+          "value": 51.8,
+          "passAt4": 77.9,
+          "medianCostUsd": 4.35
+        },
+        {
+          "id": "dsw-gemini-3-6-flash",
+          "value": 46.7,
+          "passAt4": 75.2,
+          "medianCostUsd": 3.44
+        },
+        {
+          "id": "dsw-glm-5-2",
+          "value": 43.8,
+          "passAt4": 77,
+          "medianCostUsd": 3.46
+        },
+        {
+          "id": "dsw-gemini-3-5-flash",
+          "value": 36.1,
+          "passAt4": 63.7,
+          "medianCostUsd": 2.86
+        },
+        {
+          "id": "dsw-kimi-k2-7-code",
+          "value": 30.5,
+          "passAt4": 61.1,
+          "medianCostUsd": 2.2
+        },
+        {
+          "id": "dsw-claude-sonnet-4-6",
+          "value": 29.9,
+          "passAt4": 56.6,
+          "medianCostUsd": 4.87
+        }
+      ]
+    },
+    {
+      "date": "20260820",
+      "values": [
+        {
+          "id": "dsw-claude-opus-5",
+          "value": 73.6,
+          "passAt4": 88.5,
+          "medianCostUsd": 10.43
+        },
+        {
+          "id": "dsw-gpt-5-6-sol",
+          "value": 72.7,
+          "passAt4": 85.8,
+          "medianCostUsd": 6.84
+        },
+        {
+          "id": "dsw-claude-fable-5",
+          "value": 69.9,
+          "passAt4": 88.5,
+          "medianCostUsd": 11.34
+        },
+        {
+          "id": "dsw-gpt-5-6-terra",
+          "value": 69.6,
+          "passAt4": 88.5,
+          "medianCostUsd": 4.11
+        },
+        {
+          "id": "dsw-glm-5-3",
+          "value": 69,
+          "passAt4": 87.6,
+          "medianCostUsd": 3.13
+        },
+        {
+          "id": "dsw-kimi-k3",
+          "value": 68.5,
+          "passAt4": 89.4,
+          "medianCostUsd": 3.6
+        },
+        {
+          "id": "dsw-grok-4-6",
+          "value": 67.5,
+          "passAt4": 84.1,
+          "medianCostUsd": 2.95
+        },
+        {
+          "id": "dsw-gpt-5-6-luna",
+          "value": 67.2,
+          "passAt4": 90.3,
+          "medianCostUsd": 2.29
+        },
+        {
+          "id": "dsw-gpt-5-5",
+          "value": 67,
+          "passAt4": 88.5,
+          "medianCostUsd": 6.11
+        },
+        {
+          "id": "dsw-gemini-3-7-flash",
+          "value": 65.5,
+          "passAt4": 83.2,
+          "medianCostUsd": 1.65
+        },
+        {
+          "id": "dsw-deepseek-v4-pro",
+          "value": 62.8,
+          "passAt4": 88.5,
+          "medianCostUsd": 0.22
+        },
+        {
+          "id": "dsw-claude-opus-4-8",
+          "value": 59,
+          "passAt4": 79.3,
+          "medianCostUsd": 12.35
+        },
+        {
+          "id": "dsw-qwen3-8-max",
+          "value": 57.5,
+          "passAt4": 83.2,
+          "medianCostUsd": 3.13
+        },
+        {
+          "id": "dsw-muse-spark-1-2",
+          "value": 54.9,
+          "passAt4": 81.4,
+          "medianCostUsd": 2.68
+        },
+        {
+          "id": "dsw-claude-sonnet-5",
+          "value": 53.8,
+          "passAt4": 78.8,
+          "medianCostUsd": 23.28
+        },
+        {
+          "id": "dsw-grok-4-5",
+          "value": 53.8,
+          "passAt4": 77.9,
+          "medianCostUsd": 2.02
+        },
+        {
+          "id": "dsw-deepseek-v4-flash",
+          "value": 53.3,
+          "passAt4": 80.5,
+          "medianCostUsd": 0.09
+        },
+        {
+          "id": "dsw-muse-spark-1-1",
+          "value": 53.3,
+          "passAt4": 79.6,
+          "medianCostUsd": 1.72
+        },
+        {
+          "id": "dsw-gpt-5-4",
+          "value": 51.8,
+          "passAt4": 77.9,
+          "medianCostUsd": 4.35
+        },
+        {
+          "id": "dsw-gemini-3-6-flash",
+          "value": 46.7,
+          "passAt4": 75.2,
+          "medianCostUsd": 3.44
+        },
+        {
+          "id": "dsw-glm-5-2",
+          "value": 43.8,
+          "passAt4": 77,
+          "medianCostUsd": 3.46
+        },
+        {
+          "id": "dsw-gemini-3-5-flash",
+          "value": 36.1,
+          "passAt4": 63.7,
+          "medianCostUsd": 2.86
+        },
+        {
+          "id": "dsw-kimi-k2-7-code",
+          "value": 30.5,
+          "passAt4": 61.1,
+          "medianCostUsd": 2.2
+        },
+        {
+          "id": "dsw-claude-sonnet-4-6",
+          "value": 29.9,
+          "passAt4": 56.6,
+          "medianCostUsd": 4.87
+        }
+      ]
+    },
+    {
+      "date": "20260826",
+      "values": [
+        {
+          "id": "dsw-claude-opus-5",
+          "value": 73.6,
+          "passAt4": 88.5,
+          "medianCostUsd": 10.43
+        },
+        {
+          "id": "dsw-gpt-5-6-sol",
+          "value": 72.7,
+          "passAt4": 85.8,
+          "medianCostUsd": 6.84
+        },
+        {
+          "id": "dsw-claude-fable-5",
+          "value": 69.9,
+          "passAt4": 88.5,
+          "medianCostUsd": 11.34
+        },
+        {
+          "id": "dsw-gpt-5-6-terra",
+          "value": 69.6,
+          "passAt4": 88.5,
+          "medianCostUsd": 4.11
+        },
+        {
+          "id": "dsw-glm-5-3",
+          "value": 69,
+          "passAt4": 87.6,
+          "medianCostUsd": 3.13
+        },
+        {
+          "id": "dsw-kimi-k3",
+          "value": 68.5,
+          "passAt4": 89.4,
+          "medianCostUsd": 3.6
+        },
+        {
+          "id": "dsw-grok-4-6",
+          "value": 67.5,
+          "passAt4": 84.1,
+          "medianCostUsd": 2.95
+        },
+        {
+          "id": "dsw-gpt-5-6-luna",
+          "value": 67.2,
+          "passAt4": 90.3,
+          "medianCostUsd": 2.29
+        },
+        {
+          "id": "dsw-gpt-5-5",
+          "value": 67,
+          "passAt4": 88.5,
+          "medianCostUsd": 6.11
+        },
+        {
+          "id": "dsw-gemini-3-7-flash",
+          "value": 65.5,
+          "passAt4": 83.2,
+          "medianCostUsd": 1.65
+        },
+        {
+          "id": "dsw-glm-5-3-flash",
+          "value": 63.4,
+          "passAt4": 85,
+          "medianCostUsd": 0.39
+        },
+        {
+          "id": "dsw-deepseek-v4-pro",
+          "value": 62.8,
+          "passAt4": 88.5,
+          "medianCostUsd": 0.22
+        },
+        {
+          "id": "dsw-claude-opus-4-8",
+          "value": 59,
+          "passAt4": 79.3,
+          "medianCostUsd": 12.35
+        },
+        {
+          "id": "dsw-qwen3-8-max",
+          "value": 57.5,
+          "passAt4": 83.2,
+          "medianCostUsd": 3.13
+        },
+        {
+          "id": "dsw-muse-spark-1-2",
+          "value": 54.9,
+          "passAt4": 81.4,
+          "medianCostUsd": 2.68
+        },
+        {
+          "id": "dsw-claude-sonnet-5",
+          "value": 53.8,
+          "passAt4": 78.8,
+          "medianCostUsd": 23.28
+        },
+        {
+          "id": "dsw-grok-4-5",
+          "value": 53.8,
+          "passAt4": 77.9,
+          "medianCostUsd": 2.02
+        },
+        {
+          "id": "dsw-deepseek-v4-flash",
+          "value": 53.3,
+          "passAt4": 80.5,
+          "medianCostUsd": 0.09
+        },
+        {
+          "id": "dsw-muse-spark-1-1",
+          "value": 53.3,
+          "passAt4": 79.6,
+          "medianCostUsd": 1.72
+        },
+        {
+          "id": "dsw-gpt-5-4",
+          "value": 51.8,
+          "passAt4": 77.9,
+          "medianCostUsd": 4.35
+        },
+        {
+          "id": "dsw-gemini-3-6-flash",
+          "value": 46.7,
+          "passAt4": 75.2,
+          "medianCostUsd": 3.44
+        },
+        {
+          "id": "dsw-glm-5-2",
+          "value": 43.8,
+          "passAt4": 77,
+          "medianCostUsd": 3.46
+        },
+        {
+          "id": "dsw-gemini-3-5-flash",
+          "value": 36.1,
+          "passAt4": 63.7,
+          "medianCostUsd": 2.86
+        },
+        {
+          "id": "dsw-kimi-k2-7-code",
+          "value": 30.5,
+          "passAt4": 61.1,
+          "medianCostUsd": 2.2
+        },
+        {
+          "id": "dsw-claude-sonnet-4-6",
+          "value": 29.9,
+          "passAt4": 56.6,
+          "medianCostUsd": 4.87
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "date": "20260531",
+      "title": "gpt-5-5 leads the DeepSWE pack",
+      "body": "gpt-5-5 tops DeepSWE v1.1, passing 70.0% of original long-horizon software engineering tasks."
+    },
+    {
+      "date": "20260717",
+      "title": "gpt-5-6-sol leads the DeepSWE pack",
+      "body": "gpt-5-6-sol tops DeepSWE v1.1, passing 72.7% of original long-horizon software engineering tasks."
+    },
+    {
+      "date": "20260826",
+      "title": "claude-opus-5 leads the DeepSWE pack",
+      "body": "claude-opus-5 tops DeepSWE v1.1, passing 73.6% of original long-horizon software engineering tasks."
+    }
+  ],
+  "sources": [
+    {
+      "title": "DeepSWE Leaderboard",
+      "publisher": "Datacurve",
+      "url": "https://deepswe.datacurve.ai/",
+      "note": "Live leaderboard of frontier coding agents on 113 original long-horizon software engineering tasks."
+    }
+  ],
+  "historicalCoverageStart": "20260531",
+  "historicalCoverageEnd": "20260620",
+  "historicalGranularity": "archived-leaderboard-job",
+  "backfillSource": "Internet Archive captures of the DeepSWE leaderboard artifacts",
+  "backfillGeneratedAt": "2026-07-11T15:14:21.735Z",
+  "historical": {
+    "coverageStart": "20260531",
+    "coverageEnd": "20260620",
+    "granularity": "archived-leaderboard-job",
+    "source": "Internet Archive captures of the DeepSWE leaderboard artifacts",
+    "generatedAt": "2026-07-11T15:14:21.735Z",
+    "frameCount": 3,
+    "maxFrames": 12,
+    "maxPublicFrames": 72,
+    "notes": [
+      "Each historical frame is a real DeepSWE leaderboard artifact captured by the Internet Archive; frame dates use the artifact's own generated_at when present, otherwise the capture date.",
+      "The earliest frame comes from the pre-versioned artifacts/leaderboard.json (the May 13 DeepSWE Pier job); later frames come from v1 leaderboard-live.json captures. Scores stay comparable because both run the same original task set, but the roster of scored models grows across frames.",
+      "Historical-only models keep their archived identity; model names are mapped onto current entity IDs where the model is still scored."
+    ]
+  },
+  "lastObservationDate": "2026-08-26",
+  "dataFreshness": {
+    "status": "fresh",
+    "refreshCadence": "daily",
+    "lastUpdated": "2026-09-02T07:01:52.367Z",
+    "lastRefreshAttemptedAt": "2026-09-02T07:01:52.367Z",
+    "lastRefreshError": null,
+    "lastObservationDate": "2026-08-26",
+    "nextRefreshAt": "2026-09-03T07:00:00.000Z",
+    "sourceStatus": "DeepSWE v1.1 live leaderboard",
+    "confidence": "Observed 63 DeepSWE v1.1 runs across 26 models at 2026-08-26T07:38:24.821609+00:00."
+  },
+  "media": {
+    "tileSize": 320,
+    "imageFit": "contain",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-09-02T07:01:52.367Z",
+    "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+    "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+    "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+    "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 6,
+    "rows": 6,
+    "width": 1920,
+    "height": 1920,
+    "itemCount": 32,
+    "sourcedImageCount": 18,
+    "generatedImageCount": 14,
+    "placeholderCount": 0,
+    "ogImageUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/deepswe-leaderboard.png",
+    "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/deepswe-leaderboard.png",
+    "ogImageWidth": 1200,
+    "ogImageHeight": 630
+  },
+  "taxonomy": {
+    "primaryCategory": "technology",
+    "categories": [
+      "technology",
+      "ai",
+      "benchmarks"
+    ],
+    "tags": [
+      "deepswe",
+      "datacurve",
+      "coding-agents",
+      "long-horizon",
+      "frontier-ai"
+    ],
+    "entityTypes": [
+      "model",
+      "ai-system"
+    ],
+    "sourceTypes": [
+      "benchmark"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "frontier-language-model-intelligence",
+      "type": "ai-frontier",
+      "weight": 0.88,
+      "reason": "Both index the frontier model set, one on general intelligence and one on long-horizon coding."
+    },
+    {
+      "target": "lmarena-text-leaderboard",
+      "type": "ai-benchmarks",
+      "weight": 0.7,
+      "reason": "Arena Elo and DeepSWE pass rate rank the same model generations from different angles."
+    },
+    {
+      "target": "open-source-ai-repo-momentum",
+      "type": "ai-ecosystem",
+      "weight": 0.5,
+      "reason": "Coding agent capability drives the developer tooling wave on GitHub."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "ai-technology",
+    "mainland": "technology",
+    "bridgePriority": [
+      "frontier-language-model-intelligence",
+      "lmarena-text-leaderboard"
+    ]
+  },
+  "schemaVersion": 1,
+  "contentKind": "dat-city.story",
+  "generatedAt": "2026-09-02T07:01:52.367Z",
+  "versionId": "20260902T070152Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "storyops-scheduler",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-09-02T07:01:52.367Z",
+    "versionId": "20260902T070152Z",
+    "adapter": "deepswe-leaderboard",
+    "storySlug": "deepswe-leaderboard",
+    "districtId": null,
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "publicProjection": {
+    "kind": "story",
+    "version": 1,
+    "generatedAt": "2026-09-02T07:01:52.367Z",
+    "adapter": "deepswe-leaderboard",
+    "cache": {
+      "browserMaxAgeSeconds": 60,
+      "edgeMaxAgeSeconds": 3600
+    }
+  },
+  "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/deepswe-leaderboard.png"
+}

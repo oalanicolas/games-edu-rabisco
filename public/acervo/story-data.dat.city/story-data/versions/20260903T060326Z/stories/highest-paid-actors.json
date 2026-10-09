@@ -1,0 +1,2791 @@
+{
+  "id": "highest-paid-actors",
+  "kicker": "Hollywood Pay Race",
+  "title": "Highest-Paid Actors & Actresses",
+  "subtitle": "A red-carpet earnings skyline for the actors and actresses at the top of Forbes' annual pay lists.",
+  "badge": "Ranked by annual earnings",
+  "visualization": "race-arena",
+  "theme": "creator-arena",
+  "artStyle": "stylized-editorial",
+  "dateRange": [
+    "2013",
+    "2020"
+  ],
+  "timelineTicks": [
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020"
+  ],
+  "metricLabel": "Annual earnings",
+  "ogImage": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/highest-paid-actors.png",
+  "cityPreview": {
+    "districtId": "hollywood-payday-plaza",
+    "districtName": "Hollywood Payday Plaza",
+    "cardLabel": "Actor Earnings",
+    "summary": "Forbes' annual highest-paid actors and actresses lists, combined into one earnings race from 2013 to 2020.",
+    "primaryMetric": "Annual earnings",
+    "latestFrameLabel": "2020 Forbes list",
+    "storyUrl": "/stories/highest-paid-actors/",
+    "thumbnail": "/assets/og/dat-city.webp"
+  },
+  "sourceStatus": "Forbes annual highest-paid actors and actresses lists",
+  "confidence": "Combined Forbes highest-paid actors and actresses earnings for 2013-2020 (8 annual frames). Each figure is Forbes' published pre-tax trailing-12-month estimate in USD; the two gendered lists are merged and re-ranked by earnings. Forbes did not publish comparable lists for every earlier year, so verified coverage begins in 2013.",
+  "methodology": "This StoryOps adapter combines Forbes' annual 'world's highest-paid actors' and 'highest-paid actresses' rankings into one earnings leaderboard per year, re-ranking every listed performer by their published Forbes estimate. The yearly sequence is the historical backfill, so the race chart animates real year-over-year pay movement across Hollywood; portraits are enriched from Wikipedia.",
+  "playback": {
+    "durationSeconds": 24,
+    "initialDate": "2013",
+    "periodLabel": "annual earnings"
+  },
+  "visual": {
+    "topCount": 16,
+    "referenceCount": 16,
+    "horizontalCount": 12
+  },
+  "layers": [
+    {
+      "id": "earnings",
+      "label": "Earnings",
+      "default": true
+    }
+  ],
+  "focus": [
+    {
+      "id": "george-clooney",
+      "label": "George Clooney"
+    },
+    {
+      "id": "dwayne-johnson",
+      "label": "Dwayne Johnson"
+    },
+    {
+      "id": "robert-downey-jr",
+      "label": "Robert Downey Jr."
+    },
+    {
+      "id": "chris-hemsworth",
+      "label": "Chris Hemsworth"
+    }
+  ],
+  "entities": [
+    {
+      "id": "george-clooney",
+      "name": "George Clooney",
+      "shortName": "George Clooney",
+      "article": "George Clooney",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/George_Clooney",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/George_Clooney_Jay_Kelly-19_%28cropped%29.jpg/960px-George_Clooney_Jay_Kelly-19_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/George_Clooney_Jay_Kelly-19_%28cropped%29.jpg/960px-George_Clooney_Jay_Kelly-19_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "kind": "actor",
+      "role": "Actor",
+      "avatarText": "GC",
+      "color": "#ff5a61",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.125,
+          "v1": 0.142857
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/George_Clooney_Jay_Kelly-19_%28cropped%29.jpg/960px-George_Clooney_Jay_Kelly-19_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "dwayne-johnson",
+      "name": "Dwayne Johnson",
+      "shortName": "Dwayne Johnson",
+      "article": "Dwayne Johnson",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Dwayne_Johnson",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Dwayne_Johnson-1764_%284x5_cropped_with_moderate_headroom%29.jpg/960px-Dwayne_Johnson-1764_%284x5_cropped_with_moderate_headroom%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Dwayne_Johnson-1764_%284x5_cropped_with_moderate_headroom%29.jpg/960px-Dwayne_Johnson-1764_%284x5_cropped_with_moderate_headroom%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "kind": "actor",
+      "role": "Actor",
+      "avatarText": "DJ",
+      "color": "#18c871",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.125,
+          "v0": 0,
+          "u1": 0.25,
+          "v1": 0.142857
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Dwayne_Johnson-1764_%284x5_cropped_with_moderate_headroom%29.jpg/960px-Dwayne_Johnson-1764_%284x5_cropped_with_moderate_headroom%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "robert-downey-jr",
+      "name": "Robert Downey Jr.",
+      "shortName": "Robert Downey Jr.",
+      "article": "Robert Downey Jr.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Robert_Downey_Jr.",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/RobertDowneyJr-byPhilipRomano7_%28cropped%29.jpg/960px-RobertDowneyJr-byPhilipRomano7_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/RobertDowneyJr-byPhilipRomano7_%28cropped%29.jpg/960px-RobertDowneyJr-byPhilipRomano7_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "kind": "actor",
+      "role": "Actor",
+      "avatarText": "RD",
+      "color": "#ffc84a",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0,
+          "u1": 0.375,
+          "v1": 0.142857
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/RobertDowneyJr-byPhilipRomano7_%28cropped%29.jpg/960px-RobertDowneyJr-byPhilipRomano7_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "chris-hemsworth",
+      "name": "Chris Hemsworth",
+      "shortName": "Chris Hemsworth",
+      "article": "Chris Hemsworth",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Chris_Hemsworth",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Chris_Hemsworth_-_Crime_101.jpg/960px-Chris_Hemsworth_-_Crime_101.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Chris_Hemsworth_-_Crime_101.jpg/960px-Chris_Hemsworth_-_Crime_101.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "kind": "actor",
+      "role": "Actor",
+      "avatarText": "CH",
+      "color": "#00a6ff",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.375,
+          "v0": 0,
+          "u1": 0.5,
+          "v1": 0.142857
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Chris_Hemsworth_-_Crime_101.jpg/960px-Chris_Hemsworth_-_Crime_101.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "ryan-reynolds",
+      "name": "Ryan Reynolds",
+      "shortName": "Ryan Reynolds",
+      "article": "Ryan Reynolds",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Ryan_Reynolds",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Deadpool_2_Japan_Premiere_Red_Carpet_Ryan_Reynolds_%28cropped%29.jpg/960px-Deadpool_2_Japan_Premiere_Red_Carpet_Ryan_Reynolds_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Deadpool_2_Japan_Premiere_Red_Carpet_Ryan_Reynolds_%28cropped%29.jpg/960px-Deadpool_2_Japan_Premiere_Red_Carpet_Ryan_Reynolds_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "kind": "actor",
+      "role": "Actor",
+      "avatarText": "RR",
+      "color": "#8f6bff",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "x": 1280,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0,
+          "u1": 0.625,
+          "v1": 0.142857
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Deadpool_2_Japan_Premiere_Red_Carpet_Ryan_Reynolds_%28cropped%29.jpg/960px-Deadpool_2_Japan_Premiere_Red_Carpet_Ryan_Reynolds_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "mark-wahlberg",
+      "name": "Mark Wahlberg",
+      "shortName": "Mark Wahlberg",
+      "article": "Mark Wahlberg",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Mark_Wahlberg",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Mark_Wahlberg_2021.jpg/960px-Mark_Wahlberg_2021.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Mark_Wahlberg_2021.jpg/960px-Mark_Wahlberg_2021.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "kind": "actor",
+      "role": "Actor",
+      "avatarText": "MW",
+      "color": "#f18c4f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "x": 1600,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.625,
+          "v0": 0,
+          "u1": 0.75,
+          "v1": 0.142857
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Mark_Wahlberg_2021.jpg/960px-Mark_Wahlberg_2021.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "akshay-kumar",
+      "name": "Akshay Kumar",
+      "shortName": "Akshay Kumar",
+      "article": "Akshay Kumar",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Akshay_Kumar",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Akshay_Kumar_National_Award_for_Padman_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Akshay_Kumar_National_Award_for_Padman_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "kind": "actor",
+      "role": "Actor",
+      "avatarText": "AK",
+      "color": "#41a99f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "x": 1920,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0,
+          "u1": 0.875,
+          "v1": 0.142857
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Akshay_Kumar_National_Award_for_Padman_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "jackie-chan",
+      "name": "Jackie Chan",
+      "shortName": "Jackie Chan",
+      "article": "Jackie Chan",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Jackie_Chan",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/3/35/Jackie_Chan.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/35/Jackie_Chan.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "kind": "actor",
+      "role": "Actor",
+      "avatarText": "JC",
+      "color": "#d78fca",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "x": 2240,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.875,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.142857
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/35/Jackie_Chan.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "channing-tatum",
+      "name": "Channing Tatum",
+      "shortName": "Channing Tatum",
+      "article": "Channing Tatum",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Channing_Tatum",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Channing_Tatum_at_the_2026_Berlin_International_Film_Festival-69843.jpg/960px-Channing_Tatum_at_the_2026_Berlin_International_Film_Festival-69843.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Channing_Tatum_at_the_2026_Berlin_International_Film_Festival-69843.jpg/960px-Channing_Tatum_at_the_2026_Berlin_International_Film_Festival-69843.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "kind": "actor",
+      "role": "Actor",
+      "avatarText": "CT",
+      "color": "#7b9b65",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.142857,
+          "u1": 0.125,
+          "v1": 0.285714
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Channing_Tatum_at_the_2026_Berlin_International_Film_Festival-69843.jpg/960px-Channing_Tatum_at_the_2026_Berlin_International_Film_Festival-69843.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "adam-sandler",
+      "name": "Adam Sandler",
+      "shortName": "Adam Sandler",
+      "article": "Adam Sandler",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Adam_Sandler",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Jackie_Sandler_Adam_Sandler_Jay_Kelly-36_%283x4%29.jpg/960px-Jackie_Sandler_Adam_Sandler_Jay_Kelly-36_%283x4%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Jackie_Sandler_Adam_Sandler_Jay_Kelly-36_%283x4%29.jpg/960px-Jackie_Sandler_Adam_Sandler_Jay_Kelly-36_%283x4%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "kind": "actor",
+      "role": "Actor",
+      "avatarText": "AS",
+      "color": "#2f4858",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.125,
+          "v0": 0.142857,
+          "u1": 0.25,
+          "v1": 0.285714
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Jackie_Sandler_Adam_Sandler_Jay_Kelly-36_%283x4%29.jpg/960px-Jackie_Sandler_Adam_Sandler_Jay_Kelly-36_%283x4%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "bradley-cooper",
+      "name": "Bradley Cooper",
+      "shortName": "Bradley Cooper",
+      "article": "Bradley Cooper",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Bradley_Cooper",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Bradley_Cooper_Is_This_Thing_On-41_%28cropped%29.jpg/960px-Bradley_Cooper_Is_This_Thing_On-41_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Bradley_Cooper_Is_This_Thing_On-41_%28cropped%29.jpg/960px-Bradley_Cooper_Is_This_Thing_On-41_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "kind": "actor",
+      "role": "Actor",
+      "avatarText": "BC",
+      "color": "#ef426f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.142857,
+          "u1": 0.375,
+          "v1": 0.285714
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Bradley_Cooper_Is_This_Thing_On-41_%28cropped%29.jpg/960px-Bradley_Cooper_Is_This_Thing_On-41_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "scarlett-johansson",
+      "name": "Scarlett Johansson",
+      "shortName": "Scarlett Johansson",
+      "article": "Scarlett Johansson",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Scarlett_Johansson",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Scarlett_Johansson-8588.jpg/960px-Scarlett_Johansson-8588.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Scarlett_Johansson-8588.jpg/960px-Scarlett_Johansson-8588.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "kind": "actress",
+      "role": "Actress",
+      "avatarText": "SJ",
+      "color": "#86bdf4",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.375,
+          "v0": 0.142857,
+          "u1": 0.5,
+          "v1": 0.285714
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Scarlett_Johansson-8588.jpg/960px-Scarlett_Johansson-8588.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "hugh-jackman",
+      "name": "Hugh Jackman",
+      "shortName": "Hugh Jackman",
+      "article": "Hugh Jackman",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Hugh_Jackman",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Hugh_Jackman_by_Gage_Skidmore_3.jpg/960px-Hugh_Jackman_by_Gage_Skidmore_3.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Hugh_Jackman_by_Gage_Skidmore_3.jpg/960px-Hugh_Jackman_by_Gage_Skidmore_3.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "kind": "actor",
+      "role": "Actor",
+      "avatarText": "HJ",
+      "color": "#c9a14a",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "x": 1280,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.142857,
+          "u1": 0.625,
+          "v1": 0.285714
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Hugh_Jackman_by_Gage_Skidmore_3.jpg/960px-Hugh_Jackman_by_Gage_Skidmore_3.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "ben-affleck",
+      "name": "Ben Affleck",
+      "shortName": "Ben Affleck",
+      "article": "Ben Affleck",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Ben_Affleck",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Ben_Affleck_on_the_Red_Carpet%2C_SXSW_2023_%28cropped%29.jpg/960px-Ben_Affleck_on_the_Red_Carpet%2C_SXSW_2023_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Ben_Affleck_on_the_Red_Carpet%2C_SXSW_2023_%28cropped%29.jpg/960px-Ben_Affleck_on_the_Red_Carpet%2C_SXSW_2023_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "kind": "actor",
+      "role": "Actor",
+      "avatarText": "BA",
+      "color": "#e34f59",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "x": 1600,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.625,
+          "v0": 0.142857,
+          "u1": 0.75,
+          "v1": 0.285714
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Ben_Affleck_on_the_Red_Carpet%2C_SXSW_2023_%28cropped%29.jpg/960px-Ben_Affleck_on_the_Red_Carpet%2C_SXSW_2023_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "matt-damon",
+      "name": "Matt Damon",
+      "shortName": "Matt Damon",
+      "article": "Matt Damon",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Matt_Damon",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/MattDamon-byPhilipRomano2.jpg/960px-MattDamon-byPhilipRomano2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/MattDamon-byPhilipRomano2.jpg/960px-MattDamon-byPhilipRomano2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "kind": "actor",
+      "role": "Actor",
+      "avatarText": "MD",
+      "color": "#9aa4b2",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "x": 1920,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.142857,
+          "u1": 0.875,
+          "v1": 0.285714
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/MattDamon-byPhilipRomano2.jpg/960px-MattDamon-byPhilipRomano2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "vin-diesel",
+      "name": "Vin Diesel",
+      "shortName": "Vin Diesel",
+      "article": "Vin Diesel",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Vin_Diesel",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Vin_Diesel_by_Gage_Skidmore_2.jpg/960px-Vin_Diesel_by_Gage_Skidmore_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Vin_Diesel_by_Gage_Skidmore_2.jpg/960px-Vin_Diesel_by_Gage_Skidmore_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "kind": "actor",
+      "role": "Actor",
+      "avatarText": "VD",
+      "color": "#ff5a61",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "x": 2240,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.875,
+          "v0": 0.142857,
+          "u1": 1,
+          "v1": 0.285714
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Vin_Diesel_by_Gage_Skidmore_2.jpg/960px-Vin_Diesel_by_Gage_Skidmore_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "tom-cruise",
+      "name": "Tom Cruise",
+      "shortName": "Tom Cruise",
+      "article": "Tom Cruise",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Tom_Cruise",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Tom_Cruise_at_53rd_Saturn_Awards_2026-01.jpg/960px-Tom_Cruise_at_53rd_Saturn_Awards_2026-01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Tom_Cruise_at_53rd_Saturn_Awards_2026-01.jpg/960px-Tom_Cruise_at_53rd_Saturn_Awards_2026-01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "kind": "actor",
+      "role": "Actor",
+      "avatarText": "TC",
+      "color": "#18c871",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.285714,
+          "u1": 0.125,
+          "v1": 0.428571
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Tom_Cruise_at_53rd_Saturn_Awards_2026-01.jpg/960px-Tom_Cruise_at_53rd_Saturn_Awards_2026-01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "jennifer-lawrence",
+      "name": "Jennifer Lawrence",
+      "shortName": "Jennifer Lawrence",
+      "article": "Jennifer Lawrence",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Jennifer_Lawrence",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Jennifer_Lawrence_in_2018.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Jennifer_Lawrence_in_2018.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "kind": "actress",
+      "role": "Actress",
+      "avatarText": "JL",
+      "color": "#ffc84a",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.125,
+          "v0": 0.285714,
+          "u1": 0.25,
+          "v1": 0.428571
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Jennifer_Lawrence_in_2018.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "sandra-bullock",
+      "name": "Sandra Bullock",
+      "shortName": "Sandra Bullock",
+      "article": "Sandra Bullock",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Sandra_Bullock",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Sandra_Bullock_at_The_Egyptian_Theatre_2024.jpg/960px-Sandra_Bullock_at_The_Egyptian_Theatre_2024.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Sandra_Bullock_at_The_Egyptian_Theatre_2024.jpg/960px-Sandra_Bullock_at_The_Egyptian_Theatre_2024.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "kind": "actress",
+      "role": "Actress",
+      "avatarText": "SB",
+      "color": "#00a6ff",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.285714,
+          "u1": 0.375,
+          "v1": 0.428571
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Sandra_Bullock_at_The_Egyptian_Theatre_2024.jpg/960px-Sandra_Bullock_at_The_Egyptian_Theatre_2024.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "johnny-depp",
+      "name": "Johnny Depp",
+      "shortName": "Johnny Depp",
+      "article": "Johnny Depp",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Johnny_Depp",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/Johnny_Depp_2020.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/Johnny_Depp_2020.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "kind": "actor",
+      "role": "Actor",
+      "avatarText": "JD",
+      "color": "#8f6bff",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.375,
+          "v0": 0.285714,
+          "u1": 0.5,
+          "v1": 0.428571
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/Johnny_Depp_2020.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "lin-manuel-miranda",
+      "name": "Lin-Manuel Miranda",
+      "shortName": "Lin-Manuel Miranda",
+      "article": "Lin-Manuel Miranda",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Lin-Manuel_Miranda",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Lin-Manuel_Miranda_%26_James_McAvoy_%2848383681926%29_%28cropped%29.jpg/960px-Lin-Manuel_Miranda_%26_James_McAvoy_%2848383681926%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Lin-Manuel_Miranda_%26_James_McAvoy_%2848383681926%29_%28cropped%29.jpg/960px-Lin-Manuel_Miranda_%26_James_McAvoy_%2848383681926%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "kind": "actor",
+      "role": "Actor",
+      "avatarText": "LM",
+      "color": "#f18c4f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "x": 1280,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.285714,
+          "u1": 0.625,
+          "v1": 0.428571
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Lin-Manuel_Miranda_%26_James_McAvoy_%2848383681926%29_%28cropped%29.jpg/960px-Lin-Manuel_Miranda_%26_James_McAvoy_%2848383681926%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "will-smith",
+      "name": "Will Smith",
+      "shortName": "Will Smith",
+      "article": "Will Smith",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Will_Smith",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/TechCrunch_Disrupt_San_Francisco_2019_-_Day_1_%2848834070763%29_%28cropped%29.jpg/960px-TechCrunch_Disrupt_San_Francisco_2019_-_Day_1_%2848834070763%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/TechCrunch_Disrupt_San_Francisco_2019_-_Day_1_%2848834070763%29_%28cropped%29.jpg/960px-TechCrunch_Disrupt_San_Francisco_2019_-_Day_1_%2848834070763%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "kind": "actor",
+      "role": "Actor",
+      "avatarText": "WS",
+      "color": "#41a99f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "x": 1600,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.625,
+          "v0": 0.285714,
+          "u1": 0.75,
+          "v1": 0.428571
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/TechCrunch_Disrupt_San_Francisco_2019_-_Day_1_%2848834070763%29_%28cropped%29.jpg/960px-TechCrunch_Disrupt_San_Francisco_2019_-_Day_1_%2848834070763%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "sofia-vergara",
+      "name": "Sofía Vergara",
+      "shortName": "Sofía Vergara",
+      "article": "Sofía Vergara",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Sof%C3%ADa_Vergara",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Sof%C3%ADa_Vergara_2019_by_Glenn_Francis.jpg/960px-Sof%C3%ADa_Vergara_2019_by_Glenn_Francis.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Sof%C3%ADa_Vergara_2019_by_Glenn_Francis.jpg/960px-Sof%C3%ADa_Vergara_2019_by_Glenn_Francis.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "kind": "actress",
+      "role": "Actress",
+      "avatarText": "SV",
+      "color": "#d78fca",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "x": 1920,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.285714,
+          "u1": 0.875,
+          "v1": 0.428571
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Sof%C3%ADa_Vergara_2019_by_Glenn_Francis.jpg/960px-Sof%C3%ADa_Vergara_2019_by_Glenn_Francis.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "chris-evans",
+      "name": "Chris Evans",
+      "shortName": "Chris Evans",
+      "article": "Chris Evans (actor)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Chris_Evans_(actor)",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Chris_Evans_at_the_2025_Toronto_International_Film_Festival_%28cropped%29.jpg/960px-Chris_Evans_at_the_2025_Toronto_International_Film_Festival_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Chris_Evans_at_the_2025_Toronto_International_Film_Festival_%28cropped%29.jpg/960px-Chris_Evans_at_the_2025_Toronto_International_Film_Festival_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "kind": "actor",
+      "role": "Actor",
+      "avatarText": "CE",
+      "color": "#7b9b65",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "x": 2240,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.875,
+          "v0": 0.285714,
+          "u1": 1,
+          "v1": 0.428571
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Chris_Evans_at_the_2025_Toronto_International_Film_Festival_%28cropped%29.jpg/960px-Chris_Evans_at_the_2025_Toronto_International_Film_Festival_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "paul-rudd",
+      "name": "Paul Rudd",
+      "shortName": "Paul Rudd",
+      "article": "Paul Rudd",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Paul_Rudd",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Paul_Rudd_and_Kate_Mara_at_the_2024_Toronto_International_Film_Festival_8_%28cropped%29.jpg/960px-Paul_Rudd_and_Kate_Mara_at_the_2024_Toronto_International_Film_Festival_8_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Paul_Rudd_and_Kate_Mara_at_the_2024_Toronto_International_Film_Festival_8_%28cropped%29.jpg/960px-Paul_Rudd_and_Kate_Mara_at_the_2024_Toronto_International_Film_Festival_8_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "kind": "actor",
+      "role": "Actor",
+      "avatarText": "PR",
+      "color": "#2f4858",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "x": 0,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.428571,
+          "u1": 0.125,
+          "v1": 0.571429
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Paul_Rudd_and_Kate_Mara_at_the_2024_Toronto_International_Film_Festival_8_%28cropped%29.jpg/960px-Paul_Rudd_and_Kate_Mara_at_the_2024_Toronto_International_Film_Festival_8_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "leonardo-dicaprio",
+      "name": "Leonardo DiCaprio",
+      "shortName": "Leonardo DiCaprio",
+      "article": "Leonardo DiCaprio",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Leonardo_DiCaprio",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2d/LeoPTABFI191125-28_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2d/LeoPTABFI191125-28_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "kind": "actor",
+      "role": "Actor",
+      "avatarText": "LD",
+      "color": "#ef426f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "x": 320,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.125,
+          "v0": 0.428571,
+          "u1": 0.25,
+          "v1": 0.571429
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2d/LeoPTABFI191125-28_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "shah-rukh-khan",
+      "name": "Shah Rukh Khan",
+      "shortName": "Shah Rukh Khan",
+      "article": "Shah Rukh Khan",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Shah_Rukh_Khan",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Shah_Rukh_Khan_graces_the_launch_of_the_new_Santro.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Shah_Rukh_Khan_graces_the_launch_of_the_new_Santro.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "kind": "actor",
+      "role": "Actor",
+      "avatarText": "SR",
+      "color": "#86bdf4",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "x": 640,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.428571,
+          "u1": 0.375,
+          "v1": 0.571429
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Shah_Rukh_Khan_graces_the_launch_of_the_new_Santro.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "salman-khan",
+      "name": "Salman Khan",
+      "shortName": "Salman Khan",
+      "article": "Salman Khan",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Salman_Khan",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Salman_Khan_snapped_at_the_Angry_Young_Men_trailer_launch.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Salman_Khan_snapped_at_the_Angry_Young_Men_trailer_launch.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "kind": "actor",
+      "role": "Actor",
+      "avatarText": "SK",
+      "color": "#c9a14a",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "x": 960,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.375,
+          "v0": 0.428571,
+          "u1": 0.5,
+          "v1": 0.571429
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Salman_Khan_snapped_at_the_Angry_Young_Men_trailer_launch.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "liam-neeson",
+      "name": "Liam Neeson",
+      "shortName": "Liam Neeson",
+      "article": "Liam Neeson",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Liam_Neeson",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Liam_Neeson_Deauville_2012_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Liam_Neeson_Deauville_2012_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "kind": "actor",
+      "role": "Actor",
+      "avatarText": "LN",
+      "color": "#e34f59",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "x": 1280,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.428571,
+          "u1": 0.625,
+          "v1": 0.571429
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Liam_Neeson_Deauville_2012_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "angelina-jolie",
+      "name": "Angelina Jolie",
+      "shortName": "Angelina Jolie",
+      "article": "Angelina Jolie",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Angelina_Jolie",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Angelina_Jolie-643531_%28cropped%29.jpg/960px-Angelina_Jolie-643531_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Angelina_Jolie-643531_%28cropped%29.jpg/960px-Angelina_Jolie-643531_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "kind": "actress",
+      "role": "Actress",
+      "avatarText": "AJ",
+      "color": "#9aa4b2",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "x": 1600,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.625,
+          "v0": 0.428571,
+          "u1": 0.75,
+          "v1": 0.571429
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Angelina_Jolie-643531_%28cropped%29.jpg/960px-Angelina_Jolie-643531_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "christian-bale",
+      "name": "Christian Bale",
+      "shortName": "Christian Bale",
+      "article": "Christian Bale",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Christian_Bale",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Christian_Bale-7837.jpg/960px-Christian_Bale-7837.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Christian_Bale-7837.jpg/960px-Christian_Bale-7837.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "kind": "actor",
+      "role": "Actor",
+      "avatarText": "CB",
+      "color": "#ff5a61",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "x": 1920,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.428571,
+          "u1": 0.875,
+          "v1": 0.571429
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Christian_Bale-7837.jpg/960px-Christian_Bale-7837.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "reese-witherspoon",
+      "name": "Reese Witherspoon",
+      "shortName": "Reese Witherspoon",
+      "article": "Reese Witherspoon",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Reese_Witherspoon",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Reese_Witherspoon_%2829144489784%29_%28cropped%29.jpg/960px-Reese_Witherspoon_%2829144489784%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Reese_Witherspoon_%2829144489784%29_%28cropped%29.jpg/960px-Reese_Witherspoon_%2829144489784%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "kind": "actress",
+      "role": "Actress",
+      "avatarText": "RW",
+      "color": "#18c871",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "x": 2240,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.875,
+          "v0": 0.428571,
+          "u1": 1,
+          "v1": 0.571429
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Reese_Witherspoon_%2829144489784%29_%28cropped%29.jpg/960px-Reese_Witherspoon_%2829144489784%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "nicole-kidman",
+      "name": "Nicole Kidman",
+      "shortName": "Nicole Kidman",
+      "article": "Nicole Kidman",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Nicole_Kidman",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/MKr384262_Nicole_Kidman_%28Women_In_Motion%2C_Cannes_2025%29.jpg/960px-MKr384262_Nicole_Kidman_%28Women_In_Motion%2C_Cannes_2025%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/MKr384262_Nicole_Kidman_%28Women_In_Motion%2C_Cannes_2025%29.jpg/960px-MKr384262_Nicole_Kidman_%28Women_In_Motion%2C_Cannes_2025%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "kind": "actress",
+      "role": "Actress",
+      "avatarText": "NK",
+      "color": "#ffc84a",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "x": 0,
+          "y": 1280,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.571429,
+          "u1": 0.125,
+          "v1": 0.714286
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/MKr384262_Nicole_Kidman_%28Women_In_Motion%2C_Cannes_2025%29.jpg/960px-MKr384262_Nicole_Kidman_%28Women_In_Motion%2C_Cannes_2025%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "amitabh-bachchan",
+      "name": "Amitabh Bachchan",
+      "shortName": "Amitabh Bachchan",
+      "article": "Amitabh Bachchan",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Amitabh_Bachchan",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Indian_actor_Amitabh_Bachchan.jpg/960px-Indian_actor_Amitabh_Bachchan.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Indian_actor_Amitabh_Bachchan.jpg/960px-Indian_actor_Amitabh_Bachchan.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "kind": "actor",
+      "role": "Actor",
+      "avatarText": "AB",
+      "color": "#00a6ff",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "x": 320,
+          "y": 1280,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.125,
+          "v0": 0.571429,
+          "u1": 0.25,
+          "v1": 0.714286
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Indian_actor_Amitabh_Bachchan.jpg/960px-Indian_actor_Amitabh_Bachchan.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "denzel-washington",
+      "name": "Denzel Washington",
+      "shortName": "Denzel Washington",
+      "article": "Denzel Washington",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Denzel_Washington",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Denzel_Washington_at_the_2025_Cannes_Film_Festival.jpg/960px-Denzel_Washington_at_the_2025_Cannes_Film_Festival.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Denzel_Washington_at_the_2025_Cannes_Film_Festival.jpg/960px-Denzel_Washington_at_the_2025_Cannes_Film_Festival.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "kind": "actor",
+      "role": "Actor",
+      "avatarText": "DW",
+      "color": "#8f6bff",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "x": 640,
+          "y": 1280,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.571429,
+          "u1": 0.375,
+          "v1": 0.714286
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Denzel_Washington_at_the_2025_Cannes_Film_Festival.jpg/960px-Denzel_Washington_at_the_2025_Cannes_Film_Festival.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "melissa-mccarthy",
+      "name": "Melissa McCarthy",
+      "shortName": "Melissa McCarthy",
+      "article": "Melissa McCarthy",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Melissa_McCarthy",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Melissa_McCarthy_in_2018_%28cropped%29.jpg/960px-Melissa_McCarthy_in_2018_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Melissa_McCarthy_in_2018_%28cropped%29.jpg/960px-Melissa_McCarthy_in_2018_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "kind": "actress",
+      "role": "Actress",
+      "avatarText": "MM",
+      "color": "#f18c4f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "x": 960,
+          "y": 1280,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.375,
+          "v0": 0.571429,
+          "u1": 0.5,
+          "v1": 0.714286
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Melissa_McCarthy_in_2018_%28cropped%29.jpg/960px-Melissa_McCarthy_in_2018_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "gal-gadot",
+      "name": "Gal Gadot",
+      "shortName": "Gal Gadot",
+      "article": "Gal Gadot",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Gal_Gadot",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Gal_Gadot_by_Gage_Skidmore_3.jpg/960px-Gal_Gadot_by_Gage_Skidmore_3.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Gal_Gadot_by_Gage_Skidmore_3.jpg/960px-Gal_Gadot_by_Gage_Skidmore_3.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "kind": "actress",
+      "role": "Actress",
+      "avatarText": "GG",
+      "color": "#41a99f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "x": 1280,
+          "y": 1280,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.571429,
+          "u1": 0.625,
+          "v1": 0.714286
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Gal_Gadot_by_Gage_Skidmore_3.jpg/960px-Gal_Gadot_by_Gage_Skidmore_3.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "jennifer-aniston",
+      "name": "Jennifer Aniston",
+      "shortName": "Jennifer Aniston",
+      "article": "Jennifer Aniston",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Jennifer_Aniston",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/JenniferAnistonHWoFFeb2012.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/JenniferAnistonHWoFFeb2012.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "kind": "actress",
+      "role": "Actress",
+      "avatarText": "JA",
+      "color": "#d78fca",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "x": 1600,
+          "y": 1280,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.625,
+          "v0": 0.571429,
+          "u1": 0.75,
+          "v1": 0.714286
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/JenniferAnistonHWoFFeb2012.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "emma-stone",
+      "name": "Emma Stone",
+      "shortName": "Emma Stone",
+      "article": "Emma Stone",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Emma_Stone",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Emma_Stone_at_the_2025_Venice_Film_Festival-6313_%28cropped%29.jpg/960px-Emma_Stone_at_the_2025_Venice_Film_Festival-6313_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Emma_Stone_at_the_2025_Venice_Film_Festival-6313_%28cropped%29.jpg/960px-Emma_Stone_at_the_2025_Venice_Film_Festival-6313_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "kind": "actress",
+      "role": "Actress",
+      "avatarText": "ES",
+      "color": "#7b9b65",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "x": 1920,
+          "y": 1280,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.571429,
+          "u1": 0.875,
+          "v1": 0.714286
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Emma_Stone_at_the_2025_Venice_Film_Festival-6313_%28cropped%29.jpg/960px-Emma_Stone_at_the_2025_Venice_Film_Festival-6313_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "kaley-cuoco",
+      "name": "Kaley Cuoco",
+      "shortName": "Kaley Cuoco",
+      "article": "Kaley Cuoco",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Kaley_Cuoco",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Kaley_Cuoco_by_Gage_Skidmore.jpg/960px-Kaley_Cuoco_by_Gage_Skidmore.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Kaley_Cuoco_by_Gage_Skidmore.jpg/960px-Kaley_Cuoco_by_Gage_Skidmore.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "kind": "actress",
+      "role": "Actress",
+      "avatarText": "KC",
+      "color": "#2f4858",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "x": 2240,
+          "y": 1280,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.875,
+          "v0": 0.571429,
+          "u1": 1,
+          "v1": 0.714286
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Kaley_Cuoco_by_Gage_Skidmore.jpg/960px-Kaley_Cuoco_by_Gage_Skidmore.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "meryl-streep",
+      "name": "Meryl Streep",
+      "shortName": "Meryl Streep",
+      "article": "Meryl Streep",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Meryl_Streep",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Meryl_Streep-_Press_conference_for_the_film_%22The_Devil_Wears_Prada_2%22_-_55194765350_%28cropped1%29.jpg/960px-Meryl_Streep-_Press_conference_for_the_film_%22The_Devil_Wears_Prada_2%22_-_55194765350_%28cropped1%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Meryl_Streep-_Press_conference_for_the_film_%22The_Devil_Wears_Prada_2%22_-_55194765350_%28cropped1%29.jpg/960px-Meryl_Streep-_Press_conference_for_the_film_%22The_Devil_Wears_Prada_2%22_-_55194765350_%28cropped1%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "kind": "actress",
+      "role": "Actress",
+      "avatarText": "MS",
+      "color": "#ef426f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "x": 0,
+          "y": 1600,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.714286,
+          "u1": 0.125,
+          "v1": 0.857143
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Meryl_Streep-_Press_conference_for_the_film_%22The_Devil_Wears_Prada_2%22_-_55194765350_%28cropped1%29.jpg/960px-Meryl_Streep-_Press_conference_for_the_film_%22The_Devil_Wears_Prada_2%22_-_55194765350_%28cropped1%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "emily-blunt",
+      "name": "Emily Blunt",
+      "shortName": "Emily Blunt",
+      "article": "Emily Blunt",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Emily_Blunt",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Emily_Blunt_at_WWD_Style_Awards_2026-02.jpg/960px-Emily_Blunt_at_WWD_Style_Awards_2026-02.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Emily_Blunt_at_WWD_Style_Awards_2026-02.jpg/960px-Emily_Blunt_at_WWD_Style_Awards_2026-02.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "kind": "actress",
+      "role": "Actress",
+      "avatarText": "EB",
+      "color": "#86bdf4",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "x": 320,
+          "y": 1600,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.125,
+          "v0": 0.714286,
+          "u1": 0.25,
+          "v1": 0.857143
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Emily_Blunt_at_WWD_Style_Awards_2026-02.jpg/960px-Emily_Blunt_at_WWD_Style_Awards_2026-02.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "kristen-stewart",
+      "name": "Kristen Stewart",
+      "shortName": "Kristen Stewart",
+      "article": "Kristen Stewart",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Kristen_Stewart",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Kristen_Stewart_at_WWD_Style_Awards_2026.jpg/960px-Kristen_Stewart_at_WWD_Style_Awards_2026.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Kristen_Stewart_at_WWD_Style_Awards_2026.jpg/960px-Kristen_Stewart_at_WWD_Style_Awards_2026.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "kind": "actress",
+      "role": "Actress",
+      "avatarText": "KS",
+      "color": "#c9a14a",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "x": 640,
+          "y": 1600,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.714286,
+          "u1": 0.375,
+          "v1": 0.857143
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Kristen_Stewart_at_WWD_Style_Awards_2026.jpg/960px-Kristen_Stewart_at_WWD_Style_Awards_2026.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "fan-bingbing",
+      "name": "Fan Bingbing",
+      "shortName": "Fan Bingbing",
+      "article": "Fan Bingbing",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Fan_Bingbing",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Fan_Bingbing-3213_%28cropped%29.jpg/960px-Fan_Bingbing-3213_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Fan_Bingbing-3213_%28cropped%29.jpg/960px-Fan_Bingbing-3213_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "kind": "actress",
+      "role": "Actress",
+      "avatarText": "FB",
+      "color": "#e34f59",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "x": 960,
+          "y": 1600,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.375,
+          "v0": 0.714286,
+          "u1": 0.5,
+          "v1": 0.857143
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Fan_Bingbing-3213_%28cropped%29.jpg/960px-Fan_Bingbing-3213_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "gwyneth-paltrow",
+      "name": "Gwyneth Paltrow",
+      "shortName": "Gwyneth Paltrow",
+      "article": "Gwyneth Paltrow",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Gwyneth_Paltrow",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Gwyneth_Paltrow_-_Marty_Supreme.jpg/960px-Gwyneth_Paltrow_-_Marty_Supreme.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Gwyneth_Paltrow_-_Marty_Supreme.jpg/960px-Gwyneth_Paltrow_-_Marty_Supreme.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "kind": "actress",
+      "role": "Actress",
+      "avatarText": "GP",
+      "color": "#9aa4b2",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "x": 1280,
+          "y": 1600,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.714286,
+          "u1": 0.625,
+          "v1": 0.857143
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Gwyneth_Paltrow_-_Marty_Supreme.jpg/960px-Gwyneth_Paltrow_-_Marty_Supreme.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "charlize-theron",
+      "name": "Charlize Theron",
+      "shortName": "Charlize Theron",
+      "article": "Charlize Theron",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Charlize_Theron",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/CharlizeTheron-byPhilipRomano2.jpg/960px-CharlizeTheron-byPhilipRomano2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/CharlizeTheron-byPhilipRomano2.jpg/960px-CharlizeTheron-byPhilipRomano2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "kind": "actress",
+      "role": "Actress",
+      "avatarText": "CT",
+      "color": "#ff5a61",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "x": 1600,
+          "y": 1600,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.625,
+          "v0": 0.714286,
+          "u1": 0.75,
+          "v1": 0.857143
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/CharlizeTheron-byPhilipRomano2.jpg/960px-CharlizeTheron-byPhilipRomano2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "julia-roberts",
+      "name": "Julia Roberts",
+      "shortName": "Julia Roberts",
+      "article": "Julia Roberts",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Julia_Roberts",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Julia_Roberts_2025.jpg/960px-Julia_Roberts_2025.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Julia_Roberts_2025.jpg/960px-Julia_Roberts_2025.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "kind": "actress",
+      "role": "Actress",
+      "avatarText": "JR",
+      "color": "#18c871",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "x": 1920,
+          "y": 1600,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.714286,
+          "u1": 0.875,
+          "v1": 0.857143
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Julia_Roberts_2025.jpg/960px-Julia_Roberts_2025.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "mila-kunis",
+      "name": "Mila Kunis",
+      "shortName": "Mila Kunis",
+      "article": "Mila Kunis",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Mila_Kunis",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Mila_Kunis_TIFF_2025_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Mila_Kunis_TIFF_2025_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "kind": "actress",
+      "role": "Actress",
+      "avatarText": "MK",
+      "color": "#ffc84a",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "x": 2240,
+          "y": 1600,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.875,
+          "v0": 0.714286,
+          "u1": 1,
+          "v1": 0.857143
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Mila_Kunis_TIFF_2025_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "emma-watson",
+      "name": "Emma Watson",
+      "shortName": "Emma Watson",
+      "article": "Emma Watson",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Emma_Watson",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Emma_Watson_2013.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Emma_Watson_2013.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "kind": "actress",
+      "role": "Actress",
+      "avatarText": "EW",
+      "color": "#00a6ff",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "x": 0,
+          "y": 1920,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.857143,
+          "u1": 0.125,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Emma_Watson_2013.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "amy-adams",
+      "name": "Amy Adams",
+      "shortName": "Amy Adams",
+      "article": "Amy Adams",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Amy_Adams",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Amy_Adams_at_the_2024_Toronto_International_Film_Festival._03_%28cropped%29.jpg/960px-Amy_Adams_at_the_2024_Toronto_International_Film_Festival._03_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Amy_Adams_at_the_2024_Toronto_International_Film_Festival._03_%28cropped%29.jpg/960px-Amy_Adams_at_the_2024_Toronto_International_Film_Festival._03_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "kind": "actress",
+      "role": "Actress",
+      "avatarText": "AA",
+      "color": "#8f6bff",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+          "x": 320,
+          "y": 1920,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.125,
+          "v0": 0.857143,
+          "u1": 0.25,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Amy_Adams_at_the_2024_Toronto_International_Film_Festival._03_%28cropped%29.jpg/960px-Amy_Adams_at_the_2024_Toronto_International_Film_Festival._03_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    }
+  ],
+  "frames": [
+    {
+      "date": "2013",
+      "values": [
+        {
+          "id": "robert-downey-jr",
+          "value": 75000000,
+          "rank": 1,
+          "kind": "actor"
+        },
+        {
+          "id": "channing-tatum",
+          "value": 60000000,
+          "rank": 2,
+          "kind": "actor"
+        },
+        {
+          "id": "hugh-jackman",
+          "value": 55000000,
+          "rank": 3,
+          "kind": "actor"
+        },
+        {
+          "id": "mark-wahlberg",
+          "value": 52000000,
+          "rank": 4,
+          "kind": "actor"
+        },
+        {
+          "id": "dwayne-johnson",
+          "value": 46000000,
+          "rank": 5,
+          "kind": "actor"
+        },
+        {
+          "id": "leonardo-dicaprio",
+          "value": 39000000,
+          "rank": 6,
+          "kind": "actor"
+        },
+        {
+          "id": "adam-sandler",
+          "value": 37000000,
+          "rank": 7,
+          "kind": "actor"
+        },
+        {
+          "id": "tom-cruise",
+          "value": 35000000,
+          "rank": 8,
+          "kind": "actor"
+        },
+        {
+          "id": "denzel-washington",
+          "value": 33000000,
+          "rank": 9,
+          "kind": "actor"
+        },
+        {
+          "id": "angelina-jolie",
+          "value": 33000000,
+          "rank": 10,
+          "kind": "actress"
+        },
+        {
+          "id": "liam-neeson",
+          "value": 32000000,
+          "rank": 11,
+          "kind": "actor"
+        },
+        {
+          "id": "jennifer-lawrence",
+          "value": 26000000,
+          "rank": 12,
+          "kind": "actress"
+        },
+        {
+          "id": "kristen-stewart",
+          "value": 22000000,
+          "rank": 13,
+          "kind": "actress"
+        },
+        {
+          "id": "jennifer-aniston",
+          "value": 20000000,
+          "rank": 14,
+          "kind": "actress"
+        },
+        {
+          "id": "emma-stone",
+          "value": 16000000,
+          "rank": 15,
+          "kind": "actress"
+        },
+        {
+          "id": "charlize-theron",
+          "value": 15000000,
+          "rank": 16,
+          "kind": "actress"
+        }
+      ]
+    },
+    {
+      "date": "2014",
+      "values": [
+        {
+          "id": "robert-downey-jr",
+          "value": 75000000,
+          "rank": 1,
+          "kind": "actor"
+        },
+        {
+          "id": "dwayne-johnson",
+          "value": 52000000,
+          "rank": 2,
+          "kind": "actor"
+        },
+        {
+          "id": "sandra-bullock",
+          "value": 51000000,
+          "rank": 3,
+          "kind": "actress"
+        },
+        {
+          "id": "bradley-cooper",
+          "value": 46000000,
+          "rank": 4,
+          "kind": "actor"
+        },
+        {
+          "id": "leonardo-dicaprio",
+          "value": 39000000,
+          "rank": 5,
+          "kind": "actor"
+        },
+        {
+          "id": "chris-hemsworth",
+          "value": 37000000,
+          "rank": 6,
+          "kind": "actor"
+        },
+        {
+          "id": "liam-neeson",
+          "value": 36000000,
+          "rank": 7,
+          "kind": "actor"
+        },
+        {
+          "id": "ben-affleck",
+          "value": 35000000,
+          "rank": 8,
+          "kind": "actor"
+        },
+        {
+          "id": "christian-bale",
+          "value": 35000000,
+          "rank": 9,
+          "kind": "actor"
+        },
+        {
+          "id": "will-smith",
+          "value": 34000000,
+          "rank": 10,
+          "kind": "actor"
+        },
+        {
+          "id": "jennifer-lawrence",
+          "value": 34000000,
+          "rank": 11,
+          "kind": "actress"
+        },
+        {
+          "id": "mark-wahlberg",
+          "value": 32000000,
+          "rank": 12,
+          "kind": "actor"
+        },
+        {
+          "id": "jennifer-aniston",
+          "value": 31000000,
+          "rank": 13,
+          "kind": "actress"
+        },
+        {
+          "id": "gwyneth-paltrow",
+          "value": 19000000,
+          "rank": 14,
+          "kind": "actress"
+        },
+        {
+          "id": "angelina-jolie",
+          "value": 18000000,
+          "rank": 15,
+          "kind": "actress"
+        },
+        {
+          "id": "amy-adams",
+          "value": 13000000,
+          "rank": 16,
+          "kind": "actress"
+        }
+      ]
+    },
+    {
+      "date": "2015",
+      "values": [
+        {
+          "id": "robert-downey-jr",
+          "value": 80000000,
+          "rank": 1,
+          "kind": "actor"
+        },
+        {
+          "id": "jennifer-lawrence",
+          "value": 52000000,
+          "rank": 2,
+          "kind": "actress"
+        },
+        {
+          "id": "jackie-chan",
+          "value": 50000000,
+          "rank": 3,
+          "kind": "actor"
+        },
+        {
+          "id": "vin-diesel",
+          "value": 47000000,
+          "rank": 4,
+          "kind": "actor"
+        },
+        {
+          "id": "bradley-cooper",
+          "value": 41500000,
+          "rank": 5,
+          "kind": "actor"
+        },
+        {
+          "id": "adam-sandler",
+          "value": 41000000,
+          "rank": 6,
+          "kind": "actor"
+        },
+        {
+          "id": "tom-cruise",
+          "value": 40000000,
+          "rank": 7,
+          "kind": "actor"
+        },
+        {
+          "id": "scarlett-johansson",
+          "value": 35500000,
+          "rank": 8,
+          "kind": "actress"
+        },
+        {
+          "id": "amitabh-bachchan",
+          "value": 33500000,
+          "rank": 9,
+          "kind": "actor"
+        },
+        {
+          "id": "salman-khan",
+          "value": 33500000,
+          "rank": 10,
+          "kind": "actor"
+        },
+        {
+          "id": "akshay-kumar",
+          "value": 32500000,
+          "rank": 11,
+          "kind": "actor"
+        },
+        {
+          "id": "mark-wahlberg",
+          "value": 32000000,
+          "rank": 12,
+          "kind": "actor"
+        },
+        {
+          "id": "melissa-mccarthy",
+          "value": 23000000,
+          "rank": 13,
+          "kind": "actress"
+        },
+        {
+          "id": "fan-bingbing",
+          "value": 21000000,
+          "rank": 14,
+          "kind": "actress"
+        },
+        {
+          "id": "jennifer-aniston",
+          "value": 16500000,
+          "rank": 15,
+          "kind": "actress"
+        },
+        {
+          "id": "julia-roberts",
+          "value": 16000000,
+          "rank": 16,
+          "kind": "actress"
+        }
+      ]
+    },
+    {
+      "date": "2016",
+      "values": [
+        {
+          "id": "dwayne-johnson",
+          "value": 64500000,
+          "rank": 1,
+          "kind": "actor"
+        },
+        {
+          "id": "jackie-chan",
+          "value": 61000000,
+          "rank": 2,
+          "kind": "actor"
+        },
+        {
+          "id": "matt-damon",
+          "value": 55000000,
+          "rank": 3,
+          "kind": "actor"
+        },
+        {
+          "id": "tom-cruise",
+          "value": 53000000,
+          "rank": 4,
+          "kind": "actor"
+        },
+        {
+          "id": "johnny-depp",
+          "value": 48000000,
+          "rank": 5,
+          "kind": "actor"
+        },
+        {
+          "id": "jennifer-lawrence",
+          "value": 46000000,
+          "rank": 6,
+          "kind": "actress"
+        },
+        {
+          "id": "ben-affleck",
+          "value": 43000000,
+          "rank": 7,
+          "kind": "actor"
+        },
+        {
+          "id": "vin-diesel",
+          "value": 35000000,
+          "rank": 8,
+          "kind": "actor"
+        },
+        {
+          "id": "shah-rukh-khan",
+          "value": 33000000,
+          "rank": 9,
+          "kind": "actor"
+        },
+        {
+          "id": "robert-downey-jr",
+          "value": 33000000,
+          "rank": 10,
+          "kind": "actor"
+        },
+        {
+          "id": "melissa-mccarthy",
+          "value": 33000000,
+          "rank": 11,
+          "kind": "actress"
+        },
+        {
+          "id": "akshay-kumar",
+          "value": 31500000,
+          "rank": 12,
+          "kind": "actor"
+        },
+        {
+          "id": "scarlett-johansson",
+          "value": 25000000,
+          "rank": 13,
+          "kind": "actress"
+        },
+        {
+          "id": "jennifer-aniston",
+          "value": 21000000,
+          "rank": 14,
+          "kind": "actress"
+        },
+        {
+          "id": "fan-bingbing",
+          "value": 17000000,
+          "rank": 15,
+          "kind": "actress"
+        },
+        {
+          "id": "charlize-theron",
+          "value": 16500000,
+          "rank": 16,
+          "kind": "actress"
+        }
+      ]
+    },
+    {
+      "date": "2017",
+      "values": [
+        {
+          "id": "mark-wahlberg",
+          "value": 68000000,
+          "rank": 1,
+          "kind": "actor"
+        },
+        {
+          "id": "dwayne-johnson",
+          "value": 65000000,
+          "rank": 2,
+          "kind": "actor"
+        },
+        {
+          "id": "vin-diesel",
+          "value": 54500000,
+          "rank": 3,
+          "kind": "actor"
+        },
+        {
+          "id": "adam-sandler",
+          "value": 50500000,
+          "rank": 4,
+          "kind": "actor"
+        },
+        {
+          "id": "jackie-chan",
+          "value": 49000000,
+          "rank": 5,
+          "kind": "actor"
+        },
+        {
+          "id": "robert-downey-jr",
+          "value": 48000000,
+          "rank": 6,
+          "kind": "actor"
+        },
+        {
+          "id": "tom-cruise",
+          "value": 43000000,
+          "rank": 7,
+          "kind": "actor"
+        },
+        {
+          "id": "shah-rukh-khan",
+          "value": 38000000,
+          "rank": 8,
+          "kind": "actor"
+        },
+        {
+          "id": "salman-khan",
+          "value": 37000000,
+          "rank": 9,
+          "kind": "actor"
+        },
+        {
+          "id": "akshay-kumar",
+          "value": 35500000,
+          "rank": 10,
+          "kind": "actor"
+        },
+        {
+          "id": "emma-stone",
+          "value": 26000000,
+          "rank": 11,
+          "kind": "actress"
+        },
+        {
+          "id": "jennifer-aniston",
+          "value": 25500000,
+          "rank": 12,
+          "kind": "actress"
+        },
+        {
+          "id": "jennifer-lawrence",
+          "value": 24000000,
+          "rank": 13,
+          "kind": "actress"
+        },
+        {
+          "id": "melissa-mccarthy",
+          "value": 18000000,
+          "rank": 14,
+          "kind": "actress"
+        },
+        {
+          "id": "mila-kunis",
+          "value": 15500000,
+          "rank": 15,
+          "kind": "actress"
+        },
+        {
+          "id": "emma-watson",
+          "value": 14000000,
+          "rank": 16,
+          "kind": "actress"
+        }
+      ]
+    },
+    {
+      "date": "2018",
+      "values": [
+        {
+          "id": "george-clooney",
+          "value": 239000000,
+          "rank": 1,
+          "kind": "actor"
+        },
+        {
+          "id": "dwayne-johnson",
+          "value": 124000000,
+          "rank": 2,
+          "kind": "actor"
+        },
+        {
+          "id": "robert-downey-jr",
+          "value": 81000000,
+          "rank": 3,
+          "kind": "actor"
+        },
+        {
+          "id": "chris-hemsworth",
+          "value": 64500000,
+          "rank": 4,
+          "kind": "actor"
+        },
+        {
+          "id": "jackie-chan",
+          "value": 45500000,
+          "rank": 5,
+          "kind": "actor"
+        },
+        {
+          "id": "will-smith",
+          "value": 42000000,
+          "rank": 6,
+          "kind": "actor"
+        },
+        {
+          "id": "akshay-kumar",
+          "value": 40500000,
+          "rank": 7,
+          "kind": "actor"
+        },
+        {
+          "id": "scarlett-johansson",
+          "value": 40500000,
+          "rank": 8,
+          "kind": "actress"
+        },
+        {
+          "id": "adam-sandler",
+          "value": 39500000,
+          "rank": 9,
+          "kind": "actor"
+        },
+        {
+          "id": "chris-evans",
+          "value": 34000000,
+          "rank": 10,
+          "kind": "actor"
+        },
+        {
+          "id": "salman-khan",
+          "value": 33500000,
+          "rank": 11,
+          "kind": "actor"
+        },
+        {
+          "id": "angelina-jolie",
+          "value": 28000000,
+          "rank": 12,
+          "kind": "actress"
+        },
+        {
+          "id": "jennifer-aniston",
+          "value": 19500000,
+          "rank": 13,
+          "kind": "actress"
+        },
+        {
+          "id": "jennifer-lawrence",
+          "value": 18000000,
+          "rank": 14,
+          "kind": "actress"
+        },
+        {
+          "id": "reese-witherspoon",
+          "value": 16500000,
+          "rank": 15,
+          "kind": "actress"
+        },
+        {
+          "id": "mila-kunis",
+          "value": 16000000,
+          "rank": 16,
+          "kind": "actress"
+        }
+      ]
+    },
+    {
+      "date": "2019",
+      "values": [
+        {
+          "id": "dwayne-johnson",
+          "value": 89400000,
+          "rank": 1,
+          "kind": "actor"
+        },
+        {
+          "id": "chris-hemsworth",
+          "value": 76400000,
+          "rank": 2,
+          "kind": "actor"
+        },
+        {
+          "id": "robert-downey-jr",
+          "value": 66000000,
+          "rank": 3,
+          "kind": "actor"
+        },
+        {
+          "id": "akshay-kumar",
+          "value": 65000000,
+          "rank": 4,
+          "kind": "actor"
+        },
+        {
+          "id": "jackie-chan",
+          "value": 58000000,
+          "rank": 5,
+          "kind": "actor"
+        },
+        {
+          "id": "bradley-cooper",
+          "value": 57000000,
+          "rank": 6,
+          "kind": "actor"
+        },
+        {
+          "id": "adam-sandler",
+          "value": 57000000,
+          "rank": 7,
+          "kind": "actor"
+        },
+        {
+          "id": "scarlett-johansson",
+          "value": 56000000,
+          "rank": 8,
+          "kind": "actress"
+        },
+        {
+          "id": "sofia-vergara",
+          "value": 44100000,
+          "rank": 9,
+          "kind": "actress"
+        },
+        {
+          "id": "chris-evans",
+          "value": 43500000,
+          "rank": 10,
+          "kind": "actor"
+        },
+        {
+          "id": "paul-rudd",
+          "value": 41000000,
+          "rank": 11,
+          "kind": "actor"
+        },
+        {
+          "id": "will-smith",
+          "value": 35000000,
+          "rank": 12,
+          "kind": "actor"
+        },
+        {
+          "id": "reese-witherspoon",
+          "value": 35000000,
+          "rank": 13,
+          "kind": "actress"
+        },
+        {
+          "id": "nicole-kidman",
+          "value": 34000000,
+          "rank": 14,
+          "kind": "actress"
+        },
+        {
+          "id": "jennifer-aniston",
+          "value": 28000000,
+          "rank": 15,
+          "kind": "actress"
+        },
+        {
+          "id": "kaley-cuoco",
+          "value": 25000000,
+          "rank": 16,
+          "kind": "actress"
+        }
+      ]
+    },
+    {
+      "date": "2020",
+      "values": [
+        {
+          "id": "dwayne-johnson",
+          "value": 87500000,
+          "rank": 1,
+          "kind": "actor"
+        },
+        {
+          "id": "ryan-reynolds",
+          "value": 71500000,
+          "rank": 2,
+          "kind": "actor"
+        },
+        {
+          "id": "mark-wahlberg",
+          "value": 58000000,
+          "rank": 3,
+          "kind": "actor"
+        },
+        {
+          "id": "ben-affleck",
+          "value": 55000000,
+          "rank": 4,
+          "kind": "actor"
+        },
+        {
+          "id": "vin-diesel",
+          "value": 54000000,
+          "rank": 5,
+          "kind": "actor"
+        },
+        {
+          "id": "akshay-kumar",
+          "value": 48500000,
+          "rank": 6,
+          "kind": "actor"
+        },
+        {
+          "id": "lin-manuel-miranda",
+          "value": 45500000,
+          "rank": 7,
+          "kind": "actor"
+        },
+        {
+          "id": "will-smith",
+          "value": 44500000,
+          "rank": 8,
+          "kind": "actor"
+        },
+        {
+          "id": "sofia-vergara",
+          "value": 43000000,
+          "rank": 9,
+          "kind": "actress"
+        },
+        {
+          "id": "adam-sandler",
+          "value": 41000000,
+          "rank": 10,
+          "kind": "actor"
+        },
+        {
+          "id": "jackie-chan",
+          "value": 40000000,
+          "rank": 11,
+          "kind": "actor"
+        },
+        {
+          "id": "angelina-jolie",
+          "value": 35500000,
+          "rank": 12,
+          "kind": "actress"
+        },
+        {
+          "id": "gal-gadot",
+          "value": 31500000,
+          "rank": 13,
+          "kind": "actress"
+        },
+        {
+          "id": "melissa-mccarthy",
+          "value": 25000000,
+          "rank": 14,
+          "kind": "actress"
+        },
+        {
+          "id": "meryl-streep",
+          "value": 24000000,
+          "rank": 15,
+          "kind": "actress"
+        },
+        {
+          "id": "emily-blunt",
+          "value": 22500000,
+          "rank": 16,
+          "kind": "actress"
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "date": "2013",
+      "title": "Robert Downey Jr. leads Hollywood pay in 2013",
+      "body": "Robert Downey Jr. leads the combined Forbes earnings list with $75.0M. Angelina Jolie tops the actresses at $33.0M."
+    },
+    {
+      "date": "2017",
+      "title": "Mark Wahlberg leads Hollywood pay in 2017",
+      "body": "Mark Wahlberg leads the combined Forbes earnings list with $68.0M. Emma Stone tops the actresses at $26.0M."
+    },
+    {
+      "date": "2020",
+      "title": "Dwayne Johnson leads Hollywood pay in 2020",
+      "body": "Dwayne Johnson leads the combined Forbes earnings list with $87.5M. Sofía Vergara tops the actresses at $43.0M."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Forbes list of the world's highest-paid actors",
+      "publisher": "Forbes",
+      "url": "https://www.forbes.com/",
+      "note": "Annual Forbes ranking of the highest-paid male film actors."
+    },
+    {
+      "title": "Forbes list of the world's highest-paid actresses",
+      "publisher": "Forbes",
+      "url": "https://www.forbes.com/",
+      "note": "Annual Forbes ranking of the highest-paid actresses."
+    },
+    {
+      "title": "List of highest-paid film actors",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_highest-paid_film_actors",
+      "note": "Public compilation of Forbes' yearly highest-paid actor and actress earnings tables."
+    }
+  ],
+  "lastObservationDate": "2020",
+  "dataFreshness": {
+    "status": "fresh",
+    "refreshCadence": "monthly",
+    "lastUpdated": "2026-08-22T14:56:45.984Z",
+    "lastRefreshAttemptedAt": "2026-08-22T14:56:45.984Z",
+    "lastRefreshError": null,
+    "lastObservationDate": "2020",
+    "nextRefreshAt": "2026-09-03T09:00:00.000Z",
+    "sourceStatus": "Forbes annual highest-paid actors and actresses lists",
+    "confidence": "Combined Forbes highest-paid actors and actresses earnings for 2013-2020 (8 annual frames). Each figure is Forbes' published pre-tax trailing-12-month estimate in USD; the two gendered lists are merged and re-ranked by earnings. Forbes did not publish comparable lists for every earlier year, so verified coverage begins in 2013."
+  },
+  "media": {
+    "tileSize": 320,
+    "imageFit": "cover",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-08-22T14:56:45.984Z",
+    "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+    "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.webp",
+    "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+    "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-paid-actors.json",
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 8,
+    "rows": 7,
+    "width": 2560,
+    "height": 2240,
+    "itemCount": 50,
+    "sourcedImageCount": 50,
+    "generatedImageCount": 0,
+    "placeholderCount": 0,
+    "ogImageUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/highest-paid-actors.png",
+    "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/highest-paid-actors.png",
+    "ogImageWidth": 1200,
+    "ogImageHeight": 630
+  },
+  "taxonomy": {
+    "primaryCategory": "entertainment",
+    "categories": [
+      "entertainment",
+      "celebrity",
+      "economy"
+    ],
+    "tags": [
+      "actors",
+      "actresses",
+      "hollywood",
+      "earnings",
+      "forbes"
+    ],
+    "entityTypes": [
+      "actor",
+      "actress",
+      "person"
+    ],
+    "sourceTypes": [
+      "forbes",
+      "wikipedia"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "top-athlete-salaries",
+      "type": "money-and-earnings",
+      "weight": 0.72,
+      "reason": "Both rank the highest-paid entertainers/athletes by annual Forbes earnings estimates."
+    },
+    {
+      "target": "internet-obsession-meter",
+      "type": "celebrity-attention",
+      "weight": 0.5,
+      "reason": "Top-earning actors overlap heavily with the celebrities driving public attention spikes."
+    },
+    {
+      "target": "what-everyone-is-watching",
+      "type": "screen-entertainment",
+      "weight": 0.46,
+      "reason": "The actors on this list headline the films and shows audiences are watching."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "screen-entertainment",
+    "mainland": "culture",
+    "bridgePriority": [
+      "what-everyone-is-watching",
+      "internet-obsession-meter"
+    ]
+  },
+  "schemaVersion": 1,
+  "contentKind": "dat-city.story",
+  "generatedAt": "2026-08-22T14:56:45.984Z",
+  "versionId": "20260822T145645Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "dashboard-settings:crypto-memecoin-heat",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-08-22T14:56:45.984Z",
+    "versionId": "20260822T145645Z",
+    "adapter": "highest-paid-actors",
+    "storySlug": "highest-paid-actors",
+    "districtId": null,
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "publicProjection": {
+    "kind": "story",
+    "version": 1,
+    "generatedAt": "2026-08-22T14:56:45.984Z",
+    "adapter": "highest-paid-actors",
+    "cache": {
+      "browserMaxAgeSeconds": 60,
+      "edgeMaxAgeSeconds": 3600
+    }
+  },
+  "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/highest-paid-actors.png"
+}

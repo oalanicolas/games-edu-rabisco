@@ -1,0 +1,5215 @@
+{
+  "id": "prime-video-top-10",
+  "kicker": "Prime Video Bootstrap",
+  "title": "Prime Video Watchlist Leaders",
+  "subtitle": "A Wikipedia-sourced attention snapshot for Prime Video originals while a recurring weekly chart source is unavailable.",
+  "badge": "Bootstrap by Wikipedia views",
+  "visualization": "race-arena",
+  "theme": "creator-arena",
+  "artStyle": "stylized-editorial",
+  "dateRange": [
+    "20260628",
+    "20260901"
+  ],
+  "timelineTicks": [
+    "20260628",
+    "20260629",
+    "20260701",
+    "20260706",
+    "20260707",
+    "20260708",
+    "20260709",
+    "20260710",
+    "20260711",
+    "20260712",
+    "20260713",
+    "20260714",
+    "20260715",
+    "20260716",
+    "20260717",
+    "20260718",
+    "20260719",
+    "20260720",
+    "20260721",
+    "20260722",
+    "20260728",
+    "20260804",
+    "20260811",
+    "20260818",
+    "20260822",
+    "20260825",
+    "20260901"
+  ],
+  "metricLabel": "Wikipedia views",
+  "ogImage": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/prime-video-top-10.png",
+  "cityPreview": {
+    "districtId": "prime-video-quay",
+    "districtName": "Prime Video Quay",
+    "cardLabel": "Prime Video",
+    "summary": "Prime Video originals ranked by Wikipedia attention as a temporary source-backed bootstrap, not an official weekly Top 10.",
+    "primaryMetric": "Wikipedia views",
+    "latestFrameLabel": "2026-09-01",
+    "storyUrl": "/stories/prime-video-top-10/",
+    "thumbnail": "/assets/og/dat-city.webp"
+  },
+  "sourceStatus": "Wikipedia pageview bootstrap for Prime Video originals",
+  "confidence": "Observed 30 days of en.wikipedia pageviews for titles listed on 2 Wikipedia platform-original page(s) at 2026-09-01T07:03:08.053Z. This is not a weekly or current streaming Top 10.",
+  "methodology": "Wikipedia does not currently provide a durable weekly/current Top 10 page for Prime Video. This bootstrap uses the configured Wikipedia original-programming and original-film list pages as the source universe, then ranks titles by recent en.wikipedia pageviews via Wikipedia's PageViewInfo API. Treat the output as public-interest attention among platform originals, not streaming watch time or official platform ranking.",
+  "playback": {
+    "durationSeconds": 24,
+    "initialDate": "20260628",
+    "periodLabel": "Prime Video Wikipedia attention"
+  },
+  "visual": {
+    "topCount": 10,
+    "referenceCount": 20,
+    "horizontalCount": 12
+  },
+  "layers": [
+    {
+      "id": "pageviews",
+      "label": "Wikipedia views",
+      "default": true
+    },
+    {
+      "id": "platform",
+      "label": "Prime Video originals",
+      "default": true
+    }
+  ],
+  "focus": [
+    {
+      "id": "sterling-point",
+      "label": "Sterling Point"
+    },
+    {
+      "id": "reacher-tv-series",
+      "label": "Reacher"
+    },
+    {
+      "id": "ride-or-die-2026-tv-series",
+      "label": "Ride or Die"
+    },
+    {
+      "id": "off-campus",
+      "label": "Off Campus"
+    }
+  ],
+  "entities": [
+    {
+      "id": "sterling-point",
+      "name": "Sterling Point",
+      "article": "Sterling Point",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Sterling_Point",
+      "genre": "Teen drama",
+      "premiere": "August 5, 2026",
+      "status": "Pending",
+      "contentKinds": [
+        "series"
+      ],
+      "sourcePages": [
+        "List of Amazon Prime Video original programming"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/3/35/Sterling_Point_1_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/3/35/Sterling_Point_1_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "SP",
+      "color": "#41a99f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.2,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/3/35/Sterling_Point_1_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "reacher-tv-series",
+      "name": "Reacher",
+      "article": "Reacher (TV series)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Reacher_(TV_series)",
+      "genre": "Crime drama",
+      "premiere": "February 4, 2022",
+      "status": "Season 4 due to premiere on August 12, 2026 Renewed",
+      "contentKinds": [
+        "series"
+      ],
+      "sourcePages": [
+        "List of Amazon Prime Video original programming"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/2/25/Reacher_series_title_card.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/25/Reacher_series_title_card.png",
+      "avatarText": "R",
+      "color": "#86bdf4",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0,
+          "u1": 0.4,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/25/Reacher_series_title_card.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "ride-or-die-2026-tv-series",
+      "name": "Ride or Die",
+      "article": "Ride or Die (2026 TV series)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Ride_or_Die_(2026_TV_series)",
+      "genre": "Action adventure comedy",
+      "premiere": "July 15, 2026",
+      "status": "Pending",
+      "contentKinds": [
+        "series"
+      ],
+      "sourcePages": [
+        "List of Amazon Prime Video original programming"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Ride_or_Die_%282026_tv_series%29.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Ride_or_Die_%282026_tv_series%29.png",
+      "avatarText": "RO",
+      "color": "#d78fca",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0,
+          "u1": 0.6,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Ride_or_Die_%282026_tv_series%29.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "off-campus",
+      "name": "Off Campus",
+      "article": "Off Campus",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Off_Campus",
+      "genre": "Young adult romance",
+      "premiere": "May 13, 2026",
+      "status": "Renewed",
+      "contentKinds": [
+        "series"
+      ],
+      "sourcePages": [
+        "List of Amazon Prime Video original programming"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/f/fa/Off_Campus_logo.webp",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/f/fa/Off_Campus_logo.webp",
+      "avatarText": "OC",
+      "color": "#f18c4f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0,
+          "u1": 0.8,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/f/fa/Off_Campus_logo.webp",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "batman-caped-crusader",
+      "name": "Batman: Caped Crusader",
+      "article": "Batman: Caped Crusader",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Batman%3A_Caped_Crusader",
+      "genre": "Superhero",
+      "premiere": "August 1, 2024",
+      "status": "Season 2 due to premiere on July 31, 2026",
+      "contentKinds": [
+        "series"
+      ],
+      "sourcePages": [
+        "List of Amazon Prime Video original programming"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Batman-Caped_Crusader_animated_series_logo.svg/960px-Batman-Caped_Crusader_animated_series_logo.svg.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Batman-Caped_Crusader_animated_series_logo.svg/960px-Batman-Caped_Crusader_animated_series_logo.svg.png",
+      "avatarText": "BC",
+      "color": "#86bdf4",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "x": 1280,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Batman-Caped_Crusader_animated_series_logo.svg/960px-Batman-Caped_Crusader_animated_series_logo.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "arthur-the-king",
+      "name": "Arthur the King",
+      "article": "Arthur the King",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Arthur_the_King",
+      "genre": "Drama",
+      "premiere": "May 24, 2024",
+      "status": "",
+      "contentKinds": [
+        "films"
+      ],
+      "sourcePages": [
+        "List of Amazon Prime Video original films"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/9/94/Arthur_the_king_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/9/94/Arthur_the_king_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "AT",
+      "color": "#8f6bff",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.25,
+          "u1": 0.2,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/9/94/Arthur_the_king_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "neagley",
+      "name": "Neagley",
+      "article": "Neagley",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Neagley",
+      "genre": "Crime drama",
+      "premiere": "September 16, 2026",
+      "status": "Pending",
+      "contentKinds": [
+        "series"
+      ],
+      "sourcePages": [
+        "List of Amazon Prime Video original programming"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/c/c9/Neagley_season_1_poster.jpeg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/c/c9/Neagley_season_1_poster.jpeg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "N",
+      "color": "#00a6ff",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.25,
+          "u1": 0.4,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/c/c9/Neagley_season_1_poster.jpeg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "invincible-tv-series",
+      "name": "Invincible",
+      "article": "Invincible (TV series)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Invincible_(TV_series)",
+      "genre": "Superhero drama",
+      "premiere": "March 25, 2021",
+      "status": "Renewed for seasons 5–6",
+      "contentKinds": [
+        "series"
+      ],
+      "sourcePages": [
+        "List of Amazon Prime Video original programming"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Invincible_comic_series_logo.png/960px-Invincible_comic_series_logo.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Invincible_comic_series_logo.png/960px-Invincible_comic_series_logo.png",
+      "avatarText": "I",
+      "color": "#f18c4f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.25,
+          "u1": 0.6,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Invincible_comic_series_logo.png/960px-Invincible_comic_series_logo.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "fallout-american-tv-series",
+      "name": "Fallout",
+      "article": "Fallout (American TV series)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Fallout_(American_TV_series)",
+      "genre": "Post-apocalyptic drama",
+      "premiere": "April 10, 2024",
+      "status": "Renewed",
+      "contentKinds": [
+        "series"
+      ],
+      "sourcePages": [
+        "List of Amazon Prime Video original programming"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Fallout_television_series_logo.svg/960px-Fallout_television_series_logo.svg.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Fallout_television_series_logo.svg/960px-Fallout_television_series_logo.svg.png",
+      "avatarText": "F",
+      "color": "#86bdf4",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.25,
+          "u1": 0.8,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Fallout_television_series_logo.svg/960px-Fallout_television_series_logo.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "adarsh-baal-vidyalaya",
+      "name": "Adarsh Baal Vidyalaya",
+      "article": "Adarsh Baal Vidyalaya",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Adarsh_Baal_Vidyalaya",
+      "genre": "Drama",
+      "premiere": "July 24, 2026",
+      "status": "Pending",
+      "contentKinds": [
+        "series"
+      ],
+      "sourcePages": [
+        "List of Amazon Prime Video original programming"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Star_empty.svg/960px-Star_empty.svg.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Star_empty.svg/960px-Star_empty.svg.png",
+      "avatarText": "AB",
+      "color": "#ef426f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "x": 1280,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.25,
+          "u1": 1,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Star_empty.svg/960px-Star_empty.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "every-year-after",
+      "name": "Every Year After",
+      "article": "Every Year After",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Every_Year_After",
+      "genre": "Romantic drama",
+      "premiere": "June 10, 2026",
+      "status": "Renewed",
+      "contentKinds": [
+        "series"
+      ],
+      "sourcePages": [
+        "List of Amazon Prime Video original programming"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/4/49/Every_year_after_poster.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/4/49/Every_year_after_poster.jpg",
+      "avatarText": "EY",
+      "color": "#ffc84a",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.5,
+          "u1": 0.2,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/4/49/Every_year_after_poster.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "clarkson-s-farm",
+      "name": "Clarkson's Farm",
+      "article": "Clarkson's Farm",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Clarkson's_Farm",
+      "genre": "Agriculture",
+      "premiere": "June 11, 2021",
+      "status": "Renewed",
+      "contentKinds": [
+        "series"
+      ],
+      "sourcePages": [
+        "List of Amazon Prime Video original programming"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/a/a0/Clarkson%27s_Farm_Title_Card.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a0/Clarkson%27s_Farm_Title_Card.jpg",
+      "avatarText": "CF",
+      "color": "#00a6ff",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.5,
+          "u1": 0.4,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/a/a0/Clarkson%27s_Farm_Title_Card.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "elle-tv-series",
+      "name": "Elle",
+      "article": "Elle (TV series)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Elle_(TV_series)",
+      "genre": "Teen comedy drama",
+      "premiere": "July 1, 2026",
+      "status": "Renewed",
+      "contentKinds": [
+        "series"
+      ],
+      "sourcePages": [
+        "List of Amazon Prime Video original programming"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/Elle_%28TV_series%29_title_card.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/Elle_%28TV_series%29_title_card.png",
+      "avatarText": "E",
+      "color": "#d78fca",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.5,
+          "u1": 0.6,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/Elle_%28TV_series%29_title_card.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "guy-ritchie-s-the-covenant",
+      "name": "Guy Ritchie's The Covenant",
+      "article": "Guy Ritchie's The Covenant",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Guy_Ritchie's_The_Covenant",
+      "genre": "Action",
+      "premiere": "July 27, 2023",
+      "status": "",
+      "contentKinds": [
+        "films"
+      ],
+      "sourcePages": [
+        "List of Amazon Prime Video original films"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/1/1d/TheCovenantPoster.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/1/1d/TheCovenantPoster.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "GR",
+      "color": "#41a99f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.5,
+          "u1": 0.8,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/1/1d/TheCovenantPoster.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "scarpetta-tv-series",
+      "name": "Scarpetta",
+      "article": "Scarpetta (TV series)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Scarpetta_(TV_series)",
+      "genre": "Crime drama",
+      "premiere": "March 11, 2026",
+      "status": "Renewed",
+      "contentKinds": [
+        "series"
+      ],
+      "sourcePages": [
+        "List of Amazon Prime Video original programming"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Scarpetta_logo.svg/960px-Scarpetta_logo.svg.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Scarpetta_logo.svg/960px-Scarpetta_logo.svg.png",
+      "avatarText": "S",
+      "color": "#e34f59",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "x": 1280,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.5,
+          "u1": 1,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Scarpetta_logo.svg/960px-Scarpetta_logo.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "hazbin-hotel",
+      "name": "Hazbin Hotel",
+      "article": "Hazbin Hotel",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Hazbin_Hotel",
+      "genre": "Musical black comedy",
+      "premiere": "January 19, 2024",
+      "status": "Renewed for seasons 3–5 (final)",
+      "contentKinds": [
+        "series"
+      ],
+      "sourcePages": [
+        "List of Amazon Prime Video original programming"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/b/bf/Hazbin_Hotel_logo.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/b/bf/Hazbin_Hotel_logo.png",
+      "avatarText": "HH",
+      "color": "#c9a14a",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "x": 0,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.75,
+          "u1": 0.2,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/b/bf/Hazbin_Hotel_logo.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "overcompensating-tv-series",
+      "name": "Overcompensating",
+      "article": "Overcompensating (TV series)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Overcompensating_(TV_series)",
+      "genre": "Comedy",
+      "premiere": "May 15, 2025",
+      "status": "Renewed",
+      "contentKinds": [
+        "series"
+      ],
+      "sourcePages": [
+        "List of Amazon Prime Video original programming"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/7/78/Overcompensating_%28TV_series%29_logo.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/78/Overcompensating_%28TV_series%29_logo.png",
+      "avatarText": "O",
+      "color": "#ffc84a",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "x": 320,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.75,
+          "u1": 0.4,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/78/Overcompensating_%28TV_series%29_logo.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "citadel-tv-series",
+      "name": "Citadel",
+      "article": "Citadel (TV series)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Citadel_(TV_series)",
+      "genre": "Spy drama",
+      "premiere": "April 28, 2023",
+      "status": "Pending",
+      "contentKinds": [
+        "series"
+      ],
+      "sourcePages": [
+        "List of Amazon Prime Video original programming"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/e/e9/Citadel_Amazon_TV_Show_Promotional_Poster_v2.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/e/e9/Citadel_Amazon_TV_Show_Promotional_Poster_v2.jpg",
+      "avatarText": "C",
+      "color": "#2f4858",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "x": 640,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.75,
+          "u1": 0.6,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/e/e9/Citadel_Amazon_TV_Show_Promotional_Poster_v2.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "air-2023-american-film",
+      "name": "Air",
+      "article": "Air (2023 American film)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Air_(2023_American_film)",
+      "genre": "Biopic",
+      "premiere": "May 12, 2023",
+      "status": "",
+      "contentKinds": [
+        "films"
+      ],
+      "sourcePages": [
+        "List of Amazon Prime Video original films"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/d/de/AirFilmPoster.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/d/de/AirFilmPoster.png",
+      "avatarText": "A",
+      "color": "#18c871",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "x": 960,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.75,
+          "u1": 0.8,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/d/de/AirFilmPoster.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "carrie-miniseries",
+      "name": "Carrie",
+      "article": "Carrie (miniseries)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Carrie_(miniseries)",
+      "genre": "Supernatural horror",
+      "premiere": "October 7, 2026",
+      "status": "Pending",
+      "contentKinds": [
+        "series"
+      ],
+      "sourcePages": [
+        "List of Amazon Prime Video original programming"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/7/7c/Carrie_%28miniseries_poster%29.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/7/7c/Carrie_%28miniseries_poster%29.png",
+      "avatarText": "C",
+      "color": "#2f4858",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "x": 1280,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.75,
+          "u1": 1,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/7/7c/Carrie_%28miniseries_poster%29.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    }
+  ],
+  "frames": [
+    {
+      "date": "20260628",
+      "values": [
+        {
+          "id": "every-year-after",
+          "value": 534619,
+          "rank": 3,
+          "pageviews": 534619,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "clarkson-s-farm",
+          "value": 321584,
+          "rank": 4,
+          "pageviews": 321584,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "invincible-tv-series",
+          "value": 152558,
+          "rank": 6,
+          "pageviews": 152558,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "fallout-american-tv-series",
+          "value": 99553,
+          "rank": 12,
+          "pageviews": 99553,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260629",
+      "values": [
+        {
+          "id": "every-year-after",
+          "value": 534619,
+          "rank": 3,
+          "pageviews": 534619,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "clarkson-s-farm",
+          "value": 329308,
+          "rank": 4,
+          "pageviews": 329308,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "invincible-tv-series",
+          "value": 152558,
+          "rank": 6,
+          "pageviews": 152558,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "fallout-american-tv-series",
+          "value": 99553,
+          "rank": 12,
+          "pageviews": 99553,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260701",
+      "values": [
+        {
+          "id": "every-year-after",
+          "value": 556704,
+          "rank": 1,
+          "pageviews": 556704,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "clarkson-s-farm",
+          "value": 333878,
+          "rank": 2,
+          "pageviews": 333878,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "invincible-tv-series",
+          "value": 146826,
+          "rank": 3,
+          "pageviews": 146826,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "fallout-american-tv-series",
+          "value": 99019,
+          "rank": 7,
+          "pageviews": 99019,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260706",
+      "values": [
+        {
+          "id": "off-campus",
+          "value": 1157597,
+          "rank": 1,
+          "pageviews": 1157597,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "every-year-after",
+          "value": 574630,
+          "rank": 3,
+          "pageviews": 574630,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "clarkson-s-farm",
+          "value": 302785,
+          "rank": 4,
+          "pageviews": 302785,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "elle-tv-series",
+          "value": 219068,
+          "rank": 5,
+          "pageviews": 219068,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "invincible-tv-series",
+          "value": 130977,
+          "rank": 9,
+          "pageviews": 130977,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "citadel-tv-series",
+          "value": 109841,
+          "rank": 10,
+          "pageviews": 109841,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "fallout-american-tv-series",
+          "value": 94903,
+          "rank": 13,
+          "pageviews": 94903,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "reacher-tv-series",
+          "value": 94588,
+          "rank": 14,
+          "pageviews": 94588,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "hazbin-hotel",
+          "value": 83353,
+          "rank": 17,
+          "pageviews": 83353,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "scarpetta-tv-series",
+          "value": 80302,
+          "rank": 18,
+          "pageviews": 80302,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260707",
+      "values": [
+        {
+          "id": "off-campus",
+          "value": 1117384,
+          "rank": 1,
+          "pageviews": 1117384,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "every-year-after",
+          "value": 578832,
+          "rank": 3,
+          "pageviews": 578832,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "clarkson-s-farm",
+          "value": 297411,
+          "rank": 4,
+          "pageviews": 297411,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "elle-tv-series",
+          "value": 252337,
+          "rank": 5,
+          "pageviews": 252337,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "invincible-tv-series",
+          "value": 129268,
+          "rank": 9,
+          "pageviews": 129268,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "citadel-tv-series",
+          "value": 107830,
+          "rank": 10,
+          "pageviews": 107830,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "fallout-american-tv-series",
+          "value": 95063,
+          "rank": 12,
+          "pageviews": 95063,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "reacher-tv-series",
+          "value": 94902,
+          "rank": 13,
+          "pageviews": 94902,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "hazbin-hotel",
+          "value": 82618,
+          "rank": 17,
+          "pageviews": 82618,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "scarpetta-tv-series",
+          "value": 80502,
+          "rank": 18,
+          "pageviews": 80502,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260708",
+      "values": [
+        {
+          "id": "off-campus",
+          "value": 1071446,
+          "rank": 1,
+          "pageviews": 1071446,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "every-year-after",
+          "value": 582806,
+          "rank": 2,
+          "pageviews": 582806,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "clarkson-s-farm",
+          "value": 289865,
+          "rank": 4,
+          "pageviews": 289865,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "elle-tv-series",
+          "value": 279415,
+          "rank": 5,
+          "pageviews": 279415,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "invincible-tv-series",
+          "value": 127286,
+          "rank": 9,
+          "pageviews": 127286,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "citadel-tv-series",
+          "value": 104688,
+          "rank": 10,
+          "pageviews": 104688,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "reacher-tv-series",
+          "value": 94790,
+          "rank": 12,
+          "pageviews": 94790,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "fallout-american-tv-series",
+          "value": 94469,
+          "rank": 13,
+          "pageviews": 94469,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "hazbin-hotel",
+          "value": 81654,
+          "rank": 17,
+          "pageviews": 81654,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "scarpetta-tv-series",
+          "value": 79644,
+          "rank": 18,
+          "pageviews": 79644,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260709",
+      "values": [
+        {
+          "id": "off-campus",
+          "value": 1020471,
+          "rank": 1,
+          "pageviews": 1020471,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "every-year-after",
+          "value": 585757,
+          "rank": 2,
+          "pageviews": 585757,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "elle-tv-series",
+          "value": 301095,
+          "rank": 4,
+          "pageviews": 301095,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "clarkson-s-farm",
+          "value": 283120,
+          "rank": 5,
+          "pageviews": 283120,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "invincible-tv-series",
+          "value": 125401,
+          "rank": 9,
+          "pageviews": 125401,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "citadel-tv-series",
+          "value": 102271,
+          "rank": 11,
+          "pageviews": 102271,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "reacher-tv-series",
+          "value": 94434,
+          "rank": 12,
+          "pageviews": 94434,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "fallout-american-tv-series",
+          "value": 93902,
+          "rank": 13,
+          "pageviews": 93902,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "hazbin-hotel",
+          "value": 80758,
+          "rank": 17,
+          "pageviews": 80758,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "scarpetta-tv-series",
+          "value": 78960,
+          "rank": 18,
+          "pageviews": 78960,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260710",
+      "values": [
+        {
+          "id": "off-campus",
+          "value": 975018,
+          "rank": 1,
+          "pageviews": 975018,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "every-year-after",
+          "value": 585462,
+          "rank": 2,
+          "pageviews": 585462,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "elle-tv-series",
+          "value": 318277,
+          "rank": 4,
+          "pageviews": 318277,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "clarkson-s-farm",
+          "value": 277629,
+          "rank": 5,
+          "pageviews": 277629,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "invincible-tv-series",
+          "value": 123944,
+          "rank": 9,
+          "pageviews": 123944,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "citadel-tv-series",
+          "value": 100533,
+          "rank": 11,
+          "pageviews": 100533,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "reacher-tv-series",
+          "value": 94566,
+          "rank": 12,
+          "pageviews": 94566,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "fallout-american-tv-series",
+          "value": 94008,
+          "rank": 13,
+          "pageviews": 94008,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "hazbin-hotel",
+          "value": 80158,
+          "rank": 17,
+          "pageviews": 80158,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "scarpetta-tv-series",
+          "value": 78653,
+          "rank": 18,
+          "pageviews": 78653,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260711",
+      "values": [
+        {
+          "id": "off-campus",
+          "value": 933862,
+          "rank": 1,
+          "pageviews": 933862,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "every-year-after",
+          "value": 537448,
+          "rank": 2,
+          "pageviews": 537448,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "elle-tv-series",
+          "value": 332824,
+          "rank": 4,
+          "pageviews": 332824,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "clarkson-s-farm",
+          "value": 268509,
+          "rank": 5,
+          "pageviews": 268509,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "invincible-tv-series",
+          "value": 122774,
+          "rank": 9,
+          "pageviews": 122774,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "citadel-tv-series",
+          "value": 99147,
+          "rank": 11,
+          "pageviews": 99147,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "reacher-tv-series",
+          "value": 97712,
+          "rank": 12,
+          "pageviews": 97712,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "fallout-american-tv-series",
+          "value": 94366,
+          "rank": 13,
+          "pageviews": 94366,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "hazbin-hotel",
+          "value": 79624,
+          "rank": 17,
+          "pageviews": 79624,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "scarpetta-tv-series",
+          "value": 78418,
+          "rank": 18,
+          "pageviews": 78418,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260712",
+      "values": [
+        {
+          "id": "off-campus",
+          "value": 895508,
+          "rank": 1,
+          "pageviews": 895508,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "every-year-after",
+          "value": 476064,
+          "rank": 2,
+          "pageviews": 476064,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "elle-tv-series",
+          "value": 346951,
+          "rank": 4,
+          "pageviews": 346951,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "clarkson-s-farm",
+          "value": 260849,
+          "rank": 5,
+          "pageviews": 260849,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "invincible-tv-series",
+          "value": 121854,
+          "rank": 9,
+          "pageviews": 121854,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "citadel-tv-series",
+          "value": 97879,
+          "rank": 11,
+          "pageviews": 97879,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "reacher-tv-series",
+          "value": 94847,
+          "rank": 12,
+          "pageviews": 94847,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "fallout-american-tv-series",
+          "value": 94622,
+          "rank": 13,
+          "pageviews": 94622,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "hazbin-hotel",
+          "value": 79189,
+          "rank": 17,
+          "pageviews": 79189,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "scarpetta-tv-series",
+          "value": 78179,
+          "rank": 18,
+          "pageviews": 78179,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260713",
+      "values": [
+        {
+          "id": "off-campus",
+          "value": 857829,
+          "rank": 1,
+          "pageviews": 857829,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "every-year-after",
+          "value": 431636,
+          "rank": 3,
+          "pageviews": 431636,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "elle-tv-series",
+          "value": 362473,
+          "rank": 4,
+          "pageviews": 362473,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "clarkson-s-farm",
+          "value": 254534,
+          "rank": 5,
+          "pageviews": 254534,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "invincible-tv-series",
+          "value": 120992,
+          "rank": 9,
+          "pageviews": 120992,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "citadel-tv-series",
+          "value": 96618,
+          "rank": 11,
+          "pageviews": 96618,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "reacher-tv-series",
+          "value": 95085,
+          "rank": 12,
+          "pageviews": 95085,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "fallout-american-tv-series",
+          "value": 94791,
+          "rank": 13,
+          "pageviews": 94791,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "hazbin-hotel",
+          "value": 78945,
+          "rank": 17,
+          "pageviews": 78945,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "scarpetta-tv-series",
+          "value": 78241,
+          "rank": 18,
+          "pageviews": 78241,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260714",
+      "values": [
+        {
+          "id": "off-campus",
+          "value": 819956,
+          "rank": 1,
+          "pageviews": 819956,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "every-year-after",
+          "value": 394526,
+          "rank": 3,
+          "pageviews": 394526,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "elle-tv-series",
+          "value": 379500,
+          "rank": 4,
+          "pageviews": 379500,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "clarkson-s-farm",
+          "value": 249551,
+          "rank": 5,
+          "pageviews": 249551,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "invincible-tv-series",
+          "value": 120106,
+          "rank": 9,
+          "pageviews": 120106,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "citadel-tv-series",
+          "value": 95594,
+          "rank": 11,
+          "pageviews": 95594,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "reacher-tv-series",
+          "value": 95569,
+          "rank": 12,
+          "pageviews": 95569,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "fallout-american-tv-series",
+          "value": 95371,
+          "rank": 13,
+          "pageviews": 95371,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "scarpetta-tv-series",
+          "value": 78597,
+          "rank": 17,
+          "pageviews": 78597,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "hazbin-hotel",
+          "value": 78563,
+          "rank": 18,
+          "pageviews": 78563,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260715",
+      "values": [
+        {
+          "id": "off-campus",
+          "value": 778920,
+          "rank": 1,
+          "pageviews": 778920,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "elle-tv-series",
+          "value": 394467,
+          "rank": 3,
+          "pageviews": 394467,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "every-year-after",
+          "value": 361161,
+          "rank": 4,
+          "pageviews": 361161,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "clarkson-s-farm",
+          "value": 243268,
+          "rank": 5,
+          "pageviews": 243268,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "invincible-tv-series",
+          "value": 119002,
+          "rank": 9,
+          "pageviews": 119002,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "reacher-tv-series",
+          "value": 95767,
+          "rank": 11,
+          "pageviews": 95767,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "fallout-american-tv-series",
+          "value": 95721,
+          "rank": 12,
+          "pageviews": 95721,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "citadel-tv-series",
+          "value": 92814,
+          "rank": 13,
+          "pageviews": 92814,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "hazbin-hotel",
+          "value": 78286,
+          "rank": 18,
+          "pageviews": 78286,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "scarpetta-tv-series",
+          "value": 78073,
+          "rank": 19,
+          "pageviews": 78073,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260716",
+      "values": [
+        {
+          "id": "off-campus",
+          "value": 754182,
+          "rank": 1,
+          "pageviews": 754182,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "elle-tv-series",
+          "value": 419029,
+          "rank": 2,
+          "pageviews": 419029,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "every-year-after",
+          "value": 340655,
+          "rank": 4,
+          "pageviews": 340655,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "clarkson-s-farm",
+          "value": 241469,
+          "rank": 5,
+          "pageviews": 241469,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "invincible-tv-series",
+          "value": 121274,
+          "rank": 9,
+          "pageviews": 121274,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "reacher-tv-series",
+          "value": 99971,
+          "rank": 11,
+          "pageviews": 99971,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "fallout-american-tv-series",
+          "value": 99113,
+          "rank": 12,
+          "pageviews": 99113,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "citadel-tv-series",
+          "value": 92253,
+          "rank": 14,
+          "pageviews": 92253,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "hazbin-hotel",
+          "value": 80203,
+          "rank": 18,
+          "pageviews": 80203,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "scarpetta-tv-series",
+          "value": 79874,
+          "rank": 19,
+          "pageviews": 79874,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260717",
+      "values": [
+        {
+          "id": "off-campus",
+          "value": 703219,
+          "rank": 1,
+          "pageviews": 703219,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "elle-tv-series",
+          "value": 417812,
+          "rank": 2,
+          "pageviews": 417812,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "every-year-after",
+          "value": 314992,
+          "rank": 4,
+          "pageviews": 314992,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "clarkson-s-farm",
+          "value": 230041,
+          "rank": 5,
+          "pageviews": 230041,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "invincible-tv-series",
+          "value": 116764,
+          "rank": 9,
+          "pageviews": 116764,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "reacher-tv-series",
+          "value": 97041,
+          "rank": 11,
+          "pageviews": 97041,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "fallout-american-tv-series",
+          "value": 95955,
+          "rank": 12,
+          "pageviews": 95955,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "citadel-tv-series",
+          "value": 88189,
+          "rank": 14,
+          "pageviews": 88189,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "hazbin-hotel",
+          "value": 77667,
+          "rank": 18,
+          "pageviews": 77667,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "scarpetta-tv-series",
+          "value": 77044,
+          "rank": 19,
+          "pageviews": 77044,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260718",
+      "values": [
+        {
+          "id": "off-campus",
+          "value": 670320,
+          "rank": 1,
+          "pageviews": 670320,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "elle-tv-series",
+          "value": 428530,
+          "rank": 2,
+          "pageviews": 428530,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "every-year-after",
+          "value": 297824,
+          "rank": 4,
+          "pageviews": 297824,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "clarkson-s-farm",
+          "value": 200096,
+          "rank": 5,
+          "pageviews": 200096,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "invincible-tv-series",
+          "value": 115925,
+          "rank": 9,
+          "pageviews": 115925,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "reacher-tv-series",
+          "value": 97714,
+          "rank": 11,
+          "pageviews": 97714,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "fallout-american-tv-series",
+          "value": 96723,
+          "rank": 12,
+          "pageviews": 96723,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "ride-or-die-2026-tv-series",
+          "value": 87817,
+          "rank": 13,
+          "pageviews": 87817,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "citadel-tv-series",
+          "value": 86879,
+          "rank": 14,
+          "pageviews": 86879,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "hazbin-hotel",
+          "value": 77510,
+          "rank": 19,
+          "pageviews": 77510,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "scarpetta-tv-series",
+          "value": 76714,
+          "rank": 20,
+          "pageviews": 76714,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260719",
+      "values": [
+        {
+          "id": "off-campus",
+          "value": 641622,
+          "rank": 1,
+          "pageviews": 641622,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "elle-tv-series",
+          "value": 437625,
+          "rank": 2,
+          "pageviews": 437625,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "every-year-after",
+          "value": 284703,
+          "rank": 4,
+          "pageviews": 284703,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "clarkson-s-farm",
+          "value": 184367,
+          "rank": 5,
+          "pageviews": 184367,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "ride-or-die-2026-tv-series",
+          "value": 124326,
+          "rank": 8,
+          "pageviews": 124326,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "invincible-tv-series",
+          "value": 114965,
+          "rank": 10,
+          "pageviews": 114965,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "reacher-tv-series",
+          "value": 99120,
+          "rank": 11,
+          "pageviews": 99120,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "fallout-american-tv-series",
+          "value": 96000,
+          "rank": 12,
+          "pageviews": 96000,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "citadel-tv-series",
+          "value": 85446,
+          "rank": 15,
+          "pageviews": 85446,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "hazbin-hotel",
+          "value": 77293,
+          "rank": 19,
+          "pageviews": 77293,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "scarpetta-tv-series",
+          "value": 76506,
+          "rank": 20,
+          "pageviews": 76506,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260720",
+      "values": [
+        {
+          "id": "off-campus",
+          "value": 615159,
+          "rank": 1,
+          "pageviews": 615159,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "elle-tv-series",
+          "value": 447469,
+          "rank": 2,
+          "pageviews": 447469,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "every-year-after",
+          "value": 274536,
+          "rank": 4,
+          "pageviews": 274536,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "clarkson-s-farm",
+          "value": 174680,
+          "rank": 5,
+          "pageviews": 174680,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "ride-or-die-2026-tv-series",
+          "value": 167841,
+          "rank": 6,
+          "pageviews": 167841,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "invincible-tv-series",
+          "value": 114148,
+          "rank": 10,
+          "pageviews": 114148,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "reacher-tv-series",
+          "value": 100485,
+          "rank": 11,
+          "pageviews": 100485,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "fallout-american-tv-series",
+          "value": 96604,
+          "rank": 12,
+          "pageviews": 96604,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "citadel-tv-series",
+          "value": 84127,
+          "rank": 16,
+          "pageviews": 84127,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "hazbin-hotel",
+          "value": 77137,
+          "rank": 18,
+          "pageviews": 77137,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "scarpetta-tv-series",
+          "value": 76475,
+          "rank": 19,
+          "pageviews": 76475,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260721",
+      "values": [
+        {
+          "id": "off-campus",
+          "value": 591424,
+          "rank": 1,
+          "pageviews": 591424,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "elle-tv-series",
+          "value": 457418,
+          "rank": 2,
+          "pageviews": 457418,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "every-year-after",
+          "value": 264574,
+          "rank": 4,
+          "pageviews": 264574,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "ride-or-die-2026-tv-series",
+          "value": 211415,
+          "rank": 5,
+          "pageviews": 211415,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "clarkson-s-farm",
+          "value": 166295,
+          "rank": 6,
+          "pageviews": 166295,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "invincible-tv-series",
+          "value": 113221,
+          "rank": 9,
+          "pageviews": 113221,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "reacher-tv-series",
+          "value": 101739,
+          "rank": 11,
+          "pageviews": 101739,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "fallout-american-tv-series",
+          "value": 97664,
+          "rank": 12,
+          "pageviews": 97664,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "citadel-tv-series",
+          "value": 82880,
+          "rank": 16,
+          "pageviews": 82880,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "hazbin-hotel",
+          "value": 76592,
+          "rank": 18,
+          "pageviews": 76592,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "scarpetta-tv-series",
+          "value": 76444,
+          "rank": 19,
+          "pageviews": 76444,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260722",
+      "values": [
+        {
+          "id": "off-campus",
+          "value": 572393,
+          "rank": 1,
+          "pageviews": 572393,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "elle-tv-series",
+          "value": 464637,
+          "rank": 2,
+          "pageviews": 464637,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "every-year-after",
+          "value": 253584,
+          "rank": 4,
+          "pageviews": 253584,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "ride-or-die-2026-tv-series",
+          "value": 244971,
+          "rank": 5,
+          "pageviews": 244971,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "clarkson-s-farm",
+          "value": 155286,
+          "rank": 6,
+          "pageviews": 155286,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "invincible-tv-series",
+          "value": 111723,
+          "rank": 9,
+          "pageviews": 111723,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "reacher-tv-series",
+          "value": 102744,
+          "rank": 10,
+          "pageviews": 102744,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "fallout-american-tv-series",
+          "value": 98014,
+          "rank": 12,
+          "pageviews": 98014,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "citadel-tv-series",
+          "value": 80698,
+          "rank": 16,
+          "pageviews": 80698,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "scarpetta-tv-series",
+          "value": 75512,
+          "rank": 18,
+          "pageviews": 75512,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "hazbin-hotel",
+          "value": 75429,
+          "rank": 19,
+          "pageviews": 75429,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260728",
+      "values": [
+        {
+          "id": "elle-tv-series",
+          "value": 482470,
+          "rank": 1,
+          "pageviews": 482470,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "off-campus",
+          "value": 468714,
+          "rank": 2,
+          "pageviews": 468714,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "ride-or-die-2026-tv-series",
+          "value": 398322,
+          "rank": 3,
+          "pageviews": 398322,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "every-year-after",
+          "value": 207642,
+          "rank": 4,
+          "pageviews": 207642,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "reacher-tv-series",
+          "value": 131296,
+          "rank": 5,
+          "pageviews": 131296,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "clarkson-s-farm",
+          "value": 129598,
+          "rank": 6,
+          "pageviews": 129598,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "invincible-tv-series",
+          "value": 103507,
+          "rank": 9,
+          "pageviews": 103507,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "fallout-american-tv-series",
+          "value": 103381,
+          "rank": 10,
+          "pageviews": 103381,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "carrie-miniseries",
+          "value": 83536,
+          "rank": 11,
+          "pageviews": 83536,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "citadel-tv-series",
+          "value": 73475,
+          "rank": 12,
+          "pageviews": 73475,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "scarpetta-tv-series",
+          "value": 72584,
+          "rank": 13,
+          "pageviews": 72584,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "adarsh-baal-vidyalaya",
+          "value": 69953,
+          "rank": 14,
+          "pageviews": 69953,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "hazbin-hotel",
+          "value": 69069,
+          "rank": 15,
+          "pageviews": 69069,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "batman-caped-crusader",
+          "value": 54128,
+          "rank": 16,
+          "pageviews": 54128,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "air-2023-american-film",
+          "value": 52206,
+          "rank": 17,
+          "pageviews": 52206,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original films"
+          ]
+        },
+        {
+          "id": "overcompensating-tv-series",
+          "value": 47074,
+          "rank": 18,
+          "pageviews": 47074,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260804",
+      "values": [
+        {
+          "id": "ride-or-die-2026-tv-series",
+          "value": 523474,
+          "rank": 1,
+          "pageviews": 523474,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "off-campus",
+          "value": 396686,
+          "rank": 2,
+          "pageviews": 396686,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "elle-tv-series",
+          "value": 356583,
+          "rank": 3,
+          "pageviews": 356583,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "adarsh-baal-vidyalaya",
+          "value": 193828,
+          "rank": 4,
+          "pageviews": 193828,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "reacher-tv-series",
+          "value": 163912,
+          "rank": 5,
+          "pageviews": 163912,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "every-year-after",
+          "value": 156709,
+          "rank": 6,
+          "pageviews": 156709,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "batman-caped-crusader",
+          "value": 126988,
+          "rank": 9,
+          "pageviews": 126988,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "clarkson-s-farm",
+          "value": 116113,
+          "rank": 10,
+          "pageviews": 116113,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "fallout-american-tv-series",
+          "value": 106593,
+          "rank": 11,
+          "pageviews": 106593,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "carrie-miniseries",
+          "value": 104152,
+          "rank": 12,
+          "pageviews": 104152,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "invincible-tv-series",
+          "value": 98464,
+          "rank": 13,
+          "pageviews": 98464,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "scarpetta-tv-series",
+          "value": 71094,
+          "rank": 15,
+          "pageviews": 71094,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "citadel-tv-series",
+          "value": 66644,
+          "rank": 16,
+          "pageviews": 66644,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "hazbin-hotel",
+          "value": 66002,
+          "rank": 17,
+          "pageviews": 66002,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "air-2023-american-film",
+          "value": 60686,
+          "rank": 18,
+          "pageviews": 60686,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original films"
+          ]
+        },
+        {
+          "id": "overcompensating-tv-series",
+          "value": 55992,
+          "rank": 20,
+          "pageviews": 55992,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260811",
+      "values": [
+        {
+          "id": "ride-or-die-2026-tv-series",
+          "value": 628205,
+          "rank": 1,
+          "pageviews": 628205,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "off-campus",
+          "value": 335878,
+          "rank": 2,
+          "pageviews": 335878,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "sterling-point",
+          "value": 323378,
+          "rank": 3,
+          "pageviews": 323378,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "adarsh-baal-vidyalaya",
+          "value": 235054,
+          "rank": 4,
+          "pageviews": 235054,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "elle-tv-series",
+          "value": 222669,
+          "rank": 5,
+          "pageviews": 222669,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "batman-caped-crusader",
+          "value": 204395,
+          "rank": 6,
+          "pageviews": 204395,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "reacher-tv-series",
+          "value": 194220,
+          "rank": 7,
+          "pageviews": 194220,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "every-year-after",
+          "value": 125249,
+          "rank": 10,
+          "pageviews": 125249,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "carrie-miniseries",
+          "value": 109690,
+          "rank": 11,
+          "pageviews": 109690,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "clarkson-s-farm",
+          "value": 108695,
+          "rank": 12,
+          "pageviews": 108695,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "fallout-american-tv-series",
+          "value": 106514,
+          "rank": 13,
+          "pageviews": 106514,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "invincible-tv-series",
+          "value": 92161,
+          "rank": 14,
+          "pageviews": 92161,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "scarpetta-tv-series",
+          "value": 71959,
+          "rank": 15,
+          "pageviews": 71959,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "hazbin-hotel",
+          "value": 64855,
+          "rank": 17,
+          "pageviews": 64855,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "overcompensating-tv-series",
+          "value": 64013,
+          "rank": 18,
+          "pageviews": 64013,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "air-2023-american-film",
+          "value": 63861,
+          "rank": 19,
+          "pageviews": 63861,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original films"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260818",
+      "values": [
+        {
+          "id": "ride-or-die-2026-tv-series",
+          "value": 564558,
+          "rank": 1,
+          "pageviews": 564558,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "reacher-tv-series",
+          "value": 475462,
+          "rank": 2,
+          "pageviews": 475462,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "off-campus",
+          "value": 301733,
+          "rank": 3,
+          "pageviews": 301733,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "adarsh-baal-vidyalaya",
+          "value": 256510,
+          "rank": 4,
+          "pageviews": 256510,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "batman-caped-crusader",
+          "value": 236232,
+          "rank": 5,
+          "pageviews": 236232,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "elle-tv-series",
+          "value": 147122,
+          "rank": 7,
+          "pageviews": 147122,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "fallout-american-tv-series",
+          "value": 104949,
+          "rank": 8,
+          "pageviews": 104949,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "every-year-after",
+          "value": 102834,
+          "rank": 9,
+          "pageviews": 102834,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "clarkson-s-farm",
+          "value": 101014,
+          "rank": 10,
+          "pageviews": 101014,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "carrie-miniseries",
+          "value": 91456,
+          "rank": 11,
+          "pageviews": 91456,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "invincible-tv-series",
+          "value": 88399,
+          "rank": 12,
+          "pageviews": 88399,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "neagley",
+          "value": 86526,
+          "rank": 13,
+          "pageviews": 86526,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "arthur-the-king",
+          "value": 73917,
+          "rank": 14,
+          "pageviews": 73917,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original films"
+          ]
+        },
+        {
+          "id": "hazbin-hotel",
+          "value": 64377,
+          "rank": 16,
+          "pageviews": 64377,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "air-2023-american-film",
+          "value": 63287,
+          "rank": 17,
+          "pageviews": 63287,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original films"
+          ]
+        },
+        {
+          "id": "overcompensating-tv-series",
+          "value": 62816,
+          "rank": 18,
+          "pageviews": 62816,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "citadel-tv-series",
+          "value": 60183,
+          "rank": 19,
+          "pageviews": 60183,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "guy-ritchie-s-the-covenant",
+          "value": 55257,
+          "rank": 20,
+          "pageviews": 55257,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original films"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260822",
+      "values": [
+        {
+          "id": "sterling-point",
+          "value": 775796,
+          "rank": 1,
+          "pageviews": 775796,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "reacher-tv-series",
+          "value": 643962,
+          "rank": 2,
+          "pageviews": 643962,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "ride-or-die-2026-tv-series",
+          "value": 478183,
+          "rank": 3,
+          "pageviews": 478183,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "off-campus",
+          "value": 285784,
+          "rank": 4,
+          "pageviews": 285784,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "adarsh-baal-vidyalaya",
+          "value": 263551,
+          "rank": 5,
+          "pageviews": 263551,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "batman-caped-crusader",
+          "value": 246035,
+          "rank": 6,
+          "pageviews": 246035,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "elle-tv-series",
+          "value": 120868,
+          "rank": 10,
+          "pageviews": 120868,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "fallout-american-tv-series",
+          "value": 102022,
+          "rank": 11,
+          "pageviews": 102022,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "clarkson-s-farm",
+          "value": 96553,
+          "rank": 12,
+          "pageviews": 96553,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "neagley",
+          "value": 95940,
+          "rank": 13,
+          "pageviews": 95940,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "every-year-after",
+          "value": 95174,
+          "rank": 14,
+          "pageviews": 95174,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "arthur-the-king",
+          "value": 94057,
+          "rank": 15,
+          "pageviews": 94057,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original films"
+          ]
+        },
+        {
+          "id": "carrie-miniseries",
+          "value": 87614,
+          "rank": 16,
+          "pageviews": 87614,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "invincible-tv-series",
+          "value": 87295,
+          "rank": 17,
+          "pageviews": 87295,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "guy-ritchie-s-the-covenant",
+          "value": 70053,
+          "rank": 19,
+          "pageviews": 70053,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original films"
+          ]
+        },
+        {
+          "id": "scarpetta-tv-series",
+          "value": 70022,
+          "rank": 20,
+          "pageviews": 70022,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260825",
+      "values": [
+        {
+          "id": "sterling-point",
+          "value": 867042,
+          "rank": 1,
+          "pageviews": 867042,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "reacher-tv-series",
+          "value": 712968,
+          "rank": 2,
+          "pageviews": 712968,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "ride-or-die-2026-tv-series",
+          "value": 433658,
+          "rank": 3,
+          "pageviews": 433658,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "off-campus",
+          "value": 279313,
+          "rank": 4,
+          "pageviews": 279313,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "batman-caped-crusader",
+          "value": 247041,
+          "rank": 5,
+          "pageviews": 247041,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "adarsh-baal-vidyalaya",
+          "value": 230591,
+          "rank": 6,
+          "pageviews": 230591,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "elle-tv-series",
+          "value": 108383,
+          "rank": 7,
+          "pageviews": 108383,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "arthur-the-king",
+          "value": 103563,
+          "rank": 8,
+          "pageviews": 103563,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original films"
+          ]
+        },
+        {
+          "id": "neagley",
+          "value": 102770,
+          "rank": 9,
+          "pageviews": 102770,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "fallout-american-tv-series",
+          "value": 99016,
+          "rank": 10,
+          "pageviews": 99016,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "clarkson-s-farm",
+          "value": 93823,
+          "rank": 12,
+          "pageviews": 93823,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "every-year-after",
+          "value": 92584,
+          "rank": 13,
+          "pageviews": 92584,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "invincible-tv-series",
+          "value": 86421,
+          "rank": 14,
+          "pageviews": 86421,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "carrie-miniseries",
+          "value": 86290,
+          "rank": 15,
+          "pageviews": 86290,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "guy-ritchie-s-the-covenant",
+          "value": 73136,
+          "rank": 16,
+          "pageviews": 73136,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original films"
+          ]
+        },
+        {
+          "id": "scarpetta-tv-series",
+          "value": 71034,
+          "rank": 17,
+          "pageviews": 71034,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "hazbin-hotel",
+          "value": 65725,
+          "rank": 18,
+          "pageviews": 65725,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "overcompensating-tv-series",
+          "value": 59873,
+          "rank": 19,
+          "pageviews": 59873,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "air-2023-american-film",
+          "value": 59339,
+          "rank": 20,
+          "pageviews": 59339,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original films"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260901",
+      "values": [
+        {
+          "id": "sterling-point",
+          "value": 1022062,
+          "rank": 1,
+          "pageviews": 1022062,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "reacher-tv-series",
+          "value": 811629,
+          "rank": 2,
+          "pageviews": 811629,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "ride-or-die-2026-tv-series",
+          "value": 344691,
+          "rank": 3,
+          "pageviews": 344691,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "off-campus",
+          "value": 259099,
+          "rank": 4,
+          "pageviews": 259099,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "batman-caped-crusader",
+          "value": 202087,
+          "rank": 5,
+          "pageviews": 202087,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "arthur-the-king",
+          "value": 114116,
+          "rank": 6,
+          "pageviews": 114116,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original films"
+          ]
+        },
+        {
+          "id": "neagley",
+          "value": 106077,
+          "rank": 7,
+          "pageviews": 106077,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "invincible-tv-series",
+          "value": 102161,
+          "rank": 8,
+          "pageviews": 102161,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "fallout-american-tv-series",
+          "value": 96637,
+          "rank": 9,
+          "pageviews": 96637,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "adarsh-baal-vidyalaya",
+          "value": 95059,
+          "rank": 10,
+          "pageviews": 95059,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "every-year-after",
+          "value": 86728,
+          "rank": 11,
+          "pageviews": 86728,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "clarkson-s-farm",
+          "value": 85249,
+          "rank": 12,
+          "pageviews": 85249,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "elle-tv-series",
+          "value": 84150,
+          "rank": 13,
+          "pageviews": 84150,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "guy-ritchie-s-the-covenant",
+          "value": 79145,
+          "rank": 14,
+          "pageviews": 79145,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original films"
+          ]
+        },
+        {
+          "id": "scarpetta-tv-series",
+          "value": 72961,
+          "rank": 15,
+          "pageviews": 72961,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "hazbin-hotel",
+          "value": 68224,
+          "rank": 16,
+          "pageviews": 68224,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "overcompensating-tv-series",
+          "value": 56373,
+          "rank": 17,
+          "pageviews": 56373,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "citadel-tv-series",
+          "value": 52414,
+          "rank": 18,
+          "pageviews": 52414,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        },
+        {
+          "id": "air-2023-american-film",
+          "value": 52234,
+          "rank": 19,
+          "pageviews": 52234,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original films"
+          ]
+        },
+        {
+          "id": "carrie-miniseries",
+          "value": 51692,
+          "rank": 20,
+          "pageviews": 51692,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Amazon Prime Video original programming"
+          ]
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "date": "20260628",
+      "title": "Every Year After leads Prime Video attention",
+      "body": "Every Year After is the highest-ranked selected Prime Video original in this Wikipedia-attention frame with 534,619 recent pageviews."
+    },
+    {
+      "date": "20260901",
+      "title": "Sterling Point leads Prime Video attention",
+      "body": "Sterling Point is the highest-ranked selected Prime Video original in this Wikipedia-attention frame with 1,022,062 recent pageviews."
+    }
+  ],
+  "sources": [
+    {
+      "title": "List of Amazon Prime Video original programming",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_Amazon_Prime_Video_original_programming",
+      "note": "Source universe for Prime Video original series."
+    },
+    {
+      "title": "List of Amazon Prime Video original films",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_Amazon_Prime_Video_original_films",
+      "note": "Source universe for Prime Video original films."
+    }
+  ],
+  "lastObservationDate": "2026-09-01",
+  "sourceAudit": {
+    "wikipediaPages": [
+      {
+        "requestedPage": "List_of_Amazon_Prime_Video_original_programming",
+        "sourceTitle": "List of Amazon Prime Video original programming",
+        "contentKind": "series"
+      },
+      {
+        "requestedPage": "List_of_Amazon_Prime_Video_original_films",
+        "sourceTitle": "List of Amazon Prime Video original films",
+        "contentKind": "films"
+      }
+    ],
+    "sourceCandidateCount": 360,
+    "rankedRowCount": 20,
+    "rankBy": "wikipedia-pageviews",
+    "pageviewDays": 30,
+    "weeklyTop10AvailableOnWikipedia": false
+  },
+  "dataFreshness": {
+    "status": "fresh",
+    "refreshCadence": "weekly",
+    "lastUpdated": "2026-09-01T07:03:08.053Z",
+    "lastRefreshAttemptedAt": "2026-09-01T07:03:08.053Z",
+    "lastRefreshError": null,
+    "lastObservationDate": "2026-09-01",
+    "nextRefreshAt": "2026-09-08T07:00:00.000Z",
+    "sourceStatus": "Wikipedia pageview bootstrap for Prime Video originals",
+    "confidence": "Observed 30 days of en.wikipedia pageviews for titles listed on 2 Wikipedia platform-original page(s) at 2026-09-01T07:03:08.053Z. This is not a weekly or current streaming Top 10."
+  },
+  "media": {
+    "imageFit": "contain",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-09-01T07:03:08.053Z",
+    "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+    "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+    "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+    "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 5,
+    "rows": 4,
+    "width": 1600,
+    "height": 1280,
+    "itemCount": 20,
+    "sourcedImageCount": 20,
+    "generatedImageCount": 0,
+    "placeholderCount": 0,
+    "ogImageUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/prime-video-top-10.png",
+    "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/prime-video-top-10.png",
+    "ogImageWidth": 1200,
+    "ogImageHeight": 630
+  },
+  "taxonomy": {
+    "primaryCategory": "entertainment",
+    "categories": [
+      "entertainment",
+      "streaming",
+      "television"
+    ],
+    "tags": [
+      "prime-video",
+      "streaming",
+      "top-10",
+      "watching"
+    ],
+    "entityTypes": [
+      "film",
+      "series"
+    ],
+    "sourceTypes": [
+      "wikipedia"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "what-everyone-is-watching",
+      "type": "streaming-platform-peer",
+      "weight": 0.9,
+      "reason": "This should sit next to the existing Netflix Top 10 watch district."
+    },
+    {
+      "target": "movie-tv-search-heat",
+      "type": "screen-demand",
+      "weight": 0.7,
+      "reason": "Platform charts can be compared with public movie and TV search attention."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "streaming-platforms",
+    "mainland": "culture",
+    "bridgePriority": [
+      "what-everyone-is-watching",
+      "movie-tv-search-heat"
+    ]
+  },
+  "schemaVersion": 1,
+  "contentKind": "dat-city.story",
+  "generatedAt": "2026-09-01T07:03:08.053Z",
+  "versionId": "20260901T070308Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "storyops-scheduler",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-09-01T07:03:08.053Z",
+    "versionId": "20260901T070308Z",
+    "adapter": "wikipedia-platform-originals",
+    "storySlug": "prime-video-top-10",
+    "districtId": null,
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "publicProjection": {
+    "kind": "story",
+    "version": 1,
+    "generatedAt": "2026-09-01T07:03:08.053Z",
+    "adapter": "wikipedia-platform-originals",
+    "cache": {
+      "browserMaxAgeSeconds": 60,
+      "edgeMaxAgeSeconds": 3600
+    }
+  },
+  "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/prime-video-top-10.png"
+}

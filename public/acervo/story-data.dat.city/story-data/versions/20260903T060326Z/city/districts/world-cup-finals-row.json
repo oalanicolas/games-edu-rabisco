@@ -1,0 +1,592 @@
+{
+  "schemaVersion": 1,
+  "contentKind": "dat-city.district",
+  "version": 1,
+  "generatedAt": "2026-08-22T14:56:45.984Z",
+  "versionId": "20260822T145645Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "dashboard-settings:crypto-memecoin-heat",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-08-22T14:56:45.984Z",
+    "versionId": "20260822T145645Z",
+    "adapter": null,
+    "storySlug": "world-cup-finals-appearances",
+    "districtId": "world-cup-finals-row",
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "id": "world-cup-finals-row",
+  "name": "World Cup Finals Row",
+  "storySlug": "world-cup-finals-appearances",
+  "storyUrl": "/stories/world-cup-finals-appearances/",
+  "publicStoryUrl": "/stories/world-cup-finals-appearances.json",
+  "metric": "Final appearances",
+  "metricKey": "final-appearances",
+  "latestFrameLabel": "Through the 2026 final",
+  "summary": "The nations that kept making the men's World Cup final, including winners and runners-up.",
+  "taxonomy": {
+    "primaryCategory": "sports",
+    "categories": [
+      "sports",
+      "football",
+      "history"
+    ],
+    "tags": [
+      "world-cup",
+      "fifa",
+      "finals",
+      "countries"
+    ],
+    "entityTypes": [
+      "national-team"
+    ],
+    "sourceTypes": [
+      "wikipedia"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "world-cup-champion-nations",
+      "type": "finals-record-book",
+      "weight": 0.9,
+      "reason": "Both are derived from World Cup final results."
+    },
+    {
+      "target": "world-cup-team-appearances",
+      "type": "national-team-history",
+      "weight": 0.68,
+      "reason": "Teams with repeated tournament appearances are more likely to build finals histories."
+    },
+    {
+      "target": "world-cup-attendance-kings",
+      "type": "tournament-stage",
+      "weight": 0.45,
+      "reason": "Finals define the biggest stage inside the same tournament record book."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "world-cup-records",
+    "mainland": "world-cup",
+    "bridgePriority": [
+      "world-cup-champion-nations",
+      "world-cup-team-appearances"
+    ]
+  },
+  "thumbnail": "/assets/og/dat-city.webp",
+  "status": "fresh",
+  "dataUpdatedAt": "2026-08-22T14:56:45.984Z",
+  "staleAfterHours": 3120,
+  "dormant": true,
+  "lastObservationDate": "2026-07-19",
+  "nextRefreshAt": null,
+  "confidence": "Final appearance counts include champions and runners-up through the 2026 final (Spain 1-0 Argentina).",
+  "methodology": "The adapter walks every men's World Cup final and accumulates appearances for both finalists.",
+  "sources": [
+    {
+      "title": "List of FIFA World Cup finals",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_finals",
+      "note": "Final match winners, runners-up, venues, and scores by tournament."
+    },
+    {
+      "title": "FIFA World Cup 2026 Final: Spain 1-0 Argentina",
+      "publisher": "FIFA",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/match-centre",
+      "note": "Spain beat Argentina 1-0 in the New York/New Jersey final on 19 July 2026 to win a second World Cup title."
+    }
+  ],
+  "media": {
+    "imageFit": "contain",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-08-22T14:56:45.984Z",
+    "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.webp",
+    "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.webp",
+    "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.json",
+    "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.json",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 4,
+    "rows": 4,
+    "width": 1280,
+    "height": 1280,
+    "itemCount": 13,
+    "sourcedImageCount": 13,
+    "generatedImageCount": 0,
+    "placeholderCount": 0
+  },
+  "entities": [
+    {
+      "id": "germany",
+      "name": "Germany",
+      "shortName": "Germany",
+      "value": 8,
+      "rank": 1,
+      "color": "#86bdf4",
+      "image": "https://flagcdn.com/w320/de.png",
+      "storyUrl": "/stories/world-cup-finals-appearances/",
+      "sourceIds": [
+        "List of FIFA World Cup finals",
+        "FIFA World Cup 2026 Final: Spain 1-0 Argentina"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.json",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.25,
+          "u1": 0.75,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://flagcdn.com/w320/de.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "argentina",
+      "name": "Argentina",
+      "shortName": "Argentina",
+      "value": 7,
+      "rank": 2,
+      "color": "#ffc84a",
+      "image": "https://flagcdn.com/w320/ar.png",
+      "storyUrl": "/stories/world-cup-finals-appearances/",
+      "sourceIds": [
+        "List of FIFA World Cup finals",
+        "FIFA World Cup 2026 Final: Spain 1-0 Argentina"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.json",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0,
+          "u1": 0.5,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://flagcdn.com/w320/ar.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "brazil",
+      "name": "Brazil",
+      "shortName": "Brazil",
+      "value": 7,
+      "rank": 3,
+      "color": "#41a99f",
+      "image": "https://flagcdn.com/w320/br.png",
+      "storyUrl": "/stories/world-cup-finals-appearances/",
+      "sourceIds": [
+        "List of FIFA World Cup finals",
+        "FIFA World Cup 2026 Final: Spain 1-0 Argentina"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.json",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.25,
+          "u1": 0.5,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://flagcdn.com/w320/br.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "italy",
+      "name": "Italy",
+      "shortName": "Italy",
+      "value": 6,
+      "rank": 4,
+      "color": "#00a6ff",
+      "image": "https://flagcdn.com/w320/it.png",
+      "storyUrl": "/stories/world-cup-finals-appearances/",
+      "sourceIds": [
+        "List of FIFA World Cup finals",
+        "FIFA World Cup 2026 Final: Spain 1-0 Argentina"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.json",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0,
+          "u1": 0.75,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://flagcdn.com/w320/it.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "france",
+      "name": "France",
+      "shortName": "France",
+      "value": 4,
+      "rank": 5,
+      "color": "#ef426f",
+      "image": "https://flagcdn.com/w320/fr.png",
+      "storyUrl": "/stories/world-cup-finals-appearances/",
+      "sourceIds": [
+        "List of FIFA World Cup finals",
+        "FIFA World Cup 2026 Final: Spain 1-0 Argentina"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.json",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.5,
+          "u1": 0.75,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://flagcdn.com/w320/fr.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "netherlands",
+      "name": "Netherlands",
+      "shortName": "Netherlands",
+      "value": 3,
+      "rank": 6,
+      "color": "#c9a14a",
+      "image": "https://flagcdn.com/w320/nl.png",
+      "storyUrl": "/stories/world-cup-finals-appearances/",
+      "sourceIds": [
+        "List of FIFA World Cup finals",
+        "FIFA World Cup 2026 Final: Spain 1-0 Argentina"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.json",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.5,
+          "u1": 0.5,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://flagcdn.com/w320/nl.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "uruguay",
+      "name": "Uruguay",
+      "shortName": "Uruguay",
+      "value": 2,
+      "rank": 7,
+      "color": "#18c871",
+      "image": "https://flagcdn.com/w320/uy.png",
+      "storyUrl": "/stories/world-cup-finals-appearances/",
+      "sourceIds": [
+        "List of FIFA World Cup finals",
+        "FIFA World Cup 2026 Final: Spain 1-0 Argentina"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.json",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.25,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://flagcdn.com/w320/uy.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "czechia",
+      "name": "Czechoslovakia/Czechia",
+      "shortName": "Czechoslovakia/Czechia",
+      "value": 2,
+      "rank": 8,
+      "color": "#f3f7f0",
+      "image": "https://flagcdn.com/w320/cz.png",
+      "storyUrl": "/stories/world-cup-finals-appearances/",
+      "sourceIds": [
+        "List of FIFA World Cup finals",
+        "FIFA World Cup 2026 Final: Spain 1-0 Argentina"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.json",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://flagcdn.com/w320/cz.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "hungary",
+      "name": "Hungary",
+      "shortName": "Hungary",
+      "value": 2,
+      "rank": 9,
+      "color": "#ff5a61",
+      "image": "https://flagcdn.com/w320/hu.png",
+      "storyUrl": "/stories/world-cup-finals-appearances/",
+      "sourceIds": [
+        "List of FIFA World Cup finals",
+        "FIFA World Cup 2026 Final: Spain 1-0 Argentina"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.json",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.25,
+          "u1": 0.25,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://flagcdn.com/w320/hu.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "spain",
+      "name": "Spain",
+      "shortName": "Spain",
+      "value": 2,
+      "rank": 10,
+      "color": "#7b9b65",
+      "image": "https://flagcdn.com/w320/es.png",
+      "storyUrl": "/stories/world-cup-finals-appearances/",
+      "sourceIds": [
+        "List of FIFA World Cup finals",
+        "FIFA World Cup 2026 Final: Spain 1-0 Argentina"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.json",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.5,
+          "u1": 1,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://flagcdn.com/w320/es.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "sweden",
+      "name": "Sweden",
+      "shortName": "Sweden",
+      "value": 1,
+      "rank": 11,
+      "color": "#f18c4f",
+      "image": "https://flagcdn.com/w320/se.png",
+      "storyUrl": "/stories/world-cup-finals-appearances/",
+      "sourceIds": [
+        "List of FIFA World Cup finals",
+        "FIFA World Cup 2026 Final: Spain 1-0 Argentina"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.json",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.25,
+          "u1": 1,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://flagcdn.com/w320/se.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "england",
+      "name": "England",
+      "shortName": "England",
+      "value": 1,
+      "rank": 12,
+      "color": "#2f4858",
+      "image": "https://flagcdn.com/w320/gb-eng.png",
+      "storyUrl": "/stories/world-cup-finals-appearances/",
+      "sourceIds": [
+        "List of FIFA World Cup finals",
+        "FIFA World Cup 2026 Final: Spain 1-0 Argentina"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.json",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.5,
+          "u1": 0.25,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://flagcdn.com/w320/gb-eng.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "croatia",
+      "name": "Croatia",
+      "shortName": "Croatia",
+      "value": 1,
+      "rank": 13,
+      "color": "#18c871",
+      "image": "https://flagcdn.com/w320/hr.png",
+      "storyUrl": "/stories/world-cup-finals-appearances/",
+      "sourceIds": [
+        "List of FIFA World Cup finals",
+        "FIFA World Cup 2026 Final: Spain 1-0 Argentina"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.json",
+          "x": 0,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.75,
+          "u1": 0.25,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://flagcdn.com/w320/hr.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    }
+  ]
+}

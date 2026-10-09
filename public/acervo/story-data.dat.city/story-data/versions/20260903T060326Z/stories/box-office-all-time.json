@@ -1,0 +1,4521 @@
+{
+  "id": "box-office-all-time",
+  "kicker": "Box Office Megaplex",
+  "title": "Biggest Box Office Sales",
+  "subtitle": "The highest-grossing films in worldwide box office history, projected as a blockbuster skyline.",
+  "badge": "Ranked by worldwide gross",
+  "visualization": "race-arena",
+  "theme": "creator-arena",
+  "artStyle": "stylized-editorial",
+  "dateRange": [
+    "20260628",
+    "20260901"
+  ],
+  "timelineTicks": [
+    "20260628",
+    "20260629",
+    "20260701",
+    "20260706",
+    "20260707",
+    "20260708",
+    "20260709",
+    "20260710",
+    "20260711",
+    "20260712",
+    "20260713",
+    "20260714",
+    "20260715",
+    "20260716",
+    "20260717",
+    "20260718",
+    "20260719",
+    "20260720",
+    "20260721",
+    "20260722",
+    "20260728",
+    "20260804",
+    "20260811",
+    "20260818",
+    "20260822",
+    "20260825",
+    "20260901"
+  ],
+  "metricLabel": "Worldwide gross",
+  "ogImage": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/box-office-all-time.png",
+  "cityPreview": {
+    "districtId": "box-office-megaplex",
+    "districtName": "Box Office Megaplex",
+    "cardLabel": "Box Office",
+    "summary": "All-time worldwide film grosses from Wikipedia's highest-grossing films table.",
+    "primaryMetric": "Worldwide gross",
+    "latestFrameLabel": "2026-09-01",
+    "storyUrl": "/stories/box-office-all-time/",
+    "thumbnail": "/assets/og/dat-city.webp"
+  },
+  "sourceStatus": "Wikipedia current ranking table: Highest-grossing films",
+  "confidence": "Observed List of highest-grossing films on 2026-09-01T07:03:08.053Z; values are parsed from the \"Highest-grossing films\" Wikipedia table.",
+  "methodology": "This StoryOps adapter fetches the rendered Wikipedia table for List of highest-grossing films, selects the configured ranking table, parses the configured entity and value columns, and stores observed snapshots so public history grows from repeat refreshes.",
+  "playback": {
+    "durationSeconds": 24,
+    "initialDate": "20260628",
+    "periodLabel": "worldwide gross"
+  },
+  "visual": {
+    "topCount": 10,
+    "referenceCount": 20,
+    "horizontalCount": 20
+  },
+  "layers": [
+    {
+      "id": "gross",
+      "label": "Gross",
+      "default": true
+    },
+    {
+      "id": "year",
+      "label": "Release year",
+      "default": true
+    },
+    {
+      "id": "peak",
+      "label": "Peak rank",
+      "default": true
+    }
+  ],
+  "focus": [
+    {
+      "id": "avatar",
+      "label": "Avatar"
+    },
+    {
+      "id": "avengers-endgame",
+      "label": "Avengers: Endgame"
+    },
+    {
+      "id": "avatar-the-way-of-water",
+      "label": "Avatar: The Way of Water"
+    },
+    {
+      "id": "spider-man-brand-new-day",
+      "label": "Spider-Man: Brand New Day"
+    }
+  ],
+  "entities": [
+    {
+      "id": "avatar",
+      "name": "Avatar",
+      "shortName": "Avatar",
+      "article": "Avatar (2009 film)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Avatar_(2009_film)",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/d/d6/Avatar_%282009_film%29_poster.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/d/d6/Avatar_%282009_film%29_poster.jpg",
+      "avatarText": "A",
+      "color": "#ff5a61",
+      "peak": "1",
+      "year": "2009",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.json",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.2,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/d/d6/Avatar_%282009_film%29_poster.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "avengers-endgame",
+      "name": "Avengers: Endgame",
+      "shortName": "Avengers: Endgame",
+      "article": "Avengers: Endgame",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Avengers%3A_Endgame",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/0/0d/Avengers_Endgame_poster.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/0/0d/Avengers_Endgame_poster.jpg",
+      "avatarText": "AE",
+      "color": "#18c871",
+      "peak": "1",
+      "year": "2019",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.json",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0,
+          "u1": 0.4,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/0/0d/Avengers_Endgame_poster.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "avatar-the-way-of-water",
+      "name": "Avatar: The Way of Water",
+      "shortName": "Avatar: The Way of Water",
+      "article": "Avatar: The Way of Water",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Avatar%3A_The_Way_of_Water",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/5/54/Avatar_The_Way_of_Water_poster.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/5/54/Avatar_The_Way_of_Water_poster.jpg",
+      "avatarText": "AT",
+      "color": "#ffc84a",
+      "peak": "3",
+      "year": "2022",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.json",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0,
+          "u1": 0.6,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/5/54/Avatar_The_Way_of_Water_poster.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "spider-man-brand-new-day",
+      "name": "Spider-Man: Brand New Day",
+      "shortName": "Spider-Man: Brand New Day",
+      "article": "Spider-Man: Brand New Day",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Spider-Man%3A_Brand_New_Day",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/9/9a/Spider-Man_Brand_New_Day_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/9/9a/Spider-Man_Brand_New_Day_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "SB",
+      "color": "#f18c4f",
+      "peak": "12",
+      "year": "2026",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.json",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0,
+          "u1": 0.8,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/9/9a/Spider-Man_Brand_New_Day_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "titanic",
+      "name": "Titanic",
+      "shortName": "Titanic",
+      "article": "Titanic (1997 film)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Titanic_(1997_film)",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/1/18/Titanic_%281997_film%29_poster.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/1/18/Titanic_%281997_film%29_poster.png",
+      "avatarText": "T",
+      "color": "#00a6ff",
+      "peak": "1",
+      "year": "1997",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.json",
+          "x": 1280,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/1/18/Titanic_%281997_film%29_poster.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "ne-zha-2",
+      "name": "Ne Zha 2",
+      "shortName": "Ne Zha 2",
+      "article": "Ne Zha 2",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Ne_Zha_2",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/b/b6/Ne_Zha_2_poster.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b6/Ne_Zha_2_poster.jpg",
+      "avatarText": "NZ",
+      "color": "#8f6bff",
+      "peak": "5",
+      "year": "2025",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.json",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.25,
+          "u1": 0.2,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/b/b6/Ne_Zha_2_poster.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "star-wars-the-force-awakens",
+      "name": "Star Wars: The Force Awakens",
+      "shortName": "Star Wars: The Force Awakens",
+      "article": "Star Wars: The Force Awakens",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Star_Wars%3A_The_Force_Awakens",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Star_Wars_The_Force_Awakens_Theatrical_Poster.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Star_Wars_The_Force_Awakens_Theatrical_Poster.jpg",
+      "avatarText": "SW",
+      "color": "#f18c4f",
+      "peak": "3",
+      "year": "2015",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.json",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.25,
+          "u1": 0.4,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Star_Wars_The_Force_Awakens_Theatrical_Poster.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "avengers-infinity-war",
+      "name": "Avengers: Infinity War",
+      "shortName": "Avengers: Infinity War",
+      "article": "Avengers: Infinity War",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Avengers%3A_Infinity_War",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/4/4d/Avengers_Infinity_War_poster.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/4/4d/Avengers_Infinity_War_poster.jpg",
+      "avatarText": "AI",
+      "color": "#41a99f",
+      "peak": "4",
+      "year": "2018",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.json",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.25,
+          "u1": 0.6,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/4/4d/Avengers_Infinity_War_poster.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "spider-man-no-way-home",
+      "name": "Spider-Man: No Way Home",
+      "shortName": "Spider-Man: No Way Home",
+      "article": "Spider-Man: No Way Home",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Spider-Man%3A_No_Way_Home",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/7/70/Spider-Man_No_Way_Home_%E2%80%93_The_More_Fun_Stuff_Version_poster.jpeg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/7/70/Spider-Man_No_Way_Home_%E2%80%93_The_More_Fun_Stuff_Version_poster.jpeg",
+      "avatarText": "SN",
+      "color": "#d78fca",
+      "peak": "6",
+      "year": "2021",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.json",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.25,
+          "u1": 0.8,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/7/70/Spider-Man_No_Way_Home_%E2%80%93_The_More_Fun_Stuff_Version_poster.jpeg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "zootopia-2",
+      "name": "Zootopia 2",
+      "shortName": "Zootopia 2",
+      "article": "Zootopia 2",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Zootopia_2",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/6/6a/Zootopia_2_%282025_film%29.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/6/6a/Zootopia_2_%282025_film%29.jpg",
+      "avatarText": "Z2",
+      "color": "#7b9b65",
+      "peak": "9",
+      "year": "2025",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.json",
+          "x": 1280,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.25,
+          "u1": 1,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/6/6a/Zootopia_2_%282025_film%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "inside-out-2",
+      "name": "Inside Out 2",
+      "shortName": "Inside Out 2",
+      "article": "Inside Out 2",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Inside_Out_2",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Inside_Out_%282015_film%29_Logo.svg/960px-Inside_Out_%282015_film%29_Logo.svg.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Inside_Out_%282015_film%29_Logo.svg/960px-Inside_Out_%282015_film%29_Logo.svg.png",
+      "avatarText": "IO",
+      "color": "#2f4858",
+      "peak": "8",
+      "year": "2024",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.json",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.5,
+          "u1": 0.2,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Inside_Out_%282015_film%29_Logo.svg/960px-Inside_Out_%282015_film%29_Logo.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "jurassic-world",
+      "name": "Jurassic World",
+      "shortName": "Jurassic World",
+      "article": "Jurassic World",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Jurassic_World",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/6/6e/Jurassic_World_poster.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/6/6e/Jurassic_World_poster.jpg",
+      "avatarText": "JW",
+      "color": "#ef426f",
+      "peak": "3",
+      "year": "2015",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.json",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.5,
+          "u1": 0.4,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/6/6e/Jurassic_World_poster.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "the-lion-king",
+      "name": "The Lion King",
+      "shortName": "The Lion King",
+      "article": "The Lion King (2019 film)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Lion_King_(2019_film)",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/The_Lion_King_European_Premiere.png/960px-The_Lion_King_European_Premiere.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/The_Lion_King_European_Premiere.png/960px-The_Lion_King_European_Premiere.png",
+      "avatarText": "TL",
+      "color": "#86bdf4",
+      "peak": "7",
+      "year": "2019",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.json",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.5,
+          "u1": 0.6,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/The_Lion_King_European_Premiere.png/960px-The_Lion_King_European_Premiere.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "the-odyssey",
+      "name": "The Odyssey",
+      "shortName": "The Odyssey",
+      "article": "The Odyssey (2026 film)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/9/90/The_Odyssey_%282026_film%29_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/9/90/The_Odyssey_%282026_film%29_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "TO",
+      "color": "#41a99f",
+      "peak": "19",
+      "year": "2026",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.json",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.5,
+          "u1": 0.8,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/9/90/The_Odyssey_%282026_film%29_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "the-avengers",
+      "name": "The Avengers",
+      "shortName": "The Avengers",
+      "article": "The Avengers (2012 film)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Avengers_(2012_film)",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/8/8a/The_Avengers_%282012_film%29_poster.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/8/8a/The_Avengers_%282012_film%29_poster.jpg",
+      "avatarText": "TA",
+      "color": "#c9a14a",
+      "peak": "3",
+      "year": "2012",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.json",
+          "x": 1280,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.5,
+          "u1": 1,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/8/8a/The_Avengers_%282012_film%29_poster.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "furious-7",
+      "name": "Furious 7",
+      "shortName": "Furious 7",
+      "article": "Furious 7",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Furious_7",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/b/b8/Furious_7_poster.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b8/Furious_7_poster.jpg",
+      "avatarText": "F7",
+      "color": "#e34f59",
+      "peak": "4",
+      "year": "2015",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.json",
+          "x": 0,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.75,
+          "u1": 0.2,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/b/b8/Furious_7_poster.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "top-gun-maverick",
+      "name": "Top Gun: Maverick",
+      "shortName": "Top Gun: Maverick",
+      "article": "Top Gun: Maverick",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Top_Gun%3A_Maverick",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/1/13/Top_Gun_Maverick_Poster.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/1/13/Top_Gun_Maverick_Poster.jpg",
+      "avatarText": "TG",
+      "color": "#9aa4b2",
+      "peak": "11",
+      "year": "2022",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.json",
+          "x": 320,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.75,
+          "u1": 0.4,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/1/13/Top_Gun_Maverick_Poster.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "avatar-fire-and-ash",
+      "name": "Avatar: Fire and Ash",
+      "shortName": "Avatar: Fire and Ash",
+      "article": "Avatar: Fire and Ash",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Avatar%3A_Fire_and_Ash",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/9/95/Avatar_Fire_and_Ash_poster.jpeg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/9/95/Avatar_Fire_and_Ash_poster.jpeg",
+      "avatarText": "AF",
+      "color": "#ff5a61",
+      "peak": "16",
+      "year": "2025",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.json",
+          "x": 640,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.75,
+          "u1": 0.6,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/9/95/Avatar_Fire_and_Ash_poster.jpeg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "frozen-2",
+      "name": "Frozen 2",
+      "shortName": "Frozen 2",
+      "article": "Frozen 2",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Frozen_2",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/8/89/Frozen_II_%282019_animated_film%29.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/8/89/Frozen_II_%282019_animated_film%29.jpg",
+      "avatarText": "F2",
+      "color": "#18c871",
+      "peak": "10",
+      "year": "2019",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.json",
+          "x": 960,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.75,
+          "u1": 0.8,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/8/89/Frozen_II_%282019_animated_film%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "barbie",
+      "name": "Barbie",
+      "shortName": "Barbie",
+      "article": "Barbie (film)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Barbie_(film)",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/0/0b/Barbie_2023_poster.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/0/0b/Barbie_2023_poster.jpg",
+      "avatarText": "B",
+      "color": "#ffc84a",
+      "peak": "14",
+      "year": "2023",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.json",
+          "x": 1280,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.75,
+          "u1": 1,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/0/0b/Barbie_2023_poster.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    }
+  ],
+  "frames": [
+    {
+      "date": "20260628",
+      "values": [
+        {
+          "id": "avatar",
+          "value": 2923710708,
+          "rank": 1,
+          "peak": "1",
+          "year": "2009"
+        },
+        {
+          "id": "avengers-endgame",
+          "value": 2797501328,
+          "rank": 2,
+          "peak": "1",
+          "year": "2019"
+        },
+        {
+          "id": "avatar-the-way-of-water",
+          "value": 2334484620,
+          "rank": 3,
+          "peak": "3",
+          "year": "2022"
+        },
+        {
+          "id": "titanic",
+          "value": 2257906828,
+          "rank": 4,
+          "peak": "1",
+          "year": "1997"
+        },
+        {
+          "id": "ne-zha-2",
+          "value": 2215690000,
+          "rank": 5,
+          "peak": "5",
+          "year": "2025"
+        },
+        {
+          "id": "star-wars-the-force-awakens",
+          "value": 2068223624,
+          "rank": 6,
+          "peak": "3",
+          "year": "2015"
+        },
+        {
+          "id": "avengers-infinity-war",
+          "value": 2048359754,
+          "rank": 7,
+          "peak": "4",
+          "year": "2018"
+        },
+        {
+          "id": "spider-man-no-way-home",
+          "value": 1922598800,
+          "rank": 8,
+          "peak": "6",
+          "year": "2021"
+        },
+        {
+          "id": "zootopia-2",
+          "value": 1866647950,
+          "rank": 9,
+          "peak": "9",
+          "year": "2025"
+        },
+        {
+          "id": "inside-out-2",
+          "value": 1698863816,
+          "rank": 10,
+          "peak": "8",
+          "year": "2024"
+        },
+        {
+          "id": "jurassic-world",
+          "value": 1671537444,
+          "rank": 11,
+          "peak": "3",
+          "year": "2015"
+        },
+        {
+          "id": "the-lion-king",
+          "value": 1656943394,
+          "rank": 12,
+          "peak": "7",
+          "year": "2019"
+        },
+        {
+          "id": "the-avengers",
+          "value": 1518815515,
+          "rank": 13,
+          "peak": "3",
+          "year": "2012"
+        },
+        {
+          "id": "furious-7",
+          "value": 1515341399,
+          "rank": 14,
+          "peak": "4",
+          "year": "2015"
+        },
+        {
+          "id": "top-gun-maverick",
+          "value": 1503260455,
+          "rank": 15,
+          "peak": "11",
+          "year": "2022"
+        },
+        {
+          "id": "avatar-fire-and-ash",
+          "value": 1485999890,
+          "rank": 16,
+          "peak": "16",
+          "year": "2025"
+        },
+        {
+          "id": "frozen-2",
+          "value": 1450026933,
+          "rank": 17,
+          "peak": "10",
+          "year": "2019"
+        },
+        {
+          "id": "barbie",
+          "value": 1447138421,
+          "rank": 18,
+          "peak": "14",
+          "year": "2023"
+        }
+      ]
+    },
+    {
+      "date": "20260629",
+      "values": [
+        {
+          "id": "avatar",
+          "value": 2923710708,
+          "rank": 1,
+          "peak": "1",
+          "year": "2009"
+        },
+        {
+          "id": "avengers-endgame",
+          "value": 2797501328,
+          "rank": 2,
+          "peak": "1",
+          "year": "2019"
+        },
+        {
+          "id": "avatar-the-way-of-water",
+          "value": 2334484620,
+          "rank": 3,
+          "peak": "3",
+          "year": "2022"
+        },
+        {
+          "id": "titanic",
+          "value": 2257906828,
+          "rank": 4,
+          "peak": "1",
+          "year": "1997"
+        },
+        {
+          "id": "ne-zha-2",
+          "value": 2215690000,
+          "rank": 5,
+          "peak": "5",
+          "year": "2025"
+        },
+        {
+          "id": "star-wars-the-force-awakens",
+          "value": 2068223624,
+          "rank": 6,
+          "peak": "3",
+          "year": "2015"
+        },
+        {
+          "id": "avengers-infinity-war",
+          "value": 2048359754,
+          "rank": 7,
+          "peak": "4",
+          "year": "2018"
+        },
+        {
+          "id": "spider-man-no-way-home",
+          "value": 1922598800,
+          "rank": 8,
+          "peak": "6",
+          "year": "2021"
+        },
+        {
+          "id": "zootopia-2",
+          "value": 1866647950,
+          "rank": 9,
+          "peak": "9",
+          "year": "2025"
+        },
+        {
+          "id": "inside-out-2",
+          "value": 1698863816,
+          "rank": 10,
+          "peak": "8",
+          "year": "2024"
+        },
+        {
+          "id": "jurassic-world",
+          "value": 1671537444,
+          "rank": 11,
+          "peak": "3",
+          "year": "2015"
+        },
+        {
+          "id": "the-lion-king",
+          "value": 1656943394,
+          "rank": 12,
+          "peak": "7",
+          "year": "2019"
+        },
+        {
+          "id": "the-avengers",
+          "value": 1518815515,
+          "rank": 13,
+          "peak": "3",
+          "year": "2012"
+        },
+        {
+          "id": "furious-7",
+          "value": 1515341399,
+          "rank": 14,
+          "peak": "4",
+          "year": "2015"
+        },
+        {
+          "id": "top-gun-maverick",
+          "value": 1503260455,
+          "rank": 15,
+          "peak": "11",
+          "year": "2022"
+        },
+        {
+          "id": "avatar-fire-and-ash",
+          "value": 1485999890,
+          "rank": 16,
+          "peak": "16",
+          "year": "2025"
+        },
+        {
+          "id": "frozen-2",
+          "value": 1450026933,
+          "rank": 17,
+          "peak": "10",
+          "year": "2019"
+        },
+        {
+          "id": "barbie",
+          "value": 1447138421,
+          "rank": 18,
+          "peak": "14",
+          "year": "2023"
+        }
+      ]
+    },
+    {
+      "date": "20260701",
+      "values": [
+        {
+          "id": "avatar",
+          "value": 2923710708,
+          "rank": 1,
+          "peak": "1",
+          "year": "2009"
+        },
+        {
+          "id": "avengers-endgame",
+          "value": 2797501328,
+          "rank": 2,
+          "peak": "1",
+          "year": "2019"
+        },
+        {
+          "id": "avatar-the-way-of-water",
+          "value": 2334484620,
+          "rank": 3,
+          "peak": "3",
+          "year": "2022"
+        },
+        {
+          "id": "titanic",
+          "value": 2257906828,
+          "rank": 4,
+          "peak": "1",
+          "year": "1997"
+        },
+        {
+          "id": "ne-zha-2",
+          "value": 2215690000,
+          "rank": 5,
+          "peak": "5",
+          "year": "2025"
+        },
+        {
+          "id": "star-wars-the-force-awakens",
+          "value": 2068223624,
+          "rank": 6,
+          "peak": "3",
+          "year": "2015"
+        },
+        {
+          "id": "avengers-infinity-war",
+          "value": 2048359754,
+          "rank": 7,
+          "peak": "4",
+          "year": "2018"
+        },
+        {
+          "id": "spider-man-no-way-home",
+          "value": 1922598800,
+          "rank": 8,
+          "peak": "6",
+          "year": "2021"
+        },
+        {
+          "id": "zootopia-2",
+          "value": 1866647950,
+          "rank": 9,
+          "peak": "9",
+          "year": "2025"
+        },
+        {
+          "id": "inside-out-2",
+          "value": 1698863816,
+          "rank": 10,
+          "peak": "8",
+          "year": "2024"
+        },
+        {
+          "id": "jurassic-world",
+          "value": 1671537444,
+          "rank": 11,
+          "peak": "3",
+          "year": "2015"
+        },
+        {
+          "id": "the-lion-king",
+          "value": 1656943394,
+          "rank": 12,
+          "peak": "7",
+          "year": "2019"
+        },
+        {
+          "id": "the-avengers",
+          "value": 1518815515,
+          "rank": 13,
+          "peak": "3",
+          "year": "2012"
+        },
+        {
+          "id": "furious-7",
+          "value": 1515341399,
+          "rank": 14,
+          "peak": "4",
+          "year": "2015"
+        },
+        {
+          "id": "top-gun-maverick",
+          "value": 1503260455,
+          "rank": 15,
+          "peak": "11",
+          "year": "2022"
+        },
+        {
+          "id": "avatar-fire-and-ash",
+          "value": 1485999890,
+          "rank": 16,
+          "peak": "16",
+          "year": "2025"
+        },
+        {
+          "id": "frozen-2",
+          "value": 1450026933,
+          "rank": 17,
+          "peak": "10",
+          "year": "2019"
+        },
+        {
+          "id": "barbie",
+          "value": 1447138421,
+          "rank": 18,
+          "peak": "14",
+          "year": "2023"
+        }
+      ]
+    },
+    {
+      "date": "20260706",
+      "values": [
+        {
+          "id": "avatar",
+          "value": 2923710708,
+          "rank": 1,
+          "peak": "1",
+          "year": "2009"
+        },
+        {
+          "id": "avengers-endgame",
+          "value": 2797501328,
+          "rank": 2,
+          "peak": "1",
+          "year": "2019"
+        },
+        {
+          "id": "avatar-the-way-of-water",
+          "value": 2334484620,
+          "rank": 3,
+          "peak": "3",
+          "year": "2022"
+        },
+        {
+          "id": "titanic",
+          "value": 2257906828,
+          "rank": 4,
+          "peak": "1",
+          "year": "1997"
+        },
+        {
+          "id": "ne-zha-2",
+          "value": 2215690000,
+          "rank": 5,
+          "peak": "5",
+          "year": "2025"
+        },
+        {
+          "id": "star-wars-the-force-awakens",
+          "value": 2068223624,
+          "rank": 6,
+          "peak": "3",
+          "year": "2015"
+        },
+        {
+          "id": "avengers-infinity-war",
+          "value": 2048359754,
+          "rank": 7,
+          "peak": "4",
+          "year": "2018"
+        },
+        {
+          "id": "spider-man-no-way-home",
+          "value": 1922598800,
+          "rank": 8,
+          "peak": "6",
+          "year": "2021"
+        },
+        {
+          "id": "zootopia-2",
+          "value": 1866647950,
+          "rank": 9,
+          "peak": "9",
+          "year": "2025"
+        },
+        {
+          "id": "inside-out-2",
+          "value": 1698863816,
+          "rank": 10,
+          "peak": "8",
+          "year": "2024"
+        },
+        {
+          "id": "jurassic-world",
+          "value": 1671537444,
+          "rank": 11,
+          "peak": "3",
+          "year": "2015"
+        },
+        {
+          "id": "the-lion-king",
+          "value": 1656943394,
+          "rank": 12,
+          "peak": "7",
+          "year": "2019"
+        },
+        {
+          "id": "the-avengers",
+          "value": 1518815515,
+          "rank": 13,
+          "peak": "3",
+          "year": "2012"
+        },
+        {
+          "id": "furious-7",
+          "value": 1515341399,
+          "rank": 14,
+          "peak": "4",
+          "year": "2015"
+        },
+        {
+          "id": "top-gun-maverick",
+          "value": 1503260455,
+          "rank": 15,
+          "peak": "11",
+          "year": "2022"
+        },
+        {
+          "id": "avatar-fire-and-ash",
+          "value": 1485999890,
+          "rank": 16,
+          "peak": "16",
+          "year": "2025"
+        },
+        {
+          "id": "frozen-2",
+          "value": 1450026933,
+          "rank": 17,
+          "peak": "10",
+          "year": "2019"
+        },
+        {
+          "id": "barbie",
+          "value": 1447138421,
+          "rank": 18,
+          "peak": "14",
+          "year": "2023"
+        }
+      ]
+    },
+    {
+      "date": "20260707",
+      "values": [
+        {
+          "id": "avatar",
+          "value": 2923710708,
+          "rank": 1,
+          "peak": "1",
+          "year": "2009"
+        },
+        {
+          "id": "avengers-endgame",
+          "value": 2797501328,
+          "rank": 2,
+          "peak": "1",
+          "year": "2019"
+        },
+        {
+          "id": "avatar-the-way-of-water",
+          "value": 2334484620,
+          "rank": 3,
+          "peak": "3",
+          "year": "2022"
+        },
+        {
+          "id": "titanic",
+          "value": 2257906828,
+          "rank": 4,
+          "peak": "1",
+          "year": "1997"
+        },
+        {
+          "id": "ne-zha-2",
+          "value": 2215690000,
+          "rank": 5,
+          "peak": "5",
+          "year": "2025"
+        },
+        {
+          "id": "star-wars-the-force-awakens",
+          "value": 2068223624,
+          "rank": 6,
+          "peak": "3",
+          "year": "2015"
+        },
+        {
+          "id": "avengers-infinity-war",
+          "value": 2048359754,
+          "rank": 7,
+          "peak": "4",
+          "year": "2018"
+        },
+        {
+          "id": "spider-man-no-way-home",
+          "value": 1922598800,
+          "rank": 8,
+          "peak": "6",
+          "year": "2021"
+        },
+        {
+          "id": "zootopia-2",
+          "value": 1866647950,
+          "rank": 9,
+          "peak": "9",
+          "year": "2025"
+        },
+        {
+          "id": "inside-out-2",
+          "value": 1698863816,
+          "rank": 10,
+          "peak": "8",
+          "year": "2024"
+        },
+        {
+          "id": "jurassic-world",
+          "value": 1671537444,
+          "rank": 11,
+          "peak": "3",
+          "year": "2015"
+        },
+        {
+          "id": "the-lion-king",
+          "value": 1656943394,
+          "rank": 12,
+          "peak": "7",
+          "year": "2019"
+        },
+        {
+          "id": "the-avengers",
+          "value": 1518815515,
+          "rank": 13,
+          "peak": "3",
+          "year": "2012"
+        },
+        {
+          "id": "furious-7",
+          "value": 1515341399,
+          "rank": 14,
+          "peak": "4",
+          "year": "2015"
+        },
+        {
+          "id": "top-gun-maverick",
+          "value": 1503260455,
+          "rank": 15,
+          "peak": "11",
+          "year": "2022"
+        },
+        {
+          "id": "avatar-fire-and-ash",
+          "value": 1485999890,
+          "rank": 16,
+          "peak": "16",
+          "year": "2025"
+        },
+        {
+          "id": "frozen-2",
+          "value": 1450026933,
+          "rank": 17,
+          "peak": "10",
+          "year": "2019"
+        },
+        {
+          "id": "barbie",
+          "value": 1447138421,
+          "rank": 18,
+          "peak": "14",
+          "year": "2023"
+        }
+      ]
+    },
+    {
+      "date": "20260708",
+      "values": [
+        {
+          "id": "avatar",
+          "value": 2923710708,
+          "rank": 1,
+          "peak": "1",
+          "year": "2009"
+        },
+        {
+          "id": "avengers-endgame",
+          "value": 2797501328,
+          "rank": 2,
+          "peak": "1",
+          "year": "2019"
+        },
+        {
+          "id": "avatar-the-way-of-water",
+          "value": 2334484620,
+          "rank": 3,
+          "peak": "3",
+          "year": "2022"
+        },
+        {
+          "id": "titanic",
+          "value": 2257906828,
+          "rank": 4,
+          "peak": "1",
+          "year": "1997"
+        },
+        {
+          "id": "ne-zha-2",
+          "value": 2215690000,
+          "rank": 5,
+          "peak": "5",
+          "year": "2025"
+        },
+        {
+          "id": "star-wars-the-force-awakens",
+          "value": 2068223624,
+          "rank": 6,
+          "peak": "3",
+          "year": "2015"
+        },
+        {
+          "id": "avengers-infinity-war",
+          "value": 2048359754,
+          "rank": 7,
+          "peak": "4",
+          "year": "2018"
+        },
+        {
+          "id": "spider-man-no-way-home",
+          "value": 1922598800,
+          "rank": 8,
+          "peak": "6",
+          "year": "2021"
+        },
+        {
+          "id": "zootopia-2",
+          "value": 1866647950,
+          "rank": 9,
+          "peak": "9",
+          "year": "2025"
+        },
+        {
+          "id": "inside-out-2",
+          "value": 1698863816,
+          "rank": 10,
+          "peak": "8",
+          "year": "2024"
+        },
+        {
+          "id": "jurassic-world",
+          "value": 1671537444,
+          "rank": 11,
+          "peak": "3",
+          "year": "2015"
+        },
+        {
+          "id": "the-lion-king",
+          "value": 1656943394,
+          "rank": 12,
+          "peak": "7",
+          "year": "2019"
+        },
+        {
+          "id": "the-avengers",
+          "value": 1518815515,
+          "rank": 13,
+          "peak": "3",
+          "year": "2012"
+        },
+        {
+          "id": "furious-7",
+          "value": 1515341399,
+          "rank": 14,
+          "peak": "4",
+          "year": "2015"
+        },
+        {
+          "id": "top-gun-maverick",
+          "value": 1503260455,
+          "rank": 15,
+          "peak": "11",
+          "year": "2022"
+        },
+        {
+          "id": "avatar-fire-and-ash",
+          "value": 1485999890,
+          "rank": 16,
+          "peak": "16",
+          "year": "2025"
+        },
+        {
+          "id": "frozen-2",
+          "value": 1450026933,
+          "rank": 17,
+          "peak": "10",
+          "year": "2019"
+        },
+        {
+          "id": "barbie",
+          "value": 1447138421,
+          "rank": 18,
+          "peak": "14",
+          "year": "2023"
+        }
+      ]
+    },
+    {
+      "date": "20260709",
+      "values": [
+        {
+          "id": "avatar",
+          "value": 2923710708,
+          "rank": 1,
+          "peak": "1",
+          "year": "2009"
+        },
+        {
+          "id": "avengers-endgame",
+          "value": 2797501328,
+          "rank": 2,
+          "peak": "1",
+          "year": "2019"
+        },
+        {
+          "id": "avatar-the-way-of-water",
+          "value": 2334484620,
+          "rank": 3,
+          "peak": "3",
+          "year": "2022"
+        },
+        {
+          "id": "titanic",
+          "value": 2257906828,
+          "rank": 4,
+          "peak": "1",
+          "year": "1997"
+        },
+        {
+          "id": "ne-zha-2",
+          "value": 2215690000,
+          "rank": 5,
+          "peak": "5",
+          "year": "2025"
+        },
+        {
+          "id": "star-wars-the-force-awakens",
+          "value": 2068223624,
+          "rank": 6,
+          "peak": "3",
+          "year": "2015"
+        },
+        {
+          "id": "avengers-infinity-war",
+          "value": 2048359754,
+          "rank": 7,
+          "peak": "4",
+          "year": "2018"
+        },
+        {
+          "id": "spider-man-no-way-home",
+          "value": 1922598800,
+          "rank": 8,
+          "peak": "6",
+          "year": "2021"
+        },
+        {
+          "id": "zootopia-2",
+          "value": 1866647950,
+          "rank": 9,
+          "peak": "9",
+          "year": "2025"
+        },
+        {
+          "id": "inside-out-2",
+          "value": 1698863816,
+          "rank": 10,
+          "peak": "8",
+          "year": "2024"
+        },
+        {
+          "id": "jurassic-world",
+          "value": 1671537444,
+          "rank": 11,
+          "peak": "3",
+          "year": "2015"
+        },
+        {
+          "id": "the-lion-king",
+          "value": 1656943394,
+          "rank": 12,
+          "peak": "7",
+          "year": "2019"
+        },
+        {
+          "id": "the-avengers",
+          "value": 1518815515,
+          "rank": 13,
+          "peak": "3",
+          "year": "2012"
+        },
+        {
+          "id": "furious-7",
+          "value": 1515341399,
+          "rank": 14,
+          "peak": "4",
+          "year": "2015"
+        },
+        {
+          "id": "top-gun-maverick",
+          "value": 1503260455,
+          "rank": 15,
+          "peak": "11",
+          "year": "2022"
+        },
+        {
+          "id": "avatar-fire-and-ash",
+          "value": 1485999890,
+          "rank": 16,
+          "peak": "16",
+          "year": "2025"
+        },
+        {
+          "id": "frozen-2",
+          "value": 1450026933,
+          "rank": 17,
+          "peak": "10",
+          "year": "2019"
+        },
+        {
+          "id": "barbie",
+          "value": 1447138421,
+          "rank": 18,
+          "peak": "14",
+          "year": "2023"
+        }
+      ]
+    },
+    {
+      "date": "20260710",
+      "values": [
+        {
+          "id": "avatar",
+          "value": 2923710708,
+          "rank": 1,
+          "peak": "1",
+          "year": "2009"
+        },
+        {
+          "id": "avengers-endgame",
+          "value": 2797501328,
+          "rank": 2,
+          "peak": "1",
+          "year": "2019"
+        },
+        {
+          "id": "avatar-the-way-of-water",
+          "value": 2334484620,
+          "rank": 3,
+          "peak": "3",
+          "year": "2022"
+        },
+        {
+          "id": "titanic",
+          "value": 2257906828,
+          "rank": 4,
+          "peak": "1",
+          "year": "1997"
+        },
+        {
+          "id": "ne-zha-2",
+          "value": 2215690000,
+          "rank": 5,
+          "peak": "5",
+          "year": "2025"
+        },
+        {
+          "id": "star-wars-the-force-awakens",
+          "value": 2068223624,
+          "rank": 6,
+          "peak": "3",
+          "year": "2015"
+        },
+        {
+          "id": "avengers-infinity-war",
+          "value": 2048359754,
+          "rank": 7,
+          "peak": "4",
+          "year": "2018"
+        },
+        {
+          "id": "spider-man-no-way-home",
+          "value": 1922598800,
+          "rank": 8,
+          "peak": "6",
+          "year": "2021"
+        },
+        {
+          "id": "zootopia-2",
+          "value": 1866647950,
+          "rank": 9,
+          "peak": "9",
+          "year": "2025"
+        },
+        {
+          "id": "inside-out-2",
+          "value": 1698863816,
+          "rank": 10,
+          "peak": "8",
+          "year": "2024"
+        },
+        {
+          "id": "jurassic-world",
+          "value": 1671537444,
+          "rank": 11,
+          "peak": "3",
+          "year": "2015"
+        },
+        {
+          "id": "the-lion-king",
+          "value": 1656943394,
+          "rank": 12,
+          "peak": "7",
+          "year": "2019"
+        },
+        {
+          "id": "the-avengers",
+          "value": 1518815515,
+          "rank": 13,
+          "peak": "3",
+          "year": "2012"
+        },
+        {
+          "id": "furious-7",
+          "value": 1515341399,
+          "rank": 14,
+          "peak": "4",
+          "year": "2015"
+        },
+        {
+          "id": "top-gun-maverick",
+          "value": 1503260455,
+          "rank": 15,
+          "peak": "11",
+          "year": "2022"
+        },
+        {
+          "id": "avatar-fire-and-ash",
+          "value": 1485999890,
+          "rank": 16,
+          "peak": "16",
+          "year": "2025"
+        },
+        {
+          "id": "frozen-2",
+          "value": 1450026933,
+          "rank": 17,
+          "peak": "10",
+          "year": "2019"
+        },
+        {
+          "id": "barbie",
+          "value": 1447138421,
+          "rank": 18,
+          "peak": "14",
+          "year": "2023"
+        }
+      ]
+    },
+    {
+      "date": "20260711",
+      "values": [
+        {
+          "id": "avatar",
+          "value": 2923710708,
+          "rank": 1,
+          "peak": "1",
+          "year": "2009"
+        },
+        {
+          "id": "avengers-endgame",
+          "value": 2797501328,
+          "rank": 2,
+          "peak": "1",
+          "year": "2019"
+        },
+        {
+          "id": "avatar-the-way-of-water",
+          "value": 2334484620,
+          "rank": 3,
+          "peak": "3",
+          "year": "2022"
+        },
+        {
+          "id": "titanic",
+          "value": 2257906828,
+          "rank": 4,
+          "peak": "1",
+          "year": "1997"
+        },
+        {
+          "id": "ne-zha-2",
+          "value": 2215690000,
+          "rank": 5,
+          "peak": "5",
+          "year": "2025"
+        },
+        {
+          "id": "star-wars-the-force-awakens",
+          "value": 2068223624,
+          "rank": 6,
+          "peak": "3",
+          "year": "2015"
+        },
+        {
+          "id": "avengers-infinity-war",
+          "value": 2048359754,
+          "rank": 7,
+          "peak": "4",
+          "year": "2018"
+        },
+        {
+          "id": "spider-man-no-way-home",
+          "value": 1922598800,
+          "rank": 8,
+          "peak": "6",
+          "year": "2021"
+        },
+        {
+          "id": "zootopia-2",
+          "value": 1866647950,
+          "rank": 9,
+          "peak": "9",
+          "year": "2025"
+        },
+        {
+          "id": "inside-out-2",
+          "value": 1698863816,
+          "rank": 10,
+          "peak": "8",
+          "year": "2024"
+        },
+        {
+          "id": "jurassic-world",
+          "value": 1671537444,
+          "rank": 11,
+          "peak": "3",
+          "year": "2015"
+        },
+        {
+          "id": "the-lion-king",
+          "value": 1656943394,
+          "rank": 12,
+          "peak": "7",
+          "year": "2019"
+        },
+        {
+          "id": "the-avengers",
+          "value": 1518815515,
+          "rank": 13,
+          "peak": "3",
+          "year": "2012"
+        },
+        {
+          "id": "furious-7",
+          "value": 1515341399,
+          "rank": 14,
+          "peak": "4",
+          "year": "2015"
+        },
+        {
+          "id": "top-gun-maverick",
+          "value": 1503260455,
+          "rank": 15,
+          "peak": "11",
+          "year": "2022"
+        },
+        {
+          "id": "avatar-fire-and-ash",
+          "value": 1485999890,
+          "rank": 16,
+          "peak": "16",
+          "year": "2025"
+        },
+        {
+          "id": "frozen-2",
+          "value": 1450026933,
+          "rank": 17,
+          "peak": "10",
+          "year": "2019"
+        },
+        {
+          "id": "barbie",
+          "value": 1447138421,
+          "rank": 18,
+          "peak": "14",
+          "year": "2023"
+        }
+      ]
+    },
+    {
+      "date": "20260712",
+      "values": [
+        {
+          "id": "avatar",
+          "value": 2923710708,
+          "rank": 1,
+          "peak": "1",
+          "year": "2009"
+        },
+        {
+          "id": "avengers-endgame",
+          "value": 2797501328,
+          "rank": 2,
+          "peak": "1",
+          "year": "2019"
+        },
+        {
+          "id": "avatar-the-way-of-water",
+          "value": 2334484620,
+          "rank": 3,
+          "peak": "3",
+          "year": "2022"
+        },
+        {
+          "id": "titanic",
+          "value": 2257906828,
+          "rank": 4,
+          "peak": "1",
+          "year": "1997"
+        },
+        {
+          "id": "ne-zha-2",
+          "value": 2215690000,
+          "rank": 5,
+          "peak": "5",
+          "year": "2025"
+        },
+        {
+          "id": "star-wars-the-force-awakens",
+          "value": 2068223624,
+          "rank": 6,
+          "peak": "3",
+          "year": "2015"
+        },
+        {
+          "id": "avengers-infinity-war",
+          "value": 2048359754,
+          "rank": 7,
+          "peak": "4",
+          "year": "2018"
+        },
+        {
+          "id": "spider-man-no-way-home",
+          "value": 1922598800,
+          "rank": 8,
+          "peak": "6",
+          "year": "2021"
+        },
+        {
+          "id": "zootopia-2",
+          "value": 1866647950,
+          "rank": 9,
+          "peak": "9",
+          "year": "2025"
+        },
+        {
+          "id": "inside-out-2",
+          "value": 1698863816,
+          "rank": 10,
+          "peak": "8",
+          "year": "2024"
+        },
+        {
+          "id": "jurassic-world",
+          "value": 1671537444,
+          "rank": 11,
+          "peak": "3",
+          "year": "2015"
+        },
+        {
+          "id": "the-lion-king",
+          "value": 1656943394,
+          "rank": 12,
+          "peak": "7",
+          "year": "2019"
+        },
+        {
+          "id": "the-avengers",
+          "value": 1518815515,
+          "rank": 13,
+          "peak": "3",
+          "year": "2012"
+        },
+        {
+          "id": "furious-7",
+          "value": 1515341399,
+          "rank": 14,
+          "peak": "4",
+          "year": "2015"
+        },
+        {
+          "id": "top-gun-maverick",
+          "value": 1503260455,
+          "rank": 15,
+          "peak": "11",
+          "year": "2022"
+        },
+        {
+          "id": "avatar-fire-and-ash",
+          "value": 1485999890,
+          "rank": 16,
+          "peak": "16",
+          "year": "2025"
+        },
+        {
+          "id": "frozen-2",
+          "value": 1450026933,
+          "rank": 17,
+          "peak": "10",
+          "year": "2019"
+        },
+        {
+          "id": "barbie",
+          "value": 1447138421,
+          "rank": 18,
+          "peak": "14",
+          "year": "2023"
+        }
+      ]
+    },
+    {
+      "date": "20260713",
+      "values": [
+        {
+          "id": "avatar",
+          "value": 2923710708,
+          "rank": 1,
+          "peak": "1",
+          "year": "2009"
+        },
+        {
+          "id": "avengers-endgame",
+          "value": 2797501328,
+          "rank": 2,
+          "peak": "1",
+          "year": "2019"
+        },
+        {
+          "id": "avatar-the-way-of-water",
+          "value": 2334484620,
+          "rank": 3,
+          "peak": "3",
+          "year": "2022"
+        },
+        {
+          "id": "titanic",
+          "value": 2257906828,
+          "rank": 4,
+          "peak": "1",
+          "year": "1997"
+        },
+        {
+          "id": "ne-zha-2",
+          "value": 2215690000,
+          "rank": 5,
+          "peak": "5",
+          "year": "2025"
+        },
+        {
+          "id": "star-wars-the-force-awakens",
+          "value": 2068223624,
+          "rank": 6,
+          "peak": "3",
+          "year": "2015"
+        },
+        {
+          "id": "avengers-infinity-war",
+          "value": 2048359754,
+          "rank": 7,
+          "peak": "4",
+          "year": "2018"
+        },
+        {
+          "id": "spider-man-no-way-home",
+          "value": 1922598800,
+          "rank": 8,
+          "peak": "6",
+          "year": "2021"
+        },
+        {
+          "id": "zootopia-2",
+          "value": 1866647950,
+          "rank": 9,
+          "peak": "9",
+          "year": "2025"
+        },
+        {
+          "id": "inside-out-2",
+          "value": 1698863816,
+          "rank": 10,
+          "peak": "8",
+          "year": "2024"
+        },
+        {
+          "id": "jurassic-world",
+          "value": 1671537444,
+          "rank": 11,
+          "peak": "3",
+          "year": "2015"
+        },
+        {
+          "id": "the-lion-king",
+          "value": 1656943394,
+          "rank": 12,
+          "peak": "7",
+          "year": "2019"
+        },
+        {
+          "id": "the-avengers",
+          "value": 1518815515,
+          "rank": 13,
+          "peak": "3",
+          "year": "2012"
+        },
+        {
+          "id": "furious-7",
+          "value": 1515341399,
+          "rank": 14,
+          "peak": "4",
+          "year": "2015"
+        },
+        {
+          "id": "top-gun-maverick",
+          "value": 1503260455,
+          "rank": 15,
+          "peak": "11",
+          "year": "2022"
+        },
+        {
+          "id": "avatar-fire-and-ash",
+          "value": 1485999890,
+          "rank": 16,
+          "peak": "16",
+          "year": "2025"
+        },
+        {
+          "id": "frozen-2",
+          "value": 1450026933,
+          "rank": 17,
+          "peak": "10",
+          "year": "2019"
+        },
+        {
+          "id": "barbie",
+          "value": 1447138421,
+          "rank": 18,
+          "peak": "14",
+          "year": "2023"
+        }
+      ]
+    },
+    {
+      "date": "20260714",
+      "values": [
+        {
+          "id": "avatar",
+          "value": 2923710708,
+          "rank": 1,
+          "peak": "1",
+          "year": "2009"
+        },
+        {
+          "id": "avengers-endgame",
+          "value": 2797501328,
+          "rank": 2,
+          "peak": "1",
+          "year": "2019"
+        },
+        {
+          "id": "avatar-the-way-of-water",
+          "value": 2334484620,
+          "rank": 3,
+          "peak": "3",
+          "year": "2022"
+        },
+        {
+          "id": "titanic",
+          "value": 2257906828,
+          "rank": 4,
+          "peak": "1",
+          "year": "1997"
+        },
+        {
+          "id": "ne-zha-2",
+          "value": 2215690000,
+          "rank": 5,
+          "peak": "5",
+          "year": "2025"
+        },
+        {
+          "id": "star-wars-the-force-awakens",
+          "value": 2068223624,
+          "rank": 6,
+          "peak": "3",
+          "year": "2015"
+        },
+        {
+          "id": "avengers-infinity-war",
+          "value": 2048359754,
+          "rank": 7,
+          "peak": "4",
+          "year": "2018"
+        },
+        {
+          "id": "spider-man-no-way-home",
+          "value": 1922598800,
+          "rank": 8,
+          "peak": "6",
+          "year": "2021"
+        },
+        {
+          "id": "zootopia-2",
+          "value": 1866647950,
+          "rank": 9,
+          "peak": "9",
+          "year": "2025"
+        },
+        {
+          "id": "inside-out-2",
+          "value": 1698863816,
+          "rank": 10,
+          "peak": "8",
+          "year": "2024"
+        },
+        {
+          "id": "jurassic-world",
+          "value": 1671537444,
+          "rank": 11,
+          "peak": "3",
+          "year": "2015"
+        },
+        {
+          "id": "the-lion-king",
+          "value": 1656943394,
+          "rank": 12,
+          "peak": "7",
+          "year": "2019"
+        },
+        {
+          "id": "the-avengers",
+          "value": 1518815515,
+          "rank": 13,
+          "peak": "3",
+          "year": "2012"
+        },
+        {
+          "id": "furious-7",
+          "value": 1515341399,
+          "rank": 14,
+          "peak": "4",
+          "year": "2015"
+        },
+        {
+          "id": "top-gun-maverick",
+          "value": 1503260455,
+          "rank": 15,
+          "peak": "11",
+          "year": "2022"
+        },
+        {
+          "id": "avatar-fire-and-ash",
+          "value": 1485999890,
+          "rank": 16,
+          "peak": "16",
+          "year": "2025"
+        },
+        {
+          "id": "frozen-2",
+          "value": 1450026933,
+          "rank": 17,
+          "peak": "10",
+          "year": "2019"
+        },
+        {
+          "id": "barbie",
+          "value": 1447138421,
+          "rank": 18,
+          "peak": "14",
+          "year": "2023"
+        }
+      ]
+    },
+    {
+      "date": "20260715",
+      "values": [
+        {
+          "id": "avatar",
+          "value": 2923710708,
+          "rank": 1,
+          "peak": "1",
+          "year": "2009"
+        },
+        {
+          "id": "avengers-endgame",
+          "value": 2797501328,
+          "rank": 2,
+          "peak": "1",
+          "year": "2019"
+        },
+        {
+          "id": "avatar-the-way-of-water",
+          "value": 2334484620,
+          "rank": 3,
+          "peak": "3",
+          "year": "2022"
+        },
+        {
+          "id": "titanic",
+          "value": 2257906828,
+          "rank": 4,
+          "peak": "1",
+          "year": "1997"
+        },
+        {
+          "id": "ne-zha-2",
+          "value": 2215690000,
+          "rank": 5,
+          "peak": "5",
+          "year": "2025"
+        },
+        {
+          "id": "star-wars-the-force-awakens",
+          "value": 2068223624,
+          "rank": 6,
+          "peak": "3",
+          "year": "2015"
+        },
+        {
+          "id": "avengers-infinity-war",
+          "value": 2048359754,
+          "rank": 7,
+          "peak": "4",
+          "year": "2018"
+        },
+        {
+          "id": "spider-man-no-way-home",
+          "value": 1922598800,
+          "rank": 8,
+          "peak": "6",
+          "year": "2021"
+        },
+        {
+          "id": "zootopia-2",
+          "value": 1866647950,
+          "rank": 9,
+          "peak": "9",
+          "year": "2025"
+        },
+        {
+          "id": "inside-out-2",
+          "value": 1698863816,
+          "rank": 10,
+          "peak": "8",
+          "year": "2024"
+        },
+        {
+          "id": "jurassic-world",
+          "value": 1671537444,
+          "rank": 11,
+          "peak": "3",
+          "year": "2015"
+        },
+        {
+          "id": "the-lion-king",
+          "value": 1656943394,
+          "rank": 12,
+          "peak": "7",
+          "year": "2019"
+        },
+        {
+          "id": "the-avengers",
+          "value": 1518815515,
+          "rank": 13,
+          "peak": "3",
+          "year": "2012"
+        },
+        {
+          "id": "furious-7",
+          "value": 1515341399,
+          "rank": 14,
+          "peak": "4",
+          "year": "2015"
+        },
+        {
+          "id": "top-gun-maverick",
+          "value": 1503260455,
+          "rank": 15,
+          "peak": "11",
+          "year": "2022"
+        },
+        {
+          "id": "avatar-fire-and-ash",
+          "value": 1485999890,
+          "rank": 16,
+          "peak": "16",
+          "year": "2025"
+        },
+        {
+          "id": "frozen-2",
+          "value": 1450026933,
+          "rank": 17,
+          "peak": "10",
+          "year": "2019"
+        },
+        {
+          "id": "barbie",
+          "value": 1447138421,
+          "rank": 18,
+          "peak": "14",
+          "year": "2023"
+        }
+      ]
+    },
+    {
+      "date": "20260716",
+      "values": [
+        {
+          "id": "avatar",
+          "value": 2923710708,
+          "rank": 1,
+          "peak": "1",
+          "year": "2009"
+        },
+        {
+          "id": "avengers-endgame",
+          "value": 2797501328,
+          "rank": 2,
+          "peak": "1",
+          "year": "2019"
+        },
+        {
+          "id": "avatar-the-way-of-water",
+          "value": 2334484620,
+          "rank": 3,
+          "peak": "3",
+          "year": "2022"
+        },
+        {
+          "id": "titanic",
+          "value": 2257906828,
+          "rank": 4,
+          "peak": "1",
+          "year": "1997"
+        },
+        {
+          "id": "ne-zha-2",
+          "value": 2215690000,
+          "rank": 5,
+          "peak": "5",
+          "year": "2025"
+        },
+        {
+          "id": "star-wars-the-force-awakens",
+          "value": 2068223624,
+          "rank": 6,
+          "peak": "3",
+          "year": "2015"
+        },
+        {
+          "id": "avengers-infinity-war",
+          "value": 2048359754,
+          "rank": 7,
+          "peak": "4",
+          "year": "2018"
+        },
+        {
+          "id": "spider-man-no-way-home",
+          "value": 1922598800,
+          "rank": 8,
+          "peak": "6",
+          "year": "2021"
+        },
+        {
+          "id": "zootopia-2",
+          "value": 1866647950,
+          "rank": 9,
+          "peak": "9",
+          "year": "2025"
+        },
+        {
+          "id": "inside-out-2",
+          "value": 1698863816,
+          "rank": 10,
+          "peak": "8",
+          "year": "2024"
+        },
+        {
+          "id": "jurassic-world",
+          "value": 1671537444,
+          "rank": 11,
+          "peak": "3",
+          "year": "2015"
+        },
+        {
+          "id": "the-lion-king",
+          "value": 1656943394,
+          "rank": 12,
+          "peak": "7",
+          "year": "2019"
+        },
+        {
+          "id": "the-avengers",
+          "value": 1518815515,
+          "rank": 13,
+          "peak": "3",
+          "year": "2012"
+        },
+        {
+          "id": "furious-7",
+          "value": 1515341399,
+          "rank": 14,
+          "peak": "4",
+          "year": "2015"
+        },
+        {
+          "id": "top-gun-maverick",
+          "value": 1503260455,
+          "rank": 15,
+          "peak": "11",
+          "year": "2022"
+        },
+        {
+          "id": "avatar-fire-and-ash",
+          "value": 1485999890,
+          "rank": 16,
+          "peak": "16",
+          "year": "2025"
+        },
+        {
+          "id": "frozen-2",
+          "value": 1450026933,
+          "rank": 17,
+          "peak": "10",
+          "year": "2019"
+        },
+        {
+          "id": "barbie",
+          "value": 1447138421,
+          "rank": 18,
+          "peak": "14",
+          "year": "2023"
+        }
+      ]
+    },
+    {
+      "date": "20260717",
+      "values": [
+        {
+          "id": "avatar",
+          "value": 2923710708,
+          "rank": 1,
+          "peak": "1",
+          "year": "2009"
+        },
+        {
+          "id": "avengers-endgame",
+          "value": 2797501328,
+          "rank": 2,
+          "peak": "1",
+          "year": "2019"
+        },
+        {
+          "id": "avatar-the-way-of-water",
+          "value": 2334484620,
+          "rank": 3,
+          "peak": "3",
+          "year": "2022"
+        },
+        {
+          "id": "titanic",
+          "value": 2257906828,
+          "rank": 4,
+          "peak": "1",
+          "year": "1997"
+        },
+        {
+          "id": "ne-zha-2",
+          "value": 2215690000,
+          "rank": 5,
+          "peak": "5",
+          "year": "2025"
+        },
+        {
+          "id": "star-wars-the-force-awakens",
+          "value": 2068223624,
+          "rank": 6,
+          "peak": "3",
+          "year": "2015"
+        },
+        {
+          "id": "avengers-infinity-war",
+          "value": 2048359754,
+          "rank": 7,
+          "peak": "4",
+          "year": "2018"
+        },
+        {
+          "id": "spider-man-no-way-home",
+          "value": 1922598800,
+          "rank": 8,
+          "peak": "6",
+          "year": "2021"
+        },
+        {
+          "id": "zootopia-2",
+          "value": 1866647950,
+          "rank": 9,
+          "peak": "9",
+          "year": "2025"
+        },
+        {
+          "id": "inside-out-2",
+          "value": 1698863816,
+          "rank": 10,
+          "peak": "8",
+          "year": "2024"
+        },
+        {
+          "id": "jurassic-world",
+          "value": 1671537444,
+          "rank": 11,
+          "peak": "3",
+          "year": "2015"
+        },
+        {
+          "id": "the-lion-king",
+          "value": 1656943394,
+          "rank": 12,
+          "peak": "7",
+          "year": "2019"
+        },
+        {
+          "id": "the-avengers",
+          "value": 1518815515,
+          "rank": 13,
+          "peak": "3",
+          "year": "2012"
+        },
+        {
+          "id": "furious-7",
+          "value": 1515341399,
+          "rank": 14,
+          "peak": "4",
+          "year": "2015"
+        },
+        {
+          "id": "top-gun-maverick",
+          "value": 1503260455,
+          "rank": 15,
+          "peak": "11",
+          "year": "2022"
+        },
+        {
+          "id": "avatar-fire-and-ash",
+          "value": 1485999890,
+          "rank": 16,
+          "peak": "16",
+          "year": "2025"
+        },
+        {
+          "id": "frozen-2",
+          "value": 1450026933,
+          "rank": 17,
+          "peak": "10",
+          "year": "2019"
+        },
+        {
+          "id": "barbie",
+          "value": 1447138421,
+          "rank": 18,
+          "peak": "14",
+          "year": "2023"
+        }
+      ]
+    },
+    {
+      "date": "20260718",
+      "values": [
+        {
+          "id": "avatar",
+          "value": 2923710708,
+          "rank": 1,
+          "peak": "1",
+          "year": "2009"
+        },
+        {
+          "id": "avengers-endgame",
+          "value": 2797501328,
+          "rank": 2,
+          "peak": "1",
+          "year": "2019"
+        },
+        {
+          "id": "avatar-the-way-of-water",
+          "value": 2334484620,
+          "rank": 3,
+          "peak": "3",
+          "year": "2022"
+        },
+        {
+          "id": "titanic",
+          "value": 2257906828,
+          "rank": 4,
+          "peak": "1",
+          "year": "1997"
+        },
+        {
+          "id": "ne-zha-2",
+          "value": 2215690000,
+          "rank": 5,
+          "peak": "5",
+          "year": "2025"
+        },
+        {
+          "id": "star-wars-the-force-awakens",
+          "value": 2068223624,
+          "rank": 6,
+          "peak": "3",
+          "year": "2015"
+        },
+        {
+          "id": "avengers-infinity-war",
+          "value": 2048359754,
+          "rank": 7,
+          "peak": "4",
+          "year": "2018"
+        },
+        {
+          "id": "spider-man-no-way-home",
+          "value": 1922598800,
+          "rank": 8,
+          "peak": "6",
+          "year": "2021"
+        },
+        {
+          "id": "zootopia-2",
+          "value": 1866647950,
+          "rank": 9,
+          "peak": "9",
+          "year": "2025"
+        },
+        {
+          "id": "inside-out-2",
+          "value": 1698863816,
+          "rank": 10,
+          "peak": "8",
+          "year": "2024"
+        },
+        {
+          "id": "jurassic-world",
+          "value": 1671537444,
+          "rank": 11,
+          "peak": "3",
+          "year": "2015"
+        },
+        {
+          "id": "the-lion-king",
+          "value": 1656943394,
+          "rank": 12,
+          "peak": "7",
+          "year": "2019"
+        },
+        {
+          "id": "the-avengers",
+          "value": 1518815515,
+          "rank": 13,
+          "peak": "3",
+          "year": "2012"
+        },
+        {
+          "id": "furious-7",
+          "value": 1515341399,
+          "rank": 14,
+          "peak": "4",
+          "year": "2015"
+        },
+        {
+          "id": "top-gun-maverick",
+          "value": 1503260455,
+          "rank": 15,
+          "peak": "11",
+          "year": "2022"
+        },
+        {
+          "id": "avatar-fire-and-ash",
+          "value": 1485999890,
+          "rank": 16,
+          "peak": "16",
+          "year": "2025"
+        },
+        {
+          "id": "frozen-2",
+          "value": 1450026933,
+          "rank": 17,
+          "peak": "10",
+          "year": "2019"
+        },
+        {
+          "id": "barbie",
+          "value": 1447138421,
+          "rank": 18,
+          "peak": "14",
+          "year": "2023"
+        }
+      ]
+    },
+    {
+      "date": "20260719",
+      "values": [
+        {
+          "id": "avatar",
+          "value": 2923710708,
+          "rank": 1,
+          "peak": "1",
+          "year": "2009"
+        },
+        {
+          "id": "avengers-endgame",
+          "value": 2797501328,
+          "rank": 2,
+          "peak": "1",
+          "year": "2019"
+        },
+        {
+          "id": "avatar-the-way-of-water",
+          "value": 2334484620,
+          "rank": 3,
+          "peak": "3",
+          "year": "2022"
+        },
+        {
+          "id": "titanic",
+          "value": 2257906828,
+          "rank": 4,
+          "peak": "1",
+          "year": "1997"
+        },
+        {
+          "id": "ne-zha-2",
+          "value": 2215690000,
+          "rank": 5,
+          "peak": "5",
+          "year": "2025"
+        },
+        {
+          "id": "star-wars-the-force-awakens",
+          "value": 2068223624,
+          "rank": 6,
+          "peak": "3",
+          "year": "2015"
+        },
+        {
+          "id": "avengers-infinity-war",
+          "value": 2048359754,
+          "rank": 7,
+          "peak": "4",
+          "year": "2018"
+        },
+        {
+          "id": "spider-man-no-way-home",
+          "value": 1922598800,
+          "rank": 8,
+          "peak": "6",
+          "year": "2021"
+        },
+        {
+          "id": "zootopia-2",
+          "value": 1866647950,
+          "rank": 9,
+          "peak": "9",
+          "year": "2025"
+        },
+        {
+          "id": "inside-out-2",
+          "value": 1698863816,
+          "rank": 10,
+          "peak": "8",
+          "year": "2024"
+        },
+        {
+          "id": "jurassic-world",
+          "value": 1671537444,
+          "rank": 11,
+          "peak": "3",
+          "year": "2015"
+        },
+        {
+          "id": "the-lion-king",
+          "value": 1656943394,
+          "rank": 12,
+          "peak": "7",
+          "year": "2019"
+        },
+        {
+          "id": "the-avengers",
+          "value": 1518815515,
+          "rank": 13,
+          "peak": "3",
+          "year": "2012"
+        },
+        {
+          "id": "furious-7",
+          "value": 1515341399,
+          "rank": 14,
+          "peak": "4",
+          "year": "2015"
+        },
+        {
+          "id": "top-gun-maverick",
+          "value": 1503260455,
+          "rank": 15,
+          "peak": "11",
+          "year": "2022"
+        },
+        {
+          "id": "avatar-fire-and-ash",
+          "value": 1485999890,
+          "rank": 16,
+          "peak": "16",
+          "year": "2025"
+        },
+        {
+          "id": "frozen-2",
+          "value": 1450026933,
+          "rank": 17,
+          "peak": "10",
+          "year": "2019"
+        },
+        {
+          "id": "barbie",
+          "value": 1447138421,
+          "rank": 18,
+          "peak": "14",
+          "year": "2023"
+        }
+      ]
+    },
+    {
+      "date": "20260720",
+      "values": [
+        {
+          "id": "avatar",
+          "value": 2923710708,
+          "rank": 1,
+          "peak": "1",
+          "year": "2009"
+        },
+        {
+          "id": "avengers-endgame",
+          "value": 2797501328,
+          "rank": 2,
+          "peak": "1",
+          "year": "2019"
+        },
+        {
+          "id": "avatar-the-way-of-water",
+          "value": 2334484620,
+          "rank": 3,
+          "peak": "3",
+          "year": "2022"
+        },
+        {
+          "id": "titanic",
+          "value": 2257906828,
+          "rank": 4,
+          "peak": "1",
+          "year": "1997"
+        },
+        {
+          "id": "ne-zha-2",
+          "value": 2215690000,
+          "rank": 5,
+          "peak": "5",
+          "year": "2025"
+        },
+        {
+          "id": "star-wars-the-force-awakens",
+          "value": 2068223624,
+          "rank": 6,
+          "peak": "3",
+          "year": "2015"
+        },
+        {
+          "id": "avengers-infinity-war",
+          "value": 2048359754,
+          "rank": 7,
+          "peak": "4",
+          "year": "2018"
+        },
+        {
+          "id": "spider-man-no-way-home",
+          "value": 1922598800,
+          "rank": 8,
+          "peak": "6",
+          "year": "2021"
+        },
+        {
+          "id": "zootopia-2",
+          "value": 1866647950,
+          "rank": 9,
+          "peak": "9",
+          "year": "2025"
+        },
+        {
+          "id": "inside-out-2",
+          "value": 1698863816,
+          "rank": 10,
+          "peak": "8",
+          "year": "2024"
+        },
+        {
+          "id": "jurassic-world",
+          "value": 1671537444,
+          "rank": 11,
+          "peak": "3",
+          "year": "2015"
+        },
+        {
+          "id": "the-lion-king",
+          "value": 1656943394,
+          "rank": 12,
+          "peak": "7",
+          "year": "2019"
+        },
+        {
+          "id": "the-avengers",
+          "value": 1518815515,
+          "rank": 13,
+          "peak": "3",
+          "year": "2012"
+        },
+        {
+          "id": "furious-7",
+          "value": 1515341399,
+          "rank": 14,
+          "peak": "4",
+          "year": "2015"
+        },
+        {
+          "id": "top-gun-maverick",
+          "value": 1503260455,
+          "rank": 15,
+          "peak": "11",
+          "year": "2022"
+        },
+        {
+          "id": "avatar-fire-and-ash",
+          "value": 1485999890,
+          "rank": 16,
+          "peak": "16",
+          "year": "2025"
+        },
+        {
+          "id": "frozen-2",
+          "value": 1450026933,
+          "rank": 17,
+          "peak": "10",
+          "year": "2019"
+        },
+        {
+          "id": "barbie",
+          "value": 1447138421,
+          "rank": 18,
+          "peak": "14",
+          "year": "2023"
+        }
+      ]
+    },
+    {
+      "date": "20260721",
+      "values": [
+        {
+          "id": "avatar",
+          "value": 2923710708,
+          "rank": 1,
+          "peak": "1",
+          "year": "2009"
+        },
+        {
+          "id": "avengers-endgame",
+          "value": 2797501328,
+          "rank": 2,
+          "peak": "1",
+          "year": "2019"
+        },
+        {
+          "id": "avatar-the-way-of-water",
+          "value": 2334484620,
+          "rank": 3,
+          "peak": "3",
+          "year": "2022"
+        },
+        {
+          "id": "titanic",
+          "value": 2257906828,
+          "rank": 4,
+          "peak": "1",
+          "year": "1997"
+        },
+        {
+          "id": "ne-zha-2",
+          "value": 2215690000,
+          "rank": 5,
+          "peak": "5",
+          "year": "2025"
+        },
+        {
+          "id": "star-wars-the-force-awakens",
+          "value": 2068223624,
+          "rank": 6,
+          "peak": "3",
+          "year": "2015"
+        },
+        {
+          "id": "avengers-infinity-war",
+          "value": 2048359754,
+          "rank": 7,
+          "peak": "4",
+          "year": "2018"
+        },
+        {
+          "id": "spider-man-no-way-home",
+          "value": 1922598800,
+          "rank": 8,
+          "peak": "6",
+          "year": "2021"
+        },
+        {
+          "id": "zootopia-2",
+          "value": 1866647950,
+          "rank": 9,
+          "peak": "9",
+          "year": "2025"
+        },
+        {
+          "id": "inside-out-2",
+          "value": 1698863816,
+          "rank": 10,
+          "peak": "8",
+          "year": "2024"
+        },
+        {
+          "id": "jurassic-world",
+          "value": 1671537444,
+          "rank": 11,
+          "peak": "3",
+          "year": "2015"
+        },
+        {
+          "id": "the-lion-king",
+          "value": 1656943394,
+          "rank": 12,
+          "peak": "7",
+          "year": "2019"
+        },
+        {
+          "id": "the-avengers",
+          "value": 1518815515,
+          "rank": 13,
+          "peak": "3",
+          "year": "2012"
+        },
+        {
+          "id": "furious-7",
+          "value": 1515341399,
+          "rank": 14,
+          "peak": "4",
+          "year": "2015"
+        },
+        {
+          "id": "top-gun-maverick",
+          "value": 1503260455,
+          "rank": 15,
+          "peak": "11",
+          "year": "2022"
+        },
+        {
+          "id": "avatar-fire-and-ash",
+          "value": 1485999890,
+          "rank": 16,
+          "peak": "16",
+          "year": "2025"
+        },
+        {
+          "id": "frozen-2",
+          "value": 1450026933,
+          "rank": 17,
+          "peak": "10",
+          "year": "2019"
+        },
+        {
+          "id": "barbie",
+          "value": 1447138421,
+          "rank": 18,
+          "peak": "14",
+          "year": "2023"
+        }
+      ]
+    },
+    {
+      "date": "20260722",
+      "values": [
+        {
+          "id": "avatar",
+          "value": 2923710708,
+          "rank": 1,
+          "peak": "1",
+          "year": "2009"
+        },
+        {
+          "id": "avengers-endgame",
+          "value": 2797501328,
+          "rank": 2,
+          "peak": "1",
+          "year": "2019"
+        },
+        {
+          "id": "avatar-the-way-of-water",
+          "value": 2334484620,
+          "rank": 3,
+          "peak": "3",
+          "year": "2022"
+        },
+        {
+          "id": "titanic",
+          "value": 2257906828,
+          "rank": 4,
+          "peak": "1",
+          "year": "1997"
+        },
+        {
+          "id": "ne-zha-2",
+          "value": 2215690000,
+          "rank": 5,
+          "peak": "5",
+          "year": "2025"
+        },
+        {
+          "id": "star-wars-the-force-awakens",
+          "value": 2068223624,
+          "rank": 6,
+          "peak": "3",
+          "year": "2015"
+        },
+        {
+          "id": "avengers-infinity-war",
+          "value": 2048359754,
+          "rank": 7,
+          "peak": "4",
+          "year": "2018"
+        },
+        {
+          "id": "spider-man-no-way-home",
+          "value": 1922598800,
+          "rank": 8,
+          "peak": "6",
+          "year": "2021"
+        },
+        {
+          "id": "zootopia-2",
+          "value": 1866647950,
+          "rank": 9,
+          "peak": "9",
+          "year": "2025"
+        },
+        {
+          "id": "inside-out-2",
+          "value": 1698863816,
+          "rank": 10,
+          "peak": "8",
+          "year": "2024"
+        },
+        {
+          "id": "jurassic-world",
+          "value": 1671537444,
+          "rank": 11,
+          "peak": "3",
+          "year": "2015"
+        },
+        {
+          "id": "the-lion-king",
+          "value": 1656943394,
+          "rank": 12,
+          "peak": "7",
+          "year": "2019"
+        },
+        {
+          "id": "the-avengers",
+          "value": 1518815515,
+          "rank": 13,
+          "peak": "3",
+          "year": "2012"
+        },
+        {
+          "id": "furious-7",
+          "value": 1515341399,
+          "rank": 14,
+          "peak": "4",
+          "year": "2015"
+        },
+        {
+          "id": "top-gun-maverick",
+          "value": 1503260455,
+          "rank": 15,
+          "peak": "11",
+          "year": "2022"
+        },
+        {
+          "id": "avatar-fire-and-ash",
+          "value": 1485999890,
+          "rank": 16,
+          "peak": "16",
+          "year": "2025"
+        },
+        {
+          "id": "frozen-2",
+          "value": 1450026933,
+          "rank": 17,
+          "peak": "10",
+          "year": "2019"
+        },
+        {
+          "id": "barbie",
+          "value": 1447138421,
+          "rank": 18,
+          "peak": "14",
+          "year": "2023"
+        }
+      ]
+    },
+    {
+      "date": "20260728",
+      "values": [
+        {
+          "id": "avatar",
+          "value": 2923710708,
+          "rank": 1,
+          "peak": "1",
+          "year": "2009"
+        },
+        {
+          "id": "avengers-endgame",
+          "value": 2797501328,
+          "rank": 2,
+          "peak": "1",
+          "year": "2019"
+        },
+        {
+          "id": "avatar-the-way-of-water",
+          "value": 2334484620,
+          "rank": 3,
+          "peak": "3",
+          "year": "2022"
+        },
+        {
+          "id": "titanic",
+          "value": 2257906828,
+          "rank": 4,
+          "peak": "1",
+          "year": "1997"
+        },
+        {
+          "id": "ne-zha-2",
+          "value": 2215690000,
+          "rank": 5,
+          "peak": "5",
+          "year": "2025"
+        },
+        {
+          "id": "star-wars-the-force-awakens",
+          "value": 2068223624,
+          "rank": 6,
+          "peak": "3",
+          "year": "2015"
+        },
+        {
+          "id": "avengers-infinity-war",
+          "value": 2048359754,
+          "rank": 7,
+          "peak": "4",
+          "year": "2018"
+        },
+        {
+          "id": "spider-man-no-way-home",
+          "value": 1922598800,
+          "rank": 8,
+          "peak": "6",
+          "year": "2021"
+        },
+        {
+          "id": "zootopia-2",
+          "value": 1866647950,
+          "rank": 9,
+          "peak": "9",
+          "year": "2025"
+        },
+        {
+          "id": "inside-out-2",
+          "value": 1698863816,
+          "rank": 10,
+          "peak": "8",
+          "year": "2024"
+        },
+        {
+          "id": "jurassic-world",
+          "value": 1671537444,
+          "rank": 11,
+          "peak": "3",
+          "year": "2015"
+        },
+        {
+          "id": "the-lion-king",
+          "value": 1656943394,
+          "rank": 12,
+          "peak": "7",
+          "year": "2019"
+        },
+        {
+          "id": "the-avengers",
+          "value": 1518815515,
+          "rank": 13,
+          "peak": "3",
+          "year": "2012"
+        },
+        {
+          "id": "furious-7",
+          "value": 1515341399,
+          "rank": 14,
+          "peak": "4",
+          "year": "2015"
+        },
+        {
+          "id": "top-gun-maverick",
+          "value": 1503260455,
+          "rank": 15,
+          "peak": "11",
+          "year": "2022"
+        },
+        {
+          "id": "avatar-fire-and-ash",
+          "value": 1485999890,
+          "rank": 16,
+          "peak": "16",
+          "year": "2025"
+        },
+        {
+          "id": "frozen-2",
+          "value": 1450026933,
+          "rank": 17,
+          "peak": "10",
+          "year": "2019"
+        },
+        {
+          "id": "barbie",
+          "value": 1447138421,
+          "rank": 18,
+          "peak": "14",
+          "year": "2023"
+        }
+      ]
+    },
+    {
+      "date": "20260804",
+      "values": [
+        {
+          "id": "avatar",
+          "value": 2923710708,
+          "rank": 1,
+          "peak": "1",
+          "year": "2009"
+        },
+        {
+          "id": "avengers-endgame",
+          "value": 2797501328,
+          "rank": 2,
+          "peak": "1",
+          "year": "2019"
+        },
+        {
+          "id": "avatar-the-way-of-water",
+          "value": 2334484620,
+          "rank": 3,
+          "peak": "3",
+          "year": "2022"
+        },
+        {
+          "id": "titanic",
+          "value": 2257906828,
+          "rank": 4,
+          "peak": "1",
+          "year": "1997"
+        },
+        {
+          "id": "ne-zha-2",
+          "value": 2215690000,
+          "rank": 5,
+          "peak": "5",
+          "year": "2025"
+        },
+        {
+          "id": "star-wars-the-force-awakens",
+          "value": 2068223624,
+          "rank": 6,
+          "peak": "3",
+          "year": "2015"
+        },
+        {
+          "id": "avengers-infinity-war",
+          "value": 2048359754,
+          "rank": 7,
+          "peak": "4",
+          "year": "2018"
+        },
+        {
+          "id": "spider-man-no-way-home",
+          "value": 1922598800,
+          "rank": 8,
+          "peak": "6",
+          "year": "2021"
+        },
+        {
+          "id": "zootopia-2",
+          "value": 1866647950,
+          "rank": 9,
+          "peak": "9",
+          "year": "2025"
+        },
+        {
+          "id": "inside-out-2",
+          "value": 1698863816,
+          "rank": 10,
+          "peak": "8",
+          "year": "2024"
+        },
+        {
+          "id": "jurassic-world",
+          "value": 1671537444,
+          "rank": 11,
+          "peak": "3",
+          "year": "2015"
+        },
+        {
+          "id": "the-lion-king",
+          "value": 1656943394,
+          "rank": 12,
+          "peak": "7",
+          "year": "2019"
+        },
+        {
+          "id": "the-avengers",
+          "value": 1518815515,
+          "rank": 13,
+          "peak": "3",
+          "year": "2012"
+        },
+        {
+          "id": "furious-7",
+          "value": 1515341399,
+          "rank": 14,
+          "peak": "4",
+          "year": "2015"
+        },
+        {
+          "id": "top-gun-maverick",
+          "value": 1503260455,
+          "rank": 15,
+          "peak": "11",
+          "year": "2022"
+        },
+        {
+          "id": "avatar-fire-and-ash",
+          "value": 1485999890,
+          "rank": 16,
+          "peak": "16",
+          "year": "2025"
+        },
+        {
+          "id": "frozen-2",
+          "value": 1450026933,
+          "rank": 17,
+          "peak": "10",
+          "year": "2019"
+        },
+        {
+          "id": "barbie",
+          "value": 1447138421,
+          "rank": 18,
+          "peak": "14",
+          "year": "2023"
+        }
+      ]
+    },
+    {
+      "date": "20260811",
+      "values": [
+        {
+          "id": "avatar",
+          "value": 2923710708,
+          "rank": 1,
+          "peak": "1",
+          "year": "2009"
+        },
+        {
+          "id": "avengers-endgame",
+          "value": 2797501328,
+          "rank": 2,
+          "peak": "1",
+          "year": "2019"
+        },
+        {
+          "id": "avatar-the-way-of-water",
+          "value": 2334484620,
+          "rank": 3,
+          "peak": "3",
+          "year": "2022"
+        },
+        {
+          "id": "titanic",
+          "value": 2257906828,
+          "rank": 4,
+          "peak": "1",
+          "year": "1997"
+        },
+        {
+          "id": "ne-zha-2",
+          "value": 2215690000,
+          "rank": 5,
+          "peak": "5",
+          "year": "2025"
+        },
+        {
+          "id": "star-wars-the-force-awakens",
+          "value": 2068223624,
+          "rank": 6,
+          "peak": "3",
+          "year": "2015"
+        },
+        {
+          "id": "avengers-infinity-war",
+          "value": 2048359754,
+          "rank": 7,
+          "peak": "4",
+          "year": "2018"
+        },
+        {
+          "id": "spider-man-no-way-home",
+          "value": 1922598800,
+          "rank": 8,
+          "peak": "6",
+          "year": "2021"
+        },
+        {
+          "id": "zootopia-2",
+          "value": 1866647950,
+          "rank": 9,
+          "peak": "9",
+          "year": "2025"
+        },
+        {
+          "id": "inside-out-2",
+          "value": 1698863816,
+          "rank": 10,
+          "peak": "8",
+          "year": "2024"
+        },
+        {
+          "id": "jurassic-world",
+          "value": 1671537444,
+          "rank": 11,
+          "peak": "3",
+          "year": "2015"
+        },
+        {
+          "id": "spider-man-brand-new-day",
+          "value": 1664342914,
+          "rank": 12,
+          "peak": "12",
+          "year": "2026"
+        },
+        {
+          "id": "the-lion-king",
+          "value": 1656943394,
+          "rank": 13,
+          "peak": "7",
+          "year": "2019"
+        },
+        {
+          "id": "the-avengers",
+          "value": 1518815515,
+          "rank": 14,
+          "peak": "3",
+          "year": "2012"
+        },
+        {
+          "id": "furious-7",
+          "value": 1515341399,
+          "rank": 15,
+          "peak": "4",
+          "year": "2015"
+        },
+        {
+          "id": "top-gun-maverick",
+          "value": 1503260455,
+          "rank": 16,
+          "peak": "11",
+          "year": "2022"
+        },
+        {
+          "id": "avatar-fire-and-ash",
+          "value": 1485999890,
+          "rank": 17,
+          "peak": "16",
+          "year": "2025"
+        },
+        {
+          "id": "frozen-2",
+          "value": 1450026933,
+          "rank": 18,
+          "peak": "10",
+          "year": "2019"
+        },
+        {
+          "id": "barbie",
+          "value": 1447138421,
+          "rank": 19,
+          "peak": "14",
+          "year": "2023"
+        }
+      ]
+    },
+    {
+      "date": "20260818",
+      "values": [
+        {
+          "id": "avatar",
+          "value": 2923710708,
+          "rank": 1,
+          "peak": "1",
+          "year": "2009"
+        },
+        {
+          "id": "avengers-endgame",
+          "value": 2797501328,
+          "rank": 2,
+          "peak": "1",
+          "year": "2019"
+        },
+        {
+          "id": "avatar-the-way-of-water",
+          "value": 2334484620,
+          "rank": 3,
+          "peak": "3",
+          "year": "2022"
+        },
+        {
+          "id": "titanic",
+          "value": 2257906828,
+          "rank": 4,
+          "peak": "1",
+          "year": "1997"
+        },
+        {
+          "id": "ne-zha-2",
+          "value": 2217758382,
+          "rank": 5,
+          "peak": "5",
+          "year": "2025"
+        },
+        {
+          "id": "star-wars-the-force-awakens",
+          "value": 2068223624,
+          "rank": 6,
+          "peak": "3",
+          "year": "2015"
+        },
+        {
+          "id": "avengers-infinity-war",
+          "value": 2048359754,
+          "rank": 7,
+          "peak": "4",
+          "year": "2018"
+        },
+        {
+          "id": "spider-man-brand-new-day",
+          "value": 2022543660,
+          "rank": 8,
+          "peak": "8",
+          "year": "2026"
+        },
+        {
+          "id": "spider-man-no-way-home",
+          "value": 1922598800,
+          "rank": 9,
+          "peak": "6",
+          "year": "2021"
+        },
+        {
+          "id": "zootopia-2",
+          "value": 1866647950,
+          "rank": 10,
+          "peak": "9",
+          "year": "2025"
+        },
+        {
+          "id": "inside-out-2",
+          "value": 1698863816,
+          "rank": 11,
+          "peak": "8",
+          "year": "2024"
+        },
+        {
+          "id": "jurassic-world",
+          "value": 1671537444,
+          "rank": 12,
+          "peak": "3",
+          "year": "2015"
+        },
+        {
+          "id": "the-lion-king",
+          "value": 1656943394,
+          "rank": 13,
+          "peak": "7",
+          "year": "2019"
+        },
+        {
+          "id": "the-avengers",
+          "value": 1518815515,
+          "rank": 14,
+          "peak": "3",
+          "year": "2012"
+        },
+        {
+          "id": "furious-7",
+          "value": 1515341399,
+          "rank": 15,
+          "peak": "4",
+          "year": "2015"
+        },
+        {
+          "id": "top-gun-maverick",
+          "value": 1503260455,
+          "rank": 16,
+          "peak": "11",
+          "year": "2022"
+        },
+        {
+          "id": "avatar-fire-and-ash",
+          "value": 1485999890,
+          "rank": 17,
+          "peak": "16",
+          "year": "2025"
+        },
+        {
+          "id": "frozen-2",
+          "value": 1450026933,
+          "rank": 18,
+          "peak": "10",
+          "year": "2019"
+        },
+        {
+          "id": "barbie",
+          "value": 1447138421,
+          "rank": 19,
+          "peak": "14",
+          "year": "2023"
+        }
+      ]
+    },
+    {
+      "date": "20260822",
+      "values": [
+        {
+          "id": "avatar",
+          "value": 2923710708,
+          "rank": 1,
+          "peak": "1",
+          "year": "2009"
+        },
+        {
+          "id": "avengers-endgame",
+          "value": 2797501328,
+          "rank": 2,
+          "peak": "1",
+          "year": "2019"
+        },
+        {
+          "id": "avatar-the-way-of-water",
+          "value": 2334484620,
+          "rank": 3,
+          "peak": "3",
+          "year": "2022"
+        },
+        {
+          "id": "titanic",
+          "value": 2257906828,
+          "rank": 4,
+          "peak": "1",
+          "year": "1997"
+        },
+        {
+          "id": "ne-zha-2",
+          "value": 2217758382,
+          "rank": 5,
+          "peak": "5",
+          "year": "2025"
+        },
+        {
+          "id": "spider-man-brand-new-day",
+          "value": 2087718937,
+          "rank": 6,
+          "peak": "6",
+          "year": "2026"
+        },
+        {
+          "id": "star-wars-the-force-awakens",
+          "value": 2068223624,
+          "rank": 7,
+          "peak": "3",
+          "year": "2015"
+        },
+        {
+          "id": "avengers-infinity-war",
+          "value": 2048359754,
+          "rank": 8,
+          "peak": "4",
+          "year": "2018"
+        },
+        {
+          "id": "spider-man-no-way-home",
+          "value": 1922598800,
+          "rank": 9,
+          "peak": "6",
+          "year": "2021"
+        },
+        {
+          "id": "zootopia-2",
+          "value": 1866647950,
+          "rank": 10,
+          "peak": "9",
+          "year": "2025"
+        },
+        {
+          "id": "inside-out-2",
+          "value": 1698863816,
+          "rank": 11,
+          "peak": "8",
+          "year": "2024"
+        },
+        {
+          "id": "jurassic-world",
+          "value": 1671537444,
+          "rank": 12,
+          "peak": "3",
+          "year": "2015"
+        },
+        {
+          "id": "the-lion-king",
+          "value": 1656943394,
+          "rank": 13,
+          "peak": "7",
+          "year": "2019"
+        },
+        {
+          "id": "the-avengers",
+          "value": 1518815515,
+          "rank": 14,
+          "peak": "3",
+          "year": "2012"
+        },
+        {
+          "id": "furious-7",
+          "value": 1515341399,
+          "rank": 15,
+          "peak": "4",
+          "year": "2015"
+        },
+        {
+          "id": "top-gun-maverick",
+          "value": 1503260455,
+          "rank": 16,
+          "peak": "11",
+          "year": "2022"
+        },
+        {
+          "id": "avatar-fire-and-ash",
+          "value": 1485999890,
+          "rank": 17,
+          "peak": "16",
+          "year": "2025"
+        },
+        {
+          "id": "frozen-2",
+          "value": 1450026933,
+          "rank": 18,
+          "peak": "10",
+          "year": "2019"
+        },
+        {
+          "id": "barbie",
+          "value": 1447138421,
+          "rank": 19,
+          "peak": "14",
+          "year": "2023"
+        }
+      ]
+    },
+    {
+      "date": "20260825",
+      "values": [
+        {
+          "id": "avatar",
+          "value": 2923710708,
+          "rank": 1,
+          "peak": "1",
+          "year": "2009"
+        },
+        {
+          "id": "avengers-endgame",
+          "value": 2797501328,
+          "rank": 2,
+          "peak": "1",
+          "year": "2019"
+        },
+        {
+          "id": "avatar-the-way-of-water",
+          "value": 2334484620,
+          "rank": 3,
+          "peak": "3",
+          "year": "2022"
+        },
+        {
+          "id": "titanic",
+          "value": 2257906828,
+          "rank": 4,
+          "peak": "1",
+          "year": "1997"
+        },
+        {
+          "id": "spider-man-brand-new-day",
+          "value": 2219901181,
+          "rank": 5,
+          "peak": "5",
+          "year": "2026"
+        },
+        {
+          "id": "ne-zha-2",
+          "value": 2217758382,
+          "rank": 6,
+          "peak": "5",
+          "year": "2025"
+        },
+        {
+          "id": "star-wars-the-force-awakens",
+          "value": 2068223624,
+          "rank": 7,
+          "peak": "3",
+          "year": "2015"
+        },
+        {
+          "id": "avengers-infinity-war",
+          "value": 2048359754,
+          "rank": 8,
+          "peak": "4",
+          "year": "2018"
+        },
+        {
+          "id": "spider-man-no-way-home",
+          "value": 1922598800,
+          "rank": 9,
+          "peak": "6",
+          "year": "2021"
+        },
+        {
+          "id": "zootopia-2",
+          "value": 1866647950,
+          "rank": 10,
+          "peak": "9",
+          "year": "2025"
+        },
+        {
+          "id": "inside-out-2",
+          "value": 1698863816,
+          "rank": 11,
+          "peak": "8",
+          "year": "2024"
+        },
+        {
+          "id": "jurassic-world",
+          "value": 1671537444,
+          "rank": 12,
+          "peak": "3",
+          "year": "2015"
+        },
+        {
+          "id": "the-lion-king",
+          "value": 1656943394,
+          "rank": 13,
+          "peak": "7",
+          "year": "2019"
+        },
+        {
+          "id": "the-avengers",
+          "value": 1518815515,
+          "rank": 14,
+          "peak": "3",
+          "year": "2012"
+        },
+        {
+          "id": "furious-7",
+          "value": 1515341399,
+          "rank": 15,
+          "peak": "4",
+          "year": "2015"
+        },
+        {
+          "id": "top-gun-maverick",
+          "value": 1503260455,
+          "rank": 16,
+          "peak": "11",
+          "year": "2022"
+        },
+        {
+          "id": "avatar-fire-and-ash",
+          "value": 1485999890,
+          "rank": 17,
+          "peak": "16",
+          "year": "2025"
+        },
+        {
+          "id": "frozen-2",
+          "value": 1450026933,
+          "rank": 18,
+          "peak": "10",
+          "year": "2019"
+        },
+        {
+          "id": "the-odyssey",
+          "value": 1448194630,
+          "rank": 19,
+          "peak": "19",
+          "year": "2026"
+        },
+        {
+          "id": "barbie",
+          "value": 1447138421,
+          "rank": 20,
+          "peak": "14",
+          "year": "2023"
+        }
+      ]
+    },
+    {
+      "date": "20260901",
+      "values": [
+        {
+          "id": "avatar",
+          "value": 2923710708,
+          "rank": 1,
+          "peak": "1",
+          "year": "2009"
+        },
+        {
+          "id": "avengers-endgame",
+          "value": 2797501328,
+          "rank": 2,
+          "peak": "1",
+          "year": "2019"
+        },
+        {
+          "id": "avatar-the-way-of-water",
+          "value": 2334484620,
+          "rank": 3,
+          "peak": "3",
+          "year": "2022"
+        },
+        {
+          "id": "spider-man-brand-new-day",
+          "value": 2332821029,
+          "rank": 4,
+          "peak": "4",
+          "year": "2026"
+        },
+        {
+          "id": "titanic",
+          "value": 2257906828,
+          "rank": 5,
+          "peak": "1",
+          "year": "1997"
+        },
+        {
+          "id": "ne-zha-2",
+          "value": 2217758382,
+          "rank": 6,
+          "peak": "5",
+          "year": "2025"
+        },
+        {
+          "id": "star-wars-the-force-awakens",
+          "value": 2068223624,
+          "rank": 7,
+          "peak": "3",
+          "year": "2015"
+        },
+        {
+          "id": "avengers-infinity-war",
+          "value": 2048359754,
+          "rank": 8,
+          "peak": "4",
+          "year": "2018"
+        },
+        {
+          "id": "spider-man-no-way-home",
+          "value": 1922598800,
+          "rank": 9,
+          "peak": "6",
+          "year": "2021"
+        },
+        {
+          "id": "zootopia-2",
+          "value": 1866647950,
+          "rank": 10,
+          "peak": "9",
+          "year": "2025"
+        },
+        {
+          "id": "inside-out-2",
+          "value": 1698863816,
+          "rank": 11,
+          "peak": "8",
+          "year": "2024"
+        },
+        {
+          "id": "jurassic-world",
+          "value": 1671537444,
+          "rank": 12,
+          "peak": "3",
+          "year": "2015"
+        },
+        {
+          "id": "the-lion-king",
+          "value": 1656943394,
+          "rank": 13,
+          "peak": "7",
+          "year": "2019"
+        },
+        {
+          "id": "the-odyssey",
+          "value": 1553263400,
+          "rank": 14,
+          "peak": "14",
+          "year": "2026"
+        },
+        {
+          "id": "the-avengers",
+          "value": 1518815515,
+          "rank": 15,
+          "peak": "3",
+          "year": "2012"
+        },
+        {
+          "id": "furious-7",
+          "value": 1515341399,
+          "rank": 16,
+          "peak": "4",
+          "year": "2015"
+        },
+        {
+          "id": "top-gun-maverick",
+          "value": 1503260455,
+          "rank": 17,
+          "peak": "11",
+          "year": "2022"
+        },
+        {
+          "id": "avatar-fire-and-ash",
+          "value": 1485999890,
+          "rank": 18,
+          "peak": "16",
+          "year": "2025"
+        },
+        {
+          "id": "frozen-2",
+          "value": 1450026933,
+          "rank": 19,
+          "peak": "10",
+          "year": "2019"
+        },
+        {
+          "id": "barbie",
+          "value": 1447138421,
+          "rank": 20,
+          "peak": "14",
+          "year": "2023"
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "date": "20260628",
+      "title": "Avatar leads worldwide gross",
+      "body": "Avatar is the highest-ranked selected entry in this frame at $2.9B."
+    },
+    {
+      "date": "20260901",
+      "title": "Avatar leads worldwide gross",
+      "body": "Avatar is the highest-ranked selected entry in this frame at $2.9B."
+    }
+  ],
+  "sources": [
+    {
+      "title": "List of highest-grossing films",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_highest-grossing_films",
+      "note": "Source table for all-time worldwide film gross."
+    }
+  ],
+  "lastObservationDate": "2026-09-01",
+  "dataFreshness": {
+    "status": "fresh",
+    "refreshCadence": "weekly",
+    "lastUpdated": "2026-09-01T07:03:08.053Z",
+    "lastRefreshAttemptedAt": "2026-09-01T07:03:08.053Z",
+    "lastRefreshError": null,
+    "lastObservationDate": "2026-09-01",
+    "nextRefreshAt": "2026-09-08T07:00:00.000Z",
+    "sourceStatus": "Wikipedia current ranking table: Highest-grossing films",
+    "confidence": "Observed List of highest-grossing films on 2026-09-01T07:03:08.053Z; values are parsed from the \"Highest-grossing films\" Wikipedia table."
+  },
+  "media": {
+    "imageFit": "contain",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-09-01T07:03:08.053Z",
+    "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.webp",
+    "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.webp",
+    "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.json",
+    "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/box-office-all-time.json",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 5,
+    "rows": 4,
+    "width": 1600,
+    "height": 1280,
+    "itemCount": 20,
+    "sourcedImageCount": 20,
+    "generatedImageCount": 0,
+    "placeholderCount": 0,
+    "ogImageUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/box-office-all-time.png",
+    "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/box-office-all-time.png",
+    "ogImageWidth": 1200,
+    "ogImageHeight": 630
+  },
+  "taxonomy": {
+    "primaryCategory": "entertainment",
+    "categories": [
+      "entertainment",
+      "movies",
+      "culture"
+    ],
+    "tags": [
+      "box-office",
+      "films",
+      "gross",
+      "rankings"
+    ],
+    "entityTypes": [
+      "film"
+    ],
+    "sourceTypes": [
+      "wikipedia"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "movie-tv-search-heat",
+      "type": "screen-entertainment",
+      "weight": 0.86,
+      "reason": "Both track movie and TV demand from different public signals."
+    },
+    {
+      "target": "franchise-hype-index",
+      "type": "franchise-economics",
+      "weight": 0.8,
+      "reason": "All-time box office is dominated by franchise attention and repeat fandom."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "screen-entertainment",
+    "mainland": "culture",
+    "bridgePriority": [
+      "movie-tv-search-heat",
+      "franchise-hype-index"
+    ]
+  },
+  "schemaVersion": 1,
+  "contentKind": "dat-city.story",
+  "generatedAt": "2026-09-01T07:03:08.053Z",
+  "versionId": "20260901T070308Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "storyops-scheduler",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-09-01T07:03:08.053Z",
+    "versionId": "20260901T070308Z",
+    "adapter": "wikipedia-ranking-table",
+    "storySlug": "box-office-all-time",
+    "districtId": null,
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "publicProjection": {
+    "kind": "story",
+    "version": 1,
+    "generatedAt": "2026-09-01T07:03:08.053Z",
+    "adapter": "wikipedia-ranking-table",
+    "cache": {
+      "browserMaxAgeSeconds": 60,
+      "edgeMaxAgeSeconds": 3600
+    }
+  },
+  "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/box-office-all-time.png"
+}

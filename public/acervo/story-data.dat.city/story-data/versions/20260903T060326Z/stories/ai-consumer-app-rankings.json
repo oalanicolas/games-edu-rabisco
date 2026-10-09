@@ -1,0 +1,1712 @@
+{
+  "id": "ai-consumer-app-rankings",
+  "kicker": "Consumer AI",
+  "title": "AI Consumer App Attention",
+  "subtitle": "A consumer-AI app district using Wikipedia attention as a public adoption-interest proxy.",
+  "badge": "Ranked by Wikipedia pageviews",
+  "visualization": "race-arena",
+  "theme": "lab",
+  "artStyle": "stylized-editorial",
+  "dateRange": [
+    "20260811",
+    "20260831"
+  ],
+  "metricLabel": "Daily pageviews",
+  "ogImage": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/ai-consumer-app-rankings.png",
+  "cityPreview": {
+    "districtId": "ai-app-raceway",
+    "districtName": "AI App Raceway",
+    "cardLabel": "AI Apps",
+    "summary": "Consumer AI apps ranked by daily Wikipedia attention.",
+    "primaryMetric": "Daily pageviews",
+    "latestFrameLabel": "2026-08-31",
+    "storyUrl": "/stories/ai-consumer-app-rankings/",
+    "thumbnail": "/assets/og/dat-city.webp"
+  },
+  "sourceStatus": "Official Wikimedia Pageviews API",
+  "confidence": "Observed daily English Wikipedia article pageviews through 2026-08-31. Skipped 1 missing or renamed configured article(s).",
+  "methodology": "This story is generated from the Wikimedia Pageviews API for selected high-interest English Wikipedia articles. Values are daily all-access, user-agent-filtered pageviews. The story publishes a render-ready projection and keeps raw API responses out of the public payload.",
+  "playback": {
+    "durationSeconds": 26,
+    "initialDate": "20260811",
+    "periodLabel": "daily pageviews"
+  },
+  "visual": {
+    "topCount": 10,
+    "referenceCount": 20,
+    "horizontalCount": 12
+  },
+  "layers": [
+    {
+      "id": "attention",
+      "label": "Attention",
+      "default": true
+    }
+  ],
+  "focus": [
+    {
+      "id": "chatgpt",
+      "label": "ChatGPT"
+    },
+    {
+      "id": "perplexity-ai",
+      "label": "Perplexity AI"
+    },
+    {
+      "id": "canva",
+      "label": "Canva"
+    },
+    {
+      "id": "deepseek",
+      "label": "DeepSeek"
+    }
+  ],
+  "entities": [
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "article": "ChatGPT",
+      "configuredImageUrl": null,
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/OpenAI_logo_2025_%28symbol%29.svg/960px-OpenAI_logo_2025_%28symbol%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/OpenAI_logo_2025_%28symbol%29.svg/960px-OpenAI_logo_2025_%28symbol%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "avatarText": "C",
+      "color": "#ff5a61",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.json",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.25,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/OpenAI_logo_2025_%28symbol%29.svg/960px-OpenAI_logo_2025_%28symbol%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "perplexity-ai",
+      "name": "Perplexity AI",
+      "article": "Perplexity_AI",
+      "configuredImageUrl": null,
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Perplexity_AI_logo.svg/960px-Perplexity_AI_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Perplexity_AI_logo.svg/960px-Perplexity_AI_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "avatarText": "PA",
+      "color": "#00a6ff",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.json",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0,
+          "u1": 0.5,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Perplexity_AI_logo.svg/960px-Perplexity_AI_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "canva",
+      "name": "Canva",
+      "article": "Canva",
+      "configuredImageUrl": null,
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Canva_Logo.svg/960px-Canva_Logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Canva_Logo.svg/960px-Canva_Logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "avatarText": "C",
+      "color": "#c9a14a",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.json",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0,
+          "u1": 0.75,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Canva_Logo.svg/960px-Canva_Logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "article": "DeepSeek",
+      "configuredImageUrl": null,
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/DeepSeek_logo.svg/960px-DeepSeek_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/DeepSeek_logo.svg/960px-DeepSeek_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "avatarText": "D",
+      "color": "#d78fca",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.json",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/DeepSeek_logo.svg/960px-DeepSeek_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "grok",
+      "name": "Grok",
+      "article": "Grok_(chatbot)",
+      "configuredImageUrl": null,
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Grok_chatbot_example_screenshot.webp?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Grok_chatbot_example_screenshot.webp?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "avatarText": "G",
+      "color": "#7b9b65",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.json",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.333333,
+          "u1": 0.25,
+          "v1": 0.666667
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Grok_chatbot_example_screenshot.webp?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "microsoft-copilot",
+      "name": "Microsoft Copilot",
+      "article": "Microsoft_Copilot",
+      "configuredImageUrl": null,
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/1/13/Microsoft_Copilot_on_Windows_10%2C_11.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/1/13/Microsoft_Copilot_on_Windows_10%2C_11.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "MC",
+      "color": "#ffc84a",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.json",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.333333,
+          "u1": 0.5,
+          "v1": 0.666667
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/1/13/Microsoft_Copilot_on_Windows_10%2C_11.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "elevenlabs",
+      "name": "ElevenLabs",
+      "article": "ElevenLabs",
+      "configuredImageUrl": null,
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Midtown_Manhattan_March_2023_014.jpg/960px-Midtown_Manhattan_March_2023_014.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Midtown_Manhattan_March_2023_014.jpg/960px-Midtown_Manhattan_March_2023_014.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "avatarText": "E",
+      "color": "#e34f59",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.json",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.333333,
+          "u1": 0.75,
+          "v1": 0.666667
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Midtown_Manhattan_March_2023_014.jpg/960px-Midtown_Manhattan_March_2023_014.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "character-ai",
+      "name": "Character.ai",
+      "article": "Character.ai",
+      "configuredImageUrl": null,
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Character_AI_2025_Logo.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Character_AI_2025_Logo.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "C",
+      "color": "#2f4858",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.json",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.333333,
+          "u1": 1,
+          "v1": 0.666667
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Character_AI_2025_Logo.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "article": "Claude_(language_model)",
+      "configuredImageUrl": null,
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Claude_AI_logo.svg/960px-Claude_AI_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Claude_AI_logo.svg/960px-Claude_AI_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "avatarText": "C",
+      "color": "#8f6bff",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.json",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.666667,
+          "u1": 0.25,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Claude_AI_logo.svg/960px-Claude_AI_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "sora",
+      "name": "Sora",
+      "article": "Sora_(text-to-video_model)",
+      "configuredImageUrl": null,
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/OpenAI_logo_2025_%28symbol%29.svg/960px-OpenAI_logo_2025_%28symbol%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/OpenAI_logo_2025_%28symbol%29.svg/960px-OpenAI_logo_2025_%28symbol%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "avatarText": "S",
+      "color": "#86bdf4",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.json",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.666667,
+          "u1": 0.5,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/OpenAI_logo_2025_%28symbol%29.svg/960px-OpenAI_logo_2025_%28symbol%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "midjourney",
+      "name": "Midjourney",
+      "article": "Midjourney",
+      "configuredImageUrl": null,
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/0/06/Midjourney_logo.svg/960px-Midjourney_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/0/06/Midjourney_logo.svg/960px-Midjourney_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "avatarText": "M",
+      "color": "#f18c4f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.json",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.666667,
+          "u1": 0.75,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/0/06/Midjourney_logo.svg/960px-Midjourney_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "dall-e",
+      "name": "DALL-E",
+      "article": "DALL-E",
+      "configuredImageUrl": null,
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/4/41/DALL-E_2_artificial_intelligence_digital_image_generated_photo.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/4/41/DALL-E_2_artificial_intelligence_digital_image_generated_photo.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "avatarText": "D",
+      "color": "#41a99f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.json",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.666667,
+          "u1": 1,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/4/41/DALL-E_2_artificial_intelligence_digital_image_generated_photo.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    }
+  ],
+  "frames": [
+    {
+      "date": "20260811",
+      "values": [
+        {
+          "id": "chatgpt",
+          "value": 67630
+        },
+        {
+          "id": "microsoft-copilot",
+          "value": 869
+        },
+        {
+          "id": "perplexity-ai",
+          "value": 2297
+        },
+        {
+          "id": "deepseek",
+          "value": 1860
+        },
+        {
+          "id": "character-ai",
+          "value": 591
+        },
+        {
+          "id": "midjourney",
+          "value": 532
+        },
+        {
+          "id": "dall-e",
+          "value": 293
+        },
+        {
+          "id": "claude",
+          "value": 640
+        },
+        {
+          "id": "grok",
+          "value": 1451
+        },
+        {
+          "id": "canva",
+          "value": 2490
+        },
+        {
+          "id": "sora",
+          "value": 618
+        },
+        {
+          "id": "elevenlabs",
+          "value": 913
+        }
+      ]
+    },
+    {
+      "date": "20260812",
+      "values": [
+        {
+          "id": "chatgpt",
+          "value": 49060
+        },
+        {
+          "id": "microsoft-copilot",
+          "value": 913
+        },
+        {
+          "id": "perplexity-ai",
+          "value": 2267
+        },
+        {
+          "id": "deepseek",
+          "value": 1905
+        },
+        {
+          "id": "character-ai",
+          "value": 719
+        },
+        {
+          "id": "midjourney",
+          "value": 420
+        },
+        {
+          "id": "dall-e",
+          "value": 260
+        },
+        {
+          "id": "claude",
+          "value": 731
+        },
+        {
+          "id": "grok",
+          "value": 2118
+        },
+        {
+          "id": "canva",
+          "value": 2627
+        },
+        {
+          "id": "sora",
+          "value": 595
+        },
+        {
+          "id": "elevenlabs",
+          "value": 874
+        }
+      ]
+    },
+    {
+      "date": "20260813",
+      "values": [
+        {
+          "id": "chatgpt",
+          "value": 74751
+        },
+        {
+          "id": "microsoft-copilot",
+          "value": 1038
+        },
+        {
+          "id": "perplexity-ai",
+          "value": 2301
+        },
+        {
+          "id": "deepseek",
+          "value": 2065
+        },
+        {
+          "id": "character-ai",
+          "value": 713
+        },
+        {
+          "id": "midjourney",
+          "value": 490
+        },
+        {
+          "id": "dall-e",
+          "value": 341
+        },
+        {
+          "id": "claude",
+          "value": 769
+        },
+        {
+          "id": "grok",
+          "value": 2206
+        },
+        {
+          "id": "canva",
+          "value": 2439
+        },
+        {
+          "id": "sora",
+          "value": 576
+        },
+        {
+          "id": "elevenlabs",
+          "value": 1174
+        }
+      ]
+    },
+    {
+      "date": "20260814",
+      "values": [
+        {
+          "id": "chatgpt",
+          "value": 39527
+        },
+        {
+          "id": "microsoft-copilot",
+          "value": 901
+        },
+        {
+          "id": "perplexity-ai",
+          "value": 1951
+        },
+        {
+          "id": "deepseek",
+          "value": 1798
+        },
+        {
+          "id": "character-ai",
+          "value": 674
+        },
+        {
+          "id": "midjourney",
+          "value": 489
+        },
+        {
+          "id": "dall-e",
+          "value": 310
+        },
+        {
+          "id": "claude",
+          "value": 754
+        },
+        {
+          "id": "grok",
+          "value": 1764
+        },
+        {
+          "id": "canva",
+          "value": 2233
+        },
+        {
+          "id": "sora",
+          "value": 625
+        },
+        {
+          "id": "elevenlabs",
+          "value": 968
+        }
+      ]
+    },
+    {
+      "date": "20260815",
+      "values": [
+        {
+          "id": "chatgpt",
+          "value": 32582
+        },
+        {
+          "id": "microsoft-copilot",
+          "value": 668
+        },
+        {
+          "id": "perplexity-ai",
+          "value": 1514
+        },
+        {
+          "id": "deepseek",
+          "value": 1630
+        },
+        {
+          "id": "character-ai",
+          "value": 757
+        },
+        {
+          "id": "midjourney",
+          "value": 388
+        },
+        {
+          "id": "dall-e",
+          "value": 249
+        },
+        {
+          "id": "claude",
+          "value": 564
+        },
+        {
+          "id": "grok",
+          "value": 1472
+        },
+        {
+          "id": "canva",
+          "value": 1399
+        },
+        {
+          "id": "sora",
+          "value": 495
+        },
+        {
+          "id": "elevenlabs",
+          "value": 561
+        }
+      ]
+    },
+    {
+      "date": "20260816",
+      "values": [
+        {
+          "id": "chatgpt",
+          "value": 33116
+        },
+        {
+          "id": "microsoft-copilot",
+          "value": 691
+        },
+        {
+          "id": "perplexity-ai",
+          "value": 1470
+        },
+        {
+          "id": "deepseek",
+          "value": 1676
+        },
+        {
+          "id": "character-ai",
+          "value": 776
+        },
+        {
+          "id": "midjourney",
+          "value": 426
+        },
+        {
+          "id": "dall-e",
+          "value": 411
+        },
+        {
+          "id": "claude",
+          "value": 557
+        },
+        {
+          "id": "grok",
+          "value": 1383
+        },
+        {
+          "id": "canva",
+          "value": 1575
+        },
+        {
+          "id": "sora",
+          "value": 506
+        },
+        {
+          "id": "elevenlabs",
+          "value": 625
+        }
+      ]
+    },
+    {
+      "date": "20260817",
+      "values": [
+        {
+          "id": "chatgpt",
+          "value": 56592
+        },
+        {
+          "id": "microsoft-copilot",
+          "value": 1045
+        },
+        {
+          "id": "perplexity-ai",
+          "value": 2017
+        },
+        {
+          "id": "deepseek",
+          "value": 2118
+        },
+        {
+          "id": "character-ai",
+          "value": 723
+        },
+        {
+          "id": "midjourney",
+          "value": 551
+        },
+        {
+          "id": "dall-e",
+          "value": 463
+        },
+        {
+          "id": "claude",
+          "value": 722
+        },
+        {
+          "id": "grok",
+          "value": 1675
+        },
+        {
+          "id": "canva",
+          "value": 2885
+        },
+        {
+          "id": "sora",
+          "value": 511
+        },
+        {
+          "id": "elevenlabs",
+          "value": 811
+        }
+      ]
+    },
+    {
+      "date": "20260818",
+      "values": [
+        {
+          "id": "chatgpt",
+          "value": 75539
+        },
+        {
+          "id": "microsoft-copilot",
+          "value": 1196
+        },
+        {
+          "id": "perplexity-ai",
+          "value": 2101
+        },
+        {
+          "id": "deepseek",
+          "value": 2018
+        },
+        {
+          "id": "character-ai",
+          "value": 714
+        },
+        {
+          "id": "midjourney",
+          "value": 559
+        },
+        {
+          "id": "dall-e",
+          "value": 500
+        },
+        {
+          "id": "claude",
+          "value": 724
+        },
+        {
+          "id": "grok",
+          "value": 1721
+        },
+        {
+          "id": "canva",
+          "value": 2649
+        },
+        {
+          "id": "sora",
+          "value": 558
+        },
+        {
+          "id": "elevenlabs",
+          "value": 864
+        }
+      ]
+    },
+    {
+      "date": "20260819",
+      "values": [
+        {
+          "id": "chatgpt",
+          "value": 68374
+        },
+        {
+          "id": "microsoft-copilot",
+          "value": 1131
+        },
+        {
+          "id": "perplexity-ai",
+          "value": 2159
+        },
+        {
+          "id": "deepseek",
+          "value": 1924
+        },
+        {
+          "id": "character-ai",
+          "value": 671
+        },
+        {
+          "id": "midjourney",
+          "value": 538
+        },
+        {
+          "id": "dall-e",
+          "value": 475
+        },
+        {
+          "id": "claude",
+          "value": 697
+        },
+        {
+          "id": "grok",
+          "value": 1610
+        },
+        {
+          "id": "canva",
+          "value": 2486
+        },
+        {
+          "id": "sora",
+          "value": 647
+        },
+        {
+          "id": "elevenlabs",
+          "value": 1015
+        }
+      ]
+    },
+    {
+      "date": "20260820",
+      "values": [
+        {
+          "id": "chatgpt",
+          "value": 68786
+        },
+        {
+          "id": "microsoft-copilot",
+          "value": 1179
+        },
+        {
+          "id": "perplexity-ai",
+          "value": 2238
+        },
+        {
+          "id": "deepseek",
+          "value": 2072
+        },
+        {
+          "id": "character-ai",
+          "value": 649
+        },
+        {
+          "id": "midjourney",
+          "value": 573
+        },
+        {
+          "id": "dall-e",
+          "value": 516
+        },
+        {
+          "id": "claude",
+          "value": 638
+        },
+        {
+          "id": "grok",
+          "value": 1670
+        },
+        {
+          "id": "canva",
+          "value": 2361
+        },
+        {
+          "id": "sora",
+          "value": 580
+        },
+        {
+          "id": "elevenlabs",
+          "value": 882
+        }
+      ]
+    },
+    {
+      "date": "20260821",
+      "values": [
+        {
+          "id": "chatgpt",
+          "value": 58801
+        },
+        {
+          "id": "microsoft-copilot",
+          "value": 1137
+        },
+        {
+          "id": "perplexity-ai",
+          "value": 2015
+        },
+        {
+          "id": "deepseek",
+          "value": 2285
+        },
+        {
+          "id": "character-ai",
+          "value": 676
+        },
+        {
+          "id": "midjourney",
+          "value": 484
+        },
+        {
+          "id": "dall-e",
+          "value": 507
+        },
+        {
+          "id": "claude",
+          "value": 589
+        },
+        {
+          "id": "grok",
+          "value": 1559
+        },
+        {
+          "id": "canva",
+          "value": 1918
+        },
+        {
+          "id": "sora",
+          "value": 586
+        },
+        {
+          "id": "elevenlabs",
+          "value": 800
+        }
+      ]
+    },
+    {
+      "date": "20260822",
+      "values": [
+        {
+          "id": "chatgpt",
+          "value": 40028
+        },
+        {
+          "id": "microsoft-copilot",
+          "value": 819
+        },
+        {
+          "id": "perplexity-ai",
+          "value": 1902
+        },
+        {
+          "id": "deepseek",
+          "value": 1785
+        },
+        {
+          "id": "character-ai",
+          "value": 686
+        },
+        {
+          "id": "midjourney",
+          "value": 392
+        },
+        {
+          "id": "dall-e",
+          "value": 439
+        },
+        {
+          "id": "claude",
+          "value": 453
+        },
+        {
+          "id": "grok",
+          "value": 1438
+        },
+        {
+          "id": "canva",
+          "value": 1229
+        },
+        {
+          "id": "sora",
+          "value": 538
+        },
+        {
+          "id": "elevenlabs",
+          "value": 572
+        }
+      ]
+    },
+    {
+      "date": "20260823",
+      "values": [
+        {
+          "id": "chatgpt",
+          "value": 42612
+        },
+        {
+          "id": "microsoft-copilot",
+          "value": 834
+        },
+        {
+          "id": "perplexity-ai",
+          "value": 1966
+        },
+        {
+          "id": "deepseek",
+          "value": 1834
+        },
+        {
+          "id": "character-ai",
+          "value": 662
+        },
+        {
+          "id": "midjourney",
+          "value": 399
+        },
+        {
+          "id": "dall-e",
+          "value": 465
+        },
+        {
+          "id": "claude",
+          "value": 432
+        },
+        {
+          "id": "grok",
+          "value": 1464
+        },
+        {
+          "id": "canva",
+          "value": 1794
+        },
+        {
+          "id": "sora",
+          "value": 525
+        },
+        {
+          "id": "elevenlabs",
+          "value": 628
+        }
+      ]
+    },
+    {
+      "date": "20260824",
+      "values": [
+        {
+          "id": "chatgpt",
+          "value": 63020
+        },
+        {
+          "id": "microsoft-copilot",
+          "value": 1272
+        },
+        {
+          "id": "perplexity-ai",
+          "value": 3203
+        },
+        {
+          "id": "deepseek",
+          "value": 2412
+        },
+        {
+          "id": "character-ai",
+          "value": 677
+        },
+        {
+          "id": "midjourney",
+          "value": 565
+        },
+        {
+          "id": "dall-e",
+          "value": 459
+        },
+        {
+          "id": "claude",
+          "value": 643
+        },
+        {
+          "id": "grok",
+          "value": 1608
+        },
+        {
+          "id": "canva",
+          "value": 2370
+        },
+        {
+          "id": "sora",
+          "value": 593
+        },
+        {
+          "id": "elevenlabs",
+          "value": 763
+        }
+      ]
+    },
+    {
+      "date": "20260825",
+      "values": [
+        {
+          "id": "chatgpt",
+          "value": 70282
+        },
+        {
+          "id": "microsoft-copilot",
+          "value": 1485
+        },
+        {
+          "id": "perplexity-ai",
+          "value": 2863
+        },
+        {
+          "id": "deepseek",
+          "value": 2546
+        },
+        {
+          "id": "character-ai",
+          "value": 743
+        },
+        {
+          "id": "midjourney",
+          "value": 560
+        },
+        {
+          "id": "dall-e",
+          "value": 458
+        },
+        {
+          "id": "claude",
+          "value": 595
+        },
+        {
+          "id": "grok",
+          "value": 1567
+        },
+        {
+          "id": "canva",
+          "value": 2500
+        },
+        {
+          "id": "sora",
+          "value": 631
+        },
+        {
+          "id": "elevenlabs",
+          "value": 801
+        }
+      ]
+    },
+    {
+      "date": "20260826",
+      "values": [
+        {
+          "id": "chatgpt",
+          "value": 64152
+        },
+        {
+          "id": "microsoft-copilot",
+          "value": 1391
+        },
+        {
+          "id": "perplexity-ai",
+          "value": 2932
+        },
+        {
+          "id": "deepseek",
+          "value": 2569
+        },
+        {
+          "id": "character-ai",
+          "value": 660
+        },
+        {
+          "id": "midjourney",
+          "value": 553
+        },
+        {
+          "id": "dall-e",
+          "value": 425
+        },
+        {
+          "id": "claude",
+          "value": 619
+        },
+        {
+          "id": "grok",
+          "value": 1685
+        },
+        {
+          "id": "canva",
+          "value": 2449
+        },
+        {
+          "id": "sora",
+          "value": 551
+        },
+        {
+          "id": "elevenlabs",
+          "value": 841
+        }
+      ]
+    },
+    {
+      "date": "20260827",
+      "values": [
+        {
+          "id": "chatgpt",
+          "value": 61729
+        },
+        {
+          "id": "microsoft-copilot",
+          "value": 1269
+        },
+        {
+          "id": "perplexity-ai",
+          "value": 2181
+        },
+        {
+          "id": "deepseek",
+          "value": 2386
+        },
+        {
+          "id": "character-ai",
+          "value": 675
+        },
+        {
+          "id": "midjourney",
+          "value": 535
+        },
+        {
+          "id": "dall-e",
+          "value": 484
+        },
+        {
+          "id": "claude",
+          "value": 660
+        },
+        {
+          "id": "grok",
+          "value": 1671
+        },
+        {
+          "id": "canva",
+          "value": 2255
+        },
+        {
+          "id": "sora",
+          "value": 558
+        },
+        {
+          "id": "elevenlabs",
+          "value": 788
+        }
+      ]
+    },
+    {
+      "date": "20260828",
+      "values": [
+        {
+          "id": "chatgpt",
+          "value": 34832
+        },
+        {
+          "id": "microsoft-copilot",
+          "value": 1049
+        },
+        {
+          "id": "perplexity-ai",
+          "value": 2107
+        },
+        {
+          "id": "deepseek",
+          "value": 1870
+        },
+        {
+          "id": "character-ai",
+          "value": 561
+        },
+        {
+          "id": "midjourney",
+          "value": 473
+        },
+        {
+          "id": "dall-e",
+          "value": 466
+        },
+        {
+          "id": "claude",
+          "value": 658
+        },
+        {
+          "id": "grok",
+          "value": 1560
+        },
+        {
+          "id": "canva",
+          "value": 2124
+        },
+        {
+          "id": "sora",
+          "value": 496
+        },
+        {
+          "id": "elevenlabs",
+          "value": 680
+        }
+      ]
+    },
+    {
+      "date": "20260829",
+      "values": [
+        {
+          "id": "chatgpt",
+          "value": 25184
+        },
+        {
+          "id": "microsoft-copilot",
+          "value": 717
+        },
+        {
+          "id": "perplexity-ai",
+          "value": 1818
+        },
+        {
+          "id": "deepseek",
+          "value": 1561
+        },
+        {
+          "id": "character-ai",
+          "value": 579
+        },
+        {
+          "id": "midjourney",
+          "value": 413
+        },
+        {
+          "id": "dall-e",
+          "value": 437
+        },
+        {
+          "id": "claude",
+          "value": 451
+        },
+        {
+          "id": "grok",
+          "value": 1449
+        },
+        {
+          "id": "canva",
+          "value": 1607
+        },
+        {
+          "id": "sora",
+          "value": 488
+        },
+        {
+          "id": "elevenlabs",
+          "value": 632
+        }
+      ]
+    },
+    {
+      "date": "20260830",
+      "values": [
+        {
+          "id": "chatgpt",
+          "value": 22602
+        },
+        {
+          "id": "microsoft-copilot",
+          "value": 784
+        },
+        {
+          "id": "perplexity-ai",
+          "value": 1651
+        },
+        {
+          "id": "deepseek",
+          "value": 1541
+        },
+        {
+          "id": "character-ai",
+          "value": 577
+        },
+        {
+          "id": "midjourney",
+          "value": 445
+        },
+        {
+          "id": "dall-e",
+          "value": 428
+        },
+        {
+          "id": "claude",
+          "value": 513
+        },
+        {
+          "id": "grok",
+          "value": 1437
+        },
+        {
+          "id": "canva",
+          "value": 1633
+        },
+        {
+          "id": "sora",
+          "value": 452
+        },
+        {
+          "id": "elevenlabs",
+          "value": 697
+        }
+      ]
+    },
+    {
+      "date": "20260831",
+      "values": [
+        {
+          "id": "chatgpt",
+          "value": 41659
+        },
+        {
+          "id": "microsoft-copilot",
+          "value": 1156
+        },
+        {
+          "id": "perplexity-ai",
+          "value": 2315
+        },
+        {
+          "id": "deepseek",
+          "value": 2046
+        },
+        {
+          "id": "character-ai",
+          "value": 570
+        },
+        {
+          "id": "midjourney",
+          "value": 457
+        },
+        {
+          "id": "dall-e",
+          "value": 465
+        },
+        {
+          "id": "claude",
+          "value": 617
+        },
+        {
+          "id": "grok",
+          "value": 1689
+        },
+        {
+          "id": "canva",
+          "value": 2300
+        },
+        {
+          "id": "sora",
+          "value": 530
+        },
+        {
+          "id": "elevenlabs",
+          "value": 972
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "date": "20260811",
+      "title": "ChatGPT leads attention",
+      "body": "ChatGPT is the highest selected article on 2026-08-11, with 67,630 pageviews."
+    },
+    {
+      "date": "20260818",
+      "title": "ChatGPT leads attention",
+      "body": "ChatGPT is the highest selected article on 2026-08-18, with 75,539 pageviews."
+    },
+    {
+      "date": "20260825",
+      "title": "ChatGPT leads attention",
+      "body": "ChatGPT is the highest selected article on 2026-08-25, with 70,282 pageviews."
+    },
+    {
+      "date": "20260831",
+      "title": "ChatGPT leads attention",
+      "body": "ChatGPT is the highest selected article on 2026-08-31, with 41,659 pageviews."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Page view analytics",
+      "publisher": "Wikimedia Analytics API",
+      "url": "https://doc.wikimedia.org/generated-data-platform/aqs/analytics-api/reference/page-views.html",
+      "note": "Daily article pageview time series for selected consumer AI app articles."
+    }
+  ],
+  "timelineTicks": [
+    "20260811",
+    "20260815",
+    "20260819",
+    "20260823",
+    "20260827",
+    "20260831"
+  ],
+  "lastObservationDate": "2026-08-31",
+  "dataFreshness": {
+    "status": "fresh",
+    "refreshCadence": "daily",
+    "lastUpdated": "2026-09-02T07:01:52.367Z",
+    "lastRefreshAttemptedAt": "2026-09-02T07:01:52.367Z",
+    "lastRefreshError": null,
+    "lastObservationDate": "2026-08-31",
+    "nextRefreshAt": "2026-09-03T07:00:00.000Z",
+    "sourceStatus": "Official Wikimedia Pageviews API",
+    "confidence": "Observed daily English Wikipedia article pageviews through 2026-08-31. Skipped 1 missing or renamed configured article(s)."
+  },
+  "media": {
+    "imageFit": "contain",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-09-02T07:01:52.367Z",
+    "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.webp",
+    "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.webp",
+    "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.json",
+    "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.json",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 4,
+    "rows": 3,
+    "width": 1280,
+    "height": 960,
+    "itemCount": 12,
+    "sourcedImageCount": 12,
+    "generatedImageCount": 0,
+    "placeholderCount": 0,
+    "ogImageUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/ai-consumer-app-rankings.png",
+    "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/ai-consumer-app-rankings.png",
+    "ogImageWidth": 1200,
+    "ogImageHeight": 630
+  },
+  "taxonomy": {
+    "primaryCategory": "technology",
+    "categories": [
+      "technology",
+      "ai",
+      "consumer-apps"
+    ],
+    "tags": [
+      "ai-apps",
+      "app-store",
+      "consumer-ai",
+      "rankings"
+    ],
+    "entityTypes": [
+      "app",
+      "company"
+    ],
+    "sourceTypes": [
+      "wikimedia"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "app-store-takeover",
+      "type": "app-store-category-subset",
+      "weight": 0.86,
+      "reason": "This can reuse app-store ranking mechanics for the AI app subset."
+    },
+    {
+      "target": "ai-lab-attention",
+      "type": "ai-market-attention",
+      "weight": 0.72,
+      "reason": "Consumer app momentum connects public AI labs to mainstream adoption."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "ai-technology",
+    "mainland": "technology",
+    "bridgePriority": [
+      "app-store-takeover",
+      "ai-lab-attention"
+    ]
+  },
+  "schemaVersion": 1,
+  "contentKind": "dat-city.story",
+  "generatedAt": "2026-09-02T07:01:52.367Z",
+  "versionId": "20260902T070152Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "storyops-scheduler",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-09-02T07:01:52.367Z",
+    "versionId": "20260902T070152Z",
+    "adapter": "wikimedia-pageviews",
+    "storySlug": "ai-consumer-app-rankings",
+    "districtId": null,
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "publicProjection": {
+    "kind": "story",
+    "version": 1,
+    "generatedAt": "2026-09-02T07:01:52.367Z",
+    "adapter": "wikimedia-pageviews",
+    "cache": {
+      "browserMaxAgeSeconds": 60,
+      "edgeMaxAgeSeconds": 3600
+    }
+  },
+  "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/ai-consumer-app-rankings.png"
+}

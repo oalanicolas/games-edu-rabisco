@@ -1,0 +1,4224 @@
+{
+  "id": "max-top-10",
+  "kicker": "Max Bootstrap",
+  "title": "Max Watchlist Leaders",
+  "subtitle": "A Wikipedia-sourced attention snapshot for Max and HBO titles while a recurring weekly chart source is unavailable.",
+  "badge": "Bootstrap by Wikipedia views",
+  "visualization": "race-arena",
+  "theme": "creator-arena",
+  "artStyle": "stylized-editorial",
+  "dateRange": [
+    "20260630",
+    "20260901"
+  ],
+  "timelineTicks": [
+    "20260630",
+    "20260701",
+    "20260706",
+    "20260707",
+    "20260708",
+    "20260709",
+    "20260710",
+    "20260711",
+    "20260712",
+    "20260713",
+    "20260714",
+    "20260715",
+    "20260716",
+    "20260717",
+    "20260718",
+    "20260719",
+    "20260720",
+    "20260721",
+    "20260722",
+    "20260728",
+    "20260804",
+    "20260811",
+    "20260818",
+    "20260822",
+    "20260825",
+    "20260901"
+  ],
+  "metricLabel": "Wikipedia views",
+  "ogImage": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/max-top-10.png",
+  "cityPreview": {
+    "districtId": "max-watch-lot",
+    "districtName": "Max Watch Lot",
+    "cardLabel": "Max",
+    "summary": "Max and HBO titles ranked by Wikipedia attention as a temporary source-backed bootstrap, not an official weekly Top 10.",
+    "primaryMetric": "Wikipedia views",
+    "latestFrameLabel": "2026-09-01",
+    "storyUrl": "/stories/max-top-10/",
+    "thumbnail": "/assets/og/dat-city.webp"
+  },
+  "sourceStatus": "Wikipedia pageview bootstrap for Max originals",
+  "confidence": "Observed 30 days of en.wikipedia pageviews for titles listed on 2 Wikipedia platform-original page(s) at 2026-09-01T07:03:08.053Z. This is not a weekly or current streaming Top 10.",
+  "methodology": "Wikipedia does not currently provide a durable weekly/current Top 10 page for Max. This bootstrap uses the configured Wikipedia original-programming and original-film list pages as the source universe, then ranks titles by recent en.wikipedia pageviews via Wikipedia's PageViewInfo API. Treat the output as public-interest attention among platform originals, not streaming watch time or official platform ranking.",
+  "playback": {
+    "durationSeconds": 24,
+    "initialDate": "20260630",
+    "periodLabel": "Max Wikipedia attention"
+  },
+  "visual": {
+    "topCount": 10,
+    "referenceCount": 20,
+    "horizontalCount": 12
+  },
+  "layers": [
+    {
+      "id": "pageviews",
+      "label": "Wikipedia views",
+      "default": true
+    },
+    {
+      "id": "platform",
+      "label": "Max and HBO titles",
+      "default": true
+    }
+  ],
+  "focus": [
+    {
+      "id": "hacks",
+      "label": "Hacks"
+    },
+    {
+      "id": "creature-commandos-tv-series",
+      "label": "Creature Commandos"
+    },
+    {
+      "id": "juror-no-2",
+      "label": "Juror No. 2"
+    },
+    {
+      "id": "and-just-like-that",
+      "label": "And Just Like That..."
+    }
+  ],
+  "entities": [
+    {
+      "id": "hacks",
+      "name": "Hacks",
+      "article": "Hacks",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Hacks",
+      "genre": "Dark comedy drama",
+      "premiere": "May 13, 2021",
+      "status": "",
+      "contentKinds": [
+        "series"
+      ],
+      "sourcePages": [
+        "List of HBO Max original programming"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Hacks_TV_Series_Logo.svg/960px-Hacks_TV_Series_Logo.svg.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Hacks_TV_Series_Logo.svg/960px-Hacks_TV_Series_Logo.svg.png",
+      "avatarText": "H",
+      "color": "#41a99f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.2,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Hacks_TV_Series_Logo.svg/960px-Hacks_TV_Series_Logo.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "creature-commandos-tv-series",
+      "name": "Creature Commandos",
+      "article": "Creature Commandos (TV series)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Creature_Commandos_(TV_series)",
+      "genre": "Superhero",
+      "premiere": "December 5, 2024",
+      "status": "Renewed",
+      "contentKinds": [
+        "series"
+      ],
+      "sourcePages": [
+        "List of HBO Max original programming"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/c/c6/Creature_Commandos_%28TV_series%29_logo.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/c/c6/Creature_Commandos_%28TV_series%29_logo.jpg",
+      "avatarText": "CC",
+      "color": "#ff5a61",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0,
+          "u1": 0.4,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/c/c6/Creature_Commandos_%28TV_series%29_logo.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "juror-no-2",
+      "name": "Juror No. 2",
+      "article": "Juror No. 2",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Juror_No._2",
+      "genre": "Legal thriller",
+      "premiere": "December 20, 2024",
+      "status": "",
+      "contentKinds": [
+        "films"
+      ],
+      "sourcePages": [
+        "List of HBO Max original films"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/b/be/Juror_No._2_%282024%29.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/b/be/Juror_No._2_%282024%29.jpg",
+      "avatarText": "JN",
+      "color": "#41a99f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0,
+          "u1": 0.6,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/b/be/Juror_No._2_%282024%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "and-just-like-that",
+      "name": "And Just Like That...",
+      "article": "And Just Like That...",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/And_Just_Like_That...",
+      "genre": "Romantic comedy",
+      "premiere": "December 9, 2021",
+      "status": "",
+      "contentKinds": [
+        "series"
+      ],
+      "sourcePages": [
+        "List of HBO Max original programming"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/And_Just_Like_That_logo.svg/960px-And_Just_Like_That_logo.svg.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/And_Just_Like_That_logo.svg/960px-And_Just_Like_That_logo.svg.png",
+      "avatarText": "AJ",
+      "color": "#ffc84a",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0,
+          "u1": 0.8,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/And_Just_Like_That_logo.svg/960px-And_Just_Like_That_logo.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "harley-quinn-tv-series",
+      "name": "Harley Quinn (seasons 3–5)",
+      "article": "Harley Quinn (TV series)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Harley_Quinn_(TV_series)",
+      "genre": "Adult animated superhero dark comedy",
+      "premiere": "July 28, 2022",
+      "status": "",
+      "contentKinds": [
+        "series"
+      ],
+      "sourcePages": [
+        "List of HBO Max original programming"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/c/c3/Harley_Quinn_Title_Card.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/c/c3/Harley_Quinn_Title_Card.jpg",
+      "avatarText": "HQ",
+      "color": "#d78fca",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "x": 1280,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/c/c3/Harley_Quinn_Title_Card.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "conan-o-brien-must-go",
+      "name": "Conan O'Brien Must Go",
+      "article": "Conan O'Brien Must Go",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Conan_O'Brien_Must_Go",
+      "genre": "Travel",
+      "premiere": "April 18, 2024",
+      "status": "",
+      "contentKinds": [
+        "series"
+      ],
+      "sourcePages": [
+        "List of HBO Max original programming"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Conan_O%27Brien_Must_Go_Title_Card.png/960px-Conan_O%27Brien_Must_Go_Title_Card.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Conan_O%27Brien_Must_Go_Title_Card.png/960px-Conan_O%27Brien_Must_Go_Title_Card.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "avatarText": "CO",
+      "color": "#18c871",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.25,
+          "u1": 0.2,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Conan_O%27Brien_Must_Go_Title_Card.png/960px-Conan_O%27Brien_Must_Go_Title_Card.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "caddo-lake-film",
+      "name": "Caddo Lake",
+      "article": "Caddo Lake (film)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Caddo_Lake_(film)",
+      "genre": "Thriller",
+      "premiere": "October 10, 2024",
+      "status": "",
+      "contentKinds": [
+        "films"
+      ],
+      "sourcePages": [
+        "List of HBO Max original films"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/9/9a/Caddo_Lake_film_poster.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/9/9a/Caddo_Lake_film_poster.jpg",
+      "avatarText": "CL",
+      "color": "#18c871",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.25,
+          "u1": 0.4,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/9/9a/Caddo_Lake_film_poster.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "doom-patrol-tv-series",
+      "name": "Doom Patrol (seasons 2–4)",
+      "article": "Doom Patrol (TV series)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Doom_Patrol_(TV_series)",
+      "genre": "Superhero comedy",
+      "premiere": "June 25, 2020",
+      "status": "",
+      "contentKinds": [
+        "series"
+      ],
+      "sourcePages": [
+        "List of HBO Max original programming"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/1/11/Doom_Patrol_logo.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/1/11/Doom_Patrol_logo.jpg",
+      "avatarText": "DP",
+      "color": "#7b9b65",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.25,
+          "u1": 0.6,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/1/11/Doom_Patrol_logo.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "jessi-combs",
+      "name": "The Fastest Woman on Earth",
+      "article": "Jessi Combs",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Jessi_Combs",
+      "genre": "Biography",
+      "premiere": "October 20, 2022",
+      "status": "",
+      "contentKinds": [
+        "films"
+      ],
+      "sourcePages": [
+        "List of HBO Max original films"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/Jessi_Combs_at_SEMA_Show_2012_%288158037371%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/Jessi_Combs_at_SEMA_Show_2012_%288158037371%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "avatarText": "TF",
+      "color": "#9aa4b2",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.25,
+          "u1": 0.8,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/Jessi_Combs_at_SEMA_Show_2012_%288158037371%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "gossip-girl-2021-tv-series",
+      "name": "Gossip Girl",
+      "article": "Gossip Girl (2021 TV series)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Gossip_Girl_(2021_TV_series)",
+      "genre": "Teen drama",
+      "premiere": "July 8, 2021",
+      "status": "",
+      "contentKinds": [
+        "series"
+      ],
+      "sourcePages": [
+        "List of HBO Max original programming"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Gossip_Girl_%282021%29_logo.svg/960px-Gossip_Girl_%282021%29_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Gossip_Girl_%282021%29_logo.svg/960px-Gossip_Girl_%282021%29_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "avatarText": "GG",
+      "color": "#e34f59",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "x": 1280,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.25,
+          "u1": 1,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Gossip_Girl_%282021%29_logo.svg/960px-Gossip_Girl_%282021%29_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "salem-s-lot-film",
+      "name": "'Salem's Lot",
+      "article": "'Salem's Lot (film)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/'Salem's_Lot_(film)",
+      "genre": "Supernatural horror",
+      "premiere": "October 3, 2024",
+      "status": "",
+      "contentKinds": [
+        "films"
+      ],
+      "sourcePages": [
+        "List of HBO Max original films"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/5/57/Salem%27s_Lot_%282024%29_poster.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/5/57/Salem%27s_Lot_%282024%29_poster.jpg",
+      "avatarText": "'L",
+      "color": "#9aa4b2",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.5,
+          "u1": 0.2,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/5/57/Salem%27s_Lot_%282024%29_poster.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "1976-chowchilla-kidnapping",
+      "name": "Chowchilla",
+      "article": "1976 Chowchilla kidnapping",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/1976_Chowchilla_kidnapping",
+      "genre": "Kidnapping",
+      "premiere": "January 11, 2024",
+      "status": "",
+      "contentKinds": [
+        "films"
+      ],
+      "sourcePages": [
+        "List of HBO Max original films"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Chowchilla_kidnapping_trailer.jpg/960px-Chowchilla_kidnapping_trailer.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Chowchilla_kidnapping_trailer.jpg/960px-Chowchilla_kidnapping_trailer.jpg",
+      "avatarText": "C",
+      "color": "#2f4858",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.5,
+          "u1": 0.4,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Chowchilla_kidnapping_trailer.jpg/960px-Chowchilla_kidnapping_trailer.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "adventure-time-fionna-and-cake",
+      "name": "Adventure Time: Fionna and Cake",
+      "article": "Adventure Time: Fionna and Cake",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Adventure_Time%3A_Fionna_and_Cake",
+      "genre": "Fantasy adventure comedy",
+      "premiere": "August 31, 2023",
+      "status": "Pending",
+      "contentKinds": [
+        "series"
+      ],
+      "sourcePages": [
+        "List of HBO Max original programming"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/2/27/Fionna_and_Cake_S2_Title_logo.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/2/27/Fionna_and_Cake_S2_Title_logo.png",
+      "avatarText": "AT",
+      "color": "#86bdf4",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.5,
+          "u1": 0.6,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/2/27/Fionna_and_Cake_S2_Title_logo.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "clone-high",
+      "name": "Clone High (seasons 2–3)",
+      "article": "Clone High",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Clone_High",
+      "genre": "Satirical science fiction sitcom",
+      "premiere": "May 23, 2023",
+      "status": "",
+      "contentKinds": [
+        "series"
+      ],
+      "sourcePages": [
+        "List of HBO Max original programming"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Clone_High_Logo.png/960px-Clone_High_Logo.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Clone_High_Logo.png/960px-Clone_High_Logo.png",
+      "avatarText": "CH",
+      "color": "#ffc84a",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.5,
+          "u1": 0.8,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Clone_High_Logo.png/960px-Clone_High_Logo.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "friends-the-reunion",
+      "name": "Friends: The Reunion",
+      "article": "Friends: The Reunion",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Friends%3A_The_Reunion",
+      "genre": "Unscripted reunion",
+      "premiere": "May 27, 2021",
+      "status": "",
+      "contentKinds": [
+        "series",
+        "films"
+      ],
+      "sourcePages": [
+        "List of HBO Max original programming",
+        "List of HBO Max original films"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/6/6f/Friends_The_Reunion_poster.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/6/6f/Friends_The_Reunion_poster.jpg",
+      "avatarText": "FT",
+      "color": "#8f6bff",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "x": 1280,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.5,
+          "u1": 1,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/6/6f/Friends_The_Reunion_poster.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "it-s-a-sin-tv-series",
+      "name": "It's a Sin",
+      "article": "It's a Sin (TV series)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/It's_a_Sin_(TV_series)",
+      "genre": "Period drama",
+      "premiere": "February 18, 2021",
+      "status": "",
+      "contentKinds": [
+        "series"
+      ],
+      "sourcePages": [
+        "List of HBO Max original programming"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/It%27s_a_Sin.jpg/960px-It%27s_a_Sin.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/It%27s_a_Sin.jpg/960px-It%27s_a_Sin.jpg",
+      "avatarText": "IA",
+      "color": "#00a6ff",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "x": 0,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.75,
+          "u1": 0.2,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/It%27s_a_Sin.jpg/960px-It%27s_a_Sin.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "bookie-tv-series",
+      "name": "Bookie",
+      "article": "Bookie (TV series)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Bookie_(TV_series)",
+      "genre": "Comedy",
+      "premiere": "November 30, 2023",
+      "status": "",
+      "contentKinds": [
+        "series"
+      ],
+      "sourcePages": [
+        "List of HBO Max original programming"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Bookie_logo.svg/960px-Bookie_logo.svg.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Bookie_logo.svg/960px-Bookie_logo.svg.png",
+      "avatarText": "B",
+      "color": "#f18c4f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "x": 320,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.75,
+          "u1": 0.4,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Bookie_logo.svg/960px-Bookie_logo.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "duster-tv-series",
+      "name": "Duster",
+      "article": "Duster (TV series)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Duster_(TV_series)",
+      "genre": "Crime thriller",
+      "premiere": "May 15, 2025",
+      "status": "",
+      "contentKinds": [
+        "series"
+      ],
+      "sourcePages": [
+        "List of HBO Max original programming"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/2/28/Duster_tv_series_logo.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/2/28/Duster_tv_series_logo.png",
+      "avatarText": "D",
+      "color": "#86bdf4",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "x": 640,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.75,
+          "u1": 0.6,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/2/28/Duster_tv_series_logo.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "am-i-ok",
+      "name": "Am I OK?",
+      "article": "Am I OK?",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Am_I_OK%3F",
+      "genre": "Comedy drama",
+      "premiere": "June 6, 2024",
+      "status": "",
+      "contentKinds": [
+        "films"
+      ],
+      "sourcePages": [
+        "List of HBO Max original films"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/d/dc/Am_I_Ok_poster.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/d/dc/Am_I_Ok_poster.jpg",
+      "avatarText": "AI",
+      "color": "#ef426f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "x": 960,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.75,
+          "u1": 0.8,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/d/dc/Am_I_Ok_poster.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "garbage-pail-kids",
+      "name": "Garbage Pail Kids",
+      "article": "Garbage Pail Kids",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Garbage_Pail_Kids",
+      "genre": "Animated comedy",
+      "premiere": "",
+      "status": "",
+      "contentKinds": [
+        "series"
+      ],
+      "sourcePages": [
+        "List of HBO Max original programming"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/5/51/Garbage_Pail_Kids_TCG_cardback.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/5/51/Garbage_Pail_Kids_TCG_cardback.png",
+      "avatarText": "GP",
+      "color": "#2f4858",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "x": 1280,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.75,
+          "u1": 1,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/5/51/Garbage_Pail_Kids_TCG_cardback.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    }
+  ],
+  "frames": [
+    {
+      "date": "20260630",
+      "values": [
+        {
+          "id": "creature-commandos-tv-series",
+          "value": 45091,
+          "rank": 1,
+          "pageviews": 45091,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "caddo-lake-film",
+          "value": 41749,
+          "rank": 2,
+          "pageviews": 41749,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "and-just-like-that",
+          "value": 41477,
+          "rank": 3,
+          "pageviews": 41477,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260701",
+      "values": [
+        {
+          "id": "creature-commandos-tv-series",
+          "value": 45091,
+          "rank": 3,
+          "pageviews": 45091,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "caddo-lake-film",
+          "value": 41749,
+          "rank": 4,
+          "pageviews": 41749,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "and-just-like-that",
+          "value": 41477,
+          "rank": 5,
+          "pageviews": 41477,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "harley-quinn-tv-series",
+          "value": 35797,
+          "rank": 6,
+          "pageviews": 35797,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "doom-patrol-tv-series",
+          "value": 29427,
+          "rank": 7,
+          "pageviews": 29427,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260706",
+      "values": [
+        {
+          "id": "hacks",
+          "value": 193629,
+          "rank": 2,
+          "pageviews": 193629,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "juror-no-2",
+          "value": 66516,
+          "rank": 3,
+          "pageviews": 66516,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "creature-commandos-tv-series",
+          "value": 44132,
+          "rank": 8,
+          "pageviews": 44132,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "caddo-lake-film",
+          "value": 39954,
+          "rank": 10,
+          "pageviews": 39954,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "and-just-like-that",
+          "value": 39751,
+          "rank": 11,
+          "pageviews": 39751,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "harley-quinn-tv-series",
+          "value": 34463,
+          "rank": 13,
+          "pageviews": 34463,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "doom-patrol-tv-series",
+          "value": 28205,
+          "rank": 18,
+          "pageviews": 28205,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260707",
+      "values": [
+        {
+          "id": "hacks",
+          "value": 187947,
+          "rank": 2,
+          "pageviews": 187947,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "juror-no-2",
+          "value": 63041,
+          "rank": 3,
+          "pageviews": 63041,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "creature-commandos-tv-series",
+          "value": 44018,
+          "rank": 8,
+          "pageviews": 44018,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "and-just-like-that",
+          "value": 39701,
+          "rank": 10,
+          "pageviews": 39701,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "caddo-lake-film",
+          "value": 38645,
+          "rank": 11,
+          "pageviews": 38645,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "harley-quinn-tv-series",
+          "value": 34486,
+          "rank": 13,
+          "pageviews": 34486,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "doom-patrol-tv-series",
+          "value": 28208,
+          "rank": 17,
+          "pageviews": 28208,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "adventure-time-fionna-and-cake",
+          "value": 26348,
+          "rank": 20,
+          "pageviews": 26348,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260708",
+      "values": [
+        {
+          "id": "hacks",
+          "value": 181341,
+          "rank": 2,
+          "pageviews": 181341,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "juror-no-2",
+          "value": 61361,
+          "rank": 3,
+          "pageviews": 61361,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "creature-commandos-tv-series",
+          "value": 43670,
+          "rank": 8,
+          "pageviews": 43670,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "and-just-like-that",
+          "value": 39318,
+          "rank": 10,
+          "pageviews": 39318,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "caddo-lake-film",
+          "value": 38315,
+          "rank": 11,
+          "pageviews": 38315,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "harley-quinn-tv-series",
+          "value": 34431,
+          "rank": 13,
+          "pageviews": 34431,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "doom-patrol-tv-series",
+          "value": 27851,
+          "rank": 17,
+          "pageviews": 27851,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "adventure-time-fionna-and-cake",
+          "value": 26245,
+          "rank": 19,
+          "pageviews": 26245,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260709",
+      "values": [
+        {
+          "id": "hacks",
+          "value": 174446,
+          "rank": 2,
+          "pageviews": 174446,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "juror-no-2",
+          "value": 60082,
+          "rank": 3,
+          "pageviews": 60082,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "creature-commandos-tv-series",
+          "value": 43232,
+          "rank": 9,
+          "pageviews": 43232,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "and-just-like-that",
+          "value": 38954,
+          "rank": 10,
+          "pageviews": 38954,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "caddo-lake-film",
+          "value": 37530,
+          "rank": 11,
+          "pageviews": 37530,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "harley-quinn-tv-series",
+          "value": 34231,
+          "rank": 13,
+          "pageviews": 34231,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "doom-patrol-tv-series",
+          "value": 27654,
+          "rank": 17,
+          "pageviews": 27654,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "adventure-time-fionna-and-cake",
+          "value": 25636,
+          "rank": 19,
+          "pageviews": 25636,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260710",
+      "values": [
+        {
+          "id": "hacks",
+          "value": 175064,
+          "rank": 2,
+          "pageviews": 175064,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "juror-no-2",
+          "value": 59484,
+          "rank": 3,
+          "pageviews": 59484,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "creature-commandos-tv-series",
+          "value": 43171,
+          "rank": 9,
+          "pageviews": 43171,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "and-just-like-that",
+          "value": 38798,
+          "rank": 10,
+          "pageviews": 38798,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "caddo-lake-film",
+          "value": 37193,
+          "rank": 11,
+          "pageviews": 37193,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "harley-quinn-tv-series",
+          "value": 34275,
+          "rank": 13,
+          "pageviews": 34275,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "doom-patrol-tv-series",
+          "value": 27518,
+          "rank": 17,
+          "pageviews": 27518,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "adventure-time-fionna-and-cake",
+          "value": 25331,
+          "rank": 19,
+          "pageviews": 25331,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260711",
+      "values": [
+        {
+          "id": "hacks",
+          "value": 178757,
+          "rank": 2,
+          "pageviews": 178757,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "juror-no-2",
+          "value": 58949,
+          "rank": 3,
+          "pageviews": 58949,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "creature-commandos-tv-series",
+          "value": 43046,
+          "rank": 9,
+          "pageviews": 43046,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "and-just-like-that",
+          "value": 38734,
+          "rank": 10,
+          "pageviews": 38734,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "caddo-lake-film",
+          "value": 36839,
+          "rank": 11,
+          "pageviews": 36839,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "harley-quinn-tv-series",
+          "value": 34290,
+          "rank": 13,
+          "pageviews": 34290,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "doom-patrol-tv-series",
+          "value": 27415,
+          "rank": 17,
+          "pageviews": 27415,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "adventure-time-fionna-and-cake",
+          "value": 25226,
+          "rank": 19,
+          "pageviews": 25226,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260712",
+      "values": [
+        {
+          "id": "hacks",
+          "value": 178208,
+          "rank": 2,
+          "pageviews": 178208,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "juror-no-2",
+          "value": 58894,
+          "rank": 3,
+          "pageviews": 58894,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "creature-commandos-tv-series",
+          "value": 42796,
+          "rank": 9,
+          "pageviews": 42796,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "and-just-like-that",
+          "value": 38505,
+          "rank": 10,
+          "pageviews": 38505,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "caddo-lake-film",
+          "value": 36766,
+          "rank": 11,
+          "pageviews": 36766,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "harley-quinn-tv-series",
+          "value": 34223,
+          "rank": 13,
+          "pageviews": 34223,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "doom-patrol-tv-series",
+          "value": 27325,
+          "rank": 17,
+          "pageviews": 27325,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "adventure-time-fionna-and-cake",
+          "value": 25171,
+          "rank": 19,
+          "pageviews": 25171,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260713",
+      "values": [
+        {
+          "id": "hacks",
+          "value": 176785,
+          "rank": 2,
+          "pageviews": 176785,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "juror-no-2",
+          "value": 58621,
+          "rank": 3,
+          "pageviews": 58621,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "creature-commandos-tv-series",
+          "value": 42626,
+          "rank": 9,
+          "pageviews": 42626,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "and-just-like-that",
+          "value": 38464,
+          "rank": 10,
+          "pageviews": 38464,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "caddo-lake-film",
+          "value": 37040,
+          "rank": 11,
+          "pageviews": 37040,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "harley-quinn-tv-series",
+          "value": 34154,
+          "rank": 13,
+          "pageviews": 34154,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "doom-patrol-tv-series",
+          "value": 27056,
+          "rank": 18,
+          "pageviews": 27056,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260714",
+      "values": [
+        {
+          "id": "hacks",
+          "value": 176062,
+          "rank": 2,
+          "pageviews": 176062,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "juror-no-2",
+          "value": 58198,
+          "rank": 3,
+          "pageviews": 58198,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "creature-commandos-tv-series",
+          "value": 42584,
+          "rank": 9,
+          "pageviews": 42584,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "and-just-like-that",
+          "value": 38322,
+          "rank": 10,
+          "pageviews": 38322,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "caddo-lake-film",
+          "value": 36149,
+          "rank": 11,
+          "pageviews": 36149,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "harley-quinn-tv-series",
+          "value": 34235,
+          "rank": 13,
+          "pageviews": 34235,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "doom-patrol-tv-series",
+          "value": 26944,
+          "rank": 18,
+          "pageviews": 26944,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "adventure-time-fionna-and-cake",
+          "value": 25112,
+          "rank": 20,
+          "pageviews": 25112,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260715",
+      "values": [
+        {
+          "id": "hacks",
+          "value": 175202,
+          "rank": 2,
+          "pageviews": 175202,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "juror-no-2",
+          "value": 57711,
+          "rank": 3,
+          "pageviews": 57711,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "creature-commandos-tv-series",
+          "value": 42329,
+          "rank": 9,
+          "pageviews": 42329,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "and-just-like-that",
+          "value": 37819,
+          "rank": 10,
+          "pageviews": 37819,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "caddo-lake-film",
+          "value": 34293,
+          "rank": 12,
+          "pageviews": 34293,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "harley-quinn-tv-series",
+          "value": 34193,
+          "rank": 13,
+          "pageviews": 34193,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "doom-patrol-tv-series",
+          "value": 26902,
+          "rank": 18,
+          "pageviews": 26902,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "adventure-time-fionna-and-cake",
+          "value": 25098,
+          "rank": 20,
+          "pageviews": 25098,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260716",
+      "values": [
+        {
+          "id": "hacks",
+          "value": 178524,
+          "rank": 2,
+          "pageviews": 178524,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "juror-no-2",
+          "value": 58951,
+          "rank": 3,
+          "pageviews": 58951,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "creature-commandos-tv-series",
+          "value": 43212,
+          "rank": 9,
+          "pageviews": 43212,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "and-just-like-that",
+          "value": 38306,
+          "rank": 10,
+          "pageviews": 38306,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "harley-quinn-tv-series",
+          "value": 35257,
+          "rank": 12,
+          "pageviews": 35257,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "caddo-lake-film",
+          "value": 33729,
+          "rank": 13,
+          "pageviews": 33729,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "doom-patrol-tv-series",
+          "value": 27587,
+          "rank": 19,
+          "pageviews": 27587,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "adventure-time-fionna-and-cake",
+          "value": 26187,
+          "rank": 20,
+          "pageviews": 26187,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260717",
+      "values": [
+        {
+          "id": "hacks",
+          "value": 171890,
+          "rank": 2,
+          "pageviews": 171890,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "juror-no-2",
+          "value": 57337,
+          "rank": 3,
+          "pageviews": 57337,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "creature-commandos-tv-series",
+          "value": 41961,
+          "rank": 9,
+          "pageviews": 41961,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "and-just-like-that",
+          "value": 36938,
+          "rank": 10,
+          "pageviews": 36938,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "harley-quinn-tv-series",
+          "value": 34177,
+          "rank": 12,
+          "pageviews": 34177,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "caddo-lake-film",
+          "value": 32077,
+          "rank": 14,
+          "pageviews": 32077,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "doom-patrol-tv-series",
+          "value": 26681,
+          "rank": 19,
+          "pageviews": 26681,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "adventure-time-fionna-and-cake",
+          "value": 25351,
+          "rank": 20,
+          "pageviews": 25351,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260718",
+      "values": [
+        {
+          "id": "hacks",
+          "value": 169903,
+          "rank": 2,
+          "pageviews": 169903,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "juror-no-2",
+          "value": 57630,
+          "rank": 3,
+          "pageviews": 57630,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "creature-commandos-tv-series",
+          "value": 41817,
+          "rank": 9,
+          "pageviews": 41817,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "and-just-like-that",
+          "value": 36578,
+          "rank": 10,
+          "pageviews": 36578,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "harley-quinn-tv-series",
+          "value": 34314,
+          "rank": 12,
+          "pageviews": 34314,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "caddo-lake-film",
+          "value": 31505,
+          "rank": 14,
+          "pageviews": 31505,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "doom-patrol-tv-series",
+          "value": 26636,
+          "rank": 19,
+          "pageviews": 26636,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "adventure-time-fionna-and-cake",
+          "value": 25401,
+          "rank": 20,
+          "pageviews": 25401,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260719",
+      "values": [
+        {
+          "id": "hacks",
+          "value": 167356,
+          "rank": 2,
+          "pageviews": 167356,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "juror-no-2",
+          "value": 58170,
+          "rank": 3,
+          "pageviews": 58170,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "creature-commandos-tv-series",
+          "value": 41483,
+          "rank": 9,
+          "pageviews": 41483,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "and-just-like-that",
+          "value": 36329,
+          "rank": 11,
+          "pageviews": 36329,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "harley-quinn-tv-series",
+          "value": 34453,
+          "rank": 12,
+          "pageviews": 34453,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "caddo-lake-film",
+          "value": 31038,
+          "rank": 16,
+          "pageviews": 31038,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "doom-patrol-tv-series",
+          "value": 26494,
+          "rank": 20,
+          "pageviews": 26494,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260720",
+      "values": [
+        {
+          "id": "hacks",
+          "value": 165694,
+          "rank": 2,
+          "pageviews": 165694,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "juror-no-2",
+          "value": 58450,
+          "rank": 3,
+          "pageviews": 58450,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "creature-commandos-tv-series",
+          "value": 41124,
+          "rank": 9,
+          "pageviews": 41124,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "and-just-like-that",
+          "value": 36267,
+          "rank": 11,
+          "pageviews": 36267,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "harley-quinn-tv-series",
+          "value": 34603,
+          "rank": 12,
+          "pageviews": 34603,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "caddo-lake-film",
+          "value": 30584,
+          "rank": 16,
+          "pageviews": 30584,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "1976-chowchilla-kidnapping",
+          "value": 26492,
+          "rank": 20,
+          "pageviews": 26492,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260721",
+      "values": [
+        {
+          "id": "hacks",
+          "value": 164175,
+          "rank": 2,
+          "pageviews": 164175,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "juror-no-2",
+          "value": 57956,
+          "rank": 4,
+          "pageviews": 57956,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "creature-commandos-tv-series",
+          "value": 40877,
+          "rank": 9,
+          "pageviews": 40877,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "and-just-like-that",
+          "value": 36214,
+          "rank": 10,
+          "pageviews": 36214,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "harley-quinn-tv-series",
+          "value": 34755,
+          "rank": 13,
+          "pageviews": 34755,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "caddo-lake-film",
+          "value": 30107,
+          "rank": 17,
+          "pageviews": 30107,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "1976-chowchilla-kidnapping",
+          "value": 26623,
+          "rank": 20,
+          "pageviews": 26623,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260722",
+      "values": [
+        {
+          "id": "hacks",
+          "value": 161928,
+          "rank": 2,
+          "pageviews": 161928,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "juror-no-2",
+          "value": 56490,
+          "rank": 5,
+          "pageviews": 56490,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "creature-commandos-tv-series",
+          "value": 40433,
+          "rank": 9,
+          "pageviews": 40433,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "and-just-like-that",
+          "value": 35962,
+          "rank": 11,
+          "pageviews": 35962,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "harley-quinn-tv-series",
+          "value": 34724,
+          "rank": 12,
+          "pageviews": 34724,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "caddo-lake-film",
+          "value": 29084,
+          "rank": 19,
+          "pageviews": 29084,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "1976-chowchilla-kidnapping",
+          "value": 26759,
+          "rank": 20,
+          "pageviews": 26759,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260728",
+      "values": [
+        {
+          "id": "creature-commandos-tv-series",
+          "value": 40881,
+          "rank": 1,
+          "pageviews": 40881,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "and-just-like-that",
+          "value": 35944,
+          "rank": 2,
+          "pageviews": 35944,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "harley-quinn-tv-series",
+          "value": 34686,
+          "rank": 3,
+          "pageviews": 34686,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "1976-chowchilla-kidnapping",
+          "value": 28237,
+          "rank": 4,
+          "pageviews": 28237,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "caddo-lake-film",
+          "value": 27612,
+          "rank": 5,
+          "pageviews": 27612,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "doom-patrol-tv-series",
+          "value": 25607,
+          "rank": 6,
+          "pageviews": 25607,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "adventure-time-fionna-and-cake",
+          "value": 24249,
+          "rank": 7,
+          "pageviews": 24249,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "salem-s-lot-film",
+          "value": 21627,
+          "rank": 9,
+          "pageviews": 21627,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "clone-high",
+          "value": 16156,
+          "rank": 10,
+          "pageviews": 16156,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "it-s-a-sin-tv-series",
+          "value": 14369,
+          "rank": 11,
+          "pageviews": 14369,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "friends-the-reunion",
+          "value": 13669,
+          "rank": 12,
+          "pageviews": 13669,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series",
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming",
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "bookie-tv-series",
+          "value": 13494,
+          "rank": 13,
+          "pageviews": 13494,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "garbage-pail-kids",
+          "value": 11043,
+          "rank": 17,
+          "pageviews": 11043,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "am-i-ok",
+          "value": 10797,
+          "rank": 18,
+          "pageviews": 10797,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "duster-tv-series",
+          "value": 10162,
+          "rank": 19,
+          "pageviews": 10162,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260804",
+      "values": [
+        {
+          "id": "hacks",
+          "value": 149261,
+          "rank": 1,
+          "pageviews": 149261,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "creature-commandos-tv-series",
+          "value": 39180,
+          "rank": 3,
+          "pageviews": 39180,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "harley-quinn-tv-series",
+          "value": 36336,
+          "rank": 4,
+          "pageviews": 36336,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "and-just-like-that",
+          "value": 33406,
+          "rank": 5,
+          "pageviews": 33406,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "1976-chowchilla-kidnapping",
+          "value": 27759,
+          "rank": 8,
+          "pageviews": 27759,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "caddo-lake-film",
+          "value": 27117,
+          "rank": 10,
+          "pageviews": 27117,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "doom-patrol-tv-series",
+          "value": 24766,
+          "rank": 13,
+          "pageviews": 24766,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "adventure-time-fionna-and-cake",
+          "value": 22328,
+          "rank": 15,
+          "pageviews": 22328,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "salem-s-lot-film",
+          "value": 20794,
+          "rank": 17,
+          "pageviews": 20794,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "clone-high",
+          "value": 16431,
+          "rank": 18,
+          "pageviews": 16431,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "friends-the-reunion",
+          "value": 14072,
+          "rank": 19,
+          "pageviews": 14072,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series",
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming",
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "gossip-girl-2021-tv-series",
+          "value": 13957,
+          "rank": 20,
+          "pageviews": 13957,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260811",
+      "values": [
+        {
+          "id": "hacks",
+          "value": 133067,
+          "rank": 1,
+          "pageviews": 133067,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "juror-no-2",
+          "value": 53094,
+          "rank": 3,
+          "pageviews": 53094,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "creature-commandos-tv-series",
+          "value": 40734,
+          "rank": 4,
+          "pageviews": 40734,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "harley-quinn-tv-series",
+          "value": 35731,
+          "rank": 5,
+          "pageviews": 35731,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "and-just-like-that",
+          "value": 33779,
+          "rank": 7,
+          "pageviews": 33779,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "1976-chowchilla-kidnapping",
+          "value": 26169,
+          "rank": 10,
+          "pageviews": 26169,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "caddo-lake-film",
+          "value": 25633,
+          "rank": 12,
+          "pageviews": 25633,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "doom-patrol-tv-series",
+          "value": 24642,
+          "rank": 13,
+          "pageviews": 24642,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "adventure-time-fionna-and-cake",
+          "value": 21580,
+          "rank": 15,
+          "pageviews": 21580,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "salem-s-lot-film",
+          "value": 20889,
+          "rank": 16,
+          "pageviews": 20889,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "jessi-combs",
+          "value": 19561,
+          "rank": 18,
+          "pageviews": 19561,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "clone-high",
+          "value": 16652,
+          "rank": 19,
+          "pageviews": 16652,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260818",
+      "values": [
+        {
+          "id": "hacks",
+          "value": 127690,
+          "rank": 1,
+          "pageviews": 127690,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "juror-no-2",
+          "value": 57235,
+          "rank": 3,
+          "pageviews": 57235,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "creature-commandos-tv-series",
+          "value": 45129,
+          "rank": 4,
+          "pageviews": 45129,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "harley-quinn-tv-series",
+          "value": 35496,
+          "rank": 5,
+          "pageviews": 35496,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "and-just-like-that",
+          "value": 35262,
+          "rank": 6,
+          "pageviews": 35262,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "caddo-lake-film",
+          "value": 27200,
+          "rank": 9,
+          "pageviews": 27200,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "doom-patrol-tv-series",
+          "value": 24342,
+          "rank": 10,
+          "pageviews": 24342,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "1976-chowchilla-kidnapping",
+          "value": 23616,
+          "rank": 11,
+          "pageviews": 23616,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "adventure-time-fionna-and-cake",
+          "value": 20540,
+          "rank": 14,
+          "pageviews": 20540,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "salem-s-lot-film",
+          "value": 20428,
+          "rank": 15,
+          "pageviews": 20428,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "jessi-combs",
+          "value": 19954,
+          "rank": 16,
+          "pageviews": 19954,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "gossip-girl-2021-tv-series",
+          "value": 17216,
+          "rank": 17,
+          "pageviews": 17216,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "clone-high",
+          "value": 16940,
+          "rank": 18,
+          "pageviews": 16940,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "friends-the-reunion",
+          "value": 15076,
+          "rank": 20,
+          "pageviews": 15076,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series",
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming",
+            "List of HBO Max original films"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260822",
+      "values": [
+        {
+          "id": "hacks",
+          "value": 135762,
+          "rank": 3,
+          "pageviews": 135762,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "juror-no-2",
+          "value": 57225,
+          "rank": 7,
+          "pageviews": 57225,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "creature-commandos-tv-series",
+          "value": 52221,
+          "rank": 8,
+          "pageviews": 52221,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "and-just-like-that",
+          "value": 35516,
+          "rank": 9,
+          "pageviews": 35516,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "harley-quinn-tv-series",
+          "value": 35249,
+          "rank": 10,
+          "pageviews": 35249,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "caddo-lake-film",
+          "value": 27202,
+          "rank": 14,
+          "pageviews": 27202,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "doom-patrol-tv-series",
+          "value": 24694,
+          "rank": 17,
+          "pageviews": 24694,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "1976-chowchilla-kidnapping",
+          "value": 22842,
+          "rank": 19,
+          "pageviews": 22842,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260825",
+      "values": [
+        {
+          "id": "hacks",
+          "value": 133665,
+          "rank": 1,
+          "pageviews": 133665,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "juror-no-2",
+          "value": 58098,
+          "rank": 3,
+          "pageviews": 58098,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "creature-commandos-tv-series",
+          "value": 53252,
+          "rank": 4,
+          "pageviews": 53252,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "and-just-like-that",
+          "value": 36678,
+          "rank": 5,
+          "pageviews": 36678,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "harley-quinn-tv-series",
+          "value": 34932,
+          "rank": 7,
+          "pageviews": 34932,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "caddo-lake-film",
+          "value": 27026,
+          "rank": 9,
+          "pageviews": 27026,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "doom-patrol-tv-series",
+          "value": 25039,
+          "rank": 11,
+          "pageviews": 25039,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "1976-chowchilla-kidnapping",
+          "value": 21590,
+          "rank": 13,
+          "pageviews": 21590,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "conan-o-brien-must-go",
+          "value": 21258,
+          "rank": 14,
+          "pageviews": 21258,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "salem-s-lot-film",
+          "value": 20073,
+          "rank": 18,
+          "pageviews": 20073,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "gossip-girl-2021-tv-series",
+          "value": 19849,
+          "rank": 19,
+          "pageviews": 19849,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "adventure-time-fionna-and-cake",
+          "value": 19456,
+          "rank": 20,
+          "pageviews": 19456,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260901",
+      "values": [
+        {
+          "id": "hacks",
+          "value": 134343,
+          "rank": 1,
+          "pageviews": 134343,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "creature-commandos-tv-series",
+          "value": 61310,
+          "rank": 2,
+          "pageviews": 61310,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "juror-no-2",
+          "value": 57285,
+          "rank": 3,
+          "pageviews": 57285,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "and-just-like-that",
+          "value": 36830,
+          "rank": 4,
+          "pageviews": 36830,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "harley-quinn-tv-series",
+          "value": 35265,
+          "rank": 5,
+          "pageviews": 35265,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "conan-o-brien-must-go",
+          "value": 29652,
+          "rank": 6,
+          "pageviews": 29652,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "caddo-lake-film",
+          "value": 27562,
+          "rank": 7,
+          "pageviews": 27562,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "doom-patrol-tv-series",
+          "value": 25719,
+          "rank": 8,
+          "pageviews": 25719,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "jessi-combs",
+          "value": 23197,
+          "rank": 9,
+          "pageviews": 23197,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "gossip-girl-2021-tv-series",
+          "value": 20569,
+          "rank": 10,
+          "pageviews": 20569,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "salem-s-lot-film",
+          "value": 19597,
+          "rank": 11,
+          "pageviews": 19597,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "1976-chowchilla-kidnapping",
+          "value": 18808,
+          "rank": 12,
+          "pageviews": 18808,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "adventure-time-fionna-and-cake",
+          "value": 18672,
+          "rank": 13,
+          "pageviews": 18672,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "clone-high",
+          "value": 16859,
+          "rank": 14,
+          "pageviews": 16859,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "friends-the-reunion",
+          "value": 15594,
+          "rank": 15,
+          "pageviews": 15594,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series",
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming",
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "it-s-a-sin-tv-series",
+          "value": 13241,
+          "rank": 16,
+          "pageviews": 13241,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "bookie-tv-series",
+          "value": 13064,
+          "rank": 17,
+          "pageviews": 13064,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "duster-tv-series",
+          "value": 11092,
+          "rank": 18,
+          "pageviews": 11092,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        },
+        {
+          "id": "am-i-ok",
+          "value": 10861,
+          "rank": 19,
+          "pageviews": 10861,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of HBO Max original films"
+          ]
+        },
+        {
+          "id": "garbage-pail-kids",
+          "value": 10604,
+          "rank": 20,
+          "pageviews": 10604,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of HBO Max original programming"
+          ]
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "date": "20260630",
+      "title": "Creature Commandos leads Max attention",
+      "body": "Creature Commandos is the highest-ranked selected Max original in this Wikipedia-attention frame with 45,091 recent pageviews."
+    },
+    {
+      "date": "20260901",
+      "title": "Hacks leads Max attention",
+      "body": "Hacks is the highest-ranked selected Max original in this Wikipedia-attention frame with 134,343 recent pageviews."
+    }
+  ],
+  "sources": [
+    {
+      "title": "List of HBO Max original programming",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_HBO_Max_original_programming",
+      "note": "Source universe for Max original series."
+    },
+    {
+      "title": "List of HBO Max original films",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_HBO_Max_original_films",
+      "note": "Source universe for Max original films."
+    },
+    {
+      "title": "List of HBO original programming",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_HBO_original_programming",
+      "note": "Supplemental HBO title universe for Max/HBO viewing context."
+    }
+  ],
+  "lastObservationDate": "2026-09-01",
+  "sourceAudit": {
+    "wikipediaPages": [
+      {
+        "requestedPage": "List_of_Max_original_programming",
+        "sourceTitle": "List of HBO Max original programming",
+        "contentKind": "series"
+      },
+      {
+        "requestedPage": "List_of_Max_original_films",
+        "sourceTitle": "List of HBO Max original films",
+        "contentKind": "films"
+      }
+    ],
+    "sourceCandidateCount": 185,
+    "rankedRowCount": 20,
+    "rankBy": "wikipedia-pageviews",
+    "pageviewDays": 30,
+    "weeklyTop10AvailableOnWikipedia": false
+  },
+  "dataFreshness": {
+    "status": "fresh",
+    "refreshCadence": "weekly",
+    "lastUpdated": "2026-09-01T07:03:08.053Z",
+    "lastRefreshAttemptedAt": "2026-09-01T07:03:08.053Z",
+    "lastRefreshError": null,
+    "lastObservationDate": "2026-09-01",
+    "nextRefreshAt": "2026-09-08T07:00:00.000Z",
+    "sourceStatus": "Wikipedia pageview bootstrap for Max originals",
+    "confidence": "Observed 30 days of en.wikipedia pageviews for titles listed on 2 Wikipedia platform-original page(s) at 2026-09-01T07:03:08.053Z. This is not a weekly or current streaming Top 10."
+  },
+  "media": {
+    "imageFit": "contain",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-09-01T07:03:08.053Z",
+    "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+    "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+    "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+    "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 5,
+    "rows": 4,
+    "width": 1600,
+    "height": 1280,
+    "itemCount": 20,
+    "sourcedImageCount": 20,
+    "generatedImageCount": 0,
+    "placeholderCount": 0,
+    "ogImageUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/max-top-10.png",
+    "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/max-top-10.png",
+    "ogImageWidth": 1200,
+    "ogImageHeight": 630
+  },
+  "taxonomy": {
+    "primaryCategory": "entertainment",
+    "categories": [
+      "entertainment",
+      "streaming",
+      "television"
+    ],
+    "tags": [
+      "max",
+      "hbo",
+      "streaming",
+      "top-10"
+    ],
+    "entityTypes": [
+      "film",
+      "series"
+    ],
+    "sourceTypes": [
+      "wikipedia"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "what-everyone-is-watching",
+      "type": "streaming-platform-peer",
+      "weight": 0.82,
+      "reason": "Max should sit with the Netflix and other streaming watch districts."
+    },
+    {
+      "target": "movie-tv-search-heat",
+      "type": "screen-demand",
+      "weight": 0.7,
+      "reason": "Prestige-TV attention should be compared with public search heat."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "streaming-platforms",
+    "mainland": "culture",
+    "bridgePriority": [
+      "what-everyone-is-watching",
+      "movie-tv-search-heat"
+    ]
+  },
+  "schemaVersion": 1,
+  "contentKind": "dat-city.story",
+  "generatedAt": "2026-09-01T07:03:08.053Z",
+  "versionId": "20260901T070308Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "storyops-scheduler",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-09-01T07:03:08.053Z",
+    "versionId": "20260901T070308Z",
+    "adapter": "wikipedia-platform-originals",
+    "storySlug": "max-top-10",
+    "districtId": null,
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "publicProjection": {
+    "kind": "story",
+    "version": 1,
+    "generatedAt": "2026-09-01T07:03:08.053Z",
+    "adapter": "wikipedia-platform-originals",
+    "cache": {
+      "browserMaxAgeSeconds": 60,
+      "edgeMaxAgeSeconds": 3600
+    }
+  },
+  "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/max-top-10.png"
+}

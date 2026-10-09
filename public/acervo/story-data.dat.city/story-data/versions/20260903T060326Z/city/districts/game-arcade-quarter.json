@@ -1,0 +1,597 @@
+{
+  "schemaVersion": 1,
+  "contentKind": "dat-city.district",
+  "version": 1,
+  "generatedAt": "2026-09-02T07:01:52.367Z",
+  "versionId": "20260902T070152Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "storyops-scheduler",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-09-02T07:01:52.367Z",
+    "versionId": "20260902T070152Z",
+    "adapter": null,
+    "storySlug": "games-people-are-playing",
+    "districtId": "game-arcade-quarter",
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "id": "game-arcade-quarter",
+  "name": "Game Arcade Quarter",
+  "storySlug": "games-people-are-playing",
+  "storyUrl": "/stories/games-people-are-playing/",
+  "publicStoryUrl": "/stories/games-people-are-playing.json",
+  "metric": "Concurrent players",
+  "metricKey": "players",
+  "latestFrameLabel": "2026-09-02",
+  "summary": "Steam most-played games as daily snapshots, tracking launches, comebacks, and long-running live games.",
+  "taxonomy": {
+    "primaryCategory": "entertainment",
+    "categories": [
+      "entertainment",
+      "gaming",
+      "consumer-platforms"
+    ],
+    "tags": [
+      "steam",
+      "players",
+      "live-games",
+      "rankings"
+    ],
+    "entityTypes": [
+      "game"
+    ],
+    "sourceTypes": [
+      "steam"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "anime-rankings",
+      "type": "fandom-entertainment",
+      "weight": 0.62,
+      "reason": "Gaming and anime share fandom and pop-culture audiences."
+    },
+    {
+      "target": "what-everyone-is-watching",
+      "type": "attention-entertainment",
+      "weight": 0.58,
+      "reason": "Both rank leisure attention around entertainment products."
+    },
+    {
+      "target": "app-store-takeover",
+      "type": "consumer-apps-and-games",
+      "weight": 0.56,
+      "reason": "Both track consumer software rankings, with games overlapping app stores."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "interactive-entertainment",
+    "mainland": "culture",
+    "bridgePriority": [
+      "anime-rankings",
+      "app-store-takeover"
+    ]
+  },
+  "thumbnail": "/assets/og/dat-city.webp",
+  "status": "fresh",
+  "dataUpdatedAt": "2026-09-02T07:01:52.367Z",
+  "staleAfterHours": 30,
+  "dormant": false,
+  "lastObservationDate": "2026-09-02",
+  "nextRefreshAt": "2026-09-03T07:00:00.000Z",
+  "confidence": "Observed Steam most-played concurrent players at 2026-09-02T06:54:37.000Z.",
+  "methodology": "This story is generated from Steam's public charts service. The latest frame uses current concurrent players; the weekly comparison frame uses Steam's latest most-played weekly peak values. Historical monthly frames come from SteamCharts average-player tables for the same app IDs, while scheduled StoryOps runs append current snapshots so recent history stays observed daily data.",
+  "sources": [
+    {
+      "title": "Most Played Games",
+      "publisher": "Steam",
+      "url": "https://store.steampowered.com/charts/mostplayed",
+      "note": "Public chart source for current Steam most-played snapshots. Longitudinal history is built from dat.city StoryOps snapshots."
+    }
+  ],
+  "media": {
+    "tileSize": 384,
+    "imageFit": "contain-blur",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-09-02T07:01:52.367Z",
+    "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+    "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+    "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+    "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+    "tileWidth": 384,
+    "tileHeight": 384,
+    "tileAspectRatio": 1,
+    "columns": 5,
+    "rows": 4,
+    "width": 1920,
+    "height": 1536,
+    "itemCount": 20,
+    "sourcedImageCount": 19,
+    "generatedImageCount": 1,
+    "placeholderCount": 0
+  },
+  "entities": [
+    {
+      "id": "steam-730",
+      "name": "Counter-Strike 2",
+      "value": 584417,
+      "rank": 1,
+      "color": "#ff5a61",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/library_600x900_2x.jpg",
+      "storyUrl": "/stories/games-people-are-playing/",
+      "sourceIds": [
+        "Most Played Games"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "x": 0,
+          "y": 0,
+          "width": 384,
+          "height": 384,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.2,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/library_600x900_2x.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "steam-library"
+        }
+      }
+    },
+    {
+      "id": "steam-570",
+      "name": "Dota 2",
+      "value": 419871,
+      "rank": 2,
+      "color": "#ffc84a",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/library_600x900_2x.jpg",
+      "storyUrl": "/stories/games-people-are-playing/",
+      "sourceIds": [
+        "Most Played Games"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "x": 384,
+          "y": 0,
+          "width": 384,
+          "height": 384,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0,
+          "u1": 0.4,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/library_600x900_2x.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "steam-library"
+        }
+      }
+    },
+    {
+      "id": "steam-578080",
+      "name": "PUBG: BATTLEGROUNDS",
+      "value": 299239,
+      "rank": 3,
+      "color": "#18c871",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/578080/library_600x900_2x.jpg",
+      "storyUrl": "/stories/games-people-are-playing/",
+      "sourceIds": [
+        "Most Played Games"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "x": 768,
+          "y": 0,
+          "width": 384,
+          "height": 384,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0,
+          "u1": 0.6,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/578080/library_600x900_2x.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "steam-library"
+        }
+      }
+    },
+    {
+      "id": "steam-3419430",
+      "name": "Bongo Cat",
+      "value": 145374,
+      "rank": 4,
+      "color": "#d78fca",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3419430/library_600x900_2x.jpg",
+      "storyUrl": "/stories/games-people-are-playing/",
+      "sourceIds": [
+        "Most Played Games"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "x": 0,
+          "y": 768,
+          "width": 384,
+          "height": 384,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.5,
+          "u1": 0.2,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3419430/library_600x900_2x.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "steam-library"
+        }
+      }
+    },
+    {
+      "id": "steam-1172470",
+      "name": "Apex Legends™",
+      "value": 103570,
+      "rank": 5,
+      "color": "#8f6bff",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/library_600x900_2x.jpg",
+      "storyUrl": "/stories/games-people-are-playing/",
+      "sourceIds": [
+        "Most Played Games"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "x": 768,
+          "y": 384,
+          "width": 384,
+          "height": 384,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.25,
+          "u1": 0.6,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/library_600x900_2x.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "steam-library"
+        }
+      }
+    },
+    {
+      "id": "steam-1623730",
+      "name": "Palworld",
+      "value": 84506,
+      "rank": 6,
+      "color": "#18c871",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/library_600x900_2x.jpg",
+      "storyUrl": "/stories/games-people-are-playing/",
+      "sourceIds": [
+        "Most Played Games"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "x": 1152,
+          "y": 0,
+          "width": 384,
+          "height": 384,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0,
+          "u1": 0.8,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/library_600x900_2x.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "steam-library"
+        }
+      }
+    },
+    {
+      "id": "steam-431960",
+      "name": "Wallpaper Engine",
+      "shortName": "Wallpaper Engine",
+      "value": 74243,
+      "rank": 7,
+      "color": "#86bdf4",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/431960/library_600x900_2x.jpg",
+      "storyUrl": "/stories/games-people-are-playing/",
+      "sourceIds": [
+        "Most Played Games"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "x": 768,
+          "y": 1152,
+          "width": 384,
+          "height": 384,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.75,
+          "u1": 0.6,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/431960/library_600x900_2x.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "steam-library"
+        }
+      }
+    },
+    {
+      "id": "steam-2676230",
+      "name": "FiveM",
+      "value": 70366,
+      "rank": 8,
+      "color": "#41a99f",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2676230/library_600x900_2x.jpg",
+      "storyUrl": "/stories/games-people-are-playing/",
+      "sourceIds": [
+        "Most Played Games"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "x": 384,
+          "y": 768,
+          "width": 384,
+          "height": 384,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.5,
+          "u1": 0.4,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2676230/9e8a2df18bfdd24267aefa6d3e14778c2ecb1708/header.jpg?t=1778609608",
+          "sourceStatus": "source-image",
+          "sourceProvider": "steam-store"
+        }
+      }
+    },
+    {
+      "id": "steam-3678970",
+      "name": "TBH: Task Bar Hero",
+      "value": 68485,
+      "rank": 9,
+      "color": "#86bdf4",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3678970/library_600x900_2x.jpg",
+      "storyUrl": "/stories/games-people-are-playing/",
+      "sourceIds": [
+        "Most Played Games"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "x": 1536,
+          "y": 0,
+          "width": 384,
+          "height": 384,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3678970/be640d1ea4db8d9139069e3799d8d4553f0c2131/header.jpg?t=1780512075",
+          "sourceStatus": "source-image",
+          "sourceProvider": "steam-store"
+        }
+      }
+    },
+    {
+      "id": "steam-2507950",
+      "name": "Delta Force",
+      "shortName": "Delta Force",
+      "value": 52988,
+      "rank": 10,
+      "color": "#7b9b65",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2507950/library_600x900_2x.jpg",
+      "storyUrl": "/stories/games-people-are-playing/",
+      "sourceIds": [
+        "Most Played Games"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "x": 1152,
+          "y": 1152,
+          "width": 384,
+          "height": 384,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.75,
+          "u1": 0.8,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2507950/library_600x900_2x.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "steam-library"
+        }
+      }
+    },
+    {
+      "id": "steam-2868840",
+      "name": "Slay the Spire 2",
+      "value": 50205,
+      "rank": 11,
+      "color": "#f18c4f",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2868840/library_600x900_2x.jpg",
+      "storyUrl": "/stories/games-people-are-playing/",
+      "sourceIds": [
+        "Most Played Games"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "x": 384,
+          "y": 384,
+          "width": 384,
+          "height": 384,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.25,
+          "u1": 0.4,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2868840/library_600x900_2x.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "steam-library"
+        }
+      }
+    },
+    {
+      "id": "steam-4001890",
+      "name": "How to Fish",
+      "value": 47622,
+      "rank": 12,
+      "color": "#9aa4b2",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4001890/library_600x900_2x.jpg",
+      "storyUrl": "/stories/games-people-are-playing/",
+      "sourceIds": [
+        "Most Played Games"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "x": 768,
+          "y": 768,
+          "width": 384,
+          "height": 384,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.5,
+          "u1": 0.6,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4001890/45c4ddff4901e32c4b8b643e1b97d0d01898d299/header.jpg?t=1787234618",
+          "sourceStatus": "source-image",
+          "sourceProvider": "steam-store"
+        }
+      }
+    },
+    {
+      "id": "steam-413150",
+      "name": "Stardew Valley",
+      "shortName": "Stardew Valley",
+      "value": 43920,
+      "rank": 13,
+      "color": "#ef426f",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/library_600x900_2x.jpg",
+      "storyUrl": "/stories/games-people-are-playing/",
+      "sourceIds": [
+        "Most Played Games"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "x": 384,
+          "y": 1152,
+          "width": 384,
+          "height": 384,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.75,
+          "u1": 0.4,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/library_600x900_2x.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "steam-library"
+        }
+      }
+    },
+    {
+      "id": "steam-252490",
+      "name": "Rust",
+      "value": 42710,
+      "rank": 14,
+      "color": "#c9a14a",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/library_600x900_2x.jpg",
+      "storyUrl": "/stories/games-people-are-playing/",
+      "sourceIds": [
+        "Most Played Games"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "x": 1536,
+          "y": 768,
+          "width": 384,
+          "height": 384,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.5,
+          "u1": 1,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/library_600x900_2x.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "steam-library"
+        }
+      }
+    }
+  ]
+}

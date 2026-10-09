@@ -17,6 +17,8 @@
     }
     const exact = files[url.href.replace(/#.*$/, '')];
     if (exact) return exact + url.hash;
+    const atlas=url.host==='story-data.dat.city'&&url.pathname.match(/^\/story-data\/versions\/[^/]+\/assets\/story-atlases\/([^/]+\.webp)$/);
+    if(atlas){const current=files[`https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/${atlas[1]}${url.search}`];if(current)return current;}
     const poster=url.host==='sael.net'&&url.pathname.match(/^\/([^/]+)\/poster\.webp$/);
     if(poster){const slug=poster[1]==='ai-mall'?'a-muse-ment':poster[1],archived=files[`https://sael.net/p/${slug}/poster.webp`];if(archived)return archived;}
     if (hosts.has(url.host)) return '/acervo/' + url.host + url.pathname + url.search + url.hash;

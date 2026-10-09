@@ -1,0 +1,845 @@
+{
+  "schemaVersion": 1,
+  "contentKind": "dat-city.district",
+  "version": 1,
+  "generatedAt": "2026-09-01T07:03:08.053Z",
+  "versionId": "20260901T070308Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "storyops-scheduler",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-09-01T07:03:08.053Z",
+    "versionId": "20260901T070308Z",
+    "adapter": null,
+    "storySlug": "max-top-10",
+    "districtId": "max-watch-lot",
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "id": "max-watch-lot",
+  "name": "Max Watch Lot",
+  "storySlug": "max-top-10",
+  "storyUrl": "/stories/max-top-10/",
+  "publicStoryUrl": "/stories/max-top-10.json",
+  "metric": "Wikipedia views",
+  "metricKey": "wikipedia-views",
+  "latestFrameLabel": "2026-09-01",
+  "summary": "Max and HBO titles ranked by Wikipedia attention as a temporary source-backed bootstrap, not an official weekly Top 10.",
+  "taxonomy": {
+    "primaryCategory": "entertainment",
+    "categories": [
+      "entertainment",
+      "streaming",
+      "television"
+    ],
+    "tags": [
+      "max",
+      "hbo",
+      "streaming",
+      "top-10"
+    ],
+    "entityTypes": [
+      "film",
+      "series"
+    ],
+    "sourceTypes": [
+      "wikipedia"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "what-everyone-is-watching",
+      "type": "streaming-platform-peer",
+      "weight": 0.82,
+      "reason": "Max should sit with the Netflix and other streaming watch districts."
+    },
+    {
+      "target": "movie-tv-search-heat",
+      "type": "screen-demand",
+      "weight": 0.7,
+      "reason": "Prestige-TV attention should be compared with public search heat."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "streaming-platforms",
+    "mainland": "culture",
+    "bridgePriority": [
+      "what-everyone-is-watching",
+      "movie-tv-search-heat"
+    ]
+  },
+  "thumbnail": "/assets/og/dat-city.webp",
+  "status": "fresh",
+  "dataUpdatedAt": "2026-09-01T07:03:08.053Z",
+  "staleAfterHours": 192,
+  "dormant": false,
+  "lastObservationDate": "2026-09-01",
+  "nextRefreshAt": "2026-09-08T07:00:00.000Z",
+  "confidence": "Observed 30 days of en.wikipedia pageviews for titles listed on 2 Wikipedia platform-original page(s) at 2026-09-01T07:03:08.053Z. This is not a weekly or current streaming Top 10.",
+  "methodology": "Wikipedia does not currently provide a durable weekly/current Top 10 page for Max. This bootstrap uses the configured Wikipedia original-programming and original-film list pages as the source universe, then ranks titles by recent en.wikipedia pageviews via Wikipedia's PageViewInfo API. Treat the output as public-interest attention among platform originals, not streaming watch time or official platform ranking.",
+  "sources": [
+    {
+      "title": "List of HBO Max original programming",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_HBO_Max_original_programming",
+      "note": "Source universe for Max original series."
+    },
+    {
+      "title": "List of HBO Max original films",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_HBO_Max_original_films",
+      "note": "Source universe for Max original films."
+    },
+    {
+      "title": "List of HBO original programming",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_HBO_original_programming",
+      "note": "Supplemental HBO title universe for Max/HBO viewing context."
+    }
+  ],
+  "media": {
+    "imageFit": "contain",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-09-01T07:03:08.053Z",
+    "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+    "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+    "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+    "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 5,
+    "rows": 4,
+    "width": 1600,
+    "height": 1280,
+    "itemCount": 20,
+    "sourcedImageCount": 20,
+    "generatedImageCount": 0,
+    "placeholderCount": 0
+  },
+  "entities": [
+    {
+      "id": "hacks",
+      "name": "Hacks",
+      "value": 134343,
+      "rank": 1,
+      "color": "#41a99f",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Hacks_TV_Series_Logo.svg/960px-Hacks_TV_Series_Logo.svg.png",
+      "storyUrl": "/stories/max-top-10/",
+      "sourceIds": [
+        "List of HBO Max original programming",
+        "List of HBO Max original films",
+        "List of HBO original programming"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.2,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Hacks_TV_Series_Logo.svg/960px-Hacks_TV_Series_Logo.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "creature-commandos-tv-series",
+      "name": "Creature Commandos",
+      "value": 61310,
+      "rank": 2,
+      "color": "#ff5a61",
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/c6/Creature_Commandos_%28TV_series%29_logo.jpg",
+      "storyUrl": "/stories/max-top-10/",
+      "sourceIds": [
+        "List of HBO Max original programming",
+        "List of HBO Max original films",
+        "List of HBO original programming"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0,
+          "u1": 0.4,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/c/c6/Creature_Commandos_%28TV_series%29_logo.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "juror-no-2",
+      "name": "Juror No. 2",
+      "value": 57285,
+      "rank": 3,
+      "color": "#41a99f",
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/be/Juror_No._2_%282024%29.jpg",
+      "storyUrl": "/stories/max-top-10/",
+      "sourceIds": [
+        "List of HBO Max original programming",
+        "List of HBO Max original films",
+        "List of HBO original programming"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0,
+          "u1": 0.6,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/b/be/Juror_No._2_%282024%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "and-just-like-that",
+      "name": "And Just Like That...",
+      "value": 36830,
+      "rank": 4,
+      "color": "#ffc84a",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/And_Just_Like_That_logo.svg/960px-And_Just_Like_That_logo.svg.png",
+      "storyUrl": "/stories/max-top-10/",
+      "sourceIds": [
+        "List of HBO Max original programming",
+        "List of HBO Max original films",
+        "List of HBO original programming"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0,
+          "u1": 0.8,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/And_Just_Like_That_logo.svg/960px-And_Just_Like_That_logo.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "harley-quinn-tv-series",
+      "name": "Harley Quinn (seasons 3–5)",
+      "value": 35265,
+      "rank": 5,
+      "color": "#d78fca",
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/c3/Harley_Quinn_Title_Card.jpg",
+      "storyUrl": "/stories/max-top-10/",
+      "sourceIds": [
+        "List of HBO Max original programming",
+        "List of HBO Max original films",
+        "List of HBO original programming"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "x": 1280,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/c/c3/Harley_Quinn_Title_Card.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "conan-o-brien-must-go",
+      "name": "Conan O'Brien Must Go",
+      "value": 29652,
+      "rank": 6,
+      "color": "#18c871",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Conan_O%27Brien_Must_Go_Title_Card.png/960px-Conan_O%27Brien_Must_Go_Title_Card.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "storyUrl": "/stories/max-top-10/",
+      "sourceIds": [
+        "List of HBO Max original programming",
+        "List of HBO Max original films",
+        "List of HBO original programming"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.25,
+          "u1": 0.2,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Conan_O%27Brien_Must_Go_Title_Card.png/960px-Conan_O%27Brien_Must_Go_Title_Card.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "caddo-lake-film",
+      "name": "Caddo Lake",
+      "value": 27562,
+      "rank": 7,
+      "color": "#18c871",
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/9a/Caddo_Lake_film_poster.jpg",
+      "storyUrl": "/stories/max-top-10/",
+      "sourceIds": [
+        "List of HBO Max original programming",
+        "List of HBO Max original films",
+        "List of HBO original programming"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.25,
+          "u1": 0.4,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/9/9a/Caddo_Lake_film_poster.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "doom-patrol-tv-series",
+      "name": "Doom Patrol (seasons 2–4)",
+      "value": 25719,
+      "rank": 8,
+      "color": "#7b9b65",
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/11/Doom_Patrol_logo.jpg",
+      "storyUrl": "/stories/max-top-10/",
+      "sourceIds": [
+        "List of HBO Max original programming",
+        "List of HBO Max original films",
+        "List of HBO original programming"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.25,
+          "u1": 0.6,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/1/11/Doom_Patrol_logo.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "jessi-combs",
+      "name": "The Fastest Woman on Earth",
+      "value": 23197,
+      "rank": 9,
+      "color": "#9aa4b2",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/de/Jessi_Combs_at_SEMA_Show_2012_%288158037371%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "storyUrl": "/stories/max-top-10/",
+      "sourceIds": [
+        "List of HBO Max original programming",
+        "List of HBO Max original films",
+        "List of HBO original programming"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.25,
+          "u1": 0.8,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/Jessi_Combs_at_SEMA_Show_2012_%288158037371%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "gossip-girl-2021-tv-series",
+      "name": "Gossip Girl",
+      "value": 20569,
+      "rank": 10,
+      "color": "#e34f59",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Gossip_Girl_%282021%29_logo.svg/960px-Gossip_Girl_%282021%29_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "storyUrl": "/stories/max-top-10/",
+      "sourceIds": [
+        "List of HBO Max original programming",
+        "List of HBO Max original films",
+        "List of HBO original programming"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "x": 1280,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.25,
+          "u1": 1,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Gossip_Girl_%282021%29_logo.svg/960px-Gossip_Girl_%282021%29_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "salem-s-lot-film",
+      "name": "'Salem's Lot",
+      "value": 19597,
+      "rank": 11,
+      "color": "#9aa4b2",
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/57/Salem%27s_Lot_%282024%29_poster.jpg",
+      "storyUrl": "/stories/max-top-10/",
+      "sourceIds": [
+        "List of HBO Max original programming",
+        "List of HBO Max original films",
+        "List of HBO original programming"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.5,
+          "u1": 0.2,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/5/57/Salem%27s_Lot_%282024%29_poster.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "1976-chowchilla-kidnapping",
+      "name": "Chowchilla",
+      "value": 18808,
+      "rank": 12,
+      "color": "#2f4858",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Chowchilla_kidnapping_trailer.jpg/960px-Chowchilla_kidnapping_trailer.jpg",
+      "storyUrl": "/stories/max-top-10/",
+      "sourceIds": [
+        "List of HBO Max original programming",
+        "List of HBO Max original films",
+        "List of HBO original programming"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.5,
+          "u1": 0.4,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Chowchilla_kidnapping_trailer.jpg/960px-Chowchilla_kidnapping_trailer.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "adventure-time-fionna-and-cake",
+      "name": "Adventure Time: Fionna and Cake",
+      "value": 18672,
+      "rank": 13,
+      "color": "#86bdf4",
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/27/Fionna_and_Cake_S2_Title_logo.png",
+      "storyUrl": "/stories/max-top-10/",
+      "sourceIds": [
+        "List of HBO Max original programming",
+        "List of HBO Max original films",
+        "List of HBO original programming"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.5,
+          "u1": 0.6,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/2/27/Fionna_and_Cake_S2_Title_logo.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "clone-high",
+      "name": "Clone High (seasons 2–3)",
+      "value": 16859,
+      "rank": 14,
+      "color": "#ffc84a",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Clone_High_Logo.png/960px-Clone_High_Logo.png",
+      "storyUrl": "/stories/max-top-10/",
+      "sourceIds": [
+        "List of HBO Max original programming",
+        "List of HBO Max original films",
+        "List of HBO original programming"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.5,
+          "u1": 0.8,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Clone_High_Logo.png/960px-Clone_High_Logo.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "friends-the-reunion",
+      "name": "Friends: The Reunion",
+      "value": 15594,
+      "rank": 15,
+      "color": "#8f6bff",
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/6f/Friends_The_Reunion_poster.jpg",
+      "storyUrl": "/stories/max-top-10/",
+      "sourceIds": [
+        "List of HBO Max original programming",
+        "List of HBO Max original films",
+        "List of HBO original programming"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "x": 1280,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.5,
+          "u1": 1,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/6/6f/Friends_The_Reunion_poster.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "it-s-a-sin-tv-series",
+      "name": "It's a Sin",
+      "value": 13241,
+      "rank": 16,
+      "color": "#00a6ff",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/It%27s_a_Sin.jpg/960px-It%27s_a_Sin.jpg",
+      "storyUrl": "/stories/max-top-10/",
+      "sourceIds": [
+        "List of HBO Max original programming",
+        "List of HBO Max original films",
+        "List of HBO original programming"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "x": 0,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.75,
+          "u1": 0.2,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/It%27s_a_Sin.jpg/960px-It%27s_a_Sin.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "bookie-tv-series",
+      "name": "Bookie",
+      "value": 13064,
+      "rank": 17,
+      "color": "#f18c4f",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Bookie_logo.svg/960px-Bookie_logo.svg.png",
+      "storyUrl": "/stories/max-top-10/",
+      "sourceIds": [
+        "List of HBO Max original programming",
+        "List of HBO Max original films",
+        "List of HBO original programming"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "x": 320,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.75,
+          "u1": 0.4,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Bookie_logo.svg/960px-Bookie_logo.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "duster-tv-series",
+      "name": "Duster",
+      "value": 11092,
+      "rank": 18,
+      "color": "#86bdf4",
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/28/Duster_tv_series_logo.png",
+      "storyUrl": "/stories/max-top-10/",
+      "sourceIds": [
+        "List of HBO Max original programming",
+        "List of HBO Max original films",
+        "List of HBO original programming"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "x": 640,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.75,
+          "u1": 0.6,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/2/28/Duster_tv_series_logo.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "am-i-ok",
+      "name": "Am I OK?",
+      "value": 10861,
+      "rank": 19,
+      "color": "#ef426f",
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/dc/Am_I_Ok_poster.jpg",
+      "storyUrl": "/stories/max-top-10/",
+      "sourceIds": [
+        "List of HBO Max original programming",
+        "List of HBO Max original films",
+        "List of HBO original programming"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "x": 960,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.75,
+          "u1": 0.8,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/d/dc/Am_I_Ok_poster.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "garbage-pail-kids",
+      "name": "Garbage Pail Kids",
+      "value": 10604,
+      "rank": 20,
+      "color": "#2f4858",
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/51/Garbage_Pail_Kids_TCG_cardback.png",
+      "storyUrl": "/stories/max-top-10/",
+      "sourceIds": [
+        "List of HBO Max original programming",
+        "List of HBO Max original films",
+        "List of HBO original programming"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/max-top-10.json",
+          "x": 1280,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.75,
+          "u1": 1,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/5/51/Garbage_Pail_Kids_TCG_cardback.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    }
+  ]
+}

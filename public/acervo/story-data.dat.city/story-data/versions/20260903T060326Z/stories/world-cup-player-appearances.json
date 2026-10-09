@@ -1,0 +1,842 @@
+{
+  "id": "world-cup-player-appearances",
+  "kicker": "World Cup Record Book",
+  "title": "World Cup Player Appearances",
+  "subtitle": "A longevity leaderboard for the players with the most men's FIFA World Cup matches.",
+  "badge": "Ranked by matches played",
+  "visualization": "race-arena",
+  "theme": "stadium",
+  "artStyle": "stylized-editorial",
+  "dateRange": [
+    "1930",
+    "2026"
+  ],
+  "metricLabel": "Matches played",
+  "valueFormat": "integer",
+  "ogImage": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/world-cup-player-appearances.png",
+  "cityPreview": {
+    "districtId": "world-cup-icons-walk",
+    "districtName": "World Cup Icons Walk",
+    "cardLabel": "Player Appearances",
+    "summary": "The players whose World Cup careers lasted the longest by matches played.",
+    "primaryMetric": "Matches played",
+    "latestFrameLabel": "July 19, 2026 final table",
+    "storyUrl": "/stories/world-cup-player-appearances/",
+    "thumbnail": "/assets/og/dat-city.webp"
+  },
+  "sourceStatus": "Player appearance totals through the 2026 final",
+  "confidence": "Player appearance totals combine historical record tables with 2026 tournament participation. Lionel Messi (34) extends his record after playing all of Argentina's matches to the final; Cristiano Ronaldo reaches 27 after Portugal's run.",
+  "methodology": "The adapter projects leading men's World Cup player appearance totals from public historical record tables, then adds 2026 appearances from FIFA match data for active players.",
+  "playback": {
+    "durationSeconds": 24,
+    "initialDate": "2026",
+    "periodLabel": "matches played"
+  },
+  "visual": {
+    "topCount": 16,
+    "referenceCount": 16,
+    "horizontalCount": 16
+  },
+  "layers": [
+    {
+      "id": "matches",
+      "label": "Matches",
+      "default": true
+    }
+  ],
+  "focus": [
+    {
+      "id": "lionel-messi",
+      "label": "Lionel Messi"
+    },
+    {
+      "id": "cristiano-ronaldo",
+      "label": "Cristiano Ronaldo"
+    },
+    {
+      "id": "lothar-matthaus",
+      "label": "Lothar Matthaus"
+    },
+    {
+      "id": "miroslav-klose",
+      "label": "Miroslav Klose"
+    }
+  ],
+  "entities": [
+    {
+      "avatarText": "LM",
+      "color": "#18c871",
+      "id": "lionel-messi",
+      "name": "Lionel Messi",
+      "shortName": "Lionel Messi",
+      "article": "Lionel Messi",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg/960px-Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "country": "Argentina",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg/960px-Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.json",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.25,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg/960px-Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "avatarText": "CR",
+      "color": "#ffc84a",
+      "id": "cristiano-ronaldo",
+      "name": "Cristiano Ronaldo",
+      "shortName": "Cristiano Ronaldo",
+      "article": "Cristiano Ronaldo",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Cristiano_Ronaldo_Croatia_v_Portugal_2_July_2026-075_%28cropped%29.jpg/960px-Cristiano_Ronaldo_Croatia_v_Portugal_2_July_2026-075_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "country": "Portugal",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Cristiano_Ronaldo_Croatia_v_Portugal_2_July_2026-075_%28cropped%29.jpg/960px-Cristiano_Ronaldo_Croatia_v_Portugal_2_July_2026-075_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.json",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0,
+          "u1": 0.5,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Cristiano_Ronaldo_Croatia_v_Portugal_2_July_2026-075_%28cropped%29.jpg/960px-Cristiano_Ronaldo_Croatia_v_Portugal_2_July_2026-075_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "avatarText": "LM",
+      "color": "#00a6ff",
+      "id": "lothar-matthaus",
+      "name": "Lothar Matthaus",
+      "shortName": "Lothar Matthaus",
+      "article": "Lothar Matthaus",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/2019_Lothar_Matth%C3%A4us.jpg/960px-2019_Lothar_Matth%C3%A4us.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "country": "Germany",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/2019_Lothar_Matth%C3%A4us.jpg/960px-2019_Lothar_Matth%C3%A4us.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.json",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0,
+          "u1": 0.75,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/2019_Lothar_Matth%C3%A4us.jpg/960px-2019_Lothar_Matth%C3%A4us.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "avatarText": "MK",
+      "color": "#f3f7f0",
+      "id": "miroslav-klose",
+      "name": "Miroslav Klose",
+      "shortName": "Miroslav Klose",
+      "article": "Miroslav Klose",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/2016209185719_2016-07-27_Champions_for_Charity_-_Sven_-_1D_X_-_0149_-_DV3P4742_mod.jpg/960px-2016209185719_2016-07-27_Champions_for_Charity_-_Sven_-_1D_X_-_0149_-_DV3P4742_mod.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "country": "Germany",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/2016209185719_2016-07-27_Champions_for_Charity_-_Sven_-_1D_X_-_0149_-_DV3P4742_mod.jpg/960px-2016209185719_2016-07-27_Champions_for_Charity_-_Sven_-_1D_X_-_0149_-_DV3P4742_mod.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.json",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/2016209185719_2016-07-27_Champions_for_Charity_-_Sven_-_1D_X_-_0149_-_DV3P4742_mod.jpg/960px-2016209185719_2016-07-27_Champions_for_Charity_-_Sven_-_1D_X_-_0149_-_DV3P4742_mod.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "avatarText": "PM",
+      "color": "#ff5a61",
+      "id": "paolo-maldini",
+      "name": "Paolo Maldini",
+      "shortName": "Paolo Maldini",
+      "article": "Paolo Maldini",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Paolo_Maldini_AC_Milan_Technical_director_2018.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "country": "Italy",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Paolo_Maldini_AC_Milan_Technical_director_2018.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.json",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.25,
+          "u1": 0.25,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Paolo_Maldini_AC_Milan_Technical_director_2018.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "avatarText": "DM",
+      "color": "#41a99f",
+      "id": "diego-maradona",
+      "name": "Diego Maradona",
+      "shortName": "Diego Maradona",
+      "article": "Diego Maradona",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/48/Argentina_celebrando_copa_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "country": "Argentina",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/4/48/Argentina_celebrando_copa_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.json",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.25,
+          "u1": 0.5,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/48/Argentina_celebrando_copa_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "avatarText": "US",
+      "color": "#86bdf4",
+      "id": "uwe-seeler",
+      "name": "Uwe Seeler",
+      "shortName": "Uwe Seeler",
+      "article": "Uwe Seeler",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/42/Uwe_Seeler_1966_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "country": "Germany",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/4/42/Uwe_Seeler_1966_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.json",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.25,
+          "u1": 0.75,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/42/Uwe_Seeler_1966_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "avatarText": "WZ",
+      "color": "#f18c4f",
+      "id": "wladyslaw-zmuda",
+      "name": "Wladyslaw Zmuda",
+      "shortName": "Wladyslaw Zmuda",
+      "article": "Wladyslaw Zmuda",
+      "imageUrl": null,
+      "country": "Poland",
+      "thumbnailUrl": null,
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.json",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.25,
+          "u1": 1,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:wladyslaw-zmuda",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "avatarText": "C",
+      "color": "#2f4858",
+      "id": "cafu",
+      "name": "Cafu",
+      "shortName": "Cafu",
+      "article": "Cafu",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/Cafu_-_26.02.2026_-_Cerim%C3%B4nia_de_apresenta%C3%A7%C3%A3o_das_ta%C3%A7as_da_Copa_do_Mundo_de_2026.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "country": "Brazil",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/Cafu_-_26.02.2026_-_Cerim%C3%B4nia_de_apresenta%C3%A7%C3%A3o_das_ta%C3%A7as_da_Copa_do_Mundo_de_2026.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.json",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.5,
+          "u1": 0.25,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/Cafu_-_26.02.2026_-_Cerim%C3%B4nia_de_apresenta%C3%A7%C3%A3o_das_ta%C3%A7as_da_Copa_do_Mundo_de_2026.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "avatarText": "PL",
+      "color": "#c9a14a",
+      "id": "philipp-lahm",
+      "name": "Philipp Lahm",
+      "shortName": "Philipp Lahm",
+      "article": "Philipp Lahm",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Philipp_Lahm_auf_der_Berlinale_2024%2C_Ausschnitt.jpg/960px-Philipp_Lahm_auf_der_Berlinale_2024%2C_Ausschnitt.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "country": "Germany",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Philipp_Lahm_auf_der_Berlinale_2024%2C_Ausschnitt.jpg/960px-Philipp_Lahm_auf_der_Berlinale_2024%2C_Ausschnitt.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.json",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.5,
+          "u1": 0.5,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Philipp_Lahm_auf_der_Berlinale_2024%2C_Ausschnitt.jpg/960px-Philipp_Lahm_auf_der_Berlinale_2024%2C_Ausschnitt.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "avatarText": "BS",
+      "color": "#ef426f",
+      "id": "bastian-schweinsteiger",
+      "name": "Bastian Schweinsteiger",
+      "shortName": "Bastian Schweinsteiger",
+      "article": "Bastian Schweinsteiger",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Re-publica_23_-_Tag_3_%2852957826298%29_%28cropped%29.jpg/960px-Re-publica_23_-_Tag_3_%2852957826298%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "country": "Germany",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Re-publica_23_-_Tag_3_%2852957826298%29_%28cropped%29.jpg/960px-Re-publica_23_-_Tag_3_%2852957826298%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.json",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.5,
+          "u1": 0.75,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Re-publica_23_-_Tag_3_%2852957826298%29_%28cropped%29.jpg/960px-Re-publica_23_-_Tag_3_%2852957826298%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "avatarText": "GL",
+      "color": "#7b9b65",
+      "id": "grzegorz-lato",
+      "name": "Grzegorz Lato",
+      "shortName": "Grzegorz Lato",
+      "article": "Grzegorz Lato",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/V.l.n.r._Lato%2C_Boniek_en_trainer_Kulesza%2C_Bestanddeelnr_930-4929_%28Lato_cropped%29.jpg/960px-V.l.n.r._Lato%2C_Boniek_en_trainer_Kulesza%2C_Bestanddeelnr_930-4929_%28Lato_cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "country": "Poland",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/V.l.n.r._Lato%2C_Boniek_en_trainer_Kulesza%2C_Bestanddeelnr_930-4929_%28Lato_cropped%29.jpg/960px-V.l.n.r._Lato%2C_Boniek_en_trainer_Kulesza%2C_Bestanddeelnr_930-4929_%28Lato_cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.json",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.5,
+          "u1": 1,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/V.l.n.r._Lato%2C_Boniek_en_trainer_Kulesza%2C_Bestanddeelnr_930-4929_%28Lato_cropped%29.jpg/960px-V.l.n.r._Lato%2C_Boniek_en_trainer_Kulesza%2C_Bestanddeelnr_930-4929_%28Lato_cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "avatarText": "JM",
+      "color": "#18c871",
+      "id": "javier-mascherano",
+      "name": "Javier Mascherano",
+      "shortName": "Javier Mascherano",
+      "article": "Javier Mascherano",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Javier_Mascherano_NE_Revolution_Inter_Miami_7.9.25-040_%28cropped%29.jpg/960px-Javier_Mascherano_NE_Revolution_Inter_Miami_7.9.25-040_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "country": "Argentina",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Javier_Mascherano_NE_Revolution_Inter_Miami_7.9.25-040_%28cropped%29.jpg/960px-Javier_Mascherano_NE_Revolution_Inter_Miami_7.9.25-040_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.json",
+          "x": 0,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.75,
+          "u1": 0.25,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Javier_Mascherano_NE_Revolution_Inter_Miami_7.9.25-040_%28cropped%29.jpg/960px-Javier_Mascherano_NE_Revolution_Inter_Miami_7.9.25-040_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "avatarText": "BV",
+      "color": "#ffc84a",
+      "id": "berti-vogts",
+      "name": "Berti Vogts",
+      "shortName": "Berti Vogts",
+      "article": "Berti Vogts",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Berti_Vogts_1_%28cropped%29.JPG/960px-Berti_Vogts_1_%28cropped%29.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "country": "Germany",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Berti_Vogts_1_%28cropped%29.JPG/960px-Berti_Vogts_1_%28cropped%29.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.json",
+          "x": 320,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.75,
+          "u1": 0.5,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Berti_Vogts_1_%28cropped%29.JPG/960px-Berti_Vogts_1_%28cropped%29.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "avatarText": "RM",
+      "color": "#00a6ff",
+      "id": "rafael-marquez",
+      "name": "Rafael Marquez",
+      "shortName": "Rafael Marquez",
+      "article": "Rafael Marquez",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Rafael_M%C3%A1rquez_2014.jpg/960px-Rafael_M%C3%A1rquez_2014.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "country": "Mexico",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Rafael_M%C3%A1rquez_2014.jpg/960px-Rafael_M%C3%A1rquez_2014.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.json",
+          "x": 640,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.75,
+          "u1": 0.75,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Rafael_M%C3%A1rquez_2014.jpg/960px-Rafael_M%C3%A1rquez_2014.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "avatarText": "MN",
+      "color": "#f3f7f0",
+      "id": "manuel-neuer",
+      "name": "Manuel Neuer",
+      "shortName": "Manuel Neuer",
+      "article": "Manuel Neuer",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Manuel_Neuer_Ecuador_v_Germany_25_June_2026-148.jpg/960px-Manuel_Neuer_Ecuador_v_Germany_25_June_2026-148.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "country": "Germany",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Manuel_Neuer_Ecuador_v_Germany_25_June_2026-148.jpg/960px-Manuel_Neuer_Ecuador_v_Germany_25_June_2026-148.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.json",
+          "x": 960,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.75,
+          "u1": 1,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Manuel_Neuer_Ecuador_v_Germany_25_June_2026-148.jpg/960px-Manuel_Neuer_Ecuador_v_Germany_25_June_2026-148.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    }
+  ],
+  "frames": [
+    {
+      "date": "2026",
+      "values": [
+        {
+          "id": "lionel-messi",
+          "value": 34,
+          "rank": 1,
+          "country": "Argentina"
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 27,
+          "rank": 2,
+          "country": "Portugal"
+        },
+        {
+          "id": "lothar-matthaus",
+          "value": 25,
+          "rank": 3,
+          "country": "Germany"
+        },
+        {
+          "id": "miroslav-klose",
+          "value": 24,
+          "rank": 4,
+          "country": "Germany"
+        },
+        {
+          "id": "paolo-maldini",
+          "value": 23,
+          "rank": 5,
+          "country": "Italy"
+        },
+        {
+          "id": "diego-maradona",
+          "value": 21,
+          "rank": 6,
+          "country": "Argentina"
+        },
+        {
+          "id": "uwe-seeler",
+          "value": 21,
+          "rank": 7,
+          "country": "Germany"
+        },
+        {
+          "id": "wladyslaw-zmuda",
+          "value": 21,
+          "rank": 8,
+          "country": "Poland"
+        },
+        {
+          "id": "cafu",
+          "value": 20,
+          "rank": 9,
+          "country": "Brazil"
+        },
+        {
+          "id": "philipp-lahm",
+          "value": 20,
+          "rank": 10,
+          "country": "Germany"
+        },
+        {
+          "id": "bastian-schweinsteiger",
+          "value": 20,
+          "rank": 11,
+          "country": "Germany"
+        },
+        {
+          "id": "grzegorz-lato",
+          "value": 20,
+          "rank": 12,
+          "country": "Poland"
+        },
+        {
+          "id": "javier-mascherano",
+          "value": 20,
+          "rank": 13,
+          "country": "Argentina"
+        },
+        {
+          "id": "berti-vogts",
+          "value": 19,
+          "rank": 14,
+          "country": "Germany"
+        },
+        {
+          "id": "rafael-marquez",
+          "value": 19,
+          "rank": 15,
+          "country": "Mexico"
+        },
+        {
+          "id": "manuel-neuer",
+          "value": 19,
+          "rank": 16,
+          "country": "Germany"
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "date": "2026",
+      "title": "Lionel Messi leads matches played",
+      "body": "Lionel Messi leads this World Cup frame with 34 matches."
+    }
+  ],
+  "sources": [
+    {
+      "title": "FIFA World Cup 2026 match calendar and results",
+      "publisher": "FIFA",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+      "note": "Official 104-match calendar API (competition 17, season 285023) supplying final results, per-match attendance, and the 48-team field."
+    },
+    {
+      "title": "Cristiano Ronaldo at the World Cup: history, results, stats",
+      "publisher": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/48956258/cristiano-ronaldo-world-cup-history-results-stats",
+      "note": "Running Ronaldo World Cup profile with 24 appearances and 10 goals after the Uzbekistan match."
+    },
+    {
+      "title": "FIFA World Cup records and statistics",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/FIFA_World_Cup_records_and_statistics",
+      "note": "Historical tournament, attendance, goal, player, and team record tables."
+    }
+  ],
+  "timelineTicks": [
+    "2026"
+  ],
+  "lastObservationDate": "2026-07-19",
+  "dataFreshness": {
+    "status": "fresh",
+    "refreshCadence": "seasonal",
+    "lastUpdated": "2026-08-22T14:56:45.984Z",
+    "lastRefreshAttemptedAt": "2026-08-22T14:56:45.984Z",
+    "lastRefreshError": null,
+    "lastObservationDate": "2026-07-19",
+    "nextRefreshAt": null,
+    "sourceStatus": "Player appearance totals through the 2026 final",
+    "confidence": "Player appearance totals combine historical record tables with 2026 tournament participation. Lionel Messi (34) extends his record after playing all of Argentina's matches to the final; Cristiano Ronaldo reaches 27 after Portugal's run."
+  },
+  "taxonomy": {
+    "primaryCategory": "sports",
+    "categories": [
+      "sports",
+      "football",
+      "history"
+    ],
+    "tags": [
+      "world-cup",
+      "fifa",
+      "matches",
+      "players"
+    ],
+    "entityTypes": [
+      "player"
+    ],
+    "sourceTypes": [
+      "wikipedia"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "world-cup-all-time-goalscorers",
+      "type": "player-record-book",
+      "weight": 0.72,
+      "reason": "Both are player-level World Cup historical record tables."
+    },
+    {
+      "target": "world-cup-golden-boot-peaks",
+      "type": "player-record-book",
+      "weight": 0.62,
+      "reason": "Both show player-level performance records inside the tournament."
+    },
+    {
+      "target": "top-athlete-salaries",
+      "type": "sports-star-power",
+      "weight": 0.42,
+      "reason": "World Cup icons often overlap with globally commercial athletes."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "world-cup-records",
+    "mainland": "world-cup",
+    "bridgePriority": [
+      "world-cup-all-time-goalscorers",
+      "world-cup-golden-boot-peaks"
+    ]
+  },
+  "media": {
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-08-22T14:56:45.984Z",
+    "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.webp",
+    "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.webp",
+    "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.json",
+    "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-player-appearances.json",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "imageFit": "cover",
+    "columns": 4,
+    "rows": 4,
+    "width": 1280,
+    "height": 1280,
+    "itemCount": 16,
+    "sourcedImageCount": 15,
+    "generatedImageCount": 1,
+    "placeholderCount": 0,
+    "ogImageUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/world-cup-player-appearances.png",
+    "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/world-cup-player-appearances.png",
+    "ogImageWidth": 1200,
+    "ogImageHeight": 630
+  },
+  "schemaVersion": 1,
+  "contentKind": "dat-city.story",
+  "generatedAt": "2026-08-22T14:56:45.984Z",
+  "versionId": "20260822T145645Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "dashboard-settings:crypto-memecoin-heat",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-08-22T14:56:45.984Z",
+    "versionId": "20260822T145645Z",
+    "adapter": "fifa-world-cup-history",
+    "storySlug": "world-cup-player-appearances",
+    "districtId": null,
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "publicProjection": {
+    "kind": "story",
+    "version": 1,
+    "generatedAt": "2026-08-22T14:56:45.984Z",
+    "adapter": "fifa-world-cup-history",
+    "cache": {
+      "browserMaxAgeSeconds": 60,
+      "edgeMaxAgeSeconds": 3600
+    }
+  },
+  "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/world-cup-player-appearances.png"
+}

@@ -1,0 +1,4916 @@
+{
+  "id": "world-cup-2026-scorers",
+  "kicker": "World Cup 2026",
+  "title": "World Cup 2026 Top Scorers",
+  "subtitle": "The Golden Boot race of the 2026 men's World Cup, matchday by matchday.",
+  "badge": "Ranked by 2026 goals",
+  "visualization": "race-arena",
+  "theme": "stadium",
+  "artStyle": "stylized-editorial",
+  "valueFormat": "integer",
+  "dateRange": [
+    "20260611",
+    "20260719"
+  ],
+  "metricLabel": "2026 goals",
+  "ogImage": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/world-cup-2026-scorers.png",
+  "cityPreview": {
+    "districtId": "world-cup-2026-scorers-plaza",
+    "districtName": "World Cup 2026 Scorers Plaza",
+    "cardLabel": "2026 Golden Boot",
+    "summary": "The single-tournament scoring race of the 2026 men's World Cup, won by Kylian Mbappe on 10 goals.",
+    "primaryMetric": "2026 goals",
+    "latestFrameLabel": "July 19, 2026 final scorer table",
+    "storyUrl": "/stories/world-cup-2026-scorers/",
+    "thumbnail": "/assets/og/dat-city.webp"
+  },
+  "sourceStatus": "FIFA GameDay 2026 tournament scorer feed (final)",
+  "confidence": "Single-tournament goal totals for the completed 2026 men's World Cup, led by Golden Boot winner Kylian Mbappe on 10. Sourced live from FIFA's public GameDay scorer feed, with a checked-in fallback captured after the 19 July 2026 final.",
+  "methodology": "The adapter reads current-tournament goal totals for the 2026 men's World Cup directly from FIFA's public GameDay scorer feed (no historical baselines added). A modeled by-date backfill animates the Golden Boot race across the real tournament calendar.",
+  "playback": {
+    "durationSeconds": 24,
+    "initialDate": "20260611",
+    "periodLabel": "2026 goals"
+  },
+  "visual": {
+    "topCount": 16,
+    "referenceCount": 16,
+    "horizontalCount": 16
+  },
+  "layers": [
+    {
+      "id": "goals",
+      "label": "Goals",
+      "default": true
+    }
+  ],
+  "focus": [
+    {
+      "id": "kylian-mbappe",
+      "label": "Kylian Mbappe"
+    },
+    {
+      "id": "lionel-messi",
+      "label": "Lionel Messi"
+    },
+    {
+      "id": "jude-bellingham",
+      "label": "Jude Bellingham"
+    },
+    {
+      "id": "erling-haaland",
+      "label": "Erling Haaland"
+    }
+  ],
+  "entities": [
+    {
+      "avatarText": "KM",
+      "color": "#18c871",
+      "id": "kylian-mbappe",
+      "name": "Kylian Mbappe",
+      "shortName": "Kylian Mbappe",
+      "article": "Kylian Mbappe",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Kylian_Mbappe_France_v_Senegal_16_June_2026-391_%28cropped%29.jpg/960px-Kylian_Mbappe_France_v_Senegal_16_June_2026-391_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "country": "France",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Kylian_Mbappe_France_v_Senegal_16_June_2026-391_%28cropped%29.jpg/960px-Kylian_Mbappe_France_v_Senegal_16_June_2026-391_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.2,
+          "v1": 0.2
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Kylian_Mbappe_France_v_Senegal_16_June_2026-391_%28cropped%29.jpg/960px-Kylian_Mbappe_France_v_Senegal_16_June_2026-391_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "avatarText": "LM",
+      "color": "#ffc84a",
+      "id": "lionel-messi",
+      "name": "Lionel Messi",
+      "shortName": "Lionel Messi",
+      "article": "Lionel Messi",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg/960px-Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "country": "Argentina",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg/960px-Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0,
+          "u1": 0.4,
+          "v1": 0.2
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg/960px-Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "avatarText": "JB",
+      "color": "#00a6ff",
+      "id": "jude-bellingham",
+      "name": "Jude Bellingham",
+      "shortName": "Jude Bellingham",
+      "article": "Jude Bellingham",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Jude_Bellingham_England_v_Ghana_23_June_2026-061_%28cropped%29.jpg/960px-Jude_Bellingham_England_v_Ghana_23_June_2026-061_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "country": "England",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Jude_Bellingham_England_v_Ghana_23_June_2026-061_%28cropped%29.jpg/960px-Jude_Bellingham_England_v_Ghana_23_June_2026-061_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0,
+          "u1": 0.6,
+          "v1": 0.2
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Jude_Bellingham_England_v_Ghana_23_June_2026-061_%28cropped%29.jpg/960px-Jude_Bellingham_England_v_Ghana_23_June_2026-061_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "avatarText": "EH",
+      "color": "#f3f7f0",
+      "id": "erling-haaland",
+      "name": "Erling Haaland",
+      "shortName": "Erling Haaland",
+      "article": "Erling Haaland",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Erling_Haaland_Morocco_v_Norway_7_June_2026-51.jpg/960px-Erling_Haaland_Morocco_v_Norway_7_June_2026-51.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "country": "Norway",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Erling_Haaland_Morocco_v_Norway_7_June_2026-51.jpg/960px-Erling_Haaland_Morocco_v_Norway_7_June_2026-51.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0,
+          "u1": 0.8,
+          "v1": 0.2
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Erling_Haaland_Morocco_v_Norway_7_June_2026-51.jpg/960px-Erling_Haaland_Morocco_v_Norway_7_June_2026-51.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "avatarText": "OD",
+      "color": "#ff5a61",
+      "id": "ousmane-dembele",
+      "name": "Ousmane Dembele",
+      "shortName": "Ousmane Dembele",
+      "article": "Ousmane Dembele",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Ousmane_Dembele_France_v_Senegal_16_June_2026-341_%28cropped%29_2.jpg/960px-Ousmane_Dembele_France_v_Senegal_16_June_2026-341_%28cropped%29_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "country": "France",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Ousmane_Dembele_France_v_Senegal_16_June_2026-341_%28cropped%29_2.jpg/960px-Ousmane_Dembele_France_v_Senegal_16_June_2026-341_%28cropped%29_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "x": 1280,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.2
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Ousmane_Dembele_France_v_Senegal_16_June_2026-341_%28cropped%29_2.jpg/960px-Ousmane_Dembele_France_v_Senegal_16_June_2026-341_%28cropped%29_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "avatarText": "HK",
+      "color": "#41a99f",
+      "id": "harry-kane",
+      "name": "Harry Kane",
+      "shortName": "Harry Kane",
+      "article": "Harry Kane",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Harry_Kane_England_v_Ghana_23_June_2026-219_%28cropped%29.jpg/960px-Harry_Kane_England_v_Ghana_23_June_2026-219_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "country": "England",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Harry_Kane_England_v_Ghana_23_June_2026-219_%28cropped%29.jpg/960px-Harry_Kane_England_v_Ghana_23_June_2026-219_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.2,
+          "u1": 0.2,
+          "v1": 0.4
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Harry_Kane_England_v_Ghana_23_June_2026-219_%28cropped%29.jpg/960px-Harry_Kane_England_v_Ghana_23_June_2026-219_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "avatarText": "MO",
+      "color": "#86bdf4",
+      "id": "mikel-oyarzabal",
+      "name": "Mikel Oyarzabal",
+      "shortName": "Mikel Oyarzabal",
+      "article": "Mikel Oyarzabal",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Mikel_Oyarzabal_France_v_Spain_7.24.26-161_%28cropped%29.jpg/960px-Mikel_Oyarzabal_France_v_Spain_7.24.26-161_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "country": "Spain",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Mikel_Oyarzabal_France_v_Spain_7.24.26-161_%28cropped%29.jpg/960px-Mikel_Oyarzabal_France_v_Spain_7.24.26-161_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.2,
+          "u1": 0.4,
+          "v1": 0.4
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Mikel_Oyarzabal_France_v_Spain_7.24.26-161_%28cropped%29.jpg/960px-Mikel_Oyarzabal_France_v_Spain_7.24.26-161_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "avatarText": "IS",
+      "color": "#f18c4f",
+      "id": "ismaila-sarr",
+      "name": "Ismaila Sarr",
+      "shortName": "Ismaila Sarr",
+      "article": "Ismaila Sarr",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Ismaila_Sarr_France_v_Senegal_16_June_2026-425_%28cropped%29.jpg/960px-Ismaila_Sarr_France_v_Senegal_16_June_2026-425_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "country": "Senegal",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Ismaila_Sarr_France_v_Senegal_16_June_2026-425_%28cropped%29.jpg/960px-Ismaila_Sarr_France_v_Senegal_16_June_2026-425_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.2,
+          "u1": 0.6,
+          "v1": 0.4
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Ismaila_Sarr_France_v_Senegal_16_June_2026-425_%28cropped%29.jpg/960px-Ismaila_Sarr_France_v_Senegal_16_June_2026-425_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "avatarText": "JQ",
+      "color": "#2f4858",
+      "id": "julian-quinones",
+      "name": "Julian Quinones",
+      "shortName": "Julian Quinones",
+      "article": "Julian Quinones",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Juli%C3%A1n_Qui%C3%B1ones.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "country": "Mexico",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Juli%C3%A1n_Qui%C3%B1ones.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.2,
+          "u1": 0.8,
+          "v1": 0.4
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Juli%C3%A1n_Qui%C3%B1ones.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "avatarText": "VJ",
+      "color": "#c9a14a",
+      "id": "vinicius-junior",
+      "name": "Vinicius Junior",
+      "shortName": "Vinicius Junior",
+      "article": "Vinicius Junior",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Vin%C3%ADcius_J%C3%BAnior_Brazil_V_Morocco_13_June_2026-207_%28cropped%29.jpg/960px-Vin%C3%ADcius_J%C3%BAnior_Brazil_V_Morocco_13_June_2026-207_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "country": "Brazil",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Vin%C3%ADcius_J%C3%BAnior_Brazil_V_Morocco_13_June_2026-207_%28cropped%29.jpg/960px-Vin%C3%ADcius_J%C3%BAnior_Brazil_V_Morocco_13_June_2026-207_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "x": 1280,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.2,
+          "u1": 1,
+          "v1": 0.4
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Vin%C3%ADcius_J%C3%BAnior_Brazil_V_Morocco_13_June_2026-207_%28cropped%29.jpg/960px-Vin%C3%ADcius_J%C3%BAnior_Brazil_V_Morocco_13_June_2026-207_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "avatarText": "BS",
+      "color": "#ef426f",
+      "id": "bukayo-saka",
+      "name": "Bukayo Saka",
+      "shortName": "Bukayo Saka",
+      "article": "Bukayo Saka",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Bukayo_Saka_England_v_Panama_27_June_26-108_%28cropped%29.jpg/960px-Bukayo_Saka_England_v_Panama_27_June_26-108_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "country": "England",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Bukayo_Saka_England_v_Panama_27_June_26-108_%28cropped%29.jpg/960px-Bukayo_Saka_England_v_Panama_27_June_26-108_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.4,
+          "u1": 0.2,
+          "v1": 0.6
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Bukayo_Saka_England_v_Panama_27_June_26-108_%28cropped%29.jpg/960px-Bukayo_Saka_England_v_Panama_27_June_26-108_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "avatarText": "DU",
+      "color": "#7b9b65",
+      "id": "deniz-undav",
+      "name": "Deniz Undav",
+      "shortName": "Deniz Undav",
+      "article": "Deniz Undav",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Deniz_Undav_Ecuador_v_Germany_25_June_2026-203_%28cropped%29.jpg/960px-Deniz_Undav_Ecuador_v_Germany_25_June_2026-203_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "country": "Germany",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Deniz_Undav_Ecuador_v_Germany_25_June_2026-203_%28cropped%29.jpg/960px-Deniz_Undav_Ecuador_v_Germany_25_June_2026-203_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.4,
+          "u1": 0.4,
+          "v1": 0.6
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Deniz_Undav_Ecuador_v_Germany_25_June_2026-203_%28cropped%29.jpg/960px-Deniz_Undav_Ecuador_v_Germany_25_June_2026-203_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "avatarText": "JM",
+      "color": "#18c871",
+      "id": "johan-manzambi",
+      "name": "Johan Manzambi",
+      "shortName": "Johan Manzambi",
+      "article": "Johan Manzambi",
+      "imageUrl": "https://digitalhub.fifa.com/transform/a0cb9413-32ea-4b8f-9801-55474cb12b77/MANZAMBI-Johan_502727",
+      "country": "Switzerland",
+      "thumbnailUrl": null,
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.4,
+          "u1": 0.6,
+          "v1": 0.6
+        },
+        "image": {
+          "sourceUrl": "https://digitalhub.fifa.com/transform/a0cb9413-32ea-4b8f-9801-55474cb12b77/MANZAMBI-Johan_502727",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "avatarText": "RL",
+      "color": "#ffc84a",
+      "id": "romelu-lukaku",
+      "name": "Romelu Lukaku",
+      "shortName": "Romelu Lukaku",
+      "article": "Romelu Lukaku",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Romelu_Lukaku_2021.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "country": "Belgium",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Romelu_Lukaku_2021.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.4,
+          "u1": 0.8,
+          "v1": 0.6
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Romelu_Lukaku_2021.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "avatarText": "LM",
+      "color": "#00a6ff",
+      "id": "lautaro-martinez",
+      "name": "Lautaro Martinez",
+      "shortName": "Lautaro Martinez",
+      "article": "Lautaro Martinez",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Lautaro_Martinez_Argentina_v_Spain_19_July_2026-049_%28cropped%29.jpg/960px-Lautaro_Martinez_Argentina_v_Spain_19_July_2026-049_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "country": "Argentina",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Lautaro_Martinez_Argentina_v_Spain_19_July_2026-049_%28cropped%29.jpg/960px-Lautaro_Martinez_Argentina_v_Spain_19_July_2026-049_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "x": 1280,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.4,
+          "u1": 1,
+          "v1": 0.6
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Lautaro_Martinez_Argentina_v_Spain_19_July_2026-049_%28cropped%29.jpg/960px-Lautaro_Martinez_Argentina_v_Spain_19_July_2026-049_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "avatarText": "CD",
+      "color": "#f3f7f0",
+      "id": "charles-de-ketelaere",
+      "name": "Charles De Ketelaere",
+      "shortName": "Charles De Ketelaere",
+      "article": "Charles De Ketelaere",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Charles_De_Ketelaere_USMNT_v_Belgium_Mar_28_2026-76_%28cropped%29.jpg/960px-Charles_De_Ketelaere_USMNT_v_Belgium_Mar_28_2026-76_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "country": "Belgium",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Charles_De_Ketelaere_USMNT_v_Belgium_Mar_28_2026-76_%28cropped%29.jpg/960px-Charles_De_Ketelaere_USMNT_v_Belgium_Mar_28_2026-76_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "x": 0,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.6,
+          "u1": 0.2,
+          "v1": 0.8
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Charles_De_Ketelaere_USMNT_v_Belgium_Mar_28_2026-76_%28cropped%29.jpg/960px-Charles_De_Ketelaere_USMNT_v_Belgium_Mar_28_2026-76_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "avatarText": "CG",
+      "color": "#ff5a61",
+      "id": "cody-gakpo",
+      "name": "Cody Gakpo",
+      "shortName": "Cody Gakpo",
+      "article": "Cody Gakpo",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Netherlands_v_Tunisia_2026_World_Cup_-_55373562032_%28Cody_Gakpo%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "country": "Netherlands",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Netherlands_v_Tunisia_2026_World_Cup_-_55373562032_%28Cody_Gakpo%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "x": 320,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.6,
+          "u1": 0.4,
+          "v1": 0.8
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Netherlands_v_Tunisia_2026_World_Cup_-_55373562032_%28Cody_Gakpo%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "avatarText": "BB",
+      "color": "#41a99f",
+      "id": "bradley-barcola",
+      "name": "Bradley Barcola",
+      "shortName": "Bradley Barcola",
+      "article": "Bradley Barcola",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg/960px-Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "country": "France",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg/960px-Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "x": 640,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.6,
+          "u1": 0.6,
+          "v1": 0.8
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg/960px-Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "avatarText": "BB",
+      "color": "#86bdf4",
+      "id": "brian-brobbey",
+      "name": "Brian Brobbey",
+      "shortName": "Brian Brobbey",
+      "article": "Brian Brobbey",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/GAE_-_Ajax_-_52788469380_%28Brobbey%29.jpg/960px-GAE_-_Ajax_-_52788469380_%28Brobbey%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "country": "Netherlands",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/GAE_-_Ajax_-_52788469380_%28Brobbey%29.jpg/960px-GAE_-_Ajax_-_52788469380_%28Brobbey%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "x": 960,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.6,
+          "u1": 0.8,
+          "v1": 0.8
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/GAE_-_Ajax_-_52788469380_%28Brobbey%29.jpg/960px-GAE_-_Ajax_-_52788469380_%28Brobbey%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "avatarText": "EJ",
+      "color": "#f18c4f",
+      "id": "elijah-just",
+      "name": "Elijah Just",
+      "shortName": "Elijah Just",
+      "article": "Elijah Just",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Elijah_Just_%28cropped%29.jpg/960px-Elijah_Just_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "country": "New Zealand",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Elijah_Just_%28cropped%29.jpg/960px-Elijah_Just_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "x": 1280,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.6,
+          "u1": 1,
+          "v1": 0.8
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Elijah_Just_%28cropped%29.jpg/960px-Elijah_Just_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "avatarText": "MC",
+      "color": "#2f4858",
+      "id": "matheus-cunha",
+      "name": "Matheus Cunha",
+      "shortName": "Matheus Cunha",
+      "article": "Matheus Cunha",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Matheus_Cunha_Brazil_V_Morocco_13_June_2026-178_%28cropped%29.jpg/960px-Matheus_Cunha_Brazil_V_Morocco_13_June_2026-178_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "country": "Brazil",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Matheus_Cunha_Brazil_V_Morocco_13_June_2026-178_%28cropped%29.jpg/960px-Matheus_Cunha_Brazil_V_Morocco_13_June_2026-178_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "x": 0,
+          "y": 1280,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.8,
+          "u1": 0.2,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Matheus_Cunha_Brazil_V_Morocco_13_June_2026-178_%28cropped%29.jpg/960px-Matheus_Cunha_Brazil_V_Morocco_13_June_2026-178_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "avatarText": "FB",
+      "color": "#c9a14a",
+      "id": "folarin-balogun",
+      "name": "Folarin Balogun",
+      "shortName": "Folarin Balogun",
+      "article": "Folarin Balogun",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Folarin_Balogun_Australia_v_USA_19_June_2026-64.jpg/960px-Folarin_Balogun_Australia_v_USA_19_June_2026-64.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "country": "United States",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Folarin_Balogun_Australia_v_USA_19_June_2026-64.jpg/960px-Folarin_Balogun_Australia_v_USA_19_June_2026-64.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "x": 320,
+          "y": 1280,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.8,
+          "u1": 0.4,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Folarin_Balogun_Australia_v_USA_19_June_2026-64.jpg/960px-Folarin_Balogun_Australia_v_USA_19_June_2026-64.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "avatarText": "RJ",
+      "color": "#ef426f",
+      "id": "raul-jimenez",
+      "name": "Raul Jimenez",
+      "shortName": "Raul Jimenez",
+      "article": "Raul Jimenez",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Ra%C3%BAl_Jim%C3%A9nez_04032026_%281%29.jpg/960px-Ra%C3%BAl_Jim%C3%A9nez_04032026_%281%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "country": "Mexico",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Ra%C3%BAl_Jim%C3%A9nez_04032026_%281%29.jpg/960px-Ra%C3%BAl_Jim%C3%A9nez_04032026_%281%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "x": 640,
+          "y": 1280,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.8,
+          "u1": 0.6,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Ra%C3%BAl_Jim%C3%A9nez_04032026_%281%29.jpg/960px-Ra%C3%BAl_Jim%C3%A9nez_04032026_%281%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "avatarText": "KH",
+      "color": "#7b9b65",
+      "id": "kai-havertz",
+      "name": "Kai Havertz",
+      "shortName": "Kai Havertz",
+      "article": "Kai Havertz",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Kai_Havertz_Ecuador_v_Germany_25_June_2026-118.jpg/960px-Kai_Havertz_Ecuador_v_Germany_25_June_2026-118.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "country": "Germany",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Kai_Havertz_Ecuador_v_Germany_25_June_2026-118.jpg/960px-Kai_Havertz_Ecuador_v_Germany_25_June_2026-118.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+          "x": 960,
+          "y": 1280,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.8,
+          "u1": 0.8,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Kai_Havertz_Ecuador_v_Germany_25_June_2026-118.jpg/960px-Kai_Havertz_Ecuador_v_Germany_25_June_2026-118.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    }
+  ],
+  "frames": [
+    {
+      "date": "20260611",
+      "values": [
+        {
+          "id": "julian-quinones",
+          "value": 1,
+          "rank": 1
+        },
+        {
+          "id": "raul-jimenez",
+          "value": 1,
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "date": "20260612",
+      "values": [
+        {
+          "id": "julian-quinones",
+          "value": 1,
+          "rank": 1
+        },
+        {
+          "id": "raul-jimenez",
+          "value": 1,
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "date": "20260613",
+      "values": [
+        {
+          "id": "julian-quinones",
+          "value": 1,
+          "rank": 1
+        },
+        {
+          "id": "vinicius-junior",
+          "value": 1,
+          "rank": 2
+        },
+        {
+          "id": "johan-manzambi",
+          "value": 1,
+          "rank": 3
+        },
+        {
+          "id": "matheus-cunha",
+          "value": 1,
+          "rank": 4
+        },
+        {
+          "id": "folarin-balogun",
+          "value": 1,
+          "rank": 5
+        },
+        {
+          "id": "raul-jimenez",
+          "value": 1,
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "date": "20260614",
+      "values": [
+        {
+          "id": "julian-quinones",
+          "value": 1,
+          "rank": 1
+        },
+        {
+          "id": "vinicius-junior",
+          "value": 1,
+          "rank": 2
+        },
+        {
+          "id": "deniz-undav",
+          "value": 1,
+          "rank": 3
+        },
+        {
+          "id": "johan-manzambi",
+          "value": 1,
+          "rank": 4
+        },
+        {
+          "id": "cody-gakpo",
+          "value": 1,
+          "rank": 5
+        },
+        {
+          "id": "brian-brobbey",
+          "value": 1,
+          "rank": 6
+        },
+        {
+          "id": "matheus-cunha",
+          "value": 1,
+          "rank": 7
+        },
+        {
+          "id": "folarin-balogun",
+          "value": 1,
+          "rank": 8
+        },
+        {
+          "id": "raul-jimenez",
+          "value": 1,
+          "rank": 9
+        },
+        {
+          "id": "kai-havertz",
+          "value": 1,
+          "rank": 10
+        }
+      ]
+    },
+    {
+      "date": "20260615",
+      "values": [
+        {
+          "id": "mikel-oyarzabal",
+          "value": 1,
+          "rank": 1
+        },
+        {
+          "id": "julian-quinones",
+          "value": 1,
+          "rank": 2
+        },
+        {
+          "id": "vinicius-junior",
+          "value": 1,
+          "rank": 3
+        },
+        {
+          "id": "deniz-undav",
+          "value": 1,
+          "rank": 4
+        },
+        {
+          "id": "johan-manzambi",
+          "value": 1,
+          "rank": 5
+        },
+        {
+          "id": "romelu-lukaku",
+          "value": 1,
+          "rank": 6
+        },
+        {
+          "id": "charles-de-ketelaere",
+          "value": 1,
+          "rank": 7
+        },
+        {
+          "id": "cody-gakpo",
+          "value": 1,
+          "rank": 8
+        },
+        {
+          "id": "brian-brobbey",
+          "value": 1,
+          "rank": 9
+        },
+        {
+          "id": "matheus-cunha",
+          "value": 1,
+          "rank": 10
+        },
+        {
+          "id": "folarin-balogun",
+          "value": 1,
+          "rank": 11
+        },
+        {
+          "id": "raul-jimenez",
+          "value": 1,
+          "rank": 12
+        },
+        {
+          "id": "kai-havertz",
+          "value": 1,
+          "rank": 13
+        }
+      ]
+    },
+    {
+      "date": "20260616",
+      "values": [
+        {
+          "id": "kylian-mbappe",
+          "value": 1,
+          "rank": 1
+        },
+        {
+          "id": "erling-haaland",
+          "value": 1,
+          "rank": 2
+        },
+        {
+          "id": "ousmane-dembele",
+          "value": 1,
+          "rank": 3
+        },
+        {
+          "id": "mikel-oyarzabal",
+          "value": 1,
+          "rank": 4
+        },
+        {
+          "id": "ismaila-sarr",
+          "value": 1,
+          "rank": 5
+        },
+        {
+          "id": "julian-quinones",
+          "value": 1,
+          "rank": 6
+        },
+        {
+          "id": "vinicius-junior",
+          "value": 1,
+          "rank": 7
+        },
+        {
+          "id": "deniz-undav",
+          "value": 1,
+          "rank": 8
+        },
+        {
+          "id": "johan-manzambi",
+          "value": 1,
+          "rank": 9
+        },
+        {
+          "id": "romelu-lukaku",
+          "value": 1,
+          "rank": 10
+        },
+        {
+          "id": "charles-de-ketelaere",
+          "value": 1,
+          "rank": 11
+        },
+        {
+          "id": "cody-gakpo",
+          "value": 1,
+          "rank": 12
+        },
+        {
+          "id": "brian-brobbey",
+          "value": 1,
+          "rank": 13
+        },
+        {
+          "id": "elijah-just",
+          "value": 1,
+          "rank": 14
+        },
+        {
+          "id": "matheus-cunha",
+          "value": 1,
+          "rank": 15
+        },
+        {
+          "id": "folarin-balogun",
+          "value": 1,
+          "rank": 16
+        },
+        {
+          "id": "raul-jimenez",
+          "value": 1,
+          "rank": 17
+        },
+        {
+          "id": "kai-havertz",
+          "value": 1,
+          "rank": 18
+        }
+      ]
+    },
+    {
+      "date": "20260617",
+      "values": [
+        {
+          "id": "kylian-mbappe",
+          "value": 1,
+          "rank": 1
+        },
+        {
+          "id": "lionel-messi",
+          "value": 1,
+          "rank": 2
+        },
+        {
+          "id": "jude-bellingham",
+          "value": 1,
+          "rank": 3
+        },
+        {
+          "id": "erling-haaland",
+          "value": 1,
+          "rank": 4
+        },
+        {
+          "id": "ousmane-dembele",
+          "value": 1,
+          "rank": 5
+        },
+        {
+          "id": "harry-kane",
+          "value": 1,
+          "rank": 6
+        },
+        {
+          "id": "mikel-oyarzabal",
+          "value": 1,
+          "rank": 7
+        },
+        {
+          "id": "ismaila-sarr",
+          "value": 1,
+          "rank": 8
+        },
+        {
+          "id": "julian-quinones",
+          "value": 1,
+          "rank": 9
+        },
+        {
+          "id": "vinicius-junior",
+          "value": 1,
+          "rank": 10
+        },
+        {
+          "id": "deniz-undav",
+          "value": 1,
+          "rank": 11
+        },
+        {
+          "id": "johan-manzambi",
+          "value": 1,
+          "rank": 12
+        },
+        {
+          "id": "romelu-lukaku",
+          "value": 1,
+          "rank": 13
+        },
+        {
+          "id": "charles-de-ketelaere",
+          "value": 1,
+          "rank": 14
+        },
+        {
+          "id": "cody-gakpo",
+          "value": 1,
+          "rank": 15
+        },
+        {
+          "id": "brian-brobbey",
+          "value": 1,
+          "rank": 16
+        },
+        {
+          "id": "elijah-just",
+          "value": 1,
+          "rank": 17
+        },
+        {
+          "id": "matheus-cunha",
+          "value": 1,
+          "rank": 18
+        },
+        {
+          "id": "folarin-balogun",
+          "value": 1,
+          "rank": 19
+        },
+        {
+          "id": "raul-jimenez",
+          "value": 1,
+          "rank": 20
+        },
+        {
+          "id": "kai-havertz",
+          "value": 1,
+          "rank": 21
+        }
+      ]
+    },
+    {
+      "date": "20260618",
+      "values": [
+        {
+          "id": "kylian-mbappe",
+          "value": 1,
+          "rank": 1
+        },
+        {
+          "id": "lionel-messi",
+          "value": 1,
+          "rank": 2
+        },
+        {
+          "id": "jude-bellingham",
+          "value": 1,
+          "rank": 3
+        },
+        {
+          "id": "erling-haaland",
+          "value": 1,
+          "rank": 4
+        },
+        {
+          "id": "ousmane-dembele",
+          "value": 1,
+          "rank": 5
+        },
+        {
+          "id": "harry-kane",
+          "value": 1,
+          "rank": 6
+        },
+        {
+          "id": "mikel-oyarzabal",
+          "value": 1,
+          "rank": 7
+        },
+        {
+          "id": "ismaila-sarr",
+          "value": 1,
+          "rank": 8
+        },
+        {
+          "id": "julian-quinones",
+          "value": 1,
+          "rank": 9
+        },
+        {
+          "id": "vinicius-junior",
+          "value": 1,
+          "rank": 10
+        },
+        {
+          "id": "deniz-undav",
+          "value": 1,
+          "rank": 11
+        },
+        {
+          "id": "johan-manzambi",
+          "value": 1,
+          "rank": 12
+        },
+        {
+          "id": "romelu-lukaku",
+          "value": 1,
+          "rank": 13
+        },
+        {
+          "id": "charles-de-ketelaere",
+          "value": 1,
+          "rank": 14
+        },
+        {
+          "id": "cody-gakpo",
+          "value": 1,
+          "rank": 15
+        },
+        {
+          "id": "brian-brobbey",
+          "value": 1,
+          "rank": 16
+        },
+        {
+          "id": "elijah-just",
+          "value": 1,
+          "rank": 17
+        },
+        {
+          "id": "matheus-cunha",
+          "value": 1,
+          "rank": 18
+        },
+        {
+          "id": "folarin-balogun",
+          "value": 1,
+          "rank": 19
+        },
+        {
+          "id": "raul-jimenez",
+          "value": 1,
+          "rank": 20
+        },
+        {
+          "id": "kai-havertz",
+          "value": 1,
+          "rank": 21
+        }
+      ]
+    },
+    {
+      "date": "20260619",
+      "values": [
+        {
+          "id": "kylian-mbappe",
+          "value": 1,
+          "rank": 2
+        },
+        {
+          "id": "lionel-messi",
+          "value": 1,
+          "rank": 3
+        },
+        {
+          "id": "jude-bellingham",
+          "value": 1,
+          "rank": 4
+        },
+        {
+          "id": "erling-haaland",
+          "value": 1,
+          "rank": 5
+        },
+        {
+          "id": "ousmane-dembele",
+          "value": 1,
+          "rank": 6
+        },
+        {
+          "id": "harry-kane",
+          "value": 1,
+          "rank": 7
+        },
+        {
+          "id": "mikel-oyarzabal",
+          "value": 1,
+          "rank": 8
+        },
+        {
+          "id": "ismaila-sarr",
+          "value": 1,
+          "rank": 9
+        },
+        {
+          "id": "julian-quinones",
+          "value": 2,
+          "rank": 1
+        },
+        {
+          "id": "vinicius-junior",
+          "value": 1,
+          "rank": 10
+        },
+        {
+          "id": "deniz-undav",
+          "value": 1,
+          "rank": 11
+        },
+        {
+          "id": "johan-manzambi",
+          "value": 1,
+          "rank": 12
+        },
+        {
+          "id": "romelu-lukaku",
+          "value": 1,
+          "rank": 13
+        },
+        {
+          "id": "charles-de-ketelaere",
+          "value": 1,
+          "rank": 14
+        },
+        {
+          "id": "cody-gakpo",
+          "value": 1,
+          "rank": 15
+        },
+        {
+          "id": "brian-brobbey",
+          "value": 1,
+          "rank": 16
+        },
+        {
+          "id": "elijah-just",
+          "value": 1,
+          "rank": 17
+        },
+        {
+          "id": "matheus-cunha",
+          "value": 1,
+          "rank": 18
+        },
+        {
+          "id": "folarin-balogun",
+          "value": 1,
+          "rank": 19
+        },
+        {
+          "id": "raul-jimenez",
+          "value": 1,
+          "rank": 20
+        },
+        {
+          "id": "kai-havertz",
+          "value": 1,
+          "rank": 21
+        }
+      ]
+    },
+    {
+      "date": "20260620",
+      "values": [
+        {
+          "id": "kylian-mbappe",
+          "value": 1,
+          "rank": 7
+        },
+        {
+          "id": "lionel-messi",
+          "value": 1,
+          "rank": 8
+        },
+        {
+          "id": "jude-bellingham",
+          "value": 1,
+          "rank": 9
+        },
+        {
+          "id": "erling-haaland",
+          "value": 1,
+          "rank": 10
+        },
+        {
+          "id": "ousmane-dembele",
+          "value": 1,
+          "rank": 11
+        },
+        {
+          "id": "harry-kane",
+          "value": 1,
+          "rank": 12
+        },
+        {
+          "id": "mikel-oyarzabal",
+          "value": 1,
+          "rank": 13
+        },
+        {
+          "id": "ismaila-sarr",
+          "value": 1,
+          "rank": 14
+        },
+        {
+          "id": "julian-quinones",
+          "value": 2,
+          "rank": 1
+        },
+        {
+          "id": "vinicius-junior",
+          "value": 2,
+          "rank": 2
+        },
+        {
+          "id": "deniz-undav",
+          "value": 2,
+          "rank": 3
+        },
+        {
+          "id": "johan-manzambi",
+          "value": 1,
+          "rank": 15
+        },
+        {
+          "id": "romelu-lukaku",
+          "value": 1,
+          "rank": 16
+        },
+        {
+          "id": "charles-de-ketelaere",
+          "value": 1,
+          "rank": 17
+        },
+        {
+          "id": "cody-gakpo",
+          "value": 2,
+          "rank": 4
+        },
+        {
+          "id": "brian-brobbey",
+          "value": 2,
+          "rank": 5
+        },
+        {
+          "id": "elijah-just",
+          "value": 1,
+          "rank": 18
+        },
+        {
+          "id": "matheus-cunha",
+          "value": 1,
+          "rank": 19
+        },
+        {
+          "id": "folarin-balogun",
+          "value": 1,
+          "rank": 20
+        },
+        {
+          "id": "raul-jimenez",
+          "value": 1,
+          "rank": 21
+        },
+        {
+          "id": "kai-havertz",
+          "value": 2,
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "date": "20260621",
+      "values": [
+        {
+          "id": "kylian-mbappe",
+          "value": 1,
+          "rank": 7
+        },
+        {
+          "id": "lionel-messi",
+          "value": 1,
+          "rank": 8
+        },
+        {
+          "id": "jude-bellingham",
+          "value": 1,
+          "rank": 9
+        },
+        {
+          "id": "erling-haaland",
+          "value": 1,
+          "rank": 10
+        },
+        {
+          "id": "ousmane-dembele",
+          "value": 1,
+          "rank": 11
+        },
+        {
+          "id": "harry-kane",
+          "value": 1,
+          "rank": 12
+        },
+        {
+          "id": "mikel-oyarzabal",
+          "value": 1,
+          "rank": 13
+        },
+        {
+          "id": "ismaila-sarr",
+          "value": 1,
+          "rank": 14
+        },
+        {
+          "id": "julian-quinones",
+          "value": 2,
+          "rank": 1
+        },
+        {
+          "id": "vinicius-junior",
+          "value": 2,
+          "rank": 2
+        },
+        {
+          "id": "deniz-undav",
+          "value": 2,
+          "rank": 3
+        },
+        {
+          "id": "johan-manzambi",
+          "value": 1,
+          "rank": 15
+        },
+        {
+          "id": "romelu-lukaku",
+          "value": 1,
+          "rank": 16
+        },
+        {
+          "id": "charles-de-ketelaere",
+          "value": 1,
+          "rank": 17
+        },
+        {
+          "id": "cody-gakpo",
+          "value": 2,
+          "rank": 4
+        },
+        {
+          "id": "brian-brobbey",
+          "value": 2,
+          "rank": 5
+        },
+        {
+          "id": "elijah-just",
+          "value": 1,
+          "rank": 18
+        },
+        {
+          "id": "matheus-cunha",
+          "value": 1,
+          "rank": 19
+        },
+        {
+          "id": "folarin-balogun",
+          "value": 1,
+          "rank": 20
+        },
+        {
+          "id": "raul-jimenez",
+          "value": 1,
+          "rank": 21
+        },
+        {
+          "id": "kai-havertz",
+          "value": 2,
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "date": "20260622",
+      "values": [
+        {
+          "id": "kylian-mbappe",
+          "value": 3,
+          "rank": 1
+        },
+        {
+          "id": "lionel-messi",
+          "value": 2,
+          "rank": 2
+        },
+        {
+          "id": "jude-bellingham",
+          "value": 1,
+          "rank": 11
+        },
+        {
+          "id": "erling-haaland",
+          "value": 1,
+          "rank": 12
+        },
+        {
+          "id": "ousmane-dembele",
+          "value": 2,
+          "rank": 3
+        },
+        {
+          "id": "harry-kane",
+          "value": 1,
+          "rank": 13
+        },
+        {
+          "id": "mikel-oyarzabal",
+          "value": 1,
+          "rank": 14
+        },
+        {
+          "id": "ismaila-sarr",
+          "value": 1,
+          "rank": 15
+        },
+        {
+          "id": "julian-quinones",
+          "value": 2,
+          "rank": 4
+        },
+        {
+          "id": "vinicius-junior",
+          "value": 2,
+          "rank": 5
+        },
+        {
+          "id": "deniz-undav",
+          "value": 2,
+          "rank": 6
+        },
+        {
+          "id": "johan-manzambi",
+          "value": 1,
+          "rank": 16
+        },
+        {
+          "id": "romelu-lukaku",
+          "value": 1,
+          "rank": 17
+        },
+        {
+          "id": "lautaro-martinez",
+          "value": 1,
+          "rank": 18
+        },
+        {
+          "id": "charles-de-ketelaere",
+          "value": 1,
+          "rank": 19
+        },
+        {
+          "id": "cody-gakpo",
+          "value": 2,
+          "rank": 7
+        },
+        {
+          "id": "bradley-barcola",
+          "value": 1,
+          "rank": 20
+        },
+        {
+          "id": "brian-brobbey",
+          "value": 2,
+          "rank": 8
+        },
+        {
+          "id": "elijah-just",
+          "value": 2,
+          "rank": 9
+        },
+        {
+          "id": "matheus-cunha",
+          "value": 1,
+          "rank": 21
+        },
+        {
+          "id": "folarin-balogun",
+          "value": 1,
+          "rank": 22
+        },
+        {
+          "id": "raul-jimenez",
+          "value": 1,
+          "rank": 23
+        },
+        {
+          "id": "kai-havertz",
+          "value": 2,
+          "rank": 10
+        }
+      ]
+    },
+    {
+      "date": "20260623",
+      "values": [
+        {
+          "id": "kylian-mbappe",
+          "value": 3,
+          "rank": 1
+        },
+        {
+          "id": "lionel-messi",
+          "value": 2,
+          "rank": 2
+        },
+        {
+          "id": "jude-bellingham",
+          "value": 2,
+          "rank": 3
+        },
+        {
+          "id": "erling-haaland",
+          "value": 2,
+          "rank": 4
+        },
+        {
+          "id": "ousmane-dembele",
+          "value": 2,
+          "rank": 5
+        },
+        {
+          "id": "harry-kane",
+          "value": 2,
+          "rank": 6
+        },
+        {
+          "id": "mikel-oyarzabal",
+          "value": 1,
+          "rank": 15
+        },
+        {
+          "id": "ismaila-sarr",
+          "value": 2,
+          "rank": 7
+        },
+        {
+          "id": "julian-quinones",
+          "value": 2,
+          "rank": 8
+        },
+        {
+          "id": "vinicius-junior",
+          "value": 2,
+          "rank": 9
+        },
+        {
+          "id": "bukayo-saka",
+          "value": 1,
+          "rank": 16
+        },
+        {
+          "id": "deniz-undav",
+          "value": 2,
+          "rank": 10
+        },
+        {
+          "id": "johan-manzambi",
+          "value": 1,
+          "rank": 17
+        },
+        {
+          "id": "romelu-lukaku",
+          "value": 1,
+          "rank": 18
+        },
+        {
+          "id": "lautaro-martinez",
+          "value": 1,
+          "rank": 19
+        },
+        {
+          "id": "charles-de-ketelaere",
+          "value": 1,
+          "rank": 20
+        },
+        {
+          "id": "cody-gakpo",
+          "value": 2,
+          "rank": 11
+        },
+        {
+          "id": "bradley-barcola",
+          "value": 1,
+          "rank": 21
+        },
+        {
+          "id": "brian-brobbey",
+          "value": 2,
+          "rank": 12
+        },
+        {
+          "id": "elijah-just",
+          "value": 2,
+          "rank": 13
+        },
+        {
+          "id": "matheus-cunha",
+          "value": 1,
+          "rank": 22
+        },
+        {
+          "id": "folarin-balogun",
+          "value": 1,
+          "rank": 23
+        },
+        {
+          "id": "raul-jimenez",
+          "value": 1,
+          "rank": 24
+        },
+        {
+          "id": "kai-havertz",
+          "value": 2,
+          "rank": 14
+        }
+      ]
+    },
+    {
+      "date": "20260624",
+      "values": [
+        {
+          "id": "kylian-mbappe",
+          "value": 3,
+          "rank": 1
+        },
+        {
+          "id": "lionel-messi",
+          "value": 2,
+          "rank": 2
+        },
+        {
+          "id": "jude-bellingham",
+          "value": 2,
+          "rank": 3
+        },
+        {
+          "id": "erling-haaland",
+          "value": 2,
+          "rank": 4
+        },
+        {
+          "id": "ousmane-dembele",
+          "value": 2,
+          "rank": 5
+        },
+        {
+          "id": "harry-kane",
+          "value": 2,
+          "rank": 6
+        },
+        {
+          "id": "mikel-oyarzabal",
+          "value": 1,
+          "rank": 17
+        },
+        {
+          "id": "ismaila-sarr",
+          "value": 2,
+          "rank": 7
+        },
+        {
+          "id": "julian-quinones",
+          "value": 2,
+          "rank": 8
+        },
+        {
+          "id": "vinicius-junior",
+          "value": 2,
+          "rank": 9
+        },
+        {
+          "id": "bukayo-saka",
+          "value": 1,
+          "rank": 18
+        },
+        {
+          "id": "deniz-undav",
+          "value": 2,
+          "rank": 10
+        },
+        {
+          "id": "johan-manzambi",
+          "value": 2,
+          "rank": 11
+        },
+        {
+          "id": "romelu-lukaku",
+          "value": 1,
+          "rank": 19
+        },
+        {
+          "id": "lautaro-martinez",
+          "value": 1,
+          "rank": 20
+        },
+        {
+          "id": "charles-de-ketelaere",
+          "value": 1,
+          "rank": 21
+        },
+        {
+          "id": "cody-gakpo",
+          "value": 2,
+          "rank": 12
+        },
+        {
+          "id": "bradley-barcola",
+          "value": 1,
+          "rank": 22
+        },
+        {
+          "id": "brian-brobbey",
+          "value": 2,
+          "rank": 13
+        },
+        {
+          "id": "elijah-just",
+          "value": 2,
+          "rank": 14
+        },
+        {
+          "id": "matheus-cunha",
+          "value": 2,
+          "rank": 15
+        },
+        {
+          "id": "folarin-balogun",
+          "value": 1,
+          "rank": 23
+        },
+        {
+          "id": "raul-jimenez",
+          "value": 1,
+          "rank": 24
+        },
+        {
+          "id": "kai-havertz",
+          "value": 2,
+          "rank": 16
+        }
+      ]
+    },
+    {
+      "date": "20260625",
+      "values": [
+        {
+          "id": "kylian-mbappe",
+          "value": 3,
+          "rank": 1
+        },
+        {
+          "id": "lionel-messi",
+          "value": 2,
+          "rank": 2
+        },
+        {
+          "id": "jude-bellingham",
+          "value": 2,
+          "rank": 3
+        },
+        {
+          "id": "erling-haaland",
+          "value": 2,
+          "rank": 4
+        },
+        {
+          "id": "ousmane-dembele",
+          "value": 2,
+          "rank": 5
+        },
+        {
+          "id": "harry-kane",
+          "value": 2,
+          "rank": 6
+        },
+        {
+          "id": "mikel-oyarzabal",
+          "value": 1,
+          "rank": 18
+        },
+        {
+          "id": "ismaila-sarr",
+          "value": 2,
+          "rank": 7
+        },
+        {
+          "id": "julian-quinones",
+          "value": 2,
+          "rank": 8
+        },
+        {
+          "id": "vinicius-junior",
+          "value": 2,
+          "rank": 9
+        },
+        {
+          "id": "bukayo-saka",
+          "value": 1,
+          "rank": 19
+        },
+        {
+          "id": "deniz-undav",
+          "value": 2,
+          "rank": 10
+        },
+        {
+          "id": "johan-manzambi",
+          "value": 2,
+          "rank": 11
+        },
+        {
+          "id": "romelu-lukaku",
+          "value": 1,
+          "rank": 20
+        },
+        {
+          "id": "lautaro-martinez",
+          "value": 1,
+          "rank": 21
+        },
+        {
+          "id": "charles-de-ketelaere",
+          "value": 1,
+          "rank": 22
+        },
+        {
+          "id": "cody-gakpo",
+          "value": 2,
+          "rank": 12
+        },
+        {
+          "id": "bradley-barcola",
+          "value": 1,
+          "rank": 23
+        },
+        {
+          "id": "brian-brobbey",
+          "value": 2,
+          "rank": 13
+        },
+        {
+          "id": "elijah-just",
+          "value": 2,
+          "rank": 14
+        },
+        {
+          "id": "matheus-cunha",
+          "value": 2,
+          "rank": 15
+        },
+        {
+          "id": "folarin-balogun",
+          "value": 1,
+          "rank": 24
+        },
+        {
+          "id": "raul-jimenez",
+          "value": 2,
+          "rank": 16
+        },
+        {
+          "id": "kai-havertz",
+          "value": 2,
+          "rank": 17
+        }
+      ]
+    },
+    {
+      "date": "20260626",
+      "values": [
+        {
+          "id": "kylian-mbappe",
+          "value": 4,
+          "rank": 1
+        },
+        {
+          "id": "lionel-messi",
+          "value": 2,
+          "rank": 4
+        },
+        {
+          "id": "jude-bellingham",
+          "value": 2,
+          "rank": 5
+        },
+        {
+          "id": "erling-haaland",
+          "value": 4,
+          "rank": 2
+        },
+        {
+          "id": "ousmane-dembele",
+          "value": 2,
+          "rank": 6
+        },
+        {
+          "id": "harry-kane",
+          "value": 2,
+          "rank": 7
+        },
+        {
+          "id": "mikel-oyarzabal",
+          "value": 1,
+          "rank": 19
+        },
+        {
+          "id": "ismaila-sarr",
+          "value": 3,
+          "rank": 3
+        },
+        {
+          "id": "julian-quinones",
+          "value": 2,
+          "rank": 8
+        },
+        {
+          "id": "vinicius-junior",
+          "value": 2,
+          "rank": 9
+        },
+        {
+          "id": "bukayo-saka",
+          "value": 1,
+          "rank": 20
+        },
+        {
+          "id": "deniz-undav",
+          "value": 2,
+          "rank": 10
+        },
+        {
+          "id": "johan-manzambi",
+          "value": 2,
+          "rank": 11
+        },
+        {
+          "id": "romelu-lukaku",
+          "value": 1,
+          "rank": 21
+        },
+        {
+          "id": "lautaro-martinez",
+          "value": 1,
+          "rank": 22
+        },
+        {
+          "id": "charles-de-ketelaere",
+          "value": 1,
+          "rank": 23
+        },
+        {
+          "id": "cody-gakpo",
+          "value": 2,
+          "rank": 12
+        },
+        {
+          "id": "bradley-barcola",
+          "value": 1,
+          "rank": 24
+        },
+        {
+          "id": "brian-brobbey",
+          "value": 2,
+          "rank": 13
+        },
+        {
+          "id": "elijah-just",
+          "value": 2,
+          "rank": 14
+        },
+        {
+          "id": "matheus-cunha",
+          "value": 2,
+          "rank": 15
+        },
+        {
+          "id": "folarin-balogun",
+          "value": 2,
+          "rank": 16
+        },
+        {
+          "id": "raul-jimenez",
+          "value": 2,
+          "rank": 17
+        },
+        {
+          "id": "kai-havertz",
+          "value": 2,
+          "rank": 18
+        }
+      ]
+    },
+    {
+      "date": "20260627",
+      "values": [
+        {
+          "id": "kylian-mbappe",
+          "value": 4,
+          "rank": 1
+        },
+        {
+          "id": "lionel-messi",
+          "value": 2,
+          "rank": 6
+        },
+        {
+          "id": "jude-bellingham",
+          "value": 3,
+          "rank": 3
+        },
+        {
+          "id": "erling-haaland",
+          "value": 4,
+          "rank": 2
+        },
+        {
+          "id": "ousmane-dembele",
+          "value": 2,
+          "rank": 7
+        },
+        {
+          "id": "harry-kane",
+          "value": 2,
+          "rank": 8
+        },
+        {
+          "id": "mikel-oyarzabal",
+          "value": 2,
+          "rank": 9
+        },
+        {
+          "id": "ismaila-sarr",
+          "value": 3,
+          "rank": 4
+        },
+        {
+          "id": "julian-quinones",
+          "value": 2,
+          "rank": 10
+        },
+        {
+          "id": "vinicius-junior",
+          "value": 2,
+          "rank": 11
+        },
+        {
+          "id": "bukayo-saka",
+          "value": 1,
+          "rank": 22
+        },
+        {
+          "id": "deniz-undav",
+          "value": 2,
+          "rank": 12
+        },
+        {
+          "id": "johan-manzambi",
+          "value": 2,
+          "rank": 13
+        },
+        {
+          "id": "romelu-lukaku",
+          "value": 2,
+          "rank": 14
+        },
+        {
+          "id": "lautaro-martinez",
+          "value": 1,
+          "rank": 23
+        },
+        {
+          "id": "charles-de-ketelaere",
+          "value": 2,
+          "rank": 15
+        },
+        {
+          "id": "cody-gakpo",
+          "value": 2,
+          "rank": 16
+        },
+        {
+          "id": "bradley-barcola",
+          "value": 1,
+          "rank": 24
+        },
+        {
+          "id": "brian-brobbey",
+          "value": 2,
+          "rank": 17
+        },
+        {
+          "id": "elijah-just",
+          "value": 3,
+          "rank": 5
+        },
+        {
+          "id": "matheus-cunha",
+          "value": 2,
+          "rank": 18
+        },
+        {
+          "id": "folarin-balogun",
+          "value": 2,
+          "rank": 19
+        },
+        {
+          "id": "raul-jimenez",
+          "value": 2,
+          "rank": 20
+        },
+        {
+          "id": "kai-havertz",
+          "value": 2,
+          "rank": 21
+        }
+      ]
+    },
+    {
+      "date": "20260628",
+      "values": [
+        {
+          "id": "kylian-mbappe",
+          "value": 4,
+          "rank": 1
+        },
+        {
+          "id": "lionel-messi",
+          "value": 3,
+          "rank": 3
+        },
+        {
+          "id": "jude-bellingham",
+          "value": 3,
+          "rank": 4
+        },
+        {
+          "id": "erling-haaland",
+          "value": 4,
+          "rank": 2
+        },
+        {
+          "id": "ousmane-dembele",
+          "value": 2,
+          "rank": 7
+        },
+        {
+          "id": "harry-kane",
+          "value": 2,
+          "rank": 8
+        },
+        {
+          "id": "mikel-oyarzabal",
+          "value": 2,
+          "rank": 9
+        },
+        {
+          "id": "ismaila-sarr",
+          "value": 3,
+          "rank": 5
+        },
+        {
+          "id": "julian-quinones",
+          "value": 2,
+          "rank": 10
+        },
+        {
+          "id": "vinicius-junior",
+          "value": 2,
+          "rank": 11
+        },
+        {
+          "id": "bukayo-saka",
+          "value": 1,
+          "rank": 22
+        },
+        {
+          "id": "deniz-undav",
+          "value": 2,
+          "rank": 12
+        },
+        {
+          "id": "johan-manzambi",
+          "value": 2,
+          "rank": 13
+        },
+        {
+          "id": "romelu-lukaku",
+          "value": 2,
+          "rank": 14
+        },
+        {
+          "id": "lautaro-martinez",
+          "value": 1,
+          "rank": 23
+        },
+        {
+          "id": "charles-de-ketelaere",
+          "value": 2,
+          "rank": 15
+        },
+        {
+          "id": "cody-gakpo",
+          "value": 2,
+          "rank": 16
+        },
+        {
+          "id": "bradley-barcola",
+          "value": 1,
+          "rank": 24
+        },
+        {
+          "id": "brian-brobbey",
+          "value": 2,
+          "rank": 17
+        },
+        {
+          "id": "elijah-just",
+          "value": 3,
+          "rank": 6
+        },
+        {
+          "id": "matheus-cunha",
+          "value": 2,
+          "rank": 18
+        },
+        {
+          "id": "folarin-balogun",
+          "value": 2,
+          "rank": 19
+        },
+        {
+          "id": "raul-jimenez",
+          "value": 2,
+          "rank": 20
+        },
+        {
+          "id": "kai-havertz",
+          "value": 2,
+          "rank": 21
+        }
+      ]
+    },
+    {
+      "date": "20260629",
+      "values": [
+        {
+          "id": "kylian-mbappe",
+          "value": 4,
+          "rank": 1
+        },
+        {
+          "id": "lionel-messi",
+          "value": 3,
+          "rank": 3
+        },
+        {
+          "id": "jude-bellingham",
+          "value": 3,
+          "rank": 4
+        },
+        {
+          "id": "erling-haaland",
+          "value": 4,
+          "rank": 2
+        },
+        {
+          "id": "ousmane-dembele",
+          "value": 2,
+          "rank": 10
+        },
+        {
+          "id": "harry-kane",
+          "value": 2,
+          "rank": 11
+        },
+        {
+          "id": "mikel-oyarzabal",
+          "value": 2,
+          "rank": 12
+        },
+        {
+          "id": "ismaila-sarr",
+          "value": 3,
+          "rank": 5
+        },
+        {
+          "id": "julian-quinones",
+          "value": 2,
+          "rank": 13
+        },
+        {
+          "id": "vinicius-junior",
+          "value": 3,
+          "rank": 6
+        },
+        {
+          "id": "bukayo-saka",
+          "value": 1,
+          "rank": 22
+        },
+        {
+          "id": "deniz-undav",
+          "value": 3,
+          "rank": 7
+        },
+        {
+          "id": "johan-manzambi",
+          "value": 2,
+          "rank": 14
+        },
+        {
+          "id": "romelu-lukaku",
+          "value": 2,
+          "rank": 15
+        },
+        {
+          "id": "lautaro-martinez",
+          "value": 1,
+          "rank": 23
+        },
+        {
+          "id": "charles-de-ketelaere",
+          "value": 2,
+          "rank": 16
+        },
+        {
+          "id": "cody-gakpo",
+          "value": 2,
+          "rank": 17
+        },
+        {
+          "id": "bradley-barcola",
+          "value": 1,
+          "rank": 24
+        },
+        {
+          "id": "brian-brobbey",
+          "value": 2,
+          "rank": 18
+        },
+        {
+          "id": "elijah-just",
+          "value": 3,
+          "rank": 8
+        },
+        {
+          "id": "matheus-cunha",
+          "value": 2,
+          "rank": 19
+        },
+        {
+          "id": "folarin-balogun",
+          "value": 2,
+          "rank": 20
+        },
+        {
+          "id": "raul-jimenez",
+          "value": 2,
+          "rank": 21
+        },
+        {
+          "id": "kai-havertz",
+          "value": 3,
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "date": "20260630",
+      "values": [
+        {
+          "id": "kylian-mbappe",
+          "value": 5,
+          "rank": 1
+        },
+        {
+          "id": "lionel-messi",
+          "value": 3,
+          "rank": 3
+        },
+        {
+          "id": "jude-bellingham",
+          "value": 3,
+          "rank": 4
+        },
+        {
+          "id": "erling-haaland",
+          "value": 5,
+          "rank": 2
+        },
+        {
+          "id": "ousmane-dembele",
+          "value": 3,
+          "rank": 5
+        },
+        {
+          "id": "harry-kane",
+          "value": 2,
+          "rank": 13
+        },
+        {
+          "id": "mikel-oyarzabal",
+          "value": 2,
+          "rank": 14
+        },
+        {
+          "id": "ismaila-sarr",
+          "value": 3,
+          "rank": 6
+        },
+        {
+          "id": "julian-quinones",
+          "value": 2,
+          "rank": 15
+        },
+        {
+          "id": "vinicius-junior",
+          "value": 3,
+          "rank": 7
+        },
+        {
+          "id": "bukayo-saka",
+          "value": 1,
+          "rank": 23
+        },
+        {
+          "id": "deniz-undav",
+          "value": 3,
+          "rank": 8
+        },
+        {
+          "id": "johan-manzambi",
+          "value": 2,
+          "rank": 16
+        },
+        {
+          "id": "romelu-lukaku",
+          "value": 2,
+          "rank": 17
+        },
+        {
+          "id": "lautaro-martinez",
+          "value": 1,
+          "rank": 24
+        },
+        {
+          "id": "charles-de-ketelaere",
+          "value": 2,
+          "rank": 18
+        },
+        {
+          "id": "cody-gakpo",
+          "value": 3,
+          "rank": 9
+        },
+        {
+          "id": "bradley-barcola",
+          "value": 2,
+          "rank": 19
+        },
+        {
+          "id": "brian-brobbey",
+          "value": 3,
+          "rank": 10
+        },
+        {
+          "id": "elijah-just",
+          "value": 3,
+          "rank": 11
+        },
+        {
+          "id": "matheus-cunha",
+          "value": 2,
+          "rank": 20
+        },
+        {
+          "id": "folarin-balogun",
+          "value": 2,
+          "rank": 21
+        },
+        {
+          "id": "raul-jimenez",
+          "value": 2,
+          "rank": 22
+        },
+        {
+          "id": "kai-havertz",
+          "value": 3,
+          "rank": 12
+        }
+      ]
+    },
+    {
+      "date": "20260701",
+      "values": [
+        {
+          "id": "kylian-mbappe",
+          "value": 5,
+          "rank": 1
+        },
+        {
+          "id": "lionel-messi",
+          "value": 3,
+          "rank": 5
+        },
+        {
+          "id": "jude-bellingham",
+          "value": 4,
+          "rank": 3
+        },
+        {
+          "id": "erling-haaland",
+          "value": 5,
+          "rank": 2
+        },
+        {
+          "id": "ousmane-dembele",
+          "value": 3,
+          "rank": 6
+        },
+        {
+          "id": "harry-kane",
+          "value": 3,
+          "rank": 7
+        },
+        {
+          "id": "mikel-oyarzabal",
+          "value": 2,
+          "rank": 15
+        },
+        {
+          "id": "ismaila-sarr",
+          "value": 4,
+          "rank": 4
+        },
+        {
+          "id": "julian-quinones",
+          "value": 3,
+          "rank": 8
+        },
+        {
+          "id": "vinicius-junior",
+          "value": 3,
+          "rank": 9
+        },
+        {
+          "id": "bukayo-saka",
+          "value": 2,
+          "rank": 16
+        },
+        {
+          "id": "deniz-undav",
+          "value": 3,
+          "rank": 10
+        },
+        {
+          "id": "johan-manzambi",
+          "value": 2,
+          "rank": 17
+        },
+        {
+          "id": "romelu-lukaku",
+          "value": 2,
+          "rank": 18
+        },
+        {
+          "id": "lautaro-martinez",
+          "value": 1,
+          "rank": 24
+        },
+        {
+          "id": "charles-de-ketelaere",
+          "value": 2,
+          "rank": 19
+        },
+        {
+          "id": "cody-gakpo",
+          "value": 3,
+          "rank": 11
+        },
+        {
+          "id": "bradley-barcola",
+          "value": 2,
+          "rank": 20
+        },
+        {
+          "id": "brian-brobbey",
+          "value": 3,
+          "rank": 12
+        },
+        {
+          "id": "elijah-just",
+          "value": 3,
+          "rank": 13
+        },
+        {
+          "id": "matheus-cunha",
+          "value": 2,
+          "rank": 21
+        },
+        {
+          "id": "folarin-balogun",
+          "value": 2,
+          "rank": 22
+        },
+        {
+          "id": "raul-jimenez",
+          "value": 2,
+          "rank": 23
+        },
+        {
+          "id": "kai-havertz",
+          "value": 3,
+          "rank": 14
+        }
+      ]
+    },
+    {
+      "date": "20260702",
+      "values": [
+        {
+          "id": "kylian-mbappe",
+          "value": 5,
+          "rank": 1
+        },
+        {
+          "id": "lionel-messi",
+          "value": 3,
+          "rank": 5
+        },
+        {
+          "id": "jude-bellingham",
+          "value": 4,
+          "rank": 3
+        },
+        {
+          "id": "erling-haaland",
+          "value": 5,
+          "rank": 2
+        },
+        {
+          "id": "ousmane-dembele",
+          "value": 3,
+          "rank": 6
+        },
+        {
+          "id": "harry-kane",
+          "value": 3,
+          "rank": 7
+        },
+        {
+          "id": "mikel-oyarzabal",
+          "value": 3,
+          "rank": 8
+        },
+        {
+          "id": "ismaila-sarr",
+          "value": 4,
+          "rank": 4
+        },
+        {
+          "id": "julian-quinones",
+          "value": 3,
+          "rank": 9
+        },
+        {
+          "id": "vinicius-junior",
+          "value": 3,
+          "rank": 10
+        },
+        {
+          "id": "bukayo-saka",
+          "value": 2,
+          "rank": 16
+        },
+        {
+          "id": "deniz-undav",
+          "value": 3,
+          "rank": 11
+        },
+        {
+          "id": "johan-manzambi",
+          "value": 2,
+          "rank": 17
+        },
+        {
+          "id": "romelu-lukaku",
+          "value": 2,
+          "rank": 18
+        },
+        {
+          "id": "lautaro-martinez",
+          "value": 1,
+          "rank": 24
+        },
+        {
+          "id": "charles-de-ketelaere",
+          "value": 2,
+          "rank": 19
+        },
+        {
+          "id": "cody-gakpo",
+          "value": 3,
+          "rank": 12
+        },
+        {
+          "id": "bradley-barcola",
+          "value": 2,
+          "rank": 20
+        },
+        {
+          "id": "brian-brobbey",
+          "value": 3,
+          "rank": 13
+        },
+        {
+          "id": "elijah-just",
+          "value": 3,
+          "rank": 14
+        },
+        {
+          "id": "matheus-cunha",
+          "value": 2,
+          "rank": 21
+        },
+        {
+          "id": "folarin-balogun",
+          "value": 2,
+          "rank": 22
+        },
+        {
+          "id": "raul-jimenez",
+          "value": 2,
+          "rank": 23
+        },
+        {
+          "id": "kai-havertz",
+          "value": 3,
+          "rank": 15
+        }
+      ]
+    },
+    {
+      "date": "20260703",
+      "values": [
+        {
+          "id": "kylian-mbappe",
+          "value": 5,
+          "rank": 1
+        },
+        {
+          "id": "lionel-messi",
+          "value": 5,
+          "rank": 2
+        },
+        {
+          "id": "jude-bellingham",
+          "value": 4,
+          "rank": 4
+        },
+        {
+          "id": "erling-haaland",
+          "value": 5,
+          "rank": 3
+        },
+        {
+          "id": "ousmane-dembele",
+          "value": 3,
+          "rank": 6
+        },
+        {
+          "id": "harry-kane",
+          "value": 3,
+          "rank": 7
+        },
+        {
+          "id": "mikel-oyarzabal",
+          "value": 3,
+          "rank": 8
+        },
+        {
+          "id": "ismaila-sarr",
+          "value": 4,
+          "rank": 5
+        },
+        {
+          "id": "julian-quinones",
+          "value": 3,
+          "rank": 9
+        },
+        {
+          "id": "vinicius-junior",
+          "value": 3,
+          "rank": 10
+        },
+        {
+          "id": "bukayo-saka",
+          "value": 2,
+          "rank": 16
+        },
+        {
+          "id": "deniz-undav",
+          "value": 3,
+          "rank": 11
+        },
+        {
+          "id": "johan-manzambi",
+          "value": 2,
+          "rank": 17
+        },
+        {
+          "id": "romelu-lukaku",
+          "value": 2,
+          "rank": 18
+        },
+        {
+          "id": "lautaro-martinez",
+          "value": 2,
+          "rank": 19
+        },
+        {
+          "id": "charles-de-ketelaere",
+          "value": 2,
+          "rank": 20
+        },
+        {
+          "id": "cody-gakpo",
+          "value": 3,
+          "rank": 12
+        },
+        {
+          "id": "bradley-barcola",
+          "value": 2,
+          "rank": 21
+        },
+        {
+          "id": "brian-brobbey",
+          "value": 3,
+          "rank": 13
+        },
+        {
+          "id": "elijah-just",
+          "value": 3,
+          "rank": 14
+        },
+        {
+          "id": "matheus-cunha",
+          "value": 2,
+          "rank": 22
+        },
+        {
+          "id": "folarin-balogun",
+          "value": 2,
+          "rank": 23
+        },
+        {
+          "id": "raul-jimenez",
+          "value": 2,
+          "rank": 24
+        },
+        {
+          "id": "kai-havertz",
+          "value": 3,
+          "rank": 15
+        }
+      ]
+    },
+    {
+      "date": "20260704",
+      "values": [
+        {
+          "id": "kylian-mbappe",
+          "value": 6,
+          "rank": 1
+        },
+        {
+          "id": "lionel-messi",
+          "value": 5,
+          "rank": 2
+        },
+        {
+          "id": "jude-bellingham",
+          "value": 4,
+          "rank": 4
+        },
+        {
+          "id": "erling-haaland",
+          "value": 5,
+          "rank": 3
+        },
+        {
+          "id": "ousmane-dembele",
+          "value": 4,
+          "rank": 5
+        },
+        {
+          "id": "harry-kane",
+          "value": 3,
+          "rank": 7
+        },
+        {
+          "id": "mikel-oyarzabal",
+          "value": 3,
+          "rank": 8
+        },
+        {
+          "id": "ismaila-sarr",
+          "value": 4,
+          "rank": 6
+        },
+        {
+          "id": "julian-quinones",
+          "value": 3,
+          "rank": 9
+        },
+        {
+          "id": "vinicius-junior",
+          "value": 3,
+          "rank": 10
+        },
+        {
+          "id": "bukayo-saka",
+          "value": 2,
+          "rank": 16
+        },
+        {
+          "id": "deniz-undav",
+          "value": 3,
+          "rank": 11
+        },
+        {
+          "id": "johan-manzambi",
+          "value": 2,
+          "rank": 17
+        },
+        {
+          "id": "romelu-lukaku",
+          "value": 2,
+          "rank": 18
+        },
+        {
+          "id": "lautaro-martinez",
+          "value": 2,
+          "rank": 19
+        },
+        {
+          "id": "charles-de-ketelaere",
+          "value": 2,
+          "rank": 20
+        },
+        {
+          "id": "cody-gakpo",
+          "value": 3,
+          "rank": 12
+        },
+        {
+          "id": "bradley-barcola",
+          "value": 2,
+          "rank": 21
+        },
+        {
+          "id": "brian-brobbey",
+          "value": 3,
+          "rank": 13
+        },
+        {
+          "id": "elijah-just",
+          "value": 3,
+          "rank": 14
+        },
+        {
+          "id": "matheus-cunha",
+          "value": 2,
+          "rank": 22
+        },
+        {
+          "id": "folarin-balogun",
+          "value": 2,
+          "rank": 23
+        },
+        {
+          "id": "raul-jimenez",
+          "value": 2,
+          "rank": 24
+        },
+        {
+          "id": "kai-havertz",
+          "value": 3,
+          "rank": 15
+        }
+      ]
+    },
+    {
+      "date": "20260705",
+      "values": [
+        {
+          "id": "kylian-mbappe",
+          "value": 6,
+          "rank": 1
+        },
+        {
+          "id": "lionel-messi",
+          "value": 5,
+          "rank": 3
+        },
+        {
+          "id": "jude-bellingham",
+          "value": 4,
+          "rank": 4
+        },
+        {
+          "id": "erling-haaland",
+          "value": 6,
+          "rank": 2
+        },
+        {
+          "id": "ousmane-dembele",
+          "value": 4,
+          "rank": 5
+        },
+        {
+          "id": "harry-kane",
+          "value": 3,
+          "rank": 8
+        },
+        {
+          "id": "mikel-oyarzabal",
+          "value": 3,
+          "rank": 9
+        },
+        {
+          "id": "ismaila-sarr",
+          "value": 4,
+          "rank": 6
+        },
+        {
+          "id": "julian-quinones",
+          "value": 3,
+          "rank": 10
+        },
+        {
+          "id": "vinicius-junior",
+          "value": 4,
+          "rank": 7
+        },
+        {
+          "id": "bukayo-saka",
+          "value": 2,
+          "rank": 17
+        },
+        {
+          "id": "deniz-undav",
+          "value": 3,
+          "rank": 11
+        },
+        {
+          "id": "johan-manzambi",
+          "value": 2,
+          "rank": 18
+        },
+        {
+          "id": "romelu-lukaku",
+          "value": 2,
+          "rank": 19
+        },
+        {
+          "id": "lautaro-martinez",
+          "value": 2,
+          "rank": 20
+        },
+        {
+          "id": "charles-de-ketelaere",
+          "value": 2,
+          "rank": 21
+        },
+        {
+          "id": "cody-gakpo",
+          "value": 3,
+          "rank": 12
+        },
+        {
+          "id": "bradley-barcola",
+          "value": 2,
+          "rank": 22
+        },
+        {
+          "id": "brian-brobbey",
+          "value": 3,
+          "rank": 13
+        },
+        {
+          "id": "elijah-just",
+          "value": 3,
+          "rank": 14
+        },
+        {
+          "id": "matheus-cunha",
+          "value": 3,
+          "rank": 15
+        },
+        {
+          "id": "folarin-balogun",
+          "value": 2,
+          "rank": 23
+        },
+        {
+          "id": "raul-jimenez",
+          "value": 2,
+          "rank": 24
+        },
+        {
+          "id": "kai-havertz",
+          "value": 3,
+          "rank": 16
+        }
+      ]
+    },
+    {
+      "date": "20260706",
+      "values": [
+        {
+          "id": "kylian-mbappe",
+          "value": 6,
+          "rank": 1
+        },
+        {
+          "id": "lionel-messi",
+          "value": 5,
+          "rank": 3
+        },
+        {
+          "id": "jude-bellingham",
+          "value": 4,
+          "rank": 4
+        },
+        {
+          "id": "erling-haaland",
+          "value": 6,
+          "rank": 2
+        },
+        {
+          "id": "ousmane-dembele",
+          "value": 4,
+          "rank": 5
+        },
+        {
+          "id": "harry-kane",
+          "value": 4,
+          "rank": 6
+        },
+        {
+          "id": "mikel-oyarzabal",
+          "value": 4,
+          "rank": 7
+        },
+        {
+          "id": "ismaila-sarr",
+          "value": 4,
+          "rank": 8
+        },
+        {
+          "id": "julian-quinones",
+          "value": 4,
+          "rank": 9
+        },
+        {
+          "id": "vinicius-junior",
+          "value": 4,
+          "rank": 10
+        },
+        {
+          "id": "bukayo-saka",
+          "value": 2,
+          "rank": 18
+        },
+        {
+          "id": "deniz-undav",
+          "value": 3,
+          "rank": 11
+        },
+        {
+          "id": "johan-manzambi",
+          "value": 2,
+          "rank": 19
+        },
+        {
+          "id": "romelu-lukaku",
+          "value": 2,
+          "rank": 20
+        },
+        {
+          "id": "lautaro-martinez",
+          "value": 2,
+          "rank": 21
+        },
+        {
+          "id": "charles-de-ketelaere",
+          "value": 2,
+          "rank": 22
+        },
+        {
+          "id": "cody-gakpo",
+          "value": 3,
+          "rank": 12
+        },
+        {
+          "id": "bradley-barcola",
+          "value": 2,
+          "rank": 23
+        },
+        {
+          "id": "brian-brobbey",
+          "value": 3,
+          "rank": 13
+        },
+        {
+          "id": "elijah-just",
+          "value": 3,
+          "rank": 14
+        },
+        {
+          "id": "matheus-cunha",
+          "value": 3,
+          "rank": 15
+        },
+        {
+          "id": "folarin-balogun",
+          "value": 2,
+          "rank": 24
+        },
+        {
+          "id": "raul-jimenez",
+          "value": 3,
+          "rank": 16
+        },
+        {
+          "id": "kai-havertz",
+          "value": 3,
+          "rank": 17
+        }
+      ]
+    },
+    {
+      "date": "20260707",
+      "values": [
+        {
+          "id": "kylian-mbappe",
+          "value": 6,
+          "rank": 1
+        },
+        {
+          "id": "lionel-messi",
+          "value": 6,
+          "rank": 2
+        },
+        {
+          "id": "jude-bellingham",
+          "value": 4,
+          "rank": 4
+        },
+        {
+          "id": "erling-haaland",
+          "value": 6,
+          "rank": 3
+        },
+        {
+          "id": "ousmane-dembele",
+          "value": 4,
+          "rank": 5
+        },
+        {
+          "id": "harry-kane",
+          "value": 4,
+          "rank": 6
+        },
+        {
+          "id": "mikel-oyarzabal",
+          "value": 4,
+          "rank": 7
+        },
+        {
+          "id": "ismaila-sarr",
+          "value": 4,
+          "rank": 8
+        },
+        {
+          "id": "julian-quinones",
+          "value": 4,
+          "rank": 9
+        },
+        {
+          "id": "vinicius-junior",
+          "value": 4,
+          "rank": 10
+        },
+        {
+          "id": "bukayo-saka",
+          "value": 2,
+          "rank": 22
+        },
+        {
+          "id": "deniz-undav",
+          "value": 3,
+          "rank": 11
+        },
+        {
+          "id": "johan-manzambi",
+          "value": 3,
+          "rank": 12
+        },
+        {
+          "id": "romelu-lukaku",
+          "value": 3,
+          "rank": 13
+        },
+        {
+          "id": "lautaro-martinez",
+          "value": 2,
+          "rank": 23
+        },
+        {
+          "id": "charles-de-ketelaere",
+          "value": 3,
+          "rank": 14
+        },
+        {
+          "id": "cody-gakpo",
+          "value": 3,
+          "rank": 15
+        },
+        {
+          "id": "bradley-barcola",
+          "value": 2,
+          "rank": 24
+        },
+        {
+          "id": "brian-brobbey",
+          "value": 3,
+          "rank": 16
+        },
+        {
+          "id": "elijah-just",
+          "value": 3,
+          "rank": 17
+        },
+        {
+          "id": "matheus-cunha",
+          "value": 3,
+          "rank": 18
+        },
+        {
+          "id": "folarin-balogun",
+          "value": 3,
+          "rank": 19
+        },
+        {
+          "id": "raul-jimenez",
+          "value": 3,
+          "rank": 20
+        },
+        {
+          "id": "kai-havertz",
+          "value": 3,
+          "rank": 21
+        }
+      ]
+    },
+    {
+      "date": "20260709",
+      "values": [
+        {
+          "id": "kylian-mbappe",
+          "value": 8,
+          "rank": 1
+        },
+        {
+          "id": "lionel-messi",
+          "value": 6,
+          "rank": 2
+        },
+        {
+          "id": "jude-bellingham",
+          "value": 4,
+          "rank": 5
+        },
+        {
+          "id": "erling-haaland",
+          "value": 6,
+          "rank": 3
+        },
+        {
+          "id": "ousmane-dembele",
+          "value": 5,
+          "rank": 4
+        },
+        {
+          "id": "harry-kane",
+          "value": 4,
+          "rank": 6
+        },
+        {
+          "id": "mikel-oyarzabal",
+          "value": 4,
+          "rank": 7
+        },
+        {
+          "id": "ismaila-sarr",
+          "value": 4,
+          "rank": 8
+        },
+        {
+          "id": "julian-quinones",
+          "value": 4,
+          "rank": 9
+        },
+        {
+          "id": "vinicius-junior",
+          "value": 4,
+          "rank": 10
+        },
+        {
+          "id": "bukayo-saka",
+          "value": 2,
+          "rank": 22
+        },
+        {
+          "id": "deniz-undav",
+          "value": 3,
+          "rank": 11
+        },
+        {
+          "id": "johan-manzambi",
+          "value": 3,
+          "rank": 12
+        },
+        {
+          "id": "romelu-lukaku",
+          "value": 3,
+          "rank": 13
+        },
+        {
+          "id": "lautaro-martinez",
+          "value": 2,
+          "rank": 23
+        },
+        {
+          "id": "charles-de-ketelaere",
+          "value": 3,
+          "rank": 14
+        },
+        {
+          "id": "cody-gakpo",
+          "value": 3,
+          "rank": 15
+        },
+        {
+          "id": "bradley-barcola",
+          "value": 2,
+          "rank": 24
+        },
+        {
+          "id": "brian-brobbey",
+          "value": 3,
+          "rank": 16
+        },
+        {
+          "id": "elijah-just",
+          "value": 3,
+          "rank": 17
+        },
+        {
+          "id": "matheus-cunha",
+          "value": 3,
+          "rank": 18
+        },
+        {
+          "id": "folarin-balogun",
+          "value": 3,
+          "rank": 19
+        },
+        {
+          "id": "raul-jimenez",
+          "value": 3,
+          "rank": 20
+        },
+        {
+          "id": "kai-havertz",
+          "value": 3,
+          "rank": 21
+        }
+      ]
+    },
+    {
+      "date": "20260710",
+      "values": [
+        {
+          "id": "kylian-mbappe",
+          "value": 8,
+          "rank": 1
+        },
+        {
+          "id": "lionel-messi",
+          "value": 6,
+          "rank": 2
+        },
+        {
+          "id": "jude-bellingham",
+          "value": 4,
+          "rank": 5
+        },
+        {
+          "id": "erling-haaland",
+          "value": 6,
+          "rank": 3
+        },
+        {
+          "id": "ousmane-dembele",
+          "value": 5,
+          "rank": 4
+        },
+        {
+          "id": "harry-kane",
+          "value": 4,
+          "rank": 6
+        },
+        {
+          "id": "mikel-oyarzabal",
+          "value": 4,
+          "rank": 7
+        },
+        {
+          "id": "ismaila-sarr",
+          "value": 4,
+          "rank": 8
+        },
+        {
+          "id": "julian-quinones",
+          "value": 4,
+          "rank": 9
+        },
+        {
+          "id": "vinicius-junior",
+          "value": 4,
+          "rank": 10
+        },
+        {
+          "id": "bukayo-saka",
+          "value": 2,
+          "rank": 22
+        },
+        {
+          "id": "deniz-undav",
+          "value": 3,
+          "rank": 11
+        },
+        {
+          "id": "johan-manzambi",
+          "value": 3,
+          "rank": 12
+        },
+        {
+          "id": "romelu-lukaku",
+          "value": 3,
+          "rank": 13
+        },
+        {
+          "id": "lautaro-martinez",
+          "value": 2,
+          "rank": 23
+        },
+        {
+          "id": "charles-de-ketelaere",
+          "value": 3,
+          "rank": 14
+        },
+        {
+          "id": "cody-gakpo",
+          "value": 3,
+          "rank": 15
+        },
+        {
+          "id": "bradley-barcola",
+          "value": 2,
+          "rank": 24
+        },
+        {
+          "id": "brian-brobbey",
+          "value": 3,
+          "rank": 16
+        },
+        {
+          "id": "elijah-just",
+          "value": 3,
+          "rank": 17
+        },
+        {
+          "id": "matheus-cunha",
+          "value": 3,
+          "rank": 18
+        },
+        {
+          "id": "folarin-balogun",
+          "value": 3,
+          "rank": 19
+        },
+        {
+          "id": "raul-jimenez",
+          "value": 3,
+          "rank": 20
+        },
+        {
+          "id": "kai-havertz",
+          "value": 3,
+          "rank": 21
+        }
+      ]
+    },
+    {
+      "date": "20260711",
+      "values": [
+        {
+          "id": "kylian-mbappe",
+          "value": 8,
+          "rank": 1
+        },
+        {
+          "id": "lionel-messi",
+          "value": 6,
+          "rank": 3
+        },
+        {
+          "id": "jude-bellingham",
+          "value": 5,
+          "rank": 4
+        },
+        {
+          "id": "erling-haaland",
+          "value": 7,
+          "rank": 2
+        },
+        {
+          "id": "ousmane-dembele",
+          "value": 5,
+          "rank": 5
+        },
+        {
+          "id": "harry-kane",
+          "value": 5,
+          "rank": 6
+        },
+        {
+          "id": "mikel-oyarzabal",
+          "value": 4,
+          "rank": 7
+        },
+        {
+          "id": "ismaila-sarr",
+          "value": 4,
+          "rank": 8
+        },
+        {
+          "id": "julian-quinones",
+          "value": 4,
+          "rank": 9
+        },
+        {
+          "id": "vinicius-junior",
+          "value": 4,
+          "rank": 10
+        },
+        {
+          "id": "bukayo-saka",
+          "value": 2,
+          "rank": 22
+        },
+        {
+          "id": "deniz-undav",
+          "value": 3,
+          "rank": 11
+        },
+        {
+          "id": "johan-manzambi",
+          "value": 3,
+          "rank": 12
+        },
+        {
+          "id": "romelu-lukaku",
+          "value": 3,
+          "rank": 13
+        },
+        {
+          "id": "lautaro-martinez",
+          "value": 2,
+          "rank": 23
+        },
+        {
+          "id": "charles-de-ketelaere",
+          "value": 3,
+          "rank": 14
+        },
+        {
+          "id": "cody-gakpo",
+          "value": 3,
+          "rank": 15
+        },
+        {
+          "id": "bradley-barcola",
+          "value": 2,
+          "rank": 24
+        },
+        {
+          "id": "brian-brobbey",
+          "value": 3,
+          "rank": 16
+        },
+        {
+          "id": "elijah-just",
+          "value": 3,
+          "rank": 17
+        },
+        {
+          "id": "matheus-cunha",
+          "value": 3,
+          "rank": 18
+        },
+        {
+          "id": "folarin-balogun",
+          "value": 3,
+          "rank": 19
+        },
+        {
+          "id": "raul-jimenez",
+          "value": 3,
+          "rank": 20
+        },
+        {
+          "id": "kai-havertz",
+          "value": 3,
+          "rank": 21
+        }
+      ]
+    },
+    {
+      "date": "20260712",
+      "values": [
+        {
+          "id": "kylian-mbappe",
+          "value": 8,
+          "rank": 1
+        },
+        {
+          "id": "lionel-messi",
+          "value": 7,
+          "rank": 2
+        },
+        {
+          "id": "jude-bellingham",
+          "value": 5,
+          "rank": 4
+        },
+        {
+          "id": "erling-haaland",
+          "value": 7,
+          "rank": 3
+        },
+        {
+          "id": "ousmane-dembele",
+          "value": 5,
+          "rank": 5
+        },
+        {
+          "id": "harry-kane",
+          "value": 5,
+          "rank": 6
+        },
+        {
+          "id": "mikel-oyarzabal",
+          "value": 4,
+          "rank": 7
+        },
+        {
+          "id": "ismaila-sarr",
+          "value": 4,
+          "rank": 8
+        },
+        {
+          "id": "julian-quinones",
+          "value": 4,
+          "rank": 9
+        },
+        {
+          "id": "vinicius-junior",
+          "value": 4,
+          "rank": 10
+        },
+        {
+          "id": "bukayo-saka",
+          "value": 2,
+          "rank": 23
+        },
+        {
+          "id": "deniz-undav",
+          "value": 3,
+          "rank": 11
+        },
+        {
+          "id": "johan-manzambi",
+          "value": 3,
+          "rank": 12
+        },
+        {
+          "id": "romelu-lukaku",
+          "value": 3,
+          "rank": 13
+        },
+        {
+          "id": "lautaro-martinez",
+          "value": 3,
+          "rank": 14
+        },
+        {
+          "id": "charles-de-ketelaere",
+          "value": 3,
+          "rank": 15
+        },
+        {
+          "id": "cody-gakpo",
+          "value": 3,
+          "rank": 16
+        },
+        {
+          "id": "bradley-barcola",
+          "value": 2,
+          "rank": 24
+        },
+        {
+          "id": "brian-brobbey",
+          "value": 3,
+          "rank": 17
+        },
+        {
+          "id": "elijah-just",
+          "value": 3,
+          "rank": 18
+        },
+        {
+          "id": "matheus-cunha",
+          "value": 3,
+          "rank": 19
+        },
+        {
+          "id": "folarin-balogun",
+          "value": 3,
+          "rank": 20
+        },
+        {
+          "id": "raul-jimenez",
+          "value": 3,
+          "rank": 21
+        },
+        {
+          "id": "kai-havertz",
+          "value": 3,
+          "rank": 22
+        }
+      ]
+    },
+    {
+      "date": "20260714",
+      "values": [
+        {
+          "id": "kylian-mbappe",
+          "value": 9,
+          "rank": 1
+        },
+        {
+          "id": "lionel-messi",
+          "value": 7,
+          "rank": 2
+        },
+        {
+          "id": "jude-bellingham",
+          "value": 5,
+          "rank": 4
+        },
+        {
+          "id": "erling-haaland",
+          "value": 7,
+          "rank": 3
+        },
+        {
+          "id": "ousmane-dembele",
+          "value": 5,
+          "rank": 5
+        },
+        {
+          "id": "harry-kane",
+          "value": 5,
+          "rank": 6
+        },
+        {
+          "id": "mikel-oyarzabal",
+          "value": 5,
+          "rank": 7
+        },
+        {
+          "id": "ismaila-sarr",
+          "value": 4,
+          "rank": 8
+        },
+        {
+          "id": "julian-quinones",
+          "value": 4,
+          "rank": 9
+        },
+        {
+          "id": "vinicius-junior",
+          "value": 4,
+          "rank": 10
+        },
+        {
+          "id": "bukayo-saka",
+          "value": 2,
+          "rank": 24
+        },
+        {
+          "id": "deniz-undav",
+          "value": 3,
+          "rank": 11
+        },
+        {
+          "id": "johan-manzambi",
+          "value": 3,
+          "rank": 12
+        },
+        {
+          "id": "romelu-lukaku",
+          "value": 3,
+          "rank": 13
+        },
+        {
+          "id": "lautaro-martinez",
+          "value": 3,
+          "rank": 14
+        },
+        {
+          "id": "charles-de-ketelaere",
+          "value": 3,
+          "rank": 15
+        },
+        {
+          "id": "cody-gakpo",
+          "value": 3,
+          "rank": 16
+        },
+        {
+          "id": "bradley-barcola",
+          "value": 3,
+          "rank": 17
+        },
+        {
+          "id": "brian-brobbey",
+          "value": 3,
+          "rank": 18
+        },
+        {
+          "id": "elijah-just",
+          "value": 3,
+          "rank": 19
+        },
+        {
+          "id": "matheus-cunha",
+          "value": 3,
+          "rank": 20
+        },
+        {
+          "id": "folarin-balogun",
+          "value": 3,
+          "rank": 21
+        },
+        {
+          "id": "raul-jimenez",
+          "value": 3,
+          "rank": 22
+        },
+        {
+          "id": "kai-havertz",
+          "value": 3,
+          "rank": 23
+        }
+      ]
+    },
+    {
+      "date": "20260715",
+      "values": [
+        {
+          "id": "kylian-mbappe",
+          "value": 9,
+          "rank": 1
+        },
+        {
+          "id": "lionel-messi",
+          "value": 8,
+          "rank": 2
+        },
+        {
+          "id": "jude-bellingham",
+          "value": 6,
+          "rank": 4
+        },
+        {
+          "id": "erling-haaland",
+          "value": 7,
+          "rank": 3
+        },
+        {
+          "id": "ousmane-dembele",
+          "value": 5,
+          "rank": 5
+        },
+        {
+          "id": "harry-kane",
+          "value": 5,
+          "rank": 6
+        },
+        {
+          "id": "mikel-oyarzabal",
+          "value": 5,
+          "rank": 7
+        },
+        {
+          "id": "ismaila-sarr",
+          "value": 4,
+          "rank": 8
+        },
+        {
+          "id": "julian-quinones",
+          "value": 4,
+          "rank": 9
+        },
+        {
+          "id": "vinicius-junior",
+          "value": 4,
+          "rank": 10
+        },
+        {
+          "id": "bukayo-saka",
+          "value": 3,
+          "rank": 11
+        },
+        {
+          "id": "deniz-undav",
+          "value": 3,
+          "rank": 12
+        },
+        {
+          "id": "johan-manzambi",
+          "value": 3,
+          "rank": 13
+        },
+        {
+          "id": "romelu-lukaku",
+          "value": 3,
+          "rank": 14
+        },
+        {
+          "id": "lautaro-martinez",
+          "value": 3,
+          "rank": 15
+        },
+        {
+          "id": "charles-de-ketelaere",
+          "value": 3,
+          "rank": 16
+        },
+        {
+          "id": "cody-gakpo",
+          "value": 3,
+          "rank": 17
+        },
+        {
+          "id": "bradley-barcola",
+          "value": 3,
+          "rank": 18
+        },
+        {
+          "id": "brian-brobbey",
+          "value": 3,
+          "rank": 19
+        },
+        {
+          "id": "elijah-just",
+          "value": 3,
+          "rank": 20
+        },
+        {
+          "id": "matheus-cunha",
+          "value": 3,
+          "rank": 21
+        },
+        {
+          "id": "folarin-balogun",
+          "value": 3,
+          "rank": 22
+        },
+        {
+          "id": "raul-jimenez",
+          "value": 3,
+          "rank": 23
+        },
+        {
+          "id": "kai-havertz",
+          "value": 3,
+          "rank": 24
+        }
+      ]
+    },
+    {
+      "date": "20260718",
+      "values": [
+        {
+          "id": "kylian-mbappe",
+          "value": 10,
+          "rank": 1
+        },
+        {
+          "id": "lionel-messi",
+          "value": 8,
+          "rank": 2
+        },
+        {
+          "id": "jude-bellingham",
+          "value": 7,
+          "rank": 3
+        },
+        {
+          "id": "erling-haaland",
+          "value": 7,
+          "rank": 4
+        },
+        {
+          "id": "ousmane-dembele",
+          "value": 6,
+          "rank": 5
+        },
+        {
+          "id": "harry-kane",
+          "value": 6,
+          "rank": 6
+        },
+        {
+          "id": "mikel-oyarzabal",
+          "value": 5,
+          "rank": 7
+        },
+        {
+          "id": "ismaila-sarr",
+          "value": 4,
+          "rank": 8
+        },
+        {
+          "id": "julian-quinones",
+          "value": 4,
+          "rank": 9
+        },
+        {
+          "id": "vinicius-junior",
+          "value": 4,
+          "rank": 10
+        },
+        {
+          "id": "bukayo-saka",
+          "value": 3,
+          "rank": 11
+        },
+        {
+          "id": "deniz-undav",
+          "value": 3,
+          "rank": 12
+        },
+        {
+          "id": "johan-manzambi",
+          "value": 3,
+          "rank": 13
+        },
+        {
+          "id": "romelu-lukaku",
+          "value": 3,
+          "rank": 14
+        },
+        {
+          "id": "lautaro-martinez",
+          "value": 3,
+          "rank": 15
+        },
+        {
+          "id": "charles-de-ketelaere",
+          "value": 3,
+          "rank": 16
+        },
+        {
+          "id": "cody-gakpo",
+          "value": 3,
+          "rank": 17
+        },
+        {
+          "id": "bradley-barcola",
+          "value": 3,
+          "rank": 18
+        },
+        {
+          "id": "brian-brobbey",
+          "value": 3,
+          "rank": 19
+        },
+        {
+          "id": "elijah-just",
+          "value": 3,
+          "rank": 20
+        },
+        {
+          "id": "matheus-cunha",
+          "value": 3,
+          "rank": 21
+        },
+        {
+          "id": "folarin-balogun",
+          "value": 3,
+          "rank": 22
+        },
+        {
+          "id": "raul-jimenez",
+          "value": 3,
+          "rank": 23
+        },
+        {
+          "id": "kai-havertz",
+          "value": 3,
+          "rank": 24
+        }
+      ]
+    },
+    {
+      "date": "20260719",
+      "values": [
+        {
+          "id": "kylian-mbappe",
+          "value": 10,
+          "rank": 1,
+          "country": "France"
+        },
+        {
+          "id": "lionel-messi",
+          "value": 8,
+          "rank": 2,
+          "country": "Argentina"
+        },
+        {
+          "id": "jude-bellingham",
+          "value": 7,
+          "rank": 3,
+          "country": "England"
+        },
+        {
+          "id": "erling-haaland",
+          "value": 7,
+          "rank": 4,
+          "country": "Norway"
+        },
+        {
+          "id": "ousmane-dembele",
+          "value": 6,
+          "rank": 5,
+          "country": "France"
+        },
+        {
+          "id": "harry-kane",
+          "value": 6,
+          "rank": 6,
+          "country": "England"
+        },
+        {
+          "id": "mikel-oyarzabal",
+          "value": 5,
+          "rank": 7,
+          "country": "Spain"
+        },
+        {
+          "id": "ismaila-sarr",
+          "value": 4,
+          "rank": 8,
+          "country": "Senegal"
+        },
+        {
+          "id": "julian-quinones",
+          "value": 4,
+          "rank": 9,
+          "country": "Mexico"
+        },
+        {
+          "id": "vinicius-junior",
+          "value": 4,
+          "rank": 10,
+          "country": "Brazil"
+        },
+        {
+          "id": "bukayo-saka",
+          "value": 3,
+          "rank": 11,
+          "country": "England"
+        },
+        {
+          "id": "deniz-undav",
+          "value": 3,
+          "rank": 12,
+          "country": "Germany"
+        },
+        {
+          "id": "johan-manzambi",
+          "value": 3,
+          "rank": 13,
+          "country": "Switzerland"
+        },
+        {
+          "id": "romelu-lukaku",
+          "value": 3,
+          "rank": 14,
+          "country": "Belgium"
+        },
+        {
+          "id": "lautaro-martinez",
+          "value": 3,
+          "rank": 15,
+          "country": "Argentina"
+        },
+        {
+          "id": "charles-de-ketelaere",
+          "value": 3,
+          "rank": 16,
+          "country": "Belgium"
+        },
+        {
+          "id": "cody-gakpo",
+          "value": 3,
+          "rank": 17,
+          "country": "Netherlands"
+        },
+        {
+          "id": "bradley-barcola",
+          "value": 3,
+          "rank": 18,
+          "country": "France"
+        },
+        {
+          "id": "brian-brobbey",
+          "value": 3,
+          "rank": 19,
+          "country": "Netherlands"
+        },
+        {
+          "id": "elijah-just",
+          "value": 3,
+          "rank": 20,
+          "country": "New Zealand"
+        },
+        {
+          "id": "matheus-cunha",
+          "value": 3,
+          "rank": 21,
+          "country": "Brazil"
+        },
+        {
+          "id": "folarin-balogun",
+          "value": 3,
+          "rank": 22,
+          "country": "United States"
+        },
+        {
+          "id": "raul-jimenez",
+          "value": 3,
+          "rank": 23,
+          "country": "Mexico"
+        },
+        {
+          "id": "kai-havertz",
+          "value": 3,
+          "rank": 24,
+          "country": "Germany"
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "date": "20260611",
+      "title": "Julian Quinones leads 2026 goals",
+      "body": "Julian Quinones leads this World Cup frame with 1 goals."
+    },
+    {
+      "date": "20260628",
+      "title": "Kylian Mbappe leads 2026 goals",
+      "body": "Kylian Mbappe leads this World Cup frame with 4 goals."
+    },
+    {
+      "date": "20260719",
+      "title": "Kylian Mbappe leads 2026 goals",
+      "body": "Kylian Mbappe leads this World Cup frame with 10 goals."
+    }
+  ],
+  "sources": [
+    {
+      "title": "FIFA World Cup 2026 statistics",
+      "publisher": "FIFA",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/statistics",
+      "note": "Official 2026 tournament statistics surface; the adapter reads its public GameDay scorer feed when available."
+    },
+    {
+      "title": "FIFA World Cup 2026 Final: Spain 1-0 Argentina",
+      "publisher": "FIFA",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/match-centre",
+      "note": "Spain beat Argentina 1-0 in the New York/New Jersey final on 19 July 2026 to win a second World Cup title."
+    },
+    {
+      "title": "FIFA World Cup all-time leading scorers",
+      "publisher": "FIFA",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/articles/fifa-world-cup-all-time-leading-scorers",
+      "note": "FIFA editorial record of leading men's World Cup goal scorers."
+    }
+  ],
+  "historicalCoverageStart": "20260611",
+  "historicalCoverageEnd": "20260718",
+  "historicalGranularity": "modeled-matchday",
+  "backfillSource": "Modeled 2026 World Cup Golden Boot race across the real FIFA match calendar",
+  "backfillGeneratedAt": "2026-07-20T00:00:00.000Z",
+  "historical": {
+    "coverageStart": "20260611",
+    "coverageEnd": "20260718",
+    "granularity": "modeled-matchday",
+    "source": "Modeled 2026 World Cup Golden Boot race across the real FIFA match calendar",
+    "generatedAt": "2026-07-20T00:00:00.000Z",
+    "frameCount": 34,
+    "maxFrames": 40,
+    "maxPublicFrames": 40,
+    "notes": [
+      "Intermediate matchday values are modeled: each player’s final tournament goals are distributed evenly across the real dates their team played, so the race is calendar-accurate even though exact goal timings are not sourced.",
+      "The July 19 final frame is supplied live by the adapter."
+    ]
+  },
+  "timelineTicks": [
+    "20260611",
+    "20260612",
+    "20260613",
+    "20260614",
+    "20260615",
+    "20260616",
+    "20260617",
+    "20260618",
+    "20260619",
+    "20260620",
+    "20260621",
+    "20260622",
+    "20260623",
+    "20260624",
+    "20260625",
+    "20260626",
+    "20260627",
+    "20260628",
+    "20260629",
+    "20260630",
+    "20260701",
+    "20260702",
+    "20260703",
+    "20260704",
+    "20260705",
+    "20260706",
+    "20260707",
+    "20260709",
+    "20260710",
+    "20260711",
+    "20260712",
+    "20260714",
+    "20260715",
+    "20260718",
+    "20260719"
+  ],
+  "lastObservationDate": "2026-07-19",
+  "dataFreshness": {
+    "status": "fresh",
+    "refreshCadence": "manual",
+    "lastUpdated": "2026-08-22T14:56:45.984Z",
+    "lastRefreshAttemptedAt": "2026-08-22T14:56:45.984Z",
+    "lastRefreshError": null,
+    "lastObservationDate": "2026-07-19",
+    "nextRefreshAt": null,
+    "sourceStatus": "FIFA GameDay 2026 tournament scorer feed (final)",
+    "confidence": "Single-tournament goal totals for the completed 2026 men's World Cup, led by Golden Boot winner Kylian Mbappe on 10. Sourced live from FIFA's public GameDay scorer feed, with a checked-in fallback captured after the 19 July 2026 final."
+  },
+  "taxonomy": {
+    "primaryCategory": "sports",
+    "categories": [
+      "sports",
+      "football"
+    ],
+    "tags": [
+      "world-cup",
+      "fifa",
+      "2026",
+      "goals",
+      "golden-boot"
+    ],
+    "entityTypes": [
+      "player"
+    ],
+    "sourceTypes": [
+      "fifa"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "world-cup-all-time-goalscorers",
+      "type": "scoring-records",
+      "weight": 0.9,
+      "reason": "The 2026 tournament goals feed directly into the all-time scorer record."
+    },
+    {
+      "target": "world-cup-golden-boot-peaks",
+      "type": "scoring-records",
+      "weight": 0.88,
+      "reason": "The 2026 Golden Boot race is a single-tournament scoring burst in the same record book."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "world-cup-records",
+    "mainland": "world-cup",
+    "bridgePriority": [
+      "world-cup-all-time-goalscorers",
+      "world-cup-golden-boot-peaks"
+    ]
+  },
+  "media": {
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-08-22T14:56:45.984Z",
+    "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+    "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.webp",
+    "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+    "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-2026-scorers.json",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "imageFit": "cover",
+    "columns": 5,
+    "rows": 5,
+    "width": 1600,
+    "height": 1600,
+    "itemCount": 24,
+    "sourcedImageCount": 24,
+    "generatedImageCount": 0,
+    "placeholderCount": 0,
+    "ogImageUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/world-cup-2026-scorers.png",
+    "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/world-cup-2026-scorers.png",
+    "ogImageWidth": 1200,
+    "ogImageHeight": 630
+  },
+  "schemaVersion": 1,
+  "contentKind": "dat-city.story",
+  "generatedAt": "2026-08-22T14:56:45.984Z",
+  "versionId": "20260822T145645Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "dashboard-settings:crypto-memecoin-heat",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-08-22T14:56:45.984Z",
+    "versionId": "20260822T145645Z",
+    "adapter": "fifa-world-cup-history",
+    "storySlug": "world-cup-2026-scorers",
+    "districtId": null,
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "publicProjection": {
+    "kind": "story",
+    "version": 1,
+    "generatedAt": "2026-08-22T14:56:45.984Z",
+    "adapter": "fifa-world-cup-history",
+    "cache": {
+      "browserMaxAgeSeconds": 60,
+      "edgeMaxAgeSeconds": 3600
+    }
+  },
+  "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/world-cup-2026-scorers.png"
+}

@@ -1,0 +1,4043 @@
+{
+  "id": "world-cup-all-time-goalscorers",
+  "kicker": "World Cup Record Book",
+  "title": "World Cup All-Time Goalscorers",
+  "subtitle": "A scorer skyline for the players with the most goals in men's FIFA World Cup history.",
+  "badge": "Ranked by tournament goals",
+  "visualization": "race-arena",
+  "theme": "stadium",
+  "artStyle": "stylized-editorial",
+  "dateRange": [
+    "20260611",
+    "20260719"
+  ],
+  "metricLabel": "World Cup goals",
+  "valueFormat": "integer",
+  "ogImage": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/world-cup-all-time-goalscorers.png",
+  "cityPreview": {
+    "districtId": "world-cup-scorer-plaza",
+    "districtName": "World Cup Scorer Plaza",
+    "cardLabel": "All-Time Scorers",
+    "summary": "The men's World Cup record-book skyline led by the players with the most tournament goals.",
+    "primaryMetric": "World Cup goals",
+    "latestFrameLabel": "July 19, 2026 FIFA live table",
+    "storyUrl": "/stories/world-cup-all-time-goalscorers/",
+    "thumbnail": "/assets/og/dat-city.webp"
+  },
+  "sourceStatus": "Live 2026 scorer table updated from FIFA GameDay statistics",
+  "confidence": "Live men's World Cup goal totals combine through-2022 historical baselines with FIFA's 2026 tournament goal feed. After the 2026 final, Kylian Mbappe (22) overtook Lionel Messi (21) as the all-time leading men's World Cup scorer. The checked-in live snapshot is the fallback when FIFA's public feed is unavailable.",
+  "methodology": "The adapter projects an all-time men's World Cup goals leaderboard from FIFA/Wikipedia historical record tables, then adds current 2026 tournament goals from FIFA's public GameDay scorer feed for active players. A modeled by-date backfill animates the 2026 all-time-record chase across the tournament calendar.",
+  "playback": {
+    "durationSeconds": 24,
+    "initialDate": "20260611",
+    "periodLabel": "world cup goals"
+  },
+  "visual": {
+    "topCount": 16,
+    "referenceCount": 16,
+    "horizontalCount": 16
+  },
+  "layers": [
+    {
+      "id": "goals",
+      "label": "Goals",
+      "default": true
+    }
+  ],
+  "focus": [
+    {
+      "id": "kylian-mbappe",
+      "label": "Kylian Mbappe"
+    },
+    {
+      "id": "lionel-messi",
+      "label": "Lionel Messi"
+    },
+    {
+      "id": "miroslav-klose",
+      "label": "Miroslav Klose"
+    },
+    {
+      "id": "ronaldo",
+      "label": "Ronaldo"
+    }
+  ],
+  "entities": [
+    {
+      "avatarText": "KM",
+      "color": "#18c871",
+      "id": "kylian-mbappe",
+      "name": "Kylian Mbappe",
+      "shortName": "Kylian Mbappe",
+      "article": "Kylian Mbappe",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Kylian_Mbappe_France_v_Senegal_16_June_2026-391_%28cropped%29.jpg/960px-Kylian_Mbappe_France_v_Senegal_16_June_2026-391_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "country": "France",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Kylian_Mbappe_France_v_Senegal_16_June_2026-391_%28cropped%29.jpg/960px-Kylian_Mbappe_France_v_Senegal_16_June_2026-391_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.json",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.2,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Kylian_Mbappe_France_v_Senegal_16_June_2026-391_%28cropped%29.jpg/960px-Kylian_Mbappe_France_v_Senegal_16_June_2026-391_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "avatarText": "LM",
+      "color": "#ffc84a",
+      "id": "lionel-messi",
+      "name": "Lionel Messi",
+      "shortName": "Lionel Messi",
+      "article": "Lionel Messi",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg/960px-Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "country": "Argentina",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg/960px-Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.json",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0,
+          "u1": 0.4,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg/960px-Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "avatarText": "MK",
+      "color": "#00a6ff",
+      "id": "miroslav-klose",
+      "name": "Miroslav Klose",
+      "shortName": "Miroslav Klose",
+      "article": "Miroslav Klose",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/2016209185719_2016-07-27_Champions_for_Charity_-_Sven_-_1D_X_-_0149_-_DV3P4742_mod.jpg/960px-2016209185719_2016-07-27_Champions_for_Charity_-_Sven_-_1D_X_-_0149_-_DV3P4742_mod.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "country": "Germany",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/2016209185719_2016-07-27_Champions_for_Charity_-_Sven_-_1D_X_-_0149_-_DV3P4742_mod.jpg/960px-2016209185719_2016-07-27_Champions_for_Charity_-_Sven_-_1D_X_-_0149_-_DV3P4742_mod.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.json",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0,
+          "u1": 0.6,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/2016209185719_2016-07-27_Champions_for_Charity_-_Sven_-_1D_X_-_0149_-_DV3P4742_mod.jpg/960px-2016209185719_2016-07-27_Champions_for_Charity_-_Sven_-_1D_X_-_0149_-_DV3P4742_mod.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "avatarText": "R",
+      "color": "#f3f7f0",
+      "id": "ronaldo",
+      "name": "Ronaldo",
+      "shortName": "Ronaldo",
+      "article": "Ronaldo (Brazilian footballer)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/12.12.2025_%E2%80%93_Cerim%C3%B4nia_de_lan%C3%A7amento_do_SBT_News_-_54980664160_%28cropped2%29.jpg/960px-12.12.2025_%E2%80%93_Cerim%C3%B4nia_de_lan%C3%A7amento_do_SBT_News_-_54980664160_%28cropped2%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "country": "Brazil",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/12.12.2025_%E2%80%93_Cerim%C3%B4nia_de_lan%C3%A7amento_do_SBT_News_-_54980664160_%28cropped2%29.jpg/960px-12.12.2025_%E2%80%93_Cerim%C3%B4nia_de_lan%C3%A7amento_do_SBT_News_-_54980664160_%28cropped2%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.json",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0,
+          "u1": 0.8,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/12.12.2025_%E2%80%93_Cerim%C3%B4nia_de_lan%C3%A7amento_do_SBT_News_-_54980664160_%28cropped2%29.jpg/960px-12.12.2025_%E2%80%93_Cerim%C3%B4nia_de_lan%C3%A7amento_do_SBT_News_-_54980664160_%28cropped2%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "avatarText": "GM",
+      "color": "#ff5a61",
+      "id": "gerd-muller",
+      "name": "Gerd Muller",
+      "shortName": "Gerd Muller",
+      "article": "Gerd Muller",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Gerd_M%C3%BCller_c1973_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "country": "Germany",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Gerd_M%C3%BCller_c1973_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.json",
+          "x": 1280,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Gerd_M%C3%BCller_c1973_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "avatarText": "HK",
+      "color": "#41a99f",
+      "id": "harry-kane",
+      "name": "Harry Kane",
+      "shortName": "Harry Kane",
+      "article": "Harry Kane",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Harry_Kane_England_v_Ghana_23_June_2026-219_%28cropped%29.jpg/960px-Harry_Kane_England_v_Ghana_23_June_2026-219_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "country": "England",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Harry_Kane_England_v_Ghana_23_June_2026-219_%28cropped%29.jpg/960px-Harry_Kane_England_v_Ghana_23_June_2026-219_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.json",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.25,
+          "u1": 0.2,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Harry_Kane_England_v_Ghana_23_June_2026-219_%28cropped%29.jpg/960px-Harry_Kane_England_v_Ghana_23_June_2026-219_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "avatarText": "JF",
+      "color": "#86bdf4",
+      "id": "just-fontaine",
+      "name": "Just Fontaine",
+      "shortName": "Just Fontaine",
+      "article": "Just Fontaine",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Just_Fontaine_en_1958.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "country": "France",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Just_Fontaine_en_1958.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.json",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.25,
+          "u1": 0.4,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Just_Fontaine_en_1958.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "avatarText": "P",
+      "color": "#f18c4f",
+      "id": "pele",
+      "name": "Pele",
+      "shortName": "Pele",
+      "article": "Pele",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Pele_con_brasil_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "country": "Brazil",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Pele_con_brasil_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.json",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.25,
+          "u1": 0.6,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Pele_con_brasil_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "avatarText": "SK",
+      "color": "#2f4858",
+      "id": "sandor-kocsis",
+      "name": "Sandor Kocsis",
+      "shortName": "Sandor Kocsis",
+      "article": "Sandor Kocsis",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Kocsis_S%C3%A1ndor_Fortepan_261526.jpg/960px-Kocsis_S%C3%A1ndor_Fortepan_261526.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "country": "Hungary",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Kocsis_S%C3%A1ndor_Fortepan_261526.jpg/960px-Kocsis_S%C3%A1ndor_Fortepan_261526.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.json",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.25,
+          "u1": 0.8,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Kocsis_S%C3%A1ndor_Fortepan_261526.jpg/960px-Kocsis_S%C3%A1ndor_Fortepan_261526.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "avatarText": "JK",
+      "color": "#c9a14a",
+      "id": "jurgen-klinsmann",
+      "name": "Jurgen Klinsmann",
+      "shortName": "Jurgen Klinsmann",
+      "article": "Jurgen Klinsmann",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/J%C3%BCrgen_Klinsmann_14021113000678638425063004371092_64131.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "country": "Germany",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/J%C3%BCrgen_Klinsmann_14021113000678638425063004371092_64131.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.json",
+          "x": 1280,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.25,
+          "u1": 1,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/J%C3%BCrgen_Klinsmann_14021113000678638425063004371092_64131.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "avatarText": "CR",
+      "color": "#ef426f",
+      "id": "cristiano-ronaldo",
+      "name": "Cristiano Ronaldo",
+      "shortName": "Cristiano Ronaldo",
+      "article": "Cristiano Ronaldo",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Cristiano_Ronaldo_Croatia_v_Portugal_2_July_2026-075_%28cropped%29.jpg/960px-Cristiano_Ronaldo_Croatia_v_Portugal_2_July_2026-075_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "country": "Portugal",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Cristiano_Ronaldo_Croatia_v_Portugal_2_July_2026-075_%28cropped%29.jpg/960px-Cristiano_Ronaldo_Croatia_v_Portugal_2_July_2026-075_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.json",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.5,
+          "u1": 0.2,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Cristiano_Ronaldo_Croatia_v_Portugal_2_July_2026-075_%28cropped%29.jpg/960px-Cristiano_Ronaldo_Croatia_v_Portugal_2_July_2026-075_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "avatarText": "HR",
+      "color": "#7b9b65",
+      "id": "helmut-rahn",
+      "name": "Helmut Rahn",
+      "shortName": "Helmut Rahn",
+      "article": "Helmut Rahn",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Helmut_Rahn.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "country": "Germany",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Helmut_Rahn.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.json",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.5,
+          "u1": 0.4,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Helmut_Rahn.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "avatarText": "GL",
+      "color": "#18c871",
+      "id": "gary-lineker",
+      "name": "Gary Lineker",
+      "shortName": "Gary Lineker",
+      "article": "Gary Lineker",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Prime_Minister_Keir_Starmer_hosts_St_George%27s_Day_Reception_%2854470857860%29_%28cropped%29.jpg/960px-Prime_Minister_Keir_Starmer_hosts_St_George%27s_Day_Reception_%2854470857860%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "country": "England",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Prime_Minister_Keir_Starmer_hosts_St_George%27s_Day_Reception_%2854470857860%29_%28cropped%29.jpg/960px-Prime_Minister_Keir_Starmer_hosts_St_George%27s_Day_Reception_%2854470857860%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.json",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.5,
+          "u1": 0.6,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Prime_Minister_Keir_Starmer_hosts_St_George%27s_Day_Reception_%2854470857860%29_%28cropped%29.jpg/960px-Prime_Minister_Keir_Starmer_hosts_St_George%27s_Day_Reception_%2854470857860%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "avatarText": "GB",
+      "color": "#ffc84a",
+      "id": "gabriel-batistuta",
+      "name": "Gabriel Batistuta",
+      "shortName": "Gabriel Batistuta",
+      "article": "Gabriel Batistuta",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/13/Omar_Batistuta_%282%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "country": "Argentina",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/1/13/Omar_Batistuta_%282%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.json",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.5,
+          "u1": 0.8,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/13/Omar_Batistuta_%282%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "avatarText": "TC",
+      "color": "#00a6ff",
+      "id": "teofilo-cubillas",
+      "name": "Teofilo Cubillas",
+      "shortName": "Teofilo Cubillas",
+      "article": "Teofilo Cubillas",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Te%C3%B3filo_Cubillas_1978.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "country": "Peru",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Te%C3%B3filo_Cubillas_1978.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.json",
+          "x": 1280,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.5,
+          "u1": 1,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Te%C3%B3filo_Cubillas_1978.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "avatarText": "TM",
+      "color": "#f3f7f0",
+      "id": "thomas-muller",
+      "name": "Thomas Muller",
+      "shortName": "Thomas Muller",
+      "article": "Thomas Muller",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/FC_Red_Bull_Salzburg_gegen_Bayern_M%C3%BCnchen_%282025-01-06_Testspiel%29_19.jpg/960px-FC_Red_Bull_Salzburg_gegen_Bayern_M%C3%BCnchen_%282025-01-06_Testspiel%29_19.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "country": "Germany",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/FC_Red_Bull_Salzburg_gegen_Bayern_M%C3%BCnchen_%282025-01-06_Testspiel%29_19.jpg/960px-FC_Red_Bull_Salzburg_gegen_Bayern_M%C3%BCnchen_%282025-01-06_Testspiel%29_19.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.json",
+          "x": 0,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.75,
+          "u1": 0.2,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/FC_Red_Bull_Salzburg_gegen_Bayern_M%C3%BCnchen_%282025-01-06_Testspiel%29_19.jpg/960px-FC_Red_Bull_Salzburg_gegen_Bayern_M%C3%BCnchen_%282025-01-06_Testspiel%29_19.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "avatarText": "GL",
+      "color": "#ff5a61",
+      "id": "grzegorz-lato",
+      "name": "Grzegorz Lato",
+      "shortName": "Grzegorz Lato",
+      "article": "Grzegorz Lato",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/V.l.n.r._Lato%2C_Boniek_en_trainer_Kulesza%2C_Bestanddeelnr_930-4929_%28Lato_cropped%29.jpg/960px-V.l.n.r._Lato%2C_Boniek_en_trainer_Kulesza%2C_Bestanddeelnr_930-4929_%28Lato_cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "country": "Poland",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/V.l.n.r._Lato%2C_Boniek_en_trainer_Kulesza%2C_Bestanddeelnr_930-4929_%28Lato_cropped%29.jpg/960px-V.l.n.r._Lato%2C_Boniek_en_trainer_Kulesza%2C_Bestanddeelnr_930-4929_%28Lato_cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.json",
+          "x": 320,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.75,
+          "u1": 0.4,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/V.l.n.r._Lato%2C_Boniek_en_trainer_Kulesza%2C_Bestanddeelnr_930-4929_%28Lato_cropped%29.jpg/960px-V.l.n.r._Lato%2C_Boniek_en_trainer_Kulesza%2C_Bestanddeelnr_930-4929_%28Lato_cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    }
+  ],
+  "frames": [
+    {
+      "date": "20260611",
+      "values": [
+        {
+          "id": "kylian-mbappe",
+          "value": 12,
+          "rank": 6
+        },
+        {
+          "id": "lionel-messi",
+          "value": 13,
+          "rank": 4
+        },
+        {
+          "id": "miroslav-klose",
+          "value": 16,
+          "rank": 1
+        },
+        {
+          "id": "ronaldo",
+          "value": 15,
+          "rank": 2
+        },
+        {
+          "id": "gerd-muller",
+          "value": 14,
+          "rank": 3
+        },
+        {
+          "id": "harry-kane",
+          "value": 8,
+          "rank": 16
+        },
+        {
+          "id": "just-fontaine",
+          "value": 13,
+          "rank": 5
+        },
+        {
+          "id": "pele",
+          "value": 12,
+          "rank": 7
+        },
+        {
+          "id": "sandor-kocsis",
+          "value": 11,
+          "rank": 8
+        },
+        {
+          "id": "jurgen-klinsmann",
+          "value": 11,
+          "rank": 9
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 8,
+          "rank": 17
+        },
+        {
+          "id": "helmut-rahn",
+          "value": 10,
+          "rank": 10
+        },
+        {
+          "id": "gary-lineker",
+          "value": 10,
+          "rank": 11
+        },
+        {
+          "id": "gabriel-batistuta",
+          "value": 10,
+          "rank": 12
+        },
+        {
+          "id": "teofilo-cubillas",
+          "value": 10,
+          "rank": 13
+        },
+        {
+          "id": "thomas-muller",
+          "value": 10,
+          "rank": 14
+        },
+        {
+          "id": "grzegorz-lato",
+          "value": 10,
+          "rank": 15
+        }
+      ]
+    },
+    {
+      "date": "20260612",
+      "values": [
+        {
+          "id": "kylian-mbappe",
+          "value": 12,
+          "rank": 6
+        },
+        {
+          "id": "lionel-messi",
+          "value": 13,
+          "rank": 4
+        },
+        {
+          "id": "miroslav-klose",
+          "value": 16,
+          "rank": 1
+        },
+        {
+          "id": "ronaldo",
+          "value": 15,
+          "rank": 2
+        },
+        {
+          "id": "gerd-muller",
+          "value": 14,
+          "rank": 3
+        },
+        {
+          "id": "harry-kane",
+          "value": 8,
+          "rank": 16
+        },
+        {
+          "id": "just-fontaine",
+          "value": 13,
+          "rank": 5
+        },
+        {
+          "id": "pele",
+          "value": 12,
+          "rank": 7
+        },
+        {
+          "id": "sandor-kocsis",
+          "value": 11,
+          "rank": 8
+        },
+        {
+          "id": "jurgen-klinsmann",
+          "value": 11,
+          "rank": 9
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 8,
+          "rank": 17
+        },
+        {
+          "id": "helmut-rahn",
+          "value": 10,
+          "rank": 10
+        },
+        {
+          "id": "gary-lineker",
+          "value": 10,
+          "rank": 11
+        },
+        {
+          "id": "gabriel-batistuta",
+          "value": 10,
+          "rank": 12
+        },
+        {
+          "id": "teofilo-cubillas",
+          "value": 10,
+          "rank": 13
+        },
+        {
+          "id": "thomas-muller",
+          "value": 10,
+          "rank": 14
+        },
+        {
+          "id": "grzegorz-lato",
+          "value": 10,
+          "rank": 15
+        }
+      ]
+    },
+    {
+      "date": "20260613",
+      "values": [
+        {
+          "id": "kylian-mbappe",
+          "value": 12,
+          "rank": 6
+        },
+        {
+          "id": "lionel-messi",
+          "value": 13,
+          "rank": 4
+        },
+        {
+          "id": "miroslav-klose",
+          "value": 16,
+          "rank": 1
+        },
+        {
+          "id": "ronaldo",
+          "value": 15,
+          "rank": 2
+        },
+        {
+          "id": "gerd-muller",
+          "value": 14,
+          "rank": 3
+        },
+        {
+          "id": "harry-kane",
+          "value": 8,
+          "rank": 16
+        },
+        {
+          "id": "just-fontaine",
+          "value": 13,
+          "rank": 5
+        },
+        {
+          "id": "pele",
+          "value": 12,
+          "rank": 7
+        },
+        {
+          "id": "sandor-kocsis",
+          "value": 11,
+          "rank": 8
+        },
+        {
+          "id": "jurgen-klinsmann",
+          "value": 11,
+          "rank": 9
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 8,
+          "rank": 17
+        },
+        {
+          "id": "helmut-rahn",
+          "value": 10,
+          "rank": 10
+        },
+        {
+          "id": "gary-lineker",
+          "value": 10,
+          "rank": 11
+        },
+        {
+          "id": "gabriel-batistuta",
+          "value": 10,
+          "rank": 12
+        },
+        {
+          "id": "teofilo-cubillas",
+          "value": 10,
+          "rank": 13
+        },
+        {
+          "id": "thomas-muller",
+          "value": 10,
+          "rank": 14
+        },
+        {
+          "id": "grzegorz-lato",
+          "value": 10,
+          "rank": 15
+        }
+      ]
+    },
+    {
+      "date": "20260614",
+      "values": [
+        {
+          "id": "kylian-mbappe",
+          "value": 12,
+          "rank": 6
+        },
+        {
+          "id": "lionel-messi",
+          "value": 13,
+          "rank": 4
+        },
+        {
+          "id": "miroslav-klose",
+          "value": 16,
+          "rank": 1
+        },
+        {
+          "id": "ronaldo",
+          "value": 15,
+          "rank": 2
+        },
+        {
+          "id": "gerd-muller",
+          "value": 14,
+          "rank": 3
+        },
+        {
+          "id": "harry-kane",
+          "value": 8,
+          "rank": 16
+        },
+        {
+          "id": "just-fontaine",
+          "value": 13,
+          "rank": 5
+        },
+        {
+          "id": "pele",
+          "value": 12,
+          "rank": 7
+        },
+        {
+          "id": "sandor-kocsis",
+          "value": 11,
+          "rank": 8
+        },
+        {
+          "id": "jurgen-klinsmann",
+          "value": 11,
+          "rank": 9
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 8,
+          "rank": 17
+        },
+        {
+          "id": "helmut-rahn",
+          "value": 10,
+          "rank": 10
+        },
+        {
+          "id": "gary-lineker",
+          "value": 10,
+          "rank": 11
+        },
+        {
+          "id": "gabriel-batistuta",
+          "value": 10,
+          "rank": 12
+        },
+        {
+          "id": "teofilo-cubillas",
+          "value": 10,
+          "rank": 13
+        },
+        {
+          "id": "thomas-muller",
+          "value": 10,
+          "rank": 14
+        },
+        {
+          "id": "grzegorz-lato",
+          "value": 10,
+          "rank": 15
+        }
+      ]
+    },
+    {
+      "date": "20260615",
+      "values": [
+        {
+          "id": "kylian-mbappe",
+          "value": 12,
+          "rank": 6
+        },
+        {
+          "id": "lionel-messi",
+          "value": 13,
+          "rank": 4
+        },
+        {
+          "id": "miroslav-klose",
+          "value": 16,
+          "rank": 1
+        },
+        {
+          "id": "ronaldo",
+          "value": 15,
+          "rank": 2
+        },
+        {
+          "id": "gerd-muller",
+          "value": 14,
+          "rank": 3
+        },
+        {
+          "id": "harry-kane",
+          "value": 8,
+          "rank": 16
+        },
+        {
+          "id": "just-fontaine",
+          "value": 13,
+          "rank": 5
+        },
+        {
+          "id": "pele",
+          "value": 12,
+          "rank": 7
+        },
+        {
+          "id": "sandor-kocsis",
+          "value": 11,
+          "rank": 8
+        },
+        {
+          "id": "jurgen-klinsmann",
+          "value": 11,
+          "rank": 9
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 8,
+          "rank": 17
+        },
+        {
+          "id": "helmut-rahn",
+          "value": 10,
+          "rank": 10
+        },
+        {
+          "id": "gary-lineker",
+          "value": 10,
+          "rank": 11
+        },
+        {
+          "id": "gabriel-batistuta",
+          "value": 10,
+          "rank": 12
+        },
+        {
+          "id": "teofilo-cubillas",
+          "value": 10,
+          "rank": 13
+        },
+        {
+          "id": "thomas-muller",
+          "value": 10,
+          "rank": 14
+        },
+        {
+          "id": "grzegorz-lato",
+          "value": 10,
+          "rank": 15
+        }
+      ]
+    },
+    {
+      "date": "20260616",
+      "values": [
+        {
+          "id": "kylian-mbappe",
+          "value": 13,
+          "rank": 4
+        },
+        {
+          "id": "lionel-messi",
+          "value": 13,
+          "rank": 5
+        },
+        {
+          "id": "miroslav-klose",
+          "value": 16,
+          "rank": 1
+        },
+        {
+          "id": "ronaldo",
+          "value": 15,
+          "rank": 2
+        },
+        {
+          "id": "gerd-muller",
+          "value": 14,
+          "rank": 3
+        },
+        {
+          "id": "harry-kane",
+          "value": 8,
+          "rank": 16
+        },
+        {
+          "id": "just-fontaine",
+          "value": 13,
+          "rank": 6
+        },
+        {
+          "id": "pele",
+          "value": 12,
+          "rank": 7
+        },
+        {
+          "id": "sandor-kocsis",
+          "value": 11,
+          "rank": 8
+        },
+        {
+          "id": "jurgen-klinsmann",
+          "value": 11,
+          "rank": 9
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 8,
+          "rank": 17
+        },
+        {
+          "id": "helmut-rahn",
+          "value": 10,
+          "rank": 10
+        },
+        {
+          "id": "gary-lineker",
+          "value": 10,
+          "rank": 11
+        },
+        {
+          "id": "gabriel-batistuta",
+          "value": 10,
+          "rank": 12
+        },
+        {
+          "id": "teofilo-cubillas",
+          "value": 10,
+          "rank": 13
+        },
+        {
+          "id": "thomas-muller",
+          "value": 10,
+          "rank": 14
+        },
+        {
+          "id": "grzegorz-lato",
+          "value": 10,
+          "rank": 15
+        }
+      ]
+    },
+    {
+      "date": "20260617",
+      "values": [
+        {
+          "id": "kylian-mbappe",
+          "value": 13,
+          "rank": 5
+        },
+        {
+          "id": "lionel-messi",
+          "value": 14,
+          "rank": 3
+        },
+        {
+          "id": "miroslav-klose",
+          "value": 16,
+          "rank": 1
+        },
+        {
+          "id": "ronaldo",
+          "value": 15,
+          "rank": 2
+        },
+        {
+          "id": "gerd-muller",
+          "value": 14,
+          "rank": 4
+        },
+        {
+          "id": "harry-kane",
+          "value": 9,
+          "rank": 16
+        },
+        {
+          "id": "just-fontaine",
+          "value": 13,
+          "rank": 6
+        },
+        {
+          "id": "pele",
+          "value": 12,
+          "rank": 7
+        },
+        {
+          "id": "sandor-kocsis",
+          "value": 11,
+          "rank": 8
+        },
+        {
+          "id": "jurgen-klinsmann",
+          "value": 11,
+          "rank": 9
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 9,
+          "rank": 17
+        },
+        {
+          "id": "helmut-rahn",
+          "value": 10,
+          "rank": 10
+        },
+        {
+          "id": "gary-lineker",
+          "value": 10,
+          "rank": 11
+        },
+        {
+          "id": "gabriel-batistuta",
+          "value": 10,
+          "rank": 12
+        },
+        {
+          "id": "teofilo-cubillas",
+          "value": 10,
+          "rank": 13
+        },
+        {
+          "id": "thomas-muller",
+          "value": 10,
+          "rank": 14
+        },
+        {
+          "id": "grzegorz-lato",
+          "value": 10,
+          "rank": 15
+        }
+      ]
+    },
+    {
+      "date": "20260618",
+      "values": [
+        {
+          "id": "kylian-mbappe",
+          "value": 13,
+          "rank": 5
+        },
+        {
+          "id": "lionel-messi",
+          "value": 14,
+          "rank": 3
+        },
+        {
+          "id": "miroslav-klose",
+          "value": 16,
+          "rank": 1
+        },
+        {
+          "id": "ronaldo",
+          "value": 15,
+          "rank": 2
+        },
+        {
+          "id": "gerd-muller",
+          "value": 14,
+          "rank": 4
+        },
+        {
+          "id": "harry-kane",
+          "value": 9,
+          "rank": 16
+        },
+        {
+          "id": "just-fontaine",
+          "value": 13,
+          "rank": 6
+        },
+        {
+          "id": "pele",
+          "value": 12,
+          "rank": 7
+        },
+        {
+          "id": "sandor-kocsis",
+          "value": 11,
+          "rank": 8
+        },
+        {
+          "id": "jurgen-klinsmann",
+          "value": 11,
+          "rank": 9
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 9,
+          "rank": 17
+        },
+        {
+          "id": "helmut-rahn",
+          "value": 10,
+          "rank": 10
+        },
+        {
+          "id": "gary-lineker",
+          "value": 10,
+          "rank": 11
+        },
+        {
+          "id": "gabriel-batistuta",
+          "value": 10,
+          "rank": 12
+        },
+        {
+          "id": "teofilo-cubillas",
+          "value": 10,
+          "rank": 13
+        },
+        {
+          "id": "thomas-muller",
+          "value": 10,
+          "rank": 14
+        },
+        {
+          "id": "grzegorz-lato",
+          "value": 10,
+          "rank": 15
+        }
+      ]
+    },
+    {
+      "date": "20260619",
+      "values": [
+        {
+          "id": "kylian-mbappe",
+          "value": 13,
+          "rank": 5
+        },
+        {
+          "id": "lionel-messi",
+          "value": 14,
+          "rank": 3
+        },
+        {
+          "id": "miroslav-klose",
+          "value": 16,
+          "rank": 1
+        },
+        {
+          "id": "ronaldo",
+          "value": 15,
+          "rank": 2
+        },
+        {
+          "id": "gerd-muller",
+          "value": 14,
+          "rank": 4
+        },
+        {
+          "id": "harry-kane",
+          "value": 9,
+          "rank": 16
+        },
+        {
+          "id": "just-fontaine",
+          "value": 13,
+          "rank": 6
+        },
+        {
+          "id": "pele",
+          "value": 12,
+          "rank": 7
+        },
+        {
+          "id": "sandor-kocsis",
+          "value": 11,
+          "rank": 8
+        },
+        {
+          "id": "jurgen-klinsmann",
+          "value": 11,
+          "rank": 9
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 9,
+          "rank": 17
+        },
+        {
+          "id": "helmut-rahn",
+          "value": 10,
+          "rank": 10
+        },
+        {
+          "id": "gary-lineker",
+          "value": 10,
+          "rank": 11
+        },
+        {
+          "id": "gabriel-batistuta",
+          "value": 10,
+          "rank": 12
+        },
+        {
+          "id": "teofilo-cubillas",
+          "value": 10,
+          "rank": 13
+        },
+        {
+          "id": "thomas-muller",
+          "value": 10,
+          "rank": 14
+        },
+        {
+          "id": "grzegorz-lato",
+          "value": 10,
+          "rank": 15
+        }
+      ]
+    },
+    {
+      "date": "20260620",
+      "values": [
+        {
+          "id": "kylian-mbappe",
+          "value": 13,
+          "rank": 5
+        },
+        {
+          "id": "lionel-messi",
+          "value": 14,
+          "rank": 3
+        },
+        {
+          "id": "miroslav-klose",
+          "value": 16,
+          "rank": 1
+        },
+        {
+          "id": "ronaldo",
+          "value": 15,
+          "rank": 2
+        },
+        {
+          "id": "gerd-muller",
+          "value": 14,
+          "rank": 4
+        },
+        {
+          "id": "harry-kane",
+          "value": 9,
+          "rank": 16
+        },
+        {
+          "id": "just-fontaine",
+          "value": 13,
+          "rank": 6
+        },
+        {
+          "id": "pele",
+          "value": 12,
+          "rank": 7
+        },
+        {
+          "id": "sandor-kocsis",
+          "value": 11,
+          "rank": 8
+        },
+        {
+          "id": "jurgen-klinsmann",
+          "value": 11,
+          "rank": 9
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 9,
+          "rank": 17
+        },
+        {
+          "id": "helmut-rahn",
+          "value": 10,
+          "rank": 10
+        },
+        {
+          "id": "gary-lineker",
+          "value": 10,
+          "rank": 11
+        },
+        {
+          "id": "gabriel-batistuta",
+          "value": 10,
+          "rank": 12
+        },
+        {
+          "id": "teofilo-cubillas",
+          "value": 10,
+          "rank": 13
+        },
+        {
+          "id": "thomas-muller",
+          "value": 10,
+          "rank": 14
+        },
+        {
+          "id": "grzegorz-lato",
+          "value": 10,
+          "rank": 15
+        }
+      ]
+    },
+    {
+      "date": "20260621",
+      "values": [
+        {
+          "id": "kylian-mbappe",
+          "value": 13,
+          "rank": 5
+        },
+        {
+          "id": "lionel-messi",
+          "value": 14,
+          "rank": 3
+        },
+        {
+          "id": "miroslav-klose",
+          "value": 16,
+          "rank": 1
+        },
+        {
+          "id": "ronaldo",
+          "value": 15,
+          "rank": 2
+        },
+        {
+          "id": "gerd-muller",
+          "value": 14,
+          "rank": 4
+        },
+        {
+          "id": "harry-kane",
+          "value": 9,
+          "rank": 16
+        },
+        {
+          "id": "just-fontaine",
+          "value": 13,
+          "rank": 6
+        },
+        {
+          "id": "pele",
+          "value": 12,
+          "rank": 7
+        },
+        {
+          "id": "sandor-kocsis",
+          "value": 11,
+          "rank": 8
+        },
+        {
+          "id": "jurgen-klinsmann",
+          "value": 11,
+          "rank": 9
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 9,
+          "rank": 17
+        },
+        {
+          "id": "helmut-rahn",
+          "value": 10,
+          "rank": 10
+        },
+        {
+          "id": "gary-lineker",
+          "value": 10,
+          "rank": 11
+        },
+        {
+          "id": "gabriel-batistuta",
+          "value": 10,
+          "rank": 12
+        },
+        {
+          "id": "teofilo-cubillas",
+          "value": 10,
+          "rank": 13
+        },
+        {
+          "id": "thomas-muller",
+          "value": 10,
+          "rank": 14
+        },
+        {
+          "id": "grzegorz-lato",
+          "value": 10,
+          "rank": 15
+        }
+      ]
+    },
+    {
+      "date": "20260622",
+      "values": [
+        {
+          "id": "kylian-mbappe",
+          "value": 15,
+          "rank": 2
+        },
+        {
+          "id": "lionel-messi",
+          "value": 15,
+          "rank": 3
+        },
+        {
+          "id": "miroslav-klose",
+          "value": 16,
+          "rank": 1
+        },
+        {
+          "id": "ronaldo",
+          "value": 15,
+          "rank": 4
+        },
+        {
+          "id": "gerd-muller",
+          "value": 14,
+          "rank": 5
+        },
+        {
+          "id": "harry-kane",
+          "value": 9,
+          "rank": 16
+        },
+        {
+          "id": "just-fontaine",
+          "value": 13,
+          "rank": 6
+        },
+        {
+          "id": "pele",
+          "value": 12,
+          "rank": 7
+        },
+        {
+          "id": "sandor-kocsis",
+          "value": 11,
+          "rank": 8
+        },
+        {
+          "id": "jurgen-klinsmann",
+          "value": 11,
+          "rank": 9
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 9,
+          "rank": 17
+        },
+        {
+          "id": "helmut-rahn",
+          "value": 10,
+          "rank": 10
+        },
+        {
+          "id": "gary-lineker",
+          "value": 10,
+          "rank": 11
+        },
+        {
+          "id": "gabriel-batistuta",
+          "value": 10,
+          "rank": 12
+        },
+        {
+          "id": "teofilo-cubillas",
+          "value": 10,
+          "rank": 13
+        },
+        {
+          "id": "thomas-muller",
+          "value": 10,
+          "rank": 14
+        },
+        {
+          "id": "grzegorz-lato",
+          "value": 10,
+          "rank": 15
+        }
+      ]
+    },
+    {
+      "date": "20260623",
+      "values": [
+        {
+          "id": "kylian-mbappe",
+          "value": 15,
+          "rank": 2
+        },
+        {
+          "id": "lionel-messi",
+          "value": 15,
+          "rank": 3
+        },
+        {
+          "id": "miroslav-klose",
+          "value": 16,
+          "rank": 1
+        },
+        {
+          "id": "ronaldo",
+          "value": 15,
+          "rank": 4
+        },
+        {
+          "id": "gerd-muller",
+          "value": 14,
+          "rank": 5
+        },
+        {
+          "id": "harry-kane",
+          "value": 10,
+          "rank": 10
+        },
+        {
+          "id": "just-fontaine",
+          "value": 13,
+          "rank": 6
+        },
+        {
+          "id": "pele",
+          "value": 12,
+          "rank": 7
+        },
+        {
+          "id": "sandor-kocsis",
+          "value": 11,
+          "rank": 8
+        },
+        {
+          "id": "jurgen-klinsmann",
+          "value": 11,
+          "rank": 9
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 9,
+          "rank": 17
+        },
+        {
+          "id": "helmut-rahn",
+          "value": 10,
+          "rank": 11
+        },
+        {
+          "id": "gary-lineker",
+          "value": 10,
+          "rank": 12
+        },
+        {
+          "id": "gabriel-batistuta",
+          "value": 10,
+          "rank": 13
+        },
+        {
+          "id": "teofilo-cubillas",
+          "value": 10,
+          "rank": 14
+        },
+        {
+          "id": "thomas-muller",
+          "value": 10,
+          "rank": 15
+        },
+        {
+          "id": "grzegorz-lato",
+          "value": 10,
+          "rank": 16
+        }
+      ]
+    },
+    {
+      "date": "20260624",
+      "values": [
+        {
+          "id": "kylian-mbappe",
+          "value": 15,
+          "rank": 2
+        },
+        {
+          "id": "lionel-messi",
+          "value": 15,
+          "rank": 3
+        },
+        {
+          "id": "miroslav-klose",
+          "value": 16,
+          "rank": 1
+        },
+        {
+          "id": "ronaldo",
+          "value": 15,
+          "rank": 4
+        },
+        {
+          "id": "gerd-muller",
+          "value": 14,
+          "rank": 5
+        },
+        {
+          "id": "harry-kane",
+          "value": 10,
+          "rank": 10
+        },
+        {
+          "id": "just-fontaine",
+          "value": 13,
+          "rank": 6
+        },
+        {
+          "id": "pele",
+          "value": 12,
+          "rank": 7
+        },
+        {
+          "id": "sandor-kocsis",
+          "value": 11,
+          "rank": 8
+        },
+        {
+          "id": "jurgen-klinsmann",
+          "value": 11,
+          "rank": 9
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 9,
+          "rank": 17
+        },
+        {
+          "id": "helmut-rahn",
+          "value": 10,
+          "rank": 11
+        },
+        {
+          "id": "gary-lineker",
+          "value": 10,
+          "rank": 12
+        },
+        {
+          "id": "gabriel-batistuta",
+          "value": 10,
+          "rank": 13
+        },
+        {
+          "id": "teofilo-cubillas",
+          "value": 10,
+          "rank": 14
+        },
+        {
+          "id": "thomas-muller",
+          "value": 10,
+          "rank": 15
+        },
+        {
+          "id": "grzegorz-lato",
+          "value": 10,
+          "rank": 16
+        }
+      ]
+    },
+    {
+      "date": "20260625",
+      "values": [
+        {
+          "id": "kylian-mbappe",
+          "value": 15,
+          "rank": 2
+        },
+        {
+          "id": "lionel-messi",
+          "value": 15,
+          "rank": 3
+        },
+        {
+          "id": "miroslav-klose",
+          "value": 16,
+          "rank": 1
+        },
+        {
+          "id": "ronaldo",
+          "value": 15,
+          "rank": 4
+        },
+        {
+          "id": "gerd-muller",
+          "value": 14,
+          "rank": 5
+        },
+        {
+          "id": "harry-kane",
+          "value": 10,
+          "rank": 10
+        },
+        {
+          "id": "just-fontaine",
+          "value": 13,
+          "rank": 6
+        },
+        {
+          "id": "pele",
+          "value": 12,
+          "rank": 7
+        },
+        {
+          "id": "sandor-kocsis",
+          "value": 11,
+          "rank": 8
+        },
+        {
+          "id": "jurgen-klinsmann",
+          "value": 11,
+          "rank": 9
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 9,
+          "rank": 17
+        },
+        {
+          "id": "helmut-rahn",
+          "value": 10,
+          "rank": 11
+        },
+        {
+          "id": "gary-lineker",
+          "value": 10,
+          "rank": 12
+        },
+        {
+          "id": "gabriel-batistuta",
+          "value": 10,
+          "rank": 13
+        },
+        {
+          "id": "teofilo-cubillas",
+          "value": 10,
+          "rank": 14
+        },
+        {
+          "id": "thomas-muller",
+          "value": 10,
+          "rank": 15
+        },
+        {
+          "id": "grzegorz-lato",
+          "value": 10,
+          "rank": 16
+        }
+      ]
+    },
+    {
+      "date": "20260626",
+      "values": [
+        {
+          "id": "kylian-mbappe",
+          "value": 16,
+          "rank": 1
+        },
+        {
+          "id": "lionel-messi",
+          "value": 15,
+          "rank": 3
+        },
+        {
+          "id": "miroslav-klose",
+          "value": 16,
+          "rank": 2
+        },
+        {
+          "id": "ronaldo",
+          "value": 15,
+          "rank": 4
+        },
+        {
+          "id": "gerd-muller",
+          "value": 14,
+          "rank": 5
+        },
+        {
+          "id": "harry-kane",
+          "value": 10,
+          "rank": 10
+        },
+        {
+          "id": "just-fontaine",
+          "value": 13,
+          "rank": 6
+        },
+        {
+          "id": "pele",
+          "value": 12,
+          "rank": 7
+        },
+        {
+          "id": "sandor-kocsis",
+          "value": 11,
+          "rank": 8
+        },
+        {
+          "id": "jurgen-klinsmann",
+          "value": 11,
+          "rank": 9
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 9,
+          "rank": 17
+        },
+        {
+          "id": "helmut-rahn",
+          "value": 10,
+          "rank": 11
+        },
+        {
+          "id": "gary-lineker",
+          "value": 10,
+          "rank": 12
+        },
+        {
+          "id": "gabriel-batistuta",
+          "value": 10,
+          "rank": 13
+        },
+        {
+          "id": "teofilo-cubillas",
+          "value": 10,
+          "rank": 14
+        },
+        {
+          "id": "thomas-muller",
+          "value": 10,
+          "rank": 15
+        },
+        {
+          "id": "grzegorz-lato",
+          "value": 10,
+          "rank": 16
+        }
+      ]
+    },
+    {
+      "date": "20260627",
+      "values": [
+        {
+          "id": "kylian-mbappe",
+          "value": 16,
+          "rank": 1
+        },
+        {
+          "id": "lionel-messi",
+          "value": 15,
+          "rank": 3
+        },
+        {
+          "id": "miroslav-klose",
+          "value": 16,
+          "rank": 2
+        },
+        {
+          "id": "ronaldo",
+          "value": 15,
+          "rank": 4
+        },
+        {
+          "id": "gerd-muller",
+          "value": 14,
+          "rank": 5
+        },
+        {
+          "id": "harry-kane",
+          "value": 10,
+          "rank": 10
+        },
+        {
+          "id": "just-fontaine",
+          "value": 13,
+          "rank": 6
+        },
+        {
+          "id": "pele",
+          "value": 12,
+          "rank": 7
+        },
+        {
+          "id": "sandor-kocsis",
+          "value": 11,
+          "rank": 8
+        },
+        {
+          "id": "jurgen-klinsmann",
+          "value": 11,
+          "rank": 9
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 10,
+          "rank": 11
+        },
+        {
+          "id": "helmut-rahn",
+          "value": 10,
+          "rank": 12
+        },
+        {
+          "id": "gary-lineker",
+          "value": 10,
+          "rank": 13
+        },
+        {
+          "id": "gabriel-batistuta",
+          "value": 10,
+          "rank": 14
+        },
+        {
+          "id": "teofilo-cubillas",
+          "value": 10,
+          "rank": 15
+        },
+        {
+          "id": "thomas-muller",
+          "value": 10,
+          "rank": 16
+        },
+        {
+          "id": "grzegorz-lato",
+          "value": 10,
+          "rank": 17
+        }
+      ]
+    },
+    {
+      "date": "20260628",
+      "values": [
+        {
+          "id": "kylian-mbappe",
+          "value": 16,
+          "rank": 1
+        },
+        {
+          "id": "lionel-messi",
+          "value": 16,
+          "rank": 2
+        },
+        {
+          "id": "miroslav-klose",
+          "value": 16,
+          "rank": 3
+        },
+        {
+          "id": "ronaldo",
+          "value": 15,
+          "rank": 4
+        },
+        {
+          "id": "gerd-muller",
+          "value": 14,
+          "rank": 5
+        },
+        {
+          "id": "harry-kane",
+          "value": 10,
+          "rank": 10
+        },
+        {
+          "id": "just-fontaine",
+          "value": 13,
+          "rank": 6
+        },
+        {
+          "id": "pele",
+          "value": 12,
+          "rank": 7
+        },
+        {
+          "id": "sandor-kocsis",
+          "value": 11,
+          "rank": 8
+        },
+        {
+          "id": "jurgen-klinsmann",
+          "value": 11,
+          "rank": 9
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 10,
+          "rank": 11
+        },
+        {
+          "id": "helmut-rahn",
+          "value": 10,
+          "rank": 12
+        },
+        {
+          "id": "gary-lineker",
+          "value": 10,
+          "rank": 13
+        },
+        {
+          "id": "gabriel-batistuta",
+          "value": 10,
+          "rank": 14
+        },
+        {
+          "id": "teofilo-cubillas",
+          "value": 10,
+          "rank": 15
+        },
+        {
+          "id": "thomas-muller",
+          "value": 10,
+          "rank": 16
+        },
+        {
+          "id": "grzegorz-lato",
+          "value": 10,
+          "rank": 17
+        }
+      ]
+    },
+    {
+      "date": "20260629",
+      "values": [
+        {
+          "id": "kylian-mbappe",
+          "value": 16,
+          "rank": 1
+        },
+        {
+          "id": "lionel-messi",
+          "value": 16,
+          "rank": 2
+        },
+        {
+          "id": "miroslav-klose",
+          "value": 16,
+          "rank": 3
+        },
+        {
+          "id": "ronaldo",
+          "value": 15,
+          "rank": 4
+        },
+        {
+          "id": "gerd-muller",
+          "value": 14,
+          "rank": 5
+        },
+        {
+          "id": "harry-kane",
+          "value": 10,
+          "rank": 10
+        },
+        {
+          "id": "just-fontaine",
+          "value": 13,
+          "rank": 6
+        },
+        {
+          "id": "pele",
+          "value": 12,
+          "rank": 7
+        },
+        {
+          "id": "sandor-kocsis",
+          "value": 11,
+          "rank": 8
+        },
+        {
+          "id": "jurgen-klinsmann",
+          "value": 11,
+          "rank": 9
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 10,
+          "rank": 11
+        },
+        {
+          "id": "helmut-rahn",
+          "value": 10,
+          "rank": 12
+        },
+        {
+          "id": "gary-lineker",
+          "value": 10,
+          "rank": 13
+        },
+        {
+          "id": "gabriel-batistuta",
+          "value": 10,
+          "rank": 14
+        },
+        {
+          "id": "teofilo-cubillas",
+          "value": 10,
+          "rank": 15
+        },
+        {
+          "id": "thomas-muller",
+          "value": 10,
+          "rank": 16
+        },
+        {
+          "id": "grzegorz-lato",
+          "value": 10,
+          "rank": 17
+        }
+      ]
+    },
+    {
+      "date": "20260630",
+      "values": [
+        {
+          "id": "kylian-mbappe",
+          "value": 17,
+          "rank": 1
+        },
+        {
+          "id": "lionel-messi",
+          "value": 16,
+          "rank": 2
+        },
+        {
+          "id": "miroslav-klose",
+          "value": 16,
+          "rank": 3
+        },
+        {
+          "id": "ronaldo",
+          "value": 15,
+          "rank": 4
+        },
+        {
+          "id": "gerd-muller",
+          "value": 14,
+          "rank": 5
+        },
+        {
+          "id": "harry-kane",
+          "value": 10,
+          "rank": 10
+        },
+        {
+          "id": "just-fontaine",
+          "value": 13,
+          "rank": 6
+        },
+        {
+          "id": "pele",
+          "value": 12,
+          "rank": 7
+        },
+        {
+          "id": "sandor-kocsis",
+          "value": 11,
+          "rank": 8
+        },
+        {
+          "id": "jurgen-klinsmann",
+          "value": 11,
+          "rank": 9
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 10,
+          "rank": 11
+        },
+        {
+          "id": "helmut-rahn",
+          "value": 10,
+          "rank": 12
+        },
+        {
+          "id": "gary-lineker",
+          "value": 10,
+          "rank": 13
+        },
+        {
+          "id": "gabriel-batistuta",
+          "value": 10,
+          "rank": 14
+        },
+        {
+          "id": "teofilo-cubillas",
+          "value": 10,
+          "rank": 15
+        },
+        {
+          "id": "thomas-muller",
+          "value": 10,
+          "rank": 16
+        },
+        {
+          "id": "grzegorz-lato",
+          "value": 10,
+          "rank": 17
+        }
+      ]
+    },
+    {
+      "date": "20260701",
+      "values": [
+        {
+          "id": "kylian-mbappe",
+          "value": 17,
+          "rank": 1
+        },
+        {
+          "id": "lionel-messi",
+          "value": 16,
+          "rank": 2
+        },
+        {
+          "id": "miroslav-klose",
+          "value": 16,
+          "rank": 3
+        },
+        {
+          "id": "ronaldo",
+          "value": 15,
+          "rank": 4
+        },
+        {
+          "id": "gerd-muller",
+          "value": 14,
+          "rank": 5
+        },
+        {
+          "id": "harry-kane",
+          "value": 11,
+          "rank": 8
+        },
+        {
+          "id": "just-fontaine",
+          "value": 13,
+          "rank": 6
+        },
+        {
+          "id": "pele",
+          "value": 12,
+          "rank": 7
+        },
+        {
+          "id": "sandor-kocsis",
+          "value": 11,
+          "rank": 9
+        },
+        {
+          "id": "jurgen-klinsmann",
+          "value": 11,
+          "rank": 10
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 10,
+          "rank": 11
+        },
+        {
+          "id": "helmut-rahn",
+          "value": 10,
+          "rank": 12
+        },
+        {
+          "id": "gary-lineker",
+          "value": 10,
+          "rank": 13
+        },
+        {
+          "id": "gabriel-batistuta",
+          "value": 10,
+          "rank": 14
+        },
+        {
+          "id": "teofilo-cubillas",
+          "value": 10,
+          "rank": 15
+        },
+        {
+          "id": "thomas-muller",
+          "value": 10,
+          "rank": 16
+        },
+        {
+          "id": "grzegorz-lato",
+          "value": 10,
+          "rank": 17
+        }
+      ]
+    },
+    {
+      "date": "20260702",
+      "values": [
+        {
+          "id": "kylian-mbappe",
+          "value": 17,
+          "rank": 1
+        },
+        {
+          "id": "lionel-messi",
+          "value": 16,
+          "rank": 2
+        },
+        {
+          "id": "miroslav-klose",
+          "value": 16,
+          "rank": 3
+        },
+        {
+          "id": "ronaldo",
+          "value": 15,
+          "rank": 4
+        },
+        {
+          "id": "gerd-muller",
+          "value": 14,
+          "rank": 5
+        },
+        {
+          "id": "harry-kane",
+          "value": 11,
+          "rank": 8
+        },
+        {
+          "id": "just-fontaine",
+          "value": 13,
+          "rank": 6
+        },
+        {
+          "id": "pele",
+          "value": 12,
+          "rank": 7
+        },
+        {
+          "id": "sandor-kocsis",
+          "value": 11,
+          "rank": 9
+        },
+        {
+          "id": "jurgen-klinsmann",
+          "value": 11,
+          "rank": 10
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 10,
+          "rank": 11
+        },
+        {
+          "id": "helmut-rahn",
+          "value": 10,
+          "rank": 12
+        },
+        {
+          "id": "gary-lineker",
+          "value": 10,
+          "rank": 13
+        },
+        {
+          "id": "gabriel-batistuta",
+          "value": 10,
+          "rank": 14
+        },
+        {
+          "id": "teofilo-cubillas",
+          "value": 10,
+          "rank": 15
+        },
+        {
+          "id": "thomas-muller",
+          "value": 10,
+          "rank": 16
+        },
+        {
+          "id": "grzegorz-lato",
+          "value": 10,
+          "rank": 17
+        }
+      ]
+    },
+    {
+      "date": "20260703",
+      "values": [
+        {
+          "id": "kylian-mbappe",
+          "value": 17,
+          "rank": 2
+        },
+        {
+          "id": "lionel-messi",
+          "value": 18,
+          "rank": 1
+        },
+        {
+          "id": "miroslav-klose",
+          "value": 16,
+          "rank": 3
+        },
+        {
+          "id": "ronaldo",
+          "value": 15,
+          "rank": 4
+        },
+        {
+          "id": "gerd-muller",
+          "value": 14,
+          "rank": 5
+        },
+        {
+          "id": "harry-kane",
+          "value": 11,
+          "rank": 8
+        },
+        {
+          "id": "just-fontaine",
+          "value": 13,
+          "rank": 6
+        },
+        {
+          "id": "pele",
+          "value": 12,
+          "rank": 7
+        },
+        {
+          "id": "sandor-kocsis",
+          "value": 11,
+          "rank": 9
+        },
+        {
+          "id": "jurgen-klinsmann",
+          "value": 11,
+          "rank": 10
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 10,
+          "rank": 11
+        },
+        {
+          "id": "helmut-rahn",
+          "value": 10,
+          "rank": 12
+        },
+        {
+          "id": "gary-lineker",
+          "value": 10,
+          "rank": 13
+        },
+        {
+          "id": "gabriel-batistuta",
+          "value": 10,
+          "rank": 14
+        },
+        {
+          "id": "teofilo-cubillas",
+          "value": 10,
+          "rank": 15
+        },
+        {
+          "id": "thomas-muller",
+          "value": 10,
+          "rank": 16
+        },
+        {
+          "id": "grzegorz-lato",
+          "value": 10,
+          "rank": 17
+        }
+      ]
+    },
+    {
+      "date": "20260704",
+      "values": [
+        {
+          "id": "kylian-mbappe",
+          "value": 18,
+          "rank": 1
+        },
+        {
+          "id": "lionel-messi",
+          "value": 18,
+          "rank": 2
+        },
+        {
+          "id": "miroslav-klose",
+          "value": 16,
+          "rank": 3
+        },
+        {
+          "id": "ronaldo",
+          "value": 15,
+          "rank": 4
+        },
+        {
+          "id": "gerd-muller",
+          "value": 14,
+          "rank": 5
+        },
+        {
+          "id": "harry-kane",
+          "value": 11,
+          "rank": 8
+        },
+        {
+          "id": "just-fontaine",
+          "value": 13,
+          "rank": 6
+        },
+        {
+          "id": "pele",
+          "value": 12,
+          "rank": 7
+        },
+        {
+          "id": "sandor-kocsis",
+          "value": 11,
+          "rank": 9
+        },
+        {
+          "id": "jurgen-klinsmann",
+          "value": 11,
+          "rank": 10
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 10,
+          "rank": 11
+        },
+        {
+          "id": "helmut-rahn",
+          "value": 10,
+          "rank": 12
+        },
+        {
+          "id": "gary-lineker",
+          "value": 10,
+          "rank": 13
+        },
+        {
+          "id": "gabriel-batistuta",
+          "value": 10,
+          "rank": 14
+        },
+        {
+          "id": "teofilo-cubillas",
+          "value": 10,
+          "rank": 15
+        },
+        {
+          "id": "thomas-muller",
+          "value": 10,
+          "rank": 16
+        },
+        {
+          "id": "grzegorz-lato",
+          "value": 10,
+          "rank": 17
+        }
+      ]
+    },
+    {
+      "date": "20260705",
+      "values": [
+        {
+          "id": "kylian-mbappe",
+          "value": 18,
+          "rank": 1
+        },
+        {
+          "id": "lionel-messi",
+          "value": 18,
+          "rank": 2
+        },
+        {
+          "id": "miroslav-klose",
+          "value": 16,
+          "rank": 3
+        },
+        {
+          "id": "ronaldo",
+          "value": 15,
+          "rank": 4
+        },
+        {
+          "id": "gerd-muller",
+          "value": 14,
+          "rank": 5
+        },
+        {
+          "id": "harry-kane",
+          "value": 11,
+          "rank": 8
+        },
+        {
+          "id": "just-fontaine",
+          "value": 13,
+          "rank": 6
+        },
+        {
+          "id": "pele",
+          "value": 12,
+          "rank": 7
+        },
+        {
+          "id": "sandor-kocsis",
+          "value": 11,
+          "rank": 9
+        },
+        {
+          "id": "jurgen-klinsmann",
+          "value": 11,
+          "rank": 10
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 10,
+          "rank": 11
+        },
+        {
+          "id": "helmut-rahn",
+          "value": 10,
+          "rank": 12
+        },
+        {
+          "id": "gary-lineker",
+          "value": 10,
+          "rank": 13
+        },
+        {
+          "id": "gabriel-batistuta",
+          "value": 10,
+          "rank": 14
+        },
+        {
+          "id": "teofilo-cubillas",
+          "value": 10,
+          "rank": 15
+        },
+        {
+          "id": "thomas-muller",
+          "value": 10,
+          "rank": 16
+        },
+        {
+          "id": "grzegorz-lato",
+          "value": 10,
+          "rank": 17
+        }
+      ]
+    },
+    {
+      "date": "20260706",
+      "values": [
+        {
+          "id": "kylian-mbappe",
+          "value": 18,
+          "rank": 1
+        },
+        {
+          "id": "lionel-messi",
+          "value": 18,
+          "rank": 2
+        },
+        {
+          "id": "miroslav-klose",
+          "value": 16,
+          "rank": 3
+        },
+        {
+          "id": "ronaldo",
+          "value": 15,
+          "rank": 4
+        },
+        {
+          "id": "gerd-muller",
+          "value": 14,
+          "rank": 5
+        },
+        {
+          "id": "harry-kane",
+          "value": 12,
+          "rank": 7
+        },
+        {
+          "id": "just-fontaine",
+          "value": 13,
+          "rank": 6
+        },
+        {
+          "id": "pele",
+          "value": 12,
+          "rank": 8
+        },
+        {
+          "id": "sandor-kocsis",
+          "value": 11,
+          "rank": 9
+        },
+        {
+          "id": "jurgen-klinsmann",
+          "value": 11,
+          "rank": 10
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 11,
+          "rank": 11
+        },
+        {
+          "id": "helmut-rahn",
+          "value": 10,
+          "rank": 12
+        },
+        {
+          "id": "gary-lineker",
+          "value": 10,
+          "rank": 13
+        },
+        {
+          "id": "gabriel-batistuta",
+          "value": 10,
+          "rank": 14
+        },
+        {
+          "id": "teofilo-cubillas",
+          "value": 10,
+          "rank": 15
+        },
+        {
+          "id": "thomas-muller",
+          "value": 10,
+          "rank": 16
+        },
+        {
+          "id": "grzegorz-lato",
+          "value": 10,
+          "rank": 17
+        }
+      ]
+    },
+    {
+      "date": "20260707",
+      "values": [
+        {
+          "id": "kylian-mbappe",
+          "value": 18,
+          "rank": 2
+        },
+        {
+          "id": "lionel-messi",
+          "value": 19,
+          "rank": 1
+        },
+        {
+          "id": "miroslav-klose",
+          "value": 16,
+          "rank": 3
+        },
+        {
+          "id": "ronaldo",
+          "value": 15,
+          "rank": 4
+        },
+        {
+          "id": "gerd-muller",
+          "value": 14,
+          "rank": 5
+        },
+        {
+          "id": "harry-kane",
+          "value": 12,
+          "rank": 7
+        },
+        {
+          "id": "just-fontaine",
+          "value": 13,
+          "rank": 6
+        },
+        {
+          "id": "pele",
+          "value": 12,
+          "rank": 8
+        },
+        {
+          "id": "sandor-kocsis",
+          "value": 11,
+          "rank": 9
+        },
+        {
+          "id": "jurgen-klinsmann",
+          "value": 11,
+          "rank": 10
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 11,
+          "rank": 11
+        },
+        {
+          "id": "helmut-rahn",
+          "value": 10,
+          "rank": 12
+        },
+        {
+          "id": "gary-lineker",
+          "value": 10,
+          "rank": 13
+        },
+        {
+          "id": "gabriel-batistuta",
+          "value": 10,
+          "rank": 14
+        },
+        {
+          "id": "teofilo-cubillas",
+          "value": 10,
+          "rank": 15
+        },
+        {
+          "id": "thomas-muller",
+          "value": 10,
+          "rank": 16
+        },
+        {
+          "id": "grzegorz-lato",
+          "value": 10,
+          "rank": 17
+        }
+      ]
+    },
+    {
+      "date": "20260709",
+      "values": [
+        {
+          "id": "kylian-mbappe",
+          "value": 20,
+          "rank": 1
+        },
+        {
+          "id": "lionel-messi",
+          "value": 19,
+          "rank": 2
+        },
+        {
+          "id": "miroslav-klose",
+          "value": 16,
+          "rank": 3
+        },
+        {
+          "id": "ronaldo",
+          "value": 15,
+          "rank": 4
+        },
+        {
+          "id": "gerd-muller",
+          "value": 14,
+          "rank": 5
+        },
+        {
+          "id": "harry-kane",
+          "value": 12,
+          "rank": 7
+        },
+        {
+          "id": "just-fontaine",
+          "value": 13,
+          "rank": 6
+        },
+        {
+          "id": "pele",
+          "value": 12,
+          "rank": 8
+        },
+        {
+          "id": "sandor-kocsis",
+          "value": 11,
+          "rank": 9
+        },
+        {
+          "id": "jurgen-klinsmann",
+          "value": 11,
+          "rank": 10
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 11,
+          "rank": 11
+        },
+        {
+          "id": "helmut-rahn",
+          "value": 10,
+          "rank": 12
+        },
+        {
+          "id": "gary-lineker",
+          "value": 10,
+          "rank": 13
+        },
+        {
+          "id": "gabriel-batistuta",
+          "value": 10,
+          "rank": 14
+        },
+        {
+          "id": "teofilo-cubillas",
+          "value": 10,
+          "rank": 15
+        },
+        {
+          "id": "thomas-muller",
+          "value": 10,
+          "rank": 16
+        },
+        {
+          "id": "grzegorz-lato",
+          "value": 10,
+          "rank": 17
+        }
+      ]
+    },
+    {
+      "date": "20260710",
+      "values": [
+        {
+          "id": "kylian-mbappe",
+          "value": 20,
+          "rank": 1
+        },
+        {
+          "id": "lionel-messi",
+          "value": 19,
+          "rank": 2
+        },
+        {
+          "id": "miroslav-klose",
+          "value": 16,
+          "rank": 3
+        },
+        {
+          "id": "ronaldo",
+          "value": 15,
+          "rank": 4
+        },
+        {
+          "id": "gerd-muller",
+          "value": 14,
+          "rank": 5
+        },
+        {
+          "id": "harry-kane",
+          "value": 12,
+          "rank": 7
+        },
+        {
+          "id": "just-fontaine",
+          "value": 13,
+          "rank": 6
+        },
+        {
+          "id": "pele",
+          "value": 12,
+          "rank": 8
+        },
+        {
+          "id": "sandor-kocsis",
+          "value": 11,
+          "rank": 9
+        },
+        {
+          "id": "jurgen-klinsmann",
+          "value": 11,
+          "rank": 10
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 11,
+          "rank": 11
+        },
+        {
+          "id": "helmut-rahn",
+          "value": 10,
+          "rank": 12
+        },
+        {
+          "id": "gary-lineker",
+          "value": 10,
+          "rank": 13
+        },
+        {
+          "id": "gabriel-batistuta",
+          "value": 10,
+          "rank": 14
+        },
+        {
+          "id": "teofilo-cubillas",
+          "value": 10,
+          "rank": 15
+        },
+        {
+          "id": "thomas-muller",
+          "value": 10,
+          "rank": 16
+        },
+        {
+          "id": "grzegorz-lato",
+          "value": 10,
+          "rank": 17
+        }
+      ]
+    },
+    {
+      "date": "20260711",
+      "values": [
+        {
+          "id": "kylian-mbappe",
+          "value": 20,
+          "rank": 1
+        },
+        {
+          "id": "lionel-messi",
+          "value": 19,
+          "rank": 2
+        },
+        {
+          "id": "miroslav-klose",
+          "value": 16,
+          "rank": 3
+        },
+        {
+          "id": "ronaldo",
+          "value": 15,
+          "rank": 4
+        },
+        {
+          "id": "gerd-muller",
+          "value": 14,
+          "rank": 5
+        },
+        {
+          "id": "harry-kane",
+          "value": 13,
+          "rank": 6
+        },
+        {
+          "id": "just-fontaine",
+          "value": 13,
+          "rank": 7
+        },
+        {
+          "id": "pele",
+          "value": 12,
+          "rank": 8
+        },
+        {
+          "id": "sandor-kocsis",
+          "value": 11,
+          "rank": 9
+        },
+        {
+          "id": "jurgen-klinsmann",
+          "value": 11,
+          "rank": 10
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 11,
+          "rank": 11
+        },
+        {
+          "id": "helmut-rahn",
+          "value": 10,
+          "rank": 12
+        },
+        {
+          "id": "gary-lineker",
+          "value": 10,
+          "rank": 13
+        },
+        {
+          "id": "gabriel-batistuta",
+          "value": 10,
+          "rank": 14
+        },
+        {
+          "id": "teofilo-cubillas",
+          "value": 10,
+          "rank": 15
+        },
+        {
+          "id": "thomas-muller",
+          "value": 10,
+          "rank": 16
+        },
+        {
+          "id": "grzegorz-lato",
+          "value": 10,
+          "rank": 17
+        }
+      ]
+    },
+    {
+      "date": "20260712",
+      "values": [
+        {
+          "id": "kylian-mbappe",
+          "value": 20,
+          "rank": 1
+        },
+        {
+          "id": "lionel-messi",
+          "value": 20,
+          "rank": 2
+        },
+        {
+          "id": "miroslav-klose",
+          "value": 16,
+          "rank": 3
+        },
+        {
+          "id": "ronaldo",
+          "value": 15,
+          "rank": 4
+        },
+        {
+          "id": "gerd-muller",
+          "value": 14,
+          "rank": 5
+        },
+        {
+          "id": "harry-kane",
+          "value": 13,
+          "rank": 6
+        },
+        {
+          "id": "just-fontaine",
+          "value": 13,
+          "rank": 7
+        },
+        {
+          "id": "pele",
+          "value": 12,
+          "rank": 8
+        },
+        {
+          "id": "sandor-kocsis",
+          "value": 11,
+          "rank": 9
+        },
+        {
+          "id": "jurgen-klinsmann",
+          "value": 11,
+          "rank": 10
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 11,
+          "rank": 11
+        },
+        {
+          "id": "helmut-rahn",
+          "value": 10,
+          "rank": 12
+        },
+        {
+          "id": "gary-lineker",
+          "value": 10,
+          "rank": 13
+        },
+        {
+          "id": "gabriel-batistuta",
+          "value": 10,
+          "rank": 14
+        },
+        {
+          "id": "teofilo-cubillas",
+          "value": 10,
+          "rank": 15
+        },
+        {
+          "id": "thomas-muller",
+          "value": 10,
+          "rank": 16
+        },
+        {
+          "id": "grzegorz-lato",
+          "value": 10,
+          "rank": 17
+        }
+      ]
+    },
+    {
+      "date": "20260714",
+      "values": [
+        {
+          "id": "kylian-mbappe",
+          "value": 21,
+          "rank": 1
+        },
+        {
+          "id": "lionel-messi",
+          "value": 20,
+          "rank": 2
+        },
+        {
+          "id": "miroslav-klose",
+          "value": 16,
+          "rank": 3
+        },
+        {
+          "id": "ronaldo",
+          "value": 15,
+          "rank": 4
+        },
+        {
+          "id": "gerd-muller",
+          "value": 14,
+          "rank": 5
+        },
+        {
+          "id": "harry-kane",
+          "value": 13,
+          "rank": 6
+        },
+        {
+          "id": "just-fontaine",
+          "value": 13,
+          "rank": 7
+        },
+        {
+          "id": "pele",
+          "value": 12,
+          "rank": 8
+        },
+        {
+          "id": "sandor-kocsis",
+          "value": 11,
+          "rank": 9
+        },
+        {
+          "id": "jurgen-klinsmann",
+          "value": 11,
+          "rank": 10
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 11,
+          "rank": 11
+        },
+        {
+          "id": "helmut-rahn",
+          "value": 10,
+          "rank": 12
+        },
+        {
+          "id": "gary-lineker",
+          "value": 10,
+          "rank": 13
+        },
+        {
+          "id": "gabriel-batistuta",
+          "value": 10,
+          "rank": 14
+        },
+        {
+          "id": "teofilo-cubillas",
+          "value": 10,
+          "rank": 15
+        },
+        {
+          "id": "thomas-muller",
+          "value": 10,
+          "rank": 16
+        },
+        {
+          "id": "grzegorz-lato",
+          "value": 10,
+          "rank": 17
+        }
+      ]
+    },
+    {
+      "date": "20260715",
+      "values": [
+        {
+          "id": "kylian-mbappe",
+          "value": 21,
+          "rank": 1
+        },
+        {
+          "id": "lionel-messi",
+          "value": 21,
+          "rank": 2
+        },
+        {
+          "id": "miroslav-klose",
+          "value": 16,
+          "rank": 3
+        },
+        {
+          "id": "ronaldo",
+          "value": 15,
+          "rank": 4
+        },
+        {
+          "id": "gerd-muller",
+          "value": 14,
+          "rank": 5
+        },
+        {
+          "id": "harry-kane",
+          "value": 13,
+          "rank": 6
+        },
+        {
+          "id": "just-fontaine",
+          "value": 13,
+          "rank": 7
+        },
+        {
+          "id": "pele",
+          "value": 12,
+          "rank": 8
+        },
+        {
+          "id": "sandor-kocsis",
+          "value": 11,
+          "rank": 9
+        },
+        {
+          "id": "jurgen-klinsmann",
+          "value": 11,
+          "rank": 10
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 11,
+          "rank": 11
+        },
+        {
+          "id": "helmut-rahn",
+          "value": 10,
+          "rank": 12
+        },
+        {
+          "id": "gary-lineker",
+          "value": 10,
+          "rank": 13
+        },
+        {
+          "id": "gabriel-batistuta",
+          "value": 10,
+          "rank": 14
+        },
+        {
+          "id": "teofilo-cubillas",
+          "value": 10,
+          "rank": 15
+        },
+        {
+          "id": "thomas-muller",
+          "value": 10,
+          "rank": 16
+        },
+        {
+          "id": "grzegorz-lato",
+          "value": 10,
+          "rank": 17
+        }
+      ]
+    },
+    {
+      "date": "20260718",
+      "values": [
+        {
+          "id": "kylian-mbappe",
+          "value": 22,
+          "rank": 1
+        },
+        {
+          "id": "lionel-messi",
+          "value": 21,
+          "rank": 2
+        },
+        {
+          "id": "miroslav-klose",
+          "value": 16,
+          "rank": 3
+        },
+        {
+          "id": "ronaldo",
+          "value": 15,
+          "rank": 4
+        },
+        {
+          "id": "gerd-muller",
+          "value": 14,
+          "rank": 5
+        },
+        {
+          "id": "harry-kane",
+          "value": 14,
+          "rank": 6
+        },
+        {
+          "id": "just-fontaine",
+          "value": 13,
+          "rank": 7
+        },
+        {
+          "id": "pele",
+          "value": 12,
+          "rank": 8
+        },
+        {
+          "id": "sandor-kocsis",
+          "value": 11,
+          "rank": 9
+        },
+        {
+          "id": "jurgen-klinsmann",
+          "value": 11,
+          "rank": 10
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 11,
+          "rank": 11
+        },
+        {
+          "id": "helmut-rahn",
+          "value": 10,
+          "rank": 12
+        },
+        {
+          "id": "gary-lineker",
+          "value": 10,
+          "rank": 13
+        },
+        {
+          "id": "gabriel-batistuta",
+          "value": 10,
+          "rank": 14
+        },
+        {
+          "id": "teofilo-cubillas",
+          "value": 10,
+          "rank": 15
+        },
+        {
+          "id": "thomas-muller",
+          "value": 10,
+          "rank": 16
+        },
+        {
+          "id": "grzegorz-lato",
+          "value": 10,
+          "rank": 17
+        }
+      ]
+    },
+    {
+      "date": "20260719",
+      "values": [
+        {
+          "id": "kylian-mbappe",
+          "value": 22,
+          "rank": 1,
+          "country": "France"
+        },
+        {
+          "id": "lionel-messi",
+          "value": 21,
+          "rank": 2,
+          "country": "Argentina"
+        },
+        {
+          "id": "miroslav-klose",
+          "value": 16,
+          "rank": 3,
+          "country": "Germany"
+        },
+        {
+          "id": "ronaldo",
+          "value": 15,
+          "rank": 4,
+          "country": "Brazil"
+        },
+        {
+          "id": "gerd-muller",
+          "value": 14,
+          "rank": 5,
+          "country": "Germany"
+        },
+        {
+          "id": "harry-kane",
+          "value": 14,
+          "rank": 6,
+          "country": "England"
+        },
+        {
+          "id": "just-fontaine",
+          "value": 13,
+          "rank": 7,
+          "country": "France"
+        },
+        {
+          "id": "pele",
+          "value": 12,
+          "rank": 8,
+          "country": "Brazil"
+        },
+        {
+          "id": "sandor-kocsis",
+          "value": 11,
+          "rank": 9,
+          "country": "Hungary"
+        },
+        {
+          "id": "jurgen-klinsmann",
+          "value": 11,
+          "rank": 10,
+          "country": "Germany"
+        },
+        {
+          "id": "cristiano-ronaldo",
+          "value": 11,
+          "rank": 11,
+          "country": "Portugal"
+        },
+        {
+          "id": "helmut-rahn",
+          "value": 10,
+          "rank": 12,
+          "country": "Germany"
+        },
+        {
+          "id": "gary-lineker",
+          "value": 10,
+          "rank": 13,
+          "country": "England"
+        },
+        {
+          "id": "gabriel-batistuta",
+          "value": 10,
+          "rank": 14,
+          "country": "Argentina"
+        },
+        {
+          "id": "teofilo-cubillas",
+          "value": 10,
+          "rank": 15,
+          "country": "Peru"
+        },
+        {
+          "id": "thomas-muller",
+          "value": 10,
+          "rank": 16,
+          "country": "Germany"
+        },
+        {
+          "id": "grzegorz-lato",
+          "value": 10,
+          "rank": 17,
+          "country": "Poland"
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "date": "20260611",
+      "title": "Miroslav Klose leads world cup goals",
+      "body": "Miroslav Klose leads this World Cup frame with 16 goals."
+    },
+    {
+      "date": "20260628",
+      "title": "Kylian Mbappe leads world cup goals",
+      "body": "Kylian Mbappe leads this World Cup frame with 16 goals."
+    },
+    {
+      "date": "20260719",
+      "title": "Kylian Mbappe leads world cup goals",
+      "body": "Kylian Mbappe leads this World Cup frame with 22 goals."
+    }
+  ],
+  "sources": [
+    {
+      "title": "FIFA World Cup 2026 statistics",
+      "publisher": "FIFA",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/statistics",
+      "note": "Official 2026 tournament statistics surface; the adapter reads its public GameDay scorer feed when available."
+    },
+    {
+      "title": "FIFA World Cup 2026 Final: Spain 1-0 Argentina",
+      "publisher": "FIFA",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/match-centre",
+      "note": "Spain beat Argentina 1-0 in the New York/New Jersey final on 19 July 2026 to win a second World Cup title."
+    },
+    {
+      "title": "Every Harry Kane and Gary Lineker FIFA World Cup goal",
+      "publisher": "FIFA",
+      "url": "https://www.fifa.com/en/articles/harry-kane-gary-lineker-england",
+      "note": "FIFA report confirming Harry Kane joined Gary Lineker on 10 World Cup goals."
+    },
+    {
+      "title": "Cristiano Ronaldo the first man to score in six World Cups",
+      "publisher": "FIFA",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/cristiano-ronaldo-portugal-goal-record",
+      "note": "FIFA report confirming Ronaldo scored twice against Uzbekistan at the 2026 World Cup."
+    },
+    {
+      "title": "All-Time World Cup Top Scorers: Messi Makes History",
+      "publisher": "FOX Sports",
+      "url": "https://www.foxsports.com/stories/soccer/world-cup-goal-scorers-all-time-messi-mbappe",
+      "note": "June 23, 2026 all-time scorer table listing Cristiano Ronaldo among the 10-goal group."
+    },
+    {
+      "title": "FIFA World Cup 2026 stats: Messi's all-time record 18",
+      "publisher": "ESPN",
+      "url": "https://www.espn.in/football/story/_/id/49145571/fifa-world-cup-2026-stats-lionel-messi-all-goalscorer-18-kylian-mbappe-miroslav-klose-16-record-100-haaland",
+      "note": "Live 2026 World Cup stats update with Messi at 18 goals and Mbappe level with Klose on 16."
+    },
+    {
+      "title": "Lionel Messi becomes World Cup all-time leading scorer",
+      "publisher": "The Guardian",
+      "url": "https://www.theguardian.com/football/2026/jun/22/lionel-messi-breaks-men-world-cup-record-becomes-all-time-leading-scorer",
+      "note": "Match report confirming Messi scored his 17th and 18th World Cup goals against Austria."
+    },
+    {
+      "title": "FIFA World Cup all-time leading scorers",
+      "publisher": "FIFA",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/articles/fifa-world-cup-all-time-leading-scorers",
+      "note": "FIFA editorial record of leading men's World Cup goal scorers."
+    },
+    {
+      "title": "FIFA World Cup records and statistics",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/FIFA_World_Cup_records_and_statistics",
+      "note": "Historical tournament, attendance, goal, player, and team record tables."
+    }
+  ],
+  "historicalCoverageStart": "20260611",
+  "historicalCoverageEnd": "20260718",
+  "historicalGranularity": "modeled-matchday",
+  "backfillSource": "Modeled 2026 all-time World Cup scorer chase across the real FIFA match calendar",
+  "backfillGeneratedAt": "2026-07-20T00:00:00.000Z",
+  "historical": {
+    "coverageStart": "20260611",
+    "coverageEnd": "20260718",
+    "granularity": "modeled-matchday",
+    "source": "Modeled 2026 all-time World Cup scorer chase across the real FIFA match calendar",
+    "generatedAt": "2026-07-20T00:00:00.000Z",
+    "frameCount": 34,
+    "maxFrames": 40,
+    "maxPublicFrames": 40,
+    "notes": [
+      "Retired players hold their through-2022 all-time totals; active players (Mbappe, Messi, Kane, Cristiano Ronaldo) climb as their modeled 2026 goals accumulate across the real match calendar.",
+      "Shows Mbappe (22) and Messi (21) overtaking Miroslav Klose’s long-standing record of 16."
+    ]
+  },
+  "timelineTicks": [
+    "20260611",
+    "20260612",
+    "20260613",
+    "20260614",
+    "20260615",
+    "20260616",
+    "20260617",
+    "20260618",
+    "20260619",
+    "20260620",
+    "20260621",
+    "20260622",
+    "20260623",
+    "20260624",
+    "20260625",
+    "20260626",
+    "20260627",
+    "20260628",
+    "20260629",
+    "20260630",
+    "20260701",
+    "20260702",
+    "20260703",
+    "20260704",
+    "20260705",
+    "20260706",
+    "20260707",
+    "20260709",
+    "20260710",
+    "20260711",
+    "20260712",
+    "20260714",
+    "20260715",
+    "20260718",
+    "20260719"
+  ],
+  "lastObservationDate": "2026-07-19",
+  "dataFreshness": {
+    "status": "fresh",
+    "refreshCadence": "seasonal",
+    "lastUpdated": "2026-08-22T14:56:45.984Z",
+    "lastRefreshAttemptedAt": "2026-08-22T14:56:45.984Z",
+    "lastRefreshError": null,
+    "lastObservationDate": "2026-07-19",
+    "nextRefreshAt": null,
+    "sourceStatus": "Live 2026 scorer table updated from FIFA GameDay statistics",
+    "confidence": "Live men's World Cup goal totals combine through-2022 historical baselines with FIFA's 2026 tournament goal feed. After the 2026 final, Kylian Mbappe (22) overtook Lionel Messi (21) as the all-time leading men's World Cup scorer. The checked-in live snapshot is the fallback when FIFA's public feed is unavailable."
+  },
+  "taxonomy": {
+    "primaryCategory": "sports",
+    "categories": [
+      "sports",
+      "football",
+      "history"
+    ],
+    "tags": [
+      "world-cup",
+      "fifa",
+      "goals",
+      "records"
+    ],
+    "entityTypes": [
+      "player"
+    ],
+    "sourceTypes": [
+      "espn",
+      "guardian",
+      "fifa",
+      "wikipedia"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "world-cup-golden-boot-peaks",
+      "type": "scoring-records",
+      "weight": 0.92,
+      "reason": "Both rank World Cup scoring achievements and share many player entities."
+    },
+    {
+      "target": "world-cup-player-appearances",
+      "type": "player-record-book",
+      "weight": 0.72,
+      "reason": "Both are player-level World Cup historical record tables."
+    },
+    {
+      "target": "top-athlete-salaries",
+      "type": "sports-star-power",
+      "weight": 0.38,
+      "reason": "Both track globally prominent athletes, but one is performance history and the other is earnings."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "world-cup-records",
+    "mainland": "world-cup",
+    "bridgePriority": [
+      "world-cup-golden-boot-peaks",
+      "world-cup-player-appearances"
+    ]
+  },
+  "media": {
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-08-22T14:56:45.984Z",
+    "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.webp",
+    "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.webp",
+    "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.json",
+    "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-all-time-goalscorers.json",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "imageFit": "cover",
+    "columns": 5,
+    "rows": 4,
+    "width": 1600,
+    "height": 1280,
+    "itemCount": 17,
+    "sourcedImageCount": 17,
+    "generatedImageCount": 0,
+    "placeholderCount": 0,
+    "ogImageUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/world-cup-all-time-goalscorers.png",
+    "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/world-cup-all-time-goalscorers.png",
+    "ogImageWidth": 1200,
+    "ogImageHeight": 630
+  },
+  "schemaVersion": 1,
+  "contentKind": "dat-city.story",
+  "generatedAt": "2026-08-22T14:56:45.984Z",
+  "versionId": "20260822T145645Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "dashboard-settings:crypto-memecoin-heat",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-08-22T14:56:45.984Z",
+    "versionId": "20260822T145645Z",
+    "adapter": "fifa-world-cup-history",
+    "storySlug": "world-cup-all-time-goalscorers",
+    "districtId": null,
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "publicProjection": {
+    "kind": "story",
+    "version": 1,
+    "generatedAt": "2026-08-22T14:56:45.984Z",
+    "adapter": "fifa-world-cup-history",
+    "cache": {
+      "browserMaxAgeSeconds": 60,
+      "edgeMaxAgeSeconds": 3600
+    }
+  },
+  "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/world-cup-all-time-goalscorers.png"
+}

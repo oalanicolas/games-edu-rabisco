@@ -1,0 +1,5899 @@
+{
+  "id": "mobile-game-revenue",
+  "kicker": "Mobile Games",
+  "title": "Mobile Game Player Reach",
+  "subtitle": "A mobile-game district ranked by public player-count rows while revenue sources remain unavailable on Wikipedia.",
+  "badge": "Ranked by player count",
+  "visualization": "race-arena",
+  "theme": "arcade",
+  "artStyle": "stylized-editorial",
+  "dateRange": [
+    "20260804",
+    "20260902"
+  ],
+  "timelineTicks": [
+    "20260804",
+    "20260805",
+    "20260806",
+    "20260807",
+    "20260808",
+    "20260809",
+    "20260810",
+    "20260811",
+    "20260812",
+    "20260813",
+    "20260814",
+    "20260815",
+    "20260816",
+    "20260817",
+    "20260818",
+    "20260819",
+    "20260820",
+    "20260821",
+    "20260822",
+    "20260823",
+    "20260824",
+    "20260825",
+    "20260826",
+    "20260827",
+    "20260828",
+    "20260829",
+    "20260830",
+    "20260831",
+    "20260901",
+    "20260902"
+  ],
+  "metricLabel": "Players",
+  "ogImage": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/mobile-game-revenue.png",
+  "cityPreview": {
+    "districtId": "mobile-game-market",
+    "districtName": "Mobile Game Market",
+    "cardLabel": "Mobile Game Reach",
+    "summary": "Mobile games ranked by public player-count rows.",
+    "primaryMetric": "Players",
+    "latestFrameLabel": "2026-09-02",
+    "storyUrl": "/stories/mobile-game-revenue/",
+    "thumbnail": "/assets/og/dat-city.webp"
+  },
+  "sourceStatus": "Wikipedia current ranking table: Most-played mobile games by player count (with at least 50 million)",
+  "confidence": "Observed List of most-played mobile games by player count on 2026-09-02T08:01:38.701Z; values are parsed from the \"Most-played mobile games by player count (with at least 50 million)\" Wikipedia table.",
+  "methodology": "This StoryOps adapter fetches the rendered Wikipedia table for List of most-played mobile games by player count, selects the configured ranking table, parses the configured entity and value columns, and stores observed snapshots so public history grows from repeat refreshes.",
+  "playback": {
+    "durationSeconds": 24,
+    "initialDate": "20260804",
+    "periodLabel": "players"
+  },
+  "visual": {
+    "topCount": 10,
+    "referenceCount": 20,
+    "horizontalCount": 12
+  },
+  "layers": [
+    {
+      "id": "players",
+      "label": "Players",
+      "default": true
+    }
+  ],
+  "focus": [
+    {
+      "id": "call-of-duty-mobile",
+      "label": "Call of Duty: Mobile"
+    },
+    {
+      "id": "mini-world",
+      "label": "Mini World"
+    },
+    {
+      "id": "dragon-ball-z-dokkan-battle",
+      "label": "Dragon Ball Z: Dokkan Battle"
+    },
+    {
+      "id": "sonic-dash",
+      "label": "Sonic Dash"
+    }
+  ],
+  "entities": [
+    {
+      "id": "call-of-duty-mobile",
+      "name": "Call of Duty: Mobile",
+      "shortName": "Call of Duty: Mobile",
+      "article": "Call of Duty: Mobile",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Call_of_Duty%3A_Mobile",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/0/07/CODM_logo.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/0/07/CODM_logo.png",
+      "avatarText": "CO",
+      "color": "#ff5a61",
+      "asOf": "Nov 2024",
+      "releaseDate": "October 1, 2019",
+      "publisher": "Activision",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.json",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.2,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/0/07/CODM_logo.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "mini-world",
+      "name": "Mini World",
+      "shortName": "Mini World",
+      "article": "Mini World",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Mini_World",
+      "thumbnailUrl": null,
+      "imageUrl": null,
+      "avatarText": "MW",
+      "color": "#18c871",
+      "asOf": "April 2020",
+      "releaseDate": "December 26, 2015",
+      "publisher": "Minovate",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.json",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0,
+          "u1": 0.4,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:mini-world",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "dragon-ball-z-dokkan-battle",
+      "name": "Dragon Ball Z: Dokkan Battle",
+      "shortName": "Dragon Ball Z: Dokkan Battle",
+      "article": "Dragon Ball Z: Dokkan Battle",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Dragon_Ball_Z%3A_Dokkan_Battle",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/6/67/Dragon_Ball_Z_Dokkan_Battle_logo.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/6/67/Dragon_Ball_Z_Dokkan_Battle_logo.png",
+      "avatarText": "DB",
+      "color": "#ffc84a",
+      "asOf": "August 2021",
+      "releaseDate": "January 30, 2015",
+      "publisher": "Bandai Namco Entertainment",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.json",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0,
+          "u1": 0.6,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/6/67/Dragon_Ball_Z_Dokkan_Battle_logo.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "sonic-dash",
+      "name": "Sonic Dash",
+      "shortName": "Sonic Dash",
+      "article": "Sonic Dash",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Sonic_Dash",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/3/39/Sonic_Dash.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/3/39/Sonic_Dash.jpg",
+      "avatarText": "SD",
+      "color": "#00a6ff",
+      "asOf": "February 2020",
+      "releaseDate": "March 7, 2013",
+      "publisher": "Sega",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.json",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0,
+          "u1": 0.8,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/3/39/Sonic_Dash.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "helix-jump",
+      "name": "Helix Jump",
+      "shortName": "Helix Jump",
+      "article": "Helix Jump",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Helix_Jump",
+      "thumbnailUrl": null,
+      "imageUrl": null,
+      "avatarText": "HJ",
+      "color": "#8f6bff",
+      "asOf": "December 2018",
+      "releaseDate": "February 10, 2018",
+      "publisher": "Voodoo",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.json",
+          "x": 1280,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:helix-jump",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "gardenscapes-new-acres",
+      "name": "Gardenscapes: New Acres",
+      "shortName": "Gardenscapes: New Acres",
+      "article": "Gardenscapes: New Acres",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Gardenscapes%3A_New_Acres",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/f/fe/Gardenscapes%2C_New_Acres_%28video_game%29_screenshot.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/f/fe/Gardenscapes%2C_New_Acres_%28video_game%29_screenshot.png",
+      "avatarText": "GN",
+      "color": "#f18c4f",
+      "asOf": "May 2020",
+      "releaseDate": "August 2016",
+      "publisher": "Playrix",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.json",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.25,
+          "u1": 0.2,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/f/fe/Gardenscapes%2C_New_Acres_%28video_game%29_screenshot.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "homescapes",
+      "name": "Homescapes",
+      "shortName": "Homescapes",
+      "article": "Homescapes",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Homescapes",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/7/7e/Homescapes_icon.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/7/7e/Homescapes_icon.png",
+      "avatarText": "H",
+      "color": "#41a99f",
+      "asOf": "May 2020",
+      "releaseDate": "August 2017",
+      "publisher": "Playrix",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.json",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.25,
+          "u1": 0.4,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/7/7e/Homescapes_icon.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "pubg-mobile",
+      "name": "PUBG Mobile",
+      "shortName": "PUBG Mobile",
+      "article": "PUBG Mobile",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/PUBG_Mobile",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/PUBG_Mobile_booth_20210130a.jpg/960px-PUBG_Mobile_booth_20210130a.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/PUBG_Mobile_booth_20210130a.jpg/960px-PUBG_Mobile_booth_20210130a.jpg",
+      "avatarText": "PM",
+      "color": "#d78fca",
+      "asOf": "August 2023",
+      "releaseDate": "March 2018",
+      "publisher": "Tencent Games / Krafton",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.json",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.25,
+          "u1": 0.6,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/PUBG_Mobile_booth_20210130a.jpg/960px-PUBG_Mobile_booth_20210130a.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "super-mario-run",
+      "name": "Super Mario Run",
+      "shortName": "Super Mario Run",
+      "article": "Super Mario Run",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Super_Mario_Run",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Super_Mario_Run_logo.svg/960px-Super_Mario_Run_logo.svg.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Super_Mario_Run_logo.svg/960px-Super_Mario_Run_logo.svg.png",
+      "avatarText": "SM",
+      "color": "#7b9b65",
+      "asOf": "August 2018",
+      "releaseDate": "December 15, 2016",
+      "publisher": "Nintendo",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.json",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.25,
+          "u1": 0.8,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Super_Mario_Run_logo.svg/960px-Super_Mario_Run_logo.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "township",
+      "name": "Township",
+      "shortName": "Township",
+      "article": "Township (video game)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Township_(video_game)",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/f/f7/Township_App_Icon.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/f/f7/Township_App_Icon.jpg",
+      "avatarText": "T",
+      "color": "#2f4858",
+      "asOf": "May 2020",
+      "releaseDate": "February 24, 2012",
+      "publisher": "Playrix",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.json",
+          "x": 1280,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.25,
+          "u1": 1,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/f/f7/Township_App_Icon.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "knives-out",
+      "name": "Knives Out",
+      "shortName": "Knives Out",
+      "article": "Knives Out",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Knives_Out",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/1/1f/Knives_Out_poster.jpeg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/1/1f/Knives_Out_poster.jpeg",
+      "avatarText": "KO",
+      "color": "#ef426f",
+      "asOf": "September 2018",
+      "releaseDate": "November 2017",
+      "publisher": "NetEase",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.json",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.5,
+          "u1": 0.2,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/1/1f/Knives_Out_poster.jpeg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "angry-birds-2",
+      "name": "Angry Birds 2",
+      "shortName": "Angry Birds 2",
+      "article": "Angry Birds 2",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Angry_Birds_2",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/9/97/Angry_Birds_2.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/9/97/Angry_Birds_2.png",
+      "avatarText": "AB",
+      "color": "#86bdf4",
+      "asOf": "December 2019",
+      "releaseDate": "July 30, 2015",
+      "publisher": "Rovio Entertainment",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.json",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.5,
+          "u1": 0.4,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/9/97/Angry_Birds_2.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "honor-of-kings",
+      "name": "Honor of Kings",
+      "shortName": "Honor of Kings",
+      "article": "Honor of Kings",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Honor_of_Kings",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7d/Honor_of_Kings_logo.png/960px-Honor_of_Kings_logo.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7d/Honor_of_Kings_logo.png/960px-Honor_of_Kings_logo.png",
+      "avatarText": "HO",
+      "color": "#c9a14a",
+      "asOf": "December 2017",
+      "releaseDate": "November 26, 2015",
+      "publisher": "Tencent Games",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.json",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.5,
+          "u1": 0.6,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7d/Honor_of_Kings_logo.png/960px-Honor_of_Kings_logo.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "qq-speed-mobile-speed-drifters",
+      "name": "QQ Speed Mobile / Speed Drifters",
+      "shortName": "QQ Speed Mobile / Speed Drifters",
+      "article": "GKART",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/GKART",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/a/a9/SpeedDrifters_game_screenshot.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a9/SpeedDrifters_game_screenshot.jpg",
+      "avatarText": "QS",
+      "color": "#e34f59",
+      "asOf": "January 2020",
+      "releaseDate": "December 29, 2017",
+      "publisher": "TiMi Studios / Tencent Games / Garena",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.json",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.5,
+          "u1": 0.8,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/a/a9/SpeedDrifters_game_screenshot.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "rise-up",
+      "name": "Rise Up",
+      "shortName": "Rise Up",
+      "article": "Rise Up",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Rise_Up",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Wiktionary-logo-en-v2.svg/960px-Wiktionary-logo-en-v2.svg.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Wiktionary-logo-en-v2.svg/960px-Wiktionary-logo-en-v2.svg.png",
+      "avatarText": "RU",
+      "color": "#9aa4b2",
+      "asOf": "December 2018",
+      "releaseDate": "2018",
+      "publisher": "Serkan Özyılmaz",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.json",
+          "x": 1280,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.5,
+          "u1": 1,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Wiktionary-logo-en-v2.svg/960px-Wiktionary-logo-en-v2.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "free-fire",
+      "name": "Free Fire",
+      "shortName": "Free Fire",
+      "article": "Free Fire (video game)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Free_Fire_(video_game)",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/3/38/Free_Fire_New_Logo.svg/960px-Free_Fire_New_Logo.svg.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/3/38/Free_Fire_New_Logo.svg/960px-Free_Fire_New_Logo.svg.png",
+      "avatarText": "FF",
+      "color": "#ff5a61",
+      "asOf": "August 2021",
+      "releaseDate": "December 2017",
+      "publisher": "Garena",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.json",
+          "x": 0,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.75,
+          "u1": 0.2,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/3/38/Free_Fire_New_Logo.svg/960px-Free_Fire_New_Logo.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "pes-2018-mobile",
+      "name": "PES 2018 Mobile",
+      "shortName": "PES 2018 Mobile",
+      "article": "Pro Evolution Soccer 2018",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Pro_Evolution_Soccer_2018",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/f/f7/Pro_Evolution_Soccer_2018_Cover_Art.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/f/f7/Pro_Evolution_Soccer_2018_Cover_Art.png",
+      "avatarText": "P2",
+      "color": "#18c871",
+      "asOf": "August 2018",
+      "releaseDate": "September 12, 2017",
+      "publisher": "Konami",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.json",
+          "x": 320,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.75,
+          "u1": 0.4,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/f/f7/Pro_Evolution_Soccer_2018_Cover_Art.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "war-robots",
+      "name": "War Robots",
+      "shortName": "War Robots",
+      "article": "War Robots",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/War_Robots",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/War_Robots_cover_art.jpg/960px-War_Robots_cover_art.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/War_Robots_cover_art.jpg/960px-War_Robots_cover_art.jpg",
+      "avatarText": "WR",
+      "color": "#ffc84a",
+      "asOf": "January 2020",
+      "releaseDate": "April 14, 2014",
+      "publisher": "Pixonic",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.json",
+          "x": 640,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.75,
+          "u1": 0.6,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/War_Robots_cover_art.jpg/960px-War_Robots_cover_art.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "mario-kart-tour",
+      "name": "Mario Kart Tour",
+      "shortName": "Mario Kart Tour",
+      "article": "Mario Kart Tour",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Mario_Kart_Tour",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/0/03/Mario_Kart_Tour_gameplay_screenshot.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/0/03/Mario_Kart_Tour_gameplay_screenshot.jpg",
+      "avatarText": "MK",
+      "color": "#00a6ff",
+      "asOf": "October 2019",
+      "releaseDate": "September 25, 2019",
+      "publisher": "Nintendo",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.json",
+          "x": 960,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.75,
+          "u1": 0.8,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/0/03/Mario_Kart_Tour_gameplay_screenshot.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "ice-age-village",
+      "name": "Ice Age Village",
+      "shortName": "Ice Age Village",
+      "article": "Ice Age Village",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Ice_Age_Village",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Iceage-logo.svg/960px-Iceage-logo.svg.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Iceage-logo.svg/960px-Iceage-logo.svg.png",
+      "avatarText": "IA",
+      "color": "#8f6bff",
+      "asOf": "2013",
+      "releaseDate": "April 5, 2012",
+      "publisher": "Gameloft",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.json",
+          "x": 1280,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.75,
+          "u1": 1,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Iceage-logo.svg/960px-Iceage-logo.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    }
+  ],
+  "frames": [
+    {
+      "date": "20260804",
+      "values": [
+        {
+          "id": "call-of-duty-mobile",
+          "value": 1000000000,
+          "rank": 1,
+          "asOf": "Nov 2024",
+          "releaseDate": "October 1, 2019",
+          "publisher": "Activision"
+        },
+        {
+          "id": "mini-world",
+          "value": 400000000,
+          "rank": 2,
+          "asOf": "April 2020",
+          "releaseDate": "December 26, 2015",
+          "publisher": "Minovate"
+        },
+        {
+          "id": "dragon-ball-z-dokkan-battle",
+          "value": 350000000,
+          "rank": 3,
+          "asOf": "August 2021",
+          "releaseDate": "January 30, 2015",
+          "publisher": "Bandai Namco Entertainment"
+        },
+        {
+          "id": "sonic-dash",
+          "value": 350000000,
+          "rank": 4,
+          "asOf": "February 2020",
+          "releaseDate": "March 7, 2013",
+          "publisher": "Sega"
+        },
+        {
+          "id": "helix-jump",
+          "value": 334000000,
+          "rank": 5,
+          "asOf": "December 2018",
+          "releaseDate": "February 10, 2018",
+          "publisher": "Voodoo"
+        },
+        {
+          "id": "gardenscapes-new-acres",
+          "value": 324000000,
+          "rank": 6,
+          "asOf": "May 2020",
+          "releaseDate": "August 2016",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "homescapes",
+          "value": 312000000,
+          "rank": 7,
+          "asOf": "May 2020",
+          "releaseDate": "August 2017",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "pubg-mobile",
+          "value": 300000000,
+          "rank": 8,
+          "asOf": "August 2023",
+          "releaseDate": "March 2018",
+          "publisher": "Tencent Games / Krafton"
+        },
+        {
+          "id": "super-mario-run",
+          "value": 300000000,
+          "rank": 9,
+          "asOf": "August 2018",
+          "releaseDate": "December 15, 2016",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "township",
+          "value": 274000000,
+          "rank": 10,
+          "asOf": "May 2020",
+          "releaseDate": "February 24, 2012",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "knives-out",
+          "value": 250000000,
+          "rank": 11,
+          "asOf": "September 2018",
+          "releaseDate": "November 2017",
+          "publisher": "NetEase"
+        },
+        {
+          "id": "angry-birds-2",
+          "value": 230000000,
+          "rank": 12,
+          "asOf": "December 2019",
+          "releaseDate": "July 30, 2015",
+          "publisher": "Rovio Entertainment"
+        },
+        {
+          "id": "honor-of-kings",
+          "value": 200000000,
+          "rank": 13,
+          "asOf": "December 2017",
+          "releaseDate": "November 26, 2015",
+          "publisher": "Tencent Games"
+        },
+        {
+          "id": "qq-speed-mobile-speed-drifters",
+          "value": 200000000,
+          "rank": 14,
+          "asOf": "January 2020",
+          "releaseDate": "December 29, 2017",
+          "publisher": "TiMi Studios / Tencent Games / Garena"
+        },
+        {
+          "id": "rise-up",
+          "value": 162000000,
+          "rank": 15,
+          "asOf": "December 2018",
+          "releaseDate": "2018",
+          "publisher": "Serkan Özyılmaz"
+        },
+        {
+          "id": "free-fire",
+          "value": 150000000,
+          "rank": 16,
+          "asOf": "August 2021",
+          "releaseDate": "December 2017",
+          "publisher": "Garena"
+        },
+        {
+          "id": "pes-2018-mobile",
+          "value": 150000000,
+          "rank": 17,
+          "asOf": "August 2018",
+          "releaseDate": "September 12, 2017",
+          "publisher": "Konami"
+        },
+        {
+          "id": "war-robots",
+          "value": 150000000,
+          "rank": 18,
+          "asOf": "January 2020",
+          "releaseDate": "April 14, 2014",
+          "publisher": "Pixonic"
+        },
+        {
+          "id": "mario-kart-tour",
+          "value": 123900000,
+          "rank": 19,
+          "asOf": "October 2019",
+          "releaseDate": "September 25, 2019",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "ice-age-village",
+          "value": 120000000,
+          "rank": 20,
+          "asOf": "2013",
+          "releaseDate": "April 5, 2012",
+          "publisher": "Gameloft"
+        }
+      ]
+    },
+    {
+      "date": "20260805",
+      "values": [
+        {
+          "id": "call-of-duty-mobile",
+          "value": 1000000000,
+          "rank": 1,
+          "asOf": "Nov 2024",
+          "releaseDate": "October 1, 2019",
+          "publisher": "Activision"
+        },
+        {
+          "id": "mini-world",
+          "value": 400000000,
+          "rank": 2,
+          "asOf": "April 2020",
+          "releaseDate": "December 26, 2015",
+          "publisher": "Minovate"
+        },
+        {
+          "id": "dragon-ball-z-dokkan-battle",
+          "value": 350000000,
+          "rank": 3,
+          "asOf": "August 2021",
+          "releaseDate": "January 30, 2015",
+          "publisher": "Bandai Namco Entertainment"
+        },
+        {
+          "id": "sonic-dash",
+          "value": 350000000,
+          "rank": 4,
+          "asOf": "February 2020",
+          "releaseDate": "March 7, 2013",
+          "publisher": "Sega"
+        },
+        {
+          "id": "helix-jump",
+          "value": 334000000,
+          "rank": 5,
+          "asOf": "December 2018",
+          "releaseDate": "February 10, 2018",
+          "publisher": "Voodoo"
+        },
+        {
+          "id": "gardenscapes-new-acres",
+          "value": 324000000,
+          "rank": 6,
+          "asOf": "May 2020",
+          "releaseDate": "August 2016",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "homescapes",
+          "value": 312000000,
+          "rank": 7,
+          "asOf": "May 2020",
+          "releaseDate": "August 2017",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "pubg-mobile",
+          "value": 300000000,
+          "rank": 8,
+          "asOf": "August 2023",
+          "releaseDate": "March 2018",
+          "publisher": "Tencent Games / Krafton"
+        },
+        {
+          "id": "super-mario-run",
+          "value": 300000000,
+          "rank": 9,
+          "asOf": "August 2018",
+          "releaseDate": "December 15, 2016",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "township",
+          "value": 274000000,
+          "rank": 10,
+          "asOf": "May 2020",
+          "releaseDate": "February 24, 2012",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "knives-out",
+          "value": 250000000,
+          "rank": 11,
+          "asOf": "September 2018",
+          "releaseDate": "November 2017",
+          "publisher": "NetEase"
+        },
+        {
+          "id": "angry-birds-2",
+          "value": 230000000,
+          "rank": 12,
+          "asOf": "December 2019",
+          "releaseDate": "July 30, 2015",
+          "publisher": "Rovio Entertainment"
+        },
+        {
+          "id": "honor-of-kings",
+          "value": 200000000,
+          "rank": 13,
+          "asOf": "December 2017",
+          "releaseDate": "November 26, 2015",
+          "publisher": "Tencent Games"
+        },
+        {
+          "id": "qq-speed-mobile-speed-drifters",
+          "value": 200000000,
+          "rank": 14,
+          "asOf": "January 2020",
+          "releaseDate": "December 29, 2017",
+          "publisher": "TiMi Studios / Tencent Games / Garena"
+        },
+        {
+          "id": "rise-up",
+          "value": 162000000,
+          "rank": 15,
+          "asOf": "December 2018",
+          "releaseDate": "2018",
+          "publisher": "Serkan Özyılmaz"
+        },
+        {
+          "id": "free-fire",
+          "value": 150000000,
+          "rank": 16,
+          "asOf": "August 2021",
+          "releaseDate": "December 2017",
+          "publisher": "Garena"
+        },
+        {
+          "id": "pes-2018-mobile",
+          "value": 150000000,
+          "rank": 17,
+          "asOf": "August 2018",
+          "releaseDate": "September 12, 2017",
+          "publisher": "Konami"
+        },
+        {
+          "id": "war-robots",
+          "value": 150000000,
+          "rank": 18,
+          "asOf": "January 2020",
+          "releaseDate": "April 14, 2014",
+          "publisher": "Pixonic"
+        },
+        {
+          "id": "mario-kart-tour",
+          "value": 123900000,
+          "rank": 19,
+          "asOf": "October 2019",
+          "releaseDate": "September 25, 2019",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "ice-age-village",
+          "value": 120000000,
+          "rank": 20,
+          "asOf": "2013",
+          "releaseDate": "April 5, 2012",
+          "publisher": "Gameloft"
+        }
+      ]
+    },
+    {
+      "date": "20260806",
+      "values": [
+        {
+          "id": "call-of-duty-mobile",
+          "value": 1000000000,
+          "rank": 1,
+          "asOf": "Nov 2024",
+          "releaseDate": "October 1, 2019",
+          "publisher": "Activision"
+        },
+        {
+          "id": "mini-world",
+          "value": 400000000,
+          "rank": 2,
+          "asOf": "April 2020",
+          "releaseDate": "December 26, 2015",
+          "publisher": "Minovate"
+        },
+        {
+          "id": "dragon-ball-z-dokkan-battle",
+          "value": 350000000,
+          "rank": 3,
+          "asOf": "August 2021",
+          "releaseDate": "January 30, 2015",
+          "publisher": "Bandai Namco Entertainment"
+        },
+        {
+          "id": "sonic-dash",
+          "value": 350000000,
+          "rank": 4,
+          "asOf": "February 2020",
+          "releaseDate": "March 7, 2013",
+          "publisher": "Sega"
+        },
+        {
+          "id": "helix-jump",
+          "value": 334000000,
+          "rank": 5,
+          "asOf": "December 2018",
+          "releaseDate": "February 10, 2018",
+          "publisher": "Voodoo"
+        },
+        {
+          "id": "gardenscapes-new-acres",
+          "value": 324000000,
+          "rank": 6,
+          "asOf": "May 2020",
+          "releaseDate": "August 2016",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "homescapes",
+          "value": 312000000,
+          "rank": 7,
+          "asOf": "May 2020",
+          "releaseDate": "August 2017",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "pubg-mobile",
+          "value": 300000000,
+          "rank": 8,
+          "asOf": "August 2023",
+          "releaseDate": "March 2018",
+          "publisher": "Tencent Games / Krafton"
+        },
+        {
+          "id": "super-mario-run",
+          "value": 300000000,
+          "rank": 9,
+          "asOf": "August 2018",
+          "releaseDate": "December 15, 2016",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "township",
+          "value": 274000000,
+          "rank": 10,
+          "asOf": "May 2020",
+          "releaseDate": "February 24, 2012",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "knives-out",
+          "value": 250000000,
+          "rank": 11,
+          "asOf": "September 2018",
+          "releaseDate": "November 2017",
+          "publisher": "NetEase"
+        },
+        {
+          "id": "angry-birds-2",
+          "value": 230000000,
+          "rank": 12,
+          "asOf": "December 2019",
+          "releaseDate": "July 30, 2015",
+          "publisher": "Rovio Entertainment"
+        },
+        {
+          "id": "honor-of-kings",
+          "value": 200000000,
+          "rank": 13,
+          "asOf": "December 2017",
+          "releaseDate": "November 26, 2015",
+          "publisher": "Tencent Games"
+        },
+        {
+          "id": "qq-speed-mobile-speed-drifters",
+          "value": 200000000,
+          "rank": 14,
+          "asOf": "January 2020",
+          "releaseDate": "December 29, 2017",
+          "publisher": "TiMi Studios / Tencent Games / Garena"
+        },
+        {
+          "id": "rise-up",
+          "value": 162000000,
+          "rank": 15,
+          "asOf": "December 2018",
+          "releaseDate": "2018",
+          "publisher": "Serkan Özyılmaz"
+        },
+        {
+          "id": "free-fire",
+          "value": 150000000,
+          "rank": 16,
+          "asOf": "August 2021",
+          "releaseDate": "December 2017",
+          "publisher": "Garena"
+        },
+        {
+          "id": "pes-2018-mobile",
+          "value": 150000000,
+          "rank": 17,
+          "asOf": "August 2018",
+          "releaseDate": "September 12, 2017",
+          "publisher": "Konami"
+        },
+        {
+          "id": "war-robots",
+          "value": 150000000,
+          "rank": 18,
+          "asOf": "January 2020",
+          "releaseDate": "April 14, 2014",
+          "publisher": "Pixonic"
+        },
+        {
+          "id": "mario-kart-tour",
+          "value": 123900000,
+          "rank": 19,
+          "asOf": "October 2019",
+          "releaseDate": "September 25, 2019",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "ice-age-village",
+          "value": 120000000,
+          "rank": 20,
+          "asOf": "2013",
+          "releaseDate": "April 5, 2012",
+          "publisher": "Gameloft"
+        }
+      ]
+    },
+    {
+      "date": "20260807",
+      "values": [
+        {
+          "id": "call-of-duty-mobile",
+          "value": 1000000000,
+          "rank": 1,
+          "asOf": "Nov 2024",
+          "releaseDate": "October 1, 2019",
+          "publisher": "Activision"
+        },
+        {
+          "id": "mini-world",
+          "value": 400000000,
+          "rank": 2,
+          "asOf": "April 2020",
+          "releaseDate": "December 26, 2015",
+          "publisher": "Minovate"
+        },
+        {
+          "id": "dragon-ball-z-dokkan-battle",
+          "value": 350000000,
+          "rank": 3,
+          "asOf": "August 2021",
+          "releaseDate": "January 30, 2015",
+          "publisher": "Bandai Namco Entertainment"
+        },
+        {
+          "id": "sonic-dash",
+          "value": 350000000,
+          "rank": 4,
+          "asOf": "February 2020",
+          "releaseDate": "March 7, 2013",
+          "publisher": "Sega"
+        },
+        {
+          "id": "helix-jump",
+          "value": 334000000,
+          "rank": 5,
+          "asOf": "December 2018",
+          "releaseDate": "February 10, 2018",
+          "publisher": "Voodoo"
+        },
+        {
+          "id": "gardenscapes-new-acres",
+          "value": 324000000,
+          "rank": 6,
+          "asOf": "May 2020",
+          "releaseDate": "August 2016",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "homescapes",
+          "value": 312000000,
+          "rank": 7,
+          "asOf": "May 2020",
+          "releaseDate": "August 2017",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "pubg-mobile",
+          "value": 300000000,
+          "rank": 8,
+          "asOf": "August 2023",
+          "releaseDate": "March 2018",
+          "publisher": "Tencent Games / Krafton"
+        },
+        {
+          "id": "super-mario-run",
+          "value": 300000000,
+          "rank": 9,
+          "asOf": "August 2018",
+          "releaseDate": "December 15, 2016",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "township",
+          "value": 274000000,
+          "rank": 10,
+          "asOf": "May 2020",
+          "releaseDate": "February 24, 2012",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "knives-out",
+          "value": 250000000,
+          "rank": 11,
+          "asOf": "September 2018",
+          "releaseDate": "November 2017",
+          "publisher": "NetEase"
+        },
+        {
+          "id": "angry-birds-2",
+          "value": 230000000,
+          "rank": 12,
+          "asOf": "December 2019",
+          "releaseDate": "July 30, 2015",
+          "publisher": "Rovio Entertainment"
+        },
+        {
+          "id": "honor-of-kings",
+          "value": 200000000,
+          "rank": 13,
+          "asOf": "December 2017",
+          "releaseDate": "November 26, 2015",
+          "publisher": "Tencent Games"
+        },
+        {
+          "id": "qq-speed-mobile-speed-drifters",
+          "value": 200000000,
+          "rank": 14,
+          "asOf": "January 2020",
+          "releaseDate": "December 29, 2017",
+          "publisher": "TiMi Studios / Tencent Games / Garena"
+        },
+        {
+          "id": "rise-up",
+          "value": 162000000,
+          "rank": 15,
+          "asOf": "December 2018",
+          "releaseDate": "2018",
+          "publisher": "Serkan Özyılmaz"
+        },
+        {
+          "id": "free-fire",
+          "value": 150000000,
+          "rank": 16,
+          "asOf": "August 2021",
+          "releaseDate": "December 2017",
+          "publisher": "Garena"
+        },
+        {
+          "id": "pes-2018-mobile",
+          "value": 150000000,
+          "rank": 17,
+          "asOf": "August 2018",
+          "releaseDate": "September 12, 2017",
+          "publisher": "Konami"
+        },
+        {
+          "id": "war-robots",
+          "value": 150000000,
+          "rank": 18,
+          "asOf": "January 2020",
+          "releaseDate": "April 14, 2014",
+          "publisher": "Pixonic"
+        },
+        {
+          "id": "mario-kart-tour",
+          "value": 123900000,
+          "rank": 19,
+          "asOf": "October 2019",
+          "releaseDate": "September 25, 2019",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "ice-age-village",
+          "value": 120000000,
+          "rank": 20,
+          "asOf": "2013",
+          "releaseDate": "April 5, 2012",
+          "publisher": "Gameloft"
+        }
+      ]
+    },
+    {
+      "date": "20260808",
+      "values": [
+        {
+          "id": "call-of-duty-mobile",
+          "value": 1000000000,
+          "rank": 1,
+          "asOf": "Nov 2024",
+          "releaseDate": "October 1, 2019",
+          "publisher": "Activision"
+        },
+        {
+          "id": "mini-world",
+          "value": 400000000,
+          "rank": 2,
+          "asOf": "April 2020",
+          "releaseDate": "December 26, 2015",
+          "publisher": "Minovate"
+        },
+        {
+          "id": "dragon-ball-z-dokkan-battle",
+          "value": 350000000,
+          "rank": 3,
+          "asOf": "August 2021",
+          "releaseDate": "January 30, 2015",
+          "publisher": "Bandai Namco Entertainment"
+        },
+        {
+          "id": "sonic-dash",
+          "value": 350000000,
+          "rank": 4,
+          "asOf": "February 2020",
+          "releaseDate": "March 7, 2013",
+          "publisher": "Sega"
+        },
+        {
+          "id": "helix-jump",
+          "value": 334000000,
+          "rank": 5,
+          "asOf": "December 2018",
+          "releaseDate": "February 10, 2018",
+          "publisher": "Voodoo"
+        },
+        {
+          "id": "gardenscapes-new-acres",
+          "value": 324000000,
+          "rank": 6,
+          "asOf": "May 2020",
+          "releaseDate": "August 2016",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "homescapes",
+          "value": 312000000,
+          "rank": 7,
+          "asOf": "May 2020",
+          "releaseDate": "August 2017",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "pubg-mobile",
+          "value": 300000000,
+          "rank": 8,
+          "asOf": "August 2023",
+          "releaseDate": "March 2018",
+          "publisher": "Tencent Games / Krafton"
+        },
+        {
+          "id": "super-mario-run",
+          "value": 300000000,
+          "rank": 9,
+          "asOf": "August 2018",
+          "releaseDate": "December 15, 2016",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "township",
+          "value": 274000000,
+          "rank": 10,
+          "asOf": "May 2020",
+          "releaseDate": "February 24, 2012",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "knives-out",
+          "value": 250000000,
+          "rank": 11,
+          "asOf": "September 2018",
+          "releaseDate": "November 2017",
+          "publisher": "NetEase"
+        },
+        {
+          "id": "angry-birds-2",
+          "value": 230000000,
+          "rank": 12,
+          "asOf": "December 2019",
+          "releaseDate": "July 30, 2015",
+          "publisher": "Rovio Entertainment"
+        },
+        {
+          "id": "honor-of-kings",
+          "value": 200000000,
+          "rank": 13,
+          "asOf": "December 2017",
+          "releaseDate": "November 26, 2015",
+          "publisher": "Tencent Games"
+        },
+        {
+          "id": "qq-speed-mobile-speed-drifters",
+          "value": 200000000,
+          "rank": 14,
+          "asOf": "January 2020",
+          "releaseDate": "December 29, 2017",
+          "publisher": "TiMi Studios / Tencent Games / Garena"
+        },
+        {
+          "id": "rise-up",
+          "value": 162000000,
+          "rank": 15,
+          "asOf": "December 2018",
+          "releaseDate": "2018",
+          "publisher": "Serkan Özyılmaz"
+        },
+        {
+          "id": "free-fire",
+          "value": 150000000,
+          "rank": 16,
+          "asOf": "August 2021",
+          "releaseDate": "December 2017",
+          "publisher": "Garena"
+        },
+        {
+          "id": "pes-2018-mobile",
+          "value": 150000000,
+          "rank": 17,
+          "asOf": "August 2018",
+          "releaseDate": "September 12, 2017",
+          "publisher": "Konami"
+        },
+        {
+          "id": "war-robots",
+          "value": 150000000,
+          "rank": 18,
+          "asOf": "January 2020",
+          "releaseDate": "April 14, 2014",
+          "publisher": "Pixonic"
+        },
+        {
+          "id": "mario-kart-tour",
+          "value": 123900000,
+          "rank": 19,
+          "asOf": "October 2019",
+          "releaseDate": "September 25, 2019",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "ice-age-village",
+          "value": 120000000,
+          "rank": 20,
+          "asOf": "2013",
+          "releaseDate": "April 5, 2012",
+          "publisher": "Gameloft"
+        }
+      ]
+    },
+    {
+      "date": "20260809",
+      "values": [
+        {
+          "id": "call-of-duty-mobile",
+          "value": 1000000000,
+          "rank": 1,
+          "asOf": "Nov 2024",
+          "releaseDate": "October 1, 2019",
+          "publisher": "Activision"
+        },
+        {
+          "id": "mini-world",
+          "value": 400000000,
+          "rank": 2,
+          "asOf": "April 2020",
+          "releaseDate": "December 26, 2015",
+          "publisher": "Minovate"
+        },
+        {
+          "id": "dragon-ball-z-dokkan-battle",
+          "value": 350000000,
+          "rank": 3,
+          "asOf": "August 2021",
+          "releaseDate": "January 30, 2015",
+          "publisher": "Bandai Namco Entertainment"
+        },
+        {
+          "id": "sonic-dash",
+          "value": 350000000,
+          "rank": 4,
+          "asOf": "February 2020",
+          "releaseDate": "March 7, 2013",
+          "publisher": "Sega"
+        },
+        {
+          "id": "helix-jump",
+          "value": 334000000,
+          "rank": 5,
+          "asOf": "December 2018",
+          "releaseDate": "February 10, 2018",
+          "publisher": "Voodoo"
+        },
+        {
+          "id": "gardenscapes-new-acres",
+          "value": 324000000,
+          "rank": 6,
+          "asOf": "May 2020",
+          "releaseDate": "August 2016",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "homescapes",
+          "value": 312000000,
+          "rank": 7,
+          "asOf": "May 2020",
+          "releaseDate": "August 2017",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "pubg-mobile",
+          "value": 300000000,
+          "rank": 8,
+          "asOf": "August 2023",
+          "releaseDate": "March 2018",
+          "publisher": "Tencent Games / Krafton"
+        },
+        {
+          "id": "super-mario-run",
+          "value": 300000000,
+          "rank": 9,
+          "asOf": "August 2018",
+          "releaseDate": "December 15, 2016",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "township",
+          "value": 274000000,
+          "rank": 10,
+          "asOf": "May 2020",
+          "releaseDate": "February 24, 2012",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "knives-out",
+          "value": 250000000,
+          "rank": 11,
+          "asOf": "September 2018",
+          "releaseDate": "November 2017",
+          "publisher": "NetEase"
+        },
+        {
+          "id": "angry-birds-2",
+          "value": 230000000,
+          "rank": 12,
+          "asOf": "December 2019",
+          "releaseDate": "July 30, 2015",
+          "publisher": "Rovio Entertainment"
+        },
+        {
+          "id": "honor-of-kings",
+          "value": 200000000,
+          "rank": 13,
+          "asOf": "December 2017",
+          "releaseDate": "November 26, 2015",
+          "publisher": "Tencent Games"
+        },
+        {
+          "id": "qq-speed-mobile-speed-drifters",
+          "value": 200000000,
+          "rank": 14,
+          "asOf": "January 2020",
+          "releaseDate": "December 29, 2017",
+          "publisher": "TiMi Studios / Tencent Games / Garena"
+        },
+        {
+          "id": "rise-up",
+          "value": 162000000,
+          "rank": 15,
+          "asOf": "December 2018",
+          "releaseDate": "2018",
+          "publisher": "Serkan Özyılmaz"
+        },
+        {
+          "id": "free-fire",
+          "value": 150000000,
+          "rank": 16,
+          "asOf": "August 2021",
+          "releaseDate": "December 2017",
+          "publisher": "Garena"
+        },
+        {
+          "id": "pes-2018-mobile",
+          "value": 150000000,
+          "rank": 17,
+          "asOf": "August 2018",
+          "releaseDate": "September 12, 2017",
+          "publisher": "Konami"
+        },
+        {
+          "id": "war-robots",
+          "value": 150000000,
+          "rank": 18,
+          "asOf": "January 2020",
+          "releaseDate": "April 14, 2014",
+          "publisher": "Pixonic"
+        },
+        {
+          "id": "mario-kart-tour",
+          "value": 123900000,
+          "rank": 19,
+          "asOf": "October 2019",
+          "releaseDate": "September 25, 2019",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "ice-age-village",
+          "value": 120000000,
+          "rank": 20,
+          "asOf": "2013",
+          "releaseDate": "April 5, 2012",
+          "publisher": "Gameloft"
+        }
+      ]
+    },
+    {
+      "date": "20260810",
+      "values": [
+        {
+          "id": "call-of-duty-mobile",
+          "value": 1000000000,
+          "rank": 1,
+          "asOf": "Nov 2024",
+          "releaseDate": "October 1, 2019",
+          "publisher": "Activision"
+        },
+        {
+          "id": "mini-world",
+          "value": 400000000,
+          "rank": 2,
+          "asOf": "April 2020",
+          "releaseDate": "December 26, 2015",
+          "publisher": "Minovate"
+        },
+        {
+          "id": "dragon-ball-z-dokkan-battle",
+          "value": 350000000,
+          "rank": 3,
+          "asOf": "August 2021",
+          "releaseDate": "January 30, 2015",
+          "publisher": "Bandai Namco Entertainment"
+        },
+        {
+          "id": "sonic-dash",
+          "value": 350000000,
+          "rank": 4,
+          "asOf": "February 2020",
+          "releaseDate": "March 7, 2013",
+          "publisher": "Sega"
+        },
+        {
+          "id": "helix-jump",
+          "value": 334000000,
+          "rank": 5,
+          "asOf": "December 2018",
+          "releaseDate": "February 10, 2018",
+          "publisher": "Voodoo"
+        },
+        {
+          "id": "gardenscapes-new-acres",
+          "value": 324000000,
+          "rank": 6,
+          "asOf": "May 2020",
+          "releaseDate": "August 2016",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "homescapes",
+          "value": 312000000,
+          "rank": 7,
+          "asOf": "May 2020",
+          "releaseDate": "August 2017",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "pubg-mobile",
+          "value": 300000000,
+          "rank": 8,
+          "asOf": "August 2023",
+          "releaseDate": "March 2018",
+          "publisher": "Tencent Games / Krafton"
+        },
+        {
+          "id": "super-mario-run",
+          "value": 300000000,
+          "rank": 9,
+          "asOf": "August 2018",
+          "releaseDate": "December 15, 2016",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "township",
+          "value": 274000000,
+          "rank": 10,
+          "asOf": "May 2020",
+          "releaseDate": "February 24, 2012",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "knives-out",
+          "value": 250000000,
+          "rank": 11,
+          "asOf": "September 2018",
+          "releaseDate": "November 2017",
+          "publisher": "NetEase"
+        },
+        {
+          "id": "angry-birds-2",
+          "value": 230000000,
+          "rank": 12,
+          "asOf": "December 2019",
+          "releaseDate": "July 30, 2015",
+          "publisher": "Rovio Entertainment"
+        },
+        {
+          "id": "honor-of-kings",
+          "value": 200000000,
+          "rank": 13,
+          "asOf": "December 2017",
+          "releaseDate": "November 26, 2015",
+          "publisher": "Tencent Games"
+        },
+        {
+          "id": "qq-speed-mobile-speed-drifters",
+          "value": 200000000,
+          "rank": 14,
+          "asOf": "January 2020",
+          "releaseDate": "December 29, 2017",
+          "publisher": "TiMi Studios / Tencent Games / Garena"
+        },
+        {
+          "id": "rise-up",
+          "value": 162000000,
+          "rank": 15,
+          "asOf": "December 2018",
+          "releaseDate": "2018",
+          "publisher": "Serkan Özyılmaz"
+        },
+        {
+          "id": "free-fire",
+          "value": 150000000,
+          "rank": 16,
+          "asOf": "August 2021",
+          "releaseDate": "December 2017",
+          "publisher": "Garena"
+        },
+        {
+          "id": "pes-2018-mobile",
+          "value": 150000000,
+          "rank": 17,
+          "asOf": "August 2018",
+          "releaseDate": "September 12, 2017",
+          "publisher": "Konami"
+        },
+        {
+          "id": "war-robots",
+          "value": 150000000,
+          "rank": 18,
+          "asOf": "January 2020",
+          "releaseDate": "April 14, 2014",
+          "publisher": "Pixonic"
+        },
+        {
+          "id": "mario-kart-tour",
+          "value": 123900000,
+          "rank": 19,
+          "asOf": "October 2019",
+          "releaseDate": "September 25, 2019",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "ice-age-village",
+          "value": 120000000,
+          "rank": 20,
+          "asOf": "2013",
+          "releaseDate": "April 5, 2012",
+          "publisher": "Gameloft"
+        }
+      ]
+    },
+    {
+      "date": "20260811",
+      "values": [
+        {
+          "id": "call-of-duty-mobile",
+          "value": 1000000000,
+          "rank": 1,
+          "asOf": "Nov 2024",
+          "releaseDate": "October 1, 2019",
+          "publisher": "Activision"
+        },
+        {
+          "id": "mini-world",
+          "value": 400000000,
+          "rank": 2,
+          "asOf": "April 2020",
+          "releaseDate": "December 26, 2015",
+          "publisher": "Minovate"
+        },
+        {
+          "id": "dragon-ball-z-dokkan-battle",
+          "value": 350000000,
+          "rank": 3,
+          "asOf": "August 2021",
+          "releaseDate": "January 30, 2015",
+          "publisher": "Bandai Namco Entertainment"
+        },
+        {
+          "id": "sonic-dash",
+          "value": 350000000,
+          "rank": 4,
+          "asOf": "February 2020",
+          "releaseDate": "March 7, 2013",
+          "publisher": "Sega"
+        },
+        {
+          "id": "helix-jump",
+          "value": 334000000,
+          "rank": 5,
+          "asOf": "December 2018",
+          "releaseDate": "February 10, 2018",
+          "publisher": "Voodoo"
+        },
+        {
+          "id": "gardenscapes-new-acres",
+          "value": 324000000,
+          "rank": 6,
+          "asOf": "May 2020",
+          "releaseDate": "August 2016",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "homescapes",
+          "value": 312000000,
+          "rank": 7,
+          "asOf": "May 2020",
+          "releaseDate": "August 2017",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "pubg-mobile",
+          "value": 300000000,
+          "rank": 8,
+          "asOf": "August 2023",
+          "releaseDate": "March 2018",
+          "publisher": "Tencent Games / Krafton"
+        },
+        {
+          "id": "super-mario-run",
+          "value": 300000000,
+          "rank": 9,
+          "asOf": "August 2018",
+          "releaseDate": "December 15, 2016",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "township",
+          "value": 274000000,
+          "rank": 10,
+          "asOf": "May 2020",
+          "releaseDate": "February 24, 2012",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "knives-out",
+          "value": 250000000,
+          "rank": 11,
+          "asOf": "September 2018",
+          "releaseDate": "November 2017",
+          "publisher": "NetEase"
+        },
+        {
+          "id": "angry-birds-2",
+          "value": 230000000,
+          "rank": 12,
+          "asOf": "December 2019",
+          "releaseDate": "July 30, 2015",
+          "publisher": "Rovio Entertainment"
+        },
+        {
+          "id": "honor-of-kings",
+          "value": 200000000,
+          "rank": 13,
+          "asOf": "December 2017",
+          "releaseDate": "November 26, 2015",
+          "publisher": "Tencent Games"
+        },
+        {
+          "id": "qq-speed-mobile-speed-drifters",
+          "value": 200000000,
+          "rank": 14,
+          "asOf": "January 2020",
+          "releaseDate": "December 29, 2017",
+          "publisher": "TiMi Studios / Tencent Games / Garena"
+        },
+        {
+          "id": "rise-up",
+          "value": 162000000,
+          "rank": 15,
+          "asOf": "December 2018",
+          "releaseDate": "2018",
+          "publisher": "Serkan Özyılmaz"
+        },
+        {
+          "id": "free-fire",
+          "value": 150000000,
+          "rank": 16,
+          "asOf": "August 2021",
+          "releaseDate": "December 2017",
+          "publisher": "Garena"
+        },
+        {
+          "id": "pes-2018-mobile",
+          "value": 150000000,
+          "rank": 17,
+          "asOf": "August 2018",
+          "releaseDate": "September 12, 2017",
+          "publisher": "Konami"
+        },
+        {
+          "id": "war-robots",
+          "value": 150000000,
+          "rank": 18,
+          "asOf": "January 2020",
+          "releaseDate": "April 14, 2014",
+          "publisher": "Pixonic"
+        },
+        {
+          "id": "mario-kart-tour",
+          "value": 123900000,
+          "rank": 19,
+          "asOf": "October 2019",
+          "releaseDate": "September 25, 2019",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "ice-age-village",
+          "value": 120000000,
+          "rank": 20,
+          "asOf": "2013",
+          "releaseDate": "April 5, 2012",
+          "publisher": "Gameloft"
+        }
+      ]
+    },
+    {
+      "date": "20260812",
+      "values": [
+        {
+          "id": "call-of-duty-mobile",
+          "value": 1000000000,
+          "rank": 1,
+          "asOf": "Nov 2024",
+          "releaseDate": "October 1, 2019",
+          "publisher": "Activision"
+        },
+        {
+          "id": "mini-world",
+          "value": 400000000,
+          "rank": 2,
+          "asOf": "April 2020",
+          "releaseDate": "December 26, 2015",
+          "publisher": "Minovate"
+        },
+        {
+          "id": "dragon-ball-z-dokkan-battle",
+          "value": 350000000,
+          "rank": 3,
+          "asOf": "August 2021",
+          "releaseDate": "January 30, 2015",
+          "publisher": "Bandai Namco Entertainment"
+        },
+        {
+          "id": "sonic-dash",
+          "value": 350000000,
+          "rank": 4,
+          "asOf": "February 2020",
+          "releaseDate": "March 7, 2013",
+          "publisher": "Sega"
+        },
+        {
+          "id": "helix-jump",
+          "value": 334000000,
+          "rank": 5,
+          "asOf": "December 2018",
+          "releaseDate": "February 10, 2018",
+          "publisher": "Voodoo"
+        },
+        {
+          "id": "gardenscapes-new-acres",
+          "value": 324000000,
+          "rank": 6,
+          "asOf": "May 2020",
+          "releaseDate": "August 2016",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "homescapes",
+          "value": 312000000,
+          "rank": 7,
+          "asOf": "May 2020",
+          "releaseDate": "August 2017",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "pubg-mobile",
+          "value": 300000000,
+          "rank": 8,
+          "asOf": "August 2023",
+          "releaseDate": "March 2018",
+          "publisher": "Tencent Games / Krafton"
+        },
+        {
+          "id": "super-mario-run",
+          "value": 300000000,
+          "rank": 9,
+          "asOf": "August 2018",
+          "releaseDate": "December 15, 2016",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "township",
+          "value": 274000000,
+          "rank": 10,
+          "asOf": "May 2020",
+          "releaseDate": "February 24, 2012",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "knives-out",
+          "value": 250000000,
+          "rank": 11,
+          "asOf": "September 2018",
+          "releaseDate": "November 2017",
+          "publisher": "NetEase"
+        },
+        {
+          "id": "angry-birds-2",
+          "value": 230000000,
+          "rank": 12,
+          "asOf": "December 2019",
+          "releaseDate": "July 30, 2015",
+          "publisher": "Rovio Entertainment"
+        },
+        {
+          "id": "honor-of-kings",
+          "value": 200000000,
+          "rank": 13,
+          "asOf": "December 2017",
+          "releaseDate": "November 26, 2015",
+          "publisher": "Tencent Games"
+        },
+        {
+          "id": "qq-speed-mobile-speed-drifters",
+          "value": 200000000,
+          "rank": 14,
+          "asOf": "January 2020",
+          "releaseDate": "December 29, 2017",
+          "publisher": "TiMi Studios / Tencent Games / Garena"
+        },
+        {
+          "id": "rise-up",
+          "value": 162000000,
+          "rank": 15,
+          "asOf": "December 2018",
+          "releaseDate": "2018",
+          "publisher": "Serkan Özyılmaz"
+        },
+        {
+          "id": "free-fire",
+          "value": 150000000,
+          "rank": 16,
+          "asOf": "August 2021",
+          "releaseDate": "December 2017",
+          "publisher": "Garena"
+        },
+        {
+          "id": "pes-2018-mobile",
+          "value": 150000000,
+          "rank": 17,
+          "asOf": "August 2018",
+          "releaseDate": "September 12, 2017",
+          "publisher": "Konami"
+        },
+        {
+          "id": "war-robots",
+          "value": 150000000,
+          "rank": 18,
+          "asOf": "January 2020",
+          "releaseDate": "April 14, 2014",
+          "publisher": "Pixonic"
+        },
+        {
+          "id": "mario-kart-tour",
+          "value": 123900000,
+          "rank": 19,
+          "asOf": "October 2019",
+          "releaseDate": "September 25, 2019",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "ice-age-village",
+          "value": 120000000,
+          "rank": 20,
+          "asOf": "2013",
+          "releaseDate": "April 5, 2012",
+          "publisher": "Gameloft"
+        }
+      ]
+    },
+    {
+      "date": "20260813",
+      "values": [
+        {
+          "id": "call-of-duty-mobile",
+          "value": 1000000000,
+          "rank": 1,
+          "asOf": "Nov 2024",
+          "releaseDate": "October 1, 2019",
+          "publisher": "Activision"
+        },
+        {
+          "id": "mini-world",
+          "value": 400000000,
+          "rank": 2,
+          "asOf": "April 2020",
+          "releaseDate": "December 26, 2015",
+          "publisher": "Minovate"
+        },
+        {
+          "id": "dragon-ball-z-dokkan-battle",
+          "value": 350000000,
+          "rank": 3,
+          "asOf": "August 2021",
+          "releaseDate": "January 30, 2015",
+          "publisher": "Bandai Namco Entertainment"
+        },
+        {
+          "id": "sonic-dash",
+          "value": 350000000,
+          "rank": 4,
+          "asOf": "February 2020",
+          "releaseDate": "March 7, 2013",
+          "publisher": "Sega"
+        },
+        {
+          "id": "helix-jump",
+          "value": 334000000,
+          "rank": 5,
+          "asOf": "December 2018",
+          "releaseDate": "February 10, 2018",
+          "publisher": "Voodoo"
+        },
+        {
+          "id": "gardenscapes-new-acres",
+          "value": 324000000,
+          "rank": 6,
+          "asOf": "May 2020",
+          "releaseDate": "August 2016",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "homescapes",
+          "value": 312000000,
+          "rank": 7,
+          "asOf": "May 2020",
+          "releaseDate": "August 2017",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "pubg-mobile",
+          "value": 300000000,
+          "rank": 8,
+          "asOf": "August 2023",
+          "releaseDate": "March 2018",
+          "publisher": "Tencent Games / Krafton"
+        },
+        {
+          "id": "super-mario-run",
+          "value": 300000000,
+          "rank": 9,
+          "asOf": "August 2018",
+          "releaseDate": "December 15, 2016",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "township",
+          "value": 274000000,
+          "rank": 10,
+          "asOf": "May 2020",
+          "releaseDate": "February 24, 2012",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "knives-out",
+          "value": 250000000,
+          "rank": 11,
+          "asOf": "September 2018",
+          "releaseDate": "November 2017",
+          "publisher": "NetEase"
+        },
+        {
+          "id": "angry-birds-2",
+          "value": 230000000,
+          "rank": 12,
+          "asOf": "December 2019",
+          "releaseDate": "July 30, 2015",
+          "publisher": "Rovio Entertainment"
+        },
+        {
+          "id": "honor-of-kings",
+          "value": 200000000,
+          "rank": 13,
+          "asOf": "December 2017",
+          "releaseDate": "November 26, 2015",
+          "publisher": "Tencent Games"
+        },
+        {
+          "id": "qq-speed-mobile-speed-drifters",
+          "value": 200000000,
+          "rank": 14,
+          "asOf": "January 2020",
+          "releaseDate": "December 29, 2017",
+          "publisher": "TiMi Studios / Tencent Games / Garena"
+        },
+        {
+          "id": "rise-up",
+          "value": 162000000,
+          "rank": 15,
+          "asOf": "December 2018",
+          "releaseDate": "2018",
+          "publisher": "Serkan Özyılmaz"
+        },
+        {
+          "id": "free-fire",
+          "value": 150000000,
+          "rank": 16,
+          "asOf": "August 2021",
+          "releaseDate": "December 2017",
+          "publisher": "Garena"
+        },
+        {
+          "id": "pes-2018-mobile",
+          "value": 150000000,
+          "rank": 17,
+          "asOf": "August 2018",
+          "releaseDate": "September 12, 2017",
+          "publisher": "Konami"
+        },
+        {
+          "id": "war-robots",
+          "value": 150000000,
+          "rank": 18,
+          "asOf": "January 2020",
+          "releaseDate": "April 14, 2014",
+          "publisher": "Pixonic"
+        },
+        {
+          "id": "mario-kart-tour",
+          "value": 123900000,
+          "rank": 19,
+          "asOf": "October 2019",
+          "releaseDate": "September 25, 2019",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "ice-age-village",
+          "value": 120000000,
+          "rank": 20,
+          "asOf": "2013",
+          "releaseDate": "April 5, 2012",
+          "publisher": "Gameloft"
+        }
+      ]
+    },
+    {
+      "date": "20260814",
+      "values": [
+        {
+          "id": "call-of-duty-mobile",
+          "value": 1000000000,
+          "rank": 1,
+          "asOf": "Nov 2024",
+          "releaseDate": "October 1, 2019",
+          "publisher": "Activision"
+        },
+        {
+          "id": "mini-world",
+          "value": 400000000,
+          "rank": 2,
+          "asOf": "April 2020",
+          "releaseDate": "December 26, 2015",
+          "publisher": "Minovate"
+        },
+        {
+          "id": "dragon-ball-z-dokkan-battle",
+          "value": 350000000,
+          "rank": 3,
+          "asOf": "August 2021",
+          "releaseDate": "January 30, 2015",
+          "publisher": "Bandai Namco Entertainment"
+        },
+        {
+          "id": "sonic-dash",
+          "value": 350000000,
+          "rank": 4,
+          "asOf": "February 2020",
+          "releaseDate": "March 7, 2013",
+          "publisher": "Sega"
+        },
+        {
+          "id": "helix-jump",
+          "value": 334000000,
+          "rank": 5,
+          "asOf": "December 2018",
+          "releaseDate": "February 10, 2018",
+          "publisher": "Voodoo"
+        },
+        {
+          "id": "gardenscapes-new-acres",
+          "value": 324000000,
+          "rank": 6,
+          "asOf": "May 2020",
+          "releaseDate": "August 2016",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "homescapes",
+          "value": 312000000,
+          "rank": 7,
+          "asOf": "May 2020",
+          "releaseDate": "August 2017",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "pubg-mobile",
+          "value": 300000000,
+          "rank": 8,
+          "asOf": "August 2023",
+          "releaseDate": "March 2018",
+          "publisher": "Tencent Games / Krafton"
+        },
+        {
+          "id": "super-mario-run",
+          "value": 300000000,
+          "rank": 9,
+          "asOf": "August 2018",
+          "releaseDate": "December 15, 2016",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "township",
+          "value": 274000000,
+          "rank": 10,
+          "asOf": "May 2020",
+          "releaseDate": "February 24, 2012",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "knives-out",
+          "value": 250000000,
+          "rank": 11,
+          "asOf": "September 2018",
+          "releaseDate": "November 2017",
+          "publisher": "NetEase"
+        },
+        {
+          "id": "angry-birds-2",
+          "value": 230000000,
+          "rank": 12,
+          "asOf": "December 2019",
+          "releaseDate": "July 30, 2015",
+          "publisher": "Rovio Entertainment"
+        },
+        {
+          "id": "honor-of-kings",
+          "value": 200000000,
+          "rank": 13,
+          "asOf": "December 2017",
+          "releaseDate": "November 26, 2015",
+          "publisher": "Tencent Games"
+        },
+        {
+          "id": "qq-speed-mobile-speed-drifters",
+          "value": 200000000,
+          "rank": 14,
+          "asOf": "January 2020",
+          "releaseDate": "December 29, 2017",
+          "publisher": "TiMi Studios / Tencent Games / Garena"
+        },
+        {
+          "id": "rise-up",
+          "value": 162000000,
+          "rank": 15,
+          "asOf": "December 2018",
+          "releaseDate": "2018",
+          "publisher": "Serkan Özyılmaz"
+        },
+        {
+          "id": "free-fire",
+          "value": 150000000,
+          "rank": 16,
+          "asOf": "August 2021",
+          "releaseDate": "December 2017",
+          "publisher": "Garena"
+        },
+        {
+          "id": "pes-2018-mobile",
+          "value": 150000000,
+          "rank": 17,
+          "asOf": "August 2018",
+          "releaseDate": "September 12, 2017",
+          "publisher": "Konami"
+        },
+        {
+          "id": "war-robots",
+          "value": 150000000,
+          "rank": 18,
+          "asOf": "January 2020",
+          "releaseDate": "April 14, 2014",
+          "publisher": "Pixonic"
+        },
+        {
+          "id": "mario-kart-tour",
+          "value": 123900000,
+          "rank": 19,
+          "asOf": "October 2019",
+          "releaseDate": "September 25, 2019",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "ice-age-village",
+          "value": 120000000,
+          "rank": 20,
+          "asOf": "2013",
+          "releaseDate": "April 5, 2012",
+          "publisher": "Gameloft"
+        }
+      ]
+    },
+    {
+      "date": "20260815",
+      "values": [
+        {
+          "id": "call-of-duty-mobile",
+          "value": 1000000000,
+          "rank": 1,
+          "asOf": "Nov 2024",
+          "releaseDate": "October 1, 2019",
+          "publisher": "Activision"
+        },
+        {
+          "id": "mini-world",
+          "value": 400000000,
+          "rank": 2,
+          "asOf": "April 2020",
+          "releaseDate": "December 26, 2015",
+          "publisher": "Minovate"
+        },
+        {
+          "id": "dragon-ball-z-dokkan-battle",
+          "value": 350000000,
+          "rank": 3,
+          "asOf": "August 2021",
+          "releaseDate": "January 30, 2015",
+          "publisher": "Bandai Namco Entertainment"
+        },
+        {
+          "id": "sonic-dash",
+          "value": 350000000,
+          "rank": 4,
+          "asOf": "February 2020",
+          "releaseDate": "March 7, 2013",
+          "publisher": "Sega"
+        },
+        {
+          "id": "helix-jump",
+          "value": 334000000,
+          "rank": 5,
+          "asOf": "December 2018",
+          "releaseDate": "February 10, 2018",
+          "publisher": "Voodoo"
+        },
+        {
+          "id": "gardenscapes-new-acres",
+          "value": 324000000,
+          "rank": 6,
+          "asOf": "May 2020",
+          "releaseDate": "August 2016",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "homescapes",
+          "value": 312000000,
+          "rank": 7,
+          "asOf": "May 2020",
+          "releaseDate": "August 2017",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "pubg-mobile",
+          "value": 300000000,
+          "rank": 8,
+          "asOf": "August 2023",
+          "releaseDate": "March 2018",
+          "publisher": "Tencent Games / Krafton"
+        },
+        {
+          "id": "super-mario-run",
+          "value": 300000000,
+          "rank": 9,
+          "asOf": "August 2018",
+          "releaseDate": "December 15, 2016",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "township",
+          "value": 274000000,
+          "rank": 10,
+          "asOf": "May 2020",
+          "releaseDate": "February 24, 2012",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "knives-out",
+          "value": 250000000,
+          "rank": 11,
+          "asOf": "September 2018",
+          "releaseDate": "November 2017",
+          "publisher": "NetEase"
+        },
+        {
+          "id": "angry-birds-2",
+          "value": 230000000,
+          "rank": 12,
+          "asOf": "December 2019",
+          "releaseDate": "July 30, 2015",
+          "publisher": "Rovio Entertainment"
+        },
+        {
+          "id": "honor-of-kings",
+          "value": 200000000,
+          "rank": 13,
+          "asOf": "December 2017",
+          "releaseDate": "November 26, 2015",
+          "publisher": "Tencent Games"
+        },
+        {
+          "id": "qq-speed-mobile-speed-drifters",
+          "value": 200000000,
+          "rank": 14,
+          "asOf": "January 2020",
+          "releaseDate": "December 29, 2017",
+          "publisher": "TiMi Studios / Tencent Games / Garena"
+        },
+        {
+          "id": "rise-up",
+          "value": 162000000,
+          "rank": 15,
+          "asOf": "December 2018",
+          "releaseDate": "2018",
+          "publisher": "Serkan Özyılmaz"
+        },
+        {
+          "id": "free-fire",
+          "value": 150000000,
+          "rank": 16,
+          "asOf": "August 2021",
+          "releaseDate": "December 2017",
+          "publisher": "Garena"
+        },
+        {
+          "id": "pes-2018-mobile",
+          "value": 150000000,
+          "rank": 17,
+          "asOf": "August 2018",
+          "releaseDate": "September 12, 2017",
+          "publisher": "Konami"
+        },
+        {
+          "id": "war-robots",
+          "value": 150000000,
+          "rank": 18,
+          "asOf": "January 2020",
+          "releaseDate": "April 14, 2014",
+          "publisher": "Pixonic"
+        },
+        {
+          "id": "mario-kart-tour",
+          "value": 123900000,
+          "rank": 19,
+          "asOf": "October 2019",
+          "releaseDate": "September 25, 2019",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "ice-age-village",
+          "value": 120000000,
+          "rank": 20,
+          "asOf": "2013",
+          "releaseDate": "April 5, 2012",
+          "publisher": "Gameloft"
+        }
+      ]
+    },
+    {
+      "date": "20260816",
+      "values": [
+        {
+          "id": "call-of-duty-mobile",
+          "value": 1000000000,
+          "rank": 1,
+          "asOf": "Nov 2024",
+          "releaseDate": "October 1, 2019",
+          "publisher": "Activision"
+        },
+        {
+          "id": "mini-world",
+          "value": 400000000,
+          "rank": 2,
+          "asOf": "April 2020",
+          "releaseDate": "December 26, 2015",
+          "publisher": "Minovate"
+        },
+        {
+          "id": "dragon-ball-z-dokkan-battle",
+          "value": 350000000,
+          "rank": 3,
+          "asOf": "August 2021",
+          "releaseDate": "January 30, 2015",
+          "publisher": "Bandai Namco Entertainment"
+        },
+        {
+          "id": "sonic-dash",
+          "value": 350000000,
+          "rank": 4,
+          "asOf": "February 2020",
+          "releaseDate": "March 7, 2013",
+          "publisher": "Sega"
+        },
+        {
+          "id": "helix-jump",
+          "value": 334000000,
+          "rank": 5,
+          "asOf": "December 2018",
+          "releaseDate": "February 10, 2018",
+          "publisher": "Voodoo"
+        },
+        {
+          "id": "gardenscapes-new-acres",
+          "value": 324000000,
+          "rank": 6,
+          "asOf": "May 2020",
+          "releaseDate": "August 2016",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "homescapes",
+          "value": 312000000,
+          "rank": 7,
+          "asOf": "May 2020",
+          "releaseDate": "August 2017",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "pubg-mobile",
+          "value": 300000000,
+          "rank": 8,
+          "asOf": "August 2023",
+          "releaseDate": "March 2018",
+          "publisher": "Tencent Games / Krafton"
+        },
+        {
+          "id": "super-mario-run",
+          "value": 300000000,
+          "rank": 9,
+          "asOf": "August 2018",
+          "releaseDate": "December 15, 2016",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "township",
+          "value": 274000000,
+          "rank": 10,
+          "asOf": "May 2020",
+          "releaseDate": "February 24, 2012",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "knives-out",
+          "value": 250000000,
+          "rank": 11,
+          "asOf": "September 2018",
+          "releaseDate": "November 2017",
+          "publisher": "NetEase"
+        },
+        {
+          "id": "angry-birds-2",
+          "value": 230000000,
+          "rank": 12,
+          "asOf": "December 2019",
+          "releaseDate": "July 30, 2015",
+          "publisher": "Rovio Entertainment"
+        },
+        {
+          "id": "honor-of-kings",
+          "value": 200000000,
+          "rank": 13,
+          "asOf": "December 2017",
+          "releaseDate": "November 26, 2015",
+          "publisher": "Tencent Games"
+        },
+        {
+          "id": "qq-speed-mobile-speed-drifters",
+          "value": 200000000,
+          "rank": 14,
+          "asOf": "January 2020",
+          "releaseDate": "December 29, 2017",
+          "publisher": "TiMi Studios / Tencent Games / Garena"
+        },
+        {
+          "id": "rise-up",
+          "value": 162000000,
+          "rank": 15,
+          "asOf": "December 2018",
+          "releaseDate": "2018",
+          "publisher": "Serkan Özyılmaz"
+        },
+        {
+          "id": "free-fire",
+          "value": 150000000,
+          "rank": 16,
+          "asOf": "August 2021",
+          "releaseDate": "December 2017",
+          "publisher": "Garena"
+        },
+        {
+          "id": "pes-2018-mobile",
+          "value": 150000000,
+          "rank": 17,
+          "asOf": "August 2018",
+          "releaseDate": "September 12, 2017",
+          "publisher": "Konami"
+        },
+        {
+          "id": "war-robots",
+          "value": 150000000,
+          "rank": 18,
+          "asOf": "January 2020",
+          "releaseDate": "April 14, 2014",
+          "publisher": "Pixonic"
+        },
+        {
+          "id": "mario-kart-tour",
+          "value": 123900000,
+          "rank": 19,
+          "asOf": "October 2019",
+          "releaseDate": "September 25, 2019",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "ice-age-village",
+          "value": 120000000,
+          "rank": 20,
+          "asOf": "2013",
+          "releaseDate": "April 5, 2012",
+          "publisher": "Gameloft"
+        }
+      ]
+    },
+    {
+      "date": "20260817",
+      "values": [
+        {
+          "id": "call-of-duty-mobile",
+          "value": 1000000000,
+          "rank": 1,
+          "asOf": "Nov 2024",
+          "releaseDate": "October 1, 2019",
+          "publisher": "Activision"
+        },
+        {
+          "id": "mini-world",
+          "value": 400000000,
+          "rank": 2,
+          "asOf": "April 2020",
+          "releaseDate": "December 26, 2015",
+          "publisher": "Minovate"
+        },
+        {
+          "id": "dragon-ball-z-dokkan-battle",
+          "value": 350000000,
+          "rank": 3,
+          "asOf": "August 2021",
+          "releaseDate": "January 30, 2015",
+          "publisher": "Bandai Namco Entertainment"
+        },
+        {
+          "id": "sonic-dash",
+          "value": 350000000,
+          "rank": 4,
+          "asOf": "February 2020",
+          "releaseDate": "March 7, 2013",
+          "publisher": "Sega"
+        },
+        {
+          "id": "helix-jump",
+          "value": 334000000,
+          "rank": 5,
+          "asOf": "December 2018",
+          "releaseDate": "February 10, 2018",
+          "publisher": "Voodoo"
+        },
+        {
+          "id": "gardenscapes-new-acres",
+          "value": 324000000,
+          "rank": 6,
+          "asOf": "May 2020",
+          "releaseDate": "August 2016",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "homescapes",
+          "value": 312000000,
+          "rank": 7,
+          "asOf": "May 2020",
+          "releaseDate": "August 2017",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "pubg-mobile",
+          "value": 300000000,
+          "rank": 8,
+          "asOf": "August 2023",
+          "releaseDate": "March 2018",
+          "publisher": "Tencent Games / Krafton"
+        },
+        {
+          "id": "super-mario-run",
+          "value": 300000000,
+          "rank": 9,
+          "asOf": "August 2018",
+          "releaseDate": "December 15, 2016",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "township",
+          "value": 274000000,
+          "rank": 10,
+          "asOf": "May 2020",
+          "releaseDate": "February 24, 2012",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "knives-out",
+          "value": 250000000,
+          "rank": 11,
+          "asOf": "September 2018",
+          "releaseDate": "November 2017",
+          "publisher": "NetEase"
+        },
+        {
+          "id": "angry-birds-2",
+          "value": 230000000,
+          "rank": 12,
+          "asOf": "December 2019",
+          "releaseDate": "July 30, 2015",
+          "publisher": "Rovio Entertainment"
+        },
+        {
+          "id": "honor-of-kings",
+          "value": 200000000,
+          "rank": 13,
+          "asOf": "December 2017",
+          "releaseDate": "November 26, 2015",
+          "publisher": "Tencent Games"
+        },
+        {
+          "id": "qq-speed-mobile-speed-drifters",
+          "value": 200000000,
+          "rank": 14,
+          "asOf": "January 2020",
+          "releaseDate": "December 29, 2017",
+          "publisher": "TiMi Studios / Tencent Games / Garena"
+        },
+        {
+          "id": "rise-up",
+          "value": 162000000,
+          "rank": 15,
+          "asOf": "December 2018",
+          "releaseDate": "2018",
+          "publisher": "Serkan Özyılmaz"
+        },
+        {
+          "id": "free-fire",
+          "value": 150000000,
+          "rank": 16,
+          "asOf": "August 2021",
+          "releaseDate": "December 2017",
+          "publisher": "Garena"
+        },
+        {
+          "id": "pes-2018-mobile",
+          "value": 150000000,
+          "rank": 17,
+          "asOf": "August 2018",
+          "releaseDate": "September 12, 2017",
+          "publisher": "Konami"
+        },
+        {
+          "id": "war-robots",
+          "value": 150000000,
+          "rank": 18,
+          "asOf": "January 2020",
+          "releaseDate": "April 14, 2014",
+          "publisher": "Pixonic"
+        },
+        {
+          "id": "mario-kart-tour",
+          "value": 123900000,
+          "rank": 19,
+          "asOf": "October 2019",
+          "releaseDate": "September 25, 2019",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "ice-age-village",
+          "value": 120000000,
+          "rank": 20,
+          "asOf": "2013",
+          "releaseDate": "April 5, 2012",
+          "publisher": "Gameloft"
+        }
+      ]
+    },
+    {
+      "date": "20260818",
+      "values": [
+        {
+          "id": "call-of-duty-mobile",
+          "value": 1000000000,
+          "rank": 1,
+          "asOf": "Nov 2024",
+          "releaseDate": "October 1, 2019",
+          "publisher": "Activision"
+        },
+        {
+          "id": "mini-world",
+          "value": 400000000,
+          "rank": 2,
+          "asOf": "April 2020",
+          "releaseDate": "December 26, 2015",
+          "publisher": "Minovate"
+        },
+        {
+          "id": "dragon-ball-z-dokkan-battle",
+          "value": 350000000,
+          "rank": 3,
+          "asOf": "August 2021",
+          "releaseDate": "January 30, 2015",
+          "publisher": "Bandai Namco Entertainment"
+        },
+        {
+          "id": "sonic-dash",
+          "value": 350000000,
+          "rank": 4,
+          "asOf": "February 2020",
+          "releaseDate": "March 7, 2013",
+          "publisher": "Sega"
+        },
+        {
+          "id": "helix-jump",
+          "value": 334000000,
+          "rank": 5,
+          "asOf": "December 2018",
+          "releaseDate": "February 10, 2018",
+          "publisher": "Voodoo"
+        },
+        {
+          "id": "gardenscapes-new-acres",
+          "value": 324000000,
+          "rank": 6,
+          "asOf": "May 2020",
+          "releaseDate": "August 2016",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "homescapes",
+          "value": 312000000,
+          "rank": 7,
+          "asOf": "May 2020",
+          "releaseDate": "August 2017",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "pubg-mobile",
+          "value": 300000000,
+          "rank": 8,
+          "asOf": "August 2023",
+          "releaseDate": "March 2018",
+          "publisher": "Tencent Games / Krafton"
+        },
+        {
+          "id": "super-mario-run",
+          "value": 300000000,
+          "rank": 9,
+          "asOf": "August 2018",
+          "releaseDate": "December 15, 2016",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "township",
+          "value": 274000000,
+          "rank": 10,
+          "asOf": "May 2020",
+          "releaseDate": "February 24, 2012",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "knives-out",
+          "value": 250000000,
+          "rank": 11,
+          "asOf": "September 2018",
+          "releaseDate": "November 2017",
+          "publisher": "NetEase"
+        },
+        {
+          "id": "angry-birds-2",
+          "value": 230000000,
+          "rank": 12,
+          "asOf": "December 2019",
+          "releaseDate": "July 30, 2015",
+          "publisher": "Rovio Entertainment"
+        },
+        {
+          "id": "honor-of-kings",
+          "value": 200000000,
+          "rank": 13,
+          "asOf": "December 2017",
+          "releaseDate": "November 26, 2015",
+          "publisher": "Tencent Games"
+        },
+        {
+          "id": "qq-speed-mobile-speed-drifters",
+          "value": 200000000,
+          "rank": 14,
+          "asOf": "January 2020",
+          "releaseDate": "December 29, 2017",
+          "publisher": "TiMi Studios / Tencent Games / Garena"
+        },
+        {
+          "id": "rise-up",
+          "value": 162000000,
+          "rank": 15,
+          "asOf": "December 2018",
+          "releaseDate": "2018",
+          "publisher": "Serkan Özyılmaz"
+        },
+        {
+          "id": "free-fire",
+          "value": 150000000,
+          "rank": 16,
+          "asOf": "August 2021",
+          "releaseDate": "December 2017",
+          "publisher": "Garena"
+        },
+        {
+          "id": "pes-2018-mobile",
+          "value": 150000000,
+          "rank": 17,
+          "asOf": "August 2018",
+          "releaseDate": "September 12, 2017",
+          "publisher": "Konami"
+        },
+        {
+          "id": "war-robots",
+          "value": 150000000,
+          "rank": 18,
+          "asOf": "January 2020",
+          "releaseDate": "April 14, 2014",
+          "publisher": "Pixonic"
+        },
+        {
+          "id": "mario-kart-tour",
+          "value": 123900000,
+          "rank": 19,
+          "asOf": "October 2019",
+          "releaseDate": "September 25, 2019",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "ice-age-village",
+          "value": 120000000,
+          "rank": 20,
+          "asOf": "2013",
+          "releaseDate": "April 5, 2012",
+          "publisher": "Gameloft"
+        }
+      ]
+    },
+    {
+      "date": "20260819",
+      "values": [
+        {
+          "id": "call-of-duty-mobile",
+          "value": 1000000000,
+          "rank": 1,
+          "asOf": "Nov 2024",
+          "releaseDate": "October 1, 2019",
+          "publisher": "Activision"
+        },
+        {
+          "id": "mini-world",
+          "value": 400000000,
+          "rank": 2,
+          "asOf": "April 2020",
+          "releaseDate": "December 26, 2015",
+          "publisher": "Minovate"
+        },
+        {
+          "id": "dragon-ball-z-dokkan-battle",
+          "value": 350000000,
+          "rank": 3,
+          "asOf": "August 2021",
+          "releaseDate": "January 30, 2015",
+          "publisher": "Bandai Namco Entertainment"
+        },
+        {
+          "id": "sonic-dash",
+          "value": 350000000,
+          "rank": 4,
+          "asOf": "February 2020",
+          "releaseDate": "March 7, 2013",
+          "publisher": "Sega"
+        },
+        {
+          "id": "helix-jump",
+          "value": 334000000,
+          "rank": 5,
+          "asOf": "December 2018",
+          "releaseDate": "February 10, 2018",
+          "publisher": "Voodoo"
+        },
+        {
+          "id": "gardenscapes-new-acres",
+          "value": 324000000,
+          "rank": 6,
+          "asOf": "May 2020",
+          "releaseDate": "August 2016",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "homescapes",
+          "value": 312000000,
+          "rank": 7,
+          "asOf": "May 2020",
+          "releaseDate": "August 2017",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "pubg-mobile",
+          "value": 300000000,
+          "rank": 8,
+          "asOf": "August 2023",
+          "releaseDate": "March 2018",
+          "publisher": "Tencent Games / Krafton"
+        },
+        {
+          "id": "super-mario-run",
+          "value": 300000000,
+          "rank": 9,
+          "asOf": "August 2018",
+          "releaseDate": "December 15, 2016",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "township",
+          "value": 274000000,
+          "rank": 10,
+          "asOf": "May 2020",
+          "releaseDate": "February 24, 2012",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "knives-out",
+          "value": 250000000,
+          "rank": 11,
+          "asOf": "September 2018",
+          "releaseDate": "November 2017",
+          "publisher": "NetEase"
+        },
+        {
+          "id": "angry-birds-2",
+          "value": 230000000,
+          "rank": 12,
+          "asOf": "December 2019",
+          "releaseDate": "July 30, 2015",
+          "publisher": "Rovio Entertainment"
+        },
+        {
+          "id": "honor-of-kings",
+          "value": 200000000,
+          "rank": 13,
+          "asOf": "December 2017",
+          "releaseDate": "November 26, 2015",
+          "publisher": "Tencent Games"
+        },
+        {
+          "id": "qq-speed-mobile-speed-drifters",
+          "value": 200000000,
+          "rank": 14,
+          "asOf": "January 2020",
+          "releaseDate": "December 29, 2017",
+          "publisher": "TiMi Studios / Tencent Games / Garena"
+        },
+        {
+          "id": "rise-up",
+          "value": 162000000,
+          "rank": 15,
+          "asOf": "December 2018",
+          "releaseDate": "2018",
+          "publisher": "Serkan Özyılmaz"
+        },
+        {
+          "id": "free-fire",
+          "value": 150000000,
+          "rank": 16,
+          "asOf": "August 2021",
+          "releaseDate": "December 2017",
+          "publisher": "Garena"
+        },
+        {
+          "id": "pes-2018-mobile",
+          "value": 150000000,
+          "rank": 17,
+          "asOf": "August 2018",
+          "releaseDate": "September 12, 2017",
+          "publisher": "Konami"
+        },
+        {
+          "id": "war-robots",
+          "value": 150000000,
+          "rank": 18,
+          "asOf": "January 2020",
+          "releaseDate": "April 14, 2014",
+          "publisher": "Pixonic"
+        },
+        {
+          "id": "mario-kart-tour",
+          "value": 123900000,
+          "rank": 19,
+          "asOf": "October 2019",
+          "releaseDate": "September 25, 2019",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "ice-age-village",
+          "value": 120000000,
+          "rank": 20,
+          "asOf": "2013",
+          "releaseDate": "April 5, 2012",
+          "publisher": "Gameloft"
+        }
+      ]
+    },
+    {
+      "date": "20260820",
+      "values": [
+        {
+          "id": "call-of-duty-mobile",
+          "value": 1000000000,
+          "rank": 1,
+          "asOf": "Nov 2024",
+          "releaseDate": "October 1, 2019",
+          "publisher": "Activision"
+        },
+        {
+          "id": "mini-world",
+          "value": 400000000,
+          "rank": 2,
+          "asOf": "April 2020",
+          "releaseDate": "December 26, 2015",
+          "publisher": "Minovate"
+        },
+        {
+          "id": "dragon-ball-z-dokkan-battle",
+          "value": 350000000,
+          "rank": 3,
+          "asOf": "August 2021",
+          "releaseDate": "January 30, 2015",
+          "publisher": "Bandai Namco Entertainment"
+        },
+        {
+          "id": "sonic-dash",
+          "value": 350000000,
+          "rank": 4,
+          "asOf": "February 2020",
+          "releaseDate": "March 7, 2013",
+          "publisher": "Sega"
+        },
+        {
+          "id": "helix-jump",
+          "value": 334000000,
+          "rank": 5,
+          "asOf": "December 2018",
+          "releaseDate": "February 10, 2018",
+          "publisher": "Voodoo"
+        },
+        {
+          "id": "gardenscapes-new-acres",
+          "value": 324000000,
+          "rank": 6,
+          "asOf": "May 2020",
+          "releaseDate": "August 2016",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "homescapes",
+          "value": 312000000,
+          "rank": 7,
+          "asOf": "May 2020",
+          "releaseDate": "August 2017",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "pubg-mobile",
+          "value": 300000000,
+          "rank": 8,
+          "asOf": "August 2023",
+          "releaseDate": "March 2018",
+          "publisher": "Tencent Games / Krafton"
+        },
+        {
+          "id": "super-mario-run",
+          "value": 300000000,
+          "rank": 9,
+          "asOf": "August 2018",
+          "releaseDate": "December 15, 2016",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "township",
+          "value": 274000000,
+          "rank": 10,
+          "asOf": "May 2020",
+          "releaseDate": "February 24, 2012",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "knives-out",
+          "value": 250000000,
+          "rank": 11,
+          "asOf": "September 2018",
+          "releaseDate": "November 2017",
+          "publisher": "NetEase"
+        },
+        {
+          "id": "angry-birds-2",
+          "value": 230000000,
+          "rank": 12,
+          "asOf": "December 2019",
+          "releaseDate": "July 30, 2015",
+          "publisher": "Rovio Entertainment"
+        },
+        {
+          "id": "honor-of-kings",
+          "value": 200000000,
+          "rank": 13,
+          "asOf": "December 2017",
+          "releaseDate": "November 26, 2015",
+          "publisher": "Tencent Games"
+        },
+        {
+          "id": "qq-speed-mobile-speed-drifters",
+          "value": 200000000,
+          "rank": 14,
+          "asOf": "January 2020",
+          "releaseDate": "December 29, 2017",
+          "publisher": "TiMi Studios / Tencent Games / Garena"
+        },
+        {
+          "id": "rise-up",
+          "value": 162000000,
+          "rank": 15,
+          "asOf": "December 2018",
+          "releaseDate": "2018",
+          "publisher": "Serkan Özyılmaz"
+        },
+        {
+          "id": "free-fire",
+          "value": 150000000,
+          "rank": 16,
+          "asOf": "August 2021",
+          "releaseDate": "December 2017",
+          "publisher": "Garena"
+        },
+        {
+          "id": "pes-2018-mobile",
+          "value": 150000000,
+          "rank": 17,
+          "asOf": "August 2018",
+          "releaseDate": "September 12, 2017",
+          "publisher": "Konami"
+        },
+        {
+          "id": "war-robots",
+          "value": 150000000,
+          "rank": 18,
+          "asOf": "January 2020",
+          "releaseDate": "April 14, 2014",
+          "publisher": "Pixonic"
+        },
+        {
+          "id": "mario-kart-tour",
+          "value": 123900000,
+          "rank": 19,
+          "asOf": "October 2019",
+          "releaseDate": "September 25, 2019",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "ice-age-village",
+          "value": 120000000,
+          "rank": 20,
+          "asOf": "2013",
+          "releaseDate": "April 5, 2012",
+          "publisher": "Gameloft"
+        }
+      ]
+    },
+    {
+      "date": "20260821",
+      "values": [
+        {
+          "id": "call-of-duty-mobile",
+          "value": 1000000000,
+          "rank": 1,
+          "asOf": "Nov 2024",
+          "releaseDate": "October 1, 2019",
+          "publisher": "Activision"
+        },
+        {
+          "id": "mini-world",
+          "value": 400000000,
+          "rank": 2,
+          "asOf": "April 2020",
+          "releaseDate": "December 26, 2015",
+          "publisher": "Minovate"
+        },
+        {
+          "id": "dragon-ball-z-dokkan-battle",
+          "value": 350000000,
+          "rank": 3,
+          "asOf": "August 2021",
+          "releaseDate": "January 30, 2015",
+          "publisher": "Bandai Namco Entertainment"
+        },
+        {
+          "id": "sonic-dash",
+          "value": 350000000,
+          "rank": 4,
+          "asOf": "February 2020",
+          "releaseDate": "March 7, 2013",
+          "publisher": "Sega"
+        },
+        {
+          "id": "helix-jump",
+          "value": 334000000,
+          "rank": 5,
+          "asOf": "December 2018",
+          "releaseDate": "February 10, 2018",
+          "publisher": "Voodoo"
+        },
+        {
+          "id": "gardenscapes-new-acres",
+          "value": 324000000,
+          "rank": 6,
+          "asOf": "May 2020",
+          "releaseDate": "August 2016",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "homescapes",
+          "value": 312000000,
+          "rank": 7,
+          "asOf": "May 2020",
+          "releaseDate": "August 2017",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "pubg-mobile",
+          "value": 300000000,
+          "rank": 8,
+          "asOf": "August 2023",
+          "releaseDate": "March 2018",
+          "publisher": "Tencent Games / Krafton"
+        },
+        {
+          "id": "super-mario-run",
+          "value": 300000000,
+          "rank": 9,
+          "asOf": "August 2018",
+          "releaseDate": "December 15, 2016",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "township",
+          "value": 274000000,
+          "rank": 10,
+          "asOf": "May 2020",
+          "releaseDate": "February 24, 2012",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "knives-out",
+          "value": 250000000,
+          "rank": 11,
+          "asOf": "September 2018",
+          "releaseDate": "November 2017",
+          "publisher": "NetEase"
+        },
+        {
+          "id": "angry-birds-2",
+          "value": 230000000,
+          "rank": 12,
+          "asOf": "December 2019",
+          "releaseDate": "July 30, 2015",
+          "publisher": "Rovio Entertainment"
+        },
+        {
+          "id": "honor-of-kings",
+          "value": 200000000,
+          "rank": 13,
+          "asOf": "December 2017",
+          "releaseDate": "November 26, 2015",
+          "publisher": "Tencent Games"
+        },
+        {
+          "id": "qq-speed-mobile-speed-drifters",
+          "value": 200000000,
+          "rank": 14,
+          "asOf": "January 2020",
+          "releaseDate": "December 29, 2017",
+          "publisher": "TiMi Studios / Tencent Games / Garena"
+        },
+        {
+          "id": "rise-up",
+          "value": 162000000,
+          "rank": 15,
+          "asOf": "December 2018",
+          "releaseDate": "2018",
+          "publisher": "Serkan Özyılmaz"
+        },
+        {
+          "id": "free-fire",
+          "value": 150000000,
+          "rank": 16,
+          "asOf": "August 2021",
+          "releaseDate": "December 2017",
+          "publisher": "Garena"
+        },
+        {
+          "id": "pes-2018-mobile",
+          "value": 150000000,
+          "rank": 17,
+          "asOf": "August 2018",
+          "releaseDate": "September 12, 2017",
+          "publisher": "Konami"
+        },
+        {
+          "id": "war-robots",
+          "value": 150000000,
+          "rank": 18,
+          "asOf": "January 2020",
+          "releaseDate": "April 14, 2014",
+          "publisher": "Pixonic"
+        },
+        {
+          "id": "mario-kart-tour",
+          "value": 123900000,
+          "rank": 19,
+          "asOf": "October 2019",
+          "releaseDate": "September 25, 2019",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "ice-age-village",
+          "value": 120000000,
+          "rank": 20,
+          "asOf": "2013",
+          "releaseDate": "April 5, 2012",
+          "publisher": "Gameloft"
+        }
+      ]
+    },
+    {
+      "date": "20260822",
+      "values": [
+        {
+          "id": "call-of-duty-mobile",
+          "value": 1000000000,
+          "rank": 1,
+          "asOf": "Nov 2024",
+          "releaseDate": "October 1, 2019",
+          "publisher": "Activision"
+        },
+        {
+          "id": "mini-world",
+          "value": 400000000,
+          "rank": 2,
+          "asOf": "April 2020",
+          "releaseDate": "December 26, 2015",
+          "publisher": "Minovate"
+        },
+        {
+          "id": "dragon-ball-z-dokkan-battle",
+          "value": 350000000,
+          "rank": 3,
+          "asOf": "August 2021",
+          "releaseDate": "January 30, 2015",
+          "publisher": "Bandai Namco Entertainment"
+        },
+        {
+          "id": "sonic-dash",
+          "value": 350000000,
+          "rank": 4,
+          "asOf": "February 2020",
+          "releaseDate": "March 7, 2013",
+          "publisher": "Sega"
+        },
+        {
+          "id": "helix-jump",
+          "value": 334000000,
+          "rank": 5,
+          "asOf": "December 2018",
+          "releaseDate": "February 10, 2018",
+          "publisher": "Voodoo"
+        },
+        {
+          "id": "gardenscapes-new-acres",
+          "value": 324000000,
+          "rank": 6,
+          "asOf": "May 2020",
+          "releaseDate": "August 2016",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "homescapes",
+          "value": 312000000,
+          "rank": 7,
+          "asOf": "May 2020",
+          "releaseDate": "August 2017",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "pubg-mobile",
+          "value": 300000000,
+          "rank": 8,
+          "asOf": "August 2023",
+          "releaseDate": "March 2018",
+          "publisher": "Tencent Games / Krafton"
+        },
+        {
+          "id": "super-mario-run",
+          "value": 300000000,
+          "rank": 9,
+          "asOf": "August 2018",
+          "releaseDate": "December 15, 2016",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "township",
+          "value": 274000000,
+          "rank": 10,
+          "asOf": "May 2020",
+          "releaseDate": "February 24, 2012",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "knives-out",
+          "value": 250000000,
+          "rank": 11,
+          "asOf": "September 2018",
+          "releaseDate": "November 2017",
+          "publisher": "NetEase"
+        },
+        {
+          "id": "angry-birds-2",
+          "value": 230000000,
+          "rank": 12,
+          "asOf": "December 2019",
+          "releaseDate": "July 30, 2015",
+          "publisher": "Rovio Entertainment"
+        },
+        {
+          "id": "honor-of-kings",
+          "value": 200000000,
+          "rank": 13,
+          "asOf": "December 2017",
+          "releaseDate": "November 26, 2015",
+          "publisher": "Tencent Games"
+        },
+        {
+          "id": "qq-speed-mobile-speed-drifters",
+          "value": 200000000,
+          "rank": 14,
+          "asOf": "January 2020",
+          "releaseDate": "December 29, 2017",
+          "publisher": "TiMi Studios / Tencent Games / Garena"
+        },
+        {
+          "id": "rise-up",
+          "value": 162000000,
+          "rank": 15,
+          "asOf": "December 2018",
+          "releaseDate": "2018",
+          "publisher": "Serkan Özyılmaz"
+        },
+        {
+          "id": "free-fire",
+          "value": 150000000,
+          "rank": 16,
+          "asOf": "August 2021",
+          "releaseDate": "December 2017",
+          "publisher": "Garena"
+        },
+        {
+          "id": "pes-2018-mobile",
+          "value": 150000000,
+          "rank": 17,
+          "asOf": "August 2018",
+          "releaseDate": "September 12, 2017",
+          "publisher": "Konami"
+        },
+        {
+          "id": "war-robots",
+          "value": 150000000,
+          "rank": 18,
+          "asOf": "January 2020",
+          "releaseDate": "April 14, 2014",
+          "publisher": "Pixonic"
+        },
+        {
+          "id": "mario-kart-tour",
+          "value": 123900000,
+          "rank": 19,
+          "asOf": "October 2019",
+          "releaseDate": "September 25, 2019",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "ice-age-village",
+          "value": 120000000,
+          "rank": 20,
+          "asOf": "2013",
+          "releaseDate": "April 5, 2012",
+          "publisher": "Gameloft"
+        }
+      ]
+    },
+    {
+      "date": "20260823",
+      "values": [
+        {
+          "id": "call-of-duty-mobile",
+          "value": 1000000000,
+          "rank": 1,
+          "asOf": "Nov 2024",
+          "releaseDate": "October 1, 2019",
+          "publisher": "Activision"
+        },
+        {
+          "id": "mini-world",
+          "value": 400000000,
+          "rank": 2,
+          "asOf": "April 2020",
+          "releaseDate": "December 26, 2015",
+          "publisher": "Minovate"
+        },
+        {
+          "id": "dragon-ball-z-dokkan-battle",
+          "value": 350000000,
+          "rank": 3,
+          "asOf": "August 2021",
+          "releaseDate": "January 30, 2015",
+          "publisher": "Bandai Namco Entertainment"
+        },
+        {
+          "id": "sonic-dash",
+          "value": 350000000,
+          "rank": 4,
+          "asOf": "February 2020",
+          "releaseDate": "March 7, 2013",
+          "publisher": "Sega"
+        },
+        {
+          "id": "helix-jump",
+          "value": 334000000,
+          "rank": 5,
+          "asOf": "December 2018",
+          "releaseDate": "February 10, 2018",
+          "publisher": "Voodoo"
+        },
+        {
+          "id": "gardenscapes-new-acres",
+          "value": 324000000,
+          "rank": 6,
+          "asOf": "May 2020",
+          "releaseDate": "August 2016",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "homescapes",
+          "value": 312000000,
+          "rank": 7,
+          "asOf": "May 2020",
+          "releaseDate": "August 2017",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "pubg-mobile",
+          "value": 300000000,
+          "rank": 8,
+          "asOf": "August 2023",
+          "releaseDate": "March 2018",
+          "publisher": "Tencent Games / Krafton"
+        },
+        {
+          "id": "super-mario-run",
+          "value": 300000000,
+          "rank": 9,
+          "asOf": "August 2018",
+          "releaseDate": "December 15, 2016",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "township",
+          "value": 274000000,
+          "rank": 10,
+          "asOf": "May 2020",
+          "releaseDate": "February 24, 2012",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "knives-out",
+          "value": 250000000,
+          "rank": 11,
+          "asOf": "September 2018",
+          "releaseDate": "November 2017",
+          "publisher": "NetEase"
+        },
+        {
+          "id": "angry-birds-2",
+          "value": 230000000,
+          "rank": 12,
+          "asOf": "December 2019",
+          "releaseDate": "July 30, 2015",
+          "publisher": "Rovio Entertainment"
+        },
+        {
+          "id": "honor-of-kings",
+          "value": 200000000,
+          "rank": 13,
+          "asOf": "December 2017",
+          "releaseDate": "November 26, 2015",
+          "publisher": "Tencent Games"
+        },
+        {
+          "id": "qq-speed-mobile-speed-drifters",
+          "value": 200000000,
+          "rank": 14,
+          "asOf": "January 2020",
+          "releaseDate": "December 29, 2017",
+          "publisher": "TiMi Studios / Tencent Games / Garena"
+        },
+        {
+          "id": "rise-up",
+          "value": 162000000,
+          "rank": 15,
+          "asOf": "December 2018",
+          "releaseDate": "2018",
+          "publisher": "Serkan Özyılmaz"
+        },
+        {
+          "id": "free-fire",
+          "value": 150000000,
+          "rank": 16,
+          "asOf": "August 2021",
+          "releaseDate": "December 2017",
+          "publisher": "Garena"
+        },
+        {
+          "id": "pes-2018-mobile",
+          "value": 150000000,
+          "rank": 17,
+          "asOf": "August 2018",
+          "releaseDate": "September 12, 2017",
+          "publisher": "Konami"
+        },
+        {
+          "id": "war-robots",
+          "value": 150000000,
+          "rank": 18,
+          "asOf": "January 2020",
+          "releaseDate": "April 14, 2014",
+          "publisher": "Pixonic"
+        },
+        {
+          "id": "mario-kart-tour",
+          "value": 123900000,
+          "rank": 19,
+          "asOf": "October 2019",
+          "releaseDate": "September 25, 2019",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "ice-age-village",
+          "value": 120000000,
+          "rank": 20,
+          "asOf": "2013",
+          "releaseDate": "April 5, 2012",
+          "publisher": "Gameloft"
+        }
+      ]
+    },
+    {
+      "date": "20260824",
+      "values": [
+        {
+          "id": "call-of-duty-mobile",
+          "value": 1000000000,
+          "rank": 1,
+          "asOf": "Nov 2024",
+          "releaseDate": "October 1, 2019",
+          "publisher": "Activision"
+        },
+        {
+          "id": "mini-world",
+          "value": 400000000,
+          "rank": 2,
+          "asOf": "April 2020",
+          "releaseDate": "December 26, 2015",
+          "publisher": "Minovate"
+        },
+        {
+          "id": "dragon-ball-z-dokkan-battle",
+          "value": 350000000,
+          "rank": 3,
+          "asOf": "August 2021",
+          "releaseDate": "January 30, 2015",
+          "publisher": "Bandai Namco Entertainment"
+        },
+        {
+          "id": "sonic-dash",
+          "value": 350000000,
+          "rank": 4,
+          "asOf": "February 2020",
+          "releaseDate": "March 7, 2013",
+          "publisher": "Sega"
+        },
+        {
+          "id": "helix-jump",
+          "value": 334000000,
+          "rank": 5,
+          "asOf": "December 2018",
+          "releaseDate": "February 10, 2018",
+          "publisher": "Voodoo"
+        },
+        {
+          "id": "gardenscapes-new-acres",
+          "value": 324000000,
+          "rank": 6,
+          "asOf": "May 2020",
+          "releaseDate": "August 2016",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "homescapes",
+          "value": 312000000,
+          "rank": 7,
+          "asOf": "May 2020",
+          "releaseDate": "August 2017",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "pubg-mobile",
+          "value": 300000000,
+          "rank": 8,
+          "asOf": "August 2023",
+          "releaseDate": "March 2018",
+          "publisher": "Tencent Games / Krafton"
+        },
+        {
+          "id": "super-mario-run",
+          "value": 300000000,
+          "rank": 9,
+          "asOf": "August 2018",
+          "releaseDate": "December 15, 2016",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "township",
+          "value": 274000000,
+          "rank": 10,
+          "asOf": "May 2020",
+          "releaseDate": "February 24, 2012",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "knives-out",
+          "value": 250000000,
+          "rank": 11,
+          "asOf": "September 2018",
+          "releaseDate": "November 2017",
+          "publisher": "NetEase"
+        },
+        {
+          "id": "angry-birds-2",
+          "value": 230000000,
+          "rank": 12,
+          "asOf": "December 2019",
+          "releaseDate": "July 30, 2015",
+          "publisher": "Rovio Entertainment"
+        },
+        {
+          "id": "honor-of-kings",
+          "value": 200000000,
+          "rank": 13,
+          "asOf": "December 2017",
+          "releaseDate": "November 26, 2015",
+          "publisher": "Tencent Games"
+        },
+        {
+          "id": "qq-speed-mobile-speed-drifters",
+          "value": 200000000,
+          "rank": 14,
+          "asOf": "January 2020",
+          "releaseDate": "December 29, 2017",
+          "publisher": "TiMi Studios / Tencent Games / Garena"
+        },
+        {
+          "id": "rise-up",
+          "value": 162000000,
+          "rank": 15,
+          "asOf": "December 2018",
+          "releaseDate": "2018",
+          "publisher": "Serkan Özyılmaz"
+        },
+        {
+          "id": "free-fire",
+          "value": 150000000,
+          "rank": 16,
+          "asOf": "August 2021",
+          "releaseDate": "December 2017",
+          "publisher": "Garena"
+        },
+        {
+          "id": "pes-2018-mobile",
+          "value": 150000000,
+          "rank": 17,
+          "asOf": "August 2018",
+          "releaseDate": "September 12, 2017",
+          "publisher": "Konami"
+        },
+        {
+          "id": "war-robots",
+          "value": 150000000,
+          "rank": 18,
+          "asOf": "January 2020",
+          "releaseDate": "April 14, 2014",
+          "publisher": "Pixonic"
+        },
+        {
+          "id": "mario-kart-tour",
+          "value": 123900000,
+          "rank": 19,
+          "asOf": "October 2019",
+          "releaseDate": "September 25, 2019",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "ice-age-village",
+          "value": 120000000,
+          "rank": 20,
+          "asOf": "2013",
+          "releaseDate": "April 5, 2012",
+          "publisher": "Gameloft"
+        }
+      ]
+    },
+    {
+      "date": "20260825",
+      "values": [
+        {
+          "id": "call-of-duty-mobile",
+          "value": 1000000000,
+          "rank": 1,
+          "asOf": "Nov 2024",
+          "releaseDate": "October 1, 2019",
+          "publisher": "Activision"
+        },
+        {
+          "id": "mini-world",
+          "value": 400000000,
+          "rank": 2,
+          "asOf": "April 2020",
+          "releaseDate": "December 26, 2015",
+          "publisher": "Minovate"
+        },
+        {
+          "id": "dragon-ball-z-dokkan-battle",
+          "value": 350000000,
+          "rank": 3,
+          "asOf": "August 2021",
+          "releaseDate": "January 30, 2015",
+          "publisher": "Bandai Namco Entertainment"
+        },
+        {
+          "id": "sonic-dash",
+          "value": 350000000,
+          "rank": 4,
+          "asOf": "February 2020",
+          "releaseDate": "March 7, 2013",
+          "publisher": "Sega"
+        },
+        {
+          "id": "helix-jump",
+          "value": 334000000,
+          "rank": 5,
+          "asOf": "December 2018",
+          "releaseDate": "February 10, 2018",
+          "publisher": "Voodoo"
+        },
+        {
+          "id": "gardenscapes-new-acres",
+          "value": 324000000,
+          "rank": 6,
+          "asOf": "May 2020",
+          "releaseDate": "August 2016",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "homescapes",
+          "value": 312000000,
+          "rank": 7,
+          "asOf": "May 2020",
+          "releaseDate": "August 2017",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "pubg-mobile",
+          "value": 300000000,
+          "rank": 8,
+          "asOf": "August 2023",
+          "releaseDate": "March 2018",
+          "publisher": "Tencent Games / Krafton"
+        },
+        {
+          "id": "super-mario-run",
+          "value": 300000000,
+          "rank": 9,
+          "asOf": "August 2018",
+          "releaseDate": "December 15, 2016",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "township",
+          "value": 274000000,
+          "rank": 10,
+          "asOf": "May 2020",
+          "releaseDate": "February 24, 2012",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "knives-out",
+          "value": 250000000,
+          "rank": 11,
+          "asOf": "September 2018",
+          "releaseDate": "November 2017",
+          "publisher": "NetEase"
+        },
+        {
+          "id": "angry-birds-2",
+          "value": 230000000,
+          "rank": 12,
+          "asOf": "December 2019",
+          "releaseDate": "July 30, 2015",
+          "publisher": "Rovio Entertainment"
+        },
+        {
+          "id": "honor-of-kings",
+          "value": 200000000,
+          "rank": 13,
+          "asOf": "December 2017",
+          "releaseDate": "November 26, 2015",
+          "publisher": "Tencent Games"
+        },
+        {
+          "id": "qq-speed-mobile-speed-drifters",
+          "value": 200000000,
+          "rank": 14,
+          "asOf": "January 2020",
+          "releaseDate": "December 29, 2017",
+          "publisher": "TiMi Studios / Tencent Games / Garena"
+        },
+        {
+          "id": "rise-up",
+          "value": 162000000,
+          "rank": 15,
+          "asOf": "December 2018",
+          "releaseDate": "2018",
+          "publisher": "Serkan Özyılmaz"
+        },
+        {
+          "id": "free-fire",
+          "value": 150000000,
+          "rank": 16,
+          "asOf": "August 2021",
+          "releaseDate": "December 2017",
+          "publisher": "Garena"
+        },
+        {
+          "id": "pes-2018-mobile",
+          "value": 150000000,
+          "rank": 17,
+          "asOf": "August 2018",
+          "releaseDate": "September 12, 2017",
+          "publisher": "Konami"
+        },
+        {
+          "id": "war-robots",
+          "value": 150000000,
+          "rank": 18,
+          "asOf": "January 2020",
+          "releaseDate": "April 14, 2014",
+          "publisher": "Pixonic"
+        },
+        {
+          "id": "mario-kart-tour",
+          "value": 123900000,
+          "rank": 19,
+          "asOf": "October 2019",
+          "releaseDate": "September 25, 2019",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "ice-age-village",
+          "value": 120000000,
+          "rank": 20,
+          "asOf": "2013",
+          "releaseDate": "April 5, 2012",
+          "publisher": "Gameloft"
+        }
+      ]
+    },
+    {
+      "date": "20260826",
+      "values": [
+        {
+          "id": "call-of-duty-mobile",
+          "value": 1000000000,
+          "rank": 1,
+          "asOf": "Nov 2024",
+          "releaseDate": "October 1, 2019",
+          "publisher": "Activision"
+        },
+        {
+          "id": "mini-world",
+          "value": 400000000,
+          "rank": 2,
+          "asOf": "April 2020",
+          "releaseDate": "December 26, 2015",
+          "publisher": "Minovate"
+        },
+        {
+          "id": "dragon-ball-z-dokkan-battle",
+          "value": 350000000,
+          "rank": 3,
+          "asOf": "August 2021",
+          "releaseDate": "January 30, 2015",
+          "publisher": "Bandai Namco Entertainment"
+        },
+        {
+          "id": "sonic-dash",
+          "value": 350000000,
+          "rank": 4,
+          "asOf": "February 2020",
+          "releaseDate": "March 7, 2013",
+          "publisher": "Sega"
+        },
+        {
+          "id": "helix-jump",
+          "value": 334000000,
+          "rank": 5,
+          "asOf": "December 2018",
+          "releaseDate": "February 10, 2018",
+          "publisher": "Voodoo"
+        },
+        {
+          "id": "gardenscapes-new-acres",
+          "value": 324000000,
+          "rank": 6,
+          "asOf": "May 2020",
+          "releaseDate": "August 2016",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "homescapes",
+          "value": 312000000,
+          "rank": 7,
+          "asOf": "May 2020",
+          "releaseDate": "August 2017",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "pubg-mobile",
+          "value": 300000000,
+          "rank": 8,
+          "asOf": "August 2023",
+          "releaseDate": "March 2018",
+          "publisher": "Tencent Games / Krafton"
+        },
+        {
+          "id": "super-mario-run",
+          "value": 300000000,
+          "rank": 9,
+          "asOf": "August 2018",
+          "releaseDate": "December 15, 2016",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "township",
+          "value": 274000000,
+          "rank": 10,
+          "asOf": "May 2020",
+          "releaseDate": "February 24, 2012",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "knives-out",
+          "value": 250000000,
+          "rank": 11,
+          "asOf": "September 2018",
+          "releaseDate": "November 2017",
+          "publisher": "NetEase"
+        },
+        {
+          "id": "angry-birds-2",
+          "value": 230000000,
+          "rank": 12,
+          "asOf": "December 2019",
+          "releaseDate": "July 30, 2015",
+          "publisher": "Rovio Entertainment"
+        },
+        {
+          "id": "honor-of-kings",
+          "value": 200000000,
+          "rank": 13,
+          "asOf": "December 2017",
+          "releaseDate": "November 26, 2015",
+          "publisher": "Tencent Games"
+        },
+        {
+          "id": "qq-speed-mobile-speed-drifters",
+          "value": 200000000,
+          "rank": 14,
+          "asOf": "January 2020",
+          "releaseDate": "December 29, 2017",
+          "publisher": "TiMi Studios / Tencent Games / Garena"
+        },
+        {
+          "id": "rise-up",
+          "value": 162000000,
+          "rank": 15,
+          "asOf": "December 2018",
+          "releaseDate": "2018",
+          "publisher": "Serkan Özyılmaz"
+        },
+        {
+          "id": "free-fire",
+          "value": 150000000,
+          "rank": 16,
+          "asOf": "August 2021",
+          "releaseDate": "December 2017",
+          "publisher": "Garena"
+        },
+        {
+          "id": "pes-2018-mobile",
+          "value": 150000000,
+          "rank": 17,
+          "asOf": "August 2018",
+          "releaseDate": "September 12, 2017",
+          "publisher": "Konami"
+        },
+        {
+          "id": "war-robots",
+          "value": 150000000,
+          "rank": 18,
+          "asOf": "January 2020",
+          "releaseDate": "April 14, 2014",
+          "publisher": "Pixonic"
+        },
+        {
+          "id": "mario-kart-tour",
+          "value": 123900000,
+          "rank": 19,
+          "asOf": "October 2019",
+          "releaseDate": "September 25, 2019",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "ice-age-village",
+          "value": 120000000,
+          "rank": 20,
+          "asOf": "2013",
+          "releaseDate": "April 5, 2012",
+          "publisher": "Gameloft"
+        }
+      ]
+    },
+    {
+      "date": "20260827",
+      "values": [
+        {
+          "id": "call-of-duty-mobile",
+          "value": 1000000000,
+          "rank": 1,
+          "asOf": "Nov 2024",
+          "releaseDate": "October 1, 2019",
+          "publisher": "Activision"
+        },
+        {
+          "id": "mini-world",
+          "value": 400000000,
+          "rank": 2,
+          "asOf": "April 2020",
+          "releaseDate": "December 26, 2015",
+          "publisher": "Minovate"
+        },
+        {
+          "id": "dragon-ball-z-dokkan-battle",
+          "value": 350000000,
+          "rank": 3,
+          "asOf": "August 2021",
+          "releaseDate": "January 30, 2015",
+          "publisher": "Bandai Namco Entertainment"
+        },
+        {
+          "id": "sonic-dash",
+          "value": 350000000,
+          "rank": 4,
+          "asOf": "February 2020",
+          "releaseDate": "March 7, 2013",
+          "publisher": "Sega"
+        },
+        {
+          "id": "helix-jump",
+          "value": 334000000,
+          "rank": 5,
+          "asOf": "December 2018",
+          "releaseDate": "February 10, 2018",
+          "publisher": "Voodoo"
+        },
+        {
+          "id": "gardenscapes-new-acres",
+          "value": 324000000,
+          "rank": 6,
+          "asOf": "May 2020",
+          "releaseDate": "August 2016",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "homescapes",
+          "value": 312000000,
+          "rank": 7,
+          "asOf": "May 2020",
+          "releaseDate": "August 2017",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "pubg-mobile",
+          "value": 300000000,
+          "rank": 8,
+          "asOf": "August 2023",
+          "releaseDate": "March 2018",
+          "publisher": "Tencent Games / Krafton"
+        },
+        {
+          "id": "super-mario-run",
+          "value": 300000000,
+          "rank": 9,
+          "asOf": "August 2018",
+          "releaseDate": "December 15, 2016",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "township",
+          "value": 274000000,
+          "rank": 10,
+          "asOf": "May 2020",
+          "releaseDate": "February 24, 2012",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "knives-out",
+          "value": 250000000,
+          "rank": 11,
+          "asOf": "September 2018",
+          "releaseDate": "November 2017",
+          "publisher": "NetEase"
+        },
+        {
+          "id": "angry-birds-2",
+          "value": 230000000,
+          "rank": 12,
+          "asOf": "December 2019",
+          "releaseDate": "July 30, 2015",
+          "publisher": "Rovio Entertainment"
+        },
+        {
+          "id": "honor-of-kings",
+          "value": 200000000,
+          "rank": 13,
+          "asOf": "December 2017",
+          "releaseDate": "November 26, 2015",
+          "publisher": "Tencent Games"
+        },
+        {
+          "id": "qq-speed-mobile-speed-drifters",
+          "value": 200000000,
+          "rank": 14,
+          "asOf": "January 2020",
+          "releaseDate": "December 29, 2017",
+          "publisher": "TiMi Studios / Tencent Games / Garena"
+        },
+        {
+          "id": "rise-up",
+          "value": 162000000,
+          "rank": 15,
+          "asOf": "December 2018",
+          "releaseDate": "2018",
+          "publisher": "Serkan Özyılmaz"
+        },
+        {
+          "id": "free-fire",
+          "value": 150000000,
+          "rank": 16,
+          "asOf": "August 2021",
+          "releaseDate": "December 2017",
+          "publisher": "Garena"
+        },
+        {
+          "id": "pes-2018-mobile",
+          "value": 150000000,
+          "rank": 17,
+          "asOf": "August 2018",
+          "releaseDate": "September 12, 2017",
+          "publisher": "Konami"
+        },
+        {
+          "id": "war-robots",
+          "value": 150000000,
+          "rank": 18,
+          "asOf": "January 2020",
+          "releaseDate": "April 14, 2014",
+          "publisher": "Pixonic"
+        },
+        {
+          "id": "mario-kart-tour",
+          "value": 123900000,
+          "rank": 19,
+          "asOf": "October 2019",
+          "releaseDate": "September 25, 2019",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "ice-age-village",
+          "value": 120000000,
+          "rank": 20,
+          "asOf": "2013",
+          "releaseDate": "April 5, 2012",
+          "publisher": "Gameloft"
+        }
+      ]
+    },
+    {
+      "date": "20260828",
+      "values": [
+        {
+          "id": "call-of-duty-mobile",
+          "value": 1000000000,
+          "rank": 1,
+          "asOf": "Nov 2024",
+          "releaseDate": "October 1, 2019",
+          "publisher": "Activision"
+        },
+        {
+          "id": "mini-world",
+          "value": 400000000,
+          "rank": 2,
+          "asOf": "April 2020",
+          "releaseDate": "December 26, 2015",
+          "publisher": "Minovate"
+        },
+        {
+          "id": "dragon-ball-z-dokkan-battle",
+          "value": 350000000,
+          "rank": 3,
+          "asOf": "August 2021",
+          "releaseDate": "January 30, 2015",
+          "publisher": "Bandai Namco Entertainment"
+        },
+        {
+          "id": "sonic-dash",
+          "value": 350000000,
+          "rank": 4,
+          "asOf": "February 2020",
+          "releaseDate": "March 7, 2013",
+          "publisher": "Sega"
+        },
+        {
+          "id": "helix-jump",
+          "value": 334000000,
+          "rank": 5,
+          "asOf": "December 2018",
+          "releaseDate": "February 10, 2018",
+          "publisher": "Voodoo"
+        },
+        {
+          "id": "gardenscapes-new-acres",
+          "value": 324000000,
+          "rank": 6,
+          "asOf": "May 2020",
+          "releaseDate": "August 2016",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "homescapes",
+          "value": 312000000,
+          "rank": 7,
+          "asOf": "May 2020",
+          "releaseDate": "August 2017",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "pubg-mobile",
+          "value": 300000000,
+          "rank": 8,
+          "asOf": "August 2023",
+          "releaseDate": "March 2018",
+          "publisher": "Tencent Games / Krafton"
+        },
+        {
+          "id": "super-mario-run",
+          "value": 300000000,
+          "rank": 9,
+          "asOf": "August 2018",
+          "releaseDate": "December 15, 2016",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "township",
+          "value": 274000000,
+          "rank": 10,
+          "asOf": "May 2020",
+          "releaseDate": "February 24, 2012",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "knives-out",
+          "value": 250000000,
+          "rank": 11,
+          "asOf": "September 2018",
+          "releaseDate": "November 2017",
+          "publisher": "NetEase"
+        },
+        {
+          "id": "angry-birds-2",
+          "value": 230000000,
+          "rank": 12,
+          "asOf": "December 2019",
+          "releaseDate": "July 30, 2015",
+          "publisher": "Rovio Entertainment"
+        },
+        {
+          "id": "honor-of-kings",
+          "value": 200000000,
+          "rank": 13,
+          "asOf": "December 2017",
+          "releaseDate": "November 26, 2015",
+          "publisher": "Tencent Games"
+        },
+        {
+          "id": "qq-speed-mobile-speed-drifters",
+          "value": 200000000,
+          "rank": 14,
+          "asOf": "January 2020",
+          "releaseDate": "December 29, 2017",
+          "publisher": "TiMi Studios / Tencent Games / Garena"
+        },
+        {
+          "id": "rise-up",
+          "value": 162000000,
+          "rank": 15,
+          "asOf": "December 2018",
+          "releaseDate": "2018",
+          "publisher": "Serkan Özyılmaz"
+        },
+        {
+          "id": "free-fire",
+          "value": 150000000,
+          "rank": 16,
+          "asOf": "August 2021",
+          "releaseDate": "December 2017",
+          "publisher": "Garena"
+        },
+        {
+          "id": "pes-2018-mobile",
+          "value": 150000000,
+          "rank": 17,
+          "asOf": "August 2018",
+          "releaseDate": "September 12, 2017",
+          "publisher": "Konami"
+        },
+        {
+          "id": "war-robots",
+          "value": 150000000,
+          "rank": 18,
+          "asOf": "January 2020",
+          "releaseDate": "April 14, 2014",
+          "publisher": "Pixonic"
+        },
+        {
+          "id": "mario-kart-tour",
+          "value": 123900000,
+          "rank": 19,
+          "asOf": "October 2019",
+          "releaseDate": "September 25, 2019",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "ice-age-village",
+          "value": 120000000,
+          "rank": 20,
+          "asOf": "2013",
+          "releaseDate": "April 5, 2012",
+          "publisher": "Gameloft"
+        }
+      ]
+    },
+    {
+      "date": "20260829",
+      "values": [
+        {
+          "id": "call-of-duty-mobile",
+          "value": 1000000000,
+          "rank": 1,
+          "asOf": "Nov 2024",
+          "releaseDate": "October 1, 2019",
+          "publisher": "Activision"
+        },
+        {
+          "id": "mini-world",
+          "value": 400000000,
+          "rank": 2,
+          "asOf": "April 2020",
+          "releaseDate": "December 26, 2015",
+          "publisher": "Minovate"
+        },
+        {
+          "id": "dragon-ball-z-dokkan-battle",
+          "value": 350000000,
+          "rank": 3,
+          "asOf": "August 2021",
+          "releaseDate": "January 30, 2015",
+          "publisher": "Bandai Namco Entertainment"
+        },
+        {
+          "id": "sonic-dash",
+          "value": 350000000,
+          "rank": 4,
+          "asOf": "February 2020",
+          "releaseDate": "March 7, 2013",
+          "publisher": "Sega"
+        },
+        {
+          "id": "helix-jump",
+          "value": 334000000,
+          "rank": 5,
+          "asOf": "December 2018",
+          "releaseDate": "February 10, 2018",
+          "publisher": "Voodoo"
+        },
+        {
+          "id": "gardenscapes-new-acres",
+          "value": 324000000,
+          "rank": 6,
+          "asOf": "May 2020",
+          "releaseDate": "August 2016",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "homescapes",
+          "value": 312000000,
+          "rank": 7,
+          "asOf": "May 2020",
+          "releaseDate": "August 2017",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "pubg-mobile",
+          "value": 300000000,
+          "rank": 8,
+          "asOf": "August 2023",
+          "releaseDate": "March 2018",
+          "publisher": "Tencent Games / Krafton"
+        },
+        {
+          "id": "super-mario-run",
+          "value": 300000000,
+          "rank": 9,
+          "asOf": "August 2018",
+          "releaseDate": "December 15, 2016",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "township",
+          "value": 274000000,
+          "rank": 10,
+          "asOf": "May 2020",
+          "releaseDate": "February 24, 2012",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "knives-out",
+          "value": 250000000,
+          "rank": 11,
+          "asOf": "September 2018",
+          "releaseDate": "November 2017",
+          "publisher": "NetEase"
+        },
+        {
+          "id": "angry-birds-2",
+          "value": 230000000,
+          "rank": 12,
+          "asOf": "December 2019",
+          "releaseDate": "July 30, 2015",
+          "publisher": "Rovio Entertainment"
+        },
+        {
+          "id": "honor-of-kings",
+          "value": 200000000,
+          "rank": 13,
+          "asOf": "December 2017",
+          "releaseDate": "November 26, 2015",
+          "publisher": "Tencent Games"
+        },
+        {
+          "id": "qq-speed-mobile-speed-drifters",
+          "value": 200000000,
+          "rank": 14,
+          "asOf": "January 2020",
+          "releaseDate": "December 29, 2017",
+          "publisher": "TiMi Studios / Tencent Games / Garena"
+        },
+        {
+          "id": "rise-up",
+          "value": 162000000,
+          "rank": 15,
+          "asOf": "December 2018",
+          "releaseDate": "2018",
+          "publisher": "Serkan Özyılmaz"
+        },
+        {
+          "id": "free-fire",
+          "value": 150000000,
+          "rank": 16,
+          "asOf": "August 2021",
+          "releaseDate": "December 2017",
+          "publisher": "Garena"
+        },
+        {
+          "id": "pes-2018-mobile",
+          "value": 150000000,
+          "rank": 17,
+          "asOf": "August 2018",
+          "releaseDate": "September 12, 2017",
+          "publisher": "Konami"
+        },
+        {
+          "id": "war-robots",
+          "value": 150000000,
+          "rank": 18,
+          "asOf": "January 2020",
+          "releaseDate": "April 14, 2014",
+          "publisher": "Pixonic"
+        },
+        {
+          "id": "mario-kart-tour",
+          "value": 123900000,
+          "rank": 19,
+          "asOf": "October 2019",
+          "releaseDate": "September 25, 2019",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "ice-age-village",
+          "value": 120000000,
+          "rank": 20,
+          "asOf": "2013",
+          "releaseDate": "April 5, 2012",
+          "publisher": "Gameloft"
+        }
+      ]
+    },
+    {
+      "date": "20260830",
+      "values": [
+        {
+          "id": "call-of-duty-mobile",
+          "value": 1000000000,
+          "rank": 1,
+          "asOf": "Nov 2024",
+          "releaseDate": "October 1, 2019",
+          "publisher": "Activision"
+        },
+        {
+          "id": "mini-world",
+          "value": 400000000,
+          "rank": 2,
+          "asOf": "April 2020",
+          "releaseDate": "December 26, 2015",
+          "publisher": "Minovate"
+        },
+        {
+          "id": "dragon-ball-z-dokkan-battle",
+          "value": 350000000,
+          "rank": 3,
+          "asOf": "August 2021",
+          "releaseDate": "January 30, 2015",
+          "publisher": "Bandai Namco Entertainment"
+        },
+        {
+          "id": "sonic-dash",
+          "value": 350000000,
+          "rank": 4,
+          "asOf": "February 2020",
+          "releaseDate": "March 7, 2013",
+          "publisher": "Sega"
+        },
+        {
+          "id": "helix-jump",
+          "value": 334000000,
+          "rank": 5,
+          "asOf": "December 2018",
+          "releaseDate": "February 10, 2018",
+          "publisher": "Voodoo"
+        },
+        {
+          "id": "gardenscapes-new-acres",
+          "value": 324000000,
+          "rank": 6,
+          "asOf": "May 2020",
+          "releaseDate": "August 2016",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "homescapes",
+          "value": 312000000,
+          "rank": 7,
+          "asOf": "May 2020",
+          "releaseDate": "August 2017",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "pubg-mobile",
+          "value": 300000000,
+          "rank": 8,
+          "asOf": "August 2023",
+          "releaseDate": "March 2018",
+          "publisher": "Tencent Games / Krafton"
+        },
+        {
+          "id": "super-mario-run",
+          "value": 300000000,
+          "rank": 9,
+          "asOf": "August 2018",
+          "releaseDate": "December 15, 2016",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "township",
+          "value": 274000000,
+          "rank": 10,
+          "asOf": "May 2020",
+          "releaseDate": "February 24, 2012",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "knives-out",
+          "value": 250000000,
+          "rank": 11,
+          "asOf": "September 2018",
+          "releaseDate": "November 2017",
+          "publisher": "NetEase"
+        },
+        {
+          "id": "angry-birds-2",
+          "value": 230000000,
+          "rank": 12,
+          "asOf": "December 2019",
+          "releaseDate": "July 30, 2015",
+          "publisher": "Rovio Entertainment"
+        },
+        {
+          "id": "honor-of-kings",
+          "value": 200000000,
+          "rank": 13,
+          "asOf": "December 2017",
+          "releaseDate": "November 26, 2015",
+          "publisher": "Tencent Games"
+        },
+        {
+          "id": "qq-speed-mobile-speed-drifters",
+          "value": 200000000,
+          "rank": 14,
+          "asOf": "January 2020",
+          "releaseDate": "December 29, 2017",
+          "publisher": "TiMi Studios / Tencent Games / Garena"
+        },
+        {
+          "id": "rise-up",
+          "value": 162000000,
+          "rank": 15,
+          "asOf": "December 2018",
+          "releaseDate": "2018",
+          "publisher": "Serkan Özyılmaz"
+        },
+        {
+          "id": "free-fire",
+          "value": 150000000,
+          "rank": 16,
+          "asOf": "August 2021",
+          "releaseDate": "December 2017",
+          "publisher": "Garena"
+        },
+        {
+          "id": "pes-2018-mobile",
+          "value": 150000000,
+          "rank": 17,
+          "asOf": "August 2018",
+          "releaseDate": "September 12, 2017",
+          "publisher": "Konami"
+        },
+        {
+          "id": "war-robots",
+          "value": 150000000,
+          "rank": 18,
+          "asOf": "January 2020",
+          "releaseDate": "April 14, 2014",
+          "publisher": "Pixonic"
+        },
+        {
+          "id": "mario-kart-tour",
+          "value": 123900000,
+          "rank": 19,
+          "asOf": "October 2019",
+          "releaseDate": "September 25, 2019",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "ice-age-village",
+          "value": 120000000,
+          "rank": 20,
+          "asOf": "2013",
+          "releaseDate": "April 5, 2012",
+          "publisher": "Gameloft"
+        }
+      ]
+    },
+    {
+      "date": "20260831",
+      "values": [
+        {
+          "id": "call-of-duty-mobile",
+          "value": 1000000000,
+          "rank": 1,
+          "asOf": "Nov 2024",
+          "releaseDate": "October 1, 2019",
+          "publisher": "Activision"
+        },
+        {
+          "id": "mini-world",
+          "value": 400000000,
+          "rank": 2,
+          "asOf": "April 2020",
+          "releaseDate": "December 26, 2015",
+          "publisher": "Minovate"
+        },
+        {
+          "id": "dragon-ball-z-dokkan-battle",
+          "value": 350000000,
+          "rank": 3,
+          "asOf": "August 2021",
+          "releaseDate": "January 30, 2015",
+          "publisher": "Bandai Namco Entertainment"
+        },
+        {
+          "id": "sonic-dash",
+          "value": 350000000,
+          "rank": 4,
+          "asOf": "February 2020",
+          "releaseDate": "March 7, 2013",
+          "publisher": "Sega"
+        },
+        {
+          "id": "helix-jump",
+          "value": 334000000,
+          "rank": 5,
+          "asOf": "December 2018",
+          "releaseDate": "February 10, 2018",
+          "publisher": "Voodoo"
+        },
+        {
+          "id": "gardenscapes-new-acres",
+          "value": 324000000,
+          "rank": 6,
+          "asOf": "May 2020",
+          "releaseDate": "August 2016",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "homescapes",
+          "value": 312000000,
+          "rank": 7,
+          "asOf": "May 2020",
+          "releaseDate": "August 2017",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "pubg-mobile",
+          "value": 300000000,
+          "rank": 8,
+          "asOf": "August 2023",
+          "releaseDate": "March 2018",
+          "publisher": "Tencent Games / Krafton"
+        },
+        {
+          "id": "super-mario-run",
+          "value": 300000000,
+          "rank": 9,
+          "asOf": "August 2018",
+          "releaseDate": "December 15, 2016",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "township",
+          "value": 274000000,
+          "rank": 10,
+          "asOf": "May 2020",
+          "releaseDate": "February 24, 2012",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "knives-out",
+          "value": 250000000,
+          "rank": 11,
+          "asOf": "September 2018",
+          "releaseDate": "November 2017",
+          "publisher": "NetEase"
+        },
+        {
+          "id": "angry-birds-2",
+          "value": 230000000,
+          "rank": 12,
+          "asOf": "December 2019",
+          "releaseDate": "July 30, 2015",
+          "publisher": "Rovio Entertainment"
+        },
+        {
+          "id": "honor-of-kings",
+          "value": 200000000,
+          "rank": 13,
+          "asOf": "December 2017",
+          "releaseDate": "November 26, 2015",
+          "publisher": "Tencent Games"
+        },
+        {
+          "id": "qq-speed-mobile-speed-drifters",
+          "value": 200000000,
+          "rank": 14,
+          "asOf": "January 2020",
+          "releaseDate": "December 29, 2017",
+          "publisher": "TiMi Studios / Tencent Games / Garena"
+        },
+        {
+          "id": "rise-up",
+          "value": 162000000,
+          "rank": 15,
+          "asOf": "December 2018",
+          "releaseDate": "2018",
+          "publisher": "Serkan Özyılmaz"
+        },
+        {
+          "id": "free-fire",
+          "value": 150000000,
+          "rank": 16,
+          "asOf": "August 2021",
+          "releaseDate": "December 2017",
+          "publisher": "Garena"
+        },
+        {
+          "id": "pes-2018-mobile",
+          "value": 150000000,
+          "rank": 17,
+          "asOf": "August 2018",
+          "releaseDate": "September 12, 2017",
+          "publisher": "Konami"
+        },
+        {
+          "id": "war-robots",
+          "value": 150000000,
+          "rank": 18,
+          "asOf": "January 2020",
+          "releaseDate": "April 14, 2014",
+          "publisher": "Pixonic"
+        },
+        {
+          "id": "mario-kart-tour",
+          "value": 123900000,
+          "rank": 19,
+          "asOf": "October 2019",
+          "releaseDate": "September 25, 2019",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "ice-age-village",
+          "value": 120000000,
+          "rank": 20,
+          "asOf": "2013",
+          "releaseDate": "April 5, 2012",
+          "publisher": "Gameloft"
+        }
+      ]
+    },
+    {
+      "date": "20260901",
+      "values": [
+        {
+          "id": "call-of-duty-mobile",
+          "value": 1000000000,
+          "rank": 1,
+          "asOf": "Nov 2024",
+          "releaseDate": "October 1, 2019",
+          "publisher": "Activision"
+        },
+        {
+          "id": "mini-world",
+          "value": 400000000,
+          "rank": 2,
+          "asOf": "April 2020",
+          "releaseDate": "December 26, 2015",
+          "publisher": "Minovate"
+        },
+        {
+          "id": "dragon-ball-z-dokkan-battle",
+          "value": 350000000,
+          "rank": 3,
+          "asOf": "August 2021",
+          "releaseDate": "January 30, 2015",
+          "publisher": "Bandai Namco Entertainment"
+        },
+        {
+          "id": "sonic-dash",
+          "value": 350000000,
+          "rank": 4,
+          "asOf": "February 2020",
+          "releaseDate": "March 7, 2013",
+          "publisher": "Sega"
+        },
+        {
+          "id": "helix-jump",
+          "value": 334000000,
+          "rank": 5,
+          "asOf": "December 2018",
+          "releaseDate": "February 10, 2018",
+          "publisher": "Voodoo"
+        },
+        {
+          "id": "gardenscapes-new-acres",
+          "value": 324000000,
+          "rank": 6,
+          "asOf": "May 2020",
+          "releaseDate": "August 2016",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "homescapes",
+          "value": 312000000,
+          "rank": 7,
+          "asOf": "May 2020",
+          "releaseDate": "August 2017",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "pubg-mobile",
+          "value": 300000000,
+          "rank": 8,
+          "asOf": "August 2023",
+          "releaseDate": "March 2018",
+          "publisher": "Tencent Games / Krafton"
+        },
+        {
+          "id": "super-mario-run",
+          "value": 300000000,
+          "rank": 9,
+          "asOf": "August 2018",
+          "releaseDate": "December 15, 2016",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "township",
+          "value": 274000000,
+          "rank": 10,
+          "asOf": "May 2020",
+          "releaseDate": "February 24, 2012",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "knives-out",
+          "value": 250000000,
+          "rank": 11,
+          "asOf": "September 2018",
+          "releaseDate": "November 2017",
+          "publisher": "NetEase"
+        },
+        {
+          "id": "angry-birds-2",
+          "value": 230000000,
+          "rank": 12,
+          "asOf": "December 2019",
+          "releaseDate": "July 30, 2015",
+          "publisher": "Rovio Entertainment"
+        },
+        {
+          "id": "honor-of-kings",
+          "value": 200000000,
+          "rank": 13,
+          "asOf": "December 2017",
+          "releaseDate": "November 26, 2015",
+          "publisher": "Tencent Games"
+        },
+        {
+          "id": "qq-speed-mobile-speed-drifters",
+          "value": 200000000,
+          "rank": 14,
+          "asOf": "January 2020",
+          "releaseDate": "December 29, 2017",
+          "publisher": "TiMi Studios / Tencent Games / Garena"
+        },
+        {
+          "id": "rise-up",
+          "value": 162000000,
+          "rank": 15,
+          "asOf": "December 2018",
+          "releaseDate": "2018",
+          "publisher": "Serkan Özyılmaz"
+        },
+        {
+          "id": "free-fire",
+          "value": 150000000,
+          "rank": 16,
+          "asOf": "August 2021",
+          "releaseDate": "December 2017",
+          "publisher": "Garena"
+        },
+        {
+          "id": "pes-2018-mobile",
+          "value": 150000000,
+          "rank": 17,
+          "asOf": "August 2018",
+          "releaseDate": "September 12, 2017",
+          "publisher": "Konami"
+        },
+        {
+          "id": "war-robots",
+          "value": 150000000,
+          "rank": 18,
+          "asOf": "January 2020",
+          "releaseDate": "April 14, 2014",
+          "publisher": "Pixonic"
+        },
+        {
+          "id": "mario-kart-tour",
+          "value": 123900000,
+          "rank": 19,
+          "asOf": "October 2019",
+          "releaseDate": "September 25, 2019",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "ice-age-village",
+          "value": 120000000,
+          "rank": 20,
+          "asOf": "2013",
+          "releaseDate": "April 5, 2012",
+          "publisher": "Gameloft"
+        }
+      ]
+    },
+    {
+      "date": "20260902",
+      "values": [
+        {
+          "id": "call-of-duty-mobile",
+          "value": 1000000000,
+          "rank": 1,
+          "asOf": "Nov 2024",
+          "releaseDate": "October 1, 2019",
+          "publisher": "Activision"
+        },
+        {
+          "id": "mini-world",
+          "value": 400000000,
+          "rank": 2,
+          "asOf": "April 2020",
+          "releaseDate": "December 26, 2015",
+          "publisher": "Minovate"
+        },
+        {
+          "id": "dragon-ball-z-dokkan-battle",
+          "value": 350000000,
+          "rank": 3,
+          "asOf": "August 2021",
+          "releaseDate": "January 30, 2015",
+          "publisher": "Bandai Namco Entertainment"
+        },
+        {
+          "id": "sonic-dash",
+          "value": 350000000,
+          "rank": 4,
+          "asOf": "February 2020",
+          "releaseDate": "March 7, 2013",
+          "publisher": "Sega"
+        },
+        {
+          "id": "helix-jump",
+          "value": 334000000,
+          "rank": 5,
+          "asOf": "December 2018",
+          "releaseDate": "February 10, 2018",
+          "publisher": "Voodoo"
+        },
+        {
+          "id": "gardenscapes-new-acres",
+          "value": 324000000,
+          "rank": 6,
+          "asOf": "May 2020",
+          "releaseDate": "August 2016",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "homescapes",
+          "value": 312000000,
+          "rank": 7,
+          "asOf": "May 2020",
+          "releaseDate": "August 2017",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "pubg-mobile",
+          "value": 300000000,
+          "rank": 8,
+          "asOf": "August 2023",
+          "releaseDate": "March 2018",
+          "publisher": "Tencent Games / Krafton"
+        },
+        {
+          "id": "super-mario-run",
+          "value": 300000000,
+          "rank": 9,
+          "asOf": "August 2018",
+          "releaseDate": "December 15, 2016",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "township",
+          "value": 274000000,
+          "rank": 10,
+          "asOf": "May 2020",
+          "releaseDate": "February 24, 2012",
+          "publisher": "Playrix"
+        },
+        {
+          "id": "knives-out",
+          "value": 250000000,
+          "rank": 11,
+          "asOf": "September 2018",
+          "releaseDate": "November 2017",
+          "publisher": "NetEase"
+        },
+        {
+          "id": "angry-birds-2",
+          "value": 230000000,
+          "rank": 12,
+          "asOf": "December 2019",
+          "releaseDate": "July 30, 2015",
+          "publisher": "Rovio Entertainment"
+        },
+        {
+          "id": "honor-of-kings",
+          "value": 200000000,
+          "rank": 13,
+          "asOf": "December 2017",
+          "releaseDate": "November 26, 2015",
+          "publisher": "Tencent Games"
+        },
+        {
+          "id": "qq-speed-mobile-speed-drifters",
+          "value": 200000000,
+          "rank": 14,
+          "asOf": "January 2020",
+          "releaseDate": "December 29, 2017",
+          "publisher": "TiMi Studios / Tencent Games / Garena"
+        },
+        {
+          "id": "rise-up",
+          "value": 162000000,
+          "rank": 15,
+          "asOf": "December 2018",
+          "releaseDate": "2018",
+          "publisher": "Serkan Özyılmaz"
+        },
+        {
+          "id": "free-fire",
+          "value": 150000000,
+          "rank": 16,
+          "asOf": "August 2021",
+          "releaseDate": "December 2017",
+          "publisher": "Garena"
+        },
+        {
+          "id": "pes-2018-mobile",
+          "value": 150000000,
+          "rank": 17,
+          "asOf": "August 2018",
+          "releaseDate": "September 12, 2017",
+          "publisher": "Konami"
+        },
+        {
+          "id": "war-robots",
+          "value": 150000000,
+          "rank": 18,
+          "asOf": "January 2020",
+          "releaseDate": "April 14, 2014",
+          "publisher": "Pixonic"
+        },
+        {
+          "id": "mario-kart-tour",
+          "value": 123900000,
+          "rank": 19,
+          "asOf": "October 2019",
+          "releaseDate": "September 25, 2019",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "ice-age-village",
+          "value": 120000000,
+          "rank": 20,
+          "asOf": "2013",
+          "releaseDate": "April 5, 2012",
+          "publisher": "Gameloft"
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "date": "20260804",
+      "title": "Call of Duty: Mobile leads players",
+      "body": "Call of Duty: Mobile is the highest-ranked selected entry in this frame at $1.0B."
+    },
+    {
+      "date": "20260902",
+      "title": "Call of Duty: Mobile leads players",
+      "body": "Call of Duty: Mobile is the highest-ranked selected entry in this frame at $1.0B."
+    }
+  ],
+  "sources": [
+    {
+      "title": "List of most-played mobile games by player count",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_most-played_mobile_games_by_player_count",
+      "note": "Public mobile-game player-count table used as a Wikipedia-safe fallback for the suggested mobile-game revenue district."
+    }
+  ],
+  "lastObservationDate": "2026-09-02",
+  "dataFreshness": {
+    "status": "fresh",
+    "refreshCadence": "daily",
+    "lastUpdated": "2026-09-02T08:01:38.701Z",
+    "lastRefreshAttemptedAt": "2026-09-02T08:01:38.701Z",
+    "lastRefreshError": null,
+    "lastObservationDate": "2026-09-02",
+    "nextRefreshAt": "2026-09-03T08:00:00.000Z",
+    "sourceStatus": "Wikipedia current ranking table: Most-played mobile games by player count (with at least 50 million)",
+    "confidence": "Observed List of most-played mobile games by player count on 2026-09-02T08:01:38.701Z; values are parsed from the \"Most-played mobile games by player count (with at least 50 million)\" Wikipedia table."
+  },
+  "media": {
+    "imageFit": "contain",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-09-02T08:01:38.701Z",
+    "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.webp",
+    "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.webp",
+    "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.json",
+    "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/mobile-game-revenue.json",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 5,
+    "rows": 4,
+    "width": 1600,
+    "height": 1280,
+    "itemCount": 20,
+    "sourcedImageCount": 18,
+    "generatedImageCount": 2,
+    "placeholderCount": 0,
+    "ogImageUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/mobile-game-revenue.png",
+    "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/mobile-game-revenue.png",
+    "ogImageWidth": 1200,
+    "ogImageHeight": 630
+  },
+  "taxonomy": {
+    "primaryCategory": "gaming",
+    "categories": [
+      "gaming",
+      "mobile-apps",
+      "business"
+    ],
+    "tags": [
+      "mobile-games",
+      "grossing",
+      "revenue",
+      "app-stores"
+    ],
+    "entityTypes": [
+      "game",
+      "app"
+    ],
+    "sourceTypes": [
+      "wikipedia"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "app-store-takeover",
+      "type": "app-store-chart",
+      "weight": 0.82,
+      "reason": "Mobile game rankings can reuse the app-store chart family."
+    },
+    {
+      "target": "games-people-are-playing",
+      "type": "gaming-market",
+      "weight": 0.7,
+      "reason": "Mobile game demand complements PC and console game activity."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "game-platforms",
+    "mainland": "culture",
+    "bridgePriority": [
+      "app-store-takeover",
+      "games-people-are-playing"
+    ]
+  },
+  "schemaVersion": 1,
+  "contentKind": "dat-city.story",
+  "generatedAt": "2026-09-02T08:01:38.701Z",
+  "versionId": "20260902T080138Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "storyops-scheduler",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-09-02T08:01:38.701Z",
+    "versionId": "20260902T080138Z",
+    "adapter": "wikipedia-ranking-table",
+    "storySlug": "mobile-game-revenue",
+    "districtId": null,
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "publicProjection": {
+    "kind": "story",
+    "version": 1,
+    "generatedAt": "2026-09-02T08:01:38.701Z",
+    "adapter": "wikipedia-ranking-table",
+    "cache": {
+      "browserMaxAgeSeconds": 60,
+      "edgeMaxAgeSeconds": 3600
+    }
+  },
+  "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/mobile-game-revenue.png"
+}

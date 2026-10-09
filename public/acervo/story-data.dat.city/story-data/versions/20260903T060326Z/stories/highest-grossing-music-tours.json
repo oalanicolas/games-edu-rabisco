@@ -1,0 +1,4687 @@
+{
+  "id": "highest-grossing-music-tours",
+  "kicker": "Tour Gross Avenue",
+  "title": "Highest-Grossing Music Tours",
+  "subtitle": "A stadium-tour skyline for the concert tours with the highest worldwide grosses.",
+  "badge": "Ranked by actual gross",
+  "visualization": "race-arena",
+  "theme": "creator-arena",
+  "artStyle": "stylized-editorial",
+  "dateRange": [
+    "20260628",
+    "20260901"
+  ],
+  "timelineTicks": [
+    "20260628",
+    "20260629",
+    "20260701",
+    "20260706",
+    "20260707",
+    "20260708",
+    "20260709",
+    "20260710",
+    "20260711",
+    "20260712",
+    "20260713",
+    "20260714",
+    "20260715",
+    "20260716",
+    "20260717",
+    "20260718",
+    "20260719",
+    "20260720",
+    "20260721",
+    "20260722",
+    "20260801",
+    "20260822",
+    "20260901"
+  ],
+  "metricLabel": "Tour gross",
+  "ogImage": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/highest-grossing-music-tours.png",
+  "cityPreview": {
+    "districtId": "tour-gross-avenue",
+    "districtName": "Tour Gross Avenue",
+    "cardLabel": "Tour Grosses",
+    "summary": "Concert tours ranked by actual worldwide gross from Wikipedia's highest-grossing concert tours table.",
+    "primaryMetric": "Tour gross",
+    "latestFrameLabel": "2026-09-01",
+    "storyUrl": "/stories/highest-grossing-music-tours/",
+    "thumbnail": "/assets/og/dat-city.webp"
+  },
+  "sourceStatus": "Wikipedia current ranking table: Top 20 highest-grossing tours of all time",
+  "confidence": "Observed List of highest-grossing concert tours on 2026-09-01T07:03:08.053Z; values are parsed from the \"Top 20 highest-grossing tours of all time\" Wikipedia table.",
+  "methodology": "This StoryOps adapter fetches the rendered Wikipedia table for List of highest-grossing concert tours, selects the configured ranking table, parses the configured entity and value columns, and stores observed snapshots so public history grows from repeat refreshes.",
+  "playback": {
+    "durationSeconds": 24,
+    "initialDate": "20260628",
+    "periodLabel": "tour gross"
+  },
+  "visual": {
+    "topCount": 10,
+    "referenceCount": 20,
+    "horizontalCount": 20
+  },
+  "layers": [
+    {
+      "id": "gross",
+      "label": "Gross",
+      "default": true
+    },
+    {
+      "id": "artist",
+      "label": "Artist",
+      "default": true
+    },
+    {
+      "id": "shows",
+      "label": "Shows",
+      "default": true
+    }
+  ],
+  "focus": [
+    {
+      "id": "the-eras-tour-taylor-swift-2023-2024",
+      "label": "The Eras Tour"
+    },
+    {
+      "id": "music-of-the-spheres-world-tour-coldplay-2022-2025",
+      "label": "Music of the Spheres World Tour"
+    },
+    {
+      "id": "after-hours-til-dawn-tour-the-weeknd-2022-2026",
+      "label": "After Hours til Dawn Tour"
+    },
+    {
+      "id": "farewell-yellow-brick-road-elton-john-2018-2023",
+      "label": "Farewell Yellow Brick Road"
+    }
+  ],
+  "entities": [
+    {
+      "id": "the-eras-tour-taylor-swift-2023-2024",
+      "name": "The Eras Tour",
+      "shortName": "The Eras Tour",
+      "article": "The Eras Tour",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Eras_Tour",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%283%29.png/960px-Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%283%29.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%283%29.png/960px-Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%283%29.png",
+      "avatarText": "TE",
+      "color": "#ff5a61",
+      "artist": "Taylor Swift",
+      "year": "2023–2024",
+      "shows": "149",
+      "adjustedGross": "$2,132,275,503",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.json",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.2,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%283%29.png/960px-Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%283%29.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "music-of-the-spheres-world-tour-coldplay-2022-2025",
+      "name": "Music of the Spheres World Tour",
+      "shortName": "Music of the Spheres World Tour",
+      "article": "Music of the Spheres World Tour",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Music_of_the_Spheres_World_Tour",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/ColdplayWembley120925_%28cropped%29.jpg/960px-ColdplayWembley120925_%28cropped%29.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/ColdplayWembley120925_%28cropped%29.jpg/960px-ColdplayWembley120925_%28cropped%29.jpg",
+      "avatarText": "MO",
+      "color": "#18c871",
+      "artist": "Coldplay",
+      "year": "2022–2025",
+      "shows": "223",
+      "adjustedGross": "$1,524,423,018",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.json",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0,
+          "u1": 0.4,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/ColdplayWembley120925_%28cropped%29.jpg/960px-ColdplayWembley120925_%28cropped%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "after-hours-til-dawn-tour-the-weeknd-2022-2026",
+      "name": "After Hours til Dawn Tour",
+      "shortName": "After Hours til Dawn Tour",
+      "article": "After Hours til Dawn Tour",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/After_Hours_til_Dawn_Tour",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/The_Weeknd_Portrait_by_Brian_Ziff.jpg/960px-The_Weeknd_Portrait_by_Brian_Ziff.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/The_Weeknd_Portrait_by_Brian_Ziff.jpg/960px-The_Weeknd_Portrait_by_Brian_Ziff.jpg",
+      "avatarText": "AH",
+      "color": "#41a99f",
+      "artist": "The Weeknd",
+      "year": "2022–2026",
+      "shows": "116",
+      "adjustedGross": "$735,800,000",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.json",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0,
+          "u1": 0.6,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/The_Weeknd_Portrait_by_Brian_Ziff.jpg/960px-The_Weeknd_Portrait_by_Brian_Ziff.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "farewell-yellow-brick-road-elton-john-2018-2023",
+      "name": "Farewell Yellow Brick Road",
+      "shortName": "Farewell Yellow Brick Road",
+      "article": "Farewell Yellow Brick Road",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Farewell_Yellow_Brick_Road",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/EltonDocBFILFF101024_%284_of_17%29_%28cropped%29.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/EltonDocBFILFF101024_%284_of_17%29_%28cropped%29.jpg",
+      "avatarText": "FY",
+      "color": "#ffc84a",
+      "artist": "Elton John",
+      "year": "2018–2023",
+      "shows": "330",
+      "adjustedGross": "$992,332,077",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.json",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0,
+          "u1": 0.8,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/EltonDocBFILFF101024_%284_of_17%29_%28cropped%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "tour-ed-sheeran-2022-2025",
+      "name": "+−=÷× Tour",
+      "shortName": "+−=÷× Tour",
+      "article": "+−=÷× Tour",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/%2B%E2%88%92%3D%C3%B7%C3%97_Tour",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Ed_Sheeran-6886_%28cropped%29.jpg/960px-Ed_Sheeran-6886_%28cropped%29.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Ed_Sheeran-6886_%28cropped%29.jpg/960px-Ed_Sheeran-6886_%28cropped%29.jpg",
+      "avatarText": "+T",
+      "color": "#00a6ff",
+      "artist": "Ed Sheeran",
+      "year": "2022–2025",
+      "shows": "169",
+      "adjustedGross": "$875,700,000",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.json",
+          "x": 1280,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Ed_Sheeran-6886_%28cropped%29.jpg/960px-Ed_Sheeran-6886_%28cropped%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "tour-ed-sheeran-2017-2019",
+      "name": "÷ Tour",
+      "shortName": "÷ Tour",
+      "article": "÷ Tour",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/%C3%B7_Tour",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Ed_Sheeran-6886_%28cropped%29.jpg/960px-Ed_Sheeran-6886_%28cropped%29.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Ed_Sheeran-6886_%28cropped%29.jpg/960px-Ed_Sheeran-6886_%28cropped%29.jpg",
+      "avatarText": "÷T",
+      "color": "#8f6bff",
+      "artist": "Ed Sheeran",
+      "year": "2017–2019",
+      "shows": "255",
+      "adjustedGross": "$977,448,262",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.json",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.25,
+          "u1": 0.2,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Ed_Sheeran-6886_%28cropped%29.jpg/960px-Ed_Sheeran-6886_%28cropped%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "360-tour-u2-2009-2011",
+      "name": "360° Tour",
+      "shortName": "360° Tour",
+      "article": "U2 360° Tour",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/U2_360%C2%B0_Tour",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/U2_on_Joshua_Tree_Tour_2017_Brussels_8-1-17.jpg/960px-U2_on_Joshua_Tree_Tour_2017_Brussels_8-1-17.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/U2_on_Joshua_Tree_Tour_2017_Brussels_8-1-17.jpg/960px-U2_on_Joshua_Tree_Tour_2017_Brussels_8-1-17.jpg",
+      "avatarText": "3T",
+      "color": "#f18c4f",
+      "artist": "U2",
+      "year": "2009–2011",
+      "shows": "110",
+      "adjustedGross": "$1,053,976,160",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.json",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.25,
+          "u1": 0.4,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/U2_on_Joshua_Tree_Tour_2017_Brussels_8-1-17.jpg/960px-U2_on_Joshua_Tree_Tour_2017_Brussels_8-1-17.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "2023-2025-tour-bruce-springsteen-and-e-street-band-2023-2025",
+      "name": "2023–2025 Tour",
+      "shortName": "2023–2025 Tour",
+      "article": "Springsteen and E Street Band 2023–2025 Tour",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Springsteen_and_E_Street_Band_2023%E2%80%932025_Tour",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Bruce_Springsteen_Springsteen-79_%28cropped%29.jpg/960px-Bruce_Springsteen_Springsteen-79_%28cropped%29.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Bruce_Springsteen_Springsteen-79_%28cropped%29.jpg/960px-Bruce_Springsteen_Springsteen-79_%28cropped%29.jpg",
+      "avatarText": "2T",
+      "color": "#d78fca",
+      "artist": "Bruce Springsteen & E Street Band",
+      "year": "2023–2025",
+      "shows": "129",
+      "adjustedGross": "$729,700,000",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.json",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.25,
+          "u1": 0.6,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Bruce_Springsteen_Springsteen-79_%28cropped%29.jpg/960px-Bruce_Springsteen_Springsteen-79_%28cropped%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "m72-world-tour-metallica-2023-2026",
+      "name": "M72 World Tour",
+      "shortName": "M72 World Tour",
+      "article": "M72 World Tour",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/M72_World_Tour",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Metallica_March_2024.jpg/960px-Metallica_March_2024.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Metallica_March_2024.jpg/960px-Metallica_March_2024.jpg",
+      "avatarText": "MW",
+      "color": "#18c871",
+      "artist": "Metallica",
+      "year": "2023–2026",
+      "shows": "70",
+      "adjustedGross": "$517,500,000",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.json",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.25,
+          "u1": 0.8,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Metallica_March_2024.jpg/960px-Metallica_March_2024.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "love-on-tour-harry-styles-2021-2023",
+      "name": "Love On Tour",
+      "shortName": "Love On Tour",
+      "article": "Love On Tour",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Love_On_Tour",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/HarryStylesWembley170623_%2865_of_93%29_%2852982678051%29_%28cropped_2%29.jpg/960px-HarryStylesWembley170623_%2865_of_93%29_%2852982678051%29_%28cropped_2%29.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/HarryStylesWembley170623_%2865_of_93%29_%2852982678051%29_%28cropped_2%29.jpg/960px-HarryStylesWembley170623_%2865_of_93%29_%2852982678051%29_%28cropped_2%29.jpg",
+      "avatarText": "LO",
+      "color": "#7b9b65",
+      "artist": "Harry Styles",
+      "year": "2021–2023",
+      "shows": "169",
+      "adjustedGross": "$652,317,538",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.json",
+          "x": 1280,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.25,
+          "u1": 1,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/HarryStylesWembley170623_%2865_of_93%29_%2852982678051%29_%28cropped_2%29.jpg/960px-HarryStylesWembley170623_%2865_of_93%29_%2852982678051%29_%28cropped_2%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "summer-carnival-pink-2023-2024",
+      "name": "Summer Carnival",
+      "shortName": "Summer Carnival",
+      "article": "Summer Carnival (tour)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Summer_Carnival_(tour)",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/PinkSpurs160624_%2833_of_156%29_%28cropped%29.jpg/960px-PinkSpurs160624_%2833_of_156%29_%28cropped%29.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/PinkSpurs160624_%2833_of_156%29_%28cropped%29.jpg/960px-PinkSpurs160624_%2833_of_156%29_%28cropped%29.jpg",
+      "avatarText": "SC",
+      "color": "#2f4858",
+      "artist": "Pink",
+      "year": "2023–2024",
+      "shows": "97",
+      "adjustedGross": "$600,081,945",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.json",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.5,
+          "u1": 0.2,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/PinkSpurs160624_%2833_of_156%29_%28cropped%29.jpg/960px-PinkSpurs160624_%2833_of_156%29_%28cropped%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "not-in-this-lifetime-tour-guns-n-roses-2016-2019",
+      "name": "Not in This Lifetime... Tour",
+      "shortName": "Not in This Lifetime... Tour",
+      "article": "Not in This Lifetime... Tour",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Not_in_This_Lifetime..._Tour",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/GNR_Belgrade_2025_05_%28cropped%29.jpg/960px-GNR_Belgrade_2025_05_%28cropped%29.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/GNR_Belgrade_2025_05_%28cropped%29.jpg/960px-GNR_Belgrade_2025_05_%28cropped%29.jpg",
+      "avatarText": "NI",
+      "color": "#ef426f",
+      "artist": "Guns N' Roses",
+      "year": "2016–2019",
+      "shows": "158",
+      "adjustedGross": "$735,667,708",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.json",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.5,
+          "u1": 0.4,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/GNR_Belgrade_2025_05_%28cropped%29.jpg/960px-GNR_Belgrade_2025_05_%28cropped%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "renaissance-world-tour-beyonce-2023",
+      "name": "Renaissance World Tour",
+      "shortName": "Renaissance World Tour",
+      "article": "Renaissance World Tour",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Renaissance_World_Tour",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Beyonc%C3%A9_-_Tottenham_Hotspur_Stadium_-_1st_June_2023_%2810_of_118%29_%2852946364598%29_%28best_crop%29.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Beyonc%C3%A9_-_Tottenham_Hotspur_Stadium_-_1st_June_2023_%2810_of_118%29_%2852946364598%29_%28best_crop%29.jpg",
+      "avatarText": "RW",
+      "color": "#86bdf4",
+      "artist": "Beyoncé",
+      "year": "2023",
+      "shows": "56",
+      "adjustedGross": "$612,749,227",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.json",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.5,
+          "u1": 0.6,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Beyonc%C3%A9_-_Tottenham_Hotspur_Stadium_-_1st_June_2023_%2810_of_118%29_%2852946364598%29_%28best_crop%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "stadium-tour-rammstein-2019-2024",
+      "name": "Stadium Tour",
+      "shortName": "Stadium Tour",
+      "article": "Rammstein Stadium Tour",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Rammstein_Stadium_Tour",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Rammstein_at_Wacken_Open_Air_2013_06.jpg/960px-Rammstein_at_Wacken_Open_Air_2013_06.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Rammstein_at_Wacken_Open_Air_2013_06.jpg/960px-Rammstein_at_Wacken_Open_Air_2013_06.jpg",
+      "avatarText": "ST",
+      "color": "#c9a14a",
+      "artist": "Rammstein",
+      "year": "2019–2024",
+      "shows": "141",
+      "adjustedGross": "$577,811,075",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.json",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.5,
+          "u1": 0.8,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Rammstein_at_Wacken_Open_Air_2013_06.jpg/960px-Rammstein_at_Wacken_Open_Air_2013_06.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "a-bigger-bang-tour-the-rolling-stones-2005-2007",
+      "name": "A Bigger Bang Tour",
+      "shortName": "A Bigger Bang Tour",
+      "article": "A Bigger Bang Tour",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/A_Bigger_Bang_Tour",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/The_Rolling_Stones_Summerfest_in_Milwaukee_-_2015.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/The_Rolling_Stones_Summerfest_in_Milwaukee_-_2015.jpg",
+      "avatarText": "AB",
+      "color": "#e34f59",
+      "artist": "The Rolling Stones",
+      "year": "2005–2007",
+      "shows": "144",
+      "adjustedGross": "$866,814,668",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.json",
+          "x": 1280,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.5,
+          "u1": 1,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/The_Rolling_Stones_Summerfest_in_Milwaukee_-_2015.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "no-filter-tour-the-rolling-stones-2017-2021",
+      "name": "No Filter Tour",
+      "shortName": "No Filter Tour",
+      "article": "No Filter Tour",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/No_Filter_Tour",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/The_Rolling_Stones_Summerfest_in_Milwaukee_-_2015.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/The_Rolling_Stones_Summerfest_in_Milwaukee_-_2015.jpg",
+      "avatarText": "NF",
+      "color": "#9aa4b2",
+      "artist": "The Rolling Stones",
+      "year": "2017–2021",
+      "shows": "58",
+      "adjustedGross": "$649,316,898",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.json",
+          "x": 0,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.75,
+          "u1": 0.2,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/The_Rolling_Stones_Summerfest_in_Milwaukee_-_2015.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "a-head-full-of-dreams-tour-coldplay-2016-2017",
+      "name": "A Head Full of Dreams Tour",
+      "shortName": "A Head Full of Dreams Tour",
+      "article": "A Head Full of Dreams Tour",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/A_Head_Full_of_Dreams_Tour",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/ColdplayWembley120925_%28cropped%29.jpg/960px-ColdplayWembley120925_%28cropped%29.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/ColdplayWembley120925_%28cropped%29.jpg/960px-ColdplayWembley120925_%28cropped%29.jpg",
+      "avatarText": "AH",
+      "color": "#ff5a61",
+      "artist": "Coldplay",
+      "year": "2016–2017",
+      "shows": "114",
+      "adjustedGross": "$686,987,620",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.json",
+          "x": 320,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.75,
+          "u1": 0.4,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/ColdplayWembley120925_%28cropped%29.jpg/960px-ColdplayWembley120925_%28cropped%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "las-mujeres-ya-no-lloran-world-tour-shakira-2025-2026",
+      "name": "Las Mujeres Ya No Lloran World Tour",
+      "shortName": "Las Mujeres Ya No Lloran World Tour",
+      "article": "Las Mujeres Ya No Lloran World Tour",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Las_Mujeres_Ya_No_Lloran_World_Tour",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2023-11-16_Gala_de_los_Latin_Grammy%2C_03_%28cropped%2902.jpg/960px-2023-11-16_Gala_de_los_Latin_Grammy%2C_03_%28cropped%2902.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2023-11-16_Gala_de_los_Latin_Grammy%2C_03_%28cropped%2902.jpg/960px-2023-11-16_Gala_de_los_Latin_Grammy%2C_03_%28cropped%2902.jpg",
+      "avatarText": "LM",
+      "color": "#f18c4f",
+      "artist": "Shakira",
+      "year": "2025–2026",
+      "shows": "108",
+      "adjustedGross": "$479,200,000",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.json",
+          "x": 640,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.75,
+          "u1": 0.6,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2023-11-16_Gala_de_los_Latin_Grammy%2C_03_%28cropped%2902.jpg/960px-2023-11-16_Gala_de_los_Latin_Grammy%2C_03_%28cropped%2902.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "the-quittin-time-tour-zach-bryan-2024-2025",
+      "name": "The Quittin' Time Tour",
+      "shortName": "The Quittin' Time Tour",
+      "article": "The Quittin' Time Tour",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Quittin'_Time_Tour",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/0/07/Zach_Bryan_performing_at_Crypto.com_Arena_on_23_Aug_2023_%28cropped%29.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/07/Zach_Bryan_performing_at_Crypto.com_Arena_on_23_Aug_2023_%28cropped%29.jpg",
+      "avatarText": "TQ",
+      "color": "#41a99f",
+      "artist": "Zach Bryan",
+      "year": "2024–2025",
+      "shows": "92",
+      "adjustedGross": "$477,700,000",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.json",
+          "x": 960,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.75,
+          "u1": 0.8,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/07/Zach_Bryan_performing_at_Crypto.com_Arena_on_23_Aug_2023_%28cropped%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "debi-tirar-mas-fotos-world-tour-bad-bunny-2025-2026",
+      "name": "Debí Tirar Más Fotos World Tour",
+      "shortName": "Debí Tirar Más Fotos World Tour",
+      "article": "Debí Tirar Más Fotos World Tour",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Deb%C3%AD_Tirar_M%C3%A1s_Fotos_World_Tour",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Bad_Bunny_2019_by_Glenn_Francis_%28cropped%29.jpg/960px-Bad_Bunny_2019_by_Glenn_Francis_%28cropped%29.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Bad_Bunny_2019_by_Glenn_Francis_%28cropped%29.jpg/960px-Bad_Bunny_2019_by_Glenn_Francis_%28cropped%29.jpg",
+      "avatarText": "DT",
+      "color": "#d78fca",
+      "artist": "Bad Bunny",
+      "year": "2025–2026",
+      "shows": "55",
+      "adjustedGross": "$467,500,000",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.json",
+          "x": 1280,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.75,
+          "u1": 1,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Bad_Bunny_2019_by_Glenn_Francis_%28cropped%29.jpg/960px-Bad_Bunny_2019_by_Glenn_Francis_%28cropped%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    }
+  ],
+  "frames": [
+    {
+      "date": "20260628",
+      "values": [
+        {
+          "id": "the-eras-tour-taylor-swift-2023-2024",
+          "value": 2077618725,
+          "rank": 1,
+          "artist": "Taylor Swift",
+          "year": "2023–2024",
+          "shows": "149",
+          "adjustedGross": "$2,132,275,503"
+        },
+        {
+          "id": "music-of-the-spheres-world-tour-coldplay-2022-2025",
+          "value": 1524423018,
+          "rank": 2,
+          "artist": "Coldplay",
+          "year": "2022–2025",
+          "shows": "223",
+          "adjustedGross": "$1,524,423,018"
+        },
+        {
+          "id": "farewell-yellow-brick-road-elton-john-2018-2023",
+          "value": 939100000,
+          "rank": 3,
+          "artist": "Elton John",
+          "year": "2018–2023",
+          "shows": "330",
+          "adjustedGross": "$992,332,077"
+        },
+        {
+          "id": "tour-ed-sheeran-2022-2025",
+          "value": 875700000,
+          "rank": 4,
+          "artist": "Ed Sheeran",
+          "year": "2022–2025",
+          "shows": "169",
+          "adjustedGross": "$875,700,000"
+        },
+        {
+          "id": "tour-ed-sheeran-2017-2019",
+          "value": 776200000,
+          "rank": 5,
+          "artist": "Ed Sheeran",
+          "year": "2017–2019",
+          "shows": "255",
+          "adjustedGross": "$977,448,262"
+        },
+        {
+          "id": "360-tour-u2-2009-2011",
+          "value": 736421586,
+          "rank": 6,
+          "artist": "U2",
+          "year": "2009–2011",
+          "shows": "110",
+          "adjustedGross": "$1,053,976,160"
+        },
+        {
+          "id": "after-hours-til-dawn-tour-the-weeknd-2022-2026",
+          "value": 735800000,
+          "rank": 7,
+          "artist": "The Weeknd",
+          "year": "2022–2026",
+          "shows": "116",
+          "adjustedGross": "$735,800,000"
+        },
+        {
+          "id": "2023-2025-tour-bruce-springsteen-and-e-street-band-2023-2025",
+          "value": 729700000,
+          "rank": 8,
+          "artist": "Bruce Springsteen & E Street Band",
+          "year": "2023–2025",
+          "shows": "129",
+          "adjustedGross": "$729,700,000"
+        },
+        {
+          "id": "love-on-tour-harry-styles-2021-2023",
+          "value": 617325000,
+          "rank": 9,
+          "artist": "Harry Styles",
+          "year": "2021–2023",
+          "shows": "169",
+          "adjustedGross": "$652,317,538"
+        },
+        {
+          "id": "summer-carnival-pink-2023-2024",
+          "value": 584700000,
+          "rank": 10,
+          "artist": "Pink",
+          "year": "2023–2024",
+          "shows": "97",
+          "adjustedGross": "$600,081,945"
+        },
+        {
+          "id": "not-in-this-lifetime-tour-guns-n-roses-2016-2019",
+          "value": 584200000,
+          "rank": 11,
+          "artist": "Guns N' Roses",
+          "year": "2016–2019",
+          "shows": "158",
+          "adjustedGross": "$735,667,708"
+        },
+        {
+          "id": "renaissance-world-tour-beyonce-2023",
+          "value": 579879268,
+          "rank": 12,
+          "artist": "Beyoncé",
+          "year": "2023",
+          "shows": "56",
+          "adjustedGross": "$612,749,227"
+        },
+        {
+          "id": "stadium-tour-rammstein-2019-2024",
+          "value": 563000000,
+          "rank": 13,
+          "artist": "Rammstein",
+          "year": "2019–2024",
+          "shows": "141",
+          "adjustedGross": "$577,811,075"
+        },
+        {
+          "id": "a-bigger-bang-tour-the-rolling-stones-2005-2007",
+          "value": 558255524,
+          "rank": 14,
+          "artist": "The Rolling Stones",
+          "year": "2005–2007",
+          "shows": "144",
+          "adjustedGross": "$866,814,668"
+        },
+        {
+          "id": "no-filter-tour-the-rolling-stones-2017-2021",
+          "value": 546500000,
+          "rank": 15,
+          "artist": "The Rolling Stones",
+          "year": "2017–2021",
+          "shows": "58",
+          "adjustedGross": "$649,316,898"
+        },
+        {
+          "id": "a-head-full-of-dreams-tour-coldplay-2016-2017",
+          "value": 523033675,
+          "rank": 16,
+          "artist": "Coldplay",
+          "year": "2016–2017",
+          "shows": "114",
+          "adjustedGross": "$686,987,620"
+        },
+        {
+          "id": "m72-world-tour-metallica-2023-2026",
+          "value": 517500000,
+          "rank": 17,
+          "artist": "Metallica",
+          "year": "2023–2026",
+          "shows": "70",
+          "adjustedGross": "$517,500,000"
+        }
+      ]
+    },
+    {
+      "date": "20260629",
+      "values": [
+        {
+          "id": "the-eras-tour-taylor-swift-2023-2024",
+          "value": 2077618725,
+          "rank": 1,
+          "artist": "Taylor Swift",
+          "year": "2023–2024",
+          "shows": "149",
+          "adjustedGross": "$2,132,275,503"
+        },
+        {
+          "id": "music-of-the-spheres-world-tour-coldplay-2022-2025",
+          "value": 1524423018,
+          "rank": 2,
+          "artist": "Coldplay",
+          "year": "2022–2025",
+          "shows": "223",
+          "adjustedGross": "$1,524,423,018"
+        },
+        {
+          "id": "farewell-yellow-brick-road-elton-john-2018-2023",
+          "value": 939100000,
+          "rank": 3,
+          "artist": "Elton John",
+          "year": "2018–2023",
+          "shows": "330",
+          "adjustedGross": "$992,332,077"
+        },
+        {
+          "id": "tour-ed-sheeran-2022-2025",
+          "value": 875700000,
+          "rank": 4,
+          "artist": "Ed Sheeran",
+          "year": "2022–2025",
+          "shows": "169",
+          "adjustedGross": "$875,700,000"
+        },
+        {
+          "id": "tour-ed-sheeran-2017-2019",
+          "value": 776200000,
+          "rank": 5,
+          "artist": "Ed Sheeran",
+          "year": "2017–2019",
+          "shows": "255",
+          "adjustedGross": "$977,448,262"
+        },
+        {
+          "id": "360-tour-u2-2009-2011",
+          "value": 736421586,
+          "rank": 6,
+          "artist": "U2",
+          "year": "2009–2011",
+          "shows": "110",
+          "adjustedGross": "$1,053,976,160"
+        },
+        {
+          "id": "after-hours-til-dawn-tour-the-weeknd-2022-2026",
+          "value": 735800000,
+          "rank": 7,
+          "artist": "The Weeknd",
+          "year": "2022–2026",
+          "shows": "116",
+          "adjustedGross": "$735,800,000"
+        },
+        {
+          "id": "2023-2025-tour-bruce-springsteen-and-e-street-band-2023-2025",
+          "value": 729700000,
+          "rank": 8,
+          "artist": "Bruce Springsteen & E Street Band",
+          "year": "2023–2025",
+          "shows": "129",
+          "adjustedGross": "$729,700,000"
+        },
+        {
+          "id": "love-on-tour-harry-styles-2021-2023",
+          "value": 617325000,
+          "rank": 9,
+          "artist": "Harry Styles",
+          "year": "2021–2023",
+          "shows": "169",
+          "adjustedGross": "$652,317,538"
+        },
+        {
+          "id": "summer-carnival-pink-2023-2024",
+          "value": 584700000,
+          "rank": 10,
+          "artist": "Pink",
+          "year": "2023–2024",
+          "shows": "97",
+          "adjustedGross": "$600,081,945"
+        },
+        {
+          "id": "not-in-this-lifetime-tour-guns-n-roses-2016-2019",
+          "value": 584200000,
+          "rank": 11,
+          "artist": "Guns N' Roses",
+          "year": "2016–2019",
+          "shows": "158",
+          "adjustedGross": "$735,667,708"
+        },
+        {
+          "id": "renaissance-world-tour-beyonce-2023",
+          "value": 579879268,
+          "rank": 12,
+          "artist": "Beyoncé",
+          "year": "2023",
+          "shows": "56",
+          "adjustedGross": "$612,749,227"
+        },
+        {
+          "id": "stadium-tour-rammstein-2019-2024",
+          "value": 563000000,
+          "rank": 13,
+          "artist": "Rammstein",
+          "year": "2019–2024",
+          "shows": "141",
+          "adjustedGross": "$577,811,075"
+        },
+        {
+          "id": "a-bigger-bang-tour-the-rolling-stones-2005-2007",
+          "value": 558255524,
+          "rank": 14,
+          "artist": "The Rolling Stones",
+          "year": "2005–2007",
+          "shows": "144",
+          "adjustedGross": "$866,814,668"
+        },
+        {
+          "id": "no-filter-tour-the-rolling-stones-2017-2021",
+          "value": 546500000,
+          "rank": 15,
+          "artist": "The Rolling Stones",
+          "year": "2017–2021",
+          "shows": "58",
+          "adjustedGross": "$649,316,898"
+        },
+        {
+          "id": "a-head-full-of-dreams-tour-coldplay-2016-2017",
+          "value": 523033675,
+          "rank": 16,
+          "artist": "Coldplay",
+          "year": "2016–2017",
+          "shows": "114",
+          "adjustedGross": "$686,987,620"
+        },
+        {
+          "id": "m72-world-tour-metallica-2023-2026",
+          "value": 517500000,
+          "rank": 17,
+          "artist": "Metallica",
+          "year": "2023–2026",
+          "shows": "70",
+          "adjustedGross": "$517,500,000"
+        }
+      ]
+    },
+    {
+      "date": "20260701",
+      "values": [
+        {
+          "id": "the-eras-tour-taylor-swift-2023-2024",
+          "value": 2077618725,
+          "rank": 1,
+          "artist": "Taylor Swift",
+          "year": "2023–2024",
+          "shows": "149",
+          "adjustedGross": "$2,132,275,503"
+        },
+        {
+          "id": "music-of-the-spheres-world-tour-coldplay-2022-2025",
+          "value": 1524423018,
+          "rank": 2,
+          "artist": "Coldplay",
+          "year": "2022–2025",
+          "shows": "223",
+          "adjustedGross": "$1,524,423,018"
+        },
+        {
+          "id": "farewell-yellow-brick-road-elton-john-2018-2023",
+          "value": 939100000,
+          "rank": 3,
+          "artist": "Elton John",
+          "year": "2018–2023",
+          "shows": "330",
+          "adjustedGross": "$992,332,077"
+        },
+        {
+          "id": "tour-ed-sheeran-2022-2025",
+          "value": 875700000,
+          "rank": 4,
+          "artist": "Ed Sheeran",
+          "year": "2022–2025",
+          "shows": "169",
+          "adjustedGross": "$875,700,000"
+        },
+        {
+          "id": "tour-ed-sheeran-2017-2019",
+          "value": 776200000,
+          "rank": 5,
+          "artist": "Ed Sheeran",
+          "year": "2017–2019",
+          "shows": "255",
+          "adjustedGross": "$977,448,262"
+        },
+        {
+          "id": "360-tour-u2-2009-2011",
+          "value": 736421586,
+          "rank": 6,
+          "artist": "U2",
+          "year": "2009–2011",
+          "shows": "110",
+          "adjustedGross": "$1,053,976,160"
+        },
+        {
+          "id": "after-hours-til-dawn-tour-the-weeknd-2022-2026",
+          "value": 735800000,
+          "rank": 7,
+          "artist": "The Weeknd",
+          "year": "2022–2026",
+          "shows": "116",
+          "adjustedGross": "$735,800,000"
+        },
+        {
+          "id": "2023-2025-tour-bruce-springsteen-and-e-street-band-2023-2025",
+          "value": 729700000,
+          "rank": 8,
+          "artist": "Bruce Springsteen & E Street Band",
+          "year": "2023–2025",
+          "shows": "129",
+          "adjustedGross": "$729,700,000"
+        },
+        {
+          "id": "love-on-tour-harry-styles-2021-2023",
+          "value": 617325000,
+          "rank": 9,
+          "artist": "Harry Styles",
+          "year": "2021–2023",
+          "shows": "169",
+          "adjustedGross": "$652,317,538"
+        },
+        {
+          "id": "m72-world-tour-metallica-2023-2026",
+          "value": 590100000,
+          "rank": 10,
+          "artist": "Metallica",
+          "year": "2023–2026",
+          "shows": "77",
+          "adjustedGross": "$590,100,000"
+        },
+        {
+          "id": "summer-carnival-pink-2023-2024",
+          "value": 584700000,
+          "rank": 11,
+          "artist": "Pink",
+          "year": "2023–2024",
+          "shows": "97",
+          "adjustedGross": "$600,081,945"
+        },
+        {
+          "id": "not-in-this-lifetime-tour-guns-n-roses-2016-2019",
+          "value": 584200000,
+          "rank": 12,
+          "artist": "Guns N' Roses",
+          "year": "2016–2019",
+          "shows": "158",
+          "adjustedGross": "$735,667,708"
+        },
+        {
+          "id": "renaissance-world-tour-beyonce-2023",
+          "value": 579879268,
+          "rank": 13,
+          "artist": "Beyoncé",
+          "year": "2023",
+          "shows": "56",
+          "adjustedGross": "$612,749,227"
+        },
+        {
+          "id": "stadium-tour-rammstein-2019-2024",
+          "value": 563000000,
+          "rank": 14,
+          "artist": "Rammstein",
+          "year": "2019–2024",
+          "shows": "141",
+          "adjustedGross": "$577,811,075"
+        },
+        {
+          "id": "a-bigger-bang-tour-the-rolling-stones-2005-2007",
+          "value": 558255524,
+          "rank": 15,
+          "artist": "The Rolling Stones",
+          "year": "2005–2007",
+          "shows": "144",
+          "adjustedGross": "$866,814,668"
+        },
+        {
+          "id": "no-filter-tour-the-rolling-stones-2017-2021",
+          "value": 546500000,
+          "rank": 16,
+          "artist": "The Rolling Stones",
+          "year": "2017–2021",
+          "shows": "58",
+          "adjustedGross": "$649,316,898"
+        },
+        {
+          "id": "a-head-full-of-dreams-tour-coldplay-2016-2017",
+          "value": 523033675,
+          "rank": 17,
+          "artist": "Coldplay",
+          "year": "2016–2017",
+          "shows": "114",
+          "adjustedGross": "$686,987,620"
+        }
+      ]
+    },
+    {
+      "date": "20260706",
+      "values": [
+        {
+          "id": "the-eras-tour-taylor-swift-2023-2024",
+          "value": 2077618725,
+          "rank": 1,
+          "artist": "Taylor Swift",
+          "year": "2023–2024",
+          "shows": "149",
+          "adjustedGross": "$2,132,275,503"
+        },
+        {
+          "id": "music-of-the-spheres-world-tour-coldplay-2022-2025",
+          "value": 1524423018,
+          "rank": 2,
+          "artist": "Coldplay",
+          "year": "2022–2025",
+          "shows": "223",
+          "adjustedGross": "$1,524,423,018"
+        },
+        {
+          "id": "farewell-yellow-brick-road-elton-john-2018-2023",
+          "value": 939100000,
+          "rank": 3,
+          "artist": "Elton John",
+          "year": "2018–2023",
+          "shows": "330",
+          "adjustedGross": "$992,332,077"
+        },
+        {
+          "id": "tour-ed-sheeran-2022-2025",
+          "value": 875700000,
+          "rank": 4,
+          "artist": "Ed Sheeran",
+          "year": "2022–2025",
+          "shows": "169",
+          "adjustedGross": "$875,700,000"
+        },
+        {
+          "id": "tour-ed-sheeran-2017-2019",
+          "value": 776200000,
+          "rank": 5,
+          "artist": "Ed Sheeran",
+          "year": "2017–2019",
+          "shows": "255",
+          "adjustedGross": "$977,448,262"
+        },
+        {
+          "id": "360-tour-u2-2009-2011",
+          "value": 736421586,
+          "rank": 6,
+          "artist": "U2",
+          "year": "2009–2011",
+          "shows": "110",
+          "adjustedGross": "$1,053,976,160"
+        },
+        {
+          "id": "after-hours-til-dawn-tour-the-weeknd-2022-2026",
+          "value": 735800000,
+          "rank": 7,
+          "artist": "The Weeknd",
+          "year": "2022–2026",
+          "shows": "116",
+          "adjustedGross": "$735,800,000"
+        },
+        {
+          "id": "2023-2025-tour-bruce-springsteen-and-e-street-band-2023-2025",
+          "value": 729700000,
+          "rank": 8,
+          "artist": "Bruce Springsteen & E Street Band",
+          "year": "2023–2025",
+          "shows": "129",
+          "adjustedGross": "$729,700,000"
+        },
+        {
+          "id": "love-on-tour-harry-styles-2021-2023",
+          "value": 617325000,
+          "rank": 9,
+          "artist": "Harry Styles",
+          "year": "2021–2023",
+          "shows": "169",
+          "adjustedGross": "$652,317,538"
+        },
+        {
+          "id": "m72-world-tour-metallica-2023-2026",
+          "value": 590100000,
+          "rank": 10,
+          "artist": "Metallica",
+          "year": "2023–2026",
+          "shows": "77",
+          "adjustedGross": "$590,100,000"
+        },
+        {
+          "id": "summer-carnival-pink-2023-2024",
+          "value": 584700000,
+          "rank": 11,
+          "artist": "Pink",
+          "year": "2023–2024",
+          "shows": "97",
+          "adjustedGross": "$600,081,945"
+        },
+        {
+          "id": "not-in-this-lifetime-tour-guns-n-roses-2016-2019",
+          "value": 584200000,
+          "rank": 12,
+          "artist": "Guns N' Roses",
+          "year": "2016–2019",
+          "shows": "158",
+          "adjustedGross": "$735,667,708"
+        },
+        {
+          "id": "renaissance-world-tour-beyonce-2023",
+          "value": 579879268,
+          "rank": 13,
+          "artist": "Beyoncé",
+          "year": "2023",
+          "shows": "56",
+          "adjustedGross": "$612,749,227"
+        },
+        {
+          "id": "stadium-tour-rammstein-2019-2024",
+          "value": 563000000,
+          "rank": 14,
+          "artist": "Rammstein",
+          "year": "2019–2024",
+          "shows": "141",
+          "adjustedGross": "$577,811,075"
+        },
+        {
+          "id": "a-bigger-bang-tour-the-rolling-stones-2005-2007",
+          "value": 558255524,
+          "rank": 15,
+          "artist": "The Rolling Stones",
+          "year": "2005–2007",
+          "shows": "144",
+          "adjustedGross": "$866,814,668"
+        },
+        {
+          "id": "no-filter-tour-the-rolling-stones-2017-2021",
+          "value": 546500000,
+          "rank": 16,
+          "artist": "The Rolling Stones",
+          "year": "2017–2021",
+          "shows": "58",
+          "adjustedGross": "$649,316,898"
+        },
+        {
+          "id": "a-head-full-of-dreams-tour-coldplay-2016-2017",
+          "value": 523033675,
+          "rank": 17,
+          "artist": "Coldplay",
+          "year": "2016–2017",
+          "shows": "114",
+          "adjustedGross": "$686,987,620"
+        }
+      ]
+    },
+    {
+      "date": "20260707",
+      "values": [
+        {
+          "id": "the-eras-tour-taylor-swift-2023-2024",
+          "value": 2077618725,
+          "rank": 1,
+          "artist": "Taylor Swift",
+          "year": "2023–2024",
+          "shows": "149",
+          "adjustedGross": "$2,132,275,503"
+        },
+        {
+          "id": "music-of-the-spheres-world-tour-coldplay-2022-2025",
+          "value": 1524423018,
+          "rank": 2,
+          "artist": "Coldplay",
+          "year": "2022–2025",
+          "shows": "223",
+          "adjustedGross": "$1,524,423,018"
+        },
+        {
+          "id": "farewell-yellow-brick-road-elton-john-2018-2023",
+          "value": 939100000,
+          "rank": 3,
+          "artist": "Elton John",
+          "year": "2018–2023",
+          "shows": "330",
+          "adjustedGross": "$992,332,077"
+        },
+        {
+          "id": "tour-ed-sheeran-2022-2025",
+          "value": 875700000,
+          "rank": 4,
+          "artist": "Ed Sheeran",
+          "year": "2022–2025",
+          "shows": "169",
+          "adjustedGross": "$875,700,000"
+        },
+        {
+          "id": "tour-ed-sheeran-2017-2019",
+          "value": 776200000,
+          "rank": 5,
+          "artist": "Ed Sheeran",
+          "year": "2017–2019",
+          "shows": "255",
+          "adjustedGross": "$977,448,262"
+        },
+        {
+          "id": "360-tour-u2-2009-2011",
+          "value": 736421586,
+          "rank": 6,
+          "artist": "U2",
+          "year": "2009–2011",
+          "shows": "110",
+          "adjustedGross": "$1,053,976,160"
+        },
+        {
+          "id": "after-hours-til-dawn-tour-the-weeknd-2022-2026",
+          "value": 735800000,
+          "rank": 7,
+          "artist": "The Weeknd",
+          "year": "2022–2026",
+          "shows": "116",
+          "adjustedGross": "$735,800,000"
+        },
+        {
+          "id": "2023-2025-tour-bruce-springsteen-and-e-street-band-2023-2025",
+          "value": 729700000,
+          "rank": 8,
+          "artist": "Bruce Springsteen & E Street Band",
+          "year": "2023–2025",
+          "shows": "129",
+          "adjustedGross": "$729,700,000"
+        },
+        {
+          "id": "love-on-tour-harry-styles-2021-2023",
+          "value": 617325000,
+          "rank": 9,
+          "artist": "Harry Styles",
+          "year": "2021–2023",
+          "shows": "169",
+          "adjustedGross": "$652,317,538"
+        },
+        {
+          "id": "m72-world-tour-metallica-2023-2026",
+          "value": 590100000,
+          "rank": 10,
+          "artist": "Metallica",
+          "year": "2023–2026",
+          "shows": "77",
+          "adjustedGross": "$590,100,000"
+        },
+        {
+          "id": "summer-carnival-pink-2023-2024",
+          "value": 584700000,
+          "rank": 11,
+          "artist": "Pink",
+          "year": "2023–2024",
+          "shows": "97",
+          "adjustedGross": "$600,081,945"
+        },
+        {
+          "id": "not-in-this-lifetime-tour-guns-n-roses-2016-2019",
+          "value": 584200000,
+          "rank": 12,
+          "artist": "Guns N' Roses",
+          "year": "2016–2019",
+          "shows": "158",
+          "adjustedGross": "$735,667,708"
+        },
+        {
+          "id": "renaissance-world-tour-beyonce-2023",
+          "value": 579879268,
+          "rank": 13,
+          "artist": "Beyoncé",
+          "year": "2023",
+          "shows": "56",
+          "adjustedGross": "$612,749,227"
+        },
+        {
+          "id": "stadium-tour-rammstein-2019-2024",
+          "value": 563000000,
+          "rank": 14,
+          "artist": "Rammstein",
+          "year": "2019–2024",
+          "shows": "141",
+          "adjustedGross": "$577,811,075"
+        },
+        {
+          "id": "a-bigger-bang-tour-the-rolling-stones-2005-2007",
+          "value": 558255524,
+          "rank": 15,
+          "artist": "The Rolling Stones",
+          "year": "2005–2007",
+          "shows": "144",
+          "adjustedGross": "$866,814,668"
+        },
+        {
+          "id": "no-filter-tour-the-rolling-stones-2017-2021",
+          "value": 546500000,
+          "rank": 16,
+          "artist": "The Rolling Stones",
+          "year": "2017–2021",
+          "shows": "58",
+          "adjustedGross": "$649,316,898"
+        },
+        {
+          "id": "a-head-full-of-dreams-tour-coldplay-2016-2017",
+          "value": 523033675,
+          "rank": 17,
+          "artist": "Coldplay",
+          "year": "2016–2017",
+          "shows": "114",
+          "adjustedGross": "$686,987,620"
+        }
+      ]
+    },
+    {
+      "date": "20260708",
+      "values": [
+        {
+          "id": "the-eras-tour-taylor-swift-2023-2024",
+          "value": 2077618725,
+          "rank": 1,
+          "artist": "Taylor Swift",
+          "year": "2023–2024",
+          "shows": "149",
+          "adjustedGross": "$2,132,275,503"
+        },
+        {
+          "id": "music-of-the-spheres-world-tour-coldplay-2022-2025",
+          "value": 1524423018,
+          "rank": 2,
+          "artist": "Coldplay",
+          "year": "2022–2025",
+          "shows": "223",
+          "adjustedGross": "$1,524,423,018"
+        },
+        {
+          "id": "farewell-yellow-brick-road-elton-john-2018-2023",
+          "value": 939100000,
+          "rank": 3,
+          "artist": "Elton John",
+          "year": "2018–2023",
+          "shows": "330",
+          "adjustedGross": "$992,332,077"
+        },
+        {
+          "id": "tour-ed-sheeran-2022-2025",
+          "value": 875700000,
+          "rank": 4,
+          "artist": "Ed Sheeran",
+          "year": "2022–2025",
+          "shows": "169",
+          "adjustedGross": "$875,700,000"
+        },
+        {
+          "id": "tour-ed-sheeran-2017-2019",
+          "value": 776200000,
+          "rank": 5,
+          "artist": "Ed Sheeran",
+          "year": "2017–2019",
+          "shows": "255",
+          "adjustedGross": "$977,448,262"
+        },
+        {
+          "id": "360-tour-u2-2009-2011",
+          "value": 736421586,
+          "rank": 6,
+          "artist": "U2",
+          "year": "2009–2011",
+          "shows": "110",
+          "adjustedGross": "$1,053,976,160"
+        },
+        {
+          "id": "after-hours-til-dawn-tour-the-weeknd-2022-2026",
+          "value": 735800000,
+          "rank": 7,
+          "artist": "The Weeknd",
+          "year": "2022–2026",
+          "shows": "116",
+          "adjustedGross": "$735,800,000"
+        },
+        {
+          "id": "2023-2025-tour-bruce-springsteen-and-e-street-band-2023-2025",
+          "value": 729700000,
+          "rank": 8,
+          "artist": "Bruce Springsteen & E Street Band",
+          "year": "2023–2025",
+          "shows": "129",
+          "adjustedGross": "$729,700,000"
+        },
+        {
+          "id": "love-on-tour-harry-styles-2021-2023",
+          "value": 617325000,
+          "rank": 9,
+          "artist": "Harry Styles",
+          "year": "2021–2023",
+          "shows": "169",
+          "adjustedGross": "$652,317,538"
+        },
+        {
+          "id": "m72-world-tour-metallica-2023-2026",
+          "value": 590100000,
+          "rank": 10,
+          "artist": "Metallica",
+          "year": "2023–2026",
+          "shows": "77",
+          "adjustedGross": "$590,100,000"
+        },
+        {
+          "id": "summer-carnival-pink-2023-2024",
+          "value": 584700000,
+          "rank": 11,
+          "artist": "Pink",
+          "year": "2023–2024",
+          "shows": "97",
+          "adjustedGross": "$600,081,945"
+        },
+        {
+          "id": "not-in-this-lifetime-tour-guns-n-roses-2016-2019",
+          "value": 584200000,
+          "rank": 12,
+          "artist": "Guns N' Roses",
+          "year": "2016–2019",
+          "shows": "158",
+          "adjustedGross": "$735,667,708"
+        },
+        {
+          "id": "renaissance-world-tour-beyonce-2023",
+          "value": 579879268,
+          "rank": 13,
+          "artist": "Beyoncé",
+          "year": "2023",
+          "shows": "56",
+          "adjustedGross": "$612,749,227"
+        },
+        {
+          "id": "stadium-tour-rammstein-2019-2024",
+          "value": 563000000,
+          "rank": 14,
+          "artist": "Rammstein",
+          "year": "2019–2024",
+          "shows": "141",
+          "adjustedGross": "$577,811,075"
+        },
+        {
+          "id": "a-bigger-bang-tour-the-rolling-stones-2005-2007",
+          "value": 558255524,
+          "rank": 15,
+          "artist": "The Rolling Stones",
+          "year": "2005–2007",
+          "shows": "144",
+          "adjustedGross": "$866,814,668"
+        },
+        {
+          "id": "no-filter-tour-the-rolling-stones-2017-2021",
+          "value": 546500000,
+          "rank": 16,
+          "artist": "The Rolling Stones",
+          "year": "2017–2021",
+          "shows": "58",
+          "adjustedGross": "$649,316,898"
+        },
+        {
+          "id": "a-head-full-of-dreams-tour-coldplay-2016-2017",
+          "value": 523033675,
+          "rank": 17,
+          "artist": "Coldplay",
+          "year": "2016–2017",
+          "shows": "114",
+          "adjustedGross": "$686,987,620"
+        }
+      ]
+    },
+    {
+      "date": "20260709",
+      "values": [
+        {
+          "id": "the-eras-tour-taylor-swift-2023-2024",
+          "value": 2077618725,
+          "rank": 1,
+          "artist": "Taylor Swift",
+          "year": "2023–2024",
+          "shows": "149",
+          "adjustedGross": "$2,132,275,503"
+        },
+        {
+          "id": "music-of-the-spheres-world-tour-coldplay-2022-2025",
+          "value": 1524423018,
+          "rank": 2,
+          "artist": "Coldplay",
+          "year": "2022–2025",
+          "shows": "223",
+          "adjustedGross": "$1,524,423,018"
+        },
+        {
+          "id": "farewell-yellow-brick-road-elton-john-2018-2023",
+          "value": 939100000,
+          "rank": 3,
+          "artist": "Elton John",
+          "year": "2018–2023",
+          "shows": "330",
+          "adjustedGross": "$992,332,077"
+        },
+        {
+          "id": "tour-ed-sheeran-2022-2025",
+          "value": 875700000,
+          "rank": 4,
+          "artist": "Ed Sheeran",
+          "year": "2022–2025",
+          "shows": "169",
+          "adjustedGross": "$875,700,000"
+        },
+        {
+          "id": "tour-ed-sheeran-2017-2019",
+          "value": 776200000,
+          "rank": 5,
+          "artist": "Ed Sheeran",
+          "year": "2017–2019",
+          "shows": "255",
+          "adjustedGross": "$977,448,262"
+        },
+        {
+          "id": "360-tour-u2-2009-2011",
+          "value": 736421586,
+          "rank": 6,
+          "artist": "U2",
+          "year": "2009–2011",
+          "shows": "110",
+          "adjustedGross": "$1,053,976,160"
+        },
+        {
+          "id": "after-hours-til-dawn-tour-the-weeknd-2022-2026",
+          "value": 735800000,
+          "rank": 7,
+          "artist": "The Weeknd",
+          "year": "2022–2026",
+          "shows": "116",
+          "adjustedGross": "$735,800,000"
+        },
+        {
+          "id": "2023-2025-tour-bruce-springsteen-and-e-street-band-2023-2025",
+          "value": 729700000,
+          "rank": 8,
+          "artist": "Bruce Springsteen & E Street Band",
+          "year": "2023–2025",
+          "shows": "129",
+          "adjustedGross": "$729,700,000"
+        },
+        {
+          "id": "love-on-tour-harry-styles-2021-2023",
+          "value": 617325000,
+          "rank": 9,
+          "artist": "Harry Styles",
+          "year": "2021–2023",
+          "shows": "169",
+          "adjustedGross": "$652,317,538"
+        },
+        {
+          "id": "m72-world-tour-metallica-2023-2026",
+          "value": 590100000,
+          "rank": 10,
+          "artist": "Metallica",
+          "year": "2023–2026",
+          "shows": "77",
+          "adjustedGross": "$590,100,000"
+        },
+        {
+          "id": "summer-carnival-pink-2023-2024",
+          "value": 584700000,
+          "rank": 11,
+          "artist": "Pink",
+          "year": "2023–2024",
+          "shows": "97",
+          "adjustedGross": "$600,081,945"
+        },
+        {
+          "id": "not-in-this-lifetime-tour-guns-n-roses-2016-2019",
+          "value": 584200000,
+          "rank": 12,
+          "artist": "Guns N' Roses",
+          "year": "2016–2019",
+          "shows": "158",
+          "adjustedGross": "$735,667,708"
+        },
+        {
+          "id": "renaissance-world-tour-beyonce-2023",
+          "value": 579879268,
+          "rank": 13,
+          "artist": "Beyoncé",
+          "year": "2023",
+          "shows": "56",
+          "adjustedGross": "$612,749,227"
+        },
+        {
+          "id": "stadium-tour-rammstein-2019-2024",
+          "value": 563000000,
+          "rank": 14,
+          "artist": "Rammstein",
+          "year": "2019–2024",
+          "shows": "141",
+          "adjustedGross": "$577,811,075"
+        },
+        {
+          "id": "a-bigger-bang-tour-the-rolling-stones-2005-2007",
+          "value": 558255524,
+          "rank": 15,
+          "artist": "The Rolling Stones",
+          "year": "2005–2007",
+          "shows": "144",
+          "adjustedGross": "$866,814,668"
+        },
+        {
+          "id": "no-filter-tour-the-rolling-stones-2017-2021",
+          "value": 546500000,
+          "rank": 16,
+          "artist": "The Rolling Stones",
+          "year": "2017–2021",
+          "shows": "58",
+          "adjustedGross": "$649,316,898"
+        },
+        {
+          "id": "a-head-full-of-dreams-tour-coldplay-2016-2017",
+          "value": 523033675,
+          "rank": 17,
+          "artist": "Coldplay",
+          "year": "2016–2017",
+          "shows": "114",
+          "adjustedGross": "$686,987,620"
+        }
+      ]
+    },
+    {
+      "date": "20260710",
+      "values": [
+        {
+          "id": "the-eras-tour-taylor-swift-2023-2024",
+          "value": 2077618725,
+          "rank": 1,
+          "artist": "Taylor Swift",
+          "year": "2023–2024",
+          "shows": "149",
+          "adjustedGross": "$2,132,275,503"
+        },
+        {
+          "id": "music-of-the-spheres-world-tour-coldplay-2022-2025",
+          "value": 1524423018,
+          "rank": 2,
+          "artist": "Coldplay",
+          "year": "2022–2025",
+          "shows": "223",
+          "adjustedGross": "$1,524,423,018"
+        },
+        {
+          "id": "farewell-yellow-brick-road-elton-john-2018-2023",
+          "value": 939100000,
+          "rank": 3,
+          "artist": "Elton John",
+          "year": "2018–2023",
+          "shows": "330",
+          "adjustedGross": "$992,332,077"
+        },
+        {
+          "id": "tour-ed-sheeran-2022-2025",
+          "value": 875700000,
+          "rank": 4,
+          "artist": "Ed Sheeran",
+          "year": "2022–2025",
+          "shows": "169",
+          "adjustedGross": "$875,700,000"
+        },
+        {
+          "id": "tour-ed-sheeran-2017-2019",
+          "value": 776200000,
+          "rank": 5,
+          "artist": "Ed Sheeran",
+          "year": "2017–2019",
+          "shows": "255",
+          "adjustedGross": "$977,448,262"
+        },
+        {
+          "id": "360-tour-u2-2009-2011",
+          "value": 736421586,
+          "rank": 6,
+          "artist": "U2",
+          "year": "2009–2011",
+          "shows": "110",
+          "adjustedGross": "$1,053,976,160"
+        },
+        {
+          "id": "after-hours-til-dawn-tour-the-weeknd-2022-2026",
+          "value": 735800000,
+          "rank": 7,
+          "artist": "The Weeknd",
+          "year": "2022–2026",
+          "shows": "116",
+          "adjustedGross": "$735,800,000"
+        },
+        {
+          "id": "2023-2025-tour-bruce-springsteen-and-e-street-band-2023-2025",
+          "value": 729700000,
+          "rank": 8,
+          "artist": "Bruce Springsteen & E Street Band",
+          "year": "2023–2025",
+          "shows": "129",
+          "adjustedGross": "$729,700,000"
+        },
+        {
+          "id": "love-on-tour-harry-styles-2021-2023",
+          "value": 617325000,
+          "rank": 9,
+          "artist": "Harry Styles",
+          "year": "2021–2023",
+          "shows": "169",
+          "adjustedGross": "$652,317,538"
+        },
+        {
+          "id": "m72-world-tour-metallica-2023-2026",
+          "value": 590100000,
+          "rank": 10,
+          "artist": "Metallica",
+          "year": "2023–2026",
+          "shows": "77",
+          "adjustedGross": "$590,100,000"
+        },
+        {
+          "id": "summer-carnival-pink-2023-2024",
+          "value": 584700000,
+          "rank": 11,
+          "artist": "Pink",
+          "year": "2023–2024",
+          "shows": "97",
+          "adjustedGross": "$600,081,945"
+        },
+        {
+          "id": "not-in-this-lifetime-tour-guns-n-roses-2016-2019",
+          "value": 584200000,
+          "rank": 12,
+          "artist": "Guns N' Roses",
+          "year": "2016–2019",
+          "shows": "158",
+          "adjustedGross": "$735,667,708"
+        },
+        {
+          "id": "renaissance-world-tour-beyonce-2023",
+          "value": 579879268,
+          "rank": 13,
+          "artist": "Beyoncé",
+          "year": "2023",
+          "shows": "56",
+          "adjustedGross": "$612,749,227"
+        },
+        {
+          "id": "stadium-tour-rammstein-2019-2024",
+          "value": 563000000,
+          "rank": 14,
+          "artist": "Rammstein",
+          "year": "2019–2024",
+          "shows": "141",
+          "adjustedGross": "$577,811,075"
+        },
+        {
+          "id": "a-bigger-bang-tour-the-rolling-stones-2005-2007",
+          "value": 558255524,
+          "rank": 15,
+          "artist": "The Rolling Stones",
+          "year": "2005–2007",
+          "shows": "144",
+          "adjustedGross": "$866,814,668"
+        },
+        {
+          "id": "no-filter-tour-the-rolling-stones-2017-2021",
+          "value": 546500000,
+          "rank": 16,
+          "artist": "The Rolling Stones",
+          "year": "2017–2021",
+          "shows": "58",
+          "adjustedGross": "$649,316,898"
+        },
+        {
+          "id": "a-head-full-of-dreams-tour-coldplay-2016-2017",
+          "value": 523033675,
+          "rank": 17,
+          "artist": "Coldplay",
+          "year": "2016–2017",
+          "shows": "114",
+          "adjustedGross": "$686,987,620"
+        }
+      ]
+    },
+    {
+      "date": "20260711",
+      "values": [
+        {
+          "id": "the-eras-tour-taylor-swift-2023-2024",
+          "value": 2077618725,
+          "rank": 1,
+          "artist": "Taylor Swift",
+          "year": "2023–2024",
+          "shows": "149",
+          "adjustedGross": "$2,132,275,503"
+        },
+        {
+          "id": "music-of-the-spheres-world-tour-coldplay-2022-2025",
+          "value": 1524423018,
+          "rank": 2,
+          "artist": "Coldplay",
+          "year": "2022–2025",
+          "shows": "223",
+          "adjustedGross": "$1,524,423,018"
+        },
+        {
+          "id": "farewell-yellow-brick-road-elton-john-2018-2023",
+          "value": 939100000,
+          "rank": 3,
+          "artist": "Elton John",
+          "year": "2018–2023",
+          "shows": "330",
+          "adjustedGross": "$992,332,077"
+        },
+        {
+          "id": "tour-ed-sheeran-2022-2025",
+          "value": 875700000,
+          "rank": 4,
+          "artist": "Ed Sheeran",
+          "year": "2022–2025",
+          "shows": "169",
+          "adjustedGross": "$875,700,000"
+        },
+        {
+          "id": "tour-ed-sheeran-2017-2019",
+          "value": 776200000,
+          "rank": 5,
+          "artist": "Ed Sheeran",
+          "year": "2017–2019",
+          "shows": "255",
+          "adjustedGross": "$977,448,262"
+        },
+        {
+          "id": "360-tour-u2-2009-2011",
+          "value": 736421586,
+          "rank": 6,
+          "artist": "U2",
+          "year": "2009–2011",
+          "shows": "110",
+          "adjustedGross": "$1,053,976,160"
+        },
+        {
+          "id": "after-hours-til-dawn-tour-the-weeknd-2022-2026",
+          "value": 735800000,
+          "rank": 7,
+          "artist": "The Weeknd",
+          "year": "2022–2026",
+          "shows": "116",
+          "adjustedGross": "$735,800,000"
+        },
+        {
+          "id": "2023-2025-tour-bruce-springsteen-and-e-street-band-2023-2025",
+          "value": 729700000,
+          "rank": 8,
+          "artist": "Bruce Springsteen & E Street Band",
+          "year": "2023–2025",
+          "shows": "129",
+          "adjustedGross": "$729,700,000"
+        },
+        {
+          "id": "love-on-tour-harry-styles-2021-2023",
+          "value": 617325000,
+          "rank": 9,
+          "artist": "Harry Styles",
+          "year": "2021–2023",
+          "shows": "169",
+          "adjustedGross": "$652,317,538"
+        },
+        {
+          "id": "m72-world-tour-metallica-2023-2026",
+          "value": 590100000,
+          "rank": 10,
+          "artist": "Metallica",
+          "year": "2023–2026",
+          "shows": "77",
+          "adjustedGross": "$590,100,000"
+        },
+        {
+          "id": "summer-carnival-pink-2023-2024",
+          "value": 584700000,
+          "rank": 11,
+          "artist": "Pink",
+          "year": "2023–2024",
+          "shows": "97",
+          "adjustedGross": "$600,081,945"
+        },
+        {
+          "id": "not-in-this-lifetime-tour-guns-n-roses-2016-2019",
+          "value": 584200000,
+          "rank": 12,
+          "artist": "Guns N' Roses",
+          "year": "2016–2019",
+          "shows": "158",
+          "adjustedGross": "$735,667,708"
+        },
+        {
+          "id": "renaissance-world-tour-beyonce-2023",
+          "value": 579879268,
+          "rank": 13,
+          "artist": "Beyoncé",
+          "year": "2023",
+          "shows": "56",
+          "adjustedGross": "$612,749,227"
+        },
+        {
+          "id": "stadium-tour-rammstein-2019-2024",
+          "value": 563000000,
+          "rank": 14,
+          "artist": "Rammstein",
+          "year": "2019–2024",
+          "shows": "141",
+          "adjustedGross": "$577,811,075"
+        },
+        {
+          "id": "a-bigger-bang-tour-the-rolling-stones-2005-2007",
+          "value": 558255524,
+          "rank": 15,
+          "artist": "The Rolling Stones",
+          "year": "2005–2007",
+          "shows": "144",
+          "adjustedGross": "$866,814,668"
+        },
+        {
+          "id": "no-filter-tour-the-rolling-stones-2017-2021",
+          "value": 546500000,
+          "rank": 16,
+          "artist": "The Rolling Stones",
+          "year": "2017–2021",
+          "shows": "58",
+          "adjustedGross": "$649,316,898"
+        },
+        {
+          "id": "a-head-full-of-dreams-tour-coldplay-2016-2017",
+          "value": 523033675,
+          "rank": 17,
+          "artist": "Coldplay",
+          "year": "2016–2017",
+          "shows": "114",
+          "adjustedGross": "$686,987,620"
+        }
+      ]
+    },
+    {
+      "date": "20260712",
+      "values": [
+        {
+          "id": "the-eras-tour-taylor-swift-2023-2024",
+          "value": 2077618725,
+          "rank": 1,
+          "artist": "Taylor Swift",
+          "year": "2023–2024",
+          "shows": "149",
+          "adjustedGross": "$2,132,275,503"
+        },
+        {
+          "id": "music-of-the-spheres-world-tour-coldplay-2022-2025",
+          "value": 1524423018,
+          "rank": 2,
+          "artist": "Coldplay",
+          "year": "2022–2025",
+          "shows": "223",
+          "adjustedGross": "$1,524,423,018"
+        },
+        {
+          "id": "farewell-yellow-brick-road-elton-john-2018-2023",
+          "value": 939100000,
+          "rank": 3,
+          "artist": "Elton John",
+          "year": "2018–2023",
+          "shows": "330",
+          "adjustedGross": "$992,332,077"
+        },
+        {
+          "id": "tour-ed-sheeran-2022-2025",
+          "value": 875700000,
+          "rank": 4,
+          "artist": "Ed Sheeran",
+          "year": "2022–2025",
+          "shows": "169",
+          "adjustedGross": "$875,700,000"
+        },
+        {
+          "id": "tour-ed-sheeran-2017-2019",
+          "value": 776200000,
+          "rank": 5,
+          "artist": "Ed Sheeran",
+          "year": "2017–2019",
+          "shows": "255",
+          "adjustedGross": "$977,448,262"
+        },
+        {
+          "id": "360-tour-u2-2009-2011",
+          "value": 736421586,
+          "rank": 6,
+          "artist": "U2",
+          "year": "2009–2011",
+          "shows": "110",
+          "adjustedGross": "$1,053,976,160"
+        },
+        {
+          "id": "after-hours-til-dawn-tour-the-weeknd-2022-2026",
+          "value": 735800000,
+          "rank": 7,
+          "artist": "The Weeknd",
+          "year": "2022–2026",
+          "shows": "116",
+          "adjustedGross": "$735,800,000"
+        },
+        {
+          "id": "2023-2025-tour-bruce-springsteen-and-e-street-band-2023-2025",
+          "value": 729700000,
+          "rank": 8,
+          "artist": "Bruce Springsteen & E Street Band",
+          "year": "2023–2025",
+          "shows": "129",
+          "adjustedGross": "$729,700,000"
+        },
+        {
+          "id": "love-on-tour-harry-styles-2021-2023",
+          "value": 617325000,
+          "rank": 9,
+          "artist": "Harry Styles",
+          "year": "2021–2023",
+          "shows": "169",
+          "adjustedGross": "$652,317,538"
+        },
+        {
+          "id": "m72-world-tour-metallica-2023-2026",
+          "value": 590100000,
+          "rank": 10,
+          "artist": "Metallica",
+          "year": "2023–2026",
+          "shows": "77",
+          "adjustedGross": "$590,100,000"
+        },
+        {
+          "id": "summer-carnival-pink-2023-2024",
+          "value": 584700000,
+          "rank": 11,
+          "artist": "Pink",
+          "year": "2023–2024",
+          "shows": "97",
+          "adjustedGross": "$600,081,945"
+        },
+        {
+          "id": "not-in-this-lifetime-tour-guns-n-roses-2016-2019",
+          "value": 584200000,
+          "rank": 12,
+          "artist": "Guns N' Roses",
+          "year": "2016–2019",
+          "shows": "158",
+          "adjustedGross": "$735,667,708"
+        },
+        {
+          "id": "renaissance-world-tour-beyonce-2023",
+          "value": 579879268,
+          "rank": 13,
+          "artist": "Beyoncé",
+          "year": "2023",
+          "shows": "56",
+          "adjustedGross": "$612,749,227"
+        },
+        {
+          "id": "stadium-tour-rammstein-2019-2024",
+          "value": 563000000,
+          "rank": 14,
+          "artist": "Rammstein",
+          "year": "2019–2024",
+          "shows": "141",
+          "adjustedGross": "$577,811,075"
+        },
+        {
+          "id": "a-bigger-bang-tour-the-rolling-stones-2005-2007",
+          "value": 558255524,
+          "rank": 15,
+          "artist": "The Rolling Stones",
+          "year": "2005–2007",
+          "shows": "144",
+          "adjustedGross": "$866,814,668"
+        },
+        {
+          "id": "no-filter-tour-the-rolling-stones-2017-2021",
+          "value": 546500000,
+          "rank": 16,
+          "artist": "The Rolling Stones",
+          "year": "2017–2021",
+          "shows": "58",
+          "adjustedGross": "$649,316,898"
+        },
+        {
+          "id": "a-head-full-of-dreams-tour-coldplay-2016-2017",
+          "value": 523033675,
+          "rank": 17,
+          "artist": "Coldplay",
+          "year": "2016–2017",
+          "shows": "114",
+          "adjustedGross": "$686,987,620"
+        }
+      ]
+    },
+    {
+      "date": "20260713",
+      "values": [
+        {
+          "id": "the-eras-tour-taylor-swift-2023-2024",
+          "value": 2077618725,
+          "rank": 1,
+          "artist": "Taylor Swift",
+          "year": "2023–2024",
+          "shows": "149",
+          "adjustedGross": "$2,132,275,503"
+        },
+        {
+          "id": "music-of-the-spheres-world-tour-coldplay-2022-2025",
+          "value": 1524423018,
+          "rank": 2,
+          "artist": "Coldplay",
+          "year": "2022–2025",
+          "shows": "223",
+          "adjustedGross": "$1,524,423,018"
+        },
+        {
+          "id": "farewell-yellow-brick-road-elton-john-2018-2023",
+          "value": 939100000,
+          "rank": 3,
+          "artist": "Elton John",
+          "year": "2018–2023",
+          "shows": "330",
+          "adjustedGross": "$992,332,077"
+        },
+        {
+          "id": "tour-ed-sheeran-2022-2025",
+          "value": 875700000,
+          "rank": 4,
+          "artist": "Ed Sheeran",
+          "year": "2022–2025",
+          "shows": "169",
+          "adjustedGross": "$875,700,000"
+        },
+        {
+          "id": "tour-ed-sheeran-2017-2019",
+          "value": 776200000,
+          "rank": 5,
+          "artist": "Ed Sheeran",
+          "year": "2017–2019",
+          "shows": "255",
+          "adjustedGross": "$977,448,262"
+        },
+        {
+          "id": "360-tour-u2-2009-2011",
+          "value": 736421586,
+          "rank": 6,
+          "artist": "U2",
+          "year": "2009–2011",
+          "shows": "110",
+          "adjustedGross": "$1,053,976,160"
+        },
+        {
+          "id": "after-hours-til-dawn-tour-the-weeknd-2022-2026",
+          "value": 735800000,
+          "rank": 7,
+          "artist": "The Weeknd",
+          "year": "2022–2026",
+          "shows": "116",
+          "adjustedGross": "$735,800,000"
+        },
+        {
+          "id": "2023-2025-tour-bruce-springsteen-and-e-street-band-2023-2025",
+          "value": 729700000,
+          "rank": 8,
+          "artist": "Bruce Springsteen & E Street Band",
+          "year": "2023–2025",
+          "shows": "129",
+          "adjustedGross": "$729,700,000"
+        },
+        {
+          "id": "love-on-tour-harry-styles-2021-2023",
+          "value": 617325000,
+          "rank": 9,
+          "artist": "Harry Styles",
+          "year": "2021–2023",
+          "shows": "169",
+          "adjustedGross": "$652,317,538"
+        },
+        {
+          "id": "m72-world-tour-metallica-2023-2026",
+          "value": 590100000,
+          "rank": 10,
+          "artist": "Metallica",
+          "year": "2023–2026",
+          "shows": "77",
+          "adjustedGross": "$590,100,000"
+        },
+        {
+          "id": "summer-carnival-pink-2023-2024",
+          "value": 584700000,
+          "rank": 11,
+          "artist": "Pink",
+          "year": "2023–2024",
+          "shows": "97",
+          "adjustedGross": "$600,081,945"
+        },
+        {
+          "id": "not-in-this-lifetime-tour-guns-n-roses-2016-2019",
+          "value": 584200000,
+          "rank": 12,
+          "artist": "Guns N' Roses",
+          "year": "2016–2019",
+          "shows": "158",
+          "adjustedGross": "$735,667,708"
+        },
+        {
+          "id": "renaissance-world-tour-beyonce-2023",
+          "value": 579879268,
+          "rank": 13,
+          "artist": "Beyoncé",
+          "year": "2023",
+          "shows": "56",
+          "adjustedGross": "$612,749,227"
+        },
+        {
+          "id": "stadium-tour-rammstein-2019-2024",
+          "value": 563000000,
+          "rank": 14,
+          "artist": "Rammstein",
+          "year": "2019–2024",
+          "shows": "141",
+          "adjustedGross": "$577,811,075"
+        },
+        {
+          "id": "a-bigger-bang-tour-the-rolling-stones-2005-2007",
+          "value": 558255524,
+          "rank": 15,
+          "artist": "The Rolling Stones",
+          "year": "2005–2007",
+          "shows": "144",
+          "adjustedGross": "$866,814,668"
+        },
+        {
+          "id": "no-filter-tour-the-rolling-stones-2017-2021",
+          "value": 546500000,
+          "rank": 16,
+          "artist": "The Rolling Stones",
+          "year": "2017–2021",
+          "shows": "58",
+          "adjustedGross": "$649,316,898"
+        },
+        {
+          "id": "a-head-full-of-dreams-tour-coldplay-2016-2017",
+          "value": 523033675,
+          "rank": 17,
+          "artist": "Coldplay",
+          "year": "2016–2017",
+          "shows": "114",
+          "adjustedGross": "$686,987,620"
+        }
+      ]
+    },
+    {
+      "date": "20260714",
+      "values": [
+        {
+          "id": "the-eras-tour-taylor-swift-2023-2024",
+          "value": 2077618725,
+          "rank": 1,
+          "artist": "Taylor Swift",
+          "year": "2023–2024",
+          "shows": "149",
+          "adjustedGross": "$2,132,275,503"
+        },
+        {
+          "id": "music-of-the-spheres-world-tour-coldplay-2022-2025",
+          "value": 1524423018,
+          "rank": 2,
+          "artist": "Coldplay",
+          "year": "2022–2025",
+          "shows": "223",
+          "adjustedGross": "$1,524,423,018"
+        },
+        {
+          "id": "farewell-yellow-brick-road-elton-john-2018-2023",
+          "value": 939100000,
+          "rank": 3,
+          "artist": "Elton John",
+          "year": "2018–2023",
+          "shows": "330",
+          "adjustedGross": "$992,332,077"
+        },
+        {
+          "id": "tour-ed-sheeran-2022-2025",
+          "value": 875700000,
+          "rank": 4,
+          "artist": "Ed Sheeran",
+          "year": "2022–2025",
+          "shows": "169",
+          "adjustedGross": "$875,700,000"
+        },
+        {
+          "id": "tour-ed-sheeran-2017-2019",
+          "value": 776200000,
+          "rank": 5,
+          "artist": "Ed Sheeran",
+          "year": "2017–2019",
+          "shows": "255",
+          "adjustedGross": "$977,448,262"
+        },
+        {
+          "id": "360-tour-u2-2009-2011",
+          "value": 736421586,
+          "rank": 6,
+          "artist": "U2",
+          "year": "2009–2011",
+          "shows": "110",
+          "adjustedGross": "$1,053,976,160"
+        },
+        {
+          "id": "after-hours-til-dawn-tour-the-weeknd-2022-2026",
+          "value": 735800000,
+          "rank": 7,
+          "artist": "The Weeknd",
+          "year": "2022–2026",
+          "shows": "116",
+          "adjustedGross": "$735,800,000"
+        },
+        {
+          "id": "2023-2025-tour-bruce-springsteen-and-e-street-band-2023-2025",
+          "value": 729700000,
+          "rank": 8,
+          "artist": "Bruce Springsteen & E Street Band",
+          "year": "2023–2025",
+          "shows": "129",
+          "adjustedGross": "$729,700,000"
+        },
+        {
+          "id": "love-on-tour-harry-styles-2021-2023",
+          "value": 617325000,
+          "rank": 9,
+          "artist": "Harry Styles",
+          "year": "2021–2023",
+          "shows": "169",
+          "adjustedGross": "$652,317,538"
+        },
+        {
+          "id": "m72-world-tour-metallica-2023-2026",
+          "value": 590100000,
+          "rank": 10,
+          "artist": "Metallica",
+          "year": "2023–2026",
+          "shows": "77",
+          "adjustedGross": "$590,100,000"
+        },
+        {
+          "id": "summer-carnival-pink-2023-2024",
+          "value": 584700000,
+          "rank": 11,
+          "artist": "Pink",
+          "year": "2023–2024",
+          "shows": "97",
+          "adjustedGross": "$600,081,945"
+        },
+        {
+          "id": "not-in-this-lifetime-tour-guns-n-roses-2016-2019",
+          "value": 584200000,
+          "rank": 12,
+          "artist": "Guns N' Roses",
+          "year": "2016–2019",
+          "shows": "158",
+          "adjustedGross": "$735,667,708"
+        },
+        {
+          "id": "renaissance-world-tour-beyonce-2023",
+          "value": 579879268,
+          "rank": 13,
+          "artist": "Beyoncé",
+          "year": "2023",
+          "shows": "56",
+          "adjustedGross": "$612,749,227"
+        },
+        {
+          "id": "stadium-tour-rammstein-2019-2024",
+          "value": 563000000,
+          "rank": 14,
+          "artist": "Rammstein",
+          "year": "2019–2024",
+          "shows": "141",
+          "adjustedGross": "$577,811,075"
+        },
+        {
+          "id": "a-bigger-bang-tour-the-rolling-stones-2005-2007",
+          "value": 558255524,
+          "rank": 15,
+          "artist": "The Rolling Stones",
+          "year": "2005–2007",
+          "shows": "144",
+          "adjustedGross": "$866,814,668"
+        },
+        {
+          "id": "no-filter-tour-the-rolling-stones-2017-2021",
+          "value": 546500000,
+          "rank": 16,
+          "artist": "The Rolling Stones",
+          "year": "2017–2021",
+          "shows": "58",
+          "adjustedGross": "$649,316,898"
+        },
+        {
+          "id": "a-head-full-of-dreams-tour-coldplay-2016-2017",
+          "value": 523033675,
+          "rank": 17,
+          "artist": "Coldplay",
+          "year": "2016–2017",
+          "shows": "114",
+          "adjustedGross": "$686,987,620"
+        }
+      ]
+    },
+    {
+      "date": "20260715",
+      "values": [
+        {
+          "id": "the-eras-tour-taylor-swift-2023-2024",
+          "value": 2077618725,
+          "rank": 1,
+          "artist": "Taylor Swift",
+          "year": "2023–2024",
+          "shows": "149",
+          "adjustedGross": "$2,132,275,503"
+        },
+        {
+          "id": "music-of-the-spheres-world-tour-coldplay-2022-2025",
+          "value": 1524423018,
+          "rank": 2,
+          "artist": "Coldplay",
+          "year": "2022–2025",
+          "shows": "223",
+          "adjustedGross": "$1,524,423,018"
+        },
+        {
+          "id": "farewell-yellow-brick-road-elton-john-2018-2023",
+          "value": 939100000,
+          "rank": 3,
+          "artist": "Elton John",
+          "year": "2018–2023",
+          "shows": "330",
+          "adjustedGross": "$992,332,077"
+        },
+        {
+          "id": "tour-ed-sheeran-2022-2025",
+          "value": 875700000,
+          "rank": 4,
+          "artist": "Ed Sheeran",
+          "year": "2022–2025",
+          "shows": "169",
+          "adjustedGross": "$875,700,000"
+        },
+        {
+          "id": "tour-ed-sheeran-2017-2019",
+          "value": 776200000,
+          "rank": 5,
+          "artist": "Ed Sheeran",
+          "year": "2017–2019",
+          "shows": "255",
+          "adjustedGross": "$977,448,262"
+        },
+        {
+          "id": "360-tour-u2-2009-2011",
+          "value": 736421586,
+          "rank": 6,
+          "artist": "U2",
+          "year": "2009–2011",
+          "shows": "110",
+          "adjustedGross": "$1,053,976,160"
+        },
+        {
+          "id": "after-hours-til-dawn-tour-the-weeknd-2022-2026",
+          "value": 735800000,
+          "rank": 7,
+          "artist": "The Weeknd",
+          "year": "2022–2026",
+          "shows": "116",
+          "adjustedGross": "$735,800,000"
+        },
+        {
+          "id": "2023-2025-tour-bruce-springsteen-and-e-street-band-2023-2025",
+          "value": 729700000,
+          "rank": 8,
+          "artist": "Bruce Springsteen & E Street Band",
+          "year": "2023–2025",
+          "shows": "129",
+          "adjustedGross": "$729,700,000"
+        },
+        {
+          "id": "love-on-tour-harry-styles-2021-2023",
+          "value": 617325000,
+          "rank": 9,
+          "artist": "Harry Styles",
+          "year": "2021–2023",
+          "shows": "169",
+          "adjustedGross": "$652,317,538"
+        },
+        {
+          "id": "m72-world-tour-metallica-2023-2026",
+          "value": 590100000,
+          "rank": 10,
+          "artist": "Metallica",
+          "year": "2023–2026",
+          "shows": "77",
+          "adjustedGross": "$590,100,000"
+        },
+        {
+          "id": "summer-carnival-pink-2023-2024",
+          "value": 584700000,
+          "rank": 11,
+          "artist": "Pink",
+          "year": "2023–2024",
+          "shows": "97",
+          "adjustedGross": "$600,081,945"
+        },
+        {
+          "id": "not-in-this-lifetime-tour-guns-n-roses-2016-2019",
+          "value": 584200000,
+          "rank": 12,
+          "artist": "Guns N' Roses",
+          "year": "2016–2019",
+          "shows": "158",
+          "adjustedGross": "$735,667,708"
+        },
+        {
+          "id": "renaissance-world-tour-beyonce-2023",
+          "value": 579879268,
+          "rank": 13,
+          "artist": "Beyoncé",
+          "year": "2023",
+          "shows": "56",
+          "adjustedGross": "$612,749,227"
+        },
+        {
+          "id": "stadium-tour-rammstein-2019-2024",
+          "value": 563000000,
+          "rank": 14,
+          "artist": "Rammstein",
+          "year": "2019–2024",
+          "shows": "141",
+          "adjustedGross": "$577,811,075"
+        },
+        {
+          "id": "a-bigger-bang-tour-the-rolling-stones-2005-2007",
+          "value": 558255524,
+          "rank": 15,
+          "artist": "The Rolling Stones",
+          "year": "2005–2007",
+          "shows": "144",
+          "adjustedGross": "$866,814,668"
+        },
+        {
+          "id": "no-filter-tour-the-rolling-stones-2017-2021",
+          "value": 546500000,
+          "rank": 16,
+          "artist": "The Rolling Stones",
+          "year": "2017–2021",
+          "shows": "58",
+          "adjustedGross": "$649,316,898"
+        },
+        {
+          "id": "a-head-full-of-dreams-tour-coldplay-2016-2017",
+          "value": 523033675,
+          "rank": 17,
+          "artist": "Coldplay",
+          "year": "2016–2017",
+          "shows": "114",
+          "adjustedGross": "$686,987,620"
+        }
+      ]
+    },
+    {
+      "date": "20260716",
+      "values": [
+        {
+          "id": "the-eras-tour-taylor-swift-2023-2024",
+          "value": 2077618725,
+          "rank": 1,
+          "artist": "Taylor Swift",
+          "year": "2023–2024",
+          "shows": "149",
+          "adjustedGross": "$2,132,275,503"
+        },
+        {
+          "id": "music-of-the-spheres-world-tour-coldplay-2022-2025",
+          "value": 1524423018,
+          "rank": 2,
+          "artist": "Coldplay",
+          "year": "2022–2025",
+          "shows": "223",
+          "adjustedGross": "$1,524,423,018"
+        },
+        {
+          "id": "farewell-yellow-brick-road-elton-john-2018-2023",
+          "value": 939100000,
+          "rank": 3,
+          "artist": "Elton John",
+          "year": "2018–2023",
+          "shows": "330",
+          "adjustedGross": "$992,332,077"
+        },
+        {
+          "id": "tour-ed-sheeran-2022-2025",
+          "value": 875700000,
+          "rank": 4,
+          "artist": "Ed Sheeran",
+          "year": "2022–2025",
+          "shows": "169",
+          "adjustedGross": "$875,700,000"
+        },
+        {
+          "id": "tour-ed-sheeran-2017-2019",
+          "value": 776200000,
+          "rank": 5,
+          "artist": "Ed Sheeran",
+          "year": "2017–2019",
+          "shows": "255",
+          "adjustedGross": "$977,448,262"
+        },
+        {
+          "id": "360-tour-u2-2009-2011",
+          "value": 736421586,
+          "rank": 6,
+          "artist": "U2",
+          "year": "2009–2011",
+          "shows": "110",
+          "adjustedGross": "$1,053,976,160"
+        },
+        {
+          "id": "after-hours-til-dawn-tour-the-weeknd-2022-2026",
+          "value": 735800000,
+          "rank": 7,
+          "artist": "The Weeknd",
+          "year": "2022–2026",
+          "shows": "116",
+          "adjustedGross": "$735,800,000"
+        },
+        {
+          "id": "2023-2025-tour-bruce-springsteen-and-e-street-band-2023-2025",
+          "value": 729700000,
+          "rank": 8,
+          "artist": "Bruce Springsteen & E Street Band",
+          "year": "2023–2025",
+          "shows": "129",
+          "adjustedGross": "$729,700,000"
+        },
+        {
+          "id": "love-on-tour-harry-styles-2021-2023",
+          "value": 617325000,
+          "rank": 9,
+          "artist": "Harry Styles",
+          "year": "2021–2023",
+          "shows": "169",
+          "adjustedGross": "$652,317,538"
+        },
+        {
+          "id": "m72-world-tour-metallica-2023-2026",
+          "value": 590100000,
+          "rank": 10,
+          "artist": "Metallica",
+          "year": "2023–2026",
+          "shows": "77",
+          "adjustedGross": "$590,100,000"
+        },
+        {
+          "id": "summer-carnival-pink-2023-2024",
+          "value": 584700000,
+          "rank": 11,
+          "artist": "Pink",
+          "year": "2023–2024",
+          "shows": "97",
+          "adjustedGross": "$600,081,945"
+        },
+        {
+          "id": "not-in-this-lifetime-tour-guns-n-roses-2016-2019",
+          "value": 584200000,
+          "rank": 12,
+          "artist": "Guns N' Roses",
+          "year": "2016–2019",
+          "shows": "158",
+          "adjustedGross": "$735,667,708"
+        },
+        {
+          "id": "renaissance-world-tour-beyonce-2023",
+          "value": 579879268,
+          "rank": 13,
+          "artist": "Beyoncé",
+          "year": "2023",
+          "shows": "56",
+          "adjustedGross": "$612,749,227"
+        },
+        {
+          "id": "stadium-tour-rammstein-2019-2024",
+          "value": 563000000,
+          "rank": 14,
+          "artist": "Rammstein",
+          "year": "2019–2024",
+          "shows": "141",
+          "adjustedGross": "$577,811,075"
+        },
+        {
+          "id": "a-bigger-bang-tour-the-rolling-stones-2005-2007",
+          "value": 558255524,
+          "rank": 15,
+          "artist": "The Rolling Stones",
+          "year": "2005–2007",
+          "shows": "144",
+          "adjustedGross": "$866,814,668"
+        },
+        {
+          "id": "no-filter-tour-the-rolling-stones-2017-2021",
+          "value": 546500000,
+          "rank": 16,
+          "artist": "The Rolling Stones",
+          "year": "2017–2021",
+          "shows": "58",
+          "adjustedGross": "$649,316,898"
+        },
+        {
+          "id": "a-head-full-of-dreams-tour-coldplay-2016-2017",
+          "value": 523033675,
+          "rank": 17,
+          "artist": "Coldplay",
+          "year": "2016–2017",
+          "shows": "114",
+          "adjustedGross": "$686,987,620"
+        }
+      ]
+    },
+    {
+      "date": "20260717",
+      "values": [
+        {
+          "id": "the-eras-tour-taylor-swift-2023-2024",
+          "value": 2077618725,
+          "rank": 1,
+          "artist": "Taylor Swift",
+          "year": "2023–2024",
+          "shows": "149",
+          "adjustedGross": "$2,132,275,503"
+        },
+        {
+          "id": "music-of-the-spheres-world-tour-coldplay-2022-2025",
+          "value": 1524423018,
+          "rank": 2,
+          "artist": "Coldplay",
+          "year": "2022–2025",
+          "shows": "223",
+          "adjustedGross": "$1,524,423,018"
+        },
+        {
+          "id": "farewell-yellow-brick-road-elton-john-2018-2023",
+          "value": 939100000,
+          "rank": 3,
+          "artist": "Elton John",
+          "year": "2018–2023",
+          "shows": "330",
+          "adjustedGross": "$992,332,077"
+        },
+        {
+          "id": "tour-ed-sheeran-2022-2025",
+          "value": 875700000,
+          "rank": 4,
+          "artist": "Ed Sheeran",
+          "year": "2022–2025",
+          "shows": "169",
+          "adjustedGross": "$875,700,000"
+        },
+        {
+          "id": "tour-ed-sheeran-2017-2019",
+          "value": 776200000,
+          "rank": 5,
+          "artist": "Ed Sheeran",
+          "year": "2017–2019",
+          "shows": "255",
+          "adjustedGross": "$977,448,262"
+        },
+        {
+          "id": "360-tour-u2-2009-2011",
+          "value": 736421586,
+          "rank": 6,
+          "artist": "U2",
+          "year": "2009–2011",
+          "shows": "110",
+          "adjustedGross": "$1,053,976,160"
+        },
+        {
+          "id": "after-hours-til-dawn-tour-the-weeknd-2022-2026",
+          "value": 735800000,
+          "rank": 7,
+          "artist": "The Weeknd",
+          "year": "2022–2026",
+          "shows": "116",
+          "adjustedGross": "$735,800,000"
+        },
+        {
+          "id": "2023-2025-tour-bruce-springsteen-and-e-street-band-2023-2025",
+          "value": 729700000,
+          "rank": 8,
+          "artist": "Bruce Springsteen & E Street Band",
+          "year": "2023–2025",
+          "shows": "129",
+          "adjustedGross": "$729,700,000"
+        },
+        {
+          "id": "love-on-tour-harry-styles-2021-2023",
+          "value": 617325000,
+          "rank": 9,
+          "artist": "Harry Styles",
+          "year": "2021–2023",
+          "shows": "169",
+          "adjustedGross": "$652,317,538"
+        },
+        {
+          "id": "m72-world-tour-metallica-2023-2026",
+          "value": 590100000,
+          "rank": 10,
+          "artist": "Metallica",
+          "year": "2023–2026",
+          "shows": "77",
+          "adjustedGross": "$590,100,000"
+        },
+        {
+          "id": "summer-carnival-pink-2023-2024",
+          "value": 584700000,
+          "rank": 11,
+          "artist": "Pink",
+          "year": "2023–2024",
+          "shows": "97",
+          "adjustedGross": "$600,081,945"
+        },
+        {
+          "id": "not-in-this-lifetime-tour-guns-n-roses-2016-2019",
+          "value": 584200000,
+          "rank": 12,
+          "artist": "Guns N' Roses",
+          "year": "2016–2019",
+          "shows": "158",
+          "adjustedGross": "$735,667,708"
+        },
+        {
+          "id": "renaissance-world-tour-beyonce-2023",
+          "value": 579879268,
+          "rank": 13,
+          "artist": "Beyoncé",
+          "year": "2023",
+          "shows": "56",
+          "adjustedGross": "$612,749,227"
+        },
+        {
+          "id": "stadium-tour-rammstein-2019-2024",
+          "value": 563000000,
+          "rank": 14,
+          "artist": "Rammstein",
+          "year": "2019–2024",
+          "shows": "141",
+          "adjustedGross": "$577,811,075"
+        },
+        {
+          "id": "a-bigger-bang-tour-the-rolling-stones-2005-2007",
+          "value": 558255524,
+          "rank": 15,
+          "artist": "The Rolling Stones",
+          "year": "2005–2007",
+          "shows": "144",
+          "adjustedGross": "$866,814,668"
+        },
+        {
+          "id": "no-filter-tour-the-rolling-stones-2017-2021",
+          "value": 546500000,
+          "rank": 16,
+          "artist": "The Rolling Stones",
+          "year": "2017–2021",
+          "shows": "58",
+          "adjustedGross": "$649,316,898"
+        },
+        {
+          "id": "a-head-full-of-dreams-tour-coldplay-2016-2017",
+          "value": 523033675,
+          "rank": 17,
+          "artist": "Coldplay",
+          "year": "2016–2017",
+          "shows": "114",
+          "adjustedGross": "$686,987,620"
+        }
+      ]
+    },
+    {
+      "date": "20260718",
+      "values": [
+        {
+          "id": "the-eras-tour-taylor-swift-2023-2024",
+          "value": 2077618725,
+          "rank": 1,
+          "artist": "Taylor Swift",
+          "year": "2023–2024",
+          "shows": "149",
+          "adjustedGross": "$2,132,275,503"
+        },
+        {
+          "id": "music-of-the-spheres-world-tour-coldplay-2022-2025",
+          "value": 1524423018,
+          "rank": 2,
+          "artist": "Coldplay",
+          "year": "2022–2025",
+          "shows": "223",
+          "adjustedGross": "$1,524,423,018"
+        },
+        {
+          "id": "farewell-yellow-brick-road-elton-john-2018-2023",
+          "value": 939100000,
+          "rank": 3,
+          "artist": "Elton John",
+          "year": "2018–2023",
+          "shows": "330",
+          "adjustedGross": "$992,332,077"
+        },
+        {
+          "id": "tour-ed-sheeran-2022-2025",
+          "value": 875700000,
+          "rank": 4,
+          "artist": "Ed Sheeran",
+          "year": "2022–2025",
+          "shows": "169",
+          "adjustedGross": "$875,700,000"
+        },
+        {
+          "id": "tour-ed-sheeran-2017-2019",
+          "value": 776200000,
+          "rank": 5,
+          "artist": "Ed Sheeran",
+          "year": "2017–2019",
+          "shows": "255",
+          "adjustedGross": "$977,448,262"
+        },
+        {
+          "id": "360-tour-u2-2009-2011",
+          "value": 736421586,
+          "rank": 6,
+          "artist": "U2",
+          "year": "2009–2011",
+          "shows": "110",
+          "adjustedGross": "$1,053,976,160"
+        },
+        {
+          "id": "after-hours-til-dawn-tour-the-weeknd-2022-2026",
+          "value": 735800000,
+          "rank": 7,
+          "artist": "The Weeknd",
+          "year": "2022–2026",
+          "shows": "116",
+          "adjustedGross": "$735,800,000"
+        },
+        {
+          "id": "2023-2025-tour-bruce-springsteen-and-e-street-band-2023-2025",
+          "value": 729700000,
+          "rank": 8,
+          "artist": "Bruce Springsteen & E Street Band",
+          "year": "2023–2025",
+          "shows": "129",
+          "adjustedGross": "$729,700,000"
+        },
+        {
+          "id": "love-on-tour-harry-styles-2021-2023",
+          "value": 617325000,
+          "rank": 9,
+          "artist": "Harry Styles",
+          "year": "2021–2023",
+          "shows": "169",
+          "adjustedGross": "$652,317,538"
+        },
+        {
+          "id": "m72-world-tour-metallica-2023-2026",
+          "value": 590100000,
+          "rank": 10,
+          "artist": "Metallica",
+          "year": "2023–2026",
+          "shows": "77",
+          "adjustedGross": "$590,100,000"
+        },
+        {
+          "id": "summer-carnival-pink-2023-2024",
+          "value": 584700000,
+          "rank": 11,
+          "artist": "Pink",
+          "year": "2023–2024",
+          "shows": "97",
+          "adjustedGross": "$600,081,945"
+        },
+        {
+          "id": "not-in-this-lifetime-tour-guns-n-roses-2016-2019",
+          "value": 584200000,
+          "rank": 12,
+          "artist": "Guns N' Roses",
+          "year": "2016–2019",
+          "shows": "158",
+          "adjustedGross": "$735,667,708"
+        },
+        {
+          "id": "renaissance-world-tour-beyonce-2023",
+          "value": 579879268,
+          "rank": 13,
+          "artist": "Beyoncé",
+          "year": "2023",
+          "shows": "56",
+          "adjustedGross": "$612,749,227"
+        },
+        {
+          "id": "stadium-tour-rammstein-2019-2024",
+          "value": 563000000,
+          "rank": 14,
+          "artist": "Rammstein",
+          "year": "2019–2024",
+          "shows": "141",
+          "adjustedGross": "$577,811,075"
+        },
+        {
+          "id": "a-bigger-bang-tour-the-rolling-stones-2005-2007",
+          "value": 558255524,
+          "rank": 15,
+          "artist": "The Rolling Stones",
+          "year": "2005–2007",
+          "shows": "144",
+          "adjustedGross": "$866,814,668"
+        },
+        {
+          "id": "no-filter-tour-the-rolling-stones-2017-2021",
+          "value": 546500000,
+          "rank": 16,
+          "artist": "The Rolling Stones",
+          "year": "2017–2021",
+          "shows": "58",
+          "adjustedGross": "$649,316,898"
+        },
+        {
+          "id": "a-head-full-of-dreams-tour-coldplay-2016-2017",
+          "value": 523033675,
+          "rank": 17,
+          "artist": "Coldplay",
+          "year": "2016–2017",
+          "shows": "114",
+          "adjustedGross": "$686,987,620"
+        }
+      ]
+    },
+    {
+      "date": "20260719",
+      "values": [
+        {
+          "id": "the-eras-tour-taylor-swift-2023-2024",
+          "value": 2077618725,
+          "rank": 1,
+          "artist": "Taylor Swift",
+          "year": "2023–2024",
+          "shows": "149",
+          "adjustedGross": "$2,132,275,503"
+        },
+        {
+          "id": "music-of-the-spheres-world-tour-coldplay-2022-2025",
+          "value": 1524423018,
+          "rank": 2,
+          "artist": "Coldplay",
+          "year": "2022–2025",
+          "shows": "223",
+          "adjustedGross": "$1,524,423,018"
+        },
+        {
+          "id": "farewell-yellow-brick-road-elton-john-2018-2023",
+          "value": 939100000,
+          "rank": 3,
+          "artist": "Elton John",
+          "year": "2018–2023",
+          "shows": "330",
+          "adjustedGross": "$992,332,077"
+        },
+        {
+          "id": "tour-ed-sheeran-2022-2025",
+          "value": 875700000,
+          "rank": 4,
+          "artist": "Ed Sheeran",
+          "year": "2022–2025",
+          "shows": "169",
+          "adjustedGross": "$875,700,000"
+        },
+        {
+          "id": "tour-ed-sheeran-2017-2019",
+          "value": 776200000,
+          "rank": 5,
+          "artist": "Ed Sheeran",
+          "year": "2017–2019",
+          "shows": "255",
+          "adjustedGross": "$977,448,262"
+        },
+        {
+          "id": "360-tour-u2-2009-2011",
+          "value": 736421586,
+          "rank": 6,
+          "artist": "U2",
+          "year": "2009–2011",
+          "shows": "110",
+          "adjustedGross": "$1,053,976,160"
+        },
+        {
+          "id": "after-hours-til-dawn-tour-the-weeknd-2022-2026",
+          "value": 735800000,
+          "rank": 7,
+          "artist": "The Weeknd",
+          "year": "2022–2026",
+          "shows": "116",
+          "adjustedGross": "$735,800,000"
+        },
+        {
+          "id": "2023-2025-tour-bruce-springsteen-and-e-street-band-2023-2025",
+          "value": 729700000,
+          "rank": 8,
+          "artist": "Bruce Springsteen & E Street Band",
+          "year": "2023–2025",
+          "shows": "129",
+          "adjustedGross": "$729,700,000"
+        },
+        {
+          "id": "love-on-tour-harry-styles-2021-2023",
+          "value": 617325000,
+          "rank": 9,
+          "artist": "Harry Styles",
+          "year": "2021–2023",
+          "shows": "169",
+          "adjustedGross": "$652,317,538"
+        },
+        {
+          "id": "m72-world-tour-metallica-2023-2026",
+          "value": 590100000,
+          "rank": 10,
+          "artist": "Metallica",
+          "year": "2023–2026",
+          "shows": "77",
+          "adjustedGross": "$590,100,000"
+        },
+        {
+          "id": "summer-carnival-pink-2023-2024",
+          "value": 584700000,
+          "rank": 11,
+          "artist": "Pink",
+          "year": "2023–2024",
+          "shows": "97",
+          "adjustedGross": "$600,081,945"
+        },
+        {
+          "id": "not-in-this-lifetime-tour-guns-n-roses-2016-2019",
+          "value": 584200000,
+          "rank": 12,
+          "artist": "Guns N' Roses",
+          "year": "2016–2019",
+          "shows": "158",
+          "adjustedGross": "$735,667,708"
+        },
+        {
+          "id": "renaissance-world-tour-beyonce-2023",
+          "value": 579879268,
+          "rank": 13,
+          "artist": "Beyoncé",
+          "year": "2023",
+          "shows": "56",
+          "adjustedGross": "$612,749,227"
+        },
+        {
+          "id": "stadium-tour-rammstein-2019-2024",
+          "value": 563000000,
+          "rank": 14,
+          "artist": "Rammstein",
+          "year": "2019–2024",
+          "shows": "141",
+          "adjustedGross": "$577,811,075"
+        },
+        {
+          "id": "a-bigger-bang-tour-the-rolling-stones-2005-2007",
+          "value": 558255524,
+          "rank": 15,
+          "artist": "The Rolling Stones",
+          "year": "2005–2007",
+          "shows": "144",
+          "adjustedGross": "$866,814,668"
+        },
+        {
+          "id": "no-filter-tour-the-rolling-stones-2017-2021",
+          "value": 546500000,
+          "rank": 16,
+          "artist": "The Rolling Stones",
+          "year": "2017–2021",
+          "shows": "58",
+          "adjustedGross": "$649,316,898"
+        },
+        {
+          "id": "a-head-full-of-dreams-tour-coldplay-2016-2017",
+          "value": 523033675,
+          "rank": 17,
+          "artist": "Coldplay",
+          "year": "2016–2017",
+          "shows": "114",
+          "adjustedGross": "$686,987,620"
+        }
+      ]
+    },
+    {
+      "date": "20260720",
+      "values": [
+        {
+          "id": "the-eras-tour-taylor-swift-2023-2024",
+          "value": 2077618725,
+          "rank": 1,
+          "artist": "Taylor Swift",
+          "year": "2023–2024",
+          "shows": "149",
+          "adjustedGross": "$2,132,275,503"
+        },
+        {
+          "id": "music-of-the-spheres-world-tour-coldplay-2022-2025",
+          "value": 1524423018,
+          "rank": 2,
+          "artist": "Coldplay",
+          "year": "2022–2025",
+          "shows": "223",
+          "adjustedGross": "$1,524,423,018"
+        },
+        {
+          "id": "farewell-yellow-brick-road-elton-john-2018-2023",
+          "value": 939100000,
+          "rank": 3,
+          "artist": "Elton John",
+          "year": "2018–2023",
+          "shows": "330",
+          "adjustedGross": "$992,332,077"
+        },
+        {
+          "id": "tour-ed-sheeran-2022-2025",
+          "value": 875700000,
+          "rank": 4,
+          "artist": "Ed Sheeran",
+          "year": "2022–2025",
+          "shows": "169",
+          "adjustedGross": "$875,700,000"
+        },
+        {
+          "id": "tour-ed-sheeran-2017-2019",
+          "value": 776200000,
+          "rank": 5,
+          "artist": "Ed Sheeran",
+          "year": "2017–2019",
+          "shows": "255",
+          "adjustedGross": "$977,448,262"
+        },
+        {
+          "id": "360-tour-u2-2009-2011",
+          "value": 736421586,
+          "rank": 6,
+          "artist": "U2",
+          "year": "2009–2011",
+          "shows": "110",
+          "adjustedGross": "$1,053,976,160"
+        },
+        {
+          "id": "after-hours-til-dawn-tour-the-weeknd-2022-2026",
+          "value": 735800000,
+          "rank": 7,
+          "artist": "The Weeknd",
+          "year": "2022–2026",
+          "shows": "116",
+          "adjustedGross": "$735,800,000"
+        },
+        {
+          "id": "2023-2025-tour-bruce-springsteen-and-e-street-band-2023-2025",
+          "value": 729700000,
+          "rank": 8,
+          "artist": "Bruce Springsteen & E Street Band",
+          "year": "2023–2025",
+          "shows": "129",
+          "adjustedGross": "$729,700,000"
+        },
+        {
+          "id": "love-on-tour-harry-styles-2021-2023",
+          "value": 617325000,
+          "rank": 9,
+          "artist": "Harry Styles",
+          "year": "2021–2023",
+          "shows": "169",
+          "adjustedGross": "$652,317,538"
+        },
+        {
+          "id": "m72-world-tour-metallica-2023-2026",
+          "value": 590100000,
+          "rank": 10,
+          "artist": "Metallica",
+          "year": "2023–2026",
+          "shows": "77",
+          "adjustedGross": "$590,100,000"
+        },
+        {
+          "id": "summer-carnival-pink-2023-2024",
+          "value": 584700000,
+          "rank": 11,
+          "artist": "Pink",
+          "year": "2023–2024",
+          "shows": "97",
+          "adjustedGross": "$600,081,945"
+        },
+        {
+          "id": "not-in-this-lifetime-tour-guns-n-roses-2016-2019",
+          "value": 584200000,
+          "rank": 12,
+          "artist": "Guns N' Roses",
+          "year": "2016–2019",
+          "shows": "158",
+          "adjustedGross": "$735,667,708"
+        },
+        {
+          "id": "renaissance-world-tour-beyonce-2023",
+          "value": 579879268,
+          "rank": 13,
+          "artist": "Beyoncé",
+          "year": "2023",
+          "shows": "56",
+          "adjustedGross": "$612,749,227"
+        },
+        {
+          "id": "stadium-tour-rammstein-2019-2024",
+          "value": 563000000,
+          "rank": 14,
+          "artist": "Rammstein",
+          "year": "2019–2024",
+          "shows": "141",
+          "adjustedGross": "$577,811,075"
+        },
+        {
+          "id": "a-bigger-bang-tour-the-rolling-stones-2005-2007",
+          "value": 558255524,
+          "rank": 15,
+          "artist": "The Rolling Stones",
+          "year": "2005–2007",
+          "shows": "144",
+          "adjustedGross": "$866,814,668"
+        },
+        {
+          "id": "no-filter-tour-the-rolling-stones-2017-2021",
+          "value": 546500000,
+          "rank": 16,
+          "artist": "The Rolling Stones",
+          "year": "2017–2021",
+          "shows": "58",
+          "adjustedGross": "$649,316,898"
+        },
+        {
+          "id": "a-head-full-of-dreams-tour-coldplay-2016-2017",
+          "value": 523033675,
+          "rank": 17,
+          "artist": "Coldplay",
+          "year": "2016–2017",
+          "shows": "114",
+          "adjustedGross": "$686,987,620"
+        }
+      ]
+    },
+    {
+      "date": "20260721",
+      "values": [
+        {
+          "id": "the-eras-tour-taylor-swift-2023-2024",
+          "value": 2077618725,
+          "rank": 1,
+          "artist": "Taylor Swift",
+          "year": "2023–2024",
+          "shows": "149",
+          "adjustedGross": "$2,132,275,503"
+        },
+        {
+          "id": "music-of-the-spheres-world-tour-coldplay-2022-2025",
+          "value": 1524423018,
+          "rank": 2,
+          "artist": "Coldplay",
+          "year": "2022–2025",
+          "shows": "223",
+          "adjustedGross": "$1,524,423,018"
+        },
+        {
+          "id": "farewell-yellow-brick-road-elton-john-2018-2023",
+          "value": 939100000,
+          "rank": 3,
+          "artist": "Elton John",
+          "year": "2018–2023",
+          "shows": "330",
+          "adjustedGross": "$992,332,077"
+        },
+        {
+          "id": "tour-ed-sheeran-2022-2025",
+          "value": 875700000,
+          "rank": 4,
+          "artist": "Ed Sheeran",
+          "year": "2022–2025",
+          "shows": "169",
+          "adjustedGross": "$875,700,000"
+        },
+        {
+          "id": "tour-ed-sheeran-2017-2019",
+          "value": 776200000,
+          "rank": 5,
+          "artist": "Ed Sheeran",
+          "year": "2017–2019",
+          "shows": "255",
+          "adjustedGross": "$977,448,262"
+        },
+        {
+          "id": "360-tour-u2-2009-2011",
+          "value": 736421586,
+          "rank": 6,
+          "artist": "U2",
+          "year": "2009–2011",
+          "shows": "110",
+          "adjustedGross": "$1,053,976,160"
+        },
+        {
+          "id": "after-hours-til-dawn-tour-the-weeknd-2022-2026",
+          "value": 735800000,
+          "rank": 7,
+          "artist": "The Weeknd",
+          "year": "2022–2026",
+          "shows": "116",
+          "adjustedGross": "$735,800,000"
+        },
+        {
+          "id": "2023-2025-tour-bruce-springsteen-and-e-street-band-2023-2025",
+          "value": 729700000,
+          "rank": 8,
+          "artist": "Bruce Springsteen & E Street Band",
+          "year": "2023–2025",
+          "shows": "129",
+          "adjustedGross": "$729,700,000"
+        },
+        {
+          "id": "love-on-tour-harry-styles-2021-2023",
+          "value": 617325000,
+          "rank": 9,
+          "artist": "Harry Styles",
+          "year": "2021–2023",
+          "shows": "169",
+          "adjustedGross": "$652,317,538"
+        },
+        {
+          "id": "m72-world-tour-metallica-2023-2026",
+          "value": 590100000,
+          "rank": 10,
+          "artist": "Metallica",
+          "year": "2023–2026",
+          "shows": "77",
+          "adjustedGross": "$590,100,000"
+        },
+        {
+          "id": "summer-carnival-pink-2023-2024",
+          "value": 584700000,
+          "rank": 11,
+          "artist": "Pink",
+          "year": "2023–2024",
+          "shows": "97",
+          "adjustedGross": "$600,081,945"
+        },
+        {
+          "id": "not-in-this-lifetime-tour-guns-n-roses-2016-2019",
+          "value": 584200000,
+          "rank": 12,
+          "artist": "Guns N' Roses",
+          "year": "2016–2019",
+          "shows": "158",
+          "adjustedGross": "$735,667,708"
+        },
+        {
+          "id": "renaissance-world-tour-beyonce-2023",
+          "value": 579879268,
+          "rank": 13,
+          "artist": "Beyoncé",
+          "year": "2023",
+          "shows": "56",
+          "adjustedGross": "$612,749,227"
+        },
+        {
+          "id": "stadium-tour-rammstein-2019-2024",
+          "value": 563000000,
+          "rank": 14,
+          "artist": "Rammstein",
+          "year": "2019–2024",
+          "shows": "141",
+          "adjustedGross": "$577,811,075"
+        },
+        {
+          "id": "a-bigger-bang-tour-the-rolling-stones-2005-2007",
+          "value": 558255524,
+          "rank": 15,
+          "artist": "The Rolling Stones",
+          "year": "2005–2007",
+          "shows": "144",
+          "adjustedGross": "$866,814,668"
+        },
+        {
+          "id": "no-filter-tour-the-rolling-stones-2017-2021",
+          "value": 546500000,
+          "rank": 16,
+          "artist": "The Rolling Stones",
+          "year": "2017–2021",
+          "shows": "58",
+          "adjustedGross": "$649,316,898"
+        },
+        {
+          "id": "a-head-full-of-dreams-tour-coldplay-2016-2017",
+          "value": 523033675,
+          "rank": 17,
+          "artist": "Coldplay",
+          "year": "2016–2017",
+          "shows": "114",
+          "adjustedGross": "$686,987,620"
+        }
+      ]
+    },
+    {
+      "date": "20260722",
+      "values": [
+        {
+          "id": "the-eras-tour-taylor-swift-2023-2024",
+          "value": 2077618725,
+          "rank": 1,
+          "artist": "Taylor Swift",
+          "year": "2023–2024",
+          "shows": "149",
+          "adjustedGross": "$2,132,275,503"
+        },
+        {
+          "id": "music-of-the-spheres-world-tour-coldplay-2022-2025",
+          "value": 1524423018,
+          "rank": 2,
+          "artist": "Coldplay",
+          "year": "2022–2025",
+          "shows": "223",
+          "adjustedGross": "$1,524,423,018"
+        },
+        {
+          "id": "farewell-yellow-brick-road-elton-john-2018-2023",
+          "value": 939100000,
+          "rank": 3,
+          "artist": "Elton John",
+          "year": "2018–2023",
+          "shows": "330",
+          "adjustedGross": "$992,332,077"
+        },
+        {
+          "id": "tour-ed-sheeran-2022-2025",
+          "value": 875700000,
+          "rank": 4,
+          "artist": "Ed Sheeran",
+          "year": "2022–2025",
+          "shows": "169",
+          "adjustedGross": "$875,700,000"
+        },
+        {
+          "id": "tour-ed-sheeran-2017-2019",
+          "value": 776200000,
+          "rank": 5,
+          "artist": "Ed Sheeran",
+          "year": "2017–2019",
+          "shows": "255",
+          "adjustedGross": "$977,448,262"
+        },
+        {
+          "id": "360-tour-u2-2009-2011",
+          "value": 736421586,
+          "rank": 6,
+          "artist": "U2",
+          "year": "2009–2011",
+          "shows": "110",
+          "adjustedGross": "$1,053,976,160"
+        },
+        {
+          "id": "after-hours-til-dawn-tour-the-weeknd-2022-2026",
+          "value": 735800000,
+          "rank": 7,
+          "artist": "The Weeknd",
+          "year": "2022–2026",
+          "shows": "116",
+          "adjustedGross": "$735,800,000"
+        },
+        {
+          "id": "2023-2025-tour-bruce-springsteen-and-e-street-band-2023-2025",
+          "value": 729700000,
+          "rank": 8,
+          "artist": "Bruce Springsteen & E Street Band",
+          "year": "2023–2025",
+          "shows": "129",
+          "adjustedGross": "$729,700,000"
+        },
+        {
+          "id": "love-on-tour-harry-styles-2021-2023",
+          "value": 617325000,
+          "rank": 9,
+          "artist": "Harry Styles",
+          "year": "2021–2023",
+          "shows": "169",
+          "adjustedGross": "$652,317,538"
+        },
+        {
+          "id": "m72-world-tour-metallica-2023-2026",
+          "value": 590100000,
+          "rank": 10,
+          "artist": "Metallica",
+          "year": "2023–2026",
+          "shows": "77",
+          "adjustedGross": "$590,100,000"
+        },
+        {
+          "id": "summer-carnival-pink-2023-2024",
+          "value": 584700000,
+          "rank": 11,
+          "artist": "Pink",
+          "year": "2023–2024",
+          "shows": "97",
+          "adjustedGross": "$600,081,945"
+        },
+        {
+          "id": "not-in-this-lifetime-tour-guns-n-roses-2016-2019",
+          "value": 584200000,
+          "rank": 12,
+          "artist": "Guns N' Roses",
+          "year": "2016–2019",
+          "shows": "158",
+          "adjustedGross": "$735,667,708"
+        },
+        {
+          "id": "renaissance-world-tour-beyonce-2023",
+          "value": 579879268,
+          "rank": 13,
+          "artist": "Beyoncé",
+          "year": "2023",
+          "shows": "56",
+          "adjustedGross": "$612,749,227"
+        },
+        {
+          "id": "stadium-tour-rammstein-2019-2024",
+          "value": 563000000,
+          "rank": 14,
+          "artist": "Rammstein",
+          "year": "2019–2024",
+          "shows": "141",
+          "adjustedGross": "$577,811,075"
+        },
+        {
+          "id": "a-bigger-bang-tour-the-rolling-stones-2005-2007",
+          "value": 558255524,
+          "rank": 15,
+          "artist": "The Rolling Stones",
+          "year": "2005–2007",
+          "shows": "144",
+          "adjustedGross": "$866,814,668"
+        },
+        {
+          "id": "no-filter-tour-the-rolling-stones-2017-2021",
+          "value": 546500000,
+          "rank": 16,
+          "artist": "The Rolling Stones",
+          "year": "2017–2021",
+          "shows": "58",
+          "adjustedGross": "$649,316,898"
+        },
+        {
+          "id": "a-head-full-of-dreams-tour-coldplay-2016-2017",
+          "value": 523033675,
+          "rank": 17,
+          "artist": "Coldplay",
+          "year": "2016–2017",
+          "shows": "114",
+          "adjustedGross": "$686,987,620"
+        }
+      ]
+    },
+    {
+      "date": "20260801",
+      "values": [
+        {
+          "id": "the-eras-tour-taylor-swift-2023-2024",
+          "value": 2077618725,
+          "rank": 1,
+          "artist": "Taylor Swift",
+          "year": "2023–2024",
+          "shows": "149",
+          "adjustedGross": "$2,132,275,503"
+        },
+        {
+          "id": "music-of-the-spheres-world-tour-coldplay-2022-2025",
+          "value": 1524423018,
+          "rank": 2,
+          "artist": "Coldplay",
+          "year": "2022–2025",
+          "shows": "223",
+          "adjustedGross": "$1,524,423,018"
+        },
+        {
+          "id": "after-hours-til-dawn-tour-the-weeknd-2022-2026",
+          "value": 1004000000,
+          "rank": 3,
+          "artist": "The Weeknd",
+          "year": "2022–2026",
+          "shows": "153",
+          "adjustedGross": "$1,004,000,000"
+        },
+        {
+          "id": "farewell-yellow-brick-road-elton-john-2018-2023",
+          "value": 939100000,
+          "rank": 4,
+          "artist": "Elton John",
+          "year": "2018–2023",
+          "shows": "330",
+          "adjustedGross": "$992,332,077"
+        },
+        {
+          "id": "tour-ed-sheeran-2022-2025",
+          "value": 875700000,
+          "rank": 5,
+          "artist": "Ed Sheeran",
+          "year": "2022–2025",
+          "shows": "169",
+          "adjustedGross": "$875,700,000"
+        },
+        {
+          "id": "tour-ed-sheeran-2017-2019",
+          "value": 776200000,
+          "rank": 6,
+          "artist": "Ed Sheeran",
+          "year": "2017–2019",
+          "shows": "255",
+          "adjustedGross": "$977,448,262"
+        },
+        {
+          "id": "360-tour-u2-2009-2011",
+          "value": 736421586,
+          "rank": 7,
+          "artist": "U2",
+          "year": "2009–2011",
+          "shows": "110",
+          "adjustedGross": "$1,053,976,160"
+        },
+        {
+          "id": "2023-2025-tour-bruce-springsteen-and-e-street-band-2023-2025",
+          "value": 729700000,
+          "rank": 8,
+          "artist": "Bruce Springsteen & E Street Band",
+          "year": "2023–2025",
+          "shows": "129",
+          "adjustedGross": "$729,700,000"
+        },
+        {
+          "id": "m72-world-tour-metallica-2023-2026",
+          "value": 647200000,
+          "rank": 9,
+          "artist": "Metallica",
+          "year": "2023–2026",
+          "shows": "84",
+          "adjustedGross": "$647,200,000"
+        },
+        {
+          "id": "love-on-tour-harry-styles-2021-2023",
+          "value": 617325000,
+          "rank": 10,
+          "artist": "Harry Styles",
+          "year": "2021–2023",
+          "shows": "169",
+          "adjustedGross": "$652,317,538"
+        },
+        {
+          "id": "summer-carnival-pink-2023-2024",
+          "value": 584700000,
+          "rank": 11,
+          "artist": "Pink",
+          "year": "2023–2024",
+          "shows": "97",
+          "adjustedGross": "$600,081,945"
+        },
+        {
+          "id": "not-in-this-lifetime-tour-guns-n-roses-2016-2019",
+          "value": 584200000,
+          "rank": 12,
+          "artist": "Guns N' Roses",
+          "year": "2016–2019",
+          "shows": "158",
+          "adjustedGross": "$735,667,708"
+        },
+        {
+          "id": "renaissance-world-tour-beyonce-2023",
+          "value": 579879268,
+          "rank": 13,
+          "artist": "Beyoncé",
+          "year": "2023",
+          "shows": "56",
+          "adjustedGross": "$612,749,227"
+        },
+        {
+          "id": "stadium-tour-rammstein-2019-2024",
+          "value": 563000000,
+          "rank": 14,
+          "artist": "Rammstein",
+          "year": "2019–2024",
+          "shows": "141",
+          "adjustedGross": "$577,811,075"
+        },
+        {
+          "id": "a-bigger-bang-tour-the-rolling-stones-2005-2007",
+          "value": 558255524,
+          "rank": 15,
+          "artist": "The Rolling Stones",
+          "year": "2005–2007",
+          "shows": "144",
+          "adjustedGross": "$866,814,668"
+        },
+        {
+          "id": "no-filter-tour-the-rolling-stones-2017-2021",
+          "value": 546500000,
+          "rank": 16,
+          "artist": "The Rolling Stones",
+          "year": "2017–2021",
+          "shows": "58",
+          "adjustedGross": "$649,316,898"
+        },
+        {
+          "id": "a-head-full-of-dreams-tour-coldplay-2016-2017",
+          "value": 523033675,
+          "rank": 17,
+          "artist": "Coldplay",
+          "year": "2016–2017",
+          "shows": "114",
+          "adjustedGross": "$686,987,620"
+        },
+        {
+          "id": "las-mujeres-ya-no-lloran-world-tour-shakira-2025-2026",
+          "value": 479200000,
+          "rank": 18,
+          "artist": "Shakira",
+          "year": "2025–2026",
+          "shows": "108",
+          "adjustedGross": "$479,200,000"
+        },
+        {
+          "id": "the-quittin-time-tour-zach-bryan-2024-2025",
+          "value": 477700000,
+          "rank": 19,
+          "artist": "Zach Bryan",
+          "year": "2024–2025",
+          "shows": "92",
+          "adjustedGross": "$477,700,000"
+        },
+        {
+          "id": "debi-tirar-mas-fotos-world-tour-bad-bunny-2025-2026",
+          "value": 467500000,
+          "rank": 20,
+          "artist": "Bad Bunny",
+          "year": "2025–2026",
+          "shows": "55",
+          "adjustedGross": "$467,500,000"
+        }
+      ]
+    },
+    {
+      "date": "20260822",
+      "values": [
+        {
+          "id": "the-eras-tour-taylor-swift-2023-2024",
+          "value": 2077618725,
+          "rank": 1,
+          "artist": "Taylor Swift",
+          "year": "2023–2024",
+          "shows": "149",
+          "adjustedGross": "$2,132,275,503"
+        },
+        {
+          "id": "music-of-the-spheres-world-tour-coldplay-2022-2025",
+          "value": 1524423018,
+          "rank": 2,
+          "artist": "Coldplay",
+          "year": "2022–2025",
+          "shows": "223",
+          "adjustedGross": "$1,524,423,018"
+        },
+        {
+          "id": "after-hours-til-dawn-tour-the-weeknd-2022-2026",
+          "value": 1004000000,
+          "rank": 3,
+          "artist": "The Weeknd",
+          "year": "2022–2026",
+          "shows": "153",
+          "adjustedGross": "$1,004,000,000"
+        },
+        {
+          "id": "farewell-yellow-brick-road-elton-john-2018-2023",
+          "value": 939100000,
+          "rank": 4,
+          "artist": "Elton John",
+          "year": "2018–2023",
+          "shows": "330",
+          "adjustedGross": "$992,332,077"
+        },
+        {
+          "id": "tour-ed-sheeran-2022-2025",
+          "value": 875700000,
+          "rank": 5,
+          "artist": "Ed Sheeran",
+          "year": "2022–2025",
+          "shows": "169",
+          "adjustedGross": "$875,700,000"
+        },
+        {
+          "id": "tour-ed-sheeran-2017-2019",
+          "value": 776200000,
+          "rank": 6,
+          "artist": "Ed Sheeran",
+          "year": "2017–2019",
+          "shows": "255",
+          "adjustedGross": "$977,448,262"
+        },
+        {
+          "id": "360-tour-u2-2009-2011",
+          "value": 736421586,
+          "rank": 7,
+          "artist": "U2",
+          "year": "2009–2011",
+          "shows": "110",
+          "adjustedGross": "$1,053,976,160"
+        },
+        {
+          "id": "2023-2025-tour-bruce-springsteen-and-e-street-band-2023-2025",
+          "value": 729700000,
+          "rank": 8,
+          "artist": "Bruce Springsteen & E Street Band",
+          "year": "2023–2025",
+          "shows": "129",
+          "adjustedGross": "$729,700,000"
+        },
+        {
+          "id": "m72-world-tour-metallica-2023-2026",
+          "value": 647200000,
+          "rank": 9,
+          "artist": "Metallica",
+          "year": "2023–2026",
+          "shows": "84",
+          "adjustedGross": "$647,200,000"
+        },
+        {
+          "id": "love-on-tour-harry-styles-2021-2023",
+          "value": 617325000,
+          "rank": 10,
+          "artist": "Harry Styles",
+          "year": "2021–2023",
+          "shows": "169",
+          "adjustedGross": "$652,317,538"
+        },
+        {
+          "id": "summer-carnival-pink-2023-2024",
+          "value": 584700000,
+          "rank": 11,
+          "artist": "Pink",
+          "year": "2023–2024",
+          "shows": "97",
+          "adjustedGross": "$600,081,945"
+        },
+        {
+          "id": "not-in-this-lifetime-tour-guns-n-roses-2016-2019",
+          "value": 584200000,
+          "rank": 12,
+          "artist": "Guns N' Roses",
+          "year": "2016–2019",
+          "shows": "158",
+          "adjustedGross": "$735,667,708"
+        },
+        {
+          "id": "renaissance-world-tour-beyonce-2023",
+          "value": 579879268,
+          "rank": 13,
+          "artist": "Beyoncé",
+          "year": "2023",
+          "shows": "56",
+          "adjustedGross": "$612,749,227"
+        },
+        {
+          "id": "stadium-tour-rammstein-2019-2024",
+          "value": 563000000,
+          "rank": 14,
+          "artist": "Rammstein",
+          "year": "2019–2024",
+          "shows": "141",
+          "adjustedGross": "$577,811,075"
+        },
+        {
+          "id": "a-bigger-bang-tour-the-rolling-stones-2005-2007",
+          "value": 558255524,
+          "rank": 15,
+          "artist": "The Rolling Stones",
+          "year": "2005–2007",
+          "shows": "144",
+          "adjustedGross": "$866,814,668"
+        },
+        {
+          "id": "no-filter-tour-the-rolling-stones-2017-2021",
+          "value": 546500000,
+          "rank": 16,
+          "artist": "The Rolling Stones",
+          "year": "2017–2021",
+          "shows": "58",
+          "adjustedGross": "$649,316,898"
+        },
+        {
+          "id": "a-head-full-of-dreams-tour-coldplay-2016-2017",
+          "value": 523033675,
+          "rank": 17,
+          "artist": "Coldplay",
+          "year": "2016–2017",
+          "shows": "114",
+          "adjustedGross": "$686,987,620"
+        },
+        {
+          "id": "las-mujeres-ya-no-lloran-world-tour-shakira-2025-2026",
+          "value": 479200000,
+          "rank": 18,
+          "artist": "Shakira",
+          "year": "2025–2026",
+          "shows": "108",
+          "adjustedGross": "$479,200,000"
+        },
+        {
+          "id": "the-quittin-time-tour-zach-bryan-2024-2025",
+          "value": 477700000,
+          "rank": 19,
+          "artist": "Zach Bryan",
+          "year": "2024–2025",
+          "shows": "92",
+          "adjustedGross": "$477,700,000"
+        },
+        {
+          "id": "debi-tirar-mas-fotos-world-tour-bad-bunny-2025-2026",
+          "value": 467500000,
+          "rank": 20,
+          "artist": "Bad Bunny",
+          "year": "2025–2026",
+          "shows": "55",
+          "adjustedGross": "$467,500,000"
+        }
+      ]
+    },
+    {
+      "date": "20260901",
+      "values": [
+        {
+          "id": "the-eras-tour-taylor-swift-2023-2024",
+          "value": 2077618725,
+          "rank": 1,
+          "artist": "Taylor Swift",
+          "year": "2023–2024",
+          "shows": "149",
+          "adjustedGross": "$2,132,275,503"
+        },
+        {
+          "id": "music-of-the-spheres-world-tour-coldplay-2022-2025",
+          "value": 1524423018,
+          "rank": 2,
+          "artist": "Coldplay",
+          "year": "2022–2025",
+          "shows": "223",
+          "adjustedGross": "$1,524,423,018"
+        },
+        {
+          "id": "farewell-yellow-brick-road-elton-john-2018-2023",
+          "value": 939100000,
+          "rank": 3,
+          "artist": "Elton John",
+          "year": "2018–2023",
+          "shows": "330",
+          "adjustedGross": "$992,332,077"
+        },
+        {
+          "id": "after-hours-til-dawn-tour-the-weeknd-2022-2026",
+          "value": 910100000,
+          "rank": 4,
+          "artist": "The Weeknd",
+          "year": "2022–2026",
+          "shows": "141",
+          "adjustedGross": "$910,100,000"
+        },
+        {
+          "id": "tour-ed-sheeran-2022-2025",
+          "value": 875700000,
+          "rank": 5,
+          "artist": "Ed Sheeran",
+          "year": "2022–2025",
+          "shows": "169",
+          "adjustedGross": "$875,700,000"
+        },
+        {
+          "id": "tour-ed-sheeran-2017-2019",
+          "value": 776200000,
+          "rank": 6,
+          "artist": "Ed Sheeran",
+          "year": "2017–2019",
+          "shows": "255",
+          "adjustedGross": "$977,448,262"
+        },
+        {
+          "id": "360-tour-u2-2009-2011",
+          "value": 736421586,
+          "rank": 7,
+          "artist": "U2",
+          "year": "2009–2011",
+          "shows": "110",
+          "adjustedGross": "$1,053,976,160"
+        },
+        {
+          "id": "2023-2025-tour-bruce-springsteen-and-e-street-band-2023-2025",
+          "value": 729700000,
+          "rank": 8,
+          "artist": "Bruce Springsteen & E Street Band",
+          "year": "2023–2025",
+          "shows": "129",
+          "adjustedGross": "$729,700,000"
+        },
+        {
+          "id": "m72-world-tour-metallica-2023-2026",
+          "value": 668400000,
+          "rank": 9,
+          "artist": "Metallica",
+          "year": "2023–2026",
+          "shows": "86",
+          "adjustedGross": "$668,400,000"
+        },
+        {
+          "id": "love-on-tour-harry-styles-2021-2023",
+          "value": 617325000,
+          "rank": 10,
+          "artist": "Harry Styles",
+          "year": "2021–2023",
+          "shows": "169",
+          "adjustedGross": "$652,317,538"
+        },
+        {
+          "id": "summer-carnival-pink-2023-2024",
+          "value": 584700000,
+          "rank": 11,
+          "artist": "Pink",
+          "year": "2023–2024",
+          "shows": "97",
+          "adjustedGross": "$600,081,945"
+        },
+        {
+          "id": "not-in-this-lifetime-tour-guns-n-roses-2016-2019",
+          "value": 584200000,
+          "rank": 12,
+          "artist": "Guns N' Roses",
+          "year": "2016–2019",
+          "shows": "158",
+          "adjustedGross": "$735,667,708"
+        },
+        {
+          "id": "renaissance-world-tour-beyonce-2023",
+          "value": 579879268,
+          "rank": 13,
+          "artist": "Beyoncé",
+          "year": "2023",
+          "shows": "56",
+          "adjustedGross": "$612,749,227"
+        },
+        {
+          "id": "stadium-tour-rammstein-2019-2024",
+          "value": 563000000,
+          "rank": 14,
+          "artist": "Rammstein",
+          "year": "2019–2024",
+          "shows": "141",
+          "adjustedGross": "$577,811,075"
+        },
+        {
+          "id": "a-bigger-bang-tour-the-rolling-stones-2005-2007",
+          "value": 558255524,
+          "rank": 15,
+          "artist": "The Rolling Stones",
+          "year": "2005–2007",
+          "shows": "144",
+          "adjustedGross": "$866,814,668"
+        },
+        {
+          "id": "no-filter-tour-the-rolling-stones-2017-2021",
+          "value": 546500000,
+          "rank": 16,
+          "artist": "The Rolling Stones",
+          "year": "2017–2021",
+          "shows": "58",
+          "adjustedGross": "$649,316,898"
+        },
+        {
+          "id": "a-head-full-of-dreams-tour-coldplay-2016-2017",
+          "value": 523033675,
+          "rank": 17,
+          "artist": "Coldplay",
+          "year": "2016–2017",
+          "shows": "114",
+          "adjustedGross": "$686,987,620"
+        },
+        {
+          "id": "las-mujeres-ya-no-lloran-world-tour-shakira-2025-2026",
+          "value": 479200000,
+          "rank": 18,
+          "artist": "Shakira",
+          "year": "2025–2026",
+          "shows": "108",
+          "adjustedGross": "$479,200,000"
+        },
+        {
+          "id": "the-quittin-time-tour-zach-bryan-2024-2025",
+          "value": 477700000,
+          "rank": 19,
+          "artist": "Zach Bryan",
+          "year": "2024–2025",
+          "shows": "92",
+          "adjustedGross": "$477,700,000"
+        },
+        {
+          "id": "debi-tirar-mas-fotos-world-tour-bad-bunny-2025-2026",
+          "value": 467500000,
+          "rank": 20,
+          "artist": "Bad Bunny",
+          "year": "2025–2026",
+          "shows": "55",
+          "adjustedGross": "$467,500,000"
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "date": "20260628",
+      "title": "The Eras Tour leads tour gross",
+      "body": "The Eras Tour is the highest-ranked selected entry in this frame at $2.1B."
+    },
+    {
+      "date": "20260901",
+      "title": "The Eras Tour leads tour gross",
+      "body": "The Eras Tour is the highest-ranked selected entry in this frame at $2.1B."
+    }
+  ],
+  "sources": [
+    {
+      "title": "List of highest-grossing concert tours",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_highest-grossing_concert_tours",
+      "note": "Source table for all-time actual concert-tour gross."
+    }
+  ],
+  "lastObservationDate": "2026-09-01",
+  "dataFreshness": {
+    "status": "fresh",
+    "refreshCadence": "monthly",
+    "lastUpdated": "2026-09-01T07:03:08.053Z",
+    "lastRefreshAttemptedAt": "2026-09-01T07:03:08.053Z",
+    "lastRefreshError": null,
+    "lastObservationDate": "2026-09-01",
+    "nextRefreshAt": "2026-10-01T07:00:00.000Z",
+    "sourceStatus": "Wikipedia current ranking table: Top 20 highest-grossing tours of all time",
+    "confidence": "Observed List of highest-grossing concert tours on 2026-09-01T07:03:08.053Z; values are parsed from the \"Top 20 highest-grossing tours of all time\" Wikipedia table."
+  },
+  "media": {
+    "imageFit": "contain",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-09-01T07:03:08.053Z",
+    "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.webp",
+    "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.webp",
+    "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.json",
+    "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-grossing-music-tours.json",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 5,
+    "rows": 4,
+    "width": 1600,
+    "height": 1280,
+    "itemCount": 20,
+    "sourcedImageCount": 20,
+    "generatedImageCount": 0,
+    "placeholderCount": 0,
+    "ogImageUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/highest-grossing-music-tours.png",
+    "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/highest-grossing-music-tours.png",
+    "ogImageWidth": 1200,
+    "ogImageHeight": 630
+  },
+  "taxonomy": {
+    "primaryCategory": "culture",
+    "categories": [
+      "culture",
+      "music",
+      "entertainment"
+    ],
+    "tags": [
+      "concert-tours",
+      "box-office",
+      "music",
+      "artists"
+    ],
+    "entityTypes": [
+      "tour",
+      "artist"
+    ],
+    "sourceTypes": [
+      "wikipedia"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "apple-music-chart-heat",
+      "type": "music-demand",
+      "weight": 0.78,
+      "reason": "Both track music demand, one via listening charts and one via live touring revenue."
+    },
+    {
+      "target": "k-pop-attention",
+      "type": "fandom-economy",
+      "weight": 0.58,
+      "reason": "Large tours often reflect strong global fandom and attention."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "music-attention",
+    "mainland": "culture",
+    "bridgePriority": [
+      "apple-music-chart-heat",
+      "k-pop-attention"
+    ]
+  },
+  "schemaVersion": 1,
+  "contentKind": "dat-city.story",
+  "generatedAt": "2026-09-01T07:03:08.053Z",
+  "versionId": "20260901T070308Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "storyops-scheduler",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-09-01T07:03:08.053Z",
+    "versionId": "20260901T070308Z",
+    "adapter": "wikipedia-ranking-table",
+    "storySlug": "highest-grossing-music-tours",
+    "districtId": null,
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "publicProjection": {
+    "kind": "story",
+    "version": 1,
+    "generatedAt": "2026-09-01T07:03:08.053Z",
+    "adapter": "wikipedia-ranking-table",
+    "cache": {
+      "browserMaxAgeSeconds": 60,
+      "edgeMaxAgeSeconds": 3600
+    }
+  },
+  "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/highest-grossing-music-tours.png"
+}

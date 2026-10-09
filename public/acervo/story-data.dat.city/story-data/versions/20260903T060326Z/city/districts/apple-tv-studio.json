@@ -1,0 +1,819 @@
+{
+  "schemaVersion": 1,
+  "contentKind": "dat-city.district",
+  "version": 1,
+  "generatedAt": "2026-09-01T07:03:08.053Z",
+  "versionId": "20260901T070308Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "storyops-scheduler",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-09-01T07:03:08.053Z",
+    "versionId": "20260901T070308Z",
+    "adapter": null,
+    "storySlug": "apple-tv-top-10",
+    "districtId": "apple-tv-studio",
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "id": "apple-tv-studio",
+  "name": "Apple TV Studio",
+  "storySlug": "apple-tv-top-10",
+  "storyUrl": "/stories/apple-tv-top-10/",
+  "publicStoryUrl": "/stories/apple-tv-top-10.json",
+  "metric": "Wikipedia views",
+  "metricKey": "wikipedia-views",
+  "latestFrameLabel": "2026-09-01",
+  "summary": "Apple originals ranked by Wikipedia attention as a temporary source-backed bootstrap, not an official weekly Top 10.",
+  "taxonomy": {
+    "primaryCategory": "entertainment",
+    "categories": [
+      "entertainment",
+      "streaming",
+      "television"
+    ],
+    "tags": [
+      "apple-tv",
+      "streaming",
+      "top-10",
+      "watching"
+    ],
+    "entityTypes": [
+      "film",
+      "series"
+    ],
+    "sourceTypes": [
+      "wikipedia"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "what-everyone-is-watching",
+      "type": "streaming-platform-peer",
+      "weight": 0.88,
+      "reason": "This should be a sibling district to the Netflix watch chart."
+    },
+    {
+      "target": "prime-video-top-10",
+      "type": "streaming-platform-peer",
+      "weight": 0.84,
+      "reason": "Both are planned non-Netflix streaming platform Top 10 districts."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "streaming-platforms",
+    "mainland": "culture",
+    "bridgePriority": [
+      "what-everyone-is-watching",
+      "prime-video-top-10"
+    ]
+  },
+  "thumbnail": "/assets/og/dat-city.webp",
+  "status": "fresh",
+  "dataUpdatedAt": "2026-09-01T07:03:08.053Z",
+  "staleAfterHours": 192,
+  "dormant": false,
+  "lastObservationDate": "2026-09-01",
+  "nextRefreshAt": "2026-09-08T07:00:00.000Z",
+  "confidence": "Observed 30 days of en.wikipedia pageviews for titles listed on 2 Wikipedia platform-original page(s) at 2026-09-01T07:03:08.053Z. This is not a weekly or current streaming Top 10.",
+  "methodology": "Wikipedia does not currently provide a durable weekly/current Top 10 page for Apple TV+. This bootstrap uses the configured Wikipedia original-programming and original-film list pages as the source universe, then ranks titles by recent en.wikipedia pageviews via Wikipedia's PageViewInfo API. Treat the output as public-interest attention among platform originals, not streaming watch time or official platform ranking.",
+  "sources": [
+    {
+      "title": "List of Apple TV original programming",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_Apple_TV_original_programming",
+      "note": "Source universe for Apple original series."
+    },
+    {
+      "title": "List of Apple TV original films",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_Apple_TV_original_films",
+      "note": "Source universe for Apple original films."
+    }
+  ],
+  "media": {
+    "imageFit": "contain",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-09-01T07:03:08.053Z",
+    "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+    "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+    "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+    "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 5,
+    "rows": 4,
+    "width": 1600,
+    "height": 1280,
+    "itemCount": 20,
+    "sourcedImageCount": 17,
+    "generatedImageCount": 3,
+    "placeholderCount": 0
+  },
+  "entities": [
+    {
+      "id": "ted-lasso",
+      "name": "Ted Lasso",
+      "value": 1206669,
+      "rank": 1,
+      "color": "#41a99f",
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/73/Tedlassotitlecard.jpg",
+      "storyUrl": "/stories/apple-tv-top-10/",
+      "sourceIds": [
+        "List of Apple TV original programming",
+        "List of Apple TV original films"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.2,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/7/73/Tedlassotitlecard.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "silo-tv-series",
+      "name": "Silo",
+      "value": 1042953,
+      "rank": 2,
+      "color": "#7b9b65",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Silo_%28TV_series%29.png/960px-Silo_%28TV_series%29.png",
+      "storyUrl": "/stories/apple-tv-top-10/",
+      "sourceIds": [
+        "List of Apple TV original programming",
+        "List of Apple TV original films"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0,
+          "u1": 0.4,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Silo_%28TV_series%29.png/960px-Silo_%28TV_series%29.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "slow-horses",
+      "name": "Slow Horses",
+      "value": 320212,
+      "rank": 3,
+      "color": "#86bdf4",
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/90/Slow_Horses_logo.png",
+      "storyUrl": "/stories/apple-tv-top-10/",
+      "sourceIds": [
+        "List of Apple TV original programming",
+        "List of Apple TV original films"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0,
+          "u1": 0.6,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/9/90/Slow_Horses_logo.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "severance-tv-series",
+      "name": "Severance",
+      "value": 231964,
+      "rank": 4,
+      "color": "#f18c4f",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Severance_logo.svg/960px-Severance_logo.svg.png",
+      "storyUrl": "/stories/apple-tv-top-10/",
+      "sourceIds": [
+        "List of Apple TV original programming",
+        "List of Apple TV original films"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0,
+          "u1": 0.8,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Severance_logo.svg/960px-Severance_logo.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "cape-fear-tv-series",
+      "name": "Cape Fear",
+      "value": 228982,
+      "rank": 5,
+      "color": "#ff5a61",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Cape_Fear_%28tv_series_logo%29.svg/960px-Cape_Fear_%28tv_series_logo%29.svg.png",
+      "storyUrl": "/stories/apple-tv-top-10/",
+      "sourceIds": [
+        "List of Apple TV original programming",
+        "List of Apple TV original films"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "x": 1280,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Cape_Fear_%28tv_series_logo%29.svg/960px-Cape_Fear_%28tv_series_logo%29.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "pluribus-tv-series",
+      "name": "Pluribus",
+      "value": 211484,
+      "rank": 6,
+      "color": "#41a99f",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Pluribus_Logo.svg/960px-Pluribus_Logo.svg.png",
+      "storyUrl": "/stories/apple-tv-top-10/",
+      "sourceIds": [
+        "List of Apple TV original programming",
+        "List of Apple TV original films"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.25,
+          "u1": 0.2,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Pluribus_Logo.svg/960px-Pluribus_Logo.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "sugar-2024-tv-series",
+      "name": "Sugar",
+      "value": 187466,
+      "rank": 7,
+      "color": "#ef426f",
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/00/Sugar_TV_series_logo.jpg",
+      "storyUrl": "/stories/apple-tv-top-10/",
+      "sourceIds": [
+        "List of Apple TV original programming",
+        "List of Apple TV original films"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.25,
+          "u1": 0.4,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/0/00/Sugar_TV_series_logo.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "dark-matter-2024-tv-series",
+      "name": "Dark Matter",
+      "value": 173912,
+      "rank": 8,
+      "color": "#2f4858",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Dark_Matter_%282024_TV_series%29_logo.svg/960px-Dark_Matter_%282024_TV_series%29_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "storyUrl": "/stories/apple-tv-top-10/",
+      "sourceIds": [
+        "List of Apple TV original programming",
+        "List of Apple TV original films"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.25,
+          "u1": 0.6,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Dark_Matter_%282024_TV_series%29_logo.svg/960px-Dark_Matter_%282024_TV_series%29_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "for-all-mankind-tv-series",
+      "name": "For All Mankind",
+      "value": 172073,
+      "rank": 9,
+      "color": "#18c871",
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/f3/For_All_Mankind_Title_Card.png",
+      "storyUrl": "/stories/apple-tv-top-10/",
+      "sourceIds": [
+        "List of Apple TV original programming",
+        "List of Apple TV original films"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.25,
+          "u1": 0.8,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/f/f3/For_All_Mankind_Title_Card.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "shrinking-tv-series",
+      "name": "Shrinking",
+      "value": 171520,
+      "rank": 10,
+      "color": "#c9a14a",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Shrinking_TV_Series_Logo.svg/960px-Shrinking_TV_Series_Logo.svg.png",
+      "storyUrl": "/stories/apple-tv-top-10/",
+      "sourceIds": [
+        "List of Apple TV original programming",
+        "List of Apple TV original films"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "x": 1280,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.25,
+          "u1": 1,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Shrinking_TV_Series_Logo.svg/960px-Shrinking_TV_Series_Logo.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "margo-s-got-money-troubles",
+      "name": "Margo's Got Money Troubles",
+      "value": 121238,
+      "rank": 11,
+      "color": "#d78fca",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Margo%27s_Got_Money_Troubles_%28logo%29.svg/960px-Margo%27s_Got_Money_Troubles_%28logo%29.svg.png",
+      "storyUrl": "/stories/apple-tv-top-10/",
+      "sourceIds": [
+        "List of Apple TV original programming",
+        "List of Apple TV original films"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.5,
+          "u1": 0.2,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Margo%27s_Got_Money_Troubles_%28logo%29.svg/960px-Margo%27s_Got_Money_Troubles_%28logo%29.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "foundation-tv-series",
+      "name": "Foundation",
+      "value": 109448,
+      "rank": 12,
+      "color": "#41a99f",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Foundation_Logo.svg/960px-Foundation_Logo.svg.png",
+      "storyUrl": "/stories/apple-tv-top-10/",
+      "sourceIds": [
+        "List of Apple TV original programming",
+        "List of Apple TV original films"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.5,
+          "u1": 0.4,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Foundation_Logo.svg/960px-Foundation_Logo.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "f1-film",
+      "name": "F1",
+      "value": 105392,
+      "rank": 13,
+      "color": "#c9a14a",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/F1_movie_promotional_booth_far_shot.jpg/960px-F1_movie_promotional_booth_far_shot.jpg",
+      "storyUrl": "/stories/apple-tv-top-10/",
+      "sourceIds": [
+        "List of Apple TV original programming",
+        "List of Apple TV original films"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.5,
+          "u1": 0.6,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/F1_movie_promotional_booth_far_shot.jpg/960px-F1_movie_promotional_booth_far_shot.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "eternity-2025-film",
+      "name": "Eternity",
+      "value": 95025,
+      "rank": 14,
+      "color": "#e34f59",
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/6b/Eternity_film_poster.jpg",
+      "storyUrl": "/stories/apple-tv-top-10/",
+      "sourceIds": [
+        "List of Apple TV original programming",
+        "List of Apple TV original films"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.5,
+          "u1": 0.8,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/6/6b/Eternity_film_poster.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "star-city-tv-series",
+      "name": "Star City",
+      "value": 93230,
+      "rank": 15,
+      "color": "#2f4858",
+      "image": null,
+      "storyUrl": "/stories/apple-tv-top-10/",
+      "sourceIds": [
+        "List of Apple TV original programming",
+        "List of Apple TV original films"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "x": 1280,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.5,
+          "u1": 1,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:star-city-tv-series",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "killers-of-the-flower-moon",
+      "name": "Killers of the Flower Moon",
+      "value": 89173,
+      "rank": 16,
+      "color": "#8f6bff",
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/88/Killers_of_the_Flower_Moon_film_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "storyUrl": "/stories/apple-tv-top-10/",
+      "sourceIds": [
+        "List of Apple TV original programming",
+        "List of Apple TV original films"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "x": 0,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.75,
+          "u1": 0.2,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/8/88/Killers_of_the_Flower_Moon_film_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "maximum-pleasure-guaranteed",
+      "name": "Maximum Pleasure Guaranteed",
+      "value": 80311,
+      "rank": 17,
+      "color": "#8f6bff",
+      "image": null,
+      "storyUrl": "/stories/apple-tv-top-10/",
+      "sourceIds": [
+        "List of Apple TV original programming",
+        "List of Apple TV original films"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "x": 320,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.75,
+          "u1": 0.4,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:maximum-pleasure-guaranteed",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "cherry-2021-film",
+      "name": "Cherry",
+      "value": 73223,
+      "rank": 18,
+      "color": "#c9a14a",
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/86/Cherry_2021_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "storyUrl": "/stories/apple-tv-top-10/",
+      "sourceIds": [
+        "List of Apple TV original programming",
+        "List of Apple TV original films"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "x": 640,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.75,
+          "u1": 0.6,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/8/86/Cherry_2021_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "mistborn",
+      "name": "Mistborn",
+      "value": 71327,
+      "rank": 19,
+      "color": "#c9a14a",
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/40/Mistborn_Logo.jpg",
+      "storyUrl": "/stories/apple-tv-top-10/",
+      "sourceIds": [
+        "List of Apple TV original programming",
+        "List of Apple TV original films"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "x": 960,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.75,
+          "u1": 0.8,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/4/40/Mistborn_Logo.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "brothers-2026-tv-series",
+      "name": "Brothers",
+      "value": 63631,
+      "rank": 20,
+      "color": "#41a99f",
+      "image": null,
+      "storyUrl": "/stories/apple-tv-top-10/",
+      "sourceIds": [
+        "List of Apple TV original programming",
+        "List of Apple TV original films"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "x": 1280,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.75,
+          "u1": 1,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:brothers-2026-tv-series",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    }
+  ]
+}

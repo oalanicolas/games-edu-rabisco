@@ -1,0 +1,5507 @@
+{
+  "id": "most-expensive-films",
+  "kicker": "Film Budget Backlot",
+  "title": "Most Expensive Films Ever Made",
+  "subtitle": "The biggest movie production budgets in history, ranked by nominal cost and replayed across two decades of blockbuster escalation.",
+  "badge": "Ranked by production budget",
+  "visualization": "race-arena",
+  "theme": "studio",
+  "artStyle": "stylized-editorial",
+  "dateRange": [
+    "2006",
+    "2026"
+  ],
+  "timelineTicks": [
+    "2006",
+    "2007",
+    "2008",
+    "2009",
+    "2010",
+    "2011",
+    "2012",
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+  ],
+  "metricLabel": "Production budget",
+  "ogImage": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/most-expensive-films.png",
+  "cityPreview": {
+    "districtId": "film-budget-backlot",
+    "districtName": "Film Budget Backlot",
+    "cardLabel": "Film Budgets",
+    "summary": "The most expensive films ever made, ranked by nominal production budget (what they cost to make, not what they earned).",
+    "primaryMetric": "Production budget",
+    "latestFrameLabel": "2026 standing",
+    "storyUrl": "/stories/most-expensive-films/",
+    "thumbnail": "/assets/og/dat-city.webp"
+  },
+  "sourceStatus": "Wikipedia nominal production-budget table: Most expensive films",
+  "confidence": "Nominal production budgets parsed from the \"Most expensive films\" table on List of most expensive films, observed 2026-08-22T14:56:45.984Z. Values are the reported budgets, not inflation-adjusted.",
+  "methodology": "The adapter fetches Wikipedia's \"List of most expensive films\" page, reads the nominal (non-inflation-adjusted) most-expensive-films table, and keeps the 56 highest-budget productions. Each film enters the leaderboard in its release year and holds its reported budget, so the standing for any year is every listed film released by then ranked by budget. Historical frames are reconstructed from release years in the same table, requiring no additional source.",
+  "playback": {
+    "durationSeconds": 26,
+    "initialDate": "2006",
+    "periodLabel": "production budget"
+  },
+  "visual": {
+    "topCount": 16,
+    "referenceCount": 56,
+    "horizontalCount": 56
+  },
+  "layers": [
+    {
+      "id": "budget",
+      "label": "Budget",
+      "default": true
+    },
+    {
+      "id": "year",
+      "label": "Release year",
+      "default": true
+    }
+  ],
+  "focus": [
+    {
+      "id": "star-wars-the-force-awakens",
+      "label": "Star Wars: The Force Awakens"
+    },
+    {
+      "id": "jurassic-world-dominion",
+      "label": "Jurassic World Dominion"
+    },
+    {
+      "id": "star-wars-the-rise-of-skywalker",
+      "label": "Star Wars: The Rise of Skywalker"
+    },
+    {
+      "id": "jurassic-world-fallen-kingdom",
+      "label": "Jurassic World: Fallen Kingdom"
+    }
+  ],
+  "entities": [
+    {
+      "id": "star-wars-the-force-awakens",
+      "name": "Star Wars: The Force Awakens",
+      "shortName": "Star Wars: The Force Awakens",
+      "article": "Star Wars: The Force Awakens",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Star_Wars%3A_The_Force_Awakens",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Star_Wars_The_Force_Awakens_Theatrical_Poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Star_Wars_The_Force_Awakens_Theatrical_Poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "SW",
+      "color": "#ff5a61",
+      "year": "2015",
+      "cost": "$536M",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.125,
+          "v1": 0.142857
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Star_Wars_The_Force_Awakens_Theatrical_Poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "jurassic-world-dominion",
+      "name": "Jurassic World Dominion",
+      "shortName": "Jurassic World Dominion",
+      "article": "Jurassic World Dominion",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Jurassic_World_Dominion",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/c/ce/JurassicWorldDominion_Poster.jpeg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/c/ce/JurassicWorldDominion_Poster.jpeg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "JW",
+      "color": "#18c871",
+      "year": "2022",
+      "cost": "$531M",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.125,
+          "v0": 0,
+          "u1": 0.25,
+          "v1": 0.142857
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/c/ce/JurassicWorldDominion_Poster.jpeg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "star-wars-the-rise-of-skywalker",
+      "name": "Star Wars: The Rise of Skywalker",
+      "shortName": "Star Wars: The Rise of Skywalker",
+      "article": "Star Wars: The Rise of Skywalker",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Star_Wars%3A_The_Rise_of_Skywalker",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/a/af/Star_Wars_The_Rise_of_Skywalker_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/a/af/Star_Wars_The_Rise_of_Skywalker_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "SW",
+      "color": "#ffc84a",
+      "year": "2019",
+      "cost": "$490M",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0,
+          "u1": 0.375,
+          "v1": 0.142857
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/a/af/Star_Wars_The_Rise_of_Skywalker_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "jurassic-world-fallen-kingdom",
+      "name": "Jurassic World: Fallen Kingdom",
+      "shortName": "Jurassic World: Fallen Kingdom",
+      "article": "Jurassic World: Fallen Kingdom",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Jurassic_World%3A_Fallen_Kingdom",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/c/c6/Jurassic_World_Fallen_Kingdom.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/c/c6/Jurassic_World_Fallen_Kingdom.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "JW",
+      "color": "#00a6ff",
+      "year": "2018",
+      "cost": "$465M",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.375,
+          "v0": 0,
+          "u1": 0.5,
+          "v1": 0.142857
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/c/c6/Jurassic_World_Fallen_Kingdom.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "deadpool-and-wolverine",
+      "name": "Deadpool & Wolverine",
+      "shortName": "Deadpool & Wolverine",
+      "article": "Deadpool & Wolverine",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Deadpool_%26_Wolverine",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/4/4c/Deadpool_%26_Wolverine_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/4/4c/Deadpool_%26_Wolverine_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "D&",
+      "color": "#8f6bff",
+      "year": "2024",
+      "cost": "$429M",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "x": 1280,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0,
+          "u1": 0.625,
+          "v1": 0.142857
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/4/4c/Deadpool_%26_Wolverine_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "pirates-of-the-caribbean-on-stranger-tides",
+      "name": "Pirates of the Caribbean: On Stranger Tides",
+      "shortName": "Pirates of the Caribbean: On Stranger Tides",
+      "article": "Pirates of the Caribbean: On Stranger Tides",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Pirates_of_the_Caribbean%3A_On_Stranger_Tides",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/5/5e/Pirates_of_the_Caribbean_-_On_Stranger_Tides.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/5/5e/Pirates_of_the_Caribbean_-_On_Stranger_Tides.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "PO",
+      "color": "#f18c4f",
+      "year": "2011",
+      "cost": "$379M",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "x": 1600,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.625,
+          "v0": 0,
+          "u1": 0.75,
+          "v1": 0.142857
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/5/5e/Pirates_of_the_Caribbean_-_On_Stranger_Tides.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "fast-x",
+      "name": "Fast X",
+      "shortName": "Fast X",
+      "article": "Fast X",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Fast_X",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/f/f2/Fast_X_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/f/f2/Fast_X_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "FX",
+      "color": "#41a99f",
+      "year": "2023",
+      "cost": "$379M",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "x": 1920,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0,
+          "u1": 0.875,
+          "v1": 0.142857
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/f/f2/Fast_X_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "avengers-age-of-ultron",
+      "name": "Avengers: Age of Ultron",
+      "shortName": "Avengers: Age of Ultron",
+      "article": "Avengers: Age of Ultron",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Avengers%3A_Age_of_Ultron",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/f/ff/Avengers_Age_of_Ultron_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/f/ff/Avengers_Age_of_Ultron_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "AA",
+      "color": "#d78fca",
+      "year": "2015",
+      "cost": "$365M",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "x": 2240,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.875,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.142857
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/f/ff/Avengers_Age_of_Ultron_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "avengers-endgame",
+      "name": "Avengers: Endgame",
+      "shortName": "Avengers: Endgame",
+      "article": "Avengers: Endgame",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Avengers%3A_Endgame",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/0/0d/Avengers_Endgame_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/0/0d/Avengers_Endgame_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "AE",
+      "color": "#7b9b65",
+      "year": "2019",
+      "cost": "$356M",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.142857,
+          "u1": 0.125,
+          "v1": 0.285714
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/0/0d/Avengers_Endgame_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "indiana-jones-and-the-dial-of-destiny",
+      "name": "Indiana Jones and the Dial of Destiny",
+      "shortName": "Indiana Jones and the Dial of Destiny",
+      "article": "Indiana Jones and the Dial of Destiny",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Indiana_Jones_and_the_Dial_of_Destiny",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/c/c3/Indiana_Jones_and_the_Dial_of_Destiny_theatrical_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/c/c3/Indiana_Jones_and_the_Dial_of_Destiny_theatrical_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "IJ",
+      "color": "#2f4858",
+      "year": "2023",
+      "cost": "$352M",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.125,
+          "v0": 0.142857,
+          "u1": 0.25,
+          "v1": 0.285714
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/c/c3/Indiana_Jones_and_the_Dial_of_Destiny_theatrical_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "doctor-strange-in-the-multiverse-of-madness",
+      "name": "Doctor Strange in the Multiverse of Madness",
+      "shortName": "Doctor Strange in the Multiverse of Madness",
+      "article": "Doctor Strange in the Multiverse of Madness",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Doctor_Strange_in_the_Multiverse_of_Madness",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/1/17/Doctor_Strange_in_the_Multiverse_of_Madness_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/1/17/Doctor_Strange_in_the_Multiverse_of_Madness_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "DS",
+      "color": "#ef426f",
+      "year": "2022",
+      "cost": "$351M",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.142857,
+          "u1": 0.375,
+          "v1": 0.285714
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/1/17/Doctor_Strange_in_the_Multiverse_of_Madness_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "avatar-the-way-of-water",
+      "name": "Avatar: The Way of Water",
+      "shortName": "Avatar: The Way of Water",
+      "article": "Avatar: The Way of Water",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Avatar%3A_The_Way_of_Water",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/5/54/Avatar_The_Way_of_Water_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/5/54/Avatar_The_Way_of_Water_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "AT",
+      "color": "#86bdf4",
+      "year": "2022",
+      "cost": "$350M",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.375,
+          "v0": 0.142857,
+          "u1": 0.5,
+          "v1": 0.285714
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/5/54/Avatar_The_Way_of_Water_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "avatar-fire-and-ash",
+      "name": "Avatar: Fire and Ash",
+      "shortName": "Avatar: Fire and Ash",
+      "article": "Avatar: Fire and Ash",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Avatar%3A_Fire_and_Ash",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/9/95/Avatar_Fire_and_Ash_poster.jpeg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/9/95/Avatar_Fire_and_Ash_poster.jpeg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "AF",
+      "color": "#c9a14a",
+      "year": "2025",
+      "cost": "$350M",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "x": 1280,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.142857,
+          "u1": 0.625,
+          "v1": 0.285714
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/9/95/Avatar_Fire_and_Ash_poster.jpeg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "star-wars-the-last-jedi",
+      "name": "Star Wars: The Last Jedi",
+      "shortName": "Star Wars: The Last Jedi",
+      "article": "Star Wars: The Last Jedi",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Star_Wars%3A_The_Last_Jedi",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/7/7f/Star_Wars_The_Last_Jedi.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/7/7f/Star_Wars_The_Last_Jedi.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "SW",
+      "color": "#e34f59",
+      "year": "2017",
+      "cost": "$343M",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "x": 1600,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.625,
+          "v0": 0.142857,
+          "u1": 0.75,
+          "v1": 0.285714
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/7/7f/Star_Wars_The_Last_Jedi.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "ant-man-and-the-wasp-quantumania",
+      "name": "Ant-Man and the Wasp: Quantumania",
+      "shortName": "Ant-Man and the Wasp: Quantumania",
+      "article": "Ant-Man and the Wasp: Quantumania",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Ant-Man_and_the_Wasp%3A_Quantumania",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/3/30/Ant-Man_and_the_Wasp_Quantumania_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/3/30/Ant-Man_and_the_Wasp_Quantumania_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "AA",
+      "color": "#9aa4b2",
+      "year": "2023",
+      "cost": "$330M",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "x": 1920,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.142857,
+          "u1": 0.875,
+          "v1": 0.285714
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/3/30/Ant-Man_and_the_Wasp_Quantumania_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "avengers-infinity-war",
+      "name": "Avengers: Infinity War",
+      "shortName": "Avengers: Infinity War",
+      "article": "Avengers: Infinity War",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Avengers%3A_Infinity_War",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/4/4d/Avengers_Infinity_War_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/4/4d/Avengers_Infinity_War_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "AI",
+      "color": "#ff5a61",
+      "year": "2018",
+      "cost": "$325M",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "x": 2240,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.875,
+          "v0": 0.142857,
+          "u1": 1,
+          "v1": 0.285714
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/4/4d/Avengers_Infinity_War_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "the-electric-state",
+      "name": "The Electric State",
+      "shortName": "The Electric State",
+      "article": "The Electric State (film)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Electric_State_(film)",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/d/d7/The_Electric_State_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/d/d7/The_Electric_State_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "TE",
+      "color": "#18c871",
+      "year": "2025",
+      "cost": "$320M",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.285714,
+          "u1": 0.125,
+          "v1": 0.428571
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/d/d7/The_Electric_State_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "the-marvels",
+      "name": "The Marvels",
+      "shortName": "The Marvels",
+      "article": "The Marvels",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Marvels",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/7/7a/The_Marvels_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/7/7a/The_Marvels_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "TM",
+      "color": "#ffc84a",
+      "year": "2023",
+      "cost": "$307M",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.125,
+          "v0": 0.285714,
+          "u1": 0.25,
+          "v1": 0.428571
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/7/7a/The_Marvels_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "pirates-of-the-caribbean-at-world-s-end",
+      "name": "Pirates of the Caribbean: At World's End",
+      "shortName": "Pirates of the Caribbean: At World's End",
+      "article": "Pirates of the Caribbean: At World's End",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Pirates_of_the_Caribbean%3A_At_World's_End",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/5/5a/Pirates_AWE_Poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/5/5a/Pirates_AWE_Poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "PO",
+      "color": "#00a6ff",
+      "year": "2007",
+      "cost": "$300M",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.285714,
+          "u1": 0.375,
+          "v1": 0.428571
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/5/5a/Pirates_AWE_Poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "justice-league",
+      "name": "Justice League",
+      "shortName": "Justice League",
+      "article": "Justice League (film)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Justice_League_(film)",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/6/6b/Justice_League_%28film%29_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/6/6b/Justice_League_%28film%29_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "JL",
+      "color": "#8f6bff",
+      "year": "2017",
+      "cost": "$300M",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.375,
+          "v0": 0.285714,
+          "u1": 0.5,
+          "v1": 0.428571
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/6/6b/Justice_League_%28film%29_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "solo-a-star-wars-story",
+      "name": "Solo: A Star Wars Story",
+      "shortName": "Solo: A Star Wars Story",
+      "article": "Solo: A Star Wars Story",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Solo%3A_A_Star_Wars_Story",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/5/54/Solo_A_Star_Wars_Story_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/5/54/Solo_A_Star_Wars_Story_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "SA",
+      "color": "#f18c4f",
+      "year": "2018",
+      "cost": "$300M",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "x": 1280,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.285714,
+          "u1": 0.625,
+          "v1": 0.428571
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/5/54/Solo_A_Star_Wars_Story_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "mission-impossible-the-final-reckoning",
+      "name": "Mission: Impossible – The Final Reckoning",
+      "shortName": "Mission: Impossible – The Final Reckoning",
+      "article": "Mission: Impossible – The Final Reckoning",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Mission%3A_Impossible_%E2%80%93_The_Final_Reckoning",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/1/1f/Mission_Impossible_%E2%80%93_The_Final_Reckoning_Poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/1/1f/Mission_Impossible_%E2%80%93_The_Final_Reckoning_Poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "MI",
+      "color": "#41a99f",
+      "year": "2025",
+      "cost": "$300M",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "x": 1600,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.625,
+          "v0": 0.285714,
+          "u1": 0.75,
+          "v1": 0.428571
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/1/1f/Mission_Impossible_%E2%80%93_The_Final_Reckoning_Poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "mission-impossible-dead-reckoning-part-one",
+      "name": "Mission: Impossible – Dead Reckoning Part One",
+      "shortName": "Mission: Impossible – Dead Reckoning Part One",
+      "article": "Mission: Impossible – Dead Reckoning Part One",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Mission%3A_Impossible_%E2%80%93_Dead_Reckoning_Part_One",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/e/ed/Mission-_Impossible_%E2%80%93_Dead_Reckoning_Part_One_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/e/ed/Mission-_Impossible_%E2%80%93_Dead_Reckoning_Part_One_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "MI",
+      "color": "#d78fca",
+      "year": "2023",
+      "cost": "$291M",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "x": 1920,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.285714,
+          "u1": 0.875,
+          "v1": 0.428571
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/e/ed/Mission-_Impossible_%E2%80%93_Dead_Reckoning_Part_One_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "snow-white",
+      "name": "Snow White",
+      "shortName": "Snow White",
+      "article": "Snow White (2025 film)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Snow_White_(2025_film)",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/1/1f/Snow_White_%282025_film%29_final_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/1/1f/Snow_White_%282025_film%29_final_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "SW",
+      "color": "#7b9b65",
+      "year": "2025",
+      "cost": "$272M",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "x": 2240,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.875,
+          "v0": 0.285714,
+          "u1": 1,
+          "v1": 0.428571
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/1/1f/Snow_White_%282025_film%29_final_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "rogue-one",
+      "name": "Rogue One",
+      "shortName": "Rogue One",
+      "article": "Rogue One",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Rogue_One",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/d/d4/Rogue_One%2C_A_Star_Wars_Story_poster.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/d/d4/Rogue_One%2C_A_Star_Wars_Story_poster.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "RO",
+      "color": "#2f4858",
+      "year": "2016",
+      "cost": "$271M",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "x": 0,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.428571,
+          "u1": 0.125,
+          "v1": 0.571429
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/d/d4/Rogue_One%2C_A_Star_Wars_Story_poster.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "john-carter",
+      "name": "John Carter",
+      "shortName": "John Carter",
+      "article": "John Carter (film)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/John_Carter_(film)",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/a/aa/John_carter_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/a/aa/John_carter_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "JC",
+      "color": "#ef426f",
+      "year": "2012",
+      "cost": "$264M",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "x": 320,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.125,
+          "v0": 0.428571,
+          "u1": 0.25,
+          "v1": 0.571429
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/a/aa/John_carter_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "batman-v-superman-dawn-of-justice",
+      "name": "Batman v Superman: Dawn of Justice",
+      "shortName": "Batman v Superman: Dawn of Justice",
+      "article": "Batman v Superman: Dawn of Justice",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Batman_v_Superman%3A_Dawn_of_Justice",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/3/31/Batman_v_Superman_Dawn_of_Justice_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/3/31/Batman_v_Superman_Dawn_of_Justice_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "BV",
+      "color": "#86bdf4",
+      "year": "2016",
+      "cost": "$263M",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "x": 640,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.428571,
+          "u1": 0.375,
+          "v1": 0.571429
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/3/31/Batman_v_Superman_Dawn_of_Justice_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "tangled",
+      "name": "Tangled",
+      "shortName": "Tangled",
+      "article": "Tangled",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Tangled",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Tangled_gold_logo.svg/960px-Tangled_gold_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Tangled_gold_logo.svg/960px-Tangled_gold_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "avatarText": "T",
+      "color": "#c9a14a",
+      "year": "2010",
+      "cost": "$260M",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "x": 960,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.375,
+          "v0": 0.428571,
+          "u1": 0.5,
+          "v1": 0.571429
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Tangled_gold_logo.svg/960px-Tangled_gold_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "spider-man-3",
+      "name": "Spider-Man 3",
+      "shortName": "Spider-Man 3",
+      "article": "Spider-Man 3",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Spider-Man_3",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/7/7a/Spider-Man_3%2C_International_Poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/7/7a/Spider-Man_3%2C_International_Poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "S3",
+      "color": "#e34f59",
+      "year": "2007",
+      "cost": "$258M",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "x": 1280,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.428571,
+          "u1": 0.625,
+          "v1": 0.571429
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/7/7a/Spider-Man_3%2C_International_Poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "beauty-and-the-beast",
+      "name": "Beauty and the Beast",
+      "shortName": "Beauty and the Beast",
+      "article": "Beauty and the Beast (2017 film)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Beauty_and_the_Beast_(2017_film)",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/d/d6/Beauty_and_the_Beast_2017_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/d/d6/Beauty_and_the_Beast_2017_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "BA",
+      "color": "#9aa4b2",
+      "year": "2017",
+      "cost": "$255M",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "x": 1600,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.625,
+          "v0": 0.428571,
+          "u1": 0.75,
+          "v1": 0.571429
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/d/d6/Beauty_and_the_Beast_2017_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "eternals",
+      "name": "Eternals",
+      "shortName": "Eternals",
+      "article": "Eternals (film)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Eternals_(film)",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/9/9b/Eternals_%28film%29_poster.jpeg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/9/9b/Eternals_%28film%29_poster.jpeg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "E",
+      "color": "#ff5a61",
+      "year": "2021",
+      "cost": "$254M",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "x": 1920,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.428571,
+          "u1": 0.875,
+          "v1": 0.571429
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/9/9b/Eternals_%28film%29_poster.jpeg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "harry-potter-and-the-half-blood-prince",
+      "name": "Harry Potter and the Half-Blood Prince",
+      "shortName": "Harry Potter and the Half-Blood Prince",
+      "article": "Harry Potter and the Half-Blood Prince (film)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Harry_Potter_and_the_Half-Blood_Prince_(film)",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/3/3f/Harry_Potter_and_the_Half-Blood_Prince_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/3/3f/Harry_Potter_and_the_Half-Blood_Prince_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "HP",
+      "color": "#18c871",
+      "year": "2009",
+      "cost": "$250M",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "x": 2240,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.875,
+          "v0": 0.428571,
+          "u1": 1,
+          "v1": 0.571429
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/3/3f/Harry_Potter_and_the_Half-Blood_Prince_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "furious-7",
+      "name": "Furious 7",
+      "shortName": "Furious 7",
+      "article": "Furious 7",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Furious_7",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/b/b8/Furious_7_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b8/Furious_7_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "F7",
+      "color": "#ffc84a",
+      "year": "2015",
+      "cost": "$250M",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "x": 0,
+          "y": 1280,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.571429,
+          "u1": 0.125,
+          "v1": 0.714286
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/b/b8/Furious_7_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "the-fate-of-the-furious",
+      "name": "The Fate of the Furious",
+      "shortName": "The Fate of the Furious",
+      "article": "The Fate of the Furious",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Fate_of_the_Furious",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/2/2d/The_Fate_of_The_Furious_Theatrical_Poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/2/2d/The_Fate_of_The_Furious_Theatrical_Poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "TF",
+      "color": "#00a6ff",
+      "year": "2017",
+      "cost": "$250M",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "x": 320,
+          "y": 1280,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.125,
+          "v0": 0.571429,
+          "u1": 0.25,
+          "v1": 0.714286
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/2/2d/The_Fate_of_The_Furious_Theatrical_Poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "the-lion-king",
+      "name": "The Lion King",
+      "shortName": "The Lion King",
+      "article": "The Lion King (2019 film)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Lion_King_(2019_film)",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/The_Lion_King_European_Premiere.png/960px-The_Lion_King_European_Premiere.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/The_Lion_King_European_Premiere.png/960px-The_Lion_King_European_Premiere.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "avatarText": "TL",
+      "color": "#8f6bff",
+      "year": "2019",
+      "cost": "$250M",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "x": 640,
+          "y": 1280,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.571429,
+          "u1": 0.375,
+          "v1": 0.714286
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/The_Lion_King_European_Premiere.png/960px-The_Lion_King_European_Premiere.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "no-time-to-die",
+      "name": "No Time to Die",
+      "shortName": "No Time to Die",
+      "article": "No Time to Die",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/No_Time_to_Die",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/f/fe/No_Time_to_Die_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/f/fe/No_Time_to_Die_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "NT",
+      "color": "#f18c4f",
+      "year": "2021",
+      "cost": "$250M",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "x": 960,
+          "y": 1280,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.375,
+          "v0": 0.571429,
+          "u1": 0.5,
+          "v1": 0.714286
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/f/fe/No_Time_to_Die_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "black-panther-wakanda-forever",
+      "name": "Black Panther: Wakanda Forever",
+      "shortName": "Black Panther: Wakanda Forever",
+      "article": "Black Panther: Wakanda Forever",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Black_Panther%3A_Wakanda_Forever",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/3/3b/Black_Panther_Wakanda_Forever_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/3/3b/Black_Panther_Wakanda_Forever_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "BP",
+      "color": "#41a99f",
+      "year": "2022",
+      "cost": "$250M",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "x": 1280,
+          "y": 1280,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.571429,
+          "u1": 0.625,
+          "v1": 0.714286
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/3/3b/Black_Panther_Wakanda_Forever_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "thor-love-and-thunder",
+      "name": "Thor: Love and Thunder",
+      "shortName": "Thor: Love and Thunder",
+      "article": "Thor: Love and Thunder",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Thor%3A_Love_and_Thunder",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/8/88/Thor_Love_and_Thunder_poster.jpeg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/8/88/Thor_Love_and_Thunder_poster.jpeg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "TL",
+      "color": "#d78fca",
+      "year": "2022",
+      "cost": "$250M",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "x": 1600,
+          "y": 1280,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.625,
+          "v0": 0.571429,
+          "u1": 0.75,
+          "v1": 0.714286
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/8/88/Thor_Love_and_Thunder_poster.jpeg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "guardians-of-the-galaxy-vol-3",
+      "name": "Guardians of the Galaxy Vol. 3",
+      "shortName": "Guardians of the Galaxy Vol. 3",
+      "article": "Guardians of the Galaxy Vol. 3",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Guardians_of_the_Galaxy_Vol._3",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/7/74/Guardians_of_the_Galaxy_Vol._3_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/7/74/Guardians_of_the_Galaxy_Vol._3_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "GO",
+      "color": "#7b9b65",
+      "year": "2023",
+      "cost": "$250M",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "x": 1920,
+          "y": 1280,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.571429,
+          "u1": 0.875,
+          "v1": 0.714286
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/7/74/Guardians_of_the_Galaxy_Vol._3_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "moana",
+      "name": "Moana",
+      "shortName": "Moana",
+      "article": "Moana (2026 film)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Moana_(2026_film)",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/c/c1/Moana_%282026_film%29_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/c/c1/Moana_%282026_film%29_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "M",
+      "color": "#2f4858",
+      "year": "2026",
+      "cost": "$250M",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "x": 2240,
+          "y": 1280,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.875,
+          "v0": 0.571429,
+          "u1": 1,
+          "v1": 0.714286
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/c/c1/Moana_%282026_film%29_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "the-odyssey",
+      "name": "The Odyssey",
+      "shortName": "The Odyssey",
+      "article": "The Odyssey (2026 film)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Odyssey_(2026_film)",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/9/90/The_Odyssey_%282026_film%29_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/9/90/The_Odyssey_%282026_film%29_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "TO",
+      "color": "#ef426f",
+      "year": "2026",
+      "cost": "$250M",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "x": 0,
+          "y": 1600,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.714286,
+          "u1": 0.125,
+          "v1": 0.857143
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/9/90/The_Odyssey_%282026_film%29_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "toy-story-5",
+      "name": "Toy Story 5",
+      "shortName": "Toy Story 5",
+      "article": "Toy Story 5",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Toy_Story_5",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/0/08/Toy_Story_5_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/0/08/Toy_Story_5_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "TS",
+      "color": "#86bdf4",
+      "year": "2026",
+      "cost": "$250M",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "x": 320,
+          "y": 1600,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.125,
+          "v0": 0.714286,
+          "u1": 0.25,
+          "v1": 0.857143
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/0/08/Toy_Story_5_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "black-widow",
+      "name": "Black Widow",
+      "shortName": "Black Widow",
+      "article": "Black Widow (2021 film)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Black_Widow_(2021_film)",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/e/e9/Black_Widow_%282021_film%29_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/e/e9/Black_Widow_%282021_film%29_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "BW",
+      "color": "#c9a14a",
+      "year": "2021",
+      "cost": "$248M",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "x": 640,
+          "y": 1600,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.714286,
+          "u1": 0.375,
+          "v1": 0.857143
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/e/e9/Black_Widow_%282021_film%29_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "spectre",
+      "name": "Spectre",
+      "shortName": "Spectre",
+      "article": "Spectre (2015 film)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Spectre_(2015_film)",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/b/b9/Spectre_2015_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b9/Spectre_2015_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "S",
+      "color": "#e34f59",
+      "year": "2015",
+      "cost": "$245M",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "x": 960,
+          "y": 1600,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.375,
+          "v0": 0.714286,
+          "u1": 0.5,
+          "v1": 0.857143
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/b/b9/Spectre_2015_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "the-little-mermaid",
+      "name": "The Little Mermaid",
+      "shortName": "The Little Mermaid",
+      "article": "The Little Mermaid (2023 film)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Little_Mermaid_(2023_film)",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/The_Little_Mermaid_logo.svg/960px-The_Little_Mermaid_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/The_Little_Mermaid_logo.svg/960px-The_Little_Mermaid_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "avatarText": "TL",
+      "color": "#9aa4b2",
+      "year": "2023",
+      "cost": "$240M",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "x": 1280,
+          "y": 1600,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.714286,
+          "u1": 0.625,
+          "v1": 0.857143
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/The_Little_Mermaid_logo.svg/960px-The_Little_Mermaid_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "avatar",
+      "name": "Avatar",
+      "shortName": "Avatar",
+      "article": "Avatar (2009 film)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Avatar_(2009_film)",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/d/d6/Avatar_%282009_film%29_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/d/d6/Avatar_%282009_film%29_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "A",
+      "color": "#ff5a61",
+      "year": "2009",
+      "cost": "$237M",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "x": 1600,
+          "y": 1600,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.625,
+          "v0": 0.714286,
+          "u1": 0.75,
+          "v1": 0.857143
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/d/d6/Avatar_%282009_film%29_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "the-dark-knight-rises",
+      "name": "The Dark Knight Rises",
+      "shortName": "The Dark Knight Rises",
+      "article": "The Dark Knight Rises",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Dark_Knight_Rises",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/8/83/Dark_knight_rises_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/8/83/Dark_knight_rises_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "TD",
+      "color": "#18c871",
+      "year": "2012",
+      "cost": "$230M",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "x": 1920,
+          "y": 1600,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.714286,
+          "u1": 0.875,
+          "v1": 0.857143
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/8/83/Dark_knight_rises_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "captain-america-civil-war",
+      "name": "Captain America: Civil War",
+      "shortName": "Captain America: Civil War",
+      "article": "Captain America: Civil War",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Captain_America%3A_Civil_War",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/5/53/Captain_America_Civil_War_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/5/53/Captain_America_Civil_War_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "CA",
+      "color": "#ffc84a",
+      "year": "2016",
+      "cost": "$230M",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "x": 2240,
+          "y": 1600,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.875,
+          "v0": 0.714286,
+          "u1": 1,
+          "v1": 0.857143
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/5/53/Captain_America_Civil_War_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "pirates-of-the-caribbean-dead-men-tell-no-tales",
+      "name": "Pirates of the Caribbean: Dead Men Tell No Tales",
+      "shortName": "Pirates of the Caribbean: Dead Men Tell No Tales",
+      "article": "Pirates of the Caribbean: Dead Men Tell No Tales",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Pirates_of_the_Caribbean%3A_Dead_Men_Tell_No_Tales",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/2/21/Pirates_of_the_Caribbean%2C_Dead_Men_Tell_No_Tales.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/2/21/Pirates_of_the_Caribbean%2C_Dead_Men_Tell_No_Tales.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "PO",
+      "color": "#00a6ff",
+      "year": "2017",
+      "cost": "$230M",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "x": 0,
+          "y": 1920,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.857143,
+          "u1": 0.125,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/2/21/Pirates_of_the_Caribbean%2C_Dead_Men_Tell_No_Tales.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "maleficent",
+      "name": "Maleficent",
+      "shortName": "Maleficent",
+      "article": "Maleficent (film)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Maleficent_(film)",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/5/55/Maleficent_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/5/55/Maleficent_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "M",
+      "color": "#8f6bff",
+      "year": "2014",
+      "cost": "$226M",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "x": 320,
+          "y": 1920,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.125,
+          "v0": 0.857143,
+          "u1": 0.25,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/5/55/Maleficent_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "pirates-of-the-caribbean-dead-man-s-chest",
+      "name": "Pirates of the Caribbean: Dead Man's Chest",
+      "shortName": "Pirates of the Caribbean: Dead Man's Chest",
+      "article": "Pirates of the Caribbean: Dead Man's Chest",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Pirates_of_the_Caribbean%3A_Dead_Man's_Chest",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/2/2d/Pirates_of_the_caribbean_2_poster_b.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/2/2d/Pirates_of_the_caribbean_2_poster_b.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "PO",
+      "color": "#f18c4f",
+      "year": "2006",
+      "cost": "$225M",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "x": 640,
+          "y": 1920,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.857143,
+          "u1": 0.375,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/2/2d/Pirates_of_the_caribbean_2_poster_b.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "the-chronicles-of-narnia-prince-caspian",
+      "name": "The Chronicles of Narnia: Prince Caspian",
+      "shortName": "The Chronicles of Narnia: Prince Caspian",
+      "article": "The Chronicles of Narnia: Prince Caspian",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Chronicles_of_Narnia%3A_Prince_Caspian",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/c/c8/Principe_Caspain_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/c/c8/Principe_Caspain_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "TC",
+      "color": "#41a99f",
+      "year": "2008",
+      "cost": "$225M",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "x": 960,
+          "y": 1920,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.375,
+          "v0": 0.857143,
+          "u1": 0.5,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/c/c8/Principe_Caspain_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "man-of-steel",
+      "name": "Man of Steel",
+      "shortName": "Man of Steel",
+      "article": "Man of Steel (film)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Man_of_Steel_(film)",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/5/50/Man_of_Steel_%28film%29_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/5/50/Man_of_Steel_%28film%29_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "MO",
+      "color": "#d78fca",
+      "year": "2013",
+      "cost": "$225M",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "x": 1280,
+          "y": 1920,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.857143,
+          "u1": 0.625,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/5/50/Man_of_Steel_%28film%29_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "the-lone-ranger",
+      "name": "The Lone Ranger",
+      "shortName": "The Lone Ranger",
+      "article": "The Lone Ranger (2013 film)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Lone_Ranger_(2013_film)",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/0/0d/TheLoneRanger2013Poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/0/0d/TheLoneRanger2013Poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "TL",
+      "color": "#7b9b65",
+      "year": "2013",
+      "cost": "$225M",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "x": 1600,
+          "y": 1920,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.625,
+          "v0": 0.857143,
+          "u1": 0.75,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/0/0d/TheLoneRanger2013Poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "superman",
+      "name": "Superman",
+      "shortName": "Superman",
+      "article": "Superman (2025 film)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Superman_(2025_film)",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/3/32/Superman_%282025_film%29_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/3/32/Superman_%282025_film%29_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "S",
+      "color": "#2f4858",
+      "year": "2025",
+      "cost": "$225M",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "x": 1920,
+          "y": 1920,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.857143,
+          "u1": 0.875,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/3/32/Superman_%282025_film%29_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "spider-man-brand-new-day",
+      "name": "Spider-Man: Brand New Day",
+      "shortName": "Spider-Man: Brand New Day",
+      "article": "Spider-Man: Brand New Day",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Spider-Man%3A_Brand_New_Day",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/9/9a/Spider-Man_Brand_New_Day_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/9/9a/Spider-Man_Brand_New_Day_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "SB",
+      "color": "#ef426f",
+      "year": "2026",
+      "cost": "$225M",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+          "x": 2240,
+          "y": 1920,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.875,
+          "v0": 0.857143,
+          "u1": 1,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/9/9a/Spider-Man_Brand_New_Day_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    }
+  ],
+  "frames": [
+    {
+      "date": "2006",
+      "values": [
+        {
+          "id": "pirates-of-the-caribbean-dead-man-s-chest",
+          "value": 225000000,
+          "rank": 1,
+          "year": "2006",
+          "cost": "$225M"
+        }
+      ]
+    },
+    {
+      "date": "2007",
+      "values": [
+        {
+          "id": "pirates-of-the-caribbean-at-world-s-end",
+          "value": 300000000,
+          "rank": 1,
+          "year": "2007",
+          "cost": "$300M"
+        },
+        {
+          "id": "spider-man-3",
+          "value": 258000000,
+          "rank": 2,
+          "year": "2007",
+          "cost": "$258M"
+        },
+        {
+          "id": "pirates-of-the-caribbean-dead-man-s-chest",
+          "value": 225000000,
+          "rank": 3,
+          "year": "2006",
+          "cost": "$225M"
+        }
+      ]
+    },
+    {
+      "date": "2008",
+      "values": [
+        {
+          "id": "pirates-of-the-caribbean-at-world-s-end",
+          "value": 300000000,
+          "rank": 1,
+          "year": "2007",
+          "cost": "$300M"
+        },
+        {
+          "id": "spider-man-3",
+          "value": 258000000,
+          "rank": 2,
+          "year": "2007",
+          "cost": "$258M"
+        },
+        {
+          "id": "pirates-of-the-caribbean-dead-man-s-chest",
+          "value": 225000000,
+          "rank": 3,
+          "year": "2006",
+          "cost": "$225M"
+        },
+        {
+          "id": "the-chronicles-of-narnia-prince-caspian",
+          "value": 225000000,
+          "rank": 4,
+          "year": "2008",
+          "cost": "$225M"
+        }
+      ]
+    },
+    {
+      "date": "2009",
+      "values": [
+        {
+          "id": "pirates-of-the-caribbean-at-world-s-end",
+          "value": 300000000,
+          "rank": 1,
+          "year": "2007",
+          "cost": "$300M"
+        },
+        {
+          "id": "spider-man-3",
+          "value": 258000000,
+          "rank": 2,
+          "year": "2007",
+          "cost": "$258M"
+        },
+        {
+          "id": "harry-potter-and-the-half-blood-prince",
+          "value": 250000000,
+          "rank": 3,
+          "year": "2009",
+          "cost": "$250M"
+        },
+        {
+          "id": "avatar",
+          "value": 237000000,
+          "rank": 4,
+          "year": "2009",
+          "cost": "$237M"
+        },
+        {
+          "id": "pirates-of-the-caribbean-dead-man-s-chest",
+          "value": 225000000,
+          "rank": 5,
+          "year": "2006",
+          "cost": "$225M"
+        },
+        {
+          "id": "the-chronicles-of-narnia-prince-caspian",
+          "value": 225000000,
+          "rank": 6,
+          "year": "2008",
+          "cost": "$225M"
+        }
+      ]
+    },
+    {
+      "date": "2010",
+      "values": [
+        {
+          "id": "pirates-of-the-caribbean-at-world-s-end",
+          "value": 300000000,
+          "rank": 1,
+          "year": "2007",
+          "cost": "$300M"
+        },
+        {
+          "id": "tangled",
+          "value": 260000000,
+          "rank": 2,
+          "year": "2010",
+          "cost": "$260M"
+        },
+        {
+          "id": "spider-man-3",
+          "value": 258000000,
+          "rank": 3,
+          "year": "2007",
+          "cost": "$258M"
+        },
+        {
+          "id": "harry-potter-and-the-half-blood-prince",
+          "value": 250000000,
+          "rank": 4,
+          "year": "2009",
+          "cost": "$250M"
+        },
+        {
+          "id": "avatar",
+          "value": 237000000,
+          "rank": 5,
+          "year": "2009",
+          "cost": "$237M"
+        },
+        {
+          "id": "pirates-of-the-caribbean-dead-man-s-chest",
+          "value": 225000000,
+          "rank": 6,
+          "year": "2006",
+          "cost": "$225M"
+        },
+        {
+          "id": "the-chronicles-of-narnia-prince-caspian",
+          "value": 225000000,
+          "rank": 7,
+          "year": "2008",
+          "cost": "$225M"
+        }
+      ]
+    },
+    {
+      "date": "2011",
+      "values": [
+        {
+          "id": "pirates-of-the-caribbean-on-stranger-tides",
+          "value": 379000000,
+          "rank": 1,
+          "year": "2011",
+          "cost": "$379M"
+        },
+        {
+          "id": "pirates-of-the-caribbean-at-world-s-end",
+          "value": 300000000,
+          "rank": 2,
+          "year": "2007",
+          "cost": "$300M"
+        },
+        {
+          "id": "tangled",
+          "value": 260000000,
+          "rank": 3,
+          "year": "2010",
+          "cost": "$260M"
+        },
+        {
+          "id": "spider-man-3",
+          "value": 258000000,
+          "rank": 4,
+          "year": "2007",
+          "cost": "$258M"
+        },
+        {
+          "id": "harry-potter-and-the-half-blood-prince",
+          "value": 250000000,
+          "rank": 5,
+          "year": "2009",
+          "cost": "$250M"
+        },
+        {
+          "id": "avatar",
+          "value": 237000000,
+          "rank": 6,
+          "year": "2009",
+          "cost": "$237M"
+        },
+        {
+          "id": "pirates-of-the-caribbean-dead-man-s-chest",
+          "value": 225000000,
+          "rank": 7,
+          "year": "2006",
+          "cost": "$225M"
+        },
+        {
+          "id": "the-chronicles-of-narnia-prince-caspian",
+          "value": 225000000,
+          "rank": 8,
+          "year": "2008",
+          "cost": "$225M"
+        }
+      ]
+    },
+    {
+      "date": "2012",
+      "values": [
+        {
+          "id": "pirates-of-the-caribbean-on-stranger-tides",
+          "value": 379000000,
+          "rank": 1,
+          "year": "2011",
+          "cost": "$379M"
+        },
+        {
+          "id": "pirates-of-the-caribbean-at-world-s-end",
+          "value": 300000000,
+          "rank": 2,
+          "year": "2007",
+          "cost": "$300M"
+        },
+        {
+          "id": "john-carter",
+          "value": 264000000,
+          "rank": 3,
+          "year": "2012",
+          "cost": "$264M"
+        },
+        {
+          "id": "tangled",
+          "value": 260000000,
+          "rank": 4,
+          "year": "2010",
+          "cost": "$260M"
+        },
+        {
+          "id": "spider-man-3",
+          "value": 258000000,
+          "rank": 5,
+          "year": "2007",
+          "cost": "$258M"
+        },
+        {
+          "id": "harry-potter-and-the-half-blood-prince",
+          "value": 250000000,
+          "rank": 6,
+          "year": "2009",
+          "cost": "$250M"
+        },
+        {
+          "id": "avatar",
+          "value": 237000000,
+          "rank": 7,
+          "year": "2009",
+          "cost": "$237M"
+        },
+        {
+          "id": "the-dark-knight-rises",
+          "value": 230000000,
+          "rank": 8,
+          "year": "2012",
+          "cost": "$230M"
+        },
+        {
+          "id": "pirates-of-the-caribbean-dead-man-s-chest",
+          "value": 225000000,
+          "rank": 9,
+          "year": "2006",
+          "cost": "$225M"
+        },
+        {
+          "id": "the-chronicles-of-narnia-prince-caspian",
+          "value": 225000000,
+          "rank": 10,
+          "year": "2008",
+          "cost": "$225M"
+        }
+      ]
+    },
+    {
+      "date": "2013",
+      "values": [
+        {
+          "id": "pirates-of-the-caribbean-on-stranger-tides",
+          "value": 379000000,
+          "rank": 1,
+          "year": "2011",
+          "cost": "$379M"
+        },
+        {
+          "id": "pirates-of-the-caribbean-at-world-s-end",
+          "value": 300000000,
+          "rank": 2,
+          "year": "2007",
+          "cost": "$300M"
+        },
+        {
+          "id": "john-carter",
+          "value": 264000000,
+          "rank": 3,
+          "year": "2012",
+          "cost": "$264M"
+        },
+        {
+          "id": "tangled",
+          "value": 260000000,
+          "rank": 4,
+          "year": "2010",
+          "cost": "$260M"
+        },
+        {
+          "id": "spider-man-3",
+          "value": 258000000,
+          "rank": 5,
+          "year": "2007",
+          "cost": "$258M"
+        },
+        {
+          "id": "harry-potter-and-the-half-blood-prince",
+          "value": 250000000,
+          "rank": 6,
+          "year": "2009",
+          "cost": "$250M"
+        },
+        {
+          "id": "avatar",
+          "value": 237000000,
+          "rank": 7,
+          "year": "2009",
+          "cost": "$237M"
+        },
+        {
+          "id": "the-dark-knight-rises",
+          "value": 230000000,
+          "rank": 8,
+          "year": "2012",
+          "cost": "$230M"
+        },
+        {
+          "id": "pirates-of-the-caribbean-dead-man-s-chest",
+          "value": 225000000,
+          "rank": 9,
+          "year": "2006",
+          "cost": "$225M"
+        },
+        {
+          "id": "the-chronicles-of-narnia-prince-caspian",
+          "value": 225000000,
+          "rank": 10,
+          "year": "2008",
+          "cost": "$225M"
+        },
+        {
+          "id": "man-of-steel",
+          "value": 225000000,
+          "rank": 11,
+          "year": "2013",
+          "cost": "$225M"
+        },
+        {
+          "id": "the-lone-ranger",
+          "value": 225000000,
+          "rank": 12,
+          "year": "2013",
+          "cost": "$225M"
+        }
+      ]
+    },
+    {
+      "date": "2014",
+      "values": [
+        {
+          "id": "pirates-of-the-caribbean-on-stranger-tides",
+          "value": 379000000,
+          "rank": 1,
+          "year": "2011",
+          "cost": "$379M"
+        },
+        {
+          "id": "pirates-of-the-caribbean-at-world-s-end",
+          "value": 300000000,
+          "rank": 2,
+          "year": "2007",
+          "cost": "$300M"
+        },
+        {
+          "id": "john-carter",
+          "value": 264000000,
+          "rank": 3,
+          "year": "2012",
+          "cost": "$264M"
+        },
+        {
+          "id": "tangled",
+          "value": 260000000,
+          "rank": 4,
+          "year": "2010",
+          "cost": "$260M"
+        },
+        {
+          "id": "spider-man-3",
+          "value": 258000000,
+          "rank": 5,
+          "year": "2007",
+          "cost": "$258M"
+        },
+        {
+          "id": "harry-potter-and-the-half-blood-prince",
+          "value": 250000000,
+          "rank": 6,
+          "year": "2009",
+          "cost": "$250M"
+        },
+        {
+          "id": "avatar",
+          "value": 237000000,
+          "rank": 7,
+          "year": "2009",
+          "cost": "$237M"
+        },
+        {
+          "id": "the-dark-knight-rises",
+          "value": 230000000,
+          "rank": 8,
+          "year": "2012",
+          "cost": "$230M"
+        },
+        {
+          "id": "maleficent",
+          "value": 226000000,
+          "rank": 9,
+          "year": "2014",
+          "cost": "$226M"
+        },
+        {
+          "id": "pirates-of-the-caribbean-dead-man-s-chest",
+          "value": 225000000,
+          "rank": 10,
+          "year": "2006",
+          "cost": "$225M"
+        },
+        {
+          "id": "the-chronicles-of-narnia-prince-caspian",
+          "value": 225000000,
+          "rank": 11,
+          "year": "2008",
+          "cost": "$225M"
+        },
+        {
+          "id": "man-of-steel",
+          "value": 225000000,
+          "rank": 12,
+          "year": "2013",
+          "cost": "$225M"
+        },
+        {
+          "id": "the-lone-ranger",
+          "value": 225000000,
+          "rank": 13,
+          "year": "2013",
+          "cost": "$225M"
+        }
+      ]
+    },
+    {
+      "date": "2015",
+      "values": [
+        {
+          "id": "star-wars-the-force-awakens",
+          "value": 536000000,
+          "rank": 1,
+          "year": "2015",
+          "cost": "$536M"
+        },
+        {
+          "id": "pirates-of-the-caribbean-on-stranger-tides",
+          "value": 379000000,
+          "rank": 2,
+          "year": "2011",
+          "cost": "$379M"
+        },
+        {
+          "id": "avengers-age-of-ultron",
+          "value": 365000000,
+          "rank": 3,
+          "year": "2015",
+          "cost": "$365M"
+        },
+        {
+          "id": "pirates-of-the-caribbean-at-world-s-end",
+          "value": 300000000,
+          "rank": 4,
+          "year": "2007",
+          "cost": "$300M"
+        },
+        {
+          "id": "john-carter",
+          "value": 264000000,
+          "rank": 5,
+          "year": "2012",
+          "cost": "$264M"
+        },
+        {
+          "id": "tangled",
+          "value": 260000000,
+          "rank": 6,
+          "year": "2010",
+          "cost": "$260M"
+        },
+        {
+          "id": "spider-man-3",
+          "value": 258000000,
+          "rank": 7,
+          "year": "2007",
+          "cost": "$258M"
+        },
+        {
+          "id": "harry-potter-and-the-half-blood-prince",
+          "value": 250000000,
+          "rank": 8,
+          "year": "2009",
+          "cost": "$250M"
+        },
+        {
+          "id": "furious-7",
+          "value": 250000000,
+          "rank": 9,
+          "year": "2015",
+          "cost": "$250M"
+        },
+        {
+          "id": "spectre",
+          "value": 245000000,
+          "rank": 10,
+          "year": "2015",
+          "cost": "$245M"
+        },
+        {
+          "id": "avatar",
+          "value": 237000000,
+          "rank": 11,
+          "year": "2009",
+          "cost": "$237M"
+        },
+        {
+          "id": "the-dark-knight-rises",
+          "value": 230000000,
+          "rank": 12,
+          "year": "2012",
+          "cost": "$230M"
+        },
+        {
+          "id": "maleficent",
+          "value": 226000000,
+          "rank": 13,
+          "year": "2014",
+          "cost": "$226M"
+        },
+        {
+          "id": "pirates-of-the-caribbean-dead-man-s-chest",
+          "value": 225000000,
+          "rank": 14,
+          "year": "2006",
+          "cost": "$225M"
+        },
+        {
+          "id": "the-chronicles-of-narnia-prince-caspian",
+          "value": 225000000,
+          "rank": 15,
+          "year": "2008",
+          "cost": "$225M"
+        },
+        {
+          "id": "man-of-steel",
+          "value": 225000000,
+          "rank": 16,
+          "year": "2013",
+          "cost": "$225M"
+        },
+        {
+          "id": "the-lone-ranger",
+          "value": 225000000,
+          "rank": 17,
+          "year": "2013",
+          "cost": "$225M"
+        }
+      ]
+    },
+    {
+      "date": "2016",
+      "values": [
+        {
+          "id": "star-wars-the-force-awakens",
+          "value": 536000000,
+          "rank": 1,
+          "year": "2015",
+          "cost": "$536M"
+        },
+        {
+          "id": "pirates-of-the-caribbean-on-stranger-tides",
+          "value": 379000000,
+          "rank": 2,
+          "year": "2011",
+          "cost": "$379M"
+        },
+        {
+          "id": "avengers-age-of-ultron",
+          "value": 365000000,
+          "rank": 3,
+          "year": "2015",
+          "cost": "$365M"
+        },
+        {
+          "id": "pirates-of-the-caribbean-at-world-s-end",
+          "value": 300000000,
+          "rank": 4,
+          "year": "2007",
+          "cost": "$300M"
+        },
+        {
+          "id": "rogue-one",
+          "value": 271000000,
+          "rank": 5,
+          "year": "2016",
+          "cost": "$271M"
+        },
+        {
+          "id": "john-carter",
+          "value": 264000000,
+          "rank": 6,
+          "year": "2012",
+          "cost": "$264M"
+        },
+        {
+          "id": "batman-v-superman-dawn-of-justice",
+          "value": 263000000,
+          "rank": 7,
+          "year": "2016",
+          "cost": "$263M"
+        },
+        {
+          "id": "tangled",
+          "value": 260000000,
+          "rank": 8,
+          "year": "2010",
+          "cost": "$260M"
+        },
+        {
+          "id": "spider-man-3",
+          "value": 258000000,
+          "rank": 9,
+          "year": "2007",
+          "cost": "$258M"
+        },
+        {
+          "id": "harry-potter-and-the-half-blood-prince",
+          "value": 250000000,
+          "rank": 10,
+          "year": "2009",
+          "cost": "$250M"
+        },
+        {
+          "id": "furious-7",
+          "value": 250000000,
+          "rank": 11,
+          "year": "2015",
+          "cost": "$250M"
+        },
+        {
+          "id": "spectre",
+          "value": 245000000,
+          "rank": 12,
+          "year": "2015",
+          "cost": "$245M"
+        },
+        {
+          "id": "avatar",
+          "value": 237000000,
+          "rank": 13,
+          "year": "2009",
+          "cost": "$237M"
+        },
+        {
+          "id": "the-dark-knight-rises",
+          "value": 230000000,
+          "rank": 14,
+          "year": "2012",
+          "cost": "$230M"
+        },
+        {
+          "id": "captain-america-civil-war",
+          "value": 230000000,
+          "rank": 15,
+          "year": "2016",
+          "cost": "$230M"
+        },
+        {
+          "id": "maleficent",
+          "value": 226000000,
+          "rank": 16,
+          "year": "2014",
+          "cost": "$226M"
+        },
+        {
+          "id": "pirates-of-the-caribbean-dead-man-s-chest",
+          "value": 225000000,
+          "rank": 17,
+          "year": "2006",
+          "cost": "$225M"
+        },
+        {
+          "id": "the-chronicles-of-narnia-prince-caspian",
+          "value": 225000000,
+          "rank": 18,
+          "year": "2008",
+          "cost": "$225M"
+        },
+        {
+          "id": "man-of-steel",
+          "value": 225000000,
+          "rank": 19,
+          "year": "2013",
+          "cost": "$225M"
+        },
+        {
+          "id": "the-lone-ranger",
+          "value": 225000000,
+          "rank": 20,
+          "year": "2013",
+          "cost": "$225M"
+        }
+      ]
+    },
+    {
+      "date": "2017",
+      "values": [
+        {
+          "id": "star-wars-the-force-awakens",
+          "value": 536000000,
+          "rank": 1,
+          "year": "2015",
+          "cost": "$536M"
+        },
+        {
+          "id": "pirates-of-the-caribbean-on-stranger-tides",
+          "value": 379000000,
+          "rank": 2,
+          "year": "2011",
+          "cost": "$379M"
+        },
+        {
+          "id": "avengers-age-of-ultron",
+          "value": 365000000,
+          "rank": 3,
+          "year": "2015",
+          "cost": "$365M"
+        },
+        {
+          "id": "star-wars-the-last-jedi",
+          "value": 343000000,
+          "rank": 4,
+          "year": "2017",
+          "cost": "$343M"
+        },
+        {
+          "id": "pirates-of-the-caribbean-at-world-s-end",
+          "value": 300000000,
+          "rank": 5,
+          "year": "2007",
+          "cost": "$300M"
+        },
+        {
+          "id": "justice-league",
+          "value": 300000000,
+          "rank": 6,
+          "year": "2017",
+          "cost": "$300M"
+        },
+        {
+          "id": "rogue-one",
+          "value": 271000000,
+          "rank": 7,
+          "year": "2016",
+          "cost": "$271M"
+        },
+        {
+          "id": "john-carter",
+          "value": 264000000,
+          "rank": 8,
+          "year": "2012",
+          "cost": "$264M"
+        },
+        {
+          "id": "batman-v-superman-dawn-of-justice",
+          "value": 263000000,
+          "rank": 9,
+          "year": "2016",
+          "cost": "$263M"
+        },
+        {
+          "id": "tangled",
+          "value": 260000000,
+          "rank": 10,
+          "year": "2010",
+          "cost": "$260M"
+        },
+        {
+          "id": "spider-man-3",
+          "value": 258000000,
+          "rank": 11,
+          "year": "2007",
+          "cost": "$258M"
+        },
+        {
+          "id": "beauty-and-the-beast",
+          "value": 255000000,
+          "rank": 12,
+          "year": "2017",
+          "cost": "$255M"
+        },
+        {
+          "id": "harry-potter-and-the-half-blood-prince",
+          "value": 250000000,
+          "rank": 13,
+          "year": "2009",
+          "cost": "$250M"
+        },
+        {
+          "id": "furious-7",
+          "value": 250000000,
+          "rank": 14,
+          "year": "2015",
+          "cost": "$250M"
+        },
+        {
+          "id": "the-fate-of-the-furious",
+          "value": 250000000,
+          "rank": 15,
+          "year": "2017",
+          "cost": "$250M"
+        },
+        {
+          "id": "spectre",
+          "value": 245000000,
+          "rank": 16,
+          "year": "2015",
+          "cost": "$245M"
+        },
+        {
+          "id": "avatar",
+          "value": 237000000,
+          "rank": 17,
+          "year": "2009",
+          "cost": "$237M"
+        },
+        {
+          "id": "the-dark-knight-rises",
+          "value": 230000000,
+          "rank": 18,
+          "year": "2012",
+          "cost": "$230M"
+        },
+        {
+          "id": "captain-america-civil-war",
+          "value": 230000000,
+          "rank": 19,
+          "year": "2016",
+          "cost": "$230M"
+        },
+        {
+          "id": "pirates-of-the-caribbean-dead-men-tell-no-tales",
+          "value": 230000000,
+          "rank": 20,
+          "year": "2017",
+          "cost": "$230M"
+        },
+        {
+          "id": "maleficent",
+          "value": 226000000,
+          "rank": 21,
+          "year": "2014",
+          "cost": "$226M"
+        },
+        {
+          "id": "pirates-of-the-caribbean-dead-man-s-chest",
+          "value": 225000000,
+          "rank": 22,
+          "year": "2006",
+          "cost": "$225M"
+        },
+        {
+          "id": "the-chronicles-of-narnia-prince-caspian",
+          "value": 225000000,
+          "rank": 23,
+          "year": "2008",
+          "cost": "$225M"
+        },
+        {
+          "id": "man-of-steel",
+          "value": 225000000,
+          "rank": 24,
+          "year": "2013",
+          "cost": "$225M"
+        },
+        {
+          "id": "the-lone-ranger",
+          "value": 225000000,
+          "rank": 25,
+          "year": "2013",
+          "cost": "$225M"
+        }
+      ]
+    },
+    {
+      "date": "2018",
+      "values": [
+        {
+          "id": "star-wars-the-force-awakens",
+          "value": 536000000,
+          "rank": 1,
+          "year": "2015",
+          "cost": "$536M"
+        },
+        {
+          "id": "jurassic-world-fallen-kingdom",
+          "value": 465000000,
+          "rank": 2,
+          "year": "2018",
+          "cost": "$465M"
+        },
+        {
+          "id": "pirates-of-the-caribbean-on-stranger-tides",
+          "value": 379000000,
+          "rank": 3,
+          "year": "2011",
+          "cost": "$379M"
+        },
+        {
+          "id": "avengers-age-of-ultron",
+          "value": 365000000,
+          "rank": 4,
+          "year": "2015",
+          "cost": "$365M"
+        },
+        {
+          "id": "star-wars-the-last-jedi",
+          "value": 343000000,
+          "rank": 5,
+          "year": "2017",
+          "cost": "$343M"
+        },
+        {
+          "id": "avengers-infinity-war",
+          "value": 325000000,
+          "rank": 6,
+          "year": "2018",
+          "cost": "$325M"
+        },
+        {
+          "id": "pirates-of-the-caribbean-at-world-s-end",
+          "value": 300000000,
+          "rank": 7,
+          "year": "2007",
+          "cost": "$300M"
+        },
+        {
+          "id": "justice-league",
+          "value": 300000000,
+          "rank": 8,
+          "year": "2017",
+          "cost": "$300M"
+        },
+        {
+          "id": "solo-a-star-wars-story",
+          "value": 300000000,
+          "rank": 9,
+          "year": "2018",
+          "cost": "$300M"
+        },
+        {
+          "id": "rogue-one",
+          "value": 271000000,
+          "rank": 10,
+          "year": "2016",
+          "cost": "$271M"
+        },
+        {
+          "id": "john-carter",
+          "value": 264000000,
+          "rank": 11,
+          "year": "2012",
+          "cost": "$264M"
+        },
+        {
+          "id": "batman-v-superman-dawn-of-justice",
+          "value": 263000000,
+          "rank": 12,
+          "year": "2016",
+          "cost": "$263M"
+        },
+        {
+          "id": "tangled",
+          "value": 260000000,
+          "rank": 13,
+          "year": "2010",
+          "cost": "$260M"
+        },
+        {
+          "id": "spider-man-3",
+          "value": 258000000,
+          "rank": 14,
+          "year": "2007",
+          "cost": "$258M"
+        },
+        {
+          "id": "beauty-and-the-beast",
+          "value": 255000000,
+          "rank": 15,
+          "year": "2017",
+          "cost": "$255M"
+        },
+        {
+          "id": "harry-potter-and-the-half-blood-prince",
+          "value": 250000000,
+          "rank": 16,
+          "year": "2009",
+          "cost": "$250M"
+        },
+        {
+          "id": "furious-7",
+          "value": 250000000,
+          "rank": 17,
+          "year": "2015",
+          "cost": "$250M"
+        },
+        {
+          "id": "the-fate-of-the-furious",
+          "value": 250000000,
+          "rank": 18,
+          "year": "2017",
+          "cost": "$250M"
+        },
+        {
+          "id": "spectre",
+          "value": 245000000,
+          "rank": 19,
+          "year": "2015",
+          "cost": "$245M"
+        },
+        {
+          "id": "avatar",
+          "value": 237000000,
+          "rank": 20,
+          "year": "2009",
+          "cost": "$237M"
+        },
+        {
+          "id": "the-dark-knight-rises",
+          "value": 230000000,
+          "rank": 21,
+          "year": "2012",
+          "cost": "$230M"
+        },
+        {
+          "id": "captain-america-civil-war",
+          "value": 230000000,
+          "rank": 22,
+          "year": "2016",
+          "cost": "$230M"
+        },
+        {
+          "id": "pirates-of-the-caribbean-dead-men-tell-no-tales",
+          "value": 230000000,
+          "rank": 23,
+          "year": "2017",
+          "cost": "$230M"
+        },
+        {
+          "id": "maleficent",
+          "value": 226000000,
+          "rank": 24,
+          "year": "2014",
+          "cost": "$226M"
+        },
+        {
+          "id": "pirates-of-the-caribbean-dead-man-s-chest",
+          "value": 225000000,
+          "rank": 25,
+          "year": "2006",
+          "cost": "$225M"
+        },
+        {
+          "id": "the-chronicles-of-narnia-prince-caspian",
+          "value": 225000000,
+          "rank": 26,
+          "year": "2008",
+          "cost": "$225M"
+        },
+        {
+          "id": "man-of-steel",
+          "value": 225000000,
+          "rank": 27,
+          "year": "2013",
+          "cost": "$225M"
+        },
+        {
+          "id": "the-lone-ranger",
+          "value": 225000000,
+          "rank": 28,
+          "year": "2013",
+          "cost": "$225M"
+        }
+      ]
+    },
+    {
+      "date": "2019",
+      "values": [
+        {
+          "id": "star-wars-the-force-awakens",
+          "value": 536000000,
+          "rank": 1,
+          "year": "2015",
+          "cost": "$536M"
+        },
+        {
+          "id": "star-wars-the-rise-of-skywalker",
+          "value": 490000000,
+          "rank": 2,
+          "year": "2019",
+          "cost": "$490M"
+        },
+        {
+          "id": "jurassic-world-fallen-kingdom",
+          "value": 465000000,
+          "rank": 3,
+          "year": "2018",
+          "cost": "$465M"
+        },
+        {
+          "id": "pirates-of-the-caribbean-on-stranger-tides",
+          "value": 379000000,
+          "rank": 4,
+          "year": "2011",
+          "cost": "$379M"
+        },
+        {
+          "id": "avengers-age-of-ultron",
+          "value": 365000000,
+          "rank": 5,
+          "year": "2015",
+          "cost": "$365M"
+        },
+        {
+          "id": "avengers-endgame",
+          "value": 356000000,
+          "rank": 6,
+          "year": "2019",
+          "cost": "$356M"
+        },
+        {
+          "id": "star-wars-the-last-jedi",
+          "value": 343000000,
+          "rank": 7,
+          "year": "2017",
+          "cost": "$343M"
+        },
+        {
+          "id": "avengers-infinity-war",
+          "value": 325000000,
+          "rank": 8,
+          "year": "2018",
+          "cost": "$325M"
+        },
+        {
+          "id": "pirates-of-the-caribbean-at-world-s-end",
+          "value": 300000000,
+          "rank": 9,
+          "year": "2007",
+          "cost": "$300M"
+        },
+        {
+          "id": "justice-league",
+          "value": 300000000,
+          "rank": 10,
+          "year": "2017",
+          "cost": "$300M"
+        },
+        {
+          "id": "solo-a-star-wars-story",
+          "value": 300000000,
+          "rank": 11,
+          "year": "2018",
+          "cost": "$300M"
+        },
+        {
+          "id": "rogue-one",
+          "value": 271000000,
+          "rank": 12,
+          "year": "2016",
+          "cost": "$271M"
+        },
+        {
+          "id": "john-carter",
+          "value": 264000000,
+          "rank": 13,
+          "year": "2012",
+          "cost": "$264M"
+        },
+        {
+          "id": "batman-v-superman-dawn-of-justice",
+          "value": 263000000,
+          "rank": 14,
+          "year": "2016",
+          "cost": "$263M"
+        },
+        {
+          "id": "tangled",
+          "value": 260000000,
+          "rank": 15,
+          "year": "2010",
+          "cost": "$260M"
+        },
+        {
+          "id": "spider-man-3",
+          "value": 258000000,
+          "rank": 16,
+          "year": "2007",
+          "cost": "$258M"
+        },
+        {
+          "id": "beauty-and-the-beast",
+          "value": 255000000,
+          "rank": 17,
+          "year": "2017",
+          "cost": "$255M"
+        },
+        {
+          "id": "harry-potter-and-the-half-blood-prince",
+          "value": 250000000,
+          "rank": 18,
+          "year": "2009",
+          "cost": "$250M"
+        },
+        {
+          "id": "furious-7",
+          "value": 250000000,
+          "rank": 19,
+          "year": "2015",
+          "cost": "$250M"
+        },
+        {
+          "id": "the-fate-of-the-furious",
+          "value": 250000000,
+          "rank": 20,
+          "year": "2017",
+          "cost": "$250M"
+        },
+        {
+          "id": "the-lion-king",
+          "value": 250000000,
+          "rank": 21,
+          "year": "2019",
+          "cost": "$250M"
+        },
+        {
+          "id": "spectre",
+          "value": 245000000,
+          "rank": 22,
+          "year": "2015",
+          "cost": "$245M"
+        },
+        {
+          "id": "avatar",
+          "value": 237000000,
+          "rank": 23,
+          "year": "2009",
+          "cost": "$237M"
+        },
+        {
+          "id": "the-dark-knight-rises",
+          "value": 230000000,
+          "rank": 24,
+          "year": "2012",
+          "cost": "$230M"
+        },
+        {
+          "id": "captain-america-civil-war",
+          "value": 230000000,
+          "rank": 25,
+          "year": "2016",
+          "cost": "$230M"
+        },
+        {
+          "id": "pirates-of-the-caribbean-dead-men-tell-no-tales",
+          "value": 230000000,
+          "rank": 26,
+          "year": "2017",
+          "cost": "$230M"
+        },
+        {
+          "id": "maleficent",
+          "value": 226000000,
+          "rank": 27,
+          "year": "2014",
+          "cost": "$226M"
+        },
+        {
+          "id": "pirates-of-the-caribbean-dead-man-s-chest",
+          "value": 225000000,
+          "rank": 28,
+          "year": "2006",
+          "cost": "$225M"
+        },
+        {
+          "id": "the-chronicles-of-narnia-prince-caspian",
+          "value": 225000000,
+          "rank": 29,
+          "year": "2008",
+          "cost": "$225M"
+        },
+        {
+          "id": "man-of-steel",
+          "value": 225000000,
+          "rank": 30,
+          "year": "2013",
+          "cost": "$225M"
+        },
+        {
+          "id": "the-lone-ranger",
+          "value": 225000000,
+          "rank": 31,
+          "year": "2013",
+          "cost": "$225M"
+        }
+      ]
+    },
+    {
+      "date": "2021",
+      "values": [
+        {
+          "id": "star-wars-the-force-awakens",
+          "value": 536000000,
+          "rank": 1,
+          "year": "2015",
+          "cost": "$536M"
+        },
+        {
+          "id": "star-wars-the-rise-of-skywalker",
+          "value": 490000000,
+          "rank": 2,
+          "year": "2019",
+          "cost": "$490M"
+        },
+        {
+          "id": "jurassic-world-fallen-kingdom",
+          "value": 465000000,
+          "rank": 3,
+          "year": "2018",
+          "cost": "$465M"
+        },
+        {
+          "id": "pirates-of-the-caribbean-on-stranger-tides",
+          "value": 379000000,
+          "rank": 4,
+          "year": "2011",
+          "cost": "$379M"
+        },
+        {
+          "id": "avengers-age-of-ultron",
+          "value": 365000000,
+          "rank": 5,
+          "year": "2015",
+          "cost": "$365M"
+        },
+        {
+          "id": "avengers-endgame",
+          "value": 356000000,
+          "rank": 6,
+          "year": "2019",
+          "cost": "$356M"
+        },
+        {
+          "id": "star-wars-the-last-jedi",
+          "value": 343000000,
+          "rank": 7,
+          "year": "2017",
+          "cost": "$343M"
+        },
+        {
+          "id": "avengers-infinity-war",
+          "value": 325000000,
+          "rank": 8,
+          "year": "2018",
+          "cost": "$325M"
+        },
+        {
+          "id": "pirates-of-the-caribbean-at-world-s-end",
+          "value": 300000000,
+          "rank": 9,
+          "year": "2007",
+          "cost": "$300M"
+        },
+        {
+          "id": "justice-league",
+          "value": 300000000,
+          "rank": 10,
+          "year": "2017",
+          "cost": "$300M"
+        },
+        {
+          "id": "solo-a-star-wars-story",
+          "value": 300000000,
+          "rank": 11,
+          "year": "2018",
+          "cost": "$300M"
+        },
+        {
+          "id": "rogue-one",
+          "value": 271000000,
+          "rank": 12,
+          "year": "2016",
+          "cost": "$271M"
+        },
+        {
+          "id": "john-carter",
+          "value": 264000000,
+          "rank": 13,
+          "year": "2012",
+          "cost": "$264M"
+        },
+        {
+          "id": "batman-v-superman-dawn-of-justice",
+          "value": 263000000,
+          "rank": 14,
+          "year": "2016",
+          "cost": "$263M"
+        },
+        {
+          "id": "tangled",
+          "value": 260000000,
+          "rank": 15,
+          "year": "2010",
+          "cost": "$260M"
+        },
+        {
+          "id": "spider-man-3",
+          "value": 258000000,
+          "rank": 16,
+          "year": "2007",
+          "cost": "$258M"
+        },
+        {
+          "id": "beauty-and-the-beast",
+          "value": 255000000,
+          "rank": 17,
+          "year": "2017",
+          "cost": "$255M"
+        },
+        {
+          "id": "eternals",
+          "value": 254000000,
+          "rank": 18,
+          "year": "2021",
+          "cost": "$254M"
+        },
+        {
+          "id": "harry-potter-and-the-half-blood-prince",
+          "value": 250000000,
+          "rank": 19,
+          "year": "2009",
+          "cost": "$250M"
+        },
+        {
+          "id": "furious-7",
+          "value": 250000000,
+          "rank": 20,
+          "year": "2015",
+          "cost": "$250M"
+        },
+        {
+          "id": "the-fate-of-the-furious",
+          "value": 250000000,
+          "rank": 21,
+          "year": "2017",
+          "cost": "$250M"
+        },
+        {
+          "id": "the-lion-king",
+          "value": 250000000,
+          "rank": 22,
+          "year": "2019",
+          "cost": "$250M"
+        },
+        {
+          "id": "no-time-to-die",
+          "value": 250000000,
+          "rank": 23,
+          "year": "2021",
+          "cost": "$250M"
+        },
+        {
+          "id": "black-widow",
+          "value": 248000000,
+          "rank": 24,
+          "year": "2021",
+          "cost": "$248M"
+        },
+        {
+          "id": "spectre",
+          "value": 245000000,
+          "rank": 25,
+          "year": "2015",
+          "cost": "$245M"
+        },
+        {
+          "id": "avatar",
+          "value": 237000000,
+          "rank": 26,
+          "year": "2009",
+          "cost": "$237M"
+        },
+        {
+          "id": "the-dark-knight-rises",
+          "value": 230000000,
+          "rank": 27,
+          "year": "2012",
+          "cost": "$230M"
+        },
+        {
+          "id": "captain-america-civil-war",
+          "value": 230000000,
+          "rank": 28,
+          "year": "2016",
+          "cost": "$230M"
+        },
+        {
+          "id": "pirates-of-the-caribbean-dead-men-tell-no-tales",
+          "value": 230000000,
+          "rank": 29,
+          "year": "2017",
+          "cost": "$230M"
+        },
+        {
+          "id": "maleficent",
+          "value": 226000000,
+          "rank": 30,
+          "year": "2014",
+          "cost": "$226M"
+        },
+        {
+          "id": "pirates-of-the-caribbean-dead-man-s-chest",
+          "value": 225000000,
+          "rank": 31,
+          "year": "2006",
+          "cost": "$225M"
+        },
+        {
+          "id": "the-chronicles-of-narnia-prince-caspian",
+          "value": 225000000,
+          "rank": 32,
+          "year": "2008",
+          "cost": "$225M"
+        },
+        {
+          "id": "man-of-steel",
+          "value": 225000000,
+          "rank": 33,
+          "year": "2013",
+          "cost": "$225M"
+        },
+        {
+          "id": "the-lone-ranger",
+          "value": 225000000,
+          "rank": 34,
+          "year": "2013",
+          "cost": "$225M"
+        }
+      ]
+    },
+    {
+      "date": "2022",
+      "values": [
+        {
+          "id": "star-wars-the-force-awakens",
+          "value": 536000000,
+          "rank": 1,
+          "year": "2015",
+          "cost": "$536M"
+        },
+        {
+          "id": "jurassic-world-dominion",
+          "value": 531000000,
+          "rank": 2,
+          "year": "2022",
+          "cost": "$531M"
+        },
+        {
+          "id": "star-wars-the-rise-of-skywalker",
+          "value": 490000000,
+          "rank": 3,
+          "year": "2019",
+          "cost": "$490M"
+        },
+        {
+          "id": "jurassic-world-fallen-kingdom",
+          "value": 465000000,
+          "rank": 4,
+          "year": "2018",
+          "cost": "$465M"
+        },
+        {
+          "id": "pirates-of-the-caribbean-on-stranger-tides",
+          "value": 379000000,
+          "rank": 5,
+          "year": "2011",
+          "cost": "$379M"
+        },
+        {
+          "id": "avengers-age-of-ultron",
+          "value": 365000000,
+          "rank": 6,
+          "year": "2015",
+          "cost": "$365M"
+        },
+        {
+          "id": "avengers-endgame",
+          "value": 356000000,
+          "rank": 7,
+          "year": "2019",
+          "cost": "$356M"
+        },
+        {
+          "id": "doctor-strange-in-the-multiverse-of-madness",
+          "value": 351000000,
+          "rank": 8,
+          "year": "2022",
+          "cost": "$351M"
+        },
+        {
+          "id": "avatar-the-way-of-water",
+          "value": 350000000,
+          "rank": 9,
+          "year": "2022",
+          "cost": "$350M"
+        },
+        {
+          "id": "star-wars-the-last-jedi",
+          "value": 343000000,
+          "rank": 10,
+          "year": "2017",
+          "cost": "$343M"
+        },
+        {
+          "id": "avengers-infinity-war",
+          "value": 325000000,
+          "rank": 11,
+          "year": "2018",
+          "cost": "$325M"
+        },
+        {
+          "id": "pirates-of-the-caribbean-at-world-s-end",
+          "value": 300000000,
+          "rank": 12,
+          "year": "2007",
+          "cost": "$300M"
+        },
+        {
+          "id": "justice-league",
+          "value": 300000000,
+          "rank": 13,
+          "year": "2017",
+          "cost": "$300M"
+        },
+        {
+          "id": "solo-a-star-wars-story",
+          "value": 300000000,
+          "rank": 14,
+          "year": "2018",
+          "cost": "$300M"
+        },
+        {
+          "id": "rogue-one",
+          "value": 271000000,
+          "rank": 15,
+          "year": "2016",
+          "cost": "$271M"
+        },
+        {
+          "id": "john-carter",
+          "value": 264000000,
+          "rank": 16,
+          "year": "2012",
+          "cost": "$264M"
+        },
+        {
+          "id": "batman-v-superman-dawn-of-justice",
+          "value": 263000000,
+          "rank": 17,
+          "year": "2016",
+          "cost": "$263M"
+        },
+        {
+          "id": "tangled",
+          "value": 260000000,
+          "rank": 18,
+          "year": "2010",
+          "cost": "$260M"
+        },
+        {
+          "id": "spider-man-3",
+          "value": 258000000,
+          "rank": 19,
+          "year": "2007",
+          "cost": "$258M"
+        },
+        {
+          "id": "beauty-and-the-beast",
+          "value": 255000000,
+          "rank": 20,
+          "year": "2017",
+          "cost": "$255M"
+        },
+        {
+          "id": "eternals",
+          "value": 254000000,
+          "rank": 21,
+          "year": "2021",
+          "cost": "$254M"
+        },
+        {
+          "id": "harry-potter-and-the-half-blood-prince",
+          "value": 250000000,
+          "rank": 22,
+          "year": "2009",
+          "cost": "$250M"
+        },
+        {
+          "id": "furious-7",
+          "value": 250000000,
+          "rank": 23,
+          "year": "2015",
+          "cost": "$250M"
+        },
+        {
+          "id": "the-fate-of-the-furious",
+          "value": 250000000,
+          "rank": 24,
+          "year": "2017",
+          "cost": "$250M"
+        },
+        {
+          "id": "the-lion-king",
+          "value": 250000000,
+          "rank": 25,
+          "year": "2019",
+          "cost": "$250M"
+        },
+        {
+          "id": "no-time-to-die",
+          "value": 250000000,
+          "rank": 26,
+          "year": "2021",
+          "cost": "$250M"
+        },
+        {
+          "id": "black-panther-wakanda-forever",
+          "value": 250000000,
+          "rank": 27,
+          "year": "2022",
+          "cost": "$250M"
+        },
+        {
+          "id": "thor-love-and-thunder",
+          "value": 250000000,
+          "rank": 28,
+          "year": "2022",
+          "cost": "$250M"
+        },
+        {
+          "id": "black-widow",
+          "value": 248000000,
+          "rank": 29,
+          "year": "2021",
+          "cost": "$248M"
+        },
+        {
+          "id": "spectre",
+          "value": 245000000,
+          "rank": 30,
+          "year": "2015",
+          "cost": "$245M"
+        },
+        {
+          "id": "avatar",
+          "value": 237000000,
+          "rank": 31,
+          "year": "2009",
+          "cost": "$237M"
+        },
+        {
+          "id": "the-dark-knight-rises",
+          "value": 230000000,
+          "rank": 32,
+          "year": "2012",
+          "cost": "$230M"
+        },
+        {
+          "id": "captain-america-civil-war",
+          "value": 230000000,
+          "rank": 33,
+          "year": "2016",
+          "cost": "$230M"
+        },
+        {
+          "id": "pirates-of-the-caribbean-dead-men-tell-no-tales",
+          "value": 230000000,
+          "rank": 34,
+          "year": "2017",
+          "cost": "$230M"
+        },
+        {
+          "id": "maleficent",
+          "value": 226000000,
+          "rank": 35,
+          "year": "2014",
+          "cost": "$226M"
+        },
+        {
+          "id": "pirates-of-the-caribbean-dead-man-s-chest",
+          "value": 225000000,
+          "rank": 36,
+          "year": "2006",
+          "cost": "$225M"
+        },
+        {
+          "id": "the-chronicles-of-narnia-prince-caspian",
+          "value": 225000000,
+          "rank": 37,
+          "year": "2008",
+          "cost": "$225M"
+        },
+        {
+          "id": "man-of-steel",
+          "value": 225000000,
+          "rank": 38,
+          "year": "2013",
+          "cost": "$225M"
+        },
+        {
+          "id": "the-lone-ranger",
+          "value": 225000000,
+          "rank": 39,
+          "year": "2013",
+          "cost": "$225M"
+        }
+      ]
+    },
+    {
+      "date": "2023",
+      "values": [
+        {
+          "id": "star-wars-the-force-awakens",
+          "value": 536000000,
+          "rank": 1,
+          "year": "2015",
+          "cost": "$536M"
+        },
+        {
+          "id": "jurassic-world-dominion",
+          "value": 531000000,
+          "rank": 2,
+          "year": "2022",
+          "cost": "$531M"
+        },
+        {
+          "id": "star-wars-the-rise-of-skywalker",
+          "value": 490000000,
+          "rank": 3,
+          "year": "2019",
+          "cost": "$490M"
+        },
+        {
+          "id": "jurassic-world-fallen-kingdom",
+          "value": 465000000,
+          "rank": 4,
+          "year": "2018",
+          "cost": "$465M"
+        },
+        {
+          "id": "pirates-of-the-caribbean-on-stranger-tides",
+          "value": 379000000,
+          "rank": 5,
+          "year": "2011",
+          "cost": "$379M"
+        },
+        {
+          "id": "fast-x",
+          "value": 379000000,
+          "rank": 6,
+          "year": "2023",
+          "cost": "$379M"
+        },
+        {
+          "id": "avengers-age-of-ultron",
+          "value": 365000000,
+          "rank": 7,
+          "year": "2015",
+          "cost": "$365M"
+        },
+        {
+          "id": "avengers-endgame",
+          "value": 356000000,
+          "rank": 8,
+          "year": "2019",
+          "cost": "$356M"
+        },
+        {
+          "id": "indiana-jones-and-the-dial-of-destiny",
+          "value": 352000000,
+          "rank": 9,
+          "year": "2023",
+          "cost": "$352M"
+        },
+        {
+          "id": "doctor-strange-in-the-multiverse-of-madness",
+          "value": 351000000,
+          "rank": 10,
+          "year": "2022",
+          "cost": "$351M"
+        },
+        {
+          "id": "avatar-the-way-of-water",
+          "value": 350000000,
+          "rank": 11,
+          "year": "2022",
+          "cost": "$350M"
+        },
+        {
+          "id": "star-wars-the-last-jedi",
+          "value": 343000000,
+          "rank": 12,
+          "year": "2017",
+          "cost": "$343M"
+        },
+        {
+          "id": "ant-man-and-the-wasp-quantumania",
+          "value": 330000000,
+          "rank": 13,
+          "year": "2023",
+          "cost": "$330M"
+        },
+        {
+          "id": "avengers-infinity-war",
+          "value": 325000000,
+          "rank": 14,
+          "year": "2018",
+          "cost": "$325M"
+        },
+        {
+          "id": "the-marvels",
+          "value": 307000000,
+          "rank": 15,
+          "year": "2023",
+          "cost": "$307M"
+        },
+        {
+          "id": "pirates-of-the-caribbean-at-world-s-end",
+          "value": 300000000,
+          "rank": 16,
+          "year": "2007",
+          "cost": "$300M"
+        },
+        {
+          "id": "justice-league",
+          "value": 300000000,
+          "rank": 17,
+          "year": "2017",
+          "cost": "$300M"
+        },
+        {
+          "id": "solo-a-star-wars-story",
+          "value": 300000000,
+          "rank": 18,
+          "year": "2018",
+          "cost": "$300M"
+        },
+        {
+          "id": "mission-impossible-dead-reckoning-part-one",
+          "value": 291000000,
+          "rank": 19,
+          "year": "2023",
+          "cost": "$291M"
+        },
+        {
+          "id": "rogue-one",
+          "value": 271000000,
+          "rank": 20,
+          "year": "2016",
+          "cost": "$271M"
+        },
+        {
+          "id": "john-carter",
+          "value": 264000000,
+          "rank": 21,
+          "year": "2012",
+          "cost": "$264M"
+        },
+        {
+          "id": "batman-v-superman-dawn-of-justice",
+          "value": 263000000,
+          "rank": 22,
+          "year": "2016",
+          "cost": "$263M"
+        },
+        {
+          "id": "tangled",
+          "value": 260000000,
+          "rank": 23,
+          "year": "2010",
+          "cost": "$260M"
+        },
+        {
+          "id": "spider-man-3",
+          "value": 258000000,
+          "rank": 24,
+          "year": "2007",
+          "cost": "$258M"
+        },
+        {
+          "id": "beauty-and-the-beast",
+          "value": 255000000,
+          "rank": 25,
+          "year": "2017",
+          "cost": "$255M"
+        },
+        {
+          "id": "eternals",
+          "value": 254000000,
+          "rank": 26,
+          "year": "2021",
+          "cost": "$254M"
+        },
+        {
+          "id": "harry-potter-and-the-half-blood-prince",
+          "value": 250000000,
+          "rank": 27,
+          "year": "2009",
+          "cost": "$250M"
+        },
+        {
+          "id": "furious-7",
+          "value": 250000000,
+          "rank": 28,
+          "year": "2015",
+          "cost": "$250M"
+        },
+        {
+          "id": "the-fate-of-the-furious",
+          "value": 250000000,
+          "rank": 29,
+          "year": "2017",
+          "cost": "$250M"
+        },
+        {
+          "id": "the-lion-king",
+          "value": 250000000,
+          "rank": 30,
+          "year": "2019",
+          "cost": "$250M"
+        },
+        {
+          "id": "no-time-to-die",
+          "value": 250000000,
+          "rank": 31,
+          "year": "2021",
+          "cost": "$250M"
+        },
+        {
+          "id": "black-panther-wakanda-forever",
+          "value": 250000000,
+          "rank": 32,
+          "year": "2022",
+          "cost": "$250M"
+        },
+        {
+          "id": "thor-love-and-thunder",
+          "value": 250000000,
+          "rank": 33,
+          "year": "2022",
+          "cost": "$250M"
+        },
+        {
+          "id": "guardians-of-the-galaxy-vol-3",
+          "value": 250000000,
+          "rank": 34,
+          "year": "2023",
+          "cost": "$250M"
+        },
+        {
+          "id": "black-widow",
+          "value": 248000000,
+          "rank": 35,
+          "year": "2021",
+          "cost": "$248M"
+        },
+        {
+          "id": "spectre",
+          "value": 245000000,
+          "rank": 36,
+          "year": "2015",
+          "cost": "$245M"
+        },
+        {
+          "id": "the-little-mermaid",
+          "value": 240000000,
+          "rank": 37,
+          "year": "2023",
+          "cost": "$240M"
+        },
+        {
+          "id": "avatar",
+          "value": 237000000,
+          "rank": 38,
+          "year": "2009",
+          "cost": "$237M"
+        },
+        {
+          "id": "the-dark-knight-rises",
+          "value": 230000000,
+          "rank": 39,
+          "year": "2012",
+          "cost": "$230M"
+        },
+        {
+          "id": "captain-america-civil-war",
+          "value": 230000000,
+          "rank": 40,
+          "year": "2016",
+          "cost": "$230M"
+        },
+        {
+          "id": "pirates-of-the-caribbean-dead-men-tell-no-tales",
+          "value": 230000000,
+          "rank": 41,
+          "year": "2017",
+          "cost": "$230M"
+        },
+        {
+          "id": "maleficent",
+          "value": 226000000,
+          "rank": 42,
+          "year": "2014",
+          "cost": "$226M"
+        },
+        {
+          "id": "pirates-of-the-caribbean-dead-man-s-chest",
+          "value": 225000000,
+          "rank": 43,
+          "year": "2006",
+          "cost": "$225M"
+        },
+        {
+          "id": "the-chronicles-of-narnia-prince-caspian",
+          "value": 225000000,
+          "rank": 44,
+          "year": "2008",
+          "cost": "$225M"
+        },
+        {
+          "id": "man-of-steel",
+          "value": 225000000,
+          "rank": 45,
+          "year": "2013",
+          "cost": "$225M"
+        },
+        {
+          "id": "the-lone-ranger",
+          "value": 225000000,
+          "rank": 46,
+          "year": "2013",
+          "cost": "$225M"
+        }
+      ]
+    },
+    {
+      "date": "2024",
+      "values": [
+        {
+          "id": "star-wars-the-force-awakens",
+          "value": 536000000,
+          "rank": 1,
+          "year": "2015",
+          "cost": "$536M"
+        },
+        {
+          "id": "jurassic-world-dominion",
+          "value": 531000000,
+          "rank": 2,
+          "year": "2022",
+          "cost": "$531M"
+        },
+        {
+          "id": "star-wars-the-rise-of-skywalker",
+          "value": 490000000,
+          "rank": 3,
+          "year": "2019",
+          "cost": "$490M"
+        },
+        {
+          "id": "jurassic-world-fallen-kingdom",
+          "value": 465000000,
+          "rank": 4,
+          "year": "2018",
+          "cost": "$465M"
+        },
+        {
+          "id": "deadpool-and-wolverine",
+          "value": 429000000,
+          "rank": 5,
+          "year": "2024",
+          "cost": "$429M"
+        },
+        {
+          "id": "pirates-of-the-caribbean-on-stranger-tides",
+          "value": 379000000,
+          "rank": 6,
+          "year": "2011",
+          "cost": "$379M"
+        },
+        {
+          "id": "fast-x",
+          "value": 379000000,
+          "rank": 7,
+          "year": "2023",
+          "cost": "$379M"
+        },
+        {
+          "id": "avengers-age-of-ultron",
+          "value": 365000000,
+          "rank": 8,
+          "year": "2015",
+          "cost": "$365M"
+        },
+        {
+          "id": "avengers-endgame",
+          "value": 356000000,
+          "rank": 9,
+          "year": "2019",
+          "cost": "$356M"
+        },
+        {
+          "id": "indiana-jones-and-the-dial-of-destiny",
+          "value": 352000000,
+          "rank": 10,
+          "year": "2023",
+          "cost": "$352M"
+        },
+        {
+          "id": "doctor-strange-in-the-multiverse-of-madness",
+          "value": 351000000,
+          "rank": 11,
+          "year": "2022",
+          "cost": "$351M"
+        },
+        {
+          "id": "avatar-the-way-of-water",
+          "value": 350000000,
+          "rank": 12,
+          "year": "2022",
+          "cost": "$350M"
+        },
+        {
+          "id": "star-wars-the-last-jedi",
+          "value": 343000000,
+          "rank": 13,
+          "year": "2017",
+          "cost": "$343M"
+        },
+        {
+          "id": "ant-man-and-the-wasp-quantumania",
+          "value": 330000000,
+          "rank": 14,
+          "year": "2023",
+          "cost": "$330M"
+        },
+        {
+          "id": "avengers-infinity-war",
+          "value": 325000000,
+          "rank": 15,
+          "year": "2018",
+          "cost": "$325M"
+        },
+        {
+          "id": "the-marvels",
+          "value": 307000000,
+          "rank": 16,
+          "year": "2023",
+          "cost": "$307M"
+        },
+        {
+          "id": "pirates-of-the-caribbean-at-world-s-end",
+          "value": 300000000,
+          "rank": 17,
+          "year": "2007",
+          "cost": "$300M"
+        },
+        {
+          "id": "justice-league",
+          "value": 300000000,
+          "rank": 18,
+          "year": "2017",
+          "cost": "$300M"
+        },
+        {
+          "id": "solo-a-star-wars-story",
+          "value": 300000000,
+          "rank": 19,
+          "year": "2018",
+          "cost": "$300M"
+        },
+        {
+          "id": "mission-impossible-dead-reckoning-part-one",
+          "value": 291000000,
+          "rank": 20,
+          "year": "2023",
+          "cost": "$291M"
+        },
+        {
+          "id": "rogue-one",
+          "value": 271000000,
+          "rank": 21,
+          "year": "2016",
+          "cost": "$271M"
+        },
+        {
+          "id": "john-carter",
+          "value": 264000000,
+          "rank": 22,
+          "year": "2012",
+          "cost": "$264M"
+        },
+        {
+          "id": "batman-v-superman-dawn-of-justice",
+          "value": 263000000,
+          "rank": 23,
+          "year": "2016",
+          "cost": "$263M"
+        },
+        {
+          "id": "tangled",
+          "value": 260000000,
+          "rank": 24,
+          "year": "2010",
+          "cost": "$260M"
+        },
+        {
+          "id": "spider-man-3",
+          "value": 258000000,
+          "rank": 25,
+          "year": "2007",
+          "cost": "$258M"
+        },
+        {
+          "id": "beauty-and-the-beast",
+          "value": 255000000,
+          "rank": 26,
+          "year": "2017",
+          "cost": "$255M"
+        },
+        {
+          "id": "eternals",
+          "value": 254000000,
+          "rank": 27,
+          "year": "2021",
+          "cost": "$254M"
+        },
+        {
+          "id": "harry-potter-and-the-half-blood-prince",
+          "value": 250000000,
+          "rank": 28,
+          "year": "2009",
+          "cost": "$250M"
+        },
+        {
+          "id": "furious-7",
+          "value": 250000000,
+          "rank": 29,
+          "year": "2015",
+          "cost": "$250M"
+        },
+        {
+          "id": "the-fate-of-the-furious",
+          "value": 250000000,
+          "rank": 30,
+          "year": "2017",
+          "cost": "$250M"
+        },
+        {
+          "id": "the-lion-king",
+          "value": 250000000,
+          "rank": 31,
+          "year": "2019",
+          "cost": "$250M"
+        },
+        {
+          "id": "no-time-to-die",
+          "value": 250000000,
+          "rank": 32,
+          "year": "2021",
+          "cost": "$250M"
+        },
+        {
+          "id": "black-panther-wakanda-forever",
+          "value": 250000000,
+          "rank": 33,
+          "year": "2022",
+          "cost": "$250M"
+        },
+        {
+          "id": "thor-love-and-thunder",
+          "value": 250000000,
+          "rank": 34,
+          "year": "2022",
+          "cost": "$250M"
+        },
+        {
+          "id": "guardians-of-the-galaxy-vol-3",
+          "value": 250000000,
+          "rank": 35,
+          "year": "2023",
+          "cost": "$250M"
+        },
+        {
+          "id": "black-widow",
+          "value": 248000000,
+          "rank": 36,
+          "year": "2021",
+          "cost": "$248M"
+        },
+        {
+          "id": "spectre",
+          "value": 245000000,
+          "rank": 37,
+          "year": "2015",
+          "cost": "$245M"
+        },
+        {
+          "id": "the-little-mermaid",
+          "value": 240000000,
+          "rank": 38,
+          "year": "2023",
+          "cost": "$240M"
+        },
+        {
+          "id": "avatar",
+          "value": 237000000,
+          "rank": 39,
+          "year": "2009",
+          "cost": "$237M"
+        },
+        {
+          "id": "the-dark-knight-rises",
+          "value": 230000000,
+          "rank": 40,
+          "year": "2012",
+          "cost": "$230M"
+        },
+        {
+          "id": "captain-america-civil-war",
+          "value": 230000000,
+          "rank": 41,
+          "year": "2016",
+          "cost": "$230M"
+        },
+        {
+          "id": "pirates-of-the-caribbean-dead-men-tell-no-tales",
+          "value": 230000000,
+          "rank": 42,
+          "year": "2017",
+          "cost": "$230M"
+        },
+        {
+          "id": "maleficent",
+          "value": 226000000,
+          "rank": 43,
+          "year": "2014",
+          "cost": "$226M"
+        },
+        {
+          "id": "pirates-of-the-caribbean-dead-man-s-chest",
+          "value": 225000000,
+          "rank": 44,
+          "year": "2006",
+          "cost": "$225M"
+        },
+        {
+          "id": "the-chronicles-of-narnia-prince-caspian",
+          "value": 225000000,
+          "rank": 45,
+          "year": "2008",
+          "cost": "$225M"
+        },
+        {
+          "id": "man-of-steel",
+          "value": 225000000,
+          "rank": 46,
+          "year": "2013",
+          "cost": "$225M"
+        },
+        {
+          "id": "the-lone-ranger",
+          "value": 225000000,
+          "rank": 47,
+          "year": "2013",
+          "cost": "$225M"
+        }
+      ]
+    },
+    {
+      "date": "2025",
+      "values": [
+        {
+          "id": "star-wars-the-force-awakens",
+          "value": 536000000,
+          "rank": 1,
+          "year": "2015",
+          "cost": "$536M"
+        },
+        {
+          "id": "jurassic-world-dominion",
+          "value": 531000000,
+          "rank": 2,
+          "year": "2022",
+          "cost": "$531M"
+        },
+        {
+          "id": "star-wars-the-rise-of-skywalker",
+          "value": 490000000,
+          "rank": 3,
+          "year": "2019",
+          "cost": "$490M"
+        },
+        {
+          "id": "jurassic-world-fallen-kingdom",
+          "value": 465000000,
+          "rank": 4,
+          "year": "2018",
+          "cost": "$465M"
+        },
+        {
+          "id": "deadpool-and-wolverine",
+          "value": 429000000,
+          "rank": 5,
+          "year": "2024",
+          "cost": "$429M"
+        },
+        {
+          "id": "pirates-of-the-caribbean-on-stranger-tides",
+          "value": 379000000,
+          "rank": 6,
+          "year": "2011",
+          "cost": "$379M"
+        },
+        {
+          "id": "fast-x",
+          "value": 379000000,
+          "rank": 7,
+          "year": "2023",
+          "cost": "$379M"
+        },
+        {
+          "id": "avengers-age-of-ultron",
+          "value": 365000000,
+          "rank": 8,
+          "year": "2015",
+          "cost": "$365M"
+        },
+        {
+          "id": "avengers-endgame",
+          "value": 356000000,
+          "rank": 9,
+          "year": "2019",
+          "cost": "$356M"
+        },
+        {
+          "id": "indiana-jones-and-the-dial-of-destiny",
+          "value": 352000000,
+          "rank": 10,
+          "year": "2023",
+          "cost": "$352M"
+        },
+        {
+          "id": "doctor-strange-in-the-multiverse-of-madness",
+          "value": 351000000,
+          "rank": 11,
+          "year": "2022",
+          "cost": "$351M"
+        },
+        {
+          "id": "avatar-the-way-of-water",
+          "value": 350000000,
+          "rank": 12,
+          "year": "2022",
+          "cost": "$350M"
+        },
+        {
+          "id": "avatar-fire-and-ash",
+          "value": 350000000,
+          "rank": 13,
+          "year": "2025",
+          "cost": "$350M"
+        },
+        {
+          "id": "star-wars-the-last-jedi",
+          "value": 343000000,
+          "rank": 14,
+          "year": "2017",
+          "cost": "$343M"
+        },
+        {
+          "id": "ant-man-and-the-wasp-quantumania",
+          "value": 330000000,
+          "rank": 15,
+          "year": "2023",
+          "cost": "$330M"
+        },
+        {
+          "id": "avengers-infinity-war",
+          "value": 325000000,
+          "rank": 16,
+          "year": "2018",
+          "cost": "$325M"
+        },
+        {
+          "id": "the-electric-state",
+          "value": 320000000,
+          "rank": 17,
+          "year": "2025",
+          "cost": "$320M"
+        },
+        {
+          "id": "the-marvels",
+          "value": 307000000,
+          "rank": 18,
+          "year": "2023",
+          "cost": "$307M"
+        },
+        {
+          "id": "pirates-of-the-caribbean-at-world-s-end",
+          "value": 300000000,
+          "rank": 19,
+          "year": "2007",
+          "cost": "$300M"
+        },
+        {
+          "id": "justice-league",
+          "value": 300000000,
+          "rank": 20,
+          "year": "2017",
+          "cost": "$300M"
+        },
+        {
+          "id": "solo-a-star-wars-story",
+          "value": 300000000,
+          "rank": 21,
+          "year": "2018",
+          "cost": "$300M"
+        },
+        {
+          "id": "mission-impossible-the-final-reckoning",
+          "value": 300000000,
+          "rank": 22,
+          "year": "2025",
+          "cost": "$300M"
+        },
+        {
+          "id": "mission-impossible-dead-reckoning-part-one",
+          "value": 291000000,
+          "rank": 23,
+          "year": "2023",
+          "cost": "$291M"
+        },
+        {
+          "id": "snow-white",
+          "value": 272000000,
+          "rank": 24,
+          "year": "2025",
+          "cost": "$272M"
+        },
+        {
+          "id": "rogue-one",
+          "value": 271000000,
+          "rank": 25,
+          "year": "2016",
+          "cost": "$271M"
+        },
+        {
+          "id": "john-carter",
+          "value": 264000000,
+          "rank": 26,
+          "year": "2012",
+          "cost": "$264M"
+        },
+        {
+          "id": "batman-v-superman-dawn-of-justice",
+          "value": 263000000,
+          "rank": 27,
+          "year": "2016",
+          "cost": "$263M"
+        },
+        {
+          "id": "tangled",
+          "value": 260000000,
+          "rank": 28,
+          "year": "2010",
+          "cost": "$260M"
+        },
+        {
+          "id": "spider-man-3",
+          "value": 258000000,
+          "rank": 29,
+          "year": "2007",
+          "cost": "$258M"
+        },
+        {
+          "id": "beauty-and-the-beast",
+          "value": 255000000,
+          "rank": 30,
+          "year": "2017",
+          "cost": "$255M"
+        },
+        {
+          "id": "eternals",
+          "value": 254000000,
+          "rank": 31,
+          "year": "2021",
+          "cost": "$254M"
+        },
+        {
+          "id": "harry-potter-and-the-half-blood-prince",
+          "value": 250000000,
+          "rank": 32,
+          "year": "2009",
+          "cost": "$250M"
+        },
+        {
+          "id": "furious-7",
+          "value": 250000000,
+          "rank": 33,
+          "year": "2015",
+          "cost": "$250M"
+        },
+        {
+          "id": "the-fate-of-the-furious",
+          "value": 250000000,
+          "rank": 34,
+          "year": "2017",
+          "cost": "$250M"
+        },
+        {
+          "id": "the-lion-king",
+          "value": 250000000,
+          "rank": 35,
+          "year": "2019",
+          "cost": "$250M"
+        },
+        {
+          "id": "no-time-to-die",
+          "value": 250000000,
+          "rank": 36,
+          "year": "2021",
+          "cost": "$250M"
+        },
+        {
+          "id": "black-panther-wakanda-forever",
+          "value": 250000000,
+          "rank": 37,
+          "year": "2022",
+          "cost": "$250M"
+        },
+        {
+          "id": "thor-love-and-thunder",
+          "value": 250000000,
+          "rank": 38,
+          "year": "2022",
+          "cost": "$250M"
+        },
+        {
+          "id": "guardians-of-the-galaxy-vol-3",
+          "value": 250000000,
+          "rank": 39,
+          "year": "2023",
+          "cost": "$250M"
+        },
+        {
+          "id": "black-widow",
+          "value": 248000000,
+          "rank": 40,
+          "year": "2021",
+          "cost": "$248M"
+        },
+        {
+          "id": "spectre",
+          "value": 245000000,
+          "rank": 41,
+          "year": "2015",
+          "cost": "$245M"
+        },
+        {
+          "id": "the-little-mermaid",
+          "value": 240000000,
+          "rank": 42,
+          "year": "2023",
+          "cost": "$240M"
+        },
+        {
+          "id": "avatar",
+          "value": 237000000,
+          "rank": 43,
+          "year": "2009",
+          "cost": "$237M"
+        },
+        {
+          "id": "the-dark-knight-rises",
+          "value": 230000000,
+          "rank": 44,
+          "year": "2012",
+          "cost": "$230M"
+        },
+        {
+          "id": "captain-america-civil-war",
+          "value": 230000000,
+          "rank": 45,
+          "year": "2016",
+          "cost": "$230M"
+        },
+        {
+          "id": "pirates-of-the-caribbean-dead-men-tell-no-tales",
+          "value": 230000000,
+          "rank": 46,
+          "year": "2017",
+          "cost": "$230M"
+        },
+        {
+          "id": "maleficent",
+          "value": 226000000,
+          "rank": 47,
+          "year": "2014",
+          "cost": "$226M"
+        },
+        {
+          "id": "pirates-of-the-caribbean-dead-man-s-chest",
+          "value": 225000000,
+          "rank": 48,
+          "year": "2006",
+          "cost": "$225M"
+        },
+        {
+          "id": "the-chronicles-of-narnia-prince-caspian",
+          "value": 225000000,
+          "rank": 49,
+          "year": "2008",
+          "cost": "$225M"
+        },
+        {
+          "id": "man-of-steel",
+          "value": 225000000,
+          "rank": 50,
+          "year": "2013",
+          "cost": "$225M"
+        },
+        {
+          "id": "the-lone-ranger",
+          "value": 225000000,
+          "rank": 51,
+          "year": "2013",
+          "cost": "$225M"
+        },
+        {
+          "id": "superman",
+          "value": 225000000,
+          "rank": 52,
+          "year": "2025",
+          "cost": "$225M"
+        }
+      ]
+    },
+    {
+      "date": "2026",
+      "values": [
+        {
+          "id": "star-wars-the-force-awakens",
+          "value": 536000000,
+          "rank": 1,
+          "year": "2015",
+          "cost": "$536M"
+        },
+        {
+          "id": "jurassic-world-dominion",
+          "value": 531000000,
+          "rank": 2,
+          "year": "2022",
+          "cost": "$531M"
+        },
+        {
+          "id": "star-wars-the-rise-of-skywalker",
+          "value": 490000000,
+          "rank": 3,
+          "year": "2019",
+          "cost": "$490M"
+        },
+        {
+          "id": "jurassic-world-fallen-kingdom",
+          "value": 465000000,
+          "rank": 4,
+          "year": "2018",
+          "cost": "$465M"
+        },
+        {
+          "id": "deadpool-and-wolverine",
+          "value": 429000000,
+          "rank": 5,
+          "year": "2024",
+          "cost": "$429M"
+        },
+        {
+          "id": "pirates-of-the-caribbean-on-stranger-tides",
+          "value": 379000000,
+          "rank": 6,
+          "year": "2011",
+          "cost": "$379M"
+        },
+        {
+          "id": "fast-x",
+          "value": 379000000,
+          "rank": 7,
+          "year": "2023",
+          "cost": "$379M"
+        },
+        {
+          "id": "avengers-age-of-ultron",
+          "value": 365000000,
+          "rank": 8,
+          "year": "2015",
+          "cost": "$365M"
+        },
+        {
+          "id": "avengers-endgame",
+          "value": 356000000,
+          "rank": 9,
+          "year": "2019",
+          "cost": "$356M"
+        },
+        {
+          "id": "indiana-jones-and-the-dial-of-destiny",
+          "value": 352000000,
+          "rank": 10,
+          "year": "2023",
+          "cost": "$352M"
+        },
+        {
+          "id": "doctor-strange-in-the-multiverse-of-madness",
+          "value": 351000000,
+          "rank": 11,
+          "year": "2022",
+          "cost": "$351M"
+        },
+        {
+          "id": "avatar-the-way-of-water",
+          "value": 350000000,
+          "rank": 12,
+          "year": "2022",
+          "cost": "$350M"
+        },
+        {
+          "id": "avatar-fire-and-ash",
+          "value": 350000000,
+          "rank": 13,
+          "year": "2025",
+          "cost": "$350M"
+        },
+        {
+          "id": "star-wars-the-last-jedi",
+          "value": 343000000,
+          "rank": 14,
+          "year": "2017",
+          "cost": "$343M"
+        },
+        {
+          "id": "ant-man-and-the-wasp-quantumania",
+          "value": 330000000,
+          "rank": 15,
+          "year": "2023",
+          "cost": "$330M"
+        },
+        {
+          "id": "avengers-infinity-war",
+          "value": 325000000,
+          "rank": 16,
+          "year": "2018",
+          "cost": "$325M"
+        },
+        {
+          "id": "the-electric-state",
+          "value": 320000000,
+          "rank": 17,
+          "year": "2025",
+          "cost": "$320M"
+        },
+        {
+          "id": "the-marvels",
+          "value": 307000000,
+          "rank": 18,
+          "year": "2023",
+          "cost": "$307M"
+        },
+        {
+          "id": "pirates-of-the-caribbean-at-world-s-end",
+          "value": 300000000,
+          "rank": 19,
+          "year": "2007",
+          "cost": "$300M"
+        },
+        {
+          "id": "justice-league",
+          "value": 300000000,
+          "rank": 20,
+          "year": "2017",
+          "cost": "$300M"
+        },
+        {
+          "id": "solo-a-star-wars-story",
+          "value": 300000000,
+          "rank": 21,
+          "year": "2018",
+          "cost": "$300M"
+        },
+        {
+          "id": "mission-impossible-the-final-reckoning",
+          "value": 300000000,
+          "rank": 22,
+          "year": "2025",
+          "cost": "$300M"
+        },
+        {
+          "id": "mission-impossible-dead-reckoning-part-one",
+          "value": 291000000,
+          "rank": 23,
+          "year": "2023",
+          "cost": "$291M"
+        },
+        {
+          "id": "snow-white",
+          "value": 272000000,
+          "rank": 24,
+          "year": "2025",
+          "cost": "$272M"
+        },
+        {
+          "id": "rogue-one",
+          "value": 271000000,
+          "rank": 25,
+          "year": "2016",
+          "cost": "$271M"
+        },
+        {
+          "id": "john-carter",
+          "value": 264000000,
+          "rank": 26,
+          "year": "2012",
+          "cost": "$264M"
+        },
+        {
+          "id": "batman-v-superman-dawn-of-justice",
+          "value": 263000000,
+          "rank": 27,
+          "year": "2016",
+          "cost": "$263M"
+        },
+        {
+          "id": "tangled",
+          "value": 260000000,
+          "rank": 28,
+          "year": "2010",
+          "cost": "$260M"
+        },
+        {
+          "id": "spider-man-3",
+          "value": 258000000,
+          "rank": 29,
+          "year": "2007",
+          "cost": "$258M"
+        },
+        {
+          "id": "beauty-and-the-beast",
+          "value": 255000000,
+          "rank": 30,
+          "year": "2017",
+          "cost": "$255M"
+        },
+        {
+          "id": "eternals",
+          "value": 254000000,
+          "rank": 31,
+          "year": "2021",
+          "cost": "$254M"
+        },
+        {
+          "id": "harry-potter-and-the-half-blood-prince",
+          "value": 250000000,
+          "rank": 32,
+          "year": "2009",
+          "cost": "$250M"
+        },
+        {
+          "id": "furious-7",
+          "value": 250000000,
+          "rank": 33,
+          "year": "2015",
+          "cost": "$250M"
+        },
+        {
+          "id": "the-fate-of-the-furious",
+          "value": 250000000,
+          "rank": 34,
+          "year": "2017",
+          "cost": "$250M"
+        },
+        {
+          "id": "the-lion-king",
+          "value": 250000000,
+          "rank": 35,
+          "year": "2019",
+          "cost": "$250M"
+        },
+        {
+          "id": "no-time-to-die",
+          "value": 250000000,
+          "rank": 36,
+          "year": "2021",
+          "cost": "$250M"
+        },
+        {
+          "id": "black-panther-wakanda-forever",
+          "value": 250000000,
+          "rank": 37,
+          "year": "2022",
+          "cost": "$250M"
+        },
+        {
+          "id": "thor-love-and-thunder",
+          "value": 250000000,
+          "rank": 38,
+          "year": "2022",
+          "cost": "$250M"
+        },
+        {
+          "id": "guardians-of-the-galaxy-vol-3",
+          "value": 250000000,
+          "rank": 39,
+          "year": "2023",
+          "cost": "$250M"
+        },
+        {
+          "id": "moana",
+          "value": 250000000,
+          "rank": 40,
+          "year": "2026",
+          "cost": "$250M"
+        },
+        {
+          "id": "the-odyssey",
+          "value": 250000000,
+          "rank": 41,
+          "year": "2026",
+          "cost": "$250M"
+        },
+        {
+          "id": "toy-story-5",
+          "value": 250000000,
+          "rank": 42,
+          "year": "2026",
+          "cost": "$250M"
+        },
+        {
+          "id": "black-widow",
+          "value": 248000000,
+          "rank": 43,
+          "year": "2021",
+          "cost": "$248M"
+        },
+        {
+          "id": "spectre",
+          "value": 245000000,
+          "rank": 44,
+          "year": "2015",
+          "cost": "$245M"
+        },
+        {
+          "id": "the-little-mermaid",
+          "value": 240000000,
+          "rank": 45,
+          "year": "2023",
+          "cost": "$240M"
+        },
+        {
+          "id": "avatar",
+          "value": 237000000,
+          "rank": 46,
+          "year": "2009",
+          "cost": "$237M"
+        },
+        {
+          "id": "the-dark-knight-rises",
+          "value": 230000000,
+          "rank": 47,
+          "year": "2012",
+          "cost": "$230M"
+        },
+        {
+          "id": "captain-america-civil-war",
+          "value": 230000000,
+          "rank": 48,
+          "year": "2016",
+          "cost": "$230M"
+        },
+        {
+          "id": "pirates-of-the-caribbean-dead-men-tell-no-tales",
+          "value": 230000000,
+          "rank": 49,
+          "year": "2017",
+          "cost": "$230M"
+        },
+        {
+          "id": "maleficent",
+          "value": 226000000,
+          "rank": 50,
+          "year": "2014",
+          "cost": "$226M"
+        },
+        {
+          "id": "pirates-of-the-caribbean-dead-man-s-chest",
+          "value": 225000000,
+          "rank": 51,
+          "year": "2006",
+          "cost": "$225M"
+        },
+        {
+          "id": "the-chronicles-of-narnia-prince-caspian",
+          "value": 225000000,
+          "rank": 52,
+          "year": "2008",
+          "cost": "$225M"
+        },
+        {
+          "id": "man-of-steel",
+          "value": 225000000,
+          "rank": 53,
+          "year": "2013",
+          "cost": "$225M"
+        },
+        {
+          "id": "the-lone-ranger",
+          "value": 225000000,
+          "rank": 54,
+          "year": "2013",
+          "cost": "$225M"
+        },
+        {
+          "id": "superman",
+          "value": 225000000,
+          "rank": 55,
+          "year": "2025",
+          "cost": "$225M"
+        },
+        {
+          "id": "spider-man-brand-new-day",
+          "value": 225000000,
+          "rank": 56,
+          "year": "2026",
+          "cost": "$225M"
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "date": "2006",
+      "title": "Pirates of the Caribbean: Dead Man's Chest tops the 2006 budget board",
+      "body": "As of 2006, Pirates of the Caribbean: Dead Man's Chest is the most expensive film ever made at a reported $225M production budget."
+    },
+    {
+      "date": "2016",
+      "title": "Star Wars: The Force Awakens tops the 2016 budget board",
+      "body": "As of 2016, Star Wars: The Force Awakens is the most expensive film ever made at a reported $536M production budget."
+    },
+    {
+      "date": "2026",
+      "title": "Star Wars: The Force Awakens tops the 2026 budget board",
+      "body": "As of 2026, Star Wars: The Force Awakens is the most expensive film ever made at a reported $536M production budget."
+    }
+  ],
+  "sources": [
+    {
+      "title": "List of most expensive films",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_most_expensive_films",
+      "note": "Nominal (non-inflation-adjusted) production budgets for the most expensive films ever made. Distinct from box-office grosses."
+    }
+  ],
+  "lastObservationDate": "2026-01-01",
+  "historicalCoverageStart": "2006",
+  "historicalCoverageEnd": "2026",
+  "historicalGranularity": "annual",
+  "backfillSource": "Wikipedia — List of most expensive films",
+  "backfillGeneratedAt": "2026-08-22T14:56:45.984Z",
+  "dataFreshness": {
+    "status": "fresh",
+    "refreshCadence": "monthly",
+    "lastUpdated": "2026-08-22T14:56:45.984Z",
+    "lastRefreshAttemptedAt": "2026-08-22T14:56:45.984Z",
+    "lastRefreshError": null,
+    "lastObservationDate": "2026-01-01",
+    "nextRefreshAt": "2026-09-03T08:00:00.000Z",
+    "sourceStatus": "Wikipedia nominal production-budget table: Most expensive films",
+    "confidence": "Nominal production budgets parsed from the \"Most expensive films\" table on List of most expensive films, observed 2026-08-22T14:56:45.984Z. Values are the reported budgets, not inflation-adjusted."
+  },
+  "media": {
+    "imageFit": "contain",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-08-22T14:56:45.984Z",
+    "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+    "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.webp",
+    "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+    "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-expensive-films.json",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 8,
+    "rows": 7,
+    "width": 2560,
+    "height": 2240,
+    "itemCount": 56,
+    "sourcedImageCount": 56,
+    "generatedImageCount": 0,
+    "placeholderCount": 0,
+    "ogImageUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/most-expensive-films.png",
+    "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/most-expensive-films.png",
+    "ogImageWidth": 1200,
+    "ogImageHeight": 630
+  },
+  "taxonomy": {
+    "primaryCategory": "entertainment",
+    "categories": [
+      "entertainment",
+      "movies",
+      "culture"
+    ],
+    "tags": [
+      "film-budgets",
+      "production-budget",
+      "films",
+      "most-expensive",
+      "rankings"
+    ],
+    "entityTypes": [
+      "film"
+    ],
+    "sourceTypes": [
+      "wikipedia"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "box-office-all-time",
+      "type": "film-economics",
+      "weight": 0.82,
+      "reason": "Two sides of the same blockbuster ledger: what films cost to make versus what they earned at the box office."
+    },
+    {
+      "target": "franchise-hype-index",
+      "type": "franchise-economics",
+      "weight": 0.74,
+      "reason": "The most expensive films are almost all franchise tentpoles, so budgets track franchise ambition."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "screen-entertainment",
+    "mainland": "culture",
+    "bridgePriority": [
+      "box-office-all-time",
+      "franchise-hype-index"
+    ]
+  },
+  "schemaVersion": 1,
+  "contentKind": "dat-city.story",
+  "generatedAt": "2026-08-22T14:56:45.984Z",
+  "versionId": "20260822T145645Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "dashboard-settings:crypto-memecoin-heat",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-08-22T14:56:45.984Z",
+    "versionId": "20260822T145645Z",
+    "adapter": "wikipedia-most-expensive-films",
+    "storySlug": "most-expensive-films",
+    "districtId": null,
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "publicProjection": {
+    "kind": "story",
+    "version": 1,
+    "generatedAt": "2026-08-22T14:56:45.984Z",
+    "adapter": "wikipedia-most-expensive-films",
+    "cache": {
+      "browserMaxAgeSeconds": 60,
+      "edgeMaxAgeSeconds": 3600
+    }
+  },
+  "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/most-expensive-films.png"
+}

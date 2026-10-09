@@ -1,0 +1,4413 @@
+{
+  "id": "richest-individuals",
+  "kicker": "Wealth Race",
+  "title": "Richest Individuals",
+  "subtitle": "The billionaire leaderboard by estimated net worth, using Forbes real-time ranking data.",
+  "badge": "Ranked by net worth",
+  "visualization": "race-arena",
+  "theme": "creator-arena",
+  "artStyle": "stylized-editorial",
+  "dateRange": [
+    "1996",
+    "20260902"
+  ],
+  "timelineTicks": [
+    "1996",
+    "1997",
+    "1998",
+    "1999",
+    "2000",
+    "2001",
+    "2002",
+    "2003",
+    "2004",
+    "2005",
+    "2006",
+    "2007",
+    "2008",
+    "2009",
+    "2010",
+    "2011",
+    "2012",
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026",
+    "20260819",
+    "20260820",
+    "20260821",
+    "20260822",
+    "20260823",
+    "20260824",
+    "20260825",
+    "20260826",
+    "20260827",
+    "20260828",
+    "20260829",
+    "20260830",
+    "20260831",
+    "20260902"
+  ],
+  "metricLabel": "Net worth",
+  "ogImage": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/richest-individuals.png",
+  "cityPreview": {
+    "districtId": "wealth-tower",
+    "districtName": "Wealth Tower",
+    "cardLabel": "Wealth Race",
+    "summary": "Forbes real-time billionaire net worth rankings, refreshed from the current leaderboard.",
+    "primaryMetric": "Net worth",
+    "latestFrameLabel": "2026-09-02",
+    "storyUrl": "/stories/richest-individuals/",
+    "thumbnail": "/assets/og/dat-city-home.png"
+  },
+  "sourceStatus": "Forbes Real-Time Billionaires page",
+  "confidence": "Observed Forbes real-time billionaire rankings at 2026-09-02T06:03:21.875Z. Values are Forbes finalWorth figures converted from USD millions.",
+  "methodology": "This adapter reads the server-rendered Forbes Real-Time Billionaires page, extracts the embedded billionaire ranking payload, converts finalWorth from USD millions to USD, and stores StoryOps snapshots so the district can replay observed changes over time.",
+  "playback": {
+    "durationSeconds": 24,
+    "initialDate": "1996",
+    "periodLabel": "real-time net worth snapshots"
+  },
+  "visual": {
+    "topCount": 10,
+    "referenceCount": 12,
+    "horizontalCount": 12
+  },
+  "layers": [
+    {
+      "id": "net-worth",
+      "label": "Net worth",
+      "default": true
+    },
+    {
+      "id": "wealth-source",
+      "label": "Wealth source",
+      "default": true
+    },
+    {
+      "id": "nationality",
+      "label": "Nationality",
+      "default": true
+    }
+  ],
+  "focus": [
+    {
+      "id": "elon-musk",
+      "label": "Elon Musk"
+    },
+    {
+      "id": "larry-page",
+      "label": "Larry Page"
+    },
+    {
+      "id": "jeff-bezos",
+      "label": "Jeff Bezos"
+    },
+    {
+      "id": "sergey-brin",
+      "label": "Sergey Brin"
+    }
+  ],
+  "entities": [
+    {
+      "id": "elon-musk",
+      "name": "Elon Musk",
+      "shortName": "Elon Musk",
+      "forbesUrl": "https://www.forbes.com/profile/elon-musk/",
+      "sourceOfWealth": "Tesla, SpaceX",
+      "industry": "Technology",
+      "country": "United States",
+      "forbesImageUrl": "https://specials-images.forbesimg.com/imageserve/62d700cd6094d2c180f269b9/416x416.jpg?background=000000&cropX1=0&cropX2=959&cropY1=0&cropY2=959",
+      "thumbnailUrl": "https://specials-images.forbesimg.com/imageserve/62d700cd6094d2c180f269b9/416x416.jpg?background=000000&cropX1=0&cropX2=959&cropY1=0&cropY2=959",
+      "imageUrl": "https://specials-images.forbesimg.com/imageserve/62d700cd6094d2c180f269b9/416x416.jpg?background=000000&cropX1=0&cropX2=959&cropY1=0&cropY2=959",
+      "avatarText": "EM",
+      "color": "#ff5a61",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.json",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.25,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://specials-images.forbesimg.com/imageserve/62d700cd6094d2c180f269b9/416x416.jpg?background=000000&cropX1=0&cropX2=959&cropY1=0&cropY2=959",
+          "sourceStatus": "source-image",
+          "sourceProvider": "forbes"
+        }
+      }
+    },
+    {
+      "id": "larry-page",
+      "name": "Larry Page",
+      "shortName": "Larry Page",
+      "forbesUrl": "https://www.forbes.com/profile/larry-page/",
+      "sourceOfWealth": "Google",
+      "industry": "Technology",
+      "country": "United States",
+      "forbesImageUrl": "https://specials-images.forbesimg.com/imageserve/5c76bcaaa7ea43100043c836/416x416.jpg?background=000000&cropX1=227&cropX2=2022&cropY1=22&cropY2=1817",
+      "thumbnailUrl": "https://specials-images.forbesimg.com/imageserve/5c76bcaaa7ea43100043c836/416x416.jpg?background=000000&cropX1=227&cropX2=2022&cropY1=22&cropY2=1817",
+      "imageUrl": "https://specials-images.forbesimg.com/imageserve/5c76bcaaa7ea43100043c836/416x416.jpg?background=000000&cropX1=227&cropX2=2022&cropY1=22&cropY2=1817",
+      "avatarText": "LP",
+      "color": "#18c871",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.json",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0,
+          "u1": 0.5,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://specials-images.forbesimg.com/imageserve/5c76bcaaa7ea43100043c836/416x416.jpg?background=000000&cropX1=227&cropX2=2022&cropY1=22&cropY2=1817",
+          "sourceStatus": "source-image",
+          "sourceProvider": "forbes"
+        }
+      }
+    },
+    {
+      "id": "jeff-bezos",
+      "name": "Jeff Bezos",
+      "shortName": "Jeff Bezos",
+      "forbesUrl": "https://www.forbes.com/profile/jeff-bezos/",
+      "sourceOfWealth": "Amazon",
+      "industry": "Technology",
+      "country": "United States",
+      "forbesImageUrl": "https://specials-images.forbesimg.com/imageserve/67531eb2b5f7c9e191f632d7/416x416.jpg?background=000000&cropX1=316&cropX2=1027&cropY1=125&cropY2=838",
+      "thumbnailUrl": "https://specials-images.forbesimg.com/imageserve/67531eb2b5f7c9e191f632d7/416x416.jpg?background=000000&cropX1=316&cropX2=1027&cropY1=125&cropY2=838",
+      "imageUrl": "https://specials-images.forbesimg.com/imageserve/67531eb2b5f7c9e191f632d7/416x416.jpg?background=000000&cropX1=316&cropX2=1027&cropY1=125&cropY2=838",
+      "avatarText": "JB",
+      "color": "#00a6ff",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.json",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0,
+          "u1": 0.75,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://specials-images.forbesimg.com/imageserve/67531eb2b5f7c9e191f632d7/416x416.jpg?background=000000&cropX1=316&cropX2=1027&cropY1=125&cropY2=838",
+          "sourceStatus": "source-image",
+          "sourceProvider": "forbes"
+        }
+      }
+    },
+    {
+      "id": "sergey-brin",
+      "name": "Sergey Brin",
+      "shortName": "Sergey Brin",
+      "forbesUrl": "https://www.forbes.com/profile/sergey-brin/",
+      "sourceOfWealth": "Google",
+      "industry": "Technology",
+      "country": "United States",
+      "forbesImageUrl": "https://specials-images.forbesimg.com/imageserve/5c7d7c254bbe6f78090d831f/416x416.jpg?background=000000&cropX1=475&cropX2=2887&cropY1=168&cropY2=2582",
+      "thumbnailUrl": "https://specials-images.forbesimg.com/imageserve/5c7d7c254bbe6f78090d831f/416x416.jpg?background=000000&cropX1=475&cropX2=2887&cropY1=168&cropY2=2582",
+      "imageUrl": "https://specials-images.forbesimg.com/imageserve/5c7d7c254bbe6f78090d831f/416x416.jpg?background=000000&cropX1=475&cropX2=2887&cropY1=168&cropY2=2582",
+      "avatarText": "SB",
+      "color": "#ffc84a",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.json",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://specials-images.forbesimg.com/imageserve/5c7d7c254bbe6f78090d831f/416x416.jpg?background=000000&cropX1=475&cropX2=2887&cropY1=168&cropY2=2582",
+          "sourceStatus": "source-image",
+          "sourceProvider": "forbes"
+        }
+      }
+    },
+    {
+      "id": "michael-dell",
+      "name": "Michael Dell",
+      "shortName": "Michael Dell",
+      "forbesUrl": "https://www.forbes.com/profile/michael-dell/",
+      "sourceOfWealth": "Dell Technologies",
+      "industry": "Technology",
+      "country": "United States",
+      "forbesImageUrl": "https://specials-images.forbesimg.com/imageserve/615c93f9da61f2ff5b9ecf9b/416x416.jpg?background=000000&cropX1=0&cropX2=1678&cropY1=118&cropY2=1797",
+      "thumbnailUrl": "https://specials-images.forbesimg.com/imageserve/615c93f9da61f2ff5b9ecf9b/416x416.jpg?background=000000&cropX1=0&cropX2=1678&cropY1=118&cropY2=1797",
+      "imageUrl": "https://specials-images.forbesimg.com/imageserve/615c93f9da61f2ff5b9ecf9b/416x416.jpg?background=000000&cropX1=0&cropX2=1678&cropY1=118&cropY2=1797",
+      "avatarText": "MD",
+      "color": "#8f6bff",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.json",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.25,
+          "u1": 0.25,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://specials-images.forbesimg.com/imageserve/615c93f9da61f2ff5b9ecf9b/416x416.jpg?background=000000&cropX1=0&cropX2=1678&cropY1=118&cropY2=1797",
+          "sourceStatus": "source-image",
+          "sourceProvider": "forbes"
+        }
+      }
+    },
+    {
+      "id": "bernard-arnault",
+      "name": "Bernard Arnault & family",
+      "shortName": "Bernard Arnault & family",
+      "forbesUrl": "https://www.forbes.com/profile/bernard-arnault/",
+      "sourceOfWealth": "LVMH",
+      "industry": "Fashion & Retail",
+      "country": "France",
+      "forbesImageUrl": "https://specials-images.forbesimg.com/imageserve/5dc05518ca425400079c659f/416x416.jpg?background=000000&cropX1=0&cropX2=4000&cropY1=1209&cropY2=5212",
+      "thumbnailUrl": "https://specials-images.forbesimg.com/imageserve/5dc05518ca425400079c659f/416x416.jpg?background=000000&cropX1=0&cropX2=4000&cropY1=1209&cropY2=5212",
+      "imageUrl": "https://specials-images.forbesimg.com/imageserve/5dc05518ca425400079c659f/416x416.jpg?background=000000&cropX1=0&cropX2=4000&cropY1=1209&cropY2=5212",
+      "avatarText": "BA",
+      "color": "#7b9b65",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.json",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.25,
+          "u1": 0.5,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://specials-images.forbesimg.com/imageserve/5dc05518ca425400079c659f/416x416.jpg?background=000000&cropX1=0&cropX2=4000&cropY1=1209&cropY2=5212",
+          "sourceStatus": "source-image",
+          "sourceProvider": "forbes"
+        }
+      }
+    },
+    {
+      "id": "mark-zuckerberg",
+      "name": "Mark Zuckerberg",
+      "shortName": "Mark Zuckerberg",
+      "forbesUrl": "https://www.forbes.com/profile/mark-zuckerberg/",
+      "sourceOfWealth": "Facebook",
+      "industry": "Technology",
+      "country": "United States",
+      "forbesImageUrl": "https://specials-images.forbesimg.com/imageserve/5c76b7d331358e35dd2773a9/416x416.jpg?background=000000&cropX1=0&cropX2=4401&cropY1=0&cropY2=4401",
+      "thumbnailUrl": "https://specials-images.forbesimg.com/imageserve/5c76b7d331358e35dd2773a9/416x416.jpg?background=000000&cropX1=0&cropX2=4401&cropY1=0&cropY2=4401",
+      "imageUrl": "https://specials-images.forbesimg.com/imageserve/5c76b7d331358e35dd2773a9/416x416.jpg?background=000000&cropX1=0&cropX2=4401&cropY1=0&cropY2=4401",
+      "avatarText": "MZ",
+      "color": "#f18c4f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.json",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.25,
+          "u1": 0.75,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://specials-images.forbesimg.com/imageserve/5c76b7d331358e35dd2773a9/416x416.jpg?background=000000&cropX1=0&cropX2=4401&cropY1=0&cropY2=4401",
+          "sourceStatus": "source-image",
+          "sourceProvider": "forbes"
+        }
+      }
+    },
+    {
+      "id": "jensen-huang",
+      "name": "Jensen Huang",
+      "shortName": "Jensen Huang",
+      "forbesUrl": "https://www.forbes.com/profile/jensen-huang/",
+      "sourceOfWealth": "Semiconductors",
+      "industry": "Technology",
+      "country": "United States",
+      "forbesImageUrl": "https://specials-images.forbesimg.com/imageserve/68750a2d250de42ce7c5301b/416x416.jpg?background=000000&cropX1=832&cropX2=2632&cropY1=152&cropY2=1951",
+      "thumbnailUrl": "https://specials-images.forbesimg.com/imageserve/68750a2d250de42ce7c5301b/416x416.jpg?background=000000&cropX1=832&cropX2=2632&cropY1=152&cropY2=1951",
+      "imageUrl": "https://specials-images.forbesimg.com/imageserve/68750a2d250de42ce7c5301b/416x416.jpg?background=000000&cropX1=832&cropX2=2632&cropY1=152&cropY2=1951",
+      "avatarText": "JH",
+      "color": "#d78fca",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.json",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.25,
+          "u1": 1,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://specials-images.forbesimg.com/imageserve/68750a2d250de42ce7c5301b/416x416.jpg?background=000000&cropX1=832&cropX2=2632&cropY1=152&cropY2=1951",
+          "sourceStatus": "source-image",
+          "sourceProvider": "forbes"
+        }
+      }
+    },
+    {
+      "id": "larry-ellison",
+      "name": "Larry Ellison",
+      "shortName": "Larry Ellison",
+      "forbesUrl": "https://www.forbes.com/profile/larry-ellison/",
+      "sourceOfWealth": "Oracle",
+      "industry": "Technology",
+      "country": "United States",
+      "forbesImageUrl": "https://specials-images.forbesimg.com/imageserve/5e8b62cfc095010007bffea0/416x416.jpg?background=000000&cropX1=0&cropX2=4529&cropY1=652&cropY2=5184",
+      "thumbnailUrl": "https://specials-images.forbesimg.com/imageserve/5e8b62cfc095010007bffea0/416x416.jpg?background=000000&cropX1=0&cropX2=4529&cropY1=652&cropY2=5184",
+      "imageUrl": "https://specials-images.forbesimg.com/imageserve/5e8b62cfc095010007bffea0/416x416.jpg?background=000000&cropX1=0&cropX2=4529&cropY1=652&cropY2=5184",
+      "avatarText": "LE",
+      "color": "#41a99f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.json",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.5,
+          "u1": 0.25,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://specials-images.forbesimg.com/imageserve/5e8b62cfc095010007bffea0/416x416.jpg?background=000000&cropX1=0&cropX2=4529&cropY1=652&cropY2=5184",
+          "sourceStatus": "source-image",
+          "sourceProvider": "forbes"
+        }
+      }
+    },
+    {
+      "id": "steve-ballmer",
+      "name": "Steve Ballmer",
+      "shortName": "Steve Ballmer",
+      "forbesUrl": "https://www.forbes.com/profile/steve-ballmer/",
+      "sourceOfWealth": "Microsoft",
+      "industry": "Technology",
+      "country": "United States",
+      "forbesImageUrl": "https://specials-images.forbesimg.com/imageserve/59d50c47a7ea436b47b36d66/416x416.jpg?background=000000&cropX1=553&cropX2=2940&cropY1=322&cropY2=2708",
+      "thumbnailUrl": "https://specials-images.forbesimg.com/imageserve/59d50c47a7ea436b47b36d66/416x416.jpg?background=000000&cropX1=553&cropX2=2940&cropY1=322&cropY2=2708",
+      "imageUrl": "https://specials-images.forbesimg.com/imageserve/59d50c47a7ea436b47b36d66/416x416.jpg?background=000000&cropX1=553&cropX2=2940&cropY1=322&cropY2=2708",
+      "avatarText": "SB",
+      "color": "#e34f59",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.json",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.5,
+          "u1": 0.5,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://specials-images.forbesimg.com/imageserve/59d50c47a7ea436b47b36d66/416x416.jpg?background=000000&cropX1=553&cropX2=2940&cropY1=322&cropY2=2708",
+          "sourceStatus": "source-image",
+          "sourceProvider": "forbes"
+        }
+      }
+    },
+    {
+      "id": "warren-buffett",
+      "name": "Warren Buffett",
+      "shortName": "Warren Buffett",
+      "forbesUrl": "https://www.forbes.com/profile/warren-buffett/",
+      "sourceOfWealth": "Berkshire Hathaway",
+      "industry": "Finance & Investments",
+      "country": "United States",
+      "forbesImageUrl": "https://specials-images.forbesimg.com/imageserve/5babb7f1a7ea4342a948b79a/416x416.jpg?background=000000&cropX1=748&cropX2=3075&cropY1=1753&cropY2=4082",
+      "thumbnailUrl": "https://specials-images.forbesimg.com/imageserve/5babb7f1a7ea4342a948b79a/416x416.jpg?background=000000&cropX1=748&cropX2=3075&cropY1=1753&cropY2=4082",
+      "imageUrl": "https://specials-images.forbesimg.com/imageserve/5babb7f1a7ea4342a948b79a/416x416.jpg?background=000000&cropX1=748&cropX2=3075&cropY1=1753&cropY2=4082",
+      "avatarText": "WB",
+      "color": "#2f4858",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.json",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.5,
+          "u1": 0.75,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://specials-images.forbesimg.com/imageserve/5babb7f1a7ea4342a948b79a/416x416.jpg?background=000000&cropX1=748&cropX2=3075&cropY1=1753&cropY2=4082",
+          "sourceStatus": "source-image",
+          "sourceProvider": "forbes"
+        }
+      }
+    },
+    {
+      "id": "amancio-ortega",
+      "name": "Amancio Ortega",
+      "shortName": "Amancio Ortega",
+      "forbesUrl": "https://www.forbes.com/profile/amancio-ortega/",
+      "sourceOfWealth": "Zara",
+      "industry": "Fashion & Retail",
+      "country": "Spain",
+      "forbesImageUrl": "https://specials-images.forbesimg.com/imageserve/5c76b94131358e35dd27748e/416x416.jpg?background=000000&cropX1=179&cropX2=2232&cropY1=216&cropY2=2269",
+      "thumbnailUrl": "https://specials-images.forbesimg.com/imageserve/5c76b94131358e35dd27748e/416x416.jpg?background=000000&cropX1=179&cropX2=2232&cropY1=216&cropY2=2269",
+      "imageUrl": "https://specials-images.forbesimg.com/imageserve/5c76b94131358e35dd27748e/416x416.jpg?background=000000&cropX1=179&cropX2=2232&cropY1=216&cropY2=2269",
+      "avatarText": "AO",
+      "color": "#ef426f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.json",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.5,
+          "u1": 1,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://specials-images.forbesimg.com/imageserve/5c76b94131358e35dd27748e/416x416.jpg?background=000000&cropX1=179&cropX2=2232&cropY1=216&cropY2=2269",
+          "sourceStatus": "source-image",
+          "sourceProvider": "forbes"
+        }
+      }
+    },
+    {
+      "id": "rob-walton",
+      "name": "Rob Walton & family",
+      "shortName": "Rob Walton & family",
+      "forbesUrl": "https://www.forbes.com/profile/rob-walton/",
+      "sourceOfWealth": "Walmart",
+      "industry": "Fashion & Retail",
+      "country": "United States",
+      "forbesImageUrl": "https://specials-images.forbesimg.com/imageserve/59d50a9e4bbe6f37dd9ff712/416x416.jpg?background=000000&cropX1=244&cropX2=1841&cropY1=60&cropY2=1658",
+      "thumbnailUrl": "https://specials-images.forbesimg.com/imageserve/59d50a9e4bbe6f37dd9ff712/416x416.jpg?background=000000&cropX1=244&cropX2=1841&cropY1=60&cropY2=1658",
+      "imageUrl": "https://specials-images.forbesimg.com/imageserve/59d50a9e4bbe6f37dd9ff712/416x416.jpg?background=000000&cropX1=244&cropX2=1841&cropY1=60&cropY2=1658",
+      "avatarText": "RW",
+      "color": "#86bdf4",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.json",
+          "x": 0,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.75,
+          "u1": 0.25,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://specials-images.forbesimg.com/imageserve/59d50a9e4bbe6f37dd9ff712/416x416.jpg?background=000000&cropX1=244&cropX2=1841&cropY1=60&cropY2=1658",
+          "sourceStatus": "source-image",
+          "sourceProvider": "forbes"
+        }
+      }
+    },
+    {
+      "id": "jim-walton",
+      "name": "Jim Walton & family",
+      "shortName": "Jim Walton & family",
+      "forbesUrl": "https://www.forbes.com/profile/jim-walton/",
+      "sourceOfWealth": "Walmart",
+      "industry": "Fashion & Retail",
+      "country": "United States",
+      "forbesImageUrl": "https://specials-images.forbesimg.com/imageserve/5c7ef2fea7ea434b351bca5a/416x416.jpg?background=000000&cropX1=49&cropX2=934&cropY1=65&cropY2=951",
+      "thumbnailUrl": "https://specials-images.forbesimg.com/imageserve/5c7ef2fea7ea434b351bca5a/416x416.jpg?background=000000&cropX1=49&cropX2=934&cropY1=65&cropY2=951",
+      "imageUrl": "https://specials-images.forbesimg.com/imageserve/5c7ef2fea7ea434b351bca5a/416x416.jpg?background=000000&cropX1=49&cropX2=934&cropY1=65&cropY2=951",
+      "avatarText": "JW",
+      "color": "#c9a14a",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.json",
+          "x": 320,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.75,
+          "u1": 0.5,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://specials-images.forbesimg.com/imageserve/5c7ef2fea7ea434b351bca5a/416x416.jpg?background=000000&cropX1=49&cropX2=934&cropY1=65&cropY2=951",
+          "sourceStatus": "source-image",
+          "sourceProvider": "forbes"
+        }
+      }
+    },
+    {
+      "id": "alice-walton",
+      "name": "Alice Walton",
+      "shortName": "Alice Walton",
+      "forbesUrl": "https://www.forbes.com/profile/alice-walton/",
+      "sourceOfWealth": "Walmart",
+      "industry": "Fashion & Retail",
+      "country": "United States",
+      "forbesImageUrl": "https://specials-images.forbesimg.com/imageserve/5c7ef270a7ea434b351bca52/416x416.jpg?background=000000&cropX1=232&cropX2=998&cropY1=222&cropY2=988",
+      "thumbnailUrl": "https://specials-images.forbesimg.com/imageserve/5c7ef270a7ea434b351bca52/416x416.jpg?background=000000&cropX1=232&cropX2=998&cropY1=222&cropY2=988",
+      "imageUrl": "https://specials-images.forbesimg.com/imageserve/5c7ef270a7ea434b351bca52/416x416.jpg?background=000000&cropX1=232&cropX2=998&cropY1=222&cropY2=988",
+      "avatarText": "AW",
+      "color": "#ff5a61",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.json",
+          "x": 640,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.75,
+          "u1": 0.75,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://specials-images.forbesimg.com/imageserve/5c7ef270a7ea434b351bca52/416x416.jpg?background=000000&cropX1=232&cropX2=998&cropY1=222&cropY2=988",
+          "sourceStatus": "source-image",
+          "sourceProvider": "forbes"
+        }
+      }
+    },
+    {
+      "id": "carlos-slim-helu",
+      "name": "Carlos Slim Helu & family",
+      "shortName": "Carlos Slim Helu & family",
+      "forbesUrl": "https://www.forbes.com/profile/carlos-slim-helu/",
+      "sourceOfWealth": "Telecom",
+      "industry": "Telecom",
+      "country": "Mexico",
+      "forbesImageUrl": "https://specials-images.forbesimg.com/imageserve/5c76ba144bbe6f24ad99c613/416x416.jpg?background=000000&cropX1=0&cropX2=3005&cropY1=389&cropY2=3395",
+      "thumbnailUrl": "https://specials-images.forbesimg.com/imageserve/5c76ba144bbe6f24ad99c613/416x416.jpg?background=000000&cropX1=0&cropX2=3005&cropY1=389&cropY2=3395",
+      "imageUrl": "https://specials-images.forbesimg.com/imageserve/5c76ba144bbe6f24ad99c613/416x416.jpg?background=000000&cropX1=0&cropX2=3005&cropY1=389&cropY2=3395",
+      "avatarText": "CS",
+      "color": "#9aa4b2",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.json",
+          "x": 960,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.75,
+          "u1": 1,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://specials-images.forbesimg.com/imageserve/5c76ba144bbe6f24ad99c613/416x416.jpg?background=000000&cropX1=0&cropX2=3005&cropY1=389&cropY2=3395",
+          "sourceStatus": "source-image",
+          "sourceProvider": "forbes"
+        }
+      }
+    }
+  ],
+  "frames": [
+    {
+      "date": "1996",
+      "values": [
+        {
+          "id": "warren-buffett",
+          "value": 15300000000,
+          "rank": 1,
+          "netWorthBillions": 15.3,
+          "nationality": "United States",
+          "sourceOfWealth": "Berkshire Hathaway",
+          "sourceId": "warren-buffett"
+        }
+      ]
+    },
+    {
+      "date": "1997",
+      "values": [
+        {
+          "id": "warren-buffett",
+          "value": 23200000000,
+          "rank": 1,
+          "netWorthBillions": 23.2,
+          "nationality": "United States",
+          "sourceOfWealth": "Berkshire Hathaway",
+          "sourceId": "warren-buffett"
+        }
+      ]
+    },
+    {
+      "date": "1998",
+      "values": [
+        {
+          "id": "warren-buffett",
+          "value": 33000000000,
+          "rank": 1,
+          "netWorthBillions": 33,
+          "nationality": "United States",
+          "sourceOfWealth": "Berkshire Hathaway",
+          "sourceId": "warren-buffett"
+        }
+      ]
+    },
+    {
+      "date": "1999",
+      "values": [
+        {
+          "id": "warren-buffett",
+          "value": 36000000000,
+          "rank": 1,
+          "netWorthBillions": 36,
+          "nationality": "United States",
+          "sourceOfWealth": "Berkshire Hathaway",
+          "sourceId": "warren-buffett"
+        }
+      ]
+    },
+    {
+      "date": "2000",
+      "values": [
+        {
+          "id": "larry-ellison",
+          "value": 47000000000,
+          "rank": 1,
+          "netWorthBillions": 47,
+          "nationality": "United States",
+          "sourceOfWealth": "Oracle Corporation",
+          "sourceId": "larry-ellison"
+        },
+        {
+          "id": "warren-buffett",
+          "value": 25600000000,
+          "rank": 2,
+          "netWorthBillions": 25.6,
+          "nationality": "United States",
+          "sourceOfWealth": "Berkshire Hathaway",
+          "sourceId": "warren-buffett"
+        }
+      ]
+    },
+    {
+      "date": "2001",
+      "values": [
+        {
+          "id": "warren-buffett",
+          "value": 32300000000,
+          "rank": 1,
+          "netWorthBillions": 32.3,
+          "nationality": "United States",
+          "sourceOfWealth": "Berkshire Hathaway",
+          "sourceId": "warren-buffett"
+        },
+        {
+          "id": "larry-ellison",
+          "value": 26000000000,
+          "rank": 2,
+          "netWorthBillions": 26,
+          "nationality": "United States",
+          "sourceOfWealth": "Oracle Corporation",
+          "sourceId": "larry-ellison"
+        }
+      ]
+    },
+    {
+      "date": "2002",
+      "values": [
+        {
+          "id": "warren-buffett",
+          "value": 35000000000,
+          "rank": 1,
+          "netWorthBillions": 35,
+          "nationality": "United States",
+          "sourceOfWealth": "Berkshire Hathaway",
+          "sourceId": "warren-buffett"
+        },
+        {
+          "id": "larry-ellison",
+          "value": 23500000000,
+          "rank": 2,
+          "netWorthBillions": 23.5,
+          "nationality": "United States",
+          "sourceOfWealth": "Oracle Corporation",
+          "sourceId": "larry-ellison"
+        }
+      ]
+    },
+    {
+      "date": "2003",
+      "values": [
+        {
+          "id": "warren-buffett",
+          "value": 30500000000,
+          "rank": 1,
+          "netWorthBillions": 30.5,
+          "nationality": "United States",
+          "sourceOfWealth": "Berkshire Hathaway",
+          "sourceId": "warren-buffett"
+        },
+        {
+          "id": "larry-ellison",
+          "value": 16600000000,
+          "rank": 2,
+          "netWorthBillions": 16.6,
+          "nationality": "United States",
+          "sourceOfWealth": "Oracle Corporation",
+          "sourceId": "larry-ellison"
+        }
+      ]
+    },
+    {
+      "date": "2004",
+      "values": [
+        {
+          "id": "warren-buffett",
+          "value": 42900000000,
+          "rank": 1,
+          "netWorthBillions": 42.9,
+          "nationality": "United States",
+          "sourceOfWealth": "Berkshire Hathaway",
+          "sourceId": "warren-buffett"
+        }
+      ]
+    },
+    {
+      "date": "2005",
+      "values": [
+        {
+          "id": "warren-buffett",
+          "value": 44000000000,
+          "rank": 1,
+          "netWorthBillions": 44,
+          "nationality": "United States",
+          "sourceOfWealth": "Berkshire Hathaway",
+          "sourceId": "warren-buffett"
+        },
+        {
+          "id": "larry-ellison",
+          "value": 18400000000,
+          "rank": 2,
+          "netWorthBillions": 18.4,
+          "nationality": "United States",
+          "sourceOfWealth": "Oracle Corporation",
+          "sourceId": "larry-ellison"
+        }
+      ]
+    },
+    {
+      "date": "2006",
+      "values": [
+        {
+          "id": "warren-buffett",
+          "value": 42000000000,
+          "rank": 1,
+          "netWorthBillions": 42,
+          "nationality": "United States",
+          "sourceOfWealth": "Berkshire Hathaway",
+          "sourceId": "warren-buffett"
+        },
+        {
+          "id": "bernard-arnault",
+          "value": 21500000000,
+          "rank": 2,
+          "netWorthBillions": 21.5,
+          "nationality": "France",
+          "sourceOfWealth": "LVMH Moët Hennessy • Louis Vuitton",
+          "sourceId": "bernard-arnault"
+        }
+      ]
+    },
+    {
+      "date": "2007",
+      "values": [
+        {
+          "id": "warren-buffett",
+          "value": 52000000000,
+          "rank": 1,
+          "netWorthBillions": 52,
+          "nationality": "United States",
+          "sourceOfWealth": "Berkshire Hathaway",
+          "sourceId": "warren-buffett"
+        },
+        {
+          "id": "bernard-arnault",
+          "value": 26000000000,
+          "rank": 2,
+          "netWorthBillions": 26,
+          "nationality": "France",
+          "sourceOfWealth": "LVMH",
+          "sourceId": "bernard-arnault"
+        },
+        {
+          "id": "amancio-ortega",
+          "value": 24000000000,
+          "rank": 3,
+          "netWorthBillions": 24,
+          "nationality": "Spain",
+          "sourceOfWealth": "Inditex Group",
+          "sourceId": "amancio-ortega"
+        }
+      ]
+    },
+    {
+      "date": "2008",
+      "values": [
+        {
+          "id": "warren-buffett",
+          "value": 62000000000,
+          "rank": 1,
+          "netWorthBillions": 62,
+          "nationality": "United States",
+          "sourceOfWealth": "Berkshire Hathaway",
+          "sourceId": "warren-buffett"
+        }
+      ]
+    },
+    {
+      "date": "2009",
+      "values": [
+        {
+          "id": "warren-buffett",
+          "value": 37000000000,
+          "rank": 1,
+          "netWorthBillions": 37,
+          "nationality": "United States",
+          "sourceOfWealth": "Berkshire Hathaway",
+          "sourceId": "warren-buffett"
+        },
+        {
+          "id": "larry-ellison",
+          "value": 22500000000,
+          "rank": 2,
+          "netWorthBillions": 22.5,
+          "nationality": "United States",
+          "sourceOfWealth": "Oracle Corporation",
+          "sourceId": "larry-ellison"
+        },
+        {
+          "id": "amancio-ortega",
+          "value": 18300000000,
+          "rank": 3,
+          "netWorthBillions": 18.3,
+          "nationality": "Spain",
+          "sourceOfWealth": "Inditex Group",
+          "sourceId": "amancio-ortega"
+        }
+      ]
+    },
+    {
+      "date": "2010",
+      "values": [
+        {
+          "id": "warren-buffett",
+          "value": 47000000000,
+          "rank": 1,
+          "netWorthBillions": 47,
+          "nationality": "United States",
+          "sourceOfWealth": "Berkshire Hathaway",
+          "sourceId": "warren-buffett"
+        },
+        {
+          "id": "larry-ellison",
+          "value": 28000000000,
+          "rank": 2,
+          "netWorthBillions": 28,
+          "nationality": "United States",
+          "sourceOfWealth": "Oracle Corporation",
+          "sourceId": "larry-ellison"
+        },
+        {
+          "id": "bernard-arnault",
+          "value": 27500000000,
+          "rank": 3,
+          "netWorthBillions": 27.5,
+          "nationality": "France",
+          "sourceOfWealth": "LVMH Moët Hennessy • Louis Vuitton",
+          "sourceId": "bernard-arnault"
+        },
+        {
+          "id": "amancio-ortega",
+          "value": 25000000000,
+          "rank": 4,
+          "netWorthBillions": 25,
+          "nationality": "Spain",
+          "sourceOfWealth": "Inditex Group",
+          "sourceId": "amancio-ortega"
+        }
+      ]
+    },
+    {
+      "date": "2011",
+      "values": [
+        {
+          "id": "warren-buffett",
+          "value": 50000000000,
+          "rank": 1,
+          "netWorthBillions": 50,
+          "nationality": "United States",
+          "sourceOfWealth": "Berkshire Hathaway",
+          "sourceId": "warren-buffett"
+        },
+        {
+          "id": "bernard-arnault",
+          "value": 41000000000,
+          "rank": 2,
+          "netWorthBillions": 41,
+          "nationality": "France",
+          "sourceOfWealth": "LVMH Moët Hennessy • Louis Vuitton",
+          "sourceId": "bernard-arnault"
+        },
+        {
+          "id": "larry-ellison",
+          "value": 39500000000,
+          "rank": 3,
+          "netWorthBillions": 39.5,
+          "nationality": "United States",
+          "sourceOfWealth": "Oracle Corporation",
+          "sourceId": "larry-ellison"
+        },
+        {
+          "id": "amancio-ortega",
+          "value": 31000000000,
+          "rank": 4,
+          "netWorthBillions": 31,
+          "nationality": "Spain",
+          "sourceOfWealth": "Inditex Group",
+          "sourceId": "amancio-ortega"
+        }
+      ]
+    },
+    {
+      "date": "2012",
+      "values": [
+        {
+          "id": "warren-buffett",
+          "value": 44000000000,
+          "rank": 1,
+          "netWorthBillions": 44,
+          "nationality": "United States",
+          "sourceOfWealth": "Berkshire Hathaway",
+          "sourceId": "warren-buffett"
+        },
+        {
+          "id": "bernard-arnault",
+          "value": 41000000000,
+          "rank": 2,
+          "netWorthBillions": 41,
+          "nationality": "France",
+          "sourceOfWealth": "LVMH Moët Hennessy • Louis Vuitton",
+          "sourceId": "bernard-arnault"
+        },
+        {
+          "id": "amancio-ortega",
+          "value": 37500000000,
+          "rank": 3,
+          "netWorthBillions": 37.5,
+          "nationality": "Spain",
+          "sourceOfWealth": "Inditex Group",
+          "sourceId": "amancio-ortega"
+        },
+        {
+          "id": "larry-ellison",
+          "value": 36000000000,
+          "rank": 4,
+          "netWorthBillions": 36,
+          "nationality": "United States",
+          "sourceOfWealth": "Oracle Corporation",
+          "sourceId": "larry-ellison"
+        }
+      ]
+    },
+    {
+      "date": "2013",
+      "values": [
+        {
+          "id": "amancio-ortega",
+          "value": 57000000000,
+          "rank": 1,
+          "netWorthBillions": 57,
+          "nationality": "Spain",
+          "sourceOfWealth": "Inditex Group",
+          "sourceId": "amancio-ortega"
+        },
+        {
+          "id": "warren-buffett",
+          "value": 53500000000,
+          "rank": 2,
+          "netWorthBillions": 53.5,
+          "nationality": "United States",
+          "sourceOfWealth": "Berkshire Hathaway",
+          "sourceId": "warren-buffett"
+        },
+        {
+          "id": "larry-ellison",
+          "value": 43000000000,
+          "rank": 3,
+          "netWorthBillions": 43,
+          "nationality": "United States",
+          "sourceOfWealth": "Oracle Corporation",
+          "sourceId": "larry-ellison"
+        },
+        {
+          "id": "bernard-arnault",
+          "value": 29000000000,
+          "rank": 4,
+          "netWorthBillions": 29,
+          "nationality": "France",
+          "sourceOfWealth": "LVMH",
+          "sourceId": "bernard-arnault"
+        }
+      ]
+    },
+    {
+      "date": "2014",
+      "values": [
+        {
+          "id": "amancio-ortega",
+          "value": 64000000000,
+          "rank": 1,
+          "netWorthBillions": 64,
+          "nationality": "Spain",
+          "sourceOfWealth": "Inditex",
+          "sourceId": "amancio-ortega"
+        },
+        {
+          "id": "warren-buffett",
+          "value": 58200000000,
+          "rank": 2,
+          "netWorthBillions": 58.2,
+          "nationality": "United States",
+          "sourceOfWealth": "Berkshire Hathaway",
+          "sourceId": "warren-buffett"
+        },
+        {
+          "id": "larry-ellison",
+          "value": 48000000000,
+          "rank": 3,
+          "netWorthBillions": 48,
+          "nationality": "United States",
+          "sourceOfWealth": "Oracle Corporation",
+          "sourceId": "larry-ellison"
+        }
+      ]
+    },
+    {
+      "date": "2015",
+      "values": [
+        {
+          "id": "warren-buffett",
+          "value": 72700000000,
+          "rank": 1,
+          "netWorthBillions": 72.7,
+          "nationality": "United States",
+          "sourceOfWealth": "Berkshire Hathaway",
+          "sourceId": "warren-buffett"
+        },
+        {
+          "id": "amancio-ortega",
+          "value": 64500000000,
+          "rank": 2,
+          "netWorthBillions": 64.5,
+          "nationality": "Spain",
+          "sourceOfWealth": "Inditex",
+          "sourceId": "amancio-ortega"
+        },
+        {
+          "id": "larry-ellison",
+          "value": 54300000000,
+          "rank": 3,
+          "netWorthBillions": 54.3,
+          "nationality": "United States",
+          "sourceOfWealth": "Oracle Corporation",
+          "sourceId": "larry-ellison"
+        }
+      ]
+    },
+    {
+      "date": "2016",
+      "values": [
+        {
+          "id": "amancio-ortega",
+          "value": 67000000000,
+          "rank": 1,
+          "netWorthBillions": 67,
+          "nationality": "Spain",
+          "sourceOfWealth": "Inditex",
+          "sourceId": "amancio-ortega"
+        },
+        {
+          "id": "warren-buffett",
+          "value": 60800000000,
+          "rank": 2,
+          "netWorthBillions": 60.8,
+          "nationality": "United States",
+          "sourceOfWealth": "Berkshire Hathaway",
+          "sourceId": "warren-buffett"
+        },
+        {
+          "id": "jeff-bezos",
+          "value": 45200000000,
+          "rank": 3,
+          "netWorthBillions": 45.2,
+          "nationality": "United States",
+          "sourceOfWealth": "Amazon",
+          "sourceId": "jeff-bezos"
+        },
+        {
+          "id": "mark-zuckerberg",
+          "value": 44600000000,
+          "rank": 4,
+          "netWorthBillions": 44.6,
+          "nationality": "United States",
+          "sourceOfWealth": "Facebook, Inc.",
+          "sourceId": "mark-zuckerberg"
+        },
+        {
+          "id": "larry-ellison",
+          "value": 43600000000,
+          "rank": 5,
+          "netWorthBillions": 43.6,
+          "nationality": "United States",
+          "sourceOfWealth": "Oracle Corporation",
+          "sourceId": "larry-ellison"
+        }
+      ]
+    },
+    {
+      "date": "2017",
+      "values": [
+        {
+          "id": "warren-buffett",
+          "value": 75600000000,
+          "rank": 1,
+          "netWorthBillions": 75.6,
+          "nationality": "United States",
+          "sourceOfWealth": "Berkshire Hathaway",
+          "sourceId": "warren-buffett"
+        },
+        {
+          "id": "jeff-bezos",
+          "value": 72800000000,
+          "rank": 2,
+          "netWorthBillions": 72.8,
+          "nationality": "United States",
+          "sourceOfWealth": "Amazon",
+          "sourceId": "jeff-bezos"
+        },
+        {
+          "id": "amancio-ortega",
+          "value": 71300000000,
+          "rank": 3,
+          "netWorthBillions": 71.3,
+          "nationality": "Spain",
+          "sourceOfWealth": "Zara",
+          "sourceId": "amancio-ortega"
+        },
+        {
+          "id": "mark-zuckerberg",
+          "value": 56000000000,
+          "rank": 4,
+          "netWorthBillions": 56,
+          "nationality": "United States",
+          "sourceOfWealth": "Facebook, Inc.",
+          "sourceId": "mark-zuckerberg"
+        },
+        {
+          "id": "larry-ellison",
+          "value": 52200000000,
+          "rank": 5,
+          "netWorthBillions": 52.2,
+          "nationality": "United States",
+          "sourceOfWealth": "Oracle Corporation",
+          "sourceId": "larry-ellison"
+        }
+      ]
+    },
+    {
+      "date": "2018",
+      "values": [
+        {
+          "id": "jeff-bezos",
+          "value": 112000000000,
+          "rank": 1,
+          "netWorthBillions": 112,
+          "nationality": "United States",
+          "sourceOfWealth": "Amazon",
+          "sourceId": "jeff-bezos"
+        },
+        {
+          "id": "warren-buffett",
+          "value": 84000000000,
+          "rank": 2,
+          "netWorthBillions": 84,
+          "nationality": "United States",
+          "sourceOfWealth": "Berkshire Hathaway",
+          "sourceId": "warren-buffett"
+        },
+        {
+          "id": "bernard-arnault",
+          "value": 72000000000,
+          "rank": 3,
+          "netWorthBillions": 72,
+          "nationality": "France",
+          "sourceOfWealth": "LVMH",
+          "sourceId": "bernard-arnault"
+        },
+        {
+          "id": "mark-zuckerberg",
+          "value": 71000000000,
+          "rank": 4,
+          "netWorthBillions": 71,
+          "nationality": "United States",
+          "sourceOfWealth": "Facebook, Inc.",
+          "sourceId": "mark-zuckerberg"
+        },
+        {
+          "id": "amancio-ortega",
+          "value": 70000000000,
+          "rank": 5,
+          "netWorthBillions": 70,
+          "nationality": "Spain",
+          "sourceOfWealth": "Zara",
+          "sourceId": "amancio-ortega"
+        },
+        {
+          "id": "larry-ellison",
+          "value": 58500000000,
+          "rank": 6,
+          "netWorthBillions": 58.5,
+          "nationality": "United States",
+          "sourceOfWealth": "Oracle Corporation",
+          "sourceId": "larry-ellison"
+        }
+      ]
+    },
+    {
+      "date": "2019",
+      "values": [
+        {
+          "id": "jeff-bezos",
+          "value": 131000000000,
+          "rank": 1,
+          "netWorthBillions": 131,
+          "nationality": "United States",
+          "sourceOfWealth": "Amazon",
+          "sourceId": "jeff-bezos"
+        },
+        {
+          "id": "warren-buffett",
+          "value": 82500000000,
+          "rank": 2,
+          "netWorthBillions": 82.5,
+          "nationality": "United States",
+          "sourceOfWealth": "Berkshire Hathaway",
+          "sourceId": "warren-buffett"
+        },
+        {
+          "id": "bernard-arnault",
+          "value": 76000000000,
+          "rank": 3,
+          "netWorthBillions": 76,
+          "nationality": "France",
+          "sourceOfWealth": "LVMH",
+          "sourceId": "bernard-arnault"
+        },
+        {
+          "id": "amancio-ortega",
+          "value": 62700000000,
+          "rank": 4,
+          "netWorthBillions": 62.7,
+          "nationality": "Spain",
+          "sourceOfWealth": "Zara",
+          "sourceId": "amancio-ortega"
+        },
+        {
+          "id": "larry-ellison",
+          "value": 62500000000,
+          "rank": 5,
+          "netWorthBillions": 62.5,
+          "nationality": "United States",
+          "sourceOfWealth": "Oracle Corporation",
+          "sourceId": "larry-ellison"
+        },
+        {
+          "id": "mark-zuckerberg",
+          "value": 62300000000,
+          "rank": 6,
+          "netWorthBillions": 62.3,
+          "nationality": "United States",
+          "sourceOfWealth": "Facebook, Inc.",
+          "sourceId": "mark-zuckerberg"
+        },
+        {
+          "id": "larry-page",
+          "value": 50800000000,
+          "rank": 7,
+          "netWorthBillions": 50.8,
+          "nationality": "United States",
+          "sourceOfWealth": "Google",
+          "sourceId": "larry-page"
+        }
+      ]
+    },
+    {
+      "date": "2020",
+      "values": [
+        {
+          "id": "jeff-bezos",
+          "value": 113000000000,
+          "rank": 1,
+          "netWorthBillions": 113,
+          "nationality": "United States",
+          "sourceOfWealth": "Amazon",
+          "sourceId": "jeff-bezos"
+        },
+        {
+          "id": "bernard-arnault",
+          "value": 76000000000,
+          "rank": 2,
+          "netWorthBillions": 76,
+          "nationality": "France",
+          "sourceOfWealth": "LVMH",
+          "sourceId": "bernard-arnault"
+        },
+        {
+          "id": "warren-buffett",
+          "value": 67500000000,
+          "rank": 3,
+          "netWorthBillions": 67.5,
+          "nationality": "United States",
+          "sourceOfWealth": "Berkshire Hathaway",
+          "sourceId": "warren-buffett"
+        },
+        {
+          "id": "larry-ellison",
+          "value": 59000000000,
+          "rank": 4,
+          "netWorthBillions": 59,
+          "nationality": "United States",
+          "sourceOfWealth": "Oracle Corporation",
+          "sourceId": "larry-ellison"
+        },
+        {
+          "id": "amancio-ortega",
+          "value": 55100000000,
+          "rank": 5,
+          "netWorthBillions": 55.1,
+          "nationality": "Spain",
+          "sourceOfWealth": "Zara",
+          "sourceId": "amancio-ortega"
+        },
+        {
+          "id": "mark-zuckerberg",
+          "value": 54700000000,
+          "rank": 6,
+          "netWorthBillions": 54.7,
+          "nationality": "United States",
+          "sourceOfWealth": "Facebook, Inc.",
+          "sourceId": "mark-zuckerberg"
+        }
+      ]
+    },
+    {
+      "date": "2021",
+      "values": [
+        {
+          "id": "jeff-bezos",
+          "value": 177000000000,
+          "rank": 1,
+          "netWorthBillions": 177,
+          "nationality": "United States",
+          "sourceOfWealth": "Amazon",
+          "sourceId": "jeff-bezos"
+        },
+        {
+          "id": "elon-musk",
+          "value": 151000000000,
+          "rank": 2,
+          "netWorthBillions": 151,
+          "nationality": "South Africa, Canada, United States",
+          "sourceOfWealth": "SpaceX",
+          "sourceId": "elon-musk"
+        },
+        {
+          "id": "bernard-arnault",
+          "value": 150000000000,
+          "rank": 3,
+          "netWorthBillions": 150,
+          "nationality": "France",
+          "sourceOfWealth": "LVMH",
+          "sourceId": "bernard-arnault"
+        },
+        {
+          "id": "mark-zuckerberg",
+          "value": 97000000000,
+          "rank": 4,
+          "netWorthBillions": 97,
+          "nationality": "United States",
+          "sourceOfWealth": "Meta Platforms",
+          "sourceId": "mark-zuckerberg"
+        },
+        {
+          "id": "warren-buffett",
+          "value": 96000000000,
+          "rank": 5,
+          "netWorthBillions": 96,
+          "nationality": "United States",
+          "sourceOfWealth": "Berkshire Hathaway",
+          "sourceId": "warren-buffett"
+        },
+        {
+          "id": "larry-ellison",
+          "value": 93000000000,
+          "rank": 6,
+          "netWorthBillions": 93,
+          "nationality": "United States",
+          "sourceOfWealth": "Oracle Corporation",
+          "sourceId": "larry-ellison"
+        },
+        {
+          "id": "larry-page",
+          "value": 91500000000,
+          "rank": 7,
+          "netWorthBillions": 91.5,
+          "nationality": "United States",
+          "sourceOfWealth": "Google",
+          "sourceId": "larry-page"
+        },
+        {
+          "id": "sergey-brin",
+          "value": 89000000000,
+          "rank": 8,
+          "netWorthBillions": 89,
+          "nationality": "United States",
+          "sourceOfWealth": "Google",
+          "sourceId": "sergey-brin"
+        }
+      ]
+    },
+    {
+      "date": "2022",
+      "values": [
+        {
+          "id": "elon-musk",
+          "value": 219000000000,
+          "rank": 1,
+          "netWorthBillions": 219,
+          "nationality": "South Africa, Canada, United States",
+          "sourceOfWealth": "SpaceX",
+          "sourceId": "elon-musk"
+        },
+        {
+          "id": "jeff-bezos",
+          "value": 177000000000,
+          "rank": 2,
+          "netWorthBillions": 177,
+          "nationality": "United States",
+          "sourceOfWealth": "Amazon",
+          "sourceId": "jeff-bezos"
+        },
+        {
+          "id": "bernard-arnault",
+          "value": 158000000000,
+          "rank": 3,
+          "netWorthBillions": 158,
+          "nationality": "France",
+          "sourceOfWealth": "LVMH",
+          "sourceId": "bernard-arnault"
+        },
+        {
+          "id": "warren-buffett",
+          "value": 118000000000,
+          "rank": 4,
+          "netWorthBillions": 118,
+          "nationality": "United States",
+          "sourceOfWealth": "Berkshire Hathaway",
+          "sourceId": "warren-buffett"
+        },
+        {
+          "id": "larry-page",
+          "value": 111000000000,
+          "rank": 5,
+          "netWorthBillions": 111,
+          "nationality": "United States",
+          "sourceOfWealth": "Google",
+          "sourceId": "larry-page"
+        },
+        {
+          "id": "sergey-brin",
+          "value": 107000000000,
+          "rank": 6,
+          "netWorthBillions": 107,
+          "nationality": "United States",
+          "sourceOfWealth": "Google",
+          "sourceId": "sergey-brin"
+        },
+        {
+          "id": "larry-ellison",
+          "value": 106000000000,
+          "rank": 7,
+          "netWorthBillions": 106,
+          "nationality": "United States",
+          "sourceOfWealth": "Oracle Corporation",
+          "sourceId": "larry-ellison"
+        }
+      ]
+    },
+    {
+      "date": "2023",
+      "values": [
+        {
+          "id": "bernard-arnault",
+          "value": 211000000000,
+          "rank": 1,
+          "netWorthBillions": 211,
+          "nationality": "France",
+          "sourceOfWealth": "LVMH",
+          "sourceId": "bernard-arnault"
+        },
+        {
+          "id": "elon-musk",
+          "value": 180000000000,
+          "rank": 2,
+          "netWorthBillions": 180,
+          "nationality": "South Africa, Canada, United States",
+          "sourceOfWealth": "SpaceX",
+          "sourceId": "elon-musk"
+        },
+        {
+          "id": "jeff-bezos",
+          "value": 114000000000,
+          "rank": 3,
+          "netWorthBillions": 114,
+          "nationality": "United States",
+          "sourceOfWealth": "Amazon",
+          "sourceId": "jeff-bezos"
+        },
+        {
+          "id": "larry-ellison",
+          "value": 107000000000,
+          "rank": 4,
+          "netWorthBillions": 107,
+          "nationality": "United States",
+          "sourceOfWealth": "Oracle Corporation",
+          "sourceId": "larry-ellison"
+        },
+        {
+          "id": "warren-buffett",
+          "value": 106000000000,
+          "rank": 5,
+          "netWorthBillions": 106,
+          "nationality": "United States",
+          "sourceOfWealth": "Berkshire Hathaway",
+          "sourceId": "warren-buffett"
+        }
+      ]
+    },
+    {
+      "date": "2024",
+      "values": [
+        {
+          "id": "bernard-arnault",
+          "value": 233000000000,
+          "rank": 1,
+          "netWorthBillions": 233,
+          "nationality": "France",
+          "sourceOfWealth": "LVMH",
+          "sourceId": "bernard-arnault"
+        },
+        {
+          "id": "elon-musk",
+          "value": 195000000000,
+          "rank": 2,
+          "netWorthBillions": 195,
+          "nationality": "South Africa, Canada, United States",
+          "sourceOfWealth": "SpaceX",
+          "sourceId": "elon-musk"
+        },
+        {
+          "id": "jeff-bezos",
+          "value": 194000000000,
+          "rank": 3,
+          "netWorthBillions": 194,
+          "nationality": "United States",
+          "sourceOfWealth": "Amazon",
+          "sourceId": "jeff-bezos"
+        },
+        {
+          "id": "mark-zuckerberg",
+          "value": 177000000000,
+          "rank": 4,
+          "netWorthBillions": 177,
+          "nationality": "United States",
+          "sourceOfWealth": "Meta Platforms",
+          "sourceId": "mark-zuckerberg"
+        },
+        {
+          "id": "larry-ellison",
+          "value": 141000000000,
+          "rank": 5,
+          "netWorthBillions": 141,
+          "nationality": "United States",
+          "sourceOfWealth": "Oracle Corporation",
+          "sourceId": "larry-ellison"
+        },
+        {
+          "id": "warren-buffett",
+          "value": 133000000000,
+          "rank": 6,
+          "netWorthBillions": 133,
+          "nationality": "United States",
+          "sourceOfWealth": "Berkshire Hathaway",
+          "sourceId": "warren-buffett"
+        },
+        {
+          "id": "larry-page",
+          "value": 114000000000,
+          "rank": 7,
+          "netWorthBillions": 114,
+          "nationality": "United States",
+          "sourceOfWealth": "Google",
+          "sourceId": "larry-page"
+        }
+      ]
+    },
+    {
+      "date": "2025",
+      "values": [
+        {
+          "id": "elon-musk",
+          "value": 342000000000,
+          "rank": 1,
+          "netWorthBillions": 342,
+          "nationality": "South Africa, Canada, United States",
+          "sourceOfWealth": "SpaceX",
+          "sourceId": "elon-musk"
+        },
+        {
+          "id": "mark-zuckerberg",
+          "value": 216000000000,
+          "rank": 2,
+          "netWorthBillions": 216,
+          "nationality": "United States",
+          "sourceOfWealth": "Meta Platforms",
+          "sourceId": "mark-zuckerberg"
+        },
+        {
+          "id": "jeff-bezos",
+          "value": 215000000000,
+          "rank": 3,
+          "netWorthBillions": 215,
+          "nationality": "United States",
+          "sourceOfWealth": "Amazon",
+          "sourceId": "jeff-bezos"
+        },
+        {
+          "id": "larry-ellison",
+          "value": 192000000000,
+          "rank": 4,
+          "netWorthBillions": 192,
+          "nationality": "United States",
+          "sourceOfWealth": "Oracle Corporation",
+          "sourceId": "larry-ellison"
+        },
+        {
+          "id": "bernard-arnault",
+          "value": 178000000000,
+          "rank": 5,
+          "netWorthBillions": 178,
+          "nationality": "France",
+          "sourceOfWealth": "LVMH",
+          "sourceId": "bernard-arnault"
+        },
+        {
+          "id": "warren-buffett",
+          "value": 154000000000,
+          "rank": 6,
+          "netWorthBillions": 154,
+          "nationality": "United States",
+          "sourceOfWealth": "Berkshire Hathaway",
+          "sourceId": "warren-buffett"
+        },
+        {
+          "id": "larry-page",
+          "value": 144000000000,
+          "rank": 7,
+          "netWorthBillions": 144,
+          "nationality": "United States",
+          "sourceOfWealth": "Google",
+          "sourceId": "larry-page"
+        },
+        {
+          "id": "sergey-brin",
+          "value": 138000000000,
+          "rank": 8,
+          "netWorthBillions": 138,
+          "nationality": "United States",
+          "sourceOfWealth": "Google",
+          "sourceId": "sergey-brin"
+        },
+        {
+          "id": "amancio-ortega",
+          "value": 124000000000,
+          "rank": 9,
+          "netWorthBillions": 124,
+          "nationality": "Spain",
+          "sourceOfWealth": "Inditex",
+          "sourceId": "amancio-ortega"
+        }
+      ]
+    },
+    {
+      "date": "2026",
+      "values": [
+        {
+          "id": "elon-musk",
+          "value": 839000000000,
+          "rank": 1,
+          "netWorthBillions": 839,
+          "nationality": "United States",
+          "sourceOfWealth": "SpaceX",
+          "sourceId": "elon-musk"
+        },
+        {
+          "id": "larry-page",
+          "value": 257000000000,
+          "rank": 2,
+          "netWorthBillions": 257,
+          "nationality": "United States",
+          "sourceOfWealth": "Google",
+          "sourceId": "larry-page"
+        },
+        {
+          "id": "sergey-brin",
+          "value": 237000000000,
+          "rank": 3,
+          "netWorthBillions": 237,
+          "nationality": "United States",
+          "sourceOfWealth": "Google",
+          "sourceId": "sergey-brin"
+        },
+        {
+          "id": "jeff-bezos",
+          "value": 224000000000,
+          "rank": 4,
+          "netWorthBillions": 224,
+          "nationality": "United States",
+          "sourceOfWealth": "Amazon",
+          "sourceId": "jeff-bezos"
+        },
+        {
+          "id": "mark-zuckerberg",
+          "value": 222000000000,
+          "rank": 5,
+          "netWorthBillions": 222,
+          "nationality": "United States",
+          "sourceOfWealth": "Meta Platforms",
+          "sourceId": "mark-zuckerberg"
+        },
+        {
+          "id": "larry-ellison",
+          "value": 190000000000,
+          "rank": 6,
+          "netWorthBillions": 190,
+          "nationality": "United States",
+          "sourceOfWealth": "Oracle Corporation",
+          "sourceId": "larry-ellison"
+        },
+        {
+          "id": "bernard-arnault",
+          "value": 171000000000,
+          "rank": 7,
+          "netWorthBillions": 171,
+          "nationality": "FRA",
+          "sourceOfWealth": "LVMH",
+          "sourceId": "bernard-arnault"
+        },
+        {
+          "id": "jensen-huang",
+          "value": 154000000000,
+          "rank": 8,
+          "netWorthBillions": 154,
+          "nationality": "TWN, United States",
+          "sourceOfWealth": "Nvidia",
+          "sourceId": "jensen-huang"
+        },
+        {
+          "id": "warren-buffett",
+          "value": 149000000000,
+          "rank": 9,
+          "netWorthBillions": 149,
+          "nationality": "United States",
+          "sourceOfWealth": "Berkshire Hathaway",
+          "sourceId": "warren-buffett"
+        },
+        {
+          "id": "amancio-ortega",
+          "value": 148000000000,
+          "rank": 10,
+          "netWorthBillions": 148,
+          "nationality": "ESP",
+          "sourceOfWealth": "Inditex",
+          "sourceId": "amancio-ortega"
+        }
+      ]
+    },
+    {
+      "date": "20260819",
+      "values": [
+        {
+          "id": "elon-musk",
+          "value": 879198154000,
+          "rank": 1,
+          "previousValue": 894946124387,
+          "netWorthChange24h": -15747970387,
+          "sourceOfWealth": "Tesla, SpaceX",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "larry-page",
+          "value": 281431021000,
+          "rank": 2,
+          "previousValue": 281419517898,
+          "netWorthChange24h": 11503102,
+          "sourceOfWealth": "Google",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "jeff-bezos",
+          "value": 267366909000,
+          "rank": 3,
+          "previousValue": 269007804620,
+          "netWorthChange24h": -1640895620,
+          "sourceOfWealth": "Amazon",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "sergey-brin",
+          "value": 259620139000,
+          "rank": 4,
+          "previousValue": 259609490544,
+          "netWorthChange24h": 10648456,
+          "sourceOfWealth": "Google",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "michael-dell",
+          "value": 246138606000,
+          "rank": 5,
+          "previousValue": 251714224181,
+          "netWorthChange24h": -5575618181,
+          "sourceOfWealth": "Dell Technologies",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "jensen-huang",
+          "value": 189755423000,
+          "rank": 6,
+          "previousValue": 194238125900,
+          "netWorthChange24h": -4482702900,
+          "sourceOfWealth": "Semiconductors",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "mark-zuckerberg",
+          "value": 186865185000,
+          "rank": 7,
+          "previousValue": 195443562952,
+          "netWorthChange24h": -8578377952,
+          "sourceOfWealth": "Facebook",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "larry-ellison",
+          "value": 184312950000,
+          "rank": 8,
+          "previousValue": 188513536570,
+          "netWorthChange24h": -4200586570,
+          "sourceOfWealth": "Oracle",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "steve-ballmer",
+          "value": 148813260000,
+          "rank": 9,
+          "previousValue": 148489653100,
+          "netWorthChange24h": 323606900,
+          "sourceOfWealth": "Microsoft",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "amancio-ortega",
+          "value": 145752019000,
+          "rank": 10,
+          "previousValue": 144255454623,
+          "netWorthChange24h": 1496564377,
+          "sourceOfWealth": "Zara",
+          "industry": "Fashion & Retail",
+          "country": "Spain"
+        },
+        {
+          "id": "warren-buffett",
+          "value": 142751428000,
+          "rank": 11,
+          "previousValue": 141584024943,
+          "netWorthChange24h": 1167403057,
+          "sourceOfWealth": "Berkshire Hathaway",
+          "industry": "Finance & Investments",
+          "country": "United States"
+        },
+        {
+          "id": "bernard-arnault",
+          "value": 139602376000,
+          "rank": 12,
+          "previousValue": 139090860063,
+          "netWorthChange24h": 511515937,
+          "sourceOfWealth": "LVMH",
+          "industry": "Fashion & Retail",
+          "country": "France"
+        },
+        {
+          "id": "rob-walton",
+          "value": 136410339000,
+          "rank": 13,
+          "previousValue": 135624174779,
+          "netWorthChange24h": 786164221,
+          "sourceOfWealth": "Walmart",
+          "industry": "Fashion & Retail",
+          "country": "United States"
+        },
+        {
+          "id": "jim-walton",
+          "value": 135656328000.00002,
+          "rank": 14,
+          "previousValue": 134871993882.00002,
+          "netWorthChange24h": 784334118,
+          "sourceOfWealth": "Walmart",
+          "industry": "Fashion & Retail",
+          "country": "United States"
+        },
+        {
+          "id": "alice-walton",
+          "value": 125308698000,
+          "rank": 15,
+          "previousValue": 124542787081,
+          "netWorthChange24h": 765910919,
+          "sourceOfWealth": "Walmart",
+          "industry": "Fashion & Retail",
+          "country": "United States"
+        },
+        {
+          "id": "carlos-slim-helu",
+          "value": 123160732000,
+          "rank": 16,
+          "previousValue": 122801507255,
+          "netWorthChange24h": 359224745,
+          "sourceOfWealth": "Telecom",
+          "industry": "Telecom",
+          "country": "Mexico"
+        }
+      ]
+    },
+    {
+      "date": "20260820",
+      "values": [
+        {
+          "id": "elon-musk",
+          "value": 865955949000,
+          "rank": 1,
+          "previousValue": 879198153759,
+          "netWorthChange24h": -13242204759,
+          "sourceOfWealth": "Tesla, SpaceX",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "larry-page",
+          "value": 281798471000,
+          "rank": 2,
+          "previousValue": 281431020946,
+          "netWorthChange24h": 367450054,
+          "sourceOfWealth": "Google",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "jeff-bezos",
+          "value": 273004180000,
+          "rank": 3,
+          "previousValue": 267366908899.99997,
+          "netWorthChange24h": 5637271100.0000305,
+          "sourceOfWealth": "Amazon",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "sergey-brin",
+          "value": 259957970000,
+          "rank": 4,
+          "previousValue": 259620139140,
+          "netWorthChange24h": 337830860,
+          "sourceOfWealth": "Google",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "michael-dell",
+          "value": 233756968000,
+          "rank": 5,
+          "previousValue": 246138606240,
+          "netWorthChange24h": -12381638240,
+          "sourceOfWealth": "Dell Technologies",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "jensen-huang",
+          "value": 187901098000,
+          "rank": 6,
+          "previousValue": 189755422705,
+          "netWorthChange24h": -1854324705,
+          "sourceOfWealth": "Semiconductors",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "mark-zuckerberg",
+          "value": 187665382000,
+          "rank": 7,
+          "previousValue": 186865185107,
+          "netWorthChange24h": 800196893,
+          "sourceOfWealth": "Facebook",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "larry-ellison",
+          "value": 185937798000,
+          "rank": 8,
+          "previousValue": 184312950308,
+          "netWorthChange24h": 1624847692,
+          "sourceOfWealth": "Oracle",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "steve-ballmer",
+          "value": 149490812000,
+          "rank": 9,
+          "previousValue": 148813260140,
+          "netWorthChange24h": 677551860,
+          "sourceOfWealth": "Microsoft",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "amancio-ortega",
+          "value": 148289771000,
+          "rank": 10,
+          "previousValue": 145684869262,
+          "netWorthChange24h": 2604901738,
+          "sourceOfWealth": "Zara",
+          "industry": "Fashion & Retail",
+          "country": "Spain"
+        },
+        {
+          "id": "warren-buffett",
+          "value": 142105590000,
+          "rank": 11,
+          "previousValue": 142751428440,
+          "netWorthChange24h": -645838440,
+          "sourceOfWealth": "Berkshire Hathaway",
+          "industry": "Finance & Investments",
+          "country": "United States"
+        },
+        {
+          "id": "bernard-arnault",
+          "value": 141904986000,
+          "rank": 12,
+          "previousValue": 139538198853,
+          "netWorthChange24h": 2366787147,
+          "sourceOfWealth": "LVMH",
+          "industry": "Fashion & Retail",
+          "country": "France"
+        },
+        {
+          "id": "rob-walton",
+          "value": 135597065999.99998,
+          "rank": 13,
+          "previousValue": 136410338904,
+          "netWorthChange24h": -813272904.0000153,
+          "sourceOfWealth": "Walmart",
+          "industry": "Fashion & Retail",
+          "country": "United States"
+        },
+        {
+          "id": "jim-walton",
+          "value": 134844948000,
+          "rank": 14,
+          "previousValue": 135656328397,
+          "netWorthChange24h": -811380397,
+          "sourceOfWealth": "Walmart",
+          "industry": "Fashion & Retail",
+          "country": "United States"
+        },
+        {
+          "id": "alice-walton",
+          "value": 124516376000,
+          "rank": 15,
+          "previousValue": 125308698260,
+          "netWorthChange24h": -792322260,
+          "sourceOfWealth": "Walmart",
+          "industry": "Fashion & Retail",
+          "country": "United States"
+        },
+        {
+          "id": "carlos-slim-helu",
+          "value": 123214540000,
+          "rank": 16,
+          "previousValue": 123107606523,
+          "netWorthChange24h": 106933477,
+          "sourceOfWealth": "Telecom",
+          "industry": "Telecom",
+          "country": "Mexico"
+        }
+      ]
+    },
+    {
+      "date": "20260821",
+      "values": [
+        {
+          "id": "elon-musk",
+          "value": 834678098000,
+          "rank": 1,
+          "previousValue": 865955948752,
+          "netWorthChange24h": -31277850752,
+          "sourceOfWealth": "Tesla, SpaceX",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "larry-page",
+          "value": 278846992000,
+          "rank": 2,
+          "previousValue": 281798470530,
+          "netWorthChange24h": -2951478530,
+          "sourceOfWealth": "Google",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "jeff-bezos",
+          "value": 267949162000,
+          "rank": 3,
+          "previousValue": 273004179680,
+          "netWorthChange24h": -5055017680,
+          "sourceOfWealth": "Amazon",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "sergey-brin",
+          "value": 257244452000,
+          "rank": 4,
+          "previousValue": 259957969608,
+          "netWorthChange24h": -2713517608,
+          "sourceOfWealth": "Google",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "michael-dell",
+          "value": 233227623000,
+          "rank": 5,
+          "previousValue": 233756968158,
+          "netWorthChange24h": -529345158,
+          "sourceOfWealth": "Dell Technologies",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "mark-zuckerberg",
+          "value": 187597568000,
+          "rank": 6,
+          "previousValue": 187665381618,
+          "netWorthChange24h": -67813618,
+          "sourceOfWealth": "Facebook",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "jensen-huang",
+          "value": 187297166000,
+          "rank": 7,
+          "previousValue": 187901097664,
+          "netWorthChange24h": -603931664,
+          "sourceOfWealth": "Semiconductors",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "larry-ellison",
+          "value": 183576448000,
+          "rank": 8,
+          "previousValue": 185937798444,
+          "netWorthChange24h": -2361350444,
+          "sourceOfWealth": "Oracle",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "steve-ballmer",
+          "value": 148691908000,
+          "rank": 9,
+          "previousValue": 149490812380,
+          "netWorthChange24h": -798904380,
+          "sourceOfWealth": "Microsoft",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "amancio-ortega",
+          "value": 147816139000,
+          "rank": 10,
+          "previousValue": 149321819804,
+          "netWorthChange24h": -1505680804,
+          "sourceOfWealth": "Zara",
+          "industry": "Fashion & Retail",
+          "country": "Spain"
+        },
+        {
+          "id": "warren-buffett",
+          "value": 141056811000,
+          "rank": 11,
+          "previousValue": 142105589858,
+          "netWorthChange24h": -1048778858,
+          "sourceOfWealth": "Berkshire Hathaway",
+          "industry": "Finance & Investments",
+          "country": "United States"
+        },
+        {
+          "id": "bernard-arnault",
+          "value": 139132814000,
+          "rank": 12,
+          "previousValue": 142890571290,
+          "netWorthChange24h": -3757757290,
+          "sourceOfWealth": "LVMH",
+          "industry": "Fashion & Retail",
+          "country": "France"
+        },
+        {
+          "id": "rob-walton",
+          "value": 126145023000,
+          "rank": 13,
+          "previousValue": 135597065672,
+          "netWorthChange24h": -9452042672,
+          "sourceOfWealth": "Walmart",
+          "industry": "Fashion & Retail",
+          "country": "United States"
+        },
+        {
+          "id": "jim-walton",
+          "value": 125414903000,
+          "rank": 14,
+          "previousValue": 134844947863.99998,
+          "netWorthChange24h": -9430044863.999985,
+          "sourceOfWealth": "Walmart",
+          "industry": "Fashion & Retail",
+          "country": "United States"
+        },
+        {
+          "id": "carlos-slim-helu",
+          "value": 122733140000,
+          "rank": 15,
+          "previousValue": 123541652727,
+          "netWorthChange24h": -808512727,
+          "sourceOfWealth": "Telecom",
+          "industry": "Telecom",
+          "country": "Mexico"
+        },
+        {
+          "id": "alice-walton",
+          "value": 115307835000,
+          "rank": 16,
+          "previousValue": 124516376351,
+          "netWorthChange24h": -9208541351,
+          "sourceOfWealth": "Walmart",
+          "industry": "Fashion & Retail",
+          "country": "United States"
+        }
+      ]
+    },
+    {
+      "date": "20260822",
+      "values": [
+        {
+          "id": "elon-musk",
+          "value": 856888377000,
+          "rank": 1,
+          "previousValue": 856888376894,
+          "netWorthChange24h": 106,
+          "sourceOfWealth": "Tesla, SpaceX",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "larry-page",
+          "value": 281857085000,
+          "rank": 2,
+          "previousValue": 281857085307,
+          "netWorthChange24h": -307,
+          "sourceOfWealth": "Google",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "jeff-bezos",
+          "value": 266643503000.00003,
+          "rank": 3,
+          "previousValue": 266643503260.00003,
+          "netWorthChange24h": -260,
+          "sourceOfWealth": "Amazon",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "sergey-brin",
+          "value": 260011866000,
+          "rank": 4,
+          "previousValue": 260011866360,
+          "netWorthChange24h": -360,
+          "sourceOfWealth": "Google",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "michael-dell",
+          "value": 236190632000,
+          "rank": 5,
+          "previousValue": 236190631623,
+          "netWorthChange24h": 377,
+          "sourceOfWealth": "Dell Technologies",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "larry-ellison",
+          "value": 189022132000,
+          "rank": 6,
+          "previousValue": 189022132160,
+          "netWorthChange24h": -160,
+          "sourceOfWealth": "Oracle",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "mark-zuckerberg",
+          "value": 188977568000,
+          "rank": 7,
+          "previousValue": 188977568268,
+          "netWorthChange24h": -268,
+          "sourceOfWealth": "Facebook",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "jensen-huang",
+          "value": 185485371000,
+          "rank": 8,
+          "previousValue": 185485371463,
+          "netWorthChange24h": -463,
+          "sourceOfWealth": "Semiconductors",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "amancio-ortega",
+          "value": 149323239000,
+          "rank": 9,
+          "previousValue": 149323238939,
+          "netWorthChange24h": 61,
+          "sourceOfWealth": "Zara",
+          "industry": "Fashion & Retail",
+          "country": "Spain"
+        },
+        {
+          "id": "steve-ballmer",
+          "value": 149220297000,
+          "rank": 10,
+          "previousValue": 149220297120,
+          "netWorthChange24h": -120,
+          "sourceOfWealth": "Microsoft",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "bernard-arnault",
+          "value": 141984185000,
+          "rank": 11,
+          "previousValue": 141984185420,
+          "netWorthChange24h": -420,
+          "sourceOfWealth": "LVMH",
+          "industry": "Fashion & Retail",
+          "country": "France"
+        },
+        {
+          "id": "warren-buffett",
+          "value": 140849691000,
+          "rank": 12,
+          "previousValue": 140849691143,
+          "netWorthChange24h": -143,
+          "sourceOfWealth": "Berkshire Hathaway",
+          "industry": "Finance & Investments",
+          "country": "United States"
+        },
+        {
+          "id": "rob-walton",
+          "value": 126018514000,
+          "rank": 13,
+          "previousValue": 126018514266,
+          "netWorthChange24h": -266,
+          "sourceOfWealth": "Walmart",
+          "industry": "Fashion & Retail",
+          "country": "United States"
+        },
+        {
+          "id": "jim-walton",
+          "value": 125288688000,
+          "rank": 14,
+          "previousValue": 125288688248,
+          "netWorthChange24h": -248,
+          "sourceOfWealth": "Walmart",
+          "industry": "Fashion & Retail",
+          "country": "United States"
+        },
+        {
+          "id": "carlos-slim-helu",
+          "value": 124351774000,
+          "rank": 15,
+          "previousValue": 124351774275,
+          "netWorthChange24h": -275,
+          "sourceOfWealth": "Telecom",
+          "industry": "Telecom",
+          "country": "Mexico"
+        },
+        {
+          "id": "alice-walton",
+          "value": 115184585000,
+          "rank": 16,
+          "previousValue": 115184584975,
+          "netWorthChange24h": 25,
+          "sourceOfWealth": "Walmart",
+          "industry": "Fashion & Retail",
+          "country": "United States"
+        }
+      ]
+    },
+    {
+      "date": "20260823",
+      "values": [
+        {
+          "id": "elon-musk",
+          "value": 856888377000,
+          "rank": 1,
+          "previousValue": 856888376894,
+          "netWorthChange24h": 106,
+          "sourceOfWealth": "Tesla, SpaceX",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "larry-page",
+          "value": 281857085000,
+          "rank": 2,
+          "previousValue": 281857085307,
+          "netWorthChange24h": -307,
+          "sourceOfWealth": "Google",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "jeff-bezos",
+          "value": 266643503000.00003,
+          "rank": 3,
+          "previousValue": 266643503260.00003,
+          "netWorthChange24h": -260,
+          "sourceOfWealth": "Amazon",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "sergey-brin",
+          "value": 260011866000,
+          "rank": 4,
+          "previousValue": 260011866360,
+          "netWorthChange24h": -360,
+          "sourceOfWealth": "Google",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "michael-dell",
+          "value": 236190632000,
+          "rank": 5,
+          "previousValue": 236190631623,
+          "netWorthChange24h": 377,
+          "sourceOfWealth": "Dell Technologies",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "larry-ellison",
+          "value": 189022132000,
+          "rank": 6,
+          "previousValue": 189022132160,
+          "netWorthChange24h": -160,
+          "sourceOfWealth": "Oracle",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "mark-zuckerberg",
+          "value": 188977568000,
+          "rank": 7,
+          "previousValue": 188977568268,
+          "netWorthChange24h": -268,
+          "sourceOfWealth": "Facebook",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "jensen-huang",
+          "value": 185485371000,
+          "rank": 8,
+          "previousValue": 185485371463,
+          "netWorthChange24h": -463,
+          "sourceOfWealth": "Semiconductors",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "amancio-ortega",
+          "value": 149323239000,
+          "rank": 9,
+          "previousValue": 149323238939,
+          "netWorthChange24h": 61,
+          "sourceOfWealth": "Zara",
+          "industry": "Fashion & Retail",
+          "country": "Spain"
+        },
+        {
+          "id": "steve-ballmer",
+          "value": 149220297000,
+          "rank": 10,
+          "previousValue": 149220297120,
+          "netWorthChange24h": -120,
+          "sourceOfWealth": "Microsoft",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "bernard-arnault",
+          "value": 141984185000,
+          "rank": 11,
+          "previousValue": 141984185420,
+          "netWorthChange24h": -420,
+          "sourceOfWealth": "LVMH",
+          "industry": "Fashion & Retail",
+          "country": "France"
+        },
+        {
+          "id": "warren-buffett",
+          "value": 140849691000,
+          "rank": 12,
+          "previousValue": 140849691143,
+          "netWorthChange24h": -143,
+          "sourceOfWealth": "Berkshire Hathaway",
+          "industry": "Finance & Investments",
+          "country": "United States"
+        },
+        {
+          "id": "rob-walton",
+          "value": 126018514000,
+          "rank": 13,
+          "previousValue": 126018514266,
+          "netWorthChange24h": -266,
+          "sourceOfWealth": "Walmart",
+          "industry": "Fashion & Retail",
+          "country": "United States"
+        },
+        {
+          "id": "jim-walton",
+          "value": 125288688000,
+          "rank": 14,
+          "previousValue": 125288688248,
+          "netWorthChange24h": -248,
+          "sourceOfWealth": "Walmart",
+          "industry": "Fashion & Retail",
+          "country": "United States"
+        },
+        {
+          "id": "carlos-slim-helu",
+          "value": 124351774000,
+          "rank": 15,
+          "previousValue": 124351774275,
+          "netWorthChange24h": -275,
+          "sourceOfWealth": "Telecom",
+          "industry": "Telecom",
+          "country": "Mexico"
+        },
+        {
+          "id": "alice-walton",
+          "value": 115184585000,
+          "rank": 16,
+          "previousValue": 115184584975,
+          "netWorthChange24h": 25,
+          "sourceOfWealth": "Walmart",
+          "industry": "Fashion & Retail",
+          "country": "United States"
+        }
+      ]
+    },
+    {
+      "date": "20260824",
+      "values": [
+        {
+          "id": "elon-musk",
+          "value": 856888377000,
+          "rank": 1,
+          "previousValue": 856888376894,
+          "netWorthChange24h": 106,
+          "sourceOfWealth": "Tesla, SpaceX",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "larry-page",
+          "value": 281857085000,
+          "rank": 2,
+          "previousValue": 281857085307,
+          "netWorthChange24h": -307,
+          "sourceOfWealth": "Google",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "jeff-bezos",
+          "value": 266643503000.00003,
+          "rank": 3,
+          "previousValue": 266643503260.00003,
+          "netWorthChange24h": -260,
+          "sourceOfWealth": "Amazon",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "sergey-brin",
+          "value": 260011866000,
+          "rank": 4,
+          "previousValue": 260011866360,
+          "netWorthChange24h": -360,
+          "sourceOfWealth": "Google",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "michael-dell",
+          "value": 236190632000,
+          "rank": 5,
+          "previousValue": 236190631623,
+          "netWorthChange24h": 377,
+          "sourceOfWealth": "Dell Technologies",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "larry-ellison",
+          "value": 189022132000,
+          "rank": 6,
+          "previousValue": 189022132160,
+          "netWorthChange24h": -160,
+          "sourceOfWealth": "Oracle",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "mark-zuckerberg",
+          "value": 188977568000,
+          "rank": 7,
+          "previousValue": 188977568268,
+          "netWorthChange24h": -268,
+          "sourceOfWealth": "Facebook",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "jensen-huang",
+          "value": 185485371000,
+          "rank": 8,
+          "previousValue": 185485371463,
+          "netWorthChange24h": -463,
+          "sourceOfWealth": "Semiconductors",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "amancio-ortega",
+          "value": 149323239000,
+          "rank": 9,
+          "previousValue": 149323238939,
+          "netWorthChange24h": 61,
+          "sourceOfWealth": "Zara",
+          "industry": "Fashion & Retail",
+          "country": "Spain"
+        },
+        {
+          "id": "steve-ballmer",
+          "value": 149220297000,
+          "rank": 10,
+          "previousValue": 149220297120,
+          "netWorthChange24h": -120,
+          "sourceOfWealth": "Microsoft",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "bernard-arnault",
+          "value": 141984185000,
+          "rank": 11,
+          "previousValue": 141984185420,
+          "netWorthChange24h": -420,
+          "sourceOfWealth": "LVMH",
+          "industry": "Fashion & Retail",
+          "country": "France"
+        },
+        {
+          "id": "warren-buffett",
+          "value": 140849691000,
+          "rank": 12,
+          "previousValue": 140849691143,
+          "netWorthChange24h": -143,
+          "sourceOfWealth": "Berkshire Hathaway",
+          "industry": "Finance & Investments",
+          "country": "United States"
+        },
+        {
+          "id": "rob-walton",
+          "value": 126018514000,
+          "rank": 13,
+          "previousValue": 126018514266,
+          "netWorthChange24h": -266,
+          "sourceOfWealth": "Walmart",
+          "industry": "Fashion & Retail",
+          "country": "United States"
+        },
+        {
+          "id": "jim-walton",
+          "value": 125288688000,
+          "rank": 14,
+          "previousValue": 125288688248,
+          "netWorthChange24h": -248,
+          "sourceOfWealth": "Walmart",
+          "industry": "Fashion & Retail",
+          "country": "United States"
+        },
+        {
+          "id": "carlos-slim-helu",
+          "value": 124351774000,
+          "rank": 15,
+          "previousValue": 124351774275,
+          "netWorthChange24h": -275,
+          "sourceOfWealth": "Telecom",
+          "industry": "Telecom",
+          "country": "Mexico"
+        },
+        {
+          "id": "alice-walton",
+          "value": 115184585000,
+          "rank": 16,
+          "previousValue": 115184584975,
+          "netWorthChange24h": 25,
+          "sourceOfWealth": "Walmart",
+          "industry": "Fashion & Retail",
+          "country": "United States"
+        }
+      ]
+    },
+    {
+      "date": "20260825",
+      "values": [
+        {
+          "id": "elon-musk",
+          "value": 841305843000,
+          "rank": 1,
+          "previousValue": 856888376894,
+          "netWorthChange24h": -15582533894,
+          "sourceOfWealth": "Tesla, SpaceX",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "larry-page",
+          "value": 284233931000,
+          "rank": 2,
+          "previousValue": 281857085307,
+          "netWorthChange24h": 2376845693,
+          "sourceOfWealth": "Google",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "jeff-bezos",
+          "value": 269678278000,
+          "rank": 3,
+          "previousValue": 266643503260.00003,
+          "netWorthChange24h": 3034774739.9999695,
+          "sourceOfWealth": "Amazon",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "sergey-brin",
+          "value": 262197072000,
+          "rank": 4,
+          "previousValue": 260011866360,
+          "netWorthChange24h": 2185205640,
+          "sourceOfWealth": "Google",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "michael-dell",
+          "value": 231788148000,
+          "rank": 5,
+          "previousValue": 236190631623,
+          "netWorthChange24h": -4402483623,
+          "sourceOfWealth": "Dell Technologies",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "mark-zuckerberg",
+          "value": 192069853000,
+          "rank": 6,
+          "previousValue": 188977568268,
+          "netWorthChange24h": 3092284732,
+          "sourceOfWealth": "Facebook",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "larry-ellison",
+          "value": 184173728000,
+          "rank": 7,
+          "previousValue": 189022132160,
+          "netWorthChange24h": -4848404160,
+          "sourceOfWealth": "Oracle",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "jensen-huang",
+          "value": 180177579000,
+          "rank": 8,
+          "previousValue": 185485371463,
+          "netWorthChange24h": -5307792463,
+          "sourceOfWealth": "Semiconductors",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "steve-ballmer",
+          "value": 150249266000,
+          "rank": 9,
+          "previousValue": 149220297120,
+          "netWorthChange24h": 1028968880,
+          "sourceOfWealth": "Microsoft",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "amancio-ortega",
+          "value": 149757600000,
+          "rank": 10,
+          "previousValue": 149323238939,
+          "netWorthChange24h": 434361061,
+          "sourceOfWealth": "Zara",
+          "industry": "Fashion & Retail",
+          "country": "Spain"
+        },
+        {
+          "id": "bernard-arnault",
+          "value": 143945906000,
+          "rank": 11,
+          "previousValue": 141984185420,
+          "netWorthChange24h": 1961720580,
+          "sourceOfWealth": "LVMH",
+          "industry": "Fashion & Retail",
+          "country": "France"
+        },
+        {
+          "id": "warren-buffett",
+          "value": 143133847000,
+          "rank": 12,
+          "previousValue": 140849691143,
+          "netWorthChange24h": 2284155857,
+          "sourceOfWealth": "Berkshire Hathaway",
+          "industry": "Finance & Investments",
+          "country": "United States"
+        },
+        {
+          "id": "rob-walton",
+          "value": 128539661000,
+          "rank": 13,
+          "previousValue": 126018514266,
+          "netWorthChange24h": 2521146734,
+          "sourceOfWealth": "Walmart",
+          "industry": "Fashion & Retail",
+          "country": "United States"
+        },
+        {
+          "id": "jim-walton",
+          "value": 127803968000,
+          "rank": 14,
+          "previousValue": 125288688248,
+          "netWorthChange24h": 2515279752,
+          "sourceOfWealth": "Walmart",
+          "industry": "Fashion & Retail",
+          "country": "United States"
+        },
+        {
+          "id": "carlos-slim-helu",
+          "value": 124562658000,
+          "rank": 15,
+          "previousValue": 124351774275,
+          "netWorthChange24h": 210883725,
+          "sourceOfWealth": "Telecom",
+          "industry": "Telecom",
+          "country": "Mexico"
+        },
+        {
+          "id": "alice-walton",
+          "value": 117640783000,
+          "rank": 16,
+          "previousValue": 115184584975,
+          "netWorthChange24h": 2456198025,
+          "sourceOfWealth": "Walmart",
+          "industry": "Fashion & Retail",
+          "country": "United States"
+        }
+      ]
+    },
+    {
+      "date": "20260826",
+      "values": [
+        {
+          "id": "elon-musk",
+          "value": 855542751000,
+          "rank": 1,
+          "previousValue": 839934842985,
+          "netWorthChange24h": 15607908015,
+          "sourceOfWealth": "Tesla, SpaceX",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "larry-page",
+          "value": 283315063000,
+          "rank": 2,
+          "previousValue": 284233931257,
+          "netWorthChange24h": -918868257,
+          "sourceOfWealth": "Google",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "jeff-bezos",
+          "value": 268787254000.00003,
+          "rank": 3,
+          "previousValue": 269678278140,
+          "netWorthChange24h": -891024139.9999695,
+          "sourceOfWealth": "Amazon",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "sergey-brin",
+          "value": 261352351000,
+          "rank": 4,
+          "previousValue": 262197072212.99997,
+          "netWorthChange24h": -844721212.9999695,
+          "sourceOfWealth": "Google",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "michael-dell",
+          "value": 236803693000,
+          "rank": 5,
+          "previousValue": 231788147640,
+          "netWorthChange24h": 5015545360,
+          "sourceOfWealth": "Dell Technologies",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "mark-zuckerberg",
+          "value": 195809755000,
+          "rank": 6,
+          "previousValue": 192069853088,
+          "netWorthChange24h": 3739901912,
+          "sourceOfWealth": "Facebook",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "larry-ellison",
+          "value": 186928715000,
+          "rank": 7,
+          "previousValue": 184173728305,
+          "netWorthChange24h": 2754986695,
+          "sourceOfWealth": "Oracle",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "jensen-huang",
+          "value": 184064856000,
+          "rank": 8,
+          "previousValue": 180177578685,
+          "netWorthChange24h": 3887277315,
+          "sourceOfWealth": "Semiconductors",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "steve-ballmer",
+          "value": 151361666000,
+          "rank": 9,
+          "previousValue": 150249266380,
+          "netWorthChange24h": 1112399620,
+          "sourceOfWealth": "Microsoft",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "amancio-ortega",
+          "value": 149369343000,
+          "rank": 10,
+          "previousValue": 149670719738,
+          "netWorthChange24h": -301376738,
+          "sourceOfWealth": "Zara",
+          "industry": "Fashion & Retail",
+          "country": "Spain"
+        },
+        {
+          "id": "warren-buffett",
+          "value": 143083762000,
+          "rank": 11,
+          "previousValue": 143133847010,
+          "netWorthChange24h": -50085010,
+          "sourceOfWealth": "Berkshire Hathaway",
+          "industry": "Finance & Investments",
+          "country": "United States"
+        },
+        {
+          "id": "bernard-arnault",
+          "value": 141348791000,
+          "rank": 12,
+          "previousValue": 143862558898,
+          "netWorthChange24h": -2513767898,
+          "sourceOfWealth": "LVMH",
+          "industry": "Fashion & Retail",
+          "country": "France"
+        },
+        {
+          "id": "rob-walton",
+          "value": 127536624000,
+          "rank": 13,
+          "previousValue": 128539661287,
+          "netWorthChange24h": -1003037287,
+          "sourceOfWealth": "Walmart",
+          "industry": "Fashion & Retail",
+          "country": "United States"
+        },
+        {
+          "id": "jim-walton",
+          "value": 126803265000,
+          "rank": 14,
+          "previousValue": 127803967902,
+          "netWorthChange24h": -1000702902,
+          "sourceOfWealth": "Walmart",
+          "industry": "Fashion & Retail",
+          "country": "United States"
+        },
+        {
+          "id": "carlos-slim-helu",
+          "value": 124766887000,
+          "rank": 15,
+          "previousValue": 124404557463,
+          "netWorthChange24h": 362329537,
+          "sourceOfWealth": "Telecom",
+          "industry": "Telecom",
+          "country": "Mexico"
+        },
+        {
+          "id": "alice-walton",
+          "value": 116663586000,
+          "rank": 16,
+          "previousValue": 117640782894,
+          "netWorthChange24h": -977196894,
+          "sourceOfWealth": "Walmart",
+          "industry": "Fashion & Retail",
+          "country": "United States"
+        }
+      ]
+    },
+    {
+      "date": "20260827",
+      "values": [
+        {
+          "id": "elon-musk",
+          "value": 862385832000,
+          "rank": 1,
+          "previousValue": 855542751241,
+          "netWorthChange24h": 6843080759,
+          "sourceOfWealth": "Tesla, SpaceX",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "larry-page",
+          "value": 279718590000,
+          "rank": 2,
+          "previousValue": 283315062953,
+          "netWorthChange24h": -3596472953,
+          "sourceOfWealth": "Google",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "jeff-bezos",
+          "value": 268099137000,
+          "rank": 3,
+          "previousValue": 268787254120,
+          "netWorthChange24h": -688117120,
+          "sourceOfWealth": "Amazon",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "sergey-brin",
+          "value": 258045831000,
+          "rank": 4,
+          "previousValue": 261352350764,
+          "netWorthChange24h": -3306519764,
+          "sourceOfWealth": "Google",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "michael-dell",
+          "value": 240216998000,
+          "rank": 5,
+          "previousValue": 236803693190,
+          "netWorthChange24h": 3413304810,
+          "sourceOfWealth": "Dell Technologies",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "mark-zuckerberg",
+          "value": 197874668000,
+          "rank": 6,
+          "previousValue": 195809754576,
+          "netWorthChange24h": 2064913424,
+          "sourceOfWealth": "Facebook",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "larry-ellison",
+          "value": 191245542000,
+          "rank": 7,
+          "previousValue": 186928715349,
+          "netWorthChange24h": 4316826651,
+          "sourceOfWealth": "Oracle",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "jensen-huang",
+          "value": 181181296000,
+          "rank": 8,
+          "previousValue": 184064856409,
+          "netWorthChange24h": -2883560409,
+          "sourceOfWealth": "Semiconductors",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "steve-ballmer",
+          "value": 152539797000,
+          "rank": 9,
+          "previousValue": 151361665580,
+          "netWorthChange24h": 1178131420,
+          "sourceOfWealth": "Microsoft",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "amancio-ortega",
+          "value": 149380930000,
+          "rank": 10,
+          "previousValue": 149421353367,
+          "netWorthChange24h": -40423367,
+          "sourceOfWealth": "Zara",
+          "industry": "Fashion & Retail",
+          "country": "Spain"
+        },
+        {
+          "id": "warren-buffett",
+          "value": 143378028000,
+          "rank": 11,
+          "previousValue": 143083761870,
+          "netWorthChange24h": 294266130,
+          "sourceOfWealth": "Berkshire Hathaway",
+          "industry": "Finance & Investments",
+          "country": "United States"
+        },
+        {
+          "id": "bernard-arnault",
+          "value": 142267740000,
+          "rank": 12,
+          "previousValue": 141397907042,
+          "netWorthChange24h": 869832958,
+          "sourceOfWealth": "LVMH",
+          "industry": "Fashion & Retail",
+          "country": "France"
+        },
+        {
+          "id": "rob-walton",
+          "value": 126596842000,
+          "rank": 13,
+          "previousValue": 127536624300,
+          "netWorthChange24h": -939782300,
+          "sourceOfWealth": "Walmart",
+          "industry": "Fashion & Retail",
+          "country": "United States"
+        },
+        {
+          "id": "jim-walton",
+          "value": 125865670000,
+          "rank": 14,
+          "previousValue": 126803265244,
+          "netWorthChange24h": -937595244,
+          "sourceOfWealth": "Walmart",
+          "industry": "Fashion & Retail",
+          "country": "United States"
+        },
+        {
+          "id": "carlos-slim-helu",
+          "value": 124709566000,
+          "rank": 15,
+          "previousValue": 125107360985,
+          "netWorthChange24h": -397794985,
+          "sourceOfWealth": "Telecom",
+          "industry": "Telecom",
+          "country": "Mexico"
+        },
+        {
+          "id": "alice-walton",
+          "value": 115748014000,
+          "rank": 16,
+          "previousValue": 116663585872,
+          "netWorthChange24h": -915571872,
+          "sourceOfWealth": "Walmart",
+          "industry": "Fashion & Retail",
+          "country": "United States"
+        }
+      ]
+    },
+    {
+      "date": "20260828",
+      "values": [
+        {
+          "id": "elon-musk",
+          "value": 872286887000,
+          "rank": 1,
+          "previousValue": 862385831912,
+          "netWorthChange24h": 9901055088,
+          "sourceOfWealth": "Tesla, SpaceX",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "larry-page",
+          "value": 278647311000,
+          "rank": 2,
+          "previousValue": 279718589827,
+          "netWorthChange24h": -1071278827,
+          "sourceOfWealth": "Google",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "jeff-bezos",
+          "value": 264552685000,
+          "rank": 3,
+          "previousValue": 268099136560,
+          "netWorthChange24h": -3546451560,
+          "sourceOfWealth": "Amazon",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "sergey-brin",
+          "value": 257060971000,
+          "rank": 4,
+          "previousValue": 258045830949,
+          "netWorthChange24h": -984859949,
+          "sourceOfWealth": "Google",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "michael-dell",
+          "value": 245641180000,
+          "rank": 5,
+          "previousValue": 240216998242,
+          "netWorthChange24h": 5424181758,
+          "sourceOfWealth": "Dell Technologies",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "jensen-huang",
+          "value": 196764431000,
+          "rank": 6,
+          "previousValue": 181181295909,
+          "netWorthChange24h": 15583135091,
+          "sourceOfWealth": "Semiconductors",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "mark-zuckerberg",
+          "value": 196165774000,
+          "rank": 7,
+          "previousValue": 197874668453,
+          "netWorthChange24h": -1708894453,
+          "sourceOfWealth": "Facebook",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "larry-ellison",
+          "value": 194916686000,
+          "rank": 8,
+          "previousValue": 191245541570,
+          "netWorthChange24h": 3671144430,
+          "sourceOfWealth": "Oracle",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "steve-ballmer",
+          "value": 154736786000,
+          "rank": 9,
+          "previousValue": 152539797460,
+          "netWorthChange24h": 2196988540,
+          "sourceOfWealth": "Microsoft",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "amancio-ortega",
+          "value": 147852789000,
+          "rank": 10,
+          "previousValue": 149069497029,
+          "netWorthChange24h": -1216708029,
+          "sourceOfWealth": "Zara",
+          "industry": "Fashion & Retail",
+          "country": "Spain"
+        },
+        {
+          "id": "warren-buffett",
+          "value": 143192613000,
+          "rank": 11,
+          "previousValue": 143378022167,
+          "netWorthChange24h": -185409167,
+          "sourceOfWealth": "Berkshire Hathaway",
+          "industry": "Finance & Investments",
+          "country": "United States"
+        },
+        {
+          "id": "bernard-arnault",
+          "value": 140182626000,
+          "rank": 12,
+          "previousValue": 141971753069,
+          "netWorthChange24h": -1789127069,
+          "sourceOfWealth": "LVMH",
+          "industry": "Fashion & Retail",
+          "country": "France"
+        },
+        {
+          "id": "rob-walton",
+          "value": 125051623000,
+          "rank": 13,
+          "previousValue": 126596841898,
+          "netWorthChange24h": -1545218898,
+          "sourceOfWealth": "Walmart",
+          "industry": "Fashion & Retail",
+          "country": "United States"
+        },
+        {
+          "id": "jim-walton",
+          "value": 124324047000,
+          "rank": 14,
+          "previousValue": 125865669961,
+          "netWorthChange24h": -1541622961,
+          "sourceOfWealth": "Walmart",
+          "industry": "Fashion & Retail",
+          "country": "United States"
+        },
+        {
+          "id": "carlos-slim-helu",
+          "value": 124156565000,
+          "rank": 15,
+          "previousValue": 124629966736,
+          "netWorthChange24h": -473401736,
+          "sourceOfWealth": "Telecom",
+          "industry": "Telecom",
+          "country": "Mexico"
+        },
+        {
+          "id": "alice-walton",
+          "value": 114242602000,
+          "rank": 16,
+          "previousValue": 115748013888,
+          "netWorthChange24h": -1505411888,
+          "sourceOfWealth": "Walmart",
+          "industry": "Fashion & Retail",
+          "country": "United States"
+        }
+      ]
+    },
+    {
+      "date": "20260829",
+      "values": [
+        {
+          "id": "elon-musk",
+          "value": 873112808000,
+          "rank": 1,
+          "previousValue": 872286887262,
+          "netWorthChange24h": 825920738,
+          "sourceOfWealth": "Tesla, SpaceX",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "larry-page",
+          "value": 282990504000,
+          "rank": 2,
+          "previousValue": 278647310887,
+          "netWorthChange24h": 4343193113,
+          "sourceOfWealth": "Google",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "jeff-bezos",
+          "value": 273524679000,
+          "rank": 3,
+          "previousValue": 264552684520,
+          "netWorthChange24h": 8971994480,
+          "sourceOfWealth": "Amazon",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "sergey-brin",
+          "value": 261053989000,
+          "rank": 4,
+          "previousValue": 257060970679,
+          "netWorthChange24h": 3993018321,
+          "sourceOfWealth": "Google",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "michael-dell",
+          "value": 240420083000,
+          "rank": 5,
+          "previousValue": 245641180162,
+          "netWorthChange24h": -5221097162,
+          "sourceOfWealth": "Dell Technologies",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "mark-zuckerberg",
+          "value": 198512113000,
+          "rank": 6,
+          "previousValue": 196165774210,
+          "netWorthChange24h": 2346338790,
+          "sourceOfWealth": "Facebook",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "larry-ellison",
+          "value": 193586316000,
+          "rank": 7,
+          "previousValue": 194916686042,
+          "netWorthChange24h": -1330370042,
+          "sourceOfWealth": "Oracle",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "jensen-huang",
+          "value": 187892592000,
+          "rank": 8,
+          "previousValue": 196764431117,
+          "netWorthChange24h": -8871839117,
+          "sourceOfWealth": "Semiconductors",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "steve-ballmer",
+          "value": 156878154000,
+          "rank": 9,
+          "previousValue": 154736785880,
+          "netWorthChange24h": 2141368120,
+          "sourceOfWealth": "Microsoft",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "amancio-ortega",
+          "value": 149191551000,
+          "rank": 10,
+          "previousValue": 147852789286,
+          "netWorthChange24h": 1338761714,
+          "sourceOfWealth": "Zara",
+          "industry": "Fashion & Retail",
+          "country": "Spain"
+        },
+        {
+          "id": "warren-buffett",
+          "value": 143577084000,
+          "rank": 11,
+          "previousValue": 143192611598,
+          "netWorthChange24h": 384472402,
+          "sourceOfWealth": "Berkshire Hathaway",
+          "industry": "Finance & Investments",
+          "country": "United States"
+        },
+        {
+          "id": "bernard-arnault",
+          "value": 143316500000,
+          "rank": 12,
+          "previousValue": 140182626097,
+          "netWorthChange24h": 3133873903,
+          "sourceOfWealth": "LVMH",
+          "industry": "Fashion & Retail",
+          "country": "France"
+        },
+        {
+          "id": "rob-walton",
+          "value": 125467296000,
+          "rank": 13,
+          "previousValue": 125051622757,
+          "netWorthChange24h": 415673243,
+          "sourceOfWealth": "Walmart",
+          "industry": "Fashion & Retail",
+          "country": "United States"
+        },
+        {
+          "id": "jim-walton",
+          "value": 124738753000,
+          "rank": 14,
+          "previousValue": 124324046947,
+          "netWorthChange24h": 414706053,
+          "sourceOfWealth": "Walmart",
+          "industry": "Fashion & Retail",
+          "country": "United States"
+        },
+        {
+          "id": "carlos-slim-helu",
+          "value": 123486660000,
+          "rank": 15,
+          "previousValue": 124083502722,
+          "netWorthChange24h": -596842722,
+          "sourceOfWealth": "Telecom",
+          "industry": "Telecom",
+          "country": "Mexico"
+        },
+        {
+          "id": "alice-walton",
+          "value": 114647567000,
+          "rank": 16,
+          "previousValue": 114242602261,
+          "netWorthChange24h": 404964739,
+          "sourceOfWealth": "Walmart",
+          "industry": "Fashion & Retail",
+          "country": "United States"
+        }
+      ]
+    },
+    {
+      "date": "20260830",
+      "values": [
+        {
+          "id": "elon-musk",
+          "value": 873112808000,
+          "rank": 1,
+          "previousValue": 873112807930,
+          "netWorthChange24h": 70,
+          "sourceOfWealth": "Tesla, SpaceX",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "larry-page",
+          "value": 282990504000,
+          "rank": 2,
+          "previousValue": 282990503874,
+          "netWorthChange24h": 126,
+          "sourceOfWealth": "Google",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "jeff-bezos",
+          "value": 273524679000,
+          "rank": 3,
+          "previousValue": 273524678860,
+          "netWorthChange24h": 140,
+          "sourceOfWealth": "Amazon",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "sergey-brin",
+          "value": 261053989000,
+          "rank": 4,
+          "previousValue": 261053988891,
+          "netWorthChange24h": 109,
+          "sourceOfWealth": "Google",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "michael-dell",
+          "value": 240420083000,
+          "rank": 5,
+          "previousValue": 240420082881,
+          "netWorthChange24h": 119,
+          "sourceOfWealth": "Dell Technologies",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "mark-zuckerberg",
+          "value": 198512113000,
+          "rank": 6,
+          "previousValue": 198512113130,
+          "netWorthChange24h": -130,
+          "sourceOfWealth": "Facebook",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "larry-ellison",
+          "value": 193586316000,
+          "rank": 7,
+          "previousValue": 193586316175,
+          "netWorthChange24h": -175,
+          "sourceOfWealth": "Oracle",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "jensen-huang",
+          "value": 187892592000,
+          "rank": 8,
+          "previousValue": 187892591585,
+          "netWorthChange24h": 415,
+          "sourceOfWealth": "Semiconductors",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "steve-ballmer",
+          "value": 156878154000,
+          "rank": 9,
+          "previousValue": 156878154340,
+          "netWorthChange24h": -340,
+          "sourceOfWealth": "Microsoft",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "amancio-ortega",
+          "value": 148881165000,
+          "rank": 10,
+          "previousValue": 148881165322,
+          "netWorthChange24h": -322,
+          "sourceOfWealth": "Zara",
+          "industry": "Fashion & Retail",
+          "country": "Spain"
+        },
+        {
+          "id": "warren-buffett",
+          "value": 143577084000,
+          "rank": 11,
+          "previousValue": 143577082460,
+          "netWorthChange24h": 1540,
+          "sourceOfWealth": "Berkshire Hathaway",
+          "industry": "Finance & Investments",
+          "country": "United States"
+        },
+        {
+          "id": "bernard-arnault",
+          "value": 143018927000,
+          "rank": 12,
+          "previousValue": 143018926906,
+          "netWorthChange24h": 94,
+          "sourceOfWealth": "LVMH",
+          "industry": "Fashion & Retail",
+          "country": "France"
+        },
+        {
+          "id": "rob-walton",
+          "value": 125467296000,
+          "rank": 13,
+          "previousValue": 125467295742,
+          "netWorthChange24h": 258,
+          "sourceOfWealth": "Walmart",
+          "industry": "Fashion & Retail",
+          "country": "United States"
+        },
+        {
+          "id": "jim-walton",
+          "value": 124738753000,
+          "rank": 14,
+          "previousValue": 124738752553,
+          "netWorthChange24h": 447,
+          "sourceOfWealth": "Walmart",
+          "industry": "Fashion & Retail",
+          "country": "United States"
+        },
+        {
+          "id": "carlos-slim-helu",
+          "value": 123321806000,
+          "rank": 15,
+          "previousValue": 123247530939,
+          "netWorthChange24h": 74275061,
+          "sourceOfWealth": "Telecom",
+          "industry": "Telecom",
+          "country": "Mexico"
+        },
+        {
+          "id": "alice-walton",
+          "value": 114647567000,
+          "rank": 16,
+          "previousValue": 114647566792,
+          "netWorthChange24h": 208,
+          "sourceOfWealth": "Walmart",
+          "industry": "Fashion & Retail",
+          "country": "United States"
+        }
+      ]
+    },
+    {
+      "date": "20260831",
+      "values": [
+        {
+          "id": "elon-musk",
+          "value": 873112808000,
+          "rank": 1,
+          "previousValue": 873112807930,
+          "netWorthChange24h": 70,
+          "sourceOfWealth": "Tesla, SpaceX",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "larry-page",
+          "value": 282990504000,
+          "rank": 2,
+          "previousValue": 282990503874,
+          "netWorthChange24h": 126,
+          "sourceOfWealth": "Google",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "jeff-bezos",
+          "value": 273524679000,
+          "rank": 3,
+          "previousValue": 273524678860,
+          "netWorthChange24h": 140,
+          "sourceOfWealth": "Amazon",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "sergey-brin",
+          "value": 261053989000,
+          "rank": 4,
+          "previousValue": 261053988891,
+          "netWorthChange24h": 109,
+          "sourceOfWealth": "Google",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "michael-dell",
+          "value": 240420083000,
+          "rank": 5,
+          "previousValue": 240420082881,
+          "netWorthChange24h": 119,
+          "sourceOfWealth": "Dell Technologies",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "mark-zuckerberg",
+          "value": 198512113000,
+          "rank": 6,
+          "previousValue": 198512113130,
+          "netWorthChange24h": -130,
+          "sourceOfWealth": "Facebook",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "larry-ellison",
+          "value": 193586316000,
+          "rank": 7,
+          "previousValue": 193586316175,
+          "netWorthChange24h": -175,
+          "sourceOfWealth": "Oracle",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "jensen-huang",
+          "value": 187892592000,
+          "rank": 8,
+          "previousValue": 187892591585,
+          "netWorthChange24h": 415,
+          "sourceOfWealth": "Semiconductors",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "steve-ballmer",
+          "value": 156878154000,
+          "rank": 9,
+          "previousValue": 156878154340,
+          "netWorthChange24h": -340,
+          "sourceOfWealth": "Microsoft",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "amancio-ortega",
+          "value": 148881165000,
+          "rank": 10,
+          "previousValue": 148881165322,
+          "netWorthChange24h": -322,
+          "sourceOfWealth": "Zara",
+          "industry": "Fashion & Retail",
+          "country": "Spain"
+        },
+        {
+          "id": "warren-buffett",
+          "value": 143577084000,
+          "rank": 11,
+          "previousValue": 143577082460,
+          "netWorthChange24h": 1540,
+          "sourceOfWealth": "Berkshire Hathaway",
+          "industry": "Finance & Investments",
+          "country": "United States"
+        },
+        {
+          "id": "bernard-arnault",
+          "value": 143018927000,
+          "rank": 12,
+          "previousValue": 143018926906,
+          "netWorthChange24h": 94,
+          "sourceOfWealth": "LVMH",
+          "industry": "Fashion & Retail",
+          "country": "France"
+        },
+        {
+          "id": "rob-walton",
+          "value": 125467296000,
+          "rank": 13,
+          "previousValue": 125467295742,
+          "netWorthChange24h": 258,
+          "sourceOfWealth": "Walmart",
+          "industry": "Fashion & Retail",
+          "country": "United States"
+        },
+        {
+          "id": "jim-walton",
+          "value": 124738753000,
+          "rank": 14,
+          "previousValue": 124738752553,
+          "netWorthChange24h": 447,
+          "sourceOfWealth": "Walmart",
+          "industry": "Fashion & Retail",
+          "country": "United States"
+        },
+        {
+          "id": "carlos-slim-helu",
+          "value": 123321806000,
+          "rank": 15,
+          "previousValue": 123247530939,
+          "netWorthChange24h": 74275061,
+          "sourceOfWealth": "Telecom",
+          "industry": "Telecom",
+          "country": "Mexico"
+        },
+        {
+          "id": "alice-walton",
+          "value": 114647567000,
+          "rank": 16,
+          "previousValue": 114647566792,
+          "netWorthChange24h": 208,
+          "sourceOfWealth": "Walmart",
+          "industry": "Fashion & Retail",
+          "country": "United States"
+        }
+      ]
+    },
+    {
+      "date": "20260902",
+      "values": [
+        {
+          "id": "elon-musk",
+          "value": 879751687000,
+          "rank": 1,
+          "previousValue": 891913797522,
+          "netWorthChange24h": -12162110522,
+          "sourceOfWealth": "Tesla, SpaceX",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "larry-page",
+          "value": 274225423000,
+          "rank": 2,
+          "previousValue": 277239212359,
+          "netWorthChange24h": -3013789359,
+          "sourceOfWealth": "Google",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "jeff-bezos",
+          "value": 263370534000,
+          "rank": 3,
+          "previousValue": 267649213540.00003,
+          "netWorthChange24h": -4278679540.0000305,
+          "sourceOfWealth": "Amazon",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "sergey-brin",
+          "value": 252995768000,
+          "rank": 4,
+          "previousValue": 255766649564,
+          "netWorthChange24h": -2770881564,
+          "sourceOfWealth": "Google",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "michael-dell",
+          "value": 231391383000,
+          "rank": 5,
+          "previousValue": 240638165979,
+          "netWorthChange24h": -9246782979,
+          "sourceOfWealth": "Dell Technologies",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "mark-zuckerberg",
+          "value": 198688428000,
+          "rank": 6,
+          "previousValue": 196586216444,
+          "netWorthChange24h": 2102211556,
+          "sourceOfWealth": "Facebook",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "jensen-huang",
+          "value": 187799025000,
+          "rank": 7,
+          "previousValue": 190640054834,
+          "netWorthChange24h": -2841029834,
+          "sourceOfWealth": "Semiconductors",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "larry-ellison",
+          "value": 183472415000,
+          "rank": 8,
+          "previousValue": 192483368764,
+          "netWorthChange24h": -9010953764,
+          "sourceOfWealth": "Oracle",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "steve-ballmer",
+          "value": 153715401000,
+          "rank": 9,
+          "previousValue": 155300570020,
+          "netWorthChange24h": -1585169020,
+          "sourceOfWealth": "Microsoft",
+          "industry": "Technology",
+          "country": "United States"
+        },
+        {
+          "id": "amancio-ortega",
+          "value": 147046617000,
+          "rank": 10,
+          "previousValue": 148126218981,
+          "netWorthChange24h": -1079601981,
+          "sourceOfWealth": "Zara",
+          "industry": "Fashion & Retail",
+          "country": "Spain"
+        },
+        {
+          "id": "warren-buffett",
+          "value": 142467300000,
+          "rank": 11,
+          "previousValue": 143325714183,
+          "netWorthChange24h": -858414183,
+          "sourceOfWealth": "Berkshire Hathaway",
+          "industry": "Finance & Investments",
+          "country": "United States"
+        },
+        {
+          "id": "bernard-arnault",
+          "value": 139089947000,
+          "rank": 12,
+          "previousValue": 141533844133,
+          "netWorthChange24h": -2443897133,
+          "sourceOfWealth": "LVMH",
+          "industry": "Fashion & Retail",
+          "country": "France"
+        },
+        {
+          "id": "rob-walton",
+          "value": 128024588000,
+          "rank": 13,
+          "previousValue": 127075769469,
+          "netWorthChange24h": 948818531,
+          "sourceOfWealth": "Walmart",
+          "industry": "Fashion & Retail",
+          "country": "United States"
+        },
+        {
+          "id": "jim-walton",
+          "value": 127290094000,
+          "rank": 14,
+          "previousValue": 126343482942,
+          "netWorthChange24h": 946611058,
+          "sourceOfWealth": "Walmart",
+          "industry": "Fashion & Retail",
+          "country": "United States"
+        },
+        {
+          "id": "carlos-slim-helu",
+          "value": 122982930000,
+          "rank": 15,
+          "previousValue": 122868697205,
+          "netWorthChange24h": 114232795,
+          "sourceOfWealth": "Telecom",
+          "industry": "Telecom",
+          "country": "Mexico"
+        },
+        {
+          "id": "alice-walton",
+          "value": 117138979000,
+          "rank": 16,
+          "previousValue": 116214603457,
+          "netWorthChange24h": 924375543,
+          "sourceOfWealth": "Walmart",
+          "industry": "Fashion & Retail",
+          "country": "United States"
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "date": "1996",
+      "title": "Warren Buffett leads real-time wealth",
+      "body": "Warren Buffett leads the Forbes real-time billionaire snapshot at $15.3B."
+    },
+    {
+      "date": "20260902",
+      "title": "Elon Musk leads real-time wealth",
+      "body": "Elon Musk leads the Forbes real-time billionaire snapshot at $879.8B."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Forbes Real-Time Billionaires",
+      "publisher": "Forbes",
+      "url": "https://www.forbes.com/real-time-billionaires/",
+      "note": "Primary real-time net worth ranking source for the production adapter."
+    }
+  ],
+  "historicalCoverageStart": "1996",
+  "historicalCoverageEnd": "2026",
+  "historicalGranularity": "annual",
+  "backfillSource": "Historical World's Billionaires annual tables",
+  "backfillGeneratedAt": "2026-06-28T15:08:37.788Z",
+  "historical": {
+    "coverageStart": "1996",
+    "coverageEnd": "2026",
+    "granularity": "annual",
+    "source": "Historical World's Billionaires annual tables",
+    "generatedAt": "2026-06-28T15:08:37.788Z",
+    "frameCount": 31,
+    "maxFrames": 32,
+    "maxPublicFrames": 72,
+    "notes": [
+      "Annual Forbes table rows are mapped onto current Forbes real-time entity IDs where possible.",
+      "Historical-only people are omitted in v1 to keep story payloads small and avoid atlas churn."
+    ]
+  },
+  "lastObservationDate": "2026-09-02",
+  "dataFreshness": {
+    "status": "stale",
+    "refreshCadence": "daily",
+    "lastUpdated": "2026-09-02T06:03:21.875Z",
+    "lastRefreshAttemptedAt": "2026-09-03T06:03:26.958Z",
+    "lastRefreshError": "https://www.forbes.com/real-time-billionaires/ returned 403",
+    "lastObservationDate": "2026-09-02",
+    "nextRefreshAt": "2026-09-04T06:00:00.000Z",
+    "sourceStatus": "Forbes Real-Time Billionaires page",
+    "confidence": "Serving last good projection because refresh failed: https://www.forbes.com/real-time-billionaires/ returned 403"
+  },
+  "media": {
+    "imageFit": "contain-blur",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-09-03T06:03:26.958Z",
+    "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.webp",
+    "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.webp",
+    "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.json",
+    "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/richest-individuals.json",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 4,
+    "rows": 4,
+    "width": 1280,
+    "height": 1280,
+    "itemCount": 16,
+    "sourcedImageCount": 16,
+    "generatedImageCount": 0,
+    "placeholderCount": 0,
+    "ogImageUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/richest-individuals.png",
+    "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/richest-individuals.png",
+    "ogImageWidth": 1200,
+    "ogImageHeight": 630
+  },
+  "taxonomy": {
+    "primaryCategory": "economy",
+    "categories": [
+      "economy",
+      "wealth",
+      "business",
+      "celebrity"
+    ],
+    "tags": [
+      "billionaires",
+      "forbes",
+      "net-worth",
+      "founders",
+      "wealth"
+    ],
+    "entityTypes": [
+      "person",
+      "founder",
+      "investor"
+    ],
+    "sourceTypes": [
+      "forbes",
+      "wikipedia"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "public-company-market-cap",
+      "type": "capital-and-founders",
+      "weight": 0.88,
+      "reason": "Founder wealth and megacap company value are tightly linked."
+    },
+    {
+      "target": "top-athlete-salaries",
+      "type": "money-leaderboards",
+      "weight": 0.58,
+      "reason": "Both translate famous individuals into money rankings."
+    },
+    {
+      "target": "internet-obsession-meter",
+      "type": "public-figure-attention",
+      "weight": 0.36,
+      "reason": "High-profile billionaires often overlap with broader public attention."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "money-and-power",
+    "mainland": "economy",
+    "bridgePriority": [
+      "public-company-market-cap",
+      "top-athlete-salaries"
+    ]
+  },
+  "schemaVersion": 1,
+  "contentKind": "dat-city.story",
+  "generatedAt": "2026-09-03T06:03:26.958Z",
+  "versionId": "20260903T060326Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "storyops-scheduler",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-09-03T06:03:26.958Z",
+    "versionId": "20260903T060326Z",
+    "adapter": "forbes-realtime-billionaires",
+    "storySlug": "richest-individuals",
+    "districtId": null,
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "publicProjection": {
+    "kind": "story",
+    "version": 1,
+    "generatedAt": "2026-09-03T06:03:26.958Z",
+    "adapter": "forbes-realtime-billionaires",
+    "cache": {
+      "browserMaxAgeSeconds": 60,
+      "edgeMaxAgeSeconds": 3600
+    }
+  },
+  "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/richest-individuals.png"
+}

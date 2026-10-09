@@ -2,7 +2,7 @@
 
 Correção dos clientes originais em 09/10/2026.
 
-- Integridade: 686/686 recursos e 91 scripts externos preservados por SHA-256.
+- Integridade: 1076/1076 recursos e 95 scripts externos preservados por SHA-256.
 - Programas internos: todos os scripts de 57/57 clientes comparados com a captura; Sky permite apenas criação do renderizador Three.js.
 - Desktop: 57/57 clientes originais; mobile emulado: 57/57.
 - 5 verificações adicionais: controles de bússola/prisma/sifão, registros e rota antiga.
@@ -30,3 +30,10 @@ Testes não cobrem toda combinação de parâmetros nem certificam o site inteir
 Cliente preservado não significa backend replicado; os dados são snapshots.
 Mobile foi emulado: não testado em aparelho real. Sem aceite visual de Alan ou piloto em turma.
 Capturas temporárias serão apagadas após inspeção; JSON/texto e recibos permanecem.
+
+- Dat City: a verificação pública detectou nove dependências tardias ausentes; agora exige todos os 64 bairros com `contentKind=dat-city.district`, sem aceitar dados sintéticos de fallback. Captura inclui 64 histórias e os 64 atlas da versão fixada.
+
+- Navegação Dat City: 64 páginas “Open story” preservadas integralmente, com hidratação da versão original, gráfico e prévia Three.js. Conferência de todas as 64 páginas em desktop e mobile emulado.
+- A origem desliga os dados publicados em localhost (`city-app.DTEwABxB.js`, `no()`): QA local usa `edu-qa.test` apontado ao servidor do projeto. O original tem 65 bairros configurados: 64 no manifesto público e o bairro local Curated Commons. A asserção compara a configuração original inteira, em vez de supor que os totais dos dois catálogos são iguais.
+
+- Índice “All stories” e sete músicas públicas do Dat City preservados localmente; leituras e imagens de bairros conferidas também após o carregamento completo em mobile.

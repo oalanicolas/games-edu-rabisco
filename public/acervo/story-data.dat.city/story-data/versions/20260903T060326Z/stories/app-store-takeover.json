@@ -1,0 +1,1740 @@
+{
+  "id": "app-store-takeover",
+  "kicker": "App Chart Race",
+  "title": "The App Store Takeover",
+  "subtitle": "The apps that jump from phones to culture: AI assistants, shopping apps, social launches, editors, and games.",
+  "badge": "Ranked by chart position score",
+  "visualization": "race-arena",
+  "theme": "creator-arena",
+  "artStyle": "stylized-editorial",
+  "dateRange": [
+    "20260821",
+    "20260902"
+  ],
+  "timelineTicks": [
+    "20260821",
+    "20260822",
+    "20260823",
+    "20260824",
+    "20260825",
+    "20260827",
+    "20260828",
+    "20260829",
+    "20260830",
+    "20260831",
+    "20260901",
+    "20260902"
+  ],
+  "metricLabel": "Chart score",
+  "ogImage": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/app-store-takeover.png",
+  "cityPreview": {
+    "districtId": "app-store-spires",
+    "districtName": "App Store Spires",
+    "cardLabel": "App Chart Race",
+    "summary": "Top free apps and games by country, tracked as snapshots after dat.city starts collecting them.",
+    "primaryMetric": "Chart score",
+    "latestFrameLabel": "2026-09-02",
+    "storyUrl": "/stories/app-store-takeover/",
+    "thumbnail": "/assets/og/dat-city.webp"
+  },
+  "sourceStatus": "Apple Marketing Tools RSS chart feeds",
+  "confidence": "Observed Apple top-free app feeds for US, GB, CA, AU at 2026-09-02T08:01:59.849Z.",
+  "methodology": "This story is generated from Apple's public Marketing Tools RSS chart feeds. Each country ranking is converted into a score where rank 1 receives 100 points, rank 2 receives 99, and so on; country scores are summed into the published frame. Scheduled StoryOps runs append snapshots so history grows from observed public charts.",
+  "playback": {
+    "durationSeconds": 24,
+    "initialDate": "20260821",
+    "periodLabel": "top-free app score"
+  },
+  "visual": {
+    "topCount": 10,
+    "referenceCount": 12,
+    "horizontalCount": 12
+  },
+  "layers": [
+    {
+      "id": "free-apps",
+      "label": "Free apps",
+      "default": true
+    },
+    {
+      "id": "games",
+      "label": "Games",
+      "default": true
+    },
+    {
+      "id": "countries",
+      "label": "Countries",
+      "default": false
+    }
+  ],
+  "focus": [
+    {
+      "id": "app-6448311069",
+      "label": "ChatGPT"
+    },
+    {
+      "id": "app-6745190566",
+      "label": "NBA 2K HQ"
+    },
+    {
+      "id": "app-6447582581",
+      "label": "Netflix Game Controller"
+    },
+    {
+      "id": "app-6473753684",
+      "label": "Claude by Anthropic"
+    }
+  ],
+  "entities": [
+    {
+      "id": "app-6448311069",
+      "name": "ChatGPT",
+      "appId": "6448311069",
+      "artistName": "OpenAI OpCo, LLC",
+      "url": "https://apps.apple.com/us/app/chatgpt/id6448311069",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cb/cc/f6/cbccf633-139f-3201-235f-f176adafbf5f/AppIcon-0-0-1x_U007epad-0-0-0-1-0-P3-85-220.png/512x512bb.png",
+      "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cb/cc/f6/cbccf633-139f-3201-235f-f176adafbf5f/AppIcon-0-0-1x_U007epad-0-0-0-1-0-P3-85-220.png/512x512bb.png",
+      "avatarText": "C",
+      "color": "#ff5a61",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.2,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cb/cc/f6/cbccf633-139f-3201-235f-f176adafbf5f/AppIcon-0-0-1x_U007epad-0-0-0-1-0-P3-85-220.png/512x512bb.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "apple-marketing-tools"
+        }
+      }
+    },
+    {
+      "id": "app-6745190566",
+      "name": "NBA 2K HQ",
+      "appId": "6745190566",
+      "artistName": "2K",
+      "url": "https://apps.apple.com/us/app/nba-2k-hq/id6745190566",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b9/f5/2b/b9f52b68-a064-f2c4-50bc-b98bed7188d4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.png",
+      "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b9/f5/2b/b9f52b68-a064-f2c4-50bc-b98bed7188d4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.png",
+      "avatarText": "N2",
+      "color": "#ef426f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0,
+          "u1": 0.4,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b9/f5/2b/b9f52b68-a064-f2c4-50bc-b98bed7188d4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "apple-marketing-tools"
+        }
+      }
+    },
+    {
+      "id": "app-6447582581",
+      "name": "Netflix Game Controller",
+      "appId": "6447582581",
+      "artistName": "Netflix, Inc.",
+      "url": "https://apps.apple.com/us/app/netflix-game-controller/id6447582581",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/22/6b/44/226b44fd-bb17-8c01-5e97-af0c34c4e1e7/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.png",
+      "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/22/6b/44/226b44fd-bb17-8c01-5e97-af0c34c4e1e7/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.png",
+      "avatarText": "NG",
+      "color": "#f18c4f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0,
+          "u1": 0.6,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/22/6b/44/226b44fd-bb17-8c01-5e97-af0c34c4e1e7/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "apple-marketing-tools"
+        }
+      }
+    },
+    {
+      "id": "app-6473753684",
+      "name": "Claude by Anthropic",
+      "appId": "6473753684",
+      "artistName": "Anthropic PBC",
+      "url": "https://apps.apple.com/us/app/claude-by-anthropic/id6473753684",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/62/27/25/6227259f-86e5-27aa-1a27-d944a140b757/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.png",
+      "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/62/27/25/6227259f-86e5-27aa-1a27-d944a140b757/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.png",
+      "avatarText": "CB",
+      "color": "#18c871",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0,
+          "u1": 0.8,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/62/27/25/6227259f-86e5-27aa-1a27-d944a140b757/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "apple-marketing-tools"
+        }
+      }
+    },
+    {
+      "id": "app-983156458",
+      "name": "Microsoft Authenticator",
+      "appId": "983156458",
+      "artistName": "Microsoft Corporation",
+      "url": "https://apps.apple.com/us/app/microsoft-authenticator/id983156458",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ce/51/7d/ce517d96-d52d-0624-9faf-6f6d37eee4ae/AppIcon-0-1x_U007emarketing-0-11-0-sRGB-85-220-0.png/512x512bb.png",
+      "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ce/51/7d/ce517d96-d52d-0624-9faf-6f6d37eee4ae/AppIcon-0-1x_U007emarketing-0-11-0-sRGB-85-220-0.png/512x512bb.png",
+      "avatarText": "MA",
+      "color": "#00a6ff",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "x": 1280,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ce/51/7d/ce517d96-d52d-0624-9faf-6f6d37eee4ae/AppIcon-0-1x_U007emarketing-0-11-0-sRGB-85-220-0.png/512x512bb.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "apple-marketing-tools"
+        }
+      }
+    },
+    {
+      "id": "app-1636235979",
+      "name": "ReelShort - Stream Drama & TV",
+      "appId": "1636235979",
+      "artistName": "NewLeaf Publishing",
+      "url": "https://apps.apple.com/us/app/reelshort-stream-drama-tv/id1636235979",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/aa/ea/a9/aaeaa908-9d1a-c0f1-741c-40453d891a95/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.png",
+      "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/aa/ea/a9/aaeaa908-9d1a-c0f1-741c-40453d891a95/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.png",
+      "avatarText": "R-",
+      "color": "#d78fca",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.25,
+          "u1": 0.2,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/aa/ea/a9/aaeaa908-9d1a-c0f1-741c-40453d891a95/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "apple-marketing-tools"
+        }
+      }
+    },
+    {
+      "id": "app-6758667154",
+      "name": "VibeShort: AI Comic Dramas",
+      "appId": "6758667154",
+      "artistName": "AGILE QUADRANT MEDIA LIMITED",
+      "url": "https://apps.apple.com/us/app/vibeshort-ai-comic-dramas/id6758667154",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/be/ab/1f/beab1ff7-1f02-9208-57f9-f464c55572fe/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.png",
+      "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/be/ab/1f/beab1ff7-1f02-9208-57f9-f464c55572fe/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.png",
+      "avatarText": "VA",
+      "color": "#d78fca",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.25,
+          "u1": 0.4,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/be/ab/1f/beab1ff7-1f02-9208-57f9-f464c55572fe/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "apple-marketing-tools"
+        }
+      }
+    },
+    {
+      "id": "app-6477489729",
+      "name": "Google Gemini",
+      "appId": "6477489729",
+      "artistName": "Google",
+      "url": "https://apps.apple.com/us/app/google-gemini/id6477489729",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/45/36/59/45365963-8663-7bca-d951-6532e59d2d24/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-0-85-220.png/512x512bb.png",
+      "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/45/36/59/45365963-8663-7bca-d951-6532e59d2d24/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-0-85-220.png/512x512bb.png",
+      "avatarText": "GG",
+      "color": "#ffc84a",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.25,
+          "u1": 0.6,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/45/36/59/45365963-8663-7bca-d951-6532e59d2d24/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-0-85-220.png/512x512bb.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "apple-marketing-tools"
+        }
+      }
+    },
+    {
+      "id": "app-368677368",
+      "name": "Uber - Request a ride",
+      "appId": "368677368",
+      "artistName": "Uber Technologies, Inc.",
+      "url": "https://apps.apple.com/us/app/uber-request-a-ride/id368677368",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/46/5c/63/465c63be-e67b-848e-fbd3-f21b4887a86c/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.png",
+      "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/46/5c/63/465c63be-e67b-848e-fbd3-f21b4887a86c/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.png",
+      "avatarText": "U-",
+      "color": "#ff5a61",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.25,
+          "u1": 0.8,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/46/5c/63/465c63be-e67b-848e-fbd3-f21b4887a86c/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "apple-marketing-tools"
+        }
+      }
+    },
+    {
+      "id": "app-1500855883",
+      "name": "CapCut: Photo & Video Editor",
+      "appId": "1500855883",
+      "artistName": "Bytedance Pte. Ltd",
+      "url": "https://apps.apple.com/us/app/capcut-photo-video-editor/id1500855883",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/19/f4/87/19f48707-395f-3fa6-5745-14330feabdec/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.png",
+      "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/19/f4/87/19f48707-395f-3fa6-5745-14330feabdec/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.png",
+      "avatarText": "CP",
+      "color": "#f18c4f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "x": 1280,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.25,
+          "u1": 1,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/19/f4/87/19f48707-395f-3fa6-5745-14330feabdec/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "apple-marketing-tools"
+        }
+      }
+    },
+    {
+      "id": "app-1113153706",
+      "name": "Microsoft Teams",
+      "appId": "1113153706",
+      "artistName": "Microsoft Corporation",
+      "url": "https://apps.apple.com/us/app/microsoft-teams/id1113153706",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a7/9d/87/a79d878f-c333-9bf4-8458-fb643f004bef/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.png",
+      "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a7/9d/87/a79d878f-c333-9bf4-8458-fb643f004bef/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.png",
+      "avatarText": "MT",
+      "color": "#7b9b65",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.5,
+          "u1": 0.2,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a7/9d/87/a79d878f-c333-9bf4-8458-fb643f004bef/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "apple-marketing-tools"
+        }
+      }
+    },
+    {
+      "id": "app-1223471316",
+      "name": "Shop: All your favorite brands",
+      "appId": "1223471316",
+      "artistName": "Shopify Inc.",
+      "url": "https://apps.apple.com/us/app/shop-all-your-favorite-brands/id1223471316",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/60/e2/2a/60e22af6-d897-b246-115f-6c76d4e4b2b4/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/512x512bb.png",
+      "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/60/e2/2a/60e22af6-d897-b246-115f-6c76d4e4b2b4/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/512x512bb.png",
+      "avatarText": "SA",
+      "color": "#8f6bff",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.5,
+          "u1": 0.4,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/60/e2/2a/60e22af6-d897-b246-115f-6c76d4e4b2b4/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/512x512bb.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "apple-marketing-tools"
+        }
+      }
+    },
+    {
+      "id": "app-500003565",
+      "name": "Ticketmaster－Buy, Sell Tickets",
+      "appId": "500003565",
+      "artistName": "Ticketmaster",
+      "url": "https://apps.apple.com/us/app/ticketmaster-buy-sell-tickets/id500003565",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/40/63/87/406387b7-ecb1-82a6-be6a-aa427b381eee/AppIcon-0-0-1x_U007emarketing-0-1-0-85-220.png/512x512bb.png",
+      "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/40/63/87/406387b7-ecb1-82a6-be6a-aa427b381eee/AppIcon-0-0-1x_U007emarketing-0-1-0-85-220.png/512x512bb.png",
+      "avatarText": "TS",
+      "color": "#9aa4b2",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.5,
+          "u1": 0.6,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/40/63/87/406387b7-ecb1-82a6-be6a-aa427b381eee/AppIcon-0-0-1x_U007emarketing-0-1-0-85-220.png/512x512bb.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "apple-marketing-tools"
+        }
+      }
+    },
+    {
+      "id": "app-284815942",
+      "name": "Google",
+      "appId": "284815942",
+      "artistName": "Google",
+      "url": "https://apps.apple.com/us/app/google/id284815942",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f0/56/7f/f0567fc0-e243-7ac0-54f9-d2ac9ea96ecf/SuperG_ios26-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-0-0-85-220.png/512x512bb.png",
+      "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f0/56/7f/f0567fc0-e243-7ac0-54f9-d2ac9ea96ecf/SuperG_ios26-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-0-0-85-220.png/512x512bb.png",
+      "avatarText": "G",
+      "color": "#d78fca",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.5,
+          "u1": 0.8,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f0/56/7f/f0567fc0-e243-7ac0-54f9-d2ac9ea96ecf/SuperG_ios26-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-0-0-85-220.png/512x512bb.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "apple-marketing-tools"
+        }
+      }
+    },
+    {
+      "id": "app-6446901002",
+      "name": "Threads",
+      "appId": "6446901002",
+      "artistName": "Instagram, Inc.",
+      "url": "https://apps.apple.com/us/app/threads/id6446901002",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f0/0f/b7/f00fb7b7-f7a0-ec89-aa02-49baa41ec8e6/Prod-0-0-1x_U007ephone-0-0-0-1-0-0-P3-85-220.png/512x512bb.png",
+      "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f0/0f/b7/f00fb7b7-f7a0-ec89-aa02-49baa41ec8e6/Prod-0-0-1x_U007ephone-0-0-0-1-0-0-P3-85-220.png/512x512bb.png",
+      "avatarText": "T",
+      "color": "#41a99f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "x": 1280,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.5,
+          "u1": 1,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f0/0f/b7/f00fb7b7-f7a0-ec89-aa02-49baa41ec8e6/Prod-0-0-1x_U007ephone-0-0-0-1-0-0-P3-85-220.png/512x512bb.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "apple-marketing-tools"
+        }
+      }
+    },
+    {
+      "id": "app-6761538521",
+      "name": "StoryReel: Exclusive Drama",
+      "appId": "6761538521",
+      "artistName": "Equinox Enterprises‌ Technology Limited",
+      "url": "https://apps.apple.com/us/app/storyreel-exclusive-drama/id6761538521",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4a/10/1b/4a101b8b-0997-b47d-7d32-a9c52840c70a/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.png",
+      "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4a/10/1b/4a101b8b-0997-b47d-7d32-a9c52840c70a/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.png",
+      "avatarText": "SE",
+      "color": "#2f4858",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "x": 0,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.75,
+          "u1": 0.2,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4a/10/1b/4a101b8b-0997-b47d-7d32-a9c52840c70a/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "apple-marketing-tools"
+        }
+      }
+    },
+    {
+      "id": "app-585027354",
+      "name": "Google Maps",
+      "appId": "585027354",
+      "artistName": "Google",
+      "url": "https://apps.apple.com/us/app/google-maps/id585027354",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/42/38/5b/42385b3b-3cae-d64f-e254-127111aaa7c1/maps_2025-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-0-85-220.png/512x512bb.png",
+      "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/42/38/5b/42385b3b-3cae-d64f-e254-127111aaa7c1/maps_2025-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-0-85-220.png/512x512bb.png",
+      "avatarText": "GM",
+      "color": "#ef426f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "x": 320,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.75,
+          "u1": 0.4,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/42/38/5b/42385b3b-3cae-d64f-e254-127111aaa7c1/maps_2025-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-0-85-220.png/512x512bb.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "apple-marketing-tools"
+        }
+      }
+    },
+    {
+      "id": "app-1641486558",
+      "name": "Temu: Shop Like a Billionaire",
+      "appId": "1641486558",
+      "artistName": "Temu",
+      "url": "https://apps.apple.com/us/app/temu-shop-like-a-billionaire/id1641486558",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/30/2a/df/302adfdb-3920-ba10-573a-31ed73613e1b/AppIcon-0-1x_U007epad-0-1-0-0-85-220-0.png/512x512bb.png",
+      "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/30/2a/df/302adfdb-3920-ba10-573a-31ed73613e1b/AppIcon-0-1x_U007epad-0-1-0-0-85-220-0.png/512x512bb.png",
+      "avatarText": "TS",
+      "color": "#ffc84a",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "x": 640,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.75,
+          "u1": 0.6,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/30/2a/df/302adfdb-3920-ba10-573a-31ed73613e1b/AppIcon-0-1x_U007epad-0-1-0-0-85-220-0.png/512x512bb.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "apple-marketing-tools"
+        }
+      }
+    },
+    {
+      "id": "app-384830320",
+      "name": "Life360: Family Safety & GPS",
+      "appId": "384830320",
+      "artistName": "Life360",
+      "url": "https://apps.apple.com/us/app/life360-family-safety-gps/id384830320",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a4/f6/99/a4f69906-3cc5-722a-a4c3-e7efc5042f57/AppIcon-0-0-1x_U007ephone-0-1-0-0-85-220.png/512x512bb.png",
+      "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a4/f6/99/a4f69906-3cc5-722a-a4c3-e7efc5042f57/AppIcon-0-0-1x_U007ephone-0-1-0-0-85-220.png/512x512bb.png",
+      "avatarText": "LF",
+      "color": "#e34f59",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "x": 960,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.75,
+          "u1": 0.8,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a4/f6/99/a4f69906-3cc5-722a-a4c3-e7efc5042f57/AppIcon-0-0-1x_U007ephone-0-1-0-0-85-220.png/512x512bb.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "apple-marketing-tools"
+        }
+      }
+    },
+    {
+      "id": "app-333903271",
+      "name": "X",
+      "appId": "333903271",
+      "artistName": "X Corp.",
+      "url": "https://apps.apple.com/us/app/x/id333903271",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4b/d8/a8/4bd8a826-aa47-5120-38ad-bd3198b3bed3/ProductionAppIcon-0-0-1x_U007emarketing-0-8-0-0-0-85-220.png/512x512bb.png",
+      "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4b/d8/a8/4bd8a826-aa47-5120-38ad-bd3198b3bed3/ProductionAppIcon-0-0-1x_U007emarketing-0-8-0-0-0-85-220.png/512x512bb.png",
+      "avatarText": "X",
+      "color": "#d78fca",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "x": 1280,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.75,
+          "u1": 1,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4b/d8/a8/4bd8a826-aa47-5120-38ad-bd3198b3bed3/ProductionAppIcon-0-0-1x_U007emarketing-0-8-0-0-0-85-220.png/512x512bb.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "apple-marketing-tools"
+        }
+      }
+    }
+  ],
+  "frames": [
+    {
+      "date": "20260821",
+      "values": [
+        {
+          "id": "app-6448311069",
+          "value": 397
+        },
+        {
+          "id": "app-6473753684",
+          "value": 372
+        },
+        {
+          "id": "app-6758667154",
+          "value": 367
+        },
+        {
+          "id": "app-983156458",
+          "value": 366
+        },
+        {
+          "id": "app-6477489729",
+          "value": 362
+        },
+        {
+          "id": "app-1500855883",
+          "value": 349
+        },
+        {
+          "id": "app-284815942",
+          "value": 335
+        },
+        {
+          "id": "app-1223471316",
+          "value": 330
+        },
+        {
+          "id": "app-6446901002",
+          "value": 325
+        },
+        {
+          "id": "app-6761538521",
+          "value": 323
+        },
+        {
+          "id": "app-1641486558",
+          "value": 317
+        },
+        {
+          "id": "app-1113153706",
+          "value": 313
+        },
+        {
+          "id": "app-6447582581",
+          "value": 307
+        },
+        {
+          "id": "app-368677368",
+          "value": 305
+        },
+        {
+          "id": "app-585027354",
+          "value": 298
+        },
+        {
+          "id": "app-500003565",
+          "value": 270
+        }
+      ]
+    },
+    {
+      "date": "20260822",
+      "values": [
+        {
+          "id": "app-6448311069",
+          "value": 392
+        },
+        {
+          "id": "app-6745190566",
+          "value": 390
+        },
+        {
+          "id": "app-6447582581",
+          "value": 372
+        },
+        {
+          "id": "app-6758667154",
+          "value": 360
+        },
+        {
+          "id": "app-6473753684",
+          "value": 359
+        },
+        {
+          "id": "app-6477489729",
+          "value": 351
+        },
+        {
+          "id": "app-1500855883",
+          "value": 346
+        },
+        {
+          "id": "app-368677368",
+          "value": 342
+        },
+        {
+          "id": "app-284815942",
+          "value": 328
+        },
+        {
+          "id": "app-6761538521",
+          "value": 325
+        },
+        {
+          "id": "app-500003565",
+          "value": 315
+        },
+        {
+          "id": "app-585027354",
+          "value": 310
+        },
+        {
+          "id": "app-1641486558",
+          "value": 309
+        },
+        {
+          "id": "app-6446901002",
+          "value": 308
+        },
+        {
+          "id": "app-1223471316",
+          "value": 299
+        },
+        {
+          "id": "app-983156458",
+          "value": 281
+        },
+        {
+          "id": "app-384830320",
+          "value": 277
+        }
+      ]
+    },
+    {
+      "date": "20260823",
+      "values": [
+        {
+          "id": "app-6448311069",
+          "value": 393
+        },
+        {
+          "id": "app-6447582581",
+          "value": 389
+        },
+        {
+          "id": "app-6745190566",
+          "value": 373
+        },
+        {
+          "id": "app-6473753684",
+          "value": 352
+        },
+        {
+          "id": "app-368677368",
+          "value": 347
+        },
+        {
+          "id": "app-1500855883",
+          "value": 346
+        },
+        {
+          "id": "app-6477489729",
+          "value": 344
+        },
+        {
+          "id": "app-6758667154",
+          "value": 344
+        },
+        {
+          "id": "app-284815942",
+          "value": 333
+        },
+        {
+          "id": "app-6761538521",
+          "value": 333
+        },
+        {
+          "id": "app-1641486558",
+          "value": 324
+        },
+        {
+          "id": "app-500003565",
+          "value": 319
+        },
+        {
+          "id": "app-6446901002",
+          "value": 316
+        },
+        {
+          "id": "app-585027354",
+          "value": 299
+        },
+        {
+          "id": "app-384830320",
+          "value": 283
+        },
+        {
+          "id": "app-1223471316",
+          "value": 279
+        },
+        {
+          "id": "app-333903271",
+          "value": 256
+        }
+      ]
+    },
+    {
+      "date": "20260824",
+      "values": [
+        {
+          "id": "app-6448311069",
+          "value": 396
+        },
+        {
+          "id": "app-6447582581",
+          "value": 381
+        },
+        {
+          "id": "app-6473753684",
+          "value": 367
+        },
+        {
+          "id": "app-1500855883",
+          "value": 356
+        },
+        {
+          "id": "app-6477489729",
+          "value": 353
+        },
+        {
+          "id": "app-6758667154",
+          "value": 345
+        },
+        {
+          "id": "app-284815942",
+          "value": 335
+        },
+        {
+          "id": "app-6761538521",
+          "value": 330
+        },
+        {
+          "id": "app-1641486558",
+          "value": 328
+        },
+        {
+          "id": "app-6446901002",
+          "value": 327
+        },
+        {
+          "id": "app-368677368",
+          "value": 314
+        },
+        {
+          "id": "app-1223471316",
+          "value": 302
+        },
+        {
+          "id": "app-6745190566",
+          "value": 287
+        },
+        {
+          "id": "app-384830320",
+          "value": 286
+        },
+        {
+          "id": "app-585027354",
+          "value": 279
+        },
+        {
+          "id": "app-983156458",
+          "value": 275
+        },
+        {
+          "id": "app-333903271",
+          "value": 261
+        }
+      ]
+    },
+    {
+      "date": "20260825",
+      "values": [
+        {
+          "id": "app-6448311069",
+          "value": 395
+        },
+        {
+          "id": "app-983156458",
+          "value": 378
+        },
+        {
+          "id": "app-6473753684",
+          "value": 374
+        },
+        {
+          "id": "app-1500855883",
+          "value": 353
+        },
+        {
+          "id": "app-6477489729",
+          "value": 351
+        },
+        {
+          "id": "app-1223471316",
+          "value": 344
+        },
+        {
+          "id": "app-6447582581",
+          "value": 340
+        },
+        {
+          "id": "app-284815942",
+          "value": 330
+        },
+        {
+          "id": "app-6446901002",
+          "value": 327
+        },
+        {
+          "id": "app-1641486558",
+          "value": 316
+        },
+        {
+          "id": "app-6758667154",
+          "value": 307
+        },
+        {
+          "id": "app-6761538521",
+          "value": 295
+        },
+        {
+          "id": "app-1113153706",
+          "value": 292
+        },
+        {
+          "id": "app-333903271",
+          "value": 287
+        },
+        {
+          "id": "app-368677368",
+          "value": 285
+        },
+        {
+          "id": "app-585027354",
+          "value": 284
+        },
+        {
+          "id": "app-6745190566",
+          "value": 256
+        }
+      ]
+    },
+    {
+      "date": "20260827",
+      "values": [
+        {
+          "id": "app-6448311069",
+          "value": 395
+        },
+        {
+          "id": "app-983156458",
+          "value": 380
+        },
+        {
+          "id": "app-6473753684",
+          "value": 379
+        },
+        {
+          "id": "app-6477489729",
+          "value": 352
+        },
+        {
+          "id": "app-1500855883",
+          "value": 343
+        },
+        {
+          "id": "app-1113153706",
+          "value": 337
+        },
+        {
+          "id": "app-1223471316",
+          "value": 336
+        },
+        {
+          "id": "app-6446901002",
+          "value": 335
+        },
+        {
+          "id": "app-500003565",
+          "value": 319
+        },
+        {
+          "id": "app-333903271",
+          "value": 311
+        },
+        {
+          "id": "app-6761538521",
+          "value": 308
+        },
+        {
+          "id": "app-1641486558",
+          "value": 300
+        },
+        {
+          "id": "app-284815942",
+          "value": 290
+        },
+        {
+          "id": "app-585027354",
+          "value": 284
+        },
+        {
+          "id": "app-368677368",
+          "value": 274
+        },
+        {
+          "id": "app-6745190566",
+          "value": 267
+        },
+        {
+          "id": "app-6447582581",
+          "value": 267
+        },
+        {
+          "id": "app-6758667154",
+          "value": 267
+        }
+      ]
+    },
+    {
+      "date": "20260828",
+      "values": [
+        {
+          "id": "app-6448311069",
+          "value": 394
+        },
+        {
+          "id": "app-6473753684",
+          "value": 380
+        },
+        {
+          "id": "app-983156458",
+          "value": 368
+        },
+        {
+          "id": "app-6477489729",
+          "value": 356
+        },
+        {
+          "id": "app-1500855883",
+          "value": 346
+        },
+        {
+          "id": "app-6446901002",
+          "value": 335
+        },
+        {
+          "id": "app-1113153706",
+          "value": 330
+        },
+        {
+          "id": "app-1223471316",
+          "value": 329
+        },
+        {
+          "id": "app-6761538521",
+          "value": 328
+        },
+        {
+          "id": "app-500003565",
+          "value": 326
+        },
+        {
+          "id": "app-368677368",
+          "value": 320
+        },
+        {
+          "id": "app-585027354",
+          "value": 306
+        },
+        {
+          "id": "app-284815942",
+          "value": 303
+        },
+        {
+          "id": "app-333903271",
+          "value": 297
+        },
+        {
+          "id": "app-1641486558",
+          "value": 285
+        },
+        {
+          "id": "app-6447582581",
+          "value": 281
+        },
+        {
+          "id": "app-384830320",
+          "value": 262
+        }
+      ]
+    },
+    {
+      "date": "20260829",
+      "values": [
+        {
+          "id": "app-6448311069",
+          "value": 395
+        },
+        {
+          "id": "app-6447582581",
+          "value": 375
+        },
+        {
+          "id": "app-6473753684",
+          "value": 374
+        },
+        {
+          "id": "app-368677368",
+          "value": 354
+        },
+        {
+          "id": "app-6477489729",
+          "value": 351
+        },
+        {
+          "id": "app-1500855883",
+          "value": 347
+        },
+        {
+          "id": "app-500003565",
+          "value": 344
+        },
+        {
+          "id": "app-585027354",
+          "value": 331
+        },
+        {
+          "id": "app-983156458",
+          "value": 323
+        },
+        {
+          "id": "app-1223471316",
+          "value": 318
+        },
+        {
+          "id": "app-6446901002",
+          "value": 317
+        },
+        {
+          "id": "app-6761538521",
+          "value": 315
+        },
+        {
+          "id": "app-284815942",
+          "value": 308
+        },
+        {
+          "id": "app-384830320",
+          "value": 308
+        },
+        {
+          "id": "app-1641486558",
+          "value": 295
+        },
+        {
+          "id": "app-333903271",
+          "value": 283
+        },
+        {
+          "id": "app-1636235979",
+          "value": 269
+        }
+      ]
+    },
+    {
+      "date": "20260830",
+      "values": [
+        {
+          "id": "app-6448311069",
+          "value": 395
+        },
+        {
+          "id": "app-6447582581",
+          "value": 388
+        },
+        {
+          "id": "app-1636235979",
+          "value": 374
+        },
+        {
+          "id": "app-6473753684",
+          "value": 361
+        },
+        {
+          "id": "app-368677368",
+          "value": 359
+        },
+        {
+          "id": "app-1500855883",
+          "value": 354
+        },
+        {
+          "id": "app-6477489729",
+          "value": 341
+        },
+        {
+          "id": "app-6761538521",
+          "value": 333
+        },
+        {
+          "id": "app-500003565",
+          "value": 325
+        },
+        {
+          "id": "app-585027354",
+          "value": 321
+        },
+        {
+          "id": "app-6446901002",
+          "value": 315
+        },
+        {
+          "id": "app-384830320",
+          "value": 315
+        },
+        {
+          "id": "app-1641486558",
+          "value": 309
+        },
+        {
+          "id": "app-284815942",
+          "value": 303
+        },
+        {
+          "id": "app-1223471316",
+          "value": 282
+        },
+        {
+          "id": "app-333903271",
+          "value": 257
+        }
+      ]
+    },
+    {
+      "date": "20260831",
+      "values": [
+        {
+          "id": "app-6448311069",
+          "value": 395
+        },
+        {
+          "id": "app-6447582581",
+          "value": 371
+        },
+        {
+          "id": "app-1636235979",
+          "value": 370
+        },
+        {
+          "id": "app-6473753684",
+          "value": 369
+        },
+        {
+          "id": "app-1500855883",
+          "value": 358
+        },
+        {
+          "id": "app-6477489729",
+          "value": 353
+        },
+        {
+          "id": "app-6446901002",
+          "value": 320
+        },
+        {
+          "id": "app-368677368",
+          "value": 320
+        },
+        {
+          "id": "app-6761538521",
+          "value": 319
+        },
+        {
+          "id": "app-1223471316",
+          "value": 311
+        },
+        {
+          "id": "app-1641486558",
+          "value": 306
+        },
+        {
+          "id": "app-384830320",
+          "value": 305
+        },
+        {
+          "id": "app-585027354",
+          "value": 304
+        },
+        {
+          "id": "app-284815942",
+          "value": 299
+        },
+        {
+          "id": "app-500003565",
+          "value": 272
+        },
+        {
+          "id": "app-983156458",
+          "value": 247
+        }
+      ]
+    },
+    {
+      "date": "20260901",
+      "values": [
+        {
+          "id": "app-6448311069",
+          "value": 395
+        },
+        {
+          "id": "app-6473753684",
+          "value": 376
+        },
+        {
+          "id": "app-983156458",
+          "value": 366
+        },
+        {
+          "id": "app-6477489729",
+          "value": 352
+        },
+        {
+          "id": "app-1500855883",
+          "value": 346
+        },
+        {
+          "id": "app-1223471316",
+          "value": 334
+        },
+        {
+          "id": "app-6446901002",
+          "value": 322
+        },
+        {
+          "id": "app-6447582581",
+          "value": 309
+        },
+        {
+          "id": "app-585027354",
+          "value": 300
+        },
+        {
+          "id": "app-284815942",
+          "value": 293
+        },
+        {
+          "id": "app-1641486558",
+          "value": 288
+        },
+        {
+          "id": "app-1113153706",
+          "value": 284
+        },
+        {
+          "id": "app-6761538521",
+          "value": 282
+        },
+        {
+          "id": "app-1636235979",
+          "value": 279
+        },
+        {
+          "id": "app-368677368",
+          "value": 274
+        },
+        {
+          "id": "app-384830320",
+          "value": 266
+        }
+      ]
+    },
+    {
+      "date": "20260902",
+      "values": [
+        {
+          "id": "app-6448311069",
+          "value": 391
+        },
+        {
+          "id": "app-983156458",
+          "value": 376
+        },
+        {
+          "id": "app-6473753684",
+          "value": 374
+        },
+        {
+          "id": "app-1113153706",
+          "value": 355
+        },
+        {
+          "id": "app-6477489729",
+          "value": 351
+        },
+        {
+          "id": "app-1500855883",
+          "value": 340
+        },
+        {
+          "id": "app-1223471316",
+          "value": 340
+        },
+        {
+          "id": "app-500003565",
+          "value": 304
+        },
+        {
+          "id": "app-6446901002",
+          "value": 303
+        },
+        {
+          "id": "app-585027354",
+          "value": 299
+        },
+        {
+          "id": "app-284815942",
+          "value": 290
+        },
+        {
+          "id": "app-1641486558",
+          "value": 272
+        },
+        {
+          "id": "app-368677368",
+          "value": 264
+        },
+        {
+          "id": "app-384830320",
+          "value": 261
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "date": "20260821",
+      "title": "ChatGPT leads the app chart",
+      "body": "ChatGPT has the highest cross-country top-free app score in this observed frame."
+    },
+    {
+      "date": "20260902",
+      "title": "ChatGPT leads the app chart",
+      "body": "ChatGPT has the highest cross-country top-free app score in this observed frame."
+    }
+  ],
+  "sources": [
+    {
+      "title": "RSS Feed Generator",
+      "publisher": "Apple Services Performance Partners",
+      "url": "https://performance-partners.apple.com/tools",
+      "note": "Current chart feed source for the production adapter. Longitudinal history is built from dat.city StoryOps snapshots."
+    }
+  ],
+  "lastObservationDate": "2026-09-02",
+  "dataFreshness": {
+    "status": "fresh",
+    "refreshCadence": "daily",
+    "lastUpdated": "2026-09-02T08:01:38.701Z",
+    "lastRefreshAttemptedAt": "2026-09-02T08:01:38.701Z",
+    "lastRefreshError": null,
+    "lastObservationDate": "2026-09-02",
+    "nextRefreshAt": "2026-09-03T08:00:00.000Z",
+    "sourceStatus": "Apple Marketing Tools RSS chart feeds",
+    "confidence": "Observed Apple top-free app feeds for US, GB, CA, AU at 2026-09-02T08:01:59.849Z."
+  },
+  "taxonomy": {
+    "primaryCategory": "technology",
+    "categories": [
+      "technology",
+      "consumer-apps",
+      "markets"
+    ],
+    "tags": [
+      "app-store",
+      "apps",
+      "charts",
+      "mobile",
+      "country-rankings"
+    ],
+    "entityTypes": [
+      "app",
+      "game"
+    ],
+    "sourceTypes": [
+      "apple-rss"
+    ],
+    "geoScope": "multi-country"
+  },
+  "relationships": [
+    {
+      "target": "games-people-are-playing",
+      "type": "consumer-apps-and-games",
+      "weight": 0.56,
+      "reason": "App charts and game charts both measure consumer software attention."
+    },
+    {
+      "target": "open-source-ai-repo-momentum",
+      "type": "software-market",
+      "weight": 0.5,
+      "reason": "Both are software adoption rankings from platform data."
+    },
+    {
+      "target": "frontier-language-model-intelligence",
+      "type": "technology-adoption",
+      "weight": 0.48,
+      "reason": "AI capability trends can turn into consumer app adoption trends."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "software-platforms",
+    "mainland": "technology",
+    "bridgePriority": [
+      "games-people-are-playing",
+      "open-source-ai-repo-momentum"
+    ]
+  },
+  "media": {
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-09-02T08:01:38.701Z",
+    "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+    "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+    "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+    "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "imageFit": "cover",
+    "columns": 5,
+    "rows": 4,
+    "width": 1600,
+    "height": 1280,
+    "itemCount": 20,
+    "sourcedImageCount": 20,
+    "generatedImageCount": 0,
+    "placeholderCount": 0,
+    "ogImageUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/app-store-takeover.png",
+    "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/app-store-takeover.png",
+    "ogImageWidth": 1200,
+    "ogImageHeight": 630
+  },
+  "schemaVersion": 1,
+  "contentKind": "dat-city.story",
+  "generatedAt": "2026-09-02T08:01:38.701Z",
+  "versionId": "20260902T080138Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "storyops-scheduler",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-09-02T08:01:38.701Z",
+    "versionId": "20260902T080138Z",
+    "adapter": "app-store-rankings",
+    "storySlug": "app-store-takeover",
+    "districtId": null,
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "publicProjection": {
+    "kind": "story",
+    "version": 1,
+    "generatedAt": "2026-09-02T08:01:38.701Z",
+    "adapter": "app-store-rankings",
+    "cache": {
+      "browserMaxAgeSeconds": 60,
+      "edgeMaxAgeSeconds": 3600
+    }
+  },
+  "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/app-store-takeover.png"
+}

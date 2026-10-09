@@ -1,0 +1,819 @@
+{
+  "schemaVersion": 1,
+  "contentKind": "dat-city.district",
+  "version": 1,
+  "generatedAt": "2026-09-01T07:03:08.053Z",
+  "versionId": "20260901T070308Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "storyops-scheduler",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-09-01T07:03:08.053Z",
+    "versionId": "20260901T070308Z",
+    "adapter": null,
+    "storySlug": "prime-video-top-10",
+    "districtId": "prime-video-quay",
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "id": "prime-video-quay",
+  "name": "Prime Video Quay",
+  "storySlug": "prime-video-top-10",
+  "storyUrl": "/stories/prime-video-top-10/",
+  "publicStoryUrl": "/stories/prime-video-top-10.json",
+  "metric": "Wikipedia views",
+  "metricKey": "wikipedia-views",
+  "latestFrameLabel": "2026-09-01",
+  "summary": "Prime Video originals ranked by Wikipedia attention as a temporary source-backed bootstrap, not an official weekly Top 10.",
+  "taxonomy": {
+    "primaryCategory": "entertainment",
+    "categories": [
+      "entertainment",
+      "streaming",
+      "television"
+    ],
+    "tags": [
+      "prime-video",
+      "streaming",
+      "top-10",
+      "watching"
+    ],
+    "entityTypes": [
+      "film",
+      "series"
+    ],
+    "sourceTypes": [
+      "wikipedia"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "what-everyone-is-watching",
+      "type": "streaming-platform-peer",
+      "weight": 0.9,
+      "reason": "This should sit next to the existing Netflix Top 10 watch district."
+    },
+    {
+      "target": "movie-tv-search-heat",
+      "type": "screen-demand",
+      "weight": 0.7,
+      "reason": "Platform charts can be compared with public movie and TV search attention."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "streaming-platforms",
+    "mainland": "culture",
+    "bridgePriority": [
+      "what-everyone-is-watching",
+      "movie-tv-search-heat"
+    ]
+  },
+  "thumbnail": "/assets/og/dat-city.webp",
+  "status": "fresh",
+  "dataUpdatedAt": "2026-09-01T07:03:08.053Z",
+  "staleAfterHours": 192,
+  "dormant": false,
+  "lastObservationDate": "2026-09-01",
+  "nextRefreshAt": "2026-09-08T07:00:00.000Z",
+  "confidence": "Observed 30 days of en.wikipedia pageviews for titles listed on 2 Wikipedia platform-original page(s) at 2026-09-01T07:03:08.053Z. This is not a weekly or current streaming Top 10.",
+  "methodology": "Wikipedia does not currently provide a durable weekly/current Top 10 page for Prime Video. This bootstrap uses the configured Wikipedia original-programming and original-film list pages as the source universe, then ranks titles by recent en.wikipedia pageviews via Wikipedia's PageViewInfo API. Treat the output as public-interest attention among platform originals, not streaming watch time or official platform ranking.",
+  "sources": [
+    {
+      "title": "List of Amazon Prime Video original programming",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_Amazon_Prime_Video_original_programming",
+      "note": "Source universe for Prime Video original series."
+    },
+    {
+      "title": "List of Amazon Prime Video original films",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_Amazon_Prime_Video_original_films",
+      "note": "Source universe for Prime Video original films."
+    }
+  ],
+  "media": {
+    "imageFit": "contain",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-09-01T07:03:08.053Z",
+    "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+    "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+    "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+    "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 5,
+    "rows": 4,
+    "width": 1600,
+    "height": 1280,
+    "itemCount": 20,
+    "sourcedImageCount": 20,
+    "generatedImageCount": 0,
+    "placeholderCount": 0
+  },
+  "entities": [
+    {
+      "id": "sterling-point",
+      "name": "Sterling Point",
+      "value": 1022062,
+      "rank": 1,
+      "color": "#41a99f",
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/35/Sterling_Point_1_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "storyUrl": "/stories/prime-video-top-10/",
+      "sourceIds": [
+        "List of Amazon Prime Video original programming",
+        "List of Amazon Prime Video original films"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.2,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/3/35/Sterling_Point_1_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "reacher-tv-series",
+      "name": "Reacher",
+      "value": 811629,
+      "rank": 2,
+      "color": "#86bdf4",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/25/Reacher_series_title_card.png",
+      "storyUrl": "/stories/prime-video-top-10/",
+      "sourceIds": [
+        "List of Amazon Prime Video original programming",
+        "List of Amazon Prime Video original films"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0,
+          "u1": 0.4,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/25/Reacher_series_title_card.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "ride-or-die-2026-tv-series",
+      "name": "Ride or Die",
+      "value": 344691,
+      "rank": 3,
+      "color": "#d78fca",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Ride_or_Die_%282026_tv_series%29.png",
+      "storyUrl": "/stories/prime-video-top-10/",
+      "sourceIds": [
+        "List of Amazon Prime Video original programming",
+        "List of Amazon Prime Video original films"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0,
+          "u1": 0.6,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Ride_or_Die_%282026_tv_series%29.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "off-campus",
+      "name": "Off Campus",
+      "value": 259099,
+      "rank": 4,
+      "color": "#f18c4f",
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/fa/Off_Campus_logo.webp",
+      "storyUrl": "/stories/prime-video-top-10/",
+      "sourceIds": [
+        "List of Amazon Prime Video original programming",
+        "List of Amazon Prime Video original films"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0,
+          "u1": 0.8,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/f/fa/Off_Campus_logo.webp",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "batman-caped-crusader",
+      "name": "Batman: Caped Crusader",
+      "value": 202087,
+      "rank": 5,
+      "color": "#86bdf4",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Batman-Caped_Crusader_animated_series_logo.svg/960px-Batman-Caped_Crusader_animated_series_logo.svg.png",
+      "storyUrl": "/stories/prime-video-top-10/",
+      "sourceIds": [
+        "List of Amazon Prime Video original programming",
+        "List of Amazon Prime Video original films"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "x": 1280,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Batman-Caped_Crusader_animated_series_logo.svg/960px-Batman-Caped_Crusader_animated_series_logo.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "arthur-the-king",
+      "name": "Arthur the King",
+      "value": 114116,
+      "rank": 6,
+      "color": "#8f6bff",
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/94/Arthur_the_king_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "storyUrl": "/stories/prime-video-top-10/",
+      "sourceIds": [
+        "List of Amazon Prime Video original programming",
+        "List of Amazon Prime Video original films"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.25,
+          "u1": 0.2,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/9/94/Arthur_the_king_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "neagley",
+      "name": "Neagley",
+      "value": 106077,
+      "rank": 7,
+      "color": "#00a6ff",
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/c9/Neagley_season_1_poster.jpeg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "storyUrl": "/stories/prime-video-top-10/",
+      "sourceIds": [
+        "List of Amazon Prime Video original programming",
+        "List of Amazon Prime Video original films"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.25,
+          "u1": 0.4,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/c/c9/Neagley_season_1_poster.jpeg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "invincible-tv-series",
+      "name": "Invincible",
+      "value": 102161,
+      "rank": 8,
+      "color": "#f18c4f",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Invincible_comic_series_logo.png/960px-Invincible_comic_series_logo.png",
+      "storyUrl": "/stories/prime-video-top-10/",
+      "sourceIds": [
+        "List of Amazon Prime Video original programming",
+        "List of Amazon Prime Video original films"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.25,
+          "u1": 0.6,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Invincible_comic_series_logo.png/960px-Invincible_comic_series_logo.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "fallout-american-tv-series",
+      "name": "Fallout",
+      "value": 96637,
+      "rank": 9,
+      "color": "#86bdf4",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Fallout_television_series_logo.svg/960px-Fallout_television_series_logo.svg.png",
+      "storyUrl": "/stories/prime-video-top-10/",
+      "sourceIds": [
+        "List of Amazon Prime Video original programming",
+        "List of Amazon Prime Video original films"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.25,
+          "u1": 0.8,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Fallout_television_series_logo.svg/960px-Fallout_television_series_logo.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "adarsh-baal-vidyalaya",
+      "name": "Adarsh Baal Vidyalaya",
+      "value": 95059,
+      "rank": 10,
+      "color": "#ef426f",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Star_empty.svg/960px-Star_empty.svg.png",
+      "storyUrl": "/stories/prime-video-top-10/",
+      "sourceIds": [
+        "List of Amazon Prime Video original programming",
+        "List of Amazon Prime Video original films"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "x": 1280,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.25,
+          "u1": 1,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Star_empty.svg/960px-Star_empty.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "every-year-after",
+      "name": "Every Year After",
+      "value": 86728,
+      "rank": 11,
+      "color": "#ffc84a",
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/49/Every_year_after_poster.jpg",
+      "storyUrl": "/stories/prime-video-top-10/",
+      "sourceIds": [
+        "List of Amazon Prime Video original programming",
+        "List of Amazon Prime Video original films"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.5,
+          "u1": 0.2,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/4/49/Every_year_after_poster.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "clarkson-s-farm",
+      "name": "Clarkson's Farm",
+      "value": 85249,
+      "rank": 12,
+      "color": "#00a6ff",
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a0/Clarkson%27s_Farm_Title_Card.jpg",
+      "storyUrl": "/stories/prime-video-top-10/",
+      "sourceIds": [
+        "List of Amazon Prime Video original programming",
+        "List of Amazon Prime Video original films"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.5,
+          "u1": 0.4,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/a/a0/Clarkson%27s_Farm_Title_Card.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "elle-tv-series",
+      "name": "Elle",
+      "value": 84150,
+      "rank": 13,
+      "color": "#d78fca",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/57/Elle_%28TV_series%29_title_card.png",
+      "storyUrl": "/stories/prime-video-top-10/",
+      "sourceIds": [
+        "List of Amazon Prime Video original programming",
+        "List of Amazon Prime Video original films"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.5,
+          "u1": 0.6,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/Elle_%28TV_series%29_title_card.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "guy-ritchie-s-the-covenant",
+      "name": "Guy Ritchie's The Covenant",
+      "value": 79145,
+      "rank": 14,
+      "color": "#41a99f",
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/1d/TheCovenantPoster.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "storyUrl": "/stories/prime-video-top-10/",
+      "sourceIds": [
+        "List of Amazon Prime Video original programming",
+        "List of Amazon Prime Video original films"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.5,
+          "u1": 0.8,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/1/1d/TheCovenantPoster.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "scarpetta-tv-series",
+      "name": "Scarpetta",
+      "value": 72961,
+      "rank": 15,
+      "color": "#e34f59",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Scarpetta_logo.svg/960px-Scarpetta_logo.svg.png",
+      "storyUrl": "/stories/prime-video-top-10/",
+      "sourceIds": [
+        "List of Amazon Prime Video original programming",
+        "List of Amazon Prime Video original films"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "x": 1280,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.5,
+          "u1": 1,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Scarpetta_logo.svg/960px-Scarpetta_logo.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "hazbin-hotel",
+      "name": "Hazbin Hotel",
+      "value": 68224,
+      "rank": 16,
+      "color": "#c9a14a",
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/bf/Hazbin_Hotel_logo.png",
+      "storyUrl": "/stories/prime-video-top-10/",
+      "sourceIds": [
+        "List of Amazon Prime Video original programming",
+        "List of Amazon Prime Video original films"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "x": 0,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.75,
+          "u1": 0.2,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/b/bf/Hazbin_Hotel_logo.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "overcompensating-tv-series",
+      "name": "Overcompensating",
+      "value": 56373,
+      "rank": 17,
+      "color": "#ffc84a",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/78/Overcompensating_%28TV_series%29_logo.png",
+      "storyUrl": "/stories/prime-video-top-10/",
+      "sourceIds": [
+        "List of Amazon Prime Video original programming",
+        "List of Amazon Prime Video original films"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "x": 320,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.75,
+          "u1": 0.4,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/78/Overcompensating_%28TV_series%29_logo.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "citadel-tv-series",
+      "name": "Citadel",
+      "value": 52414,
+      "rank": 18,
+      "color": "#2f4858",
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/e9/Citadel_Amazon_TV_Show_Promotional_Poster_v2.jpg",
+      "storyUrl": "/stories/prime-video-top-10/",
+      "sourceIds": [
+        "List of Amazon Prime Video original programming",
+        "List of Amazon Prime Video original films"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "x": 640,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.75,
+          "u1": 0.6,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/e/e9/Citadel_Amazon_TV_Show_Promotional_Poster_v2.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "air-2023-american-film",
+      "name": "Air",
+      "value": 52234,
+      "rank": 19,
+      "color": "#18c871",
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/de/AirFilmPoster.png",
+      "storyUrl": "/stories/prime-video-top-10/",
+      "sourceIds": [
+        "List of Amazon Prime Video original programming",
+        "List of Amazon Prime Video original films"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "x": 960,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.75,
+          "u1": 0.8,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/d/de/AirFilmPoster.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "carrie-miniseries",
+      "name": "Carrie",
+      "value": 51692,
+      "rank": 20,
+      "color": "#2f4858",
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/7c/Carrie_%28miniseries_poster%29.png",
+      "storyUrl": "/stories/prime-video-top-10/",
+      "sourceIds": [
+        "List of Amazon Prime Video original programming",
+        "List of Amazon Prime Video original films"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/prime-video-top-10.json",
+          "x": 1280,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.75,
+          "u1": 1,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/7/7c/Carrie_%28miniseries_poster%29.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    }
+  ]
+}

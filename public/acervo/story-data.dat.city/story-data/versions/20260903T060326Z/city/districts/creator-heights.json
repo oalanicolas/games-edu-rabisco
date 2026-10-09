@@ -1,0 +1,1082 @@
+{
+  "schemaVersion": 1,
+  "contentKind": "dat-city.district",
+  "version": 1,
+  "generatedAt": "2026-08-31T06:03:47.224Z",
+  "versionId": "20260831T060347Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "storyops-scheduler",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-08-31T06:03:47.224Z",
+    "versionId": "20260831T060347Z",
+    "adapter": null,
+    "storySlug": "top-youtubers",
+    "districtId": "creator-heights",
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "id": "creator-heights",
+  "name": "Creator Heights",
+  "storySlug": "top-youtubers",
+  "storyUrl": "/stories/top-youtubers/",
+  "publicStoryUrl": "/stories/top-youtubers.json",
+  "metric": "Subscribers",
+  "metricKey": "subscribers",
+  "latestFrameLabel": "2026 refreshed table",
+  "summary": "YouTube's subscriber skyline, from early creator channels to global media giants and MrBeast-scale spectacle.",
+  "taxonomy": {
+    "primaryCategory": "culture",
+    "categories": [
+      "culture",
+      "internet",
+      "media"
+    ],
+    "tags": [
+      "youtube",
+      "creators",
+      "subscribers",
+      "rankings"
+    ],
+    "entityTypes": [
+      "channel",
+      "creator"
+    ],
+    "sourceTypes": [
+      "wikipedia"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "k-pop-attention",
+      "type": "shared-audience-attention",
+      "weight": 0.78,
+      "reason": "Both track online fandom and creator/media attention."
+    },
+    {
+      "target": "internet-obsession-meter",
+      "type": "attention-index",
+      "weight": 0.74,
+      "reason": "Both measure internet popularity and public attention."
+    },
+    {
+      "target": "what-everyone-is-watching",
+      "type": "media-culture",
+      "weight": 0.62,
+      "reason": "Both describe global media consumption patterns."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "culture-attention",
+    "mainland": "culture",
+    "bridgePriority": [
+      "k-pop-attention",
+      "internet-obsession-meter"
+    ]
+  },
+  "thumbnail": "/assets/og/top-youtubers.png",
+  "status": "fresh",
+  "dataUpdatedAt": "2026-08-31T06:03:47.224Z",
+  "staleAfterHours": 192,
+  "dormant": false,
+  "lastObservationDate": "2026",
+  "nextRefreshAt": "2026-09-07T06:00:00.000Z",
+  "confidence": "The latest 2026 frame is fetched from Wikipedia's current most-subscribed YouTube channels table; earlier frames remain curated anchor-year values from the existing editorial story.",
+  "methodology": "The adapter refreshes the latest subscriber leaderboard from Wikipedia's current table and preserves the existing curated historical anchor frames for the 2005-2025 playback. Counts are rounded to the displayed million-subscriber values in the source table.",
+  "sources": [
+    {
+      "title": "List of most-subscribed YouTube channels",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_most-subscribed_YouTube_channels",
+      "accessed": "2026-05-06",
+      "note": "Used for the April-May 2026 top-channel order, current rounded subscriber counts, and the historical progression table of channels that held the subscriber crown."
+    },
+    {
+      "title": "Most-subscribed YouTube channels",
+      "publisher": "Wikitubia / Fandom",
+      "url": "https://youtube.fandom.com/wiki/Most-subscribed_YouTube_channels",
+      "accessed": "2026-05-06",
+      "note": "Used as a cross-check for early leaderboard eras, 2010-2013 creator transitions, the PewDiePie/T-Series rivalry, and MrBeast overtaking T-Series."
+    },
+    {
+      "title": "The Most-Subscribed YouTubers and Channels",
+      "publisher": "Brandwatch",
+      "url": "https://www.brandwatch.com/blog/most-subscribed-youtubers-channels/",
+      "accessed": "2026-05-06",
+      "note": "Used as a 2026 sanity check for the current top-channel mix and public-facing channel descriptions."
+    },
+    {
+      "title": "MrBeast officially takes YouTube crown",
+      "publisher": "Axios",
+      "url": "https://www.axios.com/2024/06/03/mrbeast-youtube-most-subscribers-tseries",
+      "accessed": "2026-05-06",
+      "note": "Used for the June 2024 inflection point when MrBeast passed T-Series, including contemporary subscriber context from Social Blade and Axios research."
+    }
+  ],
+  "media": {
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-08-31T06:03:47.224Z",
+    "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.webp",
+    "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.webp",
+    "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.json",
+    "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.json",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "imageFit": "cover",
+    "columns": 8,
+    "rows": 7,
+    "width": 2560,
+    "height": 2240,
+    "itemCount": 50,
+    "sourcedImageCount": 39,
+    "generatedImageCount": 11,
+    "placeholderCount": 0
+  },
+  "entities": [
+    {
+      "id": "mrbeast",
+      "name": "MrBeast",
+      "value": 515000000,
+      "rank": 1,
+      "color": "#2c9ce5",
+      "image": null,
+      "storyUrl": "/stories/top-youtubers/",
+      "sourceIds": [
+        "List of most-subscribed YouTube channels",
+        "Most-subscribed YouTube channels",
+        "The Most-Subscribed YouTubers and Channels",
+        "MrBeast officially takes YouTube crown"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.json",
+          "x": 1920,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.285714,
+          "u1": 0.875,
+          "v1": 0.428571
+        },
+        "image": {
+          "sourceUrl": null,
+          "sourceStatus": "source-image",
+          "sourceProvider": "story-local"
+        }
+      }
+    },
+    {
+      "id": "tseries",
+      "name": "T-Series",
+      "value": 314000000,
+      "rank": 2,
+      "color": "#c72424",
+      "image": null,
+      "storyUrl": "/stories/top-youtubers/",
+      "sourceIds": [
+        "List of most-subscribed YouTube channels",
+        "Most-subscribed YouTube channels",
+        "The Most-Subscribed YouTubers and Channels",
+        "MrBeast officially takes YouTube crown"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.json",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.375,
+          "v0": 0.285714,
+          "u1": 0.5,
+          "v1": 0.428571
+        },
+        "image": {
+          "sourceUrl": null,
+          "sourceStatus": "source-image",
+          "sourceProvider": "story-local"
+        }
+      }
+    },
+    {
+      "id": "cocomelon",
+      "name": "Cocomelon",
+      "value": 202000000,
+      "rank": 3,
+      "color": "#79ba5a",
+      "image": null,
+      "storyUrl": "/stories/top-youtubers/",
+      "sourceIds": [
+        "List of most-subscribed YouTube channels",
+        "Most-subscribed YouTube channels",
+        "The Most-Subscribed YouTubers and Channels",
+        "MrBeast officially takes YouTube crown"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.json",
+          "x": 1280,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.285714,
+          "u1": 0.625,
+          "v1": 0.428571
+        },
+        "image": {
+          "sourceUrl": null,
+          "sourceStatus": "source-image",
+          "sourceProvider": "story-local"
+        }
+      }
+    },
+    {
+      "id": "setindia",
+      "name": "SET India",
+      "value": 190000000,
+      "rank": 4,
+      "color": "#5f8ee4",
+      "image": null,
+      "storyUrl": "/stories/top-youtubers/",
+      "sourceIds": [
+        "List of most-subscribed YouTube channels",
+        "Most-subscribed YouTube channels",
+        "The Most-Subscribed YouTubers and Channels",
+        "MrBeast officially takes YouTube crown"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.json",
+          "x": 1600,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.625,
+          "v0": 0.285714,
+          "u1": 0.75,
+          "v1": 0.428571
+        },
+        "image": {
+          "sourceUrl": null,
+          "sourceStatus": "source-image",
+          "sourceProvider": "story-local"
+        }
+      }
+    },
+    {
+      "id": "vladandniki",
+      "name": "Vlad and Niki",
+      "shortName": "Vlad & Niki",
+      "value": 150000000,
+      "rank": 5,
+      "color": "#66c7f4",
+      "image": null,
+      "storyUrl": "/stories/top-youtubers/",
+      "sourceIds": [
+        "List of most-subscribed YouTube channels",
+        "Most-subscribed YouTube channels",
+        "The Most-Subscribed YouTubers and Channels",
+        "MrBeast officially takes YouTube crown"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.json",
+          "x": 2240,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.875,
+          "v0": 0.285714,
+          "u1": 1,
+          "v1": 0.428571
+        },
+        "image": {
+          "sourceUrl": null,
+          "sourceStatus": "source-image",
+          "sourceProvider": "story-local"
+        }
+      }
+    },
+    {
+      "id": "stokestwins",
+      "name": "Stokes Twins",
+      "shortName": "Stokes",
+      "value": 145000000,
+      "rank": 6,
+      "color": "#8cd867",
+      "image": null,
+      "storyUrl": "/stories/top-youtubers/",
+      "sourceIds": [
+        "List of most-subscribed YouTube channels",
+        "Most-subscribed YouTube channels",
+        "The Most-Subscribed YouTubers and Channels",
+        "MrBeast officially takes YouTube crown"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.json",
+          "x": 0,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.428571,
+          "u1": 0.125,
+          "v1": 0.571429
+        },
+        "image": {
+          "sourceUrl": null,
+          "sourceStatus": "source-image",
+          "sourceProvider": "story-local"
+        }
+      }
+    },
+    {
+      "id": "kidsdiana",
+      "name": "Kids Diana Show",
+      "shortName": "Kids Diana",
+      "value": 138000000,
+      "rank": 7,
+      "color": "#f4a6c8",
+      "image": null,
+      "storyUrl": "/stories/top-youtubers/",
+      "sourceIds": [
+        "List of most-subscribed YouTube channels",
+        "Most-subscribed YouTube channels",
+        "The Most-Subscribed YouTubers and Channels",
+        "MrBeast officially takes YouTube crown"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.json",
+          "x": 320,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.125,
+          "v0": 0.428571,
+          "u1": 0.25,
+          "v1": 0.571429
+        },
+        "image": {
+          "sourceUrl": null,
+          "sourceStatus": "source-image",
+          "sourceProvider": "story-local"
+        }
+      }
+    },
+    {
+      "id": "kimpro",
+      "name": "KIMPRO",
+      "value": 135000000,
+      "rank": 8,
+      "color": "#84a7ff",
+      "image": null,
+      "storyUrl": "/stories/top-youtubers/",
+      "sourceIds": [
+        "List of most-subscribed YouTube channels",
+        "Most-subscribed YouTube channels",
+        "The Most-Subscribed YouTubers and Channels",
+        "MrBeast officially takes YouTube crown"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.json",
+          "x": 960,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.375,
+          "v0": 0.428571,
+          "u1": 0.5,
+          "v1": 0.571429
+        },
+        "image": {
+          "sourceUrl": null,
+          "sourceStatus": "source-image",
+          "sourceProvider": "story-local"
+        }
+      }
+    },
+    {
+      "id": "likenastya",
+      "name": "Like Nastya",
+      "value": 133000000,
+      "rank": 9,
+      "color": "#f6c75c",
+      "image": null,
+      "storyUrl": "/stories/top-youtubers/",
+      "sourceIds": [
+        "List of most-subscribed YouTube channels",
+        "Most-subscribed YouTube channels",
+        "The Most-Subscribed YouTubers and Channels",
+        "MrBeast officially takes YouTube crown"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.json",
+          "x": 640,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.428571,
+          "u1": 0.375,
+          "v1": 0.571429
+        },
+        "image": {
+          "sourceUrl": null,
+          "sourceStatus": "source-image",
+          "sourceProvider": "story-local"
+        }
+      }
+    },
+    {
+      "id": "zeemusic",
+      "name": "Zee Music Company",
+      "shortName": "Zee Music",
+      "value": 123000000,
+      "rank": 10,
+      "color": "#bc78dc",
+      "image": null,
+      "storyUrl": "/stories/top-youtubers/",
+      "sourceIds": [
+        "List of most-subscribed YouTube channels",
+        "Most-subscribed YouTube channels",
+        "The Most-Subscribed YouTubers and Channels",
+        "MrBeast officially takes YouTube crown"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.json",
+          "x": 1280,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.428571,
+          "u1": 0.625,
+          "v1": 0.571429
+        },
+        "image": {
+          "sourceUrl": null,
+          "sourceStatus": "source-image",
+          "sourceProvider": "story-local"
+        }
+      }
+    },
+    {
+      "id": "alejo-igoa",
+      "name": "Alejo Igoa",
+      "shortName": "Alejo Igoa",
+      "value": 121000000,
+      "rank": 11,
+      "color": "#ef426f",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Alejo_Igoa_2024_Retrato.jpg/960px-Alejo_Igoa_2024_Retrato.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "storyUrl": "/stories/top-youtubers/",
+      "sourceIds": [
+        "List of most-subscribed YouTube channels",
+        "Most-subscribed YouTube channels",
+        "The Most-Subscribed YouTubers and Channels",
+        "MrBeast officially takes YouTube crown"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.json",
+          "x": 320,
+          "y": 1280,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.125,
+          "v0": 0.571429,
+          "u1": 0.25,
+          "v1": 0.714286
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Alejo_Igoa_2024_Retrato.jpg/960px-Alejo_Igoa_2024_Retrato.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "wwe",
+      "name": "WWE",
+      "value": 114000000,
+      "rank": 12,
+      "color": "#b9bdc7",
+      "image": null,
+      "storyUrl": "/stories/top-youtubers/",
+      "sourceIds": [
+        "List of most-subscribed YouTube channels",
+        "Most-subscribed YouTube channels",
+        "The Most-Subscribed YouTubers and Channels",
+        "MrBeast officially takes YouTube crown"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.json",
+          "x": 1600,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.625,
+          "v0": 0.428571,
+          "u1": 0.75,
+          "v1": 0.571429
+        },
+        "image": {
+          "sourceUrl": null,
+          "sourceStatus": "source-image",
+          "sourceProvider": "story-local"
+        }
+      }
+    },
+    {
+      "id": "goldmines",
+      "name": "Goldmines",
+      "value": 110000000,
+      "rank": 13,
+      "color": "#d4af37",
+      "image": null,
+      "storyUrl": "/stories/top-youtubers/",
+      "sourceIds": [
+        "List of most-subscribed YouTube channels",
+        "Most-subscribed YouTube channels",
+        "The Most-Subscribed YouTubers and Channels",
+        "MrBeast officially takes YouTube crown"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.json",
+          "x": 2240,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.875,
+          "v0": 0.428571,
+          "u1": 1,
+          "v1": 0.571429
+        },
+        "image": {
+          "sourceUrl": null,
+          "sourceStatus": "source-image",
+          "sourceProvider": "story-local"
+        }
+      }
+    },
+    {
+      "id": "pewdiepie",
+      "name": "PewDiePie",
+      "value": 109000000,
+      "rank": 14,
+      "color": "#df3c37",
+      "image": null,
+      "storyUrl": "/stories/top-youtubers/",
+      "sourceIds": [
+        "List of most-subscribed YouTube channels",
+        "Most-subscribed YouTube channels",
+        "The Most-Subscribed YouTubers and Channels",
+        "MrBeast officially takes YouTube crown"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.json",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.375,
+          "v0": 0.142857,
+          "u1": 0.5,
+          "v1": 0.285714
+        },
+        "image": {
+          "sourceUrl": null,
+          "sourceStatus": "source-image",
+          "sourceProvider": "story-local"
+        }
+      }
+    },
+    {
+      "id": "sony-sab",
+      "name": "Sony SAB",
+      "shortName": "Sony SAB",
+      "value": 106000000,
+      "rank": 15,
+      "color": "#9aa4b2",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/SONY_SAB_SD_Logo_2022.png/960px-SONY_SAB_SD_Logo_2022.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "storyUrl": "/stories/top-youtubers/",
+      "sourceIds": [
+        "List of most-subscribed YouTube channels",
+        "Most-subscribed YouTube channels",
+        "The Most-Subscribed YouTubers and Channels",
+        "MrBeast officially takes YouTube crown"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.json",
+          "x": 640,
+          "y": 1280,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.571429,
+          "u1": 0.375,
+          "v1": 0.714286
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/SONY_SAB_SD_Logo_2022.png/960px-SONY_SAB_SD_Logo_2022.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "blackpink",
+      "name": "Blackpink",
+      "shortName": "Blackpink",
+      "value": 101000000,
+      "rank": 16,
+      "color": "#ff5a61",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/20240809_Blackpink_Pink_Carpet_09.png/960px-20240809_Blackpink_Pink_Carpet_09.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "storyUrl": "/stories/top-youtubers/",
+      "sourceIds": [
+        "List of most-subscribed YouTube channels",
+        "Most-subscribed YouTube channels",
+        "The Most-Subscribed YouTubers and Channels",
+        "MrBeast officially takes YouTube crown"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.json",
+          "x": 960,
+          "y": 1280,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.375,
+          "v0": 0.571429,
+          "u1": 0.5,
+          "v1": 0.714286
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/20240809_Blackpink_Pink_Carpet_09.png/960px-20240809_Blackpink_Pink_Carpet_09.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "alan-s-universe",
+      "name": "Alan's Universe",
+      "shortName": "Alan's Universe",
+      "value": 101000000,
+      "rank": 17,
+      "color": "#18c871",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Alan_Chow.jpg/960px-Alan_Chow.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "storyUrl": "/stories/top-youtubers/",
+      "sourceIds": [
+        "List of most-subscribed YouTube channels",
+        "Most-subscribed YouTube channels",
+        "The Most-Subscribed YouTubers and Channels",
+        "MrBeast officially takes YouTube crown"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.json",
+          "x": 1280,
+          "y": 1280,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.571429,
+          "u1": 0.625,
+          "v1": 0.714286
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Alan_Chow.jpg/960px-Alan_Chow.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "zee-tv",
+      "name": "Zee TV",
+      "shortName": "Zee TV",
+      "value": 98800000,
+      "rank": 18,
+      "color": "#ffc84a",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Zee_TV_2025.svg/960px-Zee_TV_2025.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "storyUrl": "/stories/top-youtubers/",
+      "sourceIds": [
+        "List of most-subscribed YouTube channels",
+        "Most-subscribed YouTube channels",
+        "The Most-Subscribed YouTubers and Channels",
+        "MrBeast officially takes YouTube crown"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.json",
+          "x": 1600,
+          "y": 1280,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.625,
+          "v0": 0.571429,
+          "u1": 0.75,
+          "v1": 0.714286
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Zee_TV_2025.svg/960px-Zee_TV_2025.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "chuchu-tv-nursery-rhymes-and-kids-songs",
+      "name": "ChuChu TV Nursery Rhymes & Kids Songs",
+      "shortName": "ChuChu TV Nursery Rhymes & Kids Songs",
+      "value": 98200000,
+      "rank": 19,
+      "color": "#00a6ff",
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/d8/ChuChu_TV-logo.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "storyUrl": "/stories/top-youtubers/",
+      "sourceIds": [
+        "List of most-subscribed YouTube channels",
+        "Most-subscribed YouTube channels",
+        "The Most-Subscribed YouTubers and Channels",
+        "MrBeast officially takes YouTube crown"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.json",
+          "x": 1920,
+          "y": 1280,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.571429,
+          "u1": 0.875,
+          "v1": 0.714286
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/d/d8/ChuChu_TV-logo.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "topper-guild",
+      "name": "Topper Guild",
+      "shortName": "Topper Guild",
+      "value": 94600000,
+      "rank": 20,
+      "color": "#8f6bff",
+      "image": null,
+      "storyUrl": "/stories/top-youtubers/",
+      "sourceIds": [
+        "List of most-subscribed YouTube channels",
+        "Most-subscribed YouTube channels",
+        "The Most-Subscribed YouTubers and Channels",
+        "MrBeast officially takes YouTube crown"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.json",
+          "x": 2240,
+          "y": 1280,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.875,
+          "v0": 0.571429,
+          "u1": 1,
+          "v1": 0.714286
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:topper-guild",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "a4",
+      "name": "A4",
+      "shortName": "A4",
+      "value": 92600000,
+      "rank": 21,
+      "color": "#f18c4f",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/%D0%92%D0%BB%D0%B0%D0%B4_%D0%91%D1%83%D0%BC%D0%B0%D0%B3%D0%B0_%283%29_%D0%BD%D0%B0_VK_Fest_5_%28cropped%29.jpg/960px-%D0%92%D0%BB%D0%B0%D0%B4_%D0%91%D1%83%D0%BC%D0%B0%D0%B3%D0%B0_%283%29_%D0%BD%D0%B0_VK_Fest_5_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "storyUrl": "/stories/top-youtubers/",
+      "sourceIds": [
+        "List of most-subscribed YouTube channels",
+        "Most-subscribed YouTube channels",
+        "The Most-Subscribed YouTubers and Channels",
+        "MrBeast officially takes YouTube crown"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.json",
+          "x": 0,
+          "y": 1600,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.714286,
+          "u1": 0.125,
+          "v1": 0.857143
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/%D0%92%D0%BB%D0%B0%D0%B4_%D0%91%D1%83%D0%BC%D0%B0%D0%B3%D0%B0_%283%29_%D0%BD%D0%B0_VK_Fest_5_%28cropped%29.jpg/960px-%D0%92%D0%BB%D0%B0%D0%B4_%D0%91%D1%83%D0%BC%D0%B0%D0%B3%D0%B0_%283%29_%D0%BD%D0%B0_VK_Fest_5_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "kl-bro-biju-rithvik",
+      "name": "KL BRO Biju Rithvik",
+      "shortName": "KL BRO Biju Rithvik",
+      "value": 88300000,
+      "rank": 22,
+      "color": "#41a99f",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Biju_klbro.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "storyUrl": "/stories/top-youtubers/",
+      "sourceIds": [
+        "List of most-subscribed YouTube channels",
+        "Most-subscribed YouTube channels",
+        "The Most-Subscribed YouTubers and Channels",
+        "MrBeast officially takes YouTube crown"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.json",
+          "x": 320,
+          "y": 1600,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.125,
+          "v0": 0.714286,
+          "u1": 0.25,
+          "v1": 0.857143
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Biju_klbro.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "bangtantv",
+      "name": "BANGTANTV",
+      "shortName": "BANGTANTV",
+      "value": 85700000,
+      "rank": 23,
+      "color": "#d78fca",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/BTS_during_a_White_House_press_conference_May_31%2C_2022_%28cropped%29.jpg/960px-BTS_during_a_White_House_press_conference_May_31%2C_2022_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "storyUrl": "/stories/top-youtubers/",
+      "sourceIds": [
+        "List of most-subscribed YouTube channels",
+        "Most-subscribed YouTube channels",
+        "The Most-Subscribed YouTubers and Channels",
+        "MrBeast officially takes YouTube crown"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.json",
+          "x": 640,
+          "y": 1600,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.714286,
+          "u1": 0.375,
+          "v1": 0.857143
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/BTS_during_a_White_House_press_conference_May_31%2C_2022_%28cropped%29.jpg/960px-BTS_during_a_White_House_press_conference_May_31%2C_2022_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "baby-shark-pinkfong-kids-songs-and-stories",
+      "name": "Baby Shark - Pinkfong Kids’ Songs & Stories",
+      "shortName": "Baby Shark - Pinkfong Kids’ Songs & Stories",
+      "value": 85000000,
+      "rank": 24,
+      "color": "#7b9b65",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Pinkfong_logo.svg/960px-Pinkfong_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "storyUrl": "/stories/top-youtubers/",
+      "sourceIds": [
+        "List of most-subscribed YouTube channels",
+        "Most-subscribed YouTube channels",
+        "The Most-Subscribed YouTubers and Channels",
+        "MrBeast officially takes YouTube crown"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.json",
+          "x": 960,
+          "y": 1600,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.375,
+          "v0": 0.714286,
+          "u1": 0.5,
+          "v1": 0.857143
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Pinkfong_logo.svg/960px-Pinkfong_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "zamzam-brothers-official",
+      "name": "ZAMZAM BROTHERS OFFICIAL",
+      "shortName": "ZAMZAM BROTHERS OFFICIAL",
+      "value": 84900000,
+      "rank": 25,
+      "color": "#2f4858",
+      "image": null,
+      "storyUrl": "/stories/top-youtubers/",
+      "sourceIds": [
+        "List of most-subscribed YouTube channels",
+        "Most-subscribed YouTube channels",
+        "The Most-Subscribed YouTubers and Channels",
+        "MrBeast officially takes YouTube crown"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/top-youtubers.json",
+          "x": 1280,
+          "y": 1600,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.714286,
+          "u1": 0.625,
+          "v1": 0.857143
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:zamzam-brothers-official",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    }
+  ]
+}

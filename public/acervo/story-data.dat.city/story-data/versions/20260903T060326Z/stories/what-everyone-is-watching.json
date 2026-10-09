@@ -1,0 +1,2544 @@
+{
+  "id": "what-everyone-is-watching",
+  "kicker": "Streaming Race",
+  "title": "What Everyone Is Watching",
+  "subtitle": "Weekly streaming hits rise, vanish, return, and dominate the global conversation.",
+  "badge": "Ranked by views",
+  "visualization": "race-arena",
+  "theme": "creator-arena",
+  "artStyle": "stylized-editorial",
+  "dateRange": [
+    "20211226",
+    "20260628"
+  ],
+  "timelineTicks": [
+    "20211226",
+    "20221225",
+    "20230618",
+    "20230625",
+    "20230730",
+    "20230827",
+    "20231126",
+    "20241229",
+    "20250126",
+    "20250223",
+    "20250427",
+    "20250629",
+    "20250727",
+    "20250831",
+    "20250928",
+    "20251026",
+    "20251130",
+    "20251221",
+    "20251228",
+    "20260104",
+    "20260111",
+    "20260118",
+    "20260125",
+    "20260201",
+    "20260208",
+    "20260215",
+    "20260222",
+    "20260301",
+    "20260308",
+    "20260315",
+    "20260322",
+    "20260329",
+    "20260405",
+    "20260412",
+    "20260419",
+    "20260426",
+    "20260503",
+    "20260510",
+    "20260517",
+    "20260524",
+    "20260531",
+    "20260607",
+    "20260614",
+    "20260621",
+    "20260628"
+  ],
+  "metricLabel": "Weekly views",
+  "ogImage": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/what-everyone-is-watching.png",
+  "cityPreview": {
+    "districtId": "culture-wire",
+    "districtName": "Streaming Watch District",
+    "cardLabel": "Streaming Race",
+    "summary": "Netflix-style weekly Top 10 titles by views, with country-level and global entertainment shifts.",
+    "primaryMetric": "Weekly views",
+    "latestFrameLabel": "Week ending 2026-06-28",
+    "storyUrl": "/stories/what-everyone-is-watching/",
+    "thumbnail": "/assets/og/dat-city.webp"
+  },
+  "sourceStatus": "Official Netflix Top 10 weekly global TSV",
+  "confidence": "Observed Netflix global Films (English) Top 10 weekly views through week ending 2026-06-28. Latest frame is rank-matched to the source table.",
+  "methodology": "This story is generated from Netflix's public all-weeks global Top 10 TSV for Films (English). The latest frame mirrors the source Top 10 rows for the configured category and week; prior frames show those same current Top 10 titles when they appeared in the preceding weeks. Facade artwork uses Netflix Tudum's public Top 10 card image when available, cropped to a portrait atlas tile; poster and boxshot URLs are retained as secondary reference artwork.",
+  "playback": {
+    "durationSeconds": 24,
+    "initialDate": "20211226",
+    "periodLabel": "weekly views"
+  },
+  "visual": {
+    "topCount": 10,
+    "referenceCount": 12,
+    "horizontalCount": 12
+  },
+  "layers": [
+    {
+      "id": "views",
+      "label": "Views",
+      "default": true
+    },
+    {
+      "id": "returns",
+      "label": "Returns",
+      "default": true
+    },
+    {
+      "id": "global",
+      "label": "Global Top 10",
+      "default": true
+    }
+  ],
+  "focus": [
+    {
+      "id": "voicemails-for-isabelle",
+      "label": "Voicemails for Isabelle"
+    },
+    {
+      "id": "little-brother",
+      "label": "Little Brother"
+    },
+    {
+      "id": "maternal-instinct",
+      "label": "Maternal Instinct"
+    },
+    {
+      "id": "swapped",
+      "label": "Swapped"
+    }
+  ],
+  "entities": [
+    {
+      "id": "voicemails-for-isabelle",
+      "name": "Voicemails for Isabelle",
+      "netflixCategory": "Films (English)",
+      "netflixVideoId": 81716219,
+      "imageUrl": "https://dnm.nflximg.net/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABeikZ_fbJV8LJzExsdrV8_PaGEpZqR9SqoTJRCr7Dfllb-Of_y025ZSMIr1nagvweKF54ScdEk5HbFdNBqhEVDtbAPhhbS9WxPMj.jpg?r=7b6",
+      "netflixImageUrl": "https://dnm.nflximg.net/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABeikZ_fbJV8LJzExsdrV8_PaGEpZqR9SqoTJRCr7Dfllb-Of_y025ZSMIr1nagvweKF54ScdEk5HbFdNBqhEVDtbAPhhbS9WxPMj.jpg?r=7b6",
+      "netflixPosterUrl": "https://dnm.nflximg.net/api/v6/Fd6HRR9aR42h7t8wvzeXtFryWKk/AAAAQTndtH2AxZVmNn8hkCLjoJbSUoOWl123hor83-9i7zZHzQ5-U18bFY1Zvj8CBGZRowENZNWCVGmB3A9EVUFY6FWuCIiiJzyyCUzVc1nO6jI0RFicREBJvN-pG7u_OahNsF3kkHy0XsmtvyIiD93cqelOofXWCf7OEhycyapotQ5yR-XTrrfe__aqDb48dGS1_3m0Xvjp64yvXDqkfrGs68pFpSQfksMEJcXgeikHxe_lfsptIbV3.jpg?r=b93",
+      "netflixPosterSource": "netflix-tudum-boxshot",
+      "netflixTop10CardUrl": "https://dnm.nflximg.net/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABeikZ_fbJV8LJzExsdrV8_PaGEpZqR9SqoTJRCr7Dfllb-Of_y025ZSMIr1nagvweKF54ScdEk5HbFdNBqhEVDtbAPhhbS9WxPMj.jpg?r=7b6",
+      "logoImageUrl": "https://dnm.nflximg.net/api/v6/9R7jmI8ri5rJNRlvCsMBDHE5JuQ/AAAABRkY6lPAa_jiuGm5Q8yjevHfkscz6ohyw5k65vg2opu2Kp7uHzEBa7L0m2mcBGi9LvcA_BLj5bx0vnxt1B15jlW2NLBsOpYXKqZCBGIeI6Q.png?r=577",
+      "avatarText": "VF",
+      "color": "#ff5a61",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 480,
+          "aspectRatio": 0.666667,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.166667,
+          "v1": 0.2
+        },
+        "image": {
+          "sourceUrl": "https://dnm.nflximg.net/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABeikZ_fbJV8LJzExsdrV8_PaGEpZqR9SqoTJRCr7Dfllb-Of_y025ZSMIr1nagvweKF54ScdEk5HbFdNBqhEVDtbAPhhbS9WxPMj.jpg?r=7b6",
+          "sourceStatus": "source-image",
+          "sourceProvider": "netflix-top10-card"
+        }
+      }
+    },
+    {
+      "id": "little-brother",
+      "name": "Little Brother",
+      "netflixCategory": "Films (English)",
+      "netflixVideoId": 81521988,
+      "imageUrl": "https://dnm.nflximg.net/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABayT09SIuP5A0TyPgai6eho2DElWqF5C-mFKJf-rf8PAERuTTm4WnQj94AclD44QtXgYCDbQ8YREOJkKxjPzsUxhJvHqkuGoaBv9.jpg?r=9ce",
+      "netflixImageUrl": "https://dnm.nflximg.net/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABayT09SIuP5A0TyPgai6eho2DElWqF5C-mFKJf-rf8PAERuTTm4WnQj94AclD44QtXgYCDbQ8YREOJkKxjPzsUxhJvHqkuGoaBv9.jpg?r=9ce",
+      "netflixPosterUrl": "https://occ-0-58-64.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABZC__Czy8Gzksj2i75OvGP0JibZr5jClC0Rj4nngOhAcQmMtcd_AEgz_wZFDIhf8rHS-L9C19Wl2BntCnyvnZsW7ADpi1EwcXpm9dReDzisb99sJAY02p6uNcLlvPhu8XoJlhA.jpg?r=024",
+      "netflixPosterSource": "netflix-title-boxshot",
+      "netflixTop10CardUrl": "https://dnm.nflximg.net/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABayT09SIuP5A0TyPgai6eho2DElWqF5C-mFKJf-rf8PAERuTTm4WnQj94AclD44QtXgYCDbQ8YREOJkKxjPzsUxhJvHqkuGoaBv9.jpg?r=9ce",
+      "logoImageUrl": "https://dnm.nflximg.net/api/v6/9R7jmI8ri5rJNRlvCsMBDHE5JuQ/AAAABRxQ6pKSlByg_JmnqQ--NT1SqF61yy1WAt7G4bdtTvXWB2Qcst9idrv86GCiqZSMcI6fqTdQ8HyMJRfp3Nb5r2n6XyH6UnZx1erKr13T3Lk.png?r=486",
+      "avatarText": "LB",
+      "color": "#18c871",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 480,
+          "aspectRatio": 0.666667,
+          "u0": 0.166667,
+          "v0": 0,
+          "u1": 0.333333,
+          "v1": 0.2
+        },
+        "image": {
+          "sourceUrl": "https://dnm.nflximg.net/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABayT09SIuP5A0TyPgai6eho2DElWqF5C-mFKJf-rf8PAERuTTm4WnQj94AclD44QtXgYCDbQ8YREOJkKxjPzsUxhJvHqkuGoaBv9.jpg?r=9ce",
+          "sourceStatus": "source-image",
+          "sourceProvider": "netflix-top10-card"
+        }
+      }
+    },
+    {
+      "id": "maternal-instinct",
+      "name": "Maternal Instinct",
+      "netflixCategory": "Films (English)",
+      "netflixVideoId": 81766093,
+      "imageUrl": "https://dnm.nflximg.net/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABbVIMRUsd_Jkpzpg0qBi4YXtkGvI4KRoxxECV6TcwykO14X-K6ptr6SHKaPm77WVaizB6EZzClZZt-17cUnMzXaCdh6Whpl3XhY0.jpg?r=100",
+      "netflixImageUrl": "https://dnm.nflximg.net/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABbVIMRUsd_Jkpzpg0qBi4YXtkGvI4KRoxxECV6TcwykO14X-K6ptr6SHKaPm77WVaizB6EZzClZZt-17cUnMzXaCdh6Whpl3XhY0.jpg?r=100",
+      "netflixPosterUrl": "https://dnm.nflximg.net/api/v6/Fd6HRR9aR42h7t8wvzeXtFryWKk/AAAAQauLN_CwNm_DiCLEy9zKhf75f3ORTwzalqVsQEVVOh-nUEgP6O6xBef-Ato_mQQ6x6zejoIpRg_vU1WHIxxjiaRTcIUq9NyGG-arOLEDUSTFfBchsbxfl7lv3acPT8h2HWqRXb7I049Ekle_oupmzGJswRtyV5dvitTMfufH9iCoiy-SuFU5KMzBKfe9Ir2Jl0wTKso1V6sVTkA4ap0SaCDMbPKR5dYG9jPT8sZ5z4Dn13XF65FU.jpg?r=e82",
+      "netflixPosterSource": "netflix-tudum-boxshot",
+      "netflixTop10CardUrl": "https://dnm.nflximg.net/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABbVIMRUsd_Jkpzpg0qBi4YXtkGvI4KRoxxECV6TcwykO14X-K6ptr6SHKaPm77WVaizB6EZzClZZt-17cUnMzXaCdh6Whpl3XhY0.jpg?r=100",
+      "logoImageUrl": "https://dnm.nflximg.net/api/v6/9R7jmI8ri5rJNRlvCsMBDHE5JuQ/AAAABXVM3TzN0VAuAlKX8GIxbPWsWN7Ms8_g32yKr5QWq1_1gKqPUbDIWWsEz_1xLFyMcvv6d2RrAv8fsstqplm9eDpNrA4ZCv8XlDlteo3F8hQ.png?r=ab7",
+      "avatarText": "MI",
+      "color": "#ffc84a",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 480,
+          "aspectRatio": 0.666667,
+          "u0": 0.333333,
+          "v0": 0,
+          "u1": 0.5,
+          "v1": 0.2
+        },
+        "image": {
+          "sourceUrl": "https://dnm.nflximg.net/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABbVIMRUsd_Jkpzpg0qBi4YXtkGvI4KRoxxECV6TcwykO14X-K6ptr6SHKaPm77WVaizB6EZzClZZt-17cUnMzXaCdh6Whpl3XhY0.jpg?r=100",
+          "sourceStatus": "source-image",
+          "sourceProvider": "netflix-top10-card"
+        }
+      }
+    },
+    {
+      "id": "swapped",
+      "name": "Swapped",
+      "netflixCategory": "Films (English)",
+      "netflixVideoId": 81749852,
+      "imageUrl": "https://dnm.nflximg.net/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABY93n8wGBJUM7lzbRYKQ2FsUMK6ewam_L0hbjhhX2Qp4ntkC1LkYUVSvV6Ua_LAKjq_QMbARoNHS4THyiGOnSzZHhx8t_vZj2A9N.jpg?r=f82",
+      "netflixImageUrl": "https://dnm.nflximg.net/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABY93n8wGBJUM7lzbRYKQ2FsUMK6ewam_L0hbjhhX2Qp4ntkC1LkYUVSvV6Ua_LAKjq_QMbARoNHS4THyiGOnSzZHhx8t_vZj2A9N.jpg?r=f82",
+      "netflixPosterUrl": "https://occ-0-58-64.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABRIvUxj3msGy0tQRJdRKJptYR7kfsy3VVuInlC5q7klenjqmnNOzpOE_MoxmumdMa5vxWlQTI_h4tz_5DSur6O5Q1gtgK1OxufWPm_WGNDnjsTdJDxnDrnkLzjl3bfJn81UAuA.jpg?r=083",
+      "netflixPosterSource": "netflix-title-boxshot",
+      "netflixTop10CardUrl": "https://dnm.nflximg.net/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABY93n8wGBJUM7lzbRYKQ2FsUMK6ewam_L0hbjhhX2Qp4ntkC1LkYUVSvV6Ua_LAKjq_QMbARoNHS4THyiGOnSzZHhx8t_vZj2A9N.jpg?r=f82",
+      "logoImageUrl": "https://dnm.nflximg.net/api/v6/9R7jmI8ri5rJNRlvCsMBDHE5JuQ/AAAABaFPtBiQgLMjEuqJJ0JGQWxoTef4EhAh0Nje2JRGirHoi-XAgFvPUrQkSLg3weg4HIpn4qNhDmras6v5Ki5BmQ2szW-DJ_RbJ4i-nbIThmU.png?r=b20",
+      "avatarText": "S",
+      "color": "#00a6ff",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 480,
+          "aspectRatio": 0.666667,
+          "u0": 0.5,
+          "v0": 0,
+          "u1": 0.666667,
+          "v1": 0.2
+        },
+        "image": {
+          "sourceUrl": "https://dnm.nflximg.net/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABY93n8wGBJUM7lzbRYKQ2FsUMK6ewam_L0hbjhhX2Qp4ntkC1LkYUVSvV6Ua_LAKjq_QMbARoNHS4THyiGOnSzZHhx8t_vZj2A9N.jpg?r=f82",
+          "sourceStatus": "source-image",
+          "sourceProvider": "netflix-top10-card"
+        }
+      }
+    },
+    {
+      "id": "office-romance",
+      "name": "Office Romance",
+      "netflixCategory": "Films (English)",
+      "netflixVideoId": 81939823,
+      "imageUrl": "https://dnm.nflximg.net/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABSLE99mKBjTrK3acYtPxmAiEMSwMcrNfc-G86QxHvu4pT-qeaC-5QCd4dOCs0gNa6NfJHQQAf58Gq70_wiMZalQ36zn1GInyVqsq.jpg?r=747",
+      "netflixImageUrl": "https://dnm.nflximg.net/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABSLE99mKBjTrK3acYtPxmAiEMSwMcrNfc-G86QxHvu4pT-qeaC-5QCd4dOCs0gNa6NfJHQQAf58Gq70_wiMZalQ36zn1GInyVqsq.jpg?r=747",
+      "netflixPosterUrl": "https://dnm.nflximg.net/api/v6/Fd6HRR9aR42h7t8wvzeXtFryWKk/AAAAQWLFYfEJTt4qPB8Rtoj6K4XTMBPIkB6YirPNE1xybAn6sIPjJ2khUBYH_X7uovguQJDQ96nJQ4cazciMDfb1XeTTaAEwbIk_xjjWKDeXszYCgix8sSJBx--s4-3ZWibUHIahkqIPbAcN9N44PAx85e3cWkh_x0ilK4N-zkOYHnV-IY6ngLFBORRm7wJgRi26_MnbWgWvLCTBALET2vdsqWuuEVk2ZOsYihxkHAwb5tfqNeR-ogFU.jpg?r=b22",
+      "netflixPosterSource": "netflix-tudum-boxshot",
+      "netflixTop10CardUrl": "https://dnm.nflximg.net/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABSLE99mKBjTrK3acYtPxmAiEMSwMcrNfc-G86QxHvu4pT-qeaC-5QCd4dOCs0gNa6NfJHQQAf58Gq70_wiMZalQ36zn1GInyVqsq.jpg?r=747",
+      "logoImageUrl": "https://dnm.nflximg.net/api/v6/9R7jmI8ri5rJNRlvCsMBDHE5JuQ/AAAABQWN7o0f_Qz9B92AhOd2cH00QlE1Ha8i7eYMr0DzSwEPYfGnlsgCNxD6QQ8T68qmKZLDG6hSou_uUzC2TbZeuOTA-gv53OI3K9N156bTiY0.png?r=3d2",
+      "avatarText": "OR",
+      "color": "#8f6bff",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "x": 1280,
+          "y": 0,
+          "width": 320,
+          "height": 480,
+          "aspectRatio": 0.666667,
+          "u0": 0.666667,
+          "v0": 0,
+          "u1": 0.833333,
+          "v1": 0.2
+        },
+        "image": {
+          "sourceUrl": "https://dnm.nflximg.net/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABSLE99mKBjTrK3acYtPxmAiEMSwMcrNfc-G86QxHvu4pT-qeaC-5QCd4dOCs0gNa6NfJHQQAf58Gq70_wiMZalQ36zn1GInyVqsq.jpg?r=747",
+          "sourceStatus": "source-image",
+          "sourceProvider": "netflix-top10-card"
+        }
+      }
+    },
+    {
+      "id": "kpop-demon-hunters",
+      "name": "KPop Demon Hunters",
+      "netflixCategory": "Films (English)",
+      "netflixVideoId": 81498621,
+      "imageUrl": "https://dnm.nflximg.net/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABeKUv0SD_U6cZTjamXsfkdCqOJ5I0Tm0gQBHIxXe1zerjb5vqEHrSnwGaOyCGobgkUr_rk4zwadhQc8EXar20dGutosyCJmpMcOE.jpg?r=983",
+      "netflixImageUrl": "https://dnm.nflximg.net/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABeKUv0SD_U6cZTjamXsfkdCqOJ5I0Tm0gQBHIxXe1zerjb5vqEHrSnwGaOyCGobgkUr_rk4zwadhQc8EXar20dGutosyCJmpMcOE.jpg?r=983",
+      "netflixPosterUrl": "https://dnm.nflximg.net/api/v6/Fd6HRR9aR42h7t8wvzeXtFryWKk/AAAAQSZCALK4atr0VOIBJBQzhiMyzvvly4QcVJwGGieK4auao6cl1Tn7ca-2UC2ve15HKy0frF3X_nyoUx3a96ood2DEhEPAI_aC4XvEdCeiapPnq7kGlzPVSw6XODNzUzBcirqws5MyEcqADUiMtXLBB1BYLL8PdsL4S5rIbVgpaeiCbdzZwC71t0AAnlQ9U4DgQ-BokNIlty-CQBsfqBAEDyipN-ysdidYxvxFA7AxkO_2aZdEXtpF.jpg?r=302",
+      "netflixPosterSource": "netflix-tudum-boxshot",
+      "netflixTop10CardUrl": "https://dnm.nflximg.net/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABeKUv0SD_U6cZTjamXsfkdCqOJ5I0Tm0gQBHIxXe1zerjb5vqEHrSnwGaOyCGobgkUr_rk4zwadhQc8EXar20dGutosyCJmpMcOE.jpg?r=983",
+      "logoImageUrl": "https://dnm.nflximg.net/api/v6/9R7jmI8ri5rJNRlvCsMBDHE5JuQ/AAAABZWSzsAkjgBk9AaFX808aLhPEYmACvc9wolKMtxdad5NB39oDTNbkMmC_aoLEGN0zIFTtlPkr0dVgpJUU22VoG72CK0F8y8F2anweqRDN8k.png?r=77d",
+      "avatarText": "KD",
+      "color": "#f18c4f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "x": 1600,
+          "y": 0,
+          "width": 320,
+          "height": 480,
+          "aspectRatio": 0.666667,
+          "u0": 0.833333,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.2
+        },
+        "image": {
+          "sourceUrl": "https://dnm.nflximg.net/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABeKUv0SD_U6cZTjamXsfkdCqOJ5I0Tm0gQBHIxXe1zerjb5vqEHrSnwGaOyCGobgkUr_rk4zwadhQc8EXar20dGutosyCJmpMcOE.jpg?r=983",
+          "sourceStatus": "source-image",
+          "sourceProvider": "netflix-top10-card"
+        }
+      }
+    },
+    {
+      "id": "the-contractor",
+      "name": "The Contractor",
+      "netflixCategory": "Films (English)",
+      "netflixVideoId": 70070567,
+      "imageUrl": "https://dnm.nflximg.net/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABW6xSR6ROXMXp5q5xWWKSJBFAh9FjCH2mF1aNCA55jy2plGA2DNvZh44zUrqMGsaOPNc_LjGFcbnaYsaZmJ59LsrBotsJK79548o.jpg?r=df2",
+      "netflixImageUrl": "https://dnm.nflximg.net/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABW6xSR6ROXMXp5q5xWWKSJBFAh9FjCH2mF1aNCA55jy2plGA2DNvZh44zUrqMGsaOPNc_LjGFcbnaYsaZmJ59LsrBotsJK79548o.jpg?r=df2",
+      "netflixPosterUrl": "https://cdn.flixboss.com/70070567/posters/527204751aa2535c4b342fba7f6da83f4c276372.jpg",
+      "netflixPosterSource": "flixboss-netflix-catalog-poster",
+      "netflixTop10CardUrl": "https://dnm.nflximg.net/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABW6xSR6ROXMXp5q5xWWKSJBFAh9FjCH2mF1aNCA55jy2plGA2DNvZh44zUrqMGsaOPNc_LjGFcbnaYsaZmJ59LsrBotsJK79548o.jpg?r=df2",
+      "logoImageUrl": "https://dnm.nflximg.net/api/v6/9R7jmI8ri5rJNRlvCsMBDHE5JuQ/AAAABSSW2HqBtEOFq9hxY7bkISVSBHMjQFzW2pO9RbuEEK_f2BEnuMFxWKloVgpxRn7hyDPZzCCduWjGPTJxXg-pGYZh7H_5rXrBSlFKNgXJdM4.png?r=11a",
+      "avatarText": "TC",
+      "color": "#41a99f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "x": 0,
+          "y": 480,
+          "width": 320,
+          "height": 480,
+          "aspectRatio": 0.666667,
+          "u0": 0,
+          "v0": 0.2,
+          "u1": 0.166667,
+          "v1": 0.4
+        },
+        "image": {
+          "sourceUrl": "https://dnm.nflximg.net/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABW6xSR6ROXMXp5q5xWWKSJBFAh9FjCH2mF1aNCA55jy2plGA2DNvZh44zUrqMGsaOPNc_LjGFcbnaYsaZmJ59LsrBotsJK79548o.jpg?r=df2",
+          "sourceStatus": "source-image",
+          "sourceProvider": "netflix-top10-card"
+        }
+      }
+    },
+    {
+      "id": "turbo",
+      "name": "Turbo",
+      "netflixCategory": "Films (English)",
+      "netflixVideoId": 70267728,
+      "imageUrl": "https://dnm.nflximg.net/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABTMP6XESa-XGA-oEwulWPKTDysWZzGhuqiNlb-Wqw8prSJBojbK831ryjudhYLVlN_FuPU3awRNDeXdkCK0Nk5py5Al2m1Wej5qj.jpg?r=87c",
+      "netflixImageUrl": "https://dnm.nflximg.net/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABTMP6XESa-XGA-oEwulWPKTDysWZzGhuqiNlb-Wqw8prSJBojbK831ryjudhYLVlN_FuPU3awRNDeXdkCK0Nk5py5Al2m1Wej5qj.jpg?r=87c",
+      "netflixPosterUrl": "https://cdn.flixboss.com/70267728/posters/AAAABRN6o5XipZv-rULU6Rhz4fFZHyPmEOgF1MS23t_SOLAmylCU3lLzVeAbogxV1N2Bf0vAXAQpXvgpJFyoEBY2CZIpOQ.jpg",
+      "netflixPosterSource": "flixboss-netflix-catalog-poster",
+      "netflixTop10CardUrl": "https://dnm.nflximg.net/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABTMP6XESa-XGA-oEwulWPKTDysWZzGhuqiNlb-Wqw8prSJBojbK831ryjudhYLVlN_FuPU3awRNDeXdkCK0Nk5py5Al2m1Wej5qj.jpg?r=87c",
+      "logoImageUrl": "https://dnm.nflximg.net/api/v6/9R7jmI8ri5rJNRlvCsMBDHE5JuQ/AAAABTpjZWWVDN4xCm6fXGIoupDJRXHLzaBZIUDD9G1Ctu28DQ9Oy7bxt2FP64xWt97C3jrMpwoP_Zc2R8NEnVTxXqSy84VkcI99GxAtSgM7qGY.png?r=6f0",
+      "avatarText": "T",
+      "color": "#d78fca",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "x": 320,
+          "y": 480,
+          "width": 320,
+          "height": 480,
+          "aspectRatio": 0.666667,
+          "u0": 0.166667,
+          "v0": 0.2,
+          "u1": 0.333333,
+          "v1": 0.4
+        },
+        "image": {
+          "sourceUrl": "https://dnm.nflximg.net/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABTMP6XESa-XGA-oEwulWPKTDysWZzGhuqiNlb-Wqw8prSJBojbK831ryjudhYLVlN_FuPU3awRNDeXdkCK0Nk5py5Al2m1Wej5qj.jpg?r=87c",
+          "sourceStatus": "source-image",
+          "sourceProvider": "netflix-top10-card"
+        }
+      }
+    },
+    {
+      "id": "the-creator",
+      "name": "The Creator",
+      "netflixCategory": "Films (English)",
+      "netflixVideoId": 81674655,
+      "imageUrl": "https://dnm.nflximg.net/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABV8oDdfuyL6YRSS1QIDpi9gXUXOIYmECYVgKtV55vYtFbbwwV3e4YyO7hEHGdMsSUb0HOXSW_A4lqXg00JmO3nD-4nLkhWamZ_Ir.jpg?r=4eb",
+      "netflixImageUrl": "https://dnm.nflximg.net/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABV8oDdfuyL6YRSS1QIDpi9gXUXOIYmECYVgKtV55vYtFbbwwV3e4YyO7hEHGdMsSUb0HOXSW_A4lqXg00JmO3nD-4nLkhWamZ_Ir.jpg?r=4eb",
+      "netflixPosterUrl": "https://cdn.flixboss.com/81674655/posters/-8307264900836378559.jpg",
+      "netflixPosterSource": "flixboss-netflix-catalog-poster",
+      "netflixTop10CardUrl": "https://dnm.nflximg.net/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABV8oDdfuyL6YRSS1QIDpi9gXUXOIYmECYVgKtV55vYtFbbwwV3e4YyO7hEHGdMsSUb0HOXSW_A4lqXg00JmO3nD-4nLkhWamZ_Ir.jpg?r=4eb",
+      "logoImageUrl": "https://dnm.nflximg.net/api/v6/9R7jmI8ri5rJNRlvCsMBDHE5JuQ/AAAABeR0GJv2p83zLeKIn64-Owp2It9CB7j7dQE4mNBHwDPf4F73IdY0UYmkqREdIKwS9ibwWw2mn7o-YDKdgF1f8dOoRKh8V8BVUihfvAEgXAs.png?r=ae9",
+      "avatarText": "TC",
+      "color": "#7b9b65",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "x": 640,
+          "y": 480,
+          "width": 320,
+          "height": 480,
+          "aspectRatio": 0.666667,
+          "u0": 0.333333,
+          "v0": 0.2,
+          "u1": 0.5,
+          "v1": 0.4
+        },
+        "image": {
+          "sourceUrl": "https://dnm.nflximg.net/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABV8oDdfuyL6YRSS1QIDpi9gXUXOIYmECYVgKtV55vYtFbbwwV3e4YyO7hEHGdMsSUb0HOXSW_A4lqXg00JmO3nD-4nLkhWamZ_Ir.jpg?r=4eb",
+          "sourceStatus": "source-image",
+          "sourceProvider": "netflix-top10-card"
+        }
+      }
+    },
+    {
+      "id": "5lbs-of-pressure",
+      "name": "5lbs of Pressure",
+      "netflixCategory": "Films (English)",
+      "netflixVideoId": 82049019,
+      "imageUrl": "https://dnm.nflximg.net/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABUr9uWONo46MigDKWVR9KGJQ1YCoxhUc5UUDQvG6pmPEhhXb9w2ah2vKo0QiipRDafRBWbFfa3Lp6kOeTK_ztL-g8wog2YSTyqRr.jpg?r=750",
+      "netflixImageUrl": "https://dnm.nflximg.net/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABUr9uWONo46MigDKWVR9KGJQ1YCoxhUc5UUDQvG6pmPEhhXb9w2ah2vKo0QiipRDafRBWbFfa3Lp6kOeTK_ztL-g8wog2YSTyqRr.jpg?r=750",
+      "netflixPosterUrl": "https://cdn.flixboss.com/82049019/posters/1281400581376585886.jpg",
+      "netflixPosterSource": "flixboss-netflix-catalog-poster",
+      "netflixTop10CardUrl": "https://dnm.nflximg.net/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABUr9uWONo46MigDKWVR9KGJQ1YCoxhUc5UUDQvG6pmPEhhXb9w2ah2vKo0QiipRDafRBWbFfa3Lp6kOeTK_ztL-g8wog2YSTyqRr.jpg?r=750",
+      "logoImageUrl": "https://dnm.nflximg.net/api/v6/9R7jmI8ri5rJNRlvCsMBDHE5JuQ/AAAABa5yQoYxWcTKvHVuDopveho7CIgW6BiBolACH4qhQiIgE9mWxse6FEve9F0WhNtp_D2a9OpHBUHOJXZ5FgAbXijf7NjE8uD-xLmf3dPoHho.png?r=55b",
+      "avatarText": "5O",
+      "color": "#2f4858",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "x": 960,
+          "y": 480,
+          "width": 320,
+          "height": 480,
+          "aspectRatio": 0.666667,
+          "u0": 0.5,
+          "v0": 0.2,
+          "u1": 0.666667,
+          "v1": 0.4
+        },
+        "image": {
+          "sourceUrl": "https://dnm.nflximg.net/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABUr9uWONo46MigDKWVR9KGJQ1YCoxhUc5UUDQvG6pmPEhhXb9w2ah2vKo0QiipRDafRBWbFfa3Lp6kOeTK_ztL-g8wog2YSTyqRr.jpg?r=750",
+          "sourceStatus": "source-image",
+          "sourceProvider": "netflix-top10-card"
+        }
+      }
+    },
+    {
+      "id": "goat",
+      "name": "Goat",
+      "shortName": "Goat",
+      "avatarText": "G",
+      "color": "#2f4858",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "x": 1280,
+          "y": 480,
+          "width": 320,
+          "height": 480,
+          "aspectRatio": 0.666667,
+          "u0": 0.666667,
+          "v0": 0.2,
+          "u1": 0.833333,
+          "v1": 0.4
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:goat",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "no-time-to-die",
+      "name": "No Time to Die",
+      "shortName": "No Time to Die",
+      "avatarText": "NT",
+      "color": "#7b9b65",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "x": 1600,
+          "y": 480,
+          "width": 320,
+          "height": 480,
+          "aspectRatio": 0.666667,
+          "u0": 0.833333,
+          "v0": 0.2,
+          "u1": 1,
+          "v1": 0.4
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:no-time-to-die",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "street-kings",
+      "name": "Street Kings",
+      "shortName": "Street Kings",
+      "avatarText": "SK",
+      "color": "#00a6ff",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "x": 0,
+          "y": 960,
+          "width": 320,
+          "height": 480,
+          "aspectRatio": 0.666667,
+          "u0": 0,
+          "v0": 0.4,
+          "u1": 0.166667,
+          "v1": 0.6
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:street-kings",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "flowers-in-the-attic",
+      "name": "Flowers in the Attic",
+      "shortName": "Flowers in the Attic",
+      "avatarText": "FI",
+      "color": "#41a99f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "x": 320,
+          "y": 960,
+          "width": 320,
+          "height": 480,
+          "aspectRatio": 0.666667,
+          "u0": 0.166667,
+          "v0": 0.4,
+          "u1": 0.333333,
+          "v1": 0.6
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:flowers-in-the-attic",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "percy-jackson-and-the-olympians-the-lightning-thief",
+      "name": "Percy Jackson & the Olympians: The Lightning Thief",
+      "shortName": "Percy Jackson & the Olympians: The Lightning Thief",
+      "avatarText": "PJ",
+      "color": "#d78fca",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "x": 640,
+          "y": 960,
+          "width": 320,
+          "height": 480,
+          "aspectRatio": 0.666667,
+          "u0": 0.333333,
+          "v0": 0.4,
+          "u1": 0.5,
+          "v1": 0.6
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:percy-jackson-and-the-olympians-the-lightning-thief",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "war-machine",
+      "name": "War Machine",
+      "shortName": "War Machine",
+      "avatarText": "WM",
+      "color": "#ef426f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "x": 960,
+          "y": 960,
+          "width": 320,
+          "height": 480,
+          "aspectRatio": 0.666667,
+          "u0": 0.5,
+          "v0": 0.4,
+          "u1": 0.666667,
+          "v1": 0.6
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:war-machine",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "apex",
+      "name": "Apex",
+      "shortName": "Apex",
+      "avatarText": "A",
+      "color": "#86bdf4",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "x": 1280,
+          "y": 960,
+          "width": 320,
+          "height": 480,
+          "aspectRatio": 0.666667,
+          "u0": 0.666667,
+          "v0": 0.4,
+          "u1": 0.833333,
+          "v1": 0.6
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:apex",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "the-rip",
+      "name": "The Rip",
+      "shortName": "The Rip",
+      "avatarText": "TR",
+      "color": "#c9a14a",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "x": 1600,
+          "y": 960,
+          "width": 320,
+          "height": 480,
+          "aspectRatio": 0.666667,
+          "u0": 0.833333,
+          "v0": 0.4,
+          "u1": 1,
+          "v1": 0.6
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:the-rip",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "don-t-look-up",
+      "name": "Don't Look Up",
+      "shortName": "Don't Look Up",
+      "avatarText": "DL",
+      "color": "#e34f59",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "x": 0,
+          "y": 1440,
+          "width": 320,
+          "height": 480,
+          "aspectRatio": 0.666667,
+          "u0": 0,
+          "v0": 0.6,
+          "u1": 0.166667,
+          "v1": 0.8
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:don-t-look-up",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "extraction-2",
+      "name": "Extraction 2",
+      "shortName": "Extraction 2",
+      "avatarText": "E2",
+      "color": "#9aa4b2",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "x": 320,
+          "y": 1440,
+          "width": 320,
+          "height": 480,
+          "aspectRatio": 0.666667,
+          "u0": 0.166667,
+          "v0": 0.6,
+          "u1": 0.333333,
+          "v1": 0.8
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:extraction-2",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "thrash",
+      "name": "Thrash",
+      "shortName": "Thrash",
+      "avatarText": "T",
+      "color": "#ff5a61",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "x": 640,
+          "y": 1440,
+          "width": 320,
+          "height": 480,
+          "aspectRatio": 0.666667,
+          "u0": 0.333333,
+          "v0": 0.6,
+          "u1": 0.5,
+          "v1": 0.8
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:thrash",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "glass-onion-a-knives-out-mystery",
+      "name": "Glass Onion: A Knives Out Mystery",
+      "shortName": "Glass Onion: A Knives Out Mystery",
+      "avatarText": "GO",
+      "color": "#18c871",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "x": 960,
+          "y": 1440,
+          "width": 320,
+          "height": 480,
+          "aspectRatio": 0.666667,
+          "u0": 0.5,
+          "v0": 0.6,
+          "u1": 0.666667,
+          "v1": 0.8
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:glass-onion-a-knives-out-mystery",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "the-crash",
+      "name": "The Crash",
+      "shortName": "The Crash",
+      "avatarText": "TC",
+      "color": "#ffc84a",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "x": 1280,
+          "y": 1440,
+          "width": 320,
+          "height": 480,
+          "aspectRatio": 0.666667,
+          "u0": 0.666667,
+          "v0": 0.6,
+          "u1": 0.833333,
+          "v1": 0.8
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:the-crash",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "people-we-meet-on-vacation",
+      "name": "People We Meet on Vacation",
+      "shortName": "People We Meet on Vacation",
+      "avatarText": "PW",
+      "color": "#00a6ff",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "x": 1600,
+          "y": 1440,
+          "width": 320,
+          "height": 480,
+          "aspectRatio": 0.666667,
+          "u0": 0.833333,
+          "v0": 0.6,
+          "u1": 1,
+          "v1": 0.8
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:people-we-meet-on-vacation",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "back-in-action",
+      "name": "Back in Action",
+      "shortName": "Back in Action",
+      "avatarText": "BI",
+      "color": "#8f6bff",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "x": 0,
+          "y": 1920,
+          "width": 320,
+          "height": 480,
+          "aspectRatio": 0.666667,
+          "u0": 0,
+          "v0": 0.8,
+          "u1": 0.166667,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:back-in-action",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "peaky-blinders-the-immortal-man",
+      "name": "Peaky Blinders: The Immortal Man",
+      "shortName": "Peaky Blinders: The Immortal Man",
+      "avatarText": "PB",
+      "color": "#f18c4f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "x": 320,
+          "y": 1920,
+          "width": 320,
+          "height": 480,
+          "aspectRatio": 0.666667,
+          "u0": 0.166667,
+          "v0": 0.8,
+          "u1": 0.333333,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:peaky-blinders-the-immortal-man",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "happy-gilmore-2",
+      "name": "Happy Gilmore 2",
+      "shortName": "Happy Gilmore 2",
+      "avatarText": "HG",
+      "color": "#41a99f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "x": 640,
+          "y": 1920,
+          "width": 320,
+          "height": 480,
+          "aspectRatio": 0.666667,
+          "u0": 0.333333,
+          "v0": 0.8,
+          "u1": 0.5,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:happy-gilmore-2",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "dr-seuss-the-grinch",
+      "name": "Dr. Seuss' The Grinch",
+      "shortName": "Dr. Seuss' The Grinch",
+      "avatarText": "DS",
+      "color": "#d78fca",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "x": 960,
+          "y": 1920,
+          "width": 320,
+          "height": 480,
+          "aspectRatio": 0.666667,
+          "u0": 0.5,
+          "v0": 0.8,
+          "u1": 0.666667,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:dr-seuss-the-grinch",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "wake-up-dead-man-a-knives-out-mystery",
+      "name": "Wake Up Dead Man: A Knives Out Mystery",
+      "shortName": "Wake Up Dead Man: A Knives Out Mystery",
+      "avatarText": "WU",
+      "color": "#7b9b65",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "x": 1280,
+          "y": 1920,
+          "width": 320,
+          "height": 480,
+          "aspectRatio": 0.666667,
+          "u0": 0.666667,
+          "v0": 0.8,
+          "u1": 0.833333,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:wake-up-dead-man-a-knives-out-mystery",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    }
+  ],
+  "frames": [
+    {
+      "date": "20211226",
+      "values": [
+        {
+          "id": "don-t-look-up",
+          "value": 111030000,
+          "rank": 1,
+          "hoursViewed": 111030000,
+          "runtimeHours": 0,
+          "cumulativeWeeksInTop10": 1,
+          "category": "Films (English)"
+        }
+      ]
+    },
+    {
+      "date": "20221225",
+      "values": [
+        {
+          "id": "glass-onion-a-knives-out-mystery",
+          "value": 82140000,
+          "rank": 1,
+          "hoursViewed": 82140000,
+          "runtimeHours": 0,
+          "cumulativeWeeksInTop10": 1,
+          "category": "Films (English)"
+        }
+      ]
+    },
+    {
+      "date": "20230618",
+      "values": [
+        {
+          "id": "extraction-2",
+          "value": 42800000,
+          "rank": 1,
+          "hoursViewed": 88400000,
+          "runtimeHours": 2.0667,
+          "cumulativeWeeksInTop10": 1,
+          "category": "Films (English)"
+        }
+      ]
+    },
+    {
+      "date": "20230625",
+      "values": [
+        {
+          "id": "extraction-2",
+          "value": 42200000,
+          "rank": 1,
+          "hoursViewed": 87300000,
+          "runtimeHours": 2.0667,
+          "cumulativeWeeksInTop10": 2,
+          "category": "Films (English)"
+        }
+      ]
+    },
+    {
+      "date": "20230730",
+      "values": [
+        {
+          "id": "extraction-2",
+          "value": 2900000,
+          "rank": 1,
+          "hoursViewed": 6000000,
+          "runtimeHours": 2.0667,
+          "cumulativeWeeksInTop10": 7,
+          "category": "Films (English)"
+        }
+      ]
+    },
+    {
+      "date": "20230827",
+      "values": [
+        {
+          "id": "street-kings",
+          "value": 5700000,
+          "rank": 1,
+          "hoursViewed": 10300000,
+          "runtimeHours": 1.8167,
+          "cumulativeWeeksInTop10": 2,
+          "category": "Films (English)"
+        }
+      ]
+    },
+    {
+      "date": "20231126",
+      "values": [
+        {
+          "id": "dr-seuss-the-grinch",
+          "value": 2900000,
+          "rank": 1,
+          "hoursViewed": 4100000,
+          "runtimeHours": 1.4333,
+          "cumulativeWeeksInTop10": 3,
+          "category": "Films (English)"
+        }
+      ]
+    },
+    {
+      "date": "20241229",
+      "values": [
+        {
+          "id": "dr-seuss-the-grinch",
+          "value": 11900000,
+          "rank": 1,
+          "hoursViewed": 17000000,
+          "runtimeHours": 1.4333,
+          "cumulativeWeeksInTop10": 11,
+          "category": "Films (English)"
+        }
+      ]
+    },
+    {
+      "date": "20250126",
+      "values": [
+        {
+          "id": "back-in-action",
+          "value": 46800000,
+          "rank": 1,
+          "hoursViewed": 88900000,
+          "runtimeHours": 1.9,
+          "cumulativeWeeksInTop10": 2,
+          "category": "Films (English)"
+        }
+      ]
+    },
+    {
+      "date": "20250223",
+      "values": [
+        {
+          "id": "back-in-action",
+          "value": 4100000,
+          "rank": 1,
+          "hoursViewed": 7700000,
+          "runtimeHours": 1.9,
+          "cumulativeWeeksInTop10": 6,
+          "category": "Films (English)"
+        }
+      ]
+    },
+    {
+      "date": "20250427",
+      "values": [
+        {
+          "id": "back-in-action",
+          "value": 2600000,
+          "rank": 1,
+          "hoursViewed": 5000000,
+          "runtimeHours": 1.9,
+          "cumulativeWeeksInTop10": 7,
+          "category": "Films (English)"
+        }
+      ]
+    },
+    {
+      "date": "20250629",
+      "values": [
+        {
+          "id": "kpop-demon-hunters",
+          "value": 24200000,
+          "rank": 1,
+          "hoursViewed": 40300000,
+          "runtimeHours": 1.6667,
+          "cumulativeWeeksInTop10": 2,
+          "category": "Films (English)"
+        }
+      ]
+    },
+    {
+      "date": "20250727",
+      "values": [
+        {
+          "id": "happy-gilmore-2",
+          "value": 46700000,
+          "rank": 1,
+          "hoursViewed": 91900000,
+          "runtimeHours": 1.9667,
+          "cumulativeWeeksInTop10": 1,
+          "category": "Films (English)"
+        },
+        {
+          "id": "kpop-demon-hunters",
+          "value": 26300000,
+          "rank": 2,
+          "hoursViewed": 43900000,
+          "runtimeHours": 1.6667,
+          "cumulativeWeeksInTop10": 6,
+          "category": "Films (English)"
+        }
+      ]
+    },
+    {
+      "date": "20250831",
+      "values": [
+        {
+          "id": "kpop-demon-hunters",
+          "value": 30100000,
+          "rank": 1,
+          "hoursViewed": 50200000,
+          "runtimeHours": 1.6667,
+          "cumulativeWeeksInTop10": 11,
+          "category": "Films (English)"
+        }
+      ]
+    },
+    {
+      "date": "20250928",
+      "values": [
+        {
+          "id": "kpop-demon-hunters",
+          "value": 19300000,
+          "rank": 1,
+          "hoursViewed": 32200000,
+          "runtimeHours": 1.6667,
+          "cumulativeWeeksInTop10": 15,
+          "category": "Films (English)"
+        }
+      ]
+    },
+    {
+      "date": "20251026",
+      "values": [
+        {
+          "id": "kpop-demon-hunters",
+          "value": 14600000,
+          "rank": 1,
+          "hoursViewed": 24400000,
+          "runtimeHours": 1.6667,
+          "cumulativeWeeksInTop10": 19,
+          "category": "Films (English)"
+        }
+      ]
+    },
+    {
+      "date": "20251130",
+      "values": [
+        {
+          "id": "kpop-demon-hunters",
+          "value": 10400000,
+          "rank": 1,
+          "hoursViewed": 17300000,
+          "runtimeHours": 1.6667,
+          "cumulativeWeeksInTop10": 24,
+          "category": "Films (English)"
+        }
+      ]
+    },
+    {
+      "date": "20251221",
+      "values": [
+        {
+          "id": "wake-up-dead-man-a-knives-out-mystery",
+          "value": 20900000,
+          "rank": 1,
+          "hoursViewed": 50800000,
+          "runtimeHours": 2.4333,
+          "cumulativeWeeksInTop10": 2,
+          "category": "Films (English)"
+        },
+        {
+          "id": "dr-seuss-the-grinch",
+          "value": 8100000,
+          "rank": 2,
+          "hoursViewed": 11600000,
+          "runtimeHours": 1.4333,
+          "cumulativeWeeksInTop10": 13,
+          "category": "Films (English)"
+        },
+        {
+          "id": "kpop-demon-hunters",
+          "value": 7900000,
+          "rank": 3,
+          "hoursViewed": 13100000,
+          "runtimeHours": 1.6667,
+          "cumulativeWeeksInTop10": 27,
+          "category": "Films (English)"
+        }
+      ]
+    },
+    {
+      "date": "20251228",
+      "values": [
+        {
+          "id": "dr-seuss-the-grinch",
+          "value": 16500000,
+          "rank": 1,
+          "hoursViewed": 23700000,
+          "runtimeHours": 1.4333,
+          "cumulativeWeeksInTop10": 14,
+          "category": "Films (English)"
+        },
+        {
+          "id": "wake-up-dead-man-a-knives-out-mystery",
+          "value": 11800000,
+          "rank": 2,
+          "hoursViewed": 28700000,
+          "runtimeHours": 2.4333,
+          "cumulativeWeeksInTop10": 3,
+          "category": "Films (English)"
+        },
+        {
+          "id": "kpop-demon-hunters",
+          "value": 9100000,
+          "rank": 3,
+          "hoursViewed": 15100000,
+          "runtimeHours": 1.6667,
+          "cumulativeWeeksInTop10": 28,
+          "category": "Films (English)"
+        }
+      ]
+    },
+    {
+      "date": "20260104",
+      "values": [
+        {
+          "id": "kpop-demon-hunters",
+          "value": 9400000,
+          "rank": 1,
+          "hoursViewed": 15700000,
+          "runtimeHours": 1.6667,
+          "cumulativeWeeksInTop10": 29,
+          "category": "Films (English)"
+        },
+        {
+          "id": "wake-up-dead-man-a-knives-out-mystery",
+          "value": 8100000,
+          "rank": 2,
+          "hoursViewed": 19700000,
+          "runtimeHours": 2.4333,
+          "cumulativeWeeksInTop10": 4,
+          "category": "Films (English)"
+        },
+        {
+          "id": "dr-seuss-the-grinch",
+          "value": 6100000,
+          "rank": 3,
+          "hoursViewed": 8700000,
+          "runtimeHours": 1.4333,
+          "cumulativeWeeksInTop10": 15,
+          "category": "Films (English)"
+        }
+      ]
+    },
+    {
+      "date": "20260111",
+      "values": [
+        {
+          "id": "people-we-meet-on-vacation",
+          "value": 17200000,
+          "rank": 1,
+          "hoursViewed": 33800000,
+          "runtimeHours": 1.9667,
+          "cumulativeWeeksInTop10": 1,
+          "category": "Films (English)"
+        },
+        {
+          "id": "kpop-demon-hunters",
+          "value": 7600000,
+          "rank": 2,
+          "hoursViewed": 12600000,
+          "runtimeHours": 1.6667,
+          "cumulativeWeeksInTop10": 30,
+          "category": "Films (English)"
+        },
+        {
+          "id": "wake-up-dead-man-a-knives-out-mystery",
+          "value": 3700000,
+          "rank": 3,
+          "hoursViewed": 8900000,
+          "runtimeHours": 2.4333,
+          "cumulativeWeeksInTop10": 5,
+          "category": "Films (English)"
+        }
+      ]
+    },
+    {
+      "date": "20260118",
+      "values": [
+        {
+          "id": "the-rip",
+          "value": 41600000,
+          "rank": 1,
+          "hoursViewed": 78300000,
+          "runtimeHours": 1.8833,
+          "cumulativeWeeksInTop10": 1,
+          "category": "Films (English)"
+        },
+        {
+          "id": "people-we-meet-on-vacation",
+          "value": 23300000,
+          "rank": 2,
+          "hoursViewed": 45800000,
+          "runtimeHours": 1.9667,
+          "cumulativeWeeksInTop10": 2,
+          "category": "Films (English)"
+        },
+        {
+          "id": "kpop-demon-hunters",
+          "value": 7300000,
+          "rank": 3,
+          "hoursViewed": 12100000,
+          "runtimeHours": 1.6667,
+          "cumulativeWeeksInTop10": 31,
+          "category": "Films (English)"
+        }
+      ]
+    },
+    {
+      "date": "20260125",
+      "values": [
+        {
+          "id": "the-rip",
+          "value": 40400000,
+          "rank": 1,
+          "hoursViewed": 76100000,
+          "runtimeHours": 1.8833,
+          "cumulativeWeeksInTop10": 2,
+          "category": "Films (English)"
+        },
+        {
+          "id": "no-time-to-die",
+          "value": 9600000,
+          "rank": 2,
+          "hoursViewed": 26200000,
+          "runtimeHours": 2.7333,
+          "cumulativeWeeksInTop10": 1,
+          "category": "Films (English)"
+        },
+        {
+          "id": "people-we-meet-on-vacation",
+          "value": 9300000,
+          "rank": 3,
+          "hoursViewed": 18300000,
+          "runtimeHours": 1.9667,
+          "cumulativeWeeksInTop10": 3,
+          "category": "Films (English)"
+        },
+        {
+          "id": "kpop-demon-hunters",
+          "value": 7000000,
+          "rank": 4,
+          "hoursViewed": 11700000,
+          "runtimeHours": 1.6667,
+          "cumulativeWeeksInTop10": 32,
+          "category": "Films (English)"
+        }
+      ]
+    },
+    {
+      "date": "20260201",
+      "values": [
+        {
+          "id": "the-rip",
+          "value": 14600000,
+          "rank": 1,
+          "hoursViewed": 27500000,
+          "runtimeHours": 1.8833,
+          "cumulativeWeeksInTop10": 3,
+          "category": "Films (English)"
+        },
+        {
+          "id": "kpop-demon-hunters",
+          "value": 6800000,
+          "rank": 2,
+          "hoursViewed": 11400000,
+          "runtimeHours": 1.6667,
+          "cumulativeWeeksInTop10": 33,
+          "category": "Films (English)"
+        },
+        {
+          "id": "people-we-meet-on-vacation",
+          "value": 4500000,
+          "rank": 3,
+          "hoursViewed": 8900000,
+          "runtimeHours": 1.9667,
+          "cumulativeWeeksInTop10": 4,
+          "category": "Films (English)"
+        },
+        {
+          "id": "no-time-to-die",
+          "value": 4400000,
+          "rank": 4,
+          "hoursViewed": 12100000,
+          "runtimeHours": 2.7333,
+          "cumulativeWeeksInTop10": 2,
+          "category": "Films (English)"
+        }
+      ]
+    },
+    {
+      "date": "20260208",
+      "values": [
+        {
+          "id": "the-rip",
+          "value": 7400000,
+          "rank": 1,
+          "hoursViewed": 13900000,
+          "runtimeHours": 1.8833,
+          "cumulativeWeeksInTop10": 4,
+          "category": "Films (English)"
+        },
+        {
+          "id": "kpop-demon-hunters",
+          "value": 6100000,
+          "rank": 2,
+          "hoursViewed": 10100000,
+          "runtimeHours": 1.6667,
+          "cumulativeWeeksInTop10": 34,
+          "category": "Films (English)"
+        }
+      ]
+    },
+    {
+      "date": "20260215",
+      "values": [
+        {
+          "id": "kpop-demon-hunters",
+          "value": 5700000,
+          "rank": 1,
+          "hoursViewed": 9500000,
+          "runtimeHours": 1.6667,
+          "cumulativeWeeksInTop10": 35,
+          "category": "Films (English)"
+        },
+        {
+          "id": "the-rip",
+          "value": 4700000,
+          "rank": 2,
+          "hoursViewed": 8900000,
+          "runtimeHours": 1.8833,
+          "cumulativeWeeksInTop10": 5,
+          "category": "Films (English)"
+        }
+      ]
+    },
+    {
+      "date": "20260222",
+      "values": [
+        {
+          "id": "kpop-demon-hunters",
+          "value": 6000000,
+          "rank": 1,
+          "hoursViewed": 10000000,
+          "runtimeHours": 1.6667,
+          "cumulativeWeeksInTop10": 36,
+          "category": "Films (English)"
+        },
+        {
+          "id": "the-rip",
+          "value": 3600000,
+          "rank": 2,
+          "hoursViewed": 6700000,
+          "runtimeHours": 1.8833,
+          "cumulativeWeeksInTop10": 6,
+          "category": "Films (English)"
+        }
+      ]
+    },
+    {
+      "date": "20260301",
+      "values": [
+        {
+          "id": "kpop-demon-hunters",
+          "value": 5000000,
+          "rank": 1,
+          "hoursViewed": 8400000,
+          "runtimeHours": 1.6667,
+          "cumulativeWeeksInTop10": 37,
+          "category": "Films (English)"
+        },
+        {
+          "id": "the-rip",
+          "value": 2400000,
+          "rank": 2,
+          "hoursViewed": 4600000,
+          "runtimeHours": 1.8833,
+          "cumulativeWeeksInTop10": 7,
+          "category": "Films (English)"
+        }
+      ]
+    },
+    {
+      "date": "20260308",
+      "values": [
+        {
+          "id": "war-machine",
+          "value": 39300000,
+          "rank": 1,
+          "hoursViewed": 71400000,
+          "runtimeHours": 1.8167,
+          "cumulativeWeeksInTop10": 1,
+          "category": "Films (English)"
+        },
+        {
+          "id": "kpop-demon-hunters",
+          "value": 4700000,
+          "rank": 2,
+          "hoursViewed": 7900000,
+          "runtimeHours": 1.6667,
+          "cumulativeWeeksInTop10": 38,
+          "category": "Films (English)"
+        }
+      ]
+    },
+    {
+      "date": "20260315",
+      "values": [
+        {
+          "id": "war-machine",
+          "value": 44400000,
+          "rank": 1,
+          "hoursViewed": 80600000,
+          "runtimeHours": 1.8167,
+          "cumulativeWeeksInTop10": 2,
+          "category": "Films (English)"
+        },
+        {
+          "id": "kpop-demon-hunters",
+          "value": 5300000,
+          "rank": 2,
+          "hoursViewed": 8800000,
+          "runtimeHours": 1.6667,
+          "cumulativeWeeksInTop10": 39,
+          "category": "Films (English)"
+        }
+      ]
+    },
+    {
+      "date": "20260322",
+      "values": [
+        {
+          "id": "peaky-blinders-the-immortal-man",
+          "value": 25300000,
+          "rank": 1,
+          "hoursViewed": 48100000,
+          "runtimeHours": 1.9,
+          "cumulativeWeeksInTop10": 1,
+          "category": "Films (English)"
+        },
+        {
+          "id": "war-machine",
+          "value": 18000000,
+          "rank": 2,
+          "hoursViewed": 32700000,
+          "runtimeHours": 1.8167,
+          "cumulativeWeeksInTop10": 3,
+          "category": "Films (English)"
+        },
+        {
+          "id": "kpop-demon-hunters",
+          "value": 5400000,
+          "rank": 3,
+          "hoursViewed": 9000000,
+          "runtimeHours": 1.6667,
+          "cumulativeWeeksInTop10": 40,
+          "category": "Films (English)"
+        }
+      ]
+    },
+    {
+      "date": "20260329",
+      "values": [
+        {
+          "id": "peaky-blinders-the-immortal-man",
+          "value": 19400000,
+          "rank": 1,
+          "hoursViewed": 36900000,
+          "runtimeHours": 1.9,
+          "cumulativeWeeksInTop10": 2,
+          "category": "Films (English)"
+        },
+        {
+          "id": "war-machine",
+          "value": 10300000,
+          "rank": 2,
+          "hoursViewed": 18700000,
+          "runtimeHours": 1.8167,
+          "cumulativeWeeksInTop10": 4,
+          "category": "Films (English)"
+        },
+        {
+          "id": "kpop-demon-hunters",
+          "value": 4900000,
+          "rank": 3,
+          "hoursViewed": 8200000,
+          "runtimeHours": 1.6667,
+          "cumulativeWeeksInTop10": 41,
+          "category": "Films (English)"
+        }
+      ]
+    },
+    {
+      "date": "20260405",
+      "values": [
+        {
+          "id": "war-machine",
+          "value": 6100000,
+          "rank": 1,
+          "hoursViewed": 11100000,
+          "runtimeHours": 1.8167,
+          "cumulativeWeeksInTop10": 5,
+          "category": "Films (English)"
+        },
+        {
+          "id": "peaky-blinders-the-immortal-man",
+          "value": 5900000,
+          "rank": 2,
+          "hoursViewed": 11300000,
+          "runtimeHours": 1.9,
+          "cumulativeWeeksInTop10": 3,
+          "category": "Films (English)"
+        },
+        {
+          "id": "kpop-demon-hunters",
+          "value": 5100000,
+          "rank": 3,
+          "hoursViewed": 8500000,
+          "runtimeHours": 1.6667,
+          "cumulativeWeeksInTop10": 42,
+          "category": "Films (English)"
+        }
+      ]
+    },
+    {
+      "date": "20260412",
+      "values": [
+        {
+          "id": "thrash",
+          "value": 37700000,
+          "rank": 1,
+          "hoursViewed": 54000000,
+          "runtimeHours": 1.4333,
+          "cumulativeWeeksInTop10": 1,
+          "category": "Films (English)"
+        },
+        {
+          "id": "kpop-demon-hunters",
+          "value": 4800000,
+          "rank": 2,
+          "hoursViewed": 8000000,
+          "runtimeHours": 1.6667,
+          "cumulativeWeeksInTop10": 43,
+          "category": "Films (English)"
+        },
+        {
+          "id": "war-machine",
+          "value": 3600000,
+          "rank": 3,
+          "hoursViewed": 6600000,
+          "runtimeHours": 1.8167,
+          "cumulativeWeeksInTop10": 6,
+          "category": "Films (English)"
+        }
+      ]
+    },
+    {
+      "date": "20260419",
+      "values": [
+        {
+          "id": "thrash",
+          "value": 34500000,
+          "rank": 1,
+          "hoursViewed": 49500000,
+          "runtimeHours": 1.4333,
+          "cumulativeWeeksInTop10": 2,
+          "category": "Films (English)"
+        },
+        {
+          "id": "kpop-demon-hunters",
+          "value": 4400000,
+          "rank": 2,
+          "hoursViewed": 7400000,
+          "runtimeHours": 1.6667,
+          "cumulativeWeeksInTop10": 44,
+          "category": "Films (English)"
+        },
+        {
+          "id": "war-machine",
+          "value": 3500000,
+          "rank": 3,
+          "hoursViewed": 6300000,
+          "runtimeHours": 1.8167,
+          "cumulativeWeeksInTop10": 7,
+          "category": "Films (English)"
+        }
+      ]
+    },
+    {
+      "date": "20260426",
+      "values": [
+        {
+          "id": "apex",
+          "value": 38200000,
+          "rank": 1,
+          "hoursViewed": 60500000,
+          "runtimeHours": 1.5833,
+          "cumulativeWeeksInTop10": 1,
+          "category": "Films (English)"
+        },
+        {
+          "id": "thrash",
+          "value": 9600000,
+          "rank": 2,
+          "hoursViewed": 13800000,
+          "runtimeHours": 1.4333,
+          "cumulativeWeeksInTop10": 3,
+          "category": "Films (English)"
+        },
+        {
+          "id": "kpop-demon-hunters",
+          "value": 4200000,
+          "rank": 3,
+          "hoursViewed": 7000000,
+          "runtimeHours": 1.6667,
+          "cumulativeWeeksInTop10": 45,
+          "category": "Films (English)"
+        },
+        {
+          "id": "war-machine",
+          "value": 3200000,
+          "rank": 4,
+          "hoursViewed": 5800000,
+          "runtimeHours": 1.8167,
+          "cumulativeWeeksInTop10": 8,
+          "category": "Films (English)"
+        }
+      ]
+    },
+    {
+      "date": "20260503",
+      "values": [
+        {
+          "id": "apex",
+          "value": 40200000,
+          "rank": 1,
+          "hoursViewed": 63600000,
+          "runtimeHours": 1.5833,
+          "cumulativeWeeksInTop10": 2,
+          "category": "Films (English)"
+        },
+        {
+          "id": "swapped",
+          "value": 15500000,
+          "rank": 2,
+          "hoursViewed": 26400000,
+          "runtimeHours": 1.7,
+          "cumulativeWeeksInTop10": 1,
+          "category": "Films (English)"
+        },
+        {
+          "id": "thrash",
+          "value": 4300000,
+          "rank": 3,
+          "hoursViewed": 6200000,
+          "runtimeHours": 1.4333,
+          "cumulativeWeeksInTop10": 4,
+          "category": "Films (English)"
+        },
+        {
+          "id": "kpop-demon-hunters",
+          "value": 3900000,
+          "rank": 4,
+          "hoursViewed": 6500000,
+          "runtimeHours": 1.6667,
+          "cumulativeWeeksInTop10": 46,
+          "category": "Films (English)"
+        }
+      ]
+    },
+    {
+      "date": "20260510",
+      "values": [
+        {
+          "id": "swapped",
+          "value": 38700000,
+          "rank": 1,
+          "hoursViewed": 65800000,
+          "runtimeHours": 1.7,
+          "cumulativeWeeksInTop10": 2,
+          "category": "Films (English)"
+        },
+        {
+          "id": "apex",
+          "value": 16200000,
+          "rank": 2,
+          "hoursViewed": 25600000,
+          "runtimeHours": 1.5833,
+          "cumulativeWeeksInTop10": 3,
+          "category": "Films (English)"
+        },
+        {
+          "id": "kpop-demon-hunters",
+          "value": 3600000,
+          "rank": 5,
+          "hoursViewed": 6000000,
+          "runtimeHours": 1.6667,
+          "cumulativeWeeksInTop10": 47,
+          "category": "Films (English)"
+        }
+      ]
+    },
+    {
+      "date": "20260517",
+      "values": [
+        {
+          "id": "swapped",
+          "value": 26400000,
+          "rank": 1,
+          "hoursViewed": 44800000,
+          "runtimeHours": 1.7,
+          "cumulativeWeeksInTop10": 3,
+          "category": "Films (English)"
+        },
+        {
+          "id": "the-crash",
+          "value": 11700000,
+          "rank": 2,
+          "hoursViewed": 18500000,
+          "runtimeHours": 1.5833,
+          "cumulativeWeeksInTop10": 1,
+          "category": "Films (English)"
+        },
+        {
+          "id": "apex",
+          "value": 10600000,
+          "rank": 3,
+          "hoursViewed": 16800000,
+          "runtimeHours": 1.5833,
+          "cumulativeWeeksInTop10": 4,
+          "category": "Films (English)"
+        },
+        {
+          "id": "goat",
+          "value": 9200000,
+          "rank": 4,
+          "hoursViewed": 15400000,
+          "runtimeHours": 1.6667,
+          "cumulativeWeeksInTop10": 1,
+          "category": "Films (English)"
+        },
+        {
+          "id": "kpop-demon-hunters",
+          "value": 3800000,
+          "rank": 6,
+          "hoursViewed": 6400000,
+          "runtimeHours": 1.6667,
+          "cumulativeWeeksInTop10": 48,
+          "category": "Films (English)"
+        }
+      ]
+    },
+    {
+      "date": "20260524",
+      "values": [
+        {
+          "id": "the-crash",
+          "value": 27600000,
+          "rank": 1,
+          "hoursViewed": 43700000,
+          "runtimeHours": 1.5833,
+          "cumulativeWeeksInTop10": 2,
+          "category": "Films (English)"
+        },
+        {
+          "id": "swapped",
+          "value": 16100000,
+          "rank": 2,
+          "hoursViewed": 27400000,
+          "runtimeHours": 1.7,
+          "cumulativeWeeksInTop10": 4,
+          "category": "Films (English)"
+        },
+        {
+          "id": "goat",
+          "value": 10100000,
+          "rank": 3,
+          "hoursViewed": 16900000,
+          "runtimeHours": 1.6667,
+          "cumulativeWeeksInTop10": 2,
+          "category": "Films (English)"
+        },
+        {
+          "id": "apex",
+          "value": 6700000,
+          "rank": 4,
+          "hoursViewed": 10600000,
+          "runtimeHours": 1.5833,
+          "cumulativeWeeksInTop10": 5,
+          "category": "Films (English)"
+        },
+        {
+          "id": "kpop-demon-hunters",
+          "value": 3800000,
+          "rank": 10,
+          "hoursViewed": 6400000,
+          "runtimeHours": 1.6667,
+          "cumulativeWeeksInTop10": 49,
+          "category": "Films (English)"
+        }
+      ]
+    },
+    {
+      "date": "20260531",
+      "values": [
+        {
+          "id": "the-crash",
+          "value": 14000000,
+          "rank": 1,
+          "hoursViewed": 22200000,
+          "runtimeHours": 1.5833,
+          "cumulativeWeeksInTop10": 3,
+          "category": "Films (English)"
+        },
+        {
+          "id": "swapped",
+          "value": 10500000,
+          "rank": 3,
+          "hoursViewed": 17800000,
+          "runtimeHours": 1.7,
+          "cumulativeWeeksInTop10": 5,
+          "category": "Films (English)"
+        },
+        {
+          "id": "goat",
+          "value": 9400000,
+          "rank": 3,
+          "hoursViewed": 15700000,
+          "runtimeHours": 1.6667,
+          "cumulativeWeeksInTop10": 3,
+          "category": "Films (English)"
+        },
+        {
+          "id": "apex",
+          "value": 6100000,
+          "rank": 4,
+          "hoursViewed": 9700000,
+          "runtimeHours": 1.5833,
+          "cumulativeWeeksInTop10": 6,
+          "category": "Films (English)"
+        },
+        {
+          "id": "kpop-demon-hunters",
+          "value": 3800000,
+          "rank": 9,
+          "hoursViewed": 6300000,
+          "runtimeHours": 1.6667,
+          "cumulativeWeeksInTop10": 50,
+          "category": "Films (English)"
+        }
+      ]
+    },
+    {
+      "date": "20260607",
+      "values": [
+        {
+          "id": "office-romance",
+          "value": 20900000,
+          "rank": 1,
+          "hoursViewed": 40100000,
+          "runtimeHours": 1.9167,
+          "cumulativeWeeksInTop10": 1,
+          "category": "Films (English)"
+        },
+        {
+          "id": "swapped",
+          "value": 7500000,
+          "rank": 3,
+          "hoursViewed": 12800000,
+          "runtimeHours": 1.7,
+          "cumulativeWeeksInTop10": 6,
+          "category": "Films (English)"
+        },
+        {
+          "id": "the-crash",
+          "value": 5700000,
+          "rank": 3,
+          "hoursViewed": 9100000,
+          "runtimeHours": 1.5833,
+          "cumulativeWeeksInTop10": 4,
+          "category": "Films (English)"
+        },
+        {
+          "id": "goat",
+          "value": 5200000,
+          "rank": 4,
+          "hoursViewed": 8700000,
+          "runtimeHours": 1.6667,
+          "cumulativeWeeksInTop10": 4,
+          "category": "Films (English)"
+        },
+        {
+          "id": "kpop-demon-hunters",
+          "value": 3700000,
+          "rank": 10,
+          "hoursViewed": 6200000,
+          "runtimeHours": 1.6667,
+          "cumulativeWeeksInTop10": 51,
+          "category": "Films (English)"
+        }
+      ]
+    },
+    {
+      "date": "20260614",
+      "values": [
+        {
+          "id": "office-romance",
+          "value": 24600000,
+          "rank": 1,
+          "hoursViewed": 47100000,
+          "runtimeHours": 1.9167,
+          "cumulativeWeeksInTop10": 2,
+          "category": "Films (English)"
+        },
+        {
+          "id": "maternal-instinct",
+          "value": 15000000,
+          "rank": 2,
+          "hoursViewed": 24200000,
+          "runtimeHours": 1.6167,
+          "cumulativeWeeksInTop10": 1,
+          "category": "Films (English)"
+        },
+        {
+          "id": "swapped",
+          "value": 5700000,
+          "rank": 3,
+          "hoursViewed": 9700000,
+          "runtimeHours": 1.7,
+          "cumulativeWeeksInTop10": 7,
+          "category": "Films (English)"
+        },
+        {
+          "id": "kpop-demon-hunters",
+          "value": 3600000,
+          "rank": 6,
+          "hoursViewed": 6000000,
+          "runtimeHours": 1.6667,
+          "cumulativeWeeksInTop10": 52,
+          "category": "Films (English)"
+        },
+        {
+          "id": "goat",
+          "value": 3200000,
+          "rank": 5,
+          "hoursViewed": 5300000,
+          "runtimeHours": 1.6667,
+          "cumulativeWeeksInTop10": 5,
+          "category": "Films (English)"
+        }
+      ]
+    },
+    {
+      "date": "20260621",
+      "values": [
+        {
+          "id": "maternal-instinct",
+          "value": 25500000,
+          "rank": 1,
+          "hoursViewed": 41200000,
+          "runtimeHours": 1.6167,
+          "cumulativeWeeksInTop10": 2,
+          "category": "Films (English)"
+        },
+        {
+          "id": "voicemails-for-isabelle",
+          "value": 17500000,
+          "rank": 2,
+          "hoursViewed": 34500000,
+          "runtimeHours": 1.9667,
+          "cumulativeWeeksInTop10": 1,
+          "category": "Films (English)"
+        },
+        {
+          "id": "office-romance",
+          "value": 7800000,
+          "rank": 3,
+          "hoursViewed": 14900000,
+          "runtimeHours": 1.9167,
+          "cumulativeWeeksInTop10": 3,
+          "category": "Films (English)"
+        },
+        {
+          "id": "street-kings",
+          "value": 6200000,
+          "rank": 4,
+          "hoursViewed": 11200000,
+          "runtimeHours": 1.8167,
+          "cumulativeWeeksInTop10": 3,
+          "category": "Films (English)"
+        },
+        {
+          "id": "swapped",
+          "value": 4900000,
+          "rank": 5,
+          "hoursViewed": 8300000,
+          "runtimeHours": 1.7,
+          "cumulativeWeeksInTop10": 8,
+          "category": "Films (English)"
+        },
+        {
+          "id": "kpop-demon-hunters",
+          "value": 3600000,
+          "rank": 6,
+          "hoursViewed": 6000000,
+          "runtimeHours": 1.6667,
+          "cumulativeWeeksInTop10": 53,
+          "category": "Films (English)"
+        },
+        {
+          "id": "flowers-in-the-attic",
+          "value": 3400000,
+          "rank": 7,
+          "hoursViewed": 4800000,
+          "runtimeHours": 1.4167,
+          "cumulativeWeeksInTop10": 1,
+          "category": "Films (English)"
+        },
+        {
+          "id": "percy-jackson-and-the-olympians-the-lightning-thief",
+          "value": 3200000,
+          "rank": 8,
+          "hoursViewed": 6300000,
+          "runtimeHours": 1.9833,
+          "cumulativeWeeksInTop10": 1,
+          "category": "Films (English)"
+        },
+        {
+          "id": "no-time-to-die",
+          "value": 3100000,
+          "rank": 9,
+          "hoursViewed": 8500000,
+          "runtimeHours": 2.7333,
+          "cumulativeWeeksInTop10": 3,
+          "category": "Films (English)"
+        },
+        {
+          "id": "goat",
+          "value": 2600000,
+          "rank": 10,
+          "hoursViewed": 4300000,
+          "runtimeHours": 1.6667,
+          "cumulativeWeeksInTop10": 6,
+          "category": "Films (English)"
+        }
+      ]
+    },
+    {
+      "date": "20260628",
+      "values": [
+        {
+          "id": "voicemails-for-isabelle",
+          "value": 31000000,
+          "rank": 1,
+          "hoursViewed": 60900000,
+          "runtimeHours": 1.9667,
+          "cumulativeWeeksInTop10": 2,
+          "category": "Films (English)"
+        },
+        {
+          "id": "little-brother",
+          "value": 14000000,
+          "rank": 2,
+          "hoursViewed": 23400000,
+          "runtimeHours": 1.6667,
+          "cumulativeWeeksInTop10": 1,
+          "category": "Films (English)"
+        },
+        {
+          "id": "maternal-instinct",
+          "value": 8500000,
+          "rank": 3,
+          "hoursViewed": 13700000,
+          "runtimeHours": 1.6167,
+          "cumulativeWeeksInTop10": 3,
+          "category": "Films (English)"
+        },
+        {
+          "id": "swapped",
+          "value": 4600000,
+          "rank": 4,
+          "hoursViewed": 7800000,
+          "runtimeHours": 1.7,
+          "cumulativeWeeksInTop10": 9,
+          "category": "Films (English)"
+        },
+        {
+          "id": "office-romance",
+          "value": 4300000,
+          "rank": 5,
+          "hoursViewed": 8200000,
+          "runtimeHours": 1.9167,
+          "cumulativeWeeksInTop10": 4,
+          "category": "Films (English)"
+        },
+        {
+          "id": "kpop-demon-hunters",
+          "value": 3800000,
+          "rank": 6,
+          "hoursViewed": 6300000,
+          "runtimeHours": 1.6667,
+          "cumulativeWeeksInTop10": 54,
+          "category": "Films (English)"
+        },
+        {
+          "id": "the-contractor",
+          "value": 3600000,
+          "rank": 7,
+          "hoursViewed": 6000000,
+          "runtimeHours": 1.65,
+          "cumulativeWeeksInTop10": 1,
+          "category": "Films (English)"
+        },
+        {
+          "id": "turbo",
+          "value": 3400000,
+          "rank": 8,
+          "hoursViewed": 5400000,
+          "runtimeHours": 1.6,
+          "cumulativeWeeksInTop10": 5,
+          "category": "Films (English)"
+        },
+        {
+          "id": "the-creator",
+          "value": 3200000,
+          "rank": 9,
+          "hoursViewed": 7200000,
+          "runtimeHours": 2.2333,
+          "cumulativeWeeksInTop10": 1,
+          "category": "Films (English)"
+        },
+        {
+          "id": "5lbs-of-pressure",
+          "value": 2700000,
+          "rank": 10,
+          "hoursViewed": 4900000,
+          "runtimeHours": 1.8333,
+          "cumulativeWeeksInTop10": 1,
+          "category": "Films (English)"
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "date": "20211226",
+      "title": "The leader tops the global chart",
+      "body": "The leader leads the selected global Top 10 set for week ending 2021-12-26."
+    },
+    {
+      "date": "20260125",
+      "title": "KPop Demon Hunters tops the global chart",
+      "body": "KPop Demon Hunters leads the selected global Top 10 set for week ending 2026-01-25."
+    },
+    {
+      "date": "20260628",
+      "title": "Voicemails for Isabelle tops the global chart",
+      "body": "Voicemails for Isabelle leads the selected global Top 10 set for week ending 2026-06-28."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Netflix Top 10",
+      "publisher": "Netflix",
+      "url": "https://top10.netflix.com/",
+      "note": "Official weekly chart source for the production adapter's global Top 10 frames."
+    }
+  ],
+  "historicalCoverageStart": "20211226",
+  "historicalCoverageEnd": "20260621",
+  "historicalGranularity": "weekly-monthly-yearly",
+  "backfillSource": "Netflix global Top 10 all-weeks TSV",
+  "backfillGeneratedAt": "2026-06-28T15:08:37.788Z",
+  "historical": {
+    "coverageStart": "20211226",
+    "coverageEnd": "20260621",
+    "granularity": "weekly-monthly-yearly",
+    "source": "Netflix global Top 10 all-weeks TSV",
+    "generatedAt": "2026-06-28T15:08:37.788Z",
+    "frameCount": 44,
+    "maxFrames": 72,
+    "maxPublicFrames": 72,
+    "notes": [
+      "Official weekly Netflix rows are compacted to recent weekly, older monthly, and oldest yearly representative frames.",
+      "Current public Top 10 titles are reserved; remaining entity slots go to historically high-view titles."
+    ]
+  },
+  "lastObservationDate": "2026-06-28",
+  "sourceAudit": {
+    "netflixCategory": "Films (English)",
+    "latestWeek": "2026-06-28",
+    "latestRowCount": 10,
+    "latestRowsMatchSource": true,
+    "valueField": "weekly_views"
+  },
+  "dataFreshness": {
+    "status": "stale",
+    "refreshCadence": "weekly",
+    "lastUpdated": "2026-07-01T07:17:51.863Z",
+    "lastRefreshAttemptedAt": "2026-09-01T18:01:03.419Z",
+    "lastRefreshError": "Netflix Films (English) latest frame has 5 values; source has 10.",
+    "lastObservationDate": "2026-06-28",
+    "nextRefreshAt": "2026-09-08T18:00:00.000Z",
+    "sourceStatus": "Official Netflix Top 10 weekly global TSV",
+    "confidence": "Serving last good projection because refresh failed: Netflix Films (English) latest frame has 5 values; source has 10."
+  },
+  "media": {
+    "tileWidth": 320,
+    "tileHeight": 480,
+    "imageFit": "cover",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-09-01T18:01:03.419Z",
+    "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+    "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+    "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+    "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+    "tileSize": 320,
+    "tileAspectRatio": 0.666667,
+    "columns": 6,
+    "rows": 5,
+    "width": 1920,
+    "height": 2400,
+    "itemCount": 29,
+    "sourcedImageCount": 10,
+    "generatedImageCount": 19,
+    "placeholderCount": 0,
+    "ogImageUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/what-everyone-is-watching.png",
+    "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/what-everyone-is-watching.png",
+    "ogImageWidth": 1200,
+    "ogImageHeight": 630
+  },
+  "taxonomy": {
+    "primaryCategory": "entertainment",
+    "categories": [
+      "entertainment",
+      "streaming",
+      "media"
+    ],
+    "tags": [
+      "netflix",
+      "top-10",
+      "views",
+      "films"
+    ],
+    "entityTypes": [
+      "title",
+      "film",
+      "show"
+    ],
+    "sourceTypes": [
+      "netflix"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "anime-rankings",
+      "type": "screen-entertainment",
+      "weight": 0.7,
+      "reason": "Both rank screen entertainment titles."
+    },
+    {
+      "target": "games-people-are-playing",
+      "type": "attention-entertainment",
+      "weight": 0.58,
+      "reason": "Both represent leisure attention around media products."
+    },
+    {
+      "target": "internet-obsession-meter",
+      "type": "culture-trends",
+      "weight": 0.68,
+      "reason": "Popular streaming titles often overlap with web attention spikes."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "screen-entertainment",
+    "mainland": "culture",
+    "bridgePriority": [
+      "anime-rankings",
+      "internet-obsession-meter"
+    ]
+  },
+  "schemaVersion": 1,
+  "contentKind": "dat-city.story",
+  "generatedAt": "2026-09-01T18:01:03.419Z",
+  "versionId": "20260901T180103Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "storyops-scheduler",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-09-01T18:01:03.419Z",
+    "versionId": "20260901T180103Z",
+    "adapter": "netflix-top10",
+    "storySlug": "what-everyone-is-watching",
+    "districtId": null,
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "publicProjection": {
+    "kind": "story",
+    "version": 1,
+    "generatedAt": "2026-09-01T18:01:03.419Z",
+    "adapter": "netflix-top10",
+    "cache": {
+      "browserMaxAgeSeconds": 60,
+      "edgeMaxAgeSeconds": 3600
+    }
+  },
+  "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/what-everyone-is-watching.png"
+}

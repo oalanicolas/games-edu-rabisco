@@ -1,0 +1,3636 @@
+{
+  "id": "highest-earning-football-clubs",
+  "kicker": "Football Money League",
+  "title": "Highest-Earning Football Clubs",
+  "subtitle": "A stadium-finance skyline for the clubs generating the most annual football revenue.",
+  "badge": "Ranked by annual revenue",
+  "visualization": "race-arena",
+  "theme": "stadium",
+  "artStyle": "stylized-editorial",
+  "dateRange": [
+    "20260630",
+    "20260831"
+  ],
+  "timelineTicks": [
+    "20260630",
+    "20260701",
+    "20260706",
+    "20260707",
+    "20260708",
+    "20260709",
+    "20260710",
+    "20260711",
+    "20260712",
+    "20260713",
+    "20260714",
+    "20260715",
+    "20260716",
+    "20260717",
+    "20260718",
+    "20260719",
+    "20260720",
+    "20260721",
+    "20260722",
+    "20260727",
+    "20260803",
+    "20260810",
+    "20260817",
+    "20260822",
+    "20260824",
+    "20260831"
+  ],
+  "metricLabel": "Annual revenue",
+  "ogImage": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/highest-earning-football-clubs.png",
+  "cityPreview": {
+    "districtId": "football-money-league",
+    "districtName": "Football Money League",
+    "cardLabel": "Club Revenue",
+    "summary": "Football clubs ranked by annual revenue in the Deloitte Football Money League.",
+    "primaryMetric": "Annual revenue",
+    "latestFrameLabel": "2024/25 season",
+    "storyUrl": "/stories/highest-earning-football-clubs/",
+    "thumbnail": "/assets/og/dat-city.webp"
+  },
+  "sourceStatus": "Deloitte Football Money League table via Wikipedia",
+  "confidence": "Observed Deloitte Football Money League on 2026-08-31T07:01:19.214Z; values are parsed from the \"Deloitte Football Money League 2026\" Wikipedia table.",
+  "methodology": "This StoryOps adapter fetches the rendered Wikipedia table for the Deloitte Football Money League, selects the current 2026 ranking, parses each club's total 2024/25 revenue, converts euro millions to euros, and stores observed snapshots so public history grows from repeat refreshes.",
+  "playback": {
+    "durationSeconds": 24,
+    "initialDate": "20260630",
+    "periodLabel": "annual revenue"
+  },
+  "visual": {
+    "topCount": 10,
+    "referenceCount": 20,
+    "horizontalCount": 12
+  },
+  "layers": [
+    {
+      "id": "revenue",
+      "label": "Revenue",
+      "default": true
+    }
+  ],
+  "focus": [
+    {
+      "id": "real-madrid",
+      "label": "Real Madrid"
+    },
+    {
+      "id": "barcelona",
+      "label": "Barcelona"
+    },
+    {
+      "id": "bayern-munich",
+      "label": "Bayern Munich"
+    },
+    {
+      "id": "paris-saint-germain",
+      "label": "Paris Saint-Germain"
+    }
+  ],
+  "entities": [
+    {
+      "id": "real-madrid",
+      "name": "Real Madrid",
+      "shortName": "Real Madrid",
+      "article": "Real Madrid CF",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Real_Madrid_CF",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Real_Madrid_CF.svg/960px-Real_Madrid_CF.svg.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Real_Madrid_CF.svg/960px-Real_Madrid_CF.svg.png",
+      "avatarText": "RM",
+      "color": "#ff5a61",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.json",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.2,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Real_Madrid_CF.svg/960px-Real_Madrid_CF.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "barcelona",
+      "name": "Barcelona",
+      "shortName": "Barcelona",
+      "article": "FC Barcelona",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/FC_Barcelona",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/FC_Barcelona_%28crest%29.svg/960px-FC_Barcelona_%28crest%29.svg.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/FC_Barcelona_%28crest%29.svg/960px-FC_Barcelona_%28crest%29.svg.png",
+      "avatarText": "B",
+      "color": "#18c871",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.json",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0,
+          "u1": 0.4,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/FC_Barcelona_%28crest%29.svg/960px-FC_Barcelona_%28crest%29.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "bayern-munich",
+      "name": "Bayern Munich",
+      "shortName": "Bayern Munich",
+      "article": "FC Bayern Munich",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/FC_Bayern_Munich",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/FC_Bayern_M%C3%BCnchen_logo_%282024%29.svg/960px-FC_Bayern_M%C3%BCnchen_logo_%282024%29.svg.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/FC_Bayern_M%C3%BCnchen_logo_%282024%29.svg/960px-FC_Bayern_M%C3%BCnchen_logo_%282024%29.svg.png",
+      "avatarText": "BM",
+      "color": "#ffc84a",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.json",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0,
+          "u1": 0.6,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/FC_Bayern_M%C3%BCnchen_logo_%282024%29.svg/960px-FC_Bayern_M%C3%BCnchen_logo_%282024%29.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "paris-saint-germain",
+      "name": "Paris Saint-Germain",
+      "shortName": "Paris Saint-Germain",
+      "article": "Paris Saint-Germain FC",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Paris_Saint-Germain_FC",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Paris_Saint-Germain_F.C..svg/960px-Paris_Saint-Germain_F.C..svg.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Paris_Saint-Germain_F.C..svg/960px-Paris_Saint-Germain_F.C..svg.png",
+      "avatarText": "PS",
+      "color": "#00a6ff",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.json",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0,
+          "u1": 0.8,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Paris_Saint-Germain_F.C..svg/960px-Paris_Saint-Germain_F.C..svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "liverpool",
+      "name": "Liverpool",
+      "shortName": "Liverpool",
+      "article": "Liverpool F.C.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Liverpool_F.C.",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Liverpool_FC.svg/960px-Liverpool_FC.svg.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Liverpool_FC.svg/960px-Liverpool_FC.svg.png",
+      "avatarText": "L",
+      "color": "#8f6bff",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.json",
+          "x": 1280,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Liverpool_FC.svg/960px-Liverpool_FC.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "manchester-city",
+      "name": "Manchester City",
+      "shortName": "Manchester City",
+      "article": "Manchester City F.C.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Manchester_City_F.C.",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Manchester_City_FC_badge.svg/960px-Manchester_City_FC_badge.svg.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Manchester_City_FC_badge.svg/960px-Manchester_City_FC_badge.svg.png",
+      "avatarText": "MC",
+      "color": "#f18c4f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.json",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.25,
+          "u1": 0.2,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Manchester_City_FC_badge.svg/960px-Manchester_City_FC_badge.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "arsenal",
+      "name": "Arsenal",
+      "shortName": "Arsenal",
+      "article": "Arsenal F.C.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Arsenal_F.C.",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Arsenal_FC_logo_%282001-2002%29.svg/960px-Arsenal_FC_logo_%282001-2002%29.svg.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Arsenal_FC_logo_%282001-2002%29.svg/960px-Arsenal_FC_logo_%282001-2002%29.svg.png",
+      "avatarText": "A",
+      "color": "#41a99f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.json",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.25,
+          "u1": 0.4,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Arsenal_FC_logo_%282001-2002%29.svg/960px-Arsenal_FC_logo_%282001-2002%29.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "manchester-united",
+      "name": "Manchester United",
+      "shortName": "Manchester United",
+      "article": "Manchester United F.C.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Manchester_United_F.C.",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Manchester_United_FC_crest.svg/960px-Manchester_United_FC_crest.svg.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Manchester_United_FC_crest.svg/960px-Manchester_United_FC_crest.svg.png",
+      "avatarText": "MU",
+      "color": "#d78fca",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.json",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.25,
+          "u1": 0.6,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Manchester_United_FC_crest.svg/960px-Manchester_United_FC_crest.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "tottenham-hotspur",
+      "name": "Tottenham Hotspur",
+      "shortName": "Tottenham Hotspur",
+      "article": "Tottenham Hotspur F.C.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Tottenham_Hotspur_F.C.",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Tottenham_Hotspur_FC_1960.jpg/960px-Tottenham_Hotspur_FC_1960.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Tottenham_Hotspur_FC_1960.jpg/960px-Tottenham_Hotspur_FC_1960.jpg",
+      "avatarText": "TH",
+      "color": "#7b9b65",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.json",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.25,
+          "u1": 0.8,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Tottenham_Hotspur_FC_1960.jpg/960px-Tottenham_Hotspur_FC_1960.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "chelsea",
+      "name": "Chelsea",
+      "shortName": "Chelsea",
+      "article": "Chelsea F.C.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Chelsea_F.C.",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Chelsea_FC.svg/960px-Chelsea_FC.svg.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Chelsea_FC.svg/960px-Chelsea_FC.svg.png",
+      "avatarText": "C",
+      "color": "#2f4858",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.json",
+          "x": 1280,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.25,
+          "u1": 1,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Chelsea_FC.svg/960px-Chelsea_FC.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "internazionale",
+      "name": "Internazionale",
+      "shortName": "Internazionale",
+      "article": "Inter Milan",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Inter_Milan",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/FC_Internazionale_Milano_2021.svg/960px-FC_Internazionale_Milano_2021.svg.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/FC_Internazionale_Milano_2021.svg/960px-FC_Internazionale_Milano_2021.svg.png",
+      "avatarText": "I",
+      "color": "#ef426f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.json",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.5,
+          "u1": 0.2,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/FC_Internazionale_Milano_2021.svg/960px-FC_Internazionale_Milano_2021.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "borussia-dortmund",
+      "name": "Borussia Dortmund",
+      "shortName": "Borussia Dortmund",
+      "article": "Borussia Dortmund",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Borussia_Dortmund",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
+      "avatarText": "BD",
+      "color": "#86bdf4",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.json",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.5,
+          "u1": 0.4,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "atletico-madrid",
+      "name": "Atlético Madrid",
+      "shortName": "Atlético Madrid",
+      "article": "Atlético Madrid",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Madrid",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Real_Madrid_vs._Atl%C3%A9tico_Madrid_28_September_2013_Set_B_02.JPG/960px-Real_Madrid_vs._Atl%C3%A9tico_Madrid_28_September_2013_Set_B_02.JPG",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Real_Madrid_vs._Atl%C3%A9tico_Madrid_28_September_2013_Set_B_02.JPG/960px-Real_Madrid_vs._Atl%C3%A9tico_Madrid_28_September_2013_Set_B_02.JPG",
+      "avatarText": "AM",
+      "color": "#c9a14a",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.json",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.5,
+          "u1": 0.6,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Real_Madrid_vs._Atl%C3%A9tico_Madrid_28_September_2013_Set_B_02.JPG/960px-Real_Madrid_vs._Atl%C3%A9tico_Madrid_28_September_2013_Set_B_02.JPG",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "aston-villa",
+      "name": "Aston Villa",
+      "shortName": "Aston Villa",
+      "article": "Aston Villa F.C.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Aston_Villa_F.C.",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/8/86/Aston_Villa_F.C._logo.svg/960px-Aston_Villa_F.C._logo.svg.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/8/86/Aston_Villa_F.C._logo.svg/960px-Aston_Villa_F.C._logo.svg.png",
+      "avatarText": "AV",
+      "color": "#e34f59",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.json",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.5,
+          "u1": 0.8,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/8/86/Aston_Villa_F.C._logo.svg/960px-Aston_Villa_F.C._logo.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "milan",
+      "name": "Milan",
+      "shortName": "Milan",
+      "article": "AC Milan",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/AC_Milan",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Logo_of_AC_Milan.svg/960px-Logo_of_AC_Milan.svg.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Logo_of_AC_Milan.svg/960px-Logo_of_AC_Milan.svg.png",
+      "avatarText": "M",
+      "color": "#9aa4b2",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.json",
+          "x": 1280,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.5,
+          "u1": 1,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Logo_of_AC_Milan.svg/960px-Logo_of_AC_Milan.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "juventus",
+      "name": "Juventus",
+      "shortName": "Juventus",
+      "article": "Juventus FC",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Juventus_FC",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Juventus_FC_-_logo_black_%28Italy%2C_2020%29.svg/960px-Juventus_FC_-_logo_black_%28Italy%2C_2020%29.svg.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Juventus_FC_-_logo_black_%28Italy%2C_2020%29.svg/960px-Juventus_FC_-_logo_black_%28Italy%2C_2020%29.svg.png",
+      "avatarText": "J",
+      "color": "#ff5a61",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.json",
+          "x": 0,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.75,
+          "u1": 0.2,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Juventus_FC_-_logo_black_%28Italy%2C_2020%29.svg/960px-Juventus_FC_-_logo_black_%28Italy%2C_2020%29.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "newcastle-united",
+      "name": "Newcastle United",
+      "shortName": "Newcastle United",
+      "article": "Newcastle United F.C.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Newcastle_United_F.C.",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Newcastle_United_F.C._1960.jpg/960px-Newcastle_United_F.C._1960.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Newcastle_United_F.C._1960.jpg/960px-Newcastle_United_F.C._1960.jpg",
+      "avatarText": "NU",
+      "color": "#18c871",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.json",
+          "x": 320,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.75,
+          "u1": 0.4,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Newcastle_United_F.C._1960.jpg/960px-Newcastle_United_F.C._1960.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "vfb-stuttgart",
+      "name": "VfB Stuttgart",
+      "shortName": "VfB Stuttgart",
+      "article": "VfB Stuttgart",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/VfB_Stuttgart",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/VfB_Stuttgart_1893_Logo.svg/960px-VfB_Stuttgart_1893_Logo.svg.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/VfB_Stuttgart_1893_Logo.svg/960px-VfB_Stuttgart_1893_Logo.svg.png",
+      "avatarText": "VS",
+      "color": "#ffc84a",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.json",
+          "x": 640,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.75,
+          "u1": 0.6,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/VfB_Stuttgart_1893_Logo.svg/960px-VfB_Stuttgart_1893_Logo.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "benfica",
+      "name": "Benfica",
+      "shortName": "Benfica",
+      "article": "S.L. Benfica",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/S.L._Benfica",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/SL_Benfica_logo.svg/960px-SL_Benfica_logo.svg.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/SL_Benfica_logo.svg/960px-SL_Benfica_logo.svg.png",
+      "avatarText": "B",
+      "color": "#00a6ff",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.json",
+          "x": 960,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.75,
+          "u1": 0.8,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/SL_Benfica_logo.svg/960px-SL_Benfica_logo.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "west-ham-united",
+      "name": "West Ham United",
+      "shortName": "West Ham United",
+      "article": "West Ham United F.C.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/West_Ham_United_F.C.",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/West_Ham_United_FC_logo.svg/960px-West_Ham_United_FC_logo.svg.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/West_Ham_United_FC_logo.svg/960px-West_Ham_United_FC_logo.svg.png",
+      "avatarText": "WH",
+      "color": "#8f6bff",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.json",
+          "x": 1280,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.75,
+          "u1": 1,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/West_Ham_United_FC_logo.svg/960px-West_Ham_United_FC_logo.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    }
+  ],
+  "frames": [
+    {
+      "date": "20260630",
+      "values": [
+        {
+          "id": "real-madrid",
+          "value": 1161000000,
+          "rank": 1
+        },
+        {
+          "id": "barcelona",
+          "value": 974800000,
+          "rank": 2
+        },
+        {
+          "id": "bayern-munich",
+          "value": 860600000,
+          "rank": 3
+        },
+        {
+          "id": "paris-saint-germain",
+          "value": 837000000,
+          "rank": 4
+        },
+        {
+          "id": "liverpool",
+          "value": 836100000,
+          "rank": 5
+        },
+        {
+          "id": "manchester-city",
+          "value": 829300000,
+          "rank": 6
+        },
+        {
+          "id": "arsenal",
+          "value": 821700000,
+          "rank": 7
+        },
+        {
+          "id": "manchester-united",
+          "value": 793100000,
+          "rank": 8
+        },
+        {
+          "id": "tottenham-hotspur",
+          "value": 672600000,
+          "rank": 9
+        },
+        {
+          "id": "chelsea",
+          "value": 584100000,
+          "rank": 10
+        },
+        {
+          "id": "internazionale",
+          "value": 537500000,
+          "rank": 11
+        },
+        {
+          "id": "borussia-dortmund",
+          "value": 531299999.99999994,
+          "rank": 12
+        },
+        {
+          "id": "atletico-madrid",
+          "value": 454500000,
+          "rank": 13
+        },
+        {
+          "id": "aston-villa",
+          "value": 450200000,
+          "rank": 14
+        },
+        {
+          "id": "milan",
+          "value": 410400000,
+          "rank": 15
+        },
+        {
+          "id": "juventus",
+          "value": 401700000,
+          "rank": 16
+        },
+        {
+          "id": "newcastle-united",
+          "value": 398400000,
+          "rank": 17
+        },
+        {
+          "id": "vfb-stuttgart",
+          "value": 296300000,
+          "rank": 18
+        },
+        {
+          "id": "benfica",
+          "value": 283400000,
+          "rank": 19
+        },
+        {
+          "id": "west-ham-united",
+          "value": 276000000,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260701",
+      "values": [
+        {
+          "id": "real-madrid",
+          "value": 1161000000,
+          "rank": 1
+        },
+        {
+          "id": "barcelona",
+          "value": 974800000,
+          "rank": 2
+        },
+        {
+          "id": "bayern-munich",
+          "value": 860600000,
+          "rank": 3
+        },
+        {
+          "id": "paris-saint-germain",
+          "value": 837000000,
+          "rank": 4
+        },
+        {
+          "id": "liverpool",
+          "value": 836100000,
+          "rank": 5
+        },
+        {
+          "id": "manchester-city",
+          "value": 829300000,
+          "rank": 6
+        },
+        {
+          "id": "arsenal",
+          "value": 821700000,
+          "rank": 7
+        },
+        {
+          "id": "manchester-united",
+          "value": 793100000,
+          "rank": 8
+        },
+        {
+          "id": "tottenham-hotspur",
+          "value": 672600000,
+          "rank": 9
+        },
+        {
+          "id": "chelsea",
+          "value": 584100000,
+          "rank": 10
+        },
+        {
+          "id": "internazionale",
+          "value": 537500000,
+          "rank": 11
+        },
+        {
+          "id": "borussia-dortmund",
+          "value": 531299999.99999994,
+          "rank": 12
+        },
+        {
+          "id": "atletico-madrid",
+          "value": 454500000,
+          "rank": 13
+        },
+        {
+          "id": "aston-villa",
+          "value": 450200000,
+          "rank": 14
+        },
+        {
+          "id": "milan",
+          "value": 410400000,
+          "rank": 15
+        },
+        {
+          "id": "juventus",
+          "value": 401700000,
+          "rank": 16
+        },
+        {
+          "id": "newcastle-united",
+          "value": 398400000,
+          "rank": 17
+        },
+        {
+          "id": "vfb-stuttgart",
+          "value": 296300000,
+          "rank": 18
+        },
+        {
+          "id": "benfica",
+          "value": 283400000,
+          "rank": 19
+        },
+        {
+          "id": "west-ham-united",
+          "value": 276000000,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260706",
+      "values": [
+        {
+          "id": "real-madrid",
+          "value": 1161000000,
+          "rank": 1
+        },
+        {
+          "id": "barcelona",
+          "value": 974800000,
+          "rank": 2
+        },
+        {
+          "id": "bayern-munich",
+          "value": 860600000,
+          "rank": 3
+        },
+        {
+          "id": "paris-saint-germain",
+          "value": 837000000,
+          "rank": 4
+        },
+        {
+          "id": "liverpool",
+          "value": 836100000,
+          "rank": 5
+        },
+        {
+          "id": "manchester-city",
+          "value": 829300000,
+          "rank": 6
+        },
+        {
+          "id": "arsenal",
+          "value": 821700000,
+          "rank": 7
+        },
+        {
+          "id": "manchester-united",
+          "value": 793100000,
+          "rank": 8
+        },
+        {
+          "id": "tottenham-hotspur",
+          "value": 672600000,
+          "rank": 9
+        },
+        {
+          "id": "chelsea",
+          "value": 584100000,
+          "rank": 10
+        },
+        {
+          "id": "internazionale",
+          "value": 537500000,
+          "rank": 11
+        },
+        {
+          "id": "borussia-dortmund",
+          "value": 531299999.99999994,
+          "rank": 12
+        },
+        {
+          "id": "atletico-madrid",
+          "value": 454500000,
+          "rank": 13
+        },
+        {
+          "id": "aston-villa",
+          "value": 450200000,
+          "rank": 14
+        },
+        {
+          "id": "milan",
+          "value": 410400000,
+          "rank": 15
+        },
+        {
+          "id": "juventus",
+          "value": 401700000,
+          "rank": 16
+        },
+        {
+          "id": "newcastle-united",
+          "value": 398400000,
+          "rank": 17
+        },
+        {
+          "id": "vfb-stuttgart",
+          "value": 296300000,
+          "rank": 18
+        },
+        {
+          "id": "benfica",
+          "value": 283400000,
+          "rank": 19
+        },
+        {
+          "id": "west-ham-united",
+          "value": 276000000,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260707",
+      "values": [
+        {
+          "id": "real-madrid",
+          "value": 1161000000,
+          "rank": 1
+        },
+        {
+          "id": "barcelona",
+          "value": 974800000,
+          "rank": 2
+        },
+        {
+          "id": "bayern-munich",
+          "value": 860600000,
+          "rank": 3
+        },
+        {
+          "id": "paris-saint-germain",
+          "value": 837000000,
+          "rank": 4
+        },
+        {
+          "id": "liverpool",
+          "value": 836100000,
+          "rank": 5
+        },
+        {
+          "id": "manchester-city",
+          "value": 829300000,
+          "rank": 6
+        },
+        {
+          "id": "arsenal",
+          "value": 821700000,
+          "rank": 7
+        },
+        {
+          "id": "manchester-united",
+          "value": 793100000,
+          "rank": 8
+        },
+        {
+          "id": "tottenham-hotspur",
+          "value": 672600000,
+          "rank": 9
+        },
+        {
+          "id": "chelsea",
+          "value": 584100000,
+          "rank": 10
+        },
+        {
+          "id": "internazionale",
+          "value": 537500000,
+          "rank": 11
+        },
+        {
+          "id": "borussia-dortmund",
+          "value": 531299999.99999994,
+          "rank": 12
+        },
+        {
+          "id": "atletico-madrid",
+          "value": 454500000,
+          "rank": 13
+        },
+        {
+          "id": "aston-villa",
+          "value": 450200000,
+          "rank": 14
+        },
+        {
+          "id": "milan",
+          "value": 410400000,
+          "rank": 15
+        },
+        {
+          "id": "juventus",
+          "value": 401700000,
+          "rank": 16
+        },
+        {
+          "id": "newcastle-united",
+          "value": 398400000,
+          "rank": 17
+        },
+        {
+          "id": "vfb-stuttgart",
+          "value": 296300000,
+          "rank": 18
+        },
+        {
+          "id": "benfica",
+          "value": 283400000,
+          "rank": 19
+        },
+        {
+          "id": "west-ham-united",
+          "value": 276000000,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260708",
+      "values": [
+        {
+          "id": "real-madrid",
+          "value": 1161000000,
+          "rank": 1
+        },
+        {
+          "id": "barcelona",
+          "value": 974800000,
+          "rank": 2
+        },
+        {
+          "id": "bayern-munich",
+          "value": 860600000,
+          "rank": 3
+        },
+        {
+          "id": "paris-saint-germain",
+          "value": 837000000,
+          "rank": 4
+        },
+        {
+          "id": "liverpool",
+          "value": 836100000,
+          "rank": 5
+        },
+        {
+          "id": "manchester-city",
+          "value": 829300000,
+          "rank": 6
+        },
+        {
+          "id": "arsenal",
+          "value": 821700000,
+          "rank": 7
+        },
+        {
+          "id": "manchester-united",
+          "value": 793100000,
+          "rank": 8
+        },
+        {
+          "id": "tottenham-hotspur",
+          "value": 672600000,
+          "rank": 9
+        },
+        {
+          "id": "chelsea",
+          "value": 584100000,
+          "rank": 10
+        },
+        {
+          "id": "internazionale",
+          "value": 537500000,
+          "rank": 11
+        },
+        {
+          "id": "borussia-dortmund",
+          "value": 531299999.99999994,
+          "rank": 12
+        },
+        {
+          "id": "atletico-madrid",
+          "value": 454500000,
+          "rank": 13
+        },
+        {
+          "id": "aston-villa",
+          "value": 450200000,
+          "rank": 14
+        },
+        {
+          "id": "milan",
+          "value": 410400000,
+          "rank": 15
+        },
+        {
+          "id": "juventus",
+          "value": 401700000,
+          "rank": 16
+        },
+        {
+          "id": "newcastle-united",
+          "value": 398400000,
+          "rank": 17
+        },
+        {
+          "id": "vfb-stuttgart",
+          "value": 296300000,
+          "rank": 18
+        },
+        {
+          "id": "benfica",
+          "value": 283400000,
+          "rank": 19
+        },
+        {
+          "id": "west-ham-united",
+          "value": 276000000,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260709",
+      "values": [
+        {
+          "id": "real-madrid",
+          "value": 1161000000,
+          "rank": 1
+        },
+        {
+          "id": "barcelona",
+          "value": 974800000,
+          "rank": 2
+        },
+        {
+          "id": "bayern-munich",
+          "value": 860600000,
+          "rank": 3
+        },
+        {
+          "id": "paris-saint-germain",
+          "value": 837000000,
+          "rank": 4
+        },
+        {
+          "id": "liverpool",
+          "value": 836100000,
+          "rank": 5
+        },
+        {
+          "id": "manchester-city",
+          "value": 829300000,
+          "rank": 6
+        },
+        {
+          "id": "arsenal",
+          "value": 821700000,
+          "rank": 7
+        },
+        {
+          "id": "manchester-united",
+          "value": 793100000,
+          "rank": 8
+        },
+        {
+          "id": "tottenham-hotspur",
+          "value": 672600000,
+          "rank": 9
+        },
+        {
+          "id": "chelsea",
+          "value": 584100000,
+          "rank": 10
+        },
+        {
+          "id": "internazionale",
+          "value": 537500000,
+          "rank": 11
+        },
+        {
+          "id": "borussia-dortmund",
+          "value": 531299999.99999994,
+          "rank": 12
+        },
+        {
+          "id": "atletico-madrid",
+          "value": 454500000,
+          "rank": 13
+        },
+        {
+          "id": "aston-villa",
+          "value": 450200000,
+          "rank": 14
+        },
+        {
+          "id": "milan",
+          "value": 410400000,
+          "rank": 15
+        },
+        {
+          "id": "juventus",
+          "value": 401700000,
+          "rank": 16
+        },
+        {
+          "id": "newcastle-united",
+          "value": 398400000,
+          "rank": 17
+        },
+        {
+          "id": "vfb-stuttgart",
+          "value": 296300000,
+          "rank": 18
+        },
+        {
+          "id": "benfica",
+          "value": 283400000,
+          "rank": 19
+        },
+        {
+          "id": "west-ham-united",
+          "value": 276000000,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260710",
+      "values": [
+        {
+          "id": "real-madrid",
+          "value": 1161000000,
+          "rank": 1
+        },
+        {
+          "id": "barcelona",
+          "value": 974800000,
+          "rank": 2
+        },
+        {
+          "id": "bayern-munich",
+          "value": 860600000,
+          "rank": 3
+        },
+        {
+          "id": "paris-saint-germain",
+          "value": 837000000,
+          "rank": 4
+        },
+        {
+          "id": "liverpool",
+          "value": 836100000,
+          "rank": 5
+        },
+        {
+          "id": "manchester-city",
+          "value": 829300000,
+          "rank": 6
+        },
+        {
+          "id": "arsenal",
+          "value": 821700000,
+          "rank": 7
+        },
+        {
+          "id": "manchester-united",
+          "value": 793100000,
+          "rank": 8
+        },
+        {
+          "id": "tottenham-hotspur",
+          "value": 672600000,
+          "rank": 9
+        },
+        {
+          "id": "chelsea",
+          "value": 584100000,
+          "rank": 10
+        },
+        {
+          "id": "internazionale",
+          "value": 537500000,
+          "rank": 11
+        },
+        {
+          "id": "borussia-dortmund",
+          "value": 531299999.99999994,
+          "rank": 12
+        },
+        {
+          "id": "atletico-madrid",
+          "value": 454500000,
+          "rank": 13
+        },
+        {
+          "id": "aston-villa",
+          "value": 450200000,
+          "rank": 14
+        },
+        {
+          "id": "milan",
+          "value": 410400000,
+          "rank": 15
+        },
+        {
+          "id": "juventus",
+          "value": 401700000,
+          "rank": 16
+        },
+        {
+          "id": "newcastle-united",
+          "value": 398400000,
+          "rank": 17
+        },
+        {
+          "id": "vfb-stuttgart",
+          "value": 296300000,
+          "rank": 18
+        },
+        {
+          "id": "benfica",
+          "value": 283400000,
+          "rank": 19
+        },
+        {
+          "id": "west-ham-united",
+          "value": 276000000,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260711",
+      "values": [
+        {
+          "id": "real-madrid",
+          "value": 1161000000,
+          "rank": 1
+        },
+        {
+          "id": "barcelona",
+          "value": 974800000,
+          "rank": 2
+        },
+        {
+          "id": "bayern-munich",
+          "value": 860600000,
+          "rank": 3
+        },
+        {
+          "id": "paris-saint-germain",
+          "value": 837000000,
+          "rank": 4
+        },
+        {
+          "id": "liverpool",
+          "value": 836100000,
+          "rank": 5
+        },
+        {
+          "id": "manchester-city",
+          "value": 829300000,
+          "rank": 6
+        },
+        {
+          "id": "arsenal",
+          "value": 821700000,
+          "rank": 7
+        },
+        {
+          "id": "manchester-united",
+          "value": 793100000,
+          "rank": 8
+        },
+        {
+          "id": "tottenham-hotspur",
+          "value": 672600000,
+          "rank": 9
+        },
+        {
+          "id": "chelsea",
+          "value": 584100000,
+          "rank": 10
+        },
+        {
+          "id": "internazionale",
+          "value": 537500000,
+          "rank": 11
+        },
+        {
+          "id": "borussia-dortmund",
+          "value": 531299999.99999994,
+          "rank": 12
+        },
+        {
+          "id": "atletico-madrid",
+          "value": 454500000,
+          "rank": 13
+        },
+        {
+          "id": "aston-villa",
+          "value": 450200000,
+          "rank": 14
+        },
+        {
+          "id": "milan",
+          "value": 410400000,
+          "rank": 15
+        },
+        {
+          "id": "juventus",
+          "value": 401700000,
+          "rank": 16
+        },
+        {
+          "id": "newcastle-united",
+          "value": 398400000,
+          "rank": 17
+        },
+        {
+          "id": "vfb-stuttgart",
+          "value": 296300000,
+          "rank": 18
+        },
+        {
+          "id": "benfica",
+          "value": 283400000,
+          "rank": 19
+        },
+        {
+          "id": "west-ham-united",
+          "value": 276000000,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260712",
+      "values": [
+        {
+          "id": "real-madrid",
+          "value": 1161000000,
+          "rank": 1
+        },
+        {
+          "id": "barcelona",
+          "value": 974800000,
+          "rank": 2
+        },
+        {
+          "id": "bayern-munich",
+          "value": 860600000,
+          "rank": 3
+        },
+        {
+          "id": "paris-saint-germain",
+          "value": 837000000,
+          "rank": 4
+        },
+        {
+          "id": "liverpool",
+          "value": 836100000,
+          "rank": 5
+        },
+        {
+          "id": "manchester-city",
+          "value": 829300000,
+          "rank": 6
+        },
+        {
+          "id": "arsenal",
+          "value": 821700000,
+          "rank": 7
+        },
+        {
+          "id": "manchester-united",
+          "value": 793100000,
+          "rank": 8
+        },
+        {
+          "id": "tottenham-hotspur",
+          "value": 672600000,
+          "rank": 9
+        },
+        {
+          "id": "chelsea",
+          "value": 584100000,
+          "rank": 10
+        },
+        {
+          "id": "internazionale",
+          "value": 537500000,
+          "rank": 11
+        },
+        {
+          "id": "borussia-dortmund",
+          "value": 531299999.99999994,
+          "rank": 12
+        },
+        {
+          "id": "atletico-madrid",
+          "value": 454500000,
+          "rank": 13
+        },
+        {
+          "id": "aston-villa",
+          "value": 450200000,
+          "rank": 14
+        },
+        {
+          "id": "milan",
+          "value": 410400000,
+          "rank": 15
+        },
+        {
+          "id": "juventus",
+          "value": 401700000,
+          "rank": 16
+        },
+        {
+          "id": "newcastle-united",
+          "value": 398400000,
+          "rank": 17
+        },
+        {
+          "id": "vfb-stuttgart",
+          "value": 296300000,
+          "rank": 18
+        },
+        {
+          "id": "benfica",
+          "value": 283400000,
+          "rank": 19
+        },
+        {
+          "id": "west-ham-united",
+          "value": 276000000,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260713",
+      "values": [
+        {
+          "id": "real-madrid",
+          "value": 1161000000,
+          "rank": 1
+        },
+        {
+          "id": "barcelona",
+          "value": 974800000,
+          "rank": 2
+        },
+        {
+          "id": "bayern-munich",
+          "value": 860600000,
+          "rank": 3
+        },
+        {
+          "id": "paris-saint-germain",
+          "value": 837000000,
+          "rank": 4
+        },
+        {
+          "id": "liverpool",
+          "value": 836100000,
+          "rank": 5
+        },
+        {
+          "id": "manchester-city",
+          "value": 829300000,
+          "rank": 6
+        },
+        {
+          "id": "arsenal",
+          "value": 821700000,
+          "rank": 7
+        },
+        {
+          "id": "manchester-united",
+          "value": 793100000,
+          "rank": 8
+        },
+        {
+          "id": "tottenham-hotspur",
+          "value": 672600000,
+          "rank": 9
+        },
+        {
+          "id": "chelsea",
+          "value": 584100000,
+          "rank": 10
+        },
+        {
+          "id": "internazionale",
+          "value": 537500000,
+          "rank": 11
+        },
+        {
+          "id": "borussia-dortmund",
+          "value": 531299999.99999994,
+          "rank": 12
+        },
+        {
+          "id": "atletico-madrid",
+          "value": 454500000,
+          "rank": 13
+        },
+        {
+          "id": "aston-villa",
+          "value": 450200000,
+          "rank": 14
+        },
+        {
+          "id": "milan",
+          "value": 410400000,
+          "rank": 15
+        },
+        {
+          "id": "juventus",
+          "value": 401700000,
+          "rank": 16
+        },
+        {
+          "id": "newcastle-united",
+          "value": 398400000,
+          "rank": 17
+        },
+        {
+          "id": "vfb-stuttgart",
+          "value": 296300000,
+          "rank": 18
+        },
+        {
+          "id": "benfica",
+          "value": 283400000,
+          "rank": 19
+        },
+        {
+          "id": "west-ham-united",
+          "value": 276000000,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260714",
+      "values": [
+        {
+          "id": "real-madrid",
+          "value": 1161000000,
+          "rank": 1
+        },
+        {
+          "id": "barcelona",
+          "value": 974800000,
+          "rank": 2
+        },
+        {
+          "id": "bayern-munich",
+          "value": 860600000,
+          "rank": 3
+        },
+        {
+          "id": "paris-saint-germain",
+          "value": 837000000,
+          "rank": 4
+        },
+        {
+          "id": "liverpool",
+          "value": 836100000,
+          "rank": 5
+        },
+        {
+          "id": "manchester-city",
+          "value": 829300000,
+          "rank": 6
+        },
+        {
+          "id": "arsenal",
+          "value": 821700000,
+          "rank": 7
+        },
+        {
+          "id": "manchester-united",
+          "value": 793100000,
+          "rank": 8
+        },
+        {
+          "id": "tottenham-hotspur",
+          "value": 672600000,
+          "rank": 9
+        },
+        {
+          "id": "chelsea",
+          "value": 584100000,
+          "rank": 10
+        },
+        {
+          "id": "internazionale",
+          "value": 537500000,
+          "rank": 11
+        },
+        {
+          "id": "borussia-dortmund",
+          "value": 531299999.99999994,
+          "rank": 12
+        },
+        {
+          "id": "atletico-madrid",
+          "value": 454500000,
+          "rank": 13
+        },
+        {
+          "id": "aston-villa",
+          "value": 450200000,
+          "rank": 14
+        },
+        {
+          "id": "milan",
+          "value": 410400000,
+          "rank": 15
+        },
+        {
+          "id": "juventus",
+          "value": 401700000,
+          "rank": 16
+        },
+        {
+          "id": "newcastle-united",
+          "value": 398400000,
+          "rank": 17
+        },
+        {
+          "id": "vfb-stuttgart",
+          "value": 296300000,
+          "rank": 18
+        },
+        {
+          "id": "benfica",
+          "value": 283400000,
+          "rank": 19
+        },
+        {
+          "id": "west-ham-united",
+          "value": 276000000,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260715",
+      "values": [
+        {
+          "id": "real-madrid",
+          "value": 1161000000,
+          "rank": 1
+        },
+        {
+          "id": "barcelona",
+          "value": 974800000,
+          "rank": 2
+        },
+        {
+          "id": "bayern-munich",
+          "value": 860600000,
+          "rank": 3
+        },
+        {
+          "id": "paris-saint-germain",
+          "value": 837000000,
+          "rank": 4
+        },
+        {
+          "id": "liverpool",
+          "value": 836100000,
+          "rank": 5
+        },
+        {
+          "id": "manchester-city",
+          "value": 829300000,
+          "rank": 6
+        },
+        {
+          "id": "arsenal",
+          "value": 821700000,
+          "rank": 7
+        },
+        {
+          "id": "manchester-united",
+          "value": 793100000,
+          "rank": 8
+        },
+        {
+          "id": "tottenham-hotspur",
+          "value": 672600000,
+          "rank": 9
+        },
+        {
+          "id": "chelsea",
+          "value": 584100000,
+          "rank": 10
+        },
+        {
+          "id": "internazionale",
+          "value": 537500000,
+          "rank": 11
+        },
+        {
+          "id": "borussia-dortmund",
+          "value": 531299999.99999994,
+          "rank": 12
+        },
+        {
+          "id": "atletico-madrid",
+          "value": 454500000,
+          "rank": 13
+        },
+        {
+          "id": "aston-villa",
+          "value": 450200000,
+          "rank": 14
+        },
+        {
+          "id": "milan",
+          "value": 410400000,
+          "rank": 15
+        },
+        {
+          "id": "juventus",
+          "value": 401700000,
+          "rank": 16
+        },
+        {
+          "id": "newcastle-united",
+          "value": 398400000,
+          "rank": 17
+        },
+        {
+          "id": "vfb-stuttgart",
+          "value": 296300000,
+          "rank": 18
+        },
+        {
+          "id": "benfica",
+          "value": 283400000,
+          "rank": 19
+        },
+        {
+          "id": "west-ham-united",
+          "value": 276000000,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260716",
+      "values": [
+        {
+          "id": "real-madrid",
+          "value": 1161000000,
+          "rank": 1
+        },
+        {
+          "id": "barcelona",
+          "value": 974800000,
+          "rank": 2
+        },
+        {
+          "id": "bayern-munich",
+          "value": 860600000,
+          "rank": 3
+        },
+        {
+          "id": "paris-saint-germain",
+          "value": 837000000,
+          "rank": 4
+        },
+        {
+          "id": "liverpool",
+          "value": 836100000,
+          "rank": 5
+        },
+        {
+          "id": "manchester-city",
+          "value": 829300000,
+          "rank": 6
+        },
+        {
+          "id": "arsenal",
+          "value": 821700000,
+          "rank": 7
+        },
+        {
+          "id": "manchester-united",
+          "value": 793100000,
+          "rank": 8
+        },
+        {
+          "id": "tottenham-hotspur",
+          "value": 672600000,
+          "rank": 9
+        },
+        {
+          "id": "chelsea",
+          "value": 584100000,
+          "rank": 10
+        },
+        {
+          "id": "internazionale",
+          "value": 537500000,
+          "rank": 11
+        },
+        {
+          "id": "borussia-dortmund",
+          "value": 531299999.99999994,
+          "rank": 12
+        },
+        {
+          "id": "atletico-madrid",
+          "value": 454500000,
+          "rank": 13
+        },
+        {
+          "id": "aston-villa",
+          "value": 450200000,
+          "rank": 14
+        },
+        {
+          "id": "milan",
+          "value": 410400000,
+          "rank": 15
+        },
+        {
+          "id": "juventus",
+          "value": 401700000,
+          "rank": 16
+        },
+        {
+          "id": "newcastle-united",
+          "value": 398400000,
+          "rank": 17
+        },
+        {
+          "id": "vfb-stuttgart",
+          "value": 296300000,
+          "rank": 18
+        },
+        {
+          "id": "benfica",
+          "value": 283400000,
+          "rank": 19
+        },
+        {
+          "id": "west-ham-united",
+          "value": 276000000,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260717",
+      "values": [
+        {
+          "id": "real-madrid",
+          "value": 1161000000,
+          "rank": 1
+        },
+        {
+          "id": "barcelona",
+          "value": 974800000,
+          "rank": 2
+        },
+        {
+          "id": "bayern-munich",
+          "value": 860600000,
+          "rank": 3
+        },
+        {
+          "id": "paris-saint-germain",
+          "value": 837000000,
+          "rank": 4
+        },
+        {
+          "id": "liverpool",
+          "value": 836100000,
+          "rank": 5
+        },
+        {
+          "id": "manchester-city",
+          "value": 829300000,
+          "rank": 6
+        },
+        {
+          "id": "arsenal",
+          "value": 821700000,
+          "rank": 7
+        },
+        {
+          "id": "manchester-united",
+          "value": 793100000,
+          "rank": 8
+        },
+        {
+          "id": "tottenham-hotspur",
+          "value": 672600000,
+          "rank": 9
+        },
+        {
+          "id": "chelsea",
+          "value": 584100000,
+          "rank": 10
+        },
+        {
+          "id": "internazionale",
+          "value": 537500000,
+          "rank": 11
+        },
+        {
+          "id": "borussia-dortmund",
+          "value": 531299999.99999994,
+          "rank": 12
+        },
+        {
+          "id": "atletico-madrid",
+          "value": 454500000,
+          "rank": 13
+        },
+        {
+          "id": "aston-villa",
+          "value": 450200000,
+          "rank": 14
+        },
+        {
+          "id": "milan",
+          "value": 410400000,
+          "rank": 15
+        },
+        {
+          "id": "juventus",
+          "value": 401700000,
+          "rank": 16
+        },
+        {
+          "id": "newcastle-united",
+          "value": 398400000,
+          "rank": 17
+        },
+        {
+          "id": "vfb-stuttgart",
+          "value": 296300000,
+          "rank": 18
+        },
+        {
+          "id": "benfica",
+          "value": 283400000,
+          "rank": 19
+        },
+        {
+          "id": "west-ham-united",
+          "value": 276000000,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260718",
+      "values": [
+        {
+          "id": "real-madrid",
+          "value": 1161000000,
+          "rank": 1
+        },
+        {
+          "id": "barcelona",
+          "value": 974800000,
+          "rank": 2
+        },
+        {
+          "id": "bayern-munich",
+          "value": 860600000,
+          "rank": 3
+        },
+        {
+          "id": "paris-saint-germain",
+          "value": 837000000,
+          "rank": 4
+        },
+        {
+          "id": "liverpool",
+          "value": 836100000,
+          "rank": 5
+        },
+        {
+          "id": "manchester-city",
+          "value": 829300000,
+          "rank": 6
+        },
+        {
+          "id": "arsenal",
+          "value": 821700000,
+          "rank": 7
+        },
+        {
+          "id": "manchester-united",
+          "value": 793100000,
+          "rank": 8
+        },
+        {
+          "id": "tottenham-hotspur",
+          "value": 672600000,
+          "rank": 9
+        },
+        {
+          "id": "chelsea",
+          "value": 584100000,
+          "rank": 10
+        },
+        {
+          "id": "internazionale",
+          "value": 537500000,
+          "rank": 11
+        },
+        {
+          "id": "borussia-dortmund",
+          "value": 531299999.99999994,
+          "rank": 12
+        },
+        {
+          "id": "atletico-madrid",
+          "value": 454500000,
+          "rank": 13
+        },
+        {
+          "id": "aston-villa",
+          "value": 450200000,
+          "rank": 14
+        },
+        {
+          "id": "milan",
+          "value": 410400000,
+          "rank": 15
+        },
+        {
+          "id": "juventus",
+          "value": 401700000,
+          "rank": 16
+        },
+        {
+          "id": "newcastle-united",
+          "value": 398400000,
+          "rank": 17
+        },
+        {
+          "id": "vfb-stuttgart",
+          "value": 296300000,
+          "rank": 18
+        },
+        {
+          "id": "benfica",
+          "value": 283400000,
+          "rank": 19
+        },
+        {
+          "id": "west-ham-united",
+          "value": 276000000,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260719",
+      "values": [
+        {
+          "id": "real-madrid",
+          "value": 1161000000,
+          "rank": 1
+        },
+        {
+          "id": "barcelona",
+          "value": 974800000,
+          "rank": 2
+        },
+        {
+          "id": "bayern-munich",
+          "value": 860600000,
+          "rank": 3
+        },
+        {
+          "id": "paris-saint-germain",
+          "value": 837000000,
+          "rank": 4
+        },
+        {
+          "id": "liverpool",
+          "value": 836100000,
+          "rank": 5
+        },
+        {
+          "id": "manchester-city",
+          "value": 829300000,
+          "rank": 6
+        },
+        {
+          "id": "arsenal",
+          "value": 821700000,
+          "rank": 7
+        },
+        {
+          "id": "manchester-united",
+          "value": 793100000,
+          "rank": 8
+        },
+        {
+          "id": "tottenham-hotspur",
+          "value": 672600000,
+          "rank": 9
+        },
+        {
+          "id": "chelsea",
+          "value": 584100000,
+          "rank": 10
+        },
+        {
+          "id": "internazionale",
+          "value": 537500000,
+          "rank": 11
+        },
+        {
+          "id": "borussia-dortmund",
+          "value": 531299999.99999994,
+          "rank": 12
+        },
+        {
+          "id": "atletico-madrid",
+          "value": 454500000,
+          "rank": 13
+        },
+        {
+          "id": "aston-villa",
+          "value": 450200000,
+          "rank": 14
+        },
+        {
+          "id": "milan",
+          "value": 410400000,
+          "rank": 15
+        },
+        {
+          "id": "juventus",
+          "value": 401700000,
+          "rank": 16
+        },
+        {
+          "id": "newcastle-united",
+          "value": 398400000,
+          "rank": 17
+        },
+        {
+          "id": "vfb-stuttgart",
+          "value": 296300000,
+          "rank": 18
+        },
+        {
+          "id": "benfica",
+          "value": 283400000,
+          "rank": 19
+        },
+        {
+          "id": "west-ham-united",
+          "value": 276000000,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260720",
+      "values": [
+        {
+          "id": "real-madrid",
+          "value": 1161000000,
+          "rank": 1
+        },
+        {
+          "id": "barcelona",
+          "value": 974800000,
+          "rank": 2
+        },
+        {
+          "id": "bayern-munich",
+          "value": 860600000,
+          "rank": 3
+        },
+        {
+          "id": "paris-saint-germain",
+          "value": 837000000,
+          "rank": 4
+        },
+        {
+          "id": "liverpool",
+          "value": 836100000,
+          "rank": 5
+        },
+        {
+          "id": "manchester-city",
+          "value": 829300000,
+          "rank": 6
+        },
+        {
+          "id": "arsenal",
+          "value": 821700000,
+          "rank": 7
+        },
+        {
+          "id": "manchester-united",
+          "value": 793100000,
+          "rank": 8
+        },
+        {
+          "id": "tottenham-hotspur",
+          "value": 672600000,
+          "rank": 9
+        },
+        {
+          "id": "chelsea",
+          "value": 584100000,
+          "rank": 10
+        },
+        {
+          "id": "internazionale",
+          "value": 537500000,
+          "rank": 11
+        },
+        {
+          "id": "borussia-dortmund",
+          "value": 531299999.99999994,
+          "rank": 12
+        },
+        {
+          "id": "atletico-madrid",
+          "value": 454500000,
+          "rank": 13
+        },
+        {
+          "id": "aston-villa",
+          "value": 450200000,
+          "rank": 14
+        },
+        {
+          "id": "milan",
+          "value": 410400000,
+          "rank": 15
+        },
+        {
+          "id": "juventus",
+          "value": 401700000,
+          "rank": 16
+        },
+        {
+          "id": "newcastle-united",
+          "value": 398400000,
+          "rank": 17
+        },
+        {
+          "id": "vfb-stuttgart",
+          "value": 296300000,
+          "rank": 18
+        },
+        {
+          "id": "benfica",
+          "value": 283400000,
+          "rank": 19
+        },
+        {
+          "id": "west-ham-united",
+          "value": 276000000,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260721",
+      "values": [
+        {
+          "id": "real-madrid",
+          "value": 1161000000,
+          "rank": 1
+        },
+        {
+          "id": "barcelona",
+          "value": 974800000,
+          "rank": 2
+        },
+        {
+          "id": "bayern-munich",
+          "value": 860600000,
+          "rank": 3
+        },
+        {
+          "id": "paris-saint-germain",
+          "value": 837000000,
+          "rank": 4
+        },
+        {
+          "id": "liverpool",
+          "value": 836100000,
+          "rank": 5
+        },
+        {
+          "id": "manchester-city",
+          "value": 829300000,
+          "rank": 6
+        },
+        {
+          "id": "arsenal",
+          "value": 821700000,
+          "rank": 7
+        },
+        {
+          "id": "manchester-united",
+          "value": 793100000,
+          "rank": 8
+        },
+        {
+          "id": "tottenham-hotspur",
+          "value": 672600000,
+          "rank": 9
+        },
+        {
+          "id": "chelsea",
+          "value": 584100000,
+          "rank": 10
+        },
+        {
+          "id": "internazionale",
+          "value": 537500000,
+          "rank": 11
+        },
+        {
+          "id": "borussia-dortmund",
+          "value": 531299999.99999994,
+          "rank": 12
+        },
+        {
+          "id": "atletico-madrid",
+          "value": 454500000,
+          "rank": 13
+        },
+        {
+          "id": "aston-villa",
+          "value": 450200000,
+          "rank": 14
+        },
+        {
+          "id": "milan",
+          "value": 410400000,
+          "rank": 15
+        },
+        {
+          "id": "juventus",
+          "value": 401700000,
+          "rank": 16
+        },
+        {
+          "id": "newcastle-united",
+          "value": 398400000,
+          "rank": 17
+        },
+        {
+          "id": "vfb-stuttgart",
+          "value": 296300000,
+          "rank": 18
+        },
+        {
+          "id": "benfica",
+          "value": 283400000,
+          "rank": 19
+        },
+        {
+          "id": "west-ham-united",
+          "value": 276000000,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260722",
+      "values": [
+        {
+          "id": "real-madrid",
+          "value": 1161000000,
+          "rank": 1
+        },
+        {
+          "id": "barcelona",
+          "value": 974800000,
+          "rank": 2
+        },
+        {
+          "id": "bayern-munich",
+          "value": 860600000,
+          "rank": 3
+        },
+        {
+          "id": "paris-saint-germain",
+          "value": 837000000,
+          "rank": 4
+        },
+        {
+          "id": "liverpool",
+          "value": 836100000,
+          "rank": 5
+        },
+        {
+          "id": "manchester-city",
+          "value": 829300000,
+          "rank": 6
+        },
+        {
+          "id": "arsenal",
+          "value": 821700000,
+          "rank": 7
+        },
+        {
+          "id": "manchester-united",
+          "value": 793100000,
+          "rank": 8
+        },
+        {
+          "id": "tottenham-hotspur",
+          "value": 672600000,
+          "rank": 9
+        },
+        {
+          "id": "chelsea",
+          "value": 584100000,
+          "rank": 10
+        },
+        {
+          "id": "internazionale",
+          "value": 537500000,
+          "rank": 11
+        },
+        {
+          "id": "borussia-dortmund",
+          "value": 531299999.99999994,
+          "rank": 12
+        },
+        {
+          "id": "atletico-madrid",
+          "value": 454500000,
+          "rank": 13
+        },
+        {
+          "id": "aston-villa",
+          "value": 450200000,
+          "rank": 14
+        },
+        {
+          "id": "milan",
+          "value": 410400000,
+          "rank": 15
+        },
+        {
+          "id": "juventus",
+          "value": 401700000,
+          "rank": 16
+        },
+        {
+          "id": "newcastle-united",
+          "value": 398400000,
+          "rank": 17
+        },
+        {
+          "id": "vfb-stuttgart",
+          "value": 296300000,
+          "rank": 18
+        },
+        {
+          "id": "benfica",
+          "value": 283400000,
+          "rank": 19
+        },
+        {
+          "id": "west-ham-united",
+          "value": 276000000,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260727",
+      "values": [
+        {
+          "id": "real-madrid",
+          "value": 1161000000,
+          "rank": 1
+        },
+        {
+          "id": "barcelona",
+          "value": 974800000,
+          "rank": 2
+        },
+        {
+          "id": "bayern-munich",
+          "value": 860600000,
+          "rank": 3
+        },
+        {
+          "id": "paris-saint-germain",
+          "value": 837000000,
+          "rank": 4
+        },
+        {
+          "id": "liverpool",
+          "value": 836100000,
+          "rank": 5
+        },
+        {
+          "id": "manchester-city",
+          "value": 829300000,
+          "rank": 6
+        },
+        {
+          "id": "arsenal",
+          "value": 821700000,
+          "rank": 7
+        },
+        {
+          "id": "manchester-united",
+          "value": 793100000,
+          "rank": 8
+        },
+        {
+          "id": "tottenham-hotspur",
+          "value": 672600000,
+          "rank": 9
+        },
+        {
+          "id": "chelsea",
+          "value": 584100000,
+          "rank": 10
+        },
+        {
+          "id": "internazionale",
+          "value": 537500000,
+          "rank": 11
+        },
+        {
+          "id": "borussia-dortmund",
+          "value": 531299999.99999994,
+          "rank": 12
+        },
+        {
+          "id": "atletico-madrid",
+          "value": 454500000,
+          "rank": 13
+        },
+        {
+          "id": "aston-villa",
+          "value": 450200000,
+          "rank": 14
+        },
+        {
+          "id": "milan",
+          "value": 410400000,
+          "rank": 15
+        },
+        {
+          "id": "juventus",
+          "value": 401700000,
+          "rank": 16
+        },
+        {
+          "id": "newcastle-united",
+          "value": 398400000,
+          "rank": 17
+        },
+        {
+          "id": "vfb-stuttgart",
+          "value": 296300000,
+          "rank": 18
+        },
+        {
+          "id": "benfica",
+          "value": 283400000,
+          "rank": 19
+        },
+        {
+          "id": "west-ham-united",
+          "value": 276000000,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260803",
+      "values": [
+        {
+          "id": "real-madrid",
+          "value": 1161000000,
+          "rank": 1
+        },
+        {
+          "id": "barcelona",
+          "value": 974800000,
+          "rank": 2
+        },
+        {
+          "id": "bayern-munich",
+          "value": 860600000,
+          "rank": 3
+        },
+        {
+          "id": "paris-saint-germain",
+          "value": 837000000,
+          "rank": 4
+        },
+        {
+          "id": "liverpool",
+          "value": 836100000,
+          "rank": 5
+        },
+        {
+          "id": "manchester-city",
+          "value": 829300000,
+          "rank": 6
+        },
+        {
+          "id": "arsenal",
+          "value": 821700000,
+          "rank": 7
+        },
+        {
+          "id": "manchester-united",
+          "value": 793100000,
+          "rank": 8
+        },
+        {
+          "id": "tottenham-hotspur",
+          "value": 672600000,
+          "rank": 9
+        },
+        {
+          "id": "chelsea",
+          "value": 584100000,
+          "rank": 10
+        },
+        {
+          "id": "internazionale",
+          "value": 537500000,
+          "rank": 11
+        },
+        {
+          "id": "borussia-dortmund",
+          "value": 531299999.99999994,
+          "rank": 12
+        },
+        {
+          "id": "atletico-madrid",
+          "value": 454500000,
+          "rank": 13
+        },
+        {
+          "id": "aston-villa",
+          "value": 450200000,
+          "rank": 14
+        },
+        {
+          "id": "milan",
+          "value": 410400000,
+          "rank": 15
+        },
+        {
+          "id": "juventus",
+          "value": 401700000,
+          "rank": 16
+        },
+        {
+          "id": "newcastle-united",
+          "value": 398400000,
+          "rank": 17
+        },
+        {
+          "id": "vfb-stuttgart",
+          "value": 296300000,
+          "rank": 18
+        },
+        {
+          "id": "benfica",
+          "value": 283400000,
+          "rank": 19
+        },
+        {
+          "id": "west-ham-united",
+          "value": 276000000,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260810",
+      "values": [
+        {
+          "id": "real-madrid",
+          "value": 1161000000,
+          "rank": 1
+        },
+        {
+          "id": "barcelona",
+          "value": 974800000,
+          "rank": 2
+        },
+        {
+          "id": "bayern-munich",
+          "value": 860600000,
+          "rank": 3
+        },
+        {
+          "id": "paris-saint-germain",
+          "value": 837000000,
+          "rank": 4
+        },
+        {
+          "id": "liverpool",
+          "value": 836100000,
+          "rank": 5
+        },
+        {
+          "id": "manchester-city",
+          "value": 829300000,
+          "rank": 6
+        },
+        {
+          "id": "arsenal",
+          "value": 821700000,
+          "rank": 7
+        },
+        {
+          "id": "manchester-united",
+          "value": 793100000,
+          "rank": 8
+        },
+        {
+          "id": "tottenham-hotspur",
+          "value": 672600000,
+          "rank": 9
+        },
+        {
+          "id": "chelsea",
+          "value": 584100000,
+          "rank": 10
+        },
+        {
+          "id": "internazionale",
+          "value": 537500000,
+          "rank": 11
+        },
+        {
+          "id": "borussia-dortmund",
+          "value": 531299999.99999994,
+          "rank": 12
+        },
+        {
+          "id": "atletico-madrid",
+          "value": 454500000,
+          "rank": 13
+        },
+        {
+          "id": "aston-villa",
+          "value": 450200000,
+          "rank": 14
+        },
+        {
+          "id": "milan",
+          "value": 410400000,
+          "rank": 15
+        },
+        {
+          "id": "juventus",
+          "value": 401700000,
+          "rank": 16
+        },
+        {
+          "id": "newcastle-united",
+          "value": 398400000,
+          "rank": 17
+        },
+        {
+          "id": "vfb-stuttgart",
+          "value": 296300000,
+          "rank": 18
+        },
+        {
+          "id": "benfica",
+          "value": 283400000,
+          "rank": 19
+        },
+        {
+          "id": "west-ham-united",
+          "value": 276000000,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260817",
+      "values": [
+        {
+          "id": "real-madrid",
+          "value": 1161000000,
+          "rank": 1
+        },
+        {
+          "id": "barcelona",
+          "value": 974800000,
+          "rank": 2
+        },
+        {
+          "id": "bayern-munich",
+          "value": 860600000,
+          "rank": 3
+        },
+        {
+          "id": "paris-saint-germain",
+          "value": 837000000,
+          "rank": 4
+        },
+        {
+          "id": "liverpool",
+          "value": 836100000,
+          "rank": 5
+        },
+        {
+          "id": "manchester-city",
+          "value": 829300000,
+          "rank": 6
+        },
+        {
+          "id": "arsenal",
+          "value": 821700000,
+          "rank": 7
+        },
+        {
+          "id": "manchester-united",
+          "value": 793100000,
+          "rank": 8
+        },
+        {
+          "id": "tottenham-hotspur",
+          "value": 672600000,
+          "rank": 9
+        },
+        {
+          "id": "chelsea",
+          "value": 584100000,
+          "rank": 10
+        },
+        {
+          "id": "internazionale",
+          "value": 537500000,
+          "rank": 11
+        },
+        {
+          "id": "borussia-dortmund",
+          "value": 531299999.99999994,
+          "rank": 12
+        },
+        {
+          "id": "atletico-madrid",
+          "value": 454500000,
+          "rank": 13
+        },
+        {
+          "id": "aston-villa",
+          "value": 450200000,
+          "rank": 14
+        },
+        {
+          "id": "milan",
+          "value": 410400000,
+          "rank": 15
+        },
+        {
+          "id": "juventus",
+          "value": 401700000,
+          "rank": 16
+        },
+        {
+          "id": "newcastle-united",
+          "value": 398400000,
+          "rank": 17
+        },
+        {
+          "id": "vfb-stuttgart",
+          "value": 296300000,
+          "rank": 18
+        },
+        {
+          "id": "benfica",
+          "value": 283400000,
+          "rank": 19
+        },
+        {
+          "id": "west-ham-united",
+          "value": 276000000,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260822",
+      "values": [
+        {
+          "id": "real-madrid",
+          "value": 1161000000,
+          "rank": 1
+        },
+        {
+          "id": "barcelona",
+          "value": 974800000,
+          "rank": 2
+        },
+        {
+          "id": "bayern-munich",
+          "value": 860600000,
+          "rank": 3
+        },
+        {
+          "id": "paris-saint-germain",
+          "value": 837000000,
+          "rank": 4
+        },
+        {
+          "id": "liverpool",
+          "value": 836100000,
+          "rank": 5
+        },
+        {
+          "id": "manchester-city",
+          "value": 829300000,
+          "rank": 6
+        },
+        {
+          "id": "arsenal",
+          "value": 821700000,
+          "rank": 7
+        },
+        {
+          "id": "manchester-united",
+          "value": 793100000,
+          "rank": 8
+        },
+        {
+          "id": "tottenham-hotspur",
+          "value": 672600000,
+          "rank": 9
+        },
+        {
+          "id": "chelsea",
+          "value": 584100000,
+          "rank": 10
+        },
+        {
+          "id": "internazionale",
+          "value": 537500000,
+          "rank": 11
+        },
+        {
+          "id": "borussia-dortmund",
+          "value": 531299999.99999994,
+          "rank": 12
+        },
+        {
+          "id": "atletico-madrid",
+          "value": 454500000,
+          "rank": 13
+        },
+        {
+          "id": "aston-villa",
+          "value": 450200000,
+          "rank": 14
+        },
+        {
+          "id": "milan",
+          "value": 410400000,
+          "rank": 15
+        },
+        {
+          "id": "juventus",
+          "value": 401700000,
+          "rank": 16
+        },
+        {
+          "id": "newcastle-united",
+          "value": 398400000,
+          "rank": 17
+        },
+        {
+          "id": "vfb-stuttgart",
+          "value": 296300000,
+          "rank": 18
+        },
+        {
+          "id": "benfica",
+          "value": 283400000,
+          "rank": 19
+        },
+        {
+          "id": "west-ham-united",
+          "value": 276000000,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260824",
+      "values": [
+        {
+          "id": "real-madrid",
+          "value": 1161000000,
+          "rank": 1
+        },
+        {
+          "id": "barcelona",
+          "value": 974800000,
+          "rank": 2
+        },
+        {
+          "id": "bayern-munich",
+          "value": 860600000,
+          "rank": 3
+        },
+        {
+          "id": "paris-saint-germain",
+          "value": 837000000,
+          "rank": 4
+        },
+        {
+          "id": "liverpool",
+          "value": 836100000,
+          "rank": 5
+        },
+        {
+          "id": "manchester-city",
+          "value": 829300000,
+          "rank": 6
+        },
+        {
+          "id": "arsenal",
+          "value": 821700000,
+          "rank": 7
+        },
+        {
+          "id": "manchester-united",
+          "value": 793100000,
+          "rank": 8
+        },
+        {
+          "id": "tottenham-hotspur",
+          "value": 672600000,
+          "rank": 9
+        },
+        {
+          "id": "chelsea",
+          "value": 584100000,
+          "rank": 10
+        },
+        {
+          "id": "internazionale",
+          "value": 537500000,
+          "rank": 11
+        },
+        {
+          "id": "borussia-dortmund",
+          "value": 531299999.99999994,
+          "rank": 12
+        },
+        {
+          "id": "atletico-madrid",
+          "value": 454500000,
+          "rank": 13
+        },
+        {
+          "id": "aston-villa",
+          "value": 450200000,
+          "rank": 14
+        },
+        {
+          "id": "milan",
+          "value": 410400000,
+          "rank": 15
+        },
+        {
+          "id": "juventus",
+          "value": 401700000,
+          "rank": 16
+        },
+        {
+          "id": "newcastle-united",
+          "value": 398400000,
+          "rank": 17
+        },
+        {
+          "id": "vfb-stuttgart",
+          "value": 296300000,
+          "rank": 18
+        },
+        {
+          "id": "benfica",
+          "value": 283400000,
+          "rank": 19
+        },
+        {
+          "id": "west-ham-united",
+          "value": 276000000,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260831",
+      "values": [
+        {
+          "id": "real-madrid",
+          "value": 1161000000,
+          "rank": 1
+        },
+        {
+          "id": "barcelona",
+          "value": 974800000,
+          "rank": 2
+        },
+        {
+          "id": "bayern-munich",
+          "value": 860600000,
+          "rank": 3
+        },
+        {
+          "id": "paris-saint-germain",
+          "value": 837000000,
+          "rank": 4
+        },
+        {
+          "id": "liverpool",
+          "value": 836100000,
+          "rank": 5
+        },
+        {
+          "id": "manchester-city",
+          "value": 829300000,
+          "rank": 6
+        },
+        {
+          "id": "arsenal",
+          "value": 821700000,
+          "rank": 7
+        },
+        {
+          "id": "manchester-united",
+          "value": 793100000,
+          "rank": 8
+        },
+        {
+          "id": "tottenham-hotspur",
+          "value": 672600000,
+          "rank": 9
+        },
+        {
+          "id": "chelsea",
+          "value": 584100000,
+          "rank": 10
+        },
+        {
+          "id": "internazionale",
+          "value": 537500000,
+          "rank": 11
+        },
+        {
+          "id": "borussia-dortmund",
+          "value": 531299999.99999994,
+          "rank": 12
+        },
+        {
+          "id": "atletico-madrid",
+          "value": 454500000,
+          "rank": 13
+        },
+        {
+          "id": "aston-villa",
+          "value": 450200000,
+          "rank": 14
+        },
+        {
+          "id": "milan",
+          "value": 410400000,
+          "rank": 15
+        },
+        {
+          "id": "juventus",
+          "value": 401700000,
+          "rank": 16
+        },
+        {
+          "id": "newcastle-united",
+          "value": 398400000,
+          "rank": 17
+        },
+        {
+          "id": "vfb-stuttgart",
+          "value": 296300000,
+          "rank": 18
+        },
+        {
+          "id": "benfica",
+          "value": 283400000,
+          "rank": 19
+        },
+        {
+          "id": "west-ham-united",
+          "value": 276000000,
+          "rank": 20
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "date": "20260630",
+      "title": "Real Madrid leads annual revenue",
+      "body": "Real Madrid is the highest-ranked selected entry in this frame at €1.2B."
+    },
+    {
+      "date": "20260831",
+      "title": "Real Madrid leads annual revenue",
+      "body": "Real Madrid is the highest-ranked selected entry in this frame at €1.2B."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Deloitte Football Money League",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Deloitte_Football_Money_League",
+      "note": "Current public table parsed by the StoryOps adapter."
+    },
+    {
+      "title": "Deloitte Football Money League 2026",
+      "publisher": "Deloitte",
+      "url": "https://www.deloitte.com/uk/en/services/consulting-financial/analysis/deloitte-football-money-league.html",
+      "note": "Primary Deloitte publication behind the annual ranking."
+    },
+    {
+      "title": "The Highest Earning Football Clubs",
+      "publisher": "Voronoi",
+      "url": "https://www.voronoiapp.com/sports/The-Highest-Earning-Football-Clubs--8418",
+      "note": "Editorial reference for the dataset request."
+    }
+  ],
+  "lastObservationDate": "2026-08-31",
+  "dataFreshness": {
+    "status": "fresh",
+    "refreshCadence": "weekly",
+    "lastUpdated": "2026-08-31T07:01:19.214Z",
+    "lastRefreshAttemptedAt": "2026-08-31T07:01:19.214Z",
+    "lastRefreshError": null,
+    "lastObservationDate": "2026-08-31",
+    "nextRefreshAt": "2026-09-07T07:00:00.000Z",
+    "sourceStatus": "Deloitte Football Money League table via Wikipedia",
+    "confidence": "Observed Deloitte Football Money League on 2026-08-31T07:01:19.214Z; values are parsed from the \"Deloitte Football Money League 2026\" Wikipedia table."
+  },
+  "media": {
+    "imageFit": "contain",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-08-31T07:01:19.214Z",
+    "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.webp",
+    "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.webp",
+    "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.json",
+    "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/highest-earning-football-clubs.json",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 5,
+    "rows": 4,
+    "width": 1600,
+    "height": 1280,
+    "itemCount": 20,
+    "sourcedImageCount": 20,
+    "generatedImageCount": 0,
+    "placeholderCount": 0,
+    "ogImageUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/highest-earning-football-clubs.png",
+    "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/highest-earning-football-clubs.png",
+    "ogImageWidth": 1200,
+    "ogImageHeight": 630
+  },
+  "taxonomy": {
+    "primaryCategory": "sports",
+    "categories": [
+      "sports",
+      "business",
+      "football"
+    ],
+    "tags": [
+      "football",
+      "clubs",
+      "revenue",
+      "deloitte",
+      "rankings"
+    ],
+    "entityTypes": [
+      "club",
+      "team"
+    ],
+    "sourceTypes": [
+      "deloitte",
+      "wikipedia",
+      "voronoi"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "top-athlete-salaries",
+      "type": "sports-money",
+      "weight": 0.82,
+      "reason": "Both compare elite sports economics through public annual earnings rankings."
+    },
+    {
+      "target": "sports-brand-power",
+      "type": "sports-business",
+      "weight": 0.74,
+      "reason": "Club revenue and sports brand attention both reflect the commercial side of sport."
+    },
+    {
+      "target": "world-cup-team-appearances",
+      "type": "football-context",
+      "weight": 0.54,
+      "reason": "Both sit in global football culture, one through club finance and one through national-team history."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "sports-money",
+    "mainland": "sports-money",
+    "bridgePriority": [
+      "top-athlete-salaries",
+      "sports-brand-power"
+    ]
+  },
+  "schemaVersion": 1,
+  "contentKind": "dat-city.story",
+  "generatedAt": "2026-08-31T07:01:19.214Z",
+  "versionId": "20260831T070119Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "storyops-scheduler",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-08-31T07:01:19.214Z",
+    "versionId": "20260831T070119Z",
+    "adapter": "wikipedia-ranking-table",
+    "storySlug": "highest-earning-football-clubs",
+    "districtId": null,
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "publicProjection": {
+    "kind": "story",
+    "version": 1,
+    "generatedAt": "2026-08-31T07:01:19.214Z",
+    "adapter": "wikipedia-ranking-table",
+    "cache": {
+      "browserMaxAgeSeconds": 60,
+      "edgeMaxAgeSeconds": 3600
+    }
+  },
+  "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/highest-earning-football-clubs.png"
+}

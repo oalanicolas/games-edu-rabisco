@@ -1,0 +1,1281 @@
+{
+  "id": "ai-model-popularity",
+  "kicker": "Model Downloads",
+  "title": "AI Model Popularity",
+  "subtitle": "The public Hugging Face models pulling the most download attention right now.",
+  "badge": "Ranked by downloads",
+  "visualization": "race-arena",
+  "theme": "creator-arena",
+  "artStyle": "stylized-editorial",
+  "dateRange": [
+    "20260901",
+    "20260902"
+  ],
+  "timelineTicks": [
+    "20260901",
+    "20260902"
+  ],
+  "metricLabel": "Downloads",
+  "ogImage": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/ai-model-popularity.png",
+  "cityPreview": {
+    "districtId": "model-arena",
+    "districtName": "Model Arena",
+    "cardLabel": "Model Downloads",
+    "summary": "Hugging Face model popularity by public download counts.",
+    "primaryMetric": "Downloads",
+    "latestFrameLabel": "2026-09-02",
+    "storyUrl": "/stories/ai-model-popularity/",
+    "thumbnail": "/assets/og/dat-city-home.png"
+  },
+  "sourceStatus": "Hugging Face public models API",
+  "confidence": "Observed Hugging Face public model rankings by downloads on 2026-09-02.",
+  "methodology": "This adapter reads the Hugging Face public models API sorted by downloads. The published story keeps model id, task tag, likes, and downloads for the leading public model pages. StoryOps snapshots can accumulate the ranking over time.",
+  "playback": {
+    "durationSeconds": 22,
+    "initialDate": "20260901",
+    "periodLabel": "model popularity snapshots"
+  },
+  "visual": {
+    "topCount": 10,
+    "referenceCount": 12,
+    "horizontalCount": 12
+  },
+  "layers": [
+    {
+      "id": "downloads",
+      "label": "Downloads",
+      "default": true
+    },
+    {
+      "id": "likes",
+      "label": "Likes",
+      "default": true
+    },
+    {
+      "id": "task",
+      "label": "Task",
+      "default": true
+    }
+  ],
+  "focus": [
+    {
+      "id": "sentence-transformers-all-minilm-l6-v2",
+      "label": "all-MiniLM-L6-v2"
+    },
+    {
+      "id": "cross-encoder-ms-marco-minilm-l6-v2",
+      "label": "ms-marco-MiniLM-L6-v2"
+    },
+    {
+      "id": "baai-bge-small-en-v1-5",
+      "label": "bge-small-en-v1.5"
+    },
+    {
+      "id": "google-bert-bert-base-uncased",
+      "label": "bert-base-uncased"
+    }
+  ],
+  "entities": [
+    {
+      "id": "sentence-transformers-all-minilm-l6-v2",
+      "name": "sentence-transformers/all-MiniLM-L6-v2",
+      "shortName": "all-MiniLM-L6-v2",
+      "modelUrl": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
+      "owner": "sentence-transformers",
+      "modelOwnerLogoUrl": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg",
+      "imageUrl": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg",
+      "task": "sentence-similarity",
+      "likes": 5361,
+      "downloads": 250280836,
+      "avatarText": "SA",
+      "color": "#ff5a61",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.json",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.2,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "model-owner"
+        }
+      }
+    },
+    {
+      "id": "cross-encoder-ms-marco-minilm-l6-v2",
+      "name": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "shortName": "ms-marco-MiniLM-L6-v2",
+      "modelUrl": "https://huggingface.co/cross-encoder/ms-marco-MiniLM-L6-v2",
+      "owner": "cross-encoder",
+      "modelOwnerLogoUrl": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg",
+      "imageUrl": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg",
+      "task": "text-ranking",
+      "likes": 309,
+      "downloads": 85268397,
+      "avatarText": "CM",
+      "color": "#18c871",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.json",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0,
+          "u1": 0.4,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "model-owner"
+        }
+      }
+    },
+    {
+      "id": "baai-bge-small-en-v1-5",
+      "name": "BAAI/bge-small-en-v1.5",
+      "shortName": "bge-small-en-v1.5",
+      "modelUrl": "https://huggingface.co/BAAI/bge-small-en-v1.5",
+      "owner": "BAAI",
+      "modelOwnerLogoUrl": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg",
+      "imageUrl": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg",
+      "task": "feature-extraction",
+      "likes": 542,
+      "downloads": 66280213,
+      "avatarText": "BB",
+      "color": "#ffc84a",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.json",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0,
+          "u1": 0.6,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "model-owner"
+        }
+      }
+    },
+    {
+      "id": "google-bert-bert-base-uncased",
+      "name": "google-bert/bert-base-uncased",
+      "shortName": "bert-base-uncased",
+      "modelUrl": "https://huggingface.co/google-bert/bert-base-uncased",
+      "owner": "google-bert",
+      "modelOwnerLogoUrl": "https://cdn.simpleicons.org/google",
+      "imageUrl": "https://cdn.simpleicons.org/google",
+      "task": "fill-mask",
+      "likes": 2841,
+      "downloads": 63694017,
+      "avatarText": "GB",
+      "color": "#00a6ff",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.json",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0,
+          "u1": 0.8,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/google",
+          "sourceStatus": "source-image",
+          "sourceProvider": "model-owner"
+        }
+      }
+    },
+    {
+      "id": "google-electra-base-discriminator",
+      "name": "google/electra-base-discriminator",
+      "shortName": "electra-base-discriminator",
+      "modelUrl": "https://huggingface.co/google/electra-base-discriminator",
+      "owner": "google",
+      "modelOwnerLogoUrl": "https://cdn.simpleicons.org/google",
+      "imageUrl": "https://cdn.simpleicons.org/google",
+      "task": "transformers",
+      "likes": 157,
+      "downloads": 57108020,
+      "avatarText": "GE",
+      "color": "#8f6bff",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.json",
+          "x": 1280,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/google",
+          "sourceStatus": "source-image",
+          "sourceProvider": "model-owner"
+        }
+      }
+    },
+    {
+      "id": "sentence-transformers-paraphrase-multilingual-minilm-l12-v2",
+      "name": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+      "shortName": "paraphrase-multilingual-MiniLM-L12-v2",
+      "modelUrl": "https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+      "owner": "sentence-transformers",
+      "modelOwnerLogoUrl": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg",
+      "imageUrl": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg",
+      "task": "sentence-similarity",
+      "likes": 1360,
+      "downloads": 45878934,
+      "avatarText": "SP",
+      "color": "#f18c4f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.json",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.25,
+          "u1": 0.2,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "model-owner"
+        }
+      }
+    },
+    {
+      "id": "baai-bge-m3",
+      "name": "BAAI/bge-m3",
+      "shortName": "bge-m3",
+      "modelUrl": "https://huggingface.co/BAAI/bge-m3",
+      "owner": "BAAI",
+      "modelOwnerLogoUrl": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg",
+      "imageUrl": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg",
+      "task": "sentence-similarity",
+      "likes": 3456,
+      "downloads": 37079940,
+      "avatarText": "BB",
+      "color": "#41a99f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.json",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.25,
+          "u1": 0.4,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "model-owner"
+        }
+      }
+    },
+    {
+      "id": "amazon-chronos-2",
+      "name": "amazon/chronos-2",
+      "shortName": "chronos-2",
+      "modelUrl": "https://huggingface.co/amazon/chronos-2",
+      "owner": "amazon",
+      "modelOwnerLogoUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+      "task": "time-series-forecasting",
+      "likes": 417,
+      "downloads": 28325839,
+      "avatarText": "AC",
+      "color": "#d78fca",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.json",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.25,
+          "u1": 0.6,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "model-owner"
+        }
+      }
+    },
+    {
+      "id": "sentence-transformers-all-mpnet-base-v2",
+      "name": "sentence-transformers/all-mpnet-base-v2",
+      "shortName": "all-mpnet-base-v2",
+      "modelUrl": "https://huggingface.co/sentence-transformers/all-mpnet-base-v2",
+      "owner": "sentence-transformers",
+      "modelOwnerLogoUrl": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg",
+      "imageUrl": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg",
+      "task": "sentence-similarity",
+      "likes": 1348,
+      "downloads": 24135416,
+      "avatarText": "SA",
+      "color": "#7b9b65",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.json",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.25,
+          "u1": 0.8,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "model-owner"
+        }
+      }
+    },
+    {
+      "id": "google-t5-t5-small",
+      "name": "google-t5/t5-small",
+      "shortName": "t5-small",
+      "modelUrl": "https://huggingface.co/google-t5/t5-small",
+      "owner": "google-t5",
+      "modelOwnerLogoUrl": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg",
+      "imageUrl": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg",
+      "task": "translation",
+      "likes": 596,
+      "downloads": 23014161,
+      "avatarText": "GT",
+      "color": "#2f4858",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.json",
+          "x": 1280,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.25,
+          "u1": 1,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "model-owner"
+        }
+      }
+    },
+    {
+      "id": "qwen-qwen3-0-6b",
+      "name": "Qwen/Qwen3-0.6B",
+      "shortName": "Qwen3-0.6B",
+      "modelUrl": "https://huggingface.co/Qwen/Qwen3-0.6B",
+      "owner": "Qwen",
+      "modelOwnerLogoUrl": "https://cdn.simpleicons.org/alibabadotcom",
+      "imageUrl": "https://cdn.simpleicons.org/alibabadotcom",
+      "task": "text-generation",
+      "likes": 1564,
+      "downloads": 22741013,
+      "avatarText": "QQ",
+      "color": "#ef426f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.json",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.5,
+          "u1": 0.2,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/alibabadotcom",
+          "sourceStatus": "source-image",
+          "sourceProvider": "model-owner"
+        }
+      }
+    },
+    {
+      "id": "comfy-org-minimax-h3",
+      "name": "Comfy-Org/MiniMax-H3",
+      "shortName": "MiniMax-H3",
+      "modelUrl": "https://huggingface.co/Comfy-Org/MiniMax-H3",
+      "owner": "Comfy-Org",
+      "modelOwnerLogoUrl": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg",
+      "imageUrl": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg",
+      "task": "diffusion-single-file",
+      "likes": 1650,
+      "downloads": 22661854,
+      "avatarText": "CM",
+      "color": "#86bdf4",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.json",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.5,
+          "u1": 0.4,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "model-owner"
+        }
+      }
+    },
+    {
+      "id": "facebookai-xlm-roberta-base",
+      "name": "FacebookAI/xlm-roberta-base",
+      "shortName": "xlm-roberta-base",
+      "modelUrl": "https://huggingface.co/FacebookAI/xlm-roberta-base",
+      "owner": "FacebookAI",
+      "modelOwnerLogoUrl": "https://cdn.simpleicons.org/meta",
+      "imageUrl": "https://cdn.simpleicons.org/meta",
+      "task": "fill-mask",
+      "likes": 890,
+      "downloads": 21167499,
+      "avatarText": "FX",
+      "color": "#c9a14a",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.json",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.5,
+          "u1": 0.6,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/meta",
+          "sourceStatus": "source-image",
+          "sourceProvider": "model-owner"
+        }
+      }
+    },
+    {
+      "id": "openai-clip-vit-base-patch32",
+      "name": "openai/clip-vit-base-patch32",
+      "shortName": "clip-vit-base-patch32",
+      "modelUrl": "https://huggingface.co/openai/clip-vit-base-patch32",
+      "owner": "openai",
+      "modelOwnerLogoUrl": "https://upload.wikimedia.org/wikipedia/commons/6/66/OpenAI_logo_2025_%28symbol%29.svg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/66/OpenAI_logo_2025_%28symbol%29.svg",
+      "task": "zero-shot-image-classification",
+      "likes": 1082,
+      "downloads": 20263144,
+      "avatarText": "OC",
+      "color": "#e34f59",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.json",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.5,
+          "u1": 0.8,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/66/OpenAI_logo_2025_%28symbol%29.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "model-owner"
+        }
+      }
+    },
+    {
+      "id": "baai-bge-reranker-v2-m3",
+      "name": "BAAI/bge-reranker-v2-m3",
+      "shortName": "bge-reranker-v2-m3",
+      "modelUrl": "https://huggingface.co/BAAI/bge-reranker-v2-m3",
+      "owner": "BAAI",
+      "modelOwnerLogoUrl": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg",
+      "imageUrl": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg",
+      "task": "text-classification",
+      "likes": 1153,
+      "downloads": 17813651,
+      "avatarText": "BB",
+      "color": "#9aa4b2",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.json",
+          "x": 1280,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.5,
+          "u1": 1,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "model-owner"
+        }
+      }
+    },
+    {
+      "id": "timm-mobilenetv3-small-100-lamb-in1k",
+      "name": "timm/mobilenetv3_small_100.lamb_in1k",
+      "shortName": "mobilenetv3_small_100.lamb_in1k",
+      "modelUrl": "https://huggingface.co/timm/mobilenetv3_small_100.lamb_in1k",
+      "owner": "timm",
+      "modelOwnerLogoUrl": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg",
+      "imageUrl": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg",
+      "task": "image-classification",
+      "likes": 102,
+      "downloads": 17786482,
+      "avatarText": "TM",
+      "color": "#ff5a61",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.json",
+          "x": 0,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.75,
+          "u1": 0.2,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "model-owner"
+        }
+      }
+    },
+    {
+      "id": "nomic-ai-nomic-embed-text-v1-5",
+      "name": "nomic-ai/nomic-embed-text-v1.5",
+      "shortName": "nomic-embed-text-v1.5",
+      "modelUrl": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5",
+      "owner": "nomic-ai",
+      "modelOwnerLogoUrl": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg",
+      "imageUrl": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg",
+      "task": "sentence-similarity",
+      "likes": 897,
+      "downloads": 16175054,
+      "avatarText": "NN",
+      "color": "#18c871",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.json",
+          "x": 320,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.75,
+          "u1": 0.4,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "model-owner"
+        }
+      }
+    },
+    {
+      "id": "trl-internal-testing-tiny-qwen2forcausallm-2-5",
+      "name": "trl-internal-testing/tiny-Qwen2ForCausalLM-2.5",
+      "shortName": "tiny-Qwen2ForCausalLM-2.5",
+      "modelUrl": "https://huggingface.co/trl-internal-testing/tiny-Qwen2ForCausalLM-2.5",
+      "owner": "trl-internal-testing",
+      "modelOwnerLogoUrl": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg",
+      "imageUrl": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg",
+      "task": "text-generation",
+      "likes": 20,
+      "downloads": 15306387,
+      "avatarText": "TT",
+      "color": "#ffc84a",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.json",
+          "x": 640,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.75,
+          "u1": 0.6,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "model-owner"
+        }
+      }
+    },
+    {
+      "id": "openai-community-gpt2",
+      "name": "openai-community/gpt2",
+      "shortName": "gpt2",
+      "modelUrl": "https://huggingface.co/openai-community/gpt2",
+      "owner": "openai-community",
+      "modelOwnerLogoUrl": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg",
+      "imageUrl": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg",
+      "task": "text-generation",
+      "likes": 3516,
+      "downloads": 14290101,
+      "avatarText": "OG",
+      "color": "#00a6ff",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.json",
+          "x": 960,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.75,
+          "u1": 0.8,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "model-owner"
+        }
+      }
+    },
+    {
+      "id": "qwen-qwen3-8b",
+      "name": "Qwen/Qwen3-8B",
+      "shortName": "Qwen3-8B",
+      "modelUrl": "https://huggingface.co/Qwen/Qwen3-8B",
+      "owner": "Qwen",
+      "modelOwnerLogoUrl": "https://cdn.simpleicons.org/alibabadotcom",
+      "imageUrl": "https://cdn.simpleicons.org/alibabadotcom",
+      "task": "text-generation",
+      "likes": 1334,
+      "downloads": 13632574,
+      "avatarText": "QQ",
+      "color": "#8f6bff",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.json",
+          "x": 1280,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.75,
+          "u1": 1,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/alibabadotcom",
+          "sourceStatus": "source-image",
+          "sourceProvider": "model-owner"
+        }
+      }
+    }
+  ],
+  "frames": [
+    {
+      "date": "20260901",
+      "values": [
+        {
+          "id": "sentence-transformers-all-minilm-l6-v2",
+          "value": 250280836,
+          "rank": 1,
+          "downloads": 250280836,
+          "likes": 5361,
+          "task": "sentence-similarity"
+        },
+        {
+          "id": "cross-encoder-ms-marco-minilm-l6-v2",
+          "value": 85268397,
+          "rank": 2,
+          "downloads": 85268397,
+          "likes": 309,
+          "task": "text-ranking"
+        },
+        {
+          "id": "baai-bge-small-en-v1-5",
+          "value": 66280213,
+          "rank": 3,
+          "downloads": 66280213,
+          "likes": 542,
+          "task": "feature-extraction"
+        },
+        {
+          "id": "google-bert-bert-base-uncased",
+          "value": 63694017,
+          "rank": 4,
+          "downloads": 63694017,
+          "likes": 2841,
+          "task": "fill-mask"
+        },
+        {
+          "id": "google-electra-base-discriminator",
+          "value": 57108020,
+          "rank": 5,
+          "downloads": 57108020,
+          "likes": 157,
+          "task": "transformers"
+        },
+        {
+          "id": "sentence-transformers-paraphrase-multilingual-minilm-l12-v2",
+          "value": 45878934,
+          "rank": 6,
+          "downloads": 45878934,
+          "likes": 1360,
+          "task": "sentence-similarity"
+        },
+        {
+          "id": "baai-bge-m3",
+          "value": 37079940,
+          "rank": 7,
+          "downloads": 37079940,
+          "likes": 3456,
+          "task": "sentence-similarity"
+        },
+        {
+          "id": "amazon-chronos-2",
+          "value": 28325839,
+          "rank": 8,
+          "downloads": 28325839,
+          "likes": 417,
+          "task": "time-series-forecasting"
+        },
+        {
+          "id": "sentence-transformers-all-mpnet-base-v2",
+          "value": 24135416,
+          "rank": 9,
+          "downloads": 24135416,
+          "likes": 1348,
+          "task": "sentence-similarity"
+        },
+        {
+          "id": "google-t5-t5-small",
+          "value": 23014161,
+          "rank": 10,
+          "downloads": 23014161,
+          "likes": 596,
+          "task": "translation"
+        },
+        {
+          "id": "qwen-qwen3-0-6b",
+          "value": 22741013,
+          "rank": 11,
+          "downloads": 22741013,
+          "likes": 1564,
+          "task": "text-generation"
+        },
+        {
+          "id": "comfy-org-minimax-h3",
+          "value": 22661854,
+          "rank": 12,
+          "downloads": 22661854,
+          "likes": 1650,
+          "task": "diffusion-single-file"
+        },
+        {
+          "id": "facebookai-xlm-roberta-base",
+          "value": 21167499,
+          "rank": 13,
+          "downloads": 21167499,
+          "likes": 890,
+          "task": "fill-mask"
+        },
+        {
+          "id": "openai-clip-vit-base-patch32",
+          "value": 20263144,
+          "rank": 14,
+          "downloads": 20263144,
+          "likes": 1082,
+          "task": "zero-shot-image-classification"
+        },
+        {
+          "id": "baai-bge-reranker-v2-m3",
+          "value": 17813651,
+          "rank": 15,
+          "downloads": 17813651,
+          "likes": 1153,
+          "task": "text-classification"
+        },
+        {
+          "id": "timm-mobilenetv3-small-100-lamb-in1k",
+          "value": 17786482,
+          "rank": 16,
+          "downloads": 17786482,
+          "likes": 102,
+          "task": "image-classification"
+        },
+        {
+          "id": "nomic-ai-nomic-embed-text-v1-5",
+          "value": 16175054,
+          "rank": 17,
+          "downloads": 16175054,
+          "likes": 897,
+          "task": "sentence-similarity"
+        },
+        {
+          "id": "trl-internal-testing-tiny-qwen2forcausallm-2-5",
+          "value": 15306387,
+          "rank": 18,
+          "downloads": 15306387,
+          "likes": 20,
+          "task": "text-generation"
+        },
+        {
+          "id": "openai-community-gpt2",
+          "value": 14290101,
+          "rank": 19,
+          "downloads": 14290101,
+          "likes": 3516,
+          "task": "text-generation"
+        },
+        {
+          "id": "qwen-qwen3-8b",
+          "value": 13632574,
+          "rank": 20,
+          "downloads": 13632574,
+          "likes": 1334,
+          "task": "text-generation"
+        }
+      ]
+    },
+    {
+      "date": "20260902",
+      "values": [
+        {
+          "id": "sentence-transformers-all-minilm-l6-v2",
+          "value": 250280836,
+          "rank": 1,
+          "downloads": 250280836,
+          "likes": 5361,
+          "task": "sentence-similarity"
+        },
+        {
+          "id": "cross-encoder-ms-marco-minilm-l6-v2",
+          "value": 85268397,
+          "rank": 2,
+          "downloads": 85268397,
+          "likes": 309,
+          "task": "text-ranking"
+        },
+        {
+          "id": "baai-bge-small-en-v1-5",
+          "value": 66280213,
+          "rank": 3,
+          "downloads": 66280213,
+          "likes": 542,
+          "task": "feature-extraction"
+        },
+        {
+          "id": "google-bert-bert-base-uncased",
+          "value": 63694017,
+          "rank": 4,
+          "downloads": 63694017,
+          "likes": 2841,
+          "task": "fill-mask"
+        },
+        {
+          "id": "google-electra-base-discriminator",
+          "value": 57108020,
+          "rank": 5,
+          "downloads": 57108020,
+          "likes": 157,
+          "task": "transformers"
+        },
+        {
+          "id": "sentence-transformers-paraphrase-multilingual-minilm-l12-v2",
+          "value": 45878934,
+          "rank": 6,
+          "downloads": 45878934,
+          "likes": 1360,
+          "task": "sentence-similarity"
+        },
+        {
+          "id": "baai-bge-m3",
+          "value": 37079940,
+          "rank": 7,
+          "downloads": 37079940,
+          "likes": 3456,
+          "task": "sentence-similarity"
+        },
+        {
+          "id": "amazon-chronos-2",
+          "value": 28325839,
+          "rank": 8,
+          "downloads": 28325839,
+          "likes": 417,
+          "task": "time-series-forecasting"
+        },
+        {
+          "id": "sentence-transformers-all-mpnet-base-v2",
+          "value": 24135416,
+          "rank": 9,
+          "downloads": 24135416,
+          "likes": 1348,
+          "task": "sentence-similarity"
+        },
+        {
+          "id": "google-t5-t5-small",
+          "value": 23014161,
+          "rank": 10,
+          "downloads": 23014161,
+          "likes": 596,
+          "task": "translation"
+        },
+        {
+          "id": "qwen-qwen3-0-6b",
+          "value": 22741013,
+          "rank": 11,
+          "downloads": 22741013,
+          "likes": 1564,
+          "task": "text-generation"
+        },
+        {
+          "id": "comfy-org-minimax-h3",
+          "value": 22661854,
+          "rank": 12,
+          "downloads": 22661854,
+          "likes": 1650,
+          "task": "diffusion-single-file"
+        },
+        {
+          "id": "facebookai-xlm-roberta-base",
+          "value": 21167499,
+          "rank": 13,
+          "downloads": 21167499,
+          "likes": 890,
+          "task": "fill-mask"
+        },
+        {
+          "id": "openai-clip-vit-base-patch32",
+          "value": 20263144,
+          "rank": 14,
+          "downloads": 20263144,
+          "likes": 1082,
+          "task": "zero-shot-image-classification"
+        },
+        {
+          "id": "baai-bge-reranker-v2-m3",
+          "value": 17813651,
+          "rank": 15,
+          "downloads": 17813651,
+          "likes": 1153,
+          "task": "text-classification"
+        },
+        {
+          "id": "timm-mobilenetv3-small-100-lamb-in1k",
+          "value": 17786482,
+          "rank": 16,
+          "downloads": 17786482,
+          "likes": 102,
+          "task": "image-classification"
+        },
+        {
+          "id": "nomic-ai-nomic-embed-text-v1-5",
+          "value": 16175054,
+          "rank": 17,
+          "downloads": 16175054,
+          "likes": 897,
+          "task": "sentence-similarity"
+        },
+        {
+          "id": "trl-internal-testing-tiny-qwen2forcausallm-2-5",
+          "value": 15306387,
+          "rank": 18,
+          "downloads": 15306387,
+          "likes": 20,
+          "task": "text-generation"
+        },
+        {
+          "id": "openai-community-gpt2",
+          "value": 14290101,
+          "rank": 19,
+          "downloads": 14290101,
+          "likes": 3516,
+          "task": "text-generation"
+        },
+        {
+          "id": "qwen-qwen3-8b",
+          "value": 13632574,
+          "rank": 20,
+          "downloads": 13632574,
+          "likes": 1334,
+          "task": "text-generation"
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "date": "20260901",
+      "title": "all-MiniLM-L6-v2 leads model downloads",
+      "body": "all-MiniLM-L6-v2 is the highest selected Hugging Face model in this snapshot with 250.3M downloads."
+    },
+    {
+      "date": "20260902",
+      "title": "all-MiniLM-L6-v2 leads model downloads",
+      "body": "all-MiniLM-L6-v2 is the highest selected Hugging Face model in this snapshot with 250.3M downloads."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Models API",
+      "publisher": "Hugging Face",
+      "url": "https://huggingface.co/docs/hub/api",
+      "note": "Public model metadata and ranking endpoint used by the adapter."
+    },
+    {
+      "title": "Hugging Face Models",
+      "publisher": "Hugging Face",
+      "url": "https://huggingface.co/models",
+      "note": "Model discovery surface reflected by the public API."
+    }
+  ],
+  "lastObservationDate": "2026-09-02",
+  "dataFreshness": {
+    "status": "fresh",
+    "refreshCadence": "daily",
+    "lastUpdated": "2026-09-02T08:01:38.701Z",
+    "lastRefreshAttemptedAt": "2026-09-02T08:01:38.701Z",
+    "lastRefreshError": null,
+    "lastObservationDate": "2026-09-02",
+    "nextRefreshAt": "2026-09-03T08:00:00.000Z",
+    "sourceStatus": "Hugging Face public models API",
+    "confidence": "Observed Hugging Face public model rankings by downloads on 2026-09-02."
+  },
+  "media": {
+    "imageFit": "contain",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-09-02T08:01:38.701Z",
+    "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.webp",
+    "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.webp",
+    "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.json",
+    "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-model-popularity.json",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 5,
+    "rows": 4,
+    "width": 1600,
+    "height": 1280,
+    "itemCount": 20,
+    "sourcedImageCount": 20,
+    "generatedImageCount": 0,
+    "placeholderCount": 0,
+    "ogImageUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/ai-model-popularity.png",
+    "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/ai-model-popularity.png",
+    "ogImageWidth": 1200,
+    "ogImageHeight": 630
+  },
+  "taxonomy": {
+    "primaryCategory": "technology",
+    "categories": [
+      "technology",
+      "ai",
+      "open-source",
+      "developer"
+    ],
+    "tags": [
+      "hugging-face",
+      "models",
+      "downloads",
+      "open-models",
+      "ai-infrastructure"
+    ],
+    "entityTypes": [
+      "model"
+    ],
+    "sourceTypes": [
+      "huggingface-api"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "frontier-language-model-intelligence",
+      "type": "ai-model-layer",
+      "weight": 0.86,
+      "reason": "Both rank AI models, one by benchmark intelligence and one by public usage."
+    },
+    {
+      "target": "open-source-ai-repo-momentum",
+      "type": "open-ai-ecosystem",
+      "weight": 0.8,
+      "reason": "Hugging Face model downloads and GitHub stars both measure open AI ecosystem momentum."
+    },
+    {
+      "target": "ai-lab-attention",
+      "type": "labs-to-models",
+      "weight": 0.64,
+      "reason": "Public AI lab attention often turns into model and product demand."
+    },
+    {
+      "target": "lmarena-text-leaderboard",
+      "type": "ai-model-layer",
+      "weight": 0.7,
+      "reason": "Arena standings and Hugging Face downloads both track which models people actually reach for."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "ai-stack",
+    "mainland": "technology",
+    "bridgePriority": [
+      "frontier-language-model-intelligence",
+      "open-source-ai-repo-momentum",
+      "ai-lab-attention"
+    ]
+  },
+  "schemaVersion": 1,
+  "contentKind": "dat-city.story",
+  "generatedAt": "2026-09-02T08:01:38.701Z",
+  "versionId": "20260902T080138Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "storyops-scheduler",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-09-02T08:01:38.701Z",
+    "versionId": "20260902T080138Z",
+    "adapter": "huggingface-model-popularity",
+    "storySlug": "ai-model-popularity",
+    "districtId": null,
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "publicProjection": {
+    "kind": "story",
+    "version": 1,
+    "generatedAt": "2026-09-02T08:01:38.701Z",
+    "adapter": "huggingface-model-popularity",
+    "cache": {
+      "browserMaxAgeSeconds": 60,
+      "edgeMaxAgeSeconds": 3600
+    }
+  },
+  "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/ai-model-popularity.png"
+}

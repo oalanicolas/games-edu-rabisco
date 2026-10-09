@@ -1,0 +1,2138 @@
+{
+  "id": "ai-lab-race",
+  "kicker": "AI Frontier",
+  "title": "The AI Lab Race",
+  "subtitle": "AI labs ranked by the Artificial Analysis Intelligence Index of their best released frontier model.",
+  "badge": "Ranked by best model",
+  "visualization": "race-arena",
+  "theme": "creator-arena",
+  "artStyle": "stylized-editorial",
+  "dateRange": [
+    "20260201",
+    "20260902"
+  ],
+  "timelineTicks": [
+    "20260201",
+    "20260301",
+    "20260401",
+    "20260502",
+    "20260601",
+    "20260701",
+    "20260709",
+    "20260715",
+    "20260716",
+    "20260721",
+    "20260724",
+    "20260810",
+    "20260812",
+    "20260813",
+    "20260818",
+    "20260901",
+    "20260902"
+  ],
+  "metricLabel": "Best model AA Intelligence Index",
+  "ogImage": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/ai-lab-race.png",
+  "cityPreview": {
+    "districtId": "ai-capital-core",
+    "districtName": "AI Capital Core",
+    "cardLabel": "AI Frontier",
+    "summary": "Anthropic leads the AI lab race with Claude Fable 5.1 (Adaptive Reasoning, Max Effort, Default Fallback) at 65.7.",
+    "primaryMetric": "Best model AA Intelligence Index",
+    "latestFrameLabel": "2026-09-02 lab standings",
+    "storyUrl": "/stories/ai-lab-race/",
+    "thumbnail": "/assets/og/dat-city.webp"
+  },
+  "sourceStatus": "Artificial Analysis homepage frontier model data",
+  "confidence": "Observed 27 scored Artificial Analysis model rows across 14 labs at 2026-09-03T06:03:26.958Z.",
+  "methodology": "This adapter reads the public Artificial Analysis homepage payload, groups scored models by the lab that created them, and ranks each lab by the Artificial Analysis Intelligence Index of its best released model. Historical frames are Internet Archive captures of the same homepage, so past standings reflect what Artificial Analysis actually published at the time. Recent frames replay model release dates, so a lab's tower jumps the day it ships a stronger frontier model.",
+  "playback": {
+    "durationSeconds": 30,
+    "initialDate": "20260201",
+    "periodLabel": "frontier model release dates"
+  },
+  "visual": {
+    "topCount": 10,
+    "referenceCount": 12,
+    "horizontalCount": 12
+  },
+  "layers": [
+    {
+      "id": "intelligence",
+      "label": "Best model intelligence",
+      "default": true
+    },
+    {
+      "id": "release-date",
+      "label": "Release date",
+      "default": true
+    },
+    {
+      "id": "labs",
+      "label": "Labs",
+      "default": true
+    }
+  ],
+  "focus": [
+    {
+      "id": "lab-anthropic",
+      "label": "Anthropic"
+    },
+    {
+      "id": "lab-meta",
+      "label": "Meta"
+    },
+    {
+      "id": "lab-openai",
+      "label": "OpenAI"
+    },
+    {
+      "id": "lab-xai",
+      "label": "SpaceXAI"
+    }
+  ],
+  "entities": [
+    {
+      "id": "lab-anthropic",
+      "name": "Anthropic",
+      "shortName": "Anthropic",
+      "country": "us",
+      "bestIndex": 65.7,
+      "bestModelName": "Claude Fable 5.1 (Adaptive Reasoning, Max Effort, Default Fallback)",
+      "bestModelReleaseDate": "2026-09-01",
+      "scoredModelCount": 4,
+      "creatorLogoUrl": "https://artificialanalysis.ai/img/logos/anthropic_small.svg",
+      "imageUrl": "https://artificialanalysis.ai/img/logos/anthropic_small.svg",
+      "avatarText": "A",
+      "color": "#cc785c",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.json",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.25,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://artificialanalysis.ai/img/logos/anthropic_small.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "artificial-analysis"
+        }
+      }
+    },
+    {
+      "id": "lab-meta",
+      "name": "Meta",
+      "shortName": "Meta",
+      "country": "us",
+      "bestIndex": 62.1,
+      "bestModelName": "Muse Spark 1.3 (max)",
+      "bestModelReleaseDate": "2026-09-02",
+      "scoredModelCount": 3,
+      "creatorLogoUrl": "https://artificialanalysis.ai/img/logos/meta_small.svg",
+      "imageUrl": "https://artificialanalysis.ai/img/logos/meta_small.svg",
+      "avatarText": "M",
+      "color": "#0089f4",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.json",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0,
+          "u1": 0.5,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://artificialanalysis.ai/img/logos/meta_small.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "artificial-analysis"
+        }
+      }
+    },
+    {
+      "id": "lab-openai",
+      "name": "OpenAI",
+      "shortName": "OpenAI",
+      "country": "us",
+      "bestIndex": 60.9,
+      "bestModelName": "GPT-5.6 Sol (max)",
+      "bestModelReleaseDate": "2026-07-09",
+      "scoredModelCount": 5,
+      "creatorLogoUrl": "https://artificialanalysis.ai/img/logos/openai_small.svg",
+      "imageUrl": "https://artificialanalysis.ai/img/logos/openai_small.svg",
+      "avatarText": "O",
+      "color": "#1f1f1f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.json",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0,
+          "u1": 0.75,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://artificialanalysis.ai/img/logos/openai_small.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "artificial-analysis"
+        }
+      }
+    },
+    {
+      "id": "lab-xai",
+      "name": "SpaceXAI",
+      "shortName": "SpaceXAI",
+      "country": "us",
+      "bestIndex": 60.9,
+      "bestModelName": "Grok 4.6 (high)",
+      "bestModelReleaseDate": "2026-08-12",
+      "scoredModelCount": 1,
+      "creatorLogoUrl": "https://artificialanalysis.ai/img/logos/spacexai.svg",
+      "imageUrl": "https://artificialanalysis.ai/img/logos/spacexai.svg",
+      "avatarText": "S",
+      "color": "#736cd3",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.json",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://artificialanalysis.ai/img/logos/spacexai.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "artificial-analysis"
+        }
+      }
+    },
+    {
+      "id": "lab-kimi",
+      "name": "Kimi",
+      "shortName": "Kimi",
+      "country": "cn",
+      "bestIndex": 59.7,
+      "bestModelName": "Kimi K3 (max)",
+      "bestModelReleaseDate": "2026-07-16",
+      "scoredModelCount": 1,
+      "creatorLogoUrl": "https://artificialanalysis.ai/img/logos/kimi.jpg",
+      "imageUrl": "https://artificialanalysis.ai/img/logos/kimi.jpg",
+      "avatarText": "K",
+      "color": "#047AFE",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.json",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.25,
+          "u1": 0.25,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://artificialanalysis.ai/img/logos/kimi.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "artificial-analysis"
+        }
+      }
+    },
+    {
+      "id": "lab-zai",
+      "name": "Z AI",
+      "shortName": "Z AI",
+      "country": "cn",
+      "bestIndex": 59.5,
+      "bestModelName": "GLM-5.3 (max)",
+      "bestModelReleaseDate": "2026-08-18",
+      "scoredModelCount": 2,
+      "creatorLogoUrl": "https://artificialanalysis.ai/img/logos/zai_small.svg",
+      "imageUrl": "https://artificialanalysis.ai/img/logos/zai_small.svg",
+      "avatarText": "ZA",
+      "color": "#1c7ff8",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.json",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.25,
+          "u1": 0.5,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://artificialanalysis.ai/img/logos/zai_small.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "artificial-analysis"
+        }
+      }
+    },
+    {
+      "id": "lab-google",
+      "name": "Google",
+      "shortName": "Google",
+      "country": "us",
+      "bestIndex": 58.7,
+      "bestModelName": "Gemini 3.8 Flash (high)",
+      "bestModelReleaseDate": "2026-09-02",
+      "scoredModelCount": 2,
+      "creatorLogoUrl": "https://artificialanalysis.ai/img/logos/google_small.svg",
+      "imageUrl": "https://artificialanalysis.ai/img/logos/google_small.svg",
+      "avatarText": "G",
+      "color": "#34A853",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.json",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.25,
+          "u1": 0.75,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://artificialanalysis.ai/img/logos/google_small.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "artificial-analysis"
+        }
+      }
+    },
+    {
+      "id": "lab-alibaba",
+      "name": "Alibaba",
+      "shortName": "Alibaba",
+      "country": "cn",
+      "bestIndex": 57.7,
+      "bestModelName": "Qwen3.8 2.4T A95B",
+      "bestModelReleaseDate": "2026-08-12",
+      "scoredModelCount": 2,
+      "creatorLogoUrl": "https://artificialanalysis.ai/img/logos/alibaba_small.svg",
+      "imageUrl": "https://artificialanalysis.ai/img/logos/alibaba_small.svg",
+      "avatarText": "A",
+      "color": "#ff7018",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.json",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.25,
+          "u1": 1,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://artificialanalysis.ai/img/logos/alibaba_small.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "artificial-analysis"
+        }
+      }
+    },
+    {
+      "id": "lab-deepseek",
+      "name": "DeepSeek",
+      "shortName": "DeepSeek",
+      "country": "cn",
+      "bestIndex": 53.2,
+      "bestModelName": "DeepSeek V4 Pro 0813 (Reasoning, Max Effort)",
+      "bestModelReleaseDate": "2026-08-13",
+      "scoredModelCount": 1,
+      "creatorLogoUrl": "https://artificialanalysis.ai/img/logos/deepseek_small.svg",
+      "imageUrl": "https://artificialanalysis.ai/img/logos/deepseek_small.svg",
+      "avatarText": "D",
+      "color": "#2243e6",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.json",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.5,
+          "u1": 0.25,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://artificialanalysis.ai/img/logos/deepseek_small.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "artificial-analysis"
+        }
+      }
+    },
+    {
+      "id": "lab-minimax",
+      "name": "MiniMax",
+      "shortName": "MiniMax",
+      "country": "cn",
+      "bestIndex": 45.4,
+      "bestModelName": "MiniMax-M3",
+      "bestModelReleaseDate": "2026-06-01",
+      "scoredModelCount": 1,
+      "creatorLogoUrl": "https://artificialanalysis.ai/img/logos/minimax_small.svg",
+      "imageUrl": "https://artificialanalysis.ai/img/logos/minimax_small.svg",
+      "avatarText": "M",
+      "color": "#EB3568",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.json",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.5,
+          "u1": 0.5,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://artificialanalysis.ai/img/logos/minimax_small.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "artificial-analysis"
+        }
+      }
+    },
+    {
+      "id": "lab-thinking-machines",
+      "name": "Thinking Machines",
+      "shortName": "Thinking Machines",
+      "country": "us",
+      "bestIndex": 42.3,
+      "bestModelName": "Inkling (xhigh)",
+      "bestModelReleaseDate": "2026-07-15",
+      "scoredModelCount": 1,
+      "creatorLogoUrl": "https://artificialanalysis.ai/img/logos/thinking_machines.svg",
+      "imageUrl": "https://artificialanalysis.ai/img/logos/thinking_machines.svg",
+      "avatarText": "TM",
+      "color": "#676767",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.json",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.5,
+          "u1": 0.75,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://artificialanalysis.ai/img/logos/thinking_machines.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "artificial-analysis"
+        }
+      }
+    },
+    {
+      "id": "lab-nvidia",
+      "name": "NVIDIA",
+      "shortName": "NVIDIA",
+      "country": "us",
+      "bestIndex": 38.3,
+      "bestModelName": "Nemotron 3 Ultra 550B A55B (Reasoning)",
+      "bestModelReleaseDate": "2026-06-04",
+      "scoredModelCount": 2,
+      "creatorLogoUrl": "https://artificialanalysis.ai/img/logos/nvidia_small.svg",
+      "imageUrl": "https://artificialanalysis.ai/img/logos/nvidia_small.svg",
+      "avatarText": "N",
+      "color": "#76b900",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.json",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.5,
+          "u1": 1,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://artificialanalysis.ai/img/logos/nvidia_small.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "artificial-analysis"
+        }
+      }
+    },
+    {
+      "id": "lab-xiaomi",
+      "name": "Xiaomi",
+      "shortName": "Xiaomi",
+      "avatarText": "X",
+      "color": "#ff6900",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.json",
+          "x": 0,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.75,
+          "u1": 0.25,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:lab-xiaomi",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "lab-kwaikat",
+      "name": "KwaiKAT",
+      "shortName": "KwaiKAT",
+      "avatarText": "K",
+      "color": "#ef426f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.json",
+          "x": 320,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.75,
+          "u1": 0.5,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:lab-kwaikat",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "lab-aws",
+      "name": "Amazon",
+      "shortName": "Amazon",
+      "avatarText": "A",
+      "color": "#86bdf4",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.json",
+          "x": 640,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.75,
+          "u1": 0.75,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:lab-aws",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "lab-mistral",
+      "name": "Mistral",
+      "shortName": "Mistral",
+      "avatarText": "M",
+      "color": "#9aa4b2",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.json",
+          "x": 960,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.75,
+          "u1": 1,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:lab-mistral",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    }
+  ],
+  "frames": [
+    {
+      "date": "20260201",
+      "values": [
+        {
+          "id": "lab-openai",
+          "name": "OpenAI",
+          "value": 51.2,
+          "bestModel": "GPT-5.2 (xhigh)",
+          "sourceId": "lab-openai",
+          "rank": 1
+        },
+        {
+          "id": "lab-anthropic",
+          "name": "Anthropic",
+          "value": 49.7,
+          "bestModel": "Claude Opus 4.5 (Reasoning)",
+          "sourceId": "lab-anthropic",
+          "rank": 2
+        },
+        {
+          "id": "lab-google",
+          "name": "Google",
+          "value": 48.4,
+          "bestModel": "Gemini 3 Pro Preview (high)",
+          "sourceId": "lab-google",
+          "rank": 3
+        },
+        {
+          "id": "lab-kimi",
+          "name": "Kimi",
+          "value": 46.8,
+          "bestModel": "Kimi K2.5 (Reasoning)",
+          "sourceId": "lab-kimi",
+          "rank": 4
+        },
+        {
+          "id": "lab-zai",
+          "name": "Z AI",
+          "value": 42.1,
+          "bestModel": "GLM-4.7 (Reasoning)",
+          "sourceId": "lab-zai",
+          "rank": 5
+        },
+        {
+          "id": "lab-deepseek",
+          "name": "DeepSeek",
+          "value": 41.6,
+          "bestModel": "DeepSeek V3.2 (Reasoning)",
+          "sourceId": "lab-deepseek",
+          "rank": 6
+        },
+        {
+          "id": "lab-xai",
+          "name": "xAI",
+          "value": 41.4,
+          "bestModel": "Grok 4",
+          "sourceId": "lab-xai",
+          "rank": 7
+        },
+        {
+          "id": "lab-alibaba",
+          "name": "Alibaba",
+          "value": 39.7,
+          "bestModel": "Qwen3 Max Thinking",
+          "sourceId": "lab-alibaba",
+          "rank": 8
+        },
+        {
+          "id": "lab-minimax",
+          "name": "MiniMax",
+          "value": 39.6,
+          "bestModel": "MiniMax-M2.1",
+          "sourceId": "lab-minimax",
+          "rank": 9
+        },
+        {
+          "id": "lab-xiaomi",
+          "name": "Xiaomi",
+          "value": 39.2,
+          "bestModel": "MiMo-V2-Flash (Reasoning)",
+          "sourceId": "lab-xiaomi",
+          "rank": 10
+        },
+        {
+          "id": "lab-kwaikat",
+          "name": "KwaiKAT",
+          "value": 36.1,
+          "bestModel": "KAT-Coder-Pro V1",
+          "sourceId": "lab-kwaikat",
+          "rank": 11
+        },
+        {
+          "id": "lab-aws",
+          "name": "Amazon",
+          "value": 35.6,
+          "bestModel": "Nova 2.0 Pro Preview (medium)",
+          "sourceId": "lab-aws",
+          "rank": 12
+        }
+      ]
+    },
+    {
+      "date": "20260301",
+      "values": [
+        {
+          "id": "lab-google",
+          "name": "Google",
+          "value": 57.2,
+          "bestModel": "Gemini 3.1 Pro Preview",
+          "sourceId": "lab-google",
+          "rank": 1
+        },
+        {
+          "id": "lab-openai",
+          "name": "OpenAI",
+          "value": 54,
+          "bestModel": "GPT-5.3 Codex (xhigh)",
+          "sourceId": "lab-openai",
+          "rank": 2
+        },
+        {
+          "id": "lab-anthropic",
+          "name": "Anthropic",
+          "value": 53,
+          "bestModel": "Claude Opus 4.6 (Adaptive Reasoning, Max Effort)",
+          "sourceId": "lab-anthropic",
+          "rank": 3
+        },
+        {
+          "id": "lab-zai",
+          "name": "Z AI",
+          "value": 49.8,
+          "bestModel": "GLM-5 (Reasoning)",
+          "sourceId": "lab-zai",
+          "rank": 4
+        },
+        {
+          "id": "lab-kimi",
+          "name": "Kimi",
+          "value": 46.8,
+          "bestModel": "Kimi K2.5 (Reasoning)",
+          "sourceId": "lab-kimi",
+          "rank": 5
+        },
+        {
+          "id": "lab-alibaba",
+          "name": "Alibaba",
+          "value": 45.1,
+          "bestModel": "Qwen3.5 397B A17B (Reasoning)",
+          "sourceId": "lab-alibaba",
+          "rank": 6
+        },
+        {
+          "id": "lab-minimax",
+          "name": "MiniMax",
+          "value": 41.9,
+          "bestModel": "MiniMax-M2.5",
+          "sourceId": "lab-minimax",
+          "rank": 7
+        },
+        {
+          "id": "lab-deepseek",
+          "name": "DeepSeek",
+          "value": 41.7,
+          "bestModel": "DeepSeek V3.2 (Reasoning)",
+          "sourceId": "lab-deepseek",
+          "rank": 8
+        },
+        {
+          "id": "lab-xai",
+          "name": "xAI",
+          "value": 41.5,
+          "bestModel": "Grok 4",
+          "sourceId": "lab-xai",
+          "rank": 9
+        },
+        {
+          "id": "lab-xiaomi",
+          "name": "Xiaomi",
+          "value": 41.5,
+          "bestModel": "MiMo-V2-Flash (Feb 2026)",
+          "sourceId": "lab-xiaomi",
+          "rank": 10
+        },
+        {
+          "id": "lab-kwaikat",
+          "name": "KwaiKAT",
+          "value": 36,
+          "bestModel": "KAT-Coder-Pro V1",
+          "sourceId": "lab-kwaikat",
+          "rank": 11
+        },
+        {
+          "id": "lab-aws",
+          "name": "Amazon",
+          "value": 35.7,
+          "bestModel": "Nova 2.0 Pro Preview (medium)",
+          "sourceId": "lab-aws",
+          "rank": 12
+        }
+      ]
+    },
+    {
+      "date": "20260401",
+      "values": [
+        {
+          "id": "lab-openai",
+          "name": "OpenAI",
+          "value": 57.2,
+          "bestModel": "GPT-5.4 (xhigh)",
+          "sourceId": "lab-openai",
+          "rank": 1
+        },
+        {
+          "id": "lab-google",
+          "name": "Google",
+          "value": 57.2,
+          "bestModel": "Gemini 3.1 Pro Preview",
+          "sourceId": "lab-google",
+          "rank": 2
+        },
+        {
+          "id": "lab-anthropic",
+          "name": "Anthropic",
+          "value": 53,
+          "bestModel": "Claude Opus 4.6 (Adaptive Reasoning, Max Effort)",
+          "sourceId": "lab-anthropic",
+          "rank": 3
+        },
+        {
+          "id": "lab-zai",
+          "name": "Z AI",
+          "value": 49.8,
+          "bestModel": "GLM-5 (Reasoning)",
+          "sourceId": "lab-zai",
+          "rank": 4
+        },
+        {
+          "id": "lab-minimax",
+          "name": "MiniMax",
+          "value": 49.6,
+          "bestModel": "MiniMax-M2.7",
+          "sourceId": "lab-minimax",
+          "rank": 5
+        },
+        {
+          "id": "lab-xiaomi",
+          "name": "Xiaomi",
+          "value": 49.2,
+          "bestModel": "MiMo-V2-Pro",
+          "sourceId": "lab-xiaomi",
+          "rank": 6
+        },
+        {
+          "id": "lab-xai",
+          "name": "xAI",
+          "value": 48.5,
+          "bestModel": "Grok 4.20 Beta 0309 (Reasoning)",
+          "sourceId": "lab-xai",
+          "rank": 7
+        },
+        {
+          "id": "lab-kimi",
+          "name": "Kimi",
+          "value": 46.8,
+          "bestModel": "Kimi K2.5 (Reasoning)",
+          "sourceId": "lab-kimi",
+          "rank": 8
+        },
+        {
+          "id": "lab-alibaba",
+          "name": "Alibaba",
+          "value": 45.1,
+          "bestModel": "Qwen3.5 397B A17B (Reasoning)",
+          "sourceId": "lab-alibaba",
+          "rank": 9
+        },
+        {
+          "id": "lab-deepseek",
+          "name": "DeepSeek",
+          "value": 41.7,
+          "bestModel": "DeepSeek V3.2 (Reasoning)",
+          "sourceId": "lab-deepseek",
+          "rank": 10
+        },
+        {
+          "id": "lab-nvidia",
+          "name": "NVIDIA",
+          "value": 36,
+          "bestModel": "NVIDIA Nemotron 3 Super 120B A12B (Reasoning)",
+          "sourceId": "lab-nvidia",
+          "rank": 11
+        },
+        {
+          "id": "lab-aws",
+          "name": "Amazon",
+          "value": 35.7,
+          "bestModel": "Nova 2.0 Pro Preview (medium)",
+          "sourceId": "lab-aws",
+          "rank": 12
+        }
+      ]
+    },
+    {
+      "date": "20260502",
+      "values": [
+        {
+          "id": "lab-openai",
+          "name": "OpenAI",
+          "value": 60.2,
+          "bestModel": "GPT-5.5 (xhigh)",
+          "sourceId": "lab-openai",
+          "rank": 1
+        },
+        {
+          "id": "lab-anthropic",
+          "name": "Anthropic",
+          "value": 57.3,
+          "bestModel": "Claude Opus 4.7 (Adaptive Reasoning, Max Effort)",
+          "sourceId": "lab-anthropic",
+          "rank": 2
+        },
+        {
+          "id": "lab-google",
+          "name": "Google",
+          "value": 57.2,
+          "bestModel": "Gemini 3.1 Pro Preview",
+          "sourceId": "lab-google",
+          "rank": 3
+        },
+        {
+          "id": "lab-kimi",
+          "name": "Kimi",
+          "value": 53.9,
+          "bestModel": "Kimi K2.6",
+          "sourceId": "lab-kimi",
+          "rank": 4
+        },
+        {
+          "id": "lab-xiaomi",
+          "name": "Xiaomi",
+          "value": 53.8,
+          "bestModel": "MiMo-V2.5-Pro",
+          "sourceId": "lab-xiaomi",
+          "rank": 5
+        },
+        {
+          "id": "lab-xai",
+          "name": "xAI",
+          "value": 53.2,
+          "bestModel": "Grok 4.3",
+          "sourceId": "lab-xai",
+          "rank": 6
+        },
+        {
+          "id": "lab-alibaba",
+          "name": "Alibaba",
+          "value": 51.8,
+          "bestModel": "Qwen3.6 Max Preview",
+          "sourceId": "lab-alibaba",
+          "rank": 7
+        },
+        {
+          "id": "lab-deepseek",
+          "name": "DeepSeek",
+          "value": 51.5,
+          "bestModel": "DeepSeek V4 Pro (Reasoning, Max Effort)",
+          "sourceId": "lab-deepseek",
+          "rank": 8
+        },
+        {
+          "id": "lab-zai",
+          "name": "Z AI",
+          "value": 51.4,
+          "bestModel": "GLM-5.1 (Reasoning)",
+          "sourceId": "lab-zai",
+          "rank": 9
+        },
+        {
+          "id": "lab-minimax",
+          "name": "MiniMax",
+          "value": 49.6,
+          "bestModel": "MiniMax-M2.7",
+          "sourceId": "lab-minimax",
+          "rank": 10
+        },
+        {
+          "id": "lab-nvidia",
+          "name": "NVIDIA",
+          "value": 36,
+          "bestModel": "NVIDIA Nemotron 3 Super 120B A12B (Reasoning)",
+          "sourceId": "lab-nvidia",
+          "rank": 11
+        },
+        {
+          "id": "lab-aws",
+          "name": "Amazon",
+          "value": 35.7,
+          "bestModel": "Nova 2.0 Pro Preview (medium)",
+          "sourceId": "lab-aws",
+          "rank": 12
+        }
+      ]
+    },
+    {
+      "date": "20260601",
+      "values": [
+        {
+          "id": "lab-anthropic",
+          "name": "Anthropic",
+          "value": 61.4,
+          "bestModel": "Claude Opus 4.8 (Adaptive Reasoning, Max Effort)",
+          "sourceId": "lab-anthropic",
+          "rank": 1
+        },
+        {
+          "id": "lab-openai",
+          "name": "OpenAI",
+          "value": 60.2,
+          "bestModel": "GPT-5.5 (xhigh)",
+          "sourceId": "lab-openai",
+          "rank": 2
+        },
+        {
+          "id": "lab-google",
+          "name": "Google",
+          "value": 57.2,
+          "bestModel": "Gemini 3.1 Pro Preview",
+          "sourceId": "lab-google",
+          "rank": 3
+        },
+        {
+          "id": "lab-alibaba",
+          "name": "Alibaba",
+          "value": 56.6,
+          "bestModel": "Qwen3.7 Max",
+          "sourceId": "lab-alibaba",
+          "rank": 4
+        },
+        {
+          "id": "lab-kimi",
+          "name": "Kimi",
+          "value": 53.9,
+          "bestModel": "Kimi K2.6",
+          "sourceId": "lab-kimi",
+          "rank": 5
+        },
+        {
+          "id": "lab-xiaomi",
+          "name": "Xiaomi",
+          "value": 53.8,
+          "bestModel": "MiMo-V2.5-Pro",
+          "sourceId": "lab-xiaomi",
+          "rank": 6
+        },
+        {
+          "id": "lab-xai",
+          "name": "xAI",
+          "value": 53.2,
+          "bestModel": "Grok 4.3 (high)",
+          "sourceId": "lab-xai",
+          "rank": 7
+        },
+        {
+          "id": "lab-meta",
+          "name": "Meta",
+          "value": 52.2,
+          "bestModel": "Muse Spark",
+          "sourceId": "lab-meta",
+          "rank": 8
+        },
+        {
+          "id": "lab-deepseek",
+          "name": "DeepSeek",
+          "value": 51.5,
+          "bestModel": "DeepSeek V4 Pro (Reasoning, Max Effort)",
+          "sourceId": "lab-deepseek",
+          "rank": 9
+        },
+        {
+          "id": "lab-zai",
+          "name": "Z AI",
+          "value": 51.4,
+          "bestModel": "GLM-5.1 (Reasoning)",
+          "sourceId": "lab-zai",
+          "rank": 10
+        },
+        {
+          "id": "lab-minimax",
+          "name": "MiniMax",
+          "value": 49.6,
+          "bestModel": "MiniMax-M2.7",
+          "sourceId": "lab-minimax",
+          "rank": 11
+        },
+        {
+          "id": "lab-mistral",
+          "name": "Mistral",
+          "value": 39.2,
+          "bestModel": "Mistral Medium 3.5",
+          "sourceId": "lab-mistral",
+          "rank": 12
+        }
+      ]
+    },
+    {
+      "date": "20260701",
+      "values": [
+        {
+          "id": "lab-anthropic",
+          "name": "Anthropic",
+          "value": 59.9,
+          "bestModel": "Claude Fable 5 (Adaptive Reasoning, Max Effort, Opus 4.8 Fallback)",
+          "sourceId": "lab-anthropic",
+          "rank": 1
+        },
+        {
+          "id": "lab-openai",
+          "name": "OpenAI",
+          "value": 54.8,
+          "bestModel": "GPT-5.5 (xhigh)",
+          "sourceId": "lab-openai",
+          "rank": 2
+        },
+        {
+          "id": "lab-zai",
+          "name": "Z AI",
+          "value": 51.1,
+          "bestModel": "GLM-5.2 (max)",
+          "sourceId": "lab-zai",
+          "rank": 3
+        },
+        {
+          "id": "lab-google",
+          "name": "Google",
+          "value": 50.2,
+          "bestModel": "Gemini 3.5 Flash (high)",
+          "sourceId": "lab-google",
+          "rank": 4
+        },
+        {
+          "id": "lab-alibaba",
+          "name": "Alibaba",
+          "value": 46,
+          "bestModel": "Qwen3.7 Max",
+          "sourceId": "lab-alibaba",
+          "rank": 5
+        },
+        {
+          "id": "lab-minimax",
+          "name": "MiniMax",
+          "value": 44.4,
+          "bestModel": "MiniMax-M3",
+          "sourceId": "lab-minimax",
+          "rank": 6
+        },
+        {
+          "id": "lab-deepseek",
+          "name": "DeepSeek",
+          "value": 44.3,
+          "bestModel": "DeepSeek V4 Pro (Reasoning, Max Effort)",
+          "sourceId": "lab-deepseek",
+          "rank": 7
+        },
+        {
+          "id": "lab-meta",
+          "name": "Meta",
+          "value": 43.1,
+          "bestModel": "Muse Spark",
+          "sourceId": "lab-meta",
+          "rank": 8
+        },
+        {
+          "id": "lab-kimi",
+          "name": "Kimi",
+          "value": 42.8,
+          "bestModel": "Kimi K2.6",
+          "sourceId": "lab-kimi",
+          "rank": 9
+        },
+        {
+          "id": "lab-xiaomi",
+          "name": "Xiaomi",
+          "value": 42.2,
+          "bestModel": "MiMo-V2.5-Pro",
+          "sourceId": "lab-xiaomi",
+          "rank": 10
+        },
+        {
+          "id": "lab-nvidia",
+          "name": "NVIDIA",
+          "value": 37.8,
+          "bestModel": "Nemotron 3 Ultra 550B A55B (Reasoning)",
+          "sourceId": "lab-nvidia",
+          "rank": 11
+        },
+        {
+          "id": "lab-xai",
+          "name": "xAI",
+          "value": 37.6,
+          "bestModel": "Grok 4.3 (high)",
+          "sourceId": "lab-xai",
+          "rank": 12
+        }
+      ]
+    },
+    {
+      "date": "20260709",
+      "values": [
+        {
+          "id": "lab-anthropic",
+          "value": 62.1,
+          "bestModel": "Claude Fable 5 (Adaptive Reasoning, Max Effort, Opus 4.8 Fallback)",
+          "bestModelReleaseDate": "2026-06-09",
+          "rank": 1
+        },
+        {
+          "id": "lab-openai",
+          "value": 60.9,
+          "bestModel": "GPT-5.6 Sol (max)",
+          "bestModelReleaseDate": "2026-07-09",
+          "rank": 2
+        },
+        {
+          "id": "lab-minimax",
+          "value": 45.4,
+          "bestModel": "MiniMax-M3",
+          "bestModelReleaseDate": "2026-06-01",
+          "rank": 3
+        },
+        {
+          "id": "lab-nvidia",
+          "value": 38.3,
+          "bestModel": "Nemotron 3 Ultra 550B A55B (Reasoning)",
+          "bestModelReleaseDate": "2026-06-04",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "date": "20260715",
+      "values": [
+        {
+          "id": "lab-anthropic",
+          "value": 62.1,
+          "bestModel": "Claude Fable 5 (Adaptive Reasoning, Max Effort, Opus 4.8 Fallback)",
+          "bestModelReleaseDate": "2026-06-09",
+          "rank": 1
+        },
+        {
+          "id": "lab-openai",
+          "value": 60.9,
+          "bestModel": "GPT-5.6 Sol (max)",
+          "bestModelReleaseDate": "2026-07-09",
+          "rank": 2
+        },
+        {
+          "id": "lab-minimax",
+          "value": 45.4,
+          "bestModel": "MiniMax-M3",
+          "bestModelReleaseDate": "2026-06-01",
+          "rank": 3
+        },
+        {
+          "id": "lab-thinking-machines",
+          "value": 42.3,
+          "bestModel": "Inkling (xhigh)",
+          "bestModelReleaseDate": "2026-07-15",
+          "rank": 4
+        },
+        {
+          "id": "lab-nvidia",
+          "value": 38.3,
+          "bestModel": "Nemotron 3 Ultra 550B A55B (Reasoning)",
+          "bestModelReleaseDate": "2026-06-04",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "date": "20260716",
+      "values": [
+        {
+          "id": "lab-anthropic",
+          "value": 62.1,
+          "bestModel": "Claude Fable 5 (Adaptive Reasoning, Max Effort, Opus 4.8 Fallback)",
+          "bestModelReleaseDate": "2026-06-09",
+          "rank": 1
+        },
+        {
+          "id": "lab-openai",
+          "value": 60.9,
+          "bestModel": "GPT-5.6 Sol (max)",
+          "bestModelReleaseDate": "2026-07-09",
+          "rank": 2
+        },
+        {
+          "id": "lab-kimi",
+          "value": 59.7,
+          "bestModel": "Kimi K3 (max)",
+          "bestModelReleaseDate": "2026-07-16",
+          "rank": 3
+        },
+        {
+          "id": "lab-minimax",
+          "value": 45.4,
+          "bestModel": "MiniMax-M3",
+          "bestModelReleaseDate": "2026-06-01",
+          "rank": 4
+        },
+        {
+          "id": "lab-thinking-machines",
+          "value": 42.3,
+          "bestModel": "Inkling (xhigh)",
+          "bestModelReleaseDate": "2026-07-15",
+          "rank": 5
+        },
+        {
+          "id": "lab-nvidia",
+          "value": 38.3,
+          "bestModel": "Nemotron 3 Ultra 550B A55B (Reasoning)",
+          "bestModelReleaseDate": "2026-06-04",
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "date": "20260721",
+      "values": [
+        {
+          "id": "lab-anthropic",
+          "value": 62.1,
+          "bestModel": "Claude Fable 5 (Adaptive Reasoning, Max Effort, Opus 4.8 Fallback)",
+          "bestModelReleaseDate": "2026-06-09",
+          "rank": 1
+        },
+        {
+          "id": "lab-openai",
+          "value": 60.9,
+          "bestModel": "GPT-5.6 Sol (max)",
+          "bestModelReleaseDate": "2026-07-09",
+          "rank": 2
+        },
+        {
+          "id": "lab-kimi",
+          "value": 59.7,
+          "bestModel": "Kimi K3 (max)",
+          "bestModelReleaseDate": "2026-07-16",
+          "rank": 3
+        },
+        {
+          "id": "lab-minimax",
+          "value": 45.4,
+          "bestModel": "MiniMax-M3",
+          "bestModelReleaseDate": "2026-06-01",
+          "rank": 4
+        },
+        {
+          "id": "lab-thinking-machines",
+          "value": 42.3,
+          "bestModel": "Inkling (xhigh)",
+          "bestModelReleaseDate": "2026-07-15",
+          "rank": 5
+        },
+        {
+          "id": "lab-nvidia",
+          "value": 38.3,
+          "bestModel": "Nemotron 3 Ultra 550B A55B (Reasoning)",
+          "bestModelReleaseDate": "2026-06-04",
+          "rank": 6
+        },
+        {
+          "id": "lab-google",
+          "value": 37.4,
+          "bestModel": "Gemini 3.5 Flash-Lite",
+          "bestModelReleaseDate": "2026-07-21",
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "date": "20260724",
+      "values": [
+        {
+          "id": "lab-anthropic",
+          "value": 63.1,
+          "bestModel": "Claude Opus 5 (Adaptive Reasoning, Max Effort)",
+          "bestModelReleaseDate": "2026-07-24",
+          "rank": 1
+        },
+        {
+          "id": "lab-openai",
+          "value": 60.9,
+          "bestModel": "GPT-5.6 Sol (max)",
+          "bestModelReleaseDate": "2026-07-09",
+          "rank": 2
+        },
+        {
+          "id": "lab-kimi",
+          "value": 59.7,
+          "bestModel": "Kimi K3 (max)",
+          "bestModelReleaseDate": "2026-07-16",
+          "rank": 3
+        },
+        {
+          "id": "lab-minimax",
+          "value": 45.4,
+          "bestModel": "MiniMax-M3",
+          "bestModelReleaseDate": "2026-06-01",
+          "rank": 4
+        },
+        {
+          "id": "lab-thinking-machines",
+          "value": 42.3,
+          "bestModel": "Inkling (xhigh)",
+          "bestModelReleaseDate": "2026-07-15",
+          "rank": 5
+        },
+        {
+          "id": "lab-nvidia",
+          "value": 38.3,
+          "bestModel": "Nemotron 3 Ultra 550B A55B (Reasoning)",
+          "bestModelReleaseDate": "2026-06-04",
+          "rank": 6
+        },
+        {
+          "id": "lab-google",
+          "value": 37.4,
+          "bestModel": "Gemini 3.5 Flash-Lite",
+          "bestModelReleaseDate": "2026-07-21",
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "date": "20260810",
+      "values": [
+        {
+          "id": "lab-anthropic",
+          "value": 63.1,
+          "bestModel": "Claude Opus 5 (Adaptive Reasoning, Max Effort)",
+          "bestModelReleaseDate": "2026-07-24",
+          "rank": 1
+        },
+        {
+          "id": "lab-openai",
+          "value": 60.9,
+          "bestModel": "GPT-5.6 Sol (max)",
+          "bestModelReleaseDate": "2026-07-09",
+          "rank": 2
+        },
+        {
+          "id": "lab-kimi",
+          "value": 59.7,
+          "bestModel": "Kimi K3 (max)",
+          "bestModelReleaseDate": "2026-07-16",
+          "rank": 3
+        },
+        {
+          "id": "lab-minimax",
+          "value": 45.4,
+          "bestModel": "MiniMax-M3",
+          "bestModelReleaseDate": "2026-06-01",
+          "rank": 4
+        },
+        {
+          "id": "lab-thinking-machines",
+          "value": 42.3,
+          "bestModel": "Inkling (xhigh)",
+          "bestModelReleaseDate": "2026-07-15",
+          "rank": 5
+        },
+        {
+          "id": "lab-nvidia",
+          "value": 38.3,
+          "bestModel": "Nemotron 3 Ultra 550B A55B (Reasoning)",
+          "bestModelReleaseDate": "2026-06-04",
+          "rank": 6
+        },
+        {
+          "id": "lab-google",
+          "value": 37.4,
+          "bestModel": "Gemini 3.5 Flash-Lite",
+          "bestModelReleaseDate": "2026-07-21",
+          "rank": 7
+        },
+        {
+          "id": "lab-meta",
+          "value": 35.1,
+          "bestModel": "Muse Glimmer (high)",
+          "bestModelReleaseDate": "2026-08-10",
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "date": "20260812",
+      "values": [
+        {
+          "id": "lab-anthropic",
+          "value": 63.1,
+          "bestModel": "Claude Opus 5 (Adaptive Reasoning, Max Effort)",
+          "bestModelReleaseDate": "2026-07-24",
+          "rank": 1
+        },
+        {
+          "id": "lab-openai",
+          "value": 60.9,
+          "bestModel": "GPT-5.6 Sol (max)",
+          "bestModelReleaseDate": "2026-07-09",
+          "rank": 2
+        },
+        {
+          "id": "lab-xai",
+          "value": 60.9,
+          "bestModel": "Grok 4.6 (high)",
+          "bestModelReleaseDate": "2026-08-12",
+          "rank": 3
+        },
+        {
+          "id": "lab-kimi",
+          "value": 59.7,
+          "bestModel": "Kimi K3 (max)",
+          "bestModelReleaseDate": "2026-07-16",
+          "rank": 4
+        },
+        {
+          "id": "lab-alibaba",
+          "value": 57.7,
+          "bestModel": "Qwen3.8 2.4T A95B",
+          "bestModelReleaseDate": "2026-08-12",
+          "rank": 5
+        },
+        {
+          "id": "lab-minimax",
+          "value": 45.4,
+          "bestModel": "MiniMax-M3",
+          "bestModelReleaseDate": "2026-06-01",
+          "rank": 6
+        },
+        {
+          "id": "lab-thinking-machines",
+          "value": 42.3,
+          "bestModel": "Inkling (xhigh)",
+          "bestModelReleaseDate": "2026-07-15",
+          "rank": 7
+        },
+        {
+          "id": "lab-nvidia",
+          "value": 38.3,
+          "bestModel": "Nemotron 3 Ultra 550B A55B (Reasoning)",
+          "bestModelReleaseDate": "2026-06-04",
+          "rank": 8
+        },
+        {
+          "id": "lab-google",
+          "value": 37.4,
+          "bestModel": "Gemini 3.5 Flash-Lite",
+          "bestModelReleaseDate": "2026-07-21",
+          "rank": 9
+        },
+        {
+          "id": "lab-meta",
+          "value": 35.1,
+          "bestModel": "Muse Glimmer (high)",
+          "bestModelReleaseDate": "2026-08-10",
+          "rank": 10
+        }
+      ]
+    },
+    {
+      "date": "20260813",
+      "values": [
+        {
+          "id": "lab-anthropic",
+          "value": 63.1,
+          "bestModel": "Claude Opus 5 (Adaptive Reasoning, Max Effort)",
+          "bestModelReleaseDate": "2026-07-24",
+          "rank": 1
+        },
+        {
+          "id": "lab-openai",
+          "value": 60.9,
+          "bestModel": "GPT-5.6 Sol (max)",
+          "bestModelReleaseDate": "2026-07-09",
+          "rank": 2
+        },
+        {
+          "id": "lab-xai",
+          "value": 60.9,
+          "bestModel": "Grok 4.6 (high)",
+          "bestModelReleaseDate": "2026-08-12",
+          "rank": 3
+        },
+        {
+          "id": "lab-kimi",
+          "value": 59.7,
+          "bestModel": "Kimi K3 (max)",
+          "bestModelReleaseDate": "2026-07-16",
+          "rank": 4
+        },
+        {
+          "id": "lab-alibaba",
+          "value": 57.7,
+          "bestModel": "Qwen3.8 2.4T A95B",
+          "bestModelReleaseDate": "2026-08-12",
+          "rank": 5
+        },
+        {
+          "id": "lab-deepseek",
+          "value": 53.2,
+          "bestModel": "DeepSeek V4 Pro 0813 (Reasoning, Max Effort)",
+          "bestModelReleaseDate": "2026-08-13",
+          "rank": 6
+        },
+        {
+          "id": "lab-minimax",
+          "value": 45.4,
+          "bestModel": "MiniMax-M3",
+          "bestModelReleaseDate": "2026-06-01",
+          "rank": 7
+        },
+        {
+          "id": "lab-thinking-machines",
+          "value": 42.3,
+          "bestModel": "Inkling (xhigh)",
+          "bestModelReleaseDate": "2026-07-15",
+          "rank": 8
+        },
+        {
+          "id": "lab-nvidia",
+          "value": 38.3,
+          "bestModel": "Nemotron 3 Ultra 550B A55B (Reasoning)",
+          "bestModelReleaseDate": "2026-06-04",
+          "rank": 9
+        },
+        {
+          "id": "lab-google",
+          "value": 37.4,
+          "bestModel": "Gemini 3.5 Flash-Lite",
+          "bestModelReleaseDate": "2026-07-21",
+          "rank": 10
+        },
+        {
+          "id": "lab-meta",
+          "value": 35.1,
+          "bestModel": "Muse Glimmer (high)",
+          "bestModelReleaseDate": "2026-08-10",
+          "rank": 11
+        }
+      ]
+    },
+    {
+      "date": "20260818",
+      "values": [
+        {
+          "id": "lab-anthropic",
+          "value": 63.1,
+          "bestModel": "Claude Opus 5 (Adaptive Reasoning, Max Effort)",
+          "bestModelReleaseDate": "2026-07-24",
+          "rank": 1
+        },
+        {
+          "id": "lab-openai",
+          "value": 60.9,
+          "bestModel": "GPT-5.6 Sol (max)",
+          "bestModelReleaseDate": "2026-07-09",
+          "rank": 2
+        },
+        {
+          "id": "lab-xai",
+          "value": 60.9,
+          "bestModel": "Grok 4.6 (high)",
+          "bestModelReleaseDate": "2026-08-12",
+          "rank": 3
+        },
+        {
+          "id": "lab-kimi",
+          "value": 59.7,
+          "bestModel": "Kimi K3 (max)",
+          "bestModelReleaseDate": "2026-07-16",
+          "rank": 4
+        },
+        {
+          "id": "lab-zai",
+          "value": 59.5,
+          "bestModel": "GLM-5.3 (max)",
+          "bestModelReleaseDate": "2026-08-18",
+          "rank": 5
+        },
+        {
+          "id": "lab-alibaba",
+          "value": 57.7,
+          "bestModel": "Qwen3.8 2.4T A95B",
+          "bestModelReleaseDate": "2026-08-12",
+          "rank": 6
+        },
+        {
+          "id": "lab-deepseek",
+          "value": 53.2,
+          "bestModel": "DeepSeek V4 Pro 0813 (Reasoning, Max Effort)",
+          "bestModelReleaseDate": "2026-08-13",
+          "rank": 7
+        },
+        {
+          "id": "lab-minimax",
+          "value": 45.4,
+          "bestModel": "MiniMax-M3",
+          "bestModelReleaseDate": "2026-06-01",
+          "rank": 8
+        },
+        {
+          "id": "lab-thinking-machines",
+          "value": 42.3,
+          "bestModel": "Inkling (xhigh)",
+          "bestModelReleaseDate": "2026-07-15",
+          "rank": 9
+        },
+        {
+          "id": "lab-nvidia",
+          "value": 38.3,
+          "bestModel": "Nemotron 3 Ultra 550B A55B (Reasoning)",
+          "bestModelReleaseDate": "2026-06-04",
+          "rank": 10
+        },
+        {
+          "id": "lab-google",
+          "value": 37.4,
+          "bestModel": "Gemini 3.5 Flash-Lite",
+          "bestModelReleaseDate": "2026-07-21",
+          "rank": 11
+        },
+        {
+          "id": "lab-meta",
+          "value": 35.1,
+          "bestModel": "Muse Glimmer (high)",
+          "bestModelReleaseDate": "2026-08-10",
+          "rank": 12
+        }
+      ]
+    },
+    {
+      "date": "20260901",
+      "values": [
+        {
+          "id": "lab-anthropic",
+          "value": 65.7,
+          "bestModel": "Claude Fable 5.1 (Adaptive Reasoning, Max Effort, Default Fallback)",
+          "bestModelReleaseDate": "2026-09-01",
+          "rank": 1
+        },
+        {
+          "id": "lab-openai",
+          "value": 60.9,
+          "bestModel": "GPT-5.6 Sol (max)",
+          "bestModelReleaseDate": "2026-07-09",
+          "rank": 2
+        },
+        {
+          "id": "lab-xai",
+          "value": 60.9,
+          "bestModel": "Grok 4.6 (high)",
+          "bestModelReleaseDate": "2026-08-12",
+          "rank": 3
+        },
+        {
+          "id": "lab-kimi",
+          "value": 59.7,
+          "bestModel": "Kimi K3 (max)",
+          "bestModelReleaseDate": "2026-07-16",
+          "rank": 4
+        },
+        {
+          "id": "lab-zai",
+          "value": 59.5,
+          "bestModel": "GLM-5.3 (max)",
+          "bestModelReleaseDate": "2026-08-18",
+          "rank": 5
+        },
+        {
+          "id": "lab-alibaba",
+          "value": 57.7,
+          "bestModel": "Qwen3.8 2.4T A95B",
+          "bestModelReleaseDate": "2026-08-12",
+          "rank": 6
+        },
+        {
+          "id": "lab-deepseek",
+          "value": 53.2,
+          "bestModel": "DeepSeek V4 Pro 0813 (Reasoning, Max Effort)",
+          "bestModelReleaseDate": "2026-08-13",
+          "rank": 7
+        },
+        {
+          "id": "lab-minimax",
+          "value": 45.4,
+          "bestModel": "MiniMax-M3",
+          "bestModelReleaseDate": "2026-06-01",
+          "rank": 8
+        },
+        {
+          "id": "lab-thinking-machines",
+          "value": 42.3,
+          "bestModel": "Inkling (xhigh)",
+          "bestModelReleaseDate": "2026-07-15",
+          "rank": 9
+        },
+        {
+          "id": "lab-nvidia",
+          "value": 38.3,
+          "bestModel": "Nemotron 3 Ultra 550B A55B (Reasoning)",
+          "bestModelReleaseDate": "2026-06-04",
+          "rank": 10
+        },
+        {
+          "id": "lab-google",
+          "value": 37.4,
+          "bestModel": "Gemini 3.5 Flash-Lite",
+          "bestModelReleaseDate": "2026-07-21",
+          "rank": 11
+        },
+        {
+          "id": "lab-meta",
+          "value": 35.1,
+          "bestModel": "Muse Glimmer (high)",
+          "bestModelReleaseDate": "2026-08-10",
+          "rank": 12
+        }
+      ]
+    },
+    {
+      "date": "20260902",
+      "values": [
+        {
+          "id": "lab-anthropic",
+          "value": 65.7,
+          "bestModel": "Claude Fable 5.1 (Adaptive Reasoning, Max Effort, Default Fallback)",
+          "bestModelReleaseDate": "2026-09-01",
+          "rank": 1
+        },
+        {
+          "id": "lab-meta",
+          "value": 62.1,
+          "bestModel": "Muse Spark 1.3 (max)",
+          "bestModelReleaseDate": "2026-09-02",
+          "rank": 2
+        },
+        {
+          "id": "lab-openai",
+          "value": 60.9,
+          "bestModel": "GPT-5.6 Sol (max)",
+          "bestModelReleaseDate": "2026-07-09",
+          "rank": 3
+        },
+        {
+          "id": "lab-xai",
+          "value": 60.9,
+          "bestModel": "Grok 4.6 (high)",
+          "bestModelReleaseDate": "2026-08-12",
+          "rank": 4
+        },
+        {
+          "id": "lab-kimi",
+          "value": 59.7,
+          "bestModel": "Kimi K3 (max)",
+          "bestModelReleaseDate": "2026-07-16",
+          "rank": 5
+        },
+        {
+          "id": "lab-zai",
+          "value": 59.5,
+          "bestModel": "GLM-5.3 (max)",
+          "bestModelReleaseDate": "2026-08-18",
+          "rank": 6
+        },
+        {
+          "id": "lab-google",
+          "value": 58.7,
+          "bestModel": "Gemini 3.8 Flash (high)",
+          "bestModelReleaseDate": "2026-09-02",
+          "rank": 7
+        },
+        {
+          "id": "lab-alibaba",
+          "value": 57.7,
+          "bestModel": "Qwen3.8 2.4T A95B",
+          "bestModelReleaseDate": "2026-08-12",
+          "rank": 8
+        },
+        {
+          "id": "lab-deepseek",
+          "value": 53.2,
+          "bestModel": "DeepSeek V4 Pro 0813 (Reasoning, Max Effort)",
+          "bestModelReleaseDate": "2026-08-13",
+          "rank": 9
+        },
+        {
+          "id": "lab-minimax",
+          "value": 45.4,
+          "bestModel": "MiniMax-M3",
+          "bestModelReleaseDate": "2026-06-01",
+          "rank": 10
+        },
+        {
+          "id": "lab-thinking-machines",
+          "value": 42.3,
+          "bestModel": "Inkling (xhigh)",
+          "bestModelReleaseDate": "2026-07-15",
+          "rank": 11
+        },
+        {
+          "id": "lab-nvidia",
+          "value": 38.3,
+          "bestModel": "Nemotron 3 Ultra 550B A55B (Reasoning)",
+          "bestModelReleaseDate": "2026-06-04",
+          "rank": 12
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "date": "20260201",
+      "title": "OpenAI leads the lab race",
+      "body": "OpenAI holds the strongest frontier model (GPT-5.2 (xhigh)) at 51.2 on the Artificial Analysis Intelligence Index."
+    },
+    {
+      "date": "20260716",
+      "title": "Anthropic leads the lab race",
+      "body": "Anthropic holds the strongest frontier model (Claude Fable 5 (Adaptive Reasoning, Max Effort, Opus 4.8 Fallback)) at 62.1 on the Artificial Analysis Intelligence Index."
+    },
+    {
+      "date": "20260902",
+      "title": "Anthropic leads the lab race",
+      "body": "Anthropic holds the strongest frontier model (Claude Fable 5.1 (Adaptive Reasoning, Max Effort, Default Fallback)) at 65.7 on the Artificial Analysis Intelligence Index."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Artificial Analysis",
+      "publisher": "Artificial Analysis",
+      "url": "https://artificialanalysis.ai/",
+      "note": "Homepage model benchmark payload; labs are ranked by their best model's Intelligence Index."
+    }
+  ],
+  "historicalCoverageStart": "20260201",
+  "historicalCoverageEnd": "20260701",
+  "historicalGranularity": "monthly-archived-snapshot",
+  "backfillSource": "Internet Archive captures of the Artificial Analysis homepage",
+  "backfillGeneratedAt": "2026-07-11T16:52:39.263Z",
+  "historical": {
+    "coverageStart": "20260201",
+    "coverageEnd": "20260701",
+    "granularity": "monthly-archived-snapshot",
+    "source": "Internet Archive captures of the Artificial Analysis homepage",
+    "generatedAt": "2026-07-11T16:52:39.263Z",
+    "frameCount": 6,
+    "maxFrames": 12,
+    "maxPublicFrames": 72,
+    "notes": [
+      "Each historical frame is the Artificial Analysis homepage model table as captured by the Internet Archive, grouped into labs by best-model Intelligence Index — the standings as actually published at the time.",
+      "Coverage starts February 2026 because Artificial Analysis rebased the Intelligence Index for 2026; pre-rebase captures exist but their scores are not comparable with current values.",
+      "Labs missing from a capture (Artificial Analysis periodically trims its homepage roster) are omitted from that frame rather than zero-filled."
+    ]
+  },
+  "lastObservationDate": "2026-09-02",
+  "dataFreshness": {
+    "status": "fresh",
+    "refreshCadence": "daily",
+    "lastUpdated": "2026-09-03T06:03:26.958Z",
+    "lastRefreshAttemptedAt": "2026-09-03T06:03:26.958Z",
+    "lastRefreshError": null,
+    "lastObservationDate": "2026-09-02",
+    "nextRefreshAt": "2026-09-04T06:00:00.000Z",
+    "sourceStatus": "Artificial Analysis homepage frontier model data",
+    "confidence": "Observed 27 scored Artificial Analysis model rows across 14 labs at 2026-09-03T06:03:26.958Z."
+  },
+  "media": {
+    "tileSize": 320,
+    "imageFit": "contain",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-09-03T06:03:26.958Z",
+    "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.webp",
+    "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.webp",
+    "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.json",
+    "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-race.json",
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 4,
+    "rows": 4,
+    "width": 1280,
+    "height": 1280,
+    "itemCount": 16,
+    "sourcedImageCount": 12,
+    "generatedImageCount": 4,
+    "placeholderCount": 0,
+    "ogImageUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/ai-lab-race.png",
+    "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/ai-lab-race.png",
+    "ogImageWidth": 1200,
+    "ogImageHeight": 630
+  },
+  "taxonomy": {
+    "primaryCategory": "technology",
+    "categories": [
+      "technology",
+      "ai",
+      "benchmarks",
+      "business"
+    ],
+    "tags": [
+      "ai-labs",
+      "frontier-ai",
+      "intelligence-index",
+      "capability-race"
+    ],
+    "entityTypes": [
+      "lab",
+      "company"
+    ],
+    "sourceTypes": [
+      "benchmark"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "frontier-language-model-intelligence",
+      "type": "ai-frontier",
+      "weight": 0.92,
+      "reason": "The lab race is the model-level frontier index rolled up to the labs that ship the models."
+    },
+    {
+      "target": "ai-lab-attention",
+      "type": "capability-vs-attention",
+      "weight": 0.8,
+      "reason": "One ranks labs by benchmark capability, the other by public attention."
+    },
+    {
+      "target": "lmarena-text-leaderboard",
+      "type": "ai-benchmarks",
+      "weight": 0.74,
+      "reason": "The same labs fight for the top of the arena Elo board."
+    },
+    {
+      "target": "deepswe-leaderboard",
+      "type": "ai-benchmarks",
+      "weight": 0.72,
+      "reason": "Lab capability shows up directly in long-horizon coding pass rates."
+    },
+    {
+      "target": "ai-model-popularity",
+      "type": "labs-to-models",
+      "weight": 0.6,
+      "reason": "Frontier lab strength drives which models people download and use."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "ai-technology",
+    "mainland": "technology",
+    "bridgePriority": [
+      "frontier-language-model-intelligence",
+      "lmarena-text-leaderboard",
+      "deepswe-leaderboard"
+    ]
+  },
+  "schemaVersion": 1,
+  "contentKind": "dat-city.story",
+  "generatedAt": "2026-09-03T06:03:26.958Z",
+  "versionId": "20260903T060326Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "storyops-scheduler",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-09-03T06:03:26.958Z",
+    "versionId": "20260903T060326Z",
+    "adapter": "artificial-analysis-lab-race",
+    "storySlug": "ai-lab-race",
+    "districtId": null,
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "publicProjection": {
+    "kind": "story",
+    "version": 1,
+    "generatedAt": "2026-09-03T06:03:26.958Z",
+    "adapter": "artificial-analysis-lab-race",
+    "cache": {
+      "browserMaxAgeSeconds": 60,
+      "edgeMaxAgeSeconds": 3600
+    }
+  },
+  "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/ai-lab-race.png"
+}

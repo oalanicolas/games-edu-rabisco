@@ -1,0 +1,1721 @@
+{
+  "id": "frontier-language-model-intelligence",
+  "kicker": "AI Frontier",
+  "title": "Frontier Language Model Intelligence, Over Time",
+  "subtitle": "A release-date skyline for the models Artificial Analysis marks as frontier language models.",
+  "badge": "Ranked by AA Intelligence Index",
+  "visualization": "race-arena",
+  "theme": "creator-arena",
+  "artStyle": "stylized-editorial",
+  "dateRange": [
+    "20260217",
+    "20260902"
+  ],
+  "timelineTicks": [
+    "20260217",
+    "20260219",
+    "20260408",
+    "20260420",
+    "20260422",
+    "20260423",
+    "20260424",
+    "20260519",
+    "20260528",
+    "20260601",
+    "20260609",
+    "20260616",
+    "20260709",
+    "20260716",
+    "20260724",
+    "20260812",
+    "20260813",
+    "20260818",
+    "20260826",
+    "20260901",
+    "20260902"
+  ],
+  "metricLabel": "AA Intelligence Index",
+  "ogImage": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/frontier-language-model-intelligence.png",
+  "cityPreview": {
+    "districtId": "intelligence-index-heights",
+    "districtName": "Intelligence Index Heights",
+    "cardLabel": "AI Frontier",
+    "summary": "Claude Fable 5.1 (max with fallback) leads the latest Artificial Analysis frontier set at 65.7.",
+    "primaryMetric": "AA Intelligence Index",
+    "latestFrameLabel": "2026-09-02 release map",
+    "storyUrl": "/stories/frontier-language-model-intelligence/",
+    "thumbnail": "/assets/og/dat-city.webp"
+  },
+  "sourceStatus": "Artificial Analysis homepage frontier model data",
+  "confidence": "Observed 14 Artificial Analysis frontier model rows and 14 scored display rows at 2026-09-03T06:03:26.958Z.",
+  "methodology": "This adapter reads the public Artificial Analysis homepage payload, prioritizes rows explicitly marked as frontier models, ranks them by the current Artificial Analysis Intelligence Index, and plots them by release date so the skyline updates when Artificial Analysis publishes new model evaluations.",
+  "playback": {
+    "durationSeconds": 28,
+    "initialDate": "20260217",
+    "periodLabel": "model release dates"
+  },
+  "visual": {
+    "topCount": 10,
+    "referenceCount": 14,
+    "horizontalCount": 12
+  },
+  "layers": [
+    {
+      "id": "intelligence",
+      "label": "Intelligence",
+      "default": true
+    },
+    {
+      "id": "release-date",
+      "label": "Release date",
+      "default": true
+    },
+    {
+      "id": "labs",
+      "label": "Labs",
+      "default": true
+    }
+  ],
+  "focus": [
+    {
+      "id": "aa-claude-fable-5-1",
+      "label": "Claude Fable 5.1 (max with fallback)"
+    },
+    {
+      "id": "aa-claude-opus-5",
+      "label": "Claude Opus 5 (max)"
+    },
+    {
+      "id": "aa-muse-spark-1-3",
+      "label": "Muse Spark 1.3 (max)"
+    },
+    {
+      "id": "aa-claude-fable-5",
+      "label": "Claude Fable 5 (with fallback)"
+    }
+  ],
+  "entities": [
+    {
+      "id": "aa-claude-fable-5-1",
+      "name": "Claude Fable 5.1 (Adaptive Reasoning, Max Effort, Default Fallback)",
+      "shortName": "Claude Fable 5.1 (max with fallback)",
+      "modelUrl": "https://artificialanalysis.ai/models/claude-fable-5-1",
+      "hostsUrl": "https://artificialanalysis.ai/models/claude-fable-5-1/providers",
+      "creatorName": "Anthropic",
+      "creatorSlug": "anthropic",
+      "creatorCountry": "us",
+      "creatorLogoUrl": "https://artificialanalysis.ai/img/logos/anthropic_small.svg",
+      "imageUrl": "https://artificialanalysis.ai/img/logos/anthropic_small.svg",
+      "releaseDate": "2026-09-01",
+      "reasoningModel": true,
+      "intelligenceIndex": 65.6528630094377,
+      "estimatedIntelligenceIndex": 0,
+      "openSourceCategory": "proprietary",
+      "sizeClass": "large",
+      "contextWindowTokens": 0,
+      "avatarText": "A",
+      "color": "#cc785c",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/frontier-language-model-intelligence.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/frontier-language-model-intelligence.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/frontier-language-model-intelligence.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/frontier-language-model-intelligence.json",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.25,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": "https://artificialanalysis.ai/img/logos/anthropic_small.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "artificial-analysis"
+        }
+      }
+    },
+    {
+      "id": "aa-claude-opus-5",
+      "name": "Claude Opus 5 (Adaptive Reasoning, Max Effort)",
+      "shortName": "Claude Opus 5 (max)",
+      "modelUrl": "https://artificialanalysis.ai/models/claude-opus-5",
+      "hostsUrl": "https://artificialanalysis.ai/models/claude-opus-5/providers",
+      "creatorName": "Anthropic",
+      "creatorSlug": "anthropic",
+      "creatorCountry": "us",
+      "creatorLogoUrl": "https://artificialanalysis.ai/img/logos/anthropic_small.svg",
+      "imageUrl": "https://artificialanalysis.ai/img/logos/anthropic_small.svg",
+      "releaseDate": "2026-07-24",
+      "reasoningModel": true,
+      "intelligenceIndex": 63.0532452071291,
+      "estimatedIntelligenceIndex": 0,
+      "openSourceCategory": "proprietary",
+      "sizeClass": "large",
+      "contextWindowTokens": 0,
+      "avatarText": "A",
+      "color": "#cc785c",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/frontier-language-model-intelligence.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/frontier-language-model-intelligence.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/frontier-language-model-intelligence.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/frontier-language-model-intelligence.json",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0,
+          "u1": 0.5,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": "https://artificialanalysis.ai/img/logos/anthropic_small.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "artificial-analysis"
+        }
+      }
+    },
+    {
+      "id": "aa-muse-spark-1-3",
+      "name": "Muse Spark 1.3 (max)",
+      "shortName": "Muse Spark 1.3 (max)",
+      "modelUrl": "https://artificialanalysis.ai/models/muse-spark-1-3",
+      "hostsUrl": "https://artificialanalysis.ai/models/muse-spark-1-3/providers",
+      "creatorName": "Meta",
+      "creatorSlug": "meta",
+      "creatorCountry": "us",
+      "creatorLogoUrl": "https://artificialanalysis.ai/img/logos/meta_small.svg",
+      "imageUrl": "https://artificialanalysis.ai/img/logos/meta_small.svg",
+      "releaseDate": "2026-09-02",
+      "reasoningModel": true,
+      "intelligenceIndex": 62.0885286541662,
+      "estimatedIntelligenceIndex": 0,
+      "openSourceCategory": "proprietary",
+      "sizeClass": null,
+      "contextWindowTokens": 0,
+      "avatarText": "M",
+      "color": "#0089f4",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/frontier-language-model-intelligence.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/frontier-language-model-intelligence.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/frontier-language-model-intelligence.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/frontier-language-model-intelligence.json",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0,
+          "u1": 0.75,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": "https://artificialanalysis.ai/img/logos/meta_small.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "artificial-analysis"
+        }
+      }
+    },
+    {
+      "id": "aa-claude-fable-5",
+      "name": "Claude Fable 5 (Adaptive Reasoning, Max Effort, Opus 4.8 Fallback)",
+      "shortName": "Claude Fable 5 (with fallback)",
+      "modelUrl": "https://artificialanalysis.ai/models/claude-fable-5",
+      "hostsUrl": "https://artificialanalysis.ai/models/claude-fable-5/providers",
+      "creatorName": "Anthropic",
+      "creatorSlug": "anthropic",
+      "creatorCountry": "us",
+      "creatorLogoUrl": "https://artificialanalysis.ai/img/logos/anthropic_small.svg",
+      "imageUrl": "https://artificialanalysis.ai/img/logos/anthropic_small.svg",
+      "releaseDate": "2026-06-09",
+      "reasoningModel": true,
+      "intelligenceIndex": 62.0726622017462,
+      "estimatedIntelligenceIndex": 0,
+      "openSourceCategory": "proprietary",
+      "sizeClass": "large",
+      "contextWindowTokens": 0,
+      "avatarText": "A",
+      "color": "#cc785c",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/frontier-language-model-intelligence.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/frontier-language-model-intelligence.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/frontier-language-model-intelligence.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/frontier-language-model-intelligence.json",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": "https://artificialanalysis.ai/img/logos/anthropic_small.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "artificial-analysis"
+        }
+      }
+    },
+    {
+      "id": "aa-gpt-5-6-sol",
+      "name": "GPT-5.6 Sol (max)",
+      "shortName": "GPT-5.6 Sol (max)",
+      "modelUrl": "https://artificialanalysis.ai/models/gpt-5-6-sol",
+      "hostsUrl": "https://artificialanalysis.ai/models/gpt-5-6-sol/providers",
+      "creatorName": "OpenAI",
+      "creatorSlug": "openai",
+      "creatorCountry": "us",
+      "creatorLogoUrl": "https://artificialanalysis.ai/img/logos/openai_small.svg",
+      "imageUrl": "https://artificialanalysis.ai/img/logos/openai_small.svg",
+      "releaseDate": "2026-07-09",
+      "reasoningModel": true,
+      "intelligenceIndex": 60.9298701329203,
+      "estimatedIntelligenceIndex": 0,
+      "openSourceCategory": "proprietary",
+      "sizeClass": "large",
+      "contextWindowTokens": 0,
+      "avatarText": "O",
+      "color": "#1f1f1f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/frontier-language-model-intelligence.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/frontier-language-model-intelligence.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/frontier-language-model-intelligence.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/frontier-language-model-intelligence.json",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.333333,
+          "u1": 0.25,
+          "v1": 0.666667
+        },
+        "image": {
+          "sourceUrl": "https://artificialanalysis.ai/img/logos/openai_small.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "artificial-analysis"
+        }
+      }
+    },
+    {
+      "id": "aa-grok-4-6",
+      "name": "Grok 4.6 (high)",
+      "shortName": "Grok 4.6 (high)",
+      "modelUrl": "https://artificialanalysis.ai/models/grok-4-6",
+      "hostsUrl": "https://artificialanalysis.ai/models/grok-4-6/providers",
+      "creatorName": "SpaceXAI",
+      "creatorSlug": "xai",
+      "creatorCountry": "us",
+      "creatorLogoUrl": "https://artificialanalysis.ai/img/logos/spacexai.svg",
+      "imageUrl": "https://artificialanalysis.ai/img/logos/spacexai.svg",
+      "releaseDate": "2026-08-12",
+      "reasoningModel": true,
+      "intelligenceIndex": 60.92297113115,
+      "estimatedIntelligenceIndex": 0,
+      "openSourceCategory": "proprietary",
+      "sizeClass": "large",
+      "contextWindowTokens": 0,
+      "avatarText": "S",
+      "color": "#736cd3",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/frontier-language-model-intelligence.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/frontier-language-model-intelligence.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/frontier-language-model-intelligence.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/frontier-language-model-intelligence.json",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.333333,
+          "u1": 0.5,
+          "v1": 0.666667
+        },
+        "image": {
+          "sourceUrl": "https://artificialanalysis.ai/img/logos/spacexai.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "artificial-analysis"
+        }
+      }
+    },
+    {
+      "id": "aa-muse-spark-1-3-xhigh",
+      "name": "Muse Spark 1.3 (xhigh)",
+      "shortName": "Muse Spark 1.3 (xhigh)",
+      "modelUrl": "https://artificialanalysis.ai/models/muse-spark-1-3-xhigh",
+      "hostsUrl": "https://artificialanalysis.ai/models/muse-spark-1-3-xhigh/providers",
+      "creatorName": "Meta",
+      "creatorSlug": "meta",
+      "creatorCountry": "us",
+      "creatorLogoUrl": "https://artificialanalysis.ai/img/logos/meta_small.svg",
+      "imageUrl": "https://artificialanalysis.ai/img/logos/meta_small.svg",
+      "releaseDate": "2026-09-02",
+      "reasoningModel": true,
+      "intelligenceIndex": 60.7780170551777,
+      "estimatedIntelligenceIndex": 0,
+      "openSourceCategory": "proprietary",
+      "sizeClass": "large",
+      "contextWindowTokens": 0,
+      "avatarText": "M",
+      "color": "#0089f4",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/frontier-language-model-intelligence.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/frontier-language-model-intelligence.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/frontier-language-model-intelligence.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/frontier-language-model-intelligence.json",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.333333,
+          "u1": 0.75,
+          "v1": 0.666667
+        },
+        "image": {
+          "sourceUrl": "https://artificialanalysis.ai/img/logos/meta_small.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "artificial-analysis"
+        }
+      }
+    },
+    {
+      "id": "aa-kimi-k3",
+      "name": "Kimi K3 (max)",
+      "shortName": "Kimi K3 (max)",
+      "modelUrl": "https://artificialanalysis.ai/models/kimi-k3",
+      "hostsUrl": "https://artificialanalysis.ai/models/kimi-k3/providers",
+      "creatorName": "Kimi",
+      "creatorSlug": "kimi",
+      "creatorCountry": "cn",
+      "creatorLogoUrl": "https://artificialanalysis.ai/img/logos/kimi.jpg",
+      "imageUrl": "https://artificialanalysis.ai/img/logos/kimi.jpg",
+      "releaseDate": "2026-07-16",
+      "reasoningModel": true,
+      "intelligenceIndex": 59.6994671342592,
+      "estimatedIntelligenceIndex": 0,
+      "openSourceCategory": "commercial-license",
+      "sizeClass": "large",
+      "contextWindowTokens": 0,
+      "avatarText": "K",
+      "color": "#047AFE",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/frontier-language-model-intelligence.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/frontier-language-model-intelligence.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/frontier-language-model-intelligence.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/frontier-language-model-intelligence.json",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.333333,
+          "u1": 1,
+          "v1": 0.666667
+        },
+        "image": {
+          "sourceUrl": "https://artificialanalysis.ai/img/logos/kimi.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "artificial-analysis"
+        }
+      }
+    },
+    {
+      "id": "aa-glm-5-3",
+      "name": "GLM-5.3 (max)",
+      "shortName": "GLM-5.3 (max)",
+      "modelUrl": "https://artificialanalysis.ai/models/glm-5-3",
+      "hostsUrl": "https://artificialanalysis.ai/models/glm-5-3/providers",
+      "creatorName": "Z AI",
+      "creatorSlug": "zai",
+      "creatorCountry": "cn",
+      "creatorLogoUrl": "https://artificialanalysis.ai/img/logos/zai_small.svg",
+      "imageUrl": "https://artificialanalysis.ai/img/logos/zai_small.svg",
+      "releaseDate": "2026-08-18",
+      "reasoningModel": true,
+      "intelligenceIndex": 59.5134408119521,
+      "estimatedIntelligenceIndex": 0,
+      "openSourceCategory": "commercial-license",
+      "sizeClass": "large",
+      "contextWindowTokens": 0,
+      "avatarText": "ZA",
+      "color": "#1c7ff8",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/frontier-language-model-intelligence.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/frontier-language-model-intelligence.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/frontier-language-model-intelligence.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/frontier-language-model-intelligence.json",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.666667,
+          "u1": 0.25,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://artificialanalysis.ai/img/logos/zai_small.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "artificial-analysis"
+        }
+      }
+    },
+    {
+      "id": "aa-gemini-3-8-flash",
+      "name": "Gemini 3.8 Flash (high)",
+      "shortName": "Gemini 3.8 Flash (high)",
+      "modelUrl": "https://artificialanalysis.ai/models/gemini-3-8-flash",
+      "hostsUrl": "https://artificialanalysis.ai/models/gemini-3-8-flash/providers",
+      "creatorName": "Google",
+      "creatorSlug": "google",
+      "creatorCountry": "us",
+      "creatorLogoUrl": "https://artificialanalysis.ai/img/logos/google_small.svg",
+      "imageUrl": "https://artificialanalysis.ai/img/logos/google_small.svg",
+      "releaseDate": "2026-09-02",
+      "reasoningModel": true,
+      "intelligenceIndex": 58.679185261722,
+      "estimatedIntelligenceIndex": 0,
+      "openSourceCategory": "proprietary",
+      "sizeClass": "large",
+      "contextWindowTokens": 0,
+      "avatarText": "G",
+      "color": "#34A853",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/frontier-language-model-intelligence.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/frontier-language-model-intelligence.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/frontier-language-model-intelligence.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/frontier-language-model-intelligence.json",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.666667,
+          "u1": 0.5,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://artificialanalysis.ai/img/logos/google_small.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "artificial-analysis"
+        }
+      }
+    },
+    {
+      "id": "aa-qwen3-8-2-4t-a95b",
+      "name": "Qwen3.8 2.4T A95B",
+      "shortName": "Qwen3.8 2.4T A95B",
+      "modelUrl": "https://artificialanalysis.ai/models/qwen3-8-2-4t-a95b",
+      "hostsUrl": "https://artificialanalysis.ai/models/qwen3-8-2-4t-a95b/providers",
+      "creatorName": "Alibaba",
+      "creatorSlug": "alibaba",
+      "creatorCountry": "cn",
+      "creatorLogoUrl": "https://artificialanalysis.ai/img/logos/alibaba_small.svg",
+      "imageUrl": "https://artificialanalysis.ai/img/logos/alibaba_small.svg",
+      "releaseDate": "2026-08-12",
+      "reasoningModel": true,
+      "intelligenceIndex": 57.7043243271128,
+      "estimatedIntelligenceIndex": 0,
+      "openSourceCategory": "commercial-license",
+      "sizeClass": "large",
+      "contextWindowTokens": 0,
+      "avatarText": "A",
+      "color": "#ff7018",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/frontier-language-model-intelligence.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/frontier-language-model-intelligence.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/frontier-language-model-intelligence.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/frontier-language-model-intelligence.json",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.666667,
+          "u1": 0.75,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://artificialanalysis.ai/img/logos/alibaba_small.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "artificial-analysis"
+        }
+      }
+    },
+    {
+      "id": "aa-glm-5-3-flash",
+      "name": "GLM-5.3-Flash",
+      "shortName": "GLM-5.3-Flash",
+      "modelUrl": "https://artificialanalysis.ai/models/glm-5-3-flash",
+      "hostsUrl": "https://artificialanalysis.ai/models/glm-5-3-flash/providers",
+      "creatorName": "Z AI",
+      "creatorSlug": "zai",
+      "creatorCountry": "cn",
+      "creatorLogoUrl": "https://artificialanalysis.ai/img/logos/zai_small.svg",
+      "imageUrl": "https://artificialanalysis.ai/img/logos/zai_small.svg",
+      "releaseDate": "2026-08-26",
+      "reasoningModel": true,
+      "intelligenceIndex": 57.4592004791323,
+      "estimatedIntelligenceIndex": 0,
+      "openSourceCategory": "permissive",
+      "sizeClass": "large",
+      "contextWindowTokens": 0,
+      "avatarText": "ZA",
+      "color": "#1c7ff8",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/frontier-language-model-intelligence.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/frontier-language-model-intelligence.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/frontier-language-model-intelligence.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/frontier-language-model-intelligence.json",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.666667,
+          "u1": 1,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://artificialanalysis.ai/img/logos/zai_small.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "artificial-analysis"
+        }
+      }
+    }
+  ],
+  "frames": [
+    {
+      "date": "20260217",
+      "values": []
+    },
+    {
+      "date": "20260219",
+      "values": []
+    },
+    {
+      "date": "20260408",
+      "values": []
+    },
+    {
+      "date": "20260420",
+      "values": []
+    },
+    {
+      "date": "20260422",
+      "values": []
+    },
+    {
+      "date": "20260423",
+      "values": []
+    },
+    {
+      "date": "20260424",
+      "values": []
+    },
+    {
+      "date": "20260519",
+      "values": []
+    },
+    {
+      "date": "20260528",
+      "values": []
+    },
+    {
+      "date": "20260601",
+      "values": []
+    },
+    {
+      "date": "20260609",
+      "values": [
+        {
+          "id": "aa-claude-fable-5",
+          "value": 62.1,
+          "releaseDate": "2026-06-09",
+          "creatorName": "Anthropic",
+          "estimated": false,
+          "codingIndex": 0,
+          "agenticIndex": 56.5947766323024,
+          "gdpvalElo": 1722.99,
+          "outputSpeed": 65.050688897718,
+          "inputPrice": 10,
+          "outputPrice": 50,
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "date": "20260616",
+      "values": [
+        {
+          "id": "aa-claude-fable-5",
+          "value": 59.9,
+          "releaseDate": "2026-06-09",
+          "creatorName": "Anthropic",
+          "estimated": false,
+          "codingIndex": 76.4911915660979,
+          "agenticIndex": 52.8147079037801,
+          "gdpvalElo": 1769.15,
+          "outputSpeed": 0,
+          "inputPrice": 10,
+          "outputPrice": 50,
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "date": "20260709",
+      "values": [
+        {
+          "id": "aa-claude-fable-5",
+          "value": 62.1,
+          "releaseDate": "2026-06-09",
+          "creatorName": "Anthropic",
+          "estimated": false,
+          "codingIndex": 0,
+          "agenticIndex": 56.5947766323024,
+          "gdpvalElo": 1722.99,
+          "outputSpeed": 65.050688897718,
+          "inputPrice": 10,
+          "outputPrice": 50,
+          "rank": 1
+        },
+        {
+          "id": "aa-gpt-5-6-sol",
+          "value": 60.9,
+          "releaseDate": "2026-07-09",
+          "creatorName": "OpenAI",
+          "estimated": false,
+          "codingIndex": 0,
+          "agenticIndex": 57.7836323024055,
+          "gdpvalElo": 1710.14,
+          "outputSpeed": 69.2226703719104,
+          "inputPrice": 4,
+          "outputPrice": 20,
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "date": "20260716",
+      "values": [
+        {
+          "id": "aa-claude-fable-5",
+          "value": 62.1,
+          "releaseDate": "2026-06-09",
+          "creatorName": "Anthropic",
+          "estimated": false,
+          "codingIndex": 0,
+          "agenticIndex": 56.5947766323024,
+          "gdpvalElo": 1722.99,
+          "outputSpeed": 65.050688897718,
+          "inputPrice": 10,
+          "outputPrice": 50,
+          "rank": 1
+        },
+        {
+          "id": "aa-gpt-5-6-sol",
+          "value": 60.9,
+          "releaseDate": "2026-07-09",
+          "creatorName": "OpenAI",
+          "estimated": false,
+          "codingIndex": 0,
+          "agenticIndex": 57.7836323024055,
+          "gdpvalElo": 1710.14,
+          "outputSpeed": 69.2226703719104,
+          "inputPrice": 4,
+          "outputPrice": 20,
+          "rank": 2
+        },
+        {
+          "id": "aa-kimi-k3",
+          "value": 59.7,
+          "releaseDate": "2026-07-16",
+          "creatorName": "Kimi",
+          "estimated": false,
+          "codingIndex": 0,
+          "agenticIndex": 54.2624604810997,
+          "gdpvalElo": 1667.97,
+          "outputSpeed": 37.8843897545241,
+          "inputPrice": 3,
+          "outputPrice": 15,
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "date": "20260724",
+      "values": [
+        {
+          "id": "aa-claude-opus-5",
+          "value": 63.1,
+          "releaseDate": "2026-07-24",
+          "creatorName": "Anthropic",
+          "estimated": false,
+          "codingIndex": 0,
+          "agenticIndex": 59.1729518900344,
+          "gdpvalElo": 1823.94,
+          "outputSpeed": 55.6384867541943,
+          "inputPrice": 5,
+          "outputPrice": 25,
+          "rank": 1
+        },
+        {
+          "id": "aa-claude-fable-5",
+          "value": 62.1,
+          "releaseDate": "2026-06-09",
+          "creatorName": "Anthropic",
+          "estimated": false,
+          "codingIndex": 0,
+          "agenticIndex": 56.5947766323024,
+          "gdpvalElo": 1722.99,
+          "outputSpeed": 65.050688897718,
+          "inputPrice": 10,
+          "outputPrice": 50,
+          "rank": 2
+        },
+        {
+          "id": "aa-gpt-5-6-sol",
+          "value": 60.9,
+          "releaseDate": "2026-07-09",
+          "creatorName": "OpenAI",
+          "estimated": false,
+          "codingIndex": 0,
+          "agenticIndex": 57.7836323024055,
+          "gdpvalElo": 1710.14,
+          "outputSpeed": 69.2226703719104,
+          "inputPrice": 4,
+          "outputPrice": 20,
+          "rank": 3
+        },
+        {
+          "id": "aa-kimi-k3",
+          "value": 59.7,
+          "releaseDate": "2026-07-16",
+          "creatorName": "Kimi",
+          "estimated": false,
+          "codingIndex": 0,
+          "agenticIndex": 54.2624604810997,
+          "gdpvalElo": 1667.97,
+          "outputSpeed": 37.8843897545241,
+          "inputPrice": 3,
+          "outputPrice": 15,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "date": "20260812",
+      "values": [
+        {
+          "id": "aa-claude-opus-5",
+          "value": 63.1,
+          "releaseDate": "2026-07-24",
+          "creatorName": "Anthropic",
+          "estimated": false,
+          "codingIndex": 0,
+          "agenticIndex": 59.1729518900344,
+          "gdpvalElo": 1823.94,
+          "outputSpeed": 55.6384867541943,
+          "inputPrice": 5,
+          "outputPrice": 25,
+          "rank": 1
+        },
+        {
+          "id": "aa-claude-fable-5",
+          "value": 62.1,
+          "releaseDate": "2026-06-09",
+          "creatorName": "Anthropic",
+          "estimated": false,
+          "codingIndex": 0,
+          "agenticIndex": 56.5947766323024,
+          "gdpvalElo": 1722.99,
+          "outputSpeed": 65.050688897718,
+          "inputPrice": 10,
+          "outputPrice": 50,
+          "rank": 2
+        },
+        {
+          "id": "aa-gpt-5-6-sol",
+          "value": 60.9,
+          "releaseDate": "2026-07-09",
+          "creatorName": "OpenAI",
+          "estimated": false,
+          "codingIndex": 0,
+          "agenticIndex": 57.7836323024055,
+          "gdpvalElo": 1710.14,
+          "outputSpeed": 69.2226703719104,
+          "inputPrice": 4,
+          "outputPrice": 20,
+          "rank": 3
+        },
+        {
+          "id": "aa-grok-4-6",
+          "value": 60.9,
+          "releaseDate": "2026-08-12",
+          "creatorName": "SpaceXAI",
+          "estimated": false,
+          "codingIndex": 0,
+          "agenticIndex": 58.6762164948454,
+          "gdpvalElo": 1729.93,
+          "outputSpeed": 54.5948522746315,
+          "inputPrice": 2,
+          "outputPrice": 6,
+          "rank": 4
+        },
+        {
+          "id": "aa-kimi-k3",
+          "value": 59.7,
+          "releaseDate": "2026-07-16",
+          "creatorName": "Kimi",
+          "estimated": false,
+          "codingIndex": 0,
+          "agenticIndex": 54.2624604810997,
+          "gdpvalElo": 1667.97,
+          "outputSpeed": 37.8843897545241,
+          "inputPrice": 3,
+          "outputPrice": 15,
+          "rank": 5
+        },
+        {
+          "id": "aa-qwen3-8-2-4t-a95b",
+          "value": 57.7,
+          "releaseDate": "2026-08-12",
+          "creatorName": "Alibaba",
+          "estimated": false,
+          "codingIndex": 0,
+          "agenticIndex": 57.0983883161512,
+          "gdpvalElo": 1718.42,
+          "outputSpeed": 38.6156212835626,
+          "inputPrice": 2,
+          "outputPrice": 6,
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "date": "20260813",
+      "values": [
+        {
+          "id": "aa-claude-opus-5",
+          "value": 63.1,
+          "releaseDate": "2026-07-24",
+          "creatorName": "Anthropic",
+          "estimated": false,
+          "codingIndex": 0,
+          "agenticIndex": 59.1729518900344,
+          "gdpvalElo": 1823.94,
+          "outputSpeed": 55.6384867541943,
+          "inputPrice": 5,
+          "outputPrice": 25,
+          "rank": 1
+        },
+        {
+          "id": "aa-claude-fable-5",
+          "value": 62.1,
+          "releaseDate": "2026-06-09",
+          "creatorName": "Anthropic",
+          "estimated": false,
+          "codingIndex": 0,
+          "agenticIndex": 56.5947766323024,
+          "gdpvalElo": 1722.99,
+          "outputSpeed": 65.050688897718,
+          "inputPrice": 10,
+          "outputPrice": 50,
+          "rank": 2
+        },
+        {
+          "id": "aa-gpt-5-6-sol",
+          "value": 60.9,
+          "releaseDate": "2026-07-09",
+          "creatorName": "OpenAI",
+          "estimated": false,
+          "codingIndex": 0,
+          "agenticIndex": 57.7836323024055,
+          "gdpvalElo": 1710.14,
+          "outputSpeed": 69.2226703719104,
+          "inputPrice": 4,
+          "outputPrice": 20,
+          "rank": 3
+        },
+        {
+          "id": "aa-grok-4-6",
+          "value": 60.9,
+          "releaseDate": "2026-08-12",
+          "creatorName": "SpaceXAI",
+          "estimated": false,
+          "codingIndex": 0,
+          "agenticIndex": 58.6762164948454,
+          "gdpvalElo": 1729.93,
+          "outputSpeed": 54.5948522746315,
+          "inputPrice": 2,
+          "outputPrice": 6,
+          "rank": 4
+        },
+        {
+          "id": "aa-kimi-k3",
+          "value": 59.7,
+          "releaseDate": "2026-07-16",
+          "creatorName": "Kimi",
+          "estimated": false,
+          "codingIndex": 0,
+          "agenticIndex": 54.2624604810997,
+          "gdpvalElo": 1667.97,
+          "outputSpeed": 37.8843897545241,
+          "inputPrice": 3,
+          "outputPrice": 15,
+          "rank": 5
+        },
+        {
+          "id": "aa-qwen3-8-2-4t-a95b",
+          "value": 57.7,
+          "releaseDate": "2026-08-12",
+          "creatorName": "Alibaba",
+          "estimated": false,
+          "codingIndex": 0,
+          "agenticIndex": 57.0983883161512,
+          "gdpvalElo": 1718.42,
+          "outputSpeed": 38.6156212835626,
+          "inputPrice": 2,
+          "outputPrice": 6,
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "date": "20260818",
+      "values": [
+        {
+          "id": "aa-claude-opus-5",
+          "value": 63.1,
+          "releaseDate": "2026-07-24",
+          "creatorName": "Anthropic",
+          "estimated": false,
+          "codingIndex": 0,
+          "agenticIndex": 59.1729518900344,
+          "gdpvalElo": 1823.94,
+          "outputSpeed": 55.6384867541943,
+          "inputPrice": 5,
+          "outputPrice": 25,
+          "rank": 1
+        },
+        {
+          "id": "aa-claude-fable-5",
+          "value": 62.1,
+          "releaseDate": "2026-06-09",
+          "creatorName": "Anthropic",
+          "estimated": false,
+          "codingIndex": 0,
+          "agenticIndex": 56.5947766323024,
+          "gdpvalElo": 1722.99,
+          "outputSpeed": 65.050688897718,
+          "inputPrice": 10,
+          "outputPrice": 50,
+          "rank": 2
+        },
+        {
+          "id": "aa-gpt-5-6-sol",
+          "value": 60.9,
+          "releaseDate": "2026-07-09",
+          "creatorName": "OpenAI",
+          "estimated": false,
+          "codingIndex": 0,
+          "agenticIndex": 57.7836323024055,
+          "gdpvalElo": 1710.14,
+          "outputSpeed": 69.2226703719104,
+          "inputPrice": 4,
+          "outputPrice": 20,
+          "rank": 3
+        },
+        {
+          "id": "aa-grok-4-6",
+          "value": 60.9,
+          "releaseDate": "2026-08-12",
+          "creatorName": "SpaceXAI",
+          "estimated": false,
+          "codingIndex": 0,
+          "agenticIndex": 58.6762164948454,
+          "gdpvalElo": 1729.93,
+          "outputSpeed": 54.5948522746315,
+          "inputPrice": 2,
+          "outputPrice": 6,
+          "rank": 4
+        },
+        {
+          "id": "aa-kimi-k3",
+          "value": 59.7,
+          "releaseDate": "2026-07-16",
+          "creatorName": "Kimi",
+          "estimated": false,
+          "codingIndex": 0,
+          "agenticIndex": 54.2624604810997,
+          "gdpvalElo": 1667.97,
+          "outputSpeed": 37.8843897545241,
+          "inputPrice": 3,
+          "outputPrice": 15,
+          "rank": 5
+        },
+        {
+          "id": "aa-glm-5-3",
+          "value": 59.5,
+          "releaseDate": "2026-08-18",
+          "creatorName": "Z AI",
+          "estimated": false,
+          "codingIndex": 0,
+          "agenticIndex": 59.1017594501718,
+          "gdpvalElo": 1758.29,
+          "outputSpeed": 62.8155358878734,
+          "inputPrice": 1.4,
+          "outputPrice": 4.4,
+          "rank": 6
+        },
+        {
+          "id": "aa-qwen3-8-2-4t-a95b",
+          "value": 57.7,
+          "releaseDate": "2026-08-12",
+          "creatorName": "Alibaba",
+          "estimated": false,
+          "codingIndex": 0,
+          "agenticIndex": 57.0983883161512,
+          "gdpvalElo": 1718.42,
+          "outputSpeed": 38.6156212835626,
+          "inputPrice": 2,
+          "outputPrice": 6,
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "date": "20260826",
+      "values": [
+        {
+          "id": "aa-claude-opus-5",
+          "value": 63.1,
+          "releaseDate": "2026-07-24",
+          "creatorName": "Anthropic",
+          "estimated": false,
+          "codingIndex": 0,
+          "agenticIndex": 59.1729518900344,
+          "gdpvalElo": 1823.94,
+          "outputSpeed": 55.6384867541943,
+          "inputPrice": 5,
+          "outputPrice": 25,
+          "rank": 1
+        },
+        {
+          "id": "aa-claude-fable-5",
+          "value": 62.1,
+          "releaseDate": "2026-06-09",
+          "creatorName": "Anthropic",
+          "estimated": false,
+          "codingIndex": 0,
+          "agenticIndex": 56.5947766323024,
+          "gdpvalElo": 1722.99,
+          "outputSpeed": 65.050688897718,
+          "inputPrice": 10,
+          "outputPrice": 50,
+          "rank": 2
+        },
+        {
+          "id": "aa-gpt-5-6-sol",
+          "value": 60.9,
+          "releaseDate": "2026-07-09",
+          "creatorName": "OpenAI",
+          "estimated": false,
+          "codingIndex": 0,
+          "agenticIndex": 57.7836323024055,
+          "gdpvalElo": 1710.14,
+          "outputSpeed": 69.2226703719104,
+          "inputPrice": 4,
+          "outputPrice": 20,
+          "rank": 3
+        },
+        {
+          "id": "aa-grok-4-6",
+          "value": 60.9,
+          "releaseDate": "2026-08-12",
+          "creatorName": "SpaceXAI",
+          "estimated": false,
+          "codingIndex": 0,
+          "agenticIndex": 58.6762164948454,
+          "gdpvalElo": 1729.93,
+          "outputSpeed": 54.5948522746315,
+          "inputPrice": 2,
+          "outputPrice": 6,
+          "rank": 4
+        },
+        {
+          "id": "aa-kimi-k3",
+          "value": 59.7,
+          "releaseDate": "2026-07-16",
+          "creatorName": "Kimi",
+          "estimated": false,
+          "codingIndex": 0,
+          "agenticIndex": 54.2624604810997,
+          "gdpvalElo": 1667.97,
+          "outputSpeed": 37.8843897545241,
+          "inputPrice": 3,
+          "outputPrice": 15,
+          "rank": 5
+        },
+        {
+          "id": "aa-glm-5-3",
+          "value": 59.5,
+          "releaseDate": "2026-08-18",
+          "creatorName": "Z AI",
+          "estimated": false,
+          "codingIndex": 0,
+          "agenticIndex": 59.1017594501718,
+          "gdpvalElo": 1758.29,
+          "outputSpeed": 62.8155358878734,
+          "inputPrice": 1.4,
+          "outputPrice": 4.4,
+          "rank": 6
+        },
+        {
+          "id": "aa-qwen3-8-2-4t-a95b",
+          "value": 57.7,
+          "releaseDate": "2026-08-12",
+          "creatorName": "Alibaba",
+          "estimated": false,
+          "codingIndex": 0,
+          "agenticIndex": 57.0983883161512,
+          "gdpvalElo": 1718.42,
+          "outputSpeed": 38.6156212835626,
+          "inputPrice": 2,
+          "outputPrice": 6,
+          "rank": 7
+        },
+        {
+          "id": "aa-glm-5-3-flash",
+          "value": 57.5,
+          "releaseDate": "2026-08-26",
+          "creatorName": "Z AI",
+          "estimated": false,
+          "codingIndex": 0,
+          "agenticIndex": 58.1561649484536,
+          "gdpvalElo": 1764.66,
+          "outputSpeed": 44.6203214963611,
+          "inputPrice": 0.15,
+          "outputPrice": 0.5,
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "date": "20260901",
+      "values": [
+        {
+          "id": "aa-claude-fable-5-1",
+          "value": 65.7,
+          "releaseDate": "2026-09-01",
+          "creatorName": "Anthropic",
+          "estimated": false,
+          "codingIndex": 0,
+          "agenticIndex": 61.3388316151203,
+          "gdpvalElo": 1853.05,
+          "outputSpeed": 66.0241178556912,
+          "inputPrice": 10,
+          "outputPrice": 50,
+          "rank": 1
+        },
+        {
+          "id": "aa-claude-opus-5",
+          "value": 63.1,
+          "releaseDate": "2026-07-24",
+          "creatorName": "Anthropic",
+          "estimated": false,
+          "codingIndex": 0,
+          "agenticIndex": 59.1729518900344,
+          "gdpvalElo": 1823.94,
+          "outputSpeed": 55.6384867541943,
+          "inputPrice": 5,
+          "outputPrice": 25,
+          "rank": 2
+        },
+        {
+          "id": "aa-claude-fable-5",
+          "value": 62.1,
+          "releaseDate": "2026-06-09",
+          "creatorName": "Anthropic",
+          "estimated": false,
+          "codingIndex": 0,
+          "agenticIndex": 56.5947766323024,
+          "gdpvalElo": 1722.99,
+          "outputSpeed": 65.050688897718,
+          "inputPrice": 10,
+          "outputPrice": 50,
+          "rank": 3
+        },
+        {
+          "id": "aa-gpt-5-6-sol",
+          "value": 60.9,
+          "releaseDate": "2026-07-09",
+          "creatorName": "OpenAI",
+          "estimated": false,
+          "codingIndex": 0,
+          "agenticIndex": 57.7836323024055,
+          "gdpvalElo": 1710.14,
+          "outputSpeed": 69.2226703719104,
+          "inputPrice": 4,
+          "outputPrice": 20,
+          "rank": 4
+        },
+        {
+          "id": "aa-grok-4-6",
+          "value": 60.9,
+          "releaseDate": "2026-08-12",
+          "creatorName": "SpaceXAI",
+          "estimated": false,
+          "codingIndex": 0,
+          "agenticIndex": 58.6762164948454,
+          "gdpvalElo": 1729.93,
+          "outputSpeed": 54.5948522746315,
+          "inputPrice": 2,
+          "outputPrice": 6,
+          "rank": 5
+        },
+        {
+          "id": "aa-kimi-k3",
+          "value": 59.7,
+          "releaseDate": "2026-07-16",
+          "creatorName": "Kimi",
+          "estimated": false,
+          "codingIndex": 0,
+          "agenticIndex": 54.2624604810997,
+          "gdpvalElo": 1667.97,
+          "outputSpeed": 37.8843897545241,
+          "inputPrice": 3,
+          "outputPrice": 15,
+          "rank": 6
+        },
+        {
+          "id": "aa-glm-5-3",
+          "value": 59.5,
+          "releaseDate": "2026-08-18",
+          "creatorName": "Z AI",
+          "estimated": false,
+          "codingIndex": 0,
+          "agenticIndex": 59.1017594501718,
+          "gdpvalElo": 1758.29,
+          "outputSpeed": 62.8155358878734,
+          "inputPrice": 1.4,
+          "outputPrice": 4.4,
+          "rank": 7
+        },
+        {
+          "id": "aa-qwen3-8-2-4t-a95b",
+          "value": 57.7,
+          "releaseDate": "2026-08-12",
+          "creatorName": "Alibaba",
+          "estimated": false,
+          "codingIndex": 0,
+          "agenticIndex": 57.0983883161512,
+          "gdpvalElo": 1718.42,
+          "outputSpeed": 38.6156212835626,
+          "inputPrice": 2,
+          "outputPrice": 6,
+          "rank": 8
+        },
+        {
+          "id": "aa-glm-5-3-flash",
+          "value": 57.5,
+          "releaseDate": "2026-08-26",
+          "creatorName": "Z AI",
+          "estimated": false,
+          "codingIndex": 0,
+          "agenticIndex": 58.1561649484536,
+          "gdpvalElo": 1764.66,
+          "outputSpeed": 44.6203214963611,
+          "inputPrice": 0.15,
+          "outputPrice": 0.5,
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "date": "20260902",
+      "values": [
+        {
+          "id": "aa-claude-fable-5-1",
+          "value": 65.7,
+          "releaseDate": "2026-09-01",
+          "creatorName": "Anthropic",
+          "estimated": false,
+          "codingIndex": 0,
+          "agenticIndex": 61.3388316151203,
+          "gdpvalElo": 1853.05,
+          "outputSpeed": 66.0241178556912,
+          "inputPrice": 10,
+          "outputPrice": 50,
+          "rank": 1
+        },
+        {
+          "id": "aa-claude-opus-5",
+          "value": 63.1,
+          "releaseDate": "2026-07-24",
+          "creatorName": "Anthropic",
+          "estimated": false,
+          "codingIndex": 0,
+          "agenticIndex": 59.1729518900344,
+          "gdpvalElo": 1823.94,
+          "outputSpeed": 55.6384867541943,
+          "inputPrice": 5,
+          "outputPrice": 25,
+          "rank": 2
+        },
+        {
+          "id": "aa-claude-fable-5",
+          "value": 62.1,
+          "releaseDate": "2026-06-09",
+          "creatorName": "Anthropic",
+          "estimated": false,
+          "codingIndex": 0,
+          "agenticIndex": 56.5947766323024,
+          "gdpvalElo": 1722.99,
+          "outputSpeed": 65.050688897718,
+          "inputPrice": 10,
+          "outputPrice": 50,
+          "rank": 3
+        },
+        {
+          "id": "aa-muse-spark-1-3",
+          "value": 62.1,
+          "releaseDate": "2026-09-02",
+          "creatorName": "Meta",
+          "estimated": false,
+          "codingIndex": 0,
+          "agenticIndex": 59.2543780068729,
+          "gdpvalElo": 1753.92,
+          "outputSpeed": null,
+          "inputPrice": 0,
+          "outputPrice": 0,
+          "rank": 4
+        },
+        {
+          "id": "aa-gpt-5-6-sol",
+          "value": 60.9,
+          "releaseDate": "2026-07-09",
+          "creatorName": "OpenAI",
+          "estimated": false,
+          "codingIndex": 0,
+          "agenticIndex": 57.7836323024055,
+          "gdpvalElo": 1710.14,
+          "outputSpeed": 69.2226703719104,
+          "inputPrice": 4,
+          "outputPrice": 20,
+          "rank": 5
+        },
+        {
+          "id": "aa-grok-4-6",
+          "value": 60.9,
+          "releaseDate": "2026-08-12",
+          "creatorName": "SpaceXAI",
+          "estimated": false,
+          "codingIndex": 0,
+          "agenticIndex": 58.6762164948454,
+          "gdpvalElo": 1729.93,
+          "outputSpeed": 54.5948522746315,
+          "inputPrice": 2,
+          "outputPrice": 6,
+          "rank": 6
+        },
+        {
+          "id": "aa-muse-spark-1-3-xhigh",
+          "value": 60.8,
+          "releaseDate": "2026-09-02",
+          "creatorName": "Meta",
+          "estimated": false,
+          "codingIndex": 0,
+          "agenticIndex": 56.0524982817869,
+          "gdpvalElo": 1709.41,
+          "outputSpeed": 186.351394099571,
+          "inputPrice": 1.25,
+          "outputPrice": 4.25,
+          "rank": 7
+        },
+        {
+          "id": "aa-kimi-k3",
+          "value": 59.7,
+          "releaseDate": "2026-07-16",
+          "creatorName": "Kimi",
+          "estimated": false,
+          "codingIndex": 0,
+          "agenticIndex": 54.2624604810997,
+          "gdpvalElo": 1667.97,
+          "outputSpeed": 37.8843897545241,
+          "inputPrice": 3,
+          "outputPrice": 15,
+          "rank": 8
+        },
+        {
+          "id": "aa-glm-5-3",
+          "value": 59.5,
+          "releaseDate": "2026-08-18",
+          "creatorName": "Z AI",
+          "estimated": false,
+          "codingIndex": 0,
+          "agenticIndex": 59.1017594501718,
+          "gdpvalElo": 1758.29,
+          "outputSpeed": 62.8155358878734,
+          "inputPrice": 1.4,
+          "outputPrice": 4.4,
+          "rank": 9
+        },
+        {
+          "id": "aa-gemini-3-8-flash",
+          "value": 58.7,
+          "releaseDate": "2026-09-02",
+          "creatorName": "Google",
+          "estimated": false,
+          "codingIndex": 0,
+          "agenticIndex": 49.9994845360825,
+          "gdpvalElo": 1545.45,
+          "outputSpeed": 298.585167933106,
+          "inputPrice": 0.75,
+          "outputPrice": 3.75,
+          "rank": 10
+        },
+        {
+          "id": "aa-qwen3-8-2-4t-a95b",
+          "value": 57.7,
+          "releaseDate": "2026-08-12",
+          "creatorName": "Alibaba",
+          "estimated": false,
+          "codingIndex": 0,
+          "agenticIndex": 57.0983883161512,
+          "gdpvalElo": 1718.42,
+          "outputSpeed": 38.6156212835626,
+          "inputPrice": 2,
+          "outputPrice": 6,
+          "rank": 11
+        },
+        {
+          "id": "aa-glm-5-3-flash",
+          "value": 57.5,
+          "releaseDate": "2026-08-26",
+          "creatorName": "Z AI",
+          "estimated": false,
+          "codingIndex": 0,
+          "agenticIndex": 58.1561649484536,
+          "gdpvalElo": 1764.66,
+          "outputSpeed": 44.6203214963611,
+          "inputPrice": 0.15,
+          "outputPrice": 0.5,
+          "rank": 12
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "date": "20260217",
+      "title": "Claude Sonnet 4.6 (max) sets the frontier",
+      "body": "Claude Sonnet 4.6 (max) leads the visible frontier model set at 47.2 on the Artificial Analysis Intelligence Index."
+    },
+    {
+      "date": "20260609",
+      "title": "Claude Fable 5 (with fallback) sets the frontier",
+      "body": "Claude Fable 5 (with fallback) leads the visible frontier model set at 62.1 on the Artificial Analysis Intelligence Index."
+    },
+    {
+      "date": "20260902",
+      "title": "Claude Fable 5.1 (max with fallback) sets the frontier",
+      "body": "Claude Fable 5.1 (max with fallback) leads the visible frontier model set at 65.7 on the Artificial Analysis Intelligence Index."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Frontier Language Model Intelligence, Over Time",
+      "publisher": "Artificial Analysis",
+      "url": "https://artificialanalysis.ai/#frontier-language-model-intelligence-over-time",
+      "note": "Homepage section with frontier language model intelligence scores and release-date charting."
+    },
+    {
+      "title": "Artificial Analysis Intelligence Index",
+      "publisher": "Artificial Analysis",
+      "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+      "note": "Methodology and benchmark context for the Artificial Analysis Intelligence Index."
+    }
+  ],
+  "historicalCoverageStart": "20260217",
+  "historicalCoverageEnd": "20260616",
+  "historicalGranularity": "model-release-date",
+  "backfillSource": "Artificial Analysis frontier model release frames",
+  "backfillGeneratedAt": "2026-06-28T15:08:37.788Z",
+  "historical": {
+    "coverageStart": "20260217",
+    "coverageEnd": "20260616",
+    "granularity": "model-release-date",
+    "source": "Artificial Analysis frontier model release frames",
+    "generatedAt": "2026-06-28T15:08:37.788Z",
+    "frameCount": 12,
+    "maxFrames": 24,
+    "maxPublicFrames": 72,
+    "notes": [
+      "The current adapter already exposes release-date history; this backfill records that coverage explicitly for the race/chart metadata.",
+      "No extra daily or synthetic benchmark snapshots are fabricated."
+    ]
+  },
+  "lastObservationDate": "2026-09-02",
+  "dataFreshness": {
+    "status": "fresh",
+    "refreshCadence": "daily",
+    "lastUpdated": "2026-09-03T06:03:26.958Z",
+    "lastRefreshAttemptedAt": "2026-09-03T06:03:26.958Z",
+    "lastRefreshError": null,
+    "lastObservationDate": "2026-09-02",
+    "nextRefreshAt": "2026-09-04T06:00:00.000Z",
+    "sourceStatus": "Artificial Analysis homepage frontier model data",
+    "confidence": "Observed 14 Artificial Analysis frontier model rows and 14 scored display rows at 2026-09-03T06:03:26.958Z."
+  },
+  "media": {
+    "tileSize": 320,
+    "imageFit": "contain",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-09-03T06:03:26.958Z",
+    "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/frontier-language-model-intelligence.webp",
+    "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/frontier-language-model-intelligence.webp",
+    "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/frontier-language-model-intelligence.json",
+    "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/frontier-language-model-intelligence.json",
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 4,
+    "rows": 3,
+    "width": 1280,
+    "height": 960,
+    "itemCount": 12,
+    "sourcedImageCount": 12,
+    "generatedImageCount": 0,
+    "placeholderCount": 0,
+    "ogImageUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/frontier-language-model-intelligence.png",
+    "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/frontier-language-model-intelligence.png",
+    "ogImageWidth": 1200,
+    "ogImageHeight": 630
+  },
+  "taxonomy": {
+    "primaryCategory": "technology",
+    "categories": [
+      "technology",
+      "ai",
+      "benchmarks"
+    ],
+    "tags": [
+      "language-models",
+      "frontier-ai",
+      "intelligence-index",
+      "release-dates"
+    ],
+    "entityTypes": [
+      "model",
+      "ai-system"
+    ],
+    "sourceTypes": [
+      "benchmark"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "open-source-ai-repo-momentum",
+      "type": "ai-ecosystem",
+      "weight": 0.88,
+      "reason": "Both track AI progress, one through models and one through developer adoption."
+    },
+    {
+      "target": "app-store-takeover",
+      "type": "technology-adoption",
+      "weight": 0.48,
+      "reason": "AI products can become consumer software adoption stories."
+    },
+    {
+      "target": "games-people-are-playing",
+      "type": "technology-platforms",
+      "weight": 0.28,
+      "reason": "Both sit in software/platform culture, but with different audiences."
+    },
+    {
+      "target": "lmarena-text-leaderboard",
+      "type": "ai-benchmarks",
+      "weight": 0.9,
+      "reason": "Both rank frontier language models, one by benchmark intelligence and one by human preference Elo."
+    },
+    {
+      "target": "deepswe-leaderboard",
+      "type": "ai-frontier",
+      "weight": 0.88,
+      "reason": "Both index the frontier model set, one on general intelligence and one on long-horizon coding."
+    },
+    {
+      "target": "ai-lab-race",
+      "type": "ai-frontier",
+      "weight": 0.92,
+      "reason": "The lab race is the model-level frontier index rolled up to the labs that ship the models."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "ai-technology",
+    "mainland": "technology",
+    "bridgePriority": [
+      "ai-lab-race",
+      "open-source-ai-repo-momentum"
+    ]
+  },
+  "schemaVersion": 1,
+  "contentKind": "dat-city.story",
+  "generatedAt": "2026-09-03T06:03:26.958Z",
+  "versionId": "20260903T060326Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "storyops-scheduler",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-09-03T06:03:26.958Z",
+    "versionId": "20260903T060326Z",
+    "adapter": "artificial-analysis-frontier",
+    "storySlug": "frontier-language-model-intelligence",
+    "districtId": null,
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "publicProjection": {
+    "kind": "story",
+    "version": 1,
+    "generatedAt": "2026-09-03T06:03:26.958Z",
+    "adapter": "artificial-analysis-frontier",
+    "cache": {
+      "browserMaxAgeSeconds": 60,
+      "edgeMaxAgeSeconds": 3600
+    }
+  },
+  "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/frontier-language-model-intelligence.png"
+}

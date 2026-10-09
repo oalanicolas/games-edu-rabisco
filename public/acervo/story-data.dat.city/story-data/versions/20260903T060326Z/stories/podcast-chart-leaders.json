@@ -1,0 +1,1711 @@
+{
+  "id": "podcast-chart-leaders",
+  "kicker": "Audio Attention",
+  "title": "Podcast Attention Leaders",
+  "subtitle": "A podcast district using Wikipedia attention as a public chart-interest proxy.",
+  "badge": "Ranked by Wikipedia pageviews",
+  "visualization": "race-arena",
+  "theme": "broadcast",
+  "artStyle": "stylized-editorial",
+  "dateRange": [
+    "20260811",
+    "20260831"
+  ],
+  "metricLabel": "Daily pageviews",
+  "ogImage": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/podcast-chart-leaders.png",
+  "cityPreview": {
+    "districtId": "podcast-chart-pier",
+    "districtName": "Podcast Chart Pier",
+    "cardLabel": "Podcast Leaders",
+    "summary": "Notable podcasts ranked by daily Wikipedia attention.",
+    "primaryMetric": "Daily pageviews",
+    "latestFrameLabel": "2026-08-31",
+    "storyUrl": "/stories/podcast-chart-leaders/",
+    "thumbnail": "/assets/og/dat-city.webp"
+  },
+  "sourceStatus": "Official Wikimedia Pageviews API",
+  "confidence": "Observed daily English Wikipedia article pageviews through 2026-08-31.",
+  "methodology": "This story is generated from the Wikimedia Pageviews API for selected high-interest English Wikipedia articles. Values are daily all-access, user-agent-filtered pageviews. The story publishes a render-ready projection and keeps raw API responses out of the public payload.",
+  "playback": {
+    "durationSeconds": 26,
+    "initialDate": "20260811",
+    "periodLabel": "daily pageviews"
+  },
+  "visual": {
+    "topCount": 10,
+    "referenceCount": 20,
+    "horizontalCount": 12
+  },
+  "layers": [
+    {
+      "id": "attention",
+      "label": "Attention",
+      "default": true
+    }
+  ],
+  "focus": [
+    {
+      "id": "this-american-life",
+      "label": "This American Life"
+    },
+    {
+      "id": "call-her-daddy",
+      "label": "Call Her Daddy"
+    },
+    {
+      "id": "the-joe-rogan-experience",
+      "label": "The Joe Rogan Experience"
+    },
+    {
+      "id": "the-diary-of-a-ceo",
+      "label": "The Diary of a CEO"
+    }
+  ],
+  "entities": [
+    {
+      "id": "this-american-life",
+      "name": "This American Life",
+      "article": "This_American_Life",
+      "configuredImageUrl": null,
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/This_American_Life.svg/960px-This_American_Life.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/This_American_Life.svg/960px-This_American_Life.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "avatarText": "TA",
+      "color": "#ffc84a",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/podcast-chart-leaders.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/podcast-chart-leaders.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/podcast-chart-leaders.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/podcast-chart-leaders.json",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.25,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/This_American_Life.svg/960px-This_American_Life.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "call-her-daddy",
+      "name": "Call Her Daddy",
+      "article": "Call_Her_Daddy",
+      "configuredImageUrl": null,
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/1/10/Call_Her_Daddy_Podcast_Cover.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/1/10/Call_Her_Daddy_Podcast_Cover.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "CH",
+      "color": "#18c871",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/podcast-chart-leaders.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/podcast-chart-leaders.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/podcast-chart-leaders.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/podcast-chart-leaders.json",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0,
+          "u1": 0.5,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/1/10/Call_Her_Daddy_Podcast_Cover.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "the-joe-rogan-experience",
+      "name": "The Joe Rogan Experience",
+      "article": "The_Joe_Rogan_Experience",
+      "configuredImageUrl": null,
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/e/e3/The_Joe_Rogan_Experience_logo.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/e/e3/The_Joe_Rogan_Experience_logo.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "TJ",
+      "color": "#ff5a61",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/podcast-chart-leaders.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/podcast-chart-leaders.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/podcast-chart-leaders.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/podcast-chart-leaders.json",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0,
+          "u1": 0.75,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/e/e3/The_Joe_Rogan_Experience_logo.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "the-diary-of-a-ceo",
+      "name": "The Diary of a CEO",
+      "article": "The_Diary_of_a_CEO",
+      "configuredImageUrl": null,
+      "thumbnailUrl": null,
+      "imageUrl": null,
+      "avatarText": "TD",
+      "color": "#86bdf4",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/podcast-chart-leaders.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/podcast-chart-leaders.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/podcast-chart-leaders.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/podcast-chart-leaders.json",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:the-diary-of-a-ceo",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "serial",
+      "name": "Serial",
+      "article": "Serial_(podcast)",
+      "configuredImageUrl": null,
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Sarah_Koenig%2C_American_journalist_2015.jpg/960px-Sarah_Koenig%2C_American_journalist_2015.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Sarah_Koenig%2C_American_journalist_2015.jpg/960px-Sarah_Koenig%2C_American_journalist_2015.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "avatarText": "S",
+      "color": "#00a6ff",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/podcast-chart-leaders.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/podcast-chart-leaders.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/podcast-chart-leaders.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/podcast-chart-leaders.json",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.333333,
+          "u1": 0.25,
+          "v1": 0.666667
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Sarah_Koenig%2C_American_journalist_2015.jpg/960px-Sarah_Koenig%2C_American_journalist_2015.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "pod-save-america",
+      "name": "Pod Save America",
+      "article": "Pod_Save_America",
+      "configuredImageUrl": null,
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/6/6e/Pod_save_america_logo.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/6/6e/Pod_save_america_logo.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "PS",
+      "color": "#d78fca",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/podcast-chart-leaders.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/podcast-chart-leaders.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/podcast-chart-leaders.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/podcast-chart-leaders.json",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.333333,
+          "u1": 0.5,
+          "v1": 0.666667
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/6/6e/Pod_save_america_logo.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "radiolab",
+      "name": "Radiolab",
+      "article": "Radiolab",
+      "configuredImageUrl": null,
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/f/fd/Radiolab_logo.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/f/fd/Radiolab_logo.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "R",
+      "color": "#f18c4f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/podcast-chart-leaders.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/podcast-chart-leaders.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/podcast-chart-leaders.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/podcast-chart-leaders.json",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.333333,
+          "u1": 0.75,
+          "v1": 0.666667
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/f/fd/Radiolab_logo.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "smartless",
+      "name": "SmartLess",
+      "article": "SmartLess",
+      "configuredImageUrl": null,
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/e/e2/SmartLess_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/e/e2/SmartLess_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "S",
+      "color": "#41a99f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/podcast-chart-leaders.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/podcast-chart-leaders.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/podcast-chart-leaders.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/podcast-chart-leaders.json",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.333333,
+          "u1": 1,
+          "v1": 0.666667
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/e/e2/SmartLess_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "crime-junkie",
+      "name": "Crime Junkie",
+      "article": "Crime_Junkie",
+      "configuredImageUrl": null,
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/a/a1/Crime_Junkie.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a1/Crime_Junkie.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "CJ",
+      "color": "#ef426f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/podcast-chart-leaders.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/podcast-chart-leaders.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/podcast-chart-leaders.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/podcast-chart-leaders.json",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.666667,
+          "u1": 0.25,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/a/a1/Crime_Junkie.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "armchair-expert",
+      "name": "Armchair Expert",
+      "article": "Armchair_Expert",
+      "configuredImageUrl": null,
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/0/03/Armchair_Expert_with_Dax_Shepard.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/0/03/Armchair_Expert_with_Dax_Shepard.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "AE",
+      "color": "#7b9b65",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/podcast-chart-leaders.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/podcast-chart-leaders.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/podcast-chart-leaders.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/podcast-chart-leaders.json",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.666667,
+          "u1": 0.5,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/0/03/Armchair_Expert_with_Dax_Shepard.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "stuff-you-should-know",
+      "name": "Stuff You Should Know",
+      "article": "Stuff_You_Should_Know",
+      "configuredImageUrl": null,
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/9/94/StuffYouShouldKnow.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/9/94/StuffYouShouldKnow.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "SY",
+      "color": "#2f4858",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/podcast-chart-leaders.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/podcast-chart-leaders.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/podcast-chart-leaders.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/podcast-chart-leaders.json",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.666667,
+          "u1": 0.75,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/9/94/StuffYouShouldKnow.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "the-daily",
+      "name": "The Daily",
+      "article": "The_Daily_(podcast)",
+      "configuredImageUrl": null,
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/b/b7/The_Daily_logo.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b7/The_Daily_logo.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "TD",
+      "color": "#8f6bff",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/podcast-chart-leaders.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/podcast-chart-leaders.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/podcast-chart-leaders.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/podcast-chart-leaders.json",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.666667,
+          "u1": 1,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/b/b7/The_Daily_logo.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    }
+  ],
+  "frames": [
+    {
+      "date": "20260811",
+      "values": [
+        {
+          "id": "the-joe-rogan-experience",
+          "value": 500
+        },
+        {
+          "id": "call-her-daddy",
+          "value": 627
+        },
+        {
+          "id": "serial",
+          "value": 380
+        },
+        {
+          "id": "this-american-life",
+          "value": 214
+        },
+        {
+          "id": "radiolab",
+          "value": 65
+        },
+        {
+          "id": "smartless",
+          "value": 200
+        },
+        {
+          "id": "the-daily",
+          "value": 91
+        },
+        {
+          "id": "armchair-expert",
+          "value": 183
+        },
+        {
+          "id": "pod-save-america",
+          "value": 461
+        },
+        {
+          "id": "stuff-you-should-know",
+          "value": 109
+        },
+        {
+          "id": "the-diary-of-a-ceo",
+          "value": 445
+        },
+        {
+          "id": "crime-junkie",
+          "value": 106
+        }
+      ]
+    },
+    {
+      "date": "20260812",
+      "values": [
+        {
+          "id": "the-joe-rogan-experience",
+          "value": 427
+        },
+        {
+          "id": "call-her-daddy",
+          "value": 1632
+        },
+        {
+          "id": "serial",
+          "value": 366
+        },
+        {
+          "id": "this-american-life",
+          "value": 184
+        },
+        {
+          "id": "radiolab",
+          "value": 66
+        },
+        {
+          "id": "smartless",
+          "value": 169
+        },
+        {
+          "id": "the-daily",
+          "value": 73
+        },
+        {
+          "id": "armchair-expert",
+          "value": 141
+        },
+        {
+          "id": "pod-save-america",
+          "value": 482
+        },
+        {
+          "id": "stuff-you-should-know",
+          "value": 90
+        },
+        {
+          "id": "the-diary-of-a-ceo",
+          "value": 442
+        },
+        {
+          "id": "crime-junkie",
+          "value": 92
+        }
+      ]
+    },
+    {
+      "date": "20260813",
+      "values": [
+        {
+          "id": "the-joe-rogan-experience",
+          "value": 486
+        },
+        {
+          "id": "call-her-daddy",
+          "value": 1828
+        },
+        {
+          "id": "serial",
+          "value": 393
+        },
+        {
+          "id": "this-american-life",
+          "value": 187
+        },
+        {
+          "id": "radiolab",
+          "value": 70
+        },
+        {
+          "id": "smartless",
+          "value": 191
+        },
+        {
+          "id": "the-daily",
+          "value": 88
+        },
+        {
+          "id": "armchair-expert",
+          "value": 122
+        },
+        {
+          "id": "pod-save-america",
+          "value": 286
+        },
+        {
+          "id": "stuff-you-should-know",
+          "value": 96
+        },
+        {
+          "id": "the-diary-of-a-ceo",
+          "value": 407
+        },
+        {
+          "id": "crime-junkie",
+          "value": 85
+        }
+      ]
+    },
+    {
+      "date": "20260814",
+      "values": [
+        {
+          "id": "the-joe-rogan-experience",
+          "value": 515
+        },
+        {
+          "id": "call-her-daddy",
+          "value": 1161
+        },
+        {
+          "id": "serial",
+          "value": 330
+        },
+        {
+          "id": "this-american-life",
+          "value": 208
+        },
+        {
+          "id": "radiolab",
+          "value": 78
+        },
+        {
+          "id": "smartless",
+          "value": 170
+        },
+        {
+          "id": "the-daily",
+          "value": 58
+        },
+        {
+          "id": "armchair-expert",
+          "value": 122
+        },
+        {
+          "id": "pod-save-america",
+          "value": 308
+        },
+        {
+          "id": "stuff-you-should-know",
+          "value": 98
+        },
+        {
+          "id": "the-diary-of-a-ceo",
+          "value": 387
+        },
+        {
+          "id": "crime-junkie",
+          "value": 86
+        }
+      ]
+    },
+    {
+      "date": "20260815",
+      "values": [
+        {
+          "id": "the-joe-rogan-experience",
+          "value": 473
+        },
+        {
+          "id": "call-her-daddy",
+          "value": 859
+        },
+        {
+          "id": "serial",
+          "value": 301
+        },
+        {
+          "id": "this-american-life",
+          "value": 247
+        },
+        {
+          "id": "radiolab",
+          "value": 89
+        },
+        {
+          "id": "smartless",
+          "value": 199
+        },
+        {
+          "id": "the-daily",
+          "value": 42
+        },
+        {
+          "id": "armchair-expert",
+          "value": 115
+        },
+        {
+          "id": "pod-save-america",
+          "value": 209
+        },
+        {
+          "id": "stuff-you-should-know",
+          "value": 67
+        },
+        {
+          "id": "the-diary-of-a-ceo",
+          "value": 339
+        },
+        {
+          "id": "crime-junkie",
+          "value": 75
+        }
+      ]
+    },
+    {
+      "date": "20260816",
+      "values": [
+        {
+          "id": "the-joe-rogan-experience",
+          "value": 571
+        },
+        {
+          "id": "call-her-daddy",
+          "value": 725
+        },
+        {
+          "id": "serial",
+          "value": 397
+        },
+        {
+          "id": "this-american-life",
+          "value": 220
+        },
+        {
+          "id": "radiolab",
+          "value": 105
+        },
+        {
+          "id": "smartless",
+          "value": 215
+        },
+        {
+          "id": "the-daily",
+          "value": 44
+        },
+        {
+          "id": "armchair-expert",
+          "value": 153
+        },
+        {
+          "id": "pod-save-america",
+          "value": 230
+        },
+        {
+          "id": "stuff-you-should-know",
+          "value": 91
+        },
+        {
+          "id": "the-diary-of-a-ceo",
+          "value": 381
+        },
+        {
+          "id": "crime-junkie",
+          "value": 97
+        }
+      ]
+    },
+    {
+      "date": "20260817",
+      "values": [
+        {
+          "id": "the-joe-rogan-experience",
+          "value": 586
+        },
+        {
+          "id": "call-her-daddy",
+          "value": 865
+        },
+        {
+          "id": "serial",
+          "value": 402
+        },
+        {
+          "id": "this-american-life",
+          "value": 230
+        },
+        {
+          "id": "radiolab",
+          "value": 86
+        },
+        {
+          "id": "smartless",
+          "value": 240
+        },
+        {
+          "id": "the-daily",
+          "value": 68
+        },
+        {
+          "id": "armchair-expert",
+          "value": 143
+        },
+        {
+          "id": "pod-save-america",
+          "value": 258
+        },
+        {
+          "id": "stuff-you-should-know",
+          "value": 87
+        },
+        {
+          "id": "the-diary-of-a-ceo",
+          "value": 452
+        },
+        {
+          "id": "crime-junkie",
+          "value": 103
+        }
+      ]
+    },
+    {
+      "date": "20260818",
+      "values": [
+        {
+          "id": "the-joe-rogan-experience",
+          "value": 504
+        },
+        {
+          "id": "call-her-daddy",
+          "value": 713
+        },
+        {
+          "id": "serial",
+          "value": 374
+        },
+        {
+          "id": "this-american-life",
+          "value": 2141
+        },
+        {
+          "id": "radiolab",
+          "value": 52
+        },
+        {
+          "id": "smartless",
+          "value": 183
+        },
+        {
+          "id": "the-daily",
+          "value": 69
+        },
+        {
+          "id": "armchair-expert",
+          "value": 140
+        },
+        {
+          "id": "pod-save-america",
+          "value": 283
+        },
+        {
+          "id": "stuff-you-should-know",
+          "value": 75
+        },
+        {
+          "id": "the-diary-of-a-ceo",
+          "value": 414
+        },
+        {
+          "id": "crime-junkie",
+          "value": 98
+        }
+      ]
+    },
+    {
+      "date": "20260819",
+      "values": [
+        {
+          "id": "the-joe-rogan-experience",
+          "value": 471
+        },
+        {
+          "id": "call-her-daddy",
+          "value": 956
+        },
+        {
+          "id": "serial",
+          "value": 286
+        },
+        {
+          "id": "this-american-life",
+          "value": 431
+        },
+        {
+          "id": "radiolab",
+          "value": 60
+        },
+        {
+          "id": "smartless",
+          "value": 184
+        },
+        {
+          "id": "the-daily",
+          "value": 80
+        },
+        {
+          "id": "armchair-expert",
+          "value": 126
+        },
+        {
+          "id": "pod-save-america",
+          "value": 227
+        },
+        {
+          "id": "stuff-you-should-know",
+          "value": 90
+        },
+        {
+          "id": "the-diary-of-a-ceo",
+          "value": 426
+        },
+        {
+          "id": "crime-junkie",
+          "value": 78
+        }
+      ]
+    },
+    {
+      "date": "20260820",
+      "values": [
+        {
+          "id": "the-joe-rogan-experience",
+          "value": 504
+        },
+        {
+          "id": "call-her-daddy",
+          "value": 640
+        },
+        {
+          "id": "serial",
+          "value": 495
+        },
+        {
+          "id": "this-american-life",
+          "value": 239
+        },
+        {
+          "id": "radiolab",
+          "value": 75
+        },
+        {
+          "id": "smartless",
+          "value": 305
+        },
+        {
+          "id": "the-daily",
+          "value": 51
+        },
+        {
+          "id": "armchair-expert",
+          "value": 141
+        },
+        {
+          "id": "pod-save-america",
+          "value": 231
+        },
+        {
+          "id": "stuff-you-should-know",
+          "value": 113
+        },
+        {
+          "id": "the-diary-of-a-ceo",
+          "value": 462
+        },
+        {
+          "id": "crime-junkie",
+          "value": 75
+        }
+      ]
+    },
+    {
+      "date": "20260821",
+      "values": [
+        {
+          "id": "the-joe-rogan-experience",
+          "value": 453
+        },
+        {
+          "id": "call-her-daddy",
+          "value": 554
+        },
+        {
+          "id": "serial",
+          "value": 453
+        },
+        {
+          "id": "this-american-life",
+          "value": 220
+        },
+        {
+          "id": "radiolab",
+          "value": 55
+        },
+        {
+          "id": "smartless",
+          "value": 187
+        },
+        {
+          "id": "the-daily",
+          "value": 111
+        },
+        {
+          "id": "armchair-expert",
+          "value": 113
+        },
+        {
+          "id": "pod-save-america",
+          "value": 217
+        },
+        {
+          "id": "stuff-you-should-know",
+          "value": 82
+        },
+        {
+          "id": "the-diary-of-a-ceo",
+          "value": 383
+        },
+        {
+          "id": "crime-junkie",
+          "value": 110
+        }
+      ]
+    },
+    {
+      "date": "20260822",
+      "values": [
+        {
+          "id": "the-joe-rogan-experience",
+          "value": 449
+        },
+        {
+          "id": "call-her-daddy",
+          "value": 520
+        },
+        {
+          "id": "serial",
+          "value": 342
+        },
+        {
+          "id": "this-american-life",
+          "value": 182
+        },
+        {
+          "id": "radiolab",
+          "value": 70
+        },
+        {
+          "id": "smartless",
+          "value": 180
+        },
+        {
+          "id": "the-daily",
+          "value": 82
+        },
+        {
+          "id": "armchair-expert",
+          "value": 107
+        },
+        {
+          "id": "pod-save-america",
+          "value": 236
+        },
+        {
+          "id": "stuff-you-should-know",
+          "value": 110
+        },
+        {
+          "id": "the-diary-of-a-ceo",
+          "value": 364
+        },
+        {
+          "id": "crime-junkie",
+          "value": 78
+        }
+      ]
+    },
+    {
+      "date": "20260823",
+      "values": [
+        {
+          "id": "the-joe-rogan-experience",
+          "value": 452
+        },
+        {
+          "id": "call-her-daddy",
+          "value": 643
+        },
+        {
+          "id": "serial",
+          "value": 361
+        },
+        {
+          "id": "this-american-life",
+          "value": 224
+        },
+        {
+          "id": "radiolab",
+          "value": 86
+        },
+        {
+          "id": "smartless",
+          "value": 184
+        },
+        {
+          "id": "the-daily",
+          "value": 66
+        },
+        {
+          "id": "armchair-expert",
+          "value": 112
+        },
+        {
+          "id": "pod-save-america",
+          "value": 281
+        },
+        {
+          "id": "stuff-you-should-know",
+          "value": 82
+        },
+        {
+          "id": "the-diary-of-a-ceo",
+          "value": 406
+        },
+        {
+          "id": "crime-junkie",
+          "value": 82
+        }
+      ]
+    },
+    {
+      "date": "20260824",
+      "values": [
+        {
+          "id": "the-joe-rogan-experience",
+          "value": 556
+        },
+        {
+          "id": "call-her-daddy",
+          "value": 580
+        },
+        {
+          "id": "serial",
+          "value": 385
+        },
+        {
+          "id": "this-american-life",
+          "value": 244
+        },
+        {
+          "id": "radiolab",
+          "value": 103
+        },
+        {
+          "id": "smartless",
+          "value": 231
+        },
+        {
+          "id": "the-daily",
+          "value": 78
+        },
+        {
+          "id": "armchair-expert",
+          "value": 135
+        },
+        {
+          "id": "pod-save-america",
+          "value": 219
+        },
+        {
+          "id": "stuff-you-should-know",
+          "value": 102
+        },
+        {
+          "id": "the-diary-of-a-ceo",
+          "value": 464
+        },
+        {
+          "id": "crime-junkie",
+          "value": 68
+        }
+      ]
+    },
+    {
+      "date": "20260825",
+      "values": [
+        {
+          "id": "the-joe-rogan-experience",
+          "value": 528
+        },
+        {
+          "id": "call-her-daddy",
+          "value": 511
+        },
+        {
+          "id": "serial",
+          "value": 376
+        },
+        {
+          "id": "this-american-life",
+          "value": 215
+        },
+        {
+          "id": "radiolab",
+          "value": 168
+        },
+        {
+          "id": "smartless",
+          "value": 202
+        },
+        {
+          "id": "the-daily",
+          "value": 83
+        },
+        {
+          "id": "armchair-expert",
+          "value": 208
+        },
+        {
+          "id": "pod-save-america",
+          "value": 243
+        },
+        {
+          "id": "stuff-you-should-know",
+          "value": 103
+        },
+        {
+          "id": "the-diary-of-a-ceo",
+          "value": 372
+        },
+        {
+          "id": "crime-junkie",
+          "value": 70
+        }
+      ]
+    },
+    {
+      "date": "20260826",
+      "values": [
+        {
+          "id": "the-joe-rogan-experience",
+          "value": 534
+        },
+        {
+          "id": "call-her-daddy",
+          "value": 548
+        },
+        {
+          "id": "serial",
+          "value": 344
+        },
+        {
+          "id": "this-american-life",
+          "value": 180
+        },
+        {
+          "id": "radiolab",
+          "value": 467
+        },
+        {
+          "id": "smartless",
+          "value": 166
+        },
+        {
+          "id": "the-daily",
+          "value": 72
+        },
+        {
+          "id": "armchair-expert",
+          "value": 156
+        },
+        {
+          "id": "pod-save-america",
+          "value": 296
+        },
+        {
+          "id": "stuff-you-should-know",
+          "value": 97
+        },
+        {
+          "id": "the-diary-of-a-ceo",
+          "value": 421
+        },
+        {
+          "id": "crime-junkie",
+          "value": 209
+        }
+      ]
+    },
+    {
+      "date": "20260827",
+      "values": [
+        {
+          "id": "the-joe-rogan-experience",
+          "value": 416
+        },
+        {
+          "id": "call-her-daddy",
+          "value": 538
+        },
+        {
+          "id": "serial",
+          "value": 375
+        },
+        {
+          "id": "this-american-life",
+          "value": 176
+        },
+        {
+          "id": "radiolab",
+          "value": 227
+        },
+        {
+          "id": "smartless",
+          "value": 174
+        },
+        {
+          "id": "the-daily",
+          "value": 62
+        },
+        {
+          "id": "armchair-expert",
+          "value": 125
+        },
+        {
+          "id": "pod-save-america",
+          "value": 198
+        },
+        {
+          "id": "stuff-you-should-know",
+          "value": 104
+        },
+        {
+          "id": "the-diary-of-a-ceo",
+          "value": 486
+        },
+        {
+          "id": "crime-junkie",
+          "value": 304
+        }
+      ]
+    },
+    {
+      "date": "20260828",
+      "values": [
+        {
+          "id": "the-joe-rogan-experience",
+          "value": 433
+        },
+        {
+          "id": "call-her-daddy",
+          "value": 855
+        },
+        {
+          "id": "serial",
+          "value": 355
+        },
+        {
+          "id": "this-american-life",
+          "value": 162
+        },
+        {
+          "id": "radiolab",
+          "value": 156
+        },
+        {
+          "id": "smartless",
+          "value": 165
+        },
+        {
+          "id": "the-daily",
+          "value": 73
+        },
+        {
+          "id": "armchair-expert",
+          "value": 123
+        },
+        {
+          "id": "pod-save-america",
+          "value": 175
+        },
+        {
+          "id": "stuff-you-should-know",
+          "value": 105
+        },
+        {
+          "id": "the-diary-of-a-ceo",
+          "value": 517
+        },
+        {
+          "id": "crime-junkie",
+          "value": 150
+        }
+      ]
+    },
+    {
+      "date": "20260829",
+      "values": [
+        {
+          "id": "the-joe-rogan-experience",
+          "value": 352
+        },
+        {
+          "id": "call-her-daddy",
+          "value": 674
+        },
+        {
+          "id": "serial",
+          "value": 296
+        },
+        {
+          "id": "this-american-life",
+          "value": 196
+        },
+        {
+          "id": "radiolab",
+          "value": 132
+        },
+        {
+          "id": "smartless",
+          "value": 170
+        },
+        {
+          "id": "the-daily",
+          "value": 46
+        },
+        {
+          "id": "armchair-expert",
+          "value": 92
+        },
+        {
+          "id": "pod-save-america",
+          "value": 162
+        },
+        {
+          "id": "stuff-you-should-know",
+          "value": 93
+        },
+        {
+          "id": "the-diary-of-a-ceo",
+          "value": 449
+        },
+        {
+          "id": "crime-junkie",
+          "value": 176
+        }
+      ]
+    },
+    {
+      "date": "20260830",
+      "values": [
+        {
+          "id": "the-joe-rogan-experience",
+          "value": 404
+        },
+        {
+          "id": "call-her-daddy",
+          "value": 634
+        },
+        {
+          "id": "serial",
+          "value": 318
+        },
+        {
+          "id": "this-american-life",
+          "value": 204
+        },
+        {
+          "id": "radiolab",
+          "value": 139
+        },
+        {
+          "id": "smartless",
+          "value": 199
+        },
+        {
+          "id": "the-daily",
+          "value": 52
+        },
+        {
+          "id": "armchair-expert",
+          "value": 122
+        },
+        {
+          "id": "pod-save-america",
+          "value": 174
+        },
+        {
+          "id": "stuff-you-should-know",
+          "value": 92
+        },
+        {
+          "id": "the-diary-of-a-ceo",
+          "value": 469
+        },
+        {
+          "id": "crime-junkie",
+          "value": 188
+        }
+      ]
+    },
+    {
+      "date": "20260831",
+      "values": [
+        {
+          "id": "the-joe-rogan-experience",
+          "value": 474
+        },
+        {
+          "id": "call-her-daddy",
+          "value": 595
+        },
+        {
+          "id": "serial",
+          "value": 397
+        },
+        {
+          "id": "this-american-life",
+          "value": 223
+        },
+        {
+          "id": "radiolab",
+          "value": 109
+        },
+        {
+          "id": "smartless",
+          "value": 169
+        },
+        {
+          "id": "the-daily",
+          "value": 88
+        },
+        {
+          "id": "armchair-expert",
+          "value": 137
+        },
+        {
+          "id": "pod-save-america",
+          "value": 195
+        },
+        {
+          "id": "stuff-you-should-know",
+          "value": 78
+        },
+        {
+          "id": "the-diary-of-a-ceo",
+          "value": 586
+        },
+        {
+          "id": "crime-junkie",
+          "value": 193
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "date": "20260811",
+      "title": "Call Her Daddy leads attention",
+      "body": "Call Her Daddy is the highest selected article on 2026-08-11, with 627 pageviews."
+    },
+    {
+      "date": "20260818",
+      "title": "This American Life leads attention",
+      "body": "This American Life is the highest selected article on 2026-08-18, with 2,141 pageviews."
+    },
+    {
+      "date": "20260825",
+      "title": "The Joe Rogan Experience leads attention",
+      "body": "The Joe Rogan Experience is the highest selected article on 2026-08-25, with 528 pageviews."
+    },
+    {
+      "date": "20260831",
+      "title": "Call Her Daddy leads attention",
+      "body": "Call Her Daddy is the highest selected article on 2026-08-31, with 595 pageviews."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Page view analytics",
+      "publisher": "Wikimedia Analytics API",
+      "url": "https://doc.wikimedia.org/generated-data-platform/aqs/analytics-api/reference/page-views.html",
+      "note": "Daily article pageview time series for selected podcast articles."
+    }
+  ],
+  "timelineTicks": [
+    "20260811",
+    "20260815",
+    "20260819",
+    "20260823",
+    "20260827",
+    "20260831"
+  ],
+  "lastObservationDate": "2026-08-31",
+  "dataFreshness": {
+    "status": "fresh",
+    "refreshCadence": "daily",
+    "lastUpdated": "2026-09-02T07:01:52.367Z",
+    "lastRefreshAttemptedAt": "2026-09-02T07:01:52.367Z",
+    "lastRefreshError": null,
+    "lastObservationDate": "2026-08-31",
+    "nextRefreshAt": "2026-09-03T07:00:00.000Z",
+    "sourceStatus": "Official Wikimedia Pageviews API",
+    "confidence": "Observed daily English Wikipedia article pageviews through 2026-08-31."
+  },
+  "media": {
+    "imageFit": "contain",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-09-02T07:01:52.367Z",
+    "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/podcast-chart-leaders.webp",
+    "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/podcast-chart-leaders.webp",
+    "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/podcast-chart-leaders.json",
+    "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/podcast-chart-leaders.json",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 4,
+    "rows": 3,
+    "width": 1280,
+    "height": 960,
+    "itemCount": 12,
+    "sourcedImageCount": 11,
+    "generatedImageCount": 1,
+    "placeholderCount": 0,
+    "ogImageUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/podcast-chart-leaders.png",
+    "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/podcast-chart-leaders.png",
+    "ogImageWidth": 1200,
+    "ogImageHeight": 630
+  },
+  "taxonomy": {
+    "primaryCategory": "culture",
+    "categories": [
+      "culture",
+      "audio",
+      "media"
+    ],
+    "tags": [
+      "podcasts",
+      "charts",
+      "audio",
+      "rankings"
+    ],
+    "entityTypes": [
+      "podcast"
+    ],
+    "sourceTypes": [
+      "wikimedia"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "apple-music-chart-heat",
+      "type": "apple-media-chart",
+      "weight": 0.72,
+      "reason": "Both can use public Apple chart feeds for audio ranking signals."
+    },
+    {
+      "target": "what-everyone-is-watching",
+      "type": "media-consumption",
+      "weight": 0.5,
+      "reason": "Podcasts add an audio counterpart to screen-media consumption districts."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "media-charts",
+    "mainland": "culture",
+    "bridgePriority": [
+      "apple-music-chart-heat",
+      "what-everyone-is-watching"
+    ]
+  },
+  "schemaVersion": 1,
+  "contentKind": "dat-city.story",
+  "generatedAt": "2026-09-02T07:01:52.367Z",
+  "versionId": "20260902T070152Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "storyops-scheduler",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-09-02T07:01:52.367Z",
+    "versionId": "20260902T070152Z",
+    "adapter": "wikimedia-pageviews",
+    "storySlug": "podcast-chart-leaders",
+    "districtId": null,
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "publicProjection": {
+    "kind": "story",
+    "version": 1,
+    "generatedAt": "2026-09-02T07:01:52.367Z",
+    "adapter": "wikimedia-pageviews",
+    "cache": {
+      "browserMaxAgeSeconds": 60,
+      "edgeMaxAgeSeconds": 3600
+    }
+  },
+  "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/podcast-chart-leaders.png"
+}

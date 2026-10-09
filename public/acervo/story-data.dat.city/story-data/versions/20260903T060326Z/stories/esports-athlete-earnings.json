@@ -1,0 +1,4969 @@
+{
+  "id": "esports-athlete-earnings",
+  "kicker": "Esports Money",
+  "title": "Esports Athlete Earnings",
+  "subtitle": "A prize-money leaderboard for competitive gaming players with the largest public tournament winnings.",
+  "badge": "Ranked by prize earnings",
+  "visualization": "race-arena",
+  "theme": "arcade",
+  "artStyle": "stylized-editorial",
+  "dateRange": [
+    "20260628",
+    "20260831"
+  ],
+  "timelineTicks": [
+    "20260628",
+    "20260629",
+    "20260701",
+    "20260706",
+    "20260707",
+    "20260708",
+    "20260709",
+    "20260710",
+    "20260711",
+    "20260712",
+    "20260713",
+    "20260714",
+    "20260715",
+    "20260716",
+    "20260717",
+    "20260718",
+    "20260719",
+    "20260720",
+    "20260721",
+    "20260722",
+    "20260727",
+    "20260803",
+    "20260810",
+    "20260817",
+    "20260822",
+    "20260824",
+    "20260831"
+  ],
+  "metricLabel": "Prize earnings",
+  "ogImage": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/esports-athlete-earnings.png",
+  "cityPreview": {
+    "districtId": "esports-prize-arena",
+    "districtName": "Esports Prize Arena",
+    "cardLabel": "Esports Earnings",
+    "summary": "Competitive-gaming players ranked by public tournament prize totals.",
+    "primaryMetric": "Prize earnings",
+    "latestFrameLabel": "2026-08-31",
+    "storyUrl": "/stories/esports-athlete-earnings/",
+    "thumbnail": "/assets/og/dat-city.webp"
+  },
+  "sourceStatus": "German Wikipedia esports prize-money table",
+  "confidence": "Observed Liste der erfolgreichsten E-Sportler nach Preisgeld on 2026-08-31T07:01:19.214Z; values are parsed from the \"Liste der erfolgreichsten E-Sportler nach Preisgeld\" Wikipedia table.",
+  "methodology": "This StoryOps adapter fetches the rendered Wikipedia table for Liste der erfolgreichsten E-Sportler nach Preisgeld, selects the configured ranking table, parses the configured entity and value columns, and stores observed snapshots so public history grows from repeat refreshes.",
+  "playback": {
+    "durationSeconds": 24,
+    "initialDate": "20260628",
+    "periodLabel": "prize earnings"
+  },
+  "visual": {
+    "topCount": 10,
+    "referenceCount": 20,
+    "horizontalCount": 12
+  },
+  "layers": [
+    {
+      "id": "earnings",
+      "label": "Earnings",
+      "default": true
+    }
+  ],
+  "focus": [
+    {
+      "id": "n0tail",
+      "label": "n0tail"
+    },
+    {
+      "id": "jerax",
+      "label": "JerAx"
+    },
+    {
+      "id": "ana",
+      "label": "ana"
+    },
+    {
+      "id": "ceb",
+      "label": "Ceb"
+    }
+  ],
+  "entities": [
+    {
+      "id": "n0tail",
+      "name": "n0tail",
+      "shortName": "n0tail",
+      "article": "Johan Sundstein",
+      "wikipediaUrl": "https://de.wikipedia.org/wiki/Johan_Sundstein",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/The_International_2018_%2842413912070%29.jpg/960px-The_International_2018_%2842413912070%29.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/The_International_2018_%2842413912070%29.jpg/960px-The_International_2018_%2842413912070%29.jpg",
+      "avatarText": "N",
+      "color": "#ff5a61",
+      "playerName": "Johan Sundstein",
+      "game": "Dota 2",
+      "team": "Heroes of Newerth",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.json",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.2,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/The_International_2018_%2842413912070%29.jpg/960px-The_International_2018_%2842413912070%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "jerax",
+      "name": "JerAx",
+      "shortName": "JerAx",
+      "article": "Jesse Vainikka",
+      "wikipediaUrl": "https://de.wikipedia.org/wiki/Jesse_Vainikka",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/JerAx.jpeg/960px-JerAx.jpeg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/JerAx.jpeg/960px-JerAx.jpeg",
+      "avatarText": "J",
+      "color": "#18c871",
+      "playerName": "Jesse Vainikka",
+      "game": "Dota 2",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.json",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0,
+          "u1": 0.4,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/JerAx.jpeg/960px-JerAx.jpeg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      },
+      "team": ""
+    },
+    {
+      "id": "ana",
+      "name": "ana",
+      "shortName": "ana",
+      "article": "Anathan Pham",
+      "wikipediaUrl": "https://de.wikipedia.org/wiki/Anathan_Pham",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Ana_The_International_2018.jpg/960px-Ana_The_International_2018.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Ana_The_International_2018.jpg/960px-Ana_The_International_2018.jpg",
+      "avatarText": "A",
+      "color": "#ffc84a",
+      "playerName": "Anathan Pham",
+      "game": "Dota 2",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.json",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0,
+          "u1": 0.6,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Ana_The_International_2018.jpg/960px-Ana_The_International_2018.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      },
+      "team": ""
+    },
+    {
+      "id": "ceb",
+      "name": "Ceb",
+      "shortName": "Ceb",
+      "article": "Sébastien Debs",
+      "wikipediaUrl": "https://de.wikipedia.org/wiki/S%C3%A9bastien_Debs",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/Dota_2_desk_analysis_-_ESL_One_Frankfurt_2014_%28cropped_to_Ceb%29.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/Dota_2_desk_analysis_-_ESL_One_Frankfurt_2014_%28cropped_to_Ceb%29.jpg",
+      "avatarText": "C",
+      "color": "#00a6ff",
+      "playerName": "Sébastien Debs",
+      "game": "Dota 2",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.json",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0,
+          "u1": 0.8,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/Dota_2_desk_analysis_-_ESL_One_Frankfurt_2014_%28cropped_to_Ceb%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      },
+      "team": ""
+    },
+    {
+      "id": "topson",
+      "name": "Topson",
+      "shortName": "Topson",
+      "article": "Topias Taavitsainen",
+      "wikipediaUrl": "https://de.wikipedia.org/wiki/Topias_Taavitsainen",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Topson_at_The_International_2018_%28color_corrected%29.jpg/960px-Topson_at_The_International_2018_%28color_corrected%29.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Topson_at_The_International_2018_%28color_corrected%29.jpg/960px-Topson_at_The_International_2018_%28color_corrected%29.jpg",
+      "avatarText": "T",
+      "color": "#8f6bff",
+      "playerName": "Topias Taavitsainen",
+      "game": "Dota 2",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.json",
+          "x": 1280,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Topson_at_The_International_2018_%28color_corrected%29.jpg/960px-Topson_at_The_International_2018_%28color_corrected%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      },
+      "team": ""
+    },
+    {
+      "id": "miposhka",
+      "name": "Miposhka",
+      "shortName": "Miposhka",
+      "article": "Miposhka",
+      "wikipediaUrl": "https://de.wikipedia.org/wiki/Miposhka",
+      "thumbnailUrl": null,
+      "imageUrl": null,
+      "avatarText": "M",
+      "color": "#f18c4f",
+      "playerName": "Jaroslaw Naidjonow",
+      "game": "Dota 2",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.json",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.25,
+          "u1": 0.2,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:miposhka",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      },
+      "team": ""
+    },
+    {
+      "id": "yatoro",
+      "name": "Yatoro",
+      "shortName": "Yatoro",
+      "article": "Yatoro",
+      "wikipediaUrl": "https://de.wikipedia.org/wiki/Yatoro",
+      "thumbnailUrl": null,
+      "imageUrl": null,
+      "avatarText": "Y",
+      "color": "#41a99f",
+      "playerName": "Illja Muljartschuk",
+      "game": "Dota 2",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.json",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.25,
+          "u1": 0.4,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:yatoro",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      },
+      "team": ""
+    },
+    {
+      "id": "collapse",
+      "name": "CoLLapse",
+      "shortName": "CoLLapse",
+      "article": "Magomed Chalilow",
+      "wikipediaUrl": "https://de.wikipedia.org/wiki/Magomed_Chalilow",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Collapse_PGL_Wallachia_Season_1.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Collapse_PGL_Wallachia_Season_1.png",
+      "avatarText": "C",
+      "color": "#d78fca",
+      "playerName": "Magomed Chalilow",
+      "game": "Dota 2",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.json",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.25,
+          "u1": 0.6,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Collapse_PGL_Wallachia_Season_1.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      },
+      "team": ""
+    },
+    {
+      "id": "mira",
+      "name": "Mira",
+      "shortName": "Mira",
+      "article": "Mira",
+      "wikipediaUrl": "https://de.wikipedia.org/wiki/Mira",
+      "thumbnailUrl": null,
+      "imageUrl": null,
+      "avatarText": "M",
+      "color": "#7b9b65",
+      "playerName": "Myroslaw Kolpakow",
+      "game": "Dota 2",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.json",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.25,
+          "u1": 0.8,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:mira",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      },
+      "team": ""
+    },
+    {
+      "id": "kuroky",
+      "name": "KuroKy",
+      "shortName": "KuroKy",
+      "article": "Kuro Salehi Takhasomi",
+      "wikipediaUrl": "https://de.wikipedia.org/wiki/Kuro_Salehi_Takhasomi",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/KuroKy_2014_interview.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/KuroKy_2014_interview.jpg",
+      "avatarText": "K",
+      "color": "#2f4858",
+      "playerName": "Kuro Takhasomi",
+      "game": "Dota 2",
+      "team": "DotA",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.json",
+          "x": 1280,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.25,
+          "u1": 1,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/KuroKy_2014_interview.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "miracle",
+      "name": "Miracle-",
+      "shortName": "Miracle-",
+      "article": "Amer al-Barkawi",
+      "wikipediaUrl": "https://de.wikipedia.org/wiki/Amer_al-Barkawi",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/The_International_2018_%2829274193217%29.jpg/960px-The_International_2018_%2829274193217%29.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/The_International_2018_%2829274193217%29.jpg/960px-The_International_2018_%2829274193217%29.jpg",
+      "avatarText": "M",
+      "color": "#ef426f",
+      "playerName": "Amer al-Barkawi",
+      "game": "Dota 2",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.json",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.5,
+          "u1": 0.2,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/The_International_2018_%2829274193217%29.jpg/960px-The_International_2018_%2829274193217%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      },
+      "team": ""
+    },
+    {
+      "id": "matumbaman",
+      "name": "Matumbaman",
+      "shortName": "Matumbaman",
+      "article": "Lasse Urpalainen",
+      "wikipediaUrl": "https://de.wikipedia.org/wiki/Lasse_Urpalainen",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/MATUMBAMAN_at_The_International_2018.jpg/960px-MATUMBAMAN_at_The_International_2018.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/MATUMBAMAN_at_The_International_2018.jpg/960px-MATUMBAMAN_at_The_International_2018.jpg",
+      "avatarText": "M",
+      "color": "#86bdf4",
+      "playerName": "Lasse Urpalainen",
+      "game": "Dota 2",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.json",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.5,
+          "u1": 0.4,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/MATUMBAMAN_at_The_International_2018.jpg/960px-MATUMBAMAN_at_The_International_2018.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      },
+      "team": ""
+    },
+    {
+      "id": "mind-control",
+      "name": "MinD_ContRoL",
+      "shortName": "MinD_ContRoL",
+      "article": "Iwan Iwanow (E-Sportler)",
+      "wikipediaUrl": "https://de.wikipedia.org/wiki/Iwan_Iwanow_(E-Sportler)",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Mind_Control_%28Iwan_Iwanow%29_at_TI_2018.jpg/960px-Mind_Control_%28Iwan_Iwanow%29_at_TI_2018.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Mind_Control_%28Iwan_Iwanow%29_at_TI_2018.jpg/960px-Mind_Control_%28Iwan_Iwanow%29_at_TI_2018.jpg",
+      "avatarText": "M",
+      "color": "#c9a14a",
+      "playerName": "Iwan Iwanow",
+      "game": "Dota 2",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.json",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.5,
+          "u1": 0.6,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Mind_Control_%28Iwan_Iwanow%29_at_TI_2018.jpg/960px-Mind_Control_%28Iwan_Iwanow%29_at_TI_2018.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      },
+      "team": ""
+    },
+    {
+      "id": "puppey",
+      "name": "Puppey",
+      "shortName": "Puppey",
+      "article": "Clement Ivanov",
+      "wikipediaUrl": "https://de.wikipedia.org/wiki/Clement_Ivanov",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/The_International_2018_%2843509512714%29.jpg/960px-The_International_2018_%2843509512714%29.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/The_International_2018_%2843509512714%29.jpg/960px-The_International_2018_%2843509512714%29.jpg",
+      "avatarText": "P",
+      "color": "#e34f59",
+      "playerName": "Clement Ivanov",
+      "game": "Dota 2",
+      "team": "DotA",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.json",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.5,
+          "u1": 0.8,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/The_International_2018_%2843509512714%29.jpg/960px-The_International_2018_%2843509512714%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "gh",
+      "name": "GH",
+      "shortName": "GH",
+      "article": "Maroun Merhej",
+      "wikipediaUrl": "https://de.wikipedia.org/wiki/Maroun_Merhej",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Gh_%28Maroun_Merhej%29_at_TI_2018.jpg/960px-Gh_%28Maroun_Merhej%29_at_TI_2018.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Gh_%28Maroun_Merhej%29_at_TI_2018.jpg/960px-Gh_%28Maroun_Merhej%29_at_TI_2018.jpg",
+      "avatarText": "G",
+      "color": "#9aa4b2",
+      "playerName": "Maroun Merhej",
+      "game": "Dota 2",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.json",
+          "x": 1280,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.5,
+          "u1": 1,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Gh_%28Maroun_Merhej%29_at_TI_2018.jpg/960px-Gh_%28Maroun_Merhej%29_at_TI_2018.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      },
+      "team": ""
+    },
+    {
+      "id": "zai",
+      "name": "Zai",
+      "shortName": "Zai",
+      "article": "Ludwig Wåhlberg",
+      "wikipediaUrl": "https://de.wikipedia.org/wiki/Ludwig_W%C3%A5hlberg",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/The_International_2018_%2843507163864%29.jpg/960px-The_International_2018_%2843507163864%29.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/The_International_2018_%2843507163864%29.jpg/960px-The_International_2018_%2843507163864%29.jpg",
+      "avatarText": "Z",
+      "color": "#ff5a61",
+      "playerName": "Ludwig Wåhlberg",
+      "game": "Dota 2",
+      "team": "Heroes of Newerth",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.json",
+          "x": 0,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.75,
+          "u1": 0.2,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/The_International_2018_%2843507163864%29.jpg/960px-The_International_2018_%2843507163864%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "torontotokyo",
+      "name": "TORONTOTOKYO",
+      "shortName": "TORONTOTOKYO",
+      "article": "TORONTOTOKYO",
+      "wikipediaUrl": "https://de.wikipedia.org/wiki/TORONTOTOKYO",
+      "thumbnailUrl": null,
+      "imageUrl": null,
+      "avatarText": "T",
+      "color": "#18c871",
+      "playerName": "Alexander Chertek",
+      "game": "Dota 2",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.json",
+          "x": 320,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.75,
+          "u1": 0.4,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:torontotokyo",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      },
+      "team": ""
+    },
+    {
+      "id": "sumail",
+      "name": "SumaiL",
+      "shortName": "SumaiL",
+      "article": "Sumail Hassan",
+      "wikipediaUrl": "https://de.wikipedia.org/wiki/Sumail_Hassan",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/EG.SumaiL_%2832945940994%29_%28cropped%29.jpg/960px-EG.SumaiL_%2832945940994%29_%28cropped%29.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/EG.SumaiL_%2832945940994%29_%28cropped%29.jpg/960px-EG.SumaiL_%2832945940994%29_%28cropped%29.jpg",
+      "avatarText": "S",
+      "color": "#ffc84a",
+      "playerName": "Sumail Hassan",
+      "game": "Dota 2",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.json",
+          "x": 640,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.75,
+          "u1": 0.6,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/EG.SumaiL_%2832945940994%29_%28cropped%29.jpg/960px-EG.SumaiL_%2832945940994%29_%28cropped%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      },
+      "team": ""
+    },
+    {
+      "id": "y",
+      "name": "y`",
+      "shortName": "y`",
+      "article": "y`",
+      "wikipediaUrl": "https://de.wikipedia.org/wiki/y%60",
+      "thumbnailUrl": null,
+      "imageUrl": null,
+      "avatarText": "Y",
+      "color": "#00a6ff",
+      "playerName": "Zhang Yiping",
+      "game": "Dota 2",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.json",
+          "x": 960,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.75,
+          "u1": 0.8,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:y",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      },
+      "team": ""
+    },
+    {
+      "id": "ame",
+      "name": "Ame",
+      "shortName": "Ame",
+      "article": "Ame",
+      "wikipediaUrl": "https://de.wikipedia.org/wiki/Ame",
+      "thumbnailUrl": null,
+      "imageUrl": null,
+      "avatarText": "A",
+      "color": "#8f6bff",
+      "playerName": "Wang Chunyu",
+      "game": "Dota 2",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.json",
+          "x": 1280,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.75,
+          "u1": 1,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:ame",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      },
+      "team": ""
+    }
+  ],
+  "frames": [
+    {
+      "date": "20260628",
+      "values": [
+        {
+          "id": "n0tail",
+          "value": 7100000,
+          "rank": 1,
+          "playerName": "Johan Sundstein",
+          "game": "Dota 2",
+          "team": "Heroes of Newerth"
+        },
+        {
+          "id": "jerax",
+          "value": 6400000,
+          "rank": 2,
+          "playerName": "Jesse Vainikka",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ana",
+          "value": 6000000,
+          "rank": 3,
+          "playerName": "Anathan Pham",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ceb",
+          "value": 5800000,
+          "rank": 4,
+          "playerName": "Sébastien Debs",
+          "game": "Dota 2"
+        },
+        {
+          "id": "topson",
+          "value": 5600000,
+          "rank": 5,
+          "playerName": "Topias Taavitsainen",
+          "game": "Dota 2"
+        },
+        {
+          "id": "miposhka",
+          "value": 5600000,
+          "rank": 6,
+          "playerName": "Jaroslaw Naidjonow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "yatoro",
+          "value": 5300000,
+          "rank": 7,
+          "playerName": "Illja Muljartschuk",
+          "game": "Dota 2"
+        },
+        {
+          "id": "collapse",
+          "value": 5300000,
+          "rank": 8,
+          "playerName": "Magomed Chalilow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "mira",
+          "value": 5300000,
+          "rank": 9,
+          "playerName": "Myroslaw Kolpakow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "kuroky",
+          "value": 5200000,
+          "rank": 10,
+          "playerName": "Kuro Takhasomi",
+          "game": "Dota 2",
+          "team": "DotA"
+        },
+        {
+          "id": "miracle",
+          "value": 4800000,
+          "rank": 11,
+          "playerName": "Amer al-Barkawi",
+          "game": "Dota 2"
+        },
+        {
+          "id": "matumbaman",
+          "value": 4800000,
+          "rank": 12,
+          "playerName": "Lasse Urpalainen",
+          "game": "Dota 2"
+        },
+        {
+          "id": "mind-control",
+          "value": 4600000,
+          "rank": 13,
+          "playerName": "Iwan Iwanow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "puppey",
+          "value": 4300000,
+          "rank": 14,
+          "playerName": "Clement Ivanov",
+          "game": "Dota 2",
+          "team": "DotA"
+        },
+        {
+          "id": "gh",
+          "value": 4200000,
+          "rank": 15,
+          "playerName": "Maroun Merhej",
+          "game": "Dota 2"
+        },
+        {
+          "id": "zai",
+          "value": 4200000,
+          "rank": 16,
+          "playerName": "Ludwig Wåhlberg",
+          "game": "Dota 2",
+          "team": "Heroes of Newerth"
+        },
+        {
+          "id": "torontotokyo",
+          "value": 4200000,
+          "rank": 17,
+          "playerName": "Alexander Chertek",
+          "game": "Dota 2"
+        },
+        {
+          "id": "sumail",
+          "value": 4000000,
+          "rank": 18,
+          "playerName": "Sumail Hassan",
+          "game": "Dota 2"
+        },
+        {
+          "id": "y",
+          "value": 3900000,
+          "rank": 19,
+          "playerName": "Zhang Yiping",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ame",
+          "value": 3800000,
+          "rank": 20,
+          "playerName": "Wang Chunyu",
+          "game": "Dota 2"
+        }
+      ]
+    },
+    {
+      "date": "20260629",
+      "values": [
+        {
+          "id": "n0tail",
+          "value": 7100000,
+          "rank": 1,
+          "playerName": "Johan Sundstein",
+          "game": "Dota 2",
+          "team": "Heroes of Newerth"
+        },
+        {
+          "id": "jerax",
+          "value": 6400000,
+          "rank": 2,
+          "playerName": "Jesse Vainikka",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ana",
+          "value": 6000000,
+          "rank": 3,
+          "playerName": "Anathan Pham",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ceb",
+          "value": 5800000,
+          "rank": 4,
+          "playerName": "Sébastien Debs",
+          "game": "Dota 2"
+        },
+        {
+          "id": "topson",
+          "value": 5600000,
+          "rank": 5,
+          "playerName": "Topias Taavitsainen",
+          "game": "Dota 2"
+        },
+        {
+          "id": "miposhka",
+          "value": 5600000,
+          "rank": 6,
+          "playerName": "Jaroslaw Naidjonow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "yatoro",
+          "value": 5300000,
+          "rank": 7,
+          "playerName": "Illja Muljartschuk",
+          "game": "Dota 2"
+        },
+        {
+          "id": "collapse",
+          "value": 5300000,
+          "rank": 8,
+          "playerName": "Magomed Chalilow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "mira",
+          "value": 5300000,
+          "rank": 9,
+          "playerName": "Myroslaw Kolpakow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "kuroky",
+          "value": 5200000,
+          "rank": 10,
+          "playerName": "Kuro Takhasomi",
+          "game": "Dota 2",
+          "team": "DotA"
+        },
+        {
+          "id": "miracle",
+          "value": 4800000,
+          "rank": 11,
+          "playerName": "Amer al-Barkawi",
+          "game": "Dota 2"
+        },
+        {
+          "id": "matumbaman",
+          "value": 4800000,
+          "rank": 12,
+          "playerName": "Lasse Urpalainen",
+          "game": "Dota 2"
+        },
+        {
+          "id": "mind-control",
+          "value": 4600000,
+          "rank": 13,
+          "playerName": "Iwan Iwanow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "puppey",
+          "value": 4300000,
+          "rank": 14,
+          "playerName": "Clement Ivanov",
+          "game": "Dota 2",
+          "team": "DotA"
+        },
+        {
+          "id": "gh",
+          "value": 4200000,
+          "rank": 15,
+          "playerName": "Maroun Merhej",
+          "game": "Dota 2"
+        },
+        {
+          "id": "zai",
+          "value": 4200000,
+          "rank": 16,
+          "playerName": "Ludwig Wåhlberg",
+          "game": "Dota 2",
+          "team": "Heroes of Newerth"
+        },
+        {
+          "id": "torontotokyo",
+          "value": 4200000,
+          "rank": 17,
+          "playerName": "Alexander Chertek",
+          "game": "Dota 2"
+        },
+        {
+          "id": "sumail",
+          "value": 4000000,
+          "rank": 18,
+          "playerName": "Sumail Hassan",
+          "game": "Dota 2"
+        },
+        {
+          "id": "y",
+          "value": 3900000,
+          "rank": 19,
+          "playerName": "Zhang Yiping",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ame",
+          "value": 3800000,
+          "rank": 20,
+          "playerName": "Wang Chunyu",
+          "game": "Dota 2"
+        }
+      ]
+    },
+    {
+      "date": "20260701",
+      "values": [
+        {
+          "id": "n0tail",
+          "value": 7100000,
+          "rank": 1,
+          "playerName": "Johan Sundstein",
+          "game": "Dota 2",
+          "team": "Heroes of Newerth"
+        },
+        {
+          "id": "jerax",
+          "value": 6400000,
+          "rank": 2,
+          "playerName": "Jesse Vainikka",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ana",
+          "value": 6000000,
+          "rank": 3,
+          "playerName": "Anathan Pham",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ceb",
+          "value": 5800000,
+          "rank": 4,
+          "playerName": "Sébastien Debs",
+          "game": "Dota 2"
+        },
+        {
+          "id": "topson",
+          "value": 5600000,
+          "rank": 5,
+          "playerName": "Topias Taavitsainen",
+          "game": "Dota 2"
+        },
+        {
+          "id": "miposhka",
+          "value": 5600000,
+          "rank": 6,
+          "playerName": "Jaroslaw Naidjonow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "yatoro",
+          "value": 5300000,
+          "rank": 7,
+          "playerName": "Illja Muljartschuk",
+          "game": "Dota 2"
+        },
+        {
+          "id": "collapse",
+          "value": 5300000,
+          "rank": 8,
+          "playerName": "Magomed Chalilow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "mira",
+          "value": 5300000,
+          "rank": 9,
+          "playerName": "Myroslaw Kolpakow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "kuroky",
+          "value": 5200000,
+          "rank": 10,
+          "playerName": "Kuro Takhasomi",
+          "game": "Dota 2",
+          "team": "DotA"
+        },
+        {
+          "id": "miracle",
+          "value": 4800000,
+          "rank": 11,
+          "playerName": "Amer al-Barkawi",
+          "game": "Dota 2"
+        },
+        {
+          "id": "matumbaman",
+          "value": 4800000,
+          "rank": 12,
+          "playerName": "Lasse Urpalainen",
+          "game": "Dota 2"
+        },
+        {
+          "id": "mind-control",
+          "value": 4600000,
+          "rank": 13,
+          "playerName": "Iwan Iwanow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "puppey",
+          "value": 4300000,
+          "rank": 14,
+          "playerName": "Clement Ivanov",
+          "game": "Dota 2",
+          "team": "DotA"
+        },
+        {
+          "id": "gh",
+          "value": 4200000,
+          "rank": 15,
+          "playerName": "Maroun Merhej",
+          "game": "Dota 2"
+        },
+        {
+          "id": "zai",
+          "value": 4200000,
+          "rank": 16,
+          "playerName": "Ludwig Wåhlberg",
+          "game": "Dota 2",
+          "team": "Heroes of Newerth"
+        },
+        {
+          "id": "torontotokyo",
+          "value": 4200000,
+          "rank": 17,
+          "playerName": "Alexander Chertek",
+          "game": "Dota 2"
+        },
+        {
+          "id": "sumail",
+          "value": 4000000,
+          "rank": 18,
+          "playerName": "Sumail Hassan",
+          "game": "Dota 2"
+        },
+        {
+          "id": "y",
+          "value": 3900000,
+          "rank": 19,
+          "playerName": "Zhang Yiping",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ame",
+          "value": 3800000,
+          "rank": 20,
+          "playerName": "Wang Chunyu",
+          "game": "Dota 2"
+        }
+      ]
+    },
+    {
+      "date": "20260706",
+      "values": [
+        {
+          "id": "n0tail",
+          "value": 7100000,
+          "rank": 1,
+          "playerName": "Johan Sundstein",
+          "game": "Dota 2",
+          "team": "Heroes of Newerth"
+        },
+        {
+          "id": "jerax",
+          "value": 6400000,
+          "rank": 2,
+          "playerName": "Jesse Vainikka",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ana",
+          "value": 6000000,
+          "rank": 3,
+          "playerName": "Anathan Pham",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ceb",
+          "value": 5800000,
+          "rank": 4,
+          "playerName": "Sébastien Debs",
+          "game": "Dota 2"
+        },
+        {
+          "id": "topson",
+          "value": 5600000,
+          "rank": 5,
+          "playerName": "Topias Taavitsainen",
+          "game": "Dota 2"
+        },
+        {
+          "id": "miposhka",
+          "value": 5600000,
+          "rank": 6,
+          "playerName": "Jaroslaw Naidjonow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "yatoro",
+          "value": 5300000,
+          "rank": 7,
+          "playerName": "Illja Muljartschuk",
+          "game": "Dota 2"
+        },
+        {
+          "id": "collapse",
+          "value": 5300000,
+          "rank": 8,
+          "playerName": "Magomed Chalilow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "mira",
+          "value": 5300000,
+          "rank": 9,
+          "playerName": "Myroslaw Kolpakow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "kuroky",
+          "value": 5200000,
+          "rank": 10,
+          "playerName": "Kuro Takhasomi",
+          "game": "Dota 2",
+          "team": "DotA"
+        },
+        {
+          "id": "miracle",
+          "value": 4800000,
+          "rank": 11,
+          "playerName": "Amer al-Barkawi",
+          "game": "Dota 2"
+        },
+        {
+          "id": "matumbaman",
+          "value": 4800000,
+          "rank": 12,
+          "playerName": "Lasse Urpalainen",
+          "game": "Dota 2"
+        },
+        {
+          "id": "mind-control",
+          "value": 4600000,
+          "rank": 13,
+          "playerName": "Iwan Iwanow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "puppey",
+          "value": 4300000,
+          "rank": 14,
+          "playerName": "Clement Ivanov",
+          "game": "Dota 2",
+          "team": "DotA"
+        },
+        {
+          "id": "gh",
+          "value": 4200000,
+          "rank": 15,
+          "playerName": "Maroun Merhej",
+          "game": "Dota 2"
+        },
+        {
+          "id": "zai",
+          "value": 4200000,
+          "rank": 16,
+          "playerName": "Ludwig Wåhlberg",
+          "game": "Dota 2",
+          "team": "Heroes of Newerth"
+        },
+        {
+          "id": "torontotokyo",
+          "value": 4200000,
+          "rank": 17,
+          "playerName": "Alexander Chertek",
+          "game": "Dota 2"
+        },
+        {
+          "id": "sumail",
+          "value": 4000000,
+          "rank": 18,
+          "playerName": "Sumail Hassan",
+          "game": "Dota 2"
+        },
+        {
+          "id": "y",
+          "value": 3900000,
+          "rank": 19,
+          "playerName": "Zhang Yiping",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ame",
+          "value": 3800000,
+          "rank": 20,
+          "playerName": "Wang Chunyu",
+          "game": "Dota 2"
+        }
+      ]
+    },
+    {
+      "date": "20260707",
+      "values": [
+        {
+          "id": "n0tail",
+          "value": 7100000,
+          "rank": 1,
+          "playerName": "Johan Sundstein",
+          "game": "Dota 2",
+          "team": "Heroes of Newerth"
+        },
+        {
+          "id": "jerax",
+          "value": 6400000,
+          "rank": 2,
+          "playerName": "Jesse Vainikka",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ana",
+          "value": 6000000,
+          "rank": 3,
+          "playerName": "Anathan Pham",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ceb",
+          "value": 5800000,
+          "rank": 4,
+          "playerName": "Sébastien Debs",
+          "game": "Dota 2"
+        },
+        {
+          "id": "topson",
+          "value": 5600000,
+          "rank": 5,
+          "playerName": "Topias Taavitsainen",
+          "game": "Dota 2"
+        },
+        {
+          "id": "miposhka",
+          "value": 5600000,
+          "rank": 6,
+          "playerName": "Jaroslaw Naidjonow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "yatoro",
+          "value": 5300000,
+          "rank": 7,
+          "playerName": "Illja Muljartschuk",
+          "game": "Dota 2"
+        },
+        {
+          "id": "collapse",
+          "value": 5300000,
+          "rank": 8,
+          "playerName": "Magomed Chalilow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "mira",
+          "value": 5300000,
+          "rank": 9,
+          "playerName": "Myroslaw Kolpakow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "kuroky",
+          "value": 5200000,
+          "rank": 10,
+          "playerName": "Kuro Takhasomi",
+          "game": "Dota 2",
+          "team": "DotA"
+        },
+        {
+          "id": "miracle",
+          "value": 4800000,
+          "rank": 11,
+          "playerName": "Amer al-Barkawi",
+          "game": "Dota 2"
+        },
+        {
+          "id": "matumbaman",
+          "value": 4800000,
+          "rank": 12,
+          "playerName": "Lasse Urpalainen",
+          "game": "Dota 2"
+        },
+        {
+          "id": "mind-control",
+          "value": 4600000,
+          "rank": 13,
+          "playerName": "Iwan Iwanow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "puppey",
+          "value": 4300000,
+          "rank": 14,
+          "playerName": "Clement Ivanov",
+          "game": "Dota 2",
+          "team": "DotA"
+        },
+        {
+          "id": "gh",
+          "value": 4200000,
+          "rank": 15,
+          "playerName": "Maroun Merhej",
+          "game": "Dota 2"
+        },
+        {
+          "id": "zai",
+          "value": 4200000,
+          "rank": 16,
+          "playerName": "Ludwig Wåhlberg",
+          "game": "Dota 2",
+          "team": "Heroes of Newerth"
+        },
+        {
+          "id": "torontotokyo",
+          "value": 4200000,
+          "rank": 17,
+          "playerName": "Alexander Chertek",
+          "game": "Dota 2"
+        },
+        {
+          "id": "sumail",
+          "value": 4000000,
+          "rank": 18,
+          "playerName": "Sumail Hassan",
+          "game": "Dota 2"
+        },
+        {
+          "id": "y",
+          "value": 3900000,
+          "rank": 19,
+          "playerName": "Zhang Yiping",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ame",
+          "value": 3800000,
+          "rank": 20,
+          "playerName": "Wang Chunyu",
+          "game": "Dota 2"
+        }
+      ]
+    },
+    {
+      "date": "20260708",
+      "values": [
+        {
+          "id": "n0tail",
+          "value": 7100000,
+          "rank": 1,
+          "playerName": "Johan Sundstein",
+          "game": "Dota 2",
+          "team": "Heroes of Newerth"
+        },
+        {
+          "id": "jerax",
+          "value": 6400000,
+          "rank": 2,
+          "playerName": "Jesse Vainikka",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ana",
+          "value": 6000000,
+          "rank": 3,
+          "playerName": "Anathan Pham",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ceb",
+          "value": 5800000,
+          "rank": 4,
+          "playerName": "Sébastien Debs",
+          "game": "Dota 2"
+        },
+        {
+          "id": "topson",
+          "value": 5600000,
+          "rank": 5,
+          "playerName": "Topias Taavitsainen",
+          "game": "Dota 2"
+        },
+        {
+          "id": "miposhka",
+          "value": 5600000,
+          "rank": 6,
+          "playerName": "Jaroslaw Naidjonow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "yatoro",
+          "value": 5300000,
+          "rank": 7,
+          "playerName": "Illja Muljartschuk",
+          "game": "Dota 2"
+        },
+        {
+          "id": "collapse",
+          "value": 5300000,
+          "rank": 8,
+          "playerName": "Magomed Chalilow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "mira",
+          "value": 5300000,
+          "rank": 9,
+          "playerName": "Myroslaw Kolpakow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "kuroky",
+          "value": 5200000,
+          "rank": 10,
+          "playerName": "Kuro Takhasomi",
+          "game": "Dota 2",
+          "team": "DotA"
+        },
+        {
+          "id": "miracle",
+          "value": 4800000,
+          "rank": 11,
+          "playerName": "Amer al-Barkawi",
+          "game": "Dota 2"
+        },
+        {
+          "id": "matumbaman",
+          "value": 4800000,
+          "rank": 12,
+          "playerName": "Lasse Urpalainen",
+          "game": "Dota 2"
+        },
+        {
+          "id": "mind-control",
+          "value": 4600000,
+          "rank": 13,
+          "playerName": "Iwan Iwanow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "puppey",
+          "value": 4300000,
+          "rank": 14,
+          "playerName": "Clement Ivanov",
+          "game": "Dota 2",
+          "team": "DotA"
+        },
+        {
+          "id": "gh",
+          "value": 4200000,
+          "rank": 15,
+          "playerName": "Maroun Merhej",
+          "game": "Dota 2"
+        },
+        {
+          "id": "zai",
+          "value": 4200000,
+          "rank": 16,
+          "playerName": "Ludwig Wåhlberg",
+          "game": "Dota 2",
+          "team": "Heroes of Newerth"
+        },
+        {
+          "id": "torontotokyo",
+          "value": 4200000,
+          "rank": 17,
+          "playerName": "Alexander Chertek",
+          "game": "Dota 2"
+        },
+        {
+          "id": "sumail",
+          "value": 4000000,
+          "rank": 18,
+          "playerName": "Sumail Hassan",
+          "game": "Dota 2"
+        },
+        {
+          "id": "y",
+          "value": 3900000,
+          "rank": 19,
+          "playerName": "Zhang Yiping",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ame",
+          "value": 3800000,
+          "rank": 20,
+          "playerName": "Wang Chunyu",
+          "game": "Dota 2"
+        }
+      ]
+    },
+    {
+      "date": "20260709",
+      "values": [
+        {
+          "id": "n0tail",
+          "value": 7100000,
+          "rank": 1,
+          "playerName": "Johan Sundstein",
+          "game": "Dota 2",
+          "team": "Heroes of Newerth"
+        },
+        {
+          "id": "jerax",
+          "value": 6400000,
+          "rank": 2,
+          "playerName": "Jesse Vainikka",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ana",
+          "value": 6000000,
+          "rank": 3,
+          "playerName": "Anathan Pham",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ceb",
+          "value": 5800000,
+          "rank": 4,
+          "playerName": "Sébastien Debs",
+          "game": "Dota 2"
+        },
+        {
+          "id": "topson",
+          "value": 5600000,
+          "rank": 5,
+          "playerName": "Topias Taavitsainen",
+          "game": "Dota 2"
+        },
+        {
+          "id": "miposhka",
+          "value": 5600000,
+          "rank": 6,
+          "playerName": "Jaroslaw Naidjonow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "yatoro",
+          "value": 5300000,
+          "rank": 7,
+          "playerName": "Illja Muljartschuk",
+          "game": "Dota 2"
+        },
+        {
+          "id": "collapse",
+          "value": 5300000,
+          "rank": 8,
+          "playerName": "Magomed Chalilow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "mira",
+          "value": 5300000,
+          "rank": 9,
+          "playerName": "Myroslaw Kolpakow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "kuroky",
+          "value": 5200000,
+          "rank": 10,
+          "playerName": "Kuro Takhasomi",
+          "game": "Dota 2",
+          "team": "DotA"
+        },
+        {
+          "id": "miracle",
+          "value": 4800000,
+          "rank": 11,
+          "playerName": "Amer al-Barkawi",
+          "game": "Dota 2"
+        },
+        {
+          "id": "matumbaman",
+          "value": 4800000,
+          "rank": 12,
+          "playerName": "Lasse Urpalainen",
+          "game": "Dota 2"
+        },
+        {
+          "id": "mind-control",
+          "value": 4600000,
+          "rank": 13,
+          "playerName": "Iwan Iwanow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "puppey",
+          "value": 4300000,
+          "rank": 14,
+          "playerName": "Clement Ivanov",
+          "game": "Dota 2",
+          "team": "DotA"
+        },
+        {
+          "id": "gh",
+          "value": 4200000,
+          "rank": 15,
+          "playerName": "Maroun Merhej",
+          "game": "Dota 2"
+        },
+        {
+          "id": "zai",
+          "value": 4200000,
+          "rank": 16,
+          "playerName": "Ludwig Wåhlberg",
+          "game": "Dota 2",
+          "team": "Heroes of Newerth"
+        },
+        {
+          "id": "torontotokyo",
+          "value": 4200000,
+          "rank": 17,
+          "playerName": "Alexander Chertek",
+          "game": "Dota 2"
+        },
+        {
+          "id": "sumail",
+          "value": 4000000,
+          "rank": 18,
+          "playerName": "Sumail Hassan",
+          "game": "Dota 2"
+        },
+        {
+          "id": "y",
+          "value": 3900000,
+          "rank": 19,
+          "playerName": "Zhang Yiping",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ame",
+          "value": 3800000,
+          "rank": 20,
+          "playerName": "Wang Chunyu",
+          "game": "Dota 2"
+        }
+      ]
+    },
+    {
+      "date": "20260710",
+      "values": [
+        {
+          "id": "n0tail",
+          "value": 7100000,
+          "rank": 1,
+          "playerName": "Johan Sundstein",
+          "game": "Dota 2",
+          "team": "Heroes of Newerth"
+        },
+        {
+          "id": "jerax",
+          "value": 6400000,
+          "rank": 2,
+          "playerName": "Jesse Vainikka",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ana",
+          "value": 6000000,
+          "rank": 3,
+          "playerName": "Anathan Pham",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ceb",
+          "value": 5800000,
+          "rank": 4,
+          "playerName": "Sébastien Debs",
+          "game": "Dota 2"
+        },
+        {
+          "id": "topson",
+          "value": 5600000,
+          "rank": 5,
+          "playerName": "Topias Taavitsainen",
+          "game": "Dota 2"
+        },
+        {
+          "id": "miposhka",
+          "value": 5600000,
+          "rank": 6,
+          "playerName": "Jaroslaw Naidjonow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "yatoro",
+          "value": 5300000,
+          "rank": 7,
+          "playerName": "Illja Muljartschuk",
+          "game": "Dota 2"
+        },
+        {
+          "id": "collapse",
+          "value": 5300000,
+          "rank": 8,
+          "playerName": "Magomed Chalilow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "mira",
+          "value": 5300000,
+          "rank": 9,
+          "playerName": "Myroslaw Kolpakow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "kuroky",
+          "value": 5200000,
+          "rank": 10,
+          "playerName": "Kuro Takhasomi",
+          "game": "Dota 2",
+          "team": "DotA"
+        },
+        {
+          "id": "miracle",
+          "value": 4800000,
+          "rank": 11,
+          "playerName": "Amer al-Barkawi",
+          "game": "Dota 2"
+        },
+        {
+          "id": "matumbaman",
+          "value": 4800000,
+          "rank": 12,
+          "playerName": "Lasse Urpalainen",
+          "game": "Dota 2"
+        },
+        {
+          "id": "mind-control",
+          "value": 4600000,
+          "rank": 13,
+          "playerName": "Iwan Iwanow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "puppey",
+          "value": 4300000,
+          "rank": 14,
+          "playerName": "Clement Ivanov",
+          "game": "Dota 2",
+          "team": "DotA"
+        },
+        {
+          "id": "gh",
+          "value": 4200000,
+          "rank": 15,
+          "playerName": "Maroun Merhej",
+          "game": "Dota 2"
+        },
+        {
+          "id": "zai",
+          "value": 4200000,
+          "rank": 16,
+          "playerName": "Ludwig Wåhlberg",
+          "game": "Dota 2",
+          "team": "Heroes of Newerth"
+        },
+        {
+          "id": "torontotokyo",
+          "value": 4200000,
+          "rank": 17,
+          "playerName": "Alexander Chertek",
+          "game": "Dota 2"
+        },
+        {
+          "id": "sumail",
+          "value": 4000000,
+          "rank": 18,
+          "playerName": "Sumail Hassan",
+          "game": "Dota 2"
+        },
+        {
+          "id": "y",
+          "value": 3900000,
+          "rank": 19,
+          "playerName": "Zhang Yiping",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ame",
+          "value": 3800000,
+          "rank": 20,
+          "playerName": "Wang Chunyu",
+          "game": "Dota 2"
+        }
+      ]
+    },
+    {
+      "date": "20260711",
+      "values": [
+        {
+          "id": "n0tail",
+          "value": 7100000,
+          "rank": 1,
+          "playerName": "Johan Sundstein",
+          "game": "Dota 2",
+          "team": "Heroes of Newerth"
+        },
+        {
+          "id": "jerax",
+          "value": 6400000,
+          "rank": 2,
+          "playerName": "Jesse Vainikka",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ana",
+          "value": 6000000,
+          "rank": 3,
+          "playerName": "Anathan Pham",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ceb",
+          "value": 5800000,
+          "rank": 4,
+          "playerName": "Sébastien Debs",
+          "game": "Dota 2"
+        },
+        {
+          "id": "topson",
+          "value": 5600000,
+          "rank": 5,
+          "playerName": "Topias Taavitsainen",
+          "game": "Dota 2"
+        },
+        {
+          "id": "miposhka",
+          "value": 5600000,
+          "rank": 6,
+          "playerName": "Jaroslaw Naidjonow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "yatoro",
+          "value": 5300000,
+          "rank": 7,
+          "playerName": "Illja Muljartschuk",
+          "game": "Dota 2"
+        },
+        {
+          "id": "collapse",
+          "value": 5300000,
+          "rank": 8,
+          "playerName": "Magomed Chalilow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "mira",
+          "value": 5300000,
+          "rank": 9,
+          "playerName": "Myroslaw Kolpakow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "kuroky",
+          "value": 5200000,
+          "rank": 10,
+          "playerName": "Kuro Takhasomi",
+          "game": "Dota 2",
+          "team": "DotA"
+        },
+        {
+          "id": "miracle",
+          "value": 4800000,
+          "rank": 11,
+          "playerName": "Amer al-Barkawi",
+          "game": "Dota 2"
+        },
+        {
+          "id": "matumbaman",
+          "value": 4800000,
+          "rank": 12,
+          "playerName": "Lasse Urpalainen",
+          "game": "Dota 2"
+        },
+        {
+          "id": "mind-control",
+          "value": 4600000,
+          "rank": 13,
+          "playerName": "Iwan Iwanow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "puppey",
+          "value": 4300000,
+          "rank": 14,
+          "playerName": "Clement Ivanov",
+          "game": "Dota 2",
+          "team": "DotA"
+        },
+        {
+          "id": "gh",
+          "value": 4200000,
+          "rank": 15,
+          "playerName": "Maroun Merhej",
+          "game": "Dota 2"
+        },
+        {
+          "id": "zai",
+          "value": 4200000,
+          "rank": 16,
+          "playerName": "Ludwig Wåhlberg",
+          "game": "Dota 2",
+          "team": "Heroes of Newerth"
+        },
+        {
+          "id": "torontotokyo",
+          "value": 4200000,
+          "rank": 17,
+          "playerName": "Alexander Chertek",
+          "game": "Dota 2"
+        },
+        {
+          "id": "sumail",
+          "value": 4000000,
+          "rank": 18,
+          "playerName": "Sumail Hassan",
+          "game": "Dota 2"
+        },
+        {
+          "id": "y",
+          "value": 3900000,
+          "rank": 19,
+          "playerName": "Zhang Yiping",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ame",
+          "value": 3800000,
+          "rank": 20,
+          "playerName": "Wang Chunyu",
+          "game": "Dota 2"
+        }
+      ]
+    },
+    {
+      "date": "20260712",
+      "values": [
+        {
+          "id": "n0tail",
+          "value": 7100000,
+          "rank": 1,
+          "playerName": "Johan Sundstein",
+          "game": "Dota 2",
+          "team": "Heroes of Newerth"
+        },
+        {
+          "id": "jerax",
+          "value": 6400000,
+          "rank": 2,
+          "playerName": "Jesse Vainikka",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ana",
+          "value": 6000000,
+          "rank": 3,
+          "playerName": "Anathan Pham",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ceb",
+          "value": 5800000,
+          "rank": 4,
+          "playerName": "Sébastien Debs",
+          "game": "Dota 2"
+        },
+        {
+          "id": "topson",
+          "value": 5600000,
+          "rank": 5,
+          "playerName": "Topias Taavitsainen",
+          "game": "Dota 2"
+        },
+        {
+          "id": "miposhka",
+          "value": 5600000,
+          "rank": 6,
+          "playerName": "Jaroslaw Naidjonow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "yatoro",
+          "value": 5300000,
+          "rank": 7,
+          "playerName": "Illja Muljartschuk",
+          "game": "Dota 2"
+        },
+        {
+          "id": "collapse",
+          "value": 5300000,
+          "rank": 8,
+          "playerName": "Magomed Chalilow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "mira",
+          "value": 5300000,
+          "rank": 9,
+          "playerName": "Myroslaw Kolpakow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "kuroky",
+          "value": 5200000,
+          "rank": 10,
+          "playerName": "Kuro Takhasomi",
+          "game": "Dota 2",
+          "team": "DotA"
+        },
+        {
+          "id": "miracle",
+          "value": 4800000,
+          "rank": 11,
+          "playerName": "Amer al-Barkawi",
+          "game": "Dota 2"
+        },
+        {
+          "id": "matumbaman",
+          "value": 4800000,
+          "rank": 12,
+          "playerName": "Lasse Urpalainen",
+          "game": "Dota 2"
+        },
+        {
+          "id": "mind-control",
+          "value": 4600000,
+          "rank": 13,
+          "playerName": "Iwan Iwanow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "puppey",
+          "value": 4300000,
+          "rank": 14,
+          "playerName": "Clement Ivanov",
+          "game": "Dota 2",
+          "team": "DotA"
+        },
+        {
+          "id": "gh",
+          "value": 4200000,
+          "rank": 15,
+          "playerName": "Maroun Merhej",
+          "game": "Dota 2"
+        },
+        {
+          "id": "zai",
+          "value": 4200000,
+          "rank": 16,
+          "playerName": "Ludwig Wåhlberg",
+          "game": "Dota 2",
+          "team": "Heroes of Newerth"
+        },
+        {
+          "id": "torontotokyo",
+          "value": 4200000,
+          "rank": 17,
+          "playerName": "Alexander Chertek",
+          "game": "Dota 2"
+        },
+        {
+          "id": "sumail",
+          "value": 4000000,
+          "rank": 18,
+          "playerName": "Sumail Hassan",
+          "game": "Dota 2"
+        },
+        {
+          "id": "y",
+          "value": 3900000,
+          "rank": 19,
+          "playerName": "Zhang Yiping",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ame",
+          "value": 3800000,
+          "rank": 20,
+          "playerName": "Wang Chunyu",
+          "game": "Dota 2"
+        }
+      ]
+    },
+    {
+      "date": "20260713",
+      "values": [
+        {
+          "id": "n0tail",
+          "value": 7100000,
+          "rank": 1,
+          "playerName": "Johan Sundstein",
+          "game": "Dota 2",
+          "team": "Heroes of Newerth"
+        },
+        {
+          "id": "jerax",
+          "value": 6400000,
+          "rank": 2,
+          "playerName": "Jesse Vainikka",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ana",
+          "value": 6000000,
+          "rank": 3,
+          "playerName": "Anathan Pham",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ceb",
+          "value": 5800000,
+          "rank": 4,
+          "playerName": "Sébastien Debs",
+          "game": "Dota 2"
+        },
+        {
+          "id": "topson",
+          "value": 5600000,
+          "rank": 5,
+          "playerName": "Topias Taavitsainen",
+          "game": "Dota 2"
+        },
+        {
+          "id": "miposhka",
+          "value": 5600000,
+          "rank": 6,
+          "playerName": "Jaroslaw Naidjonow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "yatoro",
+          "value": 5300000,
+          "rank": 7,
+          "playerName": "Illja Muljartschuk",
+          "game": "Dota 2"
+        },
+        {
+          "id": "collapse",
+          "value": 5300000,
+          "rank": 8,
+          "playerName": "Magomed Chalilow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "mira",
+          "value": 5300000,
+          "rank": 9,
+          "playerName": "Myroslaw Kolpakow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "kuroky",
+          "value": 5200000,
+          "rank": 10,
+          "playerName": "Kuro Takhasomi",
+          "game": "Dota 2",
+          "team": "DotA"
+        },
+        {
+          "id": "miracle",
+          "value": 4800000,
+          "rank": 11,
+          "playerName": "Amer al-Barkawi",
+          "game": "Dota 2"
+        },
+        {
+          "id": "matumbaman",
+          "value": 4800000,
+          "rank": 12,
+          "playerName": "Lasse Urpalainen",
+          "game": "Dota 2"
+        },
+        {
+          "id": "mind-control",
+          "value": 4600000,
+          "rank": 13,
+          "playerName": "Iwan Iwanow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "puppey",
+          "value": 4300000,
+          "rank": 14,
+          "playerName": "Clement Ivanov",
+          "game": "Dota 2",
+          "team": "DotA"
+        },
+        {
+          "id": "gh",
+          "value": 4200000,
+          "rank": 15,
+          "playerName": "Maroun Merhej",
+          "game": "Dota 2"
+        },
+        {
+          "id": "zai",
+          "value": 4200000,
+          "rank": 16,
+          "playerName": "Ludwig Wåhlberg",
+          "game": "Dota 2",
+          "team": "Heroes of Newerth"
+        },
+        {
+          "id": "torontotokyo",
+          "value": 4200000,
+          "rank": 17,
+          "playerName": "Alexander Chertek",
+          "game": "Dota 2"
+        },
+        {
+          "id": "sumail",
+          "value": 4000000,
+          "rank": 18,
+          "playerName": "Sumail Hassan",
+          "game": "Dota 2"
+        },
+        {
+          "id": "y",
+          "value": 3900000,
+          "rank": 19,
+          "playerName": "Zhang Yiping",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ame",
+          "value": 3800000,
+          "rank": 20,
+          "playerName": "Wang Chunyu",
+          "game": "Dota 2"
+        }
+      ]
+    },
+    {
+      "date": "20260714",
+      "values": [
+        {
+          "id": "n0tail",
+          "value": 7100000,
+          "rank": 1,
+          "playerName": "Johan Sundstein",
+          "game": "Dota 2",
+          "team": "Heroes of Newerth"
+        },
+        {
+          "id": "jerax",
+          "value": 6400000,
+          "rank": 2,
+          "playerName": "Jesse Vainikka",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ana",
+          "value": 6000000,
+          "rank": 3,
+          "playerName": "Anathan Pham",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ceb",
+          "value": 5800000,
+          "rank": 4,
+          "playerName": "Sébastien Debs",
+          "game": "Dota 2"
+        },
+        {
+          "id": "topson",
+          "value": 5600000,
+          "rank": 5,
+          "playerName": "Topias Taavitsainen",
+          "game": "Dota 2"
+        },
+        {
+          "id": "miposhka",
+          "value": 5600000,
+          "rank": 6,
+          "playerName": "Jaroslaw Naidjonow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "yatoro",
+          "value": 5300000,
+          "rank": 7,
+          "playerName": "Illja Muljartschuk",
+          "game": "Dota 2"
+        },
+        {
+          "id": "collapse",
+          "value": 5300000,
+          "rank": 8,
+          "playerName": "Magomed Chalilow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "mira",
+          "value": 5300000,
+          "rank": 9,
+          "playerName": "Myroslaw Kolpakow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "kuroky",
+          "value": 5200000,
+          "rank": 10,
+          "playerName": "Kuro Takhasomi",
+          "game": "Dota 2",
+          "team": "DotA"
+        },
+        {
+          "id": "miracle",
+          "value": 4800000,
+          "rank": 11,
+          "playerName": "Amer al-Barkawi",
+          "game": "Dota 2"
+        },
+        {
+          "id": "matumbaman",
+          "value": 4800000,
+          "rank": 12,
+          "playerName": "Lasse Urpalainen",
+          "game": "Dota 2"
+        },
+        {
+          "id": "mind-control",
+          "value": 4600000,
+          "rank": 13,
+          "playerName": "Iwan Iwanow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "puppey",
+          "value": 4300000,
+          "rank": 14,
+          "playerName": "Clement Ivanov",
+          "game": "Dota 2",
+          "team": "DotA"
+        },
+        {
+          "id": "gh",
+          "value": 4200000,
+          "rank": 15,
+          "playerName": "Maroun Merhej",
+          "game": "Dota 2"
+        },
+        {
+          "id": "zai",
+          "value": 4200000,
+          "rank": 16,
+          "playerName": "Ludwig Wåhlberg",
+          "game": "Dota 2",
+          "team": "Heroes of Newerth"
+        },
+        {
+          "id": "torontotokyo",
+          "value": 4200000,
+          "rank": 17,
+          "playerName": "Alexander Chertek",
+          "game": "Dota 2"
+        },
+        {
+          "id": "sumail",
+          "value": 4000000,
+          "rank": 18,
+          "playerName": "Sumail Hassan",
+          "game": "Dota 2"
+        },
+        {
+          "id": "y",
+          "value": 3900000,
+          "rank": 19,
+          "playerName": "Zhang Yiping",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ame",
+          "value": 3800000,
+          "rank": 20,
+          "playerName": "Wang Chunyu",
+          "game": "Dota 2"
+        }
+      ]
+    },
+    {
+      "date": "20260715",
+      "values": [
+        {
+          "id": "n0tail",
+          "value": 7100000,
+          "rank": 1,
+          "playerName": "Johan Sundstein",
+          "game": "Dota 2",
+          "team": "Heroes of Newerth"
+        },
+        {
+          "id": "jerax",
+          "value": 6400000,
+          "rank": 2,
+          "playerName": "Jesse Vainikka",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ana",
+          "value": 6000000,
+          "rank": 3,
+          "playerName": "Anathan Pham",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ceb",
+          "value": 5800000,
+          "rank": 4,
+          "playerName": "Sébastien Debs",
+          "game": "Dota 2"
+        },
+        {
+          "id": "topson",
+          "value": 5600000,
+          "rank": 5,
+          "playerName": "Topias Taavitsainen",
+          "game": "Dota 2"
+        },
+        {
+          "id": "miposhka",
+          "value": 5600000,
+          "rank": 6,
+          "playerName": "Jaroslaw Naidjonow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "yatoro",
+          "value": 5300000,
+          "rank": 7,
+          "playerName": "Illja Muljartschuk",
+          "game": "Dota 2"
+        },
+        {
+          "id": "collapse",
+          "value": 5300000,
+          "rank": 8,
+          "playerName": "Magomed Chalilow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "mira",
+          "value": 5300000,
+          "rank": 9,
+          "playerName": "Myroslaw Kolpakow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "kuroky",
+          "value": 5200000,
+          "rank": 10,
+          "playerName": "Kuro Takhasomi",
+          "game": "Dota 2",
+          "team": "DotA"
+        },
+        {
+          "id": "miracle",
+          "value": 4800000,
+          "rank": 11,
+          "playerName": "Amer al-Barkawi",
+          "game": "Dota 2"
+        },
+        {
+          "id": "matumbaman",
+          "value": 4800000,
+          "rank": 12,
+          "playerName": "Lasse Urpalainen",
+          "game": "Dota 2"
+        },
+        {
+          "id": "mind-control",
+          "value": 4600000,
+          "rank": 13,
+          "playerName": "Iwan Iwanow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "puppey",
+          "value": 4300000,
+          "rank": 14,
+          "playerName": "Clement Ivanov",
+          "game": "Dota 2",
+          "team": "DotA"
+        },
+        {
+          "id": "gh",
+          "value": 4200000,
+          "rank": 15,
+          "playerName": "Maroun Merhej",
+          "game": "Dota 2"
+        },
+        {
+          "id": "zai",
+          "value": 4200000,
+          "rank": 16,
+          "playerName": "Ludwig Wåhlberg",
+          "game": "Dota 2",
+          "team": "Heroes of Newerth"
+        },
+        {
+          "id": "torontotokyo",
+          "value": 4200000,
+          "rank": 17,
+          "playerName": "Alexander Chertek",
+          "game": "Dota 2"
+        },
+        {
+          "id": "sumail",
+          "value": 4000000,
+          "rank": 18,
+          "playerName": "Sumail Hassan",
+          "game": "Dota 2"
+        },
+        {
+          "id": "y",
+          "value": 3900000,
+          "rank": 19,
+          "playerName": "Zhang Yiping",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ame",
+          "value": 3800000,
+          "rank": 20,
+          "playerName": "Wang Chunyu",
+          "game": "Dota 2"
+        }
+      ]
+    },
+    {
+      "date": "20260716",
+      "values": [
+        {
+          "id": "n0tail",
+          "value": 7100000,
+          "rank": 1,
+          "playerName": "Johan Sundstein",
+          "game": "Dota 2",
+          "team": "Heroes of Newerth"
+        },
+        {
+          "id": "jerax",
+          "value": 6400000,
+          "rank": 2,
+          "playerName": "Jesse Vainikka",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ana",
+          "value": 6000000,
+          "rank": 3,
+          "playerName": "Anathan Pham",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ceb",
+          "value": 5800000,
+          "rank": 4,
+          "playerName": "Sébastien Debs",
+          "game": "Dota 2"
+        },
+        {
+          "id": "topson",
+          "value": 5600000,
+          "rank": 5,
+          "playerName": "Topias Taavitsainen",
+          "game": "Dota 2"
+        },
+        {
+          "id": "miposhka",
+          "value": 5600000,
+          "rank": 6,
+          "playerName": "Jaroslaw Naidjonow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "yatoro",
+          "value": 5300000,
+          "rank": 7,
+          "playerName": "Illja Muljartschuk",
+          "game": "Dota 2"
+        },
+        {
+          "id": "collapse",
+          "value": 5300000,
+          "rank": 8,
+          "playerName": "Magomed Chalilow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "mira",
+          "value": 5300000,
+          "rank": 9,
+          "playerName": "Myroslaw Kolpakow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "kuroky",
+          "value": 5200000,
+          "rank": 10,
+          "playerName": "Kuro Takhasomi",
+          "game": "Dota 2",
+          "team": "DotA"
+        },
+        {
+          "id": "miracle",
+          "value": 4800000,
+          "rank": 11,
+          "playerName": "Amer al-Barkawi",
+          "game": "Dota 2"
+        },
+        {
+          "id": "matumbaman",
+          "value": 4800000,
+          "rank": 12,
+          "playerName": "Lasse Urpalainen",
+          "game": "Dota 2"
+        },
+        {
+          "id": "mind-control",
+          "value": 4600000,
+          "rank": 13,
+          "playerName": "Iwan Iwanow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "puppey",
+          "value": 4300000,
+          "rank": 14,
+          "playerName": "Clement Ivanov",
+          "game": "Dota 2",
+          "team": "DotA"
+        },
+        {
+          "id": "gh",
+          "value": 4200000,
+          "rank": 15,
+          "playerName": "Maroun Merhej",
+          "game": "Dota 2"
+        },
+        {
+          "id": "zai",
+          "value": 4200000,
+          "rank": 16,
+          "playerName": "Ludwig Wåhlberg",
+          "game": "Dota 2",
+          "team": "Heroes of Newerth"
+        },
+        {
+          "id": "torontotokyo",
+          "value": 4200000,
+          "rank": 17,
+          "playerName": "Alexander Chertek",
+          "game": "Dota 2"
+        },
+        {
+          "id": "sumail",
+          "value": 4000000,
+          "rank": 18,
+          "playerName": "Sumail Hassan",
+          "game": "Dota 2"
+        },
+        {
+          "id": "y",
+          "value": 3900000,
+          "rank": 19,
+          "playerName": "Zhang Yiping",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ame",
+          "value": 3800000,
+          "rank": 20,
+          "playerName": "Wang Chunyu",
+          "game": "Dota 2"
+        }
+      ]
+    },
+    {
+      "date": "20260717",
+      "values": [
+        {
+          "id": "n0tail",
+          "value": 7100000,
+          "rank": 1,
+          "playerName": "Johan Sundstein",
+          "game": "Dota 2",
+          "team": "Heroes of Newerth"
+        },
+        {
+          "id": "jerax",
+          "value": 6400000,
+          "rank": 2,
+          "playerName": "Jesse Vainikka",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ana",
+          "value": 6000000,
+          "rank": 3,
+          "playerName": "Anathan Pham",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ceb",
+          "value": 5800000,
+          "rank": 4,
+          "playerName": "Sébastien Debs",
+          "game": "Dota 2"
+        },
+        {
+          "id": "topson",
+          "value": 5600000,
+          "rank": 5,
+          "playerName": "Topias Taavitsainen",
+          "game": "Dota 2"
+        },
+        {
+          "id": "miposhka",
+          "value": 5600000,
+          "rank": 6,
+          "playerName": "Jaroslaw Naidjonow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "yatoro",
+          "value": 5300000,
+          "rank": 7,
+          "playerName": "Illja Muljartschuk",
+          "game": "Dota 2"
+        },
+        {
+          "id": "collapse",
+          "value": 5300000,
+          "rank": 8,
+          "playerName": "Magomed Chalilow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "mira",
+          "value": 5300000,
+          "rank": 9,
+          "playerName": "Myroslaw Kolpakow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "kuroky",
+          "value": 5200000,
+          "rank": 10,
+          "playerName": "Kuro Takhasomi",
+          "game": "Dota 2",
+          "team": "DotA"
+        },
+        {
+          "id": "miracle",
+          "value": 4800000,
+          "rank": 11,
+          "playerName": "Amer al-Barkawi",
+          "game": "Dota 2"
+        },
+        {
+          "id": "matumbaman",
+          "value": 4800000,
+          "rank": 12,
+          "playerName": "Lasse Urpalainen",
+          "game": "Dota 2"
+        },
+        {
+          "id": "mind-control",
+          "value": 4600000,
+          "rank": 13,
+          "playerName": "Iwan Iwanow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "puppey",
+          "value": 4300000,
+          "rank": 14,
+          "playerName": "Clement Ivanov",
+          "game": "Dota 2",
+          "team": "DotA"
+        },
+        {
+          "id": "gh",
+          "value": 4200000,
+          "rank": 15,
+          "playerName": "Maroun Merhej",
+          "game": "Dota 2"
+        },
+        {
+          "id": "zai",
+          "value": 4200000,
+          "rank": 16,
+          "playerName": "Ludwig Wåhlberg",
+          "game": "Dota 2",
+          "team": "Heroes of Newerth"
+        },
+        {
+          "id": "torontotokyo",
+          "value": 4200000,
+          "rank": 17,
+          "playerName": "Alexander Chertek",
+          "game": "Dota 2"
+        },
+        {
+          "id": "sumail",
+          "value": 4000000,
+          "rank": 18,
+          "playerName": "Sumail Hassan",
+          "game": "Dota 2"
+        },
+        {
+          "id": "y",
+          "value": 3900000,
+          "rank": 19,
+          "playerName": "Zhang Yiping",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ame",
+          "value": 3800000,
+          "rank": 20,
+          "playerName": "Wang Chunyu",
+          "game": "Dota 2"
+        }
+      ]
+    },
+    {
+      "date": "20260718",
+      "values": [
+        {
+          "id": "n0tail",
+          "value": 7100000,
+          "rank": 1,
+          "playerName": "Johan Sundstein",
+          "game": "Dota 2",
+          "team": "Heroes of Newerth"
+        },
+        {
+          "id": "jerax",
+          "value": 6400000,
+          "rank": 2,
+          "playerName": "Jesse Vainikka",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ana",
+          "value": 6000000,
+          "rank": 3,
+          "playerName": "Anathan Pham",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ceb",
+          "value": 5800000,
+          "rank": 4,
+          "playerName": "Sébastien Debs",
+          "game": "Dota 2"
+        },
+        {
+          "id": "topson",
+          "value": 5600000,
+          "rank": 5,
+          "playerName": "Topias Taavitsainen",
+          "game": "Dota 2"
+        },
+        {
+          "id": "miposhka",
+          "value": 5600000,
+          "rank": 6,
+          "playerName": "Jaroslaw Naidjonow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "yatoro",
+          "value": 5300000,
+          "rank": 7,
+          "playerName": "Illja Muljartschuk",
+          "game": "Dota 2"
+        },
+        {
+          "id": "collapse",
+          "value": 5300000,
+          "rank": 8,
+          "playerName": "Magomed Chalilow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "mira",
+          "value": 5300000,
+          "rank": 9,
+          "playerName": "Myroslaw Kolpakow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "kuroky",
+          "value": 5200000,
+          "rank": 10,
+          "playerName": "Kuro Takhasomi",
+          "game": "Dota 2",
+          "team": "DotA"
+        },
+        {
+          "id": "miracle",
+          "value": 4800000,
+          "rank": 11,
+          "playerName": "Amer al-Barkawi",
+          "game": "Dota 2"
+        },
+        {
+          "id": "matumbaman",
+          "value": 4800000,
+          "rank": 12,
+          "playerName": "Lasse Urpalainen",
+          "game": "Dota 2"
+        },
+        {
+          "id": "mind-control",
+          "value": 4600000,
+          "rank": 13,
+          "playerName": "Iwan Iwanow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "puppey",
+          "value": 4300000,
+          "rank": 14,
+          "playerName": "Clement Ivanov",
+          "game": "Dota 2",
+          "team": "DotA"
+        },
+        {
+          "id": "gh",
+          "value": 4200000,
+          "rank": 15,
+          "playerName": "Maroun Merhej",
+          "game": "Dota 2"
+        },
+        {
+          "id": "zai",
+          "value": 4200000,
+          "rank": 16,
+          "playerName": "Ludwig Wåhlberg",
+          "game": "Dota 2",
+          "team": "Heroes of Newerth"
+        },
+        {
+          "id": "torontotokyo",
+          "value": 4200000,
+          "rank": 17,
+          "playerName": "Alexander Chertek",
+          "game": "Dota 2"
+        },
+        {
+          "id": "sumail",
+          "value": 4000000,
+          "rank": 18,
+          "playerName": "Sumail Hassan",
+          "game": "Dota 2"
+        },
+        {
+          "id": "y",
+          "value": 3900000,
+          "rank": 19,
+          "playerName": "Zhang Yiping",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ame",
+          "value": 3800000,
+          "rank": 20,
+          "playerName": "Wang Chunyu",
+          "game": "Dota 2"
+        }
+      ]
+    },
+    {
+      "date": "20260719",
+      "values": [
+        {
+          "id": "n0tail",
+          "value": 7100000,
+          "rank": 1,
+          "playerName": "Johan Sundstein",
+          "game": "Dota 2",
+          "team": "Heroes of Newerth"
+        },
+        {
+          "id": "jerax",
+          "value": 6400000,
+          "rank": 2,
+          "playerName": "Jesse Vainikka",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ana",
+          "value": 6000000,
+          "rank": 3,
+          "playerName": "Anathan Pham",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ceb",
+          "value": 5800000,
+          "rank": 4,
+          "playerName": "Sébastien Debs",
+          "game": "Dota 2"
+        },
+        {
+          "id": "topson",
+          "value": 5600000,
+          "rank": 5,
+          "playerName": "Topias Taavitsainen",
+          "game": "Dota 2"
+        },
+        {
+          "id": "miposhka",
+          "value": 5600000,
+          "rank": 6,
+          "playerName": "Jaroslaw Naidjonow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "yatoro",
+          "value": 5300000,
+          "rank": 7,
+          "playerName": "Illja Muljartschuk",
+          "game": "Dota 2"
+        },
+        {
+          "id": "collapse",
+          "value": 5300000,
+          "rank": 8,
+          "playerName": "Magomed Chalilow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "mira",
+          "value": 5300000,
+          "rank": 9,
+          "playerName": "Myroslaw Kolpakow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "kuroky",
+          "value": 5200000,
+          "rank": 10,
+          "playerName": "Kuro Takhasomi",
+          "game": "Dota 2",
+          "team": "DotA"
+        },
+        {
+          "id": "miracle",
+          "value": 4800000,
+          "rank": 11,
+          "playerName": "Amer al-Barkawi",
+          "game": "Dota 2"
+        },
+        {
+          "id": "matumbaman",
+          "value": 4800000,
+          "rank": 12,
+          "playerName": "Lasse Urpalainen",
+          "game": "Dota 2"
+        },
+        {
+          "id": "mind-control",
+          "value": 4600000,
+          "rank": 13,
+          "playerName": "Iwan Iwanow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "puppey",
+          "value": 4300000,
+          "rank": 14,
+          "playerName": "Clement Ivanov",
+          "game": "Dota 2",
+          "team": "DotA"
+        },
+        {
+          "id": "gh",
+          "value": 4200000,
+          "rank": 15,
+          "playerName": "Maroun Merhej",
+          "game": "Dota 2"
+        },
+        {
+          "id": "zai",
+          "value": 4200000,
+          "rank": 16,
+          "playerName": "Ludwig Wåhlberg",
+          "game": "Dota 2",
+          "team": "Heroes of Newerth"
+        },
+        {
+          "id": "torontotokyo",
+          "value": 4200000,
+          "rank": 17,
+          "playerName": "Alexander Chertek",
+          "game": "Dota 2"
+        },
+        {
+          "id": "sumail",
+          "value": 4000000,
+          "rank": 18,
+          "playerName": "Sumail Hassan",
+          "game": "Dota 2"
+        },
+        {
+          "id": "y",
+          "value": 3900000,
+          "rank": 19,
+          "playerName": "Zhang Yiping",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ame",
+          "value": 3800000,
+          "rank": 20,
+          "playerName": "Wang Chunyu",
+          "game": "Dota 2"
+        }
+      ]
+    },
+    {
+      "date": "20260720",
+      "values": [
+        {
+          "id": "n0tail",
+          "value": 7100000,
+          "rank": 1,
+          "playerName": "Johan Sundstein",
+          "game": "Dota 2",
+          "team": "Heroes of Newerth"
+        },
+        {
+          "id": "jerax",
+          "value": 6400000,
+          "rank": 2,
+          "playerName": "Jesse Vainikka",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ana",
+          "value": 6000000,
+          "rank": 3,
+          "playerName": "Anathan Pham",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ceb",
+          "value": 5800000,
+          "rank": 4,
+          "playerName": "Sébastien Debs",
+          "game": "Dota 2"
+        },
+        {
+          "id": "topson",
+          "value": 5600000,
+          "rank": 5,
+          "playerName": "Topias Taavitsainen",
+          "game": "Dota 2"
+        },
+        {
+          "id": "miposhka",
+          "value": 5600000,
+          "rank": 6,
+          "playerName": "Jaroslaw Naidjonow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "yatoro",
+          "value": 5300000,
+          "rank": 7,
+          "playerName": "Illja Muljartschuk",
+          "game": "Dota 2"
+        },
+        {
+          "id": "collapse",
+          "value": 5300000,
+          "rank": 8,
+          "playerName": "Magomed Chalilow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "mira",
+          "value": 5300000,
+          "rank": 9,
+          "playerName": "Myroslaw Kolpakow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "kuroky",
+          "value": 5200000,
+          "rank": 10,
+          "playerName": "Kuro Takhasomi",
+          "game": "Dota 2",
+          "team": "DotA"
+        },
+        {
+          "id": "miracle",
+          "value": 4800000,
+          "rank": 11,
+          "playerName": "Amer al-Barkawi",
+          "game": "Dota 2"
+        },
+        {
+          "id": "matumbaman",
+          "value": 4800000,
+          "rank": 12,
+          "playerName": "Lasse Urpalainen",
+          "game": "Dota 2"
+        },
+        {
+          "id": "mind-control",
+          "value": 4600000,
+          "rank": 13,
+          "playerName": "Iwan Iwanow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "puppey",
+          "value": 4300000,
+          "rank": 14,
+          "playerName": "Clement Ivanov",
+          "game": "Dota 2",
+          "team": "DotA"
+        },
+        {
+          "id": "gh",
+          "value": 4200000,
+          "rank": 15,
+          "playerName": "Maroun Merhej",
+          "game": "Dota 2"
+        },
+        {
+          "id": "zai",
+          "value": 4200000,
+          "rank": 16,
+          "playerName": "Ludwig Wåhlberg",
+          "game": "Dota 2",
+          "team": "Heroes of Newerth"
+        },
+        {
+          "id": "torontotokyo",
+          "value": 4200000,
+          "rank": 17,
+          "playerName": "Alexander Chertek",
+          "game": "Dota 2"
+        },
+        {
+          "id": "sumail",
+          "value": 4000000,
+          "rank": 18,
+          "playerName": "Sumail Hassan",
+          "game": "Dota 2"
+        },
+        {
+          "id": "y",
+          "value": 3900000,
+          "rank": 19,
+          "playerName": "Zhang Yiping",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ame",
+          "value": 3800000,
+          "rank": 20,
+          "playerName": "Wang Chunyu",
+          "game": "Dota 2"
+        }
+      ]
+    },
+    {
+      "date": "20260721",
+      "values": [
+        {
+          "id": "n0tail",
+          "value": 7100000,
+          "rank": 1,
+          "playerName": "Johan Sundstein",
+          "game": "Dota 2",
+          "team": "Heroes of Newerth"
+        },
+        {
+          "id": "jerax",
+          "value": 6400000,
+          "rank": 2,
+          "playerName": "Jesse Vainikka",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ana",
+          "value": 6000000,
+          "rank": 3,
+          "playerName": "Anathan Pham",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ceb",
+          "value": 5800000,
+          "rank": 4,
+          "playerName": "Sébastien Debs",
+          "game": "Dota 2"
+        },
+        {
+          "id": "topson",
+          "value": 5600000,
+          "rank": 5,
+          "playerName": "Topias Taavitsainen",
+          "game": "Dota 2"
+        },
+        {
+          "id": "miposhka",
+          "value": 5600000,
+          "rank": 6,
+          "playerName": "Jaroslaw Naidjonow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "yatoro",
+          "value": 5300000,
+          "rank": 7,
+          "playerName": "Illja Muljartschuk",
+          "game": "Dota 2"
+        },
+        {
+          "id": "collapse",
+          "value": 5300000,
+          "rank": 8,
+          "playerName": "Magomed Chalilow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "mira",
+          "value": 5300000,
+          "rank": 9,
+          "playerName": "Myroslaw Kolpakow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "kuroky",
+          "value": 5200000,
+          "rank": 10,
+          "playerName": "Kuro Takhasomi",
+          "game": "Dota 2",
+          "team": "DotA"
+        },
+        {
+          "id": "miracle",
+          "value": 4800000,
+          "rank": 11,
+          "playerName": "Amer al-Barkawi",
+          "game": "Dota 2"
+        },
+        {
+          "id": "matumbaman",
+          "value": 4800000,
+          "rank": 12,
+          "playerName": "Lasse Urpalainen",
+          "game": "Dota 2"
+        },
+        {
+          "id": "mind-control",
+          "value": 4600000,
+          "rank": 13,
+          "playerName": "Iwan Iwanow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "puppey",
+          "value": 4300000,
+          "rank": 14,
+          "playerName": "Clement Ivanov",
+          "game": "Dota 2",
+          "team": "DotA"
+        },
+        {
+          "id": "gh",
+          "value": 4200000,
+          "rank": 15,
+          "playerName": "Maroun Merhej",
+          "game": "Dota 2"
+        },
+        {
+          "id": "zai",
+          "value": 4200000,
+          "rank": 16,
+          "playerName": "Ludwig Wåhlberg",
+          "game": "Dota 2",
+          "team": "Heroes of Newerth"
+        },
+        {
+          "id": "torontotokyo",
+          "value": 4200000,
+          "rank": 17,
+          "playerName": "Alexander Chertek",
+          "game": "Dota 2"
+        },
+        {
+          "id": "sumail",
+          "value": 4000000,
+          "rank": 18,
+          "playerName": "Sumail Hassan",
+          "game": "Dota 2"
+        },
+        {
+          "id": "y",
+          "value": 3900000,
+          "rank": 19,
+          "playerName": "Zhang Yiping",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ame",
+          "value": 3800000,
+          "rank": 20,
+          "playerName": "Wang Chunyu",
+          "game": "Dota 2"
+        }
+      ]
+    },
+    {
+      "date": "20260722",
+      "values": [
+        {
+          "id": "n0tail",
+          "value": 7100000,
+          "rank": 1,
+          "playerName": "Johan Sundstein",
+          "game": "Dota 2",
+          "team": "Heroes of Newerth"
+        },
+        {
+          "id": "jerax",
+          "value": 6400000,
+          "rank": 2,
+          "playerName": "Jesse Vainikka",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ana",
+          "value": 6000000,
+          "rank": 3,
+          "playerName": "Anathan Pham",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ceb",
+          "value": 5800000,
+          "rank": 4,
+          "playerName": "Sébastien Debs",
+          "game": "Dota 2"
+        },
+        {
+          "id": "topson",
+          "value": 5600000,
+          "rank": 5,
+          "playerName": "Topias Taavitsainen",
+          "game": "Dota 2"
+        },
+        {
+          "id": "miposhka",
+          "value": 5600000,
+          "rank": 6,
+          "playerName": "Jaroslaw Naidjonow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "yatoro",
+          "value": 5300000,
+          "rank": 7,
+          "playerName": "Illja Muljartschuk",
+          "game": "Dota 2"
+        },
+        {
+          "id": "collapse",
+          "value": 5300000,
+          "rank": 8,
+          "playerName": "Magomed Chalilow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "mira",
+          "value": 5300000,
+          "rank": 9,
+          "playerName": "Myroslaw Kolpakow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "kuroky",
+          "value": 5200000,
+          "rank": 10,
+          "playerName": "Kuro Takhasomi",
+          "game": "Dota 2",
+          "team": "DotA"
+        },
+        {
+          "id": "miracle",
+          "value": 4800000,
+          "rank": 11,
+          "playerName": "Amer al-Barkawi",
+          "game": "Dota 2"
+        },
+        {
+          "id": "matumbaman",
+          "value": 4800000,
+          "rank": 12,
+          "playerName": "Lasse Urpalainen",
+          "game": "Dota 2"
+        },
+        {
+          "id": "mind-control",
+          "value": 4600000,
+          "rank": 13,
+          "playerName": "Iwan Iwanow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "puppey",
+          "value": 4300000,
+          "rank": 14,
+          "playerName": "Clement Ivanov",
+          "game": "Dota 2",
+          "team": "DotA"
+        },
+        {
+          "id": "gh",
+          "value": 4200000,
+          "rank": 15,
+          "playerName": "Maroun Merhej",
+          "game": "Dota 2"
+        },
+        {
+          "id": "zai",
+          "value": 4200000,
+          "rank": 16,
+          "playerName": "Ludwig Wåhlberg",
+          "game": "Dota 2",
+          "team": "Heroes of Newerth"
+        },
+        {
+          "id": "torontotokyo",
+          "value": 4200000,
+          "rank": 17,
+          "playerName": "Alexander Chertek",
+          "game": "Dota 2"
+        },
+        {
+          "id": "sumail",
+          "value": 4000000,
+          "rank": 18,
+          "playerName": "Sumail Hassan",
+          "game": "Dota 2"
+        },
+        {
+          "id": "y",
+          "value": 3900000,
+          "rank": 19,
+          "playerName": "Zhang Yiping",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ame",
+          "value": 3800000,
+          "rank": 20,
+          "playerName": "Wang Chunyu",
+          "game": "Dota 2"
+        }
+      ]
+    },
+    {
+      "date": "20260727",
+      "values": [
+        {
+          "id": "n0tail",
+          "value": 7100000,
+          "rank": 1,
+          "playerName": "Johan Sundstein",
+          "game": "Dota 2",
+          "team": "Heroes of Newerth"
+        },
+        {
+          "id": "jerax",
+          "value": 6400000,
+          "rank": 2,
+          "playerName": "Jesse Vainikka",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ana",
+          "value": 6000000,
+          "rank": 3,
+          "playerName": "Anathan Pham",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ceb",
+          "value": 5800000,
+          "rank": 4,
+          "playerName": "Sébastien Debs",
+          "game": "Dota 2"
+        },
+        {
+          "id": "topson",
+          "value": 5600000,
+          "rank": 5,
+          "playerName": "Topias Taavitsainen",
+          "game": "Dota 2"
+        },
+        {
+          "id": "miposhka",
+          "value": 5600000,
+          "rank": 6,
+          "playerName": "Jaroslaw Naidjonow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "yatoro",
+          "value": 5300000,
+          "rank": 7,
+          "playerName": "Illja Muljartschuk",
+          "game": "Dota 2"
+        },
+        {
+          "id": "collapse",
+          "value": 5300000,
+          "rank": 8,
+          "playerName": "Magomed Chalilow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "mira",
+          "value": 5300000,
+          "rank": 9,
+          "playerName": "Myroslaw Kolpakow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "kuroky",
+          "value": 5200000,
+          "rank": 10,
+          "playerName": "Kuro Takhasomi",
+          "game": "Dota 2",
+          "team": "DotA"
+        },
+        {
+          "id": "miracle",
+          "value": 4800000,
+          "rank": 11,
+          "playerName": "Amer al-Barkawi",
+          "game": "Dota 2"
+        },
+        {
+          "id": "matumbaman",
+          "value": 4800000,
+          "rank": 12,
+          "playerName": "Lasse Urpalainen",
+          "game": "Dota 2"
+        },
+        {
+          "id": "mind-control",
+          "value": 4600000,
+          "rank": 13,
+          "playerName": "Iwan Iwanow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "puppey",
+          "value": 4300000,
+          "rank": 14,
+          "playerName": "Clement Ivanov",
+          "game": "Dota 2",
+          "team": "DotA"
+        },
+        {
+          "id": "gh",
+          "value": 4200000,
+          "rank": 15,
+          "playerName": "Maroun Merhej",
+          "game": "Dota 2"
+        },
+        {
+          "id": "zai",
+          "value": 4200000,
+          "rank": 16,
+          "playerName": "Ludwig Wåhlberg",
+          "game": "Dota 2",
+          "team": "Heroes of Newerth"
+        },
+        {
+          "id": "torontotokyo",
+          "value": 4200000,
+          "rank": 17,
+          "playerName": "Alexander Chertek",
+          "game": "Dota 2"
+        },
+        {
+          "id": "sumail",
+          "value": 4000000,
+          "rank": 18,
+          "playerName": "Sumail Hassan",
+          "game": "Dota 2"
+        },
+        {
+          "id": "y",
+          "value": 3900000,
+          "rank": 19,
+          "playerName": "Zhang Yiping",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ame",
+          "value": 3800000,
+          "rank": 20,
+          "playerName": "Wang Chunyu",
+          "game": "Dota 2"
+        }
+      ]
+    },
+    {
+      "date": "20260803",
+      "values": [
+        {
+          "id": "n0tail",
+          "value": 7100000,
+          "rank": 1,
+          "playerName": "Johan Sundstein",
+          "game": "Dota 2",
+          "team": "Heroes of Newerth"
+        },
+        {
+          "id": "jerax",
+          "value": 6400000,
+          "rank": 2,
+          "playerName": "Jesse Vainikka",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ana",
+          "value": 6000000,
+          "rank": 3,
+          "playerName": "Anathan Pham",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ceb",
+          "value": 5800000,
+          "rank": 4,
+          "playerName": "Sébastien Debs",
+          "game": "Dota 2"
+        },
+        {
+          "id": "topson",
+          "value": 5600000,
+          "rank": 5,
+          "playerName": "Topias Taavitsainen",
+          "game": "Dota 2"
+        },
+        {
+          "id": "miposhka",
+          "value": 5600000,
+          "rank": 6,
+          "playerName": "Jaroslaw Naidjonow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "yatoro",
+          "value": 5300000,
+          "rank": 7,
+          "playerName": "Illja Muljartschuk",
+          "game": "Dota 2"
+        },
+        {
+          "id": "collapse",
+          "value": 5300000,
+          "rank": 8,
+          "playerName": "Magomed Chalilow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "mira",
+          "value": 5300000,
+          "rank": 9,
+          "playerName": "Myroslaw Kolpakow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "kuroky",
+          "value": 5200000,
+          "rank": 10,
+          "playerName": "Kuro Takhasomi",
+          "game": "Dota 2",
+          "team": "DotA"
+        },
+        {
+          "id": "miracle",
+          "value": 4800000,
+          "rank": 11,
+          "playerName": "Amer al-Barkawi",
+          "game": "Dota 2"
+        },
+        {
+          "id": "matumbaman",
+          "value": 4800000,
+          "rank": 12,
+          "playerName": "Lasse Urpalainen",
+          "game": "Dota 2"
+        },
+        {
+          "id": "mind-control",
+          "value": 4600000,
+          "rank": 13,
+          "playerName": "Iwan Iwanow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "puppey",
+          "value": 4300000,
+          "rank": 14,
+          "playerName": "Clement Ivanov",
+          "game": "Dota 2",
+          "team": "DotA"
+        },
+        {
+          "id": "gh",
+          "value": 4200000,
+          "rank": 15,
+          "playerName": "Maroun Merhej",
+          "game": "Dota 2"
+        },
+        {
+          "id": "zai",
+          "value": 4200000,
+          "rank": 16,
+          "playerName": "Ludwig Wåhlberg",
+          "game": "Dota 2",
+          "team": "Heroes of Newerth"
+        },
+        {
+          "id": "torontotokyo",
+          "value": 4200000,
+          "rank": 17,
+          "playerName": "Alexander Chertek",
+          "game": "Dota 2"
+        },
+        {
+          "id": "sumail",
+          "value": 4000000,
+          "rank": 18,
+          "playerName": "Sumail Hassan",
+          "game": "Dota 2"
+        },
+        {
+          "id": "y",
+          "value": 3900000,
+          "rank": 19,
+          "playerName": "Zhang Yiping",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ame",
+          "value": 3800000,
+          "rank": 20,
+          "playerName": "Wang Chunyu",
+          "game": "Dota 2"
+        }
+      ]
+    },
+    {
+      "date": "20260810",
+      "values": [
+        {
+          "id": "n0tail",
+          "value": 7100000,
+          "rank": 1,
+          "playerName": "Johan Sundstein",
+          "game": "Dota 2",
+          "team": "Heroes of Newerth"
+        },
+        {
+          "id": "jerax",
+          "value": 6400000,
+          "rank": 2,
+          "playerName": "Jesse Vainikka",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ana",
+          "value": 6000000,
+          "rank": 3,
+          "playerName": "Anathan Pham",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ceb",
+          "value": 5800000,
+          "rank": 4,
+          "playerName": "Sébastien Debs",
+          "game": "Dota 2"
+        },
+        {
+          "id": "topson",
+          "value": 5600000,
+          "rank": 5,
+          "playerName": "Topias Taavitsainen",
+          "game": "Dota 2"
+        },
+        {
+          "id": "miposhka",
+          "value": 5600000,
+          "rank": 6,
+          "playerName": "Jaroslaw Naidjonow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "yatoro",
+          "value": 5300000,
+          "rank": 7,
+          "playerName": "Illja Muljartschuk",
+          "game": "Dota 2"
+        },
+        {
+          "id": "collapse",
+          "value": 5300000,
+          "rank": 8,
+          "playerName": "Magomed Chalilow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "mira",
+          "value": 5300000,
+          "rank": 9,
+          "playerName": "Myroslaw Kolpakow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "kuroky",
+          "value": 5200000,
+          "rank": 10,
+          "playerName": "Kuro Takhasomi",
+          "game": "Dota 2",
+          "team": "DotA"
+        },
+        {
+          "id": "miracle",
+          "value": 4800000,
+          "rank": 11,
+          "playerName": "Amer al-Barkawi",
+          "game": "Dota 2"
+        },
+        {
+          "id": "matumbaman",
+          "value": 4800000,
+          "rank": 12,
+          "playerName": "Lasse Urpalainen",
+          "game": "Dota 2"
+        },
+        {
+          "id": "mind-control",
+          "value": 4600000,
+          "rank": 13,
+          "playerName": "Iwan Iwanow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "puppey",
+          "value": 4300000,
+          "rank": 14,
+          "playerName": "Clement Ivanov",
+          "game": "Dota 2",
+          "team": "DotA"
+        },
+        {
+          "id": "gh",
+          "value": 4200000,
+          "rank": 15,
+          "playerName": "Maroun Merhej",
+          "game": "Dota 2"
+        },
+        {
+          "id": "zai",
+          "value": 4200000,
+          "rank": 16,
+          "playerName": "Ludwig Wåhlberg",
+          "game": "Dota 2",
+          "team": "Heroes of Newerth"
+        },
+        {
+          "id": "torontotokyo",
+          "value": 4200000,
+          "rank": 17,
+          "playerName": "Alexander Chertek",
+          "game": "Dota 2"
+        },
+        {
+          "id": "sumail",
+          "value": 4000000,
+          "rank": 18,
+          "playerName": "Sumail Hassan",
+          "game": "Dota 2"
+        },
+        {
+          "id": "y",
+          "value": 3900000,
+          "rank": 19,
+          "playerName": "Zhang Yiping",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ame",
+          "value": 3800000,
+          "rank": 20,
+          "playerName": "Wang Chunyu",
+          "game": "Dota 2"
+        }
+      ]
+    },
+    {
+      "date": "20260817",
+      "values": [
+        {
+          "id": "n0tail",
+          "value": 7100000,
+          "rank": 1,
+          "playerName": "Johan Sundstein",
+          "game": "Dota 2",
+          "team": "Heroes of Newerth"
+        },
+        {
+          "id": "jerax",
+          "value": 6400000,
+          "rank": 2,
+          "playerName": "Jesse Vainikka",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ana",
+          "value": 6000000,
+          "rank": 3,
+          "playerName": "Anathan Pham",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ceb",
+          "value": 5800000,
+          "rank": 4,
+          "playerName": "Sébastien Debs",
+          "game": "Dota 2"
+        },
+        {
+          "id": "topson",
+          "value": 5600000,
+          "rank": 5,
+          "playerName": "Topias Taavitsainen",
+          "game": "Dota 2"
+        },
+        {
+          "id": "miposhka",
+          "value": 5600000,
+          "rank": 6,
+          "playerName": "Jaroslaw Naidjonow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "yatoro",
+          "value": 5300000,
+          "rank": 7,
+          "playerName": "Illja Muljartschuk",
+          "game": "Dota 2"
+        },
+        {
+          "id": "collapse",
+          "value": 5300000,
+          "rank": 8,
+          "playerName": "Magomed Chalilow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "mira",
+          "value": 5300000,
+          "rank": 9,
+          "playerName": "Myroslaw Kolpakow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "kuroky",
+          "value": 5200000,
+          "rank": 10,
+          "playerName": "Kuro Takhasomi",
+          "game": "Dota 2",
+          "team": "DotA"
+        },
+        {
+          "id": "miracle",
+          "value": 4800000,
+          "rank": 11,
+          "playerName": "Amer al-Barkawi",
+          "game": "Dota 2"
+        },
+        {
+          "id": "matumbaman",
+          "value": 4800000,
+          "rank": 12,
+          "playerName": "Lasse Urpalainen",
+          "game": "Dota 2"
+        },
+        {
+          "id": "mind-control",
+          "value": 4600000,
+          "rank": 13,
+          "playerName": "Iwan Iwanow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "puppey",
+          "value": 4300000,
+          "rank": 14,
+          "playerName": "Clement Ivanov",
+          "game": "Dota 2",
+          "team": "DotA"
+        },
+        {
+          "id": "gh",
+          "value": 4200000,
+          "rank": 15,
+          "playerName": "Maroun Merhej",
+          "game": "Dota 2"
+        },
+        {
+          "id": "zai",
+          "value": 4200000,
+          "rank": 16,
+          "playerName": "Ludwig Wåhlberg",
+          "game": "Dota 2",
+          "team": "Heroes of Newerth"
+        },
+        {
+          "id": "torontotokyo",
+          "value": 4200000,
+          "rank": 17,
+          "playerName": "Alexander Chertek",
+          "game": "Dota 2"
+        },
+        {
+          "id": "sumail",
+          "value": 4000000,
+          "rank": 18,
+          "playerName": "Sumail Hassan",
+          "game": "Dota 2"
+        },
+        {
+          "id": "y",
+          "value": 3900000,
+          "rank": 19,
+          "playerName": "Zhang Yiping",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ame",
+          "value": 3800000,
+          "rank": 20,
+          "playerName": "Wang Chunyu",
+          "game": "Dota 2"
+        }
+      ]
+    },
+    {
+      "date": "20260822",
+      "values": [
+        {
+          "id": "n0tail",
+          "value": 7100000,
+          "rank": 1,
+          "playerName": "Johan Sundstein",
+          "game": "Dota 2",
+          "team": "Heroes of Newerth"
+        },
+        {
+          "id": "jerax",
+          "value": 6400000,
+          "rank": 2,
+          "playerName": "Jesse Vainikka",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ana",
+          "value": 6000000,
+          "rank": 3,
+          "playerName": "Anathan Pham",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ceb",
+          "value": 5800000,
+          "rank": 4,
+          "playerName": "Sébastien Debs",
+          "game": "Dota 2"
+        },
+        {
+          "id": "topson",
+          "value": 5600000,
+          "rank": 5,
+          "playerName": "Topias Taavitsainen",
+          "game": "Dota 2"
+        },
+        {
+          "id": "miposhka",
+          "value": 5600000,
+          "rank": 6,
+          "playerName": "Jaroslaw Naidjonow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "yatoro",
+          "value": 5300000,
+          "rank": 7,
+          "playerName": "Illja Muljartschuk",
+          "game": "Dota 2"
+        },
+        {
+          "id": "collapse",
+          "value": 5300000,
+          "rank": 8,
+          "playerName": "Magomed Chalilow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "mira",
+          "value": 5300000,
+          "rank": 9,
+          "playerName": "Myroslaw Kolpakow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "kuroky",
+          "value": 5200000,
+          "rank": 10,
+          "playerName": "Kuro Takhasomi",
+          "game": "Dota 2",
+          "team": "DotA"
+        },
+        {
+          "id": "miracle",
+          "value": 4800000,
+          "rank": 11,
+          "playerName": "Amer al-Barkawi",
+          "game": "Dota 2"
+        },
+        {
+          "id": "matumbaman",
+          "value": 4800000,
+          "rank": 12,
+          "playerName": "Lasse Urpalainen",
+          "game": "Dota 2"
+        },
+        {
+          "id": "mind-control",
+          "value": 4600000,
+          "rank": 13,
+          "playerName": "Iwan Iwanow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "puppey",
+          "value": 4300000,
+          "rank": 14,
+          "playerName": "Clement Ivanov",
+          "game": "Dota 2",
+          "team": "DotA"
+        },
+        {
+          "id": "gh",
+          "value": 4200000,
+          "rank": 15,
+          "playerName": "Maroun Merhej",
+          "game": "Dota 2"
+        },
+        {
+          "id": "zai",
+          "value": 4200000,
+          "rank": 16,
+          "playerName": "Ludwig Wåhlberg",
+          "game": "Dota 2",
+          "team": "Heroes of Newerth"
+        },
+        {
+          "id": "torontotokyo",
+          "value": 4200000,
+          "rank": 17,
+          "playerName": "Alexander Chertek",
+          "game": "Dota 2"
+        },
+        {
+          "id": "sumail",
+          "value": 4000000,
+          "rank": 18,
+          "playerName": "Sumail Hassan",
+          "game": "Dota 2"
+        },
+        {
+          "id": "y",
+          "value": 3900000,
+          "rank": 19,
+          "playerName": "Zhang Yiping",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ame",
+          "value": 3800000,
+          "rank": 20,
+          "playerName": "Wang Chunyu",
+          "game": "Dota 2"
+        }
+      ]
+    },
+    {
+      "date": "20260824",
+      "values": [
+        {
+          "id": "n0tail",
+          "value": 7100000,
+          "rank": 1,
+          "playerName": "Johan Sundstein",
+          "game": "Dota 2",
+          "team": "Heroes of Newerth"
+        },
+        {
+          "id": "jerax",
+          "value": 6400000,
+          "rank": 2,
+          "playerName": "Jesse Vainikka",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ana",
+          "value": 6000000,
+          "rank": 3,
+          "playerName": "Anathan Pham",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ceb",
+          "value": 5800000,
+          "rank": 4,
+          "playerName": "Sébastien Debs",
+          "game": "Dota 2"
+        },
+        {
+          "id": "topson",
+          "value": 5600000,
+          "rank": 5,
+          "playerName": "Topias Taavitsainen",
+          "game": "Dota 2"
+        },
+        {
+          "id": "miposhka",
+          "value": 5600000,
+          "rank": 6,
+          "playerName": "Jaroslaw Naidjonow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "yatoro",
+          "value": 5300000,
+          "rank": 7,
+          "playerName": "Illja Muljartschuk",
+          "game": "Dota 2"
+        },
+        {
+          "id": "collapse",
+          "value": 5300000,
+          "rank": 8,
+          "playerName": "Magomed Chalilow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "mira",
+          "value": 5300000,
+          "rank": 9,
+          "playerName": "Myroslaw Kolpakow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "kuroky",
+          "value": 5200000,
+          "rank": 10,
+          "playerName": "Kuro Takhasomi",
+          "game": "Dota 2",
+          "team": "DotA"
+        },
+        {
+          "id": "miracle",
+          "value": 4800000,
+          "rank": 11,
+          "playerName": "Amer al-Barkawi",
+          "game": "Dota 2"
+        },
+        {
+          "id": "matumbaman",
+          "value": 4800000,
+          "rank": 12,
+          "playerName": "Lasse Urpalainen",
+          "game": "Dota 2"
+        },
+        {
+          "id": "mind-control",
+          "value": 4600000,
+          "rank": 13,
+          "playerName": "Iwan Iwanow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "puppey",
+          "value": 4300000,
+          "rank": 14,
+          "playerName": "Clement Ivanov",
+          "game": "Dota 2",
+          "team": "DotA"
+        },
+        {
+          "id": "gh",
+          "value": 4200000,
+          "rank": 15,
+          "playerName": "Maroun Merhej",
+          "game": "Dota 2"
+        },
+        {
+          "id": "zai",
+          "value": 4200000,
+          "rank": 16,
+          "playerName": "Ludwig Wåhlberg",
+          "game": "Dota 2",
+          "team": "Heroes of Newerth"
+        },
+        {
+          "id": "torontotokyo",
+          "value": 4200000,
+          "rank": 17,
+          "playerName": "Alexander Chertek",
+          "game": "Dota 2"
+        },
+        {
+          "id": "sumail",
+          "value": 4000000,
+          "rank": 18,
+          "playerName": "Sumail Hassan",
+          "game": "Dota 2"
+        },
+        {
+          "id": "y",
+          "value": 3900000,
+          "rank": 19,
+          "playerName": "Zhang Yiping",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ame",
+          "value": 3800000,
+          "rank": 20,
+          "playerName": "Wang Chunyu",
+          "game": "Dota 2"
+        }
+      ]
+    },
+    {
+      "date": "20260831",
+      "values": [
+        {
+          "id": "n0tail",
+          "value": 7100000,
+          "rank": 1,
+          "playerName": "Johan Sundstein",
+          "game": "Dota 2",
+          "team": "Heroes of Newerth"
+        },
+        {
+          "id": "jerax",
+          "value": 6400000,
+          "rank": 2,
+          "playerName": "Jesse Vainikka",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ana",
+          "value": 6000000,
+          "rank": 3,
+          "playerName": "Anathan Pham",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ceb",
+          "value": 5800000,
+          "rank": 4,
+          "playerName": "Sébastien Debs",
+          "game": "Dota 2"
+        },
+        {
+          "id": "topson",
+          "value": 5600000,
+          "rank": 5,
+          "playerName": "Topias Taavitsainen",
+          "game": "Dota 2"
+        },
+        {
+          "id": "miposhka",
+          "value": 5600000,
+          "rank": 6,
+          "playerName": "Jaroslaw Naidjonow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "yatoro",
+          "value": 5300000,
+          "rank": 7,
+          "playerName": "Illja Muljartschuk",
+          "game": "Dota 2"
+        },
+        {
+          "id": "collapse",
+          "value": 5300000,
+          "rank": 8,
+          "playerName": "Magomed Chalilow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "mira",
+          "value": 5300000,
+          "rank": 9,
+          "playerName": "Myroslaw Kolpakow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "kuroky",
+          "value": 5200000,
+          "rank": 10,
+          "playerName": "Kuro Takhasomi",
+          "game": "Dota 2",
+          "team": "DotA"
+        },
+        {
+          "id": "miracle",
+          "value": 4800000,
+          "rank": 11,
+          "playerName": "Amer al-Barkawi",
+          "game": "Dota 2"
+        },
+        {
+          "id": "matumbaman",
+          "value": 4800000,
+          "rank": 12,
+          "playerName": "Lasse Urpalainen",
+          "game": "Dota 2"
+        },
+        {
+          "id": "mind-control",
+          "value": 4600000,
+          "rank": 13,
+          "playerName": "Iwan Iwanow",
+          "game": "Dota 2"
+        },
+        {
+          "id": "puppey",
+          "value": 4300000,
+          "rank": 14,
+          "playerName": "Clement Ivanov",
+          "game": "Dota 2",
+          "team": "DotA"
+        },
+        {
+          "id": "gh",
+          "value": 4200000,
+          "rank": 15,
+          "playerName": "Maroun Merhej",
+          "game": "Dota 2"
+        },
+        {
+          "id": "zai",
+          "value": 4200000,
+          "rank": 16,
+          "playerName": "Ludwig Wåhlberg",
+          "game": "Dota 2",
+          "team": "Heroes of Newerth"
+        },
+        {
+          "id": "torontotokyo",
+          "value": 4200000,
+          "rank": 17,
+          "playerName": "Alexander Chertek",
+          "game": "Dota 2"
+        },
+        {
+          "id": "sumail",
+          "value": 4000000,
+          "rank": 18,
+          "playerName": "Sumail Hassan",
+          "game": "Dota 2"
+        },
+        {
+          "id": "y",
+          "value": 3900000,
+          "rank": 19,
+          "playerName": "Zhang Yiping",
+          "game": "Dota 2"
+        },
+        {
+          "id": "ame",
+          "value": 3800000,
+          "rank": 20,
+          "playerName": "Wang Chunyu",
+          "game": "Dota 2"
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "date": "20260628",
+      "title": "n0tail leads prize earnings",
+      "body": "n0tail is the highest-ranked selected entry in this frame at $7.1M."
+    },
+    {
+      "date": "20260831",
+      "title": "n0tail leads prize earnings",
+      "body": "n0tail is the highest-ranked selected entry in this frame at $7.1M."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Liste der erfolgreichsten E-Sportler nach Preisgeld",
+      "publisher": "Wikipedia",
+      "url": "https://de.wikipedia.org/wiki/Liste_der_erfolgreichsten_E-Sportler_nach_Preisgeld",
+      "note": "German Wikipedia player prize-money table parsed by the adapter."
+    }
+  ],
+  "lastObservationDate": "2026-08-31",
+  "dataFreshness": {
+    "status": "fresh",
+    "refreshCadence": "weekly",
+    "lastUpdated": "2026-08-31T07:01:19.214Z",
+    "lastRefreshAttemptedAt": "2026-08-31T07:01:19.214Z",
+    "lastRefreshError": null,
+    "lastObservationDate": "2026-08-31",
+    "nextRefreshAt": "2026-09-07T07:00:00.000Z",
+    "sourceStatus": "German Wikipedia esports prize-money table",
+    "confidence": "Observed Liste der erfolgreichsten E-Sportler nach Preisgeld on 2026-08-31T07:01:19.214Z; values are parsed from the \"Liste der erfolgreichsten E-Sportler nach Preisgeld\" Wikipedia table."
+  },
+  "media": {
+    "imageFit": "contain",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-08-31T07:01:19.214Z",
+    "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.webp",
+    "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.webp",
+    "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.json",
+    "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/esports-athlete-earnings.json",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 5,
+    "rows": 4,
+    "width": 1600,
+    "height": 1280,
+    "itemCount": 20,
+    "sourcedImageCount": 14,
+    "generatedImageCount": 6,
+    "placeholderCount": 0,
+    "ogImageUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/esports-athlete-earnings.png",
+    "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/esports-athlete-earnings.png",
+    "ogImageWidth": 1200,
+    "ogImageHeight": 630
+  },
+  "taxonomy": {
+    "primaryCategory": "sports",
+    "categories": [
+      "sports",
+      "gaming",
+      "culture"
+    ],
+    "tags": [
+      "esports",
+      "players",
+      "prize-money",
+      "rankings"
+    ],
+    "entityTypes": [
+      "player",
+      "athlete"
+    ],
+    "sourceTypes": [
+      "wikipedia"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "games-people-are-playing",
+      "type": "competitive-gaming",
+      "weight": 0.9,
+      "reason": "Both rank games culture through active play and competitive performance."
+    },
+    {
+      "target": "top-athlete-salaries",
+      "type": "sports-earnings",
+      "weight": 0.74,
+      "reason": "Both compare individual athlete earnings, with esports as the gaming counterpart."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "competitive-gaming",
+    "mainland": "culture",
+    "bridgePriority": [
+      "games-people-are-playing",
+      "top-athlete-salaries"
+    ]
+  },
+  "schemaVersion": 1,
+  "contentKind": "dat-city.story",
+  "generatedAt": "2026-08-31T07:01:19.214Z",
+  "versionId": "20260831T070119Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "storyops-scheduler",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-08-31T07:01:19.214Z",
+    "versionId": "20260831T070119Z",
+    "adapter": "wikipedia-ranking-table",
+    "storySlug": "esports-athlete-earnings",
+    "districtId": null,
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "publicProjection": {
+    "kind": "story",
+    "version": 1,
+    "generatedAt": "2026-08-31T07:01:19.214Z",
+    "adapter": "wikipedia-ranking-table",
+    "cache": {
+      "browserMaxAgeSeconds": 60,
+      "edgeMaxAgeSeconds": 3600
+    }
+  },
+  "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/esports-athlete-earnings.png"
+}

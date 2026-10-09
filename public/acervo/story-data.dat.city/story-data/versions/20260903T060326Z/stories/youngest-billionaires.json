@@ -1,0 +1,1585 @@
+{
+  "id": "youngest-billionaires",
+  "kicker": "Wealth Age Race",
+  "title": "Youngest Billionaires",
+  "subtitle": "A bootstrap wealth view of the youngest people appearing in Wikipedia's annual Forbes world-billionaire top-10 tables.",
+  "badge": "Ranked by net worth",
+  "visualization": "race-arena",
+  "theme": "creator-arena",
+  "artStyle": "stylized-editorial",
+  "dateRange": [
+    "1996",
+    "2026"
+  ],
+  "timelineTicks": [
+    "1996",
+    "1997",
+    "1998",
+    "1999",
+    "2000",
+    "2001",
+    "2002",
+    "2003",
+    "2004",
+    "2005",
+    "2006",
+    "2007",
+    "2008",
+    "2009",
+    "2010",
+    "2011",
+    "2012",
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+  ],
+  "metricLabel": "Net worth",
+  "ogImage": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/youngest-billionaires.png",
+  "cityPreview": {
+    "districtId": "young-billionaire-row",
+    "districtName": "Young Billionaire Row",
+    "cardLabel": "Young Wealth",
+    "summary": "The youngest observed billionaires in Wikipedia's annual Forbes top-10 snapshots.",
+    "primaryMetric": "Net worth",
+    "latestFrameLabel": "2026 bootstrap comparison",
+    "storyUrl": "/stories/youngest-billionaires/",
+    "thumbnail": "/assets/og/dat-city.webp"
+  },
+  "sourceStatus": "Forbes annual world billionaires top-10 tables via Wikipedia",
+  "confidence": "Observed Wikipedia's annual Forbes world-billionaires tables through 2026. This is a bootstrap view of the youngest people appearing in those annual top-10 tables, not a complete under-30 Forbes list.",
+  "methodology": "This adapter parses Wikipedia's annual World's Billionaires tables, reads the age and net-worth columns, and selects the youngest distinct people who appear in the annual top-10 snapshots. The latest frame is a bootstrap comparison frame using each selected person's youngest observed table appearance.",
+  "playback": {
+    "durationSeconds": 24,
+    "initialDate": "1996",
+    "periodLabel": "annual net worth among youngest observed top-10 billionaires"
+  },
+  "visual": {
+    "topCount": 10,
+    "referenceCount": 12,
+    "horizontalCount": 12
+  },
+  "layers": [
+    {
+      "id": "net-worth",
+      "label": "Net worth",
+      "default": true
+    },
+    {
+      "id": "age",
+      "label": "Age",
+      "default": true
+    },
+    {
+      "id": "wealth-source",
+      "label": "Wealth source",
+      "default": true
+    }
+  ],
+  "focus": [
+    {
+      "id": "mark-zuckerberg",
+      "label": "Mark Zuckerberg"
+    },
+    {
+      "id": "michael-dell",
+      "label": "Michael Dell"
+    },
+    {
+      "id": "oleg-deripaska",
+      "label": "Oleg Deripaska"
+    },
+    {
+      "id": "bill-gates",
+      "label": "Bill Gates"
+    }
+  ],
+  "entities": [
+    {
+      "id": "mark-zuckerberg",
+      "name": "Mark Zuckerberg",
+      "shortName": "Mark Zuckerberg",
+      "article": "Mark Zuckerberg",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0e/F20250904AH-2824_%2854778373111%29_%283x4_cropped_on_Zuckerberg_following_the_rule_of_thirds%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0e/F20250904AH-2824_%2854778373111%29_%283x4_cropped_on_Zuckerberg_following_the_rule_of_thirds%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "age": 31,
+      "observedYear": "2016",
+      "nationality": "United States",
+      "sourceOfWealth": "Facebook, Inc.",
+      "avatarText": "MZ",
+      "color": "#ff5a61",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youngest-billionaires.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youngest-billionaires.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youngest-billionaires.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youngest-billionaires.json",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.25,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0e/F20250904AH-2824_%2854778373111%29_%283x4_cropped_on_Zuckerberg_following_the_rule_of_thirds%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "michael-dell",
+      "name": "Michael Dell",
+      "shortName": "Michael Dell",
+      "article": "Michael Dell",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Michael_Dell_%2852548152888%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Michael_Dell_%2852548152888%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "age": 34,
+      "observedYear": "1999",
+      "nationality": "United States",
+      "sourceOfWealth": "Dell",
+      "avatarText": "MD",
+      "color": "#18c871",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youngest-billionaires.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youngest-billionaires.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youngest-billionaires.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youngest-billionaires.json",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0,
+          "u1": 0.5,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Michael_Dell_%2852548152888%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "oleg-deripaska",
+      "name": "Oleg Deripaska",
+      "shortName": "Oleg Deripaska",
+      "article": "Oleg Deripaska",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Deripaska_Oleg_September_2020_%28cropped%29.jpg/960px-Deripaska_Oleg_September_2020_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Deripaska_Oleg_September_2020_%28cropped%29.jpg/960px-Deripaska_Oleg_September_2020_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "age": 40,
+      "observedYear": "2008",
+      "nationality": "RUS",
+      "sourceOfWealth": "Rusal",
+      "avatarText": "OD",
+      "color": "#ffc84a",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youngest-billionaires.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youngest-billionaires.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youngest-billionaires.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youngest-billionaires.json",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0,
+          "u1": 0.75,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Deripaska_Oleg_September_2020_%28cropped%29.jpg/960px-Deripaska_Oleg_September_2020_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "bill-gates",
+      "name": "Bill Gates",
+      "shortName": "Bill Gates",
+      "article": "Bill Gates",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Bill_Gates_at_the_European_Commission_-_P067383-987995_%28cropped%29_5.jpg/960px-Bill_Gates_at_the_European_Commission_-_P067383-987995_%28cropped%29_5.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Bill_Gates_at_the_European_Commission_-_P067383-987995_%28cropped%29_5.jpg/960px-Bill_Gates_at_the_European_Commission_-_P067383-987995_%28cropped%29_5.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "age": 41,
+      "observedYear": "1996",
+      "nationality": "United States",
+      "sourceOfWealth": "Microsoft",
+      "avatarText": "BG",
+      "color": "#00a6ff",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youngest-billionaires.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youngest-billionaires.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youngest-billionaires.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youngest-billionaires.json",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Bill_Gates_at_the_European_Commission_-_P067383-987995_%28cropped%29_5.jpg/960px-Bill_Gates_at_the_European_Commission_-_P067383-987995_%28cropped%29_5.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "al-waleed-bin-talal",
+      "name": "Al-Waleed Bin Talal",
+      "shortName": "Al-Waleed Bin Talal",
+      "article": "Al-Waleed Bin Talal",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Al_Waleed_bin_Talal_2015.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Al_Waleed_bin_Talal_2015.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "age": 41,
+      "observedYear": "1998",
+      "nationality": "Saudi Arabia",
+      "sourceOfWealth": "Kingdom Holding Company",
+      "avatarText": "AB",
+      "color": "#8f6bff",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youngest-billionaires.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youngest-billionaires.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youngest-billionaires.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youngest-billionaires.json",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.333333,
+          "u1": 0.25,
+          "v1": 0.666667
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Al_Waleed_bin_Talal_2015.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "steven-ballmer",
+      "name": "Steven Ballmer",
+      "shortName": "Steven Ballmer",
+      "article": "Steven Ballmer",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/5/54/Steve_ballmer_2007_outdoors2-2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/54/Steve_ballmer_2007_outdoors2-2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "age": 43,
+      "observedYear": "1999",
+      "nationality": "United States",
+      "sourceOfWealth": "Microsoft",
+      "avatarText": "SB",
+      "color": "#f18c4f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youngest-billionaires.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youngest-billionaires.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youngest-billionaires.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youngest-billionaires.json",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.333333,
+          "u1": 0.5,
+          "v1": 0.666667
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/54/Steve_ballmer_2007_outdoors2-2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "masayoshi-son",
+      "name": "Masayoshi Son",
+      "shortName": "Masayoshi Son",
+      "article": "Masayoshi Son",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/Masayoshi_Son_%28P066533-522034%2C_cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/Masayoshi_Son_%28P066533-522034%2C_cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "age": 43,
+      "observedYear": "2000",
+      "nationality": "JPN",
+      "sourceOfWealth": "SoftBank Mobile",
+      "avatarText": "MS",
+      "color": "#41a99f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youngest-billionaires.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youngest-billionaires.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youngest-billionaires.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youngest-billionaires.json",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.333333,
+          "u1": 0.75,
+          "v1": 0.666667
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/Masayoshi_Son_%28P066533-522034%2C_cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "paul-allen",
+      "name": "Paul Allen",
+      "shortName": "Paul Allen",
+      "article": "Paul Allen",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Paul_G._Allen_%28cropped%29.jpg/960px-Paul_G._Allen_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Paul_G._Allen_%28cropped%29.jpg/960px-Paul_G._Allen_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "age": 44,
+      "observedYear": "1997",
+      "nationality": "United States",
+      "sourceOfWealth": "Microsoft",
+      "avatarText": "PA",
+      "color": "#d78fca",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youngest-billionaires.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youngest-billionaires.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youngest-billionaires.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youngest-billionaires.json",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.333333,
+          "u1": 1,
+          "v1": 0.666667
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Paul_G._Allen_%28cropped%29.jpg/960px-Paul_G._Allen_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "larry-page",
+      "name": "Larry Page",
+      "shortName": "Larry Page",
+      "article": "Larry Page",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Larry_Page_in_the_European_Parliament%2C_17.06.2009_%28cropped_2%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Larry_Page_in_the_European_Parliament%2C_17.06.2009_%28cropped_2%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "age": 45,
+      "observedYear": "2019",
+      "nationality": "United States",
+      "sourceOfWealth": "Google",
+      "avatarText": "LP",
+      "color": "#7b9b65",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youngest-billionaires.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youngest-billionaires.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youngest-billionaires.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youngest-billionaires.json",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.666667,
+          "u1": 0.25,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Larry_Page_in_the_European_Parliament%2C_17.06.2009_%28cropped_2%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "sergey-brin",
+      "name": "Sergey Brin",
+      "shortName": "Sergey Brin",
+      "article": "Sergey Brin",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Sergey_Brin_Ted_2010_%28cropped%29.jpg/960px-Sergey_Brin_Ted_2010_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Sergey_Brin_Ted_2010_%28cropped%29.jpg/960px-Sergey_Brin_Ted_2010_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "age": 47,
+      "observedYear": "2021",
+      "nationality": "United States",
+      "sourceOfWealth": "Google",
+      "avatarText": "SB",
+      "color": "#2f4858",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youngest-billionaires.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youngest-billionaires.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youngest-billionaires.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youngest-billionaires.json",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.666667,
+          "u1": 0.5,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Sergey_Brin_Ted_2010_%28cropped%29.jpg/960px-Sergey_Brin_Ted_2010_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "anil-ambani",
+      "name": "Anil Ambani",
+      "shortName": "Anil Ambani",
+      "article": "Anil Ambani",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Anil_Ambani%2C_2012_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Anil_Ambani%2C_2012_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "age": 48,
+      "observedYear": "2008",
+      "nationality": "India",
+      "sourceOfWealth": "Anil Dhirubhai Ambani Group",
+      "avatarText": "AA",
+      "color": "#ef426f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youngest-billionaires.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youngest-billionaires.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youngest-billionaires.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youngest-billionaires.json",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.666667,
+          "u1": 0.75,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Anil_Ambani%2C_2012_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "kwok-brothers",
+      "name": "Kwok brothers",
+      "shortName": "Kwok brothers",
+      "article": "Kwok brothers",
+      "thumbnailUrl": null,
+      "imageUrl": null,
+      "age": 48,
+      "observedYear": "1997",
+      "nationality": "Hong Kong",
+      "sourceOfWealth": "Sun Hung Kai Properties",
+      "avatarText": "KB",
+      "color": "#86bdf4",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youngest-billionaires.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youngest-billionaires.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youngest-billionaires.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youngest-billionaires.json",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.666667,
+          "u1": 1,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:kwok-brothers",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    }
+  ],
+  "frames": [
+    {
+      "date": "1996",
+      "values": [
+        {
+          "id": "bill-gates",
+          "value": 18000000000,
+          "rank": 2,
+          "age": 41,
+          "netWorthBillions": 18,
+          "nationality": "United States",
+          "sourceOfWealth": "Microsoft"
+        },
+        {
+          "id": "kwok-brothers",
+          "value": 11200000000,
+          "rank": 7,
+          "age": null,
+          "netWorthBillions": 11.2,
+          "nationality": "Hong Kong",
+          "sourceOfWealth": "Sun Hung Kai Properties"
+        }
+      ]
+    },
+    {
+      "date": "1997",
+      "values": [
+        {
+          "id": "bill-gates",
+          "value": 36400000000,
+          "rank": 1,
+          "age": 42,
+          "netWorthBillions": 36.4,
+          "nationality": "United States",
+          "sourceOfWealth": "Microsoft"
+        },
+        {
+          "id": "paul-allen",
+          "value": 14100000000,
+          "rank": 5,
+          "age": 44,
+          "netWorthBillions": 14.1,
+          "nationality": "United States",
+          "sourceOfWealth": "Microsoft"
+        },
+        {
+          "id": "kwok-brothers",
+          "value": 12300000000,
+          "rank": 6,
+          "age": 48,
+          "netWorthBillions": 12.3,
+          "nationality": "Hong Kong",
+          "sourceOfWealth": "Sun Hung Kai Properties"
+        }
+      ]
+    },
+    {
+      "date": "1998",
+      "values": [
+        {
+          "id": "bill-gates",
+          "value": 51000000000,
+          "rank": 1,
+          "age": 43,
+          "netWorthBillions": 51,
+          "nationality": "United States",
+          "sourceOfWealth": "Microsoft"
+        },
+        {
+          "id": "paul-allen",
+          "value": 21000000000,
+          "rank": 4,
+          "age": 45,
+          "netWorthBillions": 21,
+          "nationality": "United States",
+          "sourceOfWealth": "Microsoft"
+        },
+        {
+          "id": "al-waleed-bin-talal",
+          "value": 13300000000,
+          "rank": 8,
+          "age": 41,
+          "netWorthBillions": 13.3,
+          "nationality": "Saudi Arabia",
+          "sourceOfWealth": "Kingdom Holding Company"
+        }
+      ]
+    },
+    {
+      "date": "1999",
+      "values": [
+        {
+          "id": "bill-gates",
+          "value": 90000000000,
+          "rank": 1,
+          "age": 43,
+          "netWorthBillions": 90,
+          "nationality": "United States",
+          "sourceOfWealth": "Microsoft"
+        },
+        {
+          "id": "paul-allen",
+          "value": 30000000000,
+          "rank": 3,
+          "age": 46,
+          "netWorthBillions": 30,
+          "nationality": "United States",
+          "sourceOfWealth": "Microsoft"
+        },
+        {
+          "id": "steven-ballmer",
+          "value": 19500000000,
+          "rank": 4,
+          "age": 43,
+          "netWorthBillions": 19.5,
+          "nationality": "United States",
+          "sourceOfWealth": "Microsoft"
+        },
+        {
+          "id": "michael-dell",
+          "value": 16500000000,
+          "rank": 6,
+          "age": 34,
+          "netWorthBillions": 16.5,
+          "nationality": "United States",
+          "sourceOfWealth": "Dell"
+        },
+        {
+          "id": "al-waleed-bin-talal",
+          "value": 15000000000,
+          "rank": 8,
+          "age": 42,
+          "netWorthBillions": 15,
+          "nationality": "Saudi Arabia",
+          "sourceOfWealth": "Kingdom Holding Company"
+        }
+      ]
+    },
+    {
+      "date": "2000",
+      "values": [
+        {
+          "id": "bill-gates",
+          "value": 60000000000,
+          "rank": 1,
+          "age": 44,
+          "netWorthBillions": 60,
+          "nationality": "United States",
+          "sourceOfWealth": "Microsoft"
+        },
+        {
+          "id": "paul-allen",
+          "value": 28000000000,
+          "rank": 3,
+          "age": 47,
+          "netWorthBillions": 28,
+          "nationality": "United States",
+          "sourceOfWealth": "Microsoft"
+        },
+        {
+          "id": "al-waleed-bin-talal",
+          "value": 20000000000,
+          "rank": 6,
+          "age": 43,
+          "netWorthBillions": 20,
+          "nationality": "Saudi Arabia",
+          "sourceOfWealth": "Kingdom Holding Company"
+        },
+        {
+          "id": "masayoshi-son",
+          "value": 19400000000,
+          "rank": 8,
+          "age": 43,
+          "netWorthBillions": 19.4,
+          "nationality": "JPN",
+          "sourceOfWealth": "SoftBank Mobile"
+        },
+        {
+          "id": "michael-dell",
+          "value": 19100000000,
+          "rank": 9,
+          "age": 35,
+          "netWorthBillions": 19.1,
+          "nationality": "United States",
+          "sourceOfWealth": "Dell"
+        }
+      ]
+    },
+    {
+      "date": "2001",
+      "values": [
+        {
+          "id": "bill-gates",
+          "value": 58700000000,
+          "rank": 1,
+          "age": 45,
+          "netWorthBillions": 58.7,
+          "nationality": "United States",
+          "sourceOfWealth": "Microsoft"
+        },
+        {
+          "id": "paul-allen",
+          "value": 30400000000,
+          "rank": 3,
+          "age": 48,
+          "netWorthBillions": 30.4,
+          "nationality": "United States",
+          "sourceOfWealth": "Microsoft"
+        },
+        {
+          "id": "al-waleed-bin-talal",
+          "value": 20000000000,
+          "rank": 6,
+          "age": 44,
+          "netWorthBillions": 20,
+          "nationality": "Saudi Arabia",
+          "sourceOfWealth": "Kingdom Holding Company"
+        }
+      ]
+    },
+    {
+      "date": "2002",
+      "values": [
+        {
+          "id": "bill-gates",
+          "value": 52800000000,
+          "rank": 1,
+          "age": 46,
+          "netWorthBillions": 52.8,
+          "nationality": "United States",
+          "sourceOfWealth": "Microsoft"
+        },
+        {
+          "id": "paul-allen",
+          "value": 25200000000,
+          "rank": 4,
+          "age": 49,
+          "netWorthBillions": 25.2,
+          "nationality": "United States",
+          "sourceOfWealth": "Microsoft"
+        }
+      ]
+    },
+    {
+      "date": "2003",
+      "values": [
+        {
+          "id": "bill-gates",
+          "value": 40700000000,
+          "rank": 1,
+          "age": 47,
+          "netWorthBillions": 40.7,
+          "nationality": "United States",
+          "sourceOfWealth": "Microsoft"
+        },
+        {
+          "id": "paul-allen",
+          "value": 20100000000,
+          "rank": 4,
+          "age": 50,
+          "netWorthBillions": 20.1,
+          "nationality": "United States",
+          "sourceOfWealth": "Microsoft"
+        },
+        {
+          "id": "al-waleed-bin-talal",
+          "value": 17700000000,
+          "rank": 5,
+          "age": 46,
+          "netWorthBillions": 17.7,
+          "nationality": "Saudi Arabia",
+          "sourceOfWealth": "Kingdom Holding Company"
+        }
+      ]
+    },
+    {
+      "date": "2004",
+      "values": [
+        {
+          "id": "bill-gates",
+          "value": 46600000000,
+          "rank": 1,
+          "age": 48,
+          "netWorthBillions": 46.6,
+          "nationality": "United States",
+          "sourceOfWealth": "Microsoft"
+        },
+        {
+          "id": "al-waleed-bin-talal",
+          "value": 21500000000,
+          "rank": 4,
+          "age": 47,
+          "netWorthBillions": 21.5,
+          "nationality": "Saudi Arabia",
+          "sourceOfWealth": "Kingdom Holding Company"
+        },
+        {
+          "id": "paul-allen",
+          "value": 21000000000,
+          "rank": 5,
+          "age": 51,
+          "netWorthBillions": 21,
+          "nationality": "United States",
+          "sourceOfWealth": "Microsoft"
+        }
+      ]
+    },
+    {
+      "date": "2005",
+      "values": [
+        {
+          "id": "bill-gates",
+          "value": 46500000000,
+          "rank": 1,
+          "age": 49,
+          "netWorthBillions": 46.5,
+          "nationality": "United States",
+          "sourceOfWealth": "Microsoft"
+        },
+        {
+          "id": "al-waleed-bin-talal",
+          "value": 23700000000,
+          "rank": 5,
+          "age": 49,
+          "netWorthBillions": 23.7,
+          "nationality": "Saudi Arabia",
+          "sourceOfWealth": "Kingdom Holding Company"
+        },
+        {
+          "id": "paul-allen",
+          "value": 21000000000,
+          "rank": 7,
+          "age": 52,
+          "netWorthBillions": 21,
+          "nationality": "United States",
+          "sourceOfWealth": "Microsoft"
+        }
+      ]
+    },
+    {
+      "date": "2006",
+      "values": [
+        {
+          "id": "bill-gates",
+          "value": 52000000000,
+          "rank": 1,
+          "age": 50,
+          "netWorthBillions": 52,
+          "nationality": "United States",
+          "sourceOfWealth": "Microsoft"
+        },
+        {
+          "id": "paul-allen",
+          "value": 22000000000,
+          "rank": 6,
+          "age": 53,
+          "netWorthBillions": 22,
+          "nationality": "United States",
+          "sourceOfWealth": "Microsoft"
+        },
+        {
+          "id": "al-waleed-bin-talal",
+          "value": 20000000000,
+          "rank": 8,
+          "age": 49,
+          "netWorthBillions": 20,
+          "nationality": "SAU",
+          "sourceOfWealth": "Kingdom Holding Company"
+        }
+      ]
+    },
+    {
+      "date": "2007",
+      "values": [
+        {
+          "id": "bill-gates",
+          "value": 56000000000,
+          "rank": 1,
+          "age": 51,
+          "netWorthBillions": 56,
+          "nationality": "United States",
+          "sourceOfWealth": "Microsoft"
+        }
+      ]
+    },
+    {
+      "date": "2008",
+      "values": [
+        {
+          "id": "bill-gates",
+          "value": 58000000000,
+          "rank": 3,
+          "age": 52,
+          "netWorthBillions": 58,
+          "nationality": "United States",
+          "sourceOfWealth": "Microsoft"
+        },
+        {
+          "id": "anil-ambani",
+          "value": 42000000000,
+          "rank": 6,
+          "age": 48,
+          "netWorthBillions": 42,
+          "nationality": "India",
+          "sourceOfWealth": "Anil Dhirubhai Ambani Group"
+        },
+        {
+          "id": "oleg-deripaska",
+          "value": 28000000000,
+          "rank": 9,
+          "age": 40,
+          "netWorthBillions": 28,
+          "nationality": "RUS",
+          "sourceOfWealth": "Rusal"
+        }
+      ]
+    },
+    {
+      "date": "2009",
+      "values": [
+        {
+          "id": "bill-gates",
+          "value": 40000000000,
+          "rank": 1,
+          "age": 53,
+          "netWorthBillions": 40,
+          "nationality": "United States",
+          "sourceOfWealth": "Microsoft"
+        }
+      ]
+    },
+    {
+      "date": "2010",
+      "values": [
+        {
+          "id": "bill-gates",
+          "value": 53000000000,
+          "rank": 2,
+          "age": 54,
+          "netWorthBillions": 53,
+          "nationality": "United States",
+          "sourceOfWealth": "Microsoft"
+        }
+      ]
+    },
+    {
+      "date": "2011",
+      "values": [
+        {
+          "id": "bill-gates",
+          "value": 56000000000,
+          "rank": 2,
+          "age": 55,
+          "netWorthBillions": 56,
+          "nationality": "United States",
+          "sourceOfWealth": "Microsoft"
+        }
+      ]
+    },
+    {
+      "date": "2012",
+      "values": [
+        {
+          "id": "bill-gates",
+          "value": 61000000000,
+          "rank": 2,
+          "age": 56,
+          "netWorthBillions": 61,
+          "nationality": "United States",
+          "sourceOfWealth": "Microsoft"
+        }
+      ]
+    },
+    {
+      "date": "2013",
+      "values": [
+        {
+          "id": "bill-gates",
+          "value": 67000000000,
+          "rank": 2,
+          "age": 57,
+          "netWorthBillions": 67,
+          "nationality": "United States",
+          "sourceOfWealth": "Microsoft"
+        }
+      ]
+    },
+    {
+      "date": "2014",
+      "values": [
+        {
+          "id": "bill-gates",
+          "value": 76000000000,
+          "rank": 1,
+          "age": 58,
+          "netWorthBillions": 76,
+          "nationality": "United States",
+          "sourceOfWealth": "Microsoft"
+        }
+      ]
+    },
+    {
+      "date": "2015",
+      "values": [
+        {
+          "id": "bill-gates",
+          "value": 79200000000,
+          "rank": 1,
+          "age": 59,
+          "netWorthBillions": 79.2,
+          "nationality": "United States",
+          "sourceOfWealth": "Microsoft"
+        }
+      ]
+    },
+    {
+      "date": "2016",
+      "values": [
+        {
+          "id": "bill-gates",
+          "value": 75000000000,
+          "rank": 1,
+          "age": 60,
+          "netWorthBillions": 75,
+          "nationality": "United States",
+          "sourceOfWealth": "Microsoft"
+        },
+        {
+          "id": "mark-zuckerberg",
+          "value": 44600000000,
+          "rank": 6,
+          "age": 31,
+          "netWorthBillions": 44.6,
+          "nationality": "United States",
+          "sourceOfWealth": "Facebook, Inc."
+        }
+      ]
+    },
+    {
+      "date": "2017",
+      "values": [
+        {
+          "id": "bill-gates",
+          "value": 86000000000,
+          "rank": 1,
+          "age": 61,
+          "netWorthBillions": 86,
+          "nationality": "United States",
+          "sourceOfWealth": "Microsoft"
+        },
+        {
+          "id": "mark-zuckerberg",
+          "value": 56000000000,
+          "rank": 5,
+          "age": 32,
+          "netWorthBillions": 56,
+          "nationality": "United States",
+          "sourceOfWealth": "Facebook, Inc."
+        }
+      ]
+    },
+    {
+      "date": "2018",
+      "values": [
+        {
+          "id": "bill-gates",
+          "value": 90000000000,
+          "rank": 2,
+          "age": 62,
+          "netWorthBillions": 90,
+          "nationality": "United States",
+          "sourceOfWealth": "Microsoft"
+        },
+        {
+          "id": "mark-zuckerberg",
+          "value": 71000000000,
+          "rank": 5,
+          "age": 33,
+          "netWorthBillions": 71,
+          "nationality": "United States",
+          "sourceOfWealth": "Facebook, Inc."
+        }
+      ]
+    },
+    {
+      "date": "2019",
+      "values": [
+        {
+          "id": "bill-gates",
+          "value": 96500000000,
+          "rank": 2,
+          "age": 63,
+          "netWorthBillions": 96.5,
+          "nationality": "United States",
+          "sourceOfWealth": "Microsoft"
+        },
+        {
+          "id": "mark-zuckerberg",
+          "value": 62300000000,
+          "rank": 8,
+          "age": 34,
+          "netWorthBillions": 62.3,
+          "nationality": "United States",
+          "sourceOfWealth": "Facebook, Inc."
+        },
+        {
+          "id": "larry-page",
+          "value": 50800000000,
+          "rank": 10,
+          "age": 45,
+          "netWorthBillions": 50.8,
+          "nationality": "United States",
+          "sourceOfWealth": "Google"
+        }
+      ]
+    },
+    {
+      "date": "2020",
+      "values": [
+        {
+          "id": "bill-gates",
+          "value": 98000000000,
+          "rank": 2,
+          "age": 64,
+          "netWorthBillions": 98,
+          "nationality": "United States",
+          "sourceOfWealth": "Microsoft"
+        },
+        {
+          "id": "mark-zuckerberg",
+          "value": 54700000000,
+          "rank": 7,
+          "age": 35,
+          "netWorthBillions": 54.7,
+          "nationality": "United States",
+          "sourceOfWealth": "Facebook, Inc."
+        }
+      ]
+    },
+    {
+      "date": "2021",
+      "values": [
+        {
+          "id": "bill-gates",
+          "value": 124000000000,
+          "rank": 4,
+          "age": 65,
+          "netWorthBillions": 124,
+          "nationality": "United States",
+          "sourceOfWealth": "Microsoft"
+        },
+        {
+          "id": "mark-zuckerberg",
+          "value": 97000000000,
+          "rank": 5,
+          "age": 36,
+          "netWorthBillions": 97,
+          "nationality": "United States",
+          "sourceOfWealth": "Meta Platforms"
+        },
+        {
+          "id": "larry-page",
+          "value": 91500000000,
+          "rank": 8,
+          "age": 48,
+          "netWorthBillions": 91.5,
+          "nationality": "United States",
+          "sourceOfWealth": "Google"
+        },
+        {
+          "id": "sergey-brin",
+          "value": 89000000000,
+          "rank": 9,
+          "age": 47,
+          "netWorthBillions": 89,
+          "nationality": "United States",
+          "sourceOfWealth": "Google"
+        }
+      ]
+    },
+    {
+      "date": "2022",
+      "values": [
+        {
+          "id": "bill-gates",
+          "value": 129000000000,
+          "rank": 4,
+          "age": 66,
+          "netWorthBillions": 129,
+          "nationality": "United States",
+          "sourceOfWealth": "Microsoft"
+        },
+        {
+          "id": "larry-page",
+          "value": 111000000000,
+          "rank": 6,
+          "age": 49,
+          "netWorthBillions": 111,
+          "nationality": "United States",
+          "sourceOfWealth": "Google"
+        },
+        {
+          "id": "sergey-brin",
+          "value": 107000000000,
+          "rank": 7,
+          "age": 48,
+          "netWorthBillions": 107,
+          "nationality": "United States",
+          "sourceOfWealth": "Google"
+        }
+      ]
+    },
+    {
+      "date": "2023",
+      "values": [
+        {
+          "id": "bill-gates",
+          "value": 104000000000,
+          "rank": 6,
+          "age": 67,
+          "netWorthBillions": 104,
+          "nationality": "United States",
+          "sourceOfWealth": "Microsoft"
+        }
+      ]
+    },
+    {
+      "date": "2024",
+      "values": [
+        {
+          "id": "mark-zuckerberg",
+          "value": 177000000000,
+          "rank": 4,
+          "age": 39,
+          "netWorthBillions": 177,
+          "nationality": "United States",
+          "sourceOfWealth": "Meta Platforms"
+        },
+        {
+          "id": "bill-gates",
+          "value": 128000000000,
+          "rank": 7,
+          "age": 68,
+          "netWorthBillions": 128,
+          "nationality": "United States",
+          "sourceOfWealth": "Microsoft"
+        },
+        {
+          "id": "larry-page",
+          "value": 114000000000,
+          "rank": 10,
+          "age": 51,
+          "netWorthBillions": 114,
+          "nationality": "United States",
+          "sourceOfWealth": "Google"
+        }
+      ]
+    },
+    {
+      "date": "2025",
+      "values": [
+        {
+          "id": "mark-zuckerberg",
+          "value": 216000000000,
+          "rank": 2,
+          "age": 40,
+          "netWorthBillions": 216,
+          "nationality": "United States",
+          "sourceOfWealth": "Meta Platforms"
+        },
+        {
+          "id": "larry-page",
+          "value": 144000000000,
+          "rank": 7,
+          "age": 52,
+          "netWorthBillions": 144,
+          "nationality": "United States",
+          "sourceOfWealth": "Google"
+        },
+        {
+          "id": "sergey-brin",
+          "value": 138000000000,
+          "rank": 8,
+          "age": 51,
+          "netWorthBillions": 138,
+          "nationality": "United States",
+          "sourceOfWealth": "Google"
+        }
+      ]
+    },
+    {
+      "date": "2026",
+      "values": [
+        {
+          "id": "mark-zuckerberg",
+          "value": 44600000000,
+          "rank": 1,
+          "age": 31,
+          "observedYear": "2016",
+          "netWorthBillions": 44.6,
+          "nationality": "United States",
+          "sourceOfWealth": "Facebook, Inc."
+        },
+        {
+          "id": "michael-dell",
+          "value": 16500000000,
+          "rank": 2,
+          "age": 34,
+          "observedYear": "1999",
+          "netWorthBillions": 16.5,
+          "nationality": "United States",
+          "sourceOfWealth": "Dell"
+        },
+        {
+          "id": "oleg-deripaska",
+          "value": 28000000000,
+          "rank": 3,
+          "age": 40,
+          "observedYear": "2008",
+          "netWorthBillions": 28,
+          "nationality": "RUS",
+          "sourceOfWealth": "Rusal"
+        },
+        {
+          "id": "bill-gates",
+          "value": 18000000000,
+          "rank": 4,
+          "age": 41,
+          "observedYear": "1996",
+          "netWorthBillions": 18,
+          "nationality": "United States",
+          "sourceOfWealth": "Microsoft"
+        },
+        {
+          "id": "al-waleed-bin-talal",
+          "value": 13300000000,
+          "rank": 5,
+          "age": 41,
+          "observedYear": "1998",
+          "netWorthBillions": 13.3,
+          "nationality": "Saudi Arabia",
+          "sourceOfWealth": "Kingdom Holding Company"
+        },
+        {
+          "id": "steven-ballmer",
+          "value": 19500000000,
+          "rank": 6,
+          "age": 43,
+          "observedYear": "1999",
+          "netWorthBillions": 19.5,
+          "nationality": "United States",
+          "sourceOfWealth": "Microsoft"
+        },
+        {
+          "id": "masayoshi-son",
+          "value": 19400000000,
+          "rank": 7,
+          "age": 43,
+          "observedYear": "2000",
+          "netWorthBillions": 19.4,
+          "nationality": "JPN",
+          "sourceOfWealth": "SoftBank Mobile"
+        },
+        {
+          "id": "paul-allen",
+          "value": 14100000000,
+          "rank": 8,
+          "age": 44,
+          "observedYear": "1997",
+          "netWorthBillions": 14.1,
+          "nationality": "United States",
+          "sourceOfWealth": "Microsoft"
+        },
+        {
+          "id": "larry-page",
+          "value": 50800000000,
+          "rank": 9,
+          "age": 45,
+          "observedYear": "2019",
+          "netWorthBillions": 50.8,
+          "nationality": "United States",
+          "sourceOfWealth": "Google"
+        },
+        {
+          "id": "sergey-brin",
+          "value": 89000000000,
+          "rank": 10,
+          "age": 47,
+          "observedYear": "2021",
+          "netWorthBillions": 89,
+          "nationality": "United States",
+          "sourceOfWealth": "Google"
+        },
+        {
+          "id": "anil-ambani",
+          "value": 42000000000,
+          "rank": 11,
+          "age": 48,
+          "observedYear": "2008",
+          "netWorthBillions": 42,
+          "nationality": "India",
+          "sourceOfWealth": "Anil Dhirubhai Ambani Group"
+        },
+        {
+          "id": "kwok-brothers",
+          "value": 12300000000,
+          "rank": 12,
+          "age": 48,
+          "observedYear": "1997",
+          "netWorthBillions": 12.3,
+          "nationality": "Hong Kong",
+          "sourceOfWealth": "Sun Hung Kai Properties"
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "date": "1996",
+      "title": "Bill Gates anchors the youth view",
+      "body": "Bill Gates is the youngest selected person in this frame at age 41, with a listed net worth of $18.0B."
+    },
+    {
+      "date": "2026",
+      "title": "Mark Zuckerberg anchors the youth view",
+      "body": "Mark Zuckerberg is the youngest selected person in this frame at age 31, with a listed net worth of $44.6B."
+    }
+  ],
+  "sources": [
+    {
+      "title": "The World's Billionaires",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_World%27s_Billionaires",
+      "note": "Annual Forbes world-billionaire tables with age, net-worth, nationality, and wealth-source columns."
+    }
+  ],
+  "lastObservationDate": "2026",
+  "dataFreshness": {
+    "status": "fresh",
+    "refreshCadence": "daily",
+    "lastUpdated": "2026-09-02T07:01:52.367Z",
+    "lastRefreshAttemptedAt": "2026-09-02T07:01:52.367Z",
+    "lastRefreshError": null,
+    "lastObservationDate": "2026",
+    "nextRefreshAt": "2026-09-03T07:00:00.000Z",
+    "sourceStatus": "Forbes annual world billionaires top-10 tables via Wikipedia",
+    "confidence": "Observed Wikipedia's annual Forbes world-billionaires tables through 2026. This is a bootstrap view of the youngest people appearing in those annual top-10 tables, not a complete under-30 Forbes list."
+  },
+  "media": {
+    "imageFit": "contain",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-09-02T07:01:52.367Z",
+    "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youngest-billionaires.webp",
+    "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youngest-billionaires.webp",
+    "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youngest-billionaires.json",
+    "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youngest-billionaires.json",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 4,
+    "rows": 3,
+    "width": 1280,
+    "height": 960,
+    "itemCount": 12,
+    "sourcedImageCount": 11,
+    "generatedImageCount": 1,
+    "placeholderCount": 0,
+    "ogImageUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/youngest-billionaires.png",
+    "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/youngest-billionaires.png",
+    "ogImageWidth": 1200,
+    "ogImageHeight": 630
+  },
+  "taxonomy": {
+    "primaryCategory": "economy",
+    "categories": [
+      "economy",
+      "wealth",
+      "founders"
+    ],
+    "tags": [
+      "billionaires",
+      "age",
+      "wealth",
+      "founders"
+    ],
+    "entityTypes": [
+      "person"
+    ],
+    "sourceTypes": [
+      "wikipedia"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "richest-individuals",
+      "type": "wealth-subset",
+      "weight": 0.92,
+      "reason": "This is a filtered youth-focused view of the live wealth ranking."
+    },
+    {
+      "target": "startup-unicorns",
+      "type": "founder-economy",
+      "weight": 0.68,
+      "reason": "Many young billionaires are tied to startup equity and founder outcomes."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "wealth",
+    "mainland": "economy",
+    "bridgePriority": [
+      "richest-individuals",
+      "startup-unicorns"
+    ]
+  },
+  "schemaVersion": 1,
+  "contentKind": "dat-city.story",
+  "generatedAt": "2026-09-02T07:01:52.367Z",
+  "versionId": "20260902T070152Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "storyops-scheduler",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-09-02T07:01:52.367Z",
+    "versionId": "20260902T070152Z",
+    "adapter": "wikipedia-billionaires",
+    "storySlug": "youngest-billionaires",
+    "districtId": null,
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "publicProjection": {
+    "kind": "story",
+    "version": 1,
+    "generatedAt": "2026-09-02T07:01:52.367Z",
+    "adapter": "wikipedia-billionaires",
+    "cache": {
+      "browserMaxAgeSeconds": 60,
+      "edgeMaxAgeSeconds": 3600
+    }
+  },
+  "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/youngest-billionaires.png"
+}

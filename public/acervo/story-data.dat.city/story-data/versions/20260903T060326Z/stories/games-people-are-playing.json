@@ -1,0 +1,6178 @@
+{
+  "id": "games-people-are-playing",
+  "kicker": "Games Race",
+  "title": "The Games People Are Actually Playing",
+  "subtitle": "A live-game skyline for the games that hold attention, spike on launch week, or refuse to leave the top charts.",
+  "badge": "Ranked by concurrent players",
+  "visualization": "race-arena",
+  "theme": "creator-arena",
+  "artStyle": "stylized-editorial",
+  "dateRange": [
+    "20230801",
+    "20260902"
+  ],
+  "timelineTicks": [
+    "20230801",
+    "20230901",
+    "20231001",
+    "20231101",
+    "20231201",
+    "20240101",
+    "20240201",
+    "20240301",
+    "20240401",
+    "20240501",
+    "20240601",
+    "20240701",
+    "20240801",
+    "20240901",
+    "20241001",
+    "20241101",
+    "20241201",
+    "20250101",
+    "20250201",
+    "20250301",
+    "20250401",
+    "20250501",
+    "20250601",
+    "20250701",
+    "20250801",
+    "20250901",
+    "20251001",
+    "20251101",
+    "20251201",
+    "20260101",
+    "20260201",
+    "20260301",
+    "20260401",
+    "20260501",
+    "20260626",
+    "20260731",
+    "20260802",
+    "20260803",
+    "20260804",
+    "20260805",
+    "20260806",
+    "20260807",
+    "20260808",
+    "20260809",
+    "20260810",
+    "20260811",
+    "20260812",
+    "20260813",
+    "20260814",
+    "20260815",
+    "20260816",
+    "20260817",
+    "20260818",
+    "20260819",
+    "20260820",
+    "20260821",
+    "20260822",
+    "20260823",
+    "20260824",
+    "20260825",
+    "20260826",
+    "20260827",
+    "20260828",
+    "20260829",
+    "20260830",
+    "20260831",
+    "20260901",
+    "20260902"
+  ],
+  "metricLabel": "Players",
+  "ogImage": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/games-people-are-playing.png",
+  "cityPreview": {
+    "districtId": "game-arcade-quarter",
+    "districtName": "Game Arcade Quarter",
+    "cardLabel": "Games Race",
+    "summary": "Steam most-played games as daily snapshots, tracking launches, comebacks, and long-running live games.",
+    "primaryMetric": "Concurrent players",
+    "latestFrameLabel": "2026-09-02",
+    "storyUrl": "/stories/games-people-are-playing/",
+    "thumbnail": "/assets/og/dat-city.webp"
+  },
+  "sourceStatus": "Steam charts public service",
+  "confidence": "Observed Steam most-played concurrent players at 2026-09-02T06:54:37.000Z.",
+  "methodology": "This story is generated from Steam's public charts service. The latest frame uses current concurrent players; the weekly comparison frame uses Steam's latest most-played weekly peak values. Historical monthly frames come from SteamCharts average-player tables for the same app IDs, while scheduled StoryOps runs append current snapshots so recent history stays observed daily data.",
+  "playback": {
+    "durationSeconds": 24,
+    "initialDate": "20230801",
+    "periodLabel": "Steam players"
+  },
+  "visual": {
+    "topCount": 10,
+    "referenceCount": 12,
+    "horizontalCount": 12
+  },
+  "layers": [
+    {
+      "id": "players",
+      "label": "Players",
+      "default": true
+    },
+    {
+      "id": "launches",
+      "label": "Launches",
+      "default": true
+    },
+    {
+      "id": "live-service",
+      "label": "Live service",
+      "default": true
+    }
+  ],
+  "focus": [
+    {
+      "id": "steam-730",
+      "label": "Counter-Strike 2"
+    },
+    {
+      "id": "steam-570",
+      "label": "Dota 2"
+    },
+    {
+      "id": "steam-578080",
+      "label": "PUBG: BATTLEGROUNDS"
+    },
+    {
+      "id": "steam-1623730",
+      "label": "Palworld"
+    }
+  ],
+  "entities": [
+    {
+      "id": "steam-730",
+      "name": "Counter-Strike 2",
+      "appid": 730,
+      "libraryImageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/library_600x900_2x.jpg",
+      "headerImageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/header.jpg?t=1749053861",
+      "capsuleImageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/capsule_184x69.jpg?t=1749053861",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/library_600x900_2x.jpg",
+      "avatarText": "C2",
+      "color": "#ff5a61",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "x": 0,
+          "y": 0,
+          "width": 384,
+          "height": 384,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.2,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/library_600x900_2x.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "steam-library"
+        }
+      }
+    },
+    {
+      "id": "steam-570",
+      "name": "Dota 2",
+      "appid": 570,
+      "libraryImageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/library_600x900_2x.jpg",
+      "headerImageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/header.jpg?t=1769535998",
+      "capsuleImageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/capsule_184x69.jpg?t=1769535998",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/library_600x900_2x.jpg",
+      "avatarText": "D2",
+      "color": "#ffc84a",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "x": 384,
+          "y": 0,
+          "width": 384,
+          "height": 384,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0,
+          "u1": 0.4,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/library_600x900_2x.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "steam-library"
+        }
+      }
+    },
+    {
+      "id": "steam-578080",
+      "name": "PUBG: BATTLEGROUNDS",
+      "appid": 578080,
+      "libraryImageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/578080/library_600x900_2x.jpg",
+      "headerImageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/578080/841ea38bc58cabb70aef65365cf50bc2d79329d9/header.jpg?t=1778634253",
+      "capsuleImageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/578080/14f42ab797699a9c9f137fda66582d8776da4330/capsule_184x69.jpg?t=1778634253",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/578080/library_600x900_2x.jpg",
+      "avatarText": "PB",
+      "color": "#18c871",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "x": 768,
+          "y": 0,
+          "width": 384,
+          "height": 384,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0,
+          "u1": 0.6,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/578080/library_600x900_2x.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "steam-library"
+        }
+      }
+    },
+    {
+      "id": "steam-1623730",
+      "name": "Palworld",
+      "appid": 1623730,
+      "libraryImageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/library_600x900_2x.jpg",
+      "headerImageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/6912f19c43a95ff5fe514eedd35e68bf12335459/header.jpg?t=1783654507",
+      "capsuleImageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/0703d5a0658c7aedaa3be4391d6f5cccc1bb6d7a/capsule_184x69.jpg?t=1783654507",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/library_600x900_2x.jpg",
+      "avatarText": "P",
+      "color": "#18c871",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "x": 1152,
+          "y": 0,
+          "width": 384,
+          "height": 384,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0,
+          "u1": 0.8,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/library_600x900_2x.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "steam-library"
+        }
+      }
+    },
+    {
+      "id": "steam-3678970",
+      "name": "TBH: Task Bar Hero",
+      "appid": 3678970,
+      "libraryImageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3678970/library_600x900_2x.jpg",
+      "headerImageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3678970/be640d1ea4db8d9139069e3799d8d4553f0c2131/header.jpg?t=1780512075",
+      "capsuleImageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3678970/124cbad7c55f19814d0b8f019e06e5a50b8c6337/capsule_184x69.jpg?t=1780512075",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3678970/library_600x900_2x.jpg",
+      "avatarText": "TT",
+      "color": "#86bdf4",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "x": 1536,
+          "y": 0,
+          "width": 384,
+          "height": 384,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3678970/be640d1ea4db8d9139069e3799d8d4553f0c2131/header.jpg?t=1780512075",
+          "sourceStatus": "source-image",
+          "sourceProvider": "steam-store"
+        }
+      }
+    },
+    {
+      "id": "steam-2694490",
+      "name": "Path of Exile 2",
+      "appid": 2694490,
+      "libraryImageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2694490/library_600x900_2x.jpg",
+      "headerImageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2694490/24eeddcbda17903f03d819588757e40845f8115f/header.jpg?t=1780888530",
+      "capsuleImageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2694490/bae62b5ac9eeb900458e3f6c089bf5df3eb923c9/capsule_184x69.jpg?t=1780888530",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2694490/library_600x900_2x.jpg",
+      "avatarText": "PO",
+      "color": "#c9a14a",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "x": 0,
+          "y": 384,
+          "width": 384,
+          "height": 384,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.25,
+          "u1": 0.2,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2694490/library_600x900_2x.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "steam-library"
+        }
+      }
+    },
+    {
+      "id": "steam-2868840",
+      "name": "Slay the Spire 2",
+      "appid": 2868840,
+      "libraryImageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2868840/library_600x900_2x.jpg",
+      "headerImageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2868840/b0958d387dc366211e0f353443710cfcf9fdb020/header.jpg?t=1776735385",
+      "capsuleImageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2868840/fb0ad136e9eaa4297a1ab3440d88ecb7209f44a2/capsule_184x69.jpg?t=1776735385",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2868840/library_600x900_2x.jpg",
+      "avatarText": "ST",
+      "color": "#f18c4f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "x": 384,
+          "y": 384,
+          "width": 384,
+          "height": 384,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.25,
+          "u1": 0.4,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2868840/library_600x900_2x.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "steam-library"
+        }
+      }
+    },
+    {
+      "id": "steam-1172470",
+      "name": "Apex Legends™",
+      "appid": 1172470,
+      "libraryImageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/library_600x900_2x.jpg",
+      "headerImageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/0bd74245b869287a2dc7f682e6013f7ed08d98e3/header.jpg?t=1778502442",
+      "capsuleImageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/b622efa206400324df2ab812786578dda4cc3537/capsule_184x69.jpg?t=1778502442",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/library_600x900_2x.jpg",
+      "avatarText": "AL",
+      "color": "#8f6bff",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "x": 768,
+          "y": 384,
+          "width": 384,
+          "height": 384,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.25,
+          "u1": 0.6,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/library_600x900_2x.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "steam-library"
+        }
+      }
+    },
+    {
+      "id": "steam-1808500",
+      "name": "ARC Raiders",
+      "appid": 1808500,
+      "libraryImageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1808500/library_600x900_2x.jpg",
+      "headerImageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1808500/04baafaf64a5aa5f46ecda5d71889a4848dc0628/header.jpg?t=1776865359",
+      "capsuleImageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1808500/542a243d39bd7ed791359be9e96c82f419b81475/capsule_184x69.jpg?t=1776865359",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1808500/library_600x900_2x.jpg",
+      "avatarText": "AR",
+      "color": "#2f4858",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "x": 1152,
+          "y": 384,
+          "width": 384,
+          "height": 384,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.25,
+          "u1": 0.8,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1808500/library_600x900_2x.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "steam-library"
+        }
+      }
+    },
+    {
+      "id": "steam-2483190",
+      "name": "Forza Horizon 6",
+      "appid": 2483190,
+      "libraryImageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/library_600x900_2x.jpg",
+      "headerImageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/27abb1584a118d50d0e3950fd48d557c51981db7/header.jpg?t=1779221600",
+      "capsuleImageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/d0d73e4ff499d6cd6fb06f7af898414179997125/capsule_184x69.jpg?t=1779221600",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/library_600x900_2x.jpg",
+      "avatarText": "FH",
+      "color": "#00a6ff",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "x": 1536,
+          "y": 384,
+          "width": 384,
+          "height": 384,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.25,
+          "u1": 1,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/27abb1584a118d50d0e3950fd48d557c51981db7/header.jpg?t=1779221600",
+          "sourceStatus": "source-image",
+          "sourceProvider": "steam-store"
+        }
+      }
+    },
+    {
+      "id": "steam-3419430",
+      "name": "Bongo Cat",
+      "appid": 3419430,
+      "libraryImageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3419430/library_600x900_2x.jpg",
+      "headerImageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3419430/2e6c93c020fe13d09d8120bb9164ed7cb58f00c5/header.jpg?t=1776080084",
+      "capsuleImageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3419430/a72a5965134f12a6cf86879fa2eb34ba16040486/capsule_184x69.jpg?t=1776080084",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3419430/library_600x900_2x.jpg",
+      "avatarText": "BC",
+      "color": "#d78fca",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "x": 0,
+          "y": 768,
+          "width": 384,
+          "height": 384,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.5,
+          "u1": 0.2,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3419430/library_600x900_2x.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "steam-library"
+        }
+      }
+    },
+    {
+      "id": "steam-2676230",
+      "name": "FiveM",
+      "appid": 2676230,
+      "libraryImageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2676230/library_600x900_2x.jpg",
+      "headerImageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2676230/9e8a2df18bfdd24267aefa6d3e14778c2ecb1708/header.jpg?t=1778609608",
+      "capsuleImageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2676230/7fa56dff0727478b1c3df6764dea563a499ff5dd/capsule_184x69.jpg?t=1778609608",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2676230/library_600x900_2x.jpg",
+      "avatarText": "F",
+      "color": "#41a99f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "x": 384,
+          "y": 768,
+          "width": 384,
+          "height": 384,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.5,
+          "u1": 0.4,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2676230/9e8a2df18bfdd24267aefa6d3e14778c2ecb1708/header.jpg?t=1778609608",
+          "sourceStatus": "source-image",
+          "sourceProvider": "steam-store"
+        }
+      }
+    },
+    {
+      "id": "steam-4001890",
+      "name": "How to Fish",
+      "appid": 4001890,
+      "libraryImageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4001890/library_600x900_2x.jpg",
+      "headerImageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4001890/45c4ddff4901e32c4b8b643e1b97d0d01898d299/header.jpg?t=1787234618",
+      "capsuleImageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4001890/8f65bb2b78d37a9147aa79c970a51610e6955bf1/capsule_184x69.jpg?t=1787234618",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4001890/library_600x900_2x.jpg",
+      "avatarText": "HT",
+      "color": "#9aa4b2",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "x": 768,
+          "y": 768,
+          "width": 384,
+          "height": 384,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.5,
+          "u1": 0.6,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4001890/45c4ddff4901e32c4b8b643e1b97d0d01898d299/header.jpg?t=1787234618",
+          "sourceStatus": "source-image",
+          "sourceProvider": "steam-store"
+        }
+      }
+    },
+    {
+      "id": "steam-271590",
+      "name": "Grand Theft Auto V Legacy",
+      "appid": 271590,
+      "libraryImageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/271590/library_600x900_2x.jpg",
+      "headerImageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/271590/header.jpg?t=1765387725",
+      "capsuleImageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/271590/capsule_184x69.jpg?t=1765387725",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/271590/library_600x900_2x.jpg",
+      "avatarText": "GT",
+      "color": "#e34f59",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "x": 1152,
+          "y": 768,
+          "width": 384,
+          "height": 384,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.5,
+          "u1": 0.8,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/271590/library_600x900_2x.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "steam-library"
+        }
+      }
+    },
+    {
+      "id": "steam-252490",
+      "name": "Rust",
+      "appid": 252490,
+      "libraryImageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/library_600x900_2x.jpg",
+      "headerImageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/header.jpg?t=1778597738",
+      "capsuleImageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/21aac0b6e20e1ba12f635e7deb730e32a51afbd5/capsule_184x69.jpg?t=1778597738",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/library_600x900_2x.jpg",
+      "avatarText": "R",
+      "color": "#c9a14a",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "x": 1536,
+          "y": 768,
+          "width": 384,
+          "height": 384,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.5,
+          "u1": 1,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/library_600x900_2x.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "steam-library"
+        }
+      }
+    },
+    {
+      "id": "steam-1085660",
+      "name": "Destiny 2",
+      "shortName": "Destiny 2",
+      "avatarText": "D2",
+      "color": "#9aa4b2",
+      "libraryImageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1085660/library_600x900_2x.jpg",
+      "headerImageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1085660/0ccf0dc0a8c4ec078db7ab99ddc820b2fa884441/header.jpg?t=1781815889",
+      "capsuleImageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1085660/953a00adc58cc0758102a5026dda6f2a76a5a6a1/capsule_184x69.jpg?t=1781815889",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1085660/library_600x900_2x.jpg",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "x": 0,
+          "y": 1152,
+          "width": 384,
+          "height": 384,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.75,
+          "u1": 0.2,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1085660/library_600x900_2x.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "steam-library"
+        }
+      }
+    },
+    {
+      "id": "steam-413150",
+      "name": "Stardew Valley",
+      "shortName": "Stardew Valley",
+      "avatarText": "SV",
+      "color": "#ef426f",
+      "libraryImageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/library_600x900_2x.jpg",
+      "headerImageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/header.jpg?t=1754692865",
+      "capsuleImageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/capsule_184x69.jpg?t=1754692865",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/library_600x900_2x.jpg",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "x": 384,
+          "y": 1152,
+          "width": 384,
+          "height": 384,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.75,
+          "u1": 0.4,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/library_600x900_2x.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "steam-library"
+        }
+      }
+    },
+    {
+      "id": "steam-431960",
+      "name": "Wallpaper Engine",
+      "shortName": "Wallpaper Engine",
+      "avatarText": "WE",
+      "color": "#86bdf4",
+      "libraryImageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/431960/library_600x900_2x.jpg",
+      "headerImageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/431960/header.jpg?t=1779452230",
+      "capsuleImageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/431960/capsule_184x69.jpg?t=1779452230",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/431960/library_600x900_2x.jpg",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "x": 768,
+          "y": 1152,
+          "width": 384,
+          "height": 384,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.75,
+          "u1": 0.6,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/431960/library_600x900_2x.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "steam-library"
+        }
+      }
+    },
+    {
+      "id": "steam-2507950",
+      "name": "Delta Force",
+      "shortName": "Delta Force",
+      "avatarText": "DF",
+      "color": "#7b9b65",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "x": 1152,
+          "y": 1152,
+          "width": 384,
+          "height": 384,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.75,
+          "u1": 0.8,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2507950/library_600x900_2x.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "steam-library"
+        }
+      },
+      "libraryImageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2507950/library_600x900_2x.jpg",
+      "headerImageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2507950/4b5008bef24e2e06a51eeeeef7709813fafefdbf/header_alt_assets_12.jpg?t=1783653262",
+      "capsuleImageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2507950/1a6e1f7f03ddbcf1597b40282db9722275930846/capsule_184x69_alt_assets_12.jpg?t=1783653262",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2507950/library_600x900_2x.jpg"
+    },
+    {
+      "id": "steam-1962700",
+      "name": "Subnautica 2",
+      "shortName": "Subnautica 2",
+      "avatarText": "S2",
+      "color": "#2f4858",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+          "x": 1536,
+          "y": 1152,
+          "width": 384,
+          "height": 384,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.75,
+          "u1": 1,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:steam-1962700",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    }
+  ],
+  "frames": [
+    {
+      "date": "20230801",
+      "values": [
+        {
+          "date": "20230801",
+          "id": "steam-730",
+          "value": 922153,
+          "averagePlayers": 922152.86,
+          "peakPlayers": 1369511,
+          "rank": 1
+        },
+        {
+          "date": "20230801",
+          "id": "steam-570",
+          "value": 444319,
+          "averagePlayers": 444319.24,
+          "peakPlayers": 855495,
+          "rank": 2
+        },
+        {
+          "date": "20230801",
+          "id": "steam-1172470",
+          "value": 188892,
+          "averagePlayers": 188891.82,
+          "peakPlayers": 451223,
+          "rank": 3
+        },
+        {
+          "date": "20230801",
+          "id": "steam-578080",
+          "value": 180373,
+          "averagePlayers": 180372.9,
+          "peakPlayers": 397857,
+          "rank": 4
+        },
+        {
+          "date": "20230801",
+          "id": "steam-271590",
+          "value": 103806,
+          "averagePlayers": 103806.32,
+          "peakPlayers": 170280,
+          "rank": 5
+        },
+        {
+          "date": "20230801",
+          "id": "steam-252490",
+          "value": 83464,
+          "averagePlayers": 83463.73,
+          "peakPlayers": 172249,
+          "rank": 6
+        },
+        {
+          "date": "20230801",
+          "id": "steam-431960",
+          "value": 76385,
+          "averagePlayers": 76384.55,
+          "peakPlayers": 150271,
+          "rank": 7
+        },
+        {
+          "date": "20230801",
+          "id": "steam-1085660",
+          "value": 48823,
+          "averagePlayers": 48823.35,
+          "peakPlayers": 126261,
+          "rank": 8
+        },
+        {
+          "date": "20230801",
+          "id": "steam-413150",
+          "value": 34521,
+          "averagePlayers": 34520.58,
+          "peakPlayers": 53949,
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "date": "20230901",
+      "values": [
+        {
+          "date": "20230901",
+          "id": "steam-730",
+          "value": 976138,
+          "averagePlayers": 976137.99,
+          "peakPlayers": 1556326,
+          "rank": 1
+        },
+        {
+          "date": "20230901",
+          "id": "steam-570",
+          "value": 437273,
+          "averagePlayers": 437273.4,
+          "peakPlayers": 777466,
+          "rank": 2
+        },
+        {
+          "date": "20230901",
+          "id": "steam-1172470",
+          "value": 186494,
+          "averagePlayers": 186494.41,
+          "peakPlayers": 452991,
+          "rank": 3
+        },
+        {
+          "date": "20230901",
+          "id": "steam-578080",
+          "value": 181956,
+          "averagePlayers": 181956.39,
+          "peakPlayers": 415099,
+          "rank": 4
+        },
+        {
+          "date": "20230901",
+          "id": "steam-271590",
+          "value": 91128,
+          "averagePlayers": 91128.11,
+          "peakPlayers": 166502,
+          "rank": 5
+        },
+        {
+          "date": "20230901",
+          "id": "steam-431960",
+          "value": 69907,
+          "averagePlayers": 69906.72,
+          "peakPlayers": 133544,
+          "rank": 6
+        },
+        {
+          "date": "20230901",
+          "id": "steam-252490",
+          "value": 69292,
+          "averagePlayers": 69292.44,
+          "peakPlayers": 127530,
+          "rank": 7
+        },
+        {
+          "date": "20230901",
+          "id": "steam-1085660",
+          "value": 58963,
+          "averagePlayers": 58963.16,
+          "peakPlayers": 145390,
+          "rank": 8
+        },
+        {
+          "date": "20230901",
+          "id": "steam-413150",
+          "value": 27765,
+          "averagePlayers": 27764.51,
+          "peakPlayers": 44391,
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "date": "20231001",
+      "values": [
+        {
+          "date": "20231001",
+          "id": "steam-730",
+          "value": 792125,
+          "averagePlayers": 792124.96,
+          "peakPlayers": 1364902,
+          "rank": 1
+        },
+        {
+          "date": "20231001",
+          "id": "steam-570",
+          "value": 435621,
+          "averagePlayers": 435620.98,
+          "peakPlayers": 780443,
+          "rank": 2
+        },
+        {
+          "date": "20231001",
+          "id": "steam-578080",
+          "value": 188671,
+          "averagePlayers": 188670.82,
+          "peakPlayers": 444585,
+          "rank": 3
+        },
+        {
+          "date": "20231001",
+          "id": "steam-1172470",
+          "value": 181420,
+          "averagePlayers": 181420.4,
+          "peakPlayers": 435229,
+          "rank": 4
+        },
+        {
+          "date": "20231001",
+          "id": "steam-271590",
+          "value": 86738,
+          "averagePlayers": 86737.81,
+          "peakPlayers": 166618,
+          "rank": 5
+        },
+        {
+          "date": "20231001",
+          "id": "steam-431960",
+          "value": 71815,
+          "averagePlayers": 71815.37,
+          "peakPlayers": 128667,
+          "rank": 6
+        },
+        {
+          "date": "20231001",
+          "id": "steam-252490",
+          "value": 69356,
+          "averagePlayers": 69355.77,
+          "peakPlayers": 130885,
+          "rank": 7
+        },
+        {
+          "date": "20231001",
+          "id": "steam-1085660",
+          "value": 42140,
+          "averagePlayers": 42140.39,
+          "peakPlayers": 68148,
+          "rank": 8
+        },
+        {
+          "date": "20231001",
+          "id": "steam-413150",
+          "value": 29556,
+          "averagePlayers": 29556.36,
+          "peakPlayers": 48881,
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "date": "20231101",
+      "values": [
+        {
+          "date": "20231101",
+          "id": "steam-730",
+          "value": 714511,
+          "averagePlayers": 714511.43,
+          "peakPlayers": 1161043,
+          "rank": 1
+        },
+        {
+          "date": "20231101",
+          "id": "steam-570",
+          "value": 433728,
+          "averagePlayers": 433727.63,
+          "peakPlayers": 767353,
+          "rank": 2
+        },
+        {
+          "date": "20231101",
+          "id": "steam-578080",
+          "value": 206209,
+          "averagePlayers": 206208.57,
+          "peakPlayers": 502374,
+          "rank": 3
+        },
+        {
+          "date": "20231101",
+          "id": "steam-1172470",
+          "value": 167296,
+          "averagePlayers": 167295.65,
+          "peakPlayers": 438349,
+          "rank": 4
+        },
+        {
+          "date": "20231101",
+          "id": "steam-271590",
+          "value": 88008,
+          "averagePlayers": 88008.14,
+          "peakPlayers": 167317,
+          "rank": 5
+        },
+        {
+          "date": "20231101",
+          "id": "steam-431960",
+          "value": 70041,
+          "averagePlayers": 70041.48,
+          "peakPlayers": 132609,
+          "rank": 6
+        },
+        {
+          "date": "20231101",
+          "id": "steam-252490",
+          "value": 69013,
+          "averagePlayers": 69012.7,
+          "peakPlayers": 137752,
+          "rank": 7
+        },
+        {
+          "date": "20231101",
+          "id": "steam-1085660",
+          "value": 33486,
+          "averagePlayers": 33486.36,
+          "peakPlayers": 94423,
+          "rank": 8
+        },
+        {
+          "date": "20231101",
+          "id": "steam-413150",
+          "value": 28715,
+          "averagePlayers": 28714.73,
+          "peakPlayers": 46525,
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "date": "20231201",
+      "values": [
+        {
+          "date": "20231201",
+          "id": "steam-730",
+          "value": 770095,
+          "averagePlayers": 770094.8,
+          "peakPlayers": 1248217,
+          "rank": 1
+        },
+        {
+          "date": "20231201",
+          "id": "steam-570",
+          "value": 435518,
+          "averagePlayers": 435517.65,
+          "peakPlayers": 802728,
+          "rank": 2
+        },
+        {
+          "date": "20231201",
+          "id": "steam-578080",
+          "value": 247013,
+          "averagePlayers": 247012.55,
+          "peakPlayers": 623852,
+          "rank": 3
+        },
+        {
+          "date": "20231201",
+          "id": "steam-271590",
+          "value": 145070,
+          "averagePlayers": 145070.42,
+          "peakPlayers": 295651,
+          "rank": 4
+        },
+        {
+          "date": "20231201",
+          "id": "steam-1172470",
+          "value": 144448,
+          "averagePlayers": 144447.76,
+          "peakPlayers": 348791,
+          "rank": 5
+        },
+        {
+          "date": "20231201",
+          "id": "steam-252490",
+          "value": 84017,
+          "averagePlayers": 84016.68,
+          "peakPlayers": 143038,
+          "rank": 6
+        },
+        {
+          "date": "20231201",
+          "id": "steam-431960",
+          "value": 72813,
+          "averagePlayers": 72813.43,
+          "peakPlayers": 132225,
+          "rank": 7
+        },
+        {
+          "date": "20231201",
+          "id": "steam-1085660",
+          "value": 49451,
+          "averagePlayers": 49451.17,
+          "peakPlayers": 103607,
+          "rank": 8
+        },
+        {
+          "date": "20231201",
+          "id": "steam-413150",
+          "value": 31949,
+          "averagePlayers": 31948.8,
+          "peakPlayers": 53605,
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "date": "20240101",
+      "values": [
+        {
+          "date": "20240101",
+          "id": "steam-730",
+          "value": 760859,
+          "averagePlayers": 760859.23,
+          "peakPlayers": 1277907,
+          "rank": 1
+        },
+        {
+          "date": "20240101",
+          "id": "steam-570",
+          "value": 440229,
+          "averagePlayers": 440229.36,
+          "peakPlayers": 736488,
+          "rank": 2
+        },
+        {
+          "date": "20240101",
+          "id": "steam-578080",
+          "value": 249558,
+          "averagePlayers": 249557.66,
+          "peakPlayers": 587152,
+          "rank": 3
+        },
+        {
+          "date": "20240101",
+          "id": "steam-1172470",
+          "value": 146164,
+          "averagePlayers": 146164.19,
+          "peakPlayers": 344621,
+          "rank": 4
+        },
+        {
+          "date": "20240101",
+          "id": "steam-271590",
+          "value": 123806,
+          "averagePlayers": 123806.19,
+          "peakPlayers": 218773,
+          "rank": 5
+        },
+        {
+          "date": "20240101",
+          "id": "steam-252490",
+          "value": 90065,
+          "averagePlayers": 90065.28,
+          "peakPlayers": 190886,
+          "rank": 6
+        },
+        {
+          "date": "20240101",
+          "id": "steam-431960",
+          "value": 78918,
+          "averagePlayers": 78917.72,
+          "peakPlayers": 131365,
+          "rank": 7
+        },
+        {
+          "date": "20240101",
+          "id": "steam-413150",
+          "value": 39083,
+          "averagePlayers": 39082.73,
+          "peakPlayers": 58773,
+          "rank": 8
+        },
+        {
+          "date": "20240101",
+          "id": "steam-1085660",
+          "value": 39012,
+          "averagePlayers": 39011.79,
+          "peakPlayers": 58769,
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "date": "20240201",
+      "values": [
+        {
+          "date": "20240201",
+          "id": "steam-730",
+          "value": 786631,
+          "averagePlayers": 786630.82,
+          "peakPlayers": 1347519,
+          "rank": 1
+        },
+        {
+          "date": "20240201",
+          "id": "steam-570",
+          "value": 427922,
+          "averagePlayers": 427922.41,
+          "peakPlayers": 741290,
+          "rank": 2
+        },
+        {
+          "date": "20240201",
+          "id": "steam-578080",
+          "value": 250315,
+          "averagePlayers": 250314.93,
+          "peakPlayers": 609366,
+          "rank": 3
+        },
+        {
+          "date": "20240201",
+          "id": "steam-1172470",
+          "value": 185662,
+          "averagePlayers": 185661.61,
+          "peakPlayers": 469431,
+          "rank": 4
+        },
+        {
+          "date": "20240201",
+          "id": "steam-271590",
+          "value": 108198,
+          "averagePlayers": 108198.07,
+          "peakPlayers": 185992,
+          "rank": 5
+        },
+        {
+          "date": "20240201",
+          "id": "steam-252490",
+          "value": 82116,
+          "averagePlayers": 82116.29,
+          "peakPlayers": 153738,
+          "rank": 6
+        },
+        {
+          "date": "20240201",
+          "id": "steam-431960",
+          "value": 75137,
+          "averagePlayers": 75137.07,
+          "peakPlayers": 124042,
+          "rank": 7
+        },
+        {
+          "date": "20240201",
+          "id": "steam-1085660",
+          "value": 32567,
+          "averagePlayers": 32567.04,
+          "peakPlayers": 46511,
+          "rank": 8
+        },
+        {
+          "date": "20240201",
+          "id": "steam-413150",
+          "value": 32353,
+          "averagePlayers": 32352.95,
+          "peakPlayers": 60742,
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "date": "20240301",
+      "values": [
+        {
+          "date": "20240301",
+          "id": "steam-730",
+          "value": 885630,
+          "averagePlayers": 885629.69,
+          "peakPlayers": 1521796,
+          "rank": 1
+        },
+        {
+          "date": "20240301",
+          "id": "steam-570",
+          "value": 428919,
+          "averagePlayers": 428918.55,
+          "peakPlayers": 729865,
+          "rank": 2
+        },
+        {
+          "date": "20240301",
+          "id": "steam-578080",
+          "value": 281342,
+          "averagePlayers": 281342.08,
+          "peakPlayers": 764034,
+          "rank": 3
+        },
+        {
+          "date": "20240301",
+          "id": "steam-1172470",
+          "value": 189219,
+          "averagePlayers": 189218.54,
+          "peakPlayers": 463933,
+          "rank": 4
+        },
+        {
+          "date": "20240301",
+          "id": "steam-271590",
+          "value": 104564,
+          "averagePlayers": 104563.67,
+          "peakPlayers": 193834,
+          "rank": 5
+        },
+        {
+          "date": "20240301",
+          "id": "steam-413150",
+          "value": 82588,
+          "averagePlayers": 82587.89,
+          "peakPlayers": 236614,
+          "rank": 6
+        },
+        {
+          "date": "20240301",
+          "id": "steam-252490",
+          "value": 82243,
+          "averagePlayers": 82242.76,
+          "peakPlayers": 145916,
+          "rank": 7
+        },
+        {
+          "date": "20240301",
+          "id": "steam-431960",
+          "value": 70678,
+          "averagePlayers": 70678.24,
+          "peakPlayers": 130658,
+          "rank": 8
+        },
+        {
+          "date": "20240301",
+          "id": "steam-1085660",
+          "value": 39479,
+          "averagePlayers": 39479.31,
+          "peakPlayers": 74473,
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "date": "20240401",
+      "values": [
+        {
+          "date": "20240401",
+          "id": "steam-730",
+          "value": 930749,
+          "averagePlayers": 930748.98,
+          "peakPlayers": 1618685,
+          "rank": 1
+        },
+        {
+          "date": "20240401",
+          "id": "steam-570",
+          "value": 456551,
+          "averagePlayers": 456550.81,
+          "peakPlayers": 921133,
+          "rank": 2
+        },
+        {
+          "date": "20240401",
+          "id": "steam-578080",
+          "value": 280853,
+          "averagePlayers": 280853.22,
+          "peakPlayers": 699697,
+          "rank": 3
+        },
+        {
+          "date": "20240401",
+          "id": "steam-1172470",
+          "value": 166768,
+          "averagePlayers": 166767.82,
+          "peakPlayers": 430800,
+          "rank": 4
+        },
+        {
+          "date": "20240401",
+          "id": "steam-413150",
+          "value": 120134,
+          "averagePlayers": 120133.84,
+          "peakPlayers": 209332,
+          "rank": 5
+        },
+        {
+          "date": "20240401",
+          "id": "steam-271590",
+          "value": 95409,
+          "averagePlayers": 95409.06,
+          "peakPlayers": 169535,
+          "rank": 6
+        },
+        {
+          "date": "20240401",
+          "id": "steam-252490",
+          "value": 80885,
+          "averagePlayers": 80885.38,
+          "peakPlayers": 154488,
+          "rank": 7
+        },
+        {
+          "date": "20240401",
+          "id": "steam-431960",
+          "value": 68101,
+          "averagePlayers": 68101.16,
+          "peakPlayers": 123964,
+          "rank": 8
+        },
+        {
+          "date": "20240401",
+          "id": "steam-1085660",
+          "value": 60106,
+          "averagePlayers": 60105.96,
+          "peakPlayers": 125545,
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "date": "20240501",
+      "values": [
+        {
+          "date": "20240501",
+          "id": "steam-730",
+          "value": 958207,
+          "averagePlayers": 958207.34,
+          "peakPlayers": 1614925,
+          "rank": 1
+        },
+        {
+          "date": "20240501",
+          "id": "steam-570",
+          "value": 512919,
+          "averagePlayers": 512919.2,
+          "peakPlayers": 943059,
+          "rank": 2
+        },
+        {
+          "date": "20240501",
+          "id": "steam-578080",
+          "value": 271364,
+          "averagePlayers": 271364.22,
+          "peakPlayers": 693105,
+          "rank": 3
+        },
+        {
+          "date": "20240501",
+          "id": "steam-1172470",
+          "value": 167424,
+          "averagePlayers": 167424.45,
+          "peakPlayers": 425742,
+          "rank": 4
+        },
+        {
+          "date": "20240501",
+          "id": "steam-271590",
+          "value": 92748,
+          "averagePlayers": 92747.84,
+          "peakPlayers": 152030,
+          "rank": 5
+        },
+        {
+          "date": "20240501",
+          "id": "steam-413150",
+          "value": 89017,
+          "averagePlayers": 89016.93,
+          "peakPlayers": 175581,
+          "rank": 6
+        },
+        {
+          "date": "20240501",
+          "id": "steam-252490",
+          "value": 82374,
+          "averagePlayers": 82373.76,
+          "peakPlayers": 153662,
+          "rank": 7
+        },
+        {
+          "date": "20240501",
+          "id": "steam-1085660",
+          "value": 72527,
+          "averagePlayers": 72526.73,
+          "peakPlayers": 116100,
+          "rank": 8
+        },
+        {
+          "date": "20240501",
+          "id": "steam-431960",
+          "value": 66716,
+          "averagePlayers": 66715.73,
+          "peakPlayers": 118888,
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "date": "20240601",
+      "values": [
+        {
+          "date": "20240601",
+          "id": "steam-730",
+          "value": 947521,
+          "averagePlayers": 947520.53,
+          "peakPlayers": 1510840,
+          "rank": 1
+        },
+        {
+          "date": "20240601",
+          "id": "steam-570",
+          "value": 486674,
+          "averagePlayers": 486674.34,
+          "peakPlayers": 869492,
+          "rank": 2
+        },
+        {
+          "date": "20240601",
+          "id": "steam-578080",
+          "value": 287499,
+          "averagePlayers": 287498.52,
+          "peakPlayers": 699256,
+          "rank": 3
+        },
+        {
+          "date": "20240601",
+          "id": "steam-1172470",
+          "value": 139736,
+          "averagePlayers": 139736.43,
+          "peakPlayers": 326928,
+          "rank": 4
+        },
+        {
+          "date": "20240601",
+          "id": "steam-1085660",
+          "value": 123023,
+          "averagePlayers": 123022.96,
+          "peakPlayers": 314379,
+          "rank": 5
+        },
+        {
+          "date": "20240601",
+          "id": "steam-271590",
+          "value": 102804,
+          "averagePlayers": 102804.47,
+          "peakPlayers": 171685,
+          "rank": 6
+        },
+        {
+          "date": "20240601",
+          "id": "steam-252490",
+          "value": 97861,
+          "averagePlayers": 97860.84,
+          "peakPlayers": 175036,
+          "rank": 7
+        },
+        {
+          "date": "20240601",
+          "id": "steam-431960",
+          "value": 75098,
+          "averagePlayers": 75097.92,
+          "peakPlayers": 128399,
+          "rank": 8
+        },
+        {
+          "date": "20240601",
+          "id": "steam-413150",
+          "value": 64006,
+          "averagePlayers": 64005.98,
+          "peakPlayers": 117975,
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "date": "20240701",
+      "values": [
+        {
+          "date": "20240701",
+          "id": "steam-730",
+          "value": 875365,
+          "averagePlayers": 875365.08,
+          "peakPlayers": 1342171,
+          "rank": 1
+        },
+        {
+          "date": "20240701",
+          "id": "steam-570",
+          "value": 475394,
+          "averagePlayers": 475393.65,
+          "peakPlayers": 801126,
+          "rank": 2
+        },
+        {
+          "date": "20240701",
+          "id": "steam-578080",
+          "value": 293397,
+          "averagePlayers": 293396.8,
+          "peakPlayers": 700235,
+          "rank": 3
+        },
+        {
+          "date": "20240701",
+          "id": "steam-1172470",
+          "value": 116747,
+          "averagePlayers": 116747.21,
+          "peakPlayers": 265369,
+          "rank": 4
+        },
+        {
+          "date": "20240701",
+          "id": "steam-271590",
+          "value": 115604,
+          "averagePlayers": 115603.54,
+          "peakPlayers": 185504,
+          "rank": 5
+        },
+        {
+          "date": "20240701",
+          "id": "steam-252490",
+          "value": 93180,
+          "averagePlayers": 93180,
+          "peakPlayers": 173651,
+          "rank": 6
+        },
+        {
+          "date": "20240701",
+          "id": "steam-413150",
+          "value": 82852,
+          "averagePlayers": 82852.05,
+          "peakPlayers": 148985,
+          "rank": 7
+        },
+        {
+          "date": "20240701",
+          "id": "steam-431960",
+          "value": 79260,
+          "averagePlayers": 79259.98,
+          "peakPlayers": 123238,
+          "rank": 8
+        },
+        {
+          "date": "20240701",
+          "id": "steam-1085660",
+          "value": 62149,
+          "averagePlayers": 62149.43,
+          "peakPlayers": 100435,
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "date": "20240801",
+      "values": [
+        {
+          "date": "20240801",
+          "id": "steam-730",
+          "value": 897338,
+          "averagePlayers": 897337.88,
+          "peakPlayers": 1425958,
+          "rank": 1
+        },
+        {
+          "date": "20240801",
+          "id": "steam-570",
+          "value": 449798,
+          "averagePlayers": 449798.09,
+          "peakPlayers": 734381,
+          "rank": 2
+        },
+        {
+          "date": "20240801",
+          "id": "steam-578080",
+          "value": 285247,
+          "averagePlayers": 285247.47,
+          "peakPlayers": 719506,
+          "rank": 3
+        },
+        {
+          "date": "20240801",
+          "id": "steam-1172470",
+          "value": 120009,
+          "averagePlayers": 120008.56,
+          "peakPlayers": 314327,
+          "rank": 4
+        },
+        {
+          "date": "20240801",
+          "id": "steam-271590",
+          "value": 116181,
+          "averagePlayers": 116181.25,
+          "peakPlayers": 184785,
+          "rank": 5
+        },
+        {
+          "date": "20240801",
+          "id": "steam-252490",
+          "value": 90633,
+          "averagePlayers": 90633.01,
+          "peakPlayers": 172427,
+          "rank": 6
+        },
+        {
+          "date": "20240801",
+          "id": "steam-431960",
+          "value": 79611,
+          "averagePlayers": 79610.65,
+          "peakPlayers": 122730,
+          "rank": 7
+        },
+        {
+          "date": "20240801",
+          "id": "steam-413150",
+          "value": 65571,
+          "averagePlayers": 65571.14,
+          "peakPlayers": 114626,
+          "rank": 8
+        },
+        {
+          "date": "20240801",
+          "id": "steam-1085660",
+          "value": 35747,
+          "averagePlayers": 35746.81,
+          "peakPlayers": 63464,
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "date": "20240901",
+      "values": [
+        {
+          "date": "20240901",
+          "id": "steam-730",
+          "value": 836307,
+          "averagePlayers": 836306.66,
+          "peakPlayers": 1473144,
+          "rank": 1
+        },
+        {
+          "date": "20240901",
+          "id": "steam-570",
+          "value": 426812,
+          "averagePlayers": 426811.67,
+          "peakPlayers": 726385,
+          "rank": 2
+        },
+        {
+          "date": "20240901",
+          "id": "steam-578080",
+          "value": 298267,
+          "averagePlayers": 298267.38,
+          "peakPlayers": 807515,
+          "rank": 3
+        },
+        {
+          "date": "20240901",
+          "id": "steam-1172470",
+          "value": 107227,
+          "averagePlayers": 107227.3,
+          "peakPlayers": 249334,
+          "rank": 4
+        },
+        {
+          "date": "20240901",
+          "id": "steam-271590",
+          "value": 97104,
+          "averagePlayers": 97104.3,
+          "peakPlayers": 185555,
+          "rank": 5
+        },
+        {
+          "date": "20240901",
+          "id": "steam-252490",
+          "value": 76246,
+          "averagePlayers": 76245.68,
+          "peakPlayers": 134170,
+          "rank": 6
+        },
+        {
+          "date": "20240901",
+          "id": "steam-431960",
+          "value": 75067,
+          "averagePlayers": 75066.63,
+          "peakPlayers": 132539,
+          "rank": 7
+        },
+        {
+          "date": "20240901",
+          "id": "steam-413150",
+          "value": 49228,
+          "averagePlayers": 49227.52,
+          "peakPlayers": 88441,
+          "rank": 8
+        },
+        {
+          "date": "20240901",
+          "id": "steam-1085660",
+          "value": 25233,
+          "averagePlayers": 25233.14,
+          "peakPlayers": 41373,
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "date": "20241001",
+      "values": [
+        {
+          "date": "20241001",
+          "id": "steam-730",
+          "value": 829439,
+          "averagePlayers": 829438.76,
+          "peakPlayers": 1484045,
+          "rank": 1
+        },
+        {
+          "date": "20241001",
+          "id": "steam-570",
+          "value": 410682,
+          "averagePlayers": 410681.51,
+          "peakPlayers": 706726,
+          "rank": 2
+        },
+        {
+          "date": "20241001",
+          "id": "steam-578080",
+          "value": 293350,
+          "averagePlayers": 293349.98,
+          "peakPlayers": 762909,
+          "rank": 3
+        },
+        {
+          "date": "20241001",
+          "id": "steam-271590",
+          "value": 91561,
+          "averagePlayers": 91560.9,
+          "peakPlayers": 162388,
+          "rank": 4
+        },
+        {
+          "date": "20241001",
+          "id": "steam-252490",
+          "value": 89777,
+          "averagePlayers": 89776.59,
+          "peakPlayers": 168999,
+          "rank": 5
+        },
+        {
+          "date": "20241001",
+          "id": "steam-1172470",
+          "value": 85103,
+          "averagePlayers": 85102.53,
+          "peakPlayers": 184035,
+          "rank": 6
+        },
+        {
+          "date": "20241001",
+          "id": "steam-431960",
+          "value": 77269,
+          "averagePlayers": 77269.23,
+          "peakPlayers": 140232,
+          "rank": 7
+        },
+        {
+          "date": "20241001",
+          "id": "steam-413150",
+          "value": 66651,
+          "averagePlayers": 66650.87,
+          "peakPlayers": 176909,
+          "rank": 8
+        },
+        {
+          "date": "20241001",
+          "id": "steam-1085660",
+          "value": 36169,
+          "averagePlayers": 36169.31,
+          "peakPlayers": 89512,
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "date": "20241101",
+      "values": [
+        {
+          "date": "20241101",
+          "id": "steam-730",
+          "value": 852164,
+          "averagePlayers": 852164.3,
+          "peakPlayers": 1556938,
+          "rank": 1
+        },
+        {
+          "date": "20241101",
+          "id": "steam-570",
+          "value": 454956,
+          "averagePlayers": 454956.21,
+          "peakPlayers": 797599,
+          "rank": 2
+        },
+        {
+          "date": "20241101",
+          "id": "steam-578080",
+          "value": 315613,
+          "averagePlayers": 315613.2,
+          "peakPlayers": 796001,
+          "rank": 3
+        },
+        {
+          "date": "20241101",
+          "id": "steam-271590",
+          "value": 100381,
+          "averagePlayers": 100381.18,
+          "peakPlayers": 189870,
+          "rank": 4
+        },
+        {
+          "date": "20241101",
+          "id": "steam-252490",
+          "value": 95865,
+          "averagePlayers": 95865.05,
+          "peakPlayers": 182603,
+          "rank": 5
+        },
+        {
+          "date": "20241101",
+          "id": "steam-1172470",
+          "value": 91362,
+          "averagePlayers": 91362.07,
+          "peakPlayers": 225795,
+          "rank": 6
+        },
+        {
+          "date": "20241101",
+          "id": "steam-431960",
+          "value": 78951,
+          "averagePlayers": 78950.51,
+          "peakPlayers": 142248,
+          "rank": 7
+        },
+        {
+          "date": "20241101",
+          "id": "steam-413150",
+          "value": 61855,
+          "averagePlayers": 61855.45,
+          "peakPlayers": 116286,
+          "rank": 8
+        },
+        {
+          "date": "20241101",
+          "id": "steam-1085660",
+          "value": 30113,
+          "averagePlayers": 30113.48,
+          "peakPlayers": 53135,
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "date": "20241201",
+      "values": [
+        {
+          "date": "20241201",
+          "id": "steam-730",
+          "value": 913953,
+          "averagePlayers": 913953.36,
+          "peakPlayers": 1740261,
+          "rank": 1
+        },
+        {
+          "date": "20241201",
+          "id": "steam-570",
+          "value": 437636,
+          "averagePlayers": 437635.69,
+          "peakPlayers": 744163,
+          "rank": 2
+        },
+        {
+          "date": "20241201",
+          "id": "steam-578080",
+          "value": 321098,
+          "averagePlayers": 321097.93,
+          "peakPlayers": 799077,
+          "rank": 3
+        },
+        {
+          "date": "20241201",
+          "id": "steam-2694490",
+          "value": 304199,
+          "averagePlayers": 304199.39,
+          "peakPlayers": 578562,
+          "rank": 4
+        },
+        {
+          "date": "20241201",
+          "id": "steam-271590",
+          "value": 123261,
+          "averagePlayers": 123261.08,
+          "peakPlayers": 217485,
+          "rank": 5
+        },
+        {
+          "date": "20241201",
+          "id": "steam-252490",
+          "value": 112605,
+          "averagePlayers": 112605.48,
+          "peakPlayers": 191133,
+          "rank": 6
+        },
+        {
+          "date": "20241201",
+          "id": "steam-431960",
+          "value": 78860,
+          "averagePlayers": 78859.99,
+          "peakPlayers": 136667,
+          "rank": 7
+        },
+        {
+          "date": "20241201",
+          "id": "steam-1172470",
+          "value": 74196,
+          "averagePlayers": 74196.38,
+          "peakPlayers": 174720,
+          "rank": 8
+        },
+        {
+          "date": "20241201",
+          "id": "steam-2507950",
+          "value": 73013,
+          "averagePlayers": 73013.21,
+          "peakPlayers": 118626,
+          "rank": 9
+        },
+        {
+          "date": "20241201",
+          "id": "steam-413150",
+          "value": 66413,
+          "averagePlayers": 66412.98,
+          "peakPlayers": 125672,
+          "rank": 10
+        },
+        {
+          "date": "20241201",
+          "id": "steam-1085660",
+          "value": 20930,
+          "averagePlayers": 20929.85,
+          "peakPlayers": 36896,
+          "rank": 11
+        }
+      ]
+    },
+    {
+      "date": "20250101",
+      "values": [
+        {
+          "date": "20250101",
+          "id": "steam-730",
+          "value": 914092,
+          "averagePlayers": 914092.22,
+          "peakPlayers": 1594016,
+          "rank": 1
+        },
+        {
+          "date": "20250101",
+          "id": "steam-570",
+          "value": 446491,
+          "averagePlayers": 446491.16,
+          "peakPlayers": 719825,
+          "rank": 2
+        },
+        {
+          "date": "20250101",
+          "id": "steam-578080",
+          "value": 307550,
+          "averagePlayers": 307550.31,
+          "peakPlayers": 786821,
+          "rank": 3
+        },
+        {
+          "date": "20250101",
+          "id": "steam-2694490",
+          "value": 190494,
+          "averagePlayers": 190494.21,
+          "peakPlayers": 353966,
+          "rank": 4
+        },
+        {
+          "date": "20250101",
+          "id": "steam-271590",
+          "value": 129120,
+          "averagePlayers": 129120.24,
+          "peakPlayers": 211328,
+          "rank": 5
+        },
+        {
+          "date": "20250101",
+          "id": "steam-252490",
+          "value": 124496,
+          "averagePlayers": 124496.12,
+          "peakPlayers": 259646,
+          "rank": 6
+        },
+        {
+          "date": "20250101",
+          "id": "steam-431960",
+          "value": 85102,
+          "averagePlayers": 85101.64,
+          "peakPlayers": 143689,
+          "rank": 7
+        },
+        {
+          "date": "20250101",
+          "id": "steam-2507950",
+          "value": 73111,
+          "averagePlayers": 73111.11,
+          "peakPlayers": 131036,
+          "rank": 8
+        },
+        {
+          "date": "20250101",
+          "id": "steam-413150",
+          "value": 72808,
+          "averagePlayers": 72807.99,
+          "peakPlayers": 129558,
+          "rank": 9
+        },
+        {
+          "date": "20250101",
+          "id": "steam-1172470",
+          "value": 69580,
+          "averagePlayers": 69580.22,
+          "peakPlayers": 153693,
+          "rank": 10
+        },
+        {
+          "date": "20250101",
+          "id": "steam-1085660",
+          "value": 18542,
+          "averagePlayers": 18542.26,
+          "peakPlayers": 36488,
+          "rank": 11
+        }
+      ]
+    },
+    {
+      "date": "20250201",
+      "values": [
+        {
+          "date": "20250201",
+          "id": "steam-730",
+          "value": 1003571,
+          "averagePlayers": 1003570.56,
+          "peakPlayers": 1783434,
+          "rank": 1
+        },
+        {
+          "date": "20250201",
+          "id": "steam-570",
+          "value": 431749,
+          "averagePlayers": 431748.69,
+          "peakPlayers": 708043,
+          "rank": 2
+        },
+        {
+          "date": "20250201",
+          "id": "steam-578080",
+          "value": 316776,
+          "averagePlayers": 316776.38,
+          "peakPlayers": 818843,
+          "rank": 3
+        },
+        {
+          "date": "20250201",
+          "id": "steam-252490",
+          "value": 121569,
+          "averagePlayers": 121569.09,
+          "peakPlayers": 232431,
+          "rank": 4
+        },
+        {
+          "date": "20250201",
+          "id": "steam-271590",
+          "value": 117781,
+          "averagePlayers": 117781.37,
+          "peakPlayers": 208168,
+          "rank": 5
+        },
+        {
+          "date": "20250201",
+          "id": "steam-1172470",
+          "value": 95099,
+          "averagePlayers": 95099.47,
+          "peakPlayers": 225810,
+          "rank": 6
+        },
+        {
+          "date": "20250201",
+          "id": "steam-2694490",
+          "value": 88935,
+          "averagePlayers": 88935,
+          "peakPlayers": 180400,
+          "rank": 7
+        },
+        {
+          "date": "20250201",
+          "id": "steam-431960",
+          "value": 83550,
+          "averagePlayers": 83550.38,
+          "peakPlayers": 139559,
+          "rank": 8
+        },
+        {
+          "date": "20250201",
+          "id": "steam-2507950",
+          "value": 65654,
+          "averagePlayers": 65654.06,
+          "peakPlayers": 130186,
+          "rank": 9
+        },
+        {
+          "date": "20250201",
+          "id": "steam-413150",
+          "value": 59383,
+          "averagePlayers": 59383.38,
+          "peakPlayers": 100401,
+          "rank": 10
+        },
+        {
+          "date": "20250201",
+          "id": "steam-1085660",
+          "value": 40162,
+          "averagePlayers": 40162.49,
+          "peakPlayers": 77252,
+          "rank": 11
+        }
+      ]
+    },
+    {
+      "date": "20250301",
+      "values": [
+        {
+          "date": "20250301",
+          "id": "steam-730",
+          "value": 1039663,
+          "averagePlayers": 1039662.81,
+          "peakPlayers": 1818368,
+          "rank": 1
+        },
+        {
+          "date": "20250301",
+          "id": "steam-570",
+          "value": 402851,
+          "averagePlayers": 402851.23,
+          "peakPlayers": 656279,
+          "rank": 2
+        },
+        {
+          "date": "20250301",
+          "id": "steam-578080",
+          "value": 345527,
+          "averagePlayers": 345527.34,
+          "peakPlayers": 1329605,
+          "rank": 3
+        },
+        {
+          "date": "20250301",
+          "id": "steam-252490",
+          "value": 111584,
+          "averagePlayers": 111583.76,
+          "peakPlayers": 203220,
+          "rank": 4
+        },
+        {
+          "date": "20250301",
+          "id": "steam-1172470",
+          "value": 90276,
+          "averagePlayers": 90276.4,
+          "peakPlayers": 185193,
+          "rank": 5
+        },
+        {
+          "date": "20250301",
+          "id": "steam-431960",
+          "value": 79350,
+          "averagePlayers": 79350.01,
+          "peakPlayers": 138929,
+          "rank": 6
+        },
+        {
+          "date": "20250301",
+          "id": "steam-271590",
+          "value": 78011,
+          "averagePlayers": 78010.66,
+          "peakPlayers": 184063,
+          "rank": 7
+        },
+        {
+          "date": "20250301",
+          "id": "steam-413150",
+          "value": 61863,
+          "averagePlayers": 61862.88,
+          "peakPlayers": 136302,
+          "rank": 8
+        },
+        {
+          "date": "20250301",
+          "id": "steam-2507950",
+          "value": 53638,
+          "averagePlayers": 53638.2,
+          "peakPlayers": 107585,
+          "rank": 9
+        },
+        {
+          "date": "20250301",
+          "id": "steam-3419430",
+          "value": 31579,
+          "averagePlayers": 31579.33,
+          "peakPlayers": 50099,
+          "rank": 10
+        },
+        {
+          "date": "20250301",
+          "id": "steam-1085660",
+          "value": 30968,
+          "averagePlayers": 30967.84,
+          "peakPlayers": 67473,
+          "rank": 11
+        },
+        {
+          "date": "20250301",
+          "id": "steam-2694490",
+          "value": 29923,
+          "averagePlayers": 29922.54,
+          "peakPlayers": 72573,
+          "rank": 12
+        }
+      ]
+    },
+    {
+      "date": "20250401",
+      "values": [
+        {
+          "date": "20250401",
+          "id": "steam-730",
+          "value": 1045702,
+          "averagePlayers": 1045701.65,
+          "peakPlayers": 1811827,
+          "rank": 1
+        },
+        {
+          "date": "20250401",
+          "id": "steam-570",
+          "value": 393173,
+          "averagePlayers": 393173.22,
+          "peakPlayers": 630716,
+          "rank": 2
+        },
+        {
+          "date": "20250401",
+          "id": "steam-578080",
+          "value": 317441,
+          "averagePlayers": 317441.03,
+          "peakPlayers": 861598,
+          "rank": 3
+        },
+        {
+          "date": "20250401",
+          "id": "steam-1172470",
+          "value": 106841,
+          "averagePlayers": 106840.8,
+          "peakPlayers": 199349,
+          "rank": 4
+        },
+        {
+          "date": "20250401",
+          "id": "steam-3419430",
+          "value": 106609,
+          "averagePlayers": 106609.2,
+          "peakPlayers": 179871,
+          "rank": 5
+        },
+        {
+          "date": "20250401",
+          "id": "steam-252490",
+          "value": 97805,
+          "averagePlayers": 97804.56,
+          "peakPlayers": 187702,
+          "rank": 6
+        },
+        {
+          "date": "20250401",
+          "id": "steam-2694490",
+          "value": 92367,
+          "averagePlayers": 92367.27,
+          "peakPlayers": 245870,
+          "rank": 7
+        },
+        {
+          "date": "20250401",
+          "id": "steam-431960",
+          "value": 76914,
+          "averagePlayers": 76914.2,
+          "peakPlayers": 138046,
+          "rank": 8
+        },
+        {
+          "date": "20250401",
+          "id": "steam-413150",
+          "value": 58163,
+          "averagePlayers": 58163.07,
+          "peakPlayers": 118620,
+          "rank": 9
+        },
+        {
+          "date": "20250401",
+          "id": "steam-271590",
+          "value": 57274,
+          "averagePlayers": 57273.78,
+          "peakPlayers": 99414,
+          "rank": 10
+        },
+        {
+          "date": "20250401",
+          "id": "steam-2507950",
+          "value": 54865,
+          "averagePlayers": 54864.73,
+          "peakPlayers": 131129,
+          "rank": 11
+        },
+        {
+          "date": "20250401",
+          "id": "steam-1085660",
+          "value": 22846,
+          "averagePlayers": 22845.9,
+          "peakPlayers": 49891,
+          "rank": 12
+        }
+      ]
+    },
+    {
+      "date": "20250501",
+      "values": [
+        {
+          "date": "20250501",
+          "id": "steam-730",
+          "value": 1038597,
+          "averagePlayers": 1038596.81,
+          "peakPlayers": 1712216,
+          "rank": 1
+        },
+        {
+          "date": "20250501",
+          "id": "steam-570",
+          "value": 408988,
+          "averagePlayers": 408987.68,
+          "peakPlayers": 657074,
+          "rank": 2
+        },
+        {
+          "date": "20250501",
+          "id": "steam-578080",
+          "value": 305253,
+          "averagePlayers": 305253.18,
+          "peakPlayers": 804674,
+          "rank": 3
+        },
+        {
+          "date": "20250501",
+          "id": "steam-3419430",
+          "value": 139811,
+          "averagePlayers": 139811.24,
+          "peakPlayers": 193859,
+          "rank": 4
+        },
+        {
+          "date": "20250501",
+          "id": "steam-1172470",
+          "value": 134647,
+          "averagePlayers": 134646.62,
+          "peakPlayers": 262219,
+          "rank": 5
+        },
+        {
+          "date": "20250501",
+          "id": "steam-252490",
+          "value": 105523,
+          "averagePlayers": 105523.45,
+          "peakPlayers": 203367,
+          "rank": 6
+        },
+        {
+          "date": "20250501",
+          "id": "steam-431960",
+          "value": 76382,
+          "averagePlayers": 76381.82,
+          "peakPlayers": 133127,
+          "rank": 7
+        },
+        {
+          "date": "20250501",
+          "id": "steam-2507950",
+          "value": 74249,
+          "averagePlayers": 74248.72,
+          "peakPlayers": 154488,
+          "rank": 8
+        },
+        {
+          "date": "20250501",
+          "id": "steam-271590",
+          "value": 66338,
+          "averagePlayers": 66337.58,
+          "peakPlayers": 115706,
+          "rank": 9
+        },
+        {
+          "date": "20250501",
+          "id": "steam-413150",
+          "value": 54791,
+          "averagePlayers": 54791.41,
+          "peakPlayers": 100604,
+          "rank": 10
+        },
+        {
+          "date": "20250501",
+          "id": "steam-2694490",
+          "value": 33895,
+          "averagePlayers": 33894.98,
+          "peakPlayers": 75273,
+          "rank": 11
+        },
+        {
+          "date": "20250501",
+          "id": "steam-1085660",
+          "value": 27372,
+          "averagePlayers": 27371.7,
+          "peakPlayers": 59826,
+          "rank": 12
+        }
+      ]
+    },
+    {
+      "date": "20250601",
+      "values": [
+        {
+          "date": "20250601",
+          "id": "steam-730",
+          "value": 1010124,
+          "averagePlayers": 1010123.99,
+          "peakPlayers": 1725815,
+          "rank": 1
+        },
+        {
+          "date": "20250601",
+          "id": "steam-570",
+          "value": 411123,
+          "averagePlayers": 411123.31,
+          "peakPlayers": 650259,
+          "rank": 2
+        },
+        {
+          "date": "20250601",
+          "id": "steam-578080",
+          "value": 309892,
+          "averagePlayers": 309892.01,
+          "peakPlayers": 778327,
+          "rank": 3
+        },
+        {
+          "date": "20250601",
+          "id": "steam-3419430",
+          "value": 151351,
+          "averagePlayers": 151351.26,
+          "peakPlayers": 192501,
+          "rank": 4
+        },
+        {
+          "date": "20250601",
+          "id": "steam-1172470",
+          "value": 106934,
+          "averagePlayers": 106933.93,
+          "peakPlayers": 250796,
+          "rank": 5
+        },
+        {
+          "date": "20250601",
+          "id": "steam-252490",
+          "value": 98463,
+          "averagePlayers": 98462.98,
+          "peakPlayers": 191730,
+          "rank": 6
+        },
+        {
+          "date": "20250601",
+          "id": "steam-431960",
+          "value": 82573,
+          "averagePlayers": 82572.79,
+          "peakPlayers": 138702,
+          "rank": 7
+        },
+        {
+          "date": "20250601",
+          "id": "steam-2507950",
+          "value": 78940,
+          "averagePlayers": 78939.86,
+          "peakPlayers": 161668,
+          "rank": 8
+        },
+        {
+          "date": "20250601",
+          "id": "steam-271590",
+          "value": 72261,
+          "averagePlayers": 72261,
+          "peakPlayers": 112862,
+          "rank": 9
+        },
+        {
+          "date": "20250601",
+          "id": "steam-413150",
+          "value": 58664,
+          "averagePlayers": 58664.26,
+          "peakPlayers": 136344,
+          "rank": 10
+        },
+        {
+          "date": "20250601",
+          "id": "steam-1085660",
+          "value": 21028,
+          "averagePlayers": 21027.89,
+          "peakPlayers": 38074,
+          "rank": 11
+        },
+        {
+          "date": "20250601",
+          "id": "steam-2694490",
+          "value": 15524,
+          "averagePlayers": 15523.92,
+          "peakPlayers": 30938,
+          "rank": 12
+        }
+      ]
+    },
+    {
+      "date": "20250701",
+      "values": [
+        {
+          "date": "20250701",
+          "id": "steam-730",
+          "value": 920070,
+          "averagePlayers": 920069.98,
+          "peakPlayers": 1427300,
+          "rank": 1
+        },
+        {
+          "date": "20250701",
+          "id": "steam-570",
+          "value": 426673,
+          "averagePlayers": 426672.67,
+          "peakPlayers": 657349,
+          "rank": 2
+        },
+        {
+          "date": "20250701",
+          "id": "steam-578080",
+          "value": 303261,
+          "averagePlayers": 303261.31,
+          "peakPlayers": 944484,
+          "rank": 3
+        },
+        {
+          "date": "20250701",
+          "id": "steam-3419430",
+          "value": 116214,
+          "averagePlayers": 116213.97,
+          "peakPlayers": 170427,
+          "rank": 4
+        },
+        {
+          "date": "20250701",
+          "id": "steam-252490",
+          "value": 102159,
+          "averagePlayers": 102158.94,
+          "peakPlayers": 187345,
+          "rank": 5
+        },
+        {
+          "date": "20250701",
+          "id": "steam-2507950",
+          "value": 99220,
+          "averagePlayers": 99220.14,
+          "peakPlayers": 198619,
+          "rank": 6
+        },
+        {
+          "date": "20250701",
+          "id": "steam-1172470",
+          "value": 90567,
+          "averagePlayers": 90567.12,
+          "peakPlayers": 209736,
+          "rank": 7
+        },
+        {
+          "date": "20250701",
+          "id": "steam-431960",
+          "value": 85157,
+          "averagePlayers": 85157.49,
+          "peakPlayers": 130498,
+          "rank": 8
+        },
+        {
+          "date": "20250701",
+          "id": "steam-413150",
+          "value": 84944,
+          "averagePlayers": 84943.75,
+          "peakPlayers": 157704,
+          "rank": 9
+        },
+        {
+          "date": "20250701",
+          "id": "steam-271590",
+          "value": 69422,
+          "averagePlayers": 69422.04,
+          "peakPlayers": 102267,
+          "rank": 10
+        },
+        {
+          "date": "20250701",
+          "id": "steam-1085660",
+          "value": 41220,
+          "averagePlayers": 41220.28,
+          "peakPlayers": 108362,
+          "rank": 11
+        },
+        {
+          "date": "20250701",
+          "id": "steam-2694490",
+          "value": 7866,
+          "averagePlayers": 7865.96,
+          "peakPlayers": 13635,
+          "rank": 12
+        }
+      ]
+    },
+    {
+      "date": "20250801",
+      "values": [
+        {
+          "date": "20250801",
+          "id": "steam-730",
+          "value": 928429,
+          "averagePlayers": 928429.24,
+          "peakPlayers": 1502245,
+          "rank": 1
+        },
+        {
+          "date": "20250801",
+          "id": "steam-570",
+          "value": 532355,
+          "averagePlayers": 532355.19,
+          "peakPlayers": 818732,
+          "rank": 2
+        },
+        {
+          "date": "20250801",
+          "id": "steam-578080",
+          "value": 295504,
+          "averagePlayers": 295503.96,
+          "peakPlayers": 724503,
+          "rank": 3
+        },
+        {
+          "date": "20250801",
+          "id": "steam-2507950",
+          "value": 103144,
+          "averagePlayers": 103143.78,
+          "peakPlayers": 210413,
+          "rank": 4
+        },
+        {
+          "date": "20250801",
+          "id": "steam-252490",
+          "value": 103018,
+          "averagePlayers": 103017.83,
+          "peakPlayers": 190383,
+          "rank": 5
+        },
+        {
+          "date": "20250801",
+          "id": "steam-1172470",
+          "value": 101673,
+          "averagePlayers": 101672.5,
+          "peakPlayers": 248781,
+          "rank": 6
+        },
+        {
+          "date": "20250801",
+          "id": "steam-431960",
+          "value": 87762,
+          "averagePlayers": 87761.95,
+          "peakPlayers": 136322,
+          "rank": 7
+        },
+        {
+          "date": "20250801",
+          "id": "steam-3419430",
+          "value": 78904,
+          "averagePlayers": 78903.64,
+          "peakPlayers": 129335,
+          "rank": 8
+        },
+        {
+          "date": "20250801",
+          "id": "steam-413150",
+          "value": 74886,
+          "averagePlayers": 74886.23,
+          "peakPlayers": 135679,
+          "rank": 9
+        },
+        {
+          "date": "20250801",
+          "id": "steam-271590",
+          "value": 68246,
+          "averagePlayers": 68245.55,
+          "peakPlayers": 109253,
+          "rank": 10
+        },
+        {
+          "date": "20250801",
+          "id": "steam-1085660",
+          "value": 34575,
+          "averagePlayers": 34574.73,
+          "peakPlayers": 74961,
+          "rank": 11
+        },
+        {
+          "date": "20250801",
+          "id": "steam-2694490",
+          "value": 25261,
+          "averagePlayers": 25261.3,
+          "peakPlayers": 352104,
+          "rank": 12
+        }
+      ]
+    },
+    {
+      "date": "20250901",
+      "values": [
+        {
+          "date": "20250901",
+          "id": "steam-730",
+          "value": 925940,
+          "averagePlayers": 925940.31,
+          "peakPlayers": 1571060,
+          "rank": 1
+        },
+        {
+          "date": "20250901",
+          "id": "steam-570",
+          "value": 580821,
+          "averagePlayers": 580820.63,
+          "peakPlayers": 953869,
+          "rank": 2
+        },
+        {
+          "date": "20250901",
+          "id": "steam-578080",
+          "value": 278096,
+          "averagePlayers": 278095.62,
+          "peakPlayers": 707773,
+          "rank": 3
+        },
+        {
+          "date": "20250901",
+          "id": "steam-2694490",
+          "value": 121310,
+          "averagePlayers": 121309.91,
+          "peakPlayers": 333360,
+          "rank": 4
+        },
+        {
+          "date": "20250901",
+          "id": "steam-2507950",
+          "value": 107632,
+          "averagePlayers": 107631.8,
+          "peakPlayers": 246418,
+          "rank": 5
+        },
+        {
+          "date": "20250901",
+          "id": "steam-3419430",
+          "value": 97104,
+          "averagePlayers": 97104.29,
+          "peakPlayers": 136696,
+          "rank": 6
+        },
+        {
+          "date": "20250901",
+          "id": "steam-252490",
+          "value": 85515,
+          "averagePlayers": 85515,
+          "peakPlayers": 152247,
+          "rank": 7
+        },
+        {
+          "date": "20250901",
+          "id": "steam-1172470",
+          "value": 83773,
+          "averagePlayers": 83772.59,
+          "peakPlayers": 199203,
+          "rank": 8
+        },
+        {
+          "date": "20250901",
+          "id": "steam-431960",
+          "value": 78472,
+          "averagePlayers": 78471.64,
+          "peakPlayers": 141058,
+          "rank": 9
+        },
+        {
+          "date": "20250901",
+          "id": "steam-413150",
+          "value": 58649,
+          "averagePlayers": 58648.51,
+          "peakPlayers": 117743,
+          "rank": 10
+        },
+        {
+          "date": "20250901",
+          "id": "steam-271590",
+          "value": 55605,
+          "averagePlayers": 55605.21,
+          "peakPlayers": 98431,
+          "rank": 11
+        },
+        {
+          "date": "20250901",
+          "id": "steam-1085660",
+          "value": 19307,
+          "averagePlayers": 19307.38,
+          "peakPlayers": 54297,
+          "rank": 12
+        }
+      ]
+    },
+    {
+      "date": "20251001",
+      "values": [
+        {
+          "date": "20251001",
+          "id": "steam-730",
+          "value": 948244,
+          "averagePlayers": 948244.21,
+          "peakPlayers": 1588091,
+          "rank": 1
+        },
+        {
+          "date": "20251001",
+          "id": "steam-570",
+          "value": 538998,
+          "averagePlayers": 538998.03,
+          "peakPlayers": 858940,
+          "rank": 2
+        },
+        {
+          "date": "20251001",
+          "id": "steam-578080",
+          "value": 266559,
+          "averagePlayers": 266558.99,
+          "peakPlayers": 750442,
+          "rank": 3
+        },
+        {
+          "date": "20251001",
+          "id": "steam-2507950",
+          "value": 100516,
+          "averagePlayers": 100516.2,
+          "peakPlayers": 233784,
+          "rank": 4
+        },
+        {
+          "date": "20251001",
+          "id": "steam-252490",
+          "value": 97411,
+          "averagePlayers": 97410.93,
+          "peakPlayers": 178836,
+          "rank": 5
+        },
+        {
+          "date": "20251001",
+          "id": "steam-3419430",
+          "value": 88033,
+          "averagePlayers": 88032.91,
+          "peakPlayers": 125794,
+          "rank": 6
+        },
+        {
+          "date": "20251001",
+          "id": "steam-431960",
+          "value": 83690,
+          "averagePlayers": 83689.76,
+          "peakPlayers": 144530,
+          "rank": 7
+        },
+        {
+          "date": "20251001",
+          "id": "steam-1172470",
+          "value": 73654,
+          "averagePlayers": 73654.11,
+          "peakPlayers": 181156,
+          "rank": 8
+        },
+        {
+          "date": "20251001",
+          "id": "steam-413150",
+          "value": 61169,
+          "averagePlayers": 61168.53,
+          "peakPlayers": 131695,
+          "rank": 9
+        },
+        {
+          "date": "20251001",
+          "id": "steam-271590",
+          "value": 57282,
+          "averagePlayers": 57282.49,
+          "peakPlayers": 108952,
+          "rank": 10
+        },
+        {
+          "date": "20251001",
+          "id": "steam-2694490",
+          "value": 36444,
+          "averagePlayers": 36444.03,
+          "peakPlayers": 85839,
+          "rank": 12
+        },
+        {
+          "date": "20251001",
+          "id": "steam-1085660",
+          "value": 14347,
+          "averagePlayers": 14346.77,
+          "peakPlayers": 32553,
+          "rank": 13
+        }
+      ]
+    },
+    {
+      "date": "20251101",
+      "values": [
+        {
+          "date": "20251101",
+          "id": "steam-730",
+          "value": 981482,
+          "averagePlayers": 981482.45,
+          "peakPlayers": 1597285,
+          "rank": 1
+        },
+        {
+          "date": "20251101",
+          "id": "steam-570",
+          "value": 583744,
+          "averagePlayers": 583743.77,
+          "peakPlayers": 903303,
+          "rank": 2
+        },
+        {
+          "date": "20251101",
+          "id": "steam-578080",
+          "value": 277985,
+          "averagePlayers": 277985.22,
+          "peakPlayers": 691068,
+          "rank": 3
+        },
+        {
+          "date": "20251101",
+          "id": "steam-1808500",
+          "value": 264430,
+          "averagePlayers": 264429.58,
+          "peakPlayers": 459483,
+          "rank": 4
+        },
+        {
+          "date": "20251101",
+          "id": "steam-252490",
+          "value": 98213,
+          "averagePlayers": 98212.73,
+          "peakPlayers": 184595,
+          "rank": 5
+        },
+        {
+          "date": "20251101",
+          "id": "steam-2507950",
+          "value": 90662,
+          "averagePlayers": 90661.72,
+          "peakPlayers": 193962,
+          "rank": 6
+        },
+        {
+          "date": "20251101",
+          "id": "steam-1172470",
+          "value": 89983,
+          "averagePlayers": 89983.17,
+          "peakPlayers": 229804,
+          "rank": 7
+        },
+        {
+          "date": "20251101",
+          "id": "steam-3419430",
+          "value": 86657,
+          "averagePlayers": 86656.8,
+          "peakPlayers": 120791,
+          "rank": 8
+        },
+        {
+          "date": "20251101",
+          "id": "steam-431960",
+          "value": 85095,
+          "averagePlayers": 85094.56,
+          "peakPlayers": 148230,
+          "rank": 9
+        },
+        {
+          "date": "20251101",
+          "id": "steam-271590",
+          "value": 61852,
+          "averagePlayers": 61852.24,
+          "peakPlayers": 105128,
+          "rank": 10
+        },
+        {
+          "date": "20251101",
+          "id": "steam-413150",
+          "value": 53989,
+          "averagePlayers": 53988.64,
+          "peakPlayers": 102931,
+          "rank": 11
+        },
+        {
+          "date": "20251101",
+          "id": "steam-1085660",
+          "value": 12578,
+          "averagePlayers": 12578.36,
+          "peakPlayers": 22903,
+          "rank": 13
+        },
+        {
+          "date": "20251101",
+          "id": "steam-2694490",
+          "value": 12281,
+          "averagePlayers": 12280.83,
+          "peakPlayers": 25692,
+          "rank": 14
+        }
+      ]
+    },
+    {
+      "date": "20251201",
+      "values": [
+        {
+          "date": "20251201",
+          "id": "steam-730",
+          "value": 991177,
+          "averagePlayers": 991176.89,
+          "peakPlayers": 1620137,
+          "rank": 1
+        },
+        {
+          "date": "20251201",
+          "id": "steam-570",
+          "value": 594290,
+          "averagePlayers": 594289.94,
+          "peakPlayers": 903542,
+          "rank": 2
+        },
+        {
+          "date": "20251201",
+          "id": "steam-578080",
+          "value": 279406,
+          "averagePlayers": 279406.47,
+          "peakPlayers": 751295,
+          "rank": 3
+        },
+        {
+          "date": "20251201",
+          "id": "steam-1808500",
+          "value": 229374,
+          "averagePlayers": 229373.5,
+          "peakPlayers": 438427,
+          "rank": 4
+        },
+        {
+          "date": "20251201",
+          "id": "steam-3419430",
+          "value": 111142,
+          "averagePlayers": 111141.59,
+          "peakPlayers": 178015,
+          "rank": 5
+        },
+        {
+          "date": "20251201",
+          "id": "steam-252490",
+          "value": 105484,
+          "averagePlayers": 105484.4,
+          "peakPlayers": 174558,
+          "rank": 6
+        },
+        {
+          "date": "20251201",
+          "id": "steam-431960",
+          "value": 83378,
+          "averagePlayers": 83378.14,
+          "peakPlayers": 145252,
+          "rank": 7
+        },
+        {
+          "date": "20251201",
+          "id": "steam-271590",
+          "value": 81832,
+          "averagePlayers": 81832.19,
+          "peakPlayers": 136591,
+          "rank": 8
+        },
+        {
+          "date": "20251201",
+          "id": "steam-2694490",
+          "value": 79436,
+          "averagePlayers": 79436.46,
+          "peakPlayers": 290305,
+          "rank": 9
+        },
+        {
+          "date": "20251201",
+          "id": "steam-1172470",
+          "value": 78781,
+          "averagePlayers": 78780.9,
+          "peakPlayers": 191112,
+          "rank": 10
+        },
+        {
+          "date": "20251201",
+          "id": "steam-2507950",
+          "value": 69896,
+          "averagePlayers": 69896.05,
+          "peakPlayers": 163797,
+          "rank": 11
+        },
+        {
+          "date": "20251201",
+          "id": "steam-413150",
+          "value": 58487,
+          "averagePlayers": 58487.3,
+          "peakPlayers": 139162,
+          "rank": 12
+        },
+        {
+          "date": "20251201",
+          "id": "steam-1085660",
+          "value": 29834,
+          "averagePlayers": 29833.75,
+          "peakPlayers": 70905,
+          "rank": 14
+        }
+      ]
+    },
+    {
+      "date": "20260101",
+      "values": [
+        {
+          "date": "20260101",
+          "id": "steam-730",
+          "value": 1070444,
+          "averagePlayers": 1070443.78,
+          "peakPlayers": 1654355,
+          "rank": 1
+        },
+        {
+          "date": "20260101",
+          "id": "steam-570",
+          "value": 569324,
+          "averagePlayers": 569324.18,
+          "peakPlayers": 855690,
+          "rank": 2
+        },
+        {
+          "date": "20260101",
+          "id": "steam-578080",
+          "value": 290397,
+          "averagePlayers": 290396.69,
+          "peakPlayers": 712143,
+          "rank": 3
+        },
+        {
+          "date": "20260101",
+          "id": "steam-1808500",
+          "value": 241197,
+          "averagePlayers": 241196.68,
+          "peakPlayers": 465097,
+          "rank": 4
+        },
+        {
+          "date": "20260101",
+          "id": "steam-3419430",
+          "value": 129595,
+          "averagePlayers": 129594.74,
+          "peakPlayers": 176292,
+          "rank": 5
+        },
+        {
+          "date": "20260101",
+          "id": "steam-252490",
+          "value": 121003,
+          "averagePlayers": 121002.79,
+          "peakPlayers": 246562,
+          "rank": 6
+        },
+        {
+          "date": "20260101",
+          "id": "steam-431960",
+          "value": 87976,
+          "averagePlayers": 87975.72,
+          "peakPlayers": 144617,
+          "rank": 7
+        },
+        {
+          "date": "20260101",
+          "id": "steam-1172470",
+          "value": 86433,
+          "averagePlayers": 86432.72,
+          "peakPlayers": 206450,
+          "rank": 8
+        },
+        {
+          "date": "20260101",
+          "id": "steam-271590",
+          "value": 80874,
+          "averagePlayers": 80873.87,
+          "peakPlayers": 129542,
+          "rank": 9
+        },
+        {
+          "date": "20260101",
+          "id": "steam-413150",
+          "value": 76332,
+          "averagePlayers": 76331.71,
+          "peakPlayers": 139682,
+          "rank": 10
+        },
+        {
+          "date": "20260101",
+          "id": "steam-2507950",
+          "value": 66053,
+          "averagePlayers": 66053.38,
+          "peakPlayers": 162739,
+          "rank": 11
+        },
+        {
+          "date": "20260101",
+          "id": "steam-2694490",
+          "value": 56873,
+          "averagePlayers": 56872.86,
+          "peakPlayers": 124660,
+          "rank": 12
+        },
+        {
+          "date": "20260101",
+          "id": "steam-2676230",
+          "value": 45970,
+          "averagePlayers": 45970.32,
+          "peakPlayers": 126930,
+          "rank": 14
+        },
+        {
+          "date": "20260101",
+          "id": "steam-1085660",
+          "value": 16161,
+          "averagePlayers": 16160.82,
+          "peakPlayers": 29014,
+          "rank": 15
+        }
+      ]
+    },
+    {
+      "date": "20260201",
+      "values": [
+        {
+          "date": "20260201",
+          "id": "steam-730",
+          "value": 1084095,
+          "averagePlayers": 1084094.59,
+          "peakPlayers": 1627561,
+          "rank": 1
+        },
+        {
+          "date": "20260201",
+          "id": "steam-570",
+          "value": 597010,
+          "averagePlayers": 597009.82,
+          "peakPlayers": 869734,
+          "rank": 2
+        },
+        {
+          "date": "20260201",
+          "id": "steam-578080",
+          "value": 267135,
+          "averagePlayers": 267134.96,
+          "peakPlayers": 694462,
+          "rank": 3
+        },
+        {
+          "date": "20260201",
+          "id": "steam-1808500",
+          "value": 171037,
+          "averagePlayers": 171037.32,
+          "peakPlayers": 372367,
+          "rank": 4
+        },
+        {
+          "date": "20260201",
+          "id": "steam-3419430",
+          "value": 132028,
+          "averagePlayers": 132027.5,
+          "peakPlayers": 171695,
+          "rank": 5
+        },
+        {
+          "date": "20260201",
+          "id": "steam-252490",
+          "value": 122377,
+          "averagePlayers": 122376.91,
+          "peakPlayers": 228230,
+          "rank": 6
+        },
+        {
+          "date": "20260201",
+          "id": "steam-2676230",
+          "value": 99706,
+          "averagePlayers": 99705.83,
+          "peakPlayers": 190134,
+          "rank": 7
+        },
+        {
+          "date": "20260201",
+          "id": "steam-1172470",
+          "value": 88900,
+          "averagePlayers": 88899.87,
+          "peakPlayers": 203439,
+          "rank": 8
+        },
+        {
+          "date": "20260201",
+          "id": "steam-431960",
+          "value": 82467,
+          "averagePlayers": 82466.77,
+          "peakPlayers": 134409,
+          "rank": 9
+        },
+        {
+          "date": "20260201",
+          "id": "steam-2507950",
+          "value": 80319,
+          "averagePlayers": 80318.97,
+          "peakPlayers": 160521,
+          "rank": 10
+        },
+        {
+          "date": "20260201",
+          "id": "steam-271590",
+          "value": 77909,
+          "averagePlayers": 77909.39,
+          "peakPlayers": 127027,
+          "rank": 11
+        },
+        {
+          "date": "20260201",
+          "id": "steam-413150",
+          "value": 64673,
+          "averagePlayers": 64672.96,
+          "peakPlayers": 114730,
+          "rank": 12
+        },
+        {
+          "date": "20260201",
+          "id": "steam-2694490",
+          "value": 19839,
+          "averagePlayers": 19838.96,
+          "peakPlayers": 43993,
+          "rank": 14
+        },
+        {
+          "date": "20260201",
+          "id": "steam-1085660",
+          "value": 10194,
+          "averagePlayers": 10193.5,
+          "peakPlayers": 21466,
+          "rank": 15
+        }
+      ]
+    },
+    {
+      "date": "20260301",
+      "values": [
+        {
+          "date": "20260301",
+          "id": "steam-730",
+          "value": 1069173,
+          "averagePlayers": 1069173.12,
+          "peakPlayers": 1717624,
+          "rank": 1
+        },
+        {
+          "date": "20260301",
+          "id": "steam-570",
+          "value": 477856,
+          "averagePlayers": 477855.57,
+          "peakPlayers": 859016,
+          "rank": 2
+        },
+        {
+          "date": "20260301",
+          "id": "steam-578080",
+          "value": 327213,
+          "averagePlayers": 327212.78,
+          "peakPlayers": 1290870,
+          "rank": 3
+        },
+        {
+          "date": "20260301",
+          "id": "steam-2868840",
+          "value": 279412,
+          "averagePlayers": 279411.99,
+          "peakPlayers": 574638,
+          "rank": 4
+        },
+        {
+          "date": "20260301",
+          "id": "steam-3419430",
+          "value": 129920,
+          "averagePlayers": 129919.77,
+          "peakPlayers": 173349,
+          "rank": 5
+        },
+        {
+          "date": "20260301",
+          "id": "steam-2676230",
+          "value": 120177,
+          "averagePlayers": 120176.79,
+          "peakPlayers": 212020,
+          "rank": 6
+        },
+        {
+          "date": "20260301",
+          "id": "steam-1808500",
+          "value": 112312,
+          "averagePlayers": 112312.2,
+          "peakPlayers": 250148,
+          "rank": 7
+        },
+        {
+          "date": "20260301",
+          "id": "steam-1172470",
+          "value": 111603,
+          "averagePlayers": 111603.39,
+          "peakPlayers": 287202,
+          "rank": 8
+        },
+        {
+          "date": "20260301",
+          "id": "steam-252490",
+          "value": 106570,
+          "averagePlayers": 106569.94,
+          "peakPlayers": 200309,
+          "rank": 9
+        },
+        {
+          "date": "20260301",
+          "id": "steam-431960",
+          "value": 78923,
+          "averagePlayers": 78922.74,
+          "peakPlayers": 135593,
+          "rank": 10
+        },
+        {
+          "date": "20260301",
+          "id": "steam-2507950",
+          "value": 76590,
+          "averagePlayers": 76590.08,
+          "peakPlayers": 168712,
+          "rank": 11
+        },
+        {
+          "date": "20260301",
+          "id": "steam-271590",
+          "value": 69770,
+          "averagePlayers": 69770.16,
+          "peakPlayers": 127424,
+          "rank": 12
+        },
+        {
+          "date": "20260301",
+          "id": "steam-413150",
+          "value": 69692,
+          "averagePlayers": 69691.92,
+          "peakPlayers": 158182,
+          "rank": 13
+        },
+        {
+          "date": "20260301",
+          "id": "steam-2694490",
+          "value": 9087,
+          "averagePlayers": 9086.68,
+          "peakPlayers": 21459,
+          "rank": 15
+        },
+        {
+          "date": "20260301",
+          "id": "steam-1085660",
+          "value": 7293,
+          "averagePlayers": 7292.55,
+          "peakPlayers": 14030,
+          "rank": 16
+        }
+      ]
+    },
+    {
+      "date": "20260401",
+      "values": [
+        {
+          "date": "20260401",
+          "id": "steam-730",
+          "value": 974786,
+          "averagePlayers": 974785.71,
+          "peakPlayers": 1564830,
+          "rank": 1
+        },
+        {
+          "date": "20260401",
+          "id": "steam-570",
+          "value": 425919,
+          "averagePlayers": 425918.58,
+          "peakPlayers": 695006,
+          "rank": 2
+        },
+        {
+          "date": "20260401",
+          "id": "steam-578080",
+          "value": 353167,
+          "averagePlayers": 353167.38,
+          "peakPlayers": 979753,
+          "rank": 3
+        },
+        {
+          "date": "20260401",
+          "id": "steam-2868840",
+          "value": 173005,
+          "averagePlayers": 173005.23,
+          "peakPlayers": 358577,
+          "rank": 4
+        },
+        {
+          "date": "20260401",
+          "id": "steam-2676230",
+          "value": 130974,
+          "averagePlayers": 130973.53,
+          "peakPlayers": 219135,
+          "rank": 5
+        },
+        {
+          "date": "20260401",
+          "id": "steam-1172470",
+          "value": 124387,
+          "averagePlayers": 124387.18,
+          "peakPlayers": 301520,
+          "rank": 6
+        },
+        {
+          "date": "20260401",
+          "id": "steam-3419430",
+          "value": 122834,
+          "averagePlayers": 122834.35,
+          "peakPlayers": 174048,
+          "rank": 7
+        },
+        {
+          "date": "20260401",
+          "id": "steam-252490",
+          "value": 103352,
+          "averagePlayers": 103351.8,
+          "peakPlayers": 203177,
+          "rank": 8
+        },
+        {
+          "date": "20260401",
+          "id": "steam-2507950",
+          "value": 78981,
+          "averagePlayers": 78981.3,
+          "peakPlayers": 171344,
+          "rank": 9
+        },
+        {
+          "date": "20260401",
+          "id": "steam-431960",
+          "value": 76196,
+          "averagePlayers": 76196.04,
+          "peakPlayers": 133017,
+          "rank": 10
+        },
+        {
+          "date": "20260401",
+          "id": "steam-1808500",
+          "value": 75952,
+          "averagePlayers": 75951.73,
+          "peakPlayers": 154498,
+          "rank": 11
+        },
+        {
+          "date": "20260401",
+          "id": "steam-413150",
+          "value": 64601,
+          "averagePlayers": 64600.61,
+          "peakPlayers": 131755,
+          "rank": 12
+        },
+        {
+          "date": "20260401",
+          "id": "steam-271590",
+          "value": 61798,
+          "averagePlayers": 61797.66,
+          "peakPlayers": 108812,
+          "rank": 13
+        },
+        {
+          "date": "20260401",
+          "id": "steam-1085660",
+          "value": 7870,
+          "averagePlayers": 7869.86,
+          "peakPlayers": 12852,
+          "rank": 15
+        },
+        {
+          "date": "20260401",
+          "id": "steam-2694490",
+          "value": 6885,
+          "averagePlayers": 6885.21,
+          "peakPlayers": 11791,
+          "rank": 16
+        }
+      ]
+    },
+    {
+      "date": "20260501",
+      "values": [
+        {
+          "date": "20260501",
+          "id": "steam-730",
+          "value": 932721,
+          "averagePlayers": 932721.03,
+          "peakPlayers": 1489217,
+          "rank": 1
+        },
+        {
+          "date": "20260501",
+          "id": "steam-570",
+          "value": 422693,
+          "averagePlayers": 422693.28,
+          "peakPlayers": 664213,
+          "rank": 2
+        },
+        {
+          "date": "20260501",
+          "id": "steam-578080",
+          "value": 321602,
+          "averagePlayers": 321602.24,
+          "peakPlayers": 822338,
+          "rank": 3
+        },
+        {
+          "date": "20260501",
+          "id": "steam-2483190",
+          "value": 198633,
+          "averagePlayers": 198632.76,
+          "peakPlayers": 301394,
+          "rank": 4
+        },
+        {
+          "date": "20260501",
+          "id": "steam-3419430",
+          "value": 133864,
+          "averagePlayers": 133864.18,
+          "peakPlayers": 182047,
+          "rank": 5
+        },
+        {
+          "date": "20260501",
+          "id": "steam-2676230",
+          "value": 131035,
+          "averagePlayers": 131035.15,
+          "peakPlayers": 221062,
+          "rank": 6
+        },
+        {
+          "date": "20260501",
+          "id": "steam-1172470",
+          "value": 128964,
+          "averagePlayers": 128963.96,
+          "peakPlayers": 324964,
+          "rank": 7
+        },
+        {
+          "date": "20260501",
+          "id": "steam-2868840",
+          "value": 112661,
+          "averagePlayers": 112660.5,
+          "peakPlayers": 230185,
+          "rank": 8
+        },
+        {
+          "date": "20260501",
+          "id": "steam-252490",
+          "value": 102508,
+          "averagePlayers": 102507.71,
+          "peakPlayers": 188976,
+          "rank": 9
+        },
+        {
+          "date": "20260501",
+          "id": "steam-1962700",
+          "value": 102207,
+          "averagePlayers": 102206.75,
+          "peakPlayers": 365838,
+          "rank": 10
+        },
+        {
+          "date": "20260501",
+          "id": "steam-2507950",
+          "value": 83518,
+          "averagePlayers": 83517.75,
+          "peakPlayers": 183559,
+          "rank": 11
+        },
+        {
+          "date": "20260501",
+          "id": "steam-431960",
+          "value": 76917,
+          "averagePlayers": 76916.69,
+          "peakPlayers": 131111,
+          "rank": 12
+        },
+        {
+          "date": "20260501",
+          "id": "steam-271590",
+          "value": 61992,
+          "averagePlayers": 61992.28,
+          "peakPlayers": 112445,
+          "rank": 13
+        },
+        {
+          "date": "20260501",
+          "id": "steam-1808500",
+          "value": 61054,
+          "averagePlayers": 61053.58,
+          "peakPlayers": 120450,
+          "rank": 14
+        },
+        {
+          "date": "20260501",
+          "id": "steam-413150",
+          "value": 60412,
+          "averagePlayers": 60412.1,
+          "peakPlayers": 128784,
+          "rank": 15
+        },
+        {
+          "date": "20260501",
+          "id": "steam-2694490",
+          "value": 34052,
+          "averagePlayers": 34051.82,
+          "peakPlayers": 420409,
+          "rank": 17
+        },
+        {
+          "date": "20260501",
+          "id": "steam-1085660",
+          "value": 10498,
+          "averagePlayers": 10497.76,
+          "peakPlayers": 28510,
+          "rank": 18
+        }
+      ]
+    },
+    {
+      "date": "20260626",
+      "values": [
+        {
+          "id": "steam-730",
+          "value": 676081
+        },
+        {
+          "id": "steam-3678970",
+          "value": 460090
+        },
+        {
+          "id": "steam-570",
+          "value": 375855
+        },
+        {
+          "id": "steam-578080",
+          "value": 295072
+        },
+        {
+          "id": "steam-3419430",
+          "value": 128378
+        },
+        {
+          "id": "steam-1172470",
+          "value": 83021
+        },
+        {
+          "id": "steam-2694490",
+          "value": 80568
+        },
+        {
+          "id": "steam-2676230",
+          "value": 72496
+        },
+        {
+          "id": "steam-252490",
+          "value": 70280
+        },
+        {
+          "id": "steam-2868840",
+          "value": 65306
+        }
+      ]
+    },
+    {
+      "date": "20260731",
+      "values": [
+        {
+          "id": "steam-730",
+          "value": 665030
+        },
+        {
+          "id": "steam-570",
+          "value": 462341
+        },
+        {
+          "id": "steam-578080",
+          "value": 336437
+        },
+        {
+          "id": "steam-1623730",
+          "value": 333858
+        },
+        {
+          "id": "steam-3678970",
+          "value": 177067
+        },
+        {
+          "id": "steam-3419430",
+          "value": 146839
+        },
+        {
+          "id": "steam-1172470",
+          "value": 94039
+        },
+        {
+          "id": "steam-252490",
+          "value": 82415
+        },
+        {
+          "id": "steam-431960",
+          "value": 80565
+        },
+        {
+          "id": "steam-2676230",
+          "value": 76943
+        },
+        {
+          "id": "steam-2507950",
+          "value": 70236
+        },
+        {
+          "id": "steam-413150",
+          "value": 62632
+        },
+        {
+          "id": "steam-2868840",
+          "value": 56296
+        },
+        {
+          "id": "steam-271590",
+          "value": 52891
+        }
+      ]
+    },
+    {
+      "date": "20260802",
+      "values": [
+        {
+          "id": "steam-730",
+          "value": 714122
+        },
+        {
+          "id": "steam-570",
+          "value": 546265
+        },
+        {
+          "id": "steam-578080",
+          "value": 501288
+        },
+        {
+          "id": "steam-1623730",
+          "value": 474069
+        },
+        {
+          "id": "steam-3678970",
+          "value": 158631
+        },
+        {
+          "id": "steam-1172470",
+          "value": 142674
+        },
+        {
+          "id": "steam-3419430",
+          "value": 136595
+        },
+        {
+          "id": "steam-2676230",
+          "value": 94263
+        },
+        {
+          "id": "steam-2507950",
+          "value": 93161
+        },
+        {
+          "id": "steam-431960",
+          "value": 89567
+        },
+        {
+          "id": "steam-252490",
+          "value": 81313
+        },
+        {
+          "id": "steam-413150",
+          "value": 78348
+        },
+        {
+          "id": "steam-2868840",
+          "value": 72997
+        }
+      ]
+    },
+    {
+      "date": "20260803",
+      "values": [
+        {
+          "id": "steam-730",
+          "value": 615992
+        },
+        {
+          "id": "steam-570",
+          "value": 417075
+        },
+        {
+          "id": "steam-578080",
+          "value": 316342
+        },
+        {
+          "id": "steam-1623730",
+          "value": 307976
+        },
+        {
+          "id": "steam-3419430",
+          "value": 157517
+        },
+        {
+          "id": "steam-3678970",
+          "value": 154522
+        },
+        {
+          "id": "steam-1172470",
+          "value": 90089
+        },
+        {
+          "id": "steam-431960",
+          "value": 81413
+        },
+        {
+          "id": "steam-2676230",
+          "value": 74926
+        },
+        {
+          "id": "steam-252490",
+          "value": 69429
+        },
+        {
+          "id": "steam-2507950",
+          "value": 69226
+        },
+        {
+          "id": "steam-413150",
+          "value": 61529
+        },
+        {
+          "id": "steam-2868840",
+          "value": 54310
+        },
+        {
+          "id": "steam-271590",
+          "value": 47852
+        }
+      ]
+    },
+    {
+      "date": "20260804",
+      "values": [
+        {
+          "id": "steam-730",
+          "value": 599479
+        },
+        {
+          "id": "steam-570",
+          "value": 413151
+        },
+        {
+          "id": "steam-578080",
+          "value": 319370
+        },
+        {
+          "id": "steam-1623730",
+          "value": 286338
+        },
+        {
+          "id": "steam-3419430",
+          "value": 153874
+        },
+        {
+          "id": "steam-3678970",
+          "value": 143694
+        },
+        {
+          "id": "steam-1172470",
+          "value": 91251
+        },
+        {
+          "id": "steam-431960",
+          "value": 80828
+        },
+        {
+          "id": "steam-2676230",
+          "value": 75044
+        },
+        {
+          "id": "steam-252490",
+          "value": 69982
+        },
+        {
+          "id": "steam-2507950",
+          "value": 68558
+        },
+        {
+          "id": "steam-413150",
+          "value": 62298
+        },
+        {
+          "id": "steam-2868840",
+          "value": 54130
+        },
+        {
+          "id": "steam-271590",
+          "value": 47729
+        }
+      ]
+    },
+    {
+      "date": "20260805",
+      "values": [
+        {
+          "id": "steam-730",
+          "value": 629837
+        },
+        {
+          "id": "steam-570",
+          "value": 422880
+        },
+        {
+          "id": "steam-578080",
+          "value": 315938
+        },
+        {
+          "id": "steam-1623730",
+          "value": 270300
+        },
+        {
+          "id": "steam-3419430",
+          "value": 150206
+        },
+        {
+          "id": "steam-3678970",
+          "value": 146441
+        },
+        {
+          "id": "steam-1172470",
+          "value": 140075
+        },
+        {
+          "id": "steam-431960",
+          "value": 81467
+        },
+        {
+          "id": "steam-2676230",
+          "value": 75471
+        },
+        {
+          "id": "steam-2507950",
+          "value": 68622
+        },
+        {
+          "id": "steam-413150",
+          "value": 61870
+        },
+        {
+          "id": "steam-252490",
+          "value": 61765
+        },
+        {
+          "id": "steam-2868840",
+          "value": 53104
+        },
+        {
+          "id": "steam-271590",
+          "value": 46179
+        }
+      ]
+    },
+    {
+      "date": "20260806",
+      "values": [
+        {
+          "id": "steam-730",
+          "value": 583343
+        },
+        {
+          "id": "steam-570",
+          "value": 424589
+        },
+        {
+          "id": "steam-578080",
+          "value": 321254
+        },
+        {
+          "id": "steam-1623730",
+          "value": 254728
+        },
+        {
+          "id": "steam-3678970",
+          "value": 143698
+        },
+        {
+          "id": "steam-1172470",
+          "value": 133657
+        },
+        {
+          "id": "steam-3419430",
+          "value": 129099
+        },
+        {
+          "id": "steam-431960",
+          "value": 81911
+        },
+        {
+          "id": "steam-2676230",
+          "value": 74339
+        },
+        {
+          "id": "steam-2507950",
+          "value": 69799
+        },
+        {
+          "id": "steam-413150",
+          "value": 61678
+        },
+        {
+          "id": "steam-252490",
+          "value": 53842
+        },
+        {
+          "id": "steam-2868840",
+          "value": 53177
+        },
+        {
+          "id": "steam-271590",
+          "value": 48590
+        }
+      ]
+    },
+    {
+      "date": "20260807",
+      "values": [
+        {
+          "id": "steam-730",
+          "value": 630796
+        },
+        {
+          "id": "steam-570",
+          "value": 449416
+        },
+        {
+          "id": "steam-578080",
+          "value": 318957
+        },
+        {
+          "id": "steam-1623730",
+          "value": 247873
+        },
+        {
+          "id": "steam-3419430",
+          "value": 139707
+        },
+        {
+          "id": "steam-3678970",
+          "value": 139579
+        },
+        {
+          "id": "steam-1172470",
+          "value": 128458
+        },
+        {
+          "id": "steam-252490",
+          "value": 97594
+        },
+        {
+          "id": "steam-431960",
+          "value": 81692
+        },
+        {
+          "id": "steam-2676230",
+          "value": 75935
+        },
+        {
+          "id": "steam-2507950",
+          "value": 70744
+        },
+        {
+          "id": "steam-413150",
+          "value": 61458
+        },
+        {
+          "id": "steam-2868840",
+          "value": 53991
+        },
+        {
+          "id": "steam-271590",
+          "value": 43605
+        }
+      ]
+    },
+    {
+      "date": "20260808",
+      "values": [
+        {
+          "id": "steam-730",
+          "value": 721295
+        },
+        {
+          "id": "steam-570",
+          "value": 509186
+        },
+        {
+          "id": "steam-578080",
+          "value": 412949
+        },
+        {
+          "id": "steam-1623730",
+          "value": 320582
+        },
+        {
+          "id": "steam-1172470",
+          "value": 174874
+        },
+        {
+          "id": "steam-3419430",
+          "value": 134489
+        },
+        {
+          "id": "steam-3678970",
+          "value": 127528
+        },
+        {
+          "id": "steam-252490",
+          "value": 98625
+        },
+        {
+          "id": "steam-2507950",
+          "value": 93515
+        },
+        {
+          "id": "steam-2676230",
+          "value": 90159
+        },
+        {
+          "id": "steam-431960",
+          "value": 85019
+        },
+        {
+          "id": "steam-413150",
+          "value": 69956
+        },
+        {
+          "id": "steam-2868840",
+          "value": 66822
+        }
+      ]
+    },
+    {
+      "date": "20260809",
+      "values": [
+        {
+          "id": "steam-730",
+          "value": 712231
+        },
+        {
+          "id": "steam-570",
+          "value": 513880
+        },
+        {
+          "id": "steam-578080",
+          "value": 485668
+        },
+        {
+          "id": "steam-1623730",
+          "value": 348383
+        },
+        {
+          "id": "steam-1172470",
+          "value": 199825
+        },
+        {
+          "id": "steam-3678970",
+          "value": 123693
+        },
+        {
+          "id": "steam-3419430",
+          "value": 102721
+        },
+        {
+          "id": "steam-2507950",
+          "value": 99189
+        },
+        {
+          "id": "steam-2676230",
+          "value": 93363
+        },
+        {
+          "id": "steam-252490",
+          "value": 92849
+        },
+        {
+          "id": "steam-431960",
+          "value": 90823
+        },
+        {
+          "id": "steam-413150",
+          "value": 78234
+        },
+        {
+          "id": "steam-2868840",
+          "value": 71715
+        }
+      ]
+    },
+    {
+      "date": "20260810",
+      "values": [
+        {
+          "id": "steam-730",
+          "value": 626257
+        },
+        {
+          "id": "steam-570",
+          "value": 428524
+        },
+        {
+          "id": "steam-578080",
+          "value": 315784
+        },
+        {
+          "id": "steam-1623730",
+          "value": 229296
+        },
+        {
+          "id": "steam-3419430",
+          "value": 140899
+        },
+        {
+          "id": "steam-1172470",
+          "value": 132832
+        },
+        {
+          "id": "steam-3678970",
+          "value": 114730
+        },
+        {
+          "id": "steam-431960",
+          "value": 82985
+        },
+        {
+          "id": "steam-252490",
+          "value": 79459
+        },
+        {
+          "id": "steam-2507950",
+          "value": 76744
+        },
+        {
+          "id": "steam-2676230",
+          "value": 74363
+        },
+        {
+          "id": "steam-413150",
+          "value": 62280
+        },
+        {
+          "id": "steam-2868840",
+          "value": 56224
+        },
+        {
+          "id": "steam-271590",
+          "value": 47925
+        }
+      ]
+    },
+    {
+      "date": "20260811",
+      "values": [
+        {
+          "id": "steam-730",
+          "value": 621371
+        },
+        {
+          "id": "steam-570",
+          "value": 425677
+        },
+        {
+          "id": "steam-578080",
+          "value": 314399
+        },
+        {
+          "id": "steam-1623730",
+          "value": 219445
+        },
+        {
+          "id": "steam-3419430",
+          "value": 141315
+        },
+        {
+          "id": "steam-1172470",
+          "value": 136608
+        },
+        {
+          "id": "steam-3678970",
+          "value": 114186
+        },
+        {
+          "id": "steam-431960",
+          "value": 83068
+        },
+        {
+          "id": "steam-252490",
+          "value": 79318
+        },
+        {
+          "id": "steam-2676230",
+          "value": 75082
+        },
+        {
+          "id": "steam-2507950",
+          "value": 72777
+        },
+        {
+          "id": "steam-413150",
+          "value": 62075
+        },
+        {
+          "id": "steam-2868840",
+          "value": 56599
+        },
+        {
+          "id": "steam-271590",
+          "value": 47023
+        }
+      ]
+    },
+    {
+      "date": "20260812",
+      "values": [
+        {
+          "id": "steam-730",
+          "value": 639375
+        },
+        {
+          "id": "steam-570",
+          "value": 430287
+        },
+        {
+          "id": "steam-1623730",
+          "value": 190665
+        },
+        {
+          "id": "steam-3419430",
+          "value": 137988
+        },
+        {
+          "id": "steam-1172470",
+          "value": 128396
+        },
+        {
+          "id": "steam-3678970",
+          "value": 108467
+        },
+        {
+          "id": "steam-431960",
+          "value": 83541
+        },
+        {
+          "id": "steam-2676230",
+          "value": 79417
+        },
+        {
+          "id": "steam-252490",
+          "value": 73226
+        },
+        {
+          "id": "steam-2507950",
+          "value": 69786
+        },
+        {
+          "id": "steam-413150",
+          "value": 60565
+        },
+        {
+          "id": "steam-2868840",
+          "value": 54212
+        },
+        {
+          "id": "steam-271590",
+          "value": 46437
+        }
+      ]
+    },
+    {
+      "date": "20260813",
+      "values": [
+        {
+          "id": "steam-730",
+          "value": 623610
+        },
+        {
+          "id": "steam-570",
+          "value": 429426
+        },
+        {
+          "id": "steam-578080",
+          "value": 335112
+        },
+        {
+          "id": "steam-1623730",
+          "value": 188322
+        },
+        {
+          "id": "steam-3419430",
+          "value": 138199
+        },
+        {
+          "id": "steam-1172470",
+          "value": 122218
+        },
+        {
+          "id": "steam-3678970",
+          "value": 103678
+        },
+        {
+          "id": "steam-431960",
+          "value": 79718
+        },
+        {
+          "id": "steam-2676230",
+          "value": 73723
+        },
+        {
+          "id": "steam-252490",
+          "value": 69988
+        },
+        {
+          "id": "steam-2507950",
+          "value": 67691
+        },
+        {
+          "id": "steam-413150",
+          "value": 58760
+        },
+        {
+          "id": "steam-2868840",
+          "value": 53069
+        }
+      ]
+    },
+    {
+      "date": "20260814",
+      "values": [
+        {
+          "id": "steam-730",
+          "value": 619941
+        },
+        {
+          "id": "steam-570",
+          "value": 439091
+        },
+        {
+          "id": "steam-578080",
+          "value": 323731
+        },
+        {
+          "id": "steam-1623730",
+          "value": 185691
+        },
+        {
+          "id": "steam-3419430",
+          "value": 137026
+        },
+        {
+          "id": "steam-1172470",
+          "value": 125335
+        },
+        {
+          "id": "steam-3678970",
+          "value": 101516
+        },
+        {
+          "id": "steam-431960",
+          "value": 81691
+        },
+        {
+          "id": "steam-252490",
+          "value": 77776
+        },
+        {
+          "id": "steam-2676230",
+          "value": 74467
+        },
+        {
+          "id": "steam-2507950",
+          "value": 70437
+        },
+        {
+          "id": "steam-413150",
+          "value": 58619
+        },
+        {
+          "id": "steam-2868840",
+          "value": 56461
+        }
+      ]
+    },
+    {
+      "date": "20260815",
+      "values": [
+        {
+          "id": "steam-730",
+          "value": 681828
+        },
+        {
+          "id": "steam-570",
+          "value": 541405
+        },
+        {
+          "id": "steam-578080",
+          "value": 418891
+        },
+        {
+          "id": "steam-1623730",
+          "value": 236704
+        },
+        {
+          "id": "steam-1172470",
+          "value": 164470
+        },
+        {
+          "id": "steam-3419430",
+          "value": 131534
+        },
+        {
+          "id": "steam-3678970",
+          "value": 100212
+        },
+        {
+          "id": "steam-2676230",
+          "value": 89489
+        },
+        {
+          "id": "steam-431960",
+          "value": 86535
+        },
+        {
+          "id": "steam-2507950",
+          "value": 79576
+        },
+        {
+          "id": "steam-252490",
+          "value": 78988
+        },
+        {
+          "id": "steam-2868840",
+          "value": 67502
+        },
+        {
+          "id": "steam-413150",
+          "value": 67103
+        }
+      ]
+    },
+    {
+      "date": "20260816",
+      "values": [
+        {
+          "id": "steam-730",
+          "value": 716635
+        },
+        {
+          "id": "steam-570",
+          "value": 573113
+        },
+        {
+          "id": "steam-578080",
+          "value": 473221
+        },
+        {
+          "id": "steam-1623730",
+          "value": 253719
+        },
+        {
+          "id": "steam-1172470",
+          "value": 182185
+        },
+        {
+          "id": "steam-3419430",
+          "value": 126607
+        },
+        {
+          "id": "steam-3678970",
+          "value": 100901
+        },
+        {
+          "id": "steam-2676230",
+          "value": 95497
+        },
+        {
+          "id": "steam-431960",
+          "value": 89794
+        },
+        {
+          "id": "steam-2507950",
+          "value": 84565
+        },
+        {
+          "id": "steam-252490",
+          "value": 77777
+        },
+        {
+          "id": "steam-413150",
+          "value": 72650
+        },
+        {
+          "id": "steam-2868840",
+          "value": 71676
+        }
+      ]
+    },
+    {
+      "date": "20260817",
+      "values": [
+        {
+          "id": "steam-730",
+          "value": 596168
+        },
+        {
+          "id": "steam-570",
+          "value": 482418
+        },
+        {
+          "id": "steam-578080",
+          "value": 335975
+        },
+        {
+          "id": "steam-1623730",
+          "value": 169608
+        },
+        {
+          "id": "steam-3419430",
+          "value": 135663
+        },
+        {
+          "id": "steam-1172470",
+          "value": 115331
+        },
+        {
+          "id": "steam-3678970",
+          "value": 93888
+        },
+        {
+          "id": "steam-431960",
+          "value": 82491
+        },
+        {
+          "id": "steam-2676230",
+          "value": 74809
+        },
+        {
+          "id": "steam-252490",
+          "value": 66563
+        },
+        {
+          "id": "steam-2507950",
+          "value": 63706
+        },
+        {
+          "id": "steam-413150",
+          "value": 59677
+        },
+        {
+          "id": "steam-2868840",
+          "value": 54841
+        },
+        {
+          "id": "steam-271590",
+          "value": 45018
+        }
+      ]
+    },
+    {
+      "date": "20260818",
+      "values": [
+        {
+          "id": "steam-730",
+          "value": 609375
+        },
+        {
+          "id": "steam-570",
+          "value": 456294
+        },
+        {
+          "id": "steam-578080",
+          "value": 299043
+        },
+        {
+          "id": "steam-3419430",
+          "value": 151167
+        },
+        {
+          "id": "steam-1623730",
+          "value": 146774
+        },
+        {
+          "id": "steam-1172470",
+          "value": 112226
+        },
+        {
+          "id": "steam-3678970",
+          "value": 92544
+        },
+        {
+          "id": "steam-431960",
+          "value": 81473
+        },
+        {
+          "id": "steam-2676230",
+          "value": 73527
+        },
+        {
+          "id": "steam-252490",
+          "value": 67232
+        },
+        {
+          "id": "steam-2507950",
+          "value": 60471
+        },
+        {
+          "id": "steam-413150",
+          "value": 57329
+        },
+        {
+          "id": "steam-2868840",
+          "value": 53919
+        },
+        {
+          "id": "steam-271590",
+          "value": 43422
+        }
+      ]
+    },
+    {
+      "date": "20260819",
+      "values": [
+        {
+          "id": "steam-730",
+          "value": 645486
+        },
+        {
+          "id": "steam-570",
+          "value": 464844
+        },
+        {
+          "id": "steam-578080",
+          "value": 302170
+        },
+        {
+          "id": "steam-1623730",
+          "value": 136146
+        },
+        {
+          "id": "steam-3419430",
+          "value": 127834
+        },
+        {
+          "id": "steam-1172470",
+          "value": 117802
+        },
+        {
+          "id": "steam-3678970",
+          "value": 88801
+        },
+        {
+          "id": "steam-431960",
+          "value": 81567
+        },
+        {
+          "id": "steam-2676230",
+          "value": 72783
+        },
+        {
+          "id": "steam-252490",
+          "value": 62009
+        },
+        {
+          "id": "steam-2507950",
+          "value": 61419
+        },
+        {
+          "id": "steam-413150",
+          "value": 56533
+        },
+        {
+          "id": "steam-2868840",
+          "value": 53412
+        }
+      ]
+    },
+    {
+      "date": "20260820",
+      "values": [
+        {
+          "id": "steam-730",
+          "value": 617214
+        },
+        {
+          "id": "steam-570",
+          "value": 480349
+        },
+        {
+          "id": "steam-578080",
+          "value": 298070
+        },
+        {
+          "id": "steam-3419430",
+          "value": 159884
+        },
+        {
+          "id": "steam-1623730",
+          "value": 128216
+        },
+        {
+          "id": "steam-1172470",
+          "value": 112134
+        },
+        {
+          "id": "steam-3678970",
+          "value": 89287
+        },
+        {
+          "id": "steam-431960",
+          "value": 81754
+        },
+        {
+          "id": "steam-2676230",
+          "value": 73731
+        },
+        {
+          "id": "steam-252490",
+          "value": 61685
+        },
+        {
+          "id": "steam-2507950",
+          "value": 59879
+        },
+        {
+          "id": "steam-413150",
+          "value": 56003
+        },
+        {
+          "id": "steam-2868840",
+          "value": 52924
+        },
+        {
+          "id": "steam-271590",
+          "value": 47758
+        }
+      ]
+    },
+    {
+      "date": "20260821",
+      "values": [
+        {
+          "id": "steam-730",
+          "value": 617332
+        },
+        {
+          "id": "steam-570",
+          "value": 486488
+        },
+        {
+          "id": "steam-578080",
+          "value": 305619
+        },
+        {
+          "id": "steam-3419430",
+          "value": 160656
+        },
+        {
+          "id": "steam-1623730",
+          "value": 125232
+        },
+        {
+          "id": "steam-1172470",
+          "value": 112491
+        },
+        {
+          "id": "steam-3678970",
+          "value": 87460
+        },
+        {
+          "id": "steam-431960",
+          "value": 82111
+        },
+        {
+          "id": "steam-2676230",
+          "value": 74104
+        },
+        {
+          "id": "steam-252490",
+          "value": 70564
+        },
+        {
+          "id": "steam-2507950",
+          "value": 62283
+        },
+        {
+          "id": "steam-413150",
+          "value": 55791
+        },
+        {
+          "id": "steam-2868840",
+          "value": 53659
+        },
+        {
+          "id": "steam-271590",
+          "value": 52562
+        }
+      ]
+    },
+    {
+      "date": "20260822",
+      "values": [
+        {
+          "id": "steam-730",
+          "value": 1230265
+        },
+        {
+          "id": "steam-570",
+          "value": 854051
+        },
+        {
+          "id": "steam-578080",
+          "value": 723344
+        },
+        {
+          "id": "steam-1172470",
+          "value": 270334
+        },
+        {
+          "id": "steam-1623730",
+          "value": 243047
+        },
+        {
+          "id": "steam-3419430",
+          "value": 170647
+        },
+        {
+          "id": "steam-2676230",
+          "value": 159297
+        },
+        {
+          "id": "steam-4001890",
+          "value": 141111
+        },
+        {
+          "id": "steam-252490",
+          "value": 130120
+        },
+        {
+          "id": "steam-431960",
+          "value": 114063
+        },
+        {
+          "id": "steam-2507950",
+          "value": 111529
+        },
+        {
+          "id": "steam-3678970",
+          "value": 104154
+        },
+        {
+          "id": "steam-2868840",
+          "value": 102551
+        },
+        {
+          "id": "steam-413150",
+          "value": 101678
+        },
+        {
+          "id": "steam-271590",
+          "value": 90147
+        }
+      ]
+    },
+    {
+      "date": "20260823",
+      "values": [
+        {
+          "id": "steam-730",
+          "value": 745660
+        },
+        {
+          "id": "steam-570",
+          "value": 576564
+        },
+        {
+          "id": "steam-578080",
+          "value": 477351
+        },
+        {
+          "id": "steam-1623730",
+          "value": 185661
+        },
+        {
+          "id": "steam-1172470",
+          "value": 178468
+        },
+        {
+          "id": "steam-3419430",
+          "value": 155767
+        },
+        {
+          "id": "steam-4001890",
+          "value": 126844
+        },
+        {
+          "id": "steam-2676230",
+          "value": 92813
+        },
+        {
+          "id": "steam-431960",
+          "value": 90767
+        },
+        {
+          "id": "steam-3678970",
+          "value": 90017
+        },
+        {
+          "id": "steam-2507950",
+          "value": 83821
+        },
+        {
+          "id": "steam-252490",
+          "value": 75357
+        },
+        {
+          "id": "steam-2868840",
+          "value": 71862
+        },
+        {
+          "id": "steam-413150",
+          "value": 71695
+        },
+        {
+          "id": "steam-271590",
+          "value": 55546
+        }
+      ]
+    },
+    {
+      "date": "20260824",
+      "values": [
+        {
+          "id": "steam-730",
+          "value": 648429
+        },
+        {
+          "id": "steam-570",
+          "value": 481404
+        },
+        {
+          "id": "steam-578080",
+          "value": 293663
+        },
+        {
+          "id": "steam-3419430",
+          "value": 160879
+        },
+        {
+          "id": "steam-4001890",
+          "value": 132333
+        },
+        {
+          "id": "steam-1623730",
+          "value": 111475
+        },
+        {
+          "id": "steam-1172470",
+          "value": 108652
+        },
+        {
+          "id": "steam-3678970",
+          "value": 82210
+        },
+        {
+          "id": "steam-431960",
+          "value": 81508
+        },
+        {
+          "id": "steam-2676230",
+          "value": 71076
+        },
+        {
+          "id": "steam-252490",
+          "value": 61902
+        },
+        {
+          "id": "steam-2507950",
+          "value": 59902
+        },
+        {
+          "id": "steam-413150",
+          "value": 54776
+        },
+        {
+          "id": "steam-2868840",
+          "value": 53606
+        },
+        {
+          "id": "steam-271590",
+          "value": 45435
+        }
+      ]
+    },
+    {
+      "date": "20260825",
+      "values": [
+        {
+          "id": "steam-730",
+          "value": 631193
+        },
+        {
+          "id": "steam-570",
+          "value": 460898
+        },
+        {
+          "id": "steam-578080",
+          "value": 291400
+        },
+        {
+          "id": "steam-3419430",
+          "value": 160906
+        },
+        {
+          "id": "steam-4001890",
+          "value": 147194
+        },
+        {
+          "id": "steam-1172470",
+          "value": 107579
+        },
+        {
+          "id": "steam-1623730",
+          "value": 104524
+        },
+        {
+          "id": "steam-431960",
+          "value": 80373
+        },
+        {
+          "id": "steam-3678970",
+          "value": 80337
+        },
+        {
+          "id": "steam-2676230",
+          "value": 72723
+        },
+        {
+          "id": "steam-252490",
+          "value": 63945
+        },
+        {
+          "id": "steam-2507950",
+          "value": 60076
+        },
+        {
+          "id": "steam-413150",
+          "value": 54320
+        },
+        {
+          "id": "steam-2868840",
+          "value": 53324
+        },
+        {
+          "id": "steam-271590",
+          "value": 45657
+        }
+      ]
+    },
+    {
+      "date": "20260826",
+      "values": [
+        {
+          "id": "steam-730",
+          "value": 644427
+        },
+        {
+          "id": "steam-570",
+          "value": 439894
+        },
+        {
+          "id": "steam-578080",
+          "value": 315231
+        },
+        {
+          "id": "steam-3419430",
+          "value": 157753
+        },
+        {
+          "id": "steam-4001890",
+          "value": 149482
+        },
+        {
+          "id": "steam-1172470",
+          "value": 108159
+        },
+        {
+          "id": "steam-1623730",
+          "value": 98726
+        },
+        {
+          "id": "steam-431960",
+          "value": 81592
+        },
+        {
+          "id": "steam-3678970",
+          "value": 78289
+        },
+        {
+          "id": "steam-2676230",
+          "value": 70446
+        },
+        {
+          "id": "steam-252490",
+          "value": 58878
+        },
+        {
+          "id": "steam-2507950",
+          "value": 58566
+        },
+        {
+          "id": "steam-413150",
+          "value": 53096
+        },
+        {
+          "id": "steam-2868840",
+          "value": 52929
+        },
+        {
+          "id": "steam-271590",
+          "value": 45614
+        }
+      ]
+    },
+    {
+      "date": "20260827",
+      "values": [
+        {
+          "id": "steam-730",
+          "value": 646976
+        },
+        {
+          "id": "steam-570",
+          "value": 465965
+        },
+        {
+          "id": "steam-578080",
+          "value": 307068
+        },
+        {
+          "id": "steam-3419430",
+          "value": 152733
+        },
+        {
+          "id": "steam-4001890",
+          "value": 148551
+        },
+        {
+          "id": "steam-1172470",
+          "value": 107994
+        },
+        {
+          "id": "steam-1623730",
+          "value": 96324
+        },
+        {
+          "id": "steam-431960",
+          "value": 81059
+        },
+        {
+          "id": "steam-3678970",
+          "value": 77775
+        },
+        {
+          "id": "steam-2676230",
+          "value": 70500
+        },
+        {
+          "id": "steam-2507950",
+          "value": 60136
+        },
+        {
+          "id": "steam-252490",
+          "value": 57877
+        },
+        {
+          "id": "steam-413150",
+          "value": 53310
+        },
+        {
+          "id": "steam-2868840",
+          "value": 52607
+        },
+        {
+          "id": "steam-271590",
+          "value": 45510
+        }
+      ]
+    },
+    {
+      "date": "20260828",
+      "values": [
+        {
+          "id": "steam-730",
+          "value": 638647
+        },
+        {
+          "id": "steam-570",
+          "value": 506917
+        },
+        {
+          "id": "steam-578080",
+          "value": 310503
+        },
+        {
+          "id": "steam-3419430",
+          "value": 145588
+        },
+        {
+          "id": "steam-4001890",
+          "value": 128198
+        },
+        {
+          "id": "steam-1172470",
+          "value": 111341
+        },
+        {
+          "id": "steam-1623730",
+          "value": 97492
+        },
+        {
+          "id": "steam-431960",
+          "value": 82764
+        },
+        {
+          "id": "steam-3678970",
+          "value": 74329
+        },
+        {
+          "id": "steam-2676230",
+          "value": 72342
+        },
+        {
+          "id": "steam-252490",
+          "value": 66001
+        },
+        {
+          "id": "steam-2507950",
+          "value": 62800
+        },
+        {
+          "id": "steam-2868840",
+          "value": 54081
+        },
+        {
+          "id": "steam-413150",
+          "value": 52683
+        },
+        {
+          "id": "steam-271590",
+          "value": 47017
+        }
+      ]
+    },
+    {
+      "date": "20260829",
+      "values": [
+        {
+          "id": "steam-730",
+          "value": 680918
+        },
+        {
+          "id": "steam-570",
+          "value": 540120
+        },
+        {
+          "id": "steam-578080",
+          "value": 410285
+        },
+        {
+          "id": "steam-1172470",
+          "value": 155181
+        },
+        {
+          "id": "steam-3419430",
+          "value": 143076
+        },
+        {
+          "id": "steam-1623730",
+          "value": 136351
+        },
+        {
+          "id": "steam-4001890",
+          "value": 131272
+        },
+        {
+          "id": "steam-431960",
+          "value": 88096
+        },
+        {
+          "id": "steam-2676230",
+          "value": 86638
+        },
+        {
+          "id": "steam-3678970",
+          "value": 77938
+        },
+        {
+          "id": "steam-2507950",
+          "value": 76002
+        },
+        {
+          "id": "steam-252490",
+          "value": 70608
+        },
+        {
+          "id": "steam-2868840",
+          "value": 67889
+        },
+        {
+          "id": "steam-413150",
+          "value": 61276
+        }
+      ]
+    },
+    {
+      "date": "20260830",
+      "values": [
+        {
+          "id": "steam-730",
+          "value": 712907
+        },
+        {
+          "id": "steam-570",
+          "value": 589171
+        },
+        {
+          "id": "steam-578080",
+          "value": 476685
+        },
+        {
+          "id": "steam-1172470",
+          "value": 180033
+        },
+        {
+          "id": "steam-1623730",
+          "value": 152820
+        },
+        {
+          "id": "steam-3419430",
+          "value": 144832
+        },
+        {
+          "id": "steam-4001890",
+          "value": 132437
+        },
+        {
+          "id": "steam-431960",
+          "value": 91979
+        },
+        {
+          "id": "steam-2676230",
+          "value": 90214
+        },
+        {
+          "id": "steam-2507950",
+          "value": 83345
+        },
+        {
+          "id": "steam-3678970",
+          "value": 79832
+        },
+        {
+          "id": "steam-2868840",
+          "value": 72807
+        },
+        {
+          "id": "steam-252490",
+          "value": 68828
+        },
+        {
+          "id": "steam-413150",
+          "value": 67614
+        },
+        {
+          "id": "steam-271590",
+          "value": 55161
+        }
+      ]
+    },
+    {
+      "date": "20260831",
+      "values": [
+        {
+          "id": "steam-730",
+          "value": 590398
+        },
+        {
+          "id": "steam-570",
+          "value": 480511
+        },
+        {
+          "id": "steam-578080",
+          "value": 289447
+        },
+        {
+          "id": "steam-3419430",
+          "value": 148599
+        },
+        {
+          "id": "steam-1172470",
+          "value": 99687
+        },
+        {
+          "id": "steam-1623730",
+          "value": 93383
+        },
+        {
+          "id": "steam-431960",
+          "value": 77387
+        },
+        {
+          "id": "steam-3678970",
+          "value": 72696
+        },
+        {
+          "id": "steam-4001890",
+          "value": 70333
+        },
+        {
+          "id": "steam-2676230",
+          "value": 69885
+        },
+        {
+          "id": "steam-2507950",
+          "value": 56755
+        },
+        {
+          "id": "steam-252490",
+          "value": 55104
+        },
+        {
+          "id": "steam-2868840",
+          "value": 51255
+        },
+        {
+          "id": "steam-413150",
+          "value": 47496
+        },
+        {
+          "id": "steam-271590",
+          "value": 44765
+        }
+      ]
+    },
+    {
+      "date": "20260901",
+      "values": [
+        {
+          "id": "steam-730",
+          "value": 566342
+        },
+        {
+          "id": "steam-570",
+          "value": 451364
+        },
+        {
+          "id": "steam-578080",
+          "value": 294156
+        },
+        {
+          "id": "steam-3419430",
+          "value": 143961
+        },
+        {
+          "id": "steam-1172470",
+          "value": 97286
+        },
+        {
+          "id": "steam-1623730",
+          "value": 85923
+        },
+        {
+          "id": "steam-431960",
+          "value": 74046
+        },
+        {
+          "id": "steam-2676230",
+          "value": 68806
+        },
+        {
+          "id": "steam-3678970",
+          "value": 68801
+        },
+        {
+          "id": "steam-4001890",
+          "value": 54855
+        },
+        {
+          "id": "steam-2507950",
+          "value": 52430
+        },
+        {
+          "id": "steam-2868840",
+          "value": 50730
+        },
+        {
+          "id": "steam-252490",
+          "value": 50690
+        },
+        {
+          "id": "steam-413150",
+          "value": 43745
+        }
+      ]
+    },
+    {
+      "date": "20260902",
+      "values": [
+        {
+          "id": "steam-730",
+          "value": 584417
+        },
+        {
+          "id": "steam-570",
+          "value": 419871
+        },
+        {
+          "id": "steam-578080",
+          "value": 299239
+        },
+        {
+          "id": "steam-3419430",
+          "value": 145374
+        },
+        {
+          "id": "steam-1172470",
+          "value": 103570
+        },
+        {
+          "id": "steam-1623730",
+          "value": 84506
+        },
+        {
+          "id": "steam-431960",
+          "value": 74243
+        },
+        {
+          "id": "steam-2676230",
+          "value": 70366
+        },
+        {
+          "id": "steam-3678970",
+          "value": 68485
+        },
+        {
+          "id": "steam-2507950",
+          "value": 52988
+        },
+        {
+          "id": "steam-2868840",
+          "value": 50205
+        },
+        {
+          "id": "steam-4001890",
+          "value": 47622
+        },
+        {
+          "id": "steam-413150",
+          "value": 43920
+        },
+        {
+          "id": "steam-252490",
+          "value": 42710
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "date": "20230801",
+      "title": "Counter-Strike 2 leads Steam",
+      "body": "Counter-Strike 2 leads this Steam most-played frame with 922,153 players."
+    },
+    {
+      "date": "20260902",
+      "title": "Counter-Strike 2 leads Steam",
+      "body": "Counter-Strike 2 leads this Steam most-played frame with 584,417 players."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Most Played Games",
+      "publisher": "Steam",
+      "url": "https://store.steampowered.com/charts/mostplayed",
+      "note": "Public chart source for current Steam most-played snapshots. Longitudinal history is built from dat.city StoryOps snapshots."
+    }
+  ],
+  "historicalCoverageStart": "20230601",
+  "historicalCoverageEnd": "20260501",
+  "historicalGranularity": "monthly-average-concurrent",
+  "backfillSource": "SteamCharts monthly average player tables",
+  "backfillGeneratedAt": "2026-06-29T04:15:48.426Z",
+  "historical": {
+    "coverageStart": "20230601",
+    "coverageEnd": "20260501",
+    "granularity": "monthly-average-concurrent",
+    "source": "SteamCharts monthly average player tables",
+    "generatedAt": "2026-06-29T04:15:48.426Z",
+    "frameCount": 36,
+    "maxFrames": 36,
+    "maxPublicFrames": 96,
+    "notes": [
+      "Monthly SteamCharts average-player rows are used only for historical context; recent daily frames remain observed StoryOps Steam snapshots.",
+      "Only the current public Steam app IDs are fetched so the backfill does not introduce atlas churn for historical-only games.",
+      "Skipped steam-4704690: https://steamcharts.com/app/4704690 returned 404"
+    ]
+  },
+  "lastObservationDate": "2026-09-02",
+  "dataFreshness": {
+    "status": "fresh",
+    "refreshCadence": "daily",
+    "lastUpdated": "2026-09-02T07:01:52.367Z",
+    "lastRefreshAttemptedAt": "2026-09-02T07:01:52.367Z",
+    "lastRefreshError": null,
+    "lastObservationDate": "2026-09-02",
+    "nextRefreshAt": "2026-09-03T07:00:00.000Z",
+    "sourceStatus": "Steam charts public service",
+    "confidence": "Observed Steam most-played concurrent players at 2026-09-02T06:54:37.000Z."
+  },
+  "media": {
+    "tileSize": 384,
+    "imageFit": "contain-blur",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-09-02T07:01:52.367Z",
+    "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+    "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.webp",
+    "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+    "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/games-people-are-playing.json",
+    "tileWidth": 384,
+    "tileHeight": 384,
+    "tileAspectRatio": 1,
+    "columns": 5,
+    "rows": 4,
+    "width": 1920,
+    "height": 1536,
+    "itemCount": 20,
+    "sourcedImageCount": 19,
+    "generatedImageCount": 1,
+    "placeholderCount": 0,
+    "ogImageUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/games-people-are-playing.png",
+    "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/games-people-are-playing.png",
+    "ogImageWidth": 1200,
+    "ogImageHeight": 630
+  },
+  "taxonomy": {
+    "primaryCategory": "entertainment",
+    "categories": [
+      "entertainment",
+      "gaming",
+      "consumer-platforms"
+    ],
+    "tags": [
+      "steam",
+      "players",
+      "live-games",
+      "rankings"
+    ],
+    "entityTypes": [
+      "game"
+    ],
+    "sourceTypes": [
+      "steam"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "anime-rankings",
+      "type": "fandom-entertainment",
+      "weight": 0.62,
+      "reason": "Gaming and anime share fandom and pop-culture audiences."
+    },
+    {
+      "target": "what-everyone-is-watching",
+      "type": "attention-entertainment",
+      "weight": 0.58,
+      "reason": "Both rank leisure attention around entertainment products."
+    },
+    {
+      "target": "app-store-takeover",
+      "type": "consumer-apps-and-games",
+      "weight": 0.56,
+      "reason": "Both track consumer software rankings, with games overlapping app stores."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "interactive-entertainment",
+    "mainland": "culture",
+    "bridgePriority": [
+      "anime-rankings",
+      "app-store-takeover"
+    ]
+  },
+  "schemaVersion": 1,
+  "contentKind": "dat-city.story",
+  "generatedAt": "2026-09-02T07:01:52.367Z",
+  "versionId": "20260902T070152Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "storyops-scheduler",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-09-02T07:01:52.367Z",
+    "versionId": "20260902T070152Z",
+    "adapter": "steam-most-played",
+    "storySlug": "games-people-are-playing",
+    "districtId": null,
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "publicProjection": {
+    "kind": "story",
+    "version": 1,
+    "generatedAt": "2026-09-02T07:01:52.367Z",
+    "adapter": "steam-most-played",
+    "cache": {
+      "browserMaxAgeSeconds": 60,
+      "edgeMaxAgeSeconds": 3600
+    }
+  },
+  "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/games-people-are-playing.png"
+}

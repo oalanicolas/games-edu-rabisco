@@ -6,7 +6,9 @@ const network=JSON.parse(await readFile(new URL('acervo/network.json',root),'utf
 const manifest=JSON.parse(await readFile(new URL('acervo/manifest.json',root),'utf8'));
 const styles=new Map(manifest.files.filter(f=>f.type.includes('css')).map(f=>[f.url,`/originais/estilos/${f.sha256}.css`]));
 const nativeImports=Object.fromEntries(manifest.files.filter(f=>f.type.includes('javascript')).map(f=>[f.url,f.path]));
-const originalByUrl=new Map(originals.map(o=>[o.url.replace(/\/$/,''),o]));
+const storyPages=manifest.files.filter(f=>f.type.includes('html')&&f.url.startsWith('https://dat.city/stories/')).map(f=>({slug:'dat-city/stories'+(new URL(f.url).pathname.split('/')[2]?'/'+new URL(f.url).pathname.split('/')[2]:''),source:f.url,url:f.url,sourcePath:f.path.replace(/^\/acervo\//,'site/'),sha256:f.sha256,engine:'three'}));
+const allPages=[...originals,...storyPages];
+const originalByUrl=new Map(allPages.flatMap(o=>[[o.url.replace(/\/$/,''),o],[o.source.replace(/\/$/,''),o]]));
 const map=(value,base)=>{
  if(!value||value.includes('${')||value.startsWith('#')||value.startsWith('data:')||value.startsWith('blob:'))return value;
  try{
@@ -25,12 +27,12 @@ for(const file of manifest.files.filter(f=>f.type.includes('css'))){
  await writeFile(new URL(styles.get(file.url).slice(1),root),css(raw,file.url));
 }
 const routedNetwork={...network,...Object.fromEntries(styles)};
-await writeFile(new URL('original-routes.js',root),`window.__EDU_NETWORK__=${JSON.stringify(routedNetwork)};window.__EDU_PAGES__=${JSON.stringify(Object.fromEntries(originals.flatMap(o=>[[o.url.replace(/\/$/,''),`/originais/${o.slug}/`],[o.source.replace(/\/$/,''),`/originais/${o.slug}/`]])))};\n`);
+await writeFile(new URL('original-routes.js',root),`window.__EDU_NETWORK__=${JSON.stringify(routedNetwork)};window.__EDU_PAGES__=${JSON.stringify(Object.fromEntries(allPages.flatMap(o=>[[o.url.replace(/\/$/,''),`/originais/${o.slug}/`],[o.source.replace(/\/$/,''),`/originais/${o.slug}/`]])))};\n`);
 const pages=[];
-for(const o of originals){
+for(const o of allPages){
  const raw=await readFile(new URL(o.sourcePath.replace(/^site\//,'acervo/'),root),'utf8');
  const lesson=lessons.find(l=>l.originalSlug===o.slug)||lessons.find(l=>l.source?.replace(/\/$/,'')===o.url.replace(/\/$/,''));
- const metadata={slug:o.slug,source:o.source,title:o.classroomTitle||lesson?.title||o.title,summary:o.classroomSummary||lesson?.summary||'',question:o.classroomQuestion||lesson?.question||'O que muda quando você altera uma condição?',explanation:o.classroomExplanation||lesson?.explanation||'Use a explicação e a ajuda presentes na experiência original para interpretar o que a cena representa. Identifique o que é dado observado, o que é modelo e o que é recurso visual.',challenge:o.classroomChallenge||'Escolha um controle da experiência original. Registre uma configuração, altere somente esse controle e registre outra. Compare as leituras e a imagem, e explique a diferença.',limit:'Esta versão executa o cliente publicado por Ryan Sael. Consulte também os limites descritos na explicação original. Dados externos preservados correspondem à captura, não são uma leitura ao vivo.',published:o.date,captured:'2026-10-09',sourceEngine:o.engine,renderAdaptation:o.slug==='sky'?'Shaders originais executados por RawShaderMaterial Three.js':'nenhuma',captureDate:'2026-10-09',engine:'three',sourceHash:o.sha256};
+ const metadata={slug:o.slug,source:o.source,title:o.classroomTitle||lesson?.title||o.title||raw.match(/<title>([^<]+)/)?.[1],summary:o.classroomSummary||lesson?.summary||'',question:o.classroomQuestion||lesson?.question||'O que muda quando você altera uma condição?',explanation:o.classroomExplanation||lesson?.explanation||'Use a explicação e a ajuda presentes na experiência original para interpretar o que a cena representa. Identifique o que é dado observado, o que é modelo e o que é recurso visual.',challenge:o.classroomChallenge||'Escolha um controle da experiência original. Registre uma configuração, altere somente esse controle e registre outra. Compare as leituras e a imagem, e explique a diferença.',limit:'Esta versão executa o cliente publicado por Ryan Sael. Consulte também os limites descritos na explicação original. Dados externos preservados correspondem à captura, não são uma leitura ao vivo.',published:o.date,captured:'2026-10-09',sourceEngine:o.engine,renderAdaptation:o.slug==='sky'?'Shaders originais executados por RawShaderMaterial Three.js':'nenhuma',captureDate:'2026-10-09',engine:'three',sourceHash:o.sha256};
  const base=`/acervo/${new URL(o.source).host}${new URL(o.source).pathname.replace(/[^/]*$/,'')}`;
  const scripts=[];let hasImportMap=false;
  const attributes=text=>text.replace(/\b(src|href|poster|srcset|imagesrcset)=(['"])([^'"<>]+)\2/g,(match,name,quote,value)=>{value=value.replaceAll('&amp;','&');const mapped=name.endsWith('srcset')?value.split(',').map(item=>{const [url,...size]=item.trim().split(/\s+/);return [map(url,o.source),...size].join(' ');}).join(','):map(value,o.source);return `${name}=${quote}${mapped}${quote}`;});

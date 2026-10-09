@@ -1,0 +1,6349 @@
+{
+  "id": "youtube-gaming-subscribers",
+  "kicker": "Creator Category Race",
+  "title": "Gaming YouTubers by Subscribers",
+  "subtitle": "A gaming-channel skyline built from Wikipedia's YouTube category table and gaming-related YouTuber pages.",
+  "badge": "Ranked by subscribers",
+  "visualization": "race-arena",
+  "theme": "creator-arena",
+  "artStyle": "stylized-editorial",
+  "dateRange": [
+    "20260628",
+    "20260831"
+  ],
+  "timelineTicks": [
+    "20260628",
+    "20260629",
+    "20260701",
+    "20260706",
+    "20260707",
+    "20260708",
+    "20260709",
+    "20260710",
+    "20260711",
+    "20260712",
+    "20260713",
+    "20260714",
+    "20260715",
+    "20260716",
+    "20260717",
+    "20260718",
+    "20260719",
+    "20260720",
+    "20260721",
+    "20260722",
+    "20260727",
+    "20260803",
+    "20260810",
+    "20260817",
+    "20260822",
+    "20260824",
+    "20260831"
+  ],
+  "metricLabel": "Subscribers",
+  "ogImage": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/youtube-gaming-subscribers.png",
+  "cityPreview": {
+    "districtId": "youtube-gaming-heights",
+    "districtName": "YouTube Gaming Heights",
+    "cardLabel": "Gaming Creators",
+    "summary": "Gaming-focused YouTube channels and creators ranked by public subscriber counts.",
+    "primaryMetric": "Subscribers",
+    "latestFrameLabel": "2026-08-31",
+    "storyUrl": "/stories/youtube-gaming-subscribers/",
+    "thumbnail": "/assets/og/dat-city.webp"
+  },
+  "sourceStatus": "Wikipedia Gaming YouTube YouTube category pages and current channel table",
+  "confidence": "Observed List of most-subscribed YouTube channels and categories Gaming-related YouTube channels, Gaming YouTubers on 2026-08-31T07:01:19.214Z; subscriber counts are the rounded public values displayed in Wikipedia tables or article infoboxes.",
+  "methodology": "This StoryOps adapter builds a Gaming YouTube YouTube leaderboard from Wikipedia. It can filter the current most-subscribed YouTube channel table by category and augment it with pages from configured Wikipedia categories, then parses public YouTube subscriber counts from article infoboxes and stores recent StoryOps snapshots.",
+  "playback": {
+    "durationSeconds": 24,
+    "initialDate": "20260628",
+    "periodLabel": "Gaming YouTube subscribers"
+  },
+  "visual": {
+    "topCount": 10,
+    "referenceCount": 20,
+    "horizontalCount": 12
+  },
+  "layers": [
+    {
+      "id": "subscribers",
+      "label": "Subscribers",
+      "default": true
+    },
+    {
+      "id": "category",
+      "label": "Category",
+      "default": true
+    }
+  ],
+  "focus": [
+    {
+      "id": "pewdiepie",
+      "label": "PewDiePie"
+    },
+    {
+      "id": "panda-boi",
+      "label": "PANDA BOI"
+    },
+    {
+      "id": "mrbeast-gaming",
+      "label": "MrBeast Gaming"
+    },
+    {
+      "id": "mikecrack",
+      "label": "Mikecrack"
+    }
+  ],
+  "entities": [
+    {
+      "id": "pewdiepie",
+      "name": "PewDiePie",
+      "shortName": "PewDiePie",
+      "article": "PewDiePie",
+      "channelUrl": "https://www.youtube.com/PewDiePie",
+      "category": "Gaming",
+      "country": "Sweden",
+      "joinedYouTube": "April 29, 2010",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/Pewdiepie_head_shot.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/Pewdiepie_head_shot.jpg",
+      "avatarText": "P",
+      "color": "#ff5a61",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.json",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.2,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/Pewdiepie_head_shot.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "panda-boi",
+      "name": "PANDA BOI",
+      "shortName": "PANDA BOI",
+      "article": "PANDA BOI",
+      "channelUrl": "https://www.youtube.com/@pandaboi",
+      "category": "Gaming",
+      "country": "Italy",
+      "joinedYouTube": "December 5, 2020",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/PANDA_BOI_in_2026.jpg/960px-PANDA_BOI_in_2026.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/PANDA_BOI_in_2026.jpg/960px-PANDA_BOI_in_2026.jpg",
+      "avatarText": "PB",
+      "color": "#18c871",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.json",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0,
+          "u1": 0.4,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/PANDA_BOI_in_2026.jpg/960px-PANDA_BOI_in_2026.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "mrbeast-gaming",
+      "name": "MrBeast Gaming",
+      "shortName": "MrBeast Gaming",
+      "article": "MrBeast Gaming",
+      "channelUrl": "https://www.youtube.com/@mrbeastgaming",
+      "category": "Gaming",
+      "country": "United States",
+      "joinedYouTube": "April 7, 2020",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/MrBeast_in_2026_%28cropped_4%29.png/960px-MrBeast_in_2026_%28cropped_4%29.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/MrBeast_in_2026_%28cropped_4%29.png/960px-MrBeast_in_2026_%28cropped_4%29.png",
+      "avatarText": "MG",
+      "color": "#00a6ff",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.json",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0,
+          "u1": 0.6,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/MrBeast_in_2026_%28cropped_4%29.png/960px-MrBeast_in_2026_%28cropped_4%29.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "mikecrack",
+      "name": "Mikecrack",
+      "shortName": "Mikecrack",
+      "article": "Mikecrack",
+      "channelUrl": "https://www.youtube.com/@mikecrack",
+      "category": "Gaming",
+      "country": "Spain",
+      "joinedYouTube": "July 13, 2015",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Mikecrack_opening_title.png/960px-Mikecrack_opening_title.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Mikecrack_opening_title.png/960px-Mikecrack_opening_title.png",
+      "avatarText": "M",
+      "color": "#ffc84a",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.json",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0,
+          "u1": 0.8,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Mikecrack_opening_title.png/960px-Mikecrack_opening_title.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "juegagerman",
+      "name": "JuegaGerman",
+      "shortName": "JuegaGerman",
+      "article": "JuegaGerman",
+      "channelUrl": "https://www.youtube.com/@juegagerman",
+      "category": "Gaming",
+      "country": "Chile",
+      "joinedYouTube": "May 18, 2013",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/German_Garmendia_2023.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/German_Garmendia_2023.png",
+      "avatarText": "J",
+      "color": "#8f6bff",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.json",
+          "x": 1280,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/German_Garmendia_2023.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "jess-no-limit",
+      "name": "Jess No Limit",
+      "shortName": "Jess No Limit",
+      "article": "Jess No Limit",
+      "channelUrl": "https://www.youtube.com/@jessnolimit",
+      "category": "Gaming",
+      "country": "Indonesia",
+      "joinedYouTube": "September 6, 2017",
+      "thumbnailUrl": "https://unavatar.io/youtube/jessnolimit",
+      "imageUrl": "https://unavatar.io/youtube/jessnolimit",
+      "avatarText": "JN",
+      "color": "#f18c4f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.json",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.25,
+          "u1": 0.2,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://unavatar.io/youtube/jessnolimit",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "techno-gamerz",
+      "name": "Techno Gamerz",
+      "shortName": "Techno Gamerz",
+      "article": null,
+      "channelUrl": "https://www.youtube.com/@TechnoGamerzOfficial",
+      "category": "Gaming",
+      "country": "India",
+      "joinedYouTube": "August 13, 2017",
+      "thumbnailUrl": "https://unavatar.io/youtube/TechnoGamerzOfficial",
+      "imageUrl": "https://unavatar.io/youtube/TechnoGamerzOfficial",
+      "avatarText": "TG",
+      "color": "#41a99f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.json",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.25,
+          "u1": 0.4,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://unavatar.io/youtube/TechnoGamerzOfficial",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "beter-bocuk",
+      "name": "BETER BÖCÜK",
+      "shortName": "BETER BÖCÜK",
+      "article": null,
+      "channelUrl": "https://www.youtube.com/@beterbocuk",
+      "category": "Gaming",
+      "country": "Turkey",
+      "joinedYouTube": "December 13, 2012",
+      "thumbnailUrl": "https://unavatar.io/youtube/beterbocuk",
+      "imageUrl": "https://unavatar.io/youtube/beterbocuk",
+      "avatarText": "BB",
+      "color": "#d78fca",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.json",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.25,
+          "u1": 0.6,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://unavatar.io/youtube/beterbocuk",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "carryminati",
+      "name": "CarryMinati",
+      "shortName": "CarryMinati",
+      "article": "CarryMinati",
+      "channelUrl": null,
+      "category": "Gaming YouTube",
+      "country": "",
+      "joinedYouTube": "",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Ajey_Nagar_2022.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Ajey_Nagar_2022.jpg",
+      "avatarText": "C",
+      "color": "#7b9b65",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.json",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.25,
+          "u1": 0.8,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Ajey_Nagar_2022.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "dream",
+      "name": "Dream",
+      "shortName": "Dream",
+      "article": "Dream (YouTuber)",
+      "channelUrl": null,
+      "category": "Gaming YouTube",
+      "country": "",
+      "joinedYouTube": "",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/I_went_to_VidCon_2023_and_it_was..._mid_14-5_screenshot_%28cropped%29.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/I_went_to_VidCon_2023_and_it_was..._mid_14-5_screenshot_%28cropped%29.jpg",
+      "avatarText": "D",
+      "color": "#2f4858",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.json",
+          "x": 1280,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.25,
+          "u1": 1,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/I_went_to_VidCon_2023_and_it_was..._mid_14-5_screenshot_%28cropped%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "markiplier",
+      "name": "Markiplier",
+      "shortName": "Markiplier",
+      "article": "Markiplier",
+      "channelUrl": null,
+      "category": "Gaming YouTube",
+      "country": "",
+      "joinedYouTube": "",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Markiplier_in_We_Tried_Peanut_Free_Candy_from_YouTube_at_0-1-16_%28cropped%29.png/960px-Markiplier_in_We_Tried_Peanut_Free_Candy_from_YouTube_at_0-1-16_%28cropped%29.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Markiplier_in_We_Tried_Peanut_Free_Candy_from_YouTube_at_0-1-16_%28cropped%29.png/960px-Markiplier_in_We_Tried_Peanut_Free_Candy_from_YouTube_at_0-1-16_%28cropped%29.png",
+      "avatarText": "M",
+      "color": "#ef426f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.json",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.5,
+          "u1": 0.2,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Markiplier_in_We_Tried_Peanut_Free_Candy_from_YouTube_at_0-1-16_%28cropped%29.png/960px-Markiplier_in_We_Tried_Peanut_Free_Candy_from_YouTube_at_0-1-16_%28cropped%29.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "jacksepticeye",
+      "name": "Jacksepticeye",
+      "shortName": "Jacksepticeye",
+      "article": "Jacksepticeye",
+      "channelUrl": null,
+      "category": "Gaming YouTube",
+      "country": "",
+      "joinedYouTube": "",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Jacksepticeye_by_Gage_Skidmore_%283x4_cropped%29.jpg/960px-Jacksepticeye_by_Gage_Skidmore_%283x4_cropped%29.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Jacksepticeye_by_Gage_Skidmore_%283x4_cropped%29.jpg/960px-Jacksepticeye_by_Gage_Skidmore_%283x4_cropped%29.jpg",
+      "avatarText": "J",
+      "color": "#86bdf4",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.json",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.5,
+          "u1": 0.4,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Jacksepticeye_by_Gage_Skidmore_%283x4_cropped%29.jpg/960px-Jacksepticeye_by_Gage_Skidmore_%283x4_cropped%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "lazarbeam",
+      "name": "LazarBeam",
+      "shortName": "LazarBeam",
+      "article": "LazarBeam",
+      "channelUrl": null,
+      "category": "Gaming YouTube",
+      "country": "",
+      "joinedYouTube": "",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/LazarBeam_sig.svg/960px-LazarBeam_sig.svg.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/LazarBeam_sig.svg/960px-LazarBeam_sig.svg.png",
+      "avatarText": "L",
+      "color": "#c9a14a",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.json",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.5,
+          "u1": 0.6,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/LazarBeam_sig.svg/960px-LazarBeam_sig.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "lyna",
+      "name": "Lyna",
+      "shortName": "Lyna",
+      "article": "Lyna Vallejos",
+      "channelUrl": null,
+      "category": "Gaming YouTube",
+      "country": "",
+      "joinedYouTube": "",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Lyna_2023.jpg/960px-Lyna_2023.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Lyna_2023.jpg/960px-Lyna_2023.jpg",
+      "avatarText": "L",
+      "color": "#e34f59",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.json",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.5,
+          "u1": 0.8,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Lyna_2023.jpg/960px-Lyna_2023.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "jelly",
+      "name": "Jelly",
+      "shortName": "Jelly",
+      "article": "Jelly (YouTuber)",
+      "channelUrl": null,
+      "category": "Gaming YouTube",
+      "country": "",
+      "joinedYouTube": "",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/8/83/Jelly_%28YouTuber%29.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/83/Jelly_%28YouTuber%29.jpg",
+      "avatarText": "J",
+      "color": "#f18c4f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.json",
+          "x": 1280,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.5,
+          "u1": 1,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/83/Jelly_%28YouTuber%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "zbing-z",
+      "name": "zbing z.",
+      "shortName": "zbing z.",
+      "article": "Naiyarat Thanawaigoses",
+      "channelUrl": null,
+      "category": "Gaming YouTube",
+      "country": "",
+      "joinedYouTube": "",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/e/e0/Zbingz_logo.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/e/e0/Zbingz_logo.png",
+      "avatarText": "ZZ",
+      "color": "#9aa4b2",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.json",
+          "x": 0,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.75,
+          "u1": 0.2,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/e/e0/Zbingz_logo.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "squeezie",
+      "name": "Squeezie",
+      "shortName": "Squeezie",
+      "article": "Squeezie",
+      "channelUrl": null,
+      "category": "Gaming YouTube",
+      "country": "",
+      "joinedYouTube": "",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Squeezie_Zack_en_Roue_Libre_2025.png/960px-Squeezie_Zack_en_Roue_Libre_2025.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Squeezie_Zack_en_Roue_Libre_2025.png/960px-Squeezie_Zack_en_Roue_Libre_2025.png",
+      "avatarText": "S",
+      "color": "#ff5a61",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.json",
+          "x": 320,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.75,
+          "u1": 0.4,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Squeezie_Zack_en_Roue_Libre_2025.png/960px-Squeezie_Zack_en_Roue_Libre_2025.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "ali-a",
+      "name": "Ali-A",
+      "shortName": "Ali-A",
+      "article": "Ali-A",
+      "channelUrl": null,
+      "category": "Gaming YouTube",
+      "country": "",
+      "joinedYouTube": "",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/1/13/Ali-A_in_2019.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/13/Ali-A_in_2019.png",
+      "avatarText": "A",
+      "color": "#18c871",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.json",
+          "x": 640,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.75,
+          "u1": 0.6,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/13/Ali-A_in_2019.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "hikakin",
+      "name": "Hikakin",
+      "shortName": "Hikakin",
+      "article": "Hikakin",
+      "channelUrl": null,
+      "category": "Gaming YouTube",
+      "country": "",
+      "joinedYouTube": "",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/HIKAKIN_2023.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/HIKAKIN_2023.jpg",
+      "avatarText": "H",
+      "color": "#ffc84a",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.json",
+          "x": 960,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.75,
+          "u1": 0.8,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/HIKAKIN_2023.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "penguinz0",
+      "name": "penguinz0",
+      "shortName": "penguinz0",
+      "article": "Cr1TiKaL",
+      "channelUrl": null,
+      "category": "Gaming YouTube",
+      "country": "",
+      "joinedYouTube": "",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Cr1TiKaL_in_2022.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Cr1TiKaL_in_2022.jpg",
+      "avatarText": "P",
+      "color": "#00a6ff",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.json",
+          "x": 1280,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.75,
+          "u1": 1,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Cr1TiKaL_in_2022.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    }
+  ],
+  "frames": [
+    {
+      "date": "20260628",
+      "values": [
+        {
+          "id": "pewdiepie",
+          "value": 110000000,
+          "rank": 1,
+          "subscribersMillions": 110,
+          "category": "Gaming",
+          "country": "Sweden",
+          "joinedYouTube": "April 29, 2010",
+          "sourceKind": "table"
+        },
+        {
+          "id": "panda-boi",
+          "value": 62600000,
+          "rank": 2,
+          "subscribersMillions": 62.6,
+          "category": "Gaming",
+          "country": "Italy",
+          "joinedYouTube": "December 5, 2020",
+          "sourceKind": "table"
+        },
+        {
+          "id": "mikecrack",
+          "value": 58500000,
+          "rank": 3,
+          "subscribersMillions": 58.5,
+          "category": "Gaming",
+          "country": "Spain",
+          "joinedYouTube": "July 13, 2015",
+          "sourceKind": "table"
+        },
+        {
+          "id": "mrbeast-gaming",
+          "value": 57900000,
+          "rank": 4,
+          "subscribersMillions": 57.9,
+          "category": "Gaming",
+          "country": "United States",
+          "joinedYouTube": "April 7, 2020",
+          "sourceKind": "table"
+        },
+        {
+          "id": "juegagerman",
+          "value": 56000000,
+          "rank": 5,
+          "subscribersMillions": 56,
+          "category": "Gaming",
+          "country": "Chile",
+          "joinedYouTube": "May 18, 2013",
+          "sourceKind": "table"
+        },
+        {
+          "id": "jess-no-limit",
+          "value": 54600000,
+          "rank": 6,
+          "subscribersMillions": 54.6,
+          "category": "Gaming",
+          "country": "Indonesia",
+          "joinedYouTube": "September 6, 2017",
+          "sourceKind": "table"
+        },
+        {
+          "id": "techno-gamerz",
+          "value": 52200000,
+          "rank": 7,
+          "subscribersMillions": 52.2,
+          "category": "Gaming",
+          "country": "India",
+          "joinedYouTube": "August 13, 2017",
+          "sourceKind": "table"
+        },
+        {
+          "id": "beter-bocuk",
+          "value": 51800000,
+          "rank": 8,
+          "subscribersMillions": 51.8,
+          "category": "Gaming",
+          "country": "Turkey",
+          "joinedYouTube": "December 13, 2012",
+          "sourceKind": "table"
+        },
+        {
+          "id": "carryminati",
+          "value": 45200000,
+          "rank": 9,
+          "subscribersMillions": 45.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "dream",
+          "value": 43986000,
+          "rank": 10,
+          "subscribersMillions": 43.986000000000004,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "markiplier",
+          "value": 38700000,
+          "rank": 11,
+          "subscribersMillions": 38.7,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "jacksepticeye",
+          "value": 31200000,
+          "rank": 12,
+          "subscribersMillions": 31.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "lazarbeam",
+          "value": 28902000,
+          "rank": 13,
+          "subscribersMillions": 28.902,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "lyna",
+          "value": 24800000,
+          "rank": 14,
+          "subscribersMillions": 24.8,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "zbing-z",
+          "value": 21800000,
+          "rank": 15,
+          "subscribersMillions": 21.8,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "squeezie",
+          "value": 20100000,
+          "rank": 16,
+          "subscribersMillions": 20.1,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "ali-a",
+          "value": 19700000,
+          "rank": 17,
+          "subscribersMillions": 19.7,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "hikakin",
+          "value": 19000000,
+          "rank": 18,
+          "subscribersMillions": 19,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "penguinz0",
+          "value": 18000000,
+          "rank": 19,
+          "subscribersMillions": 18,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        }
+      ]
+    },
+    {
+      "date": "20260629",
+      "values": [
+        {
+          "id": "pewdiepie",
+          "value": 110000000,
+          "rank": 1,
+          "subscribersMillions": 110,
+          "category": "Gaming",
+          "country": "Sweden",
+          "joinedYouTube": "April 29, 2010",
+          "sourceKind": "table"
+        },
+        {
+          "id": "panda-boi",
+          "value": 62600000,
+          "rank": 2,
+          "subscribersMillions": 62.6,
+          "category": "Gaming",
+          "country": "Italy",
+          "joinedYouTube": "December 5, 2020",
+          "sourceKind": "table"
+        },
+        {
+          "id": "mikecrack",
+          "value": 58500000,
+          "rank": 3,
+          "subscribersMillions": 58.5,
+          "category": "Gaming",
+          "country": "Spain",
+          "joinedYouTube": "July 13, 2015",
+          "sourceKind": "table"
+        },
+        {
+          "id": "mrbeast-gaming",
+          "value": 58000000,
+          "rank": 4,
+          "subscribersMillions": 58,
+          "category": "Gaming",
+          "country": "United States",
+          "joinedYouTube": "April 7, 2020",
+          "sourceKind": "table"
+        },
+        {
+          "id": "juegagerman",
+          "value": 56000000,
+          "rank": 5,
+          "subscribersMillions": 56,
+          "category": "Gaming",
+          "country": "Chile",
+          "joinedYouTube": "May 18, 2013",
+          "sourceKind": "table"
+        },
+        {
+          "id": "jess-no-limit",
+          "value": 54600000,
+          "rank": 6,
+          "subscribersMillions": 54.6,
+          "category": "Gaming",
+          "country": "Indonesia",
+          "joinedYouTube": "September 6, 2017",
+          "sourceKind": "table"
+        },
+        {
+          "id": "techno-gamerz",
+          "value": 52200000,
+          "rank": 7,
+          "subscribersMillions": 52.2,
+          "category": "Gaming",
+          "country": "India",
+          "joinedYouTube": "August 13, 2017",
+          "sourceKind": "table"
+        },
+        {
+          "id": "beter-bocuk",
+          "value": 51800000,
+          "rank": 8,
+          "subscribersMillions": 51.8,
+          "category": "Gaming",
+          "country": "Turkey",
+          "joinedYouTube": "December 13, 2012",
+          "sourceKind": "table"
+        },
+        {
+          "id": "carryminati",
+          "value": 45200000,
+          "rank": 9,
+          "subscribersMillions": 45.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "dream",
+          "value": 43986000,
+          "rank": 10,
+          "subscribersMillions": 43.986000000000004,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "markiplier",
+          "value": 38700000,
+          "rank": 11,
+          "subscribersMillions": 38.7,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "jacksepticeye",
+          "value": 31200000,
+          "rank": 12,
+          "subscribersMillions": 31.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "lazarbeam",
+          "value": 28902000,
+          "rank": 13,
+          "subscribersMillions": 28.902,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "lyna",
+          "value": 24800000,
+          "rank": 14,
+          "subscribersMillions": 24.8,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "zbing-z",
+          "value": 21800000,
+          "rank": 15,
+          "subscribersMillions": 21.8,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "squeezie",
+          "value": 20100000,
+          "rank": 16,
+          "subscribersMillions": 20.1,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "ali-a",
+          "value": 19700000,
+          "rank": 17,
+          "subscribersMillions": 19.7,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "hikakin",
+          "value": 19000000,
+          "rank": 18,
+          "subscribersMillions": 19,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "penguinz0",
+          "value": 18000000,
+          "rank": 19,
+          "subscribersMillions": 18,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        }
+      ]
+    },
+    {
+      "date": "20260701",
+      "values": [
+        {
+          "id": "pewdiepie",
+          "value": 110000000,
+          "rank": 1,
+          "subscribersMillions": 110,
+          "category": "Gaming",
+          "country": "Sweden",
+          "joinedYouTube": "April 29, 2010",
+          "sourceKind": "table"
+        },
+        {
+          "id": "panda-boi",
+          "value": 62600000,
+          "rank": 2,
+          "subscribersMillions": 62.6,
+          "category": "Gaming",
+          "country": "Italy",
+          "joinedYouTube": "December 5, 2020",
+          "sourceKind": "table"
+        },
+        {
+          "id": "mikecrack",
+          "value": 58500000,
+          "rank": 3,
+          "subscribersMillions": 58.5,
+          "category": "Gaming",
+          "country": "Spain",
+          "joinedYouTube": "July 13, 2015",
+          "sourceKind": "table"
+        },
+        {
+          "id": "mrbeast-gaming",
+          "value": 58000000,
+          "rank": 4,
+          "subscribersMillions": 58,
+          "category": "Gaming",
+          "country": "United States",
+          "joinedYouTube": "April 7, 2020",
+          "sourceKind": "table"
+        },
+        {
+          "id": "juegagerman",
+          "value": 56000000,
+          "rank": 5,
+          "subscribersMillions": 56,
+          "category": "Gaming",
+          "country": "Chile",
+          "joinedYouTube": "May 18, 2013",
+          "sourceKind": "table"
+        },
+        {
+          "id": "jess-no-limit",
+          "value": 54600000,
+          "rank": 6,
+          "subscribersMillions": 54.6,
+          "category": "Gaming",
+          "country": "Indonesia",
+          "joinedYouTube": "September 6, 2017",
+          "sourceKind": "table"
+        },
+        {
+          "id": "techno-gamerz",
+          "value": 52200000,
+          "rank": 7,
+          "subscribersMillions": 52.2,
+          "category": "Gaming",
+          "country": "India",
+          "joinedYouTube": "August 13, 2017",
+          "sourceKind": "table"
+        },
+        {
+          "id": "beter-bocuk",
+          "value": 51800000,
+          "rank": 8,
+          "subscribersMillions": 51.8,
+          "category": "Gaming",
+          "country": "Turkey",
+          "joinedYouTube": "December 13, 2012",
+          "sourceKind": "table"
+        },
+        {
+          "id": "carryminati",
+          "value": 45200000,
+          "rank": 9,
+          "subscribersMillions": 45.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "dream",
+          "value": 43986000,
+          "rank": 10,
+          "subscribersMillions": 43.986000000000004,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "markiplier",
+          "value": 38700000,
+          "rank": 11,
+          "subscribersMillions": 38.7,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "jacksepticeye",
+          "value": 31200000,
+          "rank": 12,
+          "subscribersMillions": 31.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "lazarbeam",
+          "value": 28902000,
+          "rank": 13,
+          "subscribersMillions": 28.902,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "lyna",
+          "value": 24800000,
+          "rank": 14,
+          "subscribersMillions": 24.8,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "zbing-z",
+          "value": 21800000,
+          "rank": 15,
+          "subscribersMillions": 21.8,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "squeezie",
+          "value": 20100000,
+          "rank": 16,
+          "subscribersMillions": 20.1,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "ali-a",
+          "value": 19700000,
+          "rank": 17,
+          "subscribersMillions": 19.7,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "hikakin",
+          "value": 19000000,
+          "rank": 18,
+          "subscribersMillions": 19,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "penguinz0",
+          "value": 18000000,
+          "rank": 19,
+          "subscribersMillions": 18,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        }
+      ]
+    },
+    {
+      "date": "20260706",
+      "values": [
+        {
+          "id": "pewdiepie",
+          "value": 110000000,
+          "rank": 1,
+          "subscribersMillions": 110,
+          "category": "Gaming",
+          "country": "Sweden",
+          "joinedYouTube": "April 29, 2010",
+          "sourceKind": "table"
+        },
+        {
+          "id": "panda-boi",
+          "value": 62600000,
+          "rank": 2,
+          "subscribersMillions": 62.6,
+          "category": "Gaming",
+          "country": "Italy",
+          "joinedYouTube": "December 5, 2020",
+          "sourceKind": "table"
+        },
+        {
+          "id": "mikecrack",
+          "value": 58500000,
+          "rank": 3,
+          "subscribersMillions": 58.5,
+          "category": "Gaming",
+          "country": "Spain",
+          "joinedYouTube": "July 13, 2015",
+          "sourceKind": "table"
+        },
+        {
+          "id": "mrbeast-gaming",
+          "value": 58100000,
+          "rank": 4,
+          "subscribersMillions": 58.1,
+          "category": "Gaming",
+          "country": "United States",
+          "joinedYouTube": "April 7, 2020",
+          "sourceKind": "table"
+        },
+        {
+          "id": "juegagerman",
+          "value": 56000000,
+          "rank": 5,
+          "subscribersMillions": 56,
+          "category": "Gaming",
+          "country": "Chile",
+          "joinedYouTube": "May 18, 2013",
+          "sourceKind": "table"
+        },
+        {
+          "id": "jess-no-limit",
+          "value": 54600000,
+          "rank": 6,
+          "subscribersMillions": 54.6,
+          "category": "Gaming",
+          "country": "Indonesia",
+          "joinedYouTube": "September 6, 2017",
+          "sourceKind": "table"
+        },
+        {
+          "id": "techno-gamerz",
+          "value": 52300000,
+          "rank": 7,
+          "subscribersMillions": 52.3,
+          "category": "Gaming",
+          "country": "India",
+          "joinedYouTube": "August 13, 2017",
+          "sourceKind": "table"
+        },
+        {
+          "id": "beter-bocuk",
+          "value": 51800000,
+          "rank": 8,
+          "subscribersMillions": 51.8,
+          "category": "Gaming",
+          "country": "Turkey",
+          "joinedYouTube": "December 13, 2012",
+          "sourceKind": "table"
+        },
+        {
+          "id": "carryminati",
+          "value": 45200000,
+          "rank": 9,
+          "subscribersMillions": 45.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "dream",
+          "value": 43986000,
+          "rank": 10,
+          "subscribersMillions": 43.986000000000004,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "markiplier",
+          "value": 38700000,
+          "rank": 11,
+          "subscribersMillions": 38.7,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "jacksepticeye",
+          "value": 31200000,
+          "rank": 12,
+          "subscribersMillions": 31.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "lazarbeam",
+          "value": 28902000,
+          "rank": 13,
+          "subscribersMillions": 28.902,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "lyna",
+          "value": 24800000,
+          "rank": 14,
+          "subscribersMillions": 24.8,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "jelly",
+          "value": 23400000,
+          "rank": 15,
+          "subscribersMillions": 23.4,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "zbing-z",
+          "value": 21800000,
+          "rank": 16,
+          "subscribersMillions": 21.8,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "squeezie",
+          "value": 20100000,
+          "rank": 17,
+          "subscribersMillions": 20.1,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "ali-a",
+          "value": 19700000,
+          "rank": 18,
+          "subscribersMillions": 19.7,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "hikakin",
+          "value": 19000000,
+          "rank": 19,
+          "subscribersMillions": 19,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "penguinz0",
+          "value": 18100000,
+          "rank": 20,
+          "subscribersMillions": 18.1,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        }
+      ]
+    },
+    {
+      "date": "20260707",
+      "values": [
+        {
+          "id": "pewdiepie",
+          "value": 110000000,
+          "rank": 1,
+          "subscribersMillions": 110,
+          "category": "Gaming",
+          "country": "Sweden",
+          "joinedYouTube": "April 29, 2010",
+          "sourceKind": "table"
+        },
+        {
+          "id": "panda-boi",
+          "value": 62600000,
+          "rank": 2,
+          "subscribersMillions": 62.6,
+          "category": "Gaming",
+          "country": "Italy",
+          "joinedYouTube": "December 5, 2020",
+          "sourceKind": "table"
+        },
+        {
+          "id": "mikecrack",
+          "value": 58500000,
+          "rank": 3,
+          "subscribersMillions": 58.5,
+          "category": "Gaming",
+          "country": "Spain",
+          "joinedYouTube": "July 13, 2015",
+          "sourceKind": "table"
+        },
+        {
+          "id": "mrbeast-gaming",
+          "value": 58100000,
+          "rank": 4,
+          "subscribersMillions": 58.1,
+          "category": "Gaming",
+          "country": "United States",
+          "joinedYouTube": "April 7, 2020",
+          "sourceKind": "table"
+        },
+        {
+          "id": "juegagerman",
+          "value": 56000000,
+          "rank": 5,
+          "subscribersMillions": 56,
+          "category": "Gaming",
+          "country": "Chile",
+          "joinedYouTube": "May 18, 2013",
+          "sourceKind": "table"
+        },
+        {
+          "id": "jess-no-limit",
+          "value": 54600000,
+          "rank": 6,
+          "subscribersMillions": 54.6,
+          "category": "Gaming",
+          "country": "Indonesia",
+          "joinedYouTube": "September 6, 2017",
+          "sourceKind": "table"
+        },
+        {
+          "id": "techno-gamerz",
+          "value": 52300000,
+          "rank": 7,
+          "subscribersMillions": 52.3,
+          "category": "Gaming",
+          "country": "India",
+          "joinedYouTube": "August 13, 2017",
+          "sourceKind": "table"
+        },
+        {
+          "id": "beter-bocuk",
+          "value": 51800000,
+          "rank": 8,
+          "subscribersMillions": 51.8,
+          "category": "Gaming",
+          "country": "Turkey",
+          "joinedYouTube": "December 13, 2012",
+          "sourceKind": "table"
+        },
+        {
+          "id": "carryminati",
+          "value": 45200000,
+          "rank": 9,
+          "subscribersMillions": 45.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "dream",
+          "value": 43986000,
+          "rank": 10,
+          "subscribersMillions": 43.986000000000004,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "markiplier",
+          "value": 38700000,
+          "rank": 11,
+          "subscribersMillions": 38.7,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "jacksepticeye",
+          "value": 31200000,
+          "rank": 12,
+          "subscribersMillions": 31.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "lazarbeam",
+          "value": 28902000,
+          "rank": 13,
+          "subscribersMillions": 28.902,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "lyna",
+          "value": 24800000,
+          "rank": 14,
+          "subscribersMillions": 24.8,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "jelly",
+          "value": 23400000,
+          "rank": 15,
+          "subscribersMillions": 23.4,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "zbing-z",
+          "value": 21800000,
+          "rank": 16,
+          "subscribersMillions": 21.8,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "squeezie",
+          "value": 20100000,
+          "rank": 17,
+          "subscribersMillions": 20.1,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "ali-a",
+          "value": 19700000,
+          "rank": 18,
+          "subscribersMillions": 19.7,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "hikakin",
+          "value": 19000000,
+          "rank": 19,
+          "subscribersMillions": 19,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "penguinz0",
+          "value": 18100000,
+          "rank": 20,
+          "subscribersMillions": 18.1,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        }
+      ]
+    },
+    {
+      "date": "20260708",
+      "values": [
+        {
+          "id": "pewdiepie",
+          "value": 110000000,
+          "rank": 1,
+          "subscribersMillions": 110,
+          "category": "Gaming",
+          "country": "Sweden",
+          "joinedYouTube": "April 29, 2010",
+          "sourceKind": "table"
+        },
+        {
+          "id": "panda-boi",
+          "value": 62600000,
+          "rank": 2,
+          "subscribersMillions": 62.6,
+          "category": "Gaming",
+          "country": "Italy",
+          "joinedYouTube": "December 5, 2020",
+          "sourceKind": "table"
+        },
+        {
+          "id": "mikecrack",
+          "value": 58500000,
+          "rank": 3,
+          "subscribersMillions": 58.5,
+          "category": "Gaming",
+          "country": "Spain",
+          "joinedYouTube": "July 13, 2015",
+          "sourceKind": "table"
+        },
+        {
+          "id": "mrbeast-gaming",
+          "value": 58100000,
+          "rank": 4,
+          "subscribersMillions": 58.1,
+          "category": "Gaming",
+          "country": "United States",
+          "joinedYouTube": "April 7, 2020",
+          "sourceKind": "table"
+        },
+        {
+          "id": "juegagerman",
+          "value": 56000000,
+          "rank": 5,
+          "subscribersMillions": 56,
+          "category": "Gaming",
+          "country": "Chile",
+          "joinedYouTube": "May 18, 2013",
+          "sourceKind": "table"
+        },
+        {
+          "id": "jess-no-limit",
+          "value": 54600000,
+          "rank": 6,
+          "subscribersMillions": 54.6,
+          "category": "Gaming",
+          "country": "Indonesia",
+          "joinedYouTube": "September 6, 2017",
+          "sourceKind": "table"
+        },
+        {
+          "id": "techno-gamerz",
+          "value": 52300000,
+          "rank": 7,
+          "subscribersMillions": 52.3,
+          "category": "Gaming",
+          "country": "India",
+          "joinedYouTube": "August 13, 2017",
+          "sourceKind": "table"
+        },
+        {
+          "id": "beter-bocuk",
+          "value": 51800000,
+          "rank": 8,
+          "subscribersMillions": 51.8,
+          "category": "Gaming",
+          "country": "Turkey",
+          "joinedYouTube": "December 13, 2012",
+          "sourceKind": "table"
+        },
+        {
+          "id": "carryminati",
+          "value": 45200000,
+          "rank": 9,
+          "subscribersMillions": 45.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "dream",
+          "value": 43986000,
+          "rank": 10,
+          "subscribersMillions": 43.986000000000004,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "markiplier",
+          "value": 38700000,
+          "rank": 11,
+          "subscribersMillions": 38.7,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "jacksepticeye",
+          "value": 31200000,
+          "rank": 12,
+          "subscribersMillions": 31.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "lazarbeam",
+          "value": 28902000,
+          "rank": 13,
+          "subscribersMillions": 28.902,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "lyna",
+          "value": 24800000,
+          "rank": 14,
+          "subscribersMillions": 24.8,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "jelly",
+          "value": 23400000,
+          "rank": 15,
+          "subscribersMillions": 23.4,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "zbing-z",
+          "value": 21800000,
+          "rank": 16,
+          "subscribersMillions": 21.8,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "squeezie",
+          "value": 20100000,
+          "rank": 17,
+          "subscribersMillions": 20.1,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "ali-a",
+          "value": 19700000,
+          "rank": 18,
+          "subscribersMillions": 19.7,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "hikakin",
+          "value": 19000000,
+          "rank": 19,
+          "subscribersMillions": 19,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "penguinz0",
+          "value": 18100000,
+          "rank": 20,
+          "subscribersMillions": 18.1,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        }
+      ]
+    },
+    {
+      "date": "20260709",
+      "values": [
+        {
+          "id": "pewdiepie",
+          "value": 110000000,
+          "rank": 1,
+          "subscribersMillions": 110,
+          "category": "Gaming",
+          "country": "Sweden",
+          "joinedYouTube": "April 29, 2010",
+          "sourceKind": "table"
+        },
+        {
+          "id": "panda-boi",
+          "value": 62600000,
+          "rank": 2,
+          "subscribersMillions": 62.6,
+          "category": "Gaming",
+          "country": "Italy",
+          "joinedYouTube": "December 5, 2020",
+          "sourceKind": "table"
+        },
+        {
+          "id": "mikecrack",
+          "value": 58600000,
+          "rank": 3,
+          "subscribersMillions": 58.6,
+          "category": "Gaming",
+          "country": "Spain",
+          "joinedYouTube": "July 13, 2015",
+          "sourceKind": "table"
+        },
+        {
+          "id": "mrbeast-gaming",
+          "value": 58200000,
+          "rank": 4,
+          "subscribersMillions": 58.2,
+          "category": "Gaming",
+          "country": "United States",
+          "joinedYouTube": "April 7, 2020",
+          "sourceKind": "table"
+        },
+        {
+          "id": "juegagerman",
+          "value": 56100000,
+          "rank": 5,
+          "subscribersMillions": 56.1,
+          "category": "Gaming",
+          "country": "Chile",
+          "joinedYouTube": "May 18, 2013",
+          "sourceKind": "table"
+        },
+        {
+          "id": "jess-no-limit",
+          "value": 54600000,
+          "rank": 6,
+          "subscribersMillions": 54.6,
+          "category": "Gaming",
+          "country": "Indonesia",
+          "joinedYouTube": "September 6, 2017",
+          "sourceKind": "table"
+        },
+        {
+          "id": "techno-gamerz",
+          "value": 52400000,
+          "rank": 7,
+          "subscribersMillions": 52.4,
+          "category": "Gaming",
+          "country": "India",
+          "joinedYouTube": "August 13, 2017",
+          "sourceKind": "table"
+        },
+        {
+          "id": "beter-bocuk",
+          "value": 51800000,
+          "rank": 8,
+          "subscribersMillions": 51.8,
+          "category": "Gaming",
+          "country": "Turkey",
+          "joinedYouTube": "December 13, 2012",
+          "sourceKind": "table"
+        },
+        {
+          "id": "carryminati",
+          "value": 45200000,
+          "rank": 9,
+          "subscribersMillions": 45.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "dream",
+          "value": 43986000,
+          "rank": 10,
+          "subscribersMillions": 43.986000000000004,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "markiplier",
+          "value": 38700000,
+          "rank": 11,
+          "subscribersMillions": 38.7,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "jacksepticeye",
+          "value": 31200000,
+          "rank": 12,
+          "subscribersMillions": 31.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "lazarbeam",
+          "value": 28902000,
+          "rank": 13,
+          "subscribersMillions": 28.902,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "lyna",
+          "value": 24800000,
+          "rank": 14,
+          "subscribersMillions": 24.8,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "jelly",
+          "value": 23400000,
+          "rank": 15,
+          "subscribersMillions": 23.4,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "zbing-z",
+          "value": 21800000,
+          "rank": 16,
+          "subscribersMillions": 21.8,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "squeezie",
+          "value": 20100000,
+          "rank": 17,
+          "subscribersMillions": 20.1,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "ali-a",
+          "value": 19700000,
+          "rank": 18,
+          "subscribersMillions": 19.7,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "hikakin",
+          "value": 19000000,
+          "rank": 19,
+          "subscribersMillions": 19,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "penguinz0",
+          "value": 18100000,
+          "rank": 20,
+          "subscribersMillions": 18.1,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        }
+      ]
+    },
+    {
+      "date": "20260710",
+      "values": [
+        {
+          "id": "pewdiepie",
+          "value": 110000000,
+          "rank": 1,
+          "subscribersMillions": 110,
+          "category": "Gaming",
+          "country": "Sweden",
+          "joinedYouTube": "April 29, 2010",
+          "sourceKind": "table"
+        },
+        {
+          "id": "panda-boi",
+          "value": 62600000,
+          "rank": 2,
+          "subscribersMillions": 62.6,
+          "category": "Gaming",
+          "country": "Italy",
+          "joinedYouTube": "December 5, 2020",
+          "sourceKind": "table"
+        },
+        {
+          "id": "mikecrack",
+          "value": 58600000,
+          "rank": 3,
+          "subscribersMillions": 58.6,
+          "category": "Gaming",
+          "country": "Spain",
+          "joinedYouTube": "July 13, 2015",
+          "sourceKind": "table"
+        },
+        {
+          "id": "mrbeast-gaming",
+          "value": 58300000,
+          "rank": 4,
+          "subscribersMillions": 58.3,
+          "category": "Gaming",
+          "country": "United States",
+          "joinedYouTube": "April 7, 2020",
+          "sourceKind": "table"
+        },
+        {
+          "id": "juegagerman",
+          "value": 56100000,
+          "rank": 5,
+          "subscribersMillions": 56.1,
+          "category": "Gaming",
+          "country": "Chile",
+          "joinedYouTube": "May 18, 2013",
+          "sourceKind": "table"
+        },
+        {
+          "id": "jess-no-limit",
+          "value": 54600000,
+          "rank": 6,
+          "subscribersMillions": 54.6,
+          "category": "Gaming",
+          "country": "Indonesia",
+          "joinedYouTube": "September 6, 2017",
+          "sourceKind": "table"
+        },
+        {
+          "id": "techno-gamerz",
+          "value": 52400000,
+          "rank": 7,
+          "subscribersMillions": 52.4,
+          "category": "Gaming",
+          "country": "India",
+          "joinedYouTube": "August 13, 2017",
+          "sourceKind": "table"
+        },
+        {
+          "id": "beter-bocuk",
+          "value": 51800000,
+          "rank": 8,
+          "subscribersMillions": 51.8,
+          "category": "Gaming",
+          "country": "Turkey",
+          "joinedYouTube": "December 13, 2012",
+          "sourceKind": "table"
+        },
+        {
+          "id": "carryminati",
+          "value": 45200000,
+          "rank": 9,
+          "subscribersMillions": 45.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "dream",
+          "value": 43986000,
+          "rank": 10,
+          "subscribersMillions": 43.986000000000004,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "markiplier",
+          "value": 38700000,
+          "rank": 11,
+          "subscribersMillions": 38.7,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "jacksepticeye",
+          "value": 31200000,
+          "rank": 12,
+          "subscribersMillions": 31.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "lazarbeam",
+          "value": 28902000,
+          "rank": 13,
+          "subscribersMillions": 28.902,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "lyna",
+          "value": 24800000,
+          "rank": 14,
+          "subscribersMillions": 24.8,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "jelly",
+          "value": 23500000,
+          "rank": 15,
+          "subscribersMillions": 23.5,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "zbing-z",
+          "value": 21800000,
+          "rank": 16,
+          "subscribersMillions": 21.8,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "squeezie",
+          "value": 20100000,
+          "rank": 17,
+          "subscribersMillions": 20.1,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "ali-a",
+          "value": 19700000,
+          "rank": 18,
+          "subscribersMillions": 19.7,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "hikakin",
+          "value": 19000000,
+          "rank": 19,
+          "subscribersMillions": 19,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "penguinz0",
+          "value": 18100000,
+          "rank": 20,
+          "subscribersMillions": 18.1,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        }
+      ]
+    },
+    {
+      "date": "20260711",
+      "values": [
+        {
+          "id": "pewdiepie",
+          "value": 110000000,
+          "rank": 1,
+          "subscribersMillions": 110,
+          "category": "Gaming",
+          "country": "Sweden",
+          "joinedYouTube": "April 29, 2010",
+          "sourceKind": "table"
+        },
+        {
+          "id": "panda-boi",
+          "value": 62500000,
+          "rank": 2,
+          "subscribersMillions": 62.5,
+          "category": "Gaming",
+          "country": "Italy",
+          "joinedYouTube": "December 5, 2020",
+          "sourceKind": "table"
+        },
+        {
+          "id": "mikecrack",
+          "value": 58600000,
+          "rank": 3,
+          "subscribersMillions": 58.6,
+          "category": "Gaming",
+          "country": "Spain",
+          "joinedYouTube": "July 13, 2015",
+          "sourceKind": "table"
+        },
+        {
+          "id": "mrbeast-gaming",
+          "value": 58300000,
+          "rank": 4,
+          "subscribersMillions": 58.3,
+          "category": "Gaming",
+          "country": "United States",
+          "joinedYouTube": "April 7, 2020",
+          "sourceKind": "table"
+        },
+        {
+          "id": "juegagerman",
+          "value": 56100000,
+          "rank": 5,
+          "subscribersMillions": 56.1,
+          "category": "Gaming",
+          "country": "Chile",
+          "joinedYouTube": "May 18, 2013",
+          "sourceKind": "table"
+        },
+        {
+          "id": "jess-no-limit",
+          "value": 54600000,
+          "rank": 6,
+          "subscribersMillions": 54.6,
+          "category": "Gaming",
+          "country": "Indonesia",
+          "joinedYouTube": "September 6, 2017",
+          "sourceKind": "table"
+        },
+        {
+          "id": "techno-gamerz",
+          "value": 52400000,
+          "rank": 7,
+          "subscribersMillions": 52.4,
+          "category": "Gaming",
+          "country": "India",
+          "joinedYouTube": "August 13, 2017",
+          "sourceKind": "table"
+        },
+        {
+          "id": "beter-bocuk",
+          "value": 51800000,
+          "rank": 8,
+          "subscribersMillions": 51.8,
+          "category": "Gaming",
+          "country": "Turkey",
+          "joinedYouTube": "December 13, 2012",
+          "sourceKind": "table"
+        },
+        {
+          "id": "carryminati",
+          "value": 45200000,
+          "rank": 9,
+          "subscribersMillions": 45.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "dream",
+          "value": 43986000,
+          "rank": 10,
+          "subscribersMillions": 43.986000000000004,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "markiplier",
+          "value": 38700000,
+          "rank": 11,
+          "subscribersMillions": 38.7,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "jacksepticeye",
+          "value": 31200000,
+          "rank": 12,
+          "subscribersMillions": 31.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "lazarbeam",
+          "value": 28902000,
+          "rank": 13,
+          "subscribersMillions": 28.902,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "lyna",
+          "value": 24800000,
+          "rank": 14,
+          "subscribersMillions": 24.8,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "jelly",
+          "value": 23500000,
+          "rank": 15,
+          "subscribersMillions": 23.5,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "zbing-z",
+          "value": 21800000,
+          "rank": 16,
+          "subscribersMillions": 21.8,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "squeezie",
+          "value": 20100000,
+          "rank": 17,
+          "subscribersMillions": 20.1,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "ali-a",
+          "value": 19700000,
+          "rank": 18,
+          "subscribersMillions": 19.7,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "hikakin",
+          "value": 19000000,
+          "rank": 19,
+          "subscribersMillions": 19,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "penguinz0",
+          "value": 18100000,
+          "rank": 20,
+          "subscribersMillions": 18.1,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        }
+      ]
+    },
+    {
+      "date": "20260712",
+      "values": [
+        {
+          "id": "pewdiepie",
+          "value": 110000000,
+          "rank": 1,
+          "subscribersMillions": 110,
+          "category": "Gaming",
+          "country": "Sweden",
+          "joinedYouTube": "April 29, 2010",
+          "sourceKind": "table"
+        },
+        {
+          "id": "panda-boi",
+          "value": 62500000,
+          "rank": 2,
+          "subscribersMillions": 62.5,
+          "category": "Gaming",
+          "country": "Italy",
+          "joinedYouTube": "December 5, 2020",
+          "sourceKind": "table"
+        },
+        {
+          "id": "mikecrack",
+          "value": 58600000,
+          "rank": 3,
+          "subscribersMillions": 58.6,
+          "category": "Gaming",
+          "country": "Spain",
+          "joinedYouTube": "July 13, 2015",
+          "sourceKind": "table"
+        },
+        {
+          "id": "mrbeast-gaming",
+          "value": 58300000,
+          "rank": 4,
+          "subscribersMillions": 58.3,
+          "category": "Gaming",
+          "country": "United States",
+          "joinedYouTube": "April 7, 2020",
+          "sourceKind": "table"
+        },
+        {
+          "id": "juegagerman",
+          "value": 56100000,
+          "rank": 5,
+          "subscribersMillions": 56.1,
+          "category": "Gaming",
+          "country": "Chile",
+          "joinedYouTube": "May 18, 2013",
+          "sourceKind": "table"
+        },
+        {
+          "id": "jess-no-limit",
+          "value": 54600000,
+          "rank": 6,
+          "subscribersMillions": 54.6,
+          "category": "Gaming",
+          "country": "Indonesia",
+          "joinedYouTube": "September 6, 2017",
+          "sourceKind": "table"
+        },
+        {
+          "id": "techno-gamerz",
+          "value": 52400000,
+          "rank": 7,
+          "subscribersMillions": 52.4,
+          "category": "Gaming",
+          "country": "India",
+          "joinedYouTube": "August 13, 2017",
+          "sourceKind": "table"
+        },
+        {
+          "id": "beter-bocuk",
+          "value": 51800000,
+          "rank": 8,
+          "subscribersMillions": 51.8,
+          "category": "Gaming",
+          "country": "Turkey",
+          "joinedYouTube": "December 13, 2012",
+          "sourceKind": "table"
+        },
+        {
+          "id": "carryminati",
+          "value": 45200000,
+          "rank": 9,
+          "subscribersMillions": 45.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "dream",
+          "value": 43986000,
+          "rank": 10,
+          "subscribersMillions": 43.986000000000004,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "markiplier",
+          "value": 38700000,
+          "rank": 11,
+          "subscribersMillions": 38.7,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "jacksepticeye",
+          "value": 31200000,
+          "rank": 12,
+          "subscribersMillions": 31.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "lazarbeam",
+          "value": 28902000,
+          "rank": 13,
+          "subscribersMillions": 28.902,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "lyna",
+          "value": 24800000,
+          "rank": 14,
+          "subscribersMillions": 24.8,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "jelly",
+          "value": 23500000,
+          "rank": 15,
+          "subscribersMillions": 23.5,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "zbing-z",
+          "value": 21800000,
+          "rank": 16,
+          "subscribersMillions": 21.8,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "squeezie",
+          "value": 20100000,
+          "rank": 17,
+          "subscribersMillions": 20.1,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "ali-a",
+          "value": 19700000,
+          "rank": 18,
+          "subscribersMillions": 19.7,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "hikakin",
+          "value": 19000000,
+          "rank": 19,
+          "subscribersMillions": 19,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "penguinz0",
+          "value": 18100000,
+          "rank": 20,
+          "subscribersMillions": 18.1,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        }
+      ]
+    },
+    {
+      "date": "20260713",
+      "values": [
+        {
+          "id": "pewdiepie",
+          "value": 110000000,
+          "rank": 1,
+          "subscribersMillions": 110,
+          "category": "Gaming",
+          "country": "Sweden Japan",
+          "joinedYouTube": "April 29, 2010",
+          "sourceKind": "table"
+        },
+        {
+          "id": "panda-boi",
+          "value": 62500000,
+          "rank": 2,
+          "subscribersMillions": 62.5,
+          "category": "Gaming",
+          "country": "Italy",
+          "joinedYouTube": "December 5, 2020",
+          "sourceKind": "table"
+        },
+        {
+          "id": "mikecrack",
+          "value": 58600000,
+          "rank": 3,
+          "subscribersMillions": 58.6,
+          "category": "Gaming",
+          "country": "Spain",
+          "joinedYouTube": "July 13, 2015",
+          "sourceKind": "table"
+        },
+        {
+          "id": "mrbeast-gaming",
+          "value": 58300000,
+          "rank": 4,
+          "subscribersMillions": 58.3,
+          "category": "Gaming",
+          "country": "United States",
+          "joinedYouTube": "April 7, 2020",
+          "sourceKind": "table"
+        },
+        {
+          "id": "juegagerman",
+          "value": 56100000,
+          "rank": 5,
+          "subscribersMillions": 56.1,
+          "category": "Gaming",
+          "country": "Chile",
+          "joinedYouTube": "May 18, 2013",
+          "sourceKind": "table"
+        },
+        {
+          "id": "jess-no-limit",
+          "value": 54600000,
+          "rank": 6,
+          "subscribersMillions": 54.6,
+          "category": "Gaming",
+          "country": "Indonesia",
+          "joinedYouTube": "September 6, 2017",
+          "sourceKind": "table"
+        },
+        {
+          "id": "techno-gamerz",
+          "value": 52400000,
+          "rank": 7,
+          "subscribersMillions": 52.4,
+          "category": "Gaming",
+          "country": "India",
+          "joinedYouTube": "August 13, 2017",
+          "sourceKind": "table"
+        },
+        {
+          "id": "beter-bocuk",
+          "value": 51800000,
+          "rank": 8,
+          "subscribersMillions": 51.8,
+          "category": "Gaming",
+          "country": "Turkey",
+          "joinedYouTube": "December 13, 2012",
+          "sourceKind": "table"
+        },
+        {
+          "id": "carryminati",
+          "value": 45200000,
+          "rank": 9,
+          "subscribersMillions": 45.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "dream",
+          "value": 43986000,
+          "rank": 10,
+          "subscribersMillions": 43.986000000000004,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "markiplier",
+          "value": 38700000,
+          "rank": 11,
+          "subscribersMillions": 38.7,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "jacksepticeye",
+          "value": 31200000,
+          "rank": 12,
+          "subscribersMillions": 31.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "lazarbeam",
+          "value": 28902000,
+          "rank": 13,
+          "subscribersMillions": 28.902,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "lyna",
+          "value": 24800000,
+          "rank": 14,
+          "subscribersMillions": 24.8,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "jelly",
+          "value": 23500000,
+          "rank": 15,
+          "subscribersMillions": 23.5,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "zbing-z",
+          "value": 21800000,
+          "rank": 16,
+          "subscribersMillions": 21.8,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "squeezie",
+          "value": 20100000,
+          "rank": 17,
+          "subscribersMillions": 20.1,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "ali-a",
+          "value": 19700000,
+          "rank": 18,
+          "subscribersMillions": 19.7,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "hikakin",
+          "value": 19000000,
+          "rank": 19,
+          "subscribersMillions": 19,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "penguinz0",
+          "value": 18200000,
+          "rank": 20,
+          "subscribersMillions": 18.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        }
+      ]
+    },
+    {
+      "date": "20260714",
+      "values": [
+        {
+          "id": "pewdiepie",
+          "value": 110000000,
+          "rank": 1,
+          "subscribersMillions": 110,
+          "category": "Gaming",
+          "country": "Sweden Japan",
+          "joinedYouTube": "April 29, 2010",
+          "sourceKind": "table"
+        },
+        {
+          "id": "panda-boi",
+          "value": 62500000,
+          "rank": 2,
+          "subscribersMillions": 62.5,
+          "category": "Gaming",
+          "country": "Italy",
+          "joinedYouTube": "December 5, 2020",
+          "sourceKind": "table"
+        },
+        {
+          "id": "mikecrack",
+          "value": 58600000,
+          "rank": 3,
+          "subscribersMillions": 58.6,
+          "category": "Gaming",
+          "country": "Spain",
+          "joinedYouTube": "July 13, 2015",
+          "sourceKind": "table"
+        },
+        {
+          "id": "mrbeast-gaming",
+          "value": 58300000,
+          "rank": 4,
+          "subscribersMillions": 58.3,
+          "category": "Gaming",
+          "country": "United States",
+          "joinedYouTube": "April 7, 2020",
+          "sourceKind": "table"
+        },
+        {
+          "id": "juegagerman",
+          "value": 56100000,
+          "rank": 5,
+          "subscribersMillions": 56.1,
+          "category": "Gaming",
+          "country": "Chile",
+          "joinedYouTube": "May 18, 2013",
+          "sourceKind": "table"
+        },
+        {
+          "id": "jess-no-limit",
+          "value": 54600000,
+          "rank": 6,
+          "subscribersMillions": 54.6,
+          "category": "Gaming",
+          "country": "Indonesia",
+          "joinedYouTube": "September 6, 2017",
+          "sourceKind": "table"
+        },
+        {
+          "id": "techno-gamerz",
+          "value": 52400000,
+          "rank": 7,
+          "subscribersMillions": 52.4,
+          "category": "Gaming",
+          "country": "India",
+          "joinedYouTube": "August 13, 2017",
+          "sourceKind": "table"
+        },
+        {
+          "id": "beter-bocuk",
+          "value": 51800000,
+          "rank": 8,
+          "subscribersMillions": 51.8,
+          "category": "Gaming",
+          "country": "Turkey",
+          "joinedYouTube": "December 13, 2012",
+          "sourceKind": "table"
+        },
+        {
+          "id": "carryminati",
+          "value": 45200000,
+          "rank": 9,
+          "subscribersMillions": 45.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "dream",
+          "value": 43986000,
+          "rank": 10,
+          "subscribersMillions": 43.986000000000004,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "markiplier",
+          "value": 38700000,
+          "rank": 11,
+          "subscribersMillions": 38.7,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "jacksepticeye",
+          "value": 31200000,
+          "rank": 12,
+          "subscribersMillions": 31.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "lazarbeam",
+          "value": 28902000,
+          "rank": 13,
+          "subscribersMillions": 28.902,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "lyna",
+          "value": 25100000,
+          "rank": 14,
+          "subscribersMillions": 25.1,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "jelly",
+          "value": 23500000,
+          "rank": 15,
+          "subscribersMillions": 23.5,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "zbing-z",
+          "value": 21800000,
+          "rank": 16,
+          "subscribersMillions": 21.8,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "squeezie",
+          "value": 20100000,
+          "rank": 17,
+          "subscribersMillions": 20.1,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "ali-a",
+          "value": 19700000,
+          "rank": 18,
+          "subscribersMillions": 19.7,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "hikakin",
+          "value": 19000000,
+          "rank": 19,
+          "subscribersMillions": 19,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "penguinz0",
+          "value": 18200000,
+          "rank": 20,
+          "subscribersMillions": 18.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        }
+      ]
+    },
+    {
+      "date": "20260715",
+      "values": [
+        {
+          "id": "pewdiepie",
+          "value": 110000000,
+          "rank": 1,
+          "subscribersMillions": 110,
+          "category": "Gaming",
+          "country": "Sweden Japan",
+          "joinedYouTube": "April 29, 2010",
+          "sourceKind": "table"
+        },
+        {
+          "id": "panda-boi",
+          "value": 62500000,
+          "rank": 2,
+          "subscribersMillions": 62.5,
+          "category": "Gaming",
+          "country": "Italy",
+          "joinedYouTube": "December 5, 2020",
+          "sourceKind": "table"
+        },
+        {
+          "id": "mikecrack",
+          "value": 58600000,
+          "rank": 3,
+          "subscribersMillions": 58.6,
+          "category": "Gaming",
+          "country": "Spain",
+          "joinedYouTube": "July 13, 2015",
+          "sourceKind": "table"
+        },
+        {
+          "id": "mrbeast-gaming",
+          "value": 58300000,
+          "rank": 4,
+          "subscribersMillions": 58.3,
+          "category": "Gaming",
+          "country": "United States",
+          "joinedYouTube": "April 7, 2020",
+          "sourceKind": "table"
+        },
+        {
+          "id": "juegagerman",
+          "value": 56100000,
+          "rank": 5,
+          "subscribersMillions": 56.1,
+          "category": "Gaming",
+          "country": "Chile",
+          "joinedYouTube": "May 18, 2013",
+          "sourceKind": "table"
+        },
+        {
+          "id": "jess-no-limit",
+          "value": 54600000,
+          "rank": 6,
+          "subscribersMillions": 54.6,
+          "category": "Gaming",
+          "country": "Indonesia",
+          "joinedYouTube": "September 6, 2017",
+          "sourceKind": "table"
+        },
+        {
+          "id": "techno-gamerz",
+          "value": 52400000,
+          "rank": 7,
+          "subscribersMillions": 52.4,
+          "category": "Gaming",
+          "country": "India",
+          "joinedYouTube": "August 13, 2017",
+          "sourceKind": "table"
+        },
+        {
+          "id": "beter-bocuk",
+          "value": 51800000,
+          "rank": 8,
+          "subscribersMillions": 51.8,
+          "category": "Gaming",
+          "country": "Turkey",
+          "joinedYouTube": "December 13, 2012",
+          "sourceKind": "table"
+        },
+        {
+          "id": "carryminati",
+          "value": 45200000,
+          "rank": 9,
+          "subscribersMillions": 45.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "dream",
+          "value": 43986000,
+          "rank": 10,
+          "subscribersMillions": 43.986000000000004,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "markiplier",
+          "value": 38800000,
+          "rank": 11,
+          "subscribersMillions": 38.8,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "jacksepticeye",
+          "value": 31200000,
+          "rank": 12,
+          "subscribersMillions": 31.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "lazarbeam",
+          "value": 28902000,
+          "rank": 13,
+          "subscribersMillions": 28.902,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "lyna",
+          "value": 25100000,
+          "rank": 14,
+          "subscribersMillions": 25.1,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "jelly",
+          "value": 23500000,
+          "rank": 15,
+          "subscribersMillions": 23.5,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "zbing-z",
+          "value": 21800000,
+          "rank": 16,
+          "subscribersMillions": 21.8,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "squeezie",
+          "value": 20100000,
+          "rank": 17,
+          "subscribersMillions": 20.1,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "ali-a",
+          "value": 19700000,
+          "rank": 18,
+          "subscribersMillions": 19.7,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "hikakin",
+          "value": 19000000,
+          "rank": 19,
+          "subscribersMillions": 19,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "penguinz0",
+          "value": 18200000,
+          "rank": 20,
+          "subscribersMillions": 18.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        }
+      ]
+    },
+    {
+      "date": "20260716",
+      "values": [
+        {
+          "id": "pewdiepie",
+          "value": 110000000,
+          "rank": 1,
+          "subscribersMillions": 110,
+          "category": "Gaming",
+          "country": "Sweden Japan",
+          "joinedYouTube": "April 29, 2010",
+          "sourceKind": "table"
+        },
+        {
+          "id": "panda-boi",
+          "value": 62500000,
+          "rank": 2,
+          "subscribersMillions": 62.5,
+          "category": "Gaming",
+          "country": "Italy",
+          "joinedYouTube": "December 5, 2020",
+          "sourceKind": "table"
+        },
+        {
+          "id": "mikecrack",
+          "value": 58600000,
+          "rank": 3,
+          "subscribersMillions": 58.6,
+          "category": "Gaming",
+          "country": "Spain",
+          "joinedYouTube": "July 13, 2015",
+          "sourceKind": "table"
+        },
+        {
+          "id": "mrbeast-gaming",
+          "value": 58300000,
+          "rank": 4,
+          "subscribersMillions": 58.3,
+          "category": "Gaming",
+          "country": "United States",
+          "joinedYouTube": "April 7, 2020",
+          "sourceKind": "table"
+        },
+        {
+          "id": "juegagerman",
+          "value": 56100000,
+          "rank": 5,
+          "subscribersMillions": 56.1,
+          "category": "Gaming",
+          "country": "Chile",
+          "joinedYouTube": "May 18, 2013",
+          "sourceKind": "table"
+        },
+        {
+          "id": "jess-no-limit",
+          "value": 54600000,
+          "rank": 6,
+          "subscribersMillions": 54.6,
+          "category": "Gaming",
+          "country": "Indonesia",
+          "joinedYouTube": "September 6, 2017",
+          "sourceKind": "table"
+        },
+        {
+          "id": "techno-gamerz",
+          "value": 52500000,
+          "rank": 7,
+          "subscribersMillions": 52.5,
+          "category": "Gaming",
+          "country": "India",
+          "joinedYouTube": "August 13, 2017",
+          "sourceKind": "table"
+        },
+        {
+          "id": "beter-bocuk",
+          "value": 51900000,
+          "rank": 8,
+          "subscribersMillions": 51.9,
+          "category": "Gaming",
+          "country": "Turkey",
+          "joinedYouTube": "December 13, 2012",
+          "sourceKind": "table"
+        },
+        {
+          "id": "carryminati",
+          "value": 45200000,
+          "rank": 9,
+          "subscribersMillions": 45.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "dream",
+          "value": 43986000,
+          "rank": 10,
+          "subscribersMillions": 43.986000000000004,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "markiplier",
+          "value": 38800000,
+          "rank": 11,
+          "subscribersMillions": 38.8,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "jacksepticeye",
+          "value": 31200000,
+          "rank": 12,
+          "subscribersMillions": 31.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "lazarbeam",
+          "value": 28902000,
+          "rank": 13,
+          "subscribersMillions": 28.902,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "lyna",
+          "value": 25100000,
+          "rank": 14,
+          "subscribersMillions": 25.1,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "jelly",
+          "value": 23500000,
+          "rank": 15,
+          "subscribersMillions": 23.5,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "zbing-z",
+          "value": 21800000,
+          "rank": 16,
+          "subscribersMillions": 21.8,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "squeezie",
+          "value": 20100000,
+          "rank": 17,
+          "subscribersMillions": 20.1,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "ali-a",
+          "value": 19700000,
+          "rank": 18,
+          "subscribersMillions": 19.7,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "hikakin",
+          "value": 19000000,
+          "rank": 19,
+          "subscribersMillions": 19,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "penguinz0",
+          "value": 18200000,
+          "rank": 20,
+          "subscribersMillions": 18.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        }
+      ]
+    },
+    {
+      "date": "20260717",
+      "values": [
+        {
+          "id": "pewdiepie",
+          "value": 110000000,
+          "rank": 1,
+          "subscribersMillions": 110,
+          "category": "Gaming",
+          "country": "Sweden Japan",
+          "joinedYouTube": "April 29, 2010",
+          "sourceKind": "table"
+        },
+        {
+          "id": "panda-boi",
+          "value": 62500000,
+          "rank": 2,
+          "subscribersMillions": 62.5,
+          "category": "Gaming",
+          "country": "Italy",
+          "joinedYouTube": "December 5, 2020",
+          "sourceKind": "table"
+        },
+        {
+          "id": "mikecrack",
+          "value": 58600000,
+          "rank": 3,
+          "subscribersMillions": 58.6,
+          "category": "Gaming",
+          "country": "Spain",
+          "joinedYouTube": "July 13, 2015",
+          "sourceKind": "table"
+        },
+        {
+          "id": "mrbeast-gaming",
+          "value": 58300000,
+          "rank": 4,
+          "subscribersMillions": 58.3,
+          "category": "Gaming",
+          "country": "United States",
+          "joinedYouTube": "April 7, 2020",
+          "sourceKind": "table"
+        },
+        {
+          "id": "juegagerman",
+          "value": 56100000,
+          "rank": 5,
+          "subscribersMillions": 56.1,
+          "category": "Gaming",
+          "country": "Chile",
+          "joinedYouTube": "May 18, 2013",
+          "sourceKind": "table"
+        },
+        {
+          "id": "jess-no-limit",
+          "value": 54600000,
+          "rank": 6,
+          "subscribersMillions": 54.6,
+          "category": "Gaming",
+          "country": "Indonesia",
+          "joinedYouTube": "September 6, 2017",
+          "sourceKind": "table"
+        },
+        {
+          "id": "techno-gamerz",
+          "value": 52500000,
+          "rank": 7,
+          "subscribersMillions": 52.5,
+          "category": "Gaming",
+          "country": "India",
+          "joinedYouTube": "August 13, 2017",
+          "sourceKind": "table"
+        },
+        {
+          "id": "beter-bocuk",
+          "value": 51900000,
+          "rank": 8,
+          "subscribersMillions": 51.9,
+          "category": "Gaming",
+          "country": "Turkey",
+          "joinedYouTube": "December 13, 2012",
+          "sourceKind": "table"
+        },
+        {
+          "id": "carryminati",
+          "value": 45200000,
+          "rank": 9,
+          "subscribersMillions": 45.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "dream",
+          "value": 43986000,
+          "rank": 10,
+          "subscribersMillions": 43.986000000000004,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "markiplier",
+          "value": 38800000,
+          "rank": 11,
+          "subscribersMillions": 38.8,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "jacksepticeye",
+          "value": 31200000,
+          "rank": 12,
+          "subscribersMillions": 31.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "lazarbeam",
+          "value": 28902000,
+          "rank": 13,
+          "subscribersMillions": 28.902,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "lyna",
+          "value": 25100000,
+          "rank": 14,
+          "subscribersMillions": 25.1,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "jelly",
+          "value": 23500000,
+          "rank": 15,
+          "subscribersMillions": 23.5,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "zbing-z",
+          "value": 21800000,
+          "rank": 16,
+          "subscribersMillions": 21.8,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "squeezie",
+          "value": 20100000,
+          "rank": 17,
+          "subscribersMillions": 20.1,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "ali-a",
+          "value": 19700000,
+          "rank": 18,
+          "subscribersMillions": 19.7,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "hikakin",
+          "value": 19000000,
+          "rank": 19,
+          "subscribersMillions": 19,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "penguinz0",
+          "value": 18200000,
+          "rank": 20,
+          "subscribersMillions": 18.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        }
+      ]
+    },
+    {
+      "date": "20260718",
+      "values": [
+        {
+          "id": "pewdiepie",
+          "value": 110000000,
+          "rank": 1,
+          "subscribersMillions": 110,
+          "category": "Gaming",
+          "country": "Sweden Japan",
+          "joinedYouTube": "April 29, 2010",
+          "sourceKind": "table"
+        },
+        {
+          "id": "panda-boi",
+          "value": 62600000,
+          "rank": 2,
+          "subscribersMillions": 62.6,
+          "category": "Gaming",
+          "country": "Italy",
+          "joinedYouTube": "December 5, 2020",
+          "sourceKind": "table"
+        },
+        {
+          "id": "mikecrack",
+          "value": 58600000,
+          "rank": 3,
+          "subscribersMillions": 58.6,
+          "category": "Gaming",
+          "country": "Spain",
+          "joinedYouTube": "July 13, 2015",
+          "sourceKind": "table"
+        },
+        {
+          "id": "mrbeast-gaming",
+          "value": 58400000,
+          "rank": 4,
+          "subscribersMillions": 58.4,
+          "category": "Gaming",
+          "country": "United States",
+          "joinedYouTube": "April 7, 2020",
+          "sourceKind": "table"
+        },
+        {
+          "id": "juegagerman",
+          "value": 56100000,
+          "rank": 5,
+          "subscribersMillions": 56.1,
+          "category": "Gaming",
+          "country": "Chile",
+          "joinedYouTube": "May 18, 2013",
+          "sourceKind": "table"
+        },
+        {
+          "id": "jess-no-limit",
+          "value": 54600000,
+          "rank": 6,
+          "subscribersMillions": 54.6,
+          "category": "Gaming",
+          "country": "Indonesia",
+          "joinedYouTube": "September 6, 2017",
+          "sourceKind": "table"
+        },
+        {
+          "id": "techno-gamerz",
+          "value": 52500000,
+          "rank": 7,
+          "subscribersMillions": 52.5,
+          "category": "Gaming",
+          "country": "India",
+          "joinedYouTube": "August 13, 2017",
+          "sourceKind": "table"
+        },
+        {
+          "id": "beter-bocuk",
+          "value": 51900000,
+          "rank": 8,
+          "subscribersMillions": 51.9,
+          "category": "Gaming",
+          "country": "Turkey",
+          "joinedYouTube": "December 13, 2012",
+          "sourceKind": "table"
+        },
+        {
+          "id": "carryminati",
+          "value": 45200000,
+          "rank": 9,
+          "subscribersMillions": 45.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "dream",
+          "value": 43986000,
+          "rank": 10,
+          "subscribersMillions": 43.986000000000004,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "markiplier",
+          "value": 38800000,
+          "rank": 11,
+          "subscribersMillions": 38.8,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "jacksepticeye",
+          "value": 31200000,
+          "rank": 12,
+          "subscribersMillions": 31.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "lazarbeam",
+          "value": 28902000,
+          "rank": 13,
+          "subscribersMillions": 28.902,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "lyna",
+          "value": 25100000,
+          "rank": 14,
+          "subscribersMillions": 25.1,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "jelly",
+          "value": 23500000,
+          "rank": 15,
+          "subscribersMillions": 23.5,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "zbing-z",
+          "value": 21800000,
+          "rank": 16,
+          "subscribersMillions": 21.8,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "squeezie",
+          "value": 20100000,
+          "rank": 17,
+          "subscribersMillions": 20.1,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "ali-a",
+          "value": 19700000,
+          "rank": 18,
+          "subscribersMillions": 19.7,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "penguinz0",
+          "value": 18200000,
+          "rank": 19,
+          "subscribersMillions": 18.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        }
+      ]
+    },
+    {
+      "date": "20260719",
+      "values": [
+        {
+          "id": "pewdiepie",
+          "value": 110000000,
+          "rank": 1,
+          "subscribersMillions": 110,
+          "category": "Gaming",
+          "country": "Sweden Japan",
+          "joinedYouTube": "April 29, 2010",
+          "sourceKind": "table"
+        },
+        {
+          "id": "panda-boi",
+          "value": 62600000,
+          "rank": 2,
+          "subscribersMillions": 62.6,
+          "category": "Gaming",
+          "country": "Italy",
+          "joinedYouTube": "December 5, 2020",
+          "sourceKind": "table"
+        },
+        {
+          "id": "mikecrack",
+          "value": 58600000,
+          "rank": 3,
+          "subscribersMillions": 58.6,
+          "category": "Gaming",
+          "country": "Spain",
+          "joinedYouTube": "July 13, 2015",
+          "sourceKind": "table"
+        },
+        {
+          "id": "mrbeast-gaming",
+          "value": 58400000,
+          "rank": 4,
+          "subscribersMillions": 58.4,
+          "category": "Gaming",
+          "country": "United States",
+          "joinedYouTube": "April 7, 2020",
+          "sourceKind": "table"
+        },
+        {
+          "id": "juegagerman",
+          "value": 56100000,
+          "rank": 5,
+          "subscribersMillions": 56.1,
+          "category": "Gaming",
+          "country": "Chile",
+          "joinedYouTube": "May 18, 2013",
+          "sourceKind": "table"
+        },
+        {
+          "id": "jess-no-limit",
+          "value": 54600000,
+          "rank": 6,
+          "subscribersMillions": 54.6,
+          "category": "Gaming",
+          "country": "Indonesia",
+          "joinedYouTube": "September 6, 2017",
+          "sourceKind": "table"
+        },
+        {
+          "id": "techno-gamerz",
+          "value": 52500000,
+          "rank": 7,
+          "subscribersMillions": 52.5,
+          "category": "Gaming",
+          "country": "India",
+          "joinedYouTube": "August 13, 2017",
+          "sourceKind": "table"
+        },
+        {
+          "id": "beter-bocuk",
+          "value": 51900000,
+          "rank": 8,
+          "subscribersMillions": 51.9,
+          "category": "Gaming",
+          "country": "Turkey",
+          "joinedYouTube": "December 13, 2012",
+          "sourceKind": "table"
+        },
+        {
+          "id": "carryminati",
+          "value": 45200000,
+          "rank": 9,
+          "subscribersMillions": 45.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "dream",
+          "value": 43986000,
+          "rank": 10,
+          "subscribersMillions": 43.986000000000004,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "markiplier",
+          "value": 38800000,
+          "rank": 11,
+          "subscribersMillions": 38.8,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "jacksepticeye",
+          "value": 31200000,
+          "rank": 12,
+          "subscribersMillions": 31.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "lazarbeam",
+          "value": 28902000,
+          "rank": 13,
+          "subscribersMillions": 28.902,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "lyna",
+          "value": 25100000,
+          "rank": 14,
+          "subscribersMillions": 25.1,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "jelly",
+          "value": 23500000,
+          "rank": 15,
+          "subscribersMillions": 23.5,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "zbing-z",
+          "value": 21800000,
+          "rank": 16,
+          "subscribersMillions": 21.8,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "squeezie",
+          "value": 20100000,
+          "rank": 17,
+          "subscribersMillions": 20.1,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "ali-a",
+          "value": 19700000,
+          "rank": 18,
+          "subscribersMillions": 19.7,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "penguinz0",
+          "value": 18200000,
+          "rank": 19,
+          "subscribersMillions": 18.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        }
+      ]
+    },
+    {
+      "date": "20260720",
+      "values": [
+        {
+          "id": "pewdiepie",
+          "value": 110000000,
+          "rank": 1,
+          "subscribersMillions": 110,
+          "category": "Gaming",
+          "country": "Sweden Japan",
+          "joinedYouTube": "April 29, 2010",
+          "sourceKind": "table"
+        },
+        {
+          "id": "panda-boi",
+          "value": 62600000,
+          "rank": 2,
+          "subscribersMillions": 62.6,
+          "category": "Gaming",
+          "country": "Italy",
+          "joinedYouTube": "December 5, 2020",
+          "sourceKind": "table"
+        },
+        {
+          "id": "mikecrack",
+          "value": 58600000,
+          "rank": 3,
+          "subscribersMillions": 58.6,
+          "category": "Gaming",
+          "country": "Spain",
+          "joinedYouTube": "July 13, 2015",
+          "sourceKind": "table"
+        },
+        {
+          "id": "mrbeast-gaming",
+          "value": 58400000,
+          "rank": 4,
+          "subscribersMillions": 58.4,
+          "category": "Gaming",
+          "country": "United States",
+          "joinedYouTube": "April 7, 2020",
+          "sourceKind": "table"
+        },
+        {
+          "id": "juegagerman",
+          "value": 56100000,
+          "rank": 5,
+          "subscribersMillions": 56.1,
+          "category": "Gaming",
+          "country": "Chile",
+          "joinedYouTube": "May 18, 2013",
+          "sourceKind": "table"
+        },
+        {
+          "id": "jess-no-limit",
+          "value": 54600000,
+          "rank": 6,
+          "subscribersMillions": 54.6,
+          "category": "Gaming",
+          "country": "Indonesia",
+          "joinedYouTube": "September 6, 2017",
+          "sourceKind": "table"
+        },
+        {
+          "id": "techno-gamerz",
+          "value": 52500000,
+          "rank": 7,
+          "subscribersMillions": 52.5,
+          "category": "Gaming",
+          "country": "India",
+          "joinedYouTube": "August 13, 2017",
+          "sourceKind": "table"
+        },
+        {
+          "id": "beter-bocuk",
+          "value": 51900000,
+          "rank": 8,
+          "subscribersMillions": 51.9,
+          "category": "Gaming",
+          "country": "Turkey",
+          "joinedYouTube": "December 13, 2012",
+          "sourceKind": "table"
+        },
+        {
+          "id": "carryminati",
+          "value": 45200000,
+          "rank": 9,
+          "subscribersMillions": 45.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "dream",
+          "value": 43986000,
+          "rank": 10,
+          "subscribersMillions": 43.986000000000004,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "markiplier",
+          "value": 38800000,
+          "rank": 11,
+          "subscribersMillions": 38.8,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "jacksepticeye",
+          "value": 31200000,
+          "rank": 12,
+          "subscribersMillions": 31.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "lazarbeam",
+          "value": 28902000,
+          "rank": 13,
+          "subscribersMillions": 28.902,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "lyna",
+          "value": 25100000,
+          "rank": 14,
+          "subscribersMillions": 25.1,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "jelly",
+          "value": 23500000,
+          "rank": 15,
+          "subscribersMillions": 23.5,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "zbing-z",
+          "value": 21800000,
+          "rank": 16,
+          "subscribersMillions": 21.8,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "squeezie",
+          "value": 20100000,
+          "rank": 17,
+          "subscribersMillions": 20.1,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "ali-a",
+          "value": 19700000,
+          "rank": 18,
+          "subscribersMillions": 19.7,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "penguinz0",
+          "value": 18200000,
+          "rank": 19,
+          "subscribersMillions": 18.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        }
+      ]
+    },
+    {
+      "date": "20260721",
+      "values": [
+        {
+          "id": "pewdiepie",
+          "value": 110000000,
+          "rank": 1,
+          "subscribersMillions": 110,
+          "category": "Gaming",
+          "country": "Sweden Japan",
+          "joinedYouTube": "April 29, 2010",
+          "sourceKind": "table"
+        },
+        {
+          "id": "panda-boi",
+          "value": 62600000,
+          "rank": 2,
+          "subscribersMillions": 62.6,
+          "category": "Gaming",
+          "country": "Italy",
+          "joinedYouTube": "December 5, 2020",
+          "sourceKind": "table"
+        },
+        {
+          "id": "mikecrack",
+          "value": 58600000,
+          "rank": 3,
+          "subscribersMillions": 58.6,
+          "category": "Gaming",
+          "country": "Spain",
+          "joinedYouTube": "July 13, 2015",
+          "sourceKind": "table"
+        },
+        {
+          "id": "mrbeast-gaming",
+          "value": 58400000,
+          "rank": 4,
+          "subscribersMillions": 58.4,
+          "category": "Gaming",
+          "country": "United States",
+          "joinedYouTube": "April 7, 2020",
+          "sourceKind": "table"
+        },
+        {
+          "id": "juegagerman",
+          "value": 56100000,
+          "rank": 5,
+          "subscribersMillions": 56.1,
+          "category": "Gaming",
+          "country": "Chile",
+          "joinedYouTube": "May 18, 2013",
+          "sourceKind": "table"
+        },
+        {
+          "id": "jess-no-limit",
+          "value": 54600000,
+          "rank": 6,
+          "subscribersMillions": 54.6,
+          "category": "Gaming",
+          "country": "Indonesia",
+          "joinedYouTube": "September 6, 2017",
+          "sourceKind": "table"
+        },
+        {
+          "id": "techno-gamerz",
+          "value": 52500000,
+          "rank": 7,
+          "subscribersMillions": 52.5,
+          "category": "Gaming",
+          "country": "India",
+          "joinedYouTube": "August 13, 2017",
+          "sourceKind": "table"
+        },
+        {
+          "id": "beter-bocuk",
+          "value": 51900000,
+          "rank": 8,
+          "subscribersMillions": 51.9,
+          "category": "Gaming",
+          "country": "Turkey",
+          "joinedYouTube": "December 13, 2012",
+          "sourceKind": "table"
+        },
+        {
+          "id": "carryminati",
+          "value": 45200000,
+          "rank": 9,
+          "subscribersMillions": 45.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "dream",
+          "value": 43986000,
+          "rank": 10,
+          "subscribersMillions": 43.986000000000004,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "markiplier",
+          "value": 38800000,
+          "rank": 11,
+          "subscribersMillions": 38.8,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "jacksepticeye",
+          "value": 31200000,
+          "rank": 12,
+          "subscribersMillions": 31.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "lazarbeam",
+          "value": 28902000,
+          "rank": 13,
+          "subscribersMillions": 28.902,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "lyna",
+          "value": 25100000,
+          "rank": 14,
+          "subscribersMillions": 25.1,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "jelly",
+          "value": 23500000,
+          "rank": 15,
+          "subscribersMillions": 23.5,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "zbing-z",
+          "value": 21800000,
+          "rank": 16,
+          "subscribersMillions": 21.8,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "squeezie",
+          "value": 20100000,
+          "rank": 17,
+          "subscribersMillions": 20.1,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "ali-a",
+          "value": 19700000,
+          "rank": 18,
+          "subscribersMillions": 19.7,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "penguinz0",
+          "value": 18200000,
+          "rank": 19,
+          "subscribersMillions": 18.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        }
+      ]
+    },
+    {
+      "date": "20260722",
+      "values": [
+        {
+          "id": "pewdiepie",
+          "value": 110000000,
+          "rank": 1,
+          "subscribersMillions": 110,
+          "category": "Gaming",
+          "country": "Sweden Japan",
+          "joinedYouTube": "April 29, 2010",
+          "sourceKind": "table"
+        },
+        {
+          "id": "panda-boi",
+          "value": 62600000,
+          "rank": 2,
+          "subscribersMillions": 62.6,
+          "category": "Gaming",
+          "country": "Italy",
+          "joinedYouTube": "December 5, 2020",
+          "sourceKind": "table"
+        },
+        {
+          "id": "mikecrack",
+          "value": 58600000,
+          "rank": 3,
+          "subscribersMillions": 58.6,
+          "category": "Gaming",
+          "country": "Spain",
+          "joinedYouTube": "July 13, 2015",
+          "sourceKind": "table"
+        },
+        {
+          "id": "mrbeast-gaming",
+          "value": 58400000,
+          "rank": 4,
+          "subscribersMillions": 58.4,
+          "category": "Gaming",
+          "country": "United States",
+          "joinedYouTube": "April 7, 2020",
+          "sourceKind": "table"
+        },
+        {
+          "id": "juegagerman",
+          "value": 56100000,
+          "rank": 5,
+          "subscribersMillions": 56.1,
+          "category": "Gaming",
+          "country": "Chile",
+          "joinedYouTube": "May 18, 2013",
+          "sourceKind": "table"
+        },
+        {
+          "id": "jess-no-limit",
+          "value": 54600000,
+          "rank": 6,
+          "subscribersMillions": 54.6,
+          "category": "Gaming",
+          "country": "Indonesia",
+          "joinedYouTube": "September 6, 2017",
+          "sourceKind": "table"
+        },
+        {
+          "id": "techno-gamerz",
+          "value": 52500000,
+          "rank": 7,
+          "subscribersMillions": 52.5,
+          "category": "Gaming",
+          "country": "India",
+          "joinedYouTube": "August 13, 2017",
+          "sourceKind": "table"
+        },
+        {
+          "id": "beter-bocuk",
+          "value": 51900000,
+          "rank": 8,
+          "subscribersMillions": 51.9,
+          "category": "Gaming",
+          "country": "Turkey",
+          "joinedYouTube": "December 13, 2012",
+          "sourceKind": "table"
+        },
+        {
+          "id": "carryminati",
+          "value": 45200000,
+          "rank": 9,
+          "subscribersMillions": 45.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "dream",
+          "value": 43986000,
+          "rank": 10,
+          "subscribersMillions": 43.986000000000004,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "markiplier",
+          "value": 38800000,
+          "rank": 11,
+          "subscribersMillions": 38.8,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "jacksepticeye",
+          "value": 31200000,
+          "rank": 12,
+          "subscribersMillions": 31.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "lazarbeam",
+          "value": 28902000,
+          "rank": 13,
+          "subscribersMillions": 28.902,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "lyna",
+          "value": 25100000,
+          "rank": 14,
+          "subscribersMillions": 25.1,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "jelly",
+          "value": 23500000,
+          "rank": 15,
+          "subscribersMillions": 23.5,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "zbing-z",
+          "value": 21800000,
+          "rank": 16,
+          "subscribersMillions": 21.8,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "squeezie",
+          "value": 20100000,
+          "rank": 17,
+          "subscribersMillions": 20.1,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "ali-a",
+          "value": 19700000,
+          "rank": 18,
+          "subscribersMillions": 19.7,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "penguinz0",
+          "value": 18200000,
+          "rank": 19,
+          "subscribersMillions": 18.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        }
+      ]
+    },
+    {
+      "date": "20260727",
+      "values": [
+        {
+          "id": "pewdiepie",
+          "value": 110000000,
+          "rank": 1,
+          "subscribersMillions": 110,
+          "category": "Gaming",
+          "country": "Sweden Japan",
+          "joinedYouTube": "April 29, 2010",
+          "sourceKind": "table"
+        },
+        {
+          "id": "panda-boi",
+          "value": 62600000,
+          "rank": 2,
+          "subscribersMillions": 62.6,
+          "category": "Gaming",
+          "country": "Italy",
+          "joinedYouTube": "December 5, 2020",
+          "sourceKind": "table"
+        },
+        {
+          "id": "mikecrack",
+          "value": 58600000,
+          "rank": 3,
+          "subscribersMillions": 58.6,
+          "category": "Gaming",
+          "country": "Spain",
+          "joinedYouTube": "July 13, 2015",
+          "sourceKind": "table"
+        },
+        {
+          "id": "mrbeast-gaming",
+          "value": 58500000,
+          "rank": 4,
+          "subscribersMillions": 58.5,
+          "category": "Gaming",
+          "country": "United States",
+          "joinedYouTube": "April 7, 2020",
+          "sourceKind": "table"
+        },
+        {
+          "id": "juegagerman",
+          "value": 56200000,
+          "rank": 5,
+          "subscribersMillions": 56.2,
+          "category": "Gaming",
+          "country": "Chile",
+          "joinedYouTube": "May 18, 2013",
+          "sourceKind": "table"
+        },
+        {
+          "id": "jess-no-limit",
+          "value": 54600000,
+          "rank": 6,
+          "subscribersMillions": 54.6,
+          "category": "Gaming",
+          "country": "Indonesia",
+          "joinedYouTube": "September 6, 2017",
+          "sourceKind": "table"
+        },
+        {
+          "id": "techno-gamerz",
+          "value": 52600000,
+          "rank": 7,
+          "subscribersMillions": 52.6,
+          "category": "Gaming",
+          "country": "India",
+          "joinedYouTube": "August 13, 2017",
+          "sourceKind": "table"
+        },
+        {
+          "id": "beter-bocuk",
+          "value": 51900000,
+          "rank": 8,
+          "subscribersMillions": 51.9,
+          "category": "Gaming",
+          "country": "Turkey",
+          "joinedYouTube": "December 13, 2012",
+          "sourceKind": "table"
+        },
+        {
+          "id": "carryminati",
+          "value": 45200000,
+          "rank": 9,
+          "subscribersMillions": 45.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "dream",
+          "value": 43986000,
+          "rank": 10,
+          "subscribersMillions": 43.986000000000004,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "markiplier",
+          "value": 38800000,
+          "rank": 11,
+          "subscribersMillions": 38.8,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "jacksepticeye",
+          "value": 31200000,
+          "rank": 12,
+          "subscribersMillions": 31.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "lazarbeam",
+          "value": 28902000,
+          "rank": 13,
+          "subscribersMillions": 28.902,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "lyna",
+          "value": 25100000,
+          "rank": 14,
+          "subscribersMillions": 25.1,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "jelly",
+          "value": 23500000,
+          "rank": 15,
+          "subscribersMillions": 23.5,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "zbing-z",
+          "value": 21800000,
+          "rank": 16,
+          "subscribersMillions": 21.8,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "squeezie",
+          "value": 20100000,
+          "rank": 17,
+          "subscribersMillions": 20.1,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "ali-a",
+          "value": 19700000,
+          "rank": 18,
+          "subscribersMillions": 19.7,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "penguinz0",
+          "value": 18200000,
+          "rank": 19,
+          "subscribersMillions": 18.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        }
+      ]
+    },
+    {
+      "date": "20260803",
+      "values": [
+        {
+          "id": "pewdiepie",
+          "value": 110000000,
+          "rank": 1,
+          "subscribersMillions": 110,
+          "category": "Gaming",
+          "country": "Sweden Japan",
+          "joinedYouTube": "April 29, 2010",
+          "sourceKind": "table"
+        },
+        {
+          "id": "panda-boi",
+          "value": 62600000,
+          "rank": 2,
+          "subscribersMillions": 62.6,
+          "category": "Gaming",
+          "country": "Italy",
+          "joinedYouTube": "December 5, 2020",
+          "sourceKind": "table"
+        },
+        {
+          "id": "mrbeast-gaming",
+          "value": 58700000,
+          "rank": 3,
+          "subscribersMillions": 58.7,
+          "category": "Gaming",
+          "country": "United States",
+          "joinedYouTube": "April 7, 2020",
+          "sourceKind": "table"
+        },
+        {
+          "id": "mikecrack",
+          "value": 58600000,
+          "rank": 4,
+          "subscribersMillions": 58.6,
+          "category": "Gaming",
+          "country": "Spain",
+          "joinedYouTube": "July 13, 2015",
+          "sourceKind": "table"
+        },
+        {
+          "id": "juegagerman",
+          "value": 56200000,
+          "rank": 5,
+          "subscribersMillions": 56.2,
+          "category": "Gaming",
+          "country": "Chile",
+          "joinedYouTube": "May 18, 2013",
+          "sourceKind": "table"
+        },
+        {
+          "id": "jess-no-limit",
+          "value": 54600000,
+          "rank": 6,
+          "subscribersMillions": 54.6,
+          "category": "Gaming",
+          "country": "Indonesia",
+          "joinedYouTube": "September 6, 2017",
+          "sourceKind": "table"
+        },
+        {
+          "id": "techno-gamerz",
+          "value": 52700000,
+          "rank": 7,
+          "subscribersMillions": 52.7,
+          "category": "Gaming",
+          "country": "India",
+          "joinedYouTube": "August 13, 2017",
+          "sourceKind": "table"
+        },
+        {
+          "id": "beter-bocuk",
+          "value": 51900000,
+          "rank": 8,
+          "subscribersMillions": 51.9,
+          "category": "Gaming",
+          "country": "Turkey",
+          "joinedYouTube": "December 13, 2012",
+          "sourceKind": "table"
+        },
+        {
+          "id": "carryminati",
+          "value": 45200000,
+          "rank": 9,
+          "subscribersMillions": 45.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "dream",
+          "value": 43986000,
+          "rank": 10,
+          "subscribersMillions": 43.986000000000004,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "markiplier",
+          "value": 38800000,
+          "rank": 11,
+          "subscribersMillions": 38.8,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "jacksepticeye",
+          "value": 31200000,
+          "rank": 12,
+          "subscribersMillions": 31.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "lazarbeam",
+          "value": 28902000,
+          "rank": 13,
+          "subscribersMillions": 28.902,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "lyna",
+          "value": 25100000,
+          "rank": 14,
+          "subscribersMillions": 25.1,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "jelly",
+          "value": 23500000,
+          "rank": 15,
+          "subscribersMillions": 23.5,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "zbing-z",
+          "value": 21800000,
+          "rank": 16,
+          "subscribersMillions": 21.8,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "squeezie",
+          "value": 20100000,
+          "rank": 17,
+          "subscribersMillions": 20.1,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "ali-a",
+          "value": 19700000,
+          "rank": 18,
+          "subscribersMillions": 19.7,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "penguinz0",
+          "value": 18200000,
+          "rank": 19,
+          "subscribersMillions": 18.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        }
+      ]
+    },
+    {
+      "date": "20260810",
+      "values": [
+        {
+          "id": "pewdiepie",
+          "value": 110000000,
+          "rank": 1,
+          "subscribersMillions": 110,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "panda-boi",
+          "value": 62500000,
+          "rank": 2,
+          "subscribersMillions": 62.5,
+          "category": "Gaming",
+          "country": "Italy",
+          "joinedYouTube": "December 5, 2020",
+          "sourceKind": "table"
+        },
+        {
+          "id": "mrbeast-gaming",
+          "value": 58900000,
+          "rank": 3,
+          "subscribersMillions": 58.9,
+          "category": "Gaming",
+          "country": "United States",
+          "joinedYouTube": "April 7, 2020",
+          "sourceKind": "table"
+        },
+        {
+          "id": "mikecrack",
+          "value": 58600000,
+          "rank": 4,
+          "subscribersMillions": 58.6,
+          "category": "Gaming",
+          "country": "Spain",
+          "joinedYouTube": "July 13, 2015",
+          "sourceKind": "table"
+        },
+        {
+          "id": "juegagerman",
+          "value": 56300000,
+          "rank": 5,
+          "subscribersMillions": 56.3,
+          "category": "Gaming",
+          "country": "Chile",
+          "joinedYouTube": "May 18, 2013",
+          "sourceKind": "table"
+        },
+        {
+          "id": "jess-no-limit",
+          "value": 54600000,
+          "rank": 6,
+          "subscribersMillions": 54.6,
+          "category": "Gaming",
+          "country": "Indonesia",
+          "joinedYouTube": "September 6, 2017",
+          "sourceKind": "table"
+        },
+        {
+          "id": "techno-gamerz",
+          "value": 52700000,
+          "rank": 7,
+          "subscribersMillions": 52.7,
+          "category": "Gaming",
+          "country": "India",
+          "joinedYouTube": "August 13, 2017",
+          "sourceKind": "table"
+        },
+        {
+          "id": "beter-bocuk",
+          "value": 51900000,
+          "rank": 8,
+          "subscribersMillions": 51.9,
+          "category": "Gaming",
+          "country": "Turkey",
+          "joinedYouTube": "December 13, 2012",
+          "sourceKind": "table"
+        },
+        {
+          "id": "carryminati",
+          "value": 45200000,
+          "rank": 9,
+          "subscribersMillions": 45.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "dream",
+          "value": 43986000,
+          "rank": 10,
+          "subscribersMillions": 43.986000000000004,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "markiplier",
+          "value": 38800000,
+          "rank": 11,
+          "subscribersMillions": 38.8,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "jacksepticeye",
+          "value": 31200000,
+          "rank": 12,
+          "subscribersMillions": 31.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "lazarbeam",
+          "value": 28902000,
+          "rank": 13,
+          "subscribersMillions": 28.902,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "lyna",
+          "value": 25100000,
+          "rank": 14,
+          "subscribersMillions": 25.1,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "jelly",
+          "value": 23500000,
+          "rank": 15,
+          "subscribersMillions": 23.5,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "zbing-z",
+          "value": 21800000,
+          "rank": 16,
+          "subscribersMillions": 21.8,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "squeezie",
+          "value": 20100000,
+          "rank": 17,
+          "subscribersMillions": 20.1,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "ali-a",
+          "value": 19700000,
+          "rank": 18,
+          "subscribersMillions": 19.7,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "penguinz0",
+          "value": 18200000,
+          "rank": 19,
+          "subscribersMillions": 18.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        }
+      ]
+    },
+    {
+      "date": "20260817",
+      "values": [
+        {
+          "id": "pewdiepie",
+          "value": 110000000,
+          "rank": 1,
+          "subscribersMillions": 110,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "panda-boi",
+          "value": 62500000,
+          "rank": 2,
+          "subscribersMillions": 62.5,
+          "category": "Gaming",
+          "country": "Italy",
+          "joinedYouTube": "December 5, 2020",
+          "sourceKind": "table"
+        },
+        {
+          "id": "mrbeast-gaming",
+          "value": 59100000,
+          "rank": 3,
+          "subscribersMillions": 59.1,
+          "category": "Gaming",
+          "country": "United States",
+          "joinedYouTube": "April 7, 2020",
+          "sourceKind": "table"
+        },
+        {
+          "id": "mikecrack",
+          "value": 58600000,
+          "rank": 4,
+          "subscribersMillions": 58.6,
+          "category": "Gaming",
+          "country": "Spain",
+          "joinedYouTube": "July 13, 2015",
+          "sourceKind": "table"
+        },
+        {
+          "id": "juegagerman",
+          "value": 56400000,
+          "rank": 5,
+          "subscribersMillions": 56.4,
+          "category": "Gaming",
+          "country": "Chile",
+          "joinedYouTube": "May 18, 2013",
+          "sourceKind": "table"
+        },
+        {
+          "id": "jess-no-limit",
+          "value": 54600000,
+          "rank": 6,
+          "subscribersMillions": 54.6,
+          "category": "Gaming",
+          "country": "Indonesia",
+          "joinedYouTube": "September 6, 2017",
+          "sourceKind": "table"
+        },
+        {
+          "id": "techno-gamerz",
+          "value": 52800000,
+          "rank": 7,
+          "subscribersMillions": 52.8,
+          "category": "Gaming",
+          "country": "India",
+          "joinedYouTube": "August 13, 2017",
+          "sourceKind": "table"
+        },
+        {
+          "id": "beter-bocuk",
+          "value": 51900000,
+          "rank": 8,
+          "subscribersMillions": 51.9,
+          "category": "Gaming",
+          "country": "Turkey",
+          "joinedYouTube": "December 13, 2012",
+          "sourceKind": "table"
+        },
+        {
+          "id": "carryminati",
+          "value": 45200000,
+          "rank": 9,
+          "subscribersMillions": 45.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "dream",
+          "value": 43986000,
+          "rank": 10,
+          "subscribersMillions": 43.986000000000004,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "markiplier",
+          "value": 38800000,
+          "rank": 11,
+          "subscribersMillions": 38.8,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "jacksepticeye",
+          "value": 31200000,
+          "rank": 12,
+          "subscribersMillions": 31.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "lazarbeam",
+          "value": 28902000,
+          "rank": 13,
+          "subscribersMillions": 28.902,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "lyna",
+          "value": 25100000,
+          "rank": 14,
+          "subscribersMillions": 25.1,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "jelly",
+          "value": 23500000,
+          "rank": 15,
+          "subscribersMillions": 23.5,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "zbing-z",
+          "value": 21800000,
+          "rank": 16,
+          "subscribersMillions": 21.8,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "squeezie",
+          "value": 20100000,
+          "rank": 17,
+          "subscribersMillions": 20.1,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "ali-a",
+          "value": 19700000,
+          "rank": 18,
+          "subscribersMillions": 19.7,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "penguinz0",
+          "value": 18200000,
+          "rank": 19,
+          "subscribersMillions": 18.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        }
+      ]
+    },
+    {
+      "date": "20260822",
+      "values": [
+        {
+          "id": "pewdiepie",
+          "value": 110000000,
+          "rank": 1,
+          "subscribersMillions": 110,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "panda-boi",
+          "value": 62500000,
+          "rank": 2,
+          "subscribersMillions": 62.5,
+          "category": "Gaming",
+          "country": "Italy",
+          "joinedYouTube": "December 5, 2020",
+          "sourceKind": "table"
+        },
+        {
+          "id": "mrbeast-gaming",
+          "value": 59300000,
+          "rank": 3,
+          "subscribersMillions": 59.3,
+          "category": "Gaming",
+          "country": "United States",
+          "joinedYouTube": "April 7, 2020",
+          "sourceKind": "table"
+        },
+        {
+          "id": "mikecrack",
+          "value": 58600000,
+          "rank": 4,
+          "subscribersMillions": 58.6,
+          "category": "Gaming",
+          "country": "Spain",
+          "joinedYouTube": "July 13, 2015",
+          "sourceKind": "table"
+        },
+        {
+          "id": "juegagerman",
+          "value": 56400000,
+          "rank": 5,
+          "subscribersMillions": 56.4,
+          "category": "Gaming",
+          "country": "Chile",
+          "joinedYouTube": "May 18, 2013",
+          "sourceKind": "table"
+        },
+        {
+          "id": "jess-no-limit",
+          "value": 54600000,
+          "rank": 6,
+          "subscribersMillions": 54.6,
+          "category": "Gaming",
+          "country": "Indonesia",
+          "joinedYouTube": "September 6, 2017",
+          "sourceKind": "table"
+        },
+        {
+          "id": "techno-gamerz",
+          "value": 52800000,
+          "rank": 7,
+          "subscribersMillions": 52.8,
+          "category": "Gaming",
+          "country": "India",
+          "joinedYouTube": "August 13, 2017",
+          "sourceKind": "table"
+        },
+        {
+          "id": "beter-bocuk",
+          "value": 51900000,
+          "rank": 8,
+          "subscribersMillions": 51.9,
+          "category": "Gaming",
+          "country": "Turkey",
+          "joinedYouTube": "December 13, 2012",
+          "sourceKind": "table"
+        },
+        {
+          "id": "carryminati",
+          "value": 45200000,
+          "rank": 9,
+          "subscribersMillions": 45.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "dream",
+          "value": 43986000,
+          "rank": 10,
+          "subscribersMillions": 43.986000000000004,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "markiplier",
+          "value": 38800000,
+          "rank": 11,
+          "subscribersMillions": 38.8,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "jacksepticeye",
+          "value": 31200000,
+          "rank": 12,
+          "subscribersMillions": 31.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "lazarbeam",
+          "value": 28902000,
+          "rank": 13,
+          "subscribersMillions": 28.902,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "lyna",
+          "value": 25100000,
+          "rank": 14,
+          "subscribersMillions": 25.1,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "jelly",
+          "value": 23500000,
+          "rank": 15,
+          "subscribersMillions": 23.5,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "zbing-z",
+          "value": 21800000,
+          "rank": 16,
+          "subscribersMillions": 21.8,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "squeezie",
+          "value": 20100000,
+          "rank": 17,
+          "subscribersMillions": 20.1,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "ali-a",
+          "value": 19700000,
+          "rank": 18,
+          "subscribersMillions": 19.7,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "penguinz0",
+          "value": 18200000,
+          "rank": 19,
+          "subscribersMillions": 18.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        }
+      ]
+    },
+    {
+      "date": "20260824",
+      "values": [
+        {
+          "id": "pewdiepie",
+          "value": 110000000,
+          "rank": 1,
+          "subscribersMillions": 110,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "panda-boi",
+          "value": 62500000,
+          "rank": 2,
+          "subscribersMillions": 62.5,
+          "category": "Gaming",
+          "country": "Italy",
+          "joinedYouTube": "December 5, 2020",
+          "sourceKind": "table"
+        },
+        {
+          "id": "mrbeast-gaming",
+          "value": 59400000,
+          "rank": 3,
+          "subscribersMillions": 59.4,
+          "category": "Gaming",
+          "country": "United States",
+          "joinedYouTube": "April 7, 2020",
+          "sourceKind": "table"
+        },
+        {
+          "id": "mikecrack",
+          "value": 58600000,
+          "rank": 4,
+          "subscribersMillions": 58.6,
+          "category": "Gaming",
+          "country": "Spain",
+          "joinedYouTube": "July 13, 2015",
+          "sourceKind": "table"
+        },
+        {
+          "id": "juegagerman",
+          "value": 56400000,
+          "rank": 5,
+          "subscribersMillions": 56.4,
+          "category": "Gaming",
+          "country": "Chile",
+          "joinedYouTube": "May 18, 2013",
+          "sourceKind": "table"
+        },
+        {
+          "id": "jess-no-limit",
+          "value": 54600000,
+          "rank": 6,
+          "subscribersMillions": 54.6,
+          "category": "Gaming",
+          "country": "Indonesia",
+          "joinedYouTube": "September 6, 2017",
+          "sourceKind": "table"
+        },
+        {
+          "id": "techno-gamerz",
+          "value": 52800000,
+          "rank": 7,
+          "subscribersMillions": 52.8,
+          "category": "Gaming",
+          "country": "India",
+          "joinedYouTube": "August 13, 2017",
+          "sourceKind": "table"
+        },
+        {
+          "id": "beter-bocuk",
+          "value": 51900000,
+          "rank": 8,
+          "subscribersMillions": 51.9,
+          "category": "Gaming",
+          "country": "Turkey",
+          "joinedYouTube": "December 13, 2012",
+          "sourceKind": "table"
+        },
+        {
+          "id": "carryminati",
+          "value": 45200000,
+          "rank": 9,
+          "subscribersMillions": 45.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "dream",
+          "value": 43986000,
+          "rank": 10,
+          "subscribersMillions": 43.986000000000004,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "markiplier",
+          "value": 38800000,
+          "rank": 11,
+          "subscribersMillions": 38.8,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "jacksepticeye",
+          "value": 31200000,
+          "rank": 12,
+          "subscribersMillions": 31.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "lazarbeam",
+          "value": 28902000,
+          "rank": 13,
+          "subscribersMillions": 28.902,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "lyna",
+          "value": 25100000,
+          "rank": 14,
+          "subscribersMillions": 25.1,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "jelly",
+          "value": 23500000,
+          "rank": 15,
+          "subscribersMillions": 23.5,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "zbing-z",
+          "value": 21800000,
+          "rank": 16,
+          "subscribersMillions": 21.8,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "squeezie",
+          "value": 20100000,
+          "rank": 17,
+          "subscribersMillions": 20.1,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "ali-a",
+          "value": 19700000,
+          "rank": 18,
+          "subscribersMillions": 19.7,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "penguinz0",
+          "value": 18200000,
+          "rank": 19,
+          "subscribersMillions": 18.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        }
+      ]
+    },
+    {
+      "date": "20260831",
+      "values": [
+        {
+          "id": "pewdiepie",
+          "value": 109000000,
+          "rank": 1,
+          "subscribersMillions": 109,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "panda-boi",
+          "value": 62500000,
+          "rank": 2,
+          "subscribersMillions": 62.5,
+          "category": "Gaming",
+          "country": "Italy",
+          "joinedYouTube": "December 5, 2020",
+          "sourceKind": "table"
+        },
+        {
+          "id": "mrbeast-gaming",
+          "value": 59600000,
+          "rank": 3,
+          "subscribersMillions": 59.6,
+          "category": "Gaming",
+          "country": "United States",
+          "joinedYouTube": "April 7, 2020",
+          "sourceKind": "table"
+        },
+        {
+          "id": "mikecrack",
+          "value": 58600000,
+          "rank": 4,
+          "subscribersMillions": 58.6,
+          "category": "Gaming",
+          "country": "Spain",
+          "joinedYouTube": "July 13, 2015",
+          "sourceKind": "table"
+        },
+        {
+          "id": "juegagerman",
+          "value": 56500000,
+          "rank": 5,
+          "subscribersMillions": 56.5,
+          "category": "Gaming",
+          "country": "Chile",
+          "joinedYouTube": "May 18, 2013",
+          "sourceKind": "table"
+        },
+        {
+          "id": "jess-no-limit",
+          "value": 54600000,
+          "rank": 6,
+          "subscribersMillions": 54.6,
+          "category": "Gaming",
+          "country": "Indonesia",
+          "joinedYouTube": "September 6, 2017",
+          "sourceKind": "table"
+        },
+        {
+          "id": "techno-gamerz",
+          "value": 52900000,
+          "rank": 7,
+          "subscribersMillions": 52.9,
+          "category": "Gaming",
+          "country": "India",
+          "joinedYouTube": "August 13, 2017",
+          "sourceKind": "table"
+        },
+        {
+          "id": "beter-bocuk",
+          "value": 51900000,
+          "rank": 8,
+          "subscribersMillions": 51.9,
+          "category": "Gaming",
+          "country": "Turkey",
+          "joinedYouTube": "December 13, 2012",
+          "sourceKind": "table"
+        },
+        {
+          "id": "carryminati",
+          "value": 45200000,
+          "rank": 9,
+          "subscribersMillions": 45.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "dream",
+          "value": 43986000,
+          "rank": 10,
+          "subscribersMillions": 43.986000000000004,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "markiplier",
+          "value": 38900000,
+          "rank": 11,
+          "subscribersMillions": 38.9,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "jacksepticeye",
+          "value": 31200000,
+          "rank": 12,
+          "subscribersMillions": 31.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "lazarbeam",
+          "value": 28902000,
+          "rank": 13,
+          "subscribersMillions": 28.902,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "lyna",
+          "value": 25100000,
+          "rank": 14,
+          "subscribersMillions": 25.1,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "jelly",
+          "value": 23500000,
+          "rank": 15,
+          "subscribersMillions": 23.5,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "zbing-z",
+          "value": 21800000,
+          "rank": 16,
+          "subscribersMillions": 21.8,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "squeezie",
+          "value": 20100000,
+          "rank": 17,
+          "subscribersMillions": 20.1,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "ali-a",
+          "value": 19700000,
+          "rank": 18,
+          "subscribersMillions": 19.7,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        },
+        {
+          "id": "penguinz0",
+          "value": 18200000,
+          "rank": 19,
+          "subscribersMillions": 18.2,
+          "category": "Gaming YouTube",
+          "country": "",
+          "joinedYouTube": "",
+          "sourceKind": "category-member"
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "date": "20260628",
+      "title": "PewDiePie leads Gaming YouTube",
+      "body": "PewDiePie is the highest-ranked selected Gaming YouTube channel in this frame with 110M subscribers."
+    },
+    {
+      "date": "20260831",
+      "title": "PewDiePie leads Gaming YouTube",
+      "body": "PewDiePie is the highest-ranked selected Gaming YouTube channel in this frame with 109M subscribers."
+    }
+  ],
+  "sources": [
+    {
+      "title": "List of most-subscribed YouTube channels",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_most-subscribed_YouTube_channels",
+      "note": "Current YouTube table with subscriber, category, country, and join-date columns."
+    },
+    {
+      "title": "Category:Gaming-related YouTube channels",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Category:Gaming-related_YouTube_channels",
+      "note": "Category seed for gaming-related channel pages with infobox subscriber counts."
+    },
+    {
+      "title": "Category:Gaming YouTubers",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Category:Gaming_YouTubers",
+      "note": "Category seed for gaming creator pages with infobox subscriber counts."
+    }
+  ],
+  "lastObservationDate": "2026-08-31",
+  "dataFreshness": {
+    "status": "fresh",
+    "refreshCadence": "weekly",
+    "lastUpdated": "2026-08-31T07:01:19.214Z",
+    "lastRefreshAttemptedAt": "2026-08-31T07:01:19.214Z",
+    "lastRefreshError": null,
+    "lastObservationDate": "2026-08-31",
+    "nextRefreshAt": "2026-09-07T07:00:00.000Z",
+    "sourceStatus": "Wikipedia Gaming YouTube YouTube category pages and current channel table",
+    "confidence": "Observed List of most-subscribed YouTube channels and categories Gaming-related YouTube channels, Gaming YouTubers on 2026-08-31T07:01:19.214Z; subscriber counts are the rounded public values displayed in Wikipedia tables or article infoboxes."
+  },
+  "media": {
+    "imageFit": "contain",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-08-31T07:01:19.214Z",
+    "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.webp",
+    "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.webp",
+    "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.json",
+    "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/youtube-gaming-subscribers.json",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 5,
+    "rows": 4,
+    "width": 1600,
+    "height": 1280,
+    "itemCount": 20,
+    "sourcedImageCount": 20,
+    "generatedImageCount": 0,
+    "placeholderCount": 0,
+    "ogImageUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/youtube-gaming-subscribers.png",
+    "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/youtube-gaming-subscribers.png",
+    "ogImageWidth": 1200,
+    "ogImageHeight": 630
+  },
+  "taxonomy": {
+    "primaryCategory": "culture",
+    "categories": [
+      "culture",
+      "internet",
+      "gaming",
+      "creators"
+    ],
+    "tags": [
+      "youtube",
+      "gaming",
+      "subscribers",
+      "creators"
+    ],
+    "entityTypes": [
+      "channel",
+      "creator"
+    ],
+    "sourceTypes": [
+      "wikipedia"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "top-youtubers",
+      "type": "youtube-category-subset",
+      "weight": 0.92,
+      "reason": "This is a gaming-category split from the broader YouTube channel leaderboard."
+    },
+    {
+      "target": "games-people-are-playing",
+      "type": "gaming-culture",
+      "weight": 0.76,
+      "reason": "Gaming YouTube attention often follows the games people are playing."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "creator-platforms",
+    "mainland": "culture",
+    "bridgePriority": [
+      "top-youtubers",
+      "games-people-are-playing"
+    ]
+  },
+  "schemaVersion": 1,
+  "contentKind": "dat-city.story",
+  "generatedAt": "2026-08-31T07:01:19.214Z",
+  "versionId": "20260831T070119Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "storyops-scheduler",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-08-31T07:01:19.214Z",
+    "versionId": "20260831T070119Z",
+    "adapter": "wikipedia-youtube-channels",
+    "storySlug": "youtube-gaming-subscribers",
+    "districtId": null,
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "publicProjection": {
+    "kind": "story",
+    "version": 1,
+    "generatedAt": "2026-08-31T07:01:19.214Z",
+    "adapter": "wikipedia-youtube-channels",
+    "cache": {
+      "browserMaxAgeSeconds": 60,
+      "edgeMaxAgeSeconds": 3600
+    }
+  },
+  "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/youtube-gaming-subscribers.png"
+}

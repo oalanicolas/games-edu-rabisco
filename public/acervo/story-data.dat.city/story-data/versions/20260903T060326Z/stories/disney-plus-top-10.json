@@ -1,0 +1,4877 @@
+{
+  "id": "disney-plus-top-10",
+  "kicker": "Disney Plus Bootstrap",
+  "title": "Disney Plus Watchlist Leaders",
+  "subtitle": "A Wikipedia-sourced attention snapshot for Disney Plus originals while a recurring weekly chart source is unavailable.",
+  "badge": "Bootstrap by Wikipedia views",
+  "visualization": "race-arena",
+  "theme": "creator-arena",
+  "artStyle": "stylized-editorial",
+  "dateRange": [
+    "20260628",
+    "20260901"
+  ],
+  "timelineTicks": [
+    "20260628",
+    "20260629",
+    "20260701",
+    "20260706",
+    "20260707",
+    "20260708",
+    "20260709",
+    "20260710",
+    "20260711",
+    "20260712",
+    "20260713",
+    "20260714",
+    "20260715",
+    "20260716",
+    "20260717",
+    "20260718",
+    "20260719",
+    "20260720",
+    "20260721",
+    "20260722",
+    "20260728",
+    "20260804",
+    "20260811",
+    "20260818",
+    "20260822",
+    "20260825",
+    "20260901"
+  ],
+  "metricLabel": "Wikipedia views",
+  "ogImage": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/disney-plus-top-10.png",
+  "cityPreview": {
+    "districtId": "disney-plus-harbor",
+    "districtName": "Disney Plus Harbor",
+    "cardLabel": "Disney Plus",
+    "summary": "Disney Plus originals ranked by Wikipedia attention as a temporary source-backed bootstrap, not an official weekly Top 10.",
+    "primaryMetric": "Wikipedia views",
+    "latestFrameLabel": "2026-09-01",
+    "storyUrl": "/stories/disney-plus-top-10/",
+    "thumbnail": "/assets/og/dat-city.webp"
+  },
+  "sourceStatus": "Wikipedia pageview bootstrap for Disney+ originals",
+  "confidence": "Observed 30 days of en.wikipedia pageviews for titles listed on 2 Wikipedia platform-original page(s) at 2026-09-01T07:03:08.053Z. This is not a weekly or current streaming Top 10.",
+  "methodology": "Wikipedia does not currently provide a durable weekly/current Top 10 page for Disney+. This bootstrap uses the configured Wikipedia original-programming and original-film list pages as the source universe, then ranks titles by recent en.wikipedia pageviews via Wikipedia's PageViewInfo API. Treat the output as public-interest attention among platform originals, not streaming watch time or official platform ranking.",
+  "playback": {
+    "durationSeconds": 24,
+    "initialDate": "20260628",
+    "periodLabel": "Disney+ Wikipedia attention"
+  },
+  "visual": {
+    "topCount": 10,
+    "referenceCount": 20,
+    "horizontalCount": 12
+  },
+  "layers": [
+    {
+      "id": "pageviews",
+      "label": "Wikipedia views",
+      "default": true
+    },
+    {
+      "id": "platform",
+      "label": "Disney Plus originals",
+      "default": true
+    }
+  ],
+  "focus": [
+    {
+      "id": "marvel-studios-2021-disney-day-special",
+      "label": "Marvel Studios' 2021 Disney+ Day Special"
+    },
+    {
+      "id": "limitless-with-chris-hemsworth",
+      "label": "Limitless with Chris Hemsworth"
+    },
+    {
+      "id": "the-punisher-one-last-kill",
+      "label": "The Punisher: One Last Kill"
+    },
+    {
+      "id": "black-widow-2021-film",
+      "label": "Black Widow"
+    }
+  ],
+  "entities": [
+    {
+      "id": "marvel-studios-2021-disney-day-special",
+      "name": "Marvel Studios' 2021 Disney+ Day Special",
+      "article": "Marvel Studios' 2021 Disney+ Day Special",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Marvel_Studios'_2021_Disney%2B_Day_Special",
+      "genre": "14 min",
+      "premiere": "Sneak peek",
+      "status": "",
+      "contentKinds": [
+        "films"
+      ],
+      "sourcePages": [
+        "List of Disney+ original films"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Marvel_Cinematic_Universe_logo.png/960px-Marvel_Cinematic_Universe_logo.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Marvel_Cinematic_Universe_logo.png/960px-Marvel_Cinematic_Universe_logo.png",
+      "avatarText": "MS",
+      "color": "#d78fca",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.json",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.2,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Marvel_Cinematic_Universe_logo.png/960px-Marvel_Cinematic_Universe_logo.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "limitless-with-chris-hemsworth",
+      "name": "Limitless with Chris Hemsworth",
+      "article": "Limitless with Chris Hemsworth",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Limitless_with_Chris_Hemsworth",
+      "genre": "Nature",
+      "premiere": "November 16, 2022",
+      "status": "Pending",
+      "contentKinds": [
+        "series"
+      ],
+      "sourcePages": [
+        "List of Disney+ original programming"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Chris_Hemsworth_-_Crime_101.jpg/960px-Chris_Hemsworth_-_Crime_101.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Chris_Hemsworth_-_Crime_101.jpg/960px-Chris_Hemsworth_-_Crime_101.jpg",
+      "avatarText": "LW",
+      "color": "#8f6bff",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.json",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0,
+          "u1": 0.4,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Chris_Hemsworth_-_Crime_101.jpg/960px-Chris_Hemsworth_-_Crime_101.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "the-punisher-one-last-kill",
+      "name": "The Punisher: One Last Kill",
+      "article": "The Punisher: One Last Kill",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Punisher%3A_One_Last_Kill",
+      "genre": "Superhero action drama",
+      "premiere": "May 12, 2026",
+      "status": "",
+      "contentKinds": [
+        "films"
+      ],
+      "sourcePages": [
+        "List of Disney+ original films"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/a/a0/The_Punisher_One_Last_Kill_poster.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a0/The_Punisher_One_Last_Kill_poster.jpg",
+      "avatarText": "TP",
+      "color": "#41a99f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.json",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0,
+          "u1": 0.6,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/a/a0/The_Punisher_One_Last_Kill_poster.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "black-widow-2021-film",
+      "name": "Black Widow",
+      "article": "Black Widow (2021 film)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Black_Widow_(2021_film)",
+      "genre": "Superhero action-drama",
+      "premiere": "July 9, 2021",
+      "status": "",
+      "contentKinds": [
+        "films"
+      ],
+      "sourcePages": [
+        "List of Disney+ original films"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/e/e9/Black_Widow_%282021_film%29_poster.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/e/e9/Black_Widow_%282021_film%29_poster.jpg",
+      "avatarText": "BW",
+      "color": "#41a99f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.json",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0,
+          "u1": 0.8,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/e/e9/Black_Widow_%282021_film%29_poster.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "daredevil-born-again",
+      "name": "Daredevil: Born Again",
+      "article": "Daredevil: Born Again",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Daredevil%3A_Born_Again",
+      "genre": "Superhero / Action legal drama",
+      "premiere": "March 4, 2025",
+      "status": "Renewed",
+      "contentKinds": [
+        "series"
+      ],
+      "sourcePages": [
+        "List of Disney+ original programming"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/d/d9/Daredevil_Born_Again_logo.jpeg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/d/d9/Daredevil_Born_Again_logo.jpeg",
+      "avatarText": "DB",
+      "color": "#2f4858",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.json",
+          "x": 1280,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/d/d9/Daredevil_Born_Again_logo.jpeg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "doctor-who",
+      "name": "Doctor Who (series 14–15)",
+      "article": "Doctor Who",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Doctor_Who",
+      "genre": "Science fiction/ adventure drama",
+      "premiere": "May 10, 2024",
+      "status": "",
+      "contentKinds": [
+        "series"
+      ],
+      "sourcePages": [
+        "List of Disney+ original programming"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/d/d1/Doctor_Who_title_card.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/d/d1/Doctor_Who_title_card.png",
+      "avatarText": "DW",
+      "color": "#18c871",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.json",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.25,
+          "u1": 0.2,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/d/d1/Doctor_Who_title_card.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "agatha-all-along",
+      "name": "Agatha All Along",
+      "article": "Agatha All Along",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Agatha_All_Along",
+      "genre": "Supernatural superhero dark comedy",
+      "premiere": "September 18, 2024",
+      "status": "",
+      "contentKinds": [
+        "series"
+      ],
+      "sourcePages": [
+        "List of Disney+ original programming"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/7/70/Agatha_All_Along_logo.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/7/70/Agatha_All_Along_logo.jpg",
+      "avatarText": "AA",
+      "color": "#7b9b65",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.json",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.25,
+          "u1": 0.4,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/7/70/Agatha_All_Along_logo.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "loki-tv-series",
+      "name": "Loki",
+      "article": "Loki (TV series)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Loki_(TV_series)",
+      "genre": "Superhero fantasy action-adventure",
+      "premiere": "June 9, 2021",
+      "status": "",
+      "contentKinds": [
+        "series"
+      ],
+      "sourcePages": [
+        "List of Disney+ original programming"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/4/4e/Loki_%28TV_series%29_logo.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/4/4e/Loki_%28TV_series%29_logo.png",
+      "avatarText": "L",
+      "color": "#d78fca",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.json",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.25,
+          "u1": 0.6,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/4/4e/Loki_%28TV_series%29_logo.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "andor-tv-series",
+      "name": "Andor",
+      "article": "Andor (TV series)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Andor_(TV_series)",
+      "genre": "Space opera",
+      "premiere": "September 21, 2022",
+      "status": "",
+      "contentKinds": [
+        "series"
+      ],
+      "sourcePages": [
+        "List of Disney+ original programming"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Andor.svg/960px-Andor.svg.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Andor.svg/960px-Andor.svg.png",
+      "avatarText": "A",
+      "color": "#7b9b65",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.json",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.25,
+          "u1": 0.8,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Andor.svg/960px-Andor.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "dancing-with-the-stars-american-tv-series",
+      "name": "Dancing with the Stars (seasons 31–34)",
+      "article": "Dancing with the Stars (American TV series)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Dancing_with_the_Stars_(American_TV_series)",
+      "genre": "Reality competition",
+      "premiere": "September 19, 2022",
+      "status": "Renewed",
+      "contentKinds": [
+        "series"
+      ],
+      "sourcePages": [
+        "List of Disney+ original programming"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/7/76/DWTS_New_Logo.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/76/DWTS_New_Logo.png",
+      "avatarText": "DW",
+      "color": "#f18c4f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.json",
+          "x": 1280,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.25,
+          "u1": 1,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/76/DWTS_New_Logo.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "ironheart-miniseries",
+      "name": "Ironheart",
+      "article": "Ironheart (miniseries)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Ironheart_(miniseries)",
+      "genre": "Superhero action",
+      "premiere": "June 24, 2025",
+      "status": "",
+      "contentKinds": [
+        "series"
+      ],
+      "sourcePages": [
+        "List of Disney+ original programming"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/e/e9/Ironheart_%28miniseries%29_logo.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/e/e9/Ironheart_%28miniseries%29_logo.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "I",
+      "color": "#ffc84a",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.json",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.5,
+          "u1": 0.2,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/e/e9/Ironheart_%28miniseries%29_logo.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "percy-jackson-and-the-olympians-tv-series",
+      "name": "Percy Jackson and the Olympians",
+      "article": "Percy Jackson and the Olympians (TV series)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Percy_Jackson_and_the_Olympians_(TV_series)",
+      "genre": "Fantasy adventure",
+      "premiere": "December 19, 2023",
+      "status": "Season 3 due to premiere in 2026",
+      "contentKinds": [
+        "series"
+      ],
+      "sourcePages": [
+        "List of Disney+ original programming"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/a/a8/Percy_Jackson_and_the_Olympians_%28TV_series%29_logo.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a8/Percy_Jackson_and_the_Olympians_%28TV_series%29_logo.jpg",
+      "avatarText": "PJ",
+      "color": "#ff5a61",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.json",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.5,
+          "u1": 0.4,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/a/a8/Percy_Jackson_and_the_Olympians_%28TV_series%29_logo.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "marvel-zombies-tv-series",
+      "name": "Marvel Zombies",
+      "article": "Marvel Zombies (TV series)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Marvel_Zombies_(TV_series)",
+      "genre": "Superhero horror",
+      "premiere": "September 24, 2025",
+      "status": "Renewed",
+      "contentKinds": [
+        "series"
+      ],
+      "sourcePages": [
+        "List of Disney+ original programming"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/1/1a/Marvel_Zombies_%28TV_series%29_logo.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/1/1a/Marvel_Zombies_%28TV_series%29_logo.png",
+      "avatarText": "MZ",
+      "color": "#2f4858",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.json",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.5,
+          "u1": 0.6,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/1/1a/Marvel_Zombies_%28TV_series%29_logo.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "secret-invasion-miniseries",
+      "name": "Secret Invasion",
+      "article": "Secret Invasion (miniseries)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Secret_Invasion_(miniseries)",
+      "genre": "Superhero spy action-thriller",
+      "premiere": "June 21, 2023",
+      "status": "",
+      "contentKinds": [
+        "series"
+      ],
+      "sourcePages": [
+        "List of Disney+ original programming"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/9/91/Secret_Invasion_%28miniseries%29_logo.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/9/91/Secret_Invasion_%28miniseries%29_logo.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "SI",
+      "color": "#f18c4f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.json",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.5,
+          "u1": 0.8,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/9/91/Secret_Invasion_%28miniseries%29_logo.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "disney-legends",
+      "name": "2024 Disney Legends Award Ceremony",
+      "article": "Disney Legends",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Disney_Legends",
+      "genre": "Awards ceremony",
+      "premiere": "August 12, 2024",
+      "status": "",
+      "contentKinds": [
+        "films"
+      ],
+      "sourcePages": [
+        "List of Disney+ original films"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fa/Disney_Legends_logo.svg/960px-Disney_Legends_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fa/Disney_Legends_logo.svg/960px-Disney_Legends_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "avatarText": "2D",
+      "color": "#d78fca",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.json",
+          "x": 1280,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.5,
+          "u1": 1,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fa/Disney_Legends_logo.svg/960px-Disney_Legends_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "moon-knight-miniseries",
+      "name": "Moon Knight",
+      "article": "Moon Knight (miniseries)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Moon_Knight_(miniseries)",
+      "genre": "Superhero fantasy action-adventure",
+      "premiere": "March 30, 2022",
+      "status": "",
+      "contentKinds": [
+        "series"
+      ],
+      "sourcePages": [
+        "List of Disney+ original programming"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/a/a8/Moon_Knight_%28miniseries%29_logo.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a8/Moon_Knight_%28miniseries%29_logo.jpg",
+      "avatarText": "MK",
+      "color": "#ff5a61",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.json",
+          "x": 0,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.75,
+          "u1": 0.2,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/a/a8/Moon_Knight_%28miniseries%29_logo.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "lamp-life",
+      "name": "Lamp Life",
+      "article": "Lamp Life",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Lamp_Life",
+      "genre": "Animated short",
+      "premiere": "January 31, 2020",
+      "status": "",
+      "contentKinds": [
+        "films"
+      ],
+      "sourcePages": [
+        "List of Disney+ original films"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Toy_Story_logo.svg/960px-Toy_Story_logo.svg.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Toy_Story_logo.svg/960px-Toy_Story_logo.svg.png",
+      "avatarText": "LL",
+      "color": "#f18c4f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.json",
+          "x": 320,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.75,
+          "u1": 0.4,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Toy_Story_logo.svg/960px-Toy_Story_logo.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "star-wars-visions",
+      "name": "Star Wars: Visions",
+      "article": "Star Wars: Visions",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Star_Wars%3A_Visions",
+      "genre": "Animated space opera anthology",
+      "premiere": "September 22, 2021",
+      "status": "Pending",
+      "contentKinds": [
+        "series"
+      ],
+      "sourcePages": [
+        "List of Disney+ original programming"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/b/b6/Star_Wars_Visions_Logo.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b6/Star_Wars_Visions_Logo.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "SW",
+      "color": "#41a99f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.json",
+          "x": 640,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.75,
+          "u1": 0.6,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/b/b6/Star_Wars_Visions_Logo.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "eyes-of-wakanda",
+      "name": "Eyes of Wakanda",
+      "article": "Eyes of Wakanda",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Eyes_of_Wakanda",
+      "genre": "Superhero anthology",
+      "premiere": "August 1, 2025",
+      "status": "",
+      "contentKinds": [
+        "series"
+      ],
+      "sourcePages": [
+        "List of Disney+ original programming"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/f/fd/Eyes_of_Wakanda_logo.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/f/fd/Eyes_of_Wakanda_logo.jpg",
+      "avatarText": "EO",
+      "color": "#8f6bff",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.json",
+          "x": 960,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.75,
+          "u1": 0.8,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/f/fd/Eyes_of_Wakanda_logo.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "hawkeye-miniseries",
+      "name": "Hawkeye",
+      "article": "Hawkeye (miniseries)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Hawkeye_(miniseries)",
+      "genre": "Superhero action-adventure",
+      "premiere": "November 24, 2021",
+      "status": "",
+      "contentKinds": [
+        "series"
+      ],
+      "sourcePages": [
+        "List of Disney+ original programming"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/7/7a/Hawkeye_%28miniseries%29_logo.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/7/7a/Hawkeye_%28miniseries%29_logo.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "H",
+      "color": "#7b9b65",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.json",
+          "x": 1280,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.75,
+          "u1": 1,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/7/7a/Hawkeye_%28miniseries%29_logo.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    }
+  ],
+  "frames": [
+    {
+      "date": "20260628",
+      "values": [
+        {
+          "id": "doctor-who",
+          "value": 225940,
+          "rank": 2,
+          "pageviews": 225940,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "limitless-with-chris-hemsworth",
+          "value": 166312,
+          "rank": 5,
+          "pageviews": 166312,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "andor-tv-series",
+          "value": 135335,
+          "rank": 9,
+          "pageviews": 135335,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "daredevil-born-again",
+          "value": 113548,
+          "rank": 10,
+          "pageviews": 113548,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260629",
+      "values": [
+        {
+          "id": "doctor-who",
+          "value": 225940,
+          "rank": 2,
+          "pageviews": 225940,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "limitless-with-chris-hemsworth",
+          "value": 166312,
+          "rank": 5,
+          "pageviews": 166312,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "andor-tv-series",
+          "value": 135335,
+          "rank": 9,
+          "pageviews": 135335,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "daredevil-born-again",
+          "value": 113548,
+          "rank": 10,
+          "pageviews": 113548,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260701",
+      "values": [
+        {
+          "id": "doctor-who",
+          "value": 226723,
+          "rank": 1,
+          "pageviews": 226723,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "limitless-with-chris-hemsworth",
+          "value": 164964,
+          "rank": 2,
+          "pageviews": 164964,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "andor-tv-series",
+          "value": 129896,
+          "rank": 3,
+          "pageviews": 129896,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "daredevil-born-again",
+          "value": 109543,
+          "rank": 4,
+          "pageviews": 109543,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260706",
+      "values": [
+        {
+          "id": "lamp-life",
+          "value": 272728,
+          "rank": 1,
+          "pageviews": 272728,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "doctor-who",
+          "value": 223156,
+          "rank": 2,
+          "pageviews": 223156,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "marvel-studios-2021-disney-day-special",
+          "value": 215893,
+          "rank": 4,
+          "pageviews": 215893,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "limitless-with-chris-hemsworth",
+          "value": 157849,
+          "rank": 6,
+          "pageviews": 157849,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "the-punisher-one-last-kill",
+          "value": 122046,
+          "rank": 7,
+          "pageviews": 122046,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "andor-tv-series",
+          "value": 115021,
+          "rank": 8,
+          "pageviews": 115021,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "daredevil-born-again",
+          "value": 97998,
+          "rank": 11,
+          "pageviews": 97998,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "percy-jackson-and-the-olympians-tv-series",
+          "value": 50402,
+          "rank": 17,
+          "pageviews": 50402,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "black-widow-2021-film",
+          "value": 48304,
+          "rank": 19,
+          "pageviews": 48304,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "dancing-with-the-stars-american-tv-series",
+          "value": 44603,
+          "rank": 20,
+          "pageviews": 44603,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260707",
+      "values": [
+        {
+          "id": "lamp-life",
+          "value": 273667,
+          "rank": 1,
+          "pageviews": 273667,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "doctor-who",
+          "value": 225239,
+          "rank": 2,
+          "pageviews": 225239,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "marvel-studios-2021-disney-day-special",
+          "value": 209171,
+          "rank": 4,
+          "pageviews": 209171,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "limitless-with-chris-hemsworth",
+          "value": 158483,
+          "rank": 6,
+          "pageviews": 158483,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "the-punisher-one-last-kill",
+          "value": 118636,
+          "rank": 7,
+          "pageviews": 118636,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "andor-tv-series",
+          "value": 113479,
+          "rank": 8,
+          "pageviews": 113479,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "daredevil-born-again",
+          "value": 97230,
+          "rank": 12,
+          "pageviews": 97230,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "percy-jackson-and-the-olympians-tv-series",
+          "value": 50554,
+          "rank": 17,
+          "pageviews": 50554,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "black-widow-2021-film",
+          "value": 46956,
+          "rank": 19,
+          "pageviews": 46956,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260708",
+      "values": [
+        {
+          "id": "lamp-life",
+          "value": 274016,
+          "rank": 1,
+          "pageviews": 274016,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "doctor-who",
+          "value": 225349,
+          "rank": 2,
+          "pageviews": 225349,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "marvel-studios-2021-disney-day-special",
+          "value": 217274,
+          "rank": 4,
+          "pageviews": 217274,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "limitless-with-chris-hemsworth",
+          "value": 157091,
+          "rank": 6,
+          "pageviews": 157091,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "the-punisher-one-last-kill",
+          "value": 114282,
+          "rank": 7,
+          "pageviews": 114282,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "andor-tv-series",
+          "value": 110741,
+          "rank": 8,
+          "pageviews": 110741,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "daredevil-born-again",
+          "value": 95506,
+          "rank": 12,
+          "pageviews": 95506,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "percy-jackson-and-the-olympians-tv-series",
+          "value": 50356,
+          "rank": 17,
+          "pageviews": 50356,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "black-widow-2021-film",
+          "value": 45926,
+          "rank": 19,
+          "pageviews": 45926,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260709",
+      "values": [
+        {
+          "id": "lamp-life",
+          "value": 273690,
+          "rank": 1,
+          "pageviews": 273690,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "doctor-who",
+          "value": 225423,
+          "rank": 2,
+          "pageviews": 225423,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "marvel-studios-2021-disney-day-special",
+          "value": 210479,
+          "rank": 5,
+          "pageviews": 210479,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "limitless-with-chris-hemsworth",
+          "value": 155772,
+          "rank": 6,
+          "pageviews": 155772,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "the-punisher-one-last-kill",
+          "value": 111025,
+          "rank": 7,
+          "pageviews": 111025,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "andor-tv-series",
+          "value": 108155,
+          "rank": 8,
+          "pageviews": 108155,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "daredevil-born-again",
+          "value": 94012,
+          "rank": 12,
+          "pageviews": 94012,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "percy-jackson-and-the-olympians-tv-series",
+          "value": 50498,
+          "rank": 17,
+          "pageviews": 50498,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "black-widow-2021-film",
+          "value": 45965,
+          "rank": 19,
+          "pageviews": 45965,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260710",
+      "values": [
+        {
+          "id": "lamp-life",
+          "value": 273397,
+          "rank": 1,
+          "pageviews": 273397,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "doctor-who",
+          "value": 226267,
+          "rank": 3,
+          "pageviews": 226267,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "marvel-studios-2021-disney-day-special",
+          "value": 211926,
+          "rank": 5,
+          "pageviews": 211926,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "limitless-with-chris-hemsworth",
+          "value": 155775,
+          "rank": 6,
+          "pageviews": 155775,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "the-punisher-one-last-kill",
+          "value": 108792,
+          "rank": 7,
+          "pageviews": 108792,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "andor-tv-series",
+          "value": 106683,
+          "rank": 8,
+          "pageviews": 106683,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "daredevil-born-again",
+          "value": 93501,
+          "rank": 12,
+          "pageviews": 93501,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "percy-jackson-and-the-olympians-tv-series",
+          "value": 51049,
+          "rank": 16,
+          "pageviews": 51049,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "black-widow-2021-film",
+          "value": 46340,
+          "rank": 19,
+          "pageviews": 46340,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260711",
+      "values": [
+        {
+          "id": "lamp-life",
+          "value": 268877,
+          "rank": 1,
+          "pageviews": 268877,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "marvel-studios-2021-disney-day-special",
+          "value": 213497,
+          "rank": 4,
+          "pageviews": 213497,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "doctor-who",
+          "value": 201325,
+          "rank": 5,
+          "pageviews": 201325,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "limitless-with-chris-hemsworth",
+          "value": 156535,
+          "rank": 6,
+          "pageviews": 156535,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "the-punisher-one-last-kill",
+          "value": 106688,
+          "rank": 8,
+          "pageviews": 106688,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "andor-tv-series",
+          "value": 105454,
+          "rank": 9,
+          "pageviews": 105454,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "daredevil-born-again",
+          "value": 92986,
+          "rank": 10,
+          "pageviews": 92986,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "percy-jackson-and-the-olympians-tv-series",
+          "value": 51708,
+          "rank": 16,
+          "pageviews": 51708,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "black-widow-2021-film",
+          "value": 46746,
+          "rank": 19,
+          "pageviews": 46746,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260712",
+      "values": [
+        {
+          "id": "lamp-life",
+          "value": 266261,
+          "rank": 2,
+          "pageviews": 266261,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "marvel-studios-2021-disney-day-special",
+          "value": 215516,
+          "rank": 4,
+          "pageviews": 215516,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "doctor-who",
+          "value": 182687,
+          "rank": 5,
+          "pageviews": 182687,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "limitless-with-chris-hemsworth",
+          "value": 157314,
+          "rank": 6,
+          "pageviews": 157314,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "the-punisher-one-last-kill",
+          "value": 105149,
+          "rank": 8,
+          "pageviews": 105149,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "andor-tv-series",
+          "value": 104217,
+          "rank": 9,
+          "pageviews": 104217,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "daredevil-born-again",
+          "value": 92570,
+          "rank": 10,
+          "pageviews": 92570,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "percy-jackson-and-the-olympians-tv-series",
+          "value": 51952,
+          "rank": 16,
+          "pageviews": 51952,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "black-widow-2021-film",
+          "value": 47230,
+          "rank": 19,
+          "pageviews": 47230,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260713",
+      "values": [
+        {
+          "id": "lamp-life",
+          "value": 266138,
+          "rank": 2,
+          "pageviews": 266138,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "marvel-studios-2021-disney-day-special",
+          "value": 217730,
+          "rank": 4,
+          "pageviews": 217730,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "doctor-who",
+          "value": 174663,
+          "rank": 5,
+          "pageviews": 174663,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "limitless-with-chris-hemsworth",
+          "value": 158560,
+          "rank": 6,
+          "pageviews": 158560,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "the-punisher-one-last-kill",
+          "value": 103768,
+          "rank": 8,
+          "pageviews": 103768,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "andor-tv-series",
+          "value": 103139,
+          "rank": 9,
+          "pageviews": 103139,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "daredevil-born-again",
+          "value": 92214,
+          "rank": 10,
+          "pageviews": 92214,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "percy-jackson-and-the-olympians-tv-series",
+          "value": 52220,
+          "rank": 15,
+          "pageviews": 52220,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "black-widow-2021-film",
+          "value": 47763,
+          "rank": 19,
+          "pageviews": 47763,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260714",
+      "values": [
+        {
+          "id": "lamp-life",
+          "value": 263549,
+          "rank": 2,
+          "pageviews": 263549,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "marvel-studios-2021-disney-day-special",
+          "value": 220527,
+          "rank": 4,
+          "pageviews": 220527,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "doctor-who",
+          "value": 170603,
+          "rank": 5,
+          "pageviews": 170603,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "limitless-with-chris-hemsworth",
+          "value": 161336,
+          "rank": 6,
+          "pageviews": 161336,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "the-punisher-one-last-kill",
+          "value": 102244,
+          "rank": 8,
+          "pageviews": 102244,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "andor-tv-series",
+          "value": 102155,
+          "rank": 9,
+          "pageviews": 102155,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "daredevil-born-again",
+          "value": 92369,
+          "rank": 10,
+          "pageviews": 92369,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "percy-jackson-and-the-olympians-tv-series",
+          "value": 52606,
+          "rank": 15,
+          "pageviews": 52606,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "black-widow-2021-film",
+          "value": 48356,
+          "rank": 19,
+          "pageviews": 48356,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260715",
+      "values": [
+        {
+          "id": "lamp-life",
+          "value": 259695,
+          "rank": 2,
+          "pageviews": 259695,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "marvel-studios-2021-disney-day-special",
+          "value": 223229,
+          "rank": 4,
+          "pageviews": 223229,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "doctor-who",
+          "value": 167279,
+          "rank": 5,
+          "pageviews": 167279,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "limitless-with-chris-hemsworth",
+          "value": 161780,
+          "rank": 6,
+          "pageviews": 161780,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "andor-tv-series",
+          "value": 101138,
+          "rank": 8,
+          "pageviews": 101138,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "the-punisher-one-last-kill",
+          "value": 100487,
+          "rank": 9,
+          "pageviews": 100487,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "daredevil-born-again",
+          "value": 92210,
+          "rank": 10,
+          "pageviews": 92210,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "percy-jackson-and-the-olympians-tv-series",
+          "value": 52908,
+          "rank": 15,
+          "pageviews": 52908,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "black-widow-2021-film",
+          "value": 48619,
+          "rank": 19,
+          "pageviews": 48619,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260716",
+      "values": [
+        {
+          "id": "lamp-life",
+          "value": 259277,
+          "rank": 2,
+          "pageviews": 259277,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "marvel-studios-2021-disney-day-special",
+          "value": 233999,
+          "rank": 4,
+          "pageviews": 233999,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "doctor-who",
+          "value": 168804,
+          "rank": 5,
+          "pageviews": 168804,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "limitless-with-chris-hemsworth",
+          "value": 168244,
+          "rank": 6,
+          "pageviews": 168244,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "andor-tv-series",
+          "value": 102662,
+          "rank": 8,
+          "pageviews": 102662,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "the-punisher-one-last-kill",
+          "value": 102223,
+          "rank": 9,
+          "pageviews": 102223,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "daredevil-born-again",
+          "value": 94862,
+          "rank": 10,
+          "pageviews": 94862,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "percy-jackson-and-the-olympians-tv-series",
+          "value": 54257,
+          "rank": 15,
+          "pageviews": 54257,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "dancing-with-the-stars-american-tv-series",
+          "value": 51771,
+          "rank": 17,
+          "pageviews": 51771,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "black-widow-2021-film",
+          "value": 50545,
+          "rank": 19,
+          "pageviews": 50545,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260717",
+      "values": [
+        {
+          "id": "lamp-life",
+          "value": 250748,
+          "rank": 2,
+          "pageviews": 250748,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "marvel-studios-2021-disney-day-special",
+          "value": 227684,
+          "rank": 4,
+          "pageviews": 227684,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "limitless-with-chris-hemsworth",
+          "value": 163056,
+          "rank": 5,
+          "pageviews": 163056,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "doctor-who",
+          "value": 160840,
+          "rank": 6,
+          "pageviews": 160840,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "andor-tv-series",
+          "value": 98585,
+          "rank": 8,
+          "pageviews": 98585,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "the-punisher-one-last-kill",
+          "value": 98541,
+          "rank": 9,
+          "pageviews": 98541,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "daredevil-born-again",
+          "value": 91788,
+          "rank": 10,
+          "pageviews": 91788,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "percy-jackson-and-the-olympians-tv-series",
+          "value": 52040,
+          "rank": 15,
+          "pageviews": 52040,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "dancing-with-the-stars-american-tv-series",
+          "value": 50333,
+          "rank": 17,
+          "pageviews": 50333,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "black-widow-2021-film",
+          "value": 49254,
+          "rank": 19,
+          "pageviews": 49254,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260718",
+      "values": [
+        {
+          "id": "lamp-life",
+          "value": 243899,
+          "rank": 2,
+          "pageviews": 243899,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "marvel-studios-2021-disney-day-special",
+          "value": 228951,
+          "rank": 4,
+          "pageviews": 228951,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "limitless-with-chris-hemsworth",
+          "value": 164239,
+          "rank": 5,
+          "pageviews": 164239,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "doctor-who",
+          "value": 158535,
+          "rank": 6,
+          "pageviews": 158535,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "andor-tv-series",
+          "value": 97459,
+          "rank": 8,
+          "pageviews": 97459,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "the-punisher-one-last-kill",
+          "value": 97352,
+          "rank": 9,
+          "pageviews": 97352,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "daredevil-born-again",
+          "value": 91624,
+          "rank": 10,
+          "pageviews": 91624,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "percy-jackson-and-the-olympians-tv-series",
+          "value": 51650,
+          "rank": 15,
+          "pageviews": 51650,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "dancing-with-the-stars-american-tv-series",
+          "value": 51438,
+          "rank": 16,
+          "pageviews": 51438,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "black-widow-2021-film",
+          "value": 49345,
+          "rank": 19,
+          "pageviews": 49345,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260719",
+      "values": [
+        {
+          "id": "lamp-life",
+          "value": 235209,
+          "rank": 2,
+          "pageviews": 235209,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "marvel-studios-2021-disney-day-special",
+          "value": 228595,
+          "rank": 4,
+          "pageviews": 228595,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "limitless-with-chris-hemsworth",
+          "value": 167035,
+          "rank": 5,
+          "pageviews": 167035,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "doctor-who",
+          "value": 157363,
+          "rank": 6,
+          "pageviews": 157363,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "andor-tv-series",
+          "value": 96647,
+          "rank": 8,
+          "pageviews": 96647,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "the-punisher-one-last-kill",
+          "value": 95015,
+          "rank": 9,
+          "pageviews": 95015,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "daredevil-born-again",
+          "value": 90949,
+          "rank": 10,
+          "pageviews": 90949,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "percy-jackson-and-the-olympians-tv-series",
+          "value": 51572,
+          "rank": 16,
+          "pageviews": 51572,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "dancing-with-the-stars-american-tv-series",
+          "value": 50424,
+          "rank": 18,
+          "pageviews": 50424,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "black-widow-2021-film",
+          "value": 49633,
+          "rank": 20,
+          "pageviews": 49633,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260720",
+      "values": [
+        {
+          "id": "marvel-studios-2021-disney-day-special",
+          "value": 229820,
+          "rank": 3,
+          "pageviews": 229820,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "lamp-life",
+          "value": 220638,
+          "rank": 4,
+          "pageviews": 220638,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "limitless-with-chris-hemsworth",
+          "value": 173692,
+          "rank": 5,
+          "pageviews": 173692,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "doctor-who",
+          "value": 156864,
+          "rank": 6,
+          "pageviews": 156864,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "andor-tv-series",
+          "value": 103093,
+          "rank": 8,
+          "pageviews": 103093,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "the-punisher-one-last-kill",
+          "value": 93960,
+          "rank": 9,
+          "pageviews": 93960,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "daredevil-born-again",
+          "value": 90559,
+          "rank": 10,
+          "pageviews": 90559,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "percy-jackson-and-the-olympians-tv-series",
+          "value": 51790,
+          "rank": 16,
+          "pageviews": 51790,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "dancing-with-the-stars-american-tv-series",
+          "value": 50584,
+          "rank": 17,
+          "pageviews": 50584,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "black-widow-2021-film",
+          "value": 50107,
+          "rank": 19,
+          "pageviews": 50107,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260721",
+      "values": [
+        {
+          "id": "marvel-studios-2021-disney-day-special",
+          "value": 231641,
+          "rank": 3,
+          "pageviews": 231641,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "lamp-life",
+          "value": 202635,
+          "rank": 4,
+          "pageviews": 202635,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "limitless-with-chris-hemsworth",
+          "value": 176608,
+          "rank": 5,
+          "pageviews": 176608,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "doctor-who",
+          "value": 155780,
+          "rank": 6,
+          "pageviews": 155780,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "andor-tv-series",
+          "value": 104074,
+          "rank": 8,
+          "pageviews": 104074,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "the-punisher-one-last-kill",
+          "value": 93358,
+          "rank": 9,
+          "pageviews": 93358,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "daredevil-born-again",
+          "value": 90276,
+          "rank": 10,
+          "pageviews": 90276,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "percy-jackson-and-the-olympians-tv-series",
+          "value": 52004,
+          "rank": 16,
+          "pageviews": 52004,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "dancing-with-the-stars-american-tv-series",
+          "value": 50798,
+          "rank": 17,
+          "pageviews": 50798,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "black-widow-2021-film",
+          "value": 50520,
+          "rank": 18,
+          "pageviews": 50520,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260722",
+      "values": [
+        {
+          "id": "marvel-studios-2021-disney-day-special",
+          "value": 247568,
+          "rank": 3,
+          "pageviews": 247568,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "lamp-life",
+          "value": 183618,
+          "rank": 4,
+          "pageviews": 183618,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "limitless-with-chris-hemsworth",
+          "value": 181425,
+          "rank": 5,
+          "pageviews": 181425,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "doctor-who",
+          "value": 155490,
+          "rank": 6,
+          "pageviews": 155490,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "andor-tv-series",
+          "value": 103665,
+          "rank": 8,
+          "pageviews": 103665,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "the-punisher-one-last-kill",
+          "value": 93072,
+          "rank": 9,
+          "pageviews": 93072,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "daredevil-born-again",
+          "value": 90793,
+          "rank": 10,
+          "pageviews": 90793,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "percy-jackson-and-the-olympians-tv-series",
+          "value": 51829,
+          "rank": 16,
+          "pageviews": 51829,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "black-widow-2021-film",
+          "value": 51746,
+          "rank": 17,
+          "pageviews": 51746,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "dancing-with-the-stars-american-tv-series",
+          "value": 51343,
+          "rank": 18,
+          "pageviews": 51343,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260728",
+      "values": [
+        {
+          "id": "marvel-studios-2021-disney-day-special",
+          "value": 356116,
+          "rank": 1,
+          "pageviews": 356116,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "limitless-with-chris-hemsworth",
+          "value": 208394,
+          "rank": 2,
+          "pageviews": 208394,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "doctor-who",
+          "value": 157006,
+          "rank": 3,
+          "pageviews": 157006,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "andor-tv-series",
+          "value": 102343,
+          "rank": 4,
+          "pageviews": 102343,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "daredevil-born-again",
+          "value": 97575,
+          "rank": 5,
+          "pageviews": 97575,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "percy-jackson-and-the-olympians-tv-series",
+          "value": 63564,
+          "rank": 7,
+          "pageviews": 63564,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "black-widow-2021-film",
+          "value": 62014,
+          "rank": 8,
+          "pageviews": 62014,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "dancing-with-the-stars-american-tv-series",
+          "value": 57602,
+          "rank": 10,
+          "pageviews": 57602,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "loki-tv-series",
+          "value": 52128,
+          "rank": 11,
+          "pageviews": 52128,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "agatha-all-along",
+          "value": 40341,
+          "rank": 13,
+          "pageviews": 40341,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "marvel-zombies-tv-series",
+          "value": 36589,
+          "rank": 14,
+          "pageviews": 36589,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "moon-knight-miniseries",
+          "value": 31944,
+          "rank": 16,
+          "pageviews": 31944,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "eyes-of-wakanda",
+          "value": 26236,
+          "rank": 20,
+          "pageviews": 26236,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260804",
+      "values": [
+        {
+          "id": "marvel-studios-2021-disney-day-special",
+          "value": 518789,
+          "rank": 2,
+          "pageviews": 518789,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "limitless-with-chris-hemsworth",
+          "value": 245566,
+          "rank": 4,
+          "pageviews": 245566,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "doctor-who",
+          "value": 154893,
+          "rank": 5,
+          "pageviews": 154893,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "daredevil-born-again",
+          "value": 127096,
+          "rank": 6,
+          "pageviews": 127096,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "andor-tv-series",
+          "value": 101773,
+          "rank": 8,
+          "pageviews": 101773,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "black-widow-2021-film",
+          "value": 94924,
+          "rank": 9,
+          "pageviews": 94924,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "percy-jackson-and-the-olympians-tv-series",
+          "value": 71946,
+          "rank": 11,
+          "pageviews": 71946,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "loki-tv-series",
+          "value": 71549,
+          "rank": 12,
+          "pageviews": 71549,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "dancing-with-the-stars-american-tv-series",
+          "value": 64596,
+          "rank": 14,
+          "pageviews": 64596,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "ironheart-miniseries",
+          "value": 54803,
+          "rank": 15,
+          "pageviews": 54803,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "agatha-all-along",
+          "value": 54551,
+          "rank": 17,
+          "pageviews": 54551,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "marvel-zombies-tv-series",
+          "value": 48582,
+          "rank": 19,
+          "pageviews": 48582,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260811",
+      "values": [
+        {
+          "id": "marvel-studios-2021-disney-day-special",
+          "value": 678521,
+          "rank": 2,
+          "pageviews": 678521,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "limitless-with-chris-hemsworth",
+          "value": 272578,
+          "rank": 4,
+          "pageviews": 272578,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "the-punisher-one-last-kill",
+          "value": 257179,
+          "rank": 5,
+          "pageviews": 257179,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "daredevil-born-again",
+          "value": 157401,
+          "rank": 6,
+          "pageviews": 157401,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "doctor-who",
+          "value": 148763,
+          "rank": 7,
+          "pageviews": 148763,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "black-widow-2021-film",
+          "value": 142678,
+          "rank": 8,
+          "pageviews": 142678,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "andor-tv-series",
+          "value": 102831,
+          "rank": 10,
+          "pageviews": 102831,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "loki-tv-series",
+          "value": 93673,
+          "rank": 11,
+          "pageviews": 93673,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "lamp-life",
+          "value": 83077,
+          "rank": 13,
+          "pageviews": 83077,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "percy-jackson-and-the-olympians-tv-series",
+          "value": 74380,
+          "rank": 15,
+          "pageviews": 74380,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "ironheart-miniseries",
+          "value": 71693,
+          "rank": 16,
+          "pageviews": 71693,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "agatha-all-along",
+          "value": 71114,
+          "rank": 17,
+          "pageviews": 71114,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "dancing-with-the-stars-american-tv-series",
+          "value": 69640,
+          "rank": 18,
+          "pageviews": 69640,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "marvel-zombies-tv-series",
+          "value": 59135,
+          "rank": 20,
+          "pageviews": 59135,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260818",
+      "values": [
+        {
+          "id": "marvel-studios-2021-disney-day-special",
+          "value": 805085,
+          "rank": 1,
+          "pageviews": 805085,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "the-punisher-one-last-kill",
+          "value": 290112,
+          "rank": 2,
+          "pageviews": 290112,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "limitless-with-chris-hemsworth",
+          "value": 284281,
+          "rank": 3,
+          "pageviews": 284281,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "black-widow-2021-film",
+          "value": 179720,
+          "rank": 4,
+          "pageviews": 179720,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "daredevil-born-again",
+          "value": 175448,
+          "rank": 5,
+          "pageviews": 175448,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "doctor-who",
+          "value": 147049,
+          "rank": 6,
+          "pageviews": 147049,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "loki-tv-series",
+          "value": 112611,
+          "rank": 7,
+          "pageviews": 112611,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "agatha-all-along",
+          "value": 108702,
+          "rank": 8,
+          "pageviews": 108702,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "andor-tv-series",
+          "value": 97000,
+          "rank": 9,
+          "pageviews": 97000,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "percy-jackson-and-the-olympians-tv-series",
+          "value": 86383,
+          "rank": 10,
+          "pageviews": 86383,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "ironheart-miniseries",
+          "value": 84920,
+          "rank": 11,
+          "pageviews": 84920,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "lamp-life",
+          "value": 71617,
+          "rank": 13,
+          "pageviews": 71617,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "dancing-with-the-stars-american-tv-series",
+          "value": 70297,
+          "rank": 14,
+          "pageviews": 70297,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "marvel-zombies-tv-series",
+          "value": 69978,
+          "rank": 15,
+          "pageviews": 69978,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "secret-invasion-miniseries",
+          "value": 65567,
+          "rank": 16,
+          "pageviews": 65567,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "eyes-of-wakanda",
+          "value": 63340,
+          "rank": 17,
+          "pageviews": 63340,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "moon-knight-miniseries",
+          "value": 59512,
+          "rank": 18,
+          "pageviews": 59512,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "star-wars-visions",
+          "value": 53064,
+          "rank": 20,
+          "pageviews": 53064,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260822",
+      "values": [
+        {
+          "id": "marvel-studios-2021-disney-day-special",
+          "value": 820449,
+          "rank": 2,
+          "pageviews": 820449,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "the-punisher-one-last-kill",
+          "value": 296659,
+          "rank": 5,
+          "pageviews": 296659,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "limitless-with-chris-hemsworth",
+          "value": 278174,
+          "rank": 6,
+          "pageviews": 278174,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "black-widow-2021-film",
+          "value": 193216,
+          "rank": 7,
+          "pageviews": 193216,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "daredevil-born-again",
+          "value": 179488,
+          "rank": 8,
+          "pageviews": 179488,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "doctor-who",
+          "value": 146474,
+          "rank": 9,
+          "pageviews": 146474,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "agatha-all-along",
+          "value": 128278,
+          "rank": 10,
+          "pageviews": 128278,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "loki-tv-series",
+          "value": 120484,
+          "rank": 12,
+          "pageviews": 120484,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "andor-tv-series",
+          "value": 96459,
+          "rank": 14,
+          "pageviews": 96459,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "percy-jackson-and-the-olympians-tv-series",
+          "value": 89310,
+          "rank": 15,
+          "pageviews": 89310,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "ironheart-miniseries",
+          "value": 89179,
+          "rank": 16,
+          "pageviews": 89179,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "dancing-with-the-stars-american-tv-series",
+          "value": 77244,
+          "rank": 19,
+          "pageviews": 77244,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "marvel-zombies-tv-series",
+          "value": 73396,
+          "rank": 20,
+          "pageviews": 73396,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260825",
+      "values": [
+        {
+          "id": "marvel-studios-2021-disney-day-special",
+          "value": 826834,
+          "rank": 1,
+          "pageviews": 826834,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "the-punisher-one-last-kill",
+          "value": 298761,
+          "rank": 2,
+          "pageviews": 298761,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "limitless-with-chris-hemsworth",
+          "value": 275403,
+          "rank": 3,
+          "pageviews": 275403,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "black-widow-2021-film",
+          "value": 200942,
+          "rank": 4,
+          "pageviews": 200942,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "daredevil-born-again",
+          "value": 180340,
+          "rank": 5,
+          "pageviews": 180340,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "doctor-who",
+          "value": 143693,
+          "rank": 6,
+          "pageviews": 143693,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "agatha-all-along",
+          "value": 135023,
+          "rank": 7,
+          "pageviews": 135023,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "loki-tv-series",
+          "value": 123330,
+          "rank": 8,
+          "pageviews": 123330,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "andor-tv-series",
+          "value": 97643,
+          "rank": 9,
+          "pageviews": 97643,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "ironheart-miniseries",
+          "value": 90917,
+          "rank": 10,
+          "pageviews": 90917,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "dancing-with-the-stars-american-tv-series",
+          "value": 84668,
+          "rank": 11,
+          "pageviews": 84668,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "percy-jackson-and-the-olympians-tv-series",
+          "value": 83764,
+          "rank": 12,
+          "pageviews": 83764,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "marvel-zombies-tv-series",
+          "value": 75989,
+          "rank": 13,
+          "pageviews": 75989,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "secret-invasion-miniseries",
+          "value": 74870,
+          "rank": 14,
+          "pageviews": 74870,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "lamp-life",
+          "value": 67511,
+          "rank": 15,
+          "pageviews": 67511,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "moon-knight-miniseries",
+          "value": 65378,
+          "rank": 16,
+          "pageviews": 65378,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "eyes-of-wakanda",
+          "value": 65221,
+          "rank": 17,
+          "pageviews": 65221,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "disney-legends",
+          "value": 59387,
+          "rank": 18,
+          "pageviews": 59387,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "star-wars-visions",
+          "value": 57101,
+          "rank": 20,
+          "pageviews": 57101,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260901",
+      "values": [
+        {
+          "id": "marvel-studios-2021-disney-day-special",
+          "value": 704297,
+          "rank": 1,
+          "pageviews": 704297,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "limitless-with-chris-hemsworth",
+          "value": 260026,
+          "rank": 2,
+          "pageviews": 260026,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "the-punisher-one-last-kill",
+          "value": 243930,
+          "rank": 3,
+          "pageviews": 243930,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "black-widow-2021-film",
+          "value": 192388,
+          "rank": 4,
+          "pageviews": 192388,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "daredevil-born-again",
+          "value": 159736,
+          "rank": 5,
+          "pageviews": 159736,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "doctor-who",
+          "value": 140047,
+          "rank": 6,
+          "pageviews": 140047,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "agatha-all-along",
+          "value": 138514,
+          "rank": 7,
+          "pageviews": 138514,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "loki-tv-series",
+          "value": 125926,
+          "rank": 8,
+          "pageviews": 125926,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "andor-tv-series",
+          "value": 97777,
+          "rank": 9,
+          "pageviews": 97777,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "dancing-with-the-stars-american-tv-series",
+          "value": 92550,
+          "rank": 10,
+          "pageviews": 92550,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "ironheart-miniseries",
+          "value": 83961,
+          "rank": 11,
+          "pageviews": 83961,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "percy-jackson-and-the-olympians-tv-series",
+          "value": 78436,
+          "rank": 12,
+          "pageviews": 78436,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "marvel-zombies-tv-series",
+          "value": 74600,
+          "rank": 13,
+          "pageviews": 74600,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "secret-invasion-miniseries",
+          "value": 72869,
+          "rank": 14,
+          "pageviews": 72869,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "disney-legends",
+          "value": 65142,
+          "rank": 15,
+          "pageviews": 65142,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "moon-knight-miniseries",
+          "value": 64942,
+          "rank": 16,
+          "pageviews": 64942,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "lamp-life",
+          "value": 59996,
+          "rank": 17,
+          "pageviews": 59996,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Disney+ original films"
+          ]
+        },
+        {
+          "id": "star-wars-visions",
+          "value": 58712,
+          "rank": 18,
+          "pageviews": 58712,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "eyes-of-wakanda",
+          "value": 56980,
+          "rank": 19,
+          "pageviews": 56980,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        },
+        {
+          "id": "hawkeye-miniseries",
+          "value": 55722,
+          "rank": 20,
+          "pageviews": 55722,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Disney+ original programming"
+          ]
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "date": "20260628",
+      "title": "Doctor Who (series 14–15) leads Disney+ attention",
+      "body": "Doctor Who (series 14–15) is the highest-ranked selected Disney+ original in this Wikipedia-attention frame with 225,940 recent pageviews."
+    },
+    {
+      "date": "20260901",
+      "title": "Marvel Studios' 2021 Disney+ Day Special leads Disney+ attention",
+      "body": "Marvel Studios' 2021 Disney+ Day Special is the highest-ranked selected Disney+ original in this Wikipedia-attention frame with 704,297 recent pageviews."
+    }
+  ],
+  "sources": [
+    {
+      "title": "List of Disney+ original programming",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_Disney%2B_original_programming",
+      "note": "Source universe for Disney Plus original series."
+    },
+    {
+      "title": "List of Disney+ original films",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_Disney%2B_original_films",
+      "note": "Source universe for Disney Plus original films."
+    }
+  ],
+  "lastObservationDate": "2026-09-01",
+  "sourceAudit": {
+    "wikipediaPages": [
+      {
+        "requestedPage": "List_of_Disney+_original_programming",
+        "sourceTitle": "List of Disney+ original programming",
+        "contentKind": "series"
+      },
+      {
+        "requestedPage": "List_of_Disney+_original_films",
+        "sourceTitle": "List of Disney+ original films",
+        "contentKind": "films"
+      }
+    ],
+    "sourceCandidateCount": 278,
+    "rankedRowCount": 20,
+    "rankBy": "wikipedia-pageviews",
+    "pageviewDays": 30,
+    "weeklyTop10AvailableOnWikipedia": false
+  },
+  "dataFreshness": {
+    "status": "fresh",
+    "refreshCadence": "weekly",
+    "lastUpdated": "2026-09-01T07:03:08.053Z",
+    "lastRefreshAttemptedAt": "2026-09-01T07:03:08.053Z",
+    "lastRefreshError": null,
+    "lastObservationDate": "2026-09-01",
+    "nextRefreshAt": "2026-09-08T07:00:00.000Z",
+    "sourceStatus": "Wikipedia pageview bootstrap for Disney+ originals",
+    "confidence": "Observed 30 days of en.wikipedia pageviews for titles listed on 2 Wikipedia platform-original page(s) at 2026-09-01T07:03:08.053Z. This is not a weekly or current streaming Top 10."
+  },
+  "media": {
+    "imageFit": "contain",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-09-01T07:03:08.053Z",
+    "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.webp",
+    "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.webp",
+    "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.json",
+    "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/disney-plus-top-10.json",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 5,
+    "rows": 4,
+    "width": 1600,
+    "height": 1280,
+    "itemCount": 20,
+    "sourcedImageCount": 20,
+    "generatedImageCount": 0,
+    "placeholderCount": 0,
+    "ogImageUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/disney-plus-top-10.png",
+    "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/disney-plus-top-10.png",
+    "ogImageWidth": 1200,
+    "ogImageHeight": 630
+  },
+  "taxonomy": {
+    "primaryCategory": "entertainment",
+    "categories": [
+      "entertainment",
+      "streaming",
+      "franchises"
+    ],
+    "tags": [
+      "disney-plus",
+      "streaming",
+      "franchises",
+      "top-10"
+    ],
+    "entityTypes": [
+      "film",
+      "series"
+    ],
+    "sourceTypes": [
+      "wikipedia"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "what-everyone-is-watching",
+      "type": "streaming-platform-peer",
+      "weight": 0.84,
+      "reason": "Disney Plus should compare directly against the Netflix watch district."
+    },
+    {
+      "target": "franchise-hype-index",
+      "type": "franchise-streaming",
+      "weight": 0.82,
+      "reason": "Disney Plus demand is often franchise-led."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "streaming-platforms",
+    "mainland": "culture",
+    "bridgePriority": [
+      "what-everyone-is-watching",
+      "franchise-hype-index"
+    ]
+  },
+  "schemaVersion": 1,
+  "contentKind": "dat-city.story",
+  "generatedAt": "2026-09-01T07:03:08.053Z",
+  "versionId": "20260901T070308Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "storyops-scheduler",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-09-01T07:03:08.053Z",
+    "versionId": "20260901T070308Z",
+    "adapter": "wikipedia-platform-originals",
+    "storySlug": "disney-plus-top-10",
+    "districtId": null,
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "publicProjection": {
+    "kind": "story",
+    "version": 1,
+    "generatedAt": "2026-09-01T07:03:08.053Z",
+    "adapter": "wikipedia-platform-originals",
+    "cache": {
+      "browserMaxAgeSeconds": 60,
+      "edgeMaxAgeSeconds": 3600
+    }
+  },
+  "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/disney-plus-top-10.png"
+}

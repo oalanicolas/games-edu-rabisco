@@ -1,0 +1,5443 @@
+{
+  "id": "best-selling-video-games",
+  "kicker": "All-Time Games",
+  "title": "Best-Selling Video Games of All Time",
+  "subtitle": "A big all-time game district for the titles with the highest reported worldwide unit sales.",
+  "badge": "Ranked by copies sold",
+  "visualization": "race-arena",
+  "theme": "arcade",
+  "artStyle": "stylized-editorial",
+  "dateRange": [
+    "20260628",
+    "20260901"
+  ],
+  "timelineTicks": [
+    "20260628",
+    "20260629",
+    "20260701",
+    "20260706",
+    "20260707",
+    "20260708",
+    "20260709",
+    "20260710",
+    "20260711",
+    "20260712",
+    "20260713",
+    "20260714",
+    "20260715",
+    "20260716",
+    "20260717",
+    "20260718",
+    "20260719",
+    "20260720",
+    "20260721",
+    "20260722",
+    "20260801",
+    "20260822",
+    "20260901"
+  ],
+  "metricLabel": "Copies sold",
+  "ogImage": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/best-selling-video-games.png",
+  "cityPreview": {
+    "districtId": "all-time-game-market",
+    "districtName": "All-Time Game Market",
+    "cardLabel": "All-Time Sales",
+    "summary": "Best-selling video games worldwide from Wikipedia's all-time sales table.",
+    "primaryMetric": "Copies sold",
+    "latestFrameLabel": "2026-09-01",
+    "storyUrl": "/stories/best-selling-video-games/",
+    "thumbnail": "/assets/og/dat-city.webp"
+  },
+  "sourceStatus": "Wikipedia current ranking table: Overview of best-selling video games",
+  "confidence": "Observed List of best-selling video games on 2026-09-01T08:03:08.299Z; values are parsed from the \"Overview of best-selling video games\" Wikipedia table.",
+  "methodology": "This StoryOps adapter fetches the rendered Wikipedia table for List of best-selling video games, selects the configured ranking table, parses the configured entity and value columns, and stores observed snapshots so public history grows from repeat refreshes.",
+  "playback": {
+    "durationSeconds": 24,
+    "initialDate": "20260628",
+    "periodLabel": "copies sold"
+  },
+  "visual": {
+    "topCount": 10,
+    "referenceCount": 20,
+    "horizontalCount": 20,
+    "rankingCount": 20
+  },
+  "layers": [
+    {
+      "id": "sales",
+      "label": "Sales",
+      "default": true
+    }
+  ],
+  "focus": [
+    {
+      "id": "tetris",
+      "label": "Tetris"
+    },
+    {
+      "id": "grand-theft-auto-v",
+      "label": "Grand Theft Auto V"
+    },
+    {
+      "id": "red-dead-redemption-2",
+      "label": "Red Dead Redemption 2"
+    },
+    {
+      "id": "wii-sports",
+      "label": "Wii Sports"
+    }
+  ],
+  "entities": [
+    {
+      "id": "tetris",
+      "name": "Tetris",
+      "shortName": "Tetris",
+      "article": "Tetris",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Tetris",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Tetris_logo_2019.svg/960px-Tetris_logo_2019.svg.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Tetris_logo_2019.svg/960px-Tetris_logo_2019.svg.png",
+      "avatarText": "T",
+      "color": "#ff5a61",
+      "series": "None",
+      "platforms": "Multi-platform",
+      "releaseYear": "1988",
+      "developer": "Various",
+      "publisher": "Various",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.json",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.2,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Tetris_logo_2019.svg/960px-Tetris_logo_2019.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "grand-theft-auto-v",
+      "name": "Grand Theft Auto V",
+      "shortName": "Grand Theft Auto V",
+      "article": "Grand Theft Auto V",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_V",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/a/a5/Grand_Theft_Auto_V.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a5/Grand_Theft_Auto_V.png",
+      "avatarText": "GT",
+      "color": "#18c871",
+      "series": "Grand Theft Auto",
+      "platforms": "Multi-platform",
+      "releaseYear": "2013",
+      "developer": "Rockstar North",
+      "publisher": "Rockstar Games",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.json",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0,
+          "u1": 0.4,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/a/a5/Grand_Theft_Auto_V.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "red-dead-redemption-2",
+      "name": "Red Dead Redemption 2",
+      "shortName": "Red Dead Redemption 2",
+      "article": "Red Dead Redemption 2",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Red_Dead_Redemption_2",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Red_Dead_Redemption_2_bus_advertisement_%E2%80%93_Brisbane%2C_Queensland.png/960px-Red_Dead_Redemption_2_bus_advertisement_%E2%80%93_Brisbane%2C_Queensland.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Red_Dead_Redemption_2_bus_advertisement_%E2%80%93_Brisbane%2C_Queensland.png/960px-Red_Dead_Redemption_2_bus_advertisement_%E2%80%93_Brisbane%2C_Queensland.png",
+      "avatarText": "RD",
+      "color": "#ffc84a",
+      "series": "Red Dead",
+      "platforms": "Multi-platform",
+      "releaseYear": "2018",
+      "developer": "Rockstar Games",
+      "publisher": "Rockstar Games",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.json",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0,
+          "u1": 0.6,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Red_Dead_Redemption_2_bus_advertisement_%E2%80%93_Brisbane%2C_Queensland.png/960px-Red_Dead_Redemption_2_bus_advertisement_%E2%80%93_Brisbane%2C_Queensland.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "wii-sports",
+      "name": "Wii Sports",
+      "shortName": "Wii Sports",
+      "article": "Wii Sports",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Wii_Sports",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/e/e0/Wii_Sports_Europe.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/e/e0/Wii_Sports_Europe.jpg",
+      "avatarText": "WS",
+      "color": "#00a6ff",
+      "series": "Wii",
+      "platforms": "Wii",
+      "releaseYear": "2006",
+      "developer": "Nintendo EAD",
+      "publisher": "Nintendo",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.json",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0,
+          "u1": 0.8,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:wii-sports",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "mario-kart-8",
+      "name": "Mario Kart 8",
+      "shortName": "Mario Kart 8",
+      "article": "Mario Kart 8",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Mario_Kart_8",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/b/b5/MarioKart8Boxart.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b5/MarioKart8Boxart.jpg",
+      "avatarText": "MK",
+      "color": "#8f6bff",
+      "series": "Mario Kart",
+      "platforms": "Wii U / Switch",
+      "releaseYear": "2014",
+      "developer": "Nintendo EAD / Nintendo EPD ( Deluxe )",
+      "publisher": "Nintendo",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.json",
+          "x": 1280,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/b/b5/MarioKart8Boxart.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "pubg-battlegrounds",
+      "name": "PUBG: Battlegrounds",
+      "shortName": "PUBG: Battlegrounds",
+      "article": "PUBG: Battlegrounds",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/PUBG%3A_Battlegrounds",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/9/9f/Pubgbattlegrounds.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/9/9f/Pubgbattlegrounds.png",
+      "avatarText": "PB",
+      "color": "#f18c4f",
+      "series": "PUBG Universe",
+      "platforms": "Multi-platform",
+      "releaseYear": "2017",
+      "developer": "PUBG Studios",
+      "publisher": "Krafton",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.json",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.25,
+          "u1": 0.2,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/9/9f/Pubgbattlegrounds.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "terraria",
+      "name": "Terraria",
+      "shortName": "Terraria",
+      "article": "Terraria",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Terraria",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/b/b3/Terraria_screenshot.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b3/Terraria_screenshot.png",
+      "avatarText": "T",
+      "color": "#41a99f",
+      "series": "None",
+      "platforms": "Multi-platform",
+      "releaseYear": "2011",
+      "developer": "Re-Logic",
+      "publisher": "Re-Logic / 505 Games",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.json",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.25,
+          "u1": 0.4,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/b/b3/Terraria_screenshot.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "the-witcher-3-wild-hunt",
+      "name": "The Witcher 3: Wild Hunt",
+      "shortName": "The Witcher 3: Wild Hunt",
+      "article": "The Witcher 3: Wild Hunt",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Witcher_3%3A_Wild_Hunt",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/0/0c/Witcher_3_cover_art.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/0/0c/Witcher_3_cover_art.jpg",
+      "avatarText": "TW",
+      "color": "#d78fca",
+      "series": "The Witcher",
+      "platforms": "Multi-platform",
+      "releaseYear": "2015",
+      "developer": "CD Projekt Red",
+      "publisher": "CD Projekt",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.json",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.25,
+          "u1": 0.6,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/0/0c/Witcher_3_cover_art.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "the-elder-scrolls-v-skyrim",
+      "name": "The Elder Scrolls V: Skyrim",
+      "shortName": "The Elder Scrolls V: Skyrim",
+      "article": "The Elder Scrolls V: Skyrim",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Elder_Scrolls_V%3A_Skyrim",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/1/15/The_Elder_Scrolls_V_Skyrim_cover.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/1/15/The_Elder_Scrolls_V_Skyrim_cover.png",
+      "avatarText": "TE",
+      "color": "#f18c4f",
+      "series": "The Elder Scrolls",
+      "platforms": "Multi-platform",
+      "releaseYear": "2011",
+      "developer": "Bethesda Game Studios",
+      "publisher": "Bethesda Softworks",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.json",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.25,
+          "u1": 0.8,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/1/15/The_Elder_Scrolls_V_Skyrim_cover.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "super-mario-bros",
+      "name": "Super Mario Bros.",
+      "shortName": "Super Mario Bros.",
+      "article": "Super Mario Bros.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Super_Mario_Bros.",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/0/03/Super_Mario_Bros._box.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/0/03/Super_Mario_Bros._box.png",
+      "avatarText": "SM",
+      "color": "#7b9b65",
+      "series": "Super Mario",
+      "platforms": "Multi-platform",
+      "releaseYear": "1985",
+      "developer": "Nintendo R&D4",
+      "publisher": "Nintendo",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.json",
+          "x": 1280,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.25,
+          "u1": 1,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/0/03/Super_Mario_Bros._box.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "human-fall-flat",
+      "name": "Human: Fall Flat",
+      "shortName": "Human: Fall Flat",
+      "article": "Human: Fall Flat",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Human%3A_Fall_Flat",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/e/e5/Human_Fall_Flat_cover_art.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/e/e5/Human_Fall_Flat_cover_art.jpg",
+      "avatarText": "HF",
+      "color": "#2f4858",
+      "series": "None",
+      "platforms": "Multi-platform",
+      "releaseYear": "2016",
+      "developer": "No Brakes Games",
+      "publisher": "Curve Digital",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.json",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.5,
+          "u1": 0.2,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/e/e5/Human_Fall_Flat_cover_art.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "animal-crossing-new-horizons",
+      "name": "Animal Crossing: New Horizons",
+      "shortName": "Animal Crossing: New Horizons",
+      "article": "Animal Crossing: New Horizons",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Animal_Crossing%3A_New_Horizons",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/1/1f/Animal_Crossing_New_Horizons.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/1/1f/Animal_Crossing_New_Horizons.jpg",
+      "avatarText": "AC",
+      "color": "#86bdf4",
+      "series": "Animal Crossing",
+      "platforms": "Nintendo Switch",
+      "releaseYear": "2020",
+      "developer": "Nintendo EPD",
+      "publisher": "Nintendo",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.json",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.5,
+          "u1": 0.4,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/1/1f/Animal_Crossing_New_Horizons.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "the-sims",
+      "name": "The Sims",
+      "shortName": "The Sims",
+      "article": "The Sims (video game)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Sims_(video_game)",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/2/22/The_Sims_Coverart.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/2/22/The_Sims_Coverart.png",
+      "avatarText": "TS",
+      "color": "#ef426f",
+      "series": "The Sims",
+      "platforms": "Multi-platform",
+      "releaseYear": "2000",
+      "developer": "Maxis",
+      "publisher": "Electronic Arts",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.json",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.5,
+          "u1": 0.6,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/2/22/The_Sims_Coverart.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "pokemon-red-blue-yellow",
+      "name": "Pokémon Red / Blue / Yellow",
+      "shortName": "Pokémon Red / Blue / Yellow",
+      "article": "Pokémon Red, Blue, and Yellow",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Red%2C_Blue%2C_and_Yellow",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/b/b1/Pok%C3%A9mon_Red%2C_Blue%2C_and_Yellow_battle_screenshot.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b1/Pok%C3%A9mon_Red%2C_Blue%2C_and_Yellow_battle_screenshot.png",
+      "avatarText": "PR",
+      "color": "#c9a14a",
+      "series": "Pokémon",
+      "platforms": "Multi-platform",
+      "releaseYear": "1996",
+      "developer": "Game Freak",
+      "publisher": "Nintendo",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.json",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.5,
+          "u1": 0.8,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/b/b1/Pok%C3%A9mon_Red%2C_Blue%2C_and_Yellow_battle_screenshot.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "wii-fit",
+      "name": "Wii Fit",
+      "shortName": "Wii Fit",
+      "article": "Wii Fit",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Wii_Fit",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/5/5b/Wii_Fit_PAL_boxart.JPG",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/5/5b/Wii_Fit_PAL_boxart.JPG",
+      "avatarText": "WF",
+      "color": "#e34f59",
+      "series": "Wii",
+      "platforms": "Wii",
+      "releaseYear": "2007",
+      "developer": "Nintendo EAD",
+      "publisher": "Nintendo",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.json",
+          "x": 1280,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.5,
+          "u1": 1,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/5/5b/Wii_Fit_PAL_boxart.JPG",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "call-of-duty-black-ops-iii",
+      "name": "Call of Duty: Black Ops III",
+      "shortName": "Call of Duty: Black Ops III",
+      "article": "Call of Duty: Black Ops III",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Call_of_Duty%3A_Black_Ops_III",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/b/b1/Black_Ops_3.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b1/Black_Ops_3.jpg",
+      "avatarText": "CO",
+      "color": "#9aa4b2",
+      "series": "Call of Duty",
+      "platforms": "Multi-platform",
+      "releaseYear": "2015",
+      "developer": "Treyarch",
+      "publisher": "Activision",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.json",
+          "x": 0,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.75,
+          "u1": 0.2,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/b/b1/Black_Ops_3.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "call-of-duty-modern-warfare",
+      "name": "Call of Duty: Modern Warfare",
+      "shortName": "Call of Duty: Modern Warfare",
+      "article": "Call of Duty: Modern Warfare (2019 video game)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Call_of_Duty%3A_Modern_Warfare_(2019_video_game)",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/1/1f/Call_of_Duty_Modern_Warfare_%282019%29_cover.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/1/1f/Call_of_Duty_Modern_Warfare_%282019%29_cover.jpg",
+      "avatarText": "CO",
+      "color": "#ff5a61",
+      "series": "Call of Duty",
+      "platforms": "Multi-platform",
+      "releaseYear": "2019",
+      "developer": "Infinity Ward",
+      "publisher": "Activision",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.json",
+          "x": 320,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.75,
+          "u1": 0.4,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/1/1f/Call_of_Duty_Modern_Warfare_%282019%29_cover.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "sonic-the-hedgehog",
+      "name": "Sonic the Hedgehog",
+      "shortName": "Sonic the Hedgehog",
+      "article": "Sonic the Hedgehog (1991 video game)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_(1991_video_game)",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/b/ba/Sonic_the_Hedgehog_1_Genesis_box_art.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/b/ba/Sonic_the_Hedgehog_1_Genesis_box_art.jpg",
+      "avatarText": "ST",
+      "color": "#18c871",
+      "series": "Sonic the Hedgehog",
+      "platforms": "Multi-platform",
+      "releaseYear": "1991",
+      "developer": "Sonic Team",
+      "publisher": "Sega",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.json",
+          "x": 640,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.75,
+          "u1": 0.6,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/b/ba/Sonic_the_Hedgehog_1_Genesis_box_art.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "super-smash-bros-ultimate",
+      "name": "Super Smash Bros. Ultimate",
+      "shortName": "Super Smash Bros. Ultimate",
+      "article": "Super Smash Bros. Ultimate",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Super_Smash_Bros._Ultimate",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/5/50/Super_Smash_Bros._Ultimate.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/5/50/Super_Smash_Bros._Ultimate.jpg",
+      "avatarText": "SS",
+      "color": "#ffc84a",
+      "series": "Super Smash Bros.",
+      "platforms": "Nintendo Switch",
+      "releaseYear": "2018",
+      "developer": "Bandai Namco Studios / Sora Ltd.",
+      "publisher": "Nintendo",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.json",
+          "x": 960,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.75,
+          "u1": 0.8,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/5/50/Super_Smash_Bros._Ultimate.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "mario-kart-wii",
+      "name": "Mario Kart Wii",
+      "shortName": "Mario Kart Wii",
+      "article": "Mario Kart Wii",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Mario_Kart_Wii",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/d/d6/Mario_Kart_Wii.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/d/d6/Mario_Kart_Wii.png",
+      "avatarText": "MK",
+      "color": "#00a6ff",
+      "series": "Mario Kart",
+      "platforms": "Wii",
+      "releaseYear": "2008",
+      "developer": "Nintendo EAD",
+      "publisher": "Nintendo",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.json",
+          "x": 1280,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.75,
+          "u1": 1,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/d/d6/Mario_Kart_Wii.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    }
+  ],
+  "frames": [
+    {
+      "date": "20260628",
+      "values": [
+        {
+          "id": "tetris",
+          "value": 520000000,
+          "rank": 1,
+          "series": "None",
+          "platforms": "Multi-platform",
+          "releaseYear": "1988",
+          "developer": "Various",
+          "publisher": "Various"
+        },
+        {
+          "id": "grand-theft-auto-v",
+          "value": 230000000,
+          "rank": 2,
+          "series": "Grand Theft Auto",
+          "platforms": "Multi-platform",
+          "releaseYear": "2013",
+          "developer": "Rockstar North",
+          "publisher": "Rockstar Games"
+        },
+        {
+          "id": "red-dead-redemption-2",
+          "value": 85000000,
+          "rank": 3,
+          "series": "Red Dead",
+          "platforms": "Multi-platform",
+          "releaseYear": "2018",
+          "developer": "Rockstar Games",
+          "publisher": "Rockstar Games"
+        },
+        {
+          "id": "wii-sports",
+          "value": 82900000,
+          "rank": 4,
+          "series": "Wii",
+          "platforms": "Wii",
+          "releaseYear": "2006",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "mario-kart-8",
+          "value": 79540000,
+          "rank": 5,
+          "series": "Mario Kart",
+          "platforms": "Wii U / Switch",
+          "releaseYear": "2014",
+          "developer": "Nintendo EAD / Nintendo EPD ( Deluxe )",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "pubg-battlegrounds",
+          "value": 75000000,
+          "rank": 6,
+          "series": "PUBG Universe",
+          "platforms": "Multi-platform",
+          "releaseYear": "2017",
+          "developer": "PUBG Studios",
+          "publisher": "Krafton"
+        },
+        {
+          "id": "terraria",
+          "value": 70000000,
+          "rank": 7,
+          "series": "None",
+          "platforms": "Multi-platform",
+          "releaseYear": "2011",
+          "developer": "Re-Logic",
+          "publisher": "Re-Logic / 505 Games"
+        },
+        {
+          "id": "the-witcher-3-wild-hunt",
+          "value": 65000000,
+          "rank": 8,
+          "series": "The Witcher",
+          "platforms": "Multi-platform",
+          "releaseYear": "2015",
+          "developer": "CD Projekt Red",
+          "publisher": "CD Projekt"
+        },
+        {
+          "id": "super-mario-bros",
+          "value": 58000000,
+          "rank": 9,
+          "series": "Super Mario",
+          "platforms": "Multi-platform",
+          "releaseYear": "1985",
+          "developer": "Nintendo R&D4",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "human-fall-flat",
+          "value": 55000000,
+          "rank": 10,
+          "series": "None",
+          "platforms": "Multi-platform",
+          "releaseYear": "2016",
+          "developer": "No Brakes Games",
+          "publisher": "Curve Digital"
+        },
+        {
+          "id": "the-sims",
+          "value": 50000000,
+          "rank": 11,
+          "series": "The Sims",
+          "platforms": "Multi-platform",
+          "releaseYear": "2000",
+          "developer": "Maxis",
+          "publisher": "Electronic Arts"
+        },
+        {
+          "id": "animal-crossing-new-horizons",
+          "value": 49910000,
+          "rank": 14,
+          "series": "Animal Crossing",
+          "platforms": "Nintendo Switch",
+          "releaseYear": "2020",
+          "developer": "Nintendo EPD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "pokemon-red-blue-yellow",
+          "value": 47440000,
+          "rank": 15,
+          "series": "Pokémon",
+          "platforms": "Multi-platform",
+          "releaseYear": "1996",
+          "developer": "Game Freak",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "wii-fit",
+          "value": 43800000,
+          "rank": 16,
+          "series": "Wii",
+          "platforms": "Wii",
+          "releaseYear": "2007",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "call-of-duty-black-ops-iii",
+          "value": 43000000,
+          "rank": 17,
+          "series": "Call of Duty",
+          "platforms": "Multi-platform",
+          "releaseYear": "2015",
+          "developer": "Treyarch",
+          "publisher": "Activision"
+        },
+        {
+          "id": "call-of-duty-modern-warfare",
+          "value": 41000000,
+          "rank": 18,
+          "series": "Call of Duty",
+          "platforms": "Multi-platform",
+          "releaseYear": "2019",
+          "developer": "Infinity Ward",
+          "publisher": "Activision"
+        },
+        {
+          "id": "sonic-the-hedgehog",
+          "value": 40000000,
+          "rank": 19,
+          "series": "Sonic the Hedgehog",
+          "platforms": "Multi-platform",
+          "releaseYear": "1991",
+          "developer": "Sonic Team",
+          "publisher": "Sega"
+        },
+        {
+          "id": "super-smash-bros-ultimate",
+          "value": 37760000,
+          "rank": 22,
+          "series": "Super Smash Bros.",
+          "platforms": "Nintendo Switch",
+          "releaseYear": "2018",
+          "developer": "Bandai Namco Studios / Sora Ltd.",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "mario-kart-wii",
+          "value": 37380000,
+          "rank": 23,
+          "series": "Mario Kart",
+          "platforms": "Wii",
+          "releaseYear": "2008",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        }
+      ]
+    },
+    {
+      "date": "20260629",
+      "values": [
+        {
+          "id": "tetris",
+          "value": 520000000,
+          "rank": 1,
+          "series": "None",
+          "platforms": "Multi-platform",
+          "releaseYear": "1988",
+          "developer": "Various",
+          "publisher": "Various"
+        },
+        {
+          "id": "grand-theft-auto-v",
+          "value": 230000000,
+          "rank": 2,
+          "series": "Grand Theft Auto",
+          "platforms": "Multi-platform",
+          "releaseYear": "2013",
+          "developer": "Rockstar North",
+          "publisher": "Rockstar Games"
+        },
+        {
+          "id": "red-dead-redemption-2",
+          "value": 85000000,
+          "rank": 3,
+          "series": "Red Dead",
+          "platforms": "Multi-platform",
+          "releaseYear": "2018",
+          "developer": "Rockstar Games",
+          "publisher": "Rockstar Games"
+        },
+        {
+          "id": "wii-sports",
+          "value": 82900000,
+          "rank": 4,
+          "series": "Wii",
+          "platforms": "Wii",
+          "releaseYear": "2006",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "mario-kart-8",
+          "value": 79540000,
+          "rank": 5,
+          "series": "Mario Kart",
+          "platforms": "Wii U / Switch",
+          "releaseYear": "2014",
+          "developer": "Nintendo EAD / Nintendo EPD ( Deluxe )",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "pubg-battlegrounds",
+          "value": 75000000,
+          "rank": 6,
+          "series": "PUBG Universe",
+          "platforms": "Multi-platform",
+          "releaseYear": "2017",
+          "developer": "PUBG Studios",
+          "publisher": "Krafton"
+        },
+        {
+          "id": "terraria",
+          "value": 70000000,
+          "rank": 7,
+          "series": "None",
+          "platforms": "Multi-platform",
+          "releaseYear": "2011",
+          "developer": "Re-Logic",
+          "publisher": "Re-Logic / 505 Games"
+        },
+        {
+          "id": "the-witcher-3-wild-hunt",
+          "value": 65000000,
+          "rank": 8,
+          "series": "The Witcher",
+          "platforms": "Multi-platform",
+          "releaseYear": "2015",
+          "developer": "CD Projekt Red",
+          "publisher": "CD Projekt"
+        },
+        {
+          "id": "super-mario-bros",
+          "value": 58000000,
+          "rank": 9,
+          "series": "Super Mario",
+          "platforms": "Multi-platform",
+          "releaseYear": "1985",
+          "developer": "Nintendo R&D4",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "human-fall-flat",
+          "value": 55000000,
+          "rank": 10,
+          "series": "None",
+          "platforms": "Multi-platform",
+          "releaseYear": "2016",
+          "developer": "No Brakes Games",
+          "publisher": "Curve Digital"
+        },
+        {
+          "id": "the-sims",
+          "value": 50000000,
+          "rank": 11,
+          "series": "The Sims",
+          "platforms": "Multi-platform",
+          "releaseYear": "2000",
+          "developer": "Maxis",
+          "publisher": "Electronic Arts"
+        },
+        {
+          "id": "animal-crossing-new-horizons",
+          "value": 49910000,
+          "rank": 14,
+          "series": "Animal Crossing",
+          "platforms": "Nintendo Switch",
+          "releaseYear": "2020",
+          "developer": "Nintendo EPD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "pokemon-red-blue-yellow",
+          "value": 47440000,
+          "rank": 15,
+          "series": "Pokémon",
+          "platforms": "Multi-platform",
+          "releaseYear": "1996",
+          "developer": "Game Freak",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "wii-fit",
+          "value": 43800000,
+          "rank": 16,
+          "series": "Wii",
+          "platforms": "Wii",
+          "releaseYear": "2007",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "call-of-duty-black-ops-iii",
+          "value": 43000000,
+          "rank": 17,
+          "series": "Call of Duty",
+          "platforms": "Multi-platform",
+          "releaseYear": "2015",
+          "developer": "Treyarch",
+          "publisher": "Activision"
+        },
+        {
+          "id": "call-of-duty-modern-warfare",
+          "value": 41000000,
+          "rank": 18,
+          "series": "Call of Duty",
+          "platforms": "Multi-platform",
+          "releaseYear": "2019",
+          "developer": "Infinity Ward",
+          "publisher": "Activision"
+        },
+        {
+          "id": "sonic-the-hedgehog",
+          "value": 40000000,
+          "rank": 19,
+          "series": "Sonic the Hedgehog",
+          "platforms": "Multi-platform",
+          "releaseYear": "1991",
+          "developer": "Sonic Team",
+          "publisher": "Sega"
+        },
+        {
+          "id": "super-smash-bros-ultimate",
+          "value": 37760000,
+          "rank": 22,
+          "series": "Super Smash Bros.",
+          "platforms": "Nintendo Switch",
+          "releaseYear": "2018",
+          "developer": "Bandai Namco Studios / Sora Ltd.",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "mario-kart-wii",
+          "value": 37380000,
+          "rank": 23,
+          "series": "Mario Kart",
+          "platforms": "Wii",
+          "releaseYear": "2008",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        }
+      ]
+    },
+    {
+      "date": "20260701",
+      "values": [
+        {
+          "id": "tetris",
+          "value": 520000000,
+          "rank": 1,
+          "series": "None",
+          "platforms": "Multi-platform",
+          "releaseYear": "1988",
+          "developer": "Various",
+          "publisher": "Various"
+        },
+        {
+          "id": "grand-theft-auto-v",
+          "value": 230000000,
+          "rank": 2,
+          "series": "Grand Theft Auto",
+          "platforms": "Multi-platform",
+          "releaseYear": "2013",
+          "developer": "Rockstar North",
+          "publisher": "Rockstar Games"
+        },
+        {
+          "id": "red-dead-redemption-2",
+          "value": 85000000,
+          "rank": 3,
+          "series": "Red Dead",
+          "platforms": "Multi-platform",
+          "releaseYear": "2018",
+          "developer": "Rockstar Games",
+          "publisher": "Rockstar Games"
+        },
+        {
+          "id": "wii-sports",
+          "value": 82900000,
+          "rank": 4,
+          "series": "Wii",
+          "platforms": "Wii",
+          "releaseYear": "2006",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "mario-kart-8",
+          "value": 79540000,
+          "rank": 5,
+          "series": "Mario Kart",
+          "platforms": "Wii U / Switch",
+          "releaseYear": "2014",
+          "developer": "Nintendo EAD / Nintendo EPD ( Deluxe )",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "pubg-battlegrounds",
+          "value": 75000000,
+          "rank": 6,
+          "series": "PUBG Universe",
+          "platforms": "Multi-platform",
+          "releaseYear": "2017",
+          "developer": "PUBG Studios",
+          "publisher": "Krafton"
+        },
+        {
+          "id": "terraria",
+          "value": 70000000,
+          "rank": 7,
+          "series": "None",
+          "platforms": "Multi-platform",
+          "releaseYear": "2011",
+          "developer": "Re-Logic",
+          "publisher": "Re-Logic / 505 Games"
+        },
+        {
+          "id": "the-witcher-3-wild-hunt",
+          "value": 65000000,
+          "rank": 8,
+          "series": "The Witcher",
+          "platforms": "Multi-platform",
+          "releaseYear": "2015",
+          "developer": "CD Projekt Red",
+          "publisher": "CD Projekt"
+        },
+        {
+          "id": "super-mario-bros",
+          "value": 58000000,
+          "rank": 9,
+          "series": "Super Mario",
+          "platforms": "Multi-platform",
+          "releaseYear": "1985",
+          "developer": "Nintendo R&D4",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "human-fall-flat",
+          "value": 55000000,
+          "rank": 10,
+          "series": "None",
+          "platforms": "Multi-platform",
+          "releaseYear": "2016",
+          "developer": "No Brakes Games",
+          "publisher": "Curve Digital"
+        },
+        {
+          "id": "the-sims",
+          "value": 50000000,
+          "rank": 11,
+          "series": "The Sims",
+          "platforms": "Multi-platform",
+          "releaseYear": "2000",
+          "developer": "Maxis",
+          "publisher": "Electronic Arts"
+        },
+        {
+          "id": "animal-crossing-new-horizons",
+          "value": 49910000,
+          "rank": 14,
+          "series": "Animal Crossing",
+          "platforms": "Nintendo Switch",
+          "releaseYear": "2020",
+          "developer": "Nintendo EPD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "pokemon-red-blue-yellow",
+          "value": 47440000,
+          "rank": 15,
+          "series": "Pokémon",
+          "platforms": "Multi-platform",
+          "releaseYear": "1996",
+          "developer": "Game Freak",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "wii-fit",
+          "value": 43800000,
+          "rank": 16,
+          "series": "Wii",
+          "platforms": "Wii",
+          "releaseYear": "2007",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "call-of-duty-black-ops-iii",
+          "value": 43000000,
+          "rank": 17,
+          "series": "Call of Duty",
+          "platforms": "Multi-platform",
+          "releaseYear": "2015",
+          "developer": "Treyarch",
+          "publisher": "Activision"
+        },
+        {
+          "id": "call-of-duty-modern-warfare",
+          "value": 41000000,
+          "rank": 18,
+          "series": "Call of Duty",
+          "platforms": "Multi-platform",
+          "releaseYear": "2019",
+          "developer": "Infinity Ward",
+          "publisher": "Activision"
+        },
+        {
+          "id": "sonic-the-hedgehog",
+          "value": 40000000,
+          "rank": 19,
+          "series": "Sonic the Hedgehog",
+          "platforms": "Multi-platform",
+          "releaseYear": "1991",
+          "developer": "Sonic Team",
+          "publisher": "Sega"
+        },
+        {
+          "id": "super-smash-bros-ultimate",
+          "value": 37760000,
+          "rank": 22,
+          "series": "Super Smash Bros.",
+          "platforms": "Nintendo Switch",
+          "releaseYear": "2018",
+          "developer": "Bandai Namco Studios / Sora Ltd.",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "mario-kart-wii",
+          "value": 37380000,
+          "rank": 23,
+          "series": "Mario Kart",
+          "platforms": "Wii",
+          "releaseYear": "2008",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        }
+      ]
+    },
+    {
+      "date": "20260706",
+      "values": [
+        {
+          "id": "tetris",
+          "value": 520000000,
+          "rank": 1,
+          "series": "None",
+          "platforms": "Multi-platform",
+          "releaseYear": "1988",
+          "developer": "Various",
+          "publisher": "Various"
+        },
+        {
+          "id": "grand-theft-auto-v",
+          "value": 230000000,
+          "rank": 2,
+          "series": "Grand Theft Auto",
+          "platforms": "Multi-platform",
+          "releaseYear": "2013",
+          "developer": "Rockstar North",
+          "publisher": "Rockstar Games"
+        },
+        {
+          "id": "red-dead-redemption-2",
+          "value": 85000000,
+          "rank": 3,
+          "series": "Red Dead",
+          "platforms": "Multi-platform",
+          "releaseYear": "2018",
+          "developer": "Rockstar Games",
+          "publisher": "Rockstar Games"
+        },
+        {
+          "id": "wii-sports",
+          "value": 82900000,
+          "rank": 4,
+          "series": "Wii",
+          "platforms": "Wii",
+          "releaseYear": "2006",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "mario-kart-8",
+          "value": 79540000,
+          "rank": 5,
+          "series": "Mario Kart",
+          "platforms": "Wii U / Switch",
+          "releaseYear": "2014",
+          "developer": "Nintendo EAD / Nintendo EPD ( Deluxe )",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "pubg-battlegrounds",
+          "value": 75000000,
+          "rank": 6,
+          "series": "PUBG Universe",
+          "platforms": "Multi-platform",
+          "releaseYear": "2017",
+          "developer": "PUBG Studios",
+          "publisher": "Krafton"
+        },
+        {
+          "id": "terraria",
+          "value": 70000000,
+          "rank": 7,
+          "series": "None",
+          "platforms": "Multi-platform",
+          "releaseYear": "2011",
+          "developer": "Re-Logic",
+          "publisher": "Re-Logic / 505 Games"
+        },
+        {
+          "id": "the-witcher-3-wild-hunt",
+          "value": 65000000,
+          "rank": 8,
+          "series": "The Witcher",
+          "platforms": "Multi-platform",
+          "releaseYear": "2015",
+          "developer": "CD Projekt Red",
+          "publisher": "CD Projekt"
+        },
+        {
+          "id": "super-mario-bros",
+          "value": 58000000,
+          "rank": 9,
+          "series": "Super Mario",
+          "platforms": "Multi-platform",
+          "releaseYear": "1985",
+          "developer": "Nintendo R&D4",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "human-fall-flat",
+          "value": 55000000,
+          "rank": 10,
+          "series": "None",
+          "platforms": "Multi-platform",
+          "releaseYear": "2016",
+          "developer": "No Brakes Games",
+          "publisher": "Curve Digital"
+        },
+        {
+          "id": "the-sims",
+          "value": 50000000,
+          "rank": 11,
+          "series": "The Sims",
+          "platforms": "Multi-platform",
+          "releaseYear": "2000",
+          "developer": "Maxis",
+          "publisher": "Electronic Arts"
+        },
+        {
+          "id": "animal-crossing-new-horizons",
+          "value": 49910000,
+          "rank": 14,
+          "series": "Animal Crossing",
+          "platforms": "Nintendo Switch",
+          "releaseYear": "2020",
+          "developer": "Nintendo EPD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "pokemon-red-blue-yellow",
+          "value": 47440000,
+          "rank": 15,
+          "series": "Pokémon",
+          "platforms": "Multi-platform",
+          "releaseYear": "1996",
+          "developer": "Game Freak",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "wii-fit",
+          "value": 43800000,
+          "rank": 16,
+          "series": "Wii",
+          "platforms": "Wii",
+          "releaseYear": "2007",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "call-of-duty-black-ops-iii",
+          "value": 43000000,
+          "rank": 17,
+          "series": "Call of Duty",
+          "platforms": "Multi-platform",
+          "releaseYear": "2015",
+          "developer": "Treyarch",
+          "publisher": "Activision"
+        },
+        {
+          "id": "call-of-duty-modern-warfare",
+          "value": 41000000,
+          "rank": 18,
+          "series": "Call of Duty",
+          "platforms": "Multi-platform",
+          "releaseYear": "2019",
+          "developer": "Infinity Ward",
+          "publisher": "Activision"
+        },
+        {
+          "id": "sonic-the-hedgehog",
+          "value": 40000000,
+          "rank": 19,
+          "series": "Sonic the Hedgehog",
+          "platforms": "Multi-platform",
+          "releaseYear": "1991",
+          "developer": "Sonic Team",
+          "publisher": "Sega"
+        },
+        {
+          "id": "super-smash-bros-ultimate",
+          "value": 37760000,
+          "rank": 23,
+          "series": "Super Smash Bros.",
+          "platforms": "Nintendo Switch",
+          "releaseYear": "2018",
+          "developer": "Bandai Namco Studios / Sora Ltd.",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "mario-kart-wii",
+          "value": 37380000,
+          "rank": 24,
+          "series": "Mario Kart",
+          "platforms": "Wii",
+          "releaseYear": "2008",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        }
+      ]
+    },
+    {
+      "date": "20260707",
+      "values": [
+        {
+          "id": "tetris",
+          "value": 520000000,
+          "rank": 1,
+          "series": "None",
+          "platforms": "Multi-platform",
+          "releaseYear": "1988",
+          "developer": "Various",
+          "publisher": "Various"
+        },
+        {
+          "id": "grand-theft-auto-v",
+          "value": 230000000,
+          "rank": 2,
+          "series": "Grand Theft Auto",
+          "platforms": "Multi-platform",
+          "releaseYear": "2013",
+          "developer": "Rockstar North",
+          "publisher": "Rockstar Games"
+        },
+        {
+          "id": "red-dead-redemption-2",
+          "value": 85000000,
+          "rank": 3,
+          "series": "Red Dead",
+          "platforms": "Multi-platform",
+          "releaseYear": "2018",
+          "developer": "Rockstar Games",
+          "publisher": "Rockstar Games"
+        },
+        {
+          "id": "wii-sports",
+          "value": 82900000,
+          "rank": 4,
+          "series": "Wii",
+          "platforms": "Wii",
+          "releaseYear": "2006",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "mario-kart-8",
+          "value": 79540000,
+          "rank": 5,
+          "series": "Mario Kart",
+          "platforms": "Wii U / Switch",
+          "releaseYear": "2014",
+          "developer": "Nintendo EAD / Nintendo EPD ( Deluxe )",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "pubg-battlegrounds",
+          "value": 75000000,
+          "rank": 6,
+          "series": "PUBG Universe",
+          "platforms": "Multi-platform",
+          "releaseYear": "2017",
+          "developer": "PUBG Studios",
+          "publisher": "Krafton"
+        },
+        {
+          "id": "terraria",
+          "value": 70000000,
+          "rank": 7,
+          "series": "None",
+          "platforms": "Multi-platform",
+          "releaseYear": "2011",
+          "developer": "Re-Logic",
+          "publisher": "Re-Logic / 505 Games"
+        },
+        {
+          "id": "the-witcher-3-wild-hunt",
+          "value": 65000000,
+          "rank": 8,
+          "series": "The Witcher",
+          "platforms": "Multi-platform",
+          "releaseYear": "2015",
+          "developer": "CD Projekt Red",
+          "publisher": "CD Projekt"
+        },
+        {
+          "id": "super-mario-bros",
+          "value": 58000000,
+          "rank": 9,
+          "series": "Super Mario",
+          "platforms": "Multi-platform",
+          "releaseYear": "1985",
+          "developer": "Nintendo R&D4",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "human-fall-flat",
+          "value": 55000000,
+          "rank": 10,
+          "series": "None",
+          "platforms": "Multi-platform",
+          "releaseYear": "2016",
+          "developer": "No Brakes Games",
+          "publisher": "Curve Digital"
+        },
+        {
+          "id": "the-sims",
+          "value": 50000000,
+          "rank": 11,
+          "series": "The Sims",
+          "platforms": "Multi-platform",
+          "releaseYear": "2000",
+          "developer": "Maxis",
+          "publisher": "Electronic Arts"
+        },
+        {
+          "id": "animal-crossing-new-horizons",
+          "value": 49910000,
+          "rank": 14,
+          "series": "Animal Crossing",
+          "platforms": "Nintendo Switch",
+          "releaseYear": "2020",
+          "developer": "Nintendo EPD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "pokemon-red-blue-yellow",
+          "value": 47440000,
+          "rank": 15,
+          "series": "Pokémon",
+          "platforms": "Multi-platform",
+          "releaseYear": "1996",
+          "developer": "Game Freak",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "wii-fit",
+          "value": 43800000,
+          "rank": 16,
+          "series": "Wii",
+          "platforms": "Wii",
+          "releaseYear": "2007",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "call-of-duty-black-ops-iii",
+          "value": 43000000,
+          "rank": 17,
+          "series": "Call of Duty",
+          "platforms": "Multi-platform",
+          "releaseYear": "2015",
+          "developer": "Treyarch",
+          "publisher": "Activision"
+        },
+        {
+          "id": "call-of-duty-modern-warfare",
+          "value": 41000000,
+          "rank": 18,
+          "series": "Call of Duty",
+          "platforms": "Multi-platform",
+          "releaseYear": "2019",
+          "developer": "Infinity Ward",
+          "publisher": "Activision"
+        },
+        {
+          "id": "sonic-the-hedgehog",
+          "value": 40000000,
+          "rank": 19,
+          "series": "Sonic the Hedgehog",
+          "platforms": "Multi-platform",
+          "releaseYear": "1991",
+          "developer": "Sonic Team",
+          "publisher": "Sega"
+        },
+        {
+          "id": "super-smash-bros-ultimate",
+          "value": 37760000,
+          "rank": 23,
+          "series": "Super Smash Bros.",
+          "platforms": "Nintendo Switch",
+          "releaseYear": "2018",
+          "developer": "Bandai Namco Studios / Sora Ltd.",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "mario-kart-wii",
+          "value": 37380000,
+          "rank": 24,
+          "series": "Mario Kart",
+          "platforms": "Wii",
+          "releaseYear": "2008",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        }
+      ]
+    },
+    {
+      "date": "20260708",
+      "values": [
+        {
+          "id": "tetris",
+          "value": 520000000,
+          "rank": 1,
+          "series": "None",
+          "platforms": "Multi-platform",
+          "releaseYear": "1988",
+          "developer": "Various",
+          "publisher": "Various"
+        },
+        {
+          "id": "grand-theft-auto-v",
+          "value": 230000000,
+          "rank": 2,
+          "series": "Grand Theft Auto",
+          "platforms": "Multi-platform",
+          "releaseYear": "2013",
+          "developer": "Rockstar North",
+          "publisher": "Rockstar Games"
+        },
+        {
+          "id": "red-dead-redemption-2",
+          "value": 85000000,
+          "rank": 3,
+          "series": "Red Dead",
+          "platforms": "Multi-platform",
+          "releaseYear": "2018",
+          "developer": "Rockstar Games",
+          "publisher": "Rockstar Games"
+        },
+        {
+          "id": "wii-sports",
+          "value": 82900000,
+          "rank": 4,
+          "series": "Wii",
+          "platforms": "Wii",
+          "releaseYear": "2006",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "mario-kart-8",
+          "value": 79540000,
+          "rank": 5,
+          "series": "Mario Kart",
+          "platforms": "Wii U / Switch",
+          "releaseYear": "2014",
+          "developer": "Nintendo EAD / Nintendo EPD ( Deluxe )",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "pubg-battlegrounds",
+          "value": 75000000,
+          "rank": 6,
+          "series": "PUBG Universe",
+          "platforms": "Multi-platform",
+          "releaseYear": "2017",
+          "developer": "PUBG Studios",
+          "publisher": "Krafton"
+        },
+        {
+          "id": "terraria",
+          "value": 70000000,
+          "rank": 7,
+          "series": "None",
+          "platforms": "Multi-platform",
+          "releaseYear": "2011",
+          "developer": "Re-Logic",
+          "publisher": "Re-Logic / 505 Games"
+        },
+        {
+          "id": "the-witcher-3-wild-hunt",
+          "value": 65000000,
+          "rank": 8,
+          "series": "The Witcher",
+          "platforms": "Multi-platform",
+          "releaseYear": "2015",
+          "developer": "CD Projekt Red",
+          "publisher": "CD Projekt"
+        },
+        {
+          "id": "super-mario-bros",
+          "value": 58000000,
+          "rank": 9,
+          "series": "Super Mario",
+          "platforms": "Multi-platform",
+          "releaseYear": "1985",
+          "developer": "Nintendo R&D4",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "human-fall-flat",
+          "value": 55000000,
+          "rank": 10,
+          "series": "None",
+          "platforms": "Multi-platform",
+          "releaseYear": "2016",
+          "developer": "No Brakes Games",
+          "publisher": "Curve Digital"
+        },
+        {
+          "id": "the-sims",
+          "value": 50000000,
+          "rank": 11,
+          "series": "The Sims",
+          "platforms": "Multi-platform",
+          "releaseYear": "2000",
+          "developer": "Maxis",
+          "publisher": "Electronic Arts"
+        },
+        {
+          "id": "animal-crossing-new-horizons",
+          "value": 49910000,
+          "rank": 14,
+          "series": "Animal Crossing",
+          "platforms": "Nintendo Switch",
+          "releaseYear": "2020",
+          "developer": "Nintendo EPD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "pokemon-red-blue-yellow",
+          "value": 47440000,
+          "rank": 15,
+          "series": "Pokémon",
+          "platforms": "Multi-platform",
+          "releaseYear": "1996",
+          "developer": "Game Freak",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "wii-fit",
+          "value": 43800000,
+          "rank": 16,
+          "series": "Wii",
+          "platforms": "Wii",
+          "releaseYear": "2007",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "call-of-duty-black-ops-iii",
+          "value": 43000000,
+          "rank": 17,
+          "series": "Call of Duty",
+          "platforms": "Multi-platform",
+          "releaseYear": "2015",
+          "developer": "Treyarch",
+          "publisher": "Activision"
+        },
+        {
+          "id": "call-of-duty-modern-warfare",
+          "value": 41000000,
+          "rank": 18,
+          "series": "Call of Duty",
+          "platforms": "Multi-platform",
+          "releaseYear": "2019",
+          "developer": "Infinity Ward",
+          "publisher": "Activision"
+        },
+        {
+          "id": "sonic-the-hedgehog",
+          "value": 40000000,
+          "rank": 19,
+          "series": "Sonic the Hedgehog",
+          "platforms": "Multi-platform",
+          "releaseYear": "1991",
+          "developer": "Sonic Team",
+          "publisher": "Sega"
+        },
+        {
+          "id": "super-smash-bros-ultimate",
+          "value": 37760000,
+          "rank": 23,
+          "series": "Super Smash Bros.",
+          "platforms": "Nintendo Switch",
+          "releaseYear": "2018",
+          "developer": "Bandai Namco Studios / Sora Ltd.",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "mario-kart-wii",
+          "value": 37380000,
+          "rank": 24,
+          "series": "Mario Kart",
+          "platforms": "Wii",
+          "releaseYear": "2008",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        }
+      ]
+    },
+    {
+      "date": "20260709",
+      "values": [
+        {
+          "id": "tetris",
+          "value": 520000000,
+          "rank": 1,
+          "series": "None",
+          "platforms": "Multi-platform",
+          "releaseYear": "1988",
+          "developer": "Various",
+          "publisher": "Various"
+        },
+        {
+          "id": "grand-theft-auto-v",
+          "value": 230000000,
+          "rank": 2,
+          "series": "Grand Theft Auto",
+          "platforms": "Multi-platform",
+          "releaseYear": "2013",
+          "developer": "Rockstar North",
+          "publisher": "Rockstar Games"
+        },
+        {
+          "id": "red-dead-redemption-2",
+          "value": 85000000,
+          "rank": 3,
+          "series": "Red Dead",
+          "platforms": "Multi-platform",
+          "releaseYear": "2018",
+          "developer": "Rockstar Games",
+          "publisher": "Rockstar Games"
+        },
+        {
+          "id": "wii-sports",
+          "value": 82900000,
+          "rank": 4,
+          "series": "Wii",
+          "platforms": "Wii",
+          "releaseYear": "2006",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "mario-kart-8",
+          "value": 79540000,
+          "rank": 5,
+          "series": "Mario Kart",
+          "platforms": "Wii U / Switch",
+          "releaseYear": "2014",
+          "developer": "Nintendo EAD / Nintendo EPD ( Deluxe )",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "pubg-battlegrounds",
+          "value": 75000000,
+          "rank": 6,
+          "series": "PUBG Universe",
+          "platforms": "Multi-platform",
+          "releaseYear": "2017",
+          "developer": "PUBG Studios",
+          "publisher": "Krafton"
+        },
+        {
+          "id": "terraria",
+          "value": 70000000,
+          "rank": 7,
+          "series": "None",
+          "platforms": "Multi-platform",
+          "releaseYear": "2011",
+          "developer": "Re-Logic",
+          "publisher": "Re-Logic / 505 Games"
+        },
+        {
+          "id": "the-witcher-3-wild-hunt",
+          "value": 65000000,
+          "rank": 8,
+          "series": "The Witcher",
+          "platforms": "Multi-platform",
+          "releaseYear": "2015",
+          "developer": "CD Projekt Red",
+          "publisher": "CD Projekt"
+        },
+        {
+          "id": "super-mario-bros",
+          "value": 58000000,
+          "rank": 9,
+          "series": "Super Mario",
+          "platforms": "Multi-platform",
+          "releaseYear": "1985",
+          "developer": "Nintendo R&D4",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "human-fall-flat",
+          "value": 55000000,
+          "rank": 10,
+          "series": "None",
+          "platforms": "Multi-platform",
+          "releaseYear": "2016",
+          "developer": "No Brakes Games",
+          "publisher": "Curve Digital"
+        },
+        {
+          "id": "the-sims",
+          "value": 50000000,
+          "rank": 11,
+          "series": "The Sims",
+          "platforms": "Multi-platform",
+          "releaseYear": "2000",
+          "developer": "Maxis",
+          "publisher": "Electronic Arts"
+        },
+        {
+          "id": "animal-crossing-new-horizons",
+          "value": 49910000,
+          "rank": 14,
+          "series": "Animal Crossing",
+          "platforms": "Nintendo Switch",
+          "releaseYear": "2020",
+          "developer": "Nintendo EPD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "pokemon-red-blue-yellow",
+          "value": 47440000,
+          "rank": 15,
+          "series": "Pokémon",
+          "platforms": "Multi-platform",
+          "releaseYear": "1996",
+          "developer": "Game Freak",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "wii-fit",
+          "value": 43800000,
+          "rank": 16,
+          "series": "Wii",
+          "platforms": "Wii",
+          "releaseYear": "2007",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "call-of-duty-black-ops-iii",
+          "value": 43000000,
+          "rank": 17,
+          "series": "Call of Duty",
+          "platforms": "Multi-platform",
+          "releaseYear": "2015",
+          "developer": "Treyarch",
+          "publisher": "Activision"
+        },
+        {
+          "id": "call-of-duty-modern-warfare",
+          "value": 41000000,
+          "rank": 18,
+          "series": "Call of Duty",
+          "platforms": "Multi-platform",
+          "releaseYear": "2019",
+          "developer": "Infinity Ward",
+          "publisher": "Activision"
+        },
+        {
+          "id": "sonic-the-hedgehog",
+          "value": 40000000,
+          "rank": 19,
+          "series": "Sonic the Hedgehog",
+          "platforms": "Multi-platform",
+          "releaseYear": "1991",
+          "developer": "Sonic Team",
+          "publisher": "Sega"
+        },
+        {
+          "id": "super-smash-bros-ultimate",
+          "value": 37760000,
+          "rank": 23,
+          "series": "Super Smash Bros.",
+          "platforms": "Nintendo Switch",
+          "releaseYear": "2018",
+          "developer": "Bandai Namco Studios / Sora Ltd.",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "mario-kart-wii",
+          "value": 37380000,
+          "rank": 24,
+          "series": "Mario Kart",
+          "platforms": "Wii",
+          "releaseYear": "2008",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        }
+      ]
+    },
+    {
+      "date": "20260710",
+      "values": [
+        {
+          "id": "tetris",
+          "value": 520000000,
+          "rank": 1,
+          "series": "None",
+          "platforms": "Multi-platform",
+          "releaseYear": "1988",
+          "developer": "Various",
+          "publisher": "Various"
+        },
+        {
+          "id": "grand-theft-auto-v",
+          "value": 230000000,
+          "rank": 2,
+          "series": "Grand Theft Auto",
+          "platforms": "Multi-platform",
+          "releaseYear": "2013",
+          "developer": "Rockstar North",
+          "publisher": "Rockstar Games"
+        },
+        {
+          "id": "red-dead-redemption-2",
+          "value": 85000000,
+          "rank": 3,
+          "series": "Red Dead",
+          "platforms": "Multi-platform",
+          "releaseYear": "2018",
+          "developer": "Rockstar Games",
+          "publisher": "Rockstar Games"
+        },
+        {
+          "id": "wii-sports",
+          "value": 82900000,
+          "rank": 4,
+          "series": "Wii",
+          "platforms": "Wii",
+          "releaseYear": "2006",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "mario-kart-8",
+          "value": 79540000,
+          "rank": 5,
+          "series": "Mario Kart",
+          "platforms": "Wii U / Switch",
+          "releaseYear": "2014",
+          "developer": "Nintendo EAD / Nintendo EPD ( Deluxe )",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "pubg-battlegrounds",
+          "value": 75000000,
+          "rank": 6,
+          "series": "PUBG Universe",
+          "platforms": "Multi-platform",
+          "releaseYear": "2017",
+          "developer": "PUBG Studios",
+          "publisher": "Krafton"
+        },
+        {
+          "id": "terraria",
+          "value": 70000000,
+          "rank": 7,
+          "series": "None",
+          "platforms": "Multi-platform",
+          "releaseYear": "2011",
+          "developer": "Re-Logic",
+          "publisher": "Re-Logic / 505 Games"
+        },
+        {
+          "id": "the-witcher-3-wild-hunt",
+          "value": 65000000,
+          "rank": 8,
+          "series": "The Witcher",
+          "platforms": "Multi-platform",
+          "releaseYear": "2015",
+          "developer": "CD Projekt Red",
+          "publisher": "CD Projekt"
+        },
+        {
+          "id": "super-mario-bros",
+          "value": 58000000,
+          "rank": 9,
+          "series": "Super Mario",
+          "platforms": "Multi-platform",
+          "releaseYear": "1985",
+          "developer": "Nintendo R&D4",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "human-fall-flat",
+          "value": 55000000,
+          "rank": 10,
+          "series": "None",
+          "platforms": "Multi-platform",
+          "releaseYear": "2016",
+          "developer": "No Brakes Games",
+          "publisher": "Curve Digital"
+        },
+        {
+          "id": "the-sims",
+          "value": 50000000,
+          "rank": 11,
+          "series": "The Sims",
+          "platforms": "Multi-platform",
+          "releaseYear": "2000",
+          "developer": "Maxis",
+          "publisher": "Electronic Arts"
+        },
+        {
+          "id": "animal-crossing-new-horizons",
+          "value": 49910000,
+          "rank": 14,
+          "series": "Animal Crossing",
+          "platforms": "Nintendo Switch",
+          "releaseYear": "2020",
+          "developer": "Nintendo EPD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "pokemon-red-blue-yellow",
+          "value": 47440000,
+          "rank": 15,
+          "series": "Pokémon",
+          "platforms": "Multi-platform",
+          "releaseYear": "1996",
+          "developer": "Game Freak",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "wii-fit",
+          "value": 43800000,
+          "rank": 16,
+          "series": "Wii",
+          "platforms": "Wii",
+          "releaseYear": "2007",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "call-of-duty-black-ops-iii",
+          "value": 43000000,
+          "rank": 17,
+          "series": "Call of Duty",
+          "platforms": "Multi-platform",
+          "releaseYear": "2015",
+          "developer": "Treyarch",
+          "publisher": "Activision"
+        },
+        {
+          "id": "call-of-duty-modern-warfare",
+          "value": 41000000,
+          "rank": 18,
+          "series": "Call of Duty",
+          "platforms": "Multi-platform",
+          "releaseYear": "2019",
+          "developer": "Infinity Ward",
+          "publisher": "Activision"
+        },
+        {
+          "id": "sonic-the-hedgehog",
+          "value": 40000000,
+          "rank": 19,
+          "series": "Sonic the Hedgehog",
+          "platforms": "Multi-platform",
+          "releaseYear": "1991",
+          "developer": "Sonic Team",
+          "publisher": "Sega"
+        },
+        {
+          "id": "super-smash-bros-ultimate",
+          "value": 37760000,
+          "rank": 23,
+          "series": "Super Smash Bros.",
+          "platforms": "Nintendo Switch",
+          "releaseYear": "2018",
+          "developer": "Bandai Namco Studios / Sora Ltd.",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "mario-kart-wii",
+          "value": 37380000,
+          "rank": 24,
+          "series": "Mario Kart",
+          "platforms": "Wii",
+          "releaseYear": "2008",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        }
+      ]
+    },
+    {
+      "date": "20260711",
+      "values": [
+        {
+          "id": "tetris",
+          "value": 520000000,
+          "rank": 1,
+          "series": "None",
+          "platforms": "Multi-platform",
+          "releaseYear": "1988",
+          "developer": "Various",
+          "publisher": "Various"
+        },
+        {
+          "id": "grand-theft-auto-v",
+          "value": 230000000,
+          "rank": 2,
+          "series": "Grand Theft Auto",
+          "platforms": "Multi-platform",
+          "releaseYear": "2013",
+          "developer": "Rockstar North",
+          "publisher": "Rockstar Games"
+        },
+        {
+          "id": "red-dead-redemption-2",
+          "value": 85000000,
+          "rank": 3,
+          "series": "Red Dead",
+          "platforms": "Multi-platform",
+          "releaseYear": "2018",
+          "developer": "Rockstar Games",
+          "publisher": "Rockstar Games"
+        },
+        {
+          "id": "wii-sports",
+          "value": 82900000,
+          "rank": 4,
+          "series": "Wii",
+          "platforms": "Wii",
+          "releaseYear": "2006",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "mario-kart-8",
+          "value": 79540000,
+          "rank": 5,
+          "series": "Mario Kart",
+          "platforms": "Wii U / Switch",
+          "releaseYear": "2014",
+          "developer": "Nintendo EAD / Nintendo EPD ( Deluxe )",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "pubg-battlegrounds",
+          "value": 75000000,
+          "rank": 6,
+          "series": "PUBG Universe",
+          "platforms": "Multi-platform",
+          "releaseYear": "2017",
+          "developer": "PUBG Studios",
+          "publisher": "Krafton"
+        },
+        {
+          "id": "terraria",
+          "value": 70000000,
+          "rank": 7,
+          "series": "None",
+          "platforms": "Multi-platform",
+          "releaseYear": "2011",
+          "developer": "Re-Logic",
+          "publisher": "Re-Logic / 505 Games"
+        },
+        {
+          "id": "the-witcher-3-wild-hunt",
+          "value": 65000000,
+          "rank": 8,
+          "series": "The Witcher",
+          "platforms": "Multi-platform",
+          "releaseYear": "2015",
+          "developer": "CD Projekt Red",
+          "publisher": "CD Projekt"
+        },
+        {
+          "id": "super-mario-bros",
+          "value": 58000000,
+          "rank": 9,
+          "series": "Super Mario",
+          "platforms": "Multi-platform",
+          "releaseYear": "1985",
+          "developer": "Nintendo R&D4",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "human-fall-flat",
+          "value": 55000000,
+          "rank": 10,
+          "series": "None",
+          "platforms": "Multi-platform",
+          "releaseYear": "2016",
+          "developer": "No Brakes Games",
+          "publisher": "Curve Digital"
+        },
+        {
+          "id": "the-sims",
+          "value": 50000000,
+          "rank": 11,
+          "series": "The Sims",
+          "platforms": "Multi-platform",
+          "releaseYear": "2000",
+          "developer": "Maxis",
+          "publisher": "Electronic Arts"
+        },
+        {
+          "id": "animal-crossing-new-horizons",
+          "value": 49910000,
+          "rank": 14,
+          "series": "Animal Crossing",
+          "platforms": "Nintendo Switch",
+          "releaseYear": "2020",
+          "developer": "Nintendo EPD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "pokemon-red-blue-yellow",
+          "value": 47440000,
+          "rank": 15,
+          "series": "Pokémon",
+          "platforms": "Multi-platform",
+          "releaseYear": "1996",
+          "developer": "Game Freak",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "wii-fit",
+          "value": 43800000,
+          "rank": 16,
+          "series": "Wii",
+          "platforms": "Wii",
+          "releaseYear": "2007",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "call-of-duty-black-ops-iii",
+          "value": 43000000,
+          "rank": 17,
+          "series": "Call of Duty",
+          "platforms": "Multi-platform",
+          "releaseYear": "2015",
+          "developer": "Treyarch",
+          "publisher": "Activision"
+        },
+        {
+          "id": "call-of-duty-modern-warfare",
+          "value": 41000000,
+          "rank": 18,
+          "series": "Call of Duty",
+          "platforms": "Multi-platform",
+          "releaseYear": "2019",
+          "developer": "Infinity Ward",
+          "publisher": "Activision"
+        },
+        {
+          "id": "sonic-the-hedgehog",
+          "value": 40000000,
+          "rank": 19,
+          "series": "Sonic the Hedgehog",
+          "platforms": "Multi-platform",
+          "releaseYear": "1991",
+          "developer": "Sonic Team",
+          "publisher": "Sega"
+        },
+        {
+          "id": "super-smash-bros-ultimate",
+          "value": 37760000,
+          "rank": 23,
+          "series": "Super Smash Bros.",
+          "platforms": "Nintendo Switch",
+          "releaseYear": "2018",
+          "developer": "Bandai Namco Studios / Sora Ltd.",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "mario-kart-wii",
+          "value": 37380000,
+          "rank": 24,
+          "series": "Mario Kart",
+          "platforms": "Wii",
+          "releaseYear": "2008",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        }
+      ]
+    },
+    {
+      "date": "20260712",
+      "values": [
+        {
+          "id": "tetris",
+          "value": 520000000,
+          "rank": 1,
+          "series": "None",
+          "platforms": "Multi-platform",
+          "releaseYear": "1988",
+          "developer": "Various",
+          "publisher": "Various"
+        },
+        {
+          "id": "grand-theft-auto-v",
+          "value": 230000000,
+          "rank": 2,
+          "series": "Grand Theft Auto",
+          "platforms": "Multi-platform",
+          "releaseYear": "2013",
+          "developer": "Rockstar North",
+          "publisher": "Rockstar Games"
+        },
+        {
+          "id": "red-dead-redemption-2",
+          "value": 85000000,
+          "rank": 3,
+          "series": "Red Dead",
+          "platforms": "Multi-platform",
+          "releaseYear": "2018",
+          "developer": "Rockstar Games",
+          "publisher": "Rockstar Games"
+        },
+        {
+          "id": "wii-sports",
+          "value": 82900000,
+          "rank": 4,
+          "series": "Wii",
+          "platforms": "Wii",
+          "releaseYear": "2006",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "mario-kart-8",
+          "value": 79540000,
+          "rank": 5,
+          "series": "Mario Kart",
+          "platforms": "Wii U / Switch",
+          "releaseYear": "2014",
+          "developer": "Nintendo EAD / Nintendo EPD ( Deluxe )",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "pubg-battlegrounds",
+          "value": 75000000,
+          "rank": 6,
+          "series": "PUBG Universe",
+          "platforms": "Multi-platform",
+          "releaseYear": "2017",
+          "developer": "PUBG Studios",
+          "publisher": "Krafton"
+        },
+        {
+          "id": "terraria",
+          "value": 70000000,
+          "rank": 7,
+          "series": "None",
+          "platforms": "Multi-platform",
+          "releaseYear": "2011",
+          "developer": "Re-Logic",
+          "publisher": "Re-Logic / 505 Games"
+        },
+        {
+          "id": "the-witcher-3-wild-hunt",
+          "value": 65000000,
+          "rank": 8,
+          "series": "The Witcher",
+          "platforms": "Multi-platform",
+          "releaseYear": "2015",
+          "developer": "CD Projekt Red",
+          "publisher": "CD Projekt"
+        },
+        {
+          "id": "super-mario-bros",
+          "value": 58000000,
+          "rank": 9,
+          "series": "Super Mario",
+          "platforms": "Multi-platform",
+          "releaseYear": "1985",
+          "developer": "Nintendo R&D4",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "human-fall-flat",
+          "value": 55000000,
+          "rank": 10,
+          "series": "None",
+          "platforms": "Multi-platform",
+          "releaseYear": "2016",
+          "developer": "No Brakes Games",
+          "publisher": "Curve Digital"
+        },
+        {
+          "id": "the-sims",
+          "value": 50000000,
+          "rank": 11,
+          "series": "The Sims",
+          "platforms": "Multi-platform",
+          "releaseYear": "2000",
+          "developer": "Maxis",
+          "publisher": "Electronic Arts"
+        },
+        {
+          "id": "animal-crossing-new-horizons",
+          "value": 49910000,
+          "rank": 14,
+          "series": "Animal Crossing",
+          "platforms": "Nintendo Switch",
+          "releaseYear": "2020",
+          "developer": "Nintendo EPD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "pokemon-red-blue-yellow",
+          "value": 47440000,
+          "rank": 15,
+          "series": "Pokémon",
+          "platforms": "Multi-platform",
+          "releaseYear": "1996",
+          "developer": "Game Freak",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "wii-fit",
+          "value": 43800000,
+          "rank": 16,
+          "series": "Wii",
+          "platforms": "Wii",
+          "releaseYear": "2007",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "call-of-duty-black-ops-iii",
+          "value": 43000000,
+          "rank": 17,
+          "series": "Call of Duty",
+          "platforms": "Multi-platform",
+          "releaseYear": "2015",
+          "developer": "Treyarch",
+          "publisher": "Activision"
+        },
+        {
+          "id": "call-of-duty-modern-warfare",
+          "value": 41000000,
+          "rank": 18,
+          "series": "Call of Duty",
+          "platforms": "Multi-platform",
+          "releaseYear": "2019",
+          "developer": "Infinity Ward",
+          "publisher": "Activision"
+        },
+        {
+          "id": "sonic-the-hedgehog",
+          "value": 40000000,
+          "rank": 19,
+          "series": "Sonic the Hedgehog",
+          "platforms": "Multi-platform",
+          "releaseYear": "1991",
+          "developer": "Sonic Team",
+          "publisher": "Sega"
+        },
+        {
+          "id": "super-smash-bros-ultimate",
+          "value": 37760000,
+          "rank": 23,
+          "series": "Super Smash Bros.",
+          "platforms": "Nintendo Switch",
+          "releaseYear": "2018",
+          "developer": "Bandai Namco Studios / Sora Ltd.",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "mario-kart-wii",
+          "value": 37380000,
+          "rank": 24,
+          "series": "Mario Kart",
+          "platforms": "Wii",
+          "releaseYear": "2008",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        }
+      ]
+    },
+    {
+      "date": "20260713",
+      "values": [
+        {
+          "id": "tetris",
+          "value": 520000000,
+          "rank": 1,
+          "series": "None",
+          "platforms": "Multi-platform",
+          "releaseYear": "1988",
+          "developer": "Various",
+          "publisher": "Various"
+        },
+        {
+          "id": "grand-theft-auto-v",
+          "value": 230000000,
+          "rank": 2,
+          "series": "Grand Theft Auto",
+          "platforms": "Multi-platform",
+          "releaseYear": "2013",
+          "developer": "Rockstar North",
+          "publisher": "Rockstar Games"
+        },
+        {
+          "id": "red-dead-redemption-2",
+          "value": 85000000,
+          "rank": 3,
+          "series": "Red Dead",
+          "platforms": "Multi-platform",
+          "releaseYear": "2018",
+          "developer": "Rockstar Games",
+          "publisher": "Rockstar Games"
+        },
+        {
+          "id": "wii-sports",
+          "value": 82900000,
+          "rank": 4,
+          "series": "Wii",
+          "platforms": "Wii",
+          "releaseYear": "2006",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "mario-kart-8",
+          "value": 79540000,
+          "rank": 5,
+          "series": "Mario Kart",
+          "platforms": "Wii U / Switch",
+          "releaseYear": "2014",
+          "developer": "Nintendo EAD / Nintendo EPD ( Deluxe )",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "pubg-battlegrounds",
+          "value": 75000000,
+          "rank": 6,
+          "series": "PUBG Universe",
+          "platforms": "Multi-platform",
+          "releaseYear": "2017",
+          "developer": "PUBG Studios",
+          "publisher": "Krafton"
+        },
+        {
+          "id": "terraria",
+          "value": 70000000,
+          "rank": 7,
+          "series": "None",
+          "platforms": "Multi-platform",
+          "releaseYear": "2011",
+          "developer": "Re-Logic",
+          "publisher": "Re-Logic / 505 Games"
+        },
+        {
+          "id": "the-witcher-3-wild-hunt",
+          "value": 65000000,
+          "rank": 8,
+          "series": "The Witcher",
+          "platforms": "Multi-platform",
+          "releaseYear": "2015",
+          "developer": "CD Projekt Red",
+          "publisher": "CD Projekt"
+        },
+        {
+          "id": "super-mario-bros",
+          "value": 58000000,
+          "rank": 9,
+          "series": "Super Mario",
+          "platforms": "Multi-platform",
+          "releaseYear": "1985",
+          "developer": "Nintendo R&D4",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "human-fall-flat",
+          "value": 55000000,
+          "rank": 10,
+          "series": "None",
+          "platforms": "Multi-platform",
+          "releaseYear": "2016",
+          "developer": "No Brakes Games",
+          "publisher": "Curve Digital"
+        },
+        {
+          "id": "the-sims",
+          "value": 50000000,
+          "rank": 11,
+          "series": "The Sims",
+          "platforms": "Multi-platform",
+          "releaseYear": "2000",
+          "developer": "Maxis",
+          "publisher": "Electronic Arts"
+        },
+        {
+          "id": "animal-crossing-new-horizons",
+          "value": 49910000,
+          "rank": 14,
+          "series": "Animal Crossing",
+          "platforms": "Nintendo Switch",
+          "releaseYear": "2020",
+          "developer": "Nintendo EPD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "pokemon-red-blue-yellow",
+          "value": 47440000,
+          "rank": 15,
+          "series": "Pokémon",
+          "platforms": "Multi-platform",
+          "releaseYear": "1996",
+          "developer": "Game Freak",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "wii-fit",
+          "value": 43800000,
+          "rank": 16,
+          "series": "Wii",
+          "platforms": "Wii",
+          "releaseYear": "2007",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "call-of-duty-black-ops-iii",
+          "value": 43000000,
+          "rank": 17,
+          "series": "Call of Duty",
+          "platforms": "Multi-platform",
+          "releaseYear": "2015",
+          "developer": "Treyarch",
+          "publisher": "Activision"
+        },
+        {
+          "id": "call-of-duty-modern-warfare",
+          "value": 41000000,
+          "rank": 18,
+          "series": "Call of Duty",
+          "platforms": "Multi-platform",
+          "releaseYear": "2019",
+          "developer": "Infinity Ward",
+          "publisher": "Activision"
+        },
+        {
+          "id": "sonic-the-hedgehog",
+          "value": 40000000,
+          "rank": 19,
+          "series": "Sonic the Hedgehog",
+          "platforms": "Multi-platform",
+          "releaseYear": "1991",
+          "developer": "Sonic Team",
+          "publisher": "Sega"
+        },
+        {
+          "id": "super-smash-bros-ultimate",
+          "value": 37760000,
+          "rank": 23,
+          "series": "Super Smash Bros.",
+          "platforms": "Nintendo Switch",
+          "releaseYear": "2018",
+          "developer": "Bandai Namco Studios / Sora Ltd.",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "mario-kart-wii",
+          "value": 37380000,
+          "rank": 24,
+          "series": "Mario Kart",
+          "platforms": "Wii",
+          "releaseYear": "2008",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        }
+      ]
+    },
+    {
+      "date": "20260714",
+      "values": [
+        {
+          "id": "tetris",
+          "value": 520000000,
+          "rank": 1,
+          "series": "None",
+          "platforms": "Multi-platform",
+          "releaseYear": "1988",
+          "developer": "Various",
+          "publisher": "Various"
+        },
+        {
+          "id": "grand-theft-auto-v",
+          "value": 230000000,
+          "rank": 2,
+          "series": "Grand Theft Auto",
+          "platforms": "Multi-platform",
+          "releaseYear": "2013",
+          "developer": "Rockstar North",
+          "publisher": "Rockstar Games"
+        },
+        {
+          "id": "red-dead-redemption-2",
+          "value": 85000000,
+          "rank": 3,
+          "series": "Red Dead",
+          "platforms": "Multi-platform",
+          "releaseYear": "2018",
+          "developer": "Rockstar Games",
+          "publisher": "Rockstar Games"
+        },
+        {
+          "id": "wii-sports",
+          "value": 82900000,
+          "rank": 4,
+          "series": "Wii",
+          "platforms": "Wii",
+          "releaseYear": "2006",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "mario-kart-8",
+          "value": 79540000,
+          "rank": 5,
+          "series": "Mario Kart",
+          "platforms": "Wii U / Switch",
+          "releaseYear": "2014",
+          "developer": "Nintendo EAD / Nintendo EPD ( Deluxe )",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "pubg-battlegrounds",
+          "value": 75000000,
+          "rank": 6,
+          "series": "PUBG Universe",
+          "platforms": "Multi-platform",
+          "releaseYear": "2017",
+          "developer": "PUBG Studios",
+          "publisher": "Krafton"
+        },
+        {
+          "id": "terraria",
+          "value": 70000000,
+          "rank": 7,
+          "series": "None",
+          "platforms": "Multi-platform",
+          "releaseYear": "2011",
+          "developer": "Re-Logic",
+          "publisher": "Re-Logic / 505 Games"
+        },
+        {
+          "id": "the-witcher-3-wild-hunt",
+          "value": 65000000,
+          "rank": 8,
+          "series": "The Witcher",
+          "platforms": "Multi-platform",
+          "releaseYear": "2015",
+          "developer": "CD Projekt Red",
+          "publisher": "CD Projekt"
+        },
+        {
+          "id": "super-mario-bros",
+          "value": 58000000,
+          "rank": 9,
+          "series": "Super Mario",
+          "platforms": "Multi-platform",
+          "releaseYear": "1985",
+          "developer": "Nintendo R&D4",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "human-fall-flat",
+          "value": 55000000,
+          "rank": 10,
+          "series": "None",
+          "platforms": "Multi-platform",
+          "releaseYear": "2016",
+          "developer": "No Brakes Games",
+          "publisher": "Curve Digital"
+        },
+        {
+          "id": "the-sims",
+          "value": 50000000,
+          "rank": 11,
+          "series": "The Sims",
+          "platforms": "Multi-platform",
+          "releaseYear": "2000",
+          "developer": "Maxis",
+          "publisher": "Electronic Arts"
+        },
+        {
+          "id": "animal-crossing-new-horizons",
+          "value": 49910000,
+          "rank": 14,
+          "series": "Animal Crossing",
+          "platforms": "Nintendo Switch",
+          "releaseYear": "2020",
+          "developer": "Nintendo EPD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "pokemon-red-blue-yellow",
+          "value": 47440000,
+          "rank": 15,
+          "series": "Pokémon",
+          "platforms": "Multi-platform",
+          "releaseYear": "1996",
+          "developer": "Game Freak",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "wii-fit",
+          "value": 43800000,
+          "rank": 16,
+          "series": "Wii",
+          "platforms": "Wii",
+          "releaseYear": "2007",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "call-of-duty-black-ops-iii",
+          "value": 43000000,
+          "rank": 17,
+          "series": "Call of Duty",
+          "platforms": "Multi-platform",
+          "releaseYear": "2015",
+          "developer": "Treyarch",
+          "publisher": "Activision"
+        },
+        {
+          "id": "call-of-duty-modern-warfare",
+          "value": 41000000,
+          "rank": 18,
+          "series": "Call of Duty",
+          "platforms": "Multi-platform",
+          "releaseYear": "2019",
+          "developer": "Infinity Ward",
+          "publisher": "Activision"
+        },
+        {
+          "id": "sonic-the-hedgehog",
+          "value": 40000000,
+          "rank": 19,
+          "series": "Sonic the Hedgehog",
+          "platforms": "Multi-platform",
+          "releaseYear": "1991",
+          "developer": "Sonic Team",
+          "publisher": "Sega"
+        },
+        {
+          "id": "super-smash-bros-ultimate",
+          "value": 37760000,
+          "rank": 23,
+          "series": "Super Smash Bros.",
+          "platforms": "Nintendo Switch",
+          "releaseYear": "2018",
+          "developer": "Bandai Namco Studios / Sora Ltd.",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "mario-kart-wii",
+          "value": 37380000,
+          "rank": 24,
+          "series": "Mario Kart",
+          "platforms": "Wii",
+          "releaseYear": "2008",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        }
+      ]
+    },
+    {
+      "date": "20260715",
+      "values": [
+        {
+          "id": "tetris",
+          "value": 520000000,
+          "rank": 1,
+          "series": "None",
+          "platforms": "Multi-platform",
+          "releaseYear": "1988",
+          "developer": "Various",
+          "publisher": "Various"
+        },
+        {
+          "id": "grand-theft-auto-v",
+          "value": 230000000,
+          "rank": 2,
+          "series": "Grand Theft Auto",
+          "platforms": "Multi-platform",
+          "releaseYear": "2013",
+          "developer": "Rockstar North",
+          "publisher": "Rockstar Games"
+        },
+        {
+          "id": "red-dead-redemption-2",
+          "value": 85000000,
+          "rank": 3,
+          "series": "Red Dead",
+          "platforms": "Multi-platform",
+          "releaseYear": "2018",
+          "developer": "Rockstar Games",
+          "publisher": "Rockstar Games"
+        },
+        {
+          "id": "wii-sports",
+          "value": 82900000,
+          "rank": 4,
+          "series": "Wii",
+          "platforms": "Wii",
+          "releaseYear": "2006",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "mario-kart-8",
+          "value": 79540000,
+          "rank": 5,
+          "series": "Mario Kart",
+          "platforms": "Wii U / Switch",
+          "releaseYear": "2014",
+          "developer": "Nintendo EAD / Nintendo EPD ( Deluxe )",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "pubg-battlegrounds",
+          "value": 75000000,
+          "rank": 6,
+          "series": "PUBG Universe",
+          "platforms": "Multi-platform",
+          "releaseYear": "2017",
+          "developer": "PUBG Studios",
+          "publisher": "Krafton"
+        },
+        {
+          "id": "terraria",
+          "value": 70000000,
+          "rank": 7,
+          "series": "None",
+          "platforms": "Multi-platform",
+          "releaseYear": "2011",
+          "developer": "Re-Logic",
+          "publisher": "Re-Logic / 505 Games"
+        },
+        {
+          "id": "the-witcher-3-wild-hunt",
+          "value": 65000000,
+          "rank": 8,
+          "series": "The Witcher",
+          "platforms": "Multi-platform",
+          "releaseYear": "2015",
+          "developer": "CD Projekt Red",
+          "publisher": "CD Projekt"
+        },
+        {
+          "id": "super-mario-bros",
+          "value": 58000000,
+          "rank": 9,
+          "series": "Super Mario",
+          "platforms": "Multi-platform",
+          "releaseYear": "1985",
+          "developer": "Nintendo R&D4",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "human-fall-flat",
+          "value": 55000000,
+          "rank": 10,
+          "series": "None",
+          "platforms": "Multi-platform",
+          "releaseYear": "2016",
+          "developer": "No Brakes Games",
+          "publisher": "Curve Digital"
+        },
+        {
+          "id": "the-sims",
+          "value": 50000000,
+          "rank": 11,
+          "series": "The Sims",
+          "platforms": "Multi-platform",
+          "releaseYear": "2000",
+          "developer": "Maxis",
+          "publisher": "Electronic Arts"
+        },
+        {
+          "id": "animal-crossing-new-horizons",
+          "value": 49910000,
+          "rank": 14,
+          "series": "Animal Crossing",
+          "platforms": "Nintendo Switch",
+          "releaseYear": "2020",
+          "developer": "Nintendo EPD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "pokemon-red-blue-yellow",
+          "value": 47440000,
+          "rank": 15,
+          "series": "Pokémon",
+          "platforms": "Multi-platform",
+          "releaseYear": "1996",
+          "developer": "Game Freak",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "wii-fit",
+          "value": 43800000,
+          "rank": 16,
+          "series": "Wii",
+          "platforms": "Wii",
+          "releaseYear": "2007",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "call-of-duty-black-ops-iii",
+          "value": 43000000,
+          "rank": 17,
+          "series": "Call of Duty",
+          "platforms": "Multi-platform",
+          "releaseYear": "2015",
+          "developer": "Treyarch",
+          "publisher": "Activision"
+        },
+        {
+          "id": "call-of-duty-modern-warfare",
+          "value": 41000000,
+          "rank": 18,
+          "series": "Call of Duty",
+          "platforms": "Multi-platform",
+          "releaseYear": "2019",
+          "developer": "Infinity Ward",
+          "publisher": "Activision"
+        },
+        {
+          "id": "sonic-the-hedgehog",
+          "value": 40000000,
+          "rank": 19,
+          "series": "Sonic the Hedgehog",
+          "platforms": "Multi-platform",
+          "releaseYear": "1991",
+          "developer": "Sonic Team",
+          "publisher": "Sega"
+        },
+        {
+          "id": "super-smash-bros-ultimate",
+          "value": 37760000,
+          "rank": 23,
+          "series": "Super Smash Bros.",
+          "platforms": "Nintendo Switch",
+          "releaseYear": "2018",
+          "developer": "Bandai Namco Studios / Sora Ltd.",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "mario-kart-wii",
+          "value": 37380000,
+          "rank": 24,
+          "series": "Mario Kart",
+          "platforms": "Wii",
+          "releaseYear": "2008",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        }
+      ]
+    },
+    {
+      "date": "20260716",
+      "values": [
+        {
+          "id": "tetris",
+          "value": 520000000,
+          "rank": 1,
+          "series": "None",
+          "platforms": "Multi-platform",
+          "releaseYear": "1988",
+          "developer": "Various",
+          "publisher": "Various"
+        },
+        {
+          "id": "grand-theft-auto-v",
+          "value": 230000000,
+          "rank": 2,
+          "series": "Grand Theft Auto",
+          "platforms": "Multi-platform",
+          "releaseYear": "2013",
+          "developer": "Rockstar North",
+          "publisher": "Rockstar Games"
+        },
+        {
+          "id": "red-dead-redemption-2",
+          "value": 85000000,
+          "rank": 3,
+          "series": "Red Dead",
+          "platforms": "Multi-platform",
+          "releaseYear": "2018",
+          "developer": "Rockstar Games",
+          "publisher": "Rockstar Games"
+        },
+        {
+          "id": "wii-sports",
+          "value": 82900000,
+          "rank": 4,
+          "series": "Wii",
+          "platforms": "Wii",
+          "releaseYear": "2006",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "mario-kart-8",
+          "value": 79540000,
+          "rank": 5,
+          "series": "Mario Kart",
+          "platforms": "Wii U / Switch",
+          "releaseYear": "2014",
+          "developer": "Nintendo EAD / Nintendo EPD ( Deluxe )",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "pubg-battlegrounds",
+          "value": 75000000,
+          "rank": 6,
+          "series": "PUBG Universe",
+          "platforms": "Multi-platform",
+          "releaseYear": "2017",
+          "developer": "PUBG Studios",
+          "publisher": "Krafton"
+        },
+        {
+          "id": "terraria",
+          "value": 70000000,
+          "rank": 7,
+          "series": "None",
+          "platforms": "Multi-platform",
+          "releaseYear": "2011",
+          "developer": "Re-Logic",
+          "publisher": "Re-Logic / 505 Games"
+        },
+        {
+          "id": "the-witcher-3-wild-hunt",
+          "value": 65000000,
+          "rank": 8,
+          "series": "The Witcher",
+          "platforms": "Multi-platform",
+          "releaseYear": "2015",
+          "developer": "CD Projekt Red",
+          "publisher": "CD Projekt"
+        },
+        {
+          "id": "super-mario-bros",
+          "value": 58000000,
+          "rank": 9,
+          "series": "Super Mario",
+          "platforms": "Multi-platform",
+          "releaseYear": "1985",
+          "developer": "Nintendo R&D4",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "human-fall-flat",
+          "value": 55000000,
+          "rank": 10,
+          "series": "None",
+          "platforms": "Multi-platform",
+          "releaseYear": "2016",
+          "developer": "No Brakes Games",
+          "publisher": "Curve Digital"
+        },
+        {
+          "id": "the-sims",
+          "value": 50000000,
+          "rank": 11,
+          "series": "The Sims",
+          "platforms": "Multi-platform",
+          "releaseYear": "2000",
+          "developer": "Maxis",
+          "publisher": "Electronic Arts"
+        },
+        {
+          "id": "animal-crossing-new-horizons",
+          "value": 49910000,
+          "rank": 14,
+          "series": "Animal Crossing",
+          "platforms": "Nintendo Switch",
+          "releaseYear": "2020",
+          "developer": "Nintendo EPD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "pokemon-red-blue-yellow",
+          "value": 47440000,
+          "rank": 15,
+          "series": "Pokémon",
+          "platforms": "Multi-platform",
+          "releaseYear": "1996",
+          "developer": "Game Freak",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "wii-fit",
+          "value": 43800000,
+          "rank": 16,
+          "series": "Wii",
+          "platforms": "Wii",
+          "releaseYear": "2007",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "call-of-duty-black-ops-iii",
+          "value": 43000000,
+          "rank": 17,
+          "series": "Call of Duty",
+          "platforms": "Multi-platform",
+          "releaseYear": "2015",
+          "developer": "Treyarch",
+          "publisher": "Activision"
+        },
+        {
+          "id": "call-of-duty-modern-warfare",
+          "value": 41000000,
+          "rank": 18,
+          "series": "Call of Duty",
+          "platforms": "Multi-platform",
+          "releaseYear": "2019",
+          "developer": "Infinity Ward",
+          "publisher": "Activision"
+        },
+        {
+          "id": "sonic-the-hedgehog",
+          "value": 40000000,
+          "rank": 19,
+          "series": "Sonic the Hedgehog",
+          "platforms": "Multi-platform",
+          "releaseYear": "1991",
+          "developer": "Sonic Team",
+          "publisher": "Sega"
+        },
+        {
+          "id": "super-smash-bros-ultimate",
+          "value": 37760000,
+          "rank": 23,
+          "series": "Super Smash Bros.",
+          "platforms": "Nintendo Switch",
+          "releaseYear": "2018",
+          "developer": "Bandai Namco Studios / Sora Ltd.",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "mario-kart-wii",
+          "value": 37380000,
+          "rank": 24,
+          "series": "Mario Kart",
+          "platforms": "Wii",
+          "releaseYear": "2008",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        }
+      ]
+    },
+    {
+      "date": "20260717",
+      "values": [
+        {
+          "id": "tetris",
+          "value": 520000000,
+          "rank": 1,
+          "series": "None",
+          "platforms": "Multi-platform",
+          "releaseYear": "1988",
+          "developer": "Various",
+          "publisher": "Various"
+        },
+        {
+          "id": "grand-theft-auto-v",
+          "value": 230000000,
+          "rank": 2,
+          "series": "Grand Theft Auto",
+          "platforms": "Multi-platform",
+          "releaseYear": "2013",
+          "developer": "Rockstar North",
+          "publisher": "Rockstar Games"
+        },
+        {
+          "id": "red-dead-redemption-2",
+          "value": 85000000,
+          "rank": 3,
+          "series": "Red Dead",
+          "platforms": "Multi-platform",
+          "releaseYear": "2018",
+          "developer": "Rockstar Games",
+          "publisher": "Rockstar Games"
+        },
+        {
+          "id": "wii-sports",
+          "value": 82900000,
+          "rank": 4,
+          "series": "Wii",
+          "platforms": "Wii",
+          "releaseYear": "2006",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "mario-kart-8",
+          "value": 79540000,
+          "rank": 5,
+          "series": "Mario Kart",
+          "platforms": "Wii U / Switch",
+          "releaseYear": "2014",
+          "developer": "Nintendo EAD / Nintendo EPD ( Deluxe )",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "pubg-battlegrounds",
+          "value": 75000000,
+          "rank": 6,
+          "series": "PUBG Universe",
+          "platforms": "Multi-platform",
+          "releaseYear": "2017",
+          "developer": "PUBG Studios",
+          "publisher": "Krafton"
+        },
+        {
+          "id": "terraria",
+          "value": 70000000,
+          "rank": 7,
+          "series": "None",
+          "platforms": "Multi-platform",
+          "releaseYear": "2011",
+          "developer": "Re-Logic",
+          "publisher": "Re-Logic / 505 Games"
+        },
+        {
+          "id": "the-elder-scrolls-v-skyrim",
+          "value": 65000000,
+          "rank": 8,
+          "series": "The Elder Scrolls",
+          "platforms": "Multi-platform",
+          "releaseYear": "2011",
+          "developer": "Bethesda Game Studios",
+          "publisher": "Bethesda Softworks"
+        },
+        {
+          "id": "super-mario-bros",
+          "value": 58000000,
+          "rank": 10,
+          "series": "Super Mario",
+          "platforms": "Multi-platform",
+          "releaseYear": "1985",
+          "developer": "Nintendo R&D4",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "human-fall-flat",
+          "value": 55000000,
+          "rank": 11,
+          "series": "None",
+          "platforms": "Multi-platform",
+          "releaseYear": "2016",
+          "developer": "No Brakes Games",
+          "publisher": "Curve Digital"
+        },
+        {
+          "id": "the-sims",
+          "value": 50000000,
+          "rank": 12,
+          "series": "The Sims",
+          "platforms": "Multi-platform",
+          "releaseYear": "2000",
+          "developer": "Maxis",
+          "publisher": "Electronic Arts"
+        },
+        {
+          "id": "animal-crossing-new-horizons",
+          "value": 49910000,
+          "rank": 15,
+          "series": "Animal Crossing",
+          "platforms": "Nintendo Switch",
+          "releaseYear": "2020",
+          "developer": "Nintendo EPD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "pokemon-red-blue-yellow",
+          "value": 47440000,
+          "rank": 16,
+          "series": "Pokémon",
+          "platforms": "Multi-platform",
+          "releaseYear": "1996",
+          "developer": "Game Freak",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "wii-fit",
+          "value": 43800000,
+          "rank": 17,
+          "series": "Wii",
+          "platforms": "Wii",
+          "releaseYear": "2007",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "call-of-duty-black-ops-iii",
+          "value": 43000000,
+          "rank": 18,
+          "series": "Call of Duty",
+          "platforms": "Multi-platform",
+          "releaseYear": "2015",
+          "developer": "Treyarch",
+          "publisher": "Activision"
+        },
+        {
+          "id": "call-of-duty-modern-warfare",
+          "value": 41000000,
+          "rank": 19,
+          "series": "Call of Duty",
+          "platforms": "Multi-platform",
+          "releaseYear": "2019",
+          "developer": "Infinity Ward",
+          "publisher": "Activision"
+        },
+        {
+          "id": "sonic-the-hedgehog",
+          "value": 40000000,
+          "rank": 20,
+          "series": "Sonic the Hedgehog",
+          "platforms": "Multi-platform",
+          "releaseYear": "1991",
+          "developer": "Sonic Team",
+          "publisher": "Sega"
+        },
+        {
+          "id": "super-smash-bros-ultimate",
+          "value": 37760000,
+          "rank": 24,
+          "series": "Super Smash Bros.",
+          "platforms": "Nintendo Switch",
+          "releaseYear": "2018",
+          "developer": "Bandai Namco Studios / Sora Ltd.",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "mario-kart-wii",
+          "value": 37380000,
+          "rank": 25,
+          "series": "Mario Kart",
+          "platforms": "Wii",
+          "releaseYear": "2008",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        }
+      ]
+    },
+    {
+      "date": "20260718",
+      "values": [
+        {
+          "id": "tetris",
+          "value": 520000000,
+          "rank": 1,
+          "series": "None",
+          "platforms": "Multi-platform",
+          "releaseYear": "1988",
+          "developer": "Various",
+          "publisher": "Various"
+        },
+        {
+          "id": "grand-theft-auto-v",
+          "value": 230000000,
+          "rank": 2,
+          "series": "Grand Theft Auto",
+          "platforms": "Multi-platform",
+          "releaseYear": "2013",
+          "developer": "Rockstar North",
+          "publisher": "Rockstar Games"
+        },
+        {
+          "id": "red-dead-redemption-2",
+          "value": 85000000,
+          "rank": 3,
+          "series": "Red Dead",
+          "platforms": "Multi-platform",
+          "releaseYear": "2018",
+          "developer": "Rockstar Games",
+          "publisher": "Rockstar Games"
+        },
+        {
+          "id": "wii-sports",
+          "value": 82900000,
+          "rank": 4,
+          "series": "Wii",
+          "platforms": "Wii",
+          "releaseYear": "2006",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "mario-kart-8",
+          "value": 79540000,
+          "rank": 5,
+          "series": "Mario Kart",
+          "platforms": "Wii U / Switch",
+          "releaseYear": "2014",
+          "developer": "Nintendo EAD / Nintendo EPD ( Deluxe )",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "pubg-battlegrounds",
+          "value": 75000000,
+          "rank": 6,
+          "series": "PUBG Universe",
+          "platforms": "Multi-platform",
+          "releaseYear": "2017",
+          "developer": "PUBG Studios",
+          "publisher": "Krafton"
+        },
+        {
+          "id": "terraria",
+          "value": 70000000,
+          "rank": 7,
+          "series": "None",
+          "platforms": "Multi-platform",
+          "releaseYear": "2011",
+          "developer": "Re-Logic",
+          "publisher": "Re-Logic / 505 Games"
+        },
+        {
+          "id": "the-elder-scrolls-v-skyrim",
+          "value": 65000000,
+          "rank": 8,
+          "series": "The Elder Scrolls",
+          "platforms": "Multi-platform",
+          "releaseYear": "2011",
+          "developer": "Bethesda Game Studios",
+          "publisher": "Bethesda Softworks"
+        },
+        {
+          "id": "super-mario-bros",
+          "value": 58000000,
+          "rank": 10,
+          "series": "Super Mario",
+          "platforms": "Multi-platform",
+          "releaseYear": "1985",
+          "developer": "Nintendo R&D4",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "human-fall-flat",
+          "value": 55000000,
+          "rank": 11,
+          "series": "None",
+          "platforms": "Multi-platform",
+          "releaseYear": "2016",
+          "developer": "No Brakes Games",
+          "publisher": "Curve Digital"
+        },
+        {
+          "id": "the-sims",
+          "value": 50000000,
+          "rank": 12,
+          "series": "The Sims",
+          "platforms": "Multi-platform",
+          "releaseYear": "2000",
+          "developer": "Maxis",
+          "publisher": "Electronic Arts"
+        },
+        {
+          "id": "animal-crossing-new-horizons",
+          "value": 49910000,
+          "rank": 15,
+          "series": "Animal Crossing",
+          "platforms": "Nintendo Switch",
+          "releaseYear": "2020",
+          "developer": "Nintendo EPD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "pokemon-red-blue-yellow",
+          "value": 47440000,
+          "rank": 16,
+          "series": "Pokémon",
+          "platforms": "Multi-platform",
+          "releaseYear": "1996",
+          "developer": "Game Freak",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "wii-fit",
+          "value": 43800000,
+          "rank": 17,
+          "series": "Wii",
+          "platforms": "Wii",
+          "releaseYear": "2007",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "call-of-duty-black-ops-iii",
+          "value": 43000000,
+          "rank": 18,
+          "series": "Call of Duty",
+          "platforms": "Multi-platform",
+          "releaseYear": "2015",
+          "developer": "Treyarch",
+          "publisher": "Activision"
+        },
+        {
+          "id": "call-of-duty-modern-warfare",
+          "value": 41000000,
+          "rank": 19,
+          "series": "Call of Duty",
+          "platforms": "Multi-platform",
+          "releaseYear": "2019",
+          "developer": "Infinity Ward",
+          "publisher": "Activision"
+        },
+        {
+          "id": "sonic-the-hedgehog",
+          "value": 40000000,
+          "rank": 20,
+          "series": "Sonic the Hedgehog",
+          "platforms": "Multi-platform",
+          "releaseYear": "1991",
+          "developer": "Sonic Team",
+          "publisher": "Sega"
+        },
+        {
+          "id": "super-smash-bros-ultimate",
+          "value": 37760000,
+          "rank": 24,
+          "series": "Super Smash Bros.",
+          "platforms": "Nintendo Switch",
+          "releaseYear": "2018",
+          "developer": "Bandai Namco Studios / Sora Ltd.",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "mario-kart-wii",
+          "value": 37380000,
+          "rank": 25,
+          "series": "Mario Kart",
+          "platforms": "Wii",
+          "releaseYear": "2008",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        }
+      ]
+    },
+    {
+      "date": "20260719",
+      "values": [
+        {
+          "id": "tetris",
+          "value": 520000000,
+          "rank": 1,
+          "series": "None",
+          "platforms": "Multi-platform",
+          "releaseYear": "1988",
+          "developer": "Various",
+          "publisher": "Various"
+        },
+        {
+          "id": "grand-theft-auto-v",
+          "value": 230000000,
+          "rank": 2,
+          "series": "Grand Theft Auto",
+          "platforms": "Multi-platform",
+          "releaseYear": "2013",
+          "developer": "Rockstar North",
+          "publisher": "Rockstar Games"
+        },
+        {
+          "id": "red-dead-redemption-2",
+          "value": 85000000,
+          "rank": 3,
+          "series": "Red Dead",
+          "platforms": "Multi-platform",
+          "releaseYear": "2018",
+          "developer": "Rockstar Games",
+          "publisher": "Rockstar Games"
+        },
+        {
+          "id": "wii-sports",
+          "value": 82900000,
+          "rank": 4,
+          "series": "Wii",
+          "platforms": "Wii",
+          "releaseYear": "2006",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "mario-kart-8",
+          "value": 79540000,
+          "rank": 5,
+          "series": "Mario Kart",
+          "platforms": "Wii U / Switch",
+          "releaseYear": "2014",
+          "developer": "Nintendo EAD / Nintendo EPD ( Deluxe )",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "pubg-battlegrounds",
+          "value": 75000000,
+          "rank": 6,
+          "series": "PUBG Universe",
+          "platforms": "Multi-platform",
+          "releaseYear": "2017",
+          "developer": "PUBG Studios",
+          "publisher": "Krafton"
+        },
+        {
+          "id": "terraria",
+          "value": 70000000,
+          "rank": 7,
+          "series": "None",
+          "platforms": "Multi-platform",
+          "releaseYear": "2011",
+          "developer": "Re-Logic",
+          "publisher": "Re-Logic / 505 Games"
+        },
+        {
+          "id": "the-elder-scrolls-v-skyrim",
+          "value": 65000000,
+          "rank": 8,
+          "series": "The Elder Scrolls",
+          "platforms": "Multi-platform",
+          "releaseYear": "2011",
+          "developer": "Bethesda Game Studios",
+          "publisher": "Bethesda Softworks"
+        },
+        {
+          "id": "super-mario-bros",
+          "value": 58000000,
+          "rank": 10,
+          "series": "Super Mario",
+          "platforms": "Multi-platform",
+          "releaseYear": "1985",
+          "developer": "Nintendo R&D4",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "human-fall-flat",
+          "value": 55000000,
+          "rank": 11,
+          "series": "None",
+          "platforms": "Multi-platform",
+          "releaseYear": "2016",
+          "developer": "No Brakes Games",
+          "publisher": "Curve Digital"
+        },
+        {
+          "id": "the-sims",
+          "value": 50000000,
+          "rank": 12,
+          "series": "The Sims",
+          "platforms": "Multi-platform",
+          "releaseYear": "2000",
+          "developer": "Maxis",
+          "publisher": "Electronic Arts"
+        },
+        {
+          "id": "animal-crossing-new-horizons",
+          "value": 49910000,
+          "rank": 15,
+          "series": "Animal Crossing",
+          "platforms": "Nintendo Switch",
+          "releaseYear": "2020",
+          "developer": "Nintendo EPD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "pokemon-red-blue-yellow",
+          "value": 47440000,
+          "rank": 16,
+          "series": "Pokémon",
+          "platforms": "Multi-platform",
+          "releaseYear": "1996",
+          "developer": "Game Freak",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "wii-fit",
+          "value": 43800000,
+          "rank": 17,
+          "series": "Wii",
+          "platforms": "Wii",
+          "releaseYear": "2007",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "call-of-duty-black-ops-iii",
+          "value": 43000000,
+          "rank": 18,
+          "series": "Call of Duty",
+          "platforms": "Multi-platform",
+          "releaseYear": "2015",
+          "developer": "Treyarch",
+          "publisher": "Activision"
+        },
+        {
+          "id": "call-of-duty-modern-warfare",
+          "value": 41000000,
+          "rank": 19,
+          "series": "Call of Duty",
+          "platforms": "Multi-platform",
+          "releaseYear": "2019",
+          "developer": "Infinity Ward",
+          "publisher": "Activision"
+        },
+        {
+          "id": "sonic-the-hedgehog",
+          "value": 40000000,
+          "rank": 20,
+          "series": "Sonic the Hedgehog",
+          "platforms": "Multi-platform",
+          "releaseYear": "1991",
+          "developer": "Sonic Team",
+          "publisher": "Sega"
+        },
+        {
+          "id": "super-smash-bros-ultimate",
+          "value": 37760000,
+          "rank": 24,
+          "series": "Super Smash Bros.",
+          "platforms": "Nintendo Switch",
+          "releaseYear": "2018",
+          "developer": "Bandai Namco Studios / Sora Ltd.",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "mario-kart-wii",
+          "value": 37380000,
+          "rank": 25,
+          "series": "Mario Kart",
+          "platforms": "Wii",
+          "releaseYear": "2008",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        }
+      ]
+    },
+    {
+      "date": "20260720",
+      "values": [
+        {
+          "id": "tetris",
+          "value": 520000000,
+          "rank": 1,
+          "series": "None",
+          "platforms": "Multi-platform",
+          "releaseYear": "1988",
+          "developer": "Various",
+          "publisher": "Various"
+        },
+        {
+          "id": "grand-theft-auto-v",
+          "value": 230000000,
+          "rank": 2,
+          "series": "Grand Theft Auto",
+          "platforms": "Multi-platform",
+          "releaseYear": "2013",
+          "developer": "Rockstar North",
+          "publisher": "Rockstar Games"
+        },
+        {
+          "id": "red-dead-redemption-2",
+          "value": 85000000,
+          "rank": 3,
+          "series": "Red Dead",
+          "platforms": "Multi-platform",
+          "releaseYear": "2018",
+          "developer": "Rockstar Games",
+          "publisher": "Rockstar Games"
+        },
+        {
+          "id": "wii-sports",
+          "value": 82900000,
+          "rank": 4,
+          "series": "Wii",
+          "platforms": "Wii",
+          "releaseYear": "2006",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "mario-kart-8",
+          "value": 79540000,
+          "rank": 5,
+          "series": "Mario Kart",
+          "platforms": "Wii U / Switch",
+          "releaseYear": "2014",
+          "developer": "Nintendo EAD / Nintendo EPD ( Deluxe )",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "pubg-battlegrounds",
+          "value": 75000000,
+          "rank": 6,
+          "series": "PUBG Universe",
+          "platforms": "Multi-platform",
+          "releaseYear": "2017",
+          "developer": "PUBG Studios",
+          "publisher": "Krafton"
+        },
+        {
+          "id": "terraria",
+          "value": 70000000,
+          "rank": 7,
+          "series": "None",
+          "platforms": "Multi-platform",
+          "releaseYear": "2011",
+          "developer": "Re-Logic",
+          "publisher": "Re-Logic / 505 Games"
+        },
+        {
+          "id": "the-elder-scrolls-v-skyrim",
+          "value": 65000000,
+          "rank": 8,
+          "series": "The Elder Scrolls",
+          "platforms": "Multi-platform",
+          "releaseYear": "2011",
+          "developer": "Bethesda Game Studios",
+          "publisher": "Bethesda Softworks"
+        },
+        {
+          "id": "super-mario-bros",
+          "value": 58000000,
+          "rank": 10,
+          "series": "Super Mario",
+          "platforms": "Multi-platform",
+          "releaseYear": "1985",
+          "developer": "Nintendo R&D4",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "human-fall-flat",
+          "value": 55000000,
+          "rank": 11,
+          "series": "None",
+          "platforms": "Multi-platform",
+          "releaseYear": "2016",
+          "developer": "No Brakes Games",
+          "publisher": "Curve Digital"
+        },
+        {
+          "id": "the-sims",
+          "value": 50000000,
+          "rank": 12,
+          "series": "The Sims",
+          "platforms": "Multi-platform",
+          "releaseYear": "2000",
+          "developer": "Maxis",
+          "publisher": "Electronic Arts"
+        },
+        {
+          "id": "animal-crossing-new-horizons",
+          "value": 49910000,
+          "rank": 15,
+          "series": "Animal Crossing",
+          "platforms": "Nintendo Switch",
+          "releaseYear": "2020",
+          "developer": "Nintendo EPD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "pokemon-red-blue-yellow",
+          "value": 47440000,
+          "rank": 16,
+          "series": "Pokémon",
+          "platforms": "Multi-platform",
+          "releaseYear": "1996",
+          "developer": "Game Freak",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "wii-fit",
+          "value": 43800000,
+          "rank": 17,
+          "series": "Wii",
+          "platforms": "Wii",
+          "releaseYear": "2007",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "call-of-duty-black-ops-iii",
+          "value": 43000000,
+          "rank": 18,
+          "series": "Call of Duty",
+          "platforms": "Multi-platform",
+          "releaseYear": "2015",
+          "developer": "Treyarch",
+          "publisher": "Activision"
+        },
+        {
+          "id": "call-of-duty-modern-warfare",
+          "value": 41000000,
+          "rank": 19,
+          "series": "Call of Duty",
+          "platforms": "Multi-platform",
+          "releaseYear": "2019",
+          "developer": "Infinity Ward",
+          "publisher": "Activision"
+        },
+        {
+          "id": "sonic-the-hedgehog",
+          "value": 40000000,
+          "rank": 20,
+          "series": "Sonic the Hedgehog",
+          "platforms": "Multi-platform",
+          "releaseYear": "1991",
+          "developer": "Sonic Team",
+          "publisher": "Sega"
+        },
+        {
+          "id": "super-smash-bros-ultimate",
+          "value": 37760000,
+          "rank": 24,
+          "series": "Super Smash Bros.",
+          "platforms": "Nintendo Switch",
+          "releaseYear": "2018",
+          "developer": "Bandai Namco Studios / Sora Ltd.",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "mario-kart-wii",
+          "value": 37380000,
+          "rank": 25,
+          "series": "Mario Kart",
+          "platforms": "Wii",
+          "releaseYear": "2008",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        }
+      ]
+    },
+    {
+      "date": "20260721",
+      "values": [
+        {
+          "id": "tetris",
+          "value": 520000000,
+          "rank": 1,
+          "series": "None",
+          "platforms": "Multi-platform",
+          "releaseYear": "1988",
+          "developer": "Various",
+          "publisher": "Various"
+        },
+        {
+          "id": "grand-theft-auto-v",
+          "value": 230000000,
+          "rank": 2,
+          "series": "Grand Theft Auto",
+          "platforms": "Multi-platform",
+          "releaseYear": "2013",
+          "developer": "Rockstar North",
+          "publisher": "Rockstar Games"
+        },
+        {
+          "id": "red-dead-redemption-2",
+          "value": 85000000,
+          "rank": 3,
+          "series": "Red Dead",
+          "platforms": "Multi-platform",
+          "releaseYear": "2018",
+          "developer": "Rockstar Games",
+          "publisher": "Rockstar Games"
+        },
+        {
+          "id": "wii-sports",
+          "value": 82900000,
+          "rank": 4,
+          "series": "Wii",
+          "platforms": "Wii",
+          "releaseYear": "2006",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "mario-kart-8",
+          "value": 79540000,
+          "rank": 5,
+          "series": "Mario Kart",
+          "platforms": "Wii U / Switch",
+          "releaseYear": "2014",
+          "developer": "Nintendo EAD / Nintendo EPD ( Deluxe )",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "pubg-battlegrounds",
+          "value": 75000000,
+          "rank": 6,
+          "series": "PUBG Universe",
+          "platforms": "Multi-platform",
+          "releaseYear": "2017",
+          "developer": "PUBG Studios",
+          "publisher": "Krafton"
+        },
+        {
+          "id": "terraria",
+          "value": 70000000,
+          "rank": 7,
+          "series": "None",
+          "platforms": "Multi-platform",
+          "releaseYear": "2011",
+          "developer": "Re-Logic",
+          "publisher": "Re-Logic / 505 Games"
+        },
+        {
+          "id": "the-elder-scrolls-v-skyrim",
+          "value": 65000000,
+          "rank": 8,
+          "series": "The Elder Scrolls",
+          "platforms": "Multi-platform",
+          "releaseYear": "2011",
+          "developer": "Bethesda Game Studios",
+          "publisher": "Bethesda Softworks"
+        },
+        {
+          "id": "super-mario-bros",
+          "value": 58000000,
+          "rank": 10,
+          "series": "Super Mario",
+          "platforms": "Multi-platform",
+          "releaseYear": "1985",
+          "developer": "Nintendo R&D4",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "human-fall-flat",
+          "value": 55000000,
+          "rank": 11,
+          "series": "None",
+          "platforms": "Multi-platform",
+          "releaseYear": "2016",
+          "developer": "No Brakes Games",
+          "publisher": "Curve Digital"
+        },
+        {
+          "id": "the-sims",
+          "value": 50000000,
+          "rank": 12,
+          "series": "The Sims",
+          "platforms": "Multi-platform",
+          "releaseYear": "2000",
+          "developer": "Maxis",
+          "publisher": "Electronic Arts"
+        },
+        {
+          "id": "animal-crossing-new-horizons",
+          "value": 49910000,
+          "rank": 15,
+          "series": "Animal Crossing",
+          "platforms": "Nintendo Switch",
+          "releaseYear": "2020",
+          "developer": "Nintendo EPD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "pokemon-red-blue-yellow",
+          "value": 47440000,
+          "rank": 16,
+          "series": "Pokémon",
+          "platforms": "Multi-platform",
+          "releaseYear": "1996",
+          "developer": "Game Freak",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "wii-fit",
+          "value": 43800000,
+          "rank": 17,
+          "series": "Wii",
+          "platforms": "Wii",
+          "releaseYear": "2007",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "call-of-duty-black-ops-iii",
+          "value": 43000000,
+          "rank": 18,
+          "series": "Call of Duty",
+          "platforms": "Multi-platform",
+          "releaseYear": "2015",
+          "developer": "Treyarch",
+          "publisher": "Activision"
+        },
+        {
+          "id": "call-of-duty-modern-warfare",
+          "value": 41000000,
+          "rank": 19,
+          "series": "Call of Duty",
+          "platforms": "Multi-platform",
+          "releaseYear": "2019",
+          "developer": "Infinity Ward",
+          "publisher": "Activision"
+        },
+        {
+          "id": "sonic-the-hedgehog",
+          "value": 40000000,
+          "rank": 20,
+          "series": "Sonic the Hedgehog",
+          "platforms": "Multi-platform",
+          "releaseYear": "1991",
+          "developer": "Sonic Team",
+          "publisher": "Sega"
+        },
+        {
+          "id": "super-smash-bros-ultimate",
+          "value": 37760000,
+          "rank": 24,
+          "series": "Super Smash Bros.",
+          "platforms": "Nintendo Switch",
+          "releaseYear": "2018",
+          "developer": "Bandai Namco Studios / Sora Ltd.",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "mario-kart-wii",
+          "value": 37380000,
+          "rank": 25,
+          "series": "Mario Kart",
+          "platforms": "Wii",
+          "releaseYear": "2008",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        }
+      ]
+    },
+    {
+      "date": "20260722",
+      "values": [
+        {
+          "id": "tetris",
+          "value": 520000000,
+          "rank": 1,
+          "series": "None",
+          "platforms": "Multi-platform",
+          "releaseYear": "1988",
+          "developer": "Various",
+          "publisher": "Various"
+        },
+        {
+          "id": "grand-theft-auto-v",
+          "value": 230000000,
+          "rank": 2,
+          "series": "Grand Theft Auto",
+          "platforms": "Multi-platform",
+          "releaseYear": "2013",
+          "developer": "Rockstar North",
+          "publisher": "Rockstar Games"
+        },
+        {
+          "id": "red-dead-redemption-2",
+          "value": 85000000,
+          "rank": 3,
+          "series": "Red Dead",
+          "platforms": "Multi-platform",
+          "releaseYear": "2018",
+          "developer": "Rockstar Games",
+          "publisher": "Rockstar Games"
+        },
+        {
+          "id": "wii-sports",
+          "value": 82900000,
+          "rank": 4,
+          "series": "Wii",
+          "platforms": "Wii",
+          "releaseYear": "2006",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "mario-kart-8",
+          "value": 79540000,
+          "rank": 5,
+          "series": "Mario Kart",
+          "platforms": "Wii U / Switch",
+          "releaseYear": "2014",
+          "developer": "Nintendo EAD / Nintendo EPD ( Deluxe )",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "pubg-battlegrounds",
+          "value": 75000000,
+          "rank": 6,
+          "series": "PUBG Universe",
+          "platforms": "Multi-platform",
+          "releaseYear": "2017",
+          "developer": "PUBG Studios",
+          "publisher": "Krafton"
+        },
+        {
+          "id": "terraria",
+          "value": 70000000,
+          "rank": 7,
+          "series": "None",
+          "platforms": "Multi-platform",
+          "releaseYear": "2011",
+          "developer": "Re-Logic",
+          "publisher": "Re-Logic / 505 Games"
+        },
+        {
+          "id": "the-elder-scrolls-v-skyrim",
+          "value": 65000000,
+          "rank": 8,
+          "series": "The Elder Scrolls",
+          "platforms": "Multi-platform",
+          "releaseYear": "2011",
+          "developer": "Bethesda Game Studios",
+          "publisher": "Bethesda Softworks"
+        },
+        {
+          "id": "super-mario-bros",
+          "value": 58000000,
+          "rank": 10,
+          "series": "Super Mario",
+          "platforms": "Multi-platform",
+          "releaseYear": "1985",
+          "developer": "Nintendo R&D4",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "human-fall-flat",
+          "value": 55000000,
+          "rank": 11,
+          "series": "None",
+          "platforms": "Multi-platform",
+          "releaseYear": "2016",
+          "developer": "No Brakes Games",
+          "publisher": "Curve Digital"
+        },
+        {
+          "id": "the-sims",
+          "value": 50000000,
+          "rank": 12,
+          "series": "The Sims",
+          "platforms": "Multi-platform",
+          "releaseYear": "2000",
+          "developer": "Maxis",
+          "publisher": "Electronic Arts"
+        },
+        {
+          "id": "animal-crossing-new-horizons",
+          "value": 49910000,
+          "rank": 15,
+          "series": "Animal Crossing",
+          "platforms": "Nintendo Switch",
+          "releaseYear": "2020",
+          "developer": "Nintendo EPD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "pokemon-red-blue-yellow",
+          "value": 47440000,
+          "rank": 16,
+          "series": "Pokémon",
+          "platforms": "Multi-platform",
+          "releaseYear": "1996",
+          "developer": "Game Freak",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "wii-fit",
+          "value": 43800000,
+          "rank": 17,
+          "series": "Wii",
+          "platforms": "Wii",
+          "releaseYear": "2007",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "call-of-duty-black-ops-iii",
+          "value": 43000000,
+          "rank": 18,
+          "series": "Call of Duty",
+          "platforms": "Multi-platform",
+          "releaseYear": "2015",
+          "developer": "Treyarch",
+          "publisher": "Activision"
+        },
+        {
+          "id": "call-of-duty-modern-warfare",
+          "value": 41000000,
+          "rank": 19,
+          "series": "Call of Duty",
+          "platforms": "Multi-platform",
+          "releaseYear": "2019",
+          "developer": "Infinity Ward",
+          "publisher": "Activision"
+        },
+        {
+          "id": "sonic-the-hedgehog",
+          "value": 40000000,
+          "rank": 20,
+          "series": "Sonic the Hedgehog",
+          "platforms": "Multi-platform",
+          "releaseYear": "1991",
+          "developer": "Sonic Team",
+          "publisher": "Sega"
+        },
+        {
+          "id": "super-smash-bros-ultimate",
+          "value": 37760000,
+          "rank": 24,
+          "series": "Super Smash Bros.",
+          "platforms": "Nintendo Switch",
+          "releaseYear": "2018",
+          "developer": "Bandai Namco Studios / Sora Ltd.",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "mario-kart-wii",
+          "value": 37380000,
+          "rank": 25,
+          "series": "Mario Kart",
+          "platforms": "Wii",
+          "releaseYear": "2008",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        }
+      ]
+    },
+    {
+      "date": "20260801",
+      "values": [
+        {
+          "id": "tetris",
+          "value": 520000000,
+          "rank": 1,
+          "series": "None",
+          "platforms": "Multi-platform",
+          "releaseYear": "1988",
+          "developer": "Various",
+          "publisher": "Various"
+        },
+        {
+          "id": "grand-theft-auto-v",
+          "value": 230000000,
+          "rank": 2,
+          "series": "Grand Theft Auto",
+          "platforms": "Multi-platform",
+          "releaseYear": "2013",
+          "developer": "Rockstar North",
+          "publisher": "Rockstar Games"
+        },
+        {
+          "id": "red-dead-redemption-2",
+          "value": 85000000,
+          "rank": 3,
+          "series": "Red Dead",
+          "platforms": "Multi-platform",
+          "releaseYear": "2018",
+          "developer": "Rockstar Games",
+          "publisher": "Rockstar Games"
+        },
+        {
+          "id": "wii-sports",
+          "value": 82900000,
+          "rank": 4,
+          "series": "Wii",
+          "platforms": "Wii",
+          "releaseYear": "2006",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "mario-kart-8",
+          "value": 79540000,
+          "rank": 5,
+          "series": "Mario Kart",
+          "platforms": "Wii U / Switch",
+          "releaseYear": "2014",
+          "developer": "Nintendo EAD / Nintendo EPD ( Deluxe )",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "pubg-battlegrounds",
+          "value": 75000000,
+          "rank": 6,
+          "series": "PUBG Universe",
+          "platforms": "Multi-platform",
+          "releaseYear": "2017",
+          "developer": "PUBG Studios",
+          "publisher": "Krafton"
+        },
+        {
+          "id": "terraria",
+          "value": 70000000,
+          "rank": 7,
+          "series": "None",
+          "platforms": "Multi-platform",
+          "releaseYear": "2011",
+          "developer": "Re-Logic",
+          "publisher": "Re-Logic / 505 Games"
+        },
+        {
+          "id": "the-elder-scrolls-v-skyrim",
+          "value": 65000000,
+          "rank": 8,
+          "series": "The Elder Scrolls",
+          "platforms": "Multi-platform",
+          "releaseYear": "2011",
+          "developer": "Bethesda Game Studios",
+          "publisher": "Bethesda Softworks"
+        },
+        {
+          "id": "super-mario-bros",
+          "value": 58000000,
+          "rank": 10,
+          "series": "Super Mario",
+          "platforms": "Multi-platform",
+          "releaseYear": "1985",
+          "developer": "Nintendo R&D4",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "the-sims",
+          "value": 50000000,
+          "rank": 12,
+          "series": "The Sims",
+          "platforms": "Multi-platform",
+          "releaseYear": "2000",
+          "developer": "Maxis",
+          "publisher": "Electronic Arts"
+        },
+        {
+          "id": "animal-crossing-new-horizons",
+          "value": 49910000,
+          "rank": 15,
+          "series": "Animal Crossing",
+          "platforms": "Nintendo Switch",
+          "releaseYear": "2020",
+          "developer": "Nintendo EPD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "pokemon-red-blue-yellow",
+          "value": 47440000,
+          "rank": 16,
+          "series": "Pokémon",
+          "platforms": "Multi-platform",
+          "releaseYear": "1996",
+          "developer": "Game Freak",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "wii-fit",
+          "value": 43800000,
+          "rank": 17,
+          "series": "Wii",
+          "platforms": "Wii",
+          "releaseYear": "2007",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "call-of-duty-black-ops-iii",
+          "value": 43000000,
+          "rank": 18,
+          "series": "Call of Duty",
+          "platforms": "Multi-platform",
+          "releaseYear": "2015",
+          "developer": "Treyarch",
+          "publisher": "Activision"
+        },
+        {
+          "id": "call-of-duty-modern-warfare",
+          "value": 41000000,
+          "rank": 19,
+          "series": "Call of Duty",
+          "platforms": "Multi-platform",
+          "releaseYear": "2019",
+          "developer": "Infinity Ward",
+          "publisher": "Activision"
+        },
+        {
+          "id": "sonic-the-hedgehog",
+          "value": 40000000,
+          "rank": 20,
+          "series": "Sonic the Hedgehog",
+          "platforms": "Multi-platform",
+          "releaseYear": "1991",
+          "developer": "Sonic Team",
+          "publisher": "Sega"
+        },
+        {
+          "id": "super-smash-bros-ultimate",
+          "value": 37760000,
+          "rank": 24,
+          "series": "Super Smash Bros.",
+          "platforms": "Nintendo Switch",
+          "releaseYear": "2018",
+          "developer": "Bandai Namco Studios / Sora Ltd.",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "mario-kart-wii",
+          "value": 37380000,
+          "rank": 25,
+          "series": "Mario Kart",
+          "platforms": "Wii",
+          "releaseYear": "2008",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        }
+      ]
+    },
+    {
+      "date": "20260822",
+      "values": [
+        {
+          "id": "tetris",
+          "value": 520000000,
+          "rank": 1,
+          "series": "None",
+          "platforms": "Multi-platform",
+          "releaseYear": "1988",
+          "developer": "Various",
+          "publisher": "Various"
+        },
+        {
+          "id": "grand-theft-auto-v",
+          "value": 230000000,
+          "rank": 2,
+          "series": "Grand Theft Auto",
+          "platforms": "Multi-platform",
+          "releaseYear": "2013",
+          "developer": "Rockstar North",
+          "publisher": "Rockstar Games"
+        },
+        {
+          "id": "red-dead-redemption-2",
+          "value": 87000000,
+          "rank": 3,
+          "series": "Red Dead",
+          "platforms": "Multi-platform",
+          "releaseYear": "2018",
+          "developer": "Rockstar Games",
+          "publisher": "Rockstar Games"
+        },
+        {
+          "id": "wii-sports",
+          "value": 82900000,
+          "rank": 4,
+          "series": "Wii",
+          "platforms": "Wii",
+          "releaseYear": "2006",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "mario-kart-8",
+          "value": 79990000,
+          "rank": 5,
+          "series": "Mario Kart",
+          "platforms": "Wii U / Switch",
+          "releaseYear": "2014",
+          "developer": "Nintendo EAD / Nintendo EPD ( Deluxe )",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "pubg-battlegrounds",
+          "value": 75000000,
+          "rank": 6,
+          "series": "PUBG Universe",
+          "platforms": "Multi-platform",
+          "releaseYear": "2017",
+          "developer": "PUBG Studios",
+          "publisher": "Krafton"
+        },
+        {
+          "id": "terraria",
+          "value": 70000000,
+          "rank": 7,
+          "series": "None",
+          "platforms": "Multi-platform",
+          "releaseYear": "2011",
+          "developer": "Re-Logic",
+          "publisher": "Re-Logic / 505 Games"
+        },
+        {
+          "id": "the-elder-scrolls-v-skyrim",
+          "value": 65000000,
+          "rank": 8,
+          "series": "The Elder Scrolls",
+          "platforms": "Multi-platform",
+          "releaseYear": "2011",
+          "developer": "Bethesda Game Studios",
+          "publisher": "Bethesda Softworks"
+        },
+        {
+          "id": "super-mario-bros",
+          "value": 58000000,
+          "rank": 10,
+          "series": "Super Mario",
+          "platforms": "Multi-platform",
+          "releaseYear": "1985",
+          "developer": "Nintendo R&D4",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "animal-crossing-new-horizons",
+          "value": 50290000,
+          "rank": 12,
+          "series": "Animal Crossing",
+          "platforms": "Nintendo Switch",
+          "releaseYear": "2020",
+          "developer": "Nintendo EPD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "the-sims",
+          "value": 50000000,
+          "rank": 13,
+          "series": "The Sims",
+          "platforms": "Multi-platform",
+          "releaseYear": "2000",
+          "developer": "Maxis",
+          "publisher": "Electronic Arts"
+        },
+        {
+          "id": "pokemon-red-blue-yellow",
+          "value": 47440000,
+          "rank": 16,
+          "series": "Pokémon",
+          "platforms": "Multi-platform",
+          "releaseYear": "1996",
+          "developer": "Game Freak",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "wii-fit",
+          "value": 43800000,
+          "rank": 17,
+          "series": "Wii",
+          "platforms": "Wii",
+          "releaseYear": "2007",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "call-of-duty-black-ops-iii",
+          "value": 43000000,
+          "rank": 18,
+          "series": "Call of Duty",
+          "platforms": "Multi-platform",
+          "releaseYear": "2015",
+          "developer": "Treyarch",
+          "publisher": "Activision"
+        },
+        {
+          "id": "call-of-duty-modern-warfare",
+          "value": 41000000,
+          "rank": 19,
+          "series": "Call of Duty",
+          "platforms": "Multi-platform",
+          "releaseYear": "2019",
+          "developer": "Infinity Ward",
+          "publisher": "Activision"
+        },
+        {
+          "id": "sonic-the-hedgehog",
+          "value": 40000000,
+          "rank": 20,
+          "series": "Sonic the Hedgehog",
+          "platforms": "Multi-platform",
+          "releaseYear": "1991",
+          "developer": "Sonic Team",
+          "publisher": "Sega"
+        },
+        {
+          "id": "super-smash-bros-ultimate",
+          "value": 38140000,
+          "rank": 24,
+          "series": "Super Smash Bros.",
+          "platforms": "Nintendo Switch",
+          "releaseYear": "2018",
+          "developer": "Bandai Namco Studios / Sora Ltd.",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "mario-kart-wii",
+          "value": 37380000,
+          "rank": 25,
+          "series": "Mario Kart",
+          "platforms": "Wii",
+          "releaseYear": "2008",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        }
+      ]
+    },
+    {
+      "date": "20260901",
+      "values": [
+        {
+          "id": "tetris",
+          "value": 520000000,
+          "rank": 1,
+          "series": "None",
+          "platforms": "Multi-platform",
+          "releaseYear": "1988",
+          "developer": "Various",
+          "publisher": "Various"
+        },
+        {
+          "id": "grand-theft-auto-v",
+          "value": 230000000,
+          "rank": 2,
+          "series": "Grand Theft Auto",
+          "platforms": "Multi-platform",
+          "releaseYear": "2013",
+          "developer": "Rockstar North",
+          "publisher": "Rockstar Games"
+        },
+        {
+          "id": "red-dead-redemption-2",
+          "value": 87000000,
+          "rank": 3,
+          "series": "Red Dead",
+          "platforms": "Multi-platform",
+          "releaseYear": "2018",
+          "developer": "Rockstar Games",
+          "publisher": "Rockstar Games"
+        },
+        {
+          "id": "wii-sports",
+          "value": 82900000,
+          "rank": 4,
+          "series": "Wii",
+          "platforms": "Wii",
+          "releaseYear": "2006",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "mario-kart-8",
+          "value": 79990000,
+          "rank": 5,
+          "series": "Mario Kart",
+          "platforms": "Wii U / Switch",
+          "releaseYear": "2014",
+          "developer": "Nintendo EAD / Nintendo EPD ( Deluxe )",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "pubg-battlegrounds",
+          "value": 75000000,
+          "rank": 6,
+          "series": "PUBG Universe",
+          "platforms": "Multi-platform",
+          "releaseYear": "2017",
+          "developer": "PUBG Studios",
+          "publisher": "Krafton"
+        },
+        {
+          "id": "terraria",
+          "value": 70000000,
+          "rank": 7,
+          "series": "None",
+          "platforms": "Multi-platform",
+          "releaseYear": "2011",
+          "developer": "Re-Logic",
+          "publisher": "Re-Logic / 505 Games"
+        },
+        {
+          "id": "the-elder-scrolls-v-skyrim",
+          "value": 65000000,
+          "rank": 8,
+          "series": "The Elder Scrolls",
+          "platforms": "Multi-platform",
+          "releaseYear": "2011",
+          "developer": "Bethesda Game Studios",
+          "publisher": "Bethesda Softworks"
+        },
+        {
+          "id": "super-mario-bros",
+          "value": 58000000,
+          "rank": 10,
+          "series": "Super Mario",
+          "platforms": "Multi-platform",
+          "releaseYear": "1985",
+          "developer": "Nintendo R&D4",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "animal-crossing-new-horizons",
+          "value": 50290000,
+          "rank": 12,
+          "series": "Animal Crossing",
+          "platforms": "Nintendo Switch",
+          "releaseYear": "2020",
+          "developer": "Nintendo EPD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "the-sims",
+          "value": 50000000,
+          "rank": 13,
+          "series": "The Sims",
+          "platforms": "Multi-platform",
+          "releaseYear": "2000",
+          "developer": "Maxis",
+          "publisher": "Electronic Arts"
+        },
+        {
+          "id": "pokemon-red-blue-yellow",
+          "value": 47440000,
+          "rank": 16,
+          "series": "Pokémon",
+          "platforms": "Multi-platform",
+          "releaseYear": "1996",
+          "developer": "Game Freak",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "wii-fit",
+          "value": 43800000,
+          "rank": 17,
+          "series": "Wii",
+          "platforms": "Wii",
+          "releaseYear": "2007",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "call-of-duty-black-ops-iii",
+          "value": 43000000,
+          "rank": 18,
+          "series": "Call of Duty",
+          "platforms": "Multi-platform",
+          "releaseYear": "2015",
+          "developer": "Treyarch",
+          "publisher": "Activision"
+        },
+        {
+          "id": "call-of-duty-modern-warfare",
+          "value": 41000000,
+          "rank": 19,
+          "series": "Call of Duty",
+          "platforms": "Multi-platform",
+          "releaseYear": "2019",
+          "developer": "Infinity Ward",
+          "publisher": "Activision"
+        },
+        {
+          "id": "sonic-the-hedgehog",
+          "value": 40000000,
+          "rank": 20,
+          "series": "Sonic the Hedgehog",
+          "platforms": "Multi-platform",
+          "releaseYear": "1991",
+          "developer": "Sonic Team",
+          "publisher": "Sega"
+        },
+        {
+          "id": "super-smash-bros-ultimate",
+          "value": 38140000,
+          "rank": 24,
+          "series": "Super Smash Bros.",
+          "platforms": "Nintendo Switch",
+          "releaseYear": "2018",
+          "developer": "Bandai Namco Studios / Sora Ltd.",
+          "publisher": "Nintendo"
+        },
+        {
+          "id": "mario-kart-wii",
+          "value": 37380000,
+          "rank": 25,
+          "series": "Mario Kart",
+          "platforms": "Wii",
+          "releaseYear": "2008",
+          "developer": "Nintendo EAD",
+          "publisher": "Nintendo"
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "date": "20260628",
+      "title": "Tetris leads copies sold",
+      "body": "Tetris is the highest-ranked selected entry in this frame at $520.0M."
+    },
+    {
+      "date": "20260901",
+      "title": "Tetris leads copies sold",
+      "body": "Tetris is the highest-ranked selected entry in this frame at $520.0M."
+    }
+  ],
+  "sources": [
+    {
+      "title": "List of best-selling video games",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_best-selling_video_games",
+      "note": "Public all-time video game sales table parsed by the adapter."
+    }
+  ],
+  "lastObservationDate": "2026-09-01",
+  "dataFreshness": {
+    "status": "fresh",
+    "refreshCadence": "monthly",
+    "lastUpdated": "2026-09-01T08:03:08.299Z",
+    "lastRefreshAttemptedAt": "2026-09-01T08:03:08.299Z",
+    "lastRefreshError": null,
+    "lastObservationDate": "2026-09-01",
+    "nextRefreshAt": "2026-10-01T08:00:00.000Z",
+    "sourceStatus": "Wikipedia current ranking table: Overview of best-selling video games",
+    "confidence": "Observed List of best-selling video games on 2026-09-01T08:03:08.299Z; values are parsed from the \"Overview of best-selling video games\" Wikipedia table."
+  },
+  "media": {
+    "imageFit": "contain",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-09-01T08:03:08.299Z",
+    "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.webp",
+    "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.webp",
+    "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.json",
+    "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-video-games.json",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 5,
+    "rows": 4,
+    "width": 1600,
+    "height": 1280,
+    "itemCount": 20,
+    "sourcedImageCount": 19,
+    "generatedImageCount": 1,
+    "placeholderCount": 0,
+    "ogImageUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/best-selling-video-games.png",
+    "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/best-selling-video-games.png",
+    "ogImageWidth": 1200,
+    "ogImageHeight": 630
+  },
+  "taxonomy": {
+    "primaryCategory": "gaming",
+    "categories": [
+      "gaming",
+      "entertainment",
+      "business"
+    ],
+    "tags": [
+      "video-games",
+      "sales",
+      "all-time",
+      "rankings"
+    ],
+    "entityTypes": [
+      "game"
+    ],
+    "sourceTypes": [
+      "wikipedia"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "games-people-are-playing",
+      "type": "gaming-market",
+      "weight": 0.86,
+      "reason": "All-time unit sales complement the live Steam player-count district."
+    },
+    {
+      "target": "playstation-top-games",
+      "type": "platform-game-sales",
+      "weight": 0.82,
+      "reason": "The all-time sales market should bridge to console platform sales districts."
+    },
+    {
+      "target": "nintendo-switch-top-games",
+      "type": "platform-game-sales",
+      "weight": 0.82,
+      "reason": "Nintendo platform sales are a direct peer to all-time game unit sales."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "game-platforms",
+    "mainland": "culture",
+    "bridgePriority": [
+      "games-people-are-playing",
+      "playstation-top-games"
+    ]
+  },
+  "schemaVersion": 1,
+  "contentKind": "dat-city.story",
+  "generatedAt": "2026-09-01T08:03:08.299Z",
+  "versionId": "20260901T080308Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "storyops-scheduler",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-09-01T08:03:08.299Z",
+    "versionId": "20260901T080308Z",
+    "adapter": "wikipedia-ranking-table",
+    "storySlug": "best-selling-video-games",
+    "districtId": null,
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "publicProjection": {
+    "kind": "story",
+    "version": 1,
+    "generatedAt": "2026-09-01T08:03:08.299Z",
+    "adapter": "wikipedia-ranking-table",
+    "cache": {
+      "browserMaxAgeSeconds": 60,
+      "edgeMaxAgeSeconds": 3600
+    }
+  },
+  "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/best-selling-video-games.png"
+}

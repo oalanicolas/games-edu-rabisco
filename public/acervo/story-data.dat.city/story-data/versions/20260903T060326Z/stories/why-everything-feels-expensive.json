@@ -1,0 +1,868 @@
+{
+  "id": "why-everything-feels-expensive",
+  "kicker": "Cost of Living Race",
+  "title": "Cost of Living Race",
+  "subtitle": "Rent, groceries, gas, electricity, dining out, insurance, medical care, and wages move against a shared 2019 baseline.",
+  "badge": "Indexed to 2019",
+  "visualization": "race-arena",
+  "theme": "friendly-demographic",
+  "artStyle": "stylized-editorial",
+  "dateRange": [
+    "2019",
+    "2026"
+  ],
+  "timelineTicks": [
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+  ],
+  "metricLabel": "Index, 2019=100",
+  "ogImage": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/why-everything-feels-expensive.png",
+  "cityPreview": {
+    "districtId": "curated-commons",
+    "districtName": "Cost of Living Commons",
+    "cardLabel": "Cost of Living Race",
+    "summary": "Everyday CPI categories and wages indexed against a shared 2019 baseline.",
+    "primaryMetric": "Indexed prices",
+    "latestFrameLabel": "2026 index",
+    "storyUrl": "/stories/why-everything-feels-expensive/",
+    "thumbnail": "/assets/og/dat-city.webp"
+  },
+  "sourceStatus": "BLS Public Data API",
+  "confidence": "Observed BLS monthly series through 2026-07. Values are indexed to 2019 averages.",
+  "methodology": "This story is generated from the BLS Public Data API. CPI categories and average hourly earnings are normalized to a 2019=100 index so everyday costs and wages can be compared on the same visual scale. Missing or unavailable BLS months are skipped rather than interpolated by the adapter.",
+  "playback": {
+    "durationSeconds": 26,
+    "initialDate": "2019",
+    "periodLabel": "2019=100"
+  },
+  "visual": {
+    "topCount": 10,
+    "referenceCount": 10,
+    "horizontalCount": 10
+  },
+  "layers": [
+    {
+      "id": "prices",
+      "label": "Prices",
+      "default": true
+    },
+    {
+      "id": "household",
+      "label": "Household costs",
+      "default": true
+    },
+    {
+      "id": "wages",
+      "label": "Wages",
+      "default": true
+    }
+  ],
+  "focus": [
+    {
+      "id": "rent",
+      "label": "Rent"
+    },
+    {
+      "id": "groceries",
+      "label": "Groceries"
+    },
+    {
+      "id": "motor-insurance",
+      "label": "Car Insurance"
+    },
+    {
+      "id": "wages",
+      "label": "Wages"
+    }
+  ],
+  "entities": [
+    {
+      "id": "rent",
+      "name": "Rent",
+      "avatarText": "R",
+      "color": "#ff5a61",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/why-everything-feels-expensive.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/why-everything-feels-expensive.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/why-everything-feels-expensive.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/why-everything-feels-expensive.json",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.25,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": null,
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "groceries",
+      "name": "Groceries",
+      "avatarText": "G",
+      "color": "#18c871",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/why-everything-feels-expensive.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/why-everything-feels-expensive.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/why-everything-feels-expensive.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/why-everything-feels-expensive.json",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0,
+          "u1": 0.5,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": null,
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "gasoline",
+      "name": "Gasoline",
+      "avatarText": "G",
+      "color": "#ffc84a",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/why-everything-feels-expensive.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/why-everything-feels-expensive.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/why-everything-feels-expensive.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/why-everything-feels-expensive.json",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0,
+          "u1": 0.75,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": null,
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "electricity",
+      "name": "Electricity",
+      "avatarText": "E",
+      "color": "#00a6ff",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/why-everything-feels-expensive.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/why-everything-feels-expensive.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/why-everything-feels-expensive.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/why-everything-feels-expensive.json",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": null,
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "restaurants",
+      "name": "Dining Out",
+      "avatarText": "R",
+      "color": "#8f6bff",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/why-everything-feels-expensive.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/why-everything-feels-expensive.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/why-everything-feels-expensive.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/why-everything-feels-expensive.json",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.333333,
+          "u1": 0.25,
+          "v1": 0.666667
+        },
+        "image": {
+          "sourceUrl": null,
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "motor-insurance",
+      "name": "Car Insurance",
+      "avatarText": "CI",
+      "color": "#f18c4f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/why-everything-feels-expensive.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/why-everything-feels-expensive.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/why-everything-feels-expensive.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/why-everything-feels-expensive.json",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.333333,
+          "u1": 0.5,
+          "v1": 0.666667
+        },
+        "image": {
+          "sourceUrl": null,
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "airfare",
+      "name": "Flights",
+      "avatarText": "A",
+      "color": "#41a99f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/why-everything-feels-expensive.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/why-everything-feels-expensive.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/why-everything-feels-expensive.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/why-everything-feels-expensive.json",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.333333,
+          "u1": 0.75,
+          "v1": 0.666667
+        },
+        "image": {
+          "sourceUrl": null,
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "used-cars",
+      "name": "Used Cars",
+      "avatarText": "UC",
+      "color": "#d78fca",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/why-everything-feels-expensive.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/why-everything-feels-expensive.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/why-everything-feels-expensive.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/why-everything-feels-expensive.json",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.333333,
+          "u1": 1,
+          "v1": 0.666667
+        },
+        "image": {
+          "sourceUrl": null,
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "medical-care",
+      "name": "Medical Care",
+      "avatarText": "MC",
+      "color": "#7b9b65",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/why-everything-feels-expensive.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/why-everything-feels-expensive.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/why-everything-feels-expensive.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/why-everything-feels-expensive.json",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.666667,
+          "u1": 0.25,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": null,
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "wages",
+      "name": "Wages",
+      "avatarText": "W",
+      "color": "#2f4858",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/why-everything-feels-expensive.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/why-everything-feels-expensive.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/why-everything-feels-expensive.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/why-everything-feels-expensive.json",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.666667,
+          "u1": 0.5,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": null,
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    }
+  ],
+  "frames": [
+    {
+      "date": "2019",
+      "values": [
+        {
+          "id": "rent",
+          "value": 101.71091623599939
+        },
+        {
+          "id": "groceries",
+          "value": 99.9898665905627
+        },
+        {
+          "id": "gasoline",
+          "value": 98.64387675603682
+        },
+        {
+          "id": "electricity",
+          "value": 98.29534691613826
+        },
+        {
+          "id": "restaurants",
+          "value": 101.2898061364534
+        },
+        {
+          "id": "motor-insurance",
+          "value": 100.34093234093935
+        },
+        {
+          "id": "airfare",
+          "value": 95.10554943448764
+        },
+        {
+          "id": "used-cars",
+          "value": 98.11246055080115
+        },
+        {
+          "id": "medical-care",
+          "value": 102.26231240469757
+        },
+        {
+          "id": "wages",
+          "value": 101.36317637954642
+        }
+      ]
+    },
+    {
+      "date": "2020",
+      "values": [
+        {
+          "id": "rent",
+          "value": 104.02606276354385
+        },
+        {
+          "id": "groceries",
+          "value": 103.92038862659214
+        },
+        {
+          "id": "gasoline",
+          "value": 83.6152079766124
+        },
+        {
+          "id": "electricity",
+          "value": 100.47474070877168
+        },
+        {
+          "id": "restaurants",
+          "value": 105.25978371574338
+        },
+        {
+          "id": "motor-insurance",
+          "value": 95.50705403927915
+        },
+        {
+          "id": "airfare",
+          "value": 77.61201528128358
+        },
+        {
+          "id": "used-cars",
+          "value": 107.96198566979716
+        },
+        {
+          "id": "medical-care",
+          "value": 104.08349161338646
+        },
+        {
+          "id": "wages",
+          "value": 106.82778736829574
+        }
+      ]
+    },
+    {
+      "date": "2021",
+      "values": [
+        {
+          "id": "rent",
+          "value": 107.49183651127412
+        },
+        {
+          "id": "groceries",
+          "value": 110.66303518361119
+        },
+        {
+          "id": "gasoline",
+          "value": 125.07798920920288
+        },
+        {
+          "id": "electricity",
+          "value": 106.84841300684087
+        },
+        {
+          "id": "restaurants",
+          "value": 111.58973733897935
+        },
+        {
+          "id": "motor-insurance",
+          "value": 99.44711229052186
+        },
+        {
+          "id": "airfare",
+          "value": 78.73145376601626
+        },
+        {
+          "id": "used-cars",
+          "value": 148.2251214406284
+        },
+        {
+          "id": "medical-care",
+          "value": 106.34266070998632
+        },
+        {
+          "id": "wages",
+          "value": 112.11381629858921
+        }
+      ]
+    },
+    {
+      "date": "2022",
+      "values": [
+        {
+          "id": "rent",
+          "value": 116.46672882872342
+        },
+        {
+          "id": "groceries",
+          "value": 123.70576715079548
+        },
+        {
+          "id": "gasoline",
+          "value": 123.16939525631645
+        },
+        {
+          "id": "electricity",
+          "value": 122.1154180393658
+        },
+        {
+          "id": "restaurants",
+          "value": 120.79723028635922
+        },
+        {
+          "id": "motor-insurance",
+          "value": 113.61373979807907
+        },
+        {
+          "id": "airfare",
+          "value": 101.17485778590944
+        },
+        {
+          "id": "used-cars",
+          "value": 135.13153509182504
+        },
+        {
+          "id": "medical-care",
+          "value": 110.55121585832373
+        },
+        {
+          "id": "wages",
+          "value": 117.64986011072087
+        }
+      ]
+    },
+    {
+      "date": "2023",
+      "values": [
+        {
+          "id": "rent",
+          "value": 124.00379012378305
+        },
+        {
+          "id": "groceries",
+          "value": 125.32545822657065
+        },
+        {
+          "id": "gasoline",
+          "value": 120.8125317209996
+        },
+        {
+          "id": "electricity",
+          "value": 126.15643594906156
+        },
+        {
+          "id": "restaurants",
+          "value": 127.12788712057372
+        },
+        {
+          "id": "motor-insurance",
+          "value": 136.6444914224038
+        },
+        {
+          "id": "airfare",
+          "value": 91.69071571280055
+        },
+        {
+          "id": "used-cars",
+          "value": 133.35638822125776
+        },
+        {
+          "id": "medical-care",
+          "value": 111.0493967523608
+        },
+        {
+          "id": "wages",
+          "value": 122.47157568902911
+        }
+      ]
+    },
+    {
+      "date": "2024",
+      "values": [
+        {
+          "id": "rent",
+          "value": 129.3024133726439
+        },
+        {
+          "id": "groceries",
+          "value": 127.54860417455109
+        },
+        {
+          "id": "gasoline",
+          "value": 116.66517602662891
+        },
+        {
+          "id": "electricity",
+          "value": 129.68564783261633
+        },
+        {
+          "id": "restaurants",
+          "value": 131.7268869201586
+        },
+        {
+          "id": "motor-insurance",
+          "value": 152.0784731041129
+        },
+        {
+          "id": "airfare",
+          "value": 98.92806825899558
+        },
+        {
+          "id": "used-cars",
+          "value": 129.01618632006426
+        },
+        {
+          "id": "medical-care",
+          "value": 114.20019528637542
+        },
+        {
+          "id": "wages",
+          "value": 127.4718733257932
+        }
+      ]
+    },
+    {
+      "date": "2025",
+      "values": [
+        {
+          "id": "rent",
+          "value": 133.08226909123854
+        },
+        {
+          "id": "groceries",
+          "value": 130.5613288415445
+        },
+        {
+          "id": "gasoline",
+          "value": 112.69928330745367
+        },
+        {
+          "id": "electricity",
+          "value": 138.31932805930452
+        },
+        {
+          "id": "restaurants",
+          "value": 137.08711260400196
+        },
+        {
+          "id": "motor-insurance",
+          "value": 156.36229482694054
+        },
+        {
+          "id": "airfare",
+          "value": 95.59650478474234
+        },
+        {
+          "id": "used-cars",
+          "value": 131.12547006630862
+        },
+        {
+          "id": "medical-care",
+          "value": 117.8026270030229
+        },
+        {
+          "id": "wages",
+          "value": 132.22215608071912
+        }
+      ]
+    },
+    {
+      "date": "2026",
+      "values": [
+        {
+          "id": "rent",
+          "value": 135.28567491761012
+        },
+        {
+          "id": "groceries",
+          "value": 133.03429435279568
+        },
+        {
+          "id": "gasoline",
+          "value": 151.22460568979096
+        },
+        {
+          "id": "electricity",
+          "value": 146.07656390056812
+        },
+        {
+          "id": "restaurants",
+          "value": 139.5378028641783
+        },
+        {
+          "id": "motor-insurance",
+          "value": 149.91799936547648
+        },
+        {
+          "id": "airfare",
+          "value": 117.24752269443933
+        },
+        {
+          "id": "used-cars",
+          "value": 132.12430321073103
+        },
+        {
+          "id": "medical-care",
+          "value": 119.13425269521947
+        },
+        {
+          "id": "wages",
+          "value": 134.36514078218943
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "date": "2019",
+      "title": "Medical Care moves fastest",
+      "body": "Medical Care is the highest indexed line in 2019, at 102 versus the 2019 baseline of 100."
+    },
+    {
+      "date": "2023",
+      "title": "Car Insurance moves fastest",
+      "body": "Car Insurance is the highest indexed line in 2023, at 137 versus the 2019 baseline of 100."
+    },
+    {
+      "date": "2026",
+      "title": "Gasoline moves fastest",
+      "body": "Gasoline is the highest indexed line in 2026, at 151 versus the 2019 baseline of 100."
+    }
+  ],
+  "sources": [
+    {
+      "title": "BLS Public Data API",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "url": "https://www.bls.gov/developers/api_signature_v2.htm",
+      "note": "Official API for CPI and wage-related time series used by the production adapter."
+    }
+  ],
+  "lastObservationDate": "2026-07",
+  "dataFreshness": {
+    "status": "fresh",
+    "refreshCadence": "monthly",
+    "lastUpdated": "2026-08-22T14:56:45.984Z",
+    "lastRefreshAttemptedAt": "2026-08-22T14:56:45.984Z",
+    "lastRefreshError": null,
+    "lastObservationDate": "2026-07",
+    "nextRefreshAt": "2026-09-15T06:00:00.000Z",
+    "sourceStatus": "BLS Public Data API",
+    "confidence": "Observed BLS monthly series through 2026-07. Values are indexed to 2019 averages."
+  },
+  "media": {
+    "imageFit": "contain",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-08-22T14:56:45.984Z",
+    "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/why-everything-feels-expensive.webp",
+    "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/why-everything-feels-expensive.webp",
+    "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/why-everything-feels-expensive.json",
+    "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/why-everything-feels-expensive.json",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 4,
+    "rows": 3,
+    "width": 1280,
+    "height": 960,
+    "itemCount": 10,
+    "sourcedImageCount": 10,
+    "generatedImageCount": 0,
+    "placeholderCount": 0,
+    "ogImageUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/why-everything-feels-expensive.png",
+    "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/why-everything-feels-expensive.png",
+    "ogImageWidth": 1200,
+    "ogImageHeight": 630
+  },
+  "taxonomy": {
+    "primaryCategory": "economy",
+    "categories": [
+      "economy",
+      "cost-of-living",
+      "public-indicators"
+    ],
+    "tags": [
+      "cpi",
+      "inflation",
+      "prices",
+      "wages",
+      "bls"
+    ],
+    "entityTypes": [
+      "price-index",
+      "economic-indicator"
+    ],
+    "sourceTypes": [
+      "government-statistics"
+    ],
+    "geoScope": "united-states"
+  },
+  "relationships": [
+    {
+      "target": "world-stopped-making-babies",
+      "type": "society-indicator",
+      "weight": 0.7,
+      "reason": "Both use public indicators to explain large social pressure."
+    },
+    {
+      "target": "top-athlete-salaries",
+      "type": "money-and-earnings",
+      "weight": 0.44,
+      "reason": "Both involve earnings and money, though one is household costs and one is elite sports pay."
+    },
+    {
+      "target": "app-store-takeover",
+      "type": "consumer-market-context",
+      "weight": 0.3,
+      "reason": "Consumer spending pressure can frame software and app markets."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "society-indicators",
+    "mainland": "civic",
+    "bridgePriority": [
+      "world-stopped-making-babies"
+    ]
+  },
+  "schemaVersion": 1,
+  "contentKind": "dat-city.story",
+  "generatedAt": "2026-08-22T14:56:45.984Z",
+  "versionId": "20260822T145645Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "dashboard-settings:crypto-memecoin-heat",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-08-22T14:56:45.984Z",
+    "versionId": "20260822T145645Z",
+    "adapter": "bls-cpi",
+    "storySlug": "why-everything-feels-expensive",
+    "districtId": null,
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "publicProjection": {
+    "kind": "story",
+    "version": 1,
+    "generatedAt": "2026-08-22T14:56:45.984Z",
+    "adapter": "bls-cpi",
+    "cache": {
+      "browserMaxAgeSeconds": 60,
+      "edgeMaxAgeSeconds": 3600
+    }
+  },
+  "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/why-everything-feels-expensive.png"
+}

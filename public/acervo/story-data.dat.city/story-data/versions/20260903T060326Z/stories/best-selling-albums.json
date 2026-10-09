@@ -1,0 +1,3616 @@
+{
+  "id": "best-selling-albums",
+  "kicker": "Album Sales Quay",
+  "title": "Best-Selling Albums",
+  "subtitle": "The best-selling albums of all time, ranked by claimed worldwide sales — replayed across a decade of Wikipedia's evolving list.",
+  "badge": "Claimed sales, millions",
+  "visualization": "race-arena",
+  "theme": "creator-arena",
+  "artStyle": "stylized-editorial",
+  "dateRange": [
+    "2010",
+    "2026"
+  ],
+  "timelineTicks": [
+    "2010",
+    "2011",
+    "2012",
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+  ],
+  "metricLabel": "Claimed sales (millions)",
+  "ogImage": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/best-selling-albums.png",
+  "cityPreview": {
+    "districtId": "album-sales-quay",
+    "districtName": "Album Sales Quay",
+    "cardLabel": "Album Sales",
+    "summary": "All-time best-selling albums ranked by claimed worldwide sales, with real rank movement reconstructed from Wikipedia's annual Wayback Machine captures.",
+    "primaryMetric": "Claimed sales (millions)",
+    "latestFrameLabel": "Wikipedia table (2026)",
+    "storyUrl": "/stories/best-selling-albums/",
+    "thumbnail": "/assets/og/dat-city.webp"
+  },
+  "sourceStatus": "Wikipedia current best-selling albums table, over Wayback Machine annual history",
+  "confidence": "Live Wikipedia 'List of best-selling albums' table observed 2026-09-01T08:03:08.299Z, appended to real annual history reconstructed from Wayback Machine captures (2010-2025). Values are editors' claimed worldwide sales in millions of copies.",
+  "methodology": "The adapter reconstructs one ranking frame per year from archived Wikipedia captures (checked-in backfill) and appends a freshly fetched current-year frame from the live Wikipedia table. Each frame ranks albums by claimed worldwide sales (millions); rank movement reflects real editorial revisions and list churn over time. Artist portraits are pulled from Wikipedia and packed into the WebP sprite atlas.",
+  "playback": {
+    "durationSeconds": 26,
+    "initialDate": "2010",
+    "periodLabel": "claimed sales"
+  },
+  "visual": {
+    "topCount": 10,
+    "referenceCount": 20,
+    "horizontalCount": 20
+  },
+  "layers": [
+    {
+      "id": "sales",
+      "label": "Sales",
+      "default": true
+    },
+    {
+      "id": "artist",
+      "label": "Artist",
+      "default": true
+    },
+    {
+      "id": "year",
+      "label": "Released",
+      "default": true
+    }
+  ],
+  "focus": [
+    {
+      "id": "michael-jackson-thriller",
+      "label": "Thriller"
+    },
+    {
+      "id": "ac-dc-back-in-black",
+      "label": "Back in Black"
+    },
+    {
+      "id": "whitney-houston-various-artists-the-bodyguard",
+      "label": "The Bodyguard"
+    },
+    {
+      "id": "pink-floyd-the-dark-side-of-the-moon",
+      "label": "The Dark Side of the Moon"
+    }
+  ],
+  "entities": [
+    {
+      "id": "michael-jackson-thriller",
+      "name": "Thriller",
+      "shortName": "Thriller",
+      "article": "Thriller (album)",
+      "artist": "Michael Jackson",
+      "artistArticle": "Michael Jackson",
+      "year": "1982",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Thriller_(album)",
+      "avatarText": "T",
+      "color": "#ff5a61",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Michael_Jackson_1983_%283x4_cropped%29_%28contrast%29.jpg/960px-Michael_Jackson_1983_%283x4_cropped%29_%28contrast%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Michael_Jackson_1983_%283x4_cropped%29_%28contrast%29.jpg/960px-Michael_Jackson_1983_%283x4_cropped%29_%28contrast%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.json",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.2,
+          "v1": 0.2
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Michael_Jackson_1983_%283x4_cropped%29_%28contrast%29.jpg/960px-Michael_Jackson_1983_%283x4_cropped%29_%28contrast%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "ac-dc-back-in-black",
+      "name": "Back in Black",
+      "shortName": "Back in Black",
+      "article": "Back in Black",
+      "artist": "AC/DC",
+      "artistArticle": "AC/DC",
+      "year": "1980",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Back_in_Black",
+      "avatarText": "BI",
+      "color": "#18c871",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/AC_DC_Black_Ice_Tour_2009_Buenos_Aires_4_de_Diciembre_%284238680962%29.jpg/960px-AC_DC_Black_Ice_Tour_2009_Buenos_Aires_4_de_Diciembre_%284238680962%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/AC_DC_Black_Ice_Tour_2009_Buenos_Aires_4_de_Diciembre_%284238680962%29.jpg/960px-AC_DC_Black_Ice_Tour_2009_Buenos_Aires_4_de_Diciembre_%284238680962%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.json",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0,
+          "u1": 0.4,
+          "v1": 0.2
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/AC_DC_Black_Ice_Tour_2009_Buenos_Aires_4_de_Diciembre_%284238680962%29.jpg/960px-AC_DC_Black_Ice_Tour_2009_Buenos_Aires_4_de_Diciembre_%284238680962%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "pink-floyd-the-dark-side-of-the-moon",
+      "name": "The Dark Side of the Moon",
+      "shortName": "The Dark Side of the Moon",
+      "article": "The Dark Side of the Moon",
+      "artist": "Pink Floyd",
+      "artistArticle": "Pink Floyd",
+      "year": "1973",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Dark_Side_of_the_Moon",
+      "avatarText": "TD",
+      "color": "#ffc84a",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/1/13/PinkFloydWallCoverOriginalNoText.jpg/960px-PinkFloydWallCoverOriginalNoText.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/1/13/PinkFloydWallCoverOriginalNoText.jpg/960px-PinkFloydWallCoverOriginalNoText.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.json",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0,
+          "u1": 0.6,
+          "v1": 0.2
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/1/13/PinkFloydWallCoverOriginalNoText.jpg/960px-PinkFloydWallCoverOriginalNoText.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "whitney-houston-various-artists-the-bodyguard",
+      "name": "The Bodyguard",
+      "shortName": "The Bodyguard",
+      "article": "The Bodyguard: Original Soundtrack Album",
+      "artist": "Whitney Houston / Various artists",
+      "artistArticle": "Whitney Houston",
+      "year": "1992",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/The_Bodyguard%3A_Original_Soundtrack_Album",
+      "avatarText": "TB",
+      "color": "#00a6ff",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/5/52/Whitney_Houston_%28cropped3%29.JPEG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/52/Whitney_Houston_%28cropped3%29.JPEG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.json",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0,
+          "u1": 0.8,
+          "v1": 0.2
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/52/Whitney_Houston_%28cropped3%29.JPEG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "meat-loaf-bat-out-of-hell",
+      "name": "Bat Out of Hell",
+      "shortName": "Bat Out of Hell",
+      "article": "Bat Out of Hell",
+      "artist": "Meat Loaf",
+      "artistArticle": "Meat Loaf",
+      "year": "1977",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Bat_Out_of_Hell",
+      "avatarText": "BO",
+      "color": "#8f6bff",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Meatloaf_1971_%28cropped%29.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Meatloaf_1971_%28cropped%29.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.json",
+          "x": 1280,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.2
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Meatloaf_1971_%28cropped%29.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "various-artists-dirty-dancing",
+      "name": "Dirty Dancing",
+      "shortName": "Dirty Dancing",
+      "article": "Dirty Dancing (soundtrack)",
+      "artist": "Various artists",
+      "artistArticle": "Various artists",
+      "year": "1987",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Dirty_Dancing_(soundtrack)",
+      "avatarText": "DD",
+      "color": "#f18c4f",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/45_record.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/45_record.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.json",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.2,
+          "u1": 0.2,
+          "v1": 0.4
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/45_record.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "eagles-their-greatest-hits-1971-1975",
+      "name": "Their Greatest Hits (1971–1975)",
+      "shortName": "Their Greatest Hits (1971–…",
+      "article": "Their Greatest Hits (1971–1975)",
+      "artist": "Eagles",
+      "artistArticle": "Eagles (band)",
+      "year": "1976",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Their_Greatest_Hits_(1971%E2%80%931975)",
+      "avatarText": "TG",
+      "color": "#41a99f",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/The_Eagles_in_performance%2C_2008.jpg/960px-The_Eagles_in_performance%2C_2008.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/The_Eagles_in_performance%2C_2008.jpg/960px-The_Eagles_in_performance%2C_2008.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.json",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.2,
+          "u1": 0.4,
+          "v1": 0.4
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/The_Eagles_in_performance%2C_2008.jpg/960px-The_Eagles_in_performance%2C_2008.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "fleetwood-mac-rumours",
+      "name": "Rumours",
+      "shortName": "Rumours",
+      "article": "Rumours",
+      "artist": "Fleetwood Mac",
+      "artistArticle": "Fleetwood Mac",
+      "year": "1977",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Rumours",
+      "avatarText": "R",
+      "color": "#d78fca",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Fleetwood_Mac_Billboard_1977.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Fleetwood_Mac_Billboard_1977.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.json",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.2,
+          "u1": 0.6,
+          "v1": 0.4
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Fleetwood_Mac_Billboard_1977.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "bee-gees-various-artists-saturday-night-fever",
+      "name": "Saturday Night Fever",
+      "shortName": "Saturday Night Fever",
+      "article": "Saturday Night Fever (soundtrack)",
+      "artist": "Bee Gees / Various artists",
+      "artistArticle": "Bee Gees",
+      "year": "1977",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Saturday_Night_Fever_(soundtrack)",
+      "avatarText": "SN",
+      "color": "#7b9b65",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Bee_Gees_1977.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Bee_Gees_1977.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.json",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.2,
+          "u1": 0.8,
+          "v1": 0.4
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Bee_Gees_1977.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "shania-twain-come-on-over",
+      "name": "Come On Over",
+      "shortName": "Come On Over",
+      "article": "Come On Over (Shania Twain album)",
+      "artist": "Shania Twain",
+      "artistArticle": "Shania Twain",
+      "year": "1997",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Come_On_Over_(Shania_Twain_album)",
+      "avatarText": "CO",
+      "color": "#2f4858",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Shania_Twain_Glaston2024_2806_300624_%2822_of_173%29_%2853838020769%29_%28cropped%29.jpg/960px-Shania_Twain_Glaston2024_2806_300624_%2822_of_173%29_%2853838020769%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Shania_Twain_Glaston2024_2806_300624_%2822_of_173%29_%2853838020769%29_%28cropped%29.jpg/960px-Shania_Twain_Glaston2024_2806_300624_%2822_of_173%29_%2853838020769%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.json",
+          "x": 1280,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.2,
+          "u1": 1,
+          "v1": 0.4
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Shania_Twain_Glaston2024_2806_300624_%2822_of_173%29_%2853838020769%29_%28cropped%29.jpg/960px-Shania_Twain_Glaston2024_2806_300624_%2822_of_173%29_%2853838020769%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "led-zeppelin-led-zeppelin-iv",
+      "name": "Led Zeppelin IV",
+      "shortName": "Led Zeppelin IV",
+      "article": "Led Zeppelin IV",
+      "artist": "Led Zeppelin",
+      "artistArticle": "Led Zeppelin",
+      "year": "1971",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Led_Zeppelin_IV",
+      "avatarText": "LZ",
+      "color": "#ef426f",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Led_Zeppelin_-_promotional_image_%281971%29.jpg/960px-Led_Zeppelin_-_promotional_image_%281971%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Led_Zeppelin_-_promotional_image_%281971%29.jpg/960px-Led_Zeppelin_-_promotional_image_%281971%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.json",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.4,
+          "u1": 0.2,
+          "v1": 0.6
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Led_Zeppelin_-_promotional_image_%281971%29.jpg/960px-Led_Zeppelin_-_promotional_image_%281971%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "alanis-morissette-jagged-little-pill",
+      "name": "Jagged Little Pill",
+      "shortName": "Jagged Little Pill",
+      "article": "Jagged Little Pill",
+      "artist": "Alanis Morissette",
+      "artistArticle": "Alanis Morissette",
+      "year": "1995",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Jagged_Little_Pill",
+      "avatarText": "JL",
+      "color": "#86bdf4",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Glasto_2025_%2846%29_-_Alanis_Morissette_%28cropped%29.jpg/960px-Glasto_2025_%2846%29_-_Alanis_Morissette_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Glasto_2025_%2846%29_-_Alanis_Morissette_%28cropped%29.jpg/960px-Glasto_2025_%2846%29_-_Alanis_Morissette_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.json",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.4,
+          "u1": 0.4,
+          "v1": 0.6
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Glasto_2025_%2846%29_-_Alanis_Morissette_%28cropped%29.jpg/960px-Glasto_2025_%2846%29_-_Alanis_Morissette_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "the-beatles-1",
+      "name": "1",
+      "shortName": "1",
+      "article": "1 (The Beatles album)",
+      "artist": "The Beatles",
+      "artistArticle": "The Beatles",
+      "year": "2000",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/1_(The_Beatles_album)",
+      "avatarText": "1",
+      "color": "#c9a14a",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg/960px-The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg/960px-The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.json",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.4,
+          "u1": 0.6,
+          "v1": 0.6
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg/960px-The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "celine-dion-falling-into-you",
+      "name": "Falling into You",
+      "shortName": "Falling into You",
+      "article": "Falling into You",
+      "artist": "Celine Dion",
+      "artistArticle": "Celine Dion",
+      "year": "1996",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Falling_into_You",
+      "avatarText": "FI",
+      "color": "#e34f59",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/C%C3%A9line_Dion_2012.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/C%C3%A9line_Dion_2012.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.json",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.4,
+          "u1": 0.8,
+          "v1": 0.6
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/C%C3%A9line_Dion_2012.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "the-beatles-sgt-pepper-s-lonely-hearts-club-band",
+      "name": "Sgt. Pepper's Lonely Hearts Club Band",
+      "shortName": "Sgt. Pepper's Lonely Heart…",
+      "article": "Sgt. Pepper's Lonely Hearts Club Band",
+      "artist": "The Beatles",
+      "artistArticle": "The Beatles",
+      "year": "1967",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Sgt._Pepper's_Lonely_Hearts_Club_Band",
+      "avatarText": "SP",
+      "color": "#9aa4b2",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg/960px-The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg/960px-The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.json",
+          "x": 1280,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.4,
+          "u1": 1,
+          "v1": 0.6
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg/960px-The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "eagles-hotel-california",
+      "name": "Hotel California",
+      "shortName": "Hotel California",
+      "article": "Hotel California (Eagles album)",
+      "artist": "Eagles",
+      "artistArticle": "Eagles (band)",
+      "year": "1976",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Hotel_California_(Eagles_album)",
+      "avatarText": "HC",
+      "color": "#ff5a61",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/The_Eagles_in_performance%2C_2008.jpg/960px-The_Eagles_in_performance%2C_2008.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/The_Eagles_in_performance%2C_2008.jpg/960px-The_Eagles_in_performance%2C_2008.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.json",
+          "x": 0,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.6,
+          "u1": 0.2,
+          "v1": 0.8
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/The_Eagles_in_performance%2C_2008.jpg/960px-The_Eagles_in_performance%2C_2008.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "michael-jackson-bad",
+      "name": "Bad",
+      "shortName": "Bad",
+      "article": "Bad (album)",
+      "artist": "Michael Jackson",
+      "artistArticle": "Michael Jackson",
+      "year": "1987",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Bad_(album)",
+      "avatarText": "B",
+      "color": "#18c871",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Michael_Jackson_1983_%283x4_cropped%29_%28contrast%29.jpg/960px-Michael_Jackson_1983_%283x4_cropped%29_%28contrast%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Michael_Jackson_1983_%283x4_cropped%29_%28contrast%29.jpg/960px-Michael_Jackson_1983_%283x4_cropped%29_%28contrast%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.json",
+          "x": 320,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.6,
+          "u1": 0.4,
+          "v1": 0.8
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Michael_Jackson_1983_%283x4_cropped%29_%28contrast%29.jpg/960px-Michael_Jackson_1983_%283x4_cropped%29_%28contrast%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "michael-jackson-dangerous",
+      "name": "Dangerous",
+      "shortName": "Dangerous",
+      "article": "Dangerous (Michael Jackson album)",
+      "artist": "Michael Jackson",
+      "artistArticle": "Michael Jackson",
+      "year": "1991",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Dangerous_(Michael_Jackson_album)",
+      "avatarText": "D",
+      "color": "#ffc84a",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Michael_Jackson_1983_%283x4_cropped%29_%28contrast%29.jpg/960px-Michael_Jackson_1983_%283x4_cropped%29_%28contrast%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Michael_Jackson_1983_%283x4_cropped%29_%28contrast%29.jpg/960px-Michael_Jackson_1983_%283x4_cropped%29_%28contrast%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.json",
+          "x": 640,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.6,
+          "u1": 0.6,
+          "v1": 0.8
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Michael_Jackson_1983_%283x4_cropped%29_%28contrast%29.jpg/960px-Michael_Jackson_1983_%283x4_cropped%29_%28contrast%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "celine-dion-let-s-talk-about-love",
+      "name": "Let's Talk About Love",
+      "shortName": "Let's Talk About Love",
+      "article": "Let's Talk About Love",
+      "artist": "Celine Dion",
+      "artistArticle": "Celine Dion",
+      "year": "1997",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Let's_Talk_About_Love",
+      "avatarText": "LT",
+      "color": "#00a6ff",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/C%C3%A9line_Dion_2012.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/C%C3%A9line_Dion_2012.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.json",
+          "x": 960,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.6,
+          "u1": 0.8,
+          "v1": 0.8
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/C%C3%A9line_Dion_2012.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "adele-21",
+      "name": "21",
+      "shortName": "21",
+      "article": "21 (Adele album)",
+      "artist": "Adele",
+      "artistArticle": "Adele",
+      "year": "2011",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/21_(Adele_album)",
+      "avatarText": "2",
+      "color": "#8f6bff",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Adele_2016.jpg/960px-Adele_2016.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Adele_2016.jpg/960px-Adele_2016.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.json",
+          "x": 1280,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.6,
+          "u1": 1,
+          "v1": 0.8
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Adele_2016.jpg/960px-Adele_2016.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "mariah-carey-music-box",
+      "name": "Music Box",
+      "shortName": "Music Box",
+      "article": "Music Box (album)",
+      "artist": "Mariah Carey",
+      "artistArticle": "Mariah Carey",
+      "year": "1993",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Music_Box_(album)",
+      "avatarText": "MB",
+      "color": "#f18c4f",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Mariah_Carey_Library_of_Congress_2023_1_Cropped_3.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Mariah_Carey_Library_of_Congress_2023_1_Cropped_3.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.json",
+          "x": 0,
+          "y": 1280,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.8,
+          "u1": 0.2,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Mariah_Carey_Library_of_Congress_2023_1_Cropped_3.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "various-artists-grease-the-original-soundtrack-from-the-motion-p",
+      "name": "Grease: The Original Soundtrack from the Motion Picture",
+      "shortName": "Grease: The Original Sound…",
+      "article": "Grease: The Original Soundtrack from the Motion Picture",
+      "artist": "Various artists",
+      "artistArticle": "Various artists",
+      "year": "1978",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Grease%3A_The_Original_Soundtrack_from_the_Motion_Picture",
+      "avatarText": "GT",
+      "color": "#41a99f",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/45_record.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/45_record.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.json",
+          "x": 320,
+          "y": 1280,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.8,
+          "u1": 0.4,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/45_record.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "the-beatles-abbey-road",
+      "name": "Abbey Road",
+      "shortName": "Abbey Road",
+      "article": "Abbey Road",
+      "artist": "The Beatles",
+      "artistArticle": "The Beatles",
+      "year": "1969",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Abbey_Road",
+      "avatarText": "AR",
+      "color": "#d78fca",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg/960px-The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg/960px-The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.json",
+          "x": 640,
+          "y": 1280,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.8,
+          "u1": 0.6,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg/960px-The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "elton-john-goodbye-yellow-brick-road",
+      "name": "Goodbye Yellow Brick Road",
+      "shortName": "Goodbye Yellow Brick Road",
+      "article": "Goodbye Yellow Brick Road",
+      "artist": "Elton John",
+      "artistArticle": "Elton John",
+      "year": "1973",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Goodbye_Yellow_Brick_Road",
+      "avatarText": "GY",
+      "color": "#7b9b65",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/EltonDocBFILFF101024_%284_of_17%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/EltonDocBFILFF101024_%284_of_17%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.json",
+          "x": 960,
+          "y": 1280,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.8,
+          "u1": 0.8,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/EltonDocBFILFF101024_%284_of_17%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "metallica-metallica",
+      "name": "Metallica",
+      "shortName": "Metallica",
+      "article": "Metallica (album)",
+      "artist": "Metallica",
+      "artistArticle": "Metallica",
+      "year": "1991",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Metallica_(album)",
+      "avatarText": "M",
+      "color": "#2f4858",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Metallica_March_2024.jpg/960px-Metallica_March_2024.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Metallica_March_2024.jpg/960px-Metallica_March_2024.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.json",
+          "x": 1280,
+          "y": 1280,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.8,
+          "u1": 1,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Metallica_March_2024.jpg/960px-Metallica_March_2024.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    }
+  ],
+  "frames": [
+    {
+      "date": "2010",
+      "values": [
+        {
+          "id": "michael-jackson-thriller",
+          "value": 110,
+          "rank": 1,
+          "artist": "Michael Jackson",
+          "year": "1982"
+        },
+        {
+          "id": "ac-dc-back-in-black",
+          "value": 49,
+          "rank": 2,
+          "artist": "AC/DC",
+          "year": "1980"
+        },
+        {
+          "id": "pink-floyd-the-dark-side-of-the-moon",
+          "value": 45,
+          "rank": 3,
+          "artist": "Pink Floyd",
+          "year": "1973"
+        },
+        {
+          "id": "whitney-houston-various-artists-the-bodyguard",
+          "value": 44,
+          "rank": 4,
+          "artist": "Whitney Houston / Various artists",
+          "year": "1992"
+        },
+        {
+          "id": "meat-loaf-bat-out-of-hell",
+          "value": 43,
+          "rank": 5,
+          "artist": "Meat Loaf",
+          "year": "1977"
+        },
+        {
+          "id": "various-artists-dirty-dancing",
+          "value": 42,
+          "rank": 6,
+          "artist": "Various artists",
+          "year": "1987"
+        },
+        {
+          "id": "eagles-their-greatest-hits-1971-1975",
+          "value": 42,
+          "rank": 7,
+          "artist": "Eagles",
+          "year": "1976"
+        },
+        {
+          "id": "fleetwood-mac-rumours",
+          "value": 40,
+          "rank": 8,
+          "artist": "Fleetwood Mac",
+          "year": "1977"
+        },
+        {
+          "id": "bee-gees-various-artists-saturday-night-fever",
+          "value": 40,
+          "rank": 9,
+          "artist": "Bee Gees / Various artists",
+          "year": "1977"
+        },
+        {
+          "id": "shania-twain-come-on-over",
+          "value": 39,
+          "rank": 10,
+          "artist": "Shania Twain",
+          "year": "1997"
+        },
+        {
+          "id": "led-zeppelin-led-zeppelin-iv",
+          "value": 37,
+          "rank": 11,
+          "artist": "Led Zeppelin",
+          "year": "1971"
+        },
+        {
+          "id": "alanis-morissette-jagged-little-pill",
+          "value": 33,
+          "rank": 12,
+          "artist": "Alanis Morissette",
+          "year": "1995"
+        },
+        {
+          "id": "michael-jackson-dangerous",
+          "value": 32,
+          "rank": 13,
+          "artist": "Michael Jackson",
+          "year": "1991"
+        },
+        {
+          "id": "celine-dion-falling-into-you",
+          "value": 32,
+          "rank": 14,
+          "artist": "Celine Dion",
+          "year": "1996"
+        },
+        {
+          "id": "mariah-carey-music-box",
+          "value": 32,
+          "rank": 15,
+          "artist": "Mariah Carey",
+          "year": "1993"
+        },
+        {
+          "id": "the-beatles-sgt-pepper-s-lonely-hearts-club-band",
+          "value": 32,
+          "rank": 16,
+          "artist": "The Beatles",
+          "year": "1967"
+        },
+        {
+          "id": "the-beatles-1",
+          "value": 31,
+          "rank": 17,
+          "artist": "The Beatles",
+          "year": "2000"
+        },
+        {
+          "id": "elton-john-goodbye-yellow-brick-road",
+          "value": 31,
+          "rank": 18,
+          "artist": "Elton John",
+          "year": "1973"
+        },
+        {
+          "id": "celine-dion-let-s-talk-about-love",
+          "value": 31,
+          "rank": 19,
+          "artist": "Celine Dion",
+          "year": "1997"
+        }
+      ]
+    },
+    {
+      "date": "2011",
+      "values": [
+        {
+          "id": "michael-jackson-thriller",
+          "value": 110,
+          "rank": 1,
+          "artist": "Michael Jackson",
+          "year": "1982"
+        },
+        {
+          "id": "ac-dc-back-in-black",
+          "value": 49,
+          "rank": 2,
+          "artist": "AC/DC",
+          "year": "1980"
+        },
+        {
+          "id": "pink-floyd-the-dark-side-of-the-moon",
+          "value": 45,
+          "rank": 3,
+          "artist": "Pink Floyd",
+          "year": "1973"
+        },
+        {
+          "id": "whitney-houston-various-artists-the-bodyguard",
+          "value": 44,
+          "rank": 4,
+          "artist": "Whitney Houston / Various artists",
+          "year": "1992"
+        },
+        {
+          "id": "meat-loaf-bat-out-of-hell",
+          "value": 43,
+          "rank": 5,
+          "artist": "Meat Loaf",
+          "year": "1977"
+        },
+        {
+          "id": "various-artists-dirty-dancing",
+          "value": 42,
+          "rank": 6,
+          "artist": "Various artists",
+          "year": "1987"
+        },
+        {
+          "id": "eagles-their-greatest-hits-1971-1975",
+          "value": 42,
+          "rank": 7,
+          "artist": "Eagles",
+          "year": "1976"
+        },
+        {
+          "id": "shania-twain-come-on-over",
+          "value": 40,
+          "rank": 8,
+          "artist": "Shania Twain",
+          "year": "1997"
+        },
+        {
+          "id": "fleetwood-mac-rumours",
+          "value": 40,
+          "rank": 9,
+          "artist": "Fleetwood Mac",
+          "year": "1977"
+        },
+        {
+          "id": "bee-gees-various-artists-saturday-night-fever",
+          "value": 40,
+          "rank": 10,
+          "artist": "Bee Gees / Various artists",
+          "year": "1977"
+        },
+        {
+          "id": "led-zeppelin-led-zeppelin-iv",
+          "value": 37,
+          "rank": 11,
+          "artist": "Led Zeppelin",
+          "year": "1971"
+        },
+        {
+          "id": "alanis-morissette-jagged-little-pill",
+          "value": 33,
+          "rank": 12,
+          "artist": "Alanis Morissette",
+          "year": "1995"
+        },
+        {
+          "id": "michael-jackson-dangerous",
+          "value": 32,
+          "rank": 13,
+          "artist": "Michael Jackson",
+          "year": "1991"
+        },
+        {
+          "id": "celine-dion-falling-into-you",
+          "value": 32,
+          "rank": 14,
+          "artist": "Celine Dion",
+          "year": "1996"
+        },
+        {
+          "id": "mariah-carey-music-box",
+          "value": 32,
+          "rank": 15,
+          "artist": "Mariah Carey",
+          "year": "1993"
+        },
+        {
+          "id": "the-beatles-sgt-pepper-s-lonely-hearts-club-band",
+          "value": 32,
+          "rank": 16,
+          "artist": "The Beatles",
+          "year": "1967"
+        },
+        {
+          "id": "the-beatles-1",
+          "value": 31,
+          "rank": 17,
+          "artist": "The Beatles",
+          "year": "2000"
+        },
+        {
+          "id": "elton-john-goodbye-yellow-brick-road",
+          "value": 31,
+          "rank": 18,
+          "artist": "Elton John",
+          "year": "1973"
+        },
+        {
+          "id": "celine-dion-let-s-talk-about-love",
+          "value": 31,
+          "rank": 19,
+          "artist": "Celine Dion",
+          "year": "1997"
+        }
+      ]
+    },
+    {
+      "date": "2012",
+      "values": [
+        {
+          "id": "michael-jackson-thriller",
+          "value": 110,
+          "rank": 1,
+          "artist": "Michael Jackson",
+          "year": "1982"
+        },
+        {
+          "id": "pink-floyd-the-dark-side-of-the-moon",
+          "value": 50,
+          "rank": 2,
+          "artist": "Pink Floyd",
+          "year": "1973"
+        },
+        {
+          "id": "ac-dc-back-in-black",
+          "value": 49,
+          "rank": 3,
+          "artist": "AC/DC",
+          "year": "1980"
+        },
+        {
+          "id": "whitney-houston-various-artists-the-bodyguard",
+          "value": 44,
+          "rank": 4,
+          "artist": "Whitney Houston / Various artists",
+          "year": "1992"
+        },
+        {
+          "id": "meat-loaf-bat-out-of-hell",
+          "value": 43,
+          "rank": 5,
+          "artist": "Meat Loaf",
+          "year": "1977"
+        },
+        {
+          "id": "various-artists-dirty-dancing",
+          "value": 42,
+          "rank": 6,
+          "artist": "Various artists",
+          "year": "1987"
+        },
+        {
+          "id": "eagles-their-greatest-hits-1971-1975",
+          "value": 42,
+          "rank": 7,
+          "artist": "Eagles",
+          "year": "1976"
+        },
+        {
+          "id": "shania-twain-come-on-over",
+          "value": 40,
+          "rank": 8,
+          "artist": "Shania Twain",
+          "year": "1997"
+        },
+        {
+          "id": "fleetwood-mac-rumours",
+          "value": 40,
+          "rank": 9,
+          "artist": "Fleetwood Mac",
+          "year": "1977"
+        },
+        {
+          "id": "bee-gees-various-artists-saturday-night-fever",
+          "value": 40,
+          "rank": 10,
+          "artist": "Bee Gees / Various artists",
+          "year": "1977"
+        },
+        {
+          "id": "led-zeppelin-led-zeppelin-iv",
+          "value": 37,
+          "rank": 11,
+          "artist": "Led Zeppelin",
+          "year": "1971"
+        },
+        {
+          "id": "alanis-morissette-jagged-little-pill",
+          "value": 33,
+          "rank": 12,
+          "artist": "Alanis Morissette",
+          "year": "1995"
+        },
+        {
+          "id": "michael-jackson-dangerous",
+          "value": 32,
+          "rank": 13,
+          "artist": "Michael Jackson",
+          "year": "1991"
+        },
+        {
+          "id": "celine-dion-falling-into-you",
+          "value": 32,
+          "rank": 14,
+          "artist": "Celine Dion",
+          "year": "1996"
+        },
+        {
+          "id": "mariah-carey-music-box",
+          "value": 32,
+          "rank": 15,
+          "artist": "Mariah Carey",
+          "year": "1993"
+        },
+        {
+          "id": "the-beatles-sgt-pepper-s-lonely-hearts-club-band",
+          "value": 32,
+          "rank": 16,
+          "artist": "The Beatles",
+          "year": "1967"
+        },
+        {
+          "id": "the-beatles-1",
+          "value": 31,
+          "rank": 17,
+          "artist": "The Beatles",
+          "year": "2000"
+        },
+        {
+          "id": "celine-dion-let-s-talk-about-love",
+          "value": 31,
+          "rank": 18,
+          "artist": "Celine Dion",
+          "year": "1997"
+        },
+        {
+          "id": "michael-jackson-bad",
+          "value": 30,
+          "rank": 19,
+          "artist": "Michael Jackson",
+          "year": "1987"
+        }
+      ]
+    },
+    {
+      "date": "2013",
+      "values": [
+        {
+          "id": "michael-jackson-thriller",
+          "value": 51,
+          "rank": 1,
+          "artist": "Michael Jackson",
+          "year": "1982"
+        },
+        {
+          "id": "ac-dc-back-in-black",
+          "value": 50,
+          "rank": 2,
+          "artist": "AC/DC",
+          "year": "1980"
+        },
+        {
+          "id": "pink-floyd-the-dark-side-of-the-moon",
+          "value": 50,
+          "rank": 3,
+          "artist": "Pink Floyd",
+          "year": "1973"
+        },
+        {
+          "id": "whitney-houston-various-artists-the-bodyguard",
+          "value": 45,
+          "rank": 4,
+          "artist": "Whitney Houston / Various artists",
+          "year": "1992"
+        },
+        {
+          "id": "meat-loaf-bat-out-of-hell",
+          "value": 43,
+          "rank": 5,
+          "artist": "Meat Loaf",
+          "year": "1977"
+        },
+        {
+          "id": "eagles-their-greatest-hits-1971-1975",
+          "value": 42,
+          "rank": 6,
+          "artist": "Eagles",
+          "year": "1976"
+        },
+        {
+          "id": "shania-twain-come-on-over",
+          "value": 40,
+          "rank": 7,
+          "artist": "Shania Twain",
+          "year": "1997"
+        },
+        {
+          "id": "fleetwood-mac-rumours",
+          "value": 40,
+          "rank": 8,
+          "artist": "Fleetwood Mac",
+          "year": "1977"
+        },
+        {
+          "id": "bee-gees-various-artists-saturday-night-fever",
+          "value": 40,
+          "rank": 9,
+          "artist": "Bee Gees / Various artists",
+          "year": "1977"
+        },
+        {
+          "id": "led-zeppelin-led-zeppelin-iv",
+          "value": 37,
+          "rank": 10,
+          "artist": "Led Zeppelin",
+          "year": "1971"
+        },
+        {
+          "id": "alanis-morissette-jagged-little-pill",
+          "value": 33,
+          "rank": 11,
+          "artist": "Alanis Morissette",
+          "year": "1995"
+        },
+        {
+          "id": "michael-jackson-dangerous",
+          "value": 32,
+          "rank": 12,
+          "artist": "Michael Jackson",
+          "year": "1991"
+        },
+        {
+          "id": "various-artists-dirty-dancing",
+          "value": 32,
+          "rank": 13,
+          "artist": "Various artists",
+          "year": "1987"
+        },
+        {
+          "id": "celine-dion-falling-into-you",
+          "value": 32,
+          "rank": 14,
+          "artist": "Celine Dion",
+          "year": "1996"
+        },
+        {
+          "id": "mariah-carey-music-box",
+          "value": 32,
+          "rank": 15,
+          "artist": "Mariah Carey",
+          "year": "1993"
+        },
+        {
+          "id": "the-beatles-sgt-pepper-s-lonely-hearts-club-band",
+          "value": 32,
+          "rank": 16,
+          "artist": "The Beatles",
+          "year": "1967"
+        },
+        {
+          "id": "the-beatles-1",
+          "value": 31,
+          "rank": 17,
+          "artist": "The Beatles",
+          "year": "2000"
+        },
+        {
+          "id": "celine-dion-let-s-talk-about-love",
+          "value": 31,
+          "rank": 18,
+          "artist": "Celine Dion",
+          "year": "1997"
+        },
+        {
+          "id": "the-beatles-abbey-road",
+          "value": 30,
+          "rank": 19,
+          "artist": "The Beatles",
+          "year": "1969"
+        }
+      ]
+    },
+    {
+      "date": "2014",
+      "values": [
+        {
+          "id": "michael-jackson-thriller",
+          "value": 51,
+          "rank": 1,
+          "artist": "Michael Jackson",
+          "year": "1982"
+        },
+        {
+          "id": "pink-floyd-the-dark-side-of-the-moon",
+          "value": 45,
+          "rank": 2,
+          "artist": "Pink Floyd",
+          "year": "1973"
+        },
+        {
+          "id": "eagles-their-greatest-hits-1971-1975",
+          "value": 42,
+          "rank": 3,
+          "artist": "Eagles",
+          "year": "1976"
+        },
+        {
+          "id": "ac-dc-back-in-black",
+          "value": 40,
+          "rank": 4,
+          "artist": "AC/DC",
+          "year": "1980"
+        },
+        {
+          "id": "fleetwood-mac-rumours",
+          "value": 40,
+          "rank": 5,
+          "artist": "Fleetwood Mac",
+          "year": "1977"
+        },
+        {
+          "id": "bee-gees-various-artists-saturday-night-fever",
+          "value": 40,
+          "rank": 6,
+          "artist": "Bee Gees / Various artists",
+          "year": "1977"
+        },
+        {
+          "id": "whitney-houston-various-artists-the-bodyguard",
+          "value": 40,
+          "rank": 7,
+          "artist": "Whitney Houston / Various artists",
+          "year": "1992"
+        },
+        {
+          "id": "shania-twain-come-on-over",
+          "value": 39,
+          "rank": 8,
+          "artist": "Shania Twain",
+          "year": "1997"
+        },
+        {
+          "id": "led-zeppelin-led-zeppelin-iv",
+          "value": 37,
+          "rank": 9,
+          "artist": "Led Zeppelin",
+          "year": "1971"
+        },
+        {
+          "id": "meat-loaf-bat-out-of-hell",
+          "value": 34,
+          "rank": 10,
+          "artist": "Meat Loaf",
+          "year": "1977"
+        },
+        {
+          "id": "alanis-morissette-jagged-little-pill",
+          "value": 33,
+          "rank": 11,
+          "artist": "Alanis Morissette",
+          "year": "1995"
+        },
+        {
+          "id": "various-artists-dirty-dancing",
+          "value": 32,
+          "rank": 12,
+          "artist": "Various artists",
+          "year": "1987"
+        },
+        {
+          "id": "eagles-hotel-california",
+          "value": 32,
+          "rank": 13,
+          "artist": "Eagles",
+          "year": "1976"
+        },
+        {
+          "id": "mariah-carey-music-box",
+          "value": 32,
+          "rank": 14,
+          "artist": "Mariah Carey",
+          "year": "1993"
+        },
+        {
+          "id": "the-beatles-sgt-pepper-s-lonely-hearts-club-band",
+          "value": 32,
+          "rank": 15,
+          "artist": "The Beatles",
+          "year": "1967"
+        },
+        {
+          "id": "the-beatles-1",
+          "value": 31,
+          "rank": 16,
+          "artist": "The Beatles",
+          "year": "2000"
+        },
+        {
+          "id": "elton-john-goodbye-yellow-brick-road",
+          "value": 31,
+          "rank": 17,
+          "artist": "Elton John",
+          "year": "1973"
+        },
+        {
+          "id": "the-beatles-abbey-road",
+          "value": 30,
+          "rank": 18,
+          "artist": "The Beatles",
+          "year": "1969"
+        },
+        {
+          "id": "michael-jackson-bad",
+          "value": 30,
+          "rank": 19,
+          "artist": "Michael Jackson",
+          "year": "1987"
+        }
+      ]
+    },
+    {
+      "date": "2015",
+      "values": [
+        {
+          "id": "michael-jackson-thriller",
+          "value": 51,
+          "rank": 1,
+          "artist": "Michael Jackson",
+          "year": "1982"
+        },
+        {
+          "id": "pink-floyd-the-dark-side-of-the-moon",
+          "value": 45,
+          "rank": 2,
+          "artist": "Pink Floyd",
+          "year": "1973"
+        },
+        {
+          "id": "whitney-houston-various-artists-the-bodyguard",
+          "value": 44,
+          "rank": 3,
+          "artist": "Whitney Houston / Various artists",
+          "year": "1992"
+        },
+        {
+          "id": "meat-loaf-bat-out-of-hell",
+          "value": 43,
+          "rank": 4,
+          "artist": "Meat Loaf",
+          "year": "1977"
+        },
+        {
+          "id": "eagles-their-greatest-hits-1971-1975",
+          "value": 42,
+          "rank": 5,
+          "artist": "Eagles",
+          "year": "1976"
+        },
+        {
+          "id": "ac-dc-back-in-black",
+          "value": 40,
+          "rank": 6,
+          "artist": "AC/DC",
+          "year": "1980"
+        },
+        {
+          "id": "fleetwood-mac-rumours",
+          "value": 40,
+          "rank": 7,
+          "artist": "Fleetwood Mac",
+          "year": "1977"
+        },
+        {
+          "id": "bee-gees-various-artists-saturday-night-fever",
+          "value": 40,
+          "rank": 8,
+          "artist": "Bee Gees / Various artists",
+          "year": "1977"
+        },
+        {
+          "id": "shania-twain-come-on-over",
+          "value": 39,
+          "rank": 9,
+          "artist": "Shania Twain",
+          "year": "1997"
+        },
+        {
+          "id": "led-zeppelin-led-zeppelin-iv",
+          "value": 37,
+          "rank": 10,
+          "artist": "Led Zeppelin",
+          "year": "1971"
+        },
+        {
+          "id": "alanis-morissette-jagged-little-pill",
+          "value": 33,
+          "rank": 11,
+          "artist": "Alanis Morissette",
+          "year": "1995"
+        },
+        {
+          "id": "various-artists-dirty-dancing",
+          "value": 32,
+          "rank": 12,
+          "artist": "Various artists",
+          "year": "1987"
+        },
+        {
+          "id": "celine-dion-falling-into-you",
+          "value": 32,
+          "rank": 13,
+          "artist": "Celine Dion",
+          "year": "1996"
+        },
+        {
+          "id": "eagles-hotel-california",
+          "value": 32,
+          "rank": 14,
+          "artist": "Eagles",
+          "year": "1976"
+        },
+        {
+          "id": "mariah-carey-music-box",
+          "value": 32,
+          "rank": 15,
+          "artist": "Mariah Carey",
+          "year": "1993"
+        },
+        {
+          "id": "the-beatles-sgt-pepper-s-lonely-hearts-club-band",
+          "value": 32,
+          "rank": 16,
+          "artist": "The Beatles",
+          "year": "1967"
+        },
+        {
+          "id": "the-beatles-1",
+          "value": 31,
+          "rank": 17,
+          "artist": "The Beatles",
+          "year": "2000"
+        },
+        {
+          "id": "celine-dion-let-s-talk-about-love",
+          "value": 31,
+          "rank": 18,
+          "artist": "Celine Dion",
+          "year": "1997"
+        },
+        {
+          "id": "adele-21",
+          "value": 30,
+          "rank": 19,
+          "artist": "Adele",
+          "year": "2011"
+        },
+        {
+          "id": "the-beatles-abbey-road",
+          "value": 30,
+          "rank": 20,
+          "artist": "The Beatles",
+          "year": "1969"
+        }
+      ]
+    },
+    {
+      "date": "2016",
+      "values": [
+        {
+          "id": "michael-jackson-thriller",
+          "value": 65,
+          "rank": 1,
+          "artist": "Michael Jackson",
+          "year": "1982"
+        },
+        {
+          "id": "ac-dc-back-in-black",
+          "value": 50,
+          "rank": 2,
+          "artist": "AC/DC",
+          "year": "1980"
+        },
+        {
+          "id": "pink-floyd-the-dark-side-of-the-moon",
+          "value": 45,
+          "rank": 3,
+          "artist": "Pink Floyd",
+          "year": "1973"
+        },
+        {
+          "id": "whitney-houston-various-artists-the-bodyguard",
+          "value": 44,
+          "rank": 4,
+          "artist": "Whitney Houston / Various artists",
+          "year": "1992"
+        },
+        {
+          "id": "meat-loaf-bat-out-of-hell",
+          "value": 43,
+          "rank": 5,
+          "artist": "Meat Loaf",
+          "year": "1977"
+        },
+        {
+          "id": "eagles-their-greatest-hits-1971-1975",
+          "value": 42,
+          "rank": 6,
+          "artist": "Eagles",
+          "year": "1976"
+        },
+        {
+          "id": "fleetwood-mac-rumours",
+          "value": 40,
+          "rank": 7,
+          "artist": "Fleetwood Mac",
+          "year": "1977"
+        },
+        {
+          "id": "bee-gees-various-artists-saturday-night-fever",
+          "value": 40,
+          "rank": 8,
+          "artist": "Bee Gees / Various artists",
+          "year": "1977"
+        },
+        {
+          "id": "shania-twain-come-on-over",
+          "value": 39,
+          "rank": 9,
+          "artist": "Shania Twain",
+          "year": "1997"
+        },
+        {
+          "id": "led-zeppelin-led-zeppelin-iv",
+          "value": 37,
+          "rank": 10,
+          "artist": "Led Zeppelin",
+          "year": "1971"
+        },
+        {
+          "id": "michael-jackson-bad",
+          "value": 34,
+          "rank": 11,
+          "artist": "Michael Jackson",
+          "year": "1987"
+        },
+        {
+          "id": "alanis-morissette-jagged-little-pill",
+          "value": 33,
+          "rank": 12,
+          "artist": "Alanis Morissette",
+          "year": "1995"
+        },
+        {
+          "id": "michael-jackson-dangerous",
+          "value": 32,
+          "rank": 13,
+          "artist": "Michael Jackson",
+          "year": "1991"
+        },
+        {
+          "id": "various-artists-dirty-dancing",
+          "value": 32,
+          "rank": 14,
+          "artist": "Various artists",
+          "year": "1987"
+        },
+        {
+          "id": "celine-dion-falling-into-you",
+          "value": 32,
+          "rank": 15,
+          "artist": "Celine Dion",
+          "year": "1996"
+        },
+        {
+          "id": "eagles-hotel-california",
+          "value": 32,
+          "rank": 16,
+          "artist": "Eagles",
+          "year": "1976"
+        },
+        {
+          "id": "mariah-carey-music-box",
+          "value": 32,
+          "rank": 17,
+          "artist": "Mariah Carey",
+          "year": "1993"
+        },
+        {
+          "id": "the-beatles-sgt-pepper-s-lonely-hearts-club-band",
+          "value": 32,
+          "rank": 18,
+          "artist": "The Beatles",
+          "year": "1967"
+        },
+        {
+          "id": "the-beatles-1",
+          "value": 31,
+          "rank": 19,
+          "artist": "The Beatles",
+          "year": "2000"
+        },
+        {
+          "id": "celine-dion-let-s-talk-about-love",
+          "value": 31,
+          "rank": 20,
+          "artist": "Celine Dion",
+          "year": "1997"
+        }
+      ]
+    },
+    {
+      "date": "2017",
+      "values": [
+        {
+          "id": "michael-jackson-thriller",
+          "value": 65,
+          "rank": 1,
+          "artist": "Michael Jackson",
+          "year": "1982"
+        },
+        {
+          "id": "ac-dc-back-in-black",
+          "value": 50,
+          "rank": 2,
+          "artist": "AC/DC",
+          "year": "1980"
+        },
+        {
+          "id": "pink-floyd-the-dark-side-of-the-moon",
+          "value": 45,
+          "rank": 3,
+          "artist": "Pink Floyd",
+          "year": "1973"
+        },
+        {
+          "id": "whitney-houston-various-artists-the-bodyguard",
+          "value": 44,
+          "rank": 4,
+          "artist": "Whitney Houston / Various artists",
+          "year": "1992"
+        },
+        {
+          "id": "meat-loaf-bat-out-of-hell",
+          "value": 43,
+          "rank": 5,
+          "artist": "Meat Loaf",
+          "year": "1977"
+        },
+        {
+          "id": "eagles-their-greatest-hits-1971-1975",
+          "value": 42,
+          "rank": 6,
+          "artist": "Eagles",
+          "year": "1976"
+        },
+        {
+          "id": "fleetwood-mac-rumours",
+          "value": 40,
+          "rank": 7,
+          "artist": "Fleetwood Mac",
+          "year": "1977"
+        },
+        {
+          "id": "bee-gees-various-artists-saturday-night-fever",
+          "value": 40,
+          "rank": 8,
+          "artist": "Bee Gees / Various artists",
+          "year": "1977"
+        },
+        {
+          "id": "shania-twain-come-on-over",
+          "value": 39,
+          "rank": 9,
+          "artist": "Shania Twain",
+          "year": "1997"
+        },
+        {
+          "id": "led-zeppelin-led-zeppelin-iv",
+          "value": 37,
+          "rank": 10,
+          "artist": "Led Zeppelin",
+          "year": "1971"
+        },
+        {
+          "id": "adele-21",
+          "value": 35,
+          "rank": 11,
+          "artist": "Adele",
+          "year": "2011"
+        },
+        {
+          "id": "michael-jackson-bad",
+          "value": 34,
+          "rank": 12,
+          "artist": "Michael Jackson",
+          "year": "1987"
+        },
+        {
+          "id": "alanis-morissette-jagged-little-pill",
+          "value": 33,
+          "rank": 13,
+          "artist": "Alanis Morissette",
+          "year": "1995"
+        },
+        {
+          "id": "michael-jackson-dangerous",
+          "value": 32,
+          "rank": 14,
+          "artist": "Michael Jackson",
+          "year": "1991"
+        },
+        {
+          "id": "various-artists-dirty-dancing",
+          "value": 32,
+          "rank": 15,
+          "artist": "Various artists",
+          "year": "1987"
+        },
+        {
+          "id": "celine-dion-falling-into-you",
+          "value": 32,
+          "rank": 16,
+          "artist": "Celine Dion",
+          "year": "1996"
+        },
+        {
+          "id": "eagles-hotel-california",
+          "value": 32,
+          "rank": 17,
+          "artist": "Eagles",
+          "year": "1976"
+        },
+        {
+          "id": "mariah-carey-music-box",
+          "value": 32,
+          "rank": 18,
+          "artist": "Mariah Carey",
+          "year": "1993"
+        },
+        {
+          "id": "the-beatles-sgt-pepper-s-lonely-hearts-club-band",
+          "value": 32,
+          "rank": 19,
+          "artist": "The Beatles",
+          "year": "1967"
+        },
+        {
+          "id": "the-beatles-1",
+          "value": 31,
+          "rank": 20,
+          "artist": "The Beatles",
+          "year": "2000"
+        }
+      ]
+    },
+    {
+      "date": "2018",
+      "values": [
+        {
+          "id": "michael-jackson-thriller",
+          "value": 66,
+          "rank": 1,
+          "artist": "Michael Jackson",
+          "year": "1982"
+        },
+        {
+          "id": "ac-dc-back-in-black",
+          "value": 50,
+          "rank": 2,
+          "artist": "AC/DC",
+          "year": "1980"
+        },
+        {
+          "id": "pink-floyd-the-dark-side-of-the-moon",
+          "value": 45,
+          "rank": 3,
+          "artist": "Pink Floyd",
+          "year": "1973"
+        },
+        {
+          "id": "meat-loaf-bat-out-of-hell",
+          "value": 43,
+          "rank": 4,
+          "artist": "Meat Loaf",
+          "year": "1977"
+        },
+        {
+          "id": "whitney-houston-various-artists-the-bodyguard",
+          "value": 42,
+          "rank": 5,
+          "artist": "Whitney Houston / Various artists",
+          "year": "1992"
+        },
+        {
+          "id": "eagles-their-greatest-hits-1971-1975",
+          "value": 42,
+          "rank": 6,
+          "artist": "Eagles",
+          "year": "1976"
+        },
+        {
+          "id": "fleetwood-mac-rumours",
+          "value": 40,
+          "rank": 7,
+          "artist": "Fleetwood Mac",
+          "year": "1977"
+        },
+        {
+          "id": "bee-gees-various-artists-saturday-night-fever",
+          "value": 40,
+          "rank": 8,
+          "artist": "Bee Gees / Various artists",
+          "year": "1977"
+        },
+        {
+          "id": "various-artists-grease-the-original-soundtrack-from-the-motion-p",
+          "value": 38,
+          "rank": 9,
+          "artist": "Various artists",
+          "year": "1978"
+        },
+        {
+          "id": "led-zeppelin-led-zeppelin-iv",
+          "value": 37,
+          "rank": 10,
+          "artist": "Led Zeppelin",
+          "year": "1971"
+        },
+        {
+          "id": "michael-jackson-bad",
+          "value": 35,
+          "rank": 11,
+          "artist": "Michael Jackson",
+          "year": "1987"
+        },
+        {
+          "id": "shania-twain-come-on-over",
+          "value": 33,
+          "rank": 12,
+          "artist": "Shania Twain",
+          "year": "1997"
+        },
+        {
+          "id": "alanis-morissette-jagged-little-pill",
+          "value": 33,
+          "rank": 13,
+          "artist": "Alanis Morissette",
+          "year": "1995"
+        },
+        {
+          "id": "various-artists-dirty-dancing",
+          "value": 32,
+          "rank": 14,
+          "artist": "Various artists",
+          "year": "1987"
+        },
+        {
+          "id": "celine-dion-falling-into-you",
+          "value": 32,
+          "rank": 15,
+          "artist": "Celine Dion",
+          "year": "1996"
+        },
+        {
+          "id": "eagles-hotel-california",
+          "value": 32,
+          "rank": 16,
+          "artist": "Eagles",
+          "year": "1976"
+        },
+        {
+          "id": "the-beatles-sgt-pepper-s-lonely-hearts-club-band",
+          "value": 32,
+          "rank": 17,
+          "artist": "The Beatles",
+          "year": "1967"
+        },
+        {
+          "id": "the-beatles-1",
+          "value": 31,
+          "rank": 18,
+          "artist": "The Beatles",
+          "year": "2000"
+        },
+        {
+          "id": "adele-21",
+          "value": 31,
+          "rank": 19,
+          "artist": "Adele",
+          "year": "2011"
+        },
+        {
+          "id": "celine-dion-let-s-talk-about-love",
+          "value": 31,
+          "rank": 20,
+          "artist": "Celine Dion",
+          "year": "1997"
+        }
+      ]
+    },
+    {
+      "date": "2019",
+      "values": [
+        {
+          "id": "michael-jackson-thriller",
+          "value": 66,
+          "rank": 1,
+          "artist": "Michael Jackson",
+          "year": "1982"
+        },
+        {
+          "id": "eagles-their-greatest-hits-1971-1975",
+          "value": 51,
+          "rank": 2,
+          "artist": "Eagles",
+          "year": "1976"
+        },
+        {
+          "id": "ac-dc-back-in-black",
+          "value": 50,
+          "rank": 3,
+          "artist": "AC/DC",
+          "year": "1980"
+        },
+        {
+          "id": "whitney-houston-various-artists-the-bodyguard",
+          "value": 45,
+          "rank": 4,
+          "artist": "Whitney Houston / Various artists",
+          "year": "1992"
+        },
+        {
+          "id": "pink-floyd-the-dark-side-of-the-moon",
+          "value": 45,
+          "rank": 5,
+          "artist": "Pink Floyd",
+          "year": "1973"
+        },
+        {
+          "id": "meat-loaf-bat-out-of-hell",
+          "value": 43,
+          "rank": 6,
+          "artist": "Meat Loaf",
+          "year": "1977"
+        },
+        {
+          "id": "eagles-hotel-california",
+          "value": 42,
+          "rank": 7,
+          "artist": "Eagles",
+          "year": "1976"
+        },
+        {
+          "id": "shania-twain-come-on-over",
+          "value": 40,
+          "rank": 8,
+          "artist": "Shania Twain",
+          "year": "1997"
+        },
+        {
+          "id": "fleetwood-mac-rumours",
+          "value": 40,
+          "rank": 9,
+          "artist": "Fleetwood Mac",
+          "year": "1977"
+        },
+        {
+          "id": "bee-gees-various-artists-saturday-night-fever",
+          "value": 40,
+          "rank": 10,
+          "artist": "Bee Gees / Various artists",
+          "year": "1977"
+        },
+        {
+          "id": "various-artists-grease-the-original-soundtrack-from-the-motion-p",
+          "value": 38,
+          "rank": 11,
+          "artist": "Various artists",
+          "year": "1978"
+        },
+        {
+          "id": "led-zeppelin-led-zeppelin-iv",
+          "value": 37,
+          "rank": 12,
+          "artist": "Led Zeppelin",
+          "year": "1971"
+        },
+        {
+          "id": "michael-jackson-bad",
+          "value": 35,
+          "rank": 13,
+          "artist": "Michael Jackson",
+          "year": "1987"
+        },
+        {
+          "id": "alanis-morissette-jagged-little-pill",
+          "value": 33,
+          "rank": 14,
+          "artist": "Alanis Morissette",
+          "year": "1995"
+        },
+        {
+          "id": "michael-jackson-dangerous",
+          "value": 32,
+          "rank": 15,
+          "artist": "Michael Jackson",
+          "year": "1991"
+        },
+        {
+          "id": "various-artists-dirty-dancing",
+          "value": 32,
+          "rank": 16,
+          "artist": "Various artists",
+          "year": "1987"
+        },
+        {
+          "id": "celine-dion-falling-into-you",
+          "value": 32,
+          "rank": 17,
+          "artist": "Celine Dion",
+          "year": "1996"
+        },
+        {
+          "id": "the-beatles-sgt-pepper-s-lonely-hearts-club-band",
+          "value": 32,
+          "rank": 18,
+          "artist": "The Beatles",
+          "year": "1967"
+        },
+        {
+          "id": "the-beatles-1",
+          "value": 31,
+          "rank": 19,
+          "artist": "The Beatles",
+          "year": "2000"
+        },
+        {
+          "id": "adele-21",
+          "value": 31,
+          "rank": 20,
+          "artist": "Adele",
+          "year": "2011"
+        }
+      ]
+    },
+    {
+      "date": "2020",
+      "values": [
+        {
+          "id": "michael-jackson-thriller",
+          "value": 66,
+          "rank": 1,
+          "artist": "Michael Jackson",
+          "year": "1982"
+        },
+        {
+          "id": "ac-dc-back-in-black",
+          "value": 50,
+          "rank": 2,
+          "artist": "AC/DC",
+          "year": "1980"
+        },
+        {
+          "id": "meat-loaf-bat-out-of-hell",
+          "value": 50,
+          "rank": 3,
+          "artist": "Meat Loaf",
+          "year": "1977"
+        },
+        {
+          "id": "whitney-houston-various-artists-the-bodyguard",
+          "value": 45,
+          "rank": 4,
+          "artist": "Whitney Houston / Various artists",
+          "year": "1992"
+        },
+        {
+          "id": "pink-floyd-the-dark-side-of-the-moon",
+          "value": 45,
+          "rank": 5,
+          "artist": "Pink Floyd",
+          "year": "1973"
+        },
+        {
+          "id": "eagles-their-greatest-hits-1971-1975",
+          "value": 42,
+          "rank": 6,
+          "artist": "Eagles",
+          "year": "1976"
+        },
+        {
+          "id": "shania-twain-come-on-over",
+          "value": 40,
+          "rank": 7,
+          "artist": "Shania Twain",
+          "year": "1997"
+        },
+        {
+          "id": "fleetwood-mac-rumours",
+          "value": 40,
+          "rank": 8,
+          "artist": "Fleetwood Mac",
+          "year": "1977"
+        },
+        {
+          "id": "bee-gees-various-artists-saturday-night-fever",
+          "value": 40,
+          "rank": 9,
+          "artist": "Bee Gees / Various artists",
+          "year": "1977"
+        },
+        {
+          "id": "various-artists-grease-the-original-soundtrack-from-the-motion-p",
+          "value": 38,
+          "rank": 10,
+          "artist": "Various artists",
+          "year": "1978"
+        },
+        {
+          "id": "michael-jackson-bad",
+          "value": 35,
+          "rank": 11,
+          "artist": "Michael Jackson",
+          "year": "1987"
+        },
+        {
+          "id": "led-zeppelin-led-zeppelin-iv",
+          "value": 35,
+          "rank": 12,
+          "artist": "Led Zeppelin",
+          "year": "1971"
+        },
+        {
+          "id": "alanis-morissette-jagged-little-pill",
+          "value": 33,
+          "rank": 13,
+          "artist": "Alanis Morissette",
+          "year": "1995"
+        },
+        {
+          "id": "michael-jackson-dangerous",
+          "value": 32,
+          "rank": 14,
+          "artist": "Michael Jackson",
+          "year": "1991"
+        },
+        {
+          "id": "various-artists-dirty-dancing",
+          "value": 32,
+          "rank": 15,
+          "artist": "Various artists",
+          "year": "1987"
+        },
+        {
+          "id": "celine-dion-falling-into-you",
+          "value": 32,
+          "rank": 16,
+          "artist": "Celine Dion",
+          "year": "1996"
+        },
+        {
+          "id": "eagles-hotel-california",
+          "value": 32,
+          "rank": 17,
+          "artist": "Eagles",
+          "year": "1976"
+        },
+        {
+          "id": "the-beatles-sgt-pepper-s-lonely-hearts-club-band",
+          "value": 32,
+          "rank": 18,
+          "artist": "The Beatles",
+          "year": "1967"
+        },
+        {
+          "id": "the-beatles-1",
+          "value": 31,
+          "rank": 19,
+          "artist": "The Beatles",
+          "year": "2000"
+        },
+        {
+          "id": "adele-21",
+          "value": 31,
+          "rank": 20,
+          "artist": "Adele",
+          "year": "2011"
+        }
+      ]
+    },
+    {
+      "date": "2021",
+      "values": [
+        {
+          "id": "michael-jackson-thriller",
+          "value": 66,
+          "rank": 1,
+          "artist": "Michael Jackson",
+          "year": "1982"
+        },
+        {
+          "id": "ac-dc-back-in-black",
+          "value": 50,
+          "rank": 2,
+          "artist": "AC/DC",
+          "year": "1980"
+        },
+        {
+          "id": "meat-loaf-bat-out-of-hell",
+          "value": 50,
+          "rank": 3,
+          "artist": "Meat Loaf",
+          "year": "1977"
+        },
+        {
+          "id": "whitney-houston-various-artists-the-bodyguard",
+          "value": 45,
+          "rank": 4,
+          "artist": "Whitney Houston / Various artists",
+          "year": "1992"
+        },
+        {
+          "id": "pink-floyd-the-dark-side-of-the-moon",
+          "value": 45,
+          "rank": 5,
+          "artist": "Pink Floyd",
+          "year": "1973"
+        },
+        {
+          "id": "eagles-their-greatest-hits-1971-1975",
+          "value": 42,
+          "rank": 6,
+          "artist": "Eagles",
+          "year": "1976"
+        },
+        {
+          "id": "shania-twain-come-on-over",
+          "value": 40,
+          "rank": 7,
+          "artist": "Shania Twain",
+          "year": "1997"
+        },
+        {
+          "id": "fleetwood-mac-rumours",
+          "value": 40,
+          "rank": 8,
+          "artist": "Fleetwood Mac",
+          "year": "1977"
+        },
+        {
+          "id": "bee-gees-various-artists-saturday-night-fever",
+          "value": 40,
+          "rank": 9,
+          "artist": "Bee Gees / Various artists",
+          "year": "1977"
+        },
+        {
+          "id": "various-artists-grease-the-original-soundtrack-from-the-motion-p",
+          "value": 38,
+          "rank": 10,
+          "artist": "Various artists",
+          "year": "1978"
+        },
+        {
+          "id": "michael-jackson-bad",
+          "value": 35,
+          "rank": 11,
+          "artist": "Michael Jackson",
+          "year": "1987"
+        },
+        {
+          "id": "led-zeppelin-led-zeppelin-iv",
+          "value": 35,
+          "rank": 12,
+          "artist": "Led Zeppelin",
+          "year": "1971"
+        },
+        {
+          "id": "alanis-morissette-jagged-little-pill",
+          "value": 33,
+          "rank": 13,
+          "artist": "Alanis Morissette",
+          "year": "1995"
+        },
+        {
+          "id": "michael-jackson-dangerous",
+          "value": 32,
+          "rank": 14,
+          "artist": "Michael Jackson",
+          "year": "1991"
+        },
+        {
+          "id": "various-artists-dirty-dancing",
+          "value": 32,
+          "rank": 15,
+          "artist": "Various artists",
+          "year": "1987"
+        },
+        {
+          "id": "celine-dion-falling-into-you",
+          "value": 32,
+          "rank": 16,
+          "artist": "Celine Dion",
+          "year": "1996"
+        },
+        {
+          "id": "eagles-hotel-california",
+          "value": 32,
+          "rank": 17,
+          "artist": "Eagles",
+          "year": "1976"
+        },
+        {
+          "id": "the-beatles-sgt-pepper-s-lonely-hearts-club-band",
+          "value": 32,
+          "rank": 18,
+          "artist": "The Beatles",
+          "year": "1967"
+        },
+        {
+          "id": "the-beatles-1",
+          "value": 31,
+          "rank": 19,
+          "artist": "The Beatles",
+          "year": "2000"
+        },
+        {
+          "id": "adele-21",
+          "value": 31,
+          "rank": 20,
+          "artist": "Adele",
+          "year": "2011"
+        }
+      ]
+    },
+    {
+      "date": "2022",
+      "values": [
+        {
+          "id": "michael-jackson-thriller",
+          "value": 70,
+          "rank": 1,
+          "artist": "Michael Jackson",
+          "year": "1982"
+        },
+        {
+          "id": "ac-dc-back-in-black",
+          "value": 50,
+          "rank": 2,
+          "artist": "AC/DC",
+          "year": "1980"
+        },
+        {
+          "id": "whitney-houston-various-artists-the-bodyguard",
+          "value": 45,
+          "rank": 3,
+          "artist": "Whitney Houston / Various artists",
+          "year": "1992"
+        },
+        {
+          "id": "meat-loaf-bat-out-of-hell",
+          "value": 44,
+          "rank": 4,
+          "artist": "Meat Loaf",
+          "year": "1977"
+        },
+        {
+          "id": "pink-floyd-the-dark-side-of-the-moon",
+          "value": 44,
+          "rank": 5,
+          "artist": "Pink Floyd",
+          "year": "1973"
+        },
+        {
+          "id": "eagles-their-greatest-hits-1971-1975",
+          "value": 44,
+          "rank": 6,
+          "artist": "Eagles",
+          "year": "1976"
+        },
+        {
+          "id": "eagles-hotel-california",
+          "value": 42,
+          "rank": 7,
+          "artist": "Eagles",
+          "year": "1976"
+        },
+        {
+          "id": "shania-twain-come-on-over",
+          "value": 40,
+          "rank": 8,
+          "artist": "Shania Twain",
+          "year": "1997"
+        },
+        {
+          "id": "fleetwood-mac-rumours",
+          "value": 40,
+          "rank": 9,
+          "artist": "Fleetwood Mac",
+          "year": "1977"
+        },
+        {
+          "id": "bee-gees-various-artists-saturday-night-fever",
+          "value": 40,
+          "rank": 10,
+          "artist": "Bee Gees / Various artists",
+          "year": "1977"
+        },
+        {
+          "id": "various-artists-grease-the-original-soundtrack-from-the-motion-p",
+          "value": 38,
+          "rank": 11,
+          "artist": "Various artists",
+          "year": "1978"
+        },
+        {
+          "id": "led-zeppelin-led-zeppelin-iv",
+          "value": 37,
+          "rank": 12,
+          "artist": "Led Zeppelin",
+          "year": "1971"
+        },
+        {
+          "id": "michael-jackson-bad",
+          "value": 35,
+          "rank": 13,
+          "artist": "Michael Jackson",
+          "year": "1987"
+        },
+        {
+          "id": "alanis-morissette-jagged-little-pill",
+          "value": 33,
+          "rank": 14,
+          "artist": "Alanis Morissette",
+          "year": "1995"
+        },
+        {
+          "id": "michael-jackson-dangerous",
+          "value": 32,
+          "rank": 15,
+          "artist": "Michael Jackson",
+          "year": "1991"
+        },
+        {
+          "id": "various-artists-dirty-dancing",
+          "value": 32,
+          "rank": 16,
+          "artist": "Various artists",
+          "year": "1987"
+        },
+        {
+          "id": "celine-dion-falling-into-you",
+          "value": 32,
+          "rank": 17,
+          "artist": "Celine Dion",
+          "year": "1996"
+        },
+        {
+          "id": "the-beatles-sgt-pepper-s-lonely-hearts-club-band",
+          "value": 32,
+          "rank": 18,
+          "artist": "The Beatles",
+          "year": "1967"
+        },
+        {
+          "id": "the-beatles-1",
+          "value": 31,
+          "rank": 19,
+          "artist": "The Beatles",
+          "year": "2000"
+        },
+        {
+          "id": "adele-21",
+          "value": 31,
+          "rank": 20,
+          "artist": "Adele",
+          "year": "2011"
+        }
+      ]
+    },
+    {
+      "date": "2023",
+      "values": [
+        {
+          "id": "michael-jackson-thriller",
+          "value": 70,
+          "rank": 1,
+          "artist": "Michael Jackson",
+          "year": "1982"
+        },
+        {
+          "id": "ac-dc-back-in-black",
+          "value": 50,
+          "rank": 2,
+          "artist": "AC/DC",
+          "year": "1980"
+        },
+        {
+          "id": "whitney-houston-various-artists-the-bodyguard",
+          "value": 45,
+          "rank": 3,
+          "artist": "Whitney Houston / Various artists",
+          "year": "1992"
+        },
+        {
+          "id": "pink-floyd-the-dark-side-of-the-moon",
+          "value": 45,
+          "rank": 4,
+          "artist": "Pink Floyd",
+          "year": "1973"
+        },
+        {
+          "id": "eagles-their-greatest-hits-1971-1975",
+          "value": 44,
+          "rank": 5,
+          "artist": "Eagles",
+          "year": "1976"
+        },
+        {
+          "id": "eagles-hotel-california",
+          "value": 42,
+          "rank": 6,
+          "artist": "Eagles",
+          "year": "1976"
+        },
+        {
+          "id": "shania-twain-come-on-over",
+          "value": 40,
+          "rank": 7,
+          "artist": "Shania Twain",
+          "year": "1997"
+        },
+        {
+          "id": "fleetwood-mac-rumours",
+          "value": 40,
+          "rank": 8,
+          "artist": "Fleetwood Mac",
+          "year": "1977"
+        },
+        {
+          "id": "bee-gees-various-artists-saturday-night-fever",
+          "value": 40,
+          "rank": 9,
+          "artist": "Bee Gees / Various artists",
+          "year": "1977"
+        },
+        {
+          "id": "led-zeppelin-led-zeppelin-iv",
+          "value": 37,
+          "rank": 10,
+          "artist": "Led Zeppelin",
+          "year": "1971"
+        },
+        {
+          "id": "michael-jackson-bad",
+          "value": 35,
+          "rank": 11,
+          "artist": "Michael Jackson",
+          "year": "1987"
+        },
+        {
+          "id": "meat-loaf-bat-out-of-hell",
+          "value": 34,
+          "rank": 12,
+          "artist": "Meat Loaf",
+          "year": "1977"
+        },
+        {
+          "id": "alanis-morissette-jagged-little-pill",
+          "value": 33,
+          "rank": 13,
+          "artist": "Alanis Morissette",
+          "year": "1995"
+        },
+        {
+          "id": "various-artists-dirty-dancing",
+          "value": 32,
+          "rank": 14,
+          "artist": "Various artists",
+          "year": "1987"
+        },
+        {
+          "id": "celine-dion-falling-into-you",
+          "value": 32,
+          "rank": 15,
+          "artist": "Celine Dion",
+          "year": "1996"
+        },
+        {
+          "id": "the-beatles-1",
+          "value": 31,
+          "rank": 16,
+          "artist": "The Beatles",
+          "year": "2000"
+        },
+        {
+          "id": "adele-21",
+          "value": 31,
+          "rank": 17,
+          "artist": "Adele",
+          "year": "2011"
+        },
+        {
+          "id": "celine-dion-let-s-talk-about-love",
+          "value": 31,
+          "rank": 18,
+          "artist": "Celine Dion",
+          "year": "1997"
+        },
+        {
+          "id": "metallica-metallica",
+          "value": 31,
+          "rank": 19,
+          "artist": "Metallica",
+          "year": "1991"
+        },
+        {
+          "id": "the-beatles-abbey-road",
+          "value": 30,
+          "rank": 20,
+          "artist": "The Beatles",
+          "year": "1969"
+        }
+      ]
+    },
+    {
+      "date": "2024",
+      "values": [
+        {
+          "id": "michael-jackson-thriller",
+          "value": 70,
+          "rank": 1,
+          "artist": "Michael Jackson",
+          "year": "1982"
+        },
+        {
+          "id": "ac-dc-back-in-black",
+          "value": 50,
+          "rank": 2,
+          "artist": "AC/DC",
+          "year": "1980"
+        },
+        {
+          "id": "whitney-houston-various-artists-the-bodyguard",
+          "value": 45,
+          "rank": 3,
+          "artist": "Whitney Houston / Various artists",
+          "year": "1992"
+        },
+        {
+          "id": "pink-floyd-the-dark-side-of-the-moon",
+          "value": 45,
+          "rank": 4,
+          "artist": "Pink Floyd",
+          "year": "1973"
+        },
+        {
+          "id": "eagles-their-greatest-hits-1971-1975",
+          "value": 44,
+          "rank": 5,
+          "artist": "Eagles",
+          "year": "1976"
+        },
+        {
+          "id": "meat-loaf-bat-out-of-hell",
+          "value": 43,
+          "rank": 6,
+          "artist": "Meat Loaf",
+          "year": "1977"
+        },
+        {
+          "id": "eagles-hotel-california",
+          "value": 42,
+          "rank": 7,
+          "artist": "Eagles",
+          "year": "1976"
+        },
+        {
+          "id": "shania-twain-come-on-over",
+          "value": 40,
+          "rank": 8,
+          "artist": "Shania Twain",
+          "year": "1997"
+        },
+        {
+          "id": "fleetwood-mac-rumours",
+          "value": 40,
+          "rank": 9,
+          "artist": "Fleetwood Mac",
+          "year": "1977"
+        },
+        {
+          "id": "bee-gees-various-artists-saturday-night-fever",
+          "value": 40,
+          "rank": 10,
+          "artist": "Bee Gees / Various artists",
+          "year": "1977"
+        },
+        {
+          "id": "led-zeppelin-led-zeppelin-iv",
+          "value": 37,
+          "rank": 11,
+          "artist": "Led Zeppelin",
+          "year": "1971"
+        },
+        {
+          "id": "michael-jackson-bad",
+          "value": 35,
+          "rank": 12,
+          "artist": "Michael Jackson",
+          "year": "1987"
+        },
+        {
+          "id": "alanis-morissette-jagged-little-pill",
+          "value": 33,
+          "rank": 13,
+          "artist": "Alanis Morissette",
+          "year": "1995"
+        },
+        {
+          "id": "various-artists-dirty-dancing",
+          "value": 32,
+          "rank": 14,
+          "artist": "Various artists",
+          "year": "1987"
+        },
+        {
+          "id": "celine-dion-falling-into-you",
+          "value": 32,
+          "rank": 15,
+          "artist": "Celine Dion",
+          "year": "1996"
+        },
+        {
+          "id": "the-beatles-1",
+          "value": 31,
+          "rank": 16,
+          "artist": "The Beatles",
+          "year": "2000"
+        },
+        {
+          "id": "adele-21",
+          "value": 31,
+          "rank": 17,
+          "artist": "Adele",
+          "year": "2011"
+        },
+        {
+          "id": "celine-dion-let-s-talk-about-love",
+          "value": 31,
+          "rank": 18,
+          "artist": "Celine Dion",
+          "year": "1997"
+        },
+        {
+          "id": "metallica-metallica",
+          "value": 31,
+          "rank": 19,
+          "artist": "Metallica",
+          "year": "1991"
+        },
+        {
+          "id": "the-beatles-abbey-road",
+          "value": 30,
+          "rank": 20,
+          "artist": "The Beatles",
+          "year": "1969"
+        }
+      ]
+    },
+    {
+      "date": "2025",
+      "values": [
+        {
+          "id": "michael-jackson-thriller",
+          "value": 70,
+          "rank": 1,
+          "artist": "Michael Jackson",
+          "year": "1982"
+        },
+        {
+          "id": "ac-dc-back-in-black",
+          "value": 50,
+          "rank": 2,
+          "artist": "AC/DC",
+          "year": "1980"
+        },
+        {
+          "id": "whitney-houston-various-artists-the-bodyguard",
+          "value": 45,
+          "rank": 3,
+          "artist": "Whitney Houston / Various artists",
+          "year": "1992"
+        },
+        {
+          "id": "pink-floyd-the-dark-side-of-the-moon",
+          "value": 45,
+          "rank": 4,
+          "artist": "Pink Floyd",
+          "year": "1973"
+        },
+        {
+          "id": "eagles-their-greatest-hits-1971-1975",
+          "value": 44,
+          "rank": 5,
+          "artist": "Eagles",
+          "year": "1976"
+        },
+        {
+          "id": "meat-loaf-bat-out-of-hell",
+          "value": 43,
+          "rank": 6,
+          "artist": "Meat Loaf",
+          "year": "1977"
+        },
+        {
+          "id": "eagles-hotel-california",
+          "value": 42,
+          "rank": 7,
+          "artist": "Eagles",
+          "year": "1976"
+        },
+        {
+          "id": "shania-twain-come-on-over",
+          "value": 40,
+          "rank": 8,
+          "artist": "Shania Twain",
+          "year": "1997"
+        },
+        {
+          "id": "fleetwood-mac-rumours",
+          "value": 40,
+          "rank": 9,
+          "artist": "Fleetwood Mac",
+          "year": "1977"
+        },
+        {
+          "id": "bee-gees-various-artists-saturday-night-fever",
+          "value": 40,
+          "rank": 10,
+          "artist": "Bee Gees / Various artists",
+          "year": "1977"
+        },
+        {
+          "id": "led-zeppelin-led-zeppelin-iv",
+          "value": 37,
+          "rank": 11,
+          "artist": "Led Zeppelin",
+          "year": "1971"
+        },
+        {
+          "id": "michael-jackson-bad",
+          "value": 35,
+          "rank": 12,
+          "artist": "Michael Jackson",
+          "year": "1987"
+        },
+        {
+          "id": "alanis-morissette-jagged-little-pill",
+          "value": 33,
+          "rank": 13,
+          "artist": "Alanis Morissette",
+          "year": "1995"
+        },
+        {
+          "id": "michael-jackson-dangerous",
+          "value": 32,
+          "rank": 14,
+          "artist": "Michael Jackson",
+          "year": "1991"
+        },
+        {
+          "id": "various-artists-dirty-dancing",
+          "value": 32,
+          "rank": 15,
+          "artist": "Various artists",
+          "year": "1987"
+        },
+        {
+          "id": "celine-dion-falling-into-you",
+          "value": 32,
+          "rank": 16,
+          "artist": "Celine Dion",
+          "year": "1996"
+        },
+        {
+          "id": "the-beatles-1",
+          "value": 31,
+          "rank": 17,
+          "artist": "The Beatles",
+          "year": "2000"
+        },
+        {
+          "id": "adele-21",
+          "value": 31,
+          "rank": 18,
+          "artist": "Adele",
+          "year": "2011"
+        },
+        {
+          "id": "celine-dion-let-s-talk-about-love",
+          "value": 31,
+          "rank": 19,
+          "artist": "Celine Dion",
+          "year": "1997"
+        },
+        {
+          "id": "metallica-metallica",
+          "value": 31,
+          "rank": 20,
+          "artist": "Metallica",
+          "year": "1991"
+        }
+      ]
+    },
+    {
+      "date": "2026",
+      "values": [
+        {
+          "id": "michael-jackson-thriller",
+          "value": 70,
+          "rank": 1,
+          "artist": "Michael Jackson",
+          "year": "1982"
+        },
+        {
+          "id": "ac-dc-back-in-black",
+          "value": 50,
+          "rank": 2,
+          "artist": "AC/DC",
+          "year": "1980"
+        },
+        {
+          "id": "whitney-houston-various-artists-the-bodyguard",
+          "value": 45,
+          "rank": 3,
+          "artist": "Whitney Houston / Various artists",
+          "year": "1992"
+        },
+        {
+          "id": "pink-floyd-the-dark-side-of-the-moon",
+          "value": 45,
+          "rank": 4,
+          "artist": "Pink Floyd",
+          "year": "1973"
+        },
+        {
+          "id": "eagles-their-greatest-hits-1971-1975",
+          "value": 44,
+          "rank": 5,
+          "artist": "Eagles",
+          "year": "1976"
+        },
+        {
+          "id": "eagles-hotel-california",
+          "value": 42,
+          "rank": 6,
+          "artist": "Eagles",
+          "year": "1976"
+        },
+        {
+          "id": "shania-twain-come-on-over",
+          "value": 40,
+          "rank": 7,
+          "artist": "Shania Twain",
+          "year": "1997"
+        },
+        {
+          "id": "fleetwood-mac-rumours",
+          "value": 40,
+          "rank": 8,
+          "artist": "Fleetwood Mac",
+          "year": "1977"
+        },
+        {
+          "id": "meat-loaf-bat-out-of-hell",
+          "value": 40,
+          "rank": 9,
+          "artist": "Meat Loaf",
+          "year": "1977"
+        },
+        {
+          "id": "bee-gees-various-artists-saturday-night-fever",
+          "value": 40,
+          "rank": 10,
+          "artist": "Bee Gees / Various artists",
+          "year": "1977"
+        },
+        {
+          "id": "led-zeppelin-led-zeppelin-iv",
+          "value": 37,
+          "rank": 11,
+          "artist": "Led Zeppelin",
+          "year": "1971"
+        },
+        {
+          "id": "michael-jackson-bad",
+          "value": 35,
+          "rank": 12,
+          "artist": "Michael Jackson",
+          "year": "1987"
+        },
+        {
+          "id": "alanis-morissette-jagged-little-pill",
+          "value": 33,
+          "rank": 13,
+          "artist": "Alanis Morissette",
+          "year": "1995"
+        },
+        {
+          "id": "various-artists-dirty-dancing",
+          "value": 32,
+          "rank": 14,
+          "artist": "Various artists",
+          "year": "1987"
+        },
+        {
+          "id": "celine-dion-falling-into-you",
+          "value": 32,
+          "rank": 15,
+          "artist": "Celine Dion",
+          "year": "1996"
+        },
+        {
+          "id": "michael-jackson-dangerous",
+          "value": 32,
+          "rank": 16,
+          "artist": "Michael Jackson",
+          "year": "1991"
+        },
+        {
+          "id": "adele-21",
+          "value": 31,
+          "rank": 17,
+          "artist": "Adele",
+          "year": "2011"
+        },
+        {
+          "id": "the-beatles-1",
+          "value": 31,
+          "rank": 18,
+          "artist": "The Beatles",
+          "year": "2000"
+        },
+        {
+          "id": "metallica-metallica",
+          "value": 31,
+          "rank": 19,
+          "artist": "Metallica",
+          "year": "1991"
+        },
+        {
+          "id": "celine-dion-let-s-talk-about-love",
+          "value": 31,
+          "rank": 20,
+          "artist": "Celine Dion",
+          "year": "1997"
+        },
+        {
+          "id": "mariah-carey-music-box",
+          "value": 30,
+          "rank": 21,
+          "artist": "Mariah Carey",
+          "year": "1993"
+        },
+        {
+          "id": "the-beatles-sgt-pepper-s-lonely-hearts-club-band",
+          "value": 30,
+          "rank": 22,
+          "artist": "The Beatles",
+          "year": "1967"
+        },
+        {
+          "id": "the-beatles-abbey-road",
+          "value": 30,
+          "rank": 23,
+          "artist": "The Beatles",
+          "year": "1969"
+        },
+        {
+          "id": "various-artists-grease-the-original-soundtrack-from-the-motion-p",
+          "value": 28,
+          "rank": 24,
+          "artist": "Various artists",
+          "year": "1978"
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "date": "2010",
+      "title": "Thriller leads in 2010",
+      "body": "Thriller (Michael Jackson) tops this frame with about 110 million claimed copies."
+    },
+    {
+      "date": "2018",
+      "title": "Thriller leads in 2018",
+      "body": "Thriller (Michael Jackson) tops this frame with about 66 million claimed copies."
+    },
+    {
+      "date": "2026",
+      "title": "Thriller leads in 2026",
+      "body": "Thriller (Michael Jackson) tops this frame with about 70 million claimed copies."
+    }
+  ],
+  "sources": [
+    {
+      "title": "List of best-selling albums",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_best-selling_albums",
+      "note": "Live source table of all-time best-selling albums by claimed worldwide sales."
+    },
+    {
+      "title": "List of best-selling albums (archived captures)",
+      "publisher": "Internet Archive Wayback Machine",
+      "url": "https://web.archive.org/web/https://en.wikipedia.org/wiki/List_of_best-selling_albums",
+      "note": "Annual archived captures (2010-2025) used to reconstruct historical rank movement."
+    }
+  ],
+  "historicalCoverageStart": "2010",
+  "historicalCoverageEnd": "2025",
+  "historicalGranularity": "annual",
+  "backfillSource": "Wikipedia \"List of best-selling albums\" annual Wayback Machine captures (2010–2025)",
+  "backfillGeneratedAt": "2026-07-22T17:40:12.690Z",
+  "historical": {
+    "coverageStart": "2010",
+    "coverageEnd": "2025",
+    "granularity": "annual",
+    "source": "Wikipedia \"List of best-selling albums\" annual Wayback Machine captures (2010–2025)",
+    "generatedAt": "2026-07-22T17:40:12.690Z",
+    "frameCount": 16,
+    "maxFrames": 20,
+    "maxPublicFrames": 24,
+    "notes": [
+      "Frames reconstructed from one Internet Archive capture of the Wikipedia 'List of best-selling albums' page per year, 2010-2025.",
+      "value = editors' claimed worldwide sales in millions. Rank movement is real: e.g. Thriller's claimed figure was revised 110M (2010-12) -> 51M (2013-15) -> 65-70M (2016-25).",
+      "Each frame shows the top ~20 albums by claimed sales; 25 distinct albums appear across the frames, so entityLimit is set to 25 to keep older frames populated and fill a clean 5x5 sprite atlas."
+    ]
+  },
+  "lastObservationDate": "2026",
+  "dataFreshness": {
+    "status": "fresh",
+    "refreshCadence": "monthly",
+    "lastUpdated": "2026-09-01T08:03:08.299Z",
+    "lastRefreshAttemptedAt": "2026-09-01T08:03:08.299Z",
+    "lastRefreshError": null,
+    "lastObservationDate": "2026",
+    "nextRefreshAt": "2026-10-01T08:00:00.000Z",
+    "sourceStatus": "Wikipedia current best-selling albums table, over Wayback Machine annual history",
+    "confidence": "Live Wikipedia 'List of best-selling albums' table observed 2026-09-01T08:03:08.299Z, appended to real annual history reconstructed from Wayback Machine captures (2010-2025). Values are editors' claimed worldwide sales in millions of copies."
+  },
+  "media": {
+    "imageFit": "cover",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-09-01T08:03:08.299Z",
+    "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.webp",
+    "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.webp",
+    "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.json",
+    "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/best-selling-albums.json",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 5,
+    "rows": 5,
+    "width": 1600,
+    "height": 1600,
+    "itemCount": 25,
+    "sourcedImageCount": 25,
+    "generatedImageCount": 0,
+    "placeholderCount": 0,
+    "ogImageUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/best-selling-albums.png",
+    "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/best-selling-albums.png",
+    "ogImageWidth": 1200,
+    "ogImageHeight": 630
+  },
+  "taxonomy": {
+    "primaryCategory": "culture",
+    "categories": [
+      "culture",
+      "music",
+      "entertainment"
+    ],
+    "tags": [
+      "albums",
+      "music",
+      "record-sales",
+      "artists"
+    ],
+    "entityTypes": [
+      "album",
+      "artist"
+    ],
+    "sourceTypes": [
+      "wikipedia",
+      "wayback-machine"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "highest-grossing-music-tours",
+      "type": "music-demand",
+      "weight": 0.74,
+      "reason": "Both rank music blockbusters, one by recorded-album sales and one by live-touring revenue, and share many artist entities."
+    },
+    {
+      "target": "apple-music-chart-heat",
+      "type": "music-demand",
+      "weight": 0.6,
+      "reason": "Both track music popularity, one via all-time album sales and one via current streaming charts."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "music-attention",
+    "mainland": "culture",
+    "bridgePriority": [
+      "highest-grossing-music-tours",
+      "apple-music-chart-heat"
+    ]
+  },
+  "schemaVersion": 1,
+  "contentKind": "dat-city.story",
+  "generatedAt": "2026-09-01T08:03:08.299Z",
+  "versionId": "20260901T080308Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "storyops-scheduler",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-09-01T08:03:08.299Z",
+    "versionId": "20260901T080308Z",
+    "adapter": "best-selling-albums",
+    "storySlug": "best-selling-albums",
+    "districtId": null,
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "publicProjection": {
+    "kind": "story",
+    "version": 1,
+    "generatedAt": "2026-09-01T08:03:08.299Z",
+    "adapter": "best-selling-albums",
+    "cache": {
+      "browserMaxAgeSeconds": 60,
+      "edgeMaxAgeSeconds": 3600
+    }
+  },
+  "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/best-selling-albums.png"
+}

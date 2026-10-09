@@ -31,3 +31,9 @@
 - Inventário integral das referências Sael, com indicação do uso de cada tema.
 - Recursos locais, cache offline, redução de movimento e alternativa sem WebGL.
 - Vite atualizado para correções de segurança na mesma versão principal.
+
+- Capturados todos os bairros, histórias e atlas do Dat City, incluindo dependências carregadas após a primeira cena. QA exige os dados originais de cada bairro e aguarda a cena real.
+
+- Preservadas as 64 páginas de histórias do Dat City e suas prévias Three.js; links antigos de atlas removidos pelo autor usam o atlas original atual, sem imagens inventadas.
+
+- Índice de histórias e sete faixas originais do rádio arquivados; navegação permanece local.

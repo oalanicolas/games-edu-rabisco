@@ -1,0 +1,464 @@
+{
+  "schemaVersion": 1,
+  "contentKind": "dat-city.district",
+  "version": 1,
+  "generatedAt": "2026-09-01T18:01:03.419Z",
+  "versionId": "20260901T180103Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "storyops-scheduler",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-09-01T18:01:03.419Z",
+    "versionId": "20260901T180103Z",
+    "adapter": null,
+    "storySlug": "what-everyone-is-watching",
+    "districtId": "culture-wire",
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "id": "culture-wire",
+  "name": "Streaming Watch District",
+  "storySlug": "what-everyone-is-watching",
+  "storyUrl": "/stories/what-everyone-is-watching/",
+  "publicStoryUrl": "/stories/what-everyone-is-watching.json",
+  "metric": "Weekly views",
+  "metricKey": "weekly-views",
+  "latestFrameLabel": "Week ending 2026-06-28",
+  "summary": "Netflix-style weekly Top 10 titles by views, with country-level and global entertainment shifts.",
+  "taxonomy": {
+    "primaryCategory": "entertainment",
+    "categories": [
+      "entertainment",
+      "streaming",
+      "media"
+    ],
+    "tags": [
+      "netflix",
+      "top-10",
+      "views",
+      "films"
+    ],
+    "entityTypes": [
+      "title",
+      "film",
+      "show"
+    ],
+    "sourceTypes": [
+      "netflix"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "anime-rankings",
+      "type": "screen-entertainment",
+      "weight": 0.7,
+      "reason": "Both rank screen entertainment titles."
+    },
+    {
+      "target": "games-people-are-playing",
+      "type": "attention-entertainment",
+      "weight": 0.58,
+      "reason": "Both represent leisure attention around media products."
+    },
+    {
+      "target": "internet-obsession-meter",
+      "type": "culture-trends",
+      "weight": 0.68,
+      "reason": "Popular streaming titles often overlap with web attention spikes."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "screen-entertainment",
+    "mainland": "culture",
+    "bridgePriority": [
+      "anime-rankings",
+      "internet-obsession-meter"
+    ]
+  },
+  "thumbnail": "/assets/og/dat-city.webp",
+  "status": "stale",
+  "dataUpdatedAt": "2026-07-01T07:17:51.863Z",
+  "staleAfterHours": 192,
+  "dormant": false,
+  "lastObservationDate": "2026-06-28",
+  "nextRefreshAt": "2026-09-08T18:00:00.000Z",
+  "confidence": "Observed Netflix global Films (English) Top 10 weekly views through week ending 2026-06-28. Latest frame is rank-matched to the source table.",
+  "methodology": "This story is generated from Netflix's public all-weeks global Top 10 TSV for Films (English). The latest frame mirrors the source Top 10 rows for the configured category and week; prior frames show those same current Top 10 titles when they appeared in the preceding weeks. Facade artwork uses Netflix Tudum's public Top 10 card image when available, cropped to a portrait atlas tile; poster and boxshot URLs are retained as secondary reference artwork.",
+  "sources": [
+    {
+      "title": "Netflix Top 10",
+      "publisher": "Netflix",
+      "url": "https://top10.netflix.com/",
+      "note": "Official weekly chart source for the production adapter's global Top 10 frames."
+    }
+  ],
+  "media": {
+    "tileWidth": 320,
+    "tileHeight": 480,
+    "imageFit": "cover",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-09-01T18:01:03.419Z",
+    "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+    "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+    "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+    "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+    "tileSize": 320,
+    "tileAspectRatio": 0.666667,
+    "columns": 6,
+    "rows": 5,
+    "width": 1920,
+    "height": 2400,
+    "itemCount": 29,
+    "sourcedImageCount": 10,
+    "generatedImageCount": 19,
+    "placeholderCount": 0,
+    "ogImageUrl": "https://story-data.dat.city/story-data/versions/20260701T071751Z/og/stories/what-everyone-is-watching.png",
+    "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260701T071751Z/og/stories/what-everyone-is-watching.png",
+    "ogImageWidth": 1200,
+    "ogImageHeight": 630
+  },
+  "entities": [
+    {
+      "id": "voicemails-for-isabelle",
+      "name": "Voicemails for Isabelle",
+      "value": 31000000,
+      "rank": 1,
+      "color": "#ff5a61",
+      "image": "https://dnm.nflximg.net/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABeikZ_fbJV8LJzExsdrV8_PaGEpZqR9SqoTJRCr7Dfllb-Of_y025ZSMIr1nagvweKF54ScdEk5HbFdNBqhEVDtbAPhhbS9WxPMj.jpg?r=7b6",
+      "storyUrl": "/stories/what-everyone-is-watching/",
+      "sourceIds": [
+        "Netflix Top 10"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 480,
+          "aspectRatio": 0.666667,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.166667,
+          "v1": 0.2
+        },
+        "image": {
+          "sourceUrl": "https://dnm.nflximg.net/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABeikZ_fbJV8LJzExsdrV8_PaGEpZqR9SqoTJRCr7Dfllb-Of_y025ZSMIr1nagvweKF54ScdEk5HbFdNBqhEVDtbAPhhbS9WxPMj.jpg?r=7b6",
+          "sourceStatus": "source-image",
+          "sourceProvider": "netflix-top10-card"
+        }
+      }
+    },
+    {
+      "id": "little-brother",
+      "name": "Little Brother",
+      "value": 14000000,
+      "rank": 2,
+      "color": "#18c871",
+      "image": "https://dnm.nflximg.net/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABayT09SIuP5A0TyPgai6eho2DElWqF5C-mFKJf-rf8PAERuTTm4WnQj94AclD44QtXgYCDbQ8YREOJkKxjPzsUxhJvHqkuGoaBv9.jpg?r=9ce",
+      "storyUrl": "/stories/what-everyone-is-watching/",
+      "sourceIds": [
+        "Netflix Top 10"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 480,
+          "aspectRatio": 0.666667,
+          "u0": 0.166667,
+          "v0": 0,
+          "u1": 0.333333,
+          "v1": 0.2
+        },
+        "image": {
+          "sourceUrl": "https://dnm.nflximg.net/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABayT09SIuP5A0TyPgai6eho2DElWqF5C-mFKJf-rf8PAERuTTm4WnQj94AclD44QtXgYCDbQ8YREOJkKxjPzsUxhJvHqkuGoaBv9.jpg?r=9ce",
+          "sourceStatus": "source-image",
+          "sourceProvider": "netflix-top10-card"
+        }
+      }
+    },
+    {
+      "id": "maternal-instinct",
+      "name": "Maternal Instinct",
+      "value": 8500000,
+      "rank": 3,
+      "color": "#ffc84a",
+      "image": "https://dnm.nflximg.net/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABbVIMRUsd_Jkpzpg0qBi4YXtkGvI4KRoxxECV6TcwykO14X-K6ptr6SHKaPm77WVaizB6EZzClZZt-17cUnMzXaCdh6Whpl3XhY0.jpg?r=100",
+      "storyUrl": "/stories/what-everyone-is-watching/",
+      "sourceIds": [
+        "Netflix Top 10"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 480,
+          "aspectRatio": 0.666667,
+          "u0": 0.333333,
+          "v0": 0,
+          "u1": 0.5,
+          "v1": 0.2
+        },
+        "image": {
+          "sourceUrl": "https://dnm.nflximg.net/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABbVIMRUsd_Jkpzpg0qBi4YXtkGvI4KRoxxECV6TcwykO14X-K6ptr6SHKaPm77WVaizB6EZzClZZt-17cUnMzXaCdh6Whpl3XhY0.jpg?r=100",
+          "sourceStatus": "source-image",
+          "sourceProvider": "netflix-top10-card"
+        }
+      }
+    },
+    {
+      "id": "swapped",
+      "name": "Swapped",
+      "value": 4600000,
+      "rank": 4,
+      "color": "#00a6ff",
+      "image": "https://dnm.nflximg.net/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABY93n8wGBJUM7lzbRYKQ2FsUMK6ewam_L0hbjhhX2Qp4ntkC1LkYUVSvV6Ua_LAKjq_QMbARoNHS4THyiGOnSzZHhx8t_vZj2A9N.jpg?r=f82",
+      "storyUrl": "/stories/what-everyone-is-watching/",
+      "sourceIds": [
+        "Netflix Top 10"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 480,
+          "aspectRatio": 0.666667,
+          "u0": 0.5,
+          "v0": 0,
+          "u1": 0.666667,
+          "v1": 0.2
+        },
+        "image": {
+          "sourceUrl": "https://dnm.nflximg.net/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABY93n8wGBJUM7lzbRYKQ2FsUMK6ewam_L0hbjhhX2Qp4ntkC1LkYUVSvV6Ua_LAKjq_QMbARoNHS4THyiGOnSzZHhx8t_vZj2A9N.jpg?r=f82",
+          "sourceStatus": "source-image",
+          "sourceProvider": "netflix-top10-card"
+        }
+      }
+    },
+    {
+      "id": "office-romance",
+      "name": "Office Romance",
+      "value": 4300000,
+      "rank": 5,
+      "color": "#8f6bff",
+      "image": "https://dnm.nflximg.net/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABSLE99mKBjTrK3acYtPxmAiEMSwMcrNfc-G86QxHvu4pT-qeaC-5QCd4dOCs0gNa6NfJHQQAf58Gq70_wiMZalQ36zn1GInyVqsq.jpg?r=747",
+      "storyUrl": "/stories/what-everyone-is-watching/",
+      "sourceIds": [
+        "Netflix Top 10"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "x": 1280,
+          "y": 0,
+          "width": 320,
+          "height": 480,
+          "aspectRatio": 0.666667,
+          "u0": 0.666667,
+          "v0": 0,
+          "u1": 0.833333,
+          "v1": 0.2
+        },
+        "image": {
+          "sourceUrl": "https://dnm.nflximg.net/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABSLE99mKBjTrK3acYtPxmAiEMSwMcrNfc-G86QxHvu4pT-qeaC-5QCd4dOCs0gNa6NfJHQQAf58Gq70_wiMZalQ36zn1GInyVqsq.jpg?r=747",
+          "sourceStatus": "source-image",
+          "sourceProvider": "netflix-top10-card"
+        }
+      }
+    },
+    {
+      "id": "kpop-demon-hunters",
+      "name": "KPop Demon Hunters",
+      "value": 3800000,
+      "rank": 6,
+      "color": "#f18c4f",
+      "image": "https://dnm.nflximg.net/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABeKUv0SD_U6cZTjamXsfkdCqOJ5I0Tm0gQBHIxXe1zerjb5vqEHrSnwGaOyCGobgkUr_rk4zwadhQc8EXar20dGutosyCJmpMcOE.jpg?r=983",
+      "storyUrl": "/stories/what-everyone-is-watching/",
+      "sourceIds": [
+        "Netflix Top 10"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "x": 1600,
+          "y": 0,
+          "width": 320,
+          "height": 480,
+          "aspectRatio": 0.666667,
+          "u0": 0.833333,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.2
+        },
+        "image": {
+          "sourceUrl": "https://dnm.nflximg.net/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABeKUv0SD_U6cZTjamXsfkdCqOJ5I0Tm0gQBHIxXe1zerjb5vqEHrSnwGaOyCGobgkUr_rk4zwadhQc8EXar20dGutosyCJmpMcOE.jpg?r=983",
+          "sourceStatus": "source-image",
+          "sourceProvider": "netflix-top10-card"
+        }
+      }
+    },
+    {
+      "id": "the-contractor",
+      "name": "The Contractor",
+      "value": 3600000,
+      "rank": 7,
+      "color": "#41a99f",
+      "image": "https://dnm.nflximg.net/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABW6xSR6ROXMXp5q5xWWKSJBFAh9FjCH2mF1aNCA55jy2plGA2DNvZh44zUrqMGsaOPNc_LjGFcbnaYsaZmJ59LsrBotsJK79548o.jpg?r=df2",
+      "storyUrl": "/stories/what-everyone-is-watching/",
+      "sourceIds": [
+        "Netflix Top 10"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "x": 0,
+          "y": 480,
+          "width": 320,
+          "height": 480,
+          "aspectRatio": 0.666667,
+          "u0": 0,
+          "v0": 0.2,
+          "u1": 0.166667,
+          "v1": 0.4
+        },
+        "image": {
+          "sourceUrl": "https://dnm.nflximg.net/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABW6xSR6ROXMXp5q5xWWKSJBFAh9FjCH2mF1aNCA55jy2plGA2DNvZh44zUrqMGsaOPNc_LjGFcbnaYsaZmJ59LsrBotsJK79548o.jpg?r=df2",
+          "sourceStatus": "source-image",
+          "sourceProvider": "netflix-top10-card"
+        }
+      }
+    },
+    {
+      "id": "turbo",
+      "name": "Turbo",
+      "value": 3400000,
+      "rank": 8,
+      "color": "#d78fca",
+      "image": "https://dnm.nflximg.net/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABTMP6XESa-XGA-oEwulWPKTDysWZzGhuqiNlb-Wqw8prSJBojbK831ryjudhYLVlN_FuPU3awRNDeXdkCK0Nk5py5Al2m1Wej5qj.jpg?r=87c",
+      "storyUrl": "/stories/what-everyone-is-watching/",
+      "sourceIds": [
+        "Netflix Top 10"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "x": 320,
+          "y": 480,
+          "width": 320,
+          "height": 480,
+          "aspectRatio": 0.666667,
+          "u0": 0.166667,
+          "v0": 0.2,
+          "u1": 0.333333,
+          "v1": 0.4
+        },
+        "image": {
+          "sourceUrl": "https://dnm.nflximg.net/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABTMP6XESa-XGA-oEwulWPKTDysWZzGhuqiNlb-Wqw8prSJBojbK831ryjudhYLVlN_FuPU3awRNDeXdkCK0Nk5py5Al2m1Wej5qj.jpg?r=87c",
+          "sourceStatus": "source-image",
+          "sourceProvider": "netflix-top10-card"
+        }
+      }
+    },
+    {
+      "id": "the-creator",
+      "name": "The Creator",
+      "value": 3200000,
+      "rank": 9,
+      "color": "#7b9b65",
+      "image": "https://dnm.nflximg.net/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABV8oDdfuyL6YRSS1QIDpi9gXUXOIYmECYVgKtV55vYtFbbwwV3e4YyO7hEHGdMsSUb0HOXSW_A4lqXg00JmO3nD-4nLkhWamZ_Ir.jpg?r=4eb",
+      "storyUrl": "/stories/what-everyone-is-watching/",
+      "sourceIds": [
+        "Netflix Top 10"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "x": 640,
+          "y": 480,
+          "width": 320,
+          "height": 480,
+          "aspectRatio": 0.666667,
+          "u0": 0.333333,
+          "v0": 0.2,
+          "u1": 0.5,
+          "v1": 0.4
+        },
+        "image": {
+          "sourceUrl": "https://dnm.nflximg.net/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABV8oDdfuyL6YRSS1QIDpi9gXUXOIYmECYVgKtV55vYtFbbwwV3e4YyO7hEHGdMsSUb0HOXSW_A4lqXg00JmO3nD-4nLkhWamZ_Ir.jpg?r=4eb",
+          "sourceStatus": "source-image",
+          "sourceProvider": "netflix-top10-card"
+        }
+      }
+    },
+    {
+      "id": "5lbs-of-pressure",
+      "name": "5lbs of Pressure",
+      "value": 2700000,
+      "rank": 10,
+      "color": "#2f4858",
+      "image": "https://dnm.nflximg.net/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABUr9uWONo46MigDKWVR9KGJQ1YCoxhUc5UUDQvG6pmPEhhXb9w2ah2vKo0QiipRDafRBWbFfa3Lp6kOeTK_ztL-g8wog2YSTyqRr.jpg?r=750",
+      "storyUrl": "/stories/what-everyone-is-watching/",
+      "sourceIds": [
+        "Netflix Top 10"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/what-everyone-is-watching.json",
+          "x": 960,
+          "y": 480,
+          "width": 320,
+          "height": 480,
+          "aspectRatio": 0.666667,
+          "u0": 0.5,
+          "v0": 0.2,
+          "u1": 0.666667,
+          "v1": 0.4
+        },
+        "image": {
+          "sourceUrl": "https://dnm.nflximg.net/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABUr9uWONo46MigDKWVR9KGJQ1YCoxhUc5UUDQvG6pmPEhhXb9w2ah2vKo0QiipRDafRBWbFfa3Lp6kOeTK_ztL-g8wog2YSTyqRr.jpg?r=750",
+          "sourceStatus": "source-image",
+          "sourceProvider": "netflix-top10-card"
+        }
+      }
+    }
+  ]
+}

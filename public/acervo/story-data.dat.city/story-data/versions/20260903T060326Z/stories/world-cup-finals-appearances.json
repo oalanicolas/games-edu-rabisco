@@ -1,0 +1,2255 @@
+{
+  "id": "world-cup-finals-appearances",
+  "kicker": "World Cup Record Book",
+  "title": "World Cup Final Appearances",
+  "subtitle": "A finals-stage skyline for national teams that repeatedly reached the last match.",
+  "badge": "Ranked by final appearances",
+  "visualization": "race-arena",
+  "theme": "stadium",
+  "artStyle": "stylized-editorial",
+  "dateRange": [
+    "1930",
+    "2026"
+  ],
+  "metricLabel": "Final appearances",
+  "valueFormat": "integer",
+  "ogImage": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/world-cup-finals-appearances.png",
+  "cityPreview": {
+    "districtId": "world-cup-finals-row",
+    "districtName": "World Cup Finals Row",
+    "cardLabel": "Finals Appearances",
+    "summary": "The nations that kept making the men's World Cup final, including winners and runners-up.",
+    "primaryMetric": "Final appearances",
+    "latestFrameLabel": "Through the 2026 final",
+    "storyUrl": "/stories/world-cup-finals-appearances/",
+    "thumbnail": "/assets/og/dat-city.webp"
+  },
+  "sourceStatus": "FIFA/Wikipedia final match table through the 2026 final",
+  "confidence": "Final appearance counts include champions and runners-up through the 2026 final (Spain 1-0 Argentina).",
+  "methodology": "The adapter walks every men's World Cup final and accumulates appearances for both finalists.",
+  "playback": {
+    "durationSeconds": 28,
+    "initialDate": "1930",
+    "periodLabel": "final appearances"
+  },
+  "visual": {
+    "topCount": 16,
+    "referenceCount": 16,
+    "horizontalCount": 16
+  },
+  "layers": [
+    {
+      "id": "finals",
+      "label": "Finals",
+      "default": true
+    }
+  ],
+  "focus": [
+    {
+      "id": "uruguay",
+      "label": "Uruguay"
+    },
+    {
+      "id": "argentina",
+      "label": "Argentina"
+    },
+    {
+      "id": "italy",
+      "label": "Italy"
+    },
+    {
+      "id": "czechia",
+      "label": "Czechoslovakia/Czechia"
+    }
+  ],
+  "entities": [
+    {
+      "avatarText": "U",
+      "color": "#18c871",
+      "id": "uruguay",
+      "name": "Uruguay",
+      "shortName": "Uruguay",
+      "imageUrl": "https://flagcdn.com/w320/uy.png",
+      "thumbnailUrl": null,
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.json",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.25,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://flagcdn.com/w320/uy.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "avatarText": "A",
+      "color": "#ffc84a",
+      "id": "argentina",
+      "name": "Argentina",
+      "shortName": "Argentina",
+      "imageUrl": "https://flagcdn.com/w320/ar.png",
+      "thumbnailUrl": null,
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.json",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0,
+          "u1": 0.5,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://flagcdn.com/w320/ar.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "avatarText": "I",
+      "color": "#00a6ff",
+      "id": "italy",
+      "name": "Italy",
+      "shortName": "Italy",
+      "imageUrl": "https://flagcdn.com/w320/it.png",
+      "thumbnailUrl": null,
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.json",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0,
+          "u1": 0.75,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://flagcdn.com/w320/it.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "avatarText": "C",
+      "color": "#f3f7f0",
+      "id": "czechia",
+      "name": "Czechoslovakia/Czechia",
+      "shortName": "Czechoslovakia/Czechia",
+      "imageUrl": "https://flagcdn.com/w320/cz.png",
+      "thumbnailUrl": null,
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.json",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://flagcdn.com/w320/cz.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "avatarText": "H",
+      "color": "#ff5a61",
+      "id": "hungary",
+      "name": "Hungary",
+      "shortName": "Hungary",
+      "imageUrl": "https://flagcdn.com/w320/hu.png",
+      "thumbnailUrl": null,
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.json",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.25,
+          "u1": 0.25,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://flagcdn.com/w320/hu.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "avatarText": "B",
+      "color": "#41a99f",
+      "id": "brazil",
+      "name": "Brazil",
+      "shortName": "Brazil",
+      "imageUrl": "https://flagcdn.com/w320/br.png",
+      "thumbnailUrl": null,
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.json",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.25,
+          "u1": 0.5,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://flagcdn.com/w320/br.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "avatarText": "G",
+      "color": "#86bdf4",
+      "id": "germany",
+      "name": "Germany",
+      "shortName": "Germany",
+      "imageUrl": "https://flagcdn.com/w320/de.png",
+      "thumbnailUrl": null,
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.json",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.25,
+          "u1": 0.75,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://flagcdn.com/w320/de.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "avatarText": "S",
+      "color": "#f18c4f",
+      "id": "sweden",
+      "name": "Sweden",
+      "shortName": "Sweden",
+      "imageUrl": "https://flagcdn.com/w320/se.png",
+      "thumbnailUrl": null,
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.json",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.25,
+          "u1": 1,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://flagcdn.com/w320/se.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "avatarText": "E",
+      "color": "#2f4858",
+      "id": "england",
+      "name": "England",
+      "shortName": "England",
+      "imageUrl": "https://flagcdn.com/w320/gb-eng.png",
+      "thumbnailUrl": null,
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.json",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.5,
+          "u1": 0.25,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://flagcdn.com/w320/gb-eng.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "avatarText": "N",
+      "color": "#c9a14a",
+      "id": "netherlands",
+      "name": "Netherlands",
+      "shortName": "Netherlands",
+      "imageUrl": "https://flagcdn.com/w320/nl.png",
+      "thumbnailUrl": null,
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.json",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.5,
+          "u1": 0.5,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://flagcdn.com/w320/nl.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "avatarText": "F",
+      "color": "#ef426f",
+      "id": "france",
+      "name": "France",
+      "shortName": "France",
+      "imageUrl": "https://flagcdn.com/w320/fr.png",
+      "thumbnailUrl": null,
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.json",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.5,
+          "u1": 0.75,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://flagcdn.com/w320/fr.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "avatarText": "S",
+      "color": "#7b9b65",
+      "id": "spain",
+      "name": "Spain",
+      "shortName": "Spain",
+      "imageUrl": "https://flagcdn.com/w320/es.png",
+      "thumbnailUrl": null,
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.json",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.5,
+          "u1": 1,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://flagcdn.com/w320/es.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "avatarText": "C",
+      "color": "#18c871",
+      "id": "croatia",
+      "name": "Croatia",
+      "shortName": "Croatia",
+      "imageUrl": "https://flagcdn.com/w320/hr.png",
+      "thumbnailUrl": null,
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.json",
+          "x": 0,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.75,
+          "u1": 0.25,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://flagcdn.com/w320/hr.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    }
+  ],
+  "frames": [
+    {
+      "date": "1930",
+      "values": [
+        {
+          "id": "uruguay",
+          "value": 1,
+          "champion": true,
+          "runnerUp": false,
+          "rank": 1
+        },
+        {
+          "id": "argentina",
+          "value": 1,
+          "champion": false,
+          "runnerUp": true,
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "date": "1934",
+      "values": [
+        {
+          "id": "uruguay",
+          "value": 1,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 1
+        },
+        {
+          "id": "argentina",
+          "value": 1,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 2
+        },
+        {
+          "id": "italy",
+          "value": 1,
+          "champion": true,
+          "runnerUp": false,
+          "rank": 3
+        },
+        {
+          "id": "czechia",
+          "value": 1,
+          "champion": false,
+          "runnerUp": true,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "date": "1938",
+      "values": [
+        {
+          "id": "uruguay",
+          "value": 1,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 2
+        },
+        {
+          "id": "argentina",
+          "value": 1,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 3
+        },
+        {
+          "id": "italy",
+          "value": 2,
+          "champion": true,
+          "runnerUp": false,
+          "rank": 1
+        },
+        {
+          "id": "czechia",
+          "value": 1,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 4
+        },
+        {
+          "id": "hungary",
+          "value": 1,
+          "champion": false,
+          "runnerUp": true,
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "date": "1950",
+      "values": [
+        {
+          "id": "uruguay",
+          "value": 2,
+          "champion": true,
+          "runnerUp": false,
+          "rank": 1
+        },
+        {
+          "id": "argentina",
+          "value": 1,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 3
+        },
+        {
+          "id": "italy",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 2
+        },
+        {
+          "id": "czechia",
+          "value": 1,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 4
+        },
+        {
+          "id": "hungary",
+          "value": 1,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 5
+        },
+        {
+          "id": "brazil",
+          "value": 1,
+          "champion": false,
+          "runnerUp": true,
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "date": "1954",
+      "values": [
+        {
+          "id": "uruguay",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 1
+        },
+        {
+          "id": "argentina",
+          "value": 1,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 4
+        },
+        {
+          "id": "italy",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 2
+        },
+        {
+          "id": "czechia",
+          "value": 1,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 5
+        },
+        {
+          "id": "hungary",
+          "value": 2,
+          "champion": false,
+          "runnerUp": true,
+          "rank": 3
+        },
+        {
+          "id": "brazil",
+          "value": 1,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 6
+        },
+        {
+          "id": "germany",
+          "value": 1,
+          "champion": true,
+          "runnerUp": false,
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "date": "1958",
+      "values": [
+        {
+          "id": "uruguay",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 1
+        },
+        {
+          "id": "argentina",
+          "value": 1,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 5
+        },
+        {
+          "id": "italy",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 2
+        },
+        {
+          "id": "czechia",
+          "value": 1,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 6
+        },
+        {
+          "id": "hungary",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 3
+        },
+        {
+          "id": "brazil",
+          "value": 2,
+          "champion": true,
+          "runnerUp": false,
+          "rank": 4
+        },
+        {
+          "id": "germany",
+          "value": 1,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 7
+        },
+        {
+          "id": "sweden",
+          "value": 1,
+          "champion": false,
+          "runnerUp": true,
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "date": "1962",
+      "values": [
+        {
+          "id": "uruguay",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 2
+        },
+        {
+          "id": "argentina",
+          "value": 1,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 6
+        },
+        {
+          "id": "italy",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 3
+        },
+        {
+          "id": "czechia",
+          "value": 2,
+          "champion": false,
+          "runnerUp": true,
+          "rank": 4
+        },
+        {
+          "id": "hungary",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 5
+        },
+        {
+          "id": "brazil",
+          "value": 3,
+          "champion": true,
+          "runnerUp": false,
+          "rank": 1
+        },
+        {
+          "id": "germany",
+          "value": 1,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 7
+        },
+        {
+          "id": "sweden",
+          "value": 1,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "date": "1966",
+      "values": [
+        {
+          "id": "uruguay",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 2
+        },
+        {
+          "id": "argentina",
+          "value": 1,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 7
+        },
+        {
+          "id": "italy",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 3
+        },
+        {
+          "id": "czechia",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 4
+        },
+        {
+          "id": "hungary",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 5
+        },
+        {
+          "id": "brazil",
+          "value": 3,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 1
+        },
+        {
+          "id": "germany",
+          "value": 2,
+          "champion": false,
+          "runnerUp": true,
+          "rank": 6
+        },
+        {
+          "id": "sweden",
+          "value": 1,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 8
+        },
+        {
+          "id": "england",
+          "value": 1,
+          "champion": true,
+          "runnerUp": false,
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "date": "1970",
+      "values": [
+        {
+          "id": "uruguay",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 3
+        },
+        {
+          "id": "argentina",
+          "value": 1,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 7
+        },
+        {
+          "id": "italy",
+          "value": 3,
+          "champion": false,
+          "runnerUp": true,
+          "rank": 2
+        },
+        {
+          "id": "czechia",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 4
+        },
+        {
+          "id": "hungary",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 5
+        },
+        {
+          "id": "brazil",
+          "value": 4,
+          "champion": true,
+          "runnerUp": false,
+          "rank": 1
+        },
+        {
+          "id": "germany",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 6
+        },
+        {
+          "id": "sweden",
+          "value": 1,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 8
+        },
+        {
+          "id": "england",
+          "value": 1,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "date": "1974",
+      "values": [
+        {
+          "id": "uruguay",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 4
+        },
+        {
+          "id": "argentina",
+          "value": 1,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 7
+        },
+        {
+          "id": "italy",
+          "value": 3,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 2
+        },
+        {
+          "id": "czechia",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 5
+        },
+        {
+          "id": "hungary",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 6
+        },
+        {
+          "id": "brazil",
+          "value": 4,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 1
+        },
+        {
+          "id": "germany",
+          "value": 3,
+          "champion": true,
+          "runnerUp": false,
+          "rank": 3
+        },
+        {
+          "id": "sweden",
+          "value": 1,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 8
+        },
+        {
+          "id": "england",
+          "value": 1,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 9
+        },
+        {
+          "id": "netherlands",
+          "value": 1,
+          "champion": false,
+          "runnerUp": true,
+          "rank": 10
+        }
+      ]
+    },
+    {
+      "date": "1978",
+      "values": [
+        {
+          "id": "uruguay",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 4
+        },
+        {
+          "id": "argentina",
+          "value": 2,
+          "champion": true,
+          "runnerUp": false,
+          "rank": 5
+        },
+        {
+          "id": "italy",
+          "value": 3,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 2
+        },
+        {
+          "id": "czechia",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 6
+        },
+        {
+          "id": "hungary",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 7
+        },
+        {
+          "id": "brazil",
+          "value": 4,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 1
+        },
+        {
+          "id": "germany",
+          "value": 3,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 3
+        },
+        {
+          "id": "sweden",
+          "value": 1,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 9
+        },
+        {
+          "id": "england",
+          "value": 1,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 10
+        },
+        {
+          "id": "netherlands",
+          "value": 2,
+          "champion": false,
+          "runnerUp": true,
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "date": "1982",
+      "values": [
+        {
+          "id": "uruguay",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 4
+        },
+        {
+          "id": "argentina",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 5
+        },
+        {
+          "id": "italy",
+          "value": 4,
+          "champion": true,
+          "runnerUp": false,
+          "rank": 1
+        },
+        {
+          "id": "czechia",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 6
+        },
+        {
+          "id": "hungary",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 7
+        },
+        {
+          "id": "brazil",
+          "value": 4,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 2
+        },
+        {
+          "id": "germany",
+          "value": 4,
+          "champion": false,
+          "runnerUp": true,
+          "rank": 3
+        },
+        {
+          "id": "sweden",
+          "value": 1,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 9
+        },
+        {
+          "id": "england",
+          "value": 1,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 10
+        },
+        {
+          "id": "netherlands",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "date": "1986",
+      "values": [
+        {
+          "id": "uruguay",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 5
+        },
+        {
+          "id": "argentina",
+          "value": 3,
+          "champion": true,
+          "runnerUp": false,
+          "rank": 4
+        },
+        {
+          "id": "italy",
+          "value": 4,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 2
+        },
+        {
+          "id": "czechia",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 6
+        },
+        {
+          "id": "hungary",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 7
+        },
+        {
+          "id": "brazil",
+          "value": 4,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 3
+        },
+        {
+          "id": "germany",
+          "value": 5,
+          "champion": false,
+          "runnerUp": true,
+          "rank": 1
+        },
+        {
+          "id": "sweden",
+          "value": 1,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 9
+        },
+        {
+          "id": "england",
+          "value": 1,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 10
+        },
+        {
+          "id": "netherlands",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "date": "1990",
+      "values": [
+        {
+          "id": "uruguay",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 5
+        },
+        {
+          "id": "argentina",
+          "value": 4,
+          "champion": false,
+          "runnerUp": true,
+          "rank": 2
+        },
+        {
+          "id": "italy",
+          "value": 4,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 3
+        },
+        {
+          "id": "czechia",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 6
+        },
+        {
+          "id": "hungary",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 7
+        },
+        {
+          "id": "brazil",
+          "value": 4,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 4
+        },
+        {
+          "id": "germany",
+          "value": 6,
+          "champion": true,
+          "runnerUp": false,
+          "rank": 1
+        },
+        {
+          "id": "sweden",
+          "value": 1,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 9
+        },
+        {
+          "id": "england",
+          "value": 1,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 10
+        },
+        {
+          "id": "netherlands",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "date": "1994",
+      "values": [
+        {
+          "id": "uruguay",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 5
+        },
+        {
+          "id": "argentina",
+          "value": 4,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 4
+        },
+        {
+          "id": "italy",
+          "value": 5,
+          "champion": false,
+          "runnerUp": true,
+          "rank": 2
+        },
+        {
+          "id": "czechia",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 6
+        },
+        {
+          "id": "hungary",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 7
+        },
+        {
+          "id": "brazil",
+          "value": 5,
+          "champion": true,
+          "runnerUp": false,
+          "rank": 3
+        },
+        {
+          "id": "germany",
+          "value": 6,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 1
+        },
+        {
+          "id": "sweden",
+          "value": 1,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 9
+        },
+        {
+          "id": "england",
+          "value": 1,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 10
+        },
+        {
+          "id": "netherlands",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "date": "1998",
+      "values": [
+        {
+          "id": "uruguay",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 5
+        },
+        {
+          "id": "argentina",
+          "value": 4,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 4
+        },
+        {
+          "id": "italy",
+          "value": 5,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 3
+        },
+        {
+          "id": "czechia",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 6
+        },
+        {
+          "id": "hungary",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 7
+        },
+        {
+          "id": "brazil",
+          "value": 6,
+          "champion": false,
+          "runnerUp": true,
+          "rank": 1
+        },
+        {
+          "id": "germany",
+          "value": 6,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 2
+        },
+        {
+          "id": "sweden",
+          "value": 1,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 9
+        },
+        {
+          "id": "england",
+          "value": 1,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 10
+        },
+        {
+          "id": "netherlands",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 8
+        },
+        {
+          "id": "france",
+          "value": 1,
+          "champion": true,
+          "runnerUp": false,
+          "rank": 11
+        }
+      ]
+    },
+    {
+      "date": "2002",
+      "values": [
+        {
+          "id": "uruguay",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 5
+        },
+        {
+          "id": "argentina",
+          "value": 4,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 4
+        },
+        {
+          "id": "italy",
+          "value": 5,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 3
+        },
+        {
+          "id": "czechia",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 6
+        },
+        {
+          "id": "hungary",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 7
+        },
+        {
+          "id": "brazil",
+          "value": 7,
+          "champion": true,
+          "runnerUp": false,
+          "rank": 1
+        },
+        {
+          "id": "germany",
+          "value": 7,
+          "champion": false,
+          "runnerUp": true,
+          "rank": 2
+        },
+        {
+          "id": "sweden",
+          "value": 1,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 9
+        },
+        {
+          "id": "england",
+          "value": 1,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 10
+        },
+        {
+          "id": "netherlands",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 8
+        },
+        {
+          "id": "france",
+          "value": 1,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 11
+        }
+      ]
+    },
+    {
+      "date": "2006",
+      "values": [
+        {
+          "id": "uruguay",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 5
+        },
+        {
+          "id": "argentina",
+          "value": 4,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 4
+        },
+        {
+          "id": "italy",
+          "value": 6,
+          "champion": true,
+          "runnerUp": false,
+          "rank": 3
+        },
+        {
+          "id": "czechia",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 6
+        },
+        {
+          "id": "hungary",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 7
+        },
+        {
+          "id": "brazil",
+          "value": 7,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 1
+        },
+        {
+          "id": "germany",
+          "value": 7,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 2
+        },
+        {
+          "id": "sweden",
+          "value": 1,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 10
+        },
+        {
+          "id": "england",
+          "value": 1,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 11
+        },
+        {
+          "id": "netherlands",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 8
+        },
+        {
+          "id": "france",
+          "value": 2,
+          "champion": false,
+          "runnerUp": true,
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "date": "2010",
+      "values": [
+        {
+          "id": "uruguay",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 6
+        },
+        {
+          "id": "argentina",
+          "value": 4,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 4
+        },
+        {
+          "id": "italy",
+          "value": 6,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 3
+        },
+        {
+          "id": "czechia",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 7
+        },
+        {
+          "id": "hungary",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 8
+        },
+        {
+          "id": "brazil",
+          "value": 7,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 1
+        },
+        {
+          "id": "germany",
+          "value": 7,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 2
+        },
+        {
+          "id": "sweden",
+          "value": 1,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 10
+        },
+        {
+          "id": "england",
+          "value": 1,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 11
+        },
+        {
+          "id": "netherlands",
+          "value": 3,
+          "champion": false,
+          "runnerUp": true,
+          "rank": 5
+        },
+        {
+          "id": "france",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 9
+        },
+        {
+          "id": "spain",
+          "value": 1,
+          "champion": true,
+          "runnerUp": false,
+          "rank": 12
+        }
+      ]
+    },
+    {
+      "date": "2014",
+      "values": [
+        {
+          "id": "uruguay",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 6
+        },
+        {
+          "id": "argentina",
+          "value": 5,
+          "champion": false,
+          "runnerUp": true,
+          "rank": 4
+        },
+        {
+          "id": "italy",
+          "value": 6,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 3
+        },
+        {
+          "id": "czechia",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 7
+        },
+        {
+          "id": "hungary",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 8
+        },
+        {
+          "id": "brazil",
+          "value": 7,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 2
+        },
+        {
+          "id": "germany",
+          "value": 8,
+          "champion": true,
+          "runnerUp": false,
+          "rank": 1
+        },
+        {
+          "id": "sweden",
+          "value": 1,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 10
+        },
+        {
+          "id": "england",
+          "value": 1,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 11
+        },
+        {
+          "id": "netherlands",
+          "value": 3,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 5
+        },
+        {
+          "id": "france",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 9
+        },
+        {
+          "id": "spain",
+          "value": 1,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 12
+        }
+      ]
+    },
+    {
+      "date": "2018",
+      "values": [
+        {
+          "id": "uruguay",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 7
+        },
+        {
+          "id": "argentina",
+          "value": 5,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 4
+        },
+        {
+          "id": "italy",
+          "value": 6,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 3
+        },
+        {
+          "id": "czechia",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 8
+        },
+        {
+          "id": "hungary",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 9
+        },
+        {
+          "id": "brazil",
+          "value": 7,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 2
+        },
+        {
+          "id": "germany",
+          "value": 8,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 1
+        },
+        {
+          "id": "sweden",
+          "value": 1,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 10
+        },
+        {
+          "id": "england",
+          "value": 1,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 11
+        },
+        {
+          "id": "netherlands",
+          "value": 3,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 5
+        },
+        {
+          "id": "france",
+          "value": 3,
+          "champion": true,
+          "runnerUp": false,
+          "rank": 6
+        },
+        {
+          "id": "spain",
+          "value": 1,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 12
+        },
+        {
+          "id": "croatia",
+          "value": 1,
+          "champion": false,
+          "runnerUp": true,
+          "rank": 13
+        }
+      ]
+    },
+    {
+      "date": "2022",
+      "values": [
+        {
+          "id": "uruguay",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 7
+        },
+        {
+          "id": "argentina",
+          "value": 6,
+          "champion": true,
+          "runnerUp": false,
+          "rank": 3
+        },
+        {
+          "id": "italy",
+          "value": 6,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 4
+        },
+        {
+          "id": "czechia",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 8
+        },
+        {
+          "id": "hungary",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 9
+        },
+        {
+          "id": "brazil",
+          "value": 7,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 2
+        },
+        {
+          "id": "germany",
+          "value": 8,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 1
+        },
+        {
+          "id": "sweden",
+          "value": 1,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 10
+        },
+        {
+          "id": "england",
+          "value": 1,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 11
+        },
+        {
+          "id": "netherlands",
+          "value": 3,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 6
+        },
+        {
+          "id": "france",
+          "value": 4,
+          "champion": false,
+          "runnerUp": true,
+          "rank": 5
+        },
+        {
+          "id": "spain",
+          "value": 1,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 12
+        },
+        {
+          "id": "croatia",
+          "value": 1,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 13
+        }
+      ]
+    },
+    {
+      "date": "2026",
+      "values": [
+        {
+          "id": "uruguay",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 7
+        },
+        {
+          "id": "argentina",
+          "value": 7,
+          "champion": false,
+          "runnerUp": true,
+          "rank": 2
+        },
+        {
+          "id": "italy",
+          "value": 6,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 4
+        },
+        {
+          "id": "czechia",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 8
+        },
+        {
+          "id": "hungary",
+          "value": 2,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 9
+        },
+        {
+          "id": "brazil",
+          "value": 7,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 3
+        },
+        {
+          "id": "germany",
+          "value": 8,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 1
+        },
+        {
+          "id": "sweden",
+          "value": 1,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 11
+        },
+        {
+          "id": "england",
+          "value": 1,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 12
+        },
+        {
+          "id": "netherlands",
+          "value": 3,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 6
+        },
+        {
+          "id": "france",
+          "value": 4,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 5
+        },
+        {
+          "id": "spain",
+          "value": 2,
+          "champion": true,
+          "runnerUp": false,
+          "rank": 10
+        },
+        {
+          "id": "croatia",
+          "value": 1,
+          "champion": false,
+          "runnerUp": false,
+          "rank": 13
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "date": "1930",
+      "title": "Uruguay leads final appearances",
+      "body": "Uruguay leads this World Cup frame with 1 undefined."
+    },
+    {
+      "date": "1982",
+      "title": "Italy leads final appearances",
+      "body": "Italy leads this World Cup frame with 4 undefined."
+    },
+    {
+      "date": "2026",
+      "title": "Germany leads final appearances",
+      "body": "Germany leads this World Cup frame with 8 undefined."
+    }
+  ],
+  "sources": [
+    {
+      "title": "List of FIFA World Cup finals",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_finals",
+      "note": "Final match winners, runners-up, venues, and scores by tournament."
+    },
+    {
+      "title": "FIFA World Cup 2026 Final: Spain 1-0 Argentina",
+      "publisher": "FIFA",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/match-centre",
+      "note": "Spain beat Argentina 1-0 in the New York/New Jersey final on 19 July 2026 to win a second World Cup title."
+    }
+  ],
+  "timelineTicks": [
+    "1930",
+    "1934",
+    "1938",
+    "1950",
+    "1954",
+    "1958",
+    "1962",
+    "1966",
+    "1970",
+    "1974",
+    "1978",
+    "1982",
+    "1986",
+    "1990",
+    "1994",
+    "1998",
+    "2002",
+    "2006",
+    "2010",
+    "2014",
+    "2018",
+    "2022",
+    "2026"
+  ],
+  "lastObservationDate": "2026-07-19",
+  "dataFreshness": {
+    "status": "fresh",
+    "refreshCadence": "seasonal",
+    "lastUpdated": "2026-08-22T14:56:45.984Z",
+    "lastRefreshAttemptedAt": "2026-08-22T14:56:45.984Z",
+    "lastRefreshError": null,
+    "lastObservationDate": "2026-07-19",
+    "nextRefreshAt": null,
+    "sourceStatus": "FIFA/Wikipedia final match table through the 2026 final",
+    "confidence": "Final appearance counts include champions and runners-up through the 2026 final (Spain 1-0 Argentina)."
+  },
+  "media": {
+    "imageFit": "contain",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-08-22T14:56:45.984Z",
+    "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.webp",
+    "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.webp",
+    "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.json",
+    "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-finals-appearances.json",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 4,
+    "rows": 4,
+    "width": 1280,
+    "height": 1280,
+    "itemCount": 13,
+    "sourcedImageCount": 13,
+    "generatedImageCount": 0,
+    "placeholderCount": 0,
+    "ogImageUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/world-cup-finals-appearances.png",
+    "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/world-cup-finals-appearances.png",
+    "ogImageWidth": 1200,
+    "ogImageHeight": 630
+  },
+  "taxonomy": {
+    "primaryCategory": "sports",
+    "categories": [
+      "sports",
+      "football",
+      "history"
+    ],
+    "tags": [
+      "world-cup",
+      "fifa",
+      "finals",
+      "countries"
+    ],
+    "entityTypes": [
+      "national-team"
+    ],
+    "sourceTypes": [
+      "wikipedia"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "world-cup-champion-nations",
+      "type": "finals-record-book",
+      "weight": 0.9,
+      "reason": "Both are derived from World Cup final results."
+    },
+    {
+      "target": "world-cup-team-appearances",
+      "type": "national-team-history",
+      "weight": 0.68,
+      "reason": "Teams with repeated tournament appearances are more likely to build finals histories."
+    },
+    {
+      "target": "world-cup-attendance-kings",
+      "type": "tournament-stage",
+      "weight": 0.45,
+      "reason": "Finals define the biggest stage inside the same tournament record book."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "world-cup-records",
+    "mainland": "world-cup",
+    "bridgePriority": [
+      "world-cup-champion-nations",
+      "world-cup-team-appearances"
+    ]
+  },
+  "schemaVersion": 1,
+  "contentKind": "dat-city.story",
+  "generatedAt": "2026-08-22T14:56:45.984Z",
+  "versionId": "20260822T145645Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "dashboard-settings:crypto-memecoin-heat",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-08-22T14:56:45.984Z",
+    "versionId": "20260822T145645Z",
+    "adapter": "fifa-world-cup-history",
+    "storySlug": "world-cup-finals-appearances",
+    "districtId": null,
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "publicProjection": {
+    "kind": "story",
+    "version": 1,
+    "generatedAt": "2026-08-22T14:56:45.984Z",
+    "adapter": "fifa-world-cup-history",
+    "cache": {
+      "browserMaxAgeSeconds": 60,
+      "edgeMaxAgeSeconds": 3600
+    }
+  },
+  "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/world-cup-finals-appearances.png"
+}

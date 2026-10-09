@@ -5,10 +5,11 @@ import {fileURLToPath} from 'node:url';
 import assert from 'node:assert/strict';
 import originals from '../src/edu-originals.json' with {type:'json'};
 const hub=fileURLToPath(new URL('../../../',import.meta.url));
-const base=process.env.EDU_QA_URL||JSON.parse(execFileSync('python3',['framework/scripts/game.py','serve','apps/edu-rabisco','--json'],{cwd:hub,encoding:'utf8'})).url;
+let base=process.env.EDU_QA_URL||JSON.parse(execFileSync('python3',['framework/scripts/game.py','serve','apps/edu-rabisco','--json'],{cwd:hub,encoding:'utf8'})).url;
+if(new URL(base).hostname==='localhost'){const local=new URL(base);local.hostname='edu-qa.test';base=local.href;}
 const destination=new URL('../../../output/edu-rabisco/qa-originals/',import.meta.url);await mkdir(destination,{recursive:true});
 const resumed=process.env.EDU_QA_RESUME==='1'?JSON.parse(await readFile(new URL('report.json',destination),'utf8')).rows:[];
-const browser=await chromium.launch({channel:'chrome',headless:process.env.QA_HEADED!=='1',args:['--use-angle=metal','--ignore-gpu-blocklist']});
+const browser=await chromium.launch({channel:'chrome',headless:process.env.QA_HEADED!=='1',args:['--use-angle=metal','--ignore-gpu-blocklist','--host-resolver-rules=MAP edu-qa.test 127.0.0.1']});
 const context=await browser.newContext({viewport:{width:1440,height:1050},serviceWorkers:'block'});
 const page=await context.newPage(),rows=resumed.filter(r=>r.desktop&&r.mobile&&!r.errors.length&&!r.missing.length&&!r.failure),checks=[],missing=new Set();let row;
 page.on('pageerror',e=>row?.errors.push(String(e)));
@@ -23,10 +24,19 @@ try{
    row.initial=await page.evaluate(()=>({state:window.__EDU_ORIGINAL__.observe(),canvases:[...document.querySelectorAll('canvas')].map(c=>({width:c.width,height:c.height})),controls:document.querySelectorAll('button,input,select').length,gpu:(()=>{const c=[...document.querySelectorAll('canvas')].find(c=>c.getContext('webgl2')||c.getContext('webgl'));if(!c)return 'WebGPU or unavailable';const gl=c.getContext('webgl2')||c.getContext('webgl'),e=gl.getExtension('WEBGL_debug_renderer_info');return e?gl.getParameter(e.UNMASKED_RENDERER_WEBGL):gl.getParameter(gl.RENDERER);})()}));
    assert.equal(row.initial.state.sourceHash,original.sha256);assert.equal(row.initial.state.engine,'three');assert.ok(row.initial.canvases.some(c=>c.width>0&&c.height>0));assert.doesNotMatch(row.initial.gpu,/SwiftShader|llvmpipe/);
    for(const name of ['Lab','Exploded','Studio','Pause','Play']){const button=page.getByRole('button',{name,exact:true}).first();if(await button.isVisible().catch(()=>false)){await button.click();await page.waitForTimeout(120);row.states.push(name);}}
+   if(original.slug==='dat-city'){
+    await page.waitForFunction(()=>{const entries=[...window.__datCity.manager.entries.values()].filter(e=>e.kind==='district'&&!e.district.synthetic);return entries.length>0&&entries.every(e=>e.data?.contentKind==='dat-city.district');},{},{timeout:120000});
+    row.districts=await page.evaluate(()=>[...window.__datCity.manager.entries.values()].filter(e=>e.kind==='district'&&!e.district.synthetic).map(e=>({id:e.district.id,contentKind:e.data.contentKind,entities:e.data.entities.length,url:e.district.dataUrl})));
+    const manifest=await page.evaluate(async()=>{const live=await (await fetch('https://story-data.dat.city/story-data/manifest.json')).json();return (await fetch('https://story-data.dat.city/story-data/'+live.latest.cityManifestUrl)).json();});
+    const configured=await page.evaluate(()=>JSON.parse(document.getElementById('city-config').textContent).districts.filter(d=>!d.synthetic).map(d=>d.id));assert.deepEqual(row.districts.map(d=>d.id).sort(),configured.sort());for(const district of manifest.districts)assert.ok(row.districts.some(d=>d.id===district.id));
+    await page.waitForFunction(()=>window.__datCity.manager.isSettled,{},{timeout:120000});row.states.push('todos os bairros originais carregados sem dados sintéticos');
+    await page.evaluate(()=>window.__datCity.overview());await page.waitForTimeout(1700);
+   }
    await shot(`desktop-${original.slug}`);
    await page.evaluate(()=>{window.__EDU_NOTEBOOK__.open(true);window.__EDU_NOTEBOOK__.panel('investigar');});await page.locator('#edu-clear').click();await page.locator('#edu-record').click();await page.locator('#edu-record').click();assert.equal(await page.locator('.edu-record').count(),2);assert.equal((await page.evaluate(()=>window.__EDU_NOTEBOOK__.records()))[0].sourceHash,original.sha256);
    await page.reload({waitUntil:'domcontentloaded'});await ready();assert.equal((await page.evaluate(()=>window.__EDU_NOTEBOOK__.records())).length,2);
-   row.desktop=true;await page.setViewportSize({width:390,height:844});await page.reload({waitUntil:'domcontentloaded'});await ready();await shot(`mobile-${original.slug}`);
+   row.desktop=true;await page.setViewportSize({width:390,height:844});await page.reload({waitUntil:'domcontentloaded'});await ready();if(original.slug==='dat-city'){await page.waitForFunction(()=>[...window.__datCity.manager.entries.values()].filter(e=>e.kind==='district'&&!e.district.synthetic).every(e=>e.data?.contentKind==='dat-city.district')&&window.__datCity.manager.isSettled,{},{timeout:120000});row.mobileDistricts=await page.evaluate(()=>[...window.__datCity.manager.entries.values()].filter(e=>e.kind==='district'&&!e.district.synthetic).length);assert.equal(row.mobileDistricts,row.districts.length);}
+   await shot(`mobile-${original.slug}`);
    await page.locator('#edu-open').click();assert.equal(await page.locator('#edu-body').isVisible(),true);const bounds=await page.locator('#edu-body').boundingBox();assert.ok(bounds.x>=0&&bounds.x+bounds.width<=391);await page.locator('[data-edu-tab="entender"]').focus();await page.keyboard.press('ArrowRight');assert.equal(await page.locator('[data-edu-tab="investigar"]').getAttribute('aria-selected'),'true');await page.locator('#edu-close').click();row.mobile=true;
   }catch(error){row.failure=String(error);}
   console.log(JSON.stringify({slug:row.slug,desktop:row.desktop,mobile:row.mobile,errors:row.errors,missing:row.missing,failure:row.failure}));

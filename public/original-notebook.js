@@ -41,7 +41,7 @@
   render();
   const ready=setInterval(()=>{
     const renderer=window.__x?.renderer||window.__datCity?.renderer;
-    const initialized=source.slug==='gigacity'?typeof window.__dbg==='function':typeof window.__dbg==='function'||renderer||window.__EDU_SKY_THREE__?.renderer||document.querySelector('canvas')?.width>0;
+    const initialized=source.slug==='gigacity'?typeof window.__dbg==='function':source.slug==='dat-city'?window.__datCity?.renderer?.domElement.classList.contains('is-ready'):typeof window.__dbg==='function'||renderer||window.__EDU_SKY_THREE__?.renderer||document.querySelector('canvas')?.width>0;
     if(initialized){bridge.ready=true;clearInterval(ready);window.__lab?.tune?.({auto:0});for(const pending of document.querySelectorAll('script[data-edu-late]')){const script=document.createElement('script');for(const attribute of pending.attributes)if(!['type','data-edu-late'].includes(attribute.name))script.setAttribute(attribute.name,attribute.value);document.body.append(script);}}
   },100);
   window.__EDU_NOTEBOOK__={snapshot,records:()=>records,open,panel,source};

@@ -1,0 +1,5383 @@
+{
+  "id": "most-popular-subreddits",
+  "kicker": "Reddit Communities",
+  "title": "Most Popular Subreddits",
+  "subtitle": "The largest Reddit communities right now, ranked by subscriber count.",
+  "badge": "Ranked by subscribers",
+  "visualization": "race-arena",
+  "theme": "creator-arena",
+  "artStyle": "stylized-editorial",
+  "dateRange": [
+    "20260722",
+    "20260902"
+  ],
+  "timelineTicks": [
+    "20260722",
+    "20260723",
+    "20260724",
+    "20260725",
+    "20260726",
+    "20260727",
+    "20260728",
+    "20260729",
+    "20260730",
+    "20260731",
+    "20260801",
+    "20260802",
+    "20260803",
+    "20260804",
+    "20260805",
+    "20260806",
+    "20260807",
+    "20260808",
+    "20260809",
+    "20260810",
+    "20260811",
+    "20260812",
+    "20260813",
+    "20260814",
+    "20260815",
+    "20260816",
+    "20260817",
+    "20260818",
+    "20260819",
+    "20260820",
+    "20260821",
+    "20260822",
+    "20260823",
+    "20260824",
+    "20260825",
+    "20260826",
+    "20260827",
+    "20260828",
+    "20260829",
+    "20260830",
+    "20260831",
+    "20260901",
+    "20260902"
+  ],
+  "metricLabel": "Subscribers",
+  "ogImage": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/most-popular-subreddits.png",
+  "cityPreview": {
+    "districtId": "subreddit-community-plaza",
+    "districtName": "Subreddit Community Plaza",
+    "cardLabel": "Reddit Communities",
+    "summary": "The largest Reddit communities by subscriber count.",
+    "primaryMetric": "Subscribers",
+    "latestFrameLabel": "2026-09-02",
+    "storyUrl": "/stories/most-popular-subreddits/",
+    "thumbnail": "/assets/og/dat-city-home.png"
+  },
+  "sourceStatus": "FrontPageMetrics top subreddits ranking",
+  "confidence": "Observed the FrontPageMetrics top-subreddits ranking at 2026-09-02T09:00:43.127Z. Values are subscriber counts parsed from the public ranking table.",
+  "methodology": "This adapter reads FrontPageMetrics' daily top-100 subreddit ranking table, keeping the source ranking verbatim (including r/announcements at #1), and uses subscriber counts as the metric. Scheduled StoryOps runs append daily snapshots so the district can replay observed subscriber changes over time.",
+  "playback": {
+    "durationSeconds": 24,
+    "initialDate": "20260722",
+    "periodLabel": "daily subscriber snapshots"
+  },
+  "visual": {
+    "topCount": 10,
+    "referenceCount": 12,
+    "horizontalCount": 12
+  },
+  "layers": [
+    {
+      "id": "subscribers",
+      "label": "Subscribers",
+      "default": true
+    },
+    {
+      "id": "rank",
+      "label": "Rank",
+      "default": true
+    }
+  ],
+  "focus": [
+    {
+      "id": "announcements",
+      "label": "r/announcements"
+    },
+    {
+      "id": "funny",
+      "label": "r/funny"
+    },
+    {
+      "id": "askreddit",
+      "label": "r/AskReddit"
+    },
+    {
+      "id": "gaming",
+      "label": "r/gaming"
+    }
+  ],
+  "entities": [
+    {
+      "id": "announcements",
+      "name": "r/announcements",
+      "shortName": "r/announcements",
+      "handle": "announcements",
+      "subredditUrl": "https://frontpagemetrics.com/r/announcements/",
+      "avatarText": "AN",
+      "color": "#ff5a61",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.2,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:announcements",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "funny",
+      "name": "r/funny",
+      "shortName": "r/funny",
+      "handle": "funny",
+      "subredditUrl": "https://frontpagemetrics.com/r/funny/",
+      "avatarText": "FU",
+      "color": "#18c871",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0,
+          "u1": 0.4,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:funny",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "askreddit",
+      "name": "r/AskReddit",
+      "shortName": "r/AskReddit",
+      "handle": "AskReddit",
+      "subredditUrl": "https://frontpagemetrics.com/r/askreddit/",
+      "avatarText": "AS",
+      "color": "#ffc84a",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0,
+          "u1": 0.6,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:askreddit",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "gaming",
+      "name": "r/gaming",
+      "shortName": "r/gaming",
+      "handle": "gaming",
+      "subredditUrl": "https://frontpagemetrics.com/r/gaming/",
+      "avatarText": "GA",
+      "color": "#00a6ff",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0,
+          "u1": 0.8,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:gaming",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "aww",
+      "name": "r/aww",
+      "shortName": "r/aww",
+      "handle": "aww",
+      "subredditUrl": "https://frontpagemetrics.com/r/aww/",
+      "avatarText": "AW",
+      "color": "#8f6bff",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "x": 1280,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:aww",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "music",
+      "name": "r/Music",
+      "shortName": "r/Music",
+      "handle": "Music",
+      "subredditUrl": "https://frontpagemetrics.com/r/music/",
+      "avatarText": "MU",
+      "color": "#f18c4f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.25,
+          "u1": 0.2,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:music",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "worldnews",
+      "name": "r/worldnews",
+      "shortName": "r/worldnews",
+      "handle": "worldnews",
+      "subredditUrl": "https://frontpagemetrics.com/r/worldnews/",
+      "avatarText": "WO",
+      "color": "#41a99f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.25,
+          "u1": 0.4,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:worldnews",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "pics",
+      "name": "r/pics",
+      "shortName": "r/pics",
+      "handle": "pics",
+      "subredditUrl": "https://frontpagemetrics.com/r/pics/",
+      "avatarText": "PI",
+      "color": "#d78fca",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.25,
+          "u1": 0.6,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:pics",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "movies",
+      "name": "r/movies",
+      "shortName": "r/movies",
+      "handle": "movies",
+      "subredditUrl": "https://frontpagemetrics.com/r/movies/",
+      "avatarText": "MO",
+      "color": "#7b9b65",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.25,
+          "u1": 0.8,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:movies",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "todayilearned",
+      "name": "r/todayilearned",
+      "shortName": "r/todayilearned",
+      "handle": "todayilearned",
+      "subredditUrl": "https://frontpagemetrics.com/r/todayilearned/",
+      "avatarText": "TO",
+      "color": "#2f4858",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "x": 1280,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.25,
+          "u1": 1,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:todayilearned",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "science",
+      "name": "r/science",
+      "shortName": "r/science",
+      "handle": "science",
+      "subredditUrl": "https://frontpagemetrics.com/r/science/",
+      "avatarText": "SC",
+      "color": "#ef426f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.5,
+          "u1": 0.2,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:science",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "videos",
+      "name": "r/videos",
+      "shortName": "r/videos",
+      "handle": "videos",
+      "subredditUrl": "https://frontpagemetrics.com/r/videos/",
+      "avatarText": "VI",
+      "color": "#86bdf4",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.5,
+          "u1": 0.4,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:videos",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "showerthoughts",
+      "name": "r/Showerthoughts",
+      "shortName": "r/Showerthoughts",
+      "handle": "Showerthoughts",
+      "subredditUrl": "https://frontpagemetrics.com/r/showerthoughts/",
+      "avatarText": "SH",
+      "color": "#c9a14a",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.5,
+          "u1": 0.6,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:showerthoughts",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "news",
+      "name": "r/news",
+      "shortName": "r/news",
+      "handle": "news",
+      "subredditUrl": "https://frontpagemetrics.com/r/news/",
+      "avatarText": "NE",
+      "color": "#e34f59",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.5,
+          "u1": 0.8,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:news",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "jokes",
+      "name": "r/Jokes",
+      "shortName": "r/Jokes",
+      "handle": "Jokes",
+      "subredditUrl": "https://frontpagemetrics.com/r/jokes/",
+      "avatarText": "JO",
+      "color": "#9aa4b2",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "x": 1280,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.5,
+          "u1": 1,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:jokes",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "askscience",
+      "name": "r/askscience",
+      "shortName": "r/askscience",
+      "handle": "askscience",
+      "subredditUrl": "https://frontpagemetrics.com/r/askscience/",
+      "avatarText": "AS",
+      "color": "#ff5a61",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "x": 0,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.75,
+          "u1": 0.2,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:askscience",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "food",
+      "name": "r/food",
+      "shortName": "r/food",
+      "handle": "food",
+      "subredditUrl": "https://frontpagemetrics.com/r/food/",
+      "avatarText": "FO",
+      "color": "#18c871",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "x": 320,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.75,
+          "u1": 0.4,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:food",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "earthporn",
+      "name": "r/EarthPorn",
+      "shortName": "r/EarthPorn",
+      "handle": "EarthPorn",
+      "subredditUrl": "https://frontpagemetrics.com/r/earthporn/",
+      "avatarText": "EA",
+      "color": "#ffc84a",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "x": 640,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.75,
+          "u1": 0.6,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:earthporn",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "iama",
+      "name": "r/IAmA",
+      "shortName": "r/IAmA",
+      "handle": "IAmA",
+      "subredditUrl": "https://frontpagemetrics.com/r/iama/",
+      "avatarText": "IA",
+      "color": "#00a6ff",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "x": 960,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.75,
+          "u1": 0.8,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:iama",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "nottheonion",
+      "name": "r/nottheonion",
+      "shortName": "r/nottheonion",
+      "handle": "nottheonion",
+      "subredditUrl": "https://frontpagemetrics.com/r/nottheonion/",
+      "avatarText": "NO",
+      "color": "#8f6bff",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "x": 1280,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.75,
+          "u1": 1,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:nottheonion",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    }
+  ],
+  "frames": [
+    {
+      "date": "20260722",
+      "values": [
+        {
+          "id": "announcements",
+          "value": 173261451,
+          "rank": 1
+        },
+        {
+          "id": "funny",
+          "value": 42956576,
+          "rank": 2
+        },
+        {
+          "id": "askreddit",
+          "value": 37184873,
+          "rank": 3
+        },
+        {
+          "id": "gaming",
+          "value": 34271752,
+          "rank": 4
+        },
+        {
+          "id": "aww",
+          "value": 32085698,
+          "rank": 5
+        },
+        {
+          "id": "music",
+          "value": 30616016,
+          "rank": 6
+        },
+        {
+          "id": "worldnews",
+          "value": 29650859,
+          "rank": 7
+        },
+        {
+          "id": "pics",
+          "value": 29321753,
+          "rank": 8
+        },
+        {
+          "id": "movies",
+          "value": 29018413,
+          "rank": 9
+        },
+        {
+          "id": "todayilearned",
+          "value": 28743574,
+          "rank": 10
+        },
+        {
+          "id": "science",
+          "value": 28220134,
+          "rank": 11
+        },
+        {
+          "id": "videos",
+          "value": 26566771,
+          "rank": 12
+        },
+        {
+          "id": "showerthoughts",
+          "value": 25617596,
+          "rank": 13
+        },
+        {
+          "id": "news",
+          "value": 25194887,
+          "rank": 14
+        },
+        {
+          "id": "jokes",
+          "value": 24209962,
+          "rank": 15
+        },
+        {
+          "id": "askscience",
+          "value": 23109067,
+          "rank": 16
+        },
+        {
+          "id": "food",
+          "value": 22925343,
+          "rank": 17
+        },
+        {
+          "id": "earthporn",
+          "value": 22527254,
+          "rank": 18
+        },
+        {
+          "id": "iama",
+          "value": 22250752,
+          "rank": 19
+        },
+        {
+          "id": "nottheonion",
+          "value": 21792779,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260723",
+      "values": [
+        {
+          "id": "announcements",
+          "value": 173261451,
+          "rank": 1
+        },
+        {
+          "id": "funny",
+          "value": 42956576,
+          "rank": 2
+        },
+        {
+          "id": "askreddit",
+          "value": 37184873,
+          "rank": 3
+        },
+        {
+          "id": "gaming",
+          "value": 34271752,
+          "rank": 4
+        },
+        {
+          "id": "aww",
+          "value": 32085698,
+          "rank": 5
+        },
+        {
+          "id": "music",
+          "value": 30616016,
+          "rank": 6
+        },
+        {
+          "id": "worldnews",
+          "value": 29650859,
+          "rank": 7
+        },
+        {
+          "id": "pics",
+          "value": 29321753,
+          "rank": 8
+        },
+        {
+          "id": "movies",
+          "value": 29018413,
+          "rank": 9
+        },
+        {
+          "id": "todayilearned",
+          "value": 28743574,
+          "rank": 10
+        },
+        {
+          "id": "science",
+          "value": 28220134,
+          "rank": 11
+        },
+        {
+          "id": "videos",
+          "value": 26566771,
+          "rank": 12
+        },
+        {
+          "id": "showerthoughts",
+          "value": 25617596,
+          "rank": 13
+        },
+        {
+          "id": "news",
+          "value": 25194887,
+          "rank": 14
+        },
+        {
+          "id": "jokes",
+          "value": 24209962,
+          "rank": 15
+        },
+        {
+          "id": "askscience",
+          "value": 23109067,
+          "rank": 16
+        },
+        {
+          "id": "food",
+          "value": 22925343,
+          "rank": 17
+        },
+        {
+          "id": "earthporn",
+          "value": 22527254,
+          "rank": 18
+        },
+        {
+          "id": "iama",
+          "value": 22250752,
+          "rank": 19
+        },
+        {
+          "id": "nottheonion",
+          "value": 21792779,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260724",
+      "values": [
+        {
+          "id": "announcements",
+          "value": 173261451,
+          "rank": 1
+        },
+        {
+          "id": "funny",
+          "value": 42956576,
+          "rank": 2
+        },
+        {
+          "id": "askreddit",
+          "value": 37184873,
+          "rank": 3
+        },
+        {
+          "id": "gaming",
+          "value": 34271752,
+          "rank": 4
+        },
+        {
+          "id": "aww",
+          "value": 32085698,
+          "rank": 5
+        },
+        {
+          "id": "music",
+          "value": 30616016,
+          "rank": 6
+        },
+        {
+          "id": "worldnews",
+          "value": 29650859,
+          "rank": 7
+        },
+        {
+          "id": "pics",
+          "value": 29321753,
+          "rank": 8
+        },
+        {
+          "id": "movies",
+          "value": 29018413,
+          "rank": 9
+        },
+        {
+          "id": "todayilearned",
+          "value": 28743574,
+          "rank": 10
+        },
+        {
+          "id": "science",
+          "value": 28220134,
+          "rank": 11
+        },
+        {
+          "id": "videos",
+          "value": 26566771,
+          "rank": 12
+        },
+        {
+          "id": "showerthoughts",
+          "value": 25617596,
+          "rank": 13
+        },
+        {
+          "id": "news",
+          "value": 25194887,
+          "rank": 14
+        },
+        {
+          "id": "jokes",
+          "value": 24209962,
+          "rank": 15
+        },
+        {
+          "id": "askscience",
+          "value": 23109067,
+          "rank": 16
+        },
+        {
+          "id": "food",
+          "value": 22925343,
+          "rank": 17
+        },
+        {
+          "id": "earthporn",
+          "value": 22527254,
+          "rank": 18
+        },
+        {
+          "id": "iama",
+          "value": 22250752,
+          "rank": 19
+        },
+        {
+          "id": "nottheonion",
+          "value": 21792779,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260725",
+      "values": [
+        {
+          "id": "announcements",
+          "value": 173261451,
+          "rank": 1
+        },
+        {
+          "id": "funny",
+          "value": 42956576,
+          "rank": 2
+        },
+        {
+          "id": "askreddit",
+          "value": 37184873,
+          "rank": 3
+        },
+        {
+          "id": "gaming",
+          "value": 34271752,
+          "rank": 4
+        },
+        {
+          "id": "aww",
+          "value": 32085698,
+          "rank": 5
+        },
+        {
+          "id": "music",
+          "value": 30616016,
+          "rank": 6
+        },
+        {
+          "id": "worldnews",
+          "value": 29650859,
+          "rank": 7
+        },
+        {
+          "id": "pics",
+          "value": 29321753,
+          "rank": 8
+        },
+        {
+          "id": "movies",
+          "value": 29018413,
+          "rank": 9
+        },
+        {
+          "id": "todayilearned",
+          "value": 28743574,
+          "rank": 10
+        },
+        {
+          "id": "science",
+          "value": 28220134,
+          "rank": 11
+        },
+        {
+          "id": "videos",
+          "value": 26566771,
+          "rank": 12
+        },
+        {
+          "id": "showerthoughts",
+          "value": 25617596,
+          "rank": 13
+        },
+        {
+          "id": "news",
+          "value": 25194887,
+          "rank": 14
+        },
+        {
+          "id": "jokes",
+          "value": 24209962,
+          "rank": 15
+        },
+        {
+          "id": "askscience",
+          "value": 23109067,
+          "rank": 16
+        },
+        {
+          "id": "food",
+          "value": 22925343,
+          "rank": 17
+        },
+        {
+          "id": "earthporn",
+          "value": 22527254,
+          "rank": 18
+        },
+        {
+          "id": "iama",
+          "value": 22250752,
+          "rank": 19
+        },
+        {
+          "id": "nottheonion",
+          "value": 21792779,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260726",
+      "values": [
+        {
+          "id": "announcements",
+          "value": 173261451,
+          "rank": 1
+        },
+        {
+          "id": "funny",
+          "value": 42956576,
+          "rank": 2
+        },
+        {
+          "id": "askreddit",
+          "value": 37184873,
+          "rank": 3
+        },
+        {
+          "id": "gaming",
+          "value": 34271752,
+          "rank": 4
+        },
+        {
+          "id": "aww",
+          "value": 32085698,
+          "rank": 5
+        },
+        {
+          "id": "music",
+          "value": 30616016,
+          "rank": 6
+        },
+        {
+          "id": "worldnews",
+          "value": 29650859,
+          "rank": 7
+        },
+        {
+          "id": "pics",
+          "value": 29321753,
+          "rank": 8
+        },
+        {
+          "id": "movies",
+          "value": 29018413,
+          "rank": 9
+        },
+        {
+          "id": "todayilearned",
+          "value": 28743574,
+          "rank": 10
+        },
+        {
+          "id": "science",
+          "value": 28220134,
+          "rank": 11
+        },
+        {
+          "id": "videos",
+          "value": 26566771,
+          "rank": 12
+        },
+        {
+          "id": "showerthoughts",
+          "value": 25617596,
+          "rank": 13
+        },
+        {
+          "id": "news",
+          "value": 25194887,
+          "rank": 14
+        },
+        {
+          "id": "jokes",
+          "value": 24209962,
+          "rank": 15
+        },
+        {
+          "id": "askscience",
+          "value": 23109067,
+          "rank": 16
+        },
+        {
+          "id": "food",
+          "value": 22925343,
+          "rank": 17
+        },
+        {
+          "id": "earthporn",
+          "value": 22527254,
+          "rank": 18
+        },
+        {
+          "id": "iama",
+          "value": 22250752,
+          "rank": 19
+        },
+        {
+          "id": "nottheonion",
+          "value": 21792779,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260727",
+      "values": [
+        {
+          "id": "announcements",
+          "value": 173261451,
+          "rank": 1
+        },
+        {
+          "id": "funny",
+          "value": 42956576,
+          "rank": 2
+        },
+        {
+          "id": "askreddit",
+          "value": 37184873,
+          "rank": 3
+        },
+        {
+          "id": "gaming",
+          "value": 34271752,
+          "rank": 4
+        },
+        {
+          "id": "aww",
+          "value": 32085698,
+          "rank": 5
+        },
+        {
+          "id": "music",
+          "value": 30616016,
+          "rank": 6
+        },
+        {
+          "id": "worldnews",
+          "value": 29650859,
+          "rank": 7
+        },
+        {
+          "id": "pics",
+          "value": 29321753,
+          "rank": 8
+        },
+        {
+          "id": "movies",
+          "value": 29018413,
+          "rank": 9
+        },
+        {
+          "id": "todayilearned",
+          "value": 28743574,
+          "rank": 10
+        },
+        {
+          "id": "science",
+          "value": 28220134,
+          "rank": 11
+        },
+        {
+          "id": "videos",
+          "value": 26566771,
+          "rank": 12
+        },
+        {
+          "id": "showerthoughts",
+          "value": 25617596,
+          "rank": 13
+        },
+        {
+          "id": "news",
+          "value": 25194887,
+          "rank": 14
+        },
+        {
+          "id": "jokes",
+          "value": 24209962,
+          "rank": 15
+        },
+        {
+          "id": "askscience",
+          "value": 23109067,
+          "rank": 16
+        },
+        {
+          "id": "food",
+          "value": 22925343,
+          "rank": 17
+        },
+        {
+          "id": "earthporn",
+          "value": 22527254,
+          "rank": 18
+        },
+        {
+          "id": "iama",
+          "value": 22250752,
+          "rank": 19
+        },
+        {
+          "id": "nottheonion",
+          "value": 21792779,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260728",
+      "values": [
+        {
+          "id": "announcements",
+          "value": 173261451,
+          "rank": 1
+        },
+        {
+          "id": "funny",
+          "value": 42956576,
+          "rank": 2
+        },
+        {
+          "id": "askreddit",
+          "value": 37184873,
+          "rank": 3
+        },
+        {
+          "id": "gaming",
+          "value": 34271752,
+          "rank": 4
+        },
+        {
+          "id": "aww",
+          "value": 32085698,
+          "rank": 5
+        },
+        {
+          "id": "music",
+          "value": 30616016,
+          "rank": 6
+        },
+        {
+          "id": "worldnews",
+          "value": 29650859,
+          "rank": 7
+        },
+        {
+          "id": "pics",
+          "value": 29321753,
+          "rank": 8
+        },
+        {
+          "id": "movies",
+          "value": 29018413,
+          "rank": 9
+        },
+        {
+          "id": "todayilearned",
+          "value": 28743574,
+          "rank": 10
+        },
+        {
+          "id": "science",
+          "value": 28220134,
+          "rank": 11
+        },
+        {
+          "id": "videos",
+          "value": 26566771,
+          "rank": 12
+        },
+        {
+          "id": "showerthoughts",
+          "value": 25617596,
+          "rank": 13
+        },
+        {
+          "id": "news",
+          "value": 25194887,
+          "rank": 14
+        },
+        {
+          "id": "jokes",
+          "value": 24209962,
+          "rank": 15
+        },
+        {
+          "id": "askscience",
+          "value": 23109067,
+          "rank": 16
+        },
+        {
+          "id": "food",
+          "value": 22925343,
+          "rank": 17
+        },
+        {
+          "id": "earthporn",
+          "value": 22527254,
+          "rank": 18
+        },
+        {
+          "id": "iama",
+          "value": 22250752,
+          "rank": 19
+        },
+        {
+          "id": "nottheonion",
+          "value": 21792779,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260729",
+      "values": [
+        {
+          "id": "announcements",
+          "value": 173261451,
+          "rank": 1
+        },
+        {
+          "id": "funny",
+          "value": 42956576,
+          "rank": 2
+        },
+        {
+          "id": "askreddit",
+          "value": 37184873,
+          "rank": 3
+        },
+        {
+          "id": "gaming",
+          "value": 34271752,
+          "rank": 4
+        },
+        {
+          "id": "aww",
+          "value": 32085698,
+          "rank": 5
+        },
+        {
+          "id": "music",
+          "value": 30616016,
+          "rank": 6
+        },
+        {
+          "id": "worldnews",
+          "value": 29650859,
+          "rank": 7
+        },
+        {
+          "id": "pics",
+          "value": 29321753,
+          "rank": 8
+        },
+        {
+          "id": "movies",
+          "value": 29018413,
+          "rank": 9
+        },
+        {
+          "id": "todayilearned",
+          "value": 28743574,
+          "rank": 10
+        },
+        {
+          "id": "science",
+          "value": 28220134,
+          "rank": 11
+        },
+        {
+          "id": "videos",
+          "value": 26566771,
+          "rank": 12
+        },
+        {
+          "id": "showerthoughts",
+          "value": 25617596,
+          "rank": 13
+        },
+        {
+          "id": "news",
+          "value": 25194887,
+          "rank": 14
+        },
+        {
+          "id": "jokes",
+          "value": 24209962,
+          "rank": 15
+        },
+        {
+          "id": "askscience",
+          "value": 23109067,
+          "rank": 16
+        },
+        {
+          "id": "food",
+          "value": 22925343,
+          "rank": 17
+        },
+        {
+          "id": "earthporn",
+          "value": 22527254,
+          "rank": 18
+        },
+        {
+          "id": "iama",
+          "value": 22250752,
+          "rank": 19
+        },
+        {
+          "id": "nottheonion",
+          "value": 21792779,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260730",
+      "values": [
+        {
+          "id": "announcements",
+          "value": 173261451,
+          "rank": 1
+        },
+        {
+          "id": "funny",
+          "value": 42956576,
+          "rank": 2
+        },
+        {
+          "id": "askreddit",
+          "value": 37184873,
+          "rank": 3
+        },
+        {
+          "id": "gaming",
+          "value": 34271752,
+          "rank": 4
+        },
+        {
+          "id": "aww",
+          "value": 32085698,
+          "rank": 5
+        },
+        {
+          "id": "music",
+          "value": 30616016,
+          "rank": 6
+        },
+        {
+          "id": "worldnews",
+          "value": 29650859,
+          "rank": 7
+        },
+        {
+          "id": "pics",
+          "value": 29321753,
+          "rank": 8
+        },
+        {
+          "id": "movies",
+          "value": 29018413,
+          "rank": 9
+        },
+        {
+          "id": "todayilearned",
+          "value": 28743574,
+          "rank": 10
+        },
+        {
+          "id": "science",
+          "value": 28220134,
+          "rank": 11
+        },
+        {
+          "id": "videos",
+          "value": 26566771,
+          "rank": 12
+        },
+        {
+          "id": "showerthoughts",
+          "value": 25617596,
+          "rank": 13
+        },
+        {
+          "id": "news",
+          "value": 25194887,
+          "rank": 14
+        },
+        {
+          "id": "jokes",
+          "value": 24209962,
+          "rank": 15
+        },
+        {
+          "id": "askscience",
+          "value": 23109067,
+          "rank": 16
+        },
+        {
+          "id": "food",
+          "value": 22925343,
+          "rank": 17
+        },
+        {
+          "id": "earthporn",
+          "value": 22527254,
+          "rank": 18
+        },
+        {
+          "id": "iama",
+          "value": 22250752,
+          "rank": 19
+        },
+        {
+          "id": "nottheonion",
+          "value": 21792779,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260731",
+      "values": [
+        {
+          "id": "announcements",
+          "value": 173261451,
+          "rank": 1
+        },
+        {
+          "id": "funny",
+          "value": 42956576,
+          "rank": 2
+        },
+        {
+          "id": "askreddit",
+          "value": 37184873,
+          "rank": 3
+        },
+        {
+          "id": "gaming",
+          "value": 34271752,
+          "rank": 4
+        },
+        {
+          "id": "aww",
+          "value": 32085698,
+          "rank": 5
+        },
+        {
+          "id": "music",
+          "value": 30616016,
+          "rank": 6
+        },
+        {
+          "id": "worldnews",
+          "value": 29650859,
+          "rank": 7
+        },
+        {
+          "id": "pics",
+          "value": 29321753,
+          "rank": 8
+        },
+        {
+          "id": "movies",
+          "value": 29018413,
+          "rank": 9
+        },
+        {
+          "id": "todayilearned",
+          "value": 28743574,
+          "rank": 10
+        },
+        {
+          "id": "science",
+          "value": 28220134,
+          "rank": 11
+        },
+        {
+          "id": "videos",
+          "value": 26566771,
+          "rank": 12
+        },
+        {
+          "id": "showerthoughts",
+          "value": 25617596,
+          "rank": 13
+        },
+        {
+          "id": "news",
+          "value": 25194887,
+          "rank": 14
+        },
+        {
+          "id": "jokes",
+          "value": 24209962,
+          "rank": 15
+        },
+        {
+          "id": "askscience",
+          "value": 23109067,
+          "rank": 16
+        },
+        {
+          "id": "food",
+          "value": 22925343,
+          "rank": 17
+        },
+        {
+          "id": "earthporn",
+          "value": 22527254,
+          "rank": 18
+        },
+        {
+          "id": "iama",
+          "value": 22250752,
+          "rank": 19
+        },
+        {
+          "id": "nottheonion",
+          "value": 21792779,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260801",
+      "values": [
+        {
+          "id": "announcements",
+          "value": 173261451,
+          "rank": 1
+        },
+        {
+          "id": "funny",
+          "value": 42956576,
+          "rank": 2
+        },
+        {
+          "id": "askreddit",
+          "value": 37184873,
+          "rank": 3
+        },
+        {
+          "id": "gaming",
+          "value": 34271752,
+          "rank": 4
+        },
+        {
+          "id": "aww",
+          "value": 32085698,
+          "rank": 5
+        },
+        {
+          "id": "music",
+          "value": 30616016,
+          "rank": 6
+        },
+        {
+          "id": "worldnews",
+          "value": 29650859,
+          "rank": 7
+        },
+        {
+          "id": "pics",
+          "value": 29321753,
+          "rank": 8
+        },
+        {
+          "id": "movies",
+          "value": 29018413,
+          "rank": 9
+        },
+        {
+          "id": "todayilearned",
+          "value": 28743574,
+          "rank": 10
+        },
+        {
+          "id": "science",
+          "value": 28220134,
+          "rank": 11
+        },
+        {
+          "id": "videos",
+          "value": 26566771,
+          "rank": 12
+        },
+        {
+          "id": "showerthoughts",
+          "value": 25617596,
+          "rank": 13
+        },
+        {
+          "id": "news",
+          "value": 25194887,
+          "rank": 14
+        },
+        {
+          "id": "jokes",
+          "value": 24209962,
+          "rank": 15
+        },
+        {
+          "id": "askscience",
+          "value": 23109067,
+          "rank": 16
+        },
+        {
+          "id": "food",
+          "value": 22925343,
+          "rank": 17
+        },
+        {
+          "id": "earthporn",
+          "value": 22527254,
+          "rank": 18
+        },
+        {
+          "id": "iama",
+          "value": 22250752,
+          "rank": 19
+        },
+        {
+          "id": "nottheonion",
+          "value": 21792779,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260802",
+      "values": [
+        {
+          "id": "announcements",
+          "value": 173261451,
+          "rank": 1
+        },
+        {
+          "id": "funny",
+          "value": 42956576,
+          "rank": 2
+        },
+        {
+          "id": "askreddit",
+          "value": 37184873,
+          "rank": 3
+        },
+        {
+          "id": "gaming",
+          "value": 34271752,
+          "rank": 4
+        },
+        {
+          "id": "aww",
+          "value": 32085698,
+          "rank": 5
+        },
+        {
+          "id": "music",
+          "value": 30616016,
+          "rank": 6
+        },
+        {
+          "id": "worldnews",
+          "value": 29650859,
+          "rank": 7
+        },
+        {
+          "id": "pics",
+          "value": 29321753,
+          "rank": 8
+        },
+        {
+          "id": "movies",
+          "value": 29018413,
+          "rank": 9
+        },
+        {
+          "id": "todayilearned",
+          "value": 28743574,
+          "rank": 10
+        },
+        {
+          "id": "science",
+          "value": 28220134,
+          "rank": 11
+        },
+        {
+          "id": "videos",
+          "value": 26566771,
+          "rank": 12
+        },
+        {
+          "id": "showerthoughts",
+          "value": 25617596,
+          "rank": 13
+        },
+        {
+          "id": "news",
+          "value": 25194887,
+          "rank": 14
+        },
+        {
+          "id": "jokes",
+          "value": 24209962,
+          "rank": 15
+        },
+        {
+          "id": "askscience",
+          "value": 23109067,
+          "rank": 16
+        },
+        {
+          "id": "food",
+          "value": 22925343,
+          "rank": 17
+        },
+        {
+          "id": "earthporn",
+          "value": 22527254,
+          "rank": 18
+        },
+        {
+          "id": "iama",
+          "value": 22250752,
+          "rank": 19
+        },
+        {
+          "id": "nottheonion",
+          "value": 21792779,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260803",
+      "values": [
+        {
+          "id": "announcements",
+          "value": 173261451,
+          "rank": 1
+        },
+        {
+          "id": "funny",
+          "value": 42956576,
+          "rank": 2
+        },
+        {
+          "id": "askreddit",
+          "value": 37184873,
+          "rank": 3
+        },
+        {
+          "id": "gaming",
+          "value": 34271752,
+          "rank": 4
+        },
+        {
+          "id": "aww",
+          "value": 32085698,
+          "rank": 5
+        },
+        {
+          "id": "music",
+          "value": 30616016,
+          "rank": 6
+        },
+        {
+          "id": "worldnews",
+          "value": 29650859,
+          "rank": 7
+        },
+        {
+          "id": "pics",
+          "value": 29321753,
+          "rank": 8
+        },
+        {
+          "id": "movies",
+          "value": 29018413,
+          "rank": 9
+        },
+        {
+          "id": "todayilearned",
+          "value": 28743574,
+          "rank": 10
+        },
+        {
+          "id": "science",
+          "value": 28220134,
+          "rank": 11
+        },
+        {
+          "id": "videos",
+          "value": 26566771,
+          "rank": 12
+        },
+        {
+          "id": "showerthoughts",
+          "value": 25617596,
+          "rank": 13
+        },
+        {
+          "id": "news",
+          "value": 25194887,
+          "rank": 14
+        },
+        {
+          "id": "jokes",
+          "value": 24209962,
+          "rank": 15
+        },
+        {
+          "id": "askscience",
+          "value": 23109067,
+          "rank": 16
+        },
+        {
+          "id": "food",
+          "value": 22925343,
+          "rank": 17
+        },
+        {
+          "id": "earthporn",
+          "value": 22527254,
+          "rank": 18
+        },
+        {
+          "id": "iama",
+          "value": 22250752,
+          "rank": 19
+        },
+        {
+          "id": "nottheonion",
+          "value": 21792779,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260804",
+      "values": [
+        {
+          "id": "announcements",
+          "value": 173261451,
+          "rank": 1
+        },
+        {
+          "id": "funny",
+          "value": 42956576,
+          "rank": 2
+        },
+        {
+          "id": "askreddit",
+          "value": 37184873,
+          "rank": 3
+        },
+        {
+          "id": "gaming",
+          "value": 34271752,
+          "rank": 4
+        },
+        {
+          "id": "aww",
+          "value": 32085698,
+          "rank": 5
+        },
+        {
+          "id": "music",
+          "value": 30616016,
+          "rank": 6
+        },
+        {
+          "id": "worldnews",
+          "value": 29650859,
+          "rank": 7
+        },
+        {
+          "id": "pics",
+          "value": 29321753,
+          "rank": 8
+        },
+        {
+          "id": "movies",
+          "value": 29018413,
+          "rank": 9
+        },
+        {
+          "id": "todayilearned",
+          "value": 28743574,
+          "rank": 10
+        },
+        {
+          "id": "science",
+          "value": 28220134,
+          "rank": 11
+        },
+        {
+          "id": "videos",
+          "value": 26566771,
+          "rank": 12
+        },
+        {
+          "id": "showerthoughts",
+          "value": 25617596,
+          "rank": 13
+        },
+        {
+          "id": "news",
+          "value": 25194887,
+          "rank": 14
+        },
+        {
+          "id": "jokes",
+          "value": 24209962,
+          "rank": 15
+        },
+        {
+          "id": "askscience",
+          "value": 23109067,
+          "rank": 16
+        },
+        {
+          "id": "food",
+          "value": 22925343,
+          "rank": 17
+        },
+        {
+          "id": "earthporn",
+          "value": 22527254,
+          "rank": 18
+        },
+        {
+          "id": "iama",
+          "value": 22250752,
+          "rank": 19
+        },
+        {
+          "id": "nottheonion",
+          "value": 21792779,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260805",
+      "values": [
+        {
+          "id": "announcements",
+          "value": 173261451,
+          "rank": 1
+        },
+        {
+          "id": "funny",
+          "value": 42956576,
+          "rank": 2
+        },
+        {
+          "id": "askreddit",
+          "value": 37184873,
+          "rank": 3
+        },
+        {
+          "id": "gaming",
+          "value": 34271752,
+          "rank": 4
+        },
+        {
+          "id": "aww",
+          "value": 32085698,
+          "rank": 5
+        },
+        {
+          "id": "music",
+          "value": 30616016,
+          "rank": 6
+        },
+        {
+          "id": "worldnews",
+          "value": 29650859,
+          "rank": 7
+        },
+        {
+          "id": "pics",
+          "value": 29321753,
+          "rank": 8
+        },
+        {
+          "id": "movies",
+          "value": 29018413,
+          "rank": 9
+        },
+        {
+          "id": "todayilearned",
+          "value": 28743574,
+          "rank": 10
+        },
+        {
+          "id": "science",
+          "value": 28220134,
+          "rank": 11
+        },
+        {
+          "id": "videos",
+          "value": 26566771,
+          "rank": 12
+        },
+        {
+          "id": "showerthoughts",
+          "value": 25617596,
+          "rank": 13
+        },
+        {
+          "id": "news",
+          "value": 25194887,
+          "rank": 14
+        },
+        {
+          "id": "jokes",
+          "value": 24209962,
+          "rank": 15
+        },
+        {
+          "id": "askscience",
+          "value": 23109067,
+          "rank": 16
+        },
+        {
+          "id": "food",
+          "value": 22925343,
+          "rank": 17
+        },
+        {
+          "id": "earthporn",
+          "value": 22527254,
+          "rank": 18
+        },
+        {
+          "id": "iama",
+          "value": 22250752,
+          "rank": 19
+        },
+        {
+          "id": "nottheonion",
+          "value": 21792779,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260806",
+      "values": [
+        {
+          "id": "announcements",
+          "value": 173261451,
+          "rank": 1
+        },
+        {
+          "id": "funny",
+          "value": 42956576,
+          "rank": 2
+        },
+        {
+          "id": "askreddit",
+          "value": 37184873,
+          "rank": 3
+        },
+        {
+          "id": "gaming",
+          "value": 34271752,
+          "rank": 4
+        },
+        {
+          "id": "aww",
+          "value": 32085698,
+          "rank": 5
+        },
+        {
+          "id": "music",
+          "value": 30616016,
+          "rank": 6
+        },
+        {
+          "id": "worldnews",
+          "value": 29650859,
+          "rank": 7
+        },
+        {
+          "id": "pics",
+          "value": 29321753,
+          "rank": 8
+        },
+        {
+          "id": "movies",
+          "value": 29018413,
+          "rank": 9
+        },
+        {
+          "id": "todayilearned",
+          "value": 28743574,
+          "rank": 10
+        },
+        {
+          "id": "science",
+          "value": 28220134,
+          "rank": 11
+        },
+        {
+          "id": "videos",
+          "value": 26566771,
+          "rank": 12
+        },
+        {
+          "id": "showerthoughts",
+          "value": 25617596,
+          "rank": 13
+        },
+        {
+          "id": "news",
+          "value": 25194887,
+          "rank": 14
+        },
+        {
+          "id": "jokes",
+          "value": 24209962,
+          "rank": 15
+        },
+        {
+          "id": "askscience",
+          "value": 23109067,
+          "rank": 16
+        },
+        {
+          "id": "food",
+          "value": 22925343,
+          "rank": 17
+        },
+        {
+          "id": "earthporn",
+          "value": 22527254,
+          "rank": 18
+        },
+        {
+          "id": "iama",
+          "value": 22250752,
+          "rank": 19
+        },
+        {
+          "id": "nottheonion",
+          "value": 21792779,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260807",
+      "values": [
+        {
+          "id": "announcements",
+          "value": 173261451,
+          "rank": 1
+        },
+        {
+          "id": "funny",
+          "value": 42956576,
+          "rank": 2
+        },
+        {
+          "id": "askreddit",
+          "value": 37184873,
+          "rank": 3
+        },
+        {
+          "id": "gaming",
+          "value": 34271752,
+          "rank": 4
+        },
+        {
+          "id": "aww",
+          "value": 32085698,
+          "rank": 5
+        },
+        {
+          "id": "music",
+          "value": 30616016,
+          "rank": 6
+        },
+        {
+          "id": "worldnews",
+          "value": 29650859,
+          "rank": 7
+        },
+        {
+          "id": "pics",
+          "value": 29321753,
+          "rank": 8
+        },
+        {
+          "id": "movies",
+          "value": 29018413,
+          "rank": 9
+        },
+        {
+          "id": "todayilearned",
+          "value": 28743574,
+          "rank": 10
+        },
+        {
+          "id": "science",
+          "value": 28220134,
+          "rank": 11
+        },
+        {
+          "id": "videos",
+          "value": 26566771,
+          "rank": 12
+        },
+        {
+          "id": "showerthoughts",
+          "value": 25617596,
+          "rank": 13
+        },
+        {
+          "id": "news",
+          "value": 25194887,
+          "rank": 14
+        },
+        {
+          "id": "jokes",
+          "value": 24209962,
+          "rank": 15
+        },
+        {
+          "id": "askscience",
+          "value": 23109067,
+          "rank": 16
+        },
+        {
+          "id": "food",
+          "value": 22925343,
+          "rank": 17
+        },
+        {
+          "id": "earthporn",
+          "value": 22527254,
+          "rank": 18
+        },
+        {
+          "id": "iama",
+          "value": 22250752,
+          "rank": 19
+        },
+        {
+          "id": "nottheonion",
+          "value": 21792779,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260808",
+      "values": [
+        {
+          "id": "announcements",
+          "value": 173261451,
+          "rank": 1
+        },
+        {
+          "id": "funny",
+          "value": 42956576,
+          "rank": 2
+        },
+        {
+          "id": "askreddit",
+          "value": 37184873,
+          "rank": 3
+        },
+        {
+          "id": "gaming",
+          "value": 34271752,
+          "rank": 4
+        },
+        {
+          "id": "aww",
+          "value": 32085698,
+          "rank": 5
+        },
+        {
+          "id": "music",
+          "value": 30616016,
+          "rank": 6
+        },
+        {
+          "id": "worldnews",
+          "value": 29650859,
+          "rank": 7
+        },
+        {
+          "id": "pics",
+          "value": 29321753,
+          "rank": 8
+        },
+        {
+          "id": "movies",
+          "value": 29018413,
+          "rank": 9
+        },
+        {
+          "id": "todayilearned",
+          "value": 28743574,
+          "rank": 10
+        },
+        {
+          "id": "science",
+          "value": 28220134,
+          "rank": 11
+        },
+        {
+          "id": "videos",
+          "value": 26566771,
+          "rank": 12
+        },
+        {
+          "id": "showerthoughts",
+          "value": 25617596,
+          "rank": 13
+        },
+        {
+          "id": "news",
+          "value": 25194887,
+          "rank": 14
+        },
+        {
+          "id": "jokes",
+          "value": 24209962,
+          "rank": 15
+        },
+        {
+          "id": "askscience",
+          "value": 23109067,
+          "rank": 16
+        },
+        {
+          "id": "food",
+          "value": 22925343,
+          "rank": 17
+        },
+        {
+          "id": "earthporn",
+          "value": 22527254,
+          "rank": 18
+        },
+        {
+          "id": "iama",
+          "value": 22250752,
+          "rank": 19
+        },
+        {
+          "id": "nottheonion",
+          "value": 21792779,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260809",
+      "values": [
+        {
+          "id": "announcements",
+          "value": 173261451,
+          "rank": 1
+        },
+        {
+          "id": "funny",
+          "value": 42956576,
+          "rank": 2
+        },
+        {
+          "id": "askreddit",
+          "value": 37184873,
+          "rank": 3
+        },
+        {
+          "id": "gaming",
+          "value": 34271752,
+          "rank": 4
+        },
+        {
+          "id": "aww",
+          "value": 32085698,
+          "rank": 5
+        },
+        {
+          "id": "music",
+          "value": 30616016,
+          "rank": 6
+        },
+        {
+          "id": "worldnews",
+          "value": 29650859,
+          "rank": 7
+        },
+        {
+          "id": "pics",
+          "value": 29321753,
+          "rank": 8
+        },
+        {
+          "id": "movies",
+          "value": 29018413,
+          "rank": 9
+        },
+        {
+          "id": "todayilearned",
+          "value": 28743574,
+          "rank": 10
+        },
+        {
+          "id": "science",
+          "value": 28220134,
+          "rank": 11
+        },
+        {
+          "id": "videos",
+          "value": 26566771,
+          "rank": 12
+        },
+        {
+          "id": "showerthoughts",
+          "value": 25617596,
+          "rank": 13
+        },
+        {
+          "id": "news",
+          "value": 25194887,
+          "rank": 14
+        },
+        {
+          "id": "jokes",
+          "value": 24209962,
+          "rank": 15
+        },
+        {
+          "id": "askscience",
+          "value": 23109067,
+          "rank": 16
+        },
+        {
+          "id": "food",
+          "value": 22925343,
+          "rank": 17
+        },
+        {
+          "id": "earthporn",
+          "value": 22527254,
+          "rank": 18
+        },
+        {
+          "id": "iama",
+          "value": 22250752,
+          "rank": 19
+        },
+        {
+          "id": "nottheonion",
+          "value": 21792779,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260810",
+      "values": [
+        {
+          "id": "announcements",
+          "value": 173261451,
+          "rank": 1
+        },
+        {
+          "id": "funny",
+          "value": 42956576,
+          "rank": 2
+        },
+        {
+          "id": "askreddit",
+          "value": 37184873,
+          "rank": 3
+        },
+        {
+          "id": "gaming",
+          "value": 34271752,
+          "rank": 4
+        },
+        {
+          "id": "aww",
+          "value": 32085698,
+          "rank": 5
+        },
+        {
+          "id": "music",
+          "value": 30616016,
+          "rank": 6
+        },
+        {
+          "id": "worldnews",
+          "value": 29650859,
+          "rank": 7
+        },
+        {
+          "id": "pics",
+          "value": 29321753,
+          "rank": 8
+        },
+        {
+          "id": "movies",
+          "value": 29018413,
+          "rank": 9
+        },
+        {
+          "id": "todayilearned",
+          "value": 28743574,
+          "rank": 10
+        },
+        {
+          "id": "science",
+          "value": 28220134,
+          "rank": 11
+        },
+        {
+          "id": "videos",
+          "value": 26566771,
+          "rank": 12
+        },
+        {
+          "id": "showerthoughts",
+          "value": 25617596,
+          "rank": 13
+        },
+        {
+          "id": "news",
+          "value": 25194887,
+          "rank": 14
+        },
+        {
+          "id": "jokes",
+          "value": 24209962,
+          "rank": 15
+        },
+        {
+          "id": "askscience",
+          "value": 23109067,
+          "rank": 16
+        },
+        {
+          "id": "food",
+          "value": 22925343,
+          "rank": 17
+        },
+        {
+          "id": "earthporn",
+          "value": 22527254,
+          "rank": 18
+        },
+        {
+          "id": "iama",
+          "value": 22250752,
+          "rank": 19
+        },
+        {
+          "id": "nottheonion",
+          "value": 21792779,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260811",
+      "values": [
+        {
+          "id": "announcements",
+          "value": 173261451,
+          "rank": 1
+        },
+        {
+          "id": "funny",
+          "value": 42956576,
+          "rank": 2
+        },
+        {
+          "id": "askreddit",
+          "value": 37184873,
+          "rank": 3
+        },
+        {
+          "id": "gaming",
+          "value": 34271752,
+          "rank": 4
+        },
+        {
+          "id": "aww",
+          "value": 32085698,
+          "rank": 5
+        },
+        {
+          "id": "music",
+          "value": 30616016,
+          "rank": 6
+        },
+        {
+          "id": "worldnews",
+          "value": 29650859,
+          "rank": 7
+        },
+        {
+          "id": "pics",
+          "value": 29321753,
+          "rank": 8
+        },
+        {
+          "id": "movies",
+          "value": 29018413,
+          "rank": 9
+        },
+        {
+          "id": "todayilearned",
+          "value": 28743574,
+          "rank": 10
+        },
+        {
+          "id": "science",
+          "value": 28220134,
+          "rank": 11
+        },
+        {
+          "id": "videos",
+          "value": 26566771,
+          "rank": 12
+        },
+        {
+          "id": "showerthoughts",
+          "value": 25617596,
+          "rank": 13
+        },
+        {
+          "id": "news",
+          "value": 25194887,
+          "rank": 14
+        },
+        {
+          "id": "jokes",
+          "value": 24209962,
+          "rank": 15
+        },
+        {
+          "id": "askscience",
+          "value": 23109067,
+          "rank": 16
+        },
+        {
+          "id": "food",
+          "value": 22925343,
+          "rank": 17
+        },
+        {
+          "id": "earthporn",
+          "value": 22527254,
+          "rank": 18
+        },
+        {
+          "id": "iama",
+          "value": 22250752,
+          "rank": 19
+        },
+        {
+          "id": "nottheonion",
+          "value": 21792779,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260812",
+      "values": [
+        {
+          "id": "announcements",
+          "value": 173261451,
+          "rank": 1
+        },
+        {
+          "id": "funny",
+          "value": 42956576,
+          "rank": 2
+        },
+        {
+          "id": "askreddit",
+          "value": 37184873,
+          "rank": 3
+        },
+        {
+          "id": "gaming",
+          "value": 34271752,
+          "rank": 4
+        },
+        {
+          "id": "aww",
+          "value": 32085698,
+          "rank": 5
+        },
+        {
+          "id": "music",
+          "value": 30616016,
+          "rank": 6
+        },
+        {
+          "id": "worldnews",
+          "value": 29650859,
+          "rank": 7
+        },
+        {
+          "id": "pics",
+          "value": 29321753,
+          "rank": 8
+        },
+        {
+          "id": "movies",
+          "value": 29018413,
+          "rank": 9
+        },
+        {
+          "id": "todayilearned",
+          "value": 28743574,
+          "rank": 10
+        },
+        {
+          "id": "science",
+          "value": 28220134,
+          "rank": 11
+        },
+        {
+          "id": "videos",
+          "value": 26566771,
+          "rank": 12
+        },
+        {
+          "id": "showerthoughts",
+          "value": 25617596,
+          "rank": 13
+        },
+        {
+          "id": "news",
+          "value": 25194887,
+          "rank": 14
+        },
+        {
+          "id": "jokes",
+          "value": 24209962,
+          "rank": 15
+        },
+        {
+          "id": "askscience",
+          "value": 23109067,
+          "rank": 16
+        },
+        {
+          "id": "food",
+          "value": 22925343,
+          "rank": 17
+        },
+        {
+          "id": "earthporn",
+          "value": 22527254,
+          "rank": 18
+        },
+        {
+          "id": "iama",
+          "value": 22250752,
+          "rank": 19
+        },
+        {
+          "id": "nottheonion",
+          "value": 21792779,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260813",
+      "values": [
+        {
+          "id": "announcements",
+          "value": 173261451,
+          "rank": 1
+        },
+        {
+          "id": "funny",
+          "value": 42956576,
+          "rank": 2
+        },
+        {
+          "id": "askreddit",
+          "value": 37184873,
+          "rank": 3
+        },
+        {
+          "id": "gaming",
+          "value": 34271752,
+          "rank": 4
+        },
+        {
+          "id": "aww",
+          "value": 32085698,
+          "rank": 5
+        },
+        {
+          "id": "music",
+          "value": 30616016,
+          "rank": 6
+        },
+        {
+          "id": "worldnews",
+          "value": 29650859,
+          "rank": 7
+        },
+        {
+          "id": "pics",
+          "value": 29321753,
+          "rank": 8
+        },
+        {
+          "id": "movies",
+          "value": 29018413,
+          "rank": 9
+        },
+        {
+          "id": "todayilearned",
+          "value": 28743574,
+          "rank": 10
+        },
+        {
+          "id": "science",
+          "value": 28220134,
+          "rank": 11
+        },
+        {
+          "id": "videos",
+          "value": 26566771,
+          "rank": 12
+        },
+        {
+          "id": "showerthoughts",
+          "value": 25617596,
+          "rank": 13
+        },
+        {
+          "id": "news",
+          "value": 25194887,
+          "rank": 14
+        },
+        {
+          "id": "jokes",
+          "value": 24209962,
+          "rank": 15
+        },
+        {
+          "id": "askscience",
+          "value": 23109067,
+          "rank": 16
+        },
+        {
+          "id": "food",
+          "value": 22925343,
+          "rank": 17
+        },
+        {
+          "id": "earthporn",
+          "value": 22527254,
+          "rank": 18
+        },
+        {
+          "id": "iama",
+          "value": 22250752,
+          "rank": 19
+        },
+        {
+          "id": "nottheonion",
+          "value": 21792779,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260814",
+      "values": [
+        {
+          "id": "announcements",
+          "value": 173261451,
+          "rank": 1
+        },
+        {
+          "id": "funny",
+          "value": 42956576,
+          "rank": 2
+        },
+        {
+          "id": "askreddit",
+          "value": 37184873,
+          "rank": 3
+        },
+        {
+          "id": "gaming",
+          "value": 34271752,
+          "rank": 4
+        },
+        {
+          "id": "aww",
+          "value": 32085698,
+          "rank": 5
+        },
+        {
+          "id": "music",
+          "value": 30616016,
+          "rank": 6
+        },
+        {
+          "id": "worldnews",
+          "value": 29650859,
+          "rank": 7
+        },
+        {
+          "id": "pics",
+          "value": 29321753,
+          "rank": 8
+        },
+        {
+          "id": "movies",
+          "value": 29018413,
+          "rank": 9
+        },
+        {
+          "id": "todayilearned",
+          "value": 28743574,
+          "rank": 10
+        },
+        {
+          "id": "science",
+          "value": 28220134,
+          "rank": 11
+        },
+        {
+          "id": "videos",
+          "value": 26566771,
+          "rank": 12
+        },
+        {
+          "id": "showerthoughts",
+          "value": 25617596,
+          "rank": 13
+        },
+        {
+          "id": "news",
+          "value": 25194887,
+          "rank": 14
+        },
+        {
+          "id": "jokes",
+          "value": 24209962,
+          "rank": 15
+        },
+        {
+          "id": "askscience",
+          "value": 23109067,
+          "rank": 16
+        },
+        {
+          "id": "food",
+          "value": 22925343,
+          "rank": 17
+        },
+        {
+          "id": "earthporn",
+          "value": 22527254,
+          "rank": 18
+        },
+        {
+          "id": "iama",
+          "value": 22250752,
+          "rank": 19
+        },
+        {
+          "id": "nottheonion",
+          "value": 21792779,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260815",
+      "values": [
+        {
+          "id": "announcements",
+          "value": 173261451,
+          "rank": 1
+        },
+        {
+          "id": "funny",
+          "value": 42956576,
+          "rank": 2
+        },
+        {
+          "id": "askreddit",
+          "value": 37184873,
+          "rank": 3
+        },
+        {
+          "id": "gaming",
+          "value": 34271752,
+          "rank": 4
+        },
+        {
+          "id": "aww",
+          "value": 32085698,
+          "rank": 5
+        },
+        {
+          "id": "music",
+          "value": 30616016,
+          "rank": 6
+        },
+        {
+          "id": "worldnews",
+          "value": 29650859,
+          "rank": 7
+        },
+        {
+          "id": "pics",
+          "value": 29321753,
+          "rank": 8
+        },
+        {
+          "id": "movies",
+          "value": 29018413,
+          "rank": 9
+        },
+        {
+          "id": "todayilearned",
+          "value": 28743574,
+          "rank": 10
+        },
+        {
+          "id": "science",
+          "value": 28220134,
+          "rank": 11
+        },
+        {
+          "id": "videos",
+          "value": 26566771,
+          "rank": 12
+        },
+        {
+          "id": "showerthoughts",
+          "value": 25617596,
+          "rank": 13
+        },
+        {
+          "id": "news",
+          "value": 25194887,
+          "rank": 14
+        },
+        {
+          "id": "jokes",
+          "value": 24209962,
+          "rank": 15
+        },
+        {
+          "id": "askscience",
+          "value": 23109067,
+          "rank": 16
+        },
+        {
+          "id": "food",
+          "value": 22925343,
+          "rank": 17
+        },
+        {
+          "id": "earthporn",
+          "value": 22527254,
+          "rank": 18
+        },
+        {
+          "id": "iama",
+          "value": 22250752,
+          "rank": 19
+        },
+        {
+          "id": "nottheonion",
+          "value": 21792779,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260816",
+      "values": [
+        {
+          "id": "announcements",
+          "value": 173261451,
+          "rank": 1
+        },
+        {
+          "id": "funny",
+          "value": 42956576,
+          "rank": 2
+        },
+        {
+          "id": "askreddit",
+          "value": 37184873,
+          "rank": 3
+        },
+        {
+          "id": "gaming",
+          "value": 34271752,
+          "rank": 4
+        },
+        {
+          "id": "aww",
+          "value": 32085698,
+          "rank": 5
+        },
+        {
+          "id": "music",
+          "value": 30616016,
+          "rank": 6
+        },
+        {
+          "id": "worldnews",
+          "value": 29650859,
+          "rank": 7
+        },
+        {
+          "id": "pics",
+          "value": 29321753,
+          "rank": 8
+        },
+        {
+          "id": "movies",
+          "value": 29018413,
+          "rank": 9
+        },
+        {
+          "id": "todayilearned",
+          "value": 28743574,
+          "rank": 10
+        },
+        {
+          "id": "science",
+          "value": 28220134,
+          "rank": 11
+        },
+        {
+          "id": "videos",
+          "value": 26566771,
+          "rank": 12
+        },
+        {
+          "id": "showerthoughts",
+          "value": 25617596,
+          "rank": 13
+        },
+        {
+          "id": "news",
+          "value": 25194887,
+          "rank": 14
+        },
+        {
+          "id": "jokes",
+          "value": 24209962,
+          "rank": 15
+        },
+        {
+          "id": "askscience",
+          "value": 23109067,
+          "rank": 16
+        },
+        {
+          "id": "food",
+          "value": 22925343,
+          "rank": 17
+        },
+        {
+          "id": "earthporn",
+          "value": 22527254,
+          "rank": 18
+        },
+        {
+          "id": "iama",
+          "value": 22250752,
+          "rank": 19
+        },
+        {
+          "id": "nottheonion",
+          "value": 21792779,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260817",
+      "values": [
+        {
+          "id": "announcements",
+          "value": 173261451,
+          "rank": 1
+        },
+        {
+          "id": "funny",
+          "value": 42956576,
+          "rank": 2
+        },
+        {
+          "id": "askreddit",
+          "value": 37184873,
+          "rank": 3
+        },
+        {
+          "id": "gaming",
+          "value": 34271752,
+          "rank": 4
+        },
+        {
+          "id": "aww",
+          "value": 32085698,
+          "rank": 5
+        },
+        {
+          "id": "music",
+          "value": 30616016,
+          "rank": 6
+        },
+        {
+          "id": "worldnews",
+          "value": 29650859,
+          "rank": 7
+        },
+        {
+          "id": "pics",
+          "value": 29321753,
+          "rank": 8
+        },
+        {
+          "id": "movies",
+          "value": 29018413,
+          "rank": 9
+        },
+        {
+          "id": "todayilearned",
+          "value": 28743574,
+          "rank": 10
+        },
+        {
+          "id": "science",
+          "value": 28220134,
+          "rank": 11
+        },
+        {
+          "id": "videos",
+          "value": 26566771,
+          "rank": 12
+        },
+        {
+          "id": "showerthoughts",
+          "value": 25617596,
+          "rank": 13
+        },
+        {
+          "id": "news",
+          "value": 25194887,
+          "rank": 14
+        },
+        {
+          "id": "jokes",
+          "value": 24209962,
+          "rank": 15
+        },
+        {
+          "id": "askscience",
+          "value": 23109067,
+          "rank": 16
+        },
+        {
+          "id": "food",
+          "value": 22925343,
+          "rank": 17
+        },
+        {
+          "id": "earthporn",
+          "value": 22527254,
+          "rank": 18
+        },
+        {
+          "id": "iama",
+          "value": 22250752,
+          "rank": 19
+        },
+        {
+          "id": "nottheonion",
+          "value": 21792779,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260818",
+      "values": [
+        {
+          "id": "announcements",
+          "value": 173261451,
+          "rank": 1
+        },
+        {
+          "id": "funny",
+          "value": 42956576,
+          "rank": 2
+        },
+        {
+          "id": "askreddit",
+          "value": 37184873,
+          "rank": 3
+        },
+        {
+          "id": "gaming",
+          "value": 34271752,
+          "rank": 4
+        },
+        {
+          "id": "aww",
+          "value": 32085698,
+          "rank": 5
+        },
+        {
+          "id": "music",
+          "value": 30616016,
+          "rank": 6
+        },
+        {
+          "id": "worldnews",
+          "value": 29650859,
+          "rank": 7
+        },
+        {
+          "id": "pics",
+          "value": 29321753,
+          "rank": 8
+        },
+        {
+          "id": "movies",
+          "value": 29018413,
+          "rank": 9
+        },
+        {
+          "id": "todayilearned",
+          "value": 28743574,
+          "rank": 10
+        },
+        {
+          "id": "science",
+          "value": 28220134,
+          "rank": 11
+        },
+        {
+          "id": "videos",
+          "value": 26566771,
+          "rank": 12
+        },
+        {
+          "id": "showerthoughts",
+          "value": 25617596,
+          "rank": 13
+        },
+        {
+          "id": "news",
+          "value": 25194887,
+          "rank": 14
+        },
+        {
+          "id": "jokes",
+          "value": 24209962,
+          "rank": 15
+        },
+        {
+          "id": "askscience",
+          "value": 23109067,
+          "rank": 16
+        },
+        {
+          "id": "food",
+          "value": 22925343,
+          "rank": 17
+        },
+        {
+          "id": "earthporn",
+          "value": 22527254,
+          "rank": 18
+        },
+        {
+          "id": "iama",
+          "value": 22250752,
+          "rank": 19
+        },
+        {
+          "id": "nottheonion",
+          "value": 21792779,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260819",
+      "values": [
+        {
+          "id": "announcements",
+          "value": 173261451,
+          "rank": 1
+        },
+        {
+          "id": "funny",
+          "value": 42956576,
+          "rank": 2
+        },
+        {
+          "id": "askreddit",
+          "value": 37184873,
+          "rank": 3
+        },
+        {
+          "id": "gaming",
+          "value": 34271752,
+          "rank": 4
+        },
+        {
+          "id": "aww",
+          "value": 32085698,
+          "rank": 5
+        },
+        {
+          "id": "music",
+          "value": 30616016,
+          "rank": 6
+        },
+        {
+          "id": "worldnews",
+          "value": 29650859,
+          "rank": 7
+        },
+        {
+          "id": "pics",
+          "value": 29321753,
+          "rank": 8
+        },
+        {
+          "id": "movies",
+          "value": 29018413,
+          "rank": 9
+        },
+        {
+          "id": "todayilearned",
+          "value": 28743574,
+          "rank": 10
+        },
+        {
+          "id": "science",
+          "value": 28220134,
+          "rank": 11
+        },
+        {
+          "id": "videos",
+          "value": 26566771,
+          "rank": 12
+        },
+        {
+          "id": "showerthoughts",
+          "value": 25617596,
+          "rank": 13
+        },
+        {
+          "id": "news",
+          "value": 25194887,
+          "rank": 14
+        },
+        {
+          "id": "jokes",
+          "value": 24209962,
+          "rank": 15
+        },
+        {
+          "id": "askscience",
+          "value": 23109067,
+          "rank": 16
+        },
+        {
+          "id": "food",
+          "value": 22925343,
+          "rank": 17
+        },
+        {
+          "id": "earthporn",
+          "value": 22527254,
+          "rank": 18
+        },
+        {
+          "id": "iama",
+          "value": 22250752,
+          "rank": 19
+        },
+        {
+          "id": "nottheonion",
+          "value": 21792779,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260820",
+      "values": [
+        {
+          "id": "announcements",
+          "value": 173261451,
+          "rank": 1
+        },
+        {
+          "id": "funny",
+          "value": 42956576,
+          "rank": 2
+        },
+        {
+          "id": "askreddit",
+          "value": 37184873,
+          "rank": 3
+        },
+        {
+          "id": "gaming",
+          "value": 34271752,
+          "rank": 4
+        },
+        {
+          "id": "aww",
+          "value": 32085698,
+          "rank": 5
+        },
+        {
+          "id": "music",
+          "value": 30616016,
+          "rank": 6
+        },
+        {
+          "id": "worldnews",
+          "value": 29650859,
+          "rank": 7
+        },
+        {
+          "id": "pics",
+          "value": 29321753,
+          "rank": 8
+        },
+        {
+          "id": "movies",
+          "value": 29018413,
+          "rank": 9
+        },
+        {
+          "id": "todayilearned",
+          "value": 28743574,
+          "rank": 10
+        },
+        {
+          "id": "science",
+          "value": 28220134,
+          "rank": 11
+        },
+        {
+          "id": "videos",
+          "value": 26566771,
+          "rank": 12
+        },
+        {
+          "id": "showerthoughts",
+          "value": 25617596,
+          "rank": 13
+        },
+        {
+          "id": "news",
+          "value": 25194887,
+          "rank": 14
+        },
+        {
+          "id": "jokes",
+          "value": 24209962,
+          "rank": 15
+        },
+        {
+          "id": "askscience",
+          "value": 23109067,
+          "rank": 16
+        },
+        {
+          "id": "food",
+          "value": 22925343,
+          "rank": 17
+        },
+        {
+          "id": "earthporn",
+          "value": 22527254,
+          "rank": 18
+        },
+        {
+          "id": "iama",
+          "value": 22250752,
+          "rank": 19
+        },
+        {
+          "id": "nottheonion",
+          "value": 21792779,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260821",
+      "values": [
+        {
+          "id": "announcements",
+          "value": 173261451,
+          "rank": 1
+        },
+        {
+          "id": "funny",
+          "value": 42956576,
+          "rank": 2
+        },
+        {
+          "id": "askreddit",
+          "value": 37184873,
+          "rank": 3
+        },
+        {
+          "id": "gaming",
+          "value": 34271752,
+          "rank": 4
+        },
+        {
+          "id": "aww",
+          "value": 32085698,
+          "rank": 5
+        },
+        {
+          "id": "music",
+          "value": 30616016,
+          "rank": 6
+        },
+        {
+          "id": "worldnews",
+          "value": 29650859,
+          "rank": 7
+        },
+        {
+          "id": "pics",
+          "value": 29321753,
+          "rank": 8
+        },
+        {
+          "id": "movies",
+          "value": 29018413,
+          "rank": 9
+        },
+        {
+          "id": "todayilearned",
+          "value": 28743574,
+          "rank": 10
+        },
+        {
+          "id": "science",
+          "value": 28220134,
+          "rank": 11
+        },
+        {
+          "id": "videos",
+          "value": 26566771,
+          "rank": 12
+        },
+        {
+          "id": "showerthoughts",
+          "value": 25617596,
+          "rank": 13
+        },
+        {
+          "id": "news",
+          "value": 25194887,
+          "rank": 14
+        },
+        {
+          "id": "jokes",
+          "value": 24209962,
+          "rank": 15
+        },
+        {
+          "id": "askscience",
+          "value": 23109067,
+          "rank": 16
+        },
+        {
+          "id": "food",
+          "value": 22925343,
+          "rank": 17
+        },
+        {
+          "id": "earthporn",
+          "value": 22527254,
+          "rank": 18
+        },
+        {
+          "id": "iama",
+          "value": 22250752,
+          "rank": 19
+        },
+        {
+          "id": "nottheonion",
+          "value": 21792779,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260822",
+      "values": [
+        {
+          "id": "announcements",
+          "value": 173261451,
+          "rank": 1
+        },
+        {
+          "id": "funny",
+          "value": 42956576,
+          "rank": 2
+        },
+        {
+          "id": "askreddit",
+          "value": 37184873,
+          "rank": 3
+        },
+        {
+          "id": "gaming",
+          "value": 34271752,
+          "rank": 4
+        },
+        {
+          "id": "aww",
+          "value": 32085698,
+          "rank": 5
+        },
+        {
+          "id": "music",
+          "value": 30616016,
+          "rank": 6
+        },
+        {
+          "id": "worldnews",
+          "value": 29650859,
+          "rank": 7
+        },
+        {
+          "id": "pics",
+          "value": 29321753,
+          "rank": 8
+        },
+        {
+          "id": "movies",
+          "value": 29018413,
+          "rank": 9
+        },
+        {
+          "id": "todayilearned",
+          "value": 28743574,
+          "rank": 10
+        },
+        {
+          "id": "science",
+          "value": 28220134,
+          "rank": 11
+        },
+        {
+          "id": "videos",
+          "value": 26566771,
+          "rank": 12
+        },
+        {
+          "id": "showerthoughts",
+          "value": 25617596,
+          "rank": 13
+        },
+        {
+          "id": "news",
+          "value": 25194887,
+          "rank": 14
+        },
+        {
+          "id": "jokes",
+          "value": 24209962,
+          "rank": 15
+        },
+        {
+          "id": "askscience",
+          "value": 23109067,
+          "rank": 16
+        },
+        {
+          "id": "food",
+          "value": 22925343,
+          "rank": 17
+        },
+        {
+          "id": "earthporn",
+          "value": 22527254,
+          "rank": 18
+        },
+        {
+          "id": "iama",
+          "value": 22250752,
+          "rank": 19
+        },
+        {
+          "id": "nottheonion",
+          "value": 21792779,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260823",
+      "values": [
+        {
+          "id": "announcements",
+          "value": 173261451,
+          "rank": 1
+        },
+        {
+          "id": "funny",
+          "value": 42956576,
+          "rank": 2
+        },
+        {
+          "id": "askreddit",
+          "value": 37184873,
+          "rank": 3
+        },
+        {
+          "id": "gaming",
+          "value": 34271752,
+          "rank": 4
+        },
+        {
+          "id": "aww",
+          "value": 32085698,
+          "rank": 5
+        },
+        {
+          "id": "music",
+          "value": 30616016,
+          "rank": 6
+        },
+        {
+          "id": "worldnews",
+          "value": 29650859,
+          "rank": 7
+        },
+        {
+          "id": "pics",
+          "value": 29321753,
+          "rank": 8
+        },
+        {
+          "id": "movies",
+          "value": 29018413,
+          "rank": 9
+        },
+        {
+          "id": "todayilearned",
+          "value": 28743574,
+          "rank": 10
+        },
+        {
+          "id": "science",
+          "value": 28220134,
+          "rank": 11
+        },
+        {
+          "id": "videos",
+          "value": 26566771,
+          "rank": 12
+        },
+        {
+          "id": "showerthoughts",
+          "value": 25617596,
+          "rank": 13
+        },
+        {
+          "id": "news",
+          "value": 25194887,
+          "rank": 14
+        },
+        {
+          "id": "jokes",
+          "value": 24209962,
+          "rank": 15
+        },
+        {
+          "id": "askscience",
+          "value": 23109067,
+          "rank": 16
+        },
+        {
+          "id": "food",
+          "value": 22925343,
+          "rank": 17
+        },
+        {
+          "id": "earthporn",
+          "value": 22527254,
+          "rank": 18
+        },
+        {
+          "id": "iama",
+          "value": 22250752,
+          "rank": 19
+        },
+        {
+          "id": "nottheonion",
+          "value": 21792779,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260824",
+      "values": [
+        {
+          "id": "announcements",
+          "value": 173261451,
+          "rank": 1
+        },
+        {
+          "id": "funny",
+          "value": 42956576,
+          "rank": 2
+        },
+        {
+          "id": "askreddit",
+          "value": 37184873,
+          "rank": 3
+        },
+        {
+          "id": "gaming",
+          "value": 34271752,
+          "rank": 4
+        },
+        {
+          "id": "aww",
+          "value": 32085698,
+          "rank": 5
+        },
+        {
+          "id": "music",
+          "value": 30616016,
+          "rank": 6
+        },
+        {
+          "id": "worldnews",
+          "value": 29650859,
+          "rank": 7
+        },
+        {
+          "id": "pics",
+          "value": 29321753,
+          "rank": 8
+        },
+        {
+          "id": "movies",
+          "value": 29018413,
+          "rank": 9
+        },
+        {
+          "id": "todayilearned",
+          "value": 28743574,
+          "rank": 10
+        },
+        {
+          "id": "science",
+          "value": 28220134,
+          "rank": 11
+        },
+        {
+          "id": "videos",
+          "value": 26566771,
+          "rank": 12
+        },
+        {
+          "id": "showerthoughts",
+          "value": 25617596,
+          "rank": 13
+        },
+        {
+          "id": "news",
+          "value": 25194887,
+          "rank": 14
+        },
+        {
+          "id": "jokes",
+          "value": 24209962,
+          "rank": 15
+        },
+        {
+          "id": "askscience",
+          "value": 23109067,
+          "rank": 16
+        },
+        {
+          "id": "food",
+          "value": 22925343,
+          "rank": 17
+        },
+        {
+          "id": "earthporn",
+          "value": 22527254,
+          "rank": 18
+        },
+        {
+          "id": "iama",
+          "value": 22250752,
+          "rank": 19
+        },
+        {
+          "id": "nottheonion",
+          "value": 21792779,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260825",
+      "values": [
+        {
+          "id": "announcements",
+          "value": 173261451,
+          "rank": 1
+        },
+        {
+          "id": "funny",
+          "value": 42956576,
+          "rank": 2
+        },
+        {
+          "id": "askreddit",
+          "value": 37184873,
+          "rank": 3
+        },
+        {
+          "id": "gaming",
+          "value": 34271752,
+          "rank": 4
+        },
+        {
+          "id": "aww",
+          "value": 32085698,
+          "rank": 5
+        },
+        {
+          "id": "music",
+          "value": 30616016,
+          "rank": 6
+        },
+        {
+          "id": "worldnews",
+          "value": 29650859,
+          "rank": 7
+        },
+        {
+          "id": "pics",
+          "value": 29321753,
+          "rank": 8
+        },
+        {
+          "id": "movies",
+          "value": 29018413,
+          "rank": 9
+        },
+        {
+          "id": "todayilearned",
+          "value": 28743574,
+          "rank": 10
+        },
+        {
+          "id": "science",
+          "value": 28220134,
+          "rank": 11
+        },
+        {
+          "id": "videos",
+          "value": 26566771,
+          "rank": 12
+        },
+        {
+          "id": "showerthoughts",
+          "value": 25617596,
+          "rank": 13
+        },
+        {
+          "id": "news",
+          "value": 25194887,
+          "rank": 14
+        },
+        {
+          "id": "jokes",
+          "value": 24209962,
+          "rank": 15
+        },
+        {
+          "id": "askscience",
+          "value": 23109067,
+          "rank": 16
+        },
+        {
+          "id": "food",
+          "value": 22925343,
+          "rank": 17
+        },
+        {
+          "id": "earthporn",
+          "value": 22527254,
+          "rank": 18
+        },
+        {
+          "id": "iama",
+          "value": 22250752,
+          "rank": 19
+        },
+        {
+          "id": "nottheonion",
+          "value": 21792779,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260826",
+      "values": [
+        {
+          "id": "announcements",
+          "value": 173261451,
+          "rank": 1
+        },
+        {
+          "id": "funny",
+          "value": 42956576,
+          "rank": 2
+        },
+        {
+          "id": "askreddit",
+          "value": 37184873,
+          "rank": 3
+        },
+        {
+          "id": "gaming",
+          "value": 34271752,
+          "rank": 4
+        },
+        {
+          "id": "aww",
+          "value": 32085698,
+          "rank": 5
+        },
+        {
+          "id": "music",
+          "value": 30616016,
+          "rank": 6
+        },
+        {
+          "id": "worldnews",
+          "value": 29650859,
+          "rank": 7
+        },
+        {
+          "id": "pics",
+          "value": 29321753,
+          "rank": 8
+        },
+        {
+          "id": "movies",
+          "value": 29018413,
+          "rank": 9
+        },
+        {
+          "id": "todayilearned",
+          "value": 28743574,
+          "rank": 10
+        },
+        {
+          "id": "science",
+          "value": 28220134,
+          "rank": 11
+        },
+        {
+          "id": "videos",
+          "value": 26566771,
+          "rank": 12
+        },
+        {
+          "id": "showerthoughts",
+          "value": 25617596,
+          "rank": 13
+        },
+        {
+          "id": "news",
+          "value": 25194887,
+          "rank": 14
+        },
+        {
+          "id": "jokes",
+          "value": 24209962,
+          "rank": 15
+        },
+        {
+          "id": "askscience",
+          "value": 23109067,
+          "rank": 16
+        },
+        {
+          "id": "food",
+          "value": 22925343,
+          "rank": 17
+        },
+        {
+          "id": "earthporn",
+          "value": 22527254,
+          "rank": 18
+        },
+        {
+          "id": "iama",
+          "value": 22250752,
+          "rank": 19
+        },
+        {
+          "id": "nottheonion",
+          "value": 21792779,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260827",
+      "values": [
+        {
+          "id": "announcements",
+          "value": 173261451,
+          "rank": 1
+        },
+        {
+          "id": "funny",
+          "value": 42956576,
+          "rank": 2
+        },
+        {
+          "id": "askreddit",
+          "value": 37184873,
+          "rank": 3
+        },
+        {
+          "id": "gaming",
+          "value": 34271752,
+          "rank": 4
+        },
+        {
+          "id": "aww",
+          "value": 32085698,
+          "rank": 5
+        },
+        {
+          "id": "music",
+          "value": 30616016,
+          "rank": 6
+        },
+        {
+          "id": "worldnews",
+          "value": 29650859,
+          "rank": 7
+        },
+        {
+          "id": "pics",
+          "value": 29321753,
+          "rank": 8
+        },
+        {
+          "id": "movies",
+          "value": 29018413,
+          "rank": 9
+        },
+        {
+          "id": "todayilearned",
+          "value": 28743574,
+          "rank": 10
+        },
+        {
+          "id": "science",
+          "value": 28220134,
+          "rank": 11
+        },
+        {
+          "id": "videos",
+          "value": 26566771,
+          "rank": 12
+        },
+        {
+          "id": "showerthoughts",
+          "value": 25617596,
+          "rank": 13
+        },
+        {
+          "id": "news",
+          "value": 25194887,
+          "rank": 14
+        },
+        {
+          "id": "jokes",
+          "value": 24209962,
+          "rank": 15
+        },
+        {
+          "id": "askscience",
+          "value": 23109067,
+          "rank": 16
+        },
+        {
+          "id": "food",
+          "value": 22925343,
+          "rank": 17
+        },
+        {
+          "id": "earthporn",
+          "value": 22527254,
+          "rank": 18
+        },
+        {
+          "id": "iama",
+          "value": 22250752,
+          "rank": 19
+        },
+        {
+          "id": "nottheonion",
+          "value": 21792779,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260828",
+      "values": [
+        {
+          "id": "announcements",
+          "value": 173261451,
+          "rank": 1
+        },
+        {
+          "id": "funny",
+          "value": 42956576,
+          "rank": 2
+        },
+        {
+          "id": "askreddit",
+          "value": 37184873,
+          "rank": 3
+        },
+        {
+          "id": "gaming",
+          "value": 34271752,
+          "rank": 4
+        },
+        {
+          "id": "aww",
+          "value": 32085698,
+          "rank": 5
+        },
+        {
+          "id": "music",
+          "value": 30616016,
+          "rank": 6
+        },
+        {
+          "id": "worldnews",
+          "value": 29650859,
+          "rank": 7
+        },
+        {
+          "id": "pics",
+          "value": 29321753,
+          "rank": 8
+        },
+        {
+          "id": "movies",
+          "value": 29018413,
+          "rank": 9
+        },
+        {
+          "id": "todayilearned",
+          "value": 28743574,
+          "rank": 10
+        },
+        {
+          "id": "science",
+          "value": 28220134,
+          "rank": 11
+        },
+        {
+          "id": "videos",
+          "value": 26566771,
+          "rank": 12
+        },
+        {
+          "id": "showerthoughts",
+          "value": 25617596,
+          "rank": 13
+        },
+        {
+          "id": "news",
+          "value": 25194887,
+          "rank": 14
+        },
+        {
+          "id": "jokes",
+          "value": 24209962,
+          "rank": 15
+        },
+        {
+          "id": "askscience",
+          "value": 23109067,
+          "rank": 16
+        },
+        {
+          "id": "food",
+          "value": 22925343,
+          "rank": 17
+        },
+        {
+          "id": "earthporn",
+          "value": 22527254,
+          "rank": 18
+        },
+        {
+          "id": "iama",
+          "value": 22250752,
+          "rank": 19
+        },
+        {
+          "id": "nottheonion",
+          "value": 21792779,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260829",
+      "values": [
+        {
+          "id": "announcements",
+          "value": 173261451,
+          "rank": 1
+        },
+        {
+          "id": "funny",
+          "value": 42956576,
+          "rank": 2
+        },
+        {
+          "id": "askreddit",
+          "value": 37184873,
+          "rank": 3
+        },
+        {
+          "id": "gaming",
+          "value": 34271752,
+          "rank": 4
+        },
+        {
+          "id": "aww",
+          "value": 32085698,
+          "rank": 5
+        },
+        {
+          "id": "music",
+          "value": 30616016,
+          "rank": 6
+        },
+        {
+          "id": "worldnews",
+          "value": 29650859,
+          "rank": 7
+        },
+        {
+          "id": "pics",
+          "value": 29321753,
+          "rank": 8
+        },
+        {
+          "id": "movies",
+          "value": 29018413,
+          "rank": 9
+        },
+        {
+          "id": "todayilearned",
+          "value": 28743574,
+          "rank": 10
+        },
+        {
+          "id": "science",
+          "value": 28220134,
+          "rank": 11
+        },
+        {
+          "id": "videos",
+          "value": 26566771,
+          "rank": 12
+        },
+        {
+          "id": "showerthoughts",
+          "value": 25617596,
+          "rank": 13
+        },
+        {
+          "id": "news",
+          "value": 25194887,
+          "rank": 14
+        },
+        {
+          "id": "jokes",
+          "value": 24209962,
+          "rank": 15
+        },
+        {
+          "id": "askscience",
+          "value": 23109067,
+          "rank": 16
+        },
+        {
+          "id": "food",
+          "value": 22925343,
+          "rank": 17
+        },
+        {
+          "id": "earthporn",
+          "value": 22527254,
+          "rank": 18
+        },
+        {
+          "id": "iama",
+          "value": 22250752,
+          "rank": 19
+        },
+        {
+          "id": "nottheonion",
+          "value": 21792779,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260830",
+      "values": [
+        {
+          "id": "announcements",
+          "value": 173261451,
+          "rank": 1
+        },
+        {
+          "id": "funny",
+          "value": 42956576,
+          "rank": 2
+        },
+        {
+          "id": "askreddit",
+          "value": 37184873,
+          "rank": 3
+        },
+        {
+          "id": "gaming",
+          "value": 34271752,
+          "rank": 4
+        },
+        {
+          "id": "aww",
+          "value": 32085698,
+          "rank": 5
+        },
+        {
+          "id": "music",
+          "value": 30616016,
+          "rank": 6
+        },
+        {
+          "id": "worldnews",
+          "value": 29650859,
+          "rank": 7
+        },
+        {
+          "id": "pics",
+          "value": 29321753,
+          "rank": 8
+        },
+        {
+          "id": "movies",
+          "value": 29018413,
+          "rank": 9
+        },
+        {
+          "id": "todayilearned",
+          "value": 28743574,
+          "rank": 10
+        },
+        {
+          "id": "science",
+          "value": 28220134,
+          "rank": 11
+        },
+        {
+          "id": "videos",
+          "value": 26566771,
+          "rank": 12
+        },
+        {
+          "id": "showerthoughts",
+          "value": 25617596,
+          "rank": 13
+        },
+        {
+          "id": "news",
+          "value": 25194887,
+          "rank": 14
+        },
+        {
+          "id": "jokes",
+          "value": 24209962,
+          "rank": 15
+        },
+        {
+          "id": "askscience",
+          "value": 23109067,
+          "rank": 16
+        },
+        {
+          "id": "food",
+          "value": 22925343,
+          "rank": 17
+        },
+        {
+          "id": "earthporn",
+          "value": 22527254,
+          "rank": 18
+        },
+        {
+          "id": "iama",
+          "value": 22250752,
+          "rank": 19
+        },
+        {
+          "id": "nottheonion",
+          "value": 21792779,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260831",
+      "values": [
+        {
+          "id": "announcements",
+          "value": 173261451,
+          "rank": 1
+        },
+        {
+          "id": "funny",
+          "value": 42956576,
+          "rank": 2
+        },
+        {
+          "id": "askreddit",
+          "value": 37184873,
+          "rank": 3
+        },
+        {
+          "id": "gaming",
+          "value": 34271752,
+          "rank": 4
+        },
+        {
+          "id": "aww",
+          "value": 32085698,
+          "rank": 5
+        },
+        {
+          "id": "music",
+          "value": 30616016,
+          "rank": 6
+        },
+        {
+          "id": "worldnews",
+          "value": 29650859,
+          "rank": 7
+        },
+        {
+          "id": "pics",
+          "value": 29321753,
+          "rank": 8
+        },
+        {
+          "id": "movies",
+          "value": 29018413,
+          "rank": 9
+        },
+        {
+          "id": "todayilearned",
+          "value": 28743574,
+          "rank": 10
+        },
+        {
+          "id": "science",
+          "value": 28220134,
+          "rank": 11
+        },
+        {
+          "id": "videos",
+          "value": 26566771,
+          "rank": 12
+        },
+        {
+          "id": "showerthoughts",
+          "value": 25617596,
+          "rank": 13
+        },
+        {
+          "id": "news",
+          "value": 25194887,
+          "rank": 14
+        },
+        {
+          "id": "jokes",
+          "value": 24209962,
+          "rank": 15
+        },
+        {
+          "id": "askscience",
+          "value": 23109067,
+          "rank": 16
+        },
+        {
+          "id": "food",
+          "value": 22925343,
+          "rank": 17
+        },
+        {
+          "id": "earthporn",
+          "value": 22527254,
+          "rank": 18
+        },
+        {
+          "id": "iama",
+          "value": 22250752,
+          "rank": 19
+        },
+        {
+          "id": "nottheonion",
+          "value": 21792779,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260901",
+      "values": [
+        {
+          "id": "announcements",
+          "value": 173261451,
+          "rank": 1
+        },
+        {
+          "id": "funny",
+          "value": 42956576,
+          "rank": 2
+        },
+        {
+          "id": "askreddit",
+          "value": 37184873,
+          "rank": 3
+        },
+        {
+          "id": "gaming",
+          "value": 34271752,
+          "rank": 4
+        },
+        {
+          "id": "aww",
+          "value": 32085698,
+          "rank": 5
+        },
+        {
+          "id": "music",
+          "value": 30616016,
+          "rank": 6
+        },
+        {
+          "id": "worldnews",
+          "value": 29650859,
+          "rank": 7
+        },
+        {
+          "id": "pics",
+          "value": 29321753,
+          "rank": 8
+        },
+        {
+          "id": "movies",
+          "value": 29018413,
+          "rank": 9
+        },
+        {
+          "id": "todayilearned",
+          "value": 28743574,
+          "rank": 10
+        },
+        {
+          "id": "science",
+          "value": 28220134,
+          "rank": 11
+        },
+        {
+          "id": "videos",
+          "value": 26566771,
+          "rank": 12
+        },
+        {
+          "id": "showerthoughts",
+          "value": 25617596,
+          "rank": 13
+        },
+        {
+          "id": "news",
+          "value": 25194887,
+          "rank": 14
+        },
+        {
+          "id": "jokes",
+          "value": 24209962,
+          "rank": 15
+        },
+        {
+          "id": "askscience",
+          "value": 23109067,
+          "rank": 16
+        },
+        {
+          "id": "food",
+          "value": 22925343,
+          "rank": 17
+        },
+        {
+          "id": "earthporn",
+          "value": 22527254,
+          "rank": 18
+        },
+        {
+          "id": "iama",
+          "value": 22250752,
+          "rank": 19
+        },
+        {
+          "id": "nottheonion",
+          "value": 21792779,
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "date": "20260902",
+      "values": [
+        {
+          "id": "announcements",
+          "value": 173261451,
+          "rank": 1
+        },
+        {
+          "id": "funny",
+          "value": 42956576,
+          "rank": 2
+        },
+        {
+          "id": "askreddit",
+          "value": 37184873,
+          "rank": 3
+        },
+        {
+          "id": "gaming",
+          "value": 34271752,
+          "rank": 4
+        },
+        {
+          "id": "aww",
+          "value": 32085698,
+          "rank": 5
+        },
+        {
+          "id": "music",
+          "value": 30616016,
+          "rank": 6
+        },
+        {
+          "id": "worldnews",
+          "value": 29650859,
+          "rank": 7
+        },
+        {
+          "id": "pics",
+          "value": 29321753,
+          "rank": 8
+        },
+        {
+          "id": "movies",
+          "value": 29018413,
+          "rank": 9
+        },
+        {
+          "id": "todayilearned",
+          "value": 28743574,
+          "rank": 10
+        },
+        {
+          "id": "science",
+          "value": 28220134,
+          "rank": 11
+        },
+        {
+          "id": "videos",
+          "value": 26566771,
+          "rank": 12
+        },
+        {
+          "id": "showerthoughts",
+          "value": 25617596,
+          "rank": 13
+        },
+        {
+          "id": "news",
+          "value": 25194887,
+          "rank": 14
+        },
+        {
+          "id": "jokes",
+          "value": 24209962,
+          "rank": 15
+        },
+        {
+          "id": "askscience",
+          "value": 23109067,
+          "rank": 16
+        },
+        {
+          "id": "food",
+          "value": 22925343,
+          "rank": 17
+        },
+        {
+          "id": "earthporn",
+          "value": 22527254,
+          "rank": 18
+        },
+        {
+          "id": "iama",
+          "value": 22250752,
+          "rank": 19
+        },
+        {
+          "id": "nottheonion",
+          "value": 21792779,
+          "rank": 20
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "date": "20260722",
+      "title": "r/announcements leads subreddit subscribers",
+      "body": "r/announcements is the largest selected subreddit in this snapshot with 173.3M subscribers."
+    },
+    {
+      "date": "20260902",
+      "title": "r/announcements leads subreddit subscribers",
+      "body": "r/announcements is the largest selected subreddit in this snapshot with 173.3M subscribers."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Top Subreddits by Subscribers",
+      "publisher": "FrontPageMetrics",
+      "url": "https://frontpagemetrics.com/top/",
+      "note": "Daily top-100 subreddit ranking table parsed by the adapter."
+    }
+  ],
+  "lastObservationDate": "2026-09-02",
+  "dataFreshness": {
+    "status": "fresh",
+    "refreshCadence": "daily",
+    "lastUpdated": "2026-09-02T09:00:43.127Z",
+    "lastRefreshAttemptedAt": "2026-09-02T09:00:43.127Z",
+    "lastRefreshError": null,
+    "lastObservationDate": "2026-09-02",
+    "nextRefreshAt": "2026-09-03T09:00:00.000Z",
+    "sourceStatus": "FrontPageMetrics top subreddits ranking",
+    "confidence": "Observed the FrontPageMetrics top-subreddits ranking at 2026-09-02T09:00:43.127Z. Values are subscriber counts parsed from the public ranking table."
+  },
+  "media": {
+    "imageFit": "contain",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-09-02T09:00:43.127Z",
+    "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+    "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+    "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+    "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 5,
+    "rows": 4,
+    "width": 1600,
+    "height": 1280,
+    "itemCount": 20,
+    "sourcedImageCount": 0,
+    "generatedImageCount": 20,
+    "placeholderCount": 0,
+    "ogImageUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/most-popular-subreddits.png",
+    "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/most-popular-subreddits.png",
+    "ogImageWidth": 1200,
+    "ogImageHeight": 630
+  },
+  "taxonomy": {
+    "primaryCategory": "culture",
+    "categories": [
+      "culture",
+      "internet",
+      "social-media"
+    ],
+    "tags": [
+      "reddit",
+      "subreddits",
+      "subscribers",
+      "communities",
+      "forums"
+    ],
+    "entityTypes": [
+      "community",
+      "subreddit"
+    ],
+    "sourceTypes": [
+      "frontpagemetrics"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "internet-obsession-meter",
+      "type": "social-attention",
+      "weight": 0.7,
+      "reason": "Large subreddits are major internet-attention hubs."
+    },
+    {
+      "target": "x-account-leaders",
+      "type": "social-platform-peer",
+      "weight": 0.68,
+      "reason": "Both rank the biggest audiences on major social platforms."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "creator-platforms",
+    "mainland": "culture",
+    "bridgePriority": [
+      "x-account-leaders",
+      "instagram-account-leaders"
+    ]
+  },
+  "schemaVersion": 1,
+  "contentKind": "dat-city.story",
+  "generatedAt": "2026-09-02T09:00:43.127Z",
+  "versionId": "20260902T090043Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "storyops-scheduler",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-09-02T09:00:43.127Z",
+    "versionId": "20260902T090043Z",
+    "adapter": "frontpagemetrics-subreddits",
+    "storySlug": "most-popular-subreddits",
+    "districtId": null,
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "publicProjection": {
+    "kind": "story",
+    "version": 1,
+    "generatedAt": "2026-09-02T09:00:43.127Z",
+    "adapter": "frontpagemetrics-subreddits",
+    "cache": {
+      "browserMaxAgeSeconds": 60,
+      "edgeMaxAgeSeconds": 3600
+    }
+  },
+  "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/most-popular-subreddits.png"
+}

@@ -1,0 +1,2059 @@
+{
+  "id": "precious-metals-prices",
+  "kicker": "Commodity Metals",
+  "subtitle": "Gold, silver, platinum, and palladium ranked by their LBMA auction price in USD per kilogram.",
+  "badge": "Ranked by price",
+  "visualization": "race-arena",
+  "theme": "market",
+  "artStyle": "stylized-editorial",
+  "title": "Precious Metals Price Race",
+  "dateRange": [
+    "19681231",
+    "20260901"
+  ],
+  "timelineTicks": [
+    "19681231",
+    "19691231",
+    "19701231",
+    "19711231",
+    "19721229",
+    "19731231",
+    "19741231",
+    "19751231",
+    "19761231",
+    "19771230",
+    "19781229",
+    "19791231",
+    "19801231",
+    "19811231",
+    "19821231",
+    "19831230",
+    "19841231",
+    "19851231",
+    "19861231",
+    "19871231",
+    "19881230",
+    "19891229",
+    "19901231",
+    "19911231",
+    "19921231",
+    "19931231",
+    "19941230",
+    "19951229",
+    "19961231",
+    "19971231",
+    "19981231",
+    "19991230",
+    "20001229",
+    "20011231",
+    "20021231",
+    "20031231",
+    "20041231",
+    "20051230",
+    "20061229",
+    "20071231",
+    "20081231",
+    "20091231",
+    "20101231",
+    "20111230",
+    "20121231",
+    "20131231",
+    "20141231",
+    "20151231",
+    "20161230",
+    "20171229",
+    "20181231",
+    "20191231",
+    "20201231",
+    "20211231",
+    "20221230",
+    "20231229",
+    "20241231",
+    "20251231",
+    "20260812",
+    "20260813",
+    "20260814",
+    "20260817",
+    "20260818",
+    "20260819",
+    "20260820",
+    "20260821",
+    "20260824",
+    "20260825",
+    "20260826",
+    "20260827",
+    "20260828",
+    "20260901"
+  ],
+  "metricLabel": "USD/kg",
+  "ogImage": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/precious-metals-prices.png",
+  "cityPreview": {
+    "districtId": "precious-metals-market",
+    "districtName": "Precious Metals Market",
+    "cardLabel": "Precious Metals",
+    "summary": "Bullion metals ranked by their LBMA auction price in USD per kilogram.",
+    "primaryMetric": "USD/kg",
+    "latestFrameLabel": "2026-09-01",
+    "storyUrl": "/stories/precious-metals-prices/",
+    "thumbnail": "/assets/og/dat-city.webp"
+  },
+  "sourceStatus": "LBMA daily precious-metal auction prices",
+  "confidence": "Observed the LBMA USD auction fixes through 2026-09-01. Prices are the published USD/ozt fix converted to USD/kg (x32.1507466).",
+  "methodology": "This adapter reads the LBMA free JSON price feeds (gold, silver, platinum, palladium), takes the latest published USD auction fix per metal, and converts USD per troy ounce to USD per kilogram. Deep annual history comes from the LBMA backfill; scheduled StoryOps runs append daily fixes so the district replays observed price moves.",
+  "playback": {
+    "durationSeconds": 26,
+    "initialDate": "19681231",
+    "periodLabel": "USD per kg"
+  },
+  "visual": {
+    "topCount": 4,
+    "referenceCount": 4,
+    "horizontalCount": 4
+  },
+  "layers": [
+    {
+      "id": "price",
+      "label": "Price",
+      "default": true
+    }
+  ],
+  "focus": [
+    {
+      "id": "gold",
+      "label": "Gold"
+    },
+    {
+      "id": "platinum",
+      "label": "Platinum"
+    },
+    {
+      "id": "palladium",
+      "label": "Palladium"
+    },
+    {
+      "id": "silver",
+      "label": "Silver"
+    }
+  ],
+  "entities": [
+    {
+      "id": "gold",
+      "name": "Gold",
+      "shortName": "Gold",
+      "symbol": "Au",
+      "avatarText": "Au",
+      "article": "Gold",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Gold-crystals.jpg/960px-Gold-crystals.jpg",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Gold-crystals.jpg/960px-Gold-crystals.jpg",
+      "color": "#ffc84a",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/precious-metals-prices.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/precious-metals-prices.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/precious-metals-prices.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/precious-metals-prices.json",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.5,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Gold-crystals.jpg/960px-Gold-crystals.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "platinum",
+      "name": "Platinum",
+      "shortName": "Platinum",
+      "symbol": "Pt",
+      "avatarText": "Pt",
+      "article": "Platinum",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Platinum_crystals.jpg/960px-Platinum_crystals.jpg",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Platinum_crystals.jpg/960px-Platinum_crystals.jpg",
+      "color": "#86bdf4",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/precious-metals-prices.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/precious-metals-prices.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/precious-metals-prices.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/precious-metals-prices.json",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Platinum_crystals.jpg/960px-Platinum_crystals.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "palladium",
+      "name": "Palladium",
+      "shortName": "Palladium",
+      "symbol": "Pd",
+      "avatarText": "Pd",
+      "article": "Palladium",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Palladium_%2846_Pd%29.jpg",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Palladium_%2846_Pd%29.jpg",
+      "color": "#d78fca",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/precious-metals-prices.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/precious-metals-prices.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/precious-metals-prices.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/precious-metals-prices.json",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.5,
+          "u1": 0.5,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Palladium_%2846_Pd%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "silver",
+      "name": "Silver",
+      "shortName": "Silver",
+      "symbol": "Ag",
+      "avatarText": "Ag",
+      "article": "Silver",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Silver_crystal.jpg/960px-Silver_crystal.jpg",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Silver_crystal.jpg/960px-Silver_crystal.jpg",
+      "color": "#9aa4b2",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/precious-metals-prices.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/precious-metals-prices.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/precious-metals-prices.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/precious-metals-prices.json",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.5,
+          "u1": 1,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Silver_crystal.jpg/960px-Silver_crystal.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    }
+  ],
+  "frames": [
+    {
+      "date": "19681231",
+      "values": [
+        {
+          "id": "gold",
+          "value": 1347.11628254,
+          "rank": 1
+        },
+        {
+          "id": "silver",
+          "value": 62.597503630199995,
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "date": "19691231",
+      "values": [
+        {
+          "id": "gold",
+          "value": 1131.7062803200001,
+          "rank": 1
+        },
+        {
+          "id": "silver",
+          "value": 57.581987160599994,
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "date": "19701231",
+      "values": [
+        {
+          "id": "gold",
+          "value": 1201.794907908,
+          "rank": 1
+        },
+        {
+          "id": "silver",
+          "value": 52.502169197799994,
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "date": "19711231",
+      "values": [
+        {
+          "id": "gold",
+          "value": 1402.737074158,
+          "rank": 1
+        },
+        {
+          "id": "silver",
+          "value": 44.0786735886,
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "date": "19721229",
+      "values": [
+        {
+          "id": "gold",
+          "value": 2086.58345434,
+          "rank": 1
+        },
+        {
+          "id": "silver",
+          "value": 65.2981663446,
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "date": "19731231",
+      "values": [
+        {
+          "id": "gold",
+          "value": 3608.92130585,
+          "rank": 1
+        },
+        {
+          "id": "silver",
+          "value": 104.68283092959999,
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "date": "19741231",
+      "values": [
+        {
+          "id": "gold",
+          "value": 5996.1142408999995,
+          "rank": 1
+        },
+        {
+          "id": "silver",
+          "value": 143.8102895418,
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "date": "19751231",
+      "values": [
+        {
+          "id": "gold",
+          "value": 4509.1422106499995,
+          "rank": 1
+        },
+        {
+          "id": "silver",
+          "value": 134.3579700414,
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "date": "19761231",
+      "values": [
+        {
+          "id": "gold",
+          "value": 4324.2754177,
+          "rank": 1
+        },
+        {
+          "id": "silver",
+          "value": 140.016501443,
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "date": "19771230",
+      "values": [
+        {
+          "id": "gold",
+          "value": 5303.265651669999,
+          "rank": 1
+        },
+        {
+          "id": "silver",
+          "value": 152.9089508296,
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "date": "19781229",
+      "values": [
+        {
+          "id": "gold",
+          "value": 7266.068731599999,
+          "rank": 1
+        },
+        {
+          "id": "silver",
+          "value": 193.5796452786,
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "date": "19791231",
+      "values": [
+        {
+          "id": "gold",
+          "value": 16461.1822592,
+          "rank": 1
+        },
+        {
+          "id": "silver",
+          "value": 1035.25404052,
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "date": "19801231",
+      "values": [
+        {
+          "id": "gold",
+          "value": 18960.902807349998,
+          "rank": 1
+        },
+        {
+          "id": "silver",
+          "value": 498.33657229999994,
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "date": "19811231",
+      "values": [
+        {
+          "id": "gold",
+          "value": 12779.921773499998,
+          "rank": 1
+        },
+        {
+          "id": "silver",
+          "value": 262.1571877764,
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "date": "19821231",
+      "values": [
+        {
+          "id": "gold",
+          "value": 14689.676121539998,
+          "rank": 1
+        },
+        {
+          "id": "silver",
+          "value": 349.47861554199994,
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "date": "19831230",
+      "values": [
+        {
+          "id": "gold",
+          "value": 12294.445499839998,
+          "rank": 1
+        },
+        {
+          "id": "silver",
+          "value": 286.46315220599996,
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "date": "19841231",
+      "values": [
+        {
+          "id": "gold",
+          "value": 9912.07517678,
+          "rank": 1
+        },
+        {
+          "id": "silver",
+          "value": 202.1638946208,
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "date": "19851231",
+      "values": [
+        {
+          "id": "gold",
+          "value": 10506.863988879999,
+          "rank": 1
+        },
+        {
+          "id": "silver",
+          "value": 186.47433027999998,
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "date": "19861231",
+      "values": [
+        {
+          "id": "gold",
+          "value": 12498.602740749999,
+          "rank": 1
+        },
+        {
+          "id": "silver",
+          "value": 169.8202435412,
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "date": "19871231",
+      "values": [
+        {
+          "id": "gold",
+          "value": 15564.17642906,
+          "rank": 1
+        },
+        {
+          "id": "silver",
+          "value": 215.4743037132,
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "date": "19881230",
+      "values": [
+        {
+          "id": "gold",
+          "value": 13189.84379265,
+          "rank": 1
+        },
+        {
+          "id": "silver",
+          "value": 194.51201693,
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "date": "19891229",
+      "values": [
+        {
+          "id": "gold",
+          "value": 12815.28759476,
+          "rank": 1
+        },
+        {
+          "id": "silver",
+          "value": 167.73044501219997,
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "date": "19901231",
+      "values": [
+        {
+          "id": "platinum",
+          "value": 13246.107599199999,
+          "rank": 1
+        },
+        {
+          "id": "gold",
+          "value": 12416.618336919999,
+          "rank": 2
+        },
+        {
+          "id": "palladium",
+          "value": 2654.0441318299995,
+          "rank": 3
+        },
+        {
+          "id": "silver",
+          "value": 134.8080804938,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "date": "19911231",
+      "values": [
+        {
+          "id": "gold",
+          "value": 11354.036161789998,
+          "rank": 1
+        },
+        {
+          "id": "platinum",
+          "value": 10674.047871199999,
+          "rank": 2
+        },
+        {
+          "id": "palladium",
+          "value": 2551.1617427099995,
+          "rank": 3
+        },
+        {
+          "id": "silver",
+          "value": 124.101881876,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "date": "19921231",
+      "values": [
+        {
+          "id": "platinum",
+          "value": 11407.08489368,
+          "rank": 1
+        },
+        {
+          "id": "gold",
+          "value": 10702.983543139999,
+          "rank": 2
+        },
+        {
+          "id": "palladium",
+          "value": 3416.0168262499997,
+          "rank": 3
+        },
+        {
+          "id": "silver",
+          "value": 117.993240022,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "date": "19931231",
+      "values": [
+        {
+          "id": "platinum",
+          "value": 12651.3187871,
+          "rank": 1
+        },
+        {
+          "id": "gold",
+          "value": 12595.05498055,
+          "rank": 2
+        },
+        {
+          "id": "palladium",
+          "value": 3967.40213044,
+          "rank": 3
+        },
+        {
+          "id": "silver",
+          "value": 164.451068859,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "date": "19941230",
+      "values": [
+        {
+          "id": "platinum",
+          "value": 13463.12513875,
+          "rank": 1
+        },
+        {
+          "id": "gold",
+          "value": 12321.773634449999,
+          "rank": 2
+        },
+        {
+          "id": "palladium",
+          "value": 5055.70490285,
+          "rank": 3
+        },
+        {
+          "id": "silver",
+          "value": 155.93112100999997,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "date": "19951229",
+      "values": [
+        {
+          "id": "platinum",
+          "value": 12940.6755065,
+          "rank": 1
+        },
+        {
+          "id": "gold",
+          "value": 12442.3389342,
+          "rank": 2
+        },
+        {
+          "id": "palladium",
+          "value": 4123.33325145,
+          "rank": 3
+        },
+        {
+          "id": "silver",
+          "value": 165.3191390172,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "date": "19961231",
+      "values": [
+        {
+          "id": "platinum",
+          "value": 11879.7008687,
+          "rank": 1
+        },
+        {
+          "id": "gold",
+          "value": 11871.663182049999,
+          "rank": 2
+        },
+        {
+          "id": "palladium",
+          "value": 3745.5619788999998,
+          "rank": 3
+        },
+        {
+          "id": "silver",
+          "value": 154.2592821868,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "date": "19971231",
+      "values": [
+        {
+          "id": "platinum",
+          "value": 11670.7210158,
+          "rank": 1
+        },
+        {
+          "id": "gold",
+          "value": 9330.14666332,
+          "rank": 2
+        },
+        {
+          "id": "palladium",
+          "value": 6526.601559799999,
+          "rank": 3
+        },
+        {
+          "id": "silver",
+          "value": 192.743725867,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "date": "19981231",
+      "values": [
+        {
+          "id": "platinum",
+          "value": 11582.30646265,
+          "rank": 1
+        },
+        {
+          "id": "palladium",
+          "value": 10609.746378,
+          "rank": 2
+        },
+        {
+          "id": "gold",
+          "value": 9252.98487148,
+          "rank": 3
+        },
+        {
+          "id": "silver",
+          "value": 160.914486733,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "date": "19991230",
+      "values": [
+        {
+          "id": "palladium",
+          "value": 14274.931490399998,
+          "rank": 1
+        },
+        {
+          "id": "platinum",
+          "value": 14242.7807438,
+          "rank": 2
+        },
+        {
+          "id": "gold",
+          "value": 9331.754200649999,
+          "rank": 3
+        },
+        {
+          "id": "silver",
+          "value": 171.363479378,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "date": "20001229",
+      "values": [
+        {
+          "id": "palladium",
+          "value": 30736.113749599997,
+          "rank": 1
+        },
+        {
+          "id": "platinum",
+          "value": 19901.3121454,
+          "rank": 2
+        },
+        {
+          "id": "gold",
+          "value": 8823.772404369998,
+          "rank": 3
+        },
+        {
+          "id": "silver",
+          "value": 147.089665695,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "date": "20011231",
+      "values": [
+        {
+          "id": "platinum",
+          "value": 15432.358368,
+          "rank": 1
+        },
+        {
+          "id": "palladium",
+          "value": 14146.328504,
+          "rank": 2
+        },
+        {
+          "id": "gold",
+          "value": 8889.6814349,
+          "rank": 3
+        },
+        {
+          "id": "silver",
+          "value": 145.321374632,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "date": "20021231",
+      "values": [
+        {
+          "id": "platinum",
+          "value": 19226.146466799997,
+          "rank": 1
+        },
+        {
+          "id": "gold",
+          "value": 11162.73921952,
+          "rank": 2
+        },
+        {
+          "id": "palladium",
+          "value": 7587.576197599999,
+          "rank": 3
+        },
+        {
+          "id": "silver",
+          "value": 149.983232889,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "date": "20031231",
+      "values": [
+        {
+          "id": "platinum",
+          "value": 26138.556985799998,
+          "rank": 1
+        },
+        {
+          "id": "gold",
+          "value": 13382.748272249999,
+          "rank": 2
+        },
+        {
+          "id": "palladium",
+          "value": 6269.395587,
+          "rank": 3
+        },
+        {
+          "id": "silver",
+          "value": 191.77920346899998,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "date": "20041231",
+      "values": [
+        {
+          "id": "platinum",
+          "value": 27617.4913294,
+          "rank": 1
+        },
+        {
+          "id": "gold",
+          "value": 14004.86521896,
+          "rank": 2
+        },
+        {
+          "id": "palladium",
+          "value": 5915.7373744,
+          "rank": 3
+        },
+        {
+          "id": "silver",
+          "value": 219.107338079,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "date": "20051230",
+      "values": [
+        {
+          "id": "platinum",
+          "value": 31025.470468999996,
+          "rank": 1
+        },
+        {
+          "id": "gold",
+          "value": 16493.3330058,
+          "rank": 2
+        },
+        {
+          "id": "palladium",
+          "value": 8294.8926228,
+          "rank": 3
+        },
+        {
+          "id": "silver",
+          "value": 283.89109247799996,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "date": "20061229",
+      "values": [
+        {
+          "id": "platinum",
+          "value": 35944.534698799995,
+          "rank": 1
+        },
+        {
+          "id": "gold",
+          "value": 20319.2718512,
+          "rank": 2
+        },
+        {
+          "id": "palladium",
+          "value": 10400.7665251,
+          "rank": 3
+        },
+        {
+          "id": "silver",
+          "value": 414.74463113999997,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "date": "20071231",
+      "values": [
+        {
+          "id": "platinum",
+          "value": 49190.642298,
+          "rank": 1
+        },
+        {
+          "id": "gold",
+          "value": 26805.68497775,
+          "rank": 2
+        },
+        {
+          "id": "palladium",
+          "value": 11702.8717624,
+          "rank": 3
+        },
+        {
+          "id": "silver",
+          "value": 474.545019816,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "date": "20081231",
+      "values": [
+        {
+          "id": "platinum",
+          "value": 28871.3704468,
+          "rank": 1
+        },
+        {
+          "id": "gold",
+          "value": 27963.11185535,
+          "rank": 2
+        },
+        {
+          "id": "palladium",
+          "value": 5883.586627799999,
+          "rank": 3
+        },
+        {
+          "id": "silver",
+          "value": 346.90655581399994,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "date": "20091231",
+      "values": [
+        {
+          "id": "platinum",
+          "value": 46972.2407826,
+          "rank": 1
+        },
+        {
+          "id": "gold",
+          "value": 34963.9369275,
+          "rank": 2
+        },
+        {
+          "id": "palladium",
+          "value": 12635.243413799999,
+          "rank": 3
+        },
+        {
+          "id": "silver",
+          "value": 546.241184734,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "date": "20101231",
+      "values": [
+        {
+          "id": "platinum",
+          "value": 56424.560283,
+          "rank": 1
+        },
+        {
+          "id": "gold",
+          "value": 45187.8743463,
+          "rank": 2
+        },
+        {
+          "id": "palladium",
+          "value": 25624.145040199997,
+          "rank": 3
+        },
+        {
+          "id": "silver",
+          "value": 984.7773683579999,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "date": "20111230",
+      "values": [
+        {
+          "id": "gold",
+          "value": 49222.793044599995,
+          "rank": 1
+        },
+        {
+          "id": "platinum",
+          "value": 43532.110896399994,
+          "rank": 2
+        },
+        {
+          "id": "palladium",
+          "value": 20254.970358,
+          "rank": 3
+        },
+        {
+          "id": "silver",
+          "value": 906.0080391879999,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "date": "20121231",
+      "values": [
+        {
+          "id": "gold",
+          "value": 53289.862489499996,
+          "rank": 1
+        },
+        {
+          "id": "platinum",
+          "value": 49094.190058199994,
+          "rank": 2
+        },
+        {
+          "id": "palladium",
+          "value": 22634.125606399997,
+          "rank": 3
+        },
+        {
+          "id": "silver",
+          "value": 962.9148606699999,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "date": "20131231",
+      "values": [
+        {
+          "id": "platinum",
+          "value": 43628.5631362,
+          "rank": 1
+        },
+        {
+          "id": "gold",
+          "value": 38725.5742797,
+          "rank": 2
+        },
+        {
+          "id": "palladium",
+          "value": 23019.934565599997,
+          "rank": 3
+        },
+        {
+          "id": "silver",
+          "value": 626.9395586999999,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "date": "20141231",
+      "values": [
+        {
+          "id": "gold",
+          "value": 38773.8003996,
+          "rank": 1
+        },
+        {
+          "id": "platinum",
+          "value": 38773.8003996,
+          "rank": 2
+        },
+        {
+          "id": "palladium",
+          "value": 26074.255492599998,
+          "rank": 3
+        },
+        {
+          "id": "silver",
+          "value": 513.447423202,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "date": "20151231",
+      "values": [
+        {
+          "id": "gold",
+          "value": 34079.791396,
+          "rank": 1
+        },
+        {
+          "id": "platinum",
+          "value": 27906.8480488,
+          "rank": 2
+        },
+        {
+          "id": "palladium",
+          "value": 17843.664363,
+          "rank": 3
+        },
+        {
+          "id": "silver",
+          "value": 444.32331801199996,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "date": "20161230",
+      "values": [
+        {
+          "id": "gold",
+          "value": 36841.54052894,
+          "rank": 1
+        },
+        {
+          "id": "platinum",
+          "value": 28871.3704468,
+          "rank": 2
+        },
+        {
+          "id": "palladium",
+          "value": 21541.000222,
+          "rank": 3
+        },
+        {
+          "id": "silver",
+          "value": 522.128124784,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "date": "20171229",
+      "values": [
+        {
+          "id": "gold",
+          "value": 41506.613860599995,
+          "rank": 1
+        },
+        {
+          "id": "palladium",
+          "value": 33983.339156199996,
+          "rank": 2
+        },
+        {
+          "id": "platinum",
+          "value": 29739.440605,
+          "rank": 3
+        },
+        {
+          "id": "silver",
+          "value": 542.2223414089999,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "date": "20181231",
+      "values": [
+        {
+          "id": "gold",
+          "value": 41120.8049014,
+          "rank": 1
+        },
+        {
+          "id": "palladium",
+          "value": 40831.448182,
+          "rank": 2
+        },
+        {
+          "id": "platinum",
+          "value": 25334.7883208,
+          "rank": 3
+        },
+        {
+          "id": "silver",
+          "value": 497.211296169,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "date": "20191231",
+      "values": [
+        {
+          "id": "palladium",
+          "value": 61247.172273,
+          "rank": 1
+        },
+        {
+          "id": "gold",
+          "value": 48700.34341235,
+          "rank": 2
+        },
+        {
+          "id": "platinum",
+          "value": 30607.510763199996,
+          "rank": 3
+        },
+        {
+          "id": "silver",
+          "value": 580.160222397,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "date": "20201231",
+      "values": [
+        {
+          "id": "palladium",
+          "value": 75297.0485372,
+          "rank": 1
+        },
+        {
+          "id": "gold",
+          "value": 60687.749282159995,
+          "rank": 2
+        },
+        {
+          "id": "platinum",
+          "value": 34336.997368799995,
+          "rank": 3
+        },
+        {
+          "id": "silver",
+          "value": 851.512523701,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "date": "20211231",
+      "values": [
+        {
+          "id": "palladium",
+          "value": 63433.42304179999,
+          "rank": 1
+        },
+        {
+          "id": "gold",
+          "value": 58059.425747609996,
+          "rank": 2
+        },
+        {
+          "id": "platinum",
+          "value": 30832.5659894,
+          "rank": 3
+        },
+        {
+          "id": "silver",
+          "value": 742.1999852609999,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "date": "20221230",
+      "values": [
+        {
+          "id": "gold",
+          "value": 58313.416645749996,
+          "rank": 1
+        },
+        {
+          "id": "palladium",
+          "value": 57067.575215,
+          "rank": 2
+        },
+        {
+          "id": "platinum",
+          "value": 33147.419744599996,
+          "rank": 3
+        },
+        {
+          "id": "silver",
+          "value": 769.849627337,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "date": "20231229",
+      "values": [
+        {
+          "id": "gold",
+          "value": 66822.11173344,
+          "rank": 1
+        },
+        {
+          "id": "palladium",
+          "value": 36523.2481376,
+          "rank": 2
+        },
+        {
+          "id": "platinum",
+          "value": 32150.7466,
+          "rank": 3
+        },
+        {
+          "id": "silver",
+          "value": 764.8662616139999,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "date": "20241231",
+      "values": [
+        {
+          "id": "gold",
+          "value": 83884.51295405999,
+          "rank": 1
+        },
+        {
+          "id": "platinum",
+          "value": 29353.631645799996,
+          "rank": 2
+        },
+        {
+          "id": "palladium",
+          "value": 29225.0286594,
+          "rank": 3
+        },
+        {
+          "id": "silver",
+          "value": 929.317330473,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "date": "20251231",
+      "values": [
+        {
+          "id": "gold",
+          "value": 140428.03099948,
+          "rank": 1
+        },
+        {
+          "id": "platinum",
+          "value": 71567.5619316,
+          "rank": 2
+        },
+        {
+          "id": "palladium",
+          "value": 53370.239356,
+          "rank": 3
+        },
+        {
+          "id": "silver",
+          "value": 2314.5322477339996,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "date": "20260812",
+      "values": [
+        {
+          "id": "gold",
+          "value": 142320.10243688998,
+          "priceUsdPerOunce": 4426.65,
+          "symbol": "Au"
+        },
+        {
+          "id": "platinum",
+          "value": 57093.29581228,
+          "priceUsdPerOunce": 1775.8,
+          "symbol": "Pt"
+        },
+        {
+          "id": "palladium",
+          "value": 44504.670981049996,
+          "priceUsdPerOunce": 1384.25,
+          "symbol": "Pd"
+        },
+        {
+          "id": "silver",
+          "value": 2129.98696225,
+          "priceUsdPerOunce": 66.25,
+          "symbol": "Ag"
+        }
+      ]
+    },
+    {
+      "date": "20260813",
+      "values": [
+        {
+          "id": "gold",
+          "value": 140595.2148818,
+          "priceUsdPerOunce": 4373,
+          "symbol": "Au"
+        },
+        {
+          "id": "platinum",
+          "value": 55742.96445507999,
+          "priceUsdPerOunce": 1733.8,
+          "symbol": "Pt"
+        },
+        {
+          "id": "palladium",
+          "value": 42583.663871699995,
+          "priceUsdPerOunce": 1324.5,
+          "symbol": "Pd"
+        },
+        {
+          "id": "silver",
+          "value": 2088.3517454029998,
+          "priceUsdPerOunce": 64.955,
+          "symbol": "Ag"
+        }
+      ]
+    },
+    {
+      "date": "20260814",
+      "values": [
+        {
+          "id": "gold",
+          "value": 141164.28309662,
+          "priceUsdPerOunce": 4390.7,
+          "symbol": "Au"
+        },
+        {
+          "id": "platinum",
+          "value": 55895.68050143,
+          "priceUsdPerOunce": 1738.55,
+          "symbol": "Pt"
+        },
+        {
+          "id": "palladium",
+          "value": 42442.200586659994,
+          "priceUsdPerOunce": 1320.1,
+          "symbol": "Pd"
+        },
+        {
+          "id": "silver",
+          "value": 2077.098984093,
+          "priceUsdPerOunce": 64.605,
+          "symbol": "Ag"
+        }
+      ]
+    },
+    {
+      "date": "20260817",
+      "values": [
+        {
+          "id": "gold",
+          "value": 141649.75937028,
+          "priceUsdPerOunce": 4405.8,
+          "symbol": "Au"
+        },
+        {
+          "id": "platinum",
+          "value": 56848.950138119995,
+          "priceUsdPerOunce": 1768.2,
+          "symbol": "Pt"
+        },
+        {
+          "id": "palladium",
+          "value": 42831.22462052,
+          "priceUsdPerOunce": 1332.2,
+          "symbol": "Pd"
+        },
+        {
+          "id": "silver",
+          "value": 2109.410484426,
+          "priceUsdPerOunce": 65.61,
+          "symbol": "Ag"
+        }
+      ]
+    },
+    {
+      "date": "20260818",
+      "values": [
+        {
+          "id": "gold",
+          "value": 141575.8126531,
+          "priceUsdPerOunce": 4403.5,
+          "symbol": "Au"
+        },
+        {
+          "id": "platinum",
+          "value": 56347.39849115999,
+          "priceUsdPerOunce": 1752.6,
+          "symbol": "Pt"
+        },
+        {
+          "id": "palladium",
+          "value": 42344.14080953,
+          "priceUsdPerOunce": 1317.05,
+          "symbol": "Pd"
+        },
+        {
+          "id": "silver",
+          "value": 2092.8528499269996,
+          "priceUsdPerOunce": 65.095,
+          "symbol": "Ag"
+        }
+      ]
+    },
+    {
+      "date": "20260819",
+      "values": [
+        {
+          "id": "gold",
+          "value": 143414.83535861998,
+          "priceUsdPerOunce": 4460.7,
+          "symbol": "Au"
+        },
+        {
+          "id": "platinum",
+          "value": 56437.42058164,
+          "priceUsdPerOunce": 1755.4,
+          "symbol": "Pt"
+        },
+        {
+          "id": "palladium",
+          "value": 42172.13431522,
+          "priceUsdPerOunce": 1311.7,
+          "symbol": "Pd"
+        },
+        {
+          "id": "silver",
+          "value": 2036.9105508429998,
+          "priceUsdPerOunce": 63.355,
+          "symbol": "Ag"
+        }
+      ]
+    },
+    {
+      "date": "20260820",
+      "values": [
+        {
+          "id": "gold",
+          "value": 144130.18947046998,
+          "priceUsdPerOunce": 4482.95,
+          "symbol": "Au"
+        },
+        {
+          "id": "platinum",
+          "value": 58200.88903265,
+          "priceUsdPerOunce": 1810.25,
+          "symbol": "Pt"
+        },
+        {
+          "id": "palladium",
+          "value": 42982.33312954,
+          "priceUsdPerOunce": 1336.9,
+          "symbol": "Pd"
+        },
+        {
+          "id": "silver",
+          "value": 2145.901581817,
+          "priceUsdPerOunce": 66.745,
+          "symbol": "Ag"
+        }
+      ]
+    },
+    {
+      "date": "20260821",
+      "values": [
+        {
+          "id": "gold",
+          "value": 147317.93599586,
+          "priceUsdPerOunce": 4582.1,
+          "symbol": "Au"
+        },
+        {
+          "id": "platinum",
+          "value": 60731.152790069995,
+          "priceUsdPerOunce": 1888.95,
+          "symbol": "Pt"
+        },
+        {
+          "id": "palladium",
+          "value": 43755.558585269995,
+          "priceUsdPerOunce": 1360.95,
+          "symbol": "Pd"
+        },
+        {
+          "id": "silver",
+          "value": 2234.798396166,
+          "priceUsdPerOunce": 69.51,
+          "symbol": "Ag"
+        }
+      ]
+    },
+    {
+      "date": "20260824",
+      "values": [
+        {
+          "id": "gold",
+          "value": 149941.43691842,
+          "priceUsdPerOunce": 4663.7,
+          "symbol": "Au"
+        },
+        {
+          "id": "platinum",
+          "value": 60798.66935793,
+          "priceUsdPerOunce": 1891.05,
+          "symbol": "Pt"
+        },
+        {
+          "id": "palladium",
+          "value": 43705.72492804,
+          "priceUsdPerOunce": 1359.4,
+          "symbol": "Pd"
+        },
+        {
+          "id": "silver",
+          "value": 2209.3993063519997,
+          "priceUsdPerOunce": 68.72,
+          "symbol": "Ag"
+        }
+      ]
+    },
+    {
+      "date": "20260825",
+      "values": [
+        {
+          "id": "gold",
+          "value": 148390.16339496998,
+          "priceUsdPerOunce": 4615.45,
+          "symbol": "Au"
+        },
+        {
+          "id": "platinum",
+          "value": 59027.16322027,
+          "priceUsdPerOunce": 1835.95,
+          "symbol": "Pt"
+        },
+        {
+          "id": "palladium",
+          "value": 42504.89454253,
+          "priceUsdPerOunce": 1322.05,
+          "symbol": "Pd"
+        },
+        {
+          "id": "silver",
+          "value": 2181.910418009,
+          "priceUsdPerOunce": 67.865,
+          "symbol": "Ag"
+        }
+      ]
+    },
+    {
+      "date": "20260826",
+      "values": [
+        {
+          "id": "gold",
+          "value": 148906.1828779,
+          "priceUsdPerOunce": 4631.5,
+          "symbol": "Au"
+        },
+        {
+          "id": "platinum",
+          "value": 59700.721361539996,
+          "priceUsdPerOunce": 1856.9,
+          "symbol": "Pt"
+        },
+        {
+          "id": "palladium",
+          "value": 43178.452683799995,
+          "priceUsdPerOunce": 1343,
+          "symbol": "Pd"
+        },
+        {
+          "id": "silver",
+          "value": 2202.165388367,
+          "priceUsdPerOunce": 68.495,
+          "symbol": "Ag"
+        }
+      ]
+    },
+    {
+      "date": "20260827",
+      "values": [
+        {
+          "id": "gold",
+          "value": 146895.15367807,
+          "priceUsdPerOunce": 4568.95,
+          "symbol": "Au"
+        },
+        {
+          "id": "platinum",
+          "value": 58556.15478257999,
+          "priceUsdPerOunce": 1821.3,
+          "symbol": "Pt"
+        },
+        {
+          "id": "palladium",
+          "value": 42051.56901547,
+          "priceUsdPerOunce": 1307.95,
+          "symbol": "Pd"
+        },
+        {
+          "id": "silver",
+          "value": 2201.3616197019996,
+          "priceUsdPerOunce": 68.47,
+          "symbol": "Ag"
+        }
+      ]
+    },
+    {
+      "date": "20260828",
+      "values": [
+        {
+          "id": "gold",
+          "value": 146695.81904914998,
+          "priceUsdPerOunce": 4562.75,
+          "symbol": "Au"
+        },
+        {
+          "id": "platinum",
+          "value": 60570.39905707,
+          "priceUsdPerOunce": 1883.95,
+          "symbol": "Pt"
+        },
+        {
+          "id": "palladium",
+          "value": 46422.46301574,
+          "priceUsdPerOunce": 1443.9,
+          "symbol": "Pd"
+        },
+        {
+          "id": "silver",
+          "value": 2258.911456116,
+          "priceUsdPerOunce": 70.26,
+          "symbol": "Ag"
+        }
+      ]
+    },
+    {
+      "date": "20260901",
+      "values": [
+        {
+          "id": "gold",
+          "value": 139957.02256178999,
+          "priceUsdPerOunce": 4353.15,
+          "symbol": "Au"
+        },
+        {
+          "id": "platinum",
+          "value": 56836.089839479995,
+          "priceUsdPerOunce": 1767.8,
+          "symbol": "Pt"
+        },
+        {
+          "id": "palladium",
+          "value": 42725.12715674,
+          "priceUsdPerOunce": 1328.9,
+          "symbol": "Pd"
+        },
+        {
+          "id": "silver",
+          "value": 2082.243103549,
+          "priceUsdPerOunce": 64.765,
+          "symbol": "Ag"
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "date": "19681231",
+      "title": "Gold leads at $1,347/kg",
+      "body": "Gold is the most valuable tracked metal in 1968-12-31 at $1,347/kg (USD/kg)."
+    },
+    {
+      "date": "20260901",
+      "title": "Gold leads at $139,957/kg",
+      "body": "Gold is the most valuable tracked metal in 2026-09-01 at $139,957/kg (USD/kg)."
+    }
+  ],
+  "sources": [
+    {
+      "title": "LBMA precious metal prices",
+      "publisher": "London Bullion Market Association",
+      "url": "https://www.lbma.org.uk/prices-and-data/precious-metal-prices",
+      "note": "Free daily USD auction fixes converted from USD/ozt to USD/kg."
+    }
+  ],
+  "historicalCoverageStart": "19681231",
+  "historicalCoverageEnd": "20251231",
+  "historicalGranularity": "annual",
+  "backfillSource": "LBMA precious metal auction price history",
+  "backfillGeneratedAt": "2026-07-12T08:34:11.012Z",
+  "historical": {
+    "coverageStart": "19681231",
+    "coverageEnd": "20251231",
+    "granularity": "annual",
+    "source": "LBMA precious metal auction price history",
+    "generatedAt": "2026-07-12T08:34:11.012Z",
+    "frameCount": 58,
+    "maxFrames": 72,
+    "maxPublicFrames": 72,
+    "notes": [
+      "Each annual frame is the last published LBMA USD auction fix of that calendar year, converted from USD per troy ounce to USD per kilogram.",
+      "Gold and silver run from 1968; platinum and palladium first fix in 1990, so earlier frames carry only the metals that traded then.",
+      "The partial current year is owned by the live daily LBMA adapter, so annual frames stop at the last completed calendar year."
+    ]
+  },
+  "lastObservationDate": "2026-09-01",
+  "dataFreshness": {
+    "status": "fresh",
+    "refreshCadence": "daily",
+    "lastUpdated": "2026-09-02T16:00:38.304Z",
+    "lastRefreshAttemptedAt": "2026-09-02T16:00:38.304Z",
+    "lastRefreshError": null,
+    "lastObservationDate": "2026-09-01",
+    "nextRefreshAt": "2026-09-03T16:00:00.000Z",
+    "sourceStatus": "LBMA daily precious-metal auction prices",
+    "confidence": "Observed the LBMA USD auction fixes through 2026-09-01. Prices are the published USD/ozt fix converted to USD/kg (x32.1507466)."
+  },
+  "media": {
+    "imageFit": "contain",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-09-02T16:00:38.304Z",
+    "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/precious-metals-prices.webp",
+    "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/precious-metals-prices.webp",
+    "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/precious-metals-prices.json",
+    "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/precious-metals-prices.json",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 2,
+    "rows": 2,
+    "width": 640,
+    "height": 640,
+    "itemCount": 4,
+    "sourcedImageCount": 4,
+    "generatedImageCount": 0,
+    "placeholderCount": 0,
+    "ogImageUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/precious-metals-prices.png",
+    "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/precious-metals-prices.png",
+    "ogImageWidth": 1200,
+    "ogImageHeight": 630
+  },
+  "taxonomy": {
+    "primaryCategory": "markets",
+    "categories": [
+      "markets",
+      "commodities",
+      "finance"
+    ],
+    "tags": [
+      "gold",
+      "silver",
+      "platinum",
+      "palladium",
+      "metals"
+    ],
+    "entityTypes": [
+      "commodity"
+    ],
+    "sourceTypes": [
+      "market-data"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "crypto-memecoin-heat",
+      "type": "alternative-asset-attention",
+      "weight": 0.62,
+      "reason": "Both sit in markets where narratives and price movements drive public attention."
+    },
+    {
+      "target": "why-everything-feels-expensive",
+      "type": "price-indicator",
+      "weight": 0.52,
+      "reason": "Commodity prices can be read alongside household cost and inflation indicators."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "markets",
+    "mainland": "markets",
+    "bridgePriority": [
+      "crypto-memecoin-heat",
+      "why-everything-feels-expensive"
+    ]
+  },
+  "schemaVersion": 1,
+  "contentKind": "dat-city.story",
+  "generatedAt": "2026-09-02T16:00:38.304Z",
+  "versionId": "20260902T160038Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "storyops-scheduler",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-09-02T16:00:38.304Z",
+    "versionId": "20260902T160038Z",
+    "adapter": "lbma-precious-metals",
+    "storySlug": "precious-metals-prices",
+    "districtId": null,
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "publicProjection": {
+    "kind": "story",
+    "version": 1,
+    "generatedAt": "2026-09-02T16:00:38.304Z",
+    "adapter": "lbma-precious-metals",
+    "cache": {
+      "browserMaxAgeSeconds": 60,
+      "edgeMaxAgeSeconds": 3600
+    }
+  },
+  "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/precious-metals-prices.png"
+}

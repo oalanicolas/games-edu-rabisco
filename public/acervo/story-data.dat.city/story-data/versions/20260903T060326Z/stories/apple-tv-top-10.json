@@ -1,0 +1,6320 @@
+{
+  "id": "apple-tv-top-10",
+  "kicker": "Apple TV Bootstrap",
+  "title": "Apple TV Watchlist Leaders",
+  "subtitle": "A Wikipedia-sourced attention snapshot for Apple originals while a recurring weekly chart source is unavailable.",
+  "badge": "Bootstrap by Wikipedia views",
+  "visualization": "race-arena",
+  "theme": "creator-arena",
+  "artStyle": "stylized-editorial",
+  "dateRange": [
+    "20260628",
+    "20260901"
+  ],
+  "timelineTicks": [
+    "20260628",
+    "20260629",
+    "20260701",
+    "20260706",
+    "20260707",
+    "20260708",
+    "20260709",
+    "20260710",
+    "20260711",
+    "20260712",
+    "20260713",
+    "20260714",
+    "20260715",
+    "20260716",
+    "20260717",
+    "20260718",
+    "20260719",
+    "20260720",
+    "20260721",
+    "20260722",
+    "20260728",
+    "20260804",
+    "20260811",
+    "20260818",
+    "20260822",
+    "20260825",
+    "20260901"
+  ],
+  "metricLabel": "Wikipedia views",
+  "ogImage": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/apple-tv-top-10.png",
+  "cityPreview": {
+    "districtId": "apple-tv-studio",
+    "districtName": "Apple TV Studio",
+    "cardLabel": "Apple TV",
+    "summary": "Apple originals ranked by Wikipedia attention as a temporary source-backed bootstrap, not an official weekly Top 10.",
+    "primaryMetric": "Wikipedia views",
+    "latestFrameLabel": "2026-09-01",
+    "storyUrl": "/stories/apple-tv-top-10/",
+    "thumbnail": "/assets/og/dat-city.webp"
+  },
+  "sourceStatus": "Wikipedia pageview bootstrap for Apple TV+ originals",
+  "confidence": "Observed 30 days of en.wikipedia pageviews for titles listed on 2 Wikipedia platform-original page(s) at 2026-09-01T07:03:08.053Z. This is not a weekly or current streaming Top 10.",
+  "methodology": "Wikipedia does not currently provide a durable weekly/current Top 10 page for Apple TV+. This bootstrap uses the configured Wikipedia original-programming and original-film list pages as the source universe, then ranks titles by recent en.wikipedia pageviews via Wikipedia's PageViewInfo API. Treat the output as public-interest attention among platform originals, not streaming watch time or official platform ranking.",
+  "playback": {
+    "durationSeconds": 24,
+    "initialDate": "20260628",
+    "periodLabel": "Apple TV+ Wikipedia attention"
+  },
+  "visual": {
+    "topCount": 10,
+    "referenceCount": 20,
+    "horizontalCount": 12
+  },
+  "layers": [
+    {
+      "id": "pageviews",
+      "label": "Wikipedia views",
+      "default": true
+    },
+    {
+      "id": "platform",
+      "label": "Apple originals",
+      "default": true
+    }
+  ],
+  "focus": [
+    {
+      "id": "ted-lasso",
+      "label": "Ted Lasso"
+    },
+    {
+      "id": "silo-tv-series",
+      "label": "Silo"
+    },
+    {
+      "id": "slow-horses",
+      "label": "Slow Horses"
+    },
+    {
+      "id": "severance-tv-series",
+      "label": "Severance"
+    }
+  ],
+  "entities": [
+    {
+      "id": "ted-lasso",
+      "name": "Ted Lasso",
+      "article": "Ted Lasso",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Ted_Lasso",
+      "genre": "Sports comedy drama",
+      "premiere": "August 14, 2020",
+      "status": "Season 4 due to premiere on August 5, 2026",
+      "contentKinds": [
+        "series"
+      ],
+      "sourcePages": [
+        "List of Apple TV original programming"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/7/73/Tedlassotitlecard.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/7/73/Tedlassotitlecard.jpg",
+      "avatarText": "TL",
+      "color": "#41a99f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.2,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/7/73/Tedlassotitlecard.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "silo-tv-series",
+      "name": "Silo",
+      "article": "Silo (TV series)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Silo_(TV_series)",
+      "genre": "Dystopian science fiction",
+      "premiere": "May 5, 2023",
+      "status": "Season 3 ongoing Renewed for final season",
+      "contentKinds": [
+        "series"
+      ],
+      "sourcePages": [
+        "List of Apple TV original programming"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Silo_%28TV_series%29.png/960px-Silo_%28TV_series%29.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Silo_%28TV_series%29.png/960px-Silo_%28TV_series%29.png",
+      "avatarText": "S",
+      "color": "#7b9b65",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0,
+          "u1": 0.4,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Silo_%28TV_series%29.png/960px-Silo_%28TV_series%29.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "slow-horses",
+      "name": "Slow Horses",
+      "article": "Slow Horses",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Slow_Horses",
+      "genre": "Spy thriller",
+      "premiere": "April 1, 2022",
+      "status": "Season 6 due to premiere on September 16, 2026 Renewed",
+      "contentKinds": [
+        "series"
+      ],
+      "sourcePages": [
+        "List of Apple TV original programming"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/9/90/Slow_Horses_logo.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/9/90/Slow_Horses_logo.png",
+      "avatarText": "SH",
+      "color": "#86bdf4",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0,
+          "u1": 0.6,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/9/90/Slow_Horses_logo.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "severance-tv-series",
+      "name": "Severance",
+      "article": "Severance (TV series)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Severance_(TV_series)",
+      "genre": "Science fiction thriller",
+      "premiere": "February 18, 2022",
+      "status": "Renewed",
+      "contentKinds": [
+        "series"
+      ],
+      "sourcePages": [
+        "List of Apple TV original programming"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Severance_logo.svg/960px-Severance_logo.svg.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Severance_logo.svg/960px-Severance_logo.svg.png",
+      "avatarText": "S",
+      "color": "#f18c4f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0,
+          "u1": 0.8,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Severance_logo.svg/960px-Severance_logo.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "cape-fear-tv-series",
+      "name": "Cape Fear",
+      "article": "Cape Fear (TV series)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Cape_Fear_(TV_series)",
+      "genre": "Psychological thriller",
+      "premiere": "June 5, 2026",
+      "status": "Miniseries ongoing",
+      "contentKinds": [
+        "series"
+      ],
+      "sourcePages": [
+        "List of Apple TV original programming"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Cape_Fear_%28tv_series_logo%29.svg/960px-Cape_Fear_%28tv_series_logo%29.svg.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Cape_Fear_%28tv_series_logo%29.svg/960px-Cape_Fear_%28tv_series_logo%29.svg.png",
+      "avatarText": "CF",
+      "color": "#ff5a61",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "x": 1280,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Cape_Fear_%28tv_series_logo%29.svg/960px-Cape_Fear_%28tv_series_logo%29.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "pluribus-tv-series",
+      "name": "Pluribus",
+      "article": "Pluribus (TV series)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Pluribus_(TV_series)",
+      "genre": "Science fiction",
+      "premiere": "November 7, 2025",
+      "status": "Renewed",
+      "contentKinds": [
+        "series"
+      ],
+      "sourcePages": [
+        "List of Apple TV original programming"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Pluribus_Logo.svg/960px-Pluribus_Logo.svg.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Pluribus_Logo.svg/960px-Pluribus_Logo.svg.png",
+      "avatarText": "P",
+      "color": "#41a99f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.25,
+          "u1": 0.2,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Pluribus_Logo.svg/960px-Pluribus_Logo.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "sugar-2024-tv-series",
+      "name": "Sugar",
+      "article": "Sugar (2024 TV series)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Sugar_(2024_TV_series)",
+      "genre": "Mystery drama",
+      "premiere": "April 5, 2024",
+      "status": "Season 2 ongoing",
+      "contentKinds": [
+        "series"
+      ],
+      "sourcePages": [
+        "List of Apple TV original programming"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/0/00/Sugar_TV_series_logo.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/0/00/Sugar_TV_series_logo.jpg",
+      "avatarText": "S",
+      "color": "#ef426f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.25,
+          "u1": 0.4,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/0/00/Sugar_TV_series_logo.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "dark-matter-2024-tv-series",
+      "name": "Dark Matter",
+      "article": "Dark Matter (2024 TV series)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Dark_Matter_(2024_TV_series)",
+      "genre": "Science fiction",
+      "premiere": "May 8, 2024",
+      "status": "Season 2 due to premiere on August 28, 2026",
+      "contentKinds": [
+        "series"
+      ],
+      "sourcePages": [
+        "List of Apple TV original programming"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Dark_Matter_%282024_TV_series%29_logo.svg/960px-Dark_Matter_%282024_TV_series%29_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Dark_Matter_%282024_TV_series%29_logo.svg/960px-Dark_Matter_%282024_TV_series%29_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "avatarText": "DM",
+      "color": "#2f4858",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.25,
+          "u1": 0.6,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Dark_Matter_%282024_TV_series%29_logo.svg/960px-Dark_Matter_%282024_TV_series%29_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "for-all-mankind-tv-series",
+      "name": "For All Mankind",
+      "article": "For All Mankind (TV series)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/For_All_Mankind_(TV_series)",
+      "genre": "Alternate history science fiction",
+      "premiere": "November 1, 2019",
+      "status": "Renewed for final season",
+      "contentKinds": [
+        "series"
+      ],
+      "sourcePages": [
+        "List of Apple TV original programming"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/f/f3/For_All_Mankind_Title_Card.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/f/f3/For_All_Mankind_Title_Card.png",
+      "avatarText": "FA",
+      "color": "#18c871",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.25,
+          "u1": 0.8,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/f/f3/For_All_Mankind_Title_Card.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "shrinking-tv-series",
+      "name": "Shrinking",
+      "article": "Shrinking (TV series)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Shrinking_(TV_series)",
+      "genre": "Comedy drama",
+      "premiere": "January 27, 2023",
+      "status": "Renewed",
+      "contentKinds": [
+        "series"
+      ],
+      "sourcePages": [
+        "List of Apple TV original programming"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Shrinking_TV_Series_Logo.svg/960px-Shrinking_TV_Series_Logo.svg.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Shrinking_TV_Series_Logo.svg/960px-Shrinking_TV_Series_Logo.svg.png",
+      "avatarText": "S",
+      "color": "#c9a14a",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "x": 1280,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.25,
+          "u1": 1,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Shrinking_TV_Series_Logo.svg/960px-Shrinking_TV_Series_Logo.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "margo-s-got-money-troubles",
+      "name": "Margo's Got Money Troubles",
+      "article": "Margo's Got Money Troubles",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Margo's_Got_Money_Troubles",
+      "genre": "Comedy drama",
+      "premiere": "April 15, 2026",
+      "status": "Renewed",
+      "contentKinds": [
+        "series"
+      ],
+      "sourcePages": [
+        "List of Apple TV original programming"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Margo%27s_Got_Money_Troubles_%28logo%29.svg/960px-Margo%27s_Got_Money_Troubles_%28logo%29.svg.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Margo%27s_Got_Money_Troubles_%28logo%29.svg/960px-Margo%27s_Got_Money_Troubles_%28logo%29.svg.png",
+      "avatarText": "MG",
+      "color": "#d78fca",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.5,
+          "u1": 0.2,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Margo%27s_Got_Money_Troubles_%28logo%29.svg/960px-Margo%27s_Got_Money_Troubles_%28logo%29.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "foundation-tv-series",
+      "name": "Foundation",
+      "article": "Foundation (TV series)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Foundation_(TV_series)",
+      "genre": "Science fiction",
+      "premiere": "September 24, 2021",
+      "status": "Renewed",
+      "contentKinds": [
+        "series"
+      ],
+      "sourcePages": [
+        "List of Apple TV original programming"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Foundation_Logo.svg/960px-Foundation_Logo.svg.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Foundation_Logo.svg/960px-Foundation_Logo.svg.png",
+      "avatarText": "F",
+      "color": "#41a99f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.5,
+          "u1": 0.4,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Foundation_Logo.svg/960px-Foundation_Logo.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "f1-film",
+      "name": "F1",
+      "article": "F1 (film)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/F1_(film)",
+      "genre": "Sports drama",
+      "premiere": "",
+      "status": "",
+      "contentKinds": [
+        "films"
+      ],
+      "sourcePages": [
+        "List of Apple TV original films"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/F1_movie_promotional_booth_far_shot.jpg/960px-F1_movie_promotional_booth_far_shot.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/F1_movie_promotional_booth_far_shot.jpg/960px-F1_movie_promotional_booth_far_shot.jpg",
+      "avatarText": "F",
+      "color": "#c9a14a",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.5,
+          "u1": 0.6,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/F1_movie_promotional_booth_far_shot.jpg/960px-F1_movie_promotional_booth_far_shot.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "eternity-2025-film",
+      "name": "Eternity",
+      "article": "Eternity (2025 film)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Eternity_(2025_film)",
+      "genre": "Fantasy romantic comedy",
+      "premiere": "",
+      "status": "",
+      "contentKinds": [
+        "films"
+      ],
+      "sourcePages": [
+        "List of Apple TV original films"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/6/6b/Eternity_film_poster.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/6/6b/Eternity_film_poster.jpg",
+      "avatarText": "E",
+      "color": "#e34f59",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.5,
+          "u1": 0.8,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/6/6b/Eternity_film_poster.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "star-city-tv-series",
+      "name": "Star City",
+      "article": "Star City (TV series)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Star_City_(TV_series)",
+      "genre": "Alternate history science fiction",
+      "premiere": "May 29, 2026",
+      "status": "Season 1 ongoing",
+      "contentKinds": [
+        "series"
+      ],
+      "sourcePages": [
+        "List of Apple TV original programming"
+      ],
+      "thumbnailUrl": null,
+      "imageUrl": null,
+      "avatarText": "SC",
+      "color": "#2f4858",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "x": 1280,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.5,
+          "u1": 1,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:star-city-tv-series",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "killers-of-the-flower-moon",
+      "name": "Killers of the Flower Moon",
+      "article": "Killers of the Flower Moon",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Killers_of_the_Flower_Moon",
+      "genre": "Historical crime drama",
+      "premiere": "",
+      "status": "",
+      "contentKinds": [
+        "films"
+      ],
+      "sourcePages": [
+        "List of Apple TV original films"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/8/88/Killers_of_the_Flower_Moon_film_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/8/88/Killers_of_the_Flower_Moon_film_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "KO",
+      "color": "#8f6bff",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "x": 0,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.75,
+          "u1": 0.2,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/8/88/Killers_of_the_Flower_Moon_film_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "maximum-pleasure-guaranteed",
+      "name": "Maximum Pleasure Guaranteed",
+      "article": "Maximum Pleasure Guaranteed",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Maximum_Pleasure_Guaranteed",
+      "genre": "Comedy thriller",
+      "premiere": "May 20, 2026",
+      "status": "Season 1 ongoing",
+      "contentKinds": [
+        "series"
+      ],
+      "sourcePages": [
+        "List of Apple TV original programming"
+      ],
+      "thumbnailUrl": null,
+      "imageUrl": null,
+      "avatarText": "MP",
+      "color": "#8f6bff",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "x": 320,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.75,
+          "u1": 0.4,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:maximum-pleasure-guaranteed",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "cherry-2021-film",
+      "name": "Cherry",
+      "article": "Cherry (2021 film)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Cherry_(2021_film)",
+      "genre": "Crime drama",
+      "premiere": "",
+      "status": "",
+      "contentKinds": [
+        "films"
+      ],
+      "sourcePages": [
+        "List of Apple TV original films"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/8/86/Cherry_2021_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/8/86/Cherry_2021_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "avatarText": "C",
+      "color": "#c9a14a",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "x": 640,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.75,
+          "u1": 0.6,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/8/86/Cherry_2021_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "mistborn",
+      "name": "Mistborn",
+      "article": "Mistborn",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Mistborn",
+      "genre": "Epic fantasy",
+      "premiere": "",
+      "status": "",
+      "contentKinds": [
+        "films"
+      ],
+      "sourcePages": [
+        "List of Apple TV original films"
+      ],
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/4/40/Mistborn_Logo.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/4/40/Mistborn_Logo.jpg",
+      "avatarText": "M",
+      "color": "#c9a14a",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "x": 960,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.75,
+          "u1": 0.8,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/4/40/Mistborn_Logo.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "brothers-2026-tv-series",
+      "name": "Brothers",
+      "article": "Brothers (2026 TV series)",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Brothers_(2026_TV_series)",
+      "genre": "Comedy",
+      "premiere": "September 23, 2026",
+      "status": "Pending",
+      "contentKinds": [
+        "series"
+      ],
+      "sourcePages": [
+        "List of Apple TV original programming"
+      ],
+      "thumbnailUrl": null,
+      "imageUrl": null,
+      "avatarText": "B",
+      "color": "#41a99f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+          "x": 1280,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.75,
+          "u1": 1,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:brothers-2026-tv-series",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    }
+  ],
+  "frames": [
+    {
+      "date": "20260628",
+      "values": [
+        {
+          "id": "cape-fear-tv-series",
+          "value": 679411,
+          "rank": 1,
+          "pageviews": 679411,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "for-all-mankind-tv-series",
+          "value": 411738,
+          "rank": 2,
+          "pageviews": 411738,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "maximum-pleasure-guaranteed",
+          "value": 233501,
+          "rank": 5,
+          "pageviews": 233501,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "severance-tv-series",
+          "value": 232615,
+          "rank": 6,
+          "pageviews": 232615,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "pluribus-tv-series",
+          "value": 222383,
+          "rank": 7,
+          "pageviews": 222383,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "margo-s-got-money-troubles",
+          "value": 218619,
+          "rank": 8,
+          "pageviews": 218619,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "f1-film",
+          "value": 132146,
+          "rank": 13,
+          "pageviews": 132146,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Apple TV original films"
+          ]
+        },
+        {
+          "id": "eternity-2025-film",
+          "value": 120056,
+          "rank": 14,
+          "pageviews": 120056,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Apple TV original films"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260629",
+      "values": [
+        {
+          "id": "cape-fear-tv-series",
+          "value": 679411,
+          "rank": 2,
+          "pageviews": 679411,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "for-all-mankind-tv-series",
+          "value": 411738,
+          "rank": 4,
+          "pageviews": 411738,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "maximum-pleasure-guaranteed",
+          "value": 233501,
+          "rank": 7,
+          "pageviews": 233501,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "severance-tv-series",
+          "value": 232615,
+          "rank": 8,
+          "pageviews": 232615,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "pluribus-tv-series",
+          "value": 222383,
+          "rank": 9,
+          "pageviews": 222383,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "margo-s-got-money-troubles",
+          "value": 218619,
+          "rank": 10,
+          "pageviews": 218619,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "f1-film",
+          "value": 132146,
+          "rank": 15,
+          "pageviews": 132146,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Apple TV original films"
+          ]
+        },
+        {
+          "id": "eternity-2025-film",
+          "value": 120056,
+          "rank": 16,
+          "pageviews": 120056,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Apple TV original films"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260701",
+      "values": [
+        {
+          "id": "cape-fear-tv-series",
+          "value": 696720,
+          "rank": 1,
+          "pageviews": 696720,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "for-all-mankind-tv-series",
+          "value": 368522,
+          "rank": 2,
+          "pageviews": 368522,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "maximum-pleasure-guaranteed",
+          "value": 236561,
+          "rank": 4,
+          "pageviews": 236561,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "severance-tv-series",
+          "value": 229706,
+          "rank": 5,
+          "pageviews": 229706,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "pluribus-tv-series",
+          "value": 224089,
+          "rank": 6,
+          "pageviews": 224089,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "margo-s-got-money-troubles",
+          "value": 203648,
+          "rank": 8,
+          "pageviews": 203648,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "f1-film",
+          "value": 128217,
+          "rank": 11,
+          "pageviews": 128217,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Apple TV original films"
+          ]
+        },
+        {
+          "id": "eternity-2025-film",
+          "value": 117688,
+          "rank": 12,
+          "pageviews": 117688,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Apple TV original films"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260706",
+      "values": [
+        {
+          "id": "cape-fear-tv-series",
+          "value": 668879,
+          "rank": 2,
+          "pageviews": 668879,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "ted-lasso",
+          "value": 342766,
+          "rank": 3,
+          "pageviews": 342766,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "for-all-mankind-tv-series",
+          "value": 305043,
+          "rank": 5,
+          "pageviews": 305043,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "silo-tv-series",
+          "value": 299158,
+          "rank": 6,
+          "pageviews": 299158,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "star-city-tv-series",
+          "value": 247149,
+          "rank": 7,
+          "pageviews": 247149,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "maximum-pleasure-guaranteed",
+          "value": 242961,
+          "rank": 8,
+          "pageviews": 242961,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "sugar-2024-tv-series",
+          "value": 219312,
+          "rank": 9,
+          "pageviews": 219312,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "severance-tv-series",
+          "value": 218326,
+          "rank": 10,
+          "pageviews": 218326,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "pluribus-tv-series",
+          "value": 218087,
+          "rank": 11,
+          "pageviews": 218087,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "margo-s-got-money-troubles",
+          "value": 174799,
+          "rank": 12,
+          "pageviews": 174799,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "slow-horses",
+          "value": 165006,
+          "rank": 13,
+          "pageviews": 165006,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "shrinking-tv-series",
+          "value": 161095,
+          "rank": 14,
+          "pageviews": 161095,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "f1-film",
+          "value": 125820,
+          "rank": 15,
+          "pageviews": 125820,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Apple TV original films"
+          ]
+        },
+        {
+          "id": "eternity-2025-film",
+          "value": 106984,
+          "rank": 17,
+          "pageviews": 106984,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Apple TV original films"
+          ]
+        },
+        {
+          "id": "foundation-tv-series",
+          "value": 81790,
+          "rank": 20,
+          "pageviews": 81790,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260707",
+      "values": [
+        {
+          "id": "cape-fear-tv-series",
+          "value": 632944,
+          "rank": 2,
+          "pageviews": 632944,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "silo-tv-series",
+          "value": 336982,
+          "rank": 3,
+          "pageviews": 336982,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "ted-lasso",
+          "value": 328891,
+          "rank": 4,
+          "pageviews": 328891,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "for-all-mankind-tv-series",
+          "value": 298973,
+          "rank": 6,
+          "pageviews": 298973,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "maximum-pleasure-guaranteed",
+          "value": 245353,
+          "rank": 7,
+          "pageviews": 245353,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "star-city-tv-series",
+          "value": 245172,
+          "rank": 8,
+          "pageviews": 245172,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "sugar-2024-tv-series",
+          "value": 226228,
+          "rank": 9,
+          "pageviews": 226228,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "pluribus-tv-series",
+          "value": 219562,
+          "rank": 10,
+          "pageviews": 219562,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "severance-tv-series",
+          "value": 218994,
+          "rank": 11,
+          "pageviews": 218994,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "margo-s-got-money-troubles",
+          "value": 171574,
+          "rank": 12,
+          "pageviews": 171574,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "slow-horses",
+          "value": 165417,
+          "rank": 13,
+          "pageviews": 165417,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "shrinking-tv-series",
+          "value": 154005,
+          "rank": 14,
+          "pageviews": 154005,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "f1-film",
+          "value": 126396,
+          "rank": 15,
+          "pageviews": 126396,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Apple TV original films"
+          ]
+        },
+        {
+          "id": "eternity-2025-film",
+          "value": 101871,
+          "rank": 17,
+          "pageviews": 101871,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Apple TV original films"
+          ]
+        },
+        {
+          "id": "foundation-tv-series",
+          "value": 81787,
+          "rank": 19,
+          "pageviews": 81787,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260708",
+      "values": [
+        {
+          "id": "cape-fear-tv-series",
+          "value": 595394,
+          "rank": 2,
+          "pageviews": 595394,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "silo-tv-series",
+          "value": 366680,
+          "rank": 3,
+          "pageviews": 366680,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "ted-lasso",
+          "value": 325894,
+          "rank": 4,
+          "pageviews": 325894,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "for-all-mankind-tv-series",
+          "value": 290352,
+          "rank": 5,
+          "pageviews": 290352,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "maximum-pleasure-guaranteed",
+          "value": 245721,
+          "rank": 7,
+          "pageviews": 245721,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "star-city-tv-series",
+          "value": 242246,
+          "rank": 8,
+          "pageviews": 242246,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "sugar-2024-tv-series",
+          "value": 238582,
+          "rank": 9,
+          "pageviews": 238582,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "pluribus-tv-series",
+          "value": 219224,
+          "rank": 10,
+          "pageviews": 219224,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "severance-tv-series",
+          "value": 218529,
+          "rank": 11,
+          "pageviews": 218529,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "margo-s-got-money-troubles",
+          "value": 166242,
+          "rank": 12,
+          "pageviews": 166242,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "slow-horses",
+          "value": 164421,
+          "rank": 13,
+          "pageviews": 164421,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "shrinking-tv-series",
+          "value": 150818,
+          "rank": 14,
+          "pageviews": 150818,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "f1-film",
+          "value": 124776,
+          "rank": 15,
+          "pageviews": 124776,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Apple TV original films"
+          ]
+        },
+        {
+          "id": "eternity-2025-film",
+          "value": 98122,
+          "rank": 18,
+          "pageviews": 98122,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Apple TV original films"
+          ]
+        },
+        {
+          "id": "foundation-tv-series",
+          "value": 81499,
+          "rank": 19,
+          "pageviews": 81499,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260709",
+      "values": [
+        {
+          "id": "cape-fear-tv-series",
+          "value": 568425,
+          "rank": 2,
+          "pageviews": 568425,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "silo-tv-series",
+          "value": 392579,
+          "rank": 3,
+          "pageviews": 392579,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "ted-lasso",
+          "value": 323854,
+          "rank": 4,
+          "pageviews": 323854,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "for-all-mankind-tv-series",
+          "value": 282895,
+          "rank": 5,
+          "pageviews": 282895,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "maximum-pleasure-guaranteed",
+          "value": 247039,
+          "rank": 7,
+          "pageviews": 247039,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "sugar-2024-tv-series",
+          "value": 243625,
+          "rank": 8,
+          "pageviews": 243625,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "star-city-tv-series",
+          "value": 239809,
+          "rank": 9,
+          "pageviews": 239809,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "pluribus-tv-series",
+          "value": 218676,
+          "rank": 10,
+          "pageviews": 218676,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "severance-tv-series",
+          "value": 218449,
+          "rank": 11,
+          "pageviews": 218449,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "slow-horses",
+          "value": 163396,
+          "rank": 12,
+          "pageviews": 163396,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "margo-s-got-money-troubles",
+          "value": 161559,
+          "rank": 13,
+          "pageviews": 161559,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "shrinking-tv-series",
+          "value": 147695,
+          "rank": 14,
+          "pageviews": 147695,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "f1-film",
+          "value": 123433,
+          "rank": 15,
+          "pageviews": 123433,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Apple TV original films"
+          ]
+        },
+        {
+          "id": "eternity-2025-film",
+          "value": 94231,
+          "rank": 17,
+          "pageviews": 94231,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Apple TV original films"
+          ]
+        },
+        {
+          "id": "foundation-tv-series",
+          "value": 81220,
+          "rank": 18,
+          "pageviews": 81220,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260710",
+      "values": [
+        {
+          "id": "cape-fear-tv-series",
+          "value": 551222,
+          "rank": 2,
+          "pageviews": 551222,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "silo-tv-series",
+          "value": 420492,
+          "rank": 3,
+          "pageviews": 420492,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "ted-lasso",
+          "value": 324184,
+          "rank": 4,
+          "pageviews": 324184,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "for-all-mankind-tv-series",
+          "value": 278522,
+          "rank": 5,
+          "pageviews": 278522,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "maximum-pleasure-guaranteed",
+          "value": 253375,
+          "rank": 7,
+          "pageviews": 253375,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "sugar-2024-tv-series",
+          "value": 242079,
+          "rank": 8,
+          "pageviews": 242079,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "star-city-tv-series",
+          "value": 239524,
+          "rank": 9,
+          "pageviews": 239524,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "pluribus-tv-series",
+          "value": 224158,
+          "rank": 10,
+          "pageviews": 224158,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "severance-tv-series",
+          "value": 219726,
+          "rank": 11,
+          "pageviews": 219726,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "slow-horses",
+          "value": 165522,
+          "rank": 12,
+          "pageviews": 165522,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "margo-s-got-money-troubles",
+          "value": 162482,
+          "rank": 13,
+          "pageviews": 162482,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "shrinking-tv-series",
+          "value": 147799,
+          "rank": 14,
+          "pageviews": 147799,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "f1-film",
+          "value": 122824,
+          "rank": 15,
+          "pageviews": 122824,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Apple TV original films"
+          ]
+        },
+        {
+          "id": "eternity-2025-film",
+          "value": 93614,
+          "rank": 16,
+          "pageviews": 93614,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Apple TV original films"
+          ]
+        },
+        {
+          "id": "foundation-tv-series",
+          "value": 81783,
+          "rank": 18,
+          "pageviews": 81783,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260711",
+      "values": [
+        {
+          "id": "cape-fear-tv-series",
+          "value": 539762,
+          "rank": 2,
+          "pageviews": 539762,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "silo-tv-series",
+          "value": 447163,
+          "rank": 3,
+          "pageviews": 447163,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "ted-lasso",
+          "value": 325022,
+          "rank": 4,
+          "pageviews": 325022,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "for-all-mankind-tv-series",
+          "value": 275756,
+          "rank": 5,
+          "pageviews": 275756,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "maximum-pleasure-guaranteed",
+          "value": 255622,
+          "rank": 7,
+          "pageviews": 255622,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "sugar-2024-tv-series",
+          "value": 246220,
+          "rank": 8,
+          "pageviews": 246220,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "star-city-tv-series",
+          "value": 240211,
+          "rank": 9,
+          "pageviews": 240211,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "pluribus-tv-series",
+          "value": 230172,
+          "rank": 10,
+          "pageviews": 230172,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "severance-tv-series",
+          "value": 220737,
+          "rank": 11,
+          "pageviews": 220737,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "slow-horses",
+          "value": 168374,
+          "rank": 12,
+          "pageviews": 168374,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "margo-s-got-money-troubles",
+          "value": 163659,
+          "rank": 13,
+          "pageviews": 163659,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "shrinking-tv-series",
+          "value": 147865,
+          "rank": 14,
+          "pageviews": 147865,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "f1-film",
+          "value": 121804,
+          "rank": 15,
+          "pageviews": 121804,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Apple TV original films"
+          ]
+        },
+        {
+          "id": "eternity-2025-film",
+          "value": 92878,
+          "rank": 16,
+          "pageviews": 92878,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Apple TV original films"
+          ]
+        },
+        {
+          "id": "foundation-tv-series",
+          "value": 82513,
+          "rank": 18,
+          "pageviews": 82513,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260712",
+      "values": [
+        {
+          "id": "cape-fear-tv-series",
+          "value": 539277,
+          "rank": 2,
+          "pageviews": 539277,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "silo-tv-series",
+          "value": 478973,
+          "rank": 3,
+          "pageviews": 478973,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "ted-lasso",
+          "value": 324939,
+          "rank": 4,
+          "pageviews": 324939,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "for-all-mankind-tv-series",
+          "value": 274463,
+          "rank": 5,
+          "pageviews": 274463,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "sugar-2024-tv-series",
+          "value": 259369,
+          "rank": 6,
+          "pageviews": 259369,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "maximum-pleasure-guaranteed",
+          "value": 256399,
+          "rank": 7,
+          "pageviews": 256399,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "star-city-tv-series",
+          "value": 252337,
+          "rank": 9,
+          "pageviews": 252337,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "pluribus-tv-series",
+          "value": 233512,
+          "rank": 10,
+          "pageviews": 233512,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "severance-tv-series",
+          "value": 220830,
+          "rank": 11,
+          "pageviews": 220830,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "slow-horses",
+          "value": 168428,
+          "rank": 12,
+          "pageviews": 168428,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "margo-s-got-money-troubles",
+          "value": 161318,
+          "rank": 13,
+          "pageviews": 161318,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "shrinking-tv-series",
+          "value": 146717,
+          "rank": 14,
+          "pageviews": 146717,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "f1-film",
+          "value": 121308,
+          "rank": 15,
+          "pageviews": 121308,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Apple TV original films"
+          ]
+        },
+        {
+          "id": "eternity-2025-film",
+          "value": 92498,
+          "rank": 16,
+          "pageviews": 92498,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Apple TV original films"
+          ]
+        },
+        {
+          "id": "foundation-tv-series",
+          "value": 82941,
+          "rank": 17,
+          "pageviews": 82941,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260713",
+      "values": [
+        {
+          "id": "cape-fear-tv-series",
+          "value": 529804,
+          "rank": 2,
+          "pageviews": 529804,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "silo-tv-series",
+          "value": 509100,
+          "rank": 3,
+          "pageviews": 509100,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "ted-lasso",
+          "value": 326918,
+          "rank": 4,
+          "pageviews": 326918,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "for-all-mankind-tv-series",
+          "value": 272558,
+          "rank": 5,
+          "pageviews": 272558,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "star-city-tv-series",
+          "value": 271939,
+          "rank": 6,
+          "pageviews": 271939,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "maximum-pleasure-guaranteed",
+          "value": 257554,
+          "rank": 7,
+          "pageviews": 257554,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "sugar-2024-tv-series",
+          "value": 257445,
+          "rank": 8,
+          "pageviews": 257445,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "pluribus-tv-series",
+          "value": 236008,
+          "rank": 10,
+          "pageviews": 236008,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "severance-tv-series",
+          "value": 221926,
+          "rank": 11,
+          "pageviews": 221926,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "slow-horses",
+          "value": 168872,
+          "rank": 12,
+          "pageviews": 168872,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "margo-s-got-money-troubles",
+          "value": 159594,
+          "rank": 13,
+          "pageviews": 159594,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "shrinking-tv-series",
+          "value": 145626,
+          "rank": 14,
+          "pageviews": 145626,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "f1-film",
+          "value": 121285,
+          "rank": 15,
+          "pageviews": 121285,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Apple TV original films"
+          ]
+        },
+        {
+          "id": "eternity-2025-film",
+          "value": 92634,
+          "rank": 16,
+          "pageviews": 92634,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Apple TV original films"
+          ]
+        },
+        {
+          "id": "foundation-tv-series",
+          "value": 83647,
+          "rank": 17,
+          "pageviews": 83647,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260714",
+      "values": [
+        {
+          "id": "silo-tv-series",
+          "value": 538206,
+          "rank": 2,
+          "pageviews": 538206,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "cape-fear-tv-series",
+          "value": 519868,
+          "rank": 3,
+          "pageviews": 519868,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "ted-lasso",
+          "value": 330793,
+          "rank": 4,
+          "pageviews": 330793,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "for-all-mankind-tv-series",
+          "value": 271072,
+          "rank": 5,
+          "pageviews": 271072,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "sugar-2024-tv-series",
+          "value": 262661,
+          "rank": 6,
+          "pageviews": 262661,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "star-city-tv-series",
+          "value": 262325,
+          "rank": 7,
+          "pageviews": 262325,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "maximum-pleasure-guaranteed",
+          "value": 258211,
+          "rank": 8,
+          "pageviews": 258211,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "pluribus-tv-series",
+          "value": 239187,
+          "rank": 10,
+          "pageviews": 239187,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "severance-tv-series",
+          "value": 223038,
+          "rank": 11,
+          "pageviews": 223038,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "slow-horses",
+          "value": 170242,
+          "rank": 12,
+          "pageviews": 170242,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "margo-s-got-money-troubles",
+          "value": 158847,
+          "rank": 13,
+          "pageviews": 158847,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "shrinking-tv-series",
+          "value": 145327,
+          "rank": 14,
+          "pageviews": 145327,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "f1-film",
+          "value": 120786,
+          "rank": 15,
+          "pageviews": 120786,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Apple TV original films"
+          ]
+        },
+        {
+          "id": "eternity-2025-film",
+          "value": 91693,
+          "rank": 16,
+          "pageviews": 91693,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Apple TV original films"
+          ]
+        },
+        {
+          "id": "foundation-tv-series",
+          "value": 84411,
+          "rank": 17,
+          "pageviews": 84411,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260715",
+      "values": [
+        {
+          "id": "silo-tv-series",
+          "value": 566154,
+          "rank": 2,
+          "pageviews": 566154,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "cape-fear-tv-series",
+          "value": 506964,
+          "rank": 3,
+          "pageviews": 506964,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "ted-lasso",
+          "value": 336433,
+          "rank": 4,
+          "pageviews": 336433,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "sugar-2024-tv-series",
+          "value": 272865,
+          "rank": 5,
+          "pageviews": 272865,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "for-all-mankind-tv-series",
+          "value": 268410,
+          "rank": 6,
+          "pageviews": 268410,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "star-city-tv-series",
+          "value": 265627,
+          "rank": 7,
+          "pageviews": 265627,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "maximum-pleasure-guaranteed",
+          "value": 258035,
+          "rank": 8,
+          "pageviews": 258035,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "pluribus-tv-series",
+          "value": 240861,
+          "rank": 9,
+          "pageviews": 240861,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "severance-tv-series",
+          "value": 223134,
+          "rank": 11,
+          "pageviews": 223134,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "slow-horses",
+          "value": 171357,
+          "rank": 12,
+          "pageviews": 171357,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "margo-s-got-money-troubles",
+          "value": 157730,
+          "rank": 13,
+          "pageviews": 157730,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "shrinking-tv-series",
+          "value": 145047,
+          "rank": 14,
+          "pageviews": 145047,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "f1-film",
+          "value": 119420,
+          "rank": 15,
+          "pageviews": 119420,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Apple TV original films"
+          ]
+        },
+        {
+          "id": "eternity-2025-film",
+          "value": 89406,
+          "rank": 16,
+          "pageviews": 89406,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Apple TV original films"
+          ]
+        },
+        {
+          "id": "foundation-tv-series",
+          "value": 85381,
+          "rank": 17,
+          "pageviews": 85381,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260716",
+      "values": [
+        {
+          "id": "silo-tv-series",
+          "value": 614978,
+          "rank": 2,
+          "pageviews": 614978,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "cape-fear-tv-series",
+          "value": 510187,
+          "rank": 3,
+          "pageviews": 510187,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "ted-lasso",
+          "value": 351797,
+          "rank": 4,
+          "pageviews": 351797,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "sugar-2024-tv-series",
+          "value": 275403,
+          "rank": 5,
+          "pageviews": 275403,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "star-city-tv-series",
+          "value": 274329,
+          "rank": 6,
+          "pageviews": 274329,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "for-all-mankind-tv-series",
+          "value": 273044,
+          "rank": 7,
+          "pageviews": 273044,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "maximum-pleasure-guaranteed",
+          "value": 272473,
+          "rank": 8,
+          "pageviews": 272473,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "pluribus-tv-series",
+          "value": 248910,
+          "rank": 9,
+          "pageviews": 248910,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "severance-tv-series",
+          "value": 230507,
+          "rank": 11,
+          "pageviews": 230507,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "slow-horses",
+          "value": 178776,
+          "rank": 12,
+          "pageviews": 178776,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "margo-s-got-money-troubles",
+          "value": 161022,
+          "rank": 13,
+          "pageviews": 161022,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "shrinking-tv-series",
+          "value": 151015,
+          "rank": 14,
+          "pageviews": 151015,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "f1-film",
+          "value": 122733,
+          "rank": 15,
+          "pageviews": 122733,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Apple TV original films"
+          ]
+        },
+        {
+          "id": "eternity-2025-film",
+          "value": 90467,
+          "rank": 16,
+          "pageviews": 90467,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Apple TV original films"
+          ]
+        },
+        {
+          "id": "foundation-tv-series",
+          "value": 90466,
+          "rank": 17,
+          "pageviews": 90466,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260717",
+      "values": [
+        {
+          "id": "silo-tv-series",
+          "value": 608715,
+          "rank": 2,
+          "pageviews": 608715,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "cape-fear-tv-series",
+          "value": 489782,
+          "rank": 3,
+          "pageviews": 489782,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "ted-lasso",
+          "value": 341465,
+          "rank": 4,
+          "pageviews": 341465,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "sugar-2024-tv-series",
+          "value": 271171,
+          "rank": 5,
+          "pageviews": 271171,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "star-city-tv-series",
+          "value": 267138,
+          "rank": 6,
+          "pageviews": 267138,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "maximum-pleasure-guaranteed",
+          "value": 266677,
+          "rank": 7,
+          "pageviews": 266677,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "for-all-mankind-tv-series",
+          "value": 262181,
+          "rank": 8,
+          "pageviews": 262181,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "pluribus-tv-series",
+          "value": 240468,
+          "rank": 9,
+          "pageviews": 240468,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "severance-tv-series",
+          "value": 223832,
+          "rank": 11,
+          "pageviews": 223832,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "slow-horses",
+          "value": 173389,
+          "rank": 12,
+          "pageviews": 173389,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "margo-s-got-money-troubles",
+          "value": 154552,
+          "rank": 13,
+          "pageviews": 154552,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "shrinking-tv-series",
+          "value": 145392,
+          "rank": 14,
+          "pageviews": 145392,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "f1-film",
+          "value": 118690,
+          "rank": 15,
+          "pageviews": 118690,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Apple TV original films"
+          ]
+        },
+        {
+          "id": "foundation-tv-series",
+          "value": 87892,
+          "rank": 16,
+          "pageviews": 87892,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "eternity-2025-film",
+          "value": 87540,
+          "rank": 17,
+          "pageviews": 87540,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Apple TV original films"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260718",
+      "values": [
+        {
+          "id": "silo-tv-series",
+          "value": 629412,
+          "rank": 2,
+          "pageviews": 629412,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "cape-fear-tv-series",
+          "value": 487714,
+          "rank": 3,
+          "pageviews": 487714,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "ted-lasso",
+          "value": 344181,
+          "rank": 4,
+          "pageviews": 344181,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "sugar-2024-tv-series",
+          "value": 272848,
+          "rank": 5,
+          "pageviews": 272848,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "maximum-pleasure-guaranteed",
+          "value": 270983,
+          "rank": 6,
+          "pageviews": 270983,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "star-city-tv-series",
+          "value": 268482,
+          "rank": 7,
+          "pageviews": 268482,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "for-all-mankind-tv-series",
+          "value": 259955,
+          "rank": 8,
+          "pageviews": 259955,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "pluribus-tv-series",
+          "value": 240368,
+          "rank": 9,
+          "pageviews": 240368,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "severance-tv-series",
+          "value": 223631,
+          "rank": 10,
+          "pageviews": 223631,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "slow-horses",
+          "value": 174958,
+          "rank": 12,
+          "pageviews": 174958,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "margo-s-got-money-troubles",
+          "value": 153084,
+          "rank": 13,
+          "pageviews": 153084,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "shrinking-tv-series",
+          "value": 145336,
+          "rank": 14,
+          "pageviews": 145336,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "f1-film",
+          "value": 118830,
+          "rank": 16,
+          "pageviews": 118830,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Apple TV original films"
+          ]
+        },
+        {
+          "id": "foundation-tv-series",
+          "value": 89185,
+          "rank": 17,
+          "pageviews": 89185,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "eternity-2025-film",
+          "value": 86811,
+          "rank": 18,
+          "pageviews": 86811,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Apple TV original films"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260719",
+      "values": [
+        {
+          "id": "silo-tv-series",
+          "value": 658462,
+          "rank": 2,
+          "pageviews": 658462,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "cape-fear-tv-series",
+          "value": 494932,
+          "rank": 3,
+          "pageviews": 494932,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "ted-lasso",
+          "value": 360235,
+          "rank": 4,
+          "pageviews": 360235,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "sugar-2024-tv-series",
+          "value": 283039,
+          "rank": 5,
+          "pageviews": 283039,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "star-city-tv-series",
+          "value": 270893,
+          "rank": 6,
+          "pageviews": 270893,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "maximum-pleasure-guaranteed",
+          "value": 265043,
+          "rank": 7,
+          "pageviews": 265043,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "for-all-mankind-tv-series",
+          "value": 257935,
+          "rank": 8,
+          "pageviews": 257935,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "pluribus-tv-series",
+          "value": 238609,
+          "rank": 9,
+          "pageviews": 238609,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "severance-tv-series",
+          "value": 220156,
+          "rank": 10,
+          "pageviews": 220156,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "slow-horses",
+          "value": 175346,
+          "rank": 12,
+          "pageviews": 175346,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "margo-s-got-money-troubles",
+          "value": 151779,
+          "rank": 14,
+          "pageviews": 151779,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "shrinking-tv-series",
+          "value": 145088,
+          "rank": 15,
+          "pageviews": 145088,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "f1-film",
+          "value": 119637,
+          "rank": 16,
+          "pageviews": 119637,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Apple TV original films"
+          ]
+        },
+        {
+          "id": "foundation-tv-series",
+          "value": 90219,
+          "rank": 17,
+          "pageviews": 90219,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "eternity-2025-film",
+          "value": 86683,
+          "rank": 18,
+          "pageviews": 86683,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Apple TV original films"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260720",
+      "values": [
+        {
+          "id": "silo-tv-series",
+          "value": 686853,
+          "rank": 2,
+          "pageviews": 686853,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "cape-fear-tv-series",
+          "value": 496082,
+          "rank": 3,
+          "pageviews": 496082,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "ted-lasso",
+          "value": 349748,
+          "rank": 4,
+          "pageviews": 349748,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "star-city-tv-series",
+          "value": 267536,
+          "rank": 5,
+          "pageviews": 267536,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "sugar-2024-tv-series",
+          "value": 266945,
+          "rank": 6,
+          "pageviews": 266945,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "maximum-pleasure-guaranteed",
+          "value": 262657,
+          "rank": 7,
+          "pageviews": 262657,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "for-all-mankind-tv-series",
+          "value": 256112,
+          "rank": 8,
+          "pageviews": 256112,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "pluribus-tv-series",
+          "value": 237030,
+          "rank": 9,
+          "pageviews": 237030,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "severance-tv-series",
+          "value": 219426,
+          "rank": 10,
+          "pageviews": 219426,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "slow-horses",
+          "value": 176700,
+          "rank": 13,
+          "pageviews": 176700,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "margo-s-got-money-troubles",
+          "value": 150355,
+          "rank": 14,
+          "pageviews": 150355,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "shrinking-tv-series",
+          "value": 145004,
+          "rank": 15,
+          "pageviews": 145004,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "f1-film",
+          "value": 120701,
+          "rank": 16,
+          "pageviews": 120701,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Apple TV original films"
+          ]
+        },
+        {
+          "id": "foundation-tv-series",
+          "value": 91217,
+          "rank": 17,
+          "pageviews": 91217,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "eternity-2025-film",
+          "value": 86589,
+          "rank": 18,
+          "pageviews": 86589,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Apple TV original films"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260721",
+      "values": [
+        {
+          "id": "silo-tv-series",
+          "value": 711136,
+          "rank": 2,
+          "pageviews": 711136,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "cape-fear-tv-series",
+          "value": 493567,
+          "rank": 3,
+          "pageviews": 493567,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "ted-lasso",
+          "value": 368620,
+          "rank": 4,
+          "pageviews": 368620,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "star-city-tv-series",
+          "value": 264679,
+          "rank": 5,
+          "pageviews": 264679,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "maximum-pleasure-guaranteed",
+          "value": 261634,
+          "rank": 6,
+          "pageviews": 261634,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "sugar-2024-tv-series",
+          "value": 256077,
+          "rank": 7,
+          "pageviews": 256077,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "for-all-mankind-tv-series",
+          "value": 254179,
+          "rank": 8,
+          "pageviews": 254179,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "pluribus-tv-series",
+          "value": 235422,
+          "rank": 9,
+          "pageviews": 235422,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "severance-tv-series",
+          "value": 219091,
+          "rank": 10,
+          "pageviews": 219091,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "slow-horses",
+          "value": 177780,
+          "rank": 13,
+          "pageviews": 177780,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "margo-s-got-money-troubles",
+          "value": 148146,
+          "rank": 14,
+          "pageviews": 148146,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "shrinking-tv-series",
+          "value": 144991,
+          "rank": 15,
+          "pageviews": 144991,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "f1-film",
+          "value": 121320,
+          "rank": 16,
+          "pageviews": 121320,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Apple TV original films"
+          ]
+        },
+        {
+          "id": "foundation-tv-series",
+          "value": 92432,
+          "rank": 17,
+          "pageviews": 92432,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "eternity-2025-film",
+          "value": 85088,
+          "rank": 19,
+          "pageviews": 85088,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Apple TV original films"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260722",
+      "values": [
+        {
+          "id": "silo-tv-series",
+          "value": 730910,
+          "rank": 2,
+          "pageviews": 730910,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "cape-fear-tv-series",
+          "value": 489984,
+          "rank": 3,
+          "pageviews": 489984,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "ted-lasso",
+          "value": 380721,
+          "rank": 4,
+          "pageviews": 380721,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "star-city-tv-series",
+          "value": 261609,
+          "rank": 5,
+          "pageviews": 261609,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "maximum-pleasure-guaranteed",
+          "value": 259336,
+          "rank": 6,
+          "pageviews": 259336,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "for-all-mankind-tv-series",
+          "value": 250254,
+          "rank": 7,
+          "pageviews": 250254,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "sugar-2024-tv-series",
+          "value": 245047,
+          "rank": 8,
+          "pageviews": 245047,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "pluribus-tv-series",
+          "value": 232798,
+          "rank": 9,
+          "pageviews": 232798,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "severance-tv-series",
+          "value": 217557,
+          "rank": 11,
+          "pageviews": 217557,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "slow-horses",
+          "value": 177938,
+          "rank": 13,
+          "pageviews": 177938,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "shrinking-tv-series",
+          "value": 144267,
+          "rank": 14,
+          "pageviews": 144267,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "margo-s-got-money-troubles",
+          "value": 143681,
+          "rank": 15,
+          "pageviews": 143681,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "f1-film",
+          "value": 120324,
+          "rank": 16,
+          "pageviews": 120324,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Apple TV original films"
+          ]
+        },
+        {
+          "id": "foundation-tv-series",
+          "value": 92922,
+          "rank": 17,
+          "pageviews": 92922,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "eternity-2025-film",
+          "value": 83126,
+          "rank": 20,
+          "pageviews": 83126,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Apple TV original films"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260728",
+      "values": [
+        {
+          "id": "silo-tv-series",
+          "value": 847970,
+          "rank": 1,
+          "pageviews": 847970,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "cape-fear-tv-series",
+          "value": 495128,
+          "rank": 2,
+          "pageviews": 495128,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "ted-lasso",
+          "value": 427991,
+          "rank": 3,
+          "pageviews": 427991,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "star-city-tv-series",
+          "value": 245323,
+          "rank": 5,
+          "pageviews": 245323,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "maximum-pleasure-guaranteed",
+          "value": 241981,
+          "rank": 6,
+          "pageviews": 241981,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "for-all-mankind-tv-series",
+          "value": 239027,
+          "rank": 7,
+          "pageviews": 239027,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "pluribus-tv-series",
+          "value": 221155,
+          "rank": 8,
+          "pageviews": 221155,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "severance-tv-series",
+          "value": 214468,
+          "rank": 9,
+          "pageviews": 214468,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "sugar-2024-tv-series",
+          "value": 207247,
+          "rank": 10,
+          "pageviews": 207247,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "slow-horses",
+          "value": 185550,
+          "rank": 11,
+          "pageviews": 185550,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "shrinking-tv-series",
+          "value": 145930,
+          "rank": 12,
+          "pageviews": 145930,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "margo-s-got-money-troubles",
+          "value": 135271,
+          "rank": 13,
+          "pageviews": 135271,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "f1-film",
+          "value": 123457,
+          "rank": 14,
+          "pageviews": 123457,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Apple TV original films"
+          ]
+        },
+        {
+          "id": "foundation-tv-series",
+          "value": 97264,
+          "rank": 15,
+          "pageviews": 97264,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "eternity-2025-film",
+          "value": 82049,
+          "rank": 17,
+          "pageviews": 82049,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Apple TV original films"
+          ]
+        },
+        {
+          "id": "mistborn",
+          "value": 73241,
+          "rank": 20,
+          "pageviews": 73241,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Apple TV original films"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260804",
+      "values": [
+        {
+          "id": "silo-tv-series",
+          "value": 903376,
+          "rank": 1,
+          "pageviews": 903376,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "cape-fear-tv-series",
+          "value": 511082,
+          "rank": 2,
+          "pageviews": 511082,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "pluribus-tv-series",
+          "value": 228657,
+          "rank": 4,
+          "pageviews": 228657,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "for-all-mankind-tv-series",
+          "value": 227074,
+          "rank": 5,
+          "pageviews": 227074,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "severance-tv-series",
+          "value": 223317,
+          "rank": 6,
+          "pageviews": 223317,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "star-city-tv-series",
+          "value": 212870,
+          "rank": 7,
+          "pageviews": 212870,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "maximum-pleasure-guaranteed",
+          "value": 206199,
+          "rank": 8,
+          "pageviews": 206199,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "slow-horses",
+          "value": 197879,
+          "rank": 9,
+          "pageviews": 197879,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "shrinking-tv-series",
+          "value": 147688,
+          "rank": 10,
+          "pageviews": 147688,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "margo-s-got-money-troubles",
+          "value": 136310,
+          "rank": 11,
+          "pageviews": 136310,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "f1-film",
+          "value": 123987,
+          "rank": 12,
+          "pageviews": 123987,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Apple TV original films"
+          ]
+        },
+        {
+          "id": "foundation-tv-series",
+          "value": 101798,
+          "rank": 13,
+          "pageviews": 101798,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "eternity-2025-film",
+          "value": 90075,
+          "rank": 14,
+          "pageviews": 90075,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Apple TV original films"
+          ]
+        },
+        {
+          "id": "mistborn",
+          "value": 77019,
+          "rank": 15,
+          "pageviews": 77019,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Apple TV original films"
+          ]
+        },
+        {
+          "id": "dark-matter-2024-tv-series",
+          "value": 76417,
+          "rank": 16,
+          "pageviews": 76417,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "cherry-2021-film",
+          "value": 57350,
+          "rank": 19,
+          "pageviews": 57350,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Apple TV original films"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260811",
+      "values": [
+        {
+          "id": "silo-tv-series",
+          "value": 875541,
+          "rank": 1,
+          "pageviews": 875541,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "ted-lasso",
+          "value": 792040,
+          "rank": 3,
+          "pageviews": 792040,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "cape-fear-tv-series",
+          "value": 473274,
+          "rank": 5,
+          "pageviews": 473274,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "severance-tv-series",
+          "value": 226000,
+          "rank": 6,
+          "pageviews": 226000,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "pluribus-tv-series",
+          "value": 219680,
+          "rank": 7,
+          "pageviews": 219680,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "sugar-2024-tv-series",
+          "value": 217884,
+          "rank": 8,
+          "pageviews": 217884,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "for-all-mankind-tv-series",
+          "value": 207775,
+          "rank": 9,
+          "pageviews": 207775,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "slow-horses",
+          "value": 205471,
+          "rank": 10,
+          "pageviews": 205471,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "maximum-pleasure-guaranteed",
+          "value": 176008,
+          "rank": 11,
+          "pageviews": 176008,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "star-city-tv-series",
+          "value": 161735,
+          "rank": 12,
+          "pageviews": 161735,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "shrinking-tv-series",
+          "value": 147564,
+          "rank": 14,
+          "pageviews": 147564,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "margo-s-got-money-troubles",
+          "value": 125619,
+          "rank": 15,
+          "pageviews": 125619,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "f1-film",
+          "value": 122487,
+          "rank": 16,
+          "pageviews": 122487,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Apple TV original films"
+          ]
+        },
+        {
+          "id": "foundation-tv-series",
+          "value": 104516,
+          "rank": 17,
+          "pageviews": 104516,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "eternity-2025-film",
+          "value": 101868,
+          "rank": 18,
+          "pageviews": 101868,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Apple TV original films"
+          ]
+        },
+        {
+          "id": "dark-matter-2024-tv-series",
+          "value": 85507,
+          "rank": 20,
+          "pageviews": 85507,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260818",
+      "values": [
+        {
+          "id": "cape-fear-tv-series",
+          "value": 399505,
+          "rank": 2,
+          "pageviews": 399505,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "severance-tv-series",
+          "value": 229404,
+          "rank": 3,
+          "pageviews": 229404,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "pluribus-tv-series",
+          "value": 215372,
+          "rank": 4,
+          "pageviews": 215372,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "for-all-mankind-tv-series",
+          "value": 197114,
+          "rank": 5,
+          "pageviews": 197114,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "maximum-pleasure-guaranteed",
+          "value": 125923,
+          "rank": 6,
+          "pageviews": 125923,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "margo-s-got-money-troubles",
+          "value": 120858,
+          "rank": 7,
+          "pageviews": 120858,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "f1-film",
+          "value": 118769,
+          "rank": 8,
+          "pageviews": 118769,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Apple TV original films"
+          ]
+        },
+        {
+          "id": "foundation-tv-series",
+          "value": 104752,
+          "rank": 9,
+          "pageviews": 104752,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "eternity-2025-film",
+          "value": 104575,
+          "rank": 10,
+          "pageviews": 104575,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Apple TV original films"
+          ]
+        },
+        {
+          "id": "dark-matter-2024-tv-series",
+          "value": 96270,
+          "rank": 11,
+          "pageviews": 96270,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "cherry-2021-film",
+          "value": 84414,
+          "rank": 13,
+          "pageviews": 84414,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Apple TV original films"
+          ]
+        },
+        {
+          "id": "mistborn",
+          "value": 75855,
+          "rank": 14,
+          "pageviews": 75855,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Apple TV original films"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260822",
+      "values": [
+        {
+          "id": "ted-lasso",
+          "value": 1054481,
+          "rank": 1,
+          "pageviews": 1054481,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "silo-tv-series",
+          "value": 894970,
+          "rank": 2,
+          "pageviews": 894970,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "cape-fear-tv-series",
+          "value": 360107,
+          "rank": 5,
+          "pageviews": 360107,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "slow-horses",
+          "value": 259653,
+          "rank": 6,
+          "pageviews": 259653,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "severance-tv-series",
+          "value": 231059,
+          "rank": 7,
+          "pageviews": 231059,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "pluribus-tv-series",
+          "value": 218127,
+          "rank": 9,
+          "pageviews": 218127,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "sugar-2024-tv-series",
+          "value": 216341,
+          "rank": 10,
+          "pageviews": 216341,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "for-all-mankind-tv-series",
+          "value": 184620,
+          "rank": 11,
+          "pageviews": 184620,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "shrinking-tv-series",
+          "value": 154964,
+          "rank": 12,
+          "pageviews": 154964,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "margo-s-got-money-troubles",
+          "value": 120754,
+          "rank": 14,
+          "pageviews": 120754,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "f1-film",
+          "value": 115240,
+          "rank": 15,
+          "pageviews": 115240,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Apple TV original films"
+          ]
+        },
+        {
+          "id": "foundation-tv-series",
+          "value": 110283,
+          "rank": 16,
+          "pageviews": 110283,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "star-city-tv-series",
+          "value": 109058,
+          "rank": 17,
+          "pageviews": 109058,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "maximum-pleasure-guaranteed",
+          "value": 107310,
+          "rank": 18,
+          "pageviews": 107310,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "eternity-2025-film",
+          "value": 100538,
+          "rank": 19,
+          "pageviews": 100538,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Apple TV original films"
+          ]
+        },
+        {
+          "id": "dark-matter-2024-tv-series",
+          "value": 99746,
+          "rank": 20,
+          "pageviews": 99746,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260825",
+      "values": [
+        {
+          "id": "ted-lasso",
+          "value": 1106856,
+          "rank": 1,
+          "pageviews": 1106856,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "silo-tv-series",
+          "value": 938910,
+          "rank": 2,
+          "pageviews": 938910,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "cape-fear-tv-series",
+          "value": 323768,
+          "rank": 4,
+          "pageviews": 323768,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "slow-horses",
+          "value": 279211,
+          "rank": 5,
+          "pageviews": 279211,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "severance-tv-series",
+          "value": 233284,
+          "rank": 6,
+          "pageviews": 233284,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "pluribus-tv-series",
+          "value": 218051,
+          "rank": 7,
+          "pageviews": 218051,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "sugar-2024-tv-series",
+          "value": 209912,
+          "rank": 8,
+          "pageviews": 209912,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "for-all-mankind-tv-series",
+          "value": 181333,
+          "rank": 9,
+          "pageviews": 181333,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "shrinking-tv-series",
+          "value": 159114,
+          "rank": 10,
+          "pageviews": 159114,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "margo-s-got-money-troubles",
+          "value": 125912,
+          "rank": 11,
+          "pageviews": 125912,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "f1-film",
+          "value": 113473,
+          "rank": 12,
+          "pageviews": 113473,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Apple TV original films"
+          ]
+        },
+        {
+          "id": "foundation-tv-series",
+          "value": 108658,
+          "rank": 13,
+          "pageviews": 108658,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "dark-matter-2024-tv-series",
+          "value": 107845,
+          "rank": 14,
+          "pageviews": 107845,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "star-city-tv-series",
+          "value": 105778,
+          "rank": 15,
+          "pageviews": 105778,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "eternity-2025-film",
+          "value": 99328,
+          "rank": 16,
+          "pageviews": 99328,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Apple TV original films"
+          ]
+        },
+        {
+          "id": "maximum-pleasure-guaranteed",
+          "value": 98373,
+          "rank": 17,
+          "pageviews": 98373,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "killers-of-the-flower-moon",
+          "value": 86573,
+          "rank": 18,
+          "pageviews": 86573,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Apple TV original films"
+          ]
+        },
+        {
+          "id": "cherry-2021-film",
+          "value": 82651,
+          "rank": 20,
+          "pageviews": 82651,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Apple TV original films"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "20260901",
+      "values": [
+        {
+          "id": "ted-lasso",
+          "value": 1206669,
+          "rank": 1,
+          "pageviews": 1206669,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "silo-tv-series",
+          "value": 1042953,
+          "rank": 2,
+          "pageviews": 1042953,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "slow-horses",
+          "value": 320212,
+          "rank": 3,
+          "pageviews": 320212,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "severance-tv-series",
+          "value": 231964,
+          "rank": 4,
+          "pageviews": 231964,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "cape-fear-tv-series",
+          "value": 228982,
+          "rank": 5,
+          "pageviews": 228982,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "pluribus-tv-series",
+          "value": 211484,
+          "rank": 6,
+          "pageviews": 211484,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "sugar-2024-tv-series",
+          "value": 187466,
+          "rank": 7,
+          "pageviews": 187466,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "dark-matter-2024-tv-series",
+          "value": 173912,
+          "rank": 8,
+          "pageviews": 173912,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "for-all-mankind-tv-series",
+          "value": 172073,
+          "rank": 9,
+          "pageviews": 172073,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "shrinking-tv-series",
+          "value": 171520,
+          "rank": 10,
+          "pageviews": 171520,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "margo-s-got-money-troubles",
+          "value": 121238,
+          "rank": 11,
+          "pageviews": 121238,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "foundation-tv-series",
+          "value": 109448,
+          "rank": 12,
+          "pageviews": 109448,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "f1-film",
+          "value": 105392,
+          "rank": 13,
+          "pageviews": 105392,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Apple TV original films"
+          ]
+        },
+        {
+          "id": "eternity-2025-film",
+          "value": 95025,
+          "rank": 14,
+          "pageviews": 95025,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Apple TV original films"
+          ]
+        },
+        {
+          "id": "star-city-tv-series",
+          "value": 93230,
+          "rank": 15,
+          "pageviews": 93230,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "killers-of-the-flower-moon",
+          "value": 89173,
+          "rank": 16,
+          "pageviews": 89173,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Apple TV original films"
+          ]
+        },
+        {
+          "id": "maximum-pleasure-guaranteed",
+          "value": 80311,
+          "rank": 17,
+          "pageviews": 80311,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        },
+        {
+          "id": "cherry-2021-film",
+          "value": 73223,
+          "rank": 18,
+          "pageviews": 73223,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Apple TV original films"
+          ]
+        },
+        {
+          "id": "mistborn",
+          "value": 71327,
+          "rank": 19,
+          "pageviews": 71327,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "films"
+          ],
+          "sourcePages": [
+            "List of Apple TV original films"
+          ]
+        },
+        {
+          "id": "brothers-2026-tv-series",
+          "value": 63631,
+          "rank": 20,
+          "pageviews": 63631,
+          "pageviewDays": 30,
+          "contentKinds": [
+            "series"
+          ],
+          "sourcePages": [
+            "List of Apple TV original programming"
+          ]
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "date": "20260628",
+      "title": "Cape Fear leads Apple TV+ attention",
+      "body": "Cape Fear is the highest-ranked selected Apple TV+ original in this Wikipedia-attention frame with 679,411 recent pageviews."
+    },
+    {
+      "date": "20260901",
+      "title": "Ted Lasso leads Apple TV+ attention",
+      "body": "Ted Lasso is the highest-ranked selected Apple TV+ original in this Wikipedia-attention frame with 1,206,669 recent pageviews."
+    }
+  ],
+  "sources": [
+    {
+      "title": "List of Apple TV original programming",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_Apple_TV_original_programming",
+      "note": "Source universe for Apple original series."
+    },
+    {
+      "title": "List of Apple TV original films",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_Apple_TV_original_films",
+      "note": "Source universe for Apple original films."
+    }
+  ],
+  "lastObservationDate": "2026-09-01",
+  "sourceAudit": {
+    "wikipediaPages": [
+      {
+        "requestedPage": "List_of_Apple_TV+_original_programming",
+        "sourceTitle": "List of Apple TV original programming",
+        "contentKind": "series"
+      },
+      {
+        "requestedPage": "List_of_Apple_TV+_original_films",
+        "sourceTitle": "List of Apple TV original films",
+        "contentKind": "films"
+      }
+    ],
+    "sourceCandidateCount": 268,
+    "rankedRowCount": 20,
+    "rankBy": "wikipedia-pageviews",
+    "pageviewDays": 30,
+    "weeklyTop10AvailableOnWikipedia": false
+  },
+  "dataFreshness": {
+    "status": "fresh",
+    "refreshCadence": "weekly",
+    "lastUpdated": "2026-09-01T07:03:08.053Z",
+    "lastRefreshAttemptedAt": "2026-09-01T07:03:08.053Z",
+    "lastRefreshError": null,
+    "lastObservationDate": "2026-09-01",
+    "nextRefreshAt": "2026-09-08T07:00:00.000Z",
+    "sourceStatus": "Wikipedia pageview bootstrap for Apple TV+ originals",
+    "confidence": "Observed 30 days of en.wikipedia pageviews for titles listed on 2 Wikipedia platform-original page(s) at 2026-09-01T07:03:08.053Z. This is not a weekly or current streaming Top 10."
+  },
+  "media": {
+    "imageFit": "contain",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-09-01T07:03:08.053Z",
+    "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+    "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.webp",
+    "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+    "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/apple-tv-top-10.json",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 5,
+    "rows": 4,
+    "width": 1600,
+    "height": 1280,
+    "itemCount": 20,
+    "sourcedImageCount": 17,
+    "generatedImageCount": 3,
+    "placeholderCount": 0,
+    "ogImageUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/apple-tv-top-10.png",
+    "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/apple-tv-top-10.png",
+    "ogImageWidth": 1200,
+    "ogImageHeight": 630
+  },
+  "taxonomy": {
+    "primaryCategory": "entertainment",
+    "categories": [
+      "entertainment",
+      "streaming",
+      "television"
+    ],
+    "tags": [
+      "apple-tv",
+      "streaming",
+      "top-10",
+      "watching"
+    ],
+    "entityTypes": [
+      "film",
+      "series"
+    ],
+    "sourceTypes": [
+      "wikipedia"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "what-everyone-is-watching",
+      "type": "streaming-platform-peer",
+      "weight": 0.88,
+      "reason": "This should be a sibling district to the Netflix watch chart."
+    },
+    {
+      "target": "prime-video-top-10",
+      "type": "streaming-platform-peer",
+      "weight": 0.84,
+      "reason": "Both are planned non-Netflix streaming platform Top 10 districts."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "streaming-platforms",
+    "mainland": "culture",
+    "bridgePriority": [
+      "what-everyone-is-watching",
+      "prime-video-top-10"
+    ]
+  },
+  "schemaVersion": 1,
+  "contentKind": "dat-city.story",
+  "generatedAt": "2026-09-01T07:03:08.053Z",
+  "versionId": "20260901T070308Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "storyops-scheduler",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-09-01T07:03:08.053Z",
+    "versionId": "20260901T070308Z",
+    "adapter": "wikipedia-platform-originals",
+    "storySlug": "apple-tv-top-10",
+    "districtId": null,
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "publicProjection": {
+    "kind": "story",
+    "version": 1,
+    "generatedAt": "2026-09-01T07:03:08.053Z",
+    "adapter": "wikipedia-platform-originals",
+    "cache": {
+      "browserMaxAgeSeconds": 60,
+      "edgeMaxAgeSeconds": 3600
+    }
+  },
+  "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/apple-tv-top-10.png"
+}

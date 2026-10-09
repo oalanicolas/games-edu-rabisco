@@ -1,0 +1,788 @@
+{
+  "id": "world-cup-team-appearances",
+  "kicker": "World Cup Record Book",
+  "title": "World Cup Team Appearances",
+  "subtitle": "A national-team map of who has reached the men's FIFA World Cup most often.",
+  "badge": "Ranked by tournament appearances",
+  "visualization": "race-arena",
+  "theme": "stadium",
+  "artStyle": "stylized-editorial",
+  "dateRange": [
+    "1930",
+    "2026"
+  ],
+  "metricLabel": "Tournament appearances",
+  "valueFormat": "integer",
+  "ogImage": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/world-cup-team-appearances.png",
+  "cityPreview": {
+    "districtId": "world-cup-team-map",
+    "districtName": "World Cup Team Map",
+    "cardLabel": "Team Appearances",
+    "summary": "The men's World Cup regulars ranked by how many tournaments they have reached.",
+    "primaryMetric": "Tournament appearances",
+    "latestFrameLabel": "Through the 2026 final",
+    "storyUrl": "/stories/world-cup-team-appearances/",
+    "thumbnail": "/assets/og/dat-city.webp"
+  },
+  "sourceStatus": "National team appearance totals through the 2026 finals (48-team field)",
+  "confidence": "National team tournament appearance totals run through the 2026 finals: every 2026 participant is credited a tournament, while non-qualifiers such as Italy and Serbia are unchanged from 2022.",
+  "methodology": "The adapter projects the leading national teams by total men's World Cup appearances using public historical tables plus the 2026 participating field from FIFA match data.",
+  "playback": {
+    "durationSeconds": 24,
+    "initialDate": "2026",
+    "periodLabel": "tournament appearances"
+  },
+  "visual": {
+    "topCount": 16,
+    "referenceCount": 16,
+    "horizontalCount": 16
+  },
+  "layers": [
+    {
+      "id": "appearances",
+      "label": "Appearances",
+      "default": true
+    }
+  ],
+  "focus": [
+    {
+      "id": "brazil",
+      "label": "Brazil"
+    },
+    {
+      "id": "germany",
+      "label": "Germany"
+    },
+    {
+      "id": "argentina",
+      "label": "Argentina"
+    },
+    {
+      "id": "italy",
+      "label": "Italy"
+    }
+  ],
+  "entities": [
+    {
+      "avatarText": "B",
+      "color": "#18c871",
+      "id": "brazil",
+      "name": "Brazil",
+      "shortName": "Brazil",
+      "imageUrl": "https://flagcdn.com/w320/br.png",
+      "thumbnailUrl": null,
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.json",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.25,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://flagcdn.com/w320/br.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "avatarText": "G",
+      "color": "#ffc84a",
+      "id": "germany",
+      "name": "Germany",
+      "shortName": "Germany",
+      "imageUrl": "https://flagcdn.com/w320/de.png",
+      "thumbnailUrl": null,
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.json",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0,
+          "u1": 0.5,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://flagcdn.com/w320/de.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "avatarText": "A",
+      "color": "#00a6ff",
+      "id": "argentina",
+      "name": "Argentina",
+      "shortName": "Argentina",
+      "imageUrl": "https://flagcdn.com/w320/ar.png",
+      "thumbnailUrl": null,
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.json",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0,
+          "u1": 0.75,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://flagcdn.com/w320/ar.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "avatarText": "I",
+      "color": "#f3f7f0",
+      "id": "italy",
+      "name": "Italy",
+      "shortName": "Italy",
+      "imageUrl": "https://flagcdn.com/w320/it.png",
+      "thumbnailUrl": null,
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.json",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://flagcdn.com/w320/it.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "avatarText": "M",
+      "color": "#ff5a61",
+      "id": "mexico",
+      "name": "Mexico",
+      "shortName": "Mexico",
+      "imageUrl": "https://flagcdn.com/w320/mx.png",
+      "thumbnailUrl": null,
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.json",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.25,
+          "u1": 0.25,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://flagcdn.com/w320/mx.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "avatarText": "F",
+      "color": "#41a99f",
+      "id": "france",
+      "name": "France",
+      "shortName": "France",
+      "imageUrl": "https://flagcdn.com/w320/fr.png",
+      "thumbnailUrl": null,
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.json",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.25,
+          "u1": 0.5,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://flagcdn.com/w320/fr.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "avatarText": "E",
+      "color": "#86bdf4",
+      "id": "england",
+      "name": "England",
+      "shortName": "England",
+      "imageUrl": "https://flagcdn.com/w320/gb-eng.png",
+      "thumbnailUrl": null,
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.json",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.25,
+          "u1": 0.75,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://flagcdn.com/w320/gb-eng.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "avatarText": "S",
+      "color": "#f18c4f",
+      "id": "spain",
+      "name": "Spain",
+      "shortName": "Spain",
+      "imageUrl": "https://flagcdn.com/w320/es.png",
+      "thumbnailUrl": null,
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.json",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.25,
+          "u1": 1,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://flagcdn.com/w320/es.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "avatarText": "B",
+      "color": "#2f4858",
+      "id": "belgium",
+      "name": "Belgium",
+      "shortName": "Belgium",
+      "imageUrl": "https://flagcdn.com/w320/be.png",
+      "thumbnailUrl": null,
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.json",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.5,
+          "u1": 0.25,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://flagcdn.com/w320/be.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "avatarText": "U",
+      "color": "#c9a14a",
+      "id": "uruguay",
+      "name": "Uruguay",
+      "shortName": "Uruguay",
+      "imageUrl": "https://flagcdn.com/w320/uy.png",
+      "thumbnailUrl": null,
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.json",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.5,
+          "u1": 0.5,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://flagcdn.com/w320/uy.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "avatarText": "S",
+      "color": "#ef426f",
+      "id": "sweden",
+      "name": "Sweden",
+      "shortName": "Sweden",
+      "imageUrl": "https://flagcdn.com/w320/se.png",
+      "thumbnailUrl": null,
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.json",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.5,
+          "u1": 0.75,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://flagcdn.com/w320/se.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "avatarText": "S",
+      "color": "#7b9b65",
+      "id": "switzerland",
+      "name": "Switzerland",
+      "shortName": "Switzerland",
+      "imageUrl": "https://flagcdn.com/w320/ch.png",
+      "thumbnailUrl": null,
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.json",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.5,
+          "u1": 1,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://flagcdn.com/w320/ch.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "avatarText": "S",
+      "color": "#18c871",
+      "id": "serbia",
+      "name": "Serbia/Yugoslavia",
+      "shortName": "Serbia/Yugoslavia",
+      "imageUrl": "https://flagcdn.com/w320/rs.png",
+      "thumbnailUrl": null,
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.json",
+          "x": 0,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.75,
+          "u1": 0.25,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://flagcdn.com/w320/rs.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "avatarText": "N",
+      "color": "#ffc84a",
+      "id": "netherlands",
+      "name": "Netherlands",
+      "shortName": "Netherlands",
+      "imageUrl": "https://flagcdn.com/w320/nl.png",
+      "thumbnailUrl": null,
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.json",
+          "x": 320,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.75,
+          "u1": 0.5,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://flagcdn.com/w320/nl.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "avatarText": "SK",
+      "color": "#00a6ff",
+      "id": "southKorea",
+      "name": "South Korea",
+      "shortName": "South Korea",
+      "imageUrl": "https://flagcdn.com/w320/kr.png",
+      "thumbnailUrl": null,
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.json",
+          "x": 640,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.75,
+          "u1": 0.75,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://flagcdn.com/w320/kr.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "avatarText": "US",
+      "color": "#f3f7f0",
+      "id": "unitedStates",
+      "name": "United States",
+      "shortName": "United States",
+      "imageUrl": "https://flagcdn.com/w320/us.png",
+      "thumbnailUrl": null,
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.json",
+          "x": 960,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.75,
+          "u1": 1,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://flagcdn.com/w320/us.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    }
+  ],
+  "frames": [
+    {
+      "date": "2026",
+      "values": [
+        {
+          "id": "brazil",
+          "value": 23,
+          "rank": 1
+        },
+        {
+          "id": "germany",
+          "value": 21,
+          "rank": 2
+        },
+        {
+          "id": "argentina",
+          "value": 19,
+          "rank": 3
+        },
+        {
+          "id": "italy",
+          "value": 18,
+          "rank": 4
+        },
+        {
+          "id": "mexico",
+          "value": 18,
+          "rank": 5
+        },
+        {
+          "id": "france",
+          "value": 17,
+          "rank": 6
+        },
+        {
+          "id": "england",
+          "value": 17,
+          "rank": 7
+        },
+        {
+          "id": "spain",
+          "value": 17,
+          "rank": 8
+        },
+        {
+          "id": "belgium",
+          "value": 15,
+          "rank": 9
+        },
+        {
+          "id": "uruguay",
+          "value": 15,
+          "rank": 10
+        },
+        {
+          "id": "sweden",
+          "value": 13,
+          "rank": 11
+        },
+        {
+          "id": "switzerland",
+          "value": 13,
+          "rank": 12
+        },
+        {
+          "id": "serbia",
+          "value": 13,
+          "rank": 13
+        },
+        {
+          "id": "netherlands",
+          "value": 12,
+          "rank": 14
+        },
+        {
+          "id": "southKorea",
+          "value": 12,
+          "rank": 15
+        },
+        {
+          "id": "unitedStates",
+          "value": 12,
+          "rank": 16
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "date": "2026",
+      "title": "Brazil leads tournament appearances",
+      "body": "Brazil leads this World Cup frame with 23 appearances."
+    }
+  ],
+  "sources": [
+    {
+      "title": "National team appearances in the FIFA World Cup",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/National_team_appearances_in_the_FIFA_World_Cup",
+      "note": "National team tournament appearance totals and best finishes."
+    },
+    {
+      "title": "FIFA World Cup 2026 match calendar and results",
+      "publisher": "FIFA",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+      "note": "Official 104-match calendar API (competition 17, season 285023) supplying final results, per-match attendance, and the 48-team field."
+    }
+  ],
+  "timelineTicks": [
+    "2026"
+  ],
+  "lastObservationDate": "2026-07-19",
+  "dataFreshness": {
+    "status": "fresh",
+    "refreshCadence": "seasonal",
+    "lastUpdated": "2026-08-22T14:56:45.984Z",
+    "lastRefreshAttemptedAt": "2026-08-22T14:56:45.984Z",
+    "lastRefreshError": null,
+    "lastObservationDate": "2026-07-19",
+    "nextRefreshAt": null,
+    "sourceStatus": "National team appearance totals through the 2026 finals (48-team field)",
+    "confidence": "National team tournament appearance totals run through the 2026 finals: every 2026 participant is credited a tournament, while non-qualifiers such as Italy and Serbia are unchanged from 2022."
+  },
+  "media": {
+    "imageFit": "contain",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-08-22T14:56:45.984Z",
+    "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.webp",
+    "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.webp",
+    "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.json",
+    "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/world-cup-team-appearances.json",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 4,
+    "rows": 4,
+    "width": 1280,
+    "height": 1280,
+    "itemCount": 16,
+    "sourcedImageCount": 16,
+    "generatedImageCount": 0,
+    "placeholderCount": 0,
+    "ogImageUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/world-cup-team-appearances.png",
+    "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/world-cup-team-appearances.png",
+    "ogImageWidth": 1200,
+    "ogImageHeight": 630
+  },
+  "taxonomy": {
+    "primaryCategory": "sports",
+    "categories": [
+      "sports",
+      "football",
+      "history"
+    ],
+    "tags": [
+      "world-cup",
+      "fifa",
+      "appearances",
+      "countries"
+    ],
+    "entityTypes": [
+      "national-team"
+    ],
+    "sourceTypes": [
+      "wikipedia"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "world-cup-champion-nations",
+      "type": "national-team-history",
+      "weight": 0.72,
+      "reason": "Both rank countries across the men's World Cup record book."
+    },
+    {
+      "target": "world-cup-finals-appearances",
+      "type": "national-team-history",
+      "weight": 0.68,
+      "reason": "Tournament regulars provide context for repeated finals appearances."
+    },
+    {
+      "target": "world-cup-2026-host-venues",
+      "type": "world-cup-footprint",
+      "weight": 0.5,
+      "reason": "National participation history connects to the expanded 2026 tournament footprint."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "world-cup-records",
+    "mainland": "world-cup",
+    "bridgePriority": [
+      "world-cup-champion-nations",
+      "world-cup-finals-appearances"
+    ]
+  },
+  "schemaVersion": 1,
+  "contentKind": "dat-city.story",
+  "generatedAt": "2026-08-22T14:56:45.984Z",
+  "versionId": "20260822T145645Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "dashboard-settings:crypto-memecoin-heat",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-08-22T14:56:45.984Z",
+    "versionId": "20260822T145645Z",
+    "adapter": "fifa-world-cup-history",
+    "storySlug": "world-cup-team-appearances",
+    "districtId": null,
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "publicProjection": {
+    "kind": "story",
+    "version": 1,
+    "generatedAt": "2026-08-22T14:56:45.984Z",
+    "adapter": "fifa-world-cup-history",
+    "cache": {
+      "browserMaxAgeSeconds": 60,
+      "edgeMaxAgeSeconds": 3600
+    }
+  },
+  "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/world-cup-team-appearances.png"
+}

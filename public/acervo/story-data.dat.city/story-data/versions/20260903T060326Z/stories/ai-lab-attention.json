@@ -1,0 +1,1738 @@
+{
+  "id": "ai-lab-attention",
+  "kicker": "AI Lab Attention",
+  "title": "AI Labs and Companies People Are Watching",
+  "subtitle": "The public attention race around AI labs, model companies, and the products that turn them into cultural objects.",
+  "badge": "Ranked by pageviews",
+  "visualization": "race-arena",
+  "theme": "creator-arena",
+  "artStyle": "stylized-editorial",
+  "dateRange": [
+    "20260811",
+    "20260831"
+  ],
+  "timelineTicks": [
+    "20260811",
+    "20260815",
+    "20260819",
+    "20260823",
+    "20260827",
+    "20260831"
+  ],
+  "metricLabel": "Daily pageviews",
+  "ogImage": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/ai-lab-attention.png",
+  "cityPreview": {
+    "districtId": "ai-lab-row",
+    "districtName": "AI Lab Row",
+    "cardLabel": "AI Lab Attention",
+    "summary": "Wikipedia attention for AI labs, companies, and AI products with mass-interest reach.",
+    "primaryMetric": "Daily pageviews",
+    "latestFrameLabel": "2026-08-31",
+    "storyUrl": "/stories/ai-lab-attention/",
+    "thumbnail": "/assets/og/dat-city-home.png"
+  },
+  "sourceStatus": "Official Wikimedia Pageviews API",
+  "confidence": "Observed daily English Wikipedia article pageviews through 2026-08-31.",
+  "methodology": "This story is generated from the Wikimedia Pageviews API for selected high-interest English Wikipedia articles. Values are daily all-access, user-agent-filtered pageviews. The story publishes a render-ready projection and keeps raw API responses out of the public payload.",
+  "playback": {
+    "durationSeconds": 26,
+    "initialDate": "20260811",
+    "periodLabel": "daily pageviews"
+  },
+  "visual": {
+    "topCount": 10,
+    "referenceCount": 14,
+    "horizontalCount": 14
+  },
+  "layers": [
+    {
+      "id": "pageviews",
+      "label": "Pageviews",
+      "default": true
+    },
+    {
+      "id": "labs",
+      "label": "Labs",
+      "default": true
+    },
+    {
+      "id": "products",
+      "label": "Products",
+      "default": true
+    }
+  ],
+  "focus": [
+    {
+      "id": "chatgpt",
+      "label": "ChatGPT"
+    },
+    {
+      "id": "hugging-face",
+      "label": "Hugging Face"
+    },
+    {
+      "id": "nvidia",
+      "label": "Nvidia"
+    },
+    {
+      "id": "anthropic",
+      "label": "Anthropic"
+    }
+  ],
+  "entities": [
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "article": "ChatGPT",
+      "configuredImageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/OpenAI_logo_2025_%28symbol%29.svg/960px-OpenAI_logo_2025_%28symbol%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg",
+      "avatarText": "C",
+      "color": "#2f4858",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.json",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.25,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "hugging-face",
+      "name": "Hugging Face",
+      "article": "Hugging_Face",
+      "configuredImageUrl": "https://cdn.simpleicons.org/huggingface",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/4/45/Hugging_Face_logo.svg/960px-Hugging_Face_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageUrl": "https://cdn.simpleicons.org/huggingface",
+      "avatarText": "HF",
+      "color": "#f18c4f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.json",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0,
+          "u1": 0.5,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/huggingface",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "nvidia",
+      "name": "Nvidia",
+      "article": "Nvidia",
+      "configuredImageUrl": "https://cdn.simpleicons.org/nvidia",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/2788-2888_San_Tomas_Expwy.jpg/960px-2788-2888_San_Tomas_Expwy.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://cdn.simpleicons.org/nvidia",
+      "avatarText": "N",
+      "color": "#7b9b65",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.json",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0,
+          "u1": 0.75,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/nvidia",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic",
+      "article": "Anthropic",
+      "configuredImageUrl": "https://cdn.simpleicons.org/anthropic",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Slack_offices%2C_Howard_Street%2C_San_Francisco_%28viewed_from_the_south-west%2C_January_2020%29.jpg/960px-Slack_offices%2C_Howard_Street%2C_San_Francisco_%28viewed_from_the_south-west%2C_January_2020%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://cdn.simpleicons.org/anthropic",
+      "avatarText": "A",
+      "color": "#18c871",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.json",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/anthropic",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI",
+      "article": "OpenAI",
+      "configuredImageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/66/OpenAI_logo_2025_%28symbol%29.svg",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/1515_Third_Street.jpg/960px-1515_Third_Street.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/66/OpenAI_logo_2025_%28symbol%29.svg",
+      "avatarText": "O",
+      "color": "#ff5a61",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.json",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.333333,
+          "u1": 0.25,
+          "v1": 0.666667
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/66/OpenAI_logo_2025_%28symbol%29.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "perplexity-ai",
+      "name": "Perplexity AI",
+      "article": "Perplexity_AI",
+      "configuredImageUrl": "https://cdn.simpleicons.org/perplexity",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Perplexity_AI_logo.svg/960px-Perplexity_AI_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "imageUrl": "https://cdn.simpleicons.org/perplexity",
+      "avatarText": "PA",
+      "color": "#41a99f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.json",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.333333,
+          "u1": 0.5,
+          "v1": 0.666667
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/perplexity",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "microsoft-copilot",
+      "name": "Microsoft Copilot",
+      "article": "Microsoft_Copilot",
+      "configuredImageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/en/1/13/Microsoft_Copilot_on_Windows_10%2C_11.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg",
+      "avatarText": "MC",
+      "color": "#86bdf4",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.json",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.333333,
+          "u1": 0.75,
+          "v1": 0.666667
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "google-deepmind",
+      "name": "Google DeepMind",
+      "article": "Google_DeepMind",
+      "configuredImageUrl": "https://cdn.simpleicons.org/google",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Platform_37_-_2026-04-25_2.jpg/960px-Platform_37_-_2026-04-25_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://cdn.simpleicons.org/google",
+      "avatarText": "GD",
+      "color": "#ffc84a",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.json",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.333333,
+          "u1": 1,
+          "v1": 0.666667
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/google",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "mistral-ai",
+      "name": "Mistral AI",
+      "article": "Mistral_AI",
+      "configuredImageUrl": "https://cdn.simpleicons.org/mistralai",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Mistral_AI_logo_%282025%E2%80%93%29.svg/960px-Mistral_AI_logo_%282025%E2%80%93%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://cdn.simpleicons.org/mistralai",
+      "avatarText": "MA",
+      "color": "#8f6bff",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.json",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.666667,
+          "u1": 0.25,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/mistralai",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "meta-ai",
+      "name": "Meta AI",
+      "article": "Meta_AI",
+      "configuredImageUrl": "https://cdn.simpleicons.org/meta",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Meta_AI_screenshot.jpg/960px-Meta_AI_screenshot.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://cdn.simpleicons.org/meta",
+      "avatarText": "MA",
+      "color": "#00a6ff",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.json",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.666667,
+          "u1": 0.5,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/meta",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "xai",
+      "name": "xAI",
+      "article": "XAI_(company)",
+      "configuredImageUrl": null,
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Unsold_Cybertrucks.jpg/960px-Unsold_Cybertrucks.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Unsold_Cybertrucks.jpg/960px-Unsold_Cybertrucks.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "avatarText": "X",
+      "color": "#d78fca",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.json",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.666667,
+          "u1": 0.75,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Unsold_Cybertrucks.jpg/960px-Unsold_Cybertrucks.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "gemini",
+      "name": "Gemini",
+      "article": "Gemini_(chatbot)",
+      "configuredImageUrl": "https://cdn.simpleicons.org/googlegemini",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Google_Gemini_Screenshot_%282026%29.png/960px-Google_Gemini_Screenshot_%282026%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "imageUrl": "https://cdn.simpleicons.org/googlegemini",
+      "avatarText": "G",
+      "color": "#ef426f",
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.json",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.666667,
+          "u1": 1,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/googlegemini",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    }
+  ],
+  "frames": [
+    {
+      "date": "20260811",
+      "values": [
+        {
+          "id": "perplexity-ai",
+          "value": 2297
+        },
+        {
+          "id": "chatgpt",
+          "value": 67630
+        },
+        {
+          "id": "gemini",
+          "value": 233
+        },
+        {
+          "id": "microsoft-copilot",
+          "value": 869
+        },
+        {
+          "id": "mistral-ai",
+          "value": 967
+        },
+        {
+          "id": "hugging-face",
+          "value": 2703
+        },
+        {
+          "id": "xai",
+          "value": 303
+        },
+        {
+          "id": "google-deepmind",
+          "value": 1309
+        },
+        {
+          "id": "meta-ai",
+          "value": 507
+        },
+        {
+          "id": "nvidia",
+          "value": 4658
+        },
+        {
+          "id": "anthropic",
+          "value": 6913
+        },
+        {
+          "id": "openai",
+          "value": 5845
+        }
+      ]
+    },
+    {
+      "date": "20260812",
+      "values": [
+        {
+          "id": "perplexity-ai",
+          "value": 2267
+        },
+        {
+          "id": "chatgpt",
+          "value": 49060
+        },
+        {
+          "id": "gemini",
+          "value": 158
+        },
+        {
+          "id": "microsoft-copilot",
+          "value": 913
+        },
+        {
+          "id": "mistral-ai",
+          "value": 948
+        },
+        {
+          "id": "hugging-face",
+          "value": 1391
+        },
+        {
+          "id": "xai",
+          "value": 316
+        },
+        {
+          "id": "google-deepmind",
+          "value": 1252
+        },
+        {
+          "id": "meta-ai",
+          "value": 554
+        },
+        {
+          "id": "nvidia",
+          "value": 4429
+        },
+        {
+          "id": "anthropic",
+          "value": 6586
+        },
+        {
+          "id": "openai",
+          "value": 5711
+        }
+      ]
+    },
+    {
+      "date": "20260813",
+      "values": [
+        {
+          "id": "perplexity-ai",
+          "value": 2301
+        },
+        {
+          "id": "chatgpt",
+          "value": 74751
+        },
+        {
+          "id": "gemini",
+          "value": 142
+        },
+        {
+          "id": "microsoft-copilot",
+          "value": 1038
+        },
+        {
+          "id": "mistral-ai",
+          "value": 1064
+        },
+        {
+          "id": "hugging-face",
+          "value": 1219
+        },
+        {
+          "id": "xai",
+          "value": 368
+        },
+        {
+          "id": "google-deepmind",
+          "value": 1274
+        },
+        {
+          "id": "meta-ai",
+          "value": 535
+        },
+        {
+          "id": "nvidia",
+          "value": 5095
+        },
+        {
+          "id": "anthropic",
+          "value": 7725
+        },
+        {
+          "id": "openai",
+          "value": 6173
+        }
+      ]
+    },
+    {
+      "date": "20260814",
+      "values": [
+        {
+          "id": "perplexity-ai",
+          "value": 1951
+        },
+        {
+          "id": "chatgpt",
+          "value": 39527
+        },
+        {
+          "id": "gemini",
+          "value": 111
+        },
+        {
+          "id": "microsoft-copilot",
+          "value": 901
+        },
+        {
+          "id": "mistral-ai",
+          "value": 980
+        },
+        {
+          "id": "hugging-face",
+          "value": 1226
+        },
+        {
+          "id": "xai",
+          "value": 302
+        },
+        {
+          "id": "google-deepmind",
+          "value": 1082
+        },
+        {
+          "id": "meta-ai",
+          "value": 548
+        },
+        {
+          "id": "nvidia",
+          "value": 4545
+        },
+        {
+          "id": "anthropic",
+          "value": 8036
+        },
+        {
+          "id": "openai",
+          "value": 5910
+        }
+      ]
+    },
+    {
+      "date": "20260815",
+      "values": [
+        {
+          "id": "perplexity-ai",
+          "value": 1514
+        },
+        {
+          "id": "chatgpt",
+          "value": 32582
+        },
+        {
+          "id": "gemini",
+          "value": 110
+        },
+        {
+          "id": "microsoft-copilot",
+          "value": 668
+        },
+        {
+          "id": "mistral-ai",
+          "value": 630
+        },
+        {
+          "id": "hugging-face",
+          "value": 864
+        },
+        {
+          "id": "xai",
+          "value": 247
+        },
+        {
+          "id": "google-deepmind",
+          "value": 888
+        },
+        {
+          "id": "meta-ai",
+          "value": 487
+        },
+        {
+          "id": "nvidia",
+          "value": 3674
+        },
+        {
+          "id": "anthropic",
+          "value": 6800
+        },
+        {
+          "id": "openai",
+          "value": 4678
+        }
+      ]
+    },
+    {
+      "date": "20260816",
+      "values": [
+        {
+          "id": "perplexity-ai",
+          "value": 1470
+        },
+        {
+          "id": "chatgpt",
+          "value": 33116
+        },
+        {
+          "id": "gemini",
+          "value": 134
+        },
+        {
+          "id": "microsoft-copilot",
+          "value": 691
+        },
+        {
+          "id": "mistral-ai",
+          "value": 675
+        },
+        {
+          "id": "hugging-face",
+          "value": 907
+        },
+        {
+          "id": "xai",
+          "value": 267
+        },
+        {
+          "id": "google-deepmind",
+          "value": 911
+        },
+        {
+          "id": "meta-ai",
+          "value": 532
+        },
+        {
+          "id": "nvidia",
+          "value": 3765
+        },
+        {
+          "id": "anthropic",
+          "value": 6500
+        },
+        {
+          "id": "openai",
+          "value": 4487
+        }
+      ]
+    },
+    {
+      "date": "20260817",
+      "values": [
+        {
+          "id": "perplexity-ai",
+          "value": 2017
+        },
+        {
+          "id": "chatgpt",
+          "value": 56592
+        },
+        {
+          "id": "gemini",
+          "value": 166
+        },
+        {
+          "id": "microsoft-copilot",
+          "value": 1045
+        },
+        {
+          "id": "mistral-ai",
+          "value": 971
+        },
+        {
+          "id": "hugging-face",
+          "value": 1419
+        },
+        {
+          "id": "xai",
+          "value": 249
+        },
+        {
+          "id": "google-deepmind",
+          "value": 919
+        },
+        {
+          "id": "meta-ai",
+          "value": 518
+        },
+        {
+          "id": "nvidia",
+          "value": 5322
+        },
+        {
+          "id": "anthropic",
+          "value": 7422
+        },
+        {
+          "id": "openai",
+          "value": 6007
+        }
+      ]
+    },
+    {
+      "date": "20260818",
+      "values": [
+        {
+          "id": "perplexity-ai",
+          "value": 2101
+        },
+        {
+          "id": "chatgpt",
+          "value": 75539
+        },
+        {
+          "id": "gemini",
+          "value": 161
+        },
+        {
+          "id": "microsoft-copilot",
+          "value": 1196
+        },
+        {
+          "id": "mistral-ai",
+          "value": 992
+        },
+        {
+          "id": "hugging-face",
+          "value": 1971
+        },
+        {
+          "id": "xai",
+          "value": 288
+        },
+        {
+          "id": "google-deepmind",
+          "value": 982
+        },
+        {
+          "id": "meta-ai",
+          "value": 546
+        },
+        {
+          "id": "nvidia",
+          "value": 4694
+        },
+        {
+          "id": "anthropic",
+          "value": 7285
+        },
+        {
+          "id": "openai",
+          "value": 6311
+        }
+      ]
+    },
+    {
+      "date": "20260819",
+      "values": [
+        {
+          "id": "perplexity-ai",
+          "value": 2159
+        },
+        {
+          "id": "chatgpt",
+          "value": 68374
+        },
+        {
+          "id": "gemini",
+          "value": 145
+        },
+        {
+          "id": "microsoft-copilot",
+          "value": 1131
+        },
+        {
+          "id": "mistral-ai",
+          "value": 958
+        },
+        {
+          "id": "hugging-face",
+          "value": 2110
+        },
+        {
+          "id": "xai",
+          "value": 290
+        },
+        {
+          "id": "google-deepmind",
+          "value": 933
+        },
+        {
+          "id": "meta-ai",
+          "value": 523
+        },
+        {
+          "id": "nvidia",
+          "value": 3968
+        },
+        {
+          "id": "anthropic",
+          "value": 7315
+        },
+        {
+          "id": "openai",
+          "value": 6164
+        }
+      ]
+    },
+    {
+      "date": "20260820",
+      "values": [
+        {
+          "id": "perplexity-ai",
+          "value": 2238
+        },
+        {
+          "id": "chatgpt",
+          "value": 68786
+        },
+        {
+          "id": "gemini",
+          "value": 139
+        },
+        {
+          "id": "microsoft-copilot",
+          "value": 1179
+        },
+        {
+          "id": "mistral-ai",
+          "value": 963
+        },
+        {
+          "id": "hugging-face",
+          "value": 1562
+        },
+        {
+          "id": "xai",
+          "value": 276
+        },
+        {
+          "id": "google-deepmind",
+          "value": 937
+        },
+        {
+          "id": "meta-ai",
+          "value": 543
+        },
+        {
+          "id": "nvidia",
+          "value": 6244
+        },
+        {
+          "id": "anthropic",
+          "value": 6578
+        },
+        {
+          "id": "openai",
+          "value": 6189
+        }
+      ]
+    },
+    {
+      "date": "20260821",
+      "values": [
+        {
+          "id": "perplexity-ai",
+          "value": 2015
+        },
+        {
+          "id": "chatgpt",
+          "value": 58801
+        },
+        {
+          "id": "gemini",
+          "value": 139
+        },
+        {
+          "id": "microsoft-copilot",
+          "value": 1137
+        },
+        {
+          "id": "mistral-ai",
+          "value": 850
+        },
+        {
+          "id": "hugging-face",
+          "value": 1246
+        },
+        {
+          "id": "xai",
+          "value": 241
+        },
+        {
+          "id": "google-deepmind",
+          "value": 809
+        },
+        {
+          "id": "meta-ai",
+          "value": 604
+        },
+        {
+          "id": "nvidia",
+          "value": 4036
+        },
+        {
+          "id": "anthropic",
+          "value": 6167
+        },
+        {
+          "id": "openai",
+          "value": 5556
+        }
+      ]
+    },
+    {
+      "date": "20260822",
+      "values": [
+        {
+          "id": "perplexity-ai",
+          "value": 1902
+        },
+        {
+          "id": "chatgpt",
+          "value": 40028
+        },
+        {
+          "id": "gemini",
+          "value": 117
+        },
+        {
+          "id": "microsoft-copilot",
+          "value": 819
+        },
+        {
+          "id": "mistral-ai",
+          "value": 691
+        },
+        {
+          "id": "hugging-face",
+          "value": 932
+        },
+        {
+          "id": "xai",
+          "value": 245
+        },
+        {
+          "id": "google-deepmind",
+          "value": 755
+        },
+        {
+          "id": "meta-ai",
+          "value": 461
+        },
+        {
+          "id": "nvidia",
+          "value": 3599
+        },
+        {
+          "id": "anthropic",
+          "value": 4549
+        },
+        {
+          "id": "openai",
+          "value": 4538
+        }
+      ]
+    },
+    {
+      "date": "20260823",
+      "values": [
+        {
+          "id": "perplexity-ai",
+          "value": 1966
+        },
+        {
+          "id": "chatgpt",
+          "value": 42612
+        },
+        {
+          "id": "gemini",
+          "value": 116
+        },
+        {
+          "id": "microsoft-copilot",
+          "value": 834
+        },
+        {
+          "id": "mistral-ai",
+          "value": 663
+        },
+        {
+          "id": "hugging-face",
+          "value": 1122
+        },
+        {
+          "id": "xai",
+          "value": 238
+        },
+        {
+          "id": "google-deepmind",
+          "value": 753
+        },
+        {
+          "id": "meta-ai",
+          "value": 415
+        },
+        {
+          "id": "nvidia",
+          "value": 3837
+        },
+        {
+          "id": "anthropic",
+          "value": 4783
+        },
+        {
+          "id": "openai",
+          "value": 5002
+        }
+      ]
+    },
+    {
+      "date": "20260824",
+      "values": [
+        {
+          "id": "perplexity-ai",
+          "value": 3203
+        },
+        {
+          "id": "chatgpt",
+          "value": 63020
+        },
+        {
+          "id": "gemini",
+          "value": 147
+        },
+        {
+          "id": "microsoft-copilot",
+          "value": 1272
+        },
+        {
+          "id": "mistral-ai",
+          "value": 945
+        },
+        {
+          "id": "hugging-face",
+          "value": 2401
+        },
+        {
+          "id": "xai",
+          "value": 232
+        },
+        {
+          "id": "google-deepmind",
+          "value": 905
+        },
+        {
+          "id": "meta-ai",
+          "value": 455
+        },
+        {
+          "id": "nvidia",
+          "value": 6620
+        },
+        {
+          "id": "anthropic",
+          "value": 5896
+        },
+        {
+          "id": "openai",
+          "value": 5897
+        }
+      ]
+    },
+    {
+      "date": "20260825",
+      "values": [
+        {
+          "id": "perplexity-ai",
+          "value": 2863
+        },
+        {
+          "id": "chatgpt",
+          "value": 70282
+        },
+        {
+          "id": "gemini",
+          "value": 128
+        },
+        {
+          "id": "microsoft-copilot",
+          "value": 1485
+        },
+        {
+          "id": "mistral-ai",
+          "value": 934
+        },
+        {
+          "id": "hugging-face",
+          "value": 2024
+        },
+        {
+          "id": "xai",
+          "value": 283
+        },
+        {
+          "id": "google-deepmind",
+          "value": 1042
+        },
+        {
+          "id": "meta-ai",
+          "value": 469
+        },
+        {
+          "id": "nvidia",
+          "value": 5096
+        },
+        {
+          "id": "anthropic",
+          "value": 5942
+        },
+        {
+          "id": "openai",
+          "value": 6003
+        }
+      ]
+    },
+    {
+      "date": "20260826",
+      "values": [
+        {
+          "id": "perplexity-ai",
+          "value": 2932
+        },
+        {
+          "id": "chatgpt",
+          "value": 64152
+        },
+        {
+          "id": "gemini",
+          "value": 139
+        },
+        {
+          "id": "microsoft-copilot",
+          "value": 1391
+        },
+        {
+          "id": "mistral-ai",
+          "value": 879
+        },
+        {
+          "id": "hugging-face",
+          "value": 1799
+        },
+        {
+          "id": "xai",
+          "value": 284
+        },
+        {
+          "id": "google-deepmind",
+          "value": 949
+        },
+        {
+          "id": "meta-ai",
+          "value": 430
+        },
+        {
+          "id": "nvidia",
+          "value": 7637
+        },
+        {
+          "id": "anthropic",
+          "value": 6732
+        },
+        {
+          "id": "openai",
+          "value": 6087
+        }
+      ]
+    },
+    {
+      "date": "20260827",
+      "values": [
+        {
+          "id": "perplexity-ai",
+          "value": 2181
+        },
+        {
+          "id": "chatgpt",
+          "value": 61729
+        },
+        {
+          "id": "gemini",
+          "value": 160
+        },
+        {
+          "id": "microsoft-copilot",
+          "value": 1269
+        },
+        {
+          "id": "mistral-ai",
+          "value": 903
+        },
+        {
+          "id": "hugging-face",
+          "value": 28026
+        },
+        {
+          "id": "xai",
+          "value": 254
+        },
+        {
+          "id": "google-deepmind",
+          "value": 917
+        },
+        {
+          "id": "meta-ai",
+          "value": 370
+        },
+        {
+          "id": "nvidia",
+          "value": 10817
+        },
+        {
+          "id": "anthropic",
+          "value": 7589
+        },
+        {
+          "id": "openai",
+          "value": 6477
+        }
+      ]
+    },
+    {
+      "date": "20260828",
+      "values": [
+        {
+          "id": "perplexity-ai",
+          "value": 2107
+        },
+        {
+          "id": "chatgpt",
+          "value": 34832
+        },
+        {
+          "id": "gemini",
+          "value": 125
+        },
+        {
+          "id": "microsoft-copilot",
+          "value": 1049
+        },
+        {
+          "id": "mistral-ai",
+          "value": 809
+        },
+        {
+          "id": "hugging-face",
+          "value": 14533
+        },
+        {
+          "id": "xai",
+          "value": 265
+        },
+        {
+          "id": "google-deepmind",
+          "value": 870
+        },
+        {
+          "id": "meta-ai",
+          "value": 376
+        },
+        {
+          "id": "nvidia",
+          "value": 7365
+        },
+        {
+          "id": "anthropic",
+          "value": 7292
+        },
+        {
+          "id": "openai",
+          "value": 5504
+        }
+      ]
+    },
+    {
+      "date": "20260829",
+      "values": [
+        {
+          "id": "perplexity-ai",
+          "value": 1818
+        },
+        {
+          "id": "chatgpt",
+          "value": 25184
+        },
+        {
+          "id": "gemini",
+          "value": 118
+        },
+        {
+          "id": "microsoft-copilot",
+          "value": 717
+        },
+        {
+          "id": "mistral-ai",
+          "value": 642
+        },
+        {
+          "id": "hugging-face",
+          "value": 5782
+        },
+        {
+          "id": "xai",
+          "value": 222
+        },
+        {
+          "id": "google-deepmind",
+          "value": 789
+        },
+        {
+          "id": "meta-ai",
+          "value": 358
+        },
+        {
+          "id": "nvidia",
+          "value": 4591
+        },
+        {
+          "id": "anthropic",
+          "value": 4947
+        },
+        {
+          "id": "openai",
+          "value": 4947
+        }
+      ]
+    },
+    {
+      "date": "20260830",
+      "values": [
+        {
+          "id": "perplexity-ai",
+          "value": 1651
+        },
+        {
+          "id": "chatgpt",
+          "value": 22602
+        },
+        {
+          "id": "gemini",
+          "value": 129
+        },
+        {
+          "id": "microsoft-copilot",
+          "value": 784
+        },
+        {
+          "id": "mistral-ai",
+          "value": 634
+        },
+        {
+          "id": "hugging-face",
+          "value": 4421
+        },
+        {
+          "id": "xai",
+          "value": 265
+        },
+        {
+          "id": "google-deepmind",
+          "value": 812
+        },
+        {
+          "id": "meta-ai",
+          "value": 357
+        },
+        {
+          "id": "nvidia",
+          "value": 6393
+        },
+        {
+          "id": "anthropic",
+          "value": 5254
+        },
+        {
+          "id": "openai",
+          "value": 4904
+        }
+      ]
+    },
+    {
+      "date": "20260831",
+      "values": [
+        {
+          "id": "perplexity-ai",
+          "value": 2315
+        },
+        {
+          "id": "chatgpt",
+          "value": 41659
+        },
+        {
+          "id": "gemini",
+          "value": 142
+        },
+        {
+          "id": "microsoft-copilot",
+          "value": 1156
+        },
+        {
+          "id": "mistral-ai",
+          "value": 939
+        },
+        {
+          "id": "hugging-face",
+          "value": 4421
+        },
+        {
+          "id": "xai",
+          "value": 277
+        },
+        {
+          "id": "google-deepmind",
+          "value": 861
+        },
+        {
+          "id": "meta-ai",
+          "value": 450
+        },
+        {
+          "id": "nvidia",
+          "value": 5813
+        },
+        {
+          "id": "anthropic",
+          "value": 5874
+        },
+        {
+          "id": "openai",
+          "value": 5710
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "date": "20260811",
+      "title": "ChatGPT leads attention",
+      "body": "ChatGPT is the highest selected article on 2026-08-11, with 67,630 pageviews."
+    },
+    {
+      "date": "20260818",
+      "title": "ChatGPT leads attention",
+      "body": "ChatGPT is the highest selected article on 2026-08-18, with 75,539 pageviews."
+    },
+    {
+      "date": "20260825",
+      "title": "ChatGPT leads attention",
+      "body": "ChatGPT is the highest selected article on 2026-08-25, with 70,282 pageviews."
+    },
+    {
+      "date": "20260831",
+      "title": "ChatGPT leads attention",
+      "body": "ChatGPT is the highest selected article on 2026-08-31, with 41,659 pageviews."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Page view analytics",
+      "publisher": "Wikimedia Analytics API",
+      "url": "https://doc.wikimedia.org/generated-data-platform/aqs/analytics-api/reference/page-views.html",
+      "note": "Official API for daily article pageview time series."
+    }
+  ],
+  "lastObservationDate": "2026-08-31",
+  "dataFreshness": {
+    "status": "fresh",
+    "refreshCadence": "daily",
+    "lastUpdated": "2026-09-02T08:01:38.701Z",
+    "lastRefreshAttemptedAt": "2026-09-02T08:01:38.701Z",
+    "lastRefreshError": null,
+    "lastObservationDate": "2026-08-31",
+    "nextRefreshAt": "2026-09-03T08:00:00.000Z",
+    "sourceStatus": "Official Wikimedia Pageviews API",
+    "confidence": "Observed daily English Wikipedia article pageviews through 2026-08-31."
+  },
+  "media": {
+    "imageFit": "contain",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-09-02T08:01:38.701Z",
+    "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.webp",
+    "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.webp",
+    "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.json",
+    "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.json",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 4,
+    "rows": 3,
+    "width": 1280,
+    "height": 960,
+    "itemCount": 12,
+    "sourcedImageCount": 12,
+    "generatedImageCount": 0,
+    "placeholderCount": 0,
+    "ogImageUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/ai-lab-attention.png",
+    "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/ai-lab-attention.png",
+    "ogImageWidth": 1200,
+    "ogImageHeight": 630
+  },
+  "taxonomy": {
+    "primaryCategory": "technology",
+    "categories": [
+      "technology",
+      "ai",
+      "business",
+      "internet"
+    ],
+    "tags": [
+      "ai-labs",
+      "ai-companies",
+      "chatgpt",
+      "attention",
+      "wikipedia-pageviews"
+    ],
+    "entityTypes": [
+      "company",
+      "lab",
+      "product"
+    ],
+    "sourceTypes": [
+      "wikimedia"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "frontier-language-model-intelligence",
+      "type": "labs-to-frontier-models",
+      "weight": 0.86,
+      "reason": "The same labs and companies produce many frontier model benchmark entries."
+    },
+    {
+      "target": "ai-model-popularity",
+      "type": "labs-to-models",
+      "weight": 0.64,
+      "reason": "Lab attention can connect to model popularity and downloads."
+    },
+    {
+      "target": "public-company-market-cap",
+      "type": "ai-business",
+      "weight": 0.74,
+      "reason": "Public AI infrastructure companies connect attention to market capitalization."
+    },
+    {
+      "target": "ai-lab-race",
+      "type": "capability-vs-attention",
+      "weight": 0.8,
+      "reason": "One ranks labs by benchmark capability, the other by public attention."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "ai-stack",
+    "mainland": "technology",
+    "bridgePriority": [
+      "frontier-language-model-intelligence",
+      "ai-model-popularity",
+      "public-company-market-cap"
+    ]
+  },
+  "schemaVersion": 1,
+  "contentKind": "dat-city.story",
+  "generatedAt": "2026-09-02T08:01:38.701Z",
+  "versionId": "20260902T080138Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "storyops-scheduler",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-09-02T08:01:38.701Z",
+    "versionId": "20260902T080138Z",
+    "adapter": "wikimedia-pageviews",
+    "storySlug": "ai-lab-attention",
+    "districtId": null,
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "publicProjection": {
+    "kind": "story",
+    "version": 1,
+    "generatedAt": "2026-09-02T08:01:38.701Z",
+    "adapter": "wikimedia-pageviews",
+    "cache": {
+      "browserMaxAgeSeconds": 60,
+      "edgeMaxAgeSeconds": 3600
+    }
+  },
+  "ogImageAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/og/stories/ai-lab-attention.png"
+}

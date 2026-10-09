@@ -1,0 +1,814 @@
+{
+  "schemaVersion": 1,
+  "contentKind": "dat-city.district",
+  "version": 1,
+  "generatedAt": "2026-09-02T09:00:43.127Z",
+  "versionId": "20260902T090043Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "storyops-scheduler",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-09-02T09:00:43.127Z",
+    "versionId": "20260902T090043Z",
+    "adapter": null,
+    "storySlug": "most-popular-subreddits",
+    "districtId": "subreddit-community-plaza",
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "id": "subreddit-community-plaza",
+  "name": "Subreddit Community Plaza",
+  "storySlug": "most-popular-subreddits",
+  "storyUrl": "/stories/most-popular-subreddits/",
+  "publicStoryUrl": "/stories/most-popular-subreddits.json",
+  "metric": "Subscribers",
+  "metricKey": "subscribers",
+  "latestFrameLabel": "2026-09-02",
+  "summary": "The largest Reddit communities by subscriber count.",
+  "taxonomy": {
+    "primaryCategory": "culture",
+    "categories": [
+      "culture",
+      "internet",
+      "social-media"
+    ],
+    "tags": [
+      "reddit",
+      "subreddits",
+      "subscribers",
+      "communities",
+      "forums"
+    ],
+    "entityTypes": [
+      "community",
+      "subreddit"
+    ],
+    "sourceTypes": [
+      "frontpagemetrics"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "internet-obsession-meter",
+      "type": "social-attention",
+      "weight": 0.7,
+      "reason": "Large subreddits are major internet-attention hubs."
+    },
+    {
+      "target": "x-account-leaders",
+      "type": "social-platform-peer",
+      "weight": 0.68,
+      "reason": "Both rank the biggest audiences on major social platforms."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "creator-platforms",
+    "mainland": "culture",
+    "bridgePriority": [
+      "x-account-leaders",
+      "instagram-account-leaders"
+    ]
+  },
+  "thumbnail": "/assets/og/dat-city-home.png",
+  "status": "fresh",
+  "dataUpdatedAt": "2026-09-02T09:00:43.127Z",
+  "staleAfterHours": 30,
+  "dormant": false,
+  "lastObservationDate": "2026-09-02",
+  "nextRefreshAt": "2026-09-03T09:00:00.000Z",
+  "confidence": "Observed the FrontPageMetrics top-subreddits ranking at 2026-09-02T09:00:43.127Z. Values are subscriber counts parsed from the public ranking table.",
+  "methodology": "This adapter reads FrontPageMetrics' daily top-100 subreddit ranking table, keeping the source ranking verbatim (including r/announcements at #1), and uses subscriber counts as the metric. Scheduled StoryOps runs append daily snapshots so the district can replay observed subscriber changes over time.",
+  "sources": [
+    {
+      "title": "Top Subreddits by Subscribers",
+      "publisher": "FrontPageMetrics",
+      "url": "https://frontpagemetrics.com/top/",
+      "note": "Daily top-100 subreddit ranking table parsed by the adapter."
+    }
+  ],
+  "media": {
+    "imageFit": "contain",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-09-02T09:00:43.127Z",
+    "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+    "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+    "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+    "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 5,
+    "rows": 4,
+    "width": 1600,
+    "height": 1280,
+    "itemCount": 20,
+    "sourcedImageCount": 0,
+    "generatedImageCount": 20,
+    "placeholderCount": 0
+  },
+  "entities": [
+    {
+      "id": "announcements",
+      "name": "r/announcements",
+      "shortName": "r/announcements",
+      "value": 173261451,
+      "rank": 1,
+      "color": "#ff5a61",
+      "image": null,
+      "storyUrl": "/stories/most-popular-subreddits/",
+      "sourceIds": [
+        "Top Subreddits by Subscribers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.2,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:announcements",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "funny",
+      "name": "r/funny",
+      "shortName": "r/funny",
+      "value": 42956576,
+      "rank": 2,
+      "color": "#18c871",
+      "image": null,
+      "storyUrl": "/stories/most-popular-subreddits/",
+      "sourceIds": [
+        "Top Subreddits by Subscribers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0,
+          "u1": 0.4,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:funny",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "askreddit",
+      "name": "r/AskReddit",
+      "shortName": "r/AskReddit",
+      "value": 37184873,
+      "rank": 3,
+      "color": "#ffc84a",
+      "image": null,
+      "storyUrl": "/stories/most-popular-subreddits/",
+      "sourceIds": [
+        "Top Subreddits by Subscribers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0,
+          "u1": 0.6,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:askreddit",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "gaming",
+      "name": "r/gaming",
+      "shortName": "r/gaming",
+      "value": 34271752,
+      "rank": 4,
+      "color": "#00a6ff",
+      "image": null,
+      "storyUrl": "/stories/most-popular-subreddits/",
+      "sourceIds": [
+        "Top Subreddits by Subscribers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0,
+          "u1": 0.8,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:gaming",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "aww",
+      "name": "r/aww",
+      "shortName": "r/aww",
+      "value": 32085698,
+      "rank": 5,
+      "color": "#8f6bff",
+      "image": null,
+      "storyUrl": "/stories/most-popular-subreddits/",
+      "sourceIds": [
+        "Top Subreddits by Subscribers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "x": 1280,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:aww",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "music",
+      "name": "r/Music",
+      "shortName": "r/Music",
+      "value": 30616016,
+      "rank": 6,
+      "color": "#f18c4f",
+      "image": null,
+      "storyUrl": "/stories/most-popular-subreddits/",
+      "sourceIds": [
+        "Top Subreddits by Subscribers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.25,
+          "u1": 0.2,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:music",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "worldnews",
+      "name": "r/worldnews",
+      "shortName": "r/worldnews",
+      "value": 29650859,
+      "rank": 7,
+      "color": "#41a99f",
+      "image": null,
+      "storyUrl": "/stories/most-popular-subreddits/",
+      "sourceIds": [
+        "Top Subreddits by Subscribers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.25,
+          "u1": 0.4,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:worldnews",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "pics",
+      "name": "r/pics",
+      "shortName": "r/pics",
+      "value": 29321753,
+      "rank": 8,
+      "color": "#d78fca",
+      "image": null,
+      "storyUrl": "/stories/most-popular-subreddits/",
+      "sourceIds": [
+        "Top Subreddits by Subscribers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.25,
+          "u1": 0.6,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:pics",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "movies",
+      "name": "r/movies",
+      "shortName": "r/movies",
+      "value": 29018413,
+      "rank": 9,
+      "color": "#7b9b65",
+      "image": null,
+      "storyUrl": "/stories/most-popular-subreddits/",
+      "sourceIds": [
+        "Top Subreddits by Subscribers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.25,
+          "u1": 0.8,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:movies",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "todayilearned",
+      "name": "r/todayilearned",
+      "shortName": "r/todayilearned",
+      "value": 28743574,
+      "rank": 10,
+      "color": "#2f4858",
+      "image": null,
+      "storyUrl": "/stories/most-popular-subreddits/",
+      "sourceIds": [
+        "Top Subreddits by Subscribers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "x": 1280,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.25,
+          "u1": 1,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:todayilearned",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "science",
+      "name": "r/science",
+      "shortName": "r/science",
+      "value": 28220134,
+      "rank": 11,
+      "color": "#ef426f",
+      "image": null,
+      "storyUrl": "/stories/most-popular-subreddits/",
+      "sourceIds": [
+        "Top Subreddits by Subscribers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.5,
+          "u1": 0.2,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:science",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "videos",
+      "name": "r/videos",
+      "shortName": "r/videos",
+      "value": 26566771,
+      "rank": 12,
+      "color": "#86bdf4",
+      "image": null,
+      "storyUrl": "/stories/most-popular-subreddits/",
+      "sourceIds": [
+        "Top Subreddits by Subscribers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.5,
+          "u1": 0.4,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:videos",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "showerthoughts",
+      "name": "r/Showerthoughts",
+      "shortName": "r/Showerthoughts",
+      "value": 25617596,
+      "rank": 13,
+      "color": "#c9a14a",
+      "image": null,
+      "storyUrl": "/stories/most-popular-subreddits/",
+      "sourceIds": [
+        "Top Subreddits by Subscribers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.5,
+          "u1": 0.6,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:showerthoughts",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "news",
+      "name": "r/news",
+      "shortName": "r/news",
+      "value": 25194887,
+      "rank": 14,
+      "color": "#e34f59",
+      "image": null,
+      "storyUrl": "/stories/most-popular-subreddits/",
+      "sourceIds": [
+        "Top Subreddits by Subscribers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.5,
+          "u1": 0.8,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:news",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "jokes",
+      "name": "r/Jokes",
+      "shortName": "r/Jokes",
+      "value": 24209962,
+      "rank": 15,
+      "color": "#9aa4b2",
+      "image": null,
+      "storyUrl": "/stories/most-popular-subreddits/",
+      "sourceIds": [
+        "Top Subreddits by Subscribers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "x": 1280,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.5,
+          "u1": 1,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:jokes",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "askscience",
+      "name": "r/askscience",
+      "shortName": "r/askscience",
+      "value": 23109067,
+      "rank": 16,
+      "color": "#ff5a61",
+      "image": null,
+      "storyUrl": "/stories/most-popular-subreddits/",
+      "sourceIds": [
+        "Top Subreddits by Subscribers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "x": 0,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.75,
+          "u1": 0.2,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:askscience",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "food",
+      "name": "r/food",
+      "shortName": "r/food",
+      "value": 22925343,
+      "rank": 17,
+      "color": "#18c871",
+      "image": null,
+      "storyUrl": "/stories/most-popular-subreddits/",
+      "sourceIds": [
+        "Top Subreddits by Subscribers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "x": 320,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.75,
+          "u1": 0.4,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:food",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "earthporn",
+      "name": "r/EarthPorn",
+      "shortName": "r/EarthPorn",
+      "value": 22527254,
+      "rank": 18,
+      "color": "#ffc84a",
+      "image": null,
+      "storyUrl": "/stories/most-popular-subreddits/",
+      "sourceIds": [
+        "Top Subreddits by Subscribers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "x": 640,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.75,
+          "u1": 0.6,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:earthporn",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "iama",
+      "name": "r/IAmA",
+      "shortName": "r/IAmA",
+      "value": 22250752,
+      "rank": 19,
+      "color": "#00a6ff",
+      "image": null,
+      "storyUrl": "/stories/most-popular-subreddits/",
+      "sourceIds": [
+        "Top Subreddits by Subscribers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "x": 960,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.75,
+          "u1": 0.8,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:iama",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "nottheonion",
+      "name": "r/nottheonion",
+      "shortName": "r/nottheonion",
+      "value": 21792779,
+      "rank": 20,
+      "color": "#8f6bff",
+      "image": null,
+      "storyUrl": "/stories/most-popular-subreddits/",
+      "sourceIds": [
+        "Top Subreddits by Subscribers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/most-popular-subreddits.json",
+          "x": 1280,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.75,
+          "u1": 1,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:nottheonion",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    }
+  ]
+}
