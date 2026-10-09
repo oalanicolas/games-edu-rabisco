@@ -6,10 +6,10 @@
   "scripts": {
     "dev": "vite --host 127.0.0.1",
     "serve": "vite preview --host 127.0.0.1",
-    "build": "vite build && node scripts/offline-build.mjs",
+    "build": "node scripts/build-originals.mjs && vite build && node scripts/offline-build.mjs",
     "test": "node --test tests/*.test.mjs",
     "doctor": "npm test && npm run build",
-    "qa": "node scripts/qa-edu.mjs"
+    "qa": "node scripts/qa-originals.mjs && node scripts/qa-edu.mjs"
   },
   "dependencies": {
     "three": "0.183.2"

@@ -1,0 +1,1320 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ryan Sael</title>
+<meta name="description" content="Ryan Sael's stuff — things to poke at, in a browser.">
+<meta name="sael-build" content="2026-10-09T05:06:58.909Z">
+<meta property="og:title" content="Ryan Sael"><meta property="og:description" content="Ryan Sael's stuff">
+<meta property="og:image" content="https://sael.net/og.jpg"><meta property="og:url" content="https://sael.net/"><meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)"><meta name="theme-color" content="#0d0d0e" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%23111'/%3E%3Cpath d='M10 22V10h6.2a3.6 3.6 0 0 1 0 7.2H10m6 0 6 4.8' stroke='%23fff' stroke-width='2.4' fill='none'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600&display=swap" rel="stylesheet">
+<script>if(/(^|\.)sael\.net$/.test(location.hostname)){const s=document.createElement('script');s.defer=true;s.src='https://dat.d1.tel/script.js';s.dataset.websiteId='087c3915-78d8-448e-89e8-5f40efb18452';document.head.appendChild(s);}</script>
+<style>
+:root{--bg:#fff;--ink:#111113;--mute:#8a8a90;--soft:#6b6b72;--chip:#f1f1f3;--chip-h:#e8e8eb;--line:rgba(0,0,0,.07);--tile:#f3f3f5;--live:#1fa35b;--side:236px;--pad:clamp(14px,1.6vw,24px);--ease:cubic-bezier(.34,1.56,.64,1)}
+@media (prefers-color-scheme:dark){:root{color-scheme:dark;--bg:#0d0d0e;--ink:#f1f1f2;--mute:#77777d;--soft:#9a9aa0;--chip:#1b1b1d;--chip-h:#252528;--line:rgba(255,255,255,.07);--tile:#18181a;--live:#3fcf7f}}
+*{box-sizing:border-box;margin:0}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--bg);color:var(--ink);font:400 13.5px/1.45 Inter,ui-sans-serif,system-ui,-apple-system,sans-serif;font-feature-settings:"cv11" 1,"tnum" 1;-webkit-font-smoothing:antialiased;}
+a{color:inherit;text-decoration:none}
+button{font:inherit;color:inherit}
+svg{width:1em;height:1em;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.lbl{color:var(--mute)}
+.shell{min-height:100vh}
+/* quiet sticky sidebar */
+aside{position:fixed;top:0;left:0;bottom:0;width:var(--side);overflow:hidden;display:flex;flex-direction:column;gap:26px;padding:22px 20px 20px var(--pad)}
+.brand{display:flex;align-items:center;gap:10px;font-weight:600;font-size:15px;letter-spacing:-.01em}
+.brand svg{width:30px;height:30px}
+.grp{display:flex;flex-direction:column;gap:5px}
+.grp a,.grp span{width:max-content}
+.grp a{color:var(--soft);transition:color .15s}.grp a:hover{color:var(--ink)}
+.browse a{display:flex;align-items:center;justify-content:space-between;gap:10px;width:100%;max-width:180px;padding:1px 0}
+.browse a b{font-weight:400;color:var(--mute);font-size:12px;font-variant-numeric:tabular-nums}
+.browse a{position:relative;transition:color .15s}
+.browse a.on{color:var(--ink);font-weight:500}
+.browse a.on b{color:var(--ink)}
+.browse a.on:before{content:"";position:absolute;left:-10px;top:4px;bottom:4px;width:2px;border-radius:2px;background:var(--ink)}
+.grp.browse a.on:after{content:none}   /* the count stays; the bar on the left marks the active one */
+.grp .on{color:var(--ink)}.grp .on:after{content:"";display:inline-block;width:5px;height:5px;border-radius:50%;background:currentColor;margin-left:8px;vertical-align:2px}
+.live i{display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--live);margin-right:7px;vertical-align:1px;animation:pulse 2.4s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 color-mix(in srgb,var(--live) 50%,transparent)}70%,100%{box-shadow:0 0 0 6px transparent}}
+.foot{margin-top:auto}
+/* main column */
+main{margin-left:var(--side);padding:6px var(--pad) 40px 8px;min-width:0}
+.top{display:flex;align-items:baseline;gap:10px;padding:4px 0 14px}
+.top h1{font-size:15px;font-weight:500}
+/* sticky toolbar: full-bleed background with room above, so cards never peek over it */
+.bar2{position:sticky;top:0;z-index:5;display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin:0 calc(-1*var(--pad)) 0 -8px;padding:16px var(--pad) 14px 8px;background:var(--bg)}
+.bar2:after{content:"";position:absolute;left:0;right:0;top:100%;height:14px;background:linear-gradient(var(--bg),transparent);pointer-events:none;opacity:0;transition:opacity .25s;will-change:opacity;transform:translateZ(0)}
+body.scrolled .bar2:after{opacity:1}
+.now .live.waiting{visibility:hidden}
+.now .live{transition:opacity .4s}.now .live.waiting{opacity:0}
+.now{margin-left:auto;display:flex;align-items:center;gap:16px;padding-right:8px;color:var(--soft);font-size:12.5px}
+.now>span,.now>a{display:flex;align-items:center;gap:5px}.now .live i{margin-right:2px}
+.now a.live{transition:color .15s}.now a.live:hover{color:var(--ink)}.now a.live:hover .wd{text-decoration:underline;text-underline-offset:2px}.now b{font-weight:500;color:var(--ink)}.now svg{font-size:13px}.now span[title="views on X"] svg{font-size:11px}
+.chip{border:0;background:var(--chip);color:var(--soft);padding:8px 14px;border-radius:99px;cursor:pointer;transition:background .15s,color .15s,transform .25s var(--ease)}
+.chip:hover{background:var(--chip-h);color:var(--ink)}
+.chip:active{transform:scale(.94)}
+.chip[aria-pressed=true]{background:var(--ink);color:var(--bg)}
+.sep{width:1px;height:18px;background:var(--line);margin:0 4px}
+@media (max-width:860px){.sep{display:none}}
+.snd{display:grid;place-items:center;width:34px;height:34px;padding:0;font-size:15px}
+.snd .m{display:none}.snd[aria-pressed=false] .w{display:none}.snd[aria-pressed=false] .m{display:inline}
+.snd[aria-pressed]{background:var(--chip);color:var(--soft)}
+/* tags: a quiet line under the toolbar, only the ones present in what you are looking at */
+.tags{display:flex;flex-wrap:wrap;align-items:center;gap:2px 0;margin:-2px 0 14px;font-size:12.5px;color:var(--mute)}
+.tags:empty{display:none}
+.tags button{border:0;background:none;color:inherit;font:inherit;padding:2px 7px;border-radius:99px;cursor:pointer;transition:color .15s,background .15s}
+.tags button:hover{color:var(--ink)}
+.tags button.on{color:var(--ink);background:var(--chip)}
+.tags span{opacity:.4;padding:0 1px}
+.banner[hidden]{display:none}   /* a class beats [hidden] on specificity, so say it explicitly */
+.banner{display:flex;flex-direction:column;align-items:flex-start;gap:16px;
+ margin:0 0 14px;padding:16px 18px;border:1px solid var(--line);border-radius:14px;background:var(--tile)}
+.banner .lbl{display:block;font-size:11.5px;letter-spacing:.08em;text-transform:uppercase}
+.banner p{margin:4px 0 0;max-width:62ch;color:var(--soft)}
+.banner a{display:inline-flex;align-items:center;gap:8px;padding:9px 15px;border-radius:99px;background:var(--ink);color:var(--bg);white-space:nowrap;transition:opacity .15s}
+.banner a:hover{opacity:.85}
+.banner a svg{width:12px;height:12px;fill:currentColor;stroke:none}
+/* make your own: a chat-style box; the button copies a ready prompt for a coding agent instead of sending */
+.banner .ask{flex-basis:100%}
+.ask h2{margin:0;font-size:15px;font-weight:600;letter-spacing:-.01em;color:var(--ink)}
+.ask p{margin:3px 0 0}
+.ask-box{display:flex;align-items:center;gap:8px;margin-top:9px;padding:6px 6px 6px 16px;border:1px solid var(--line);border-radius:16px;background:var(--bg);transition:border-color .15s,box-shadow .15s}
+.ask-box:focus-within{border-color:color-mix(in srgb,var(--ink) 28%,transparent);box-shadow:0 0 0 4px color-mix(in srgb,var(--ink) 6%,transparent)}
+.ask-box input{flex:1;min-width:0;border:0;outline:0;background:none;color:var(--ink);font:inherit;font-size:15px;padding:9px 0}
+.ask-box input::placeholder{color:var(--mute)}
+.ask-go{flex:none;display:inline-flex;align-items:center;gap:7px;border:0;border-radius:11px;padding:10px 14px;background:var(--ink);color:var(--bg);font:inherit;font-size:13.5px;font-weight:500;cursor:pointer;transition:opacity .15s,transform .1s}
+.ask-go:hover{opacity:.88}.ask-go:active{transform:scale(.97)}
+.ask-go svg{width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.ask-go .ok{display:none}.ask-go.done .ok{display:block}.ask-go.done .cp{display:none}
+.ask-try{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin-top:9px;font-size:12.5px;color:var(--mute)}
+.ask-try button{border:0;border-radius:99px;padding:4px 10px;background:var(--chip);color:var(--soft);font:inherit;cursor:pointer;transition:background .15s,color .15s}
+.ask-try button:hover{background:var(--chip-h);color:var(--ink)}
+.ask-msg{display:flex;gap:10px;align-items:flex-start;margin-top:10px;padding:11px 13px;border-radius:12px;background:color-mix(in srgb,var(--live) 10%,transparent);color:var(--ink);font-size:13.5px;line-height:1.5}
+.ask-msg[hidden]{display:none}
+.ask-msg svg{flex:none;width:16px;height:16px;margin-top:2px;fill:none;stroke:var(--live);stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
+.ask-msg b{font-weight:600}.ask-msg span{color:var(--soft)}
+.ask-shake{animation:askShake .32s}
+@keyframes askShake{25%{transform:translateX(-4px)}50%{transform:translateX(4px)}75%{transform:translateX(-2px)}}
+@media (max-width:560px){.ask-go .t{display:none}.ask-go{padding:10px 12px}}
+
+.cta{display:inline-flex;align-items:center;gap:9px;padding:12px 20px;border:0;border-radius:99px;background:var(--ink);color:var(--bg);font:500 13.5px/1 Inter,sans-serif;cursor:pointer;
+ transition:transform .25s var(--ease),box-shadow .3s,opacity .15s}
+.cta:hover{opacity:.9;transform:translateY(-1px)}
+.cta:active{transform:scale(.96)}
+.cta svg{width:13px;height:13px;stroke:currentColor;fill:none;stroke-width:2}
+/* The one button worth pressing. In daylight a soft highlight crosses the dark pill and parks out of
+   sight; at night the pill is already near-white, so the sheen is dropped and a white halo breathes
+   instead. Both stop on hover, and under reduced motion nothing moves. */
+.cta.ask{position:relative;overflow:hidden;isolation:isolate;animation:halo 7s ease-out 2s infinite}
+.cta.ask:after{content:"";position:absolute;top:-70%;bottom:-70%;left:0;width:45%;z-index:-1;pointer-events:none;opacity:0;
+ background:linear-gradient(90deg,transparent,rgba(255,255,255,.55) 42%,rgba(255,255,255,.55) 58%,transparent);
+ filter:blur(4px);animation:sheen 7s cubic-bezier(.4,0,.3,1) 2s infinite}
+.cta.ask:hover,.cta.ask:hover:after{animation-play-state:paused}
+@keyframes sheen{0%{opacity:0;transform:translateX(-160%) rotate(14deg)}
+ 7%{opacity:1}22%{opacity:1}
+ 29%,100%{opacity:0;transform:translateX(340%) rotate(14deg)}}
+@keyframes halo{0%,72%,100%{box-shadow:0 0 0 0 color-mix(in srgb,var(--ink) 22%,transparent)}
+ 14%{box-shadow:0 0 0 9px color-mix(in srgb,var(--ink) 0%,transparent)}}
+@media (prefers-color-scheme:dark){
+ .cta.ask:after{display:none}
+ @keyframes halo{0%,72%,100%{box-shadow:0 0 0 0 rgba(255,255,255,.3)}
+  14%{box-shadow:0 0 0 11px rgba(255,255,255,0)}}
+}
+@media (prefers-reduced-motion:reduce){.cta.ask,.cta.ask:after{animation:none}}
+.banner .second{background:none;color:var(--ink);box-shadow:inset 0 0 0 1px var(--line);padding:11px 16px}
+.banner .second:hover{background:var(--chip);opacity:1;transform:none}
+.banner .acts{display:flex;align-items:center;gap:10px;flex-wrap:wrap;width:100%}
+/* wide enough for one line: the copy keeps the left, the buttons take the right, and the banner
+   loses a row of height */
+@media (min-width:860px){
+ .banner{flex-direction:row;align-items:center;justify-content:space-between;gap:18px 28px;flex-wrap:wrap}
+ .banner>div{flex:1;min-width:0}
+ .banner .acts{width:auto;flex:none;justify-content:flex-end}
+}
+.banner .cta{flex:0 0 auto}   /* keep each button at its own width instead of filling the row */
+
+/* dialog */
+.say{position:fixed;inset:0;z-index:60;display:none;align-items:center;justify-content:center;padding:16px;background:rgba(10,10,12,.5);backdrop-filter:blur(5px);-webkit-backdrop-filter:blur(5px)}
+.say.on{display:flex}
+.say{--field:rgba(0,0,0,.14);--fieldbg:#fff}
+@media (prefers-color-scheme:dark){.say{--field:rgba(255,255,255,.18);--fieldbg:#121214}}
+.say .sheet{width:min(500px,100%);max-height:calc(100dvh - 32px);overflow:auto;background:var(--bg);border-radius:20px;padding:26px 26px 22px;box-shadow:0 40px 90px -28px rgba(0,0,0,.6);animation:rise .32s var(--ease) both}
+@keyframes rise{from{opacity:0;transform:translateY(14px) scale(.985)}to{opacity:1;transform:none}}
+.say h2{margin:0;font-size:21px;font-weight:600;letter-spacing:-.02em;color:var(--ink)}
+.say .lede{margin:8px 0 0;color:var(--soft);font-size:14px;line-height:1.5}
+.say .head{position:relative;padding-right:40px}
+.say .x{position:absolute;top:-4px;right:-4px;width:32px;height:32px;display:grid;place-items:center;border:0;border-radius:50%;background:transparent;color:var(--mute);font-size:16px;cursor:pointer;transition:background .15s,color .15s}
+.say .x:hover{background:var(--chip);color:var(--ink)}
+.say fieldset{border:0;margin:22px 0 0;padding:0}
+.say legend{padding:0;font-size:13px;font-weight:500;color:var(--ink)}
+.say legend em{font-style:normal;font-weight:400;color:var(--mute)}
+.who{display:flex;flex-wrap:wrap;gap:7px;margin-top:11px}
+.who label{cursor:pointer}
+.who input{position:absolute;opacity:0;width:0;height:0}
+.who span{display:inline-flex;align-items:center;gap:7px;padding:9px 14px;border-radius:99px;background:var(--chip);color:var(--ink);font-size:13.5px;transition:background .15s,color .15s,transform .18s var(--ease)}
+.who label:hover span{background:var(--chip-h)}
+.who label:active span{transform:scale(.95)}
+.who svg{width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;opacity:.7}
+.who input:checked+span svg{opacity:1}
+.who input:checked+span{background:var(--ink);color:var(--bg)}
+.who input:focus-visible+span{outline:2px solid #2f6bff;outline-offset:2px}
+.say textarea,.say input[type=email],.say input[type=text]{width:100%;margin-top:11px;padding:13px 15px;border:1px solid var(--field);border-radius:13px;background:var(--fieldbg);color:var(--ink);font:400 14.5px/1.55 Inter,sans-serif;resize:vertical;transition:border-color .18s,box-shadow .18s}
+.say textarea{min-height:104px}
+.say textarea:focus,.say input:focus{outline:none;border-color:var(--ink);box-shadow:0 0 0 3px color-mix(in srgb,var(--ink) 8%,transparent)}
+.say textarea::placeholder,.say input::placeholder{color:var(--soft);opacity:1}
+.say textarea{transition:border-color .18s,box-shadow .18s,opacity .3s}
+.say .hint{margin:9px 2px 0;font-size:12.5px;color:var(--mute)}
+/* the opt-ins: one card under the address they depend on, a row each, the box level with the first line of
+   its text and the text balanced, so no word is left hanging on a line of its own */
+.opts{margin-top:14px;border-radius:13px;background:var(--chip);overflow:hidden}
+.opt[hidden]{display:none}
+.opt:not([hidden])~.opt:not([hidden]){border-top:1px solid var(--line)}
+.okbox{display:flex;gap:11px;align-items:flex-start;padding:11px 13px;cursor:pointer;transition:background .15s}
+.okbox:hover{background:var(--chip-h)}
+.opt .more{padding:0 13px 12px 42px}
+.opt .more[hidden]{display:none}
+.opt .cap{display:block;margin-top:6px;color:var(--soft);font-size:11.5px;line-height:1.4;text-wrap:pretty}
+.opt .cap.need{margin-top:0;color:#c2410c}
+@media (prefers-color-scheme:dark){.opt .cap.need{color:#ffb36b}}
+.at{position:relative;display:block}
+.at:before{content:"@";position:absolute;left:13px;top:50%;transform:translateY(-50%);color:var(--soft);font-size:14px;line-height:1;pointer-events:none}
+.say .at input[type=text]{margin-top:0;padding:10px 13px 10px 30px;font-size:14px}
+.okbox input{position:absolute;opacity:0;width:0;height:0}
+.okbox .box{flex:none;width:18px;height:18px;border-radius:6px;background:var(--bg);box-shadow:inset 0 0 0 1.5px var(--mute);position:relative;transition:background .15s,box-shadow .15s}
+.okbox .box:after{content:"";position:absolute;left:6px;top:2px;width:5px;height:10px;border:solid var(--bg);border-width:0 2px 2px 0;transform:rotate(45deg) scale(.4);opacity:0;transition:opacity .15s,transform .2s var(--ease)}
+.okbox input:checked+.box{background:var(--ink);box-shadow:inset 0 0 0 1.5px var(--ink)}
+.okbox input:checked+.box:after{opacity:1;transform:rotate(45deg) scale(1)}
+.okbox input:focus-visible+.box{box-shadow:inset 0 0 0 1.5px var(--ink),0 0 0 3px color-mix(in srgb,var(--ink) 18%,transparent)}
+.pair{display:flex;gap:10px}
+.pair input{flex:1;min-width:0}
+@media(max-width:520px){.pair{display:block}}
+.who2{margin-top:11px}
+.who2 .cap{display:block;margin-top:6px;color:var(--soft);font-size:11.5px;line-height:1.4}
+.who2 input{margin-top:0}
+.okbox .t{color:var(--soft);font-size:12px;line-height:18px;text-wrap:pretty}
+.okbox .t b{color:var(--ink);font-weight:500}
+.say .foot{display:flex;align-items:center;gap:12px;margin-top:22px}
+.say .send{margin-left:auto;padding:12px 24px}
+.say .send:disabled{opacity:.3;cursor:default;transform:none}
+.say .note{margin:16px 0 0;padding-top:15px;border-top:1px solid var(--line);color:var(--soft);font-size:12.5px;line-height:1.6}
+.say .note a{color:var(--ink);text-decoration:underline;text-underline-offset:2px}
+.say .err{color:#e5484d;font-size:13px;margin:12px 0 0}
+/* the honeypot: off-screen for eyes, untabbable, but a form filler will happily complete it */
+.pot{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+.say .done{text-align:center;padding:30px 8px 16px}
+.say .done .tick{width:48px;height:48px;margin:0 auto 16px;border-radius:50%;background:var(--ink);color:var(--bg);display:grid;place-items:center;font-size:21px;animation:pop .4s var(--ease) both}
+@keyframes pop{from{transform:scale(.5);opacity:0}to{transform:none;opacity:1}}
+.say .done h3{margin:0 0 6px;font-size:17px;font-weight:600}
+.say .done p{margin:0;color:var(--soft);font-size:14px;line-height:1.6}
+.say .done .row{display:flex;gap:10px;justify-content:center;margin-top:22px;flex-wrap:wrap}
+@media (max-width:560px){
+ .say{align-items:flex-end;padding:0}
+ .say .sheet{width:100%;max-height:92dvh;border-radius:22px 22px 0 0;padding:22px 18px 26px;animation:up .34s var(--ease) both}
+ @keyframes up{from{transform:translateY(100%)}to{transform:none}}
+ .say .send{width:100%;justify-content:center;margin:0}
+ .say .foot{margin-top:20px}
+}
+
+/* the disclaimer, floating at the bottom of its category */
+.dis{position:fixed;right:18px;bottom:18px;z-index:30;
+ display:flex;align-items:center;gap:14px;width:min(560px,calc(100vw - 36px));
+ padding:12px 12px 12px 18px;border-radius:99px;background:rgba(16,16,18,.86);color:#ececf2;
+ backdrop-filter:blur(14px) saturate(1.6);-webkit-backdrop-filter:blur(14px) saturate(1.6);
+ box-shadow:0 18px 50px -18px rgba(0,0,0,.6);font-size:12.5px;line-height:1.5;
+ animation:dis-in .5s var(--ease) both;animation-delay:.6s}
+@keyframes dis-in{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+.dis[hidden]{display:none}
+.dis b{font-weight:600;color:#fff}
+/* text-wrap:pretty keeps the last line from being one word on its own, which "on." was */
+.dis p{margin:0;flex:1;min-width:0;text-wrap:pretty}
+.dis button{flex:none;border:0;border-radius:99px;padding:8px 15px;background:#ffffff24;color:#fff;font:500 12.5px/1 Inter,sans-serif;cursor:pointer;transition:background .15s,transform .2s var(--ease)}
+.dis button:hover{background:#ffffff3d}.dis button:active{transform:scale(.95)}
+@media (max-width:620px){
+ .dis{border-radius:16px;align-items:flex-start;flex-direction:column;gap:10px;padding:14px 16px;right:12px;left:12px;width:auto;bottom:12px}
+ .dis button{align-self:flex-end}
+}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr));grid-auto-flow:dense;gap:12px;grid-auto-rows:var(--row,auto)}
+.card{position:relative;min-width:0;aspect-ratio:16/10}
+.card.big{grid-column:span 2;grid-row:span 2;aspect-ratio:auto}
+.card.wide{grid-column:span 2;aspect-ratio:auto}
+.card.hero{grid-column:1/-1;grid-row:span 2;aspect-ratio:auto}
+.card.tall{grid-row:span 2;aspect-ratio:auto}
+.hit{position:absolute;inset:0;display:block;border-radius:12px;overflow:hidden;background:var(--tile);isolation:isolate;box-shadow:0 0 0 1px var(--line);transition:transform .45s var(--ease),box-shadow .3s;outline-offset:3px;-webkit-tap-highlight-color:transparent}
+.hit:hover{transform:translateY(-3px);box-shadow:0 0 0 1px var(--line),0 14px 30px -18px rgba(0,0,0,.45)}
+.hit:active{transform:scale(.975);transition-duration:.12s}
+.media,.media img,.media video{position:absolute;inset:0;width:100%;height:100%}
+.media img,.media video{object-fit:cover;transition:transform 1.2s cubic-bezier(.2,.7,.2,1),opacity .6s}
+.media video{opacity:0}.media video.on{opacity:1}
+.hit:hover .media img,.hit:hover .media video{transform:scale(1.03)}
+.shade{position:absolute;inset:0;pointer-events:none;background:linear-gradient(to top,rgba(0,0,0,.5),rgba(0,0,0,.12) 34%,transparent 55%),linear-gradient(rgba(0,0,0,.22),transparent 26%)}
+.views{position:absolute;top:10px;right:10px;display:flex;align-items:center;gap:5px;padding:5px 9px;border-radius:99px;background:rgba(20,20,22,.34);backdrop-filter:blur(10px) saturate(1.4);-webkit-backdrop-filter:blur(10px) saturate(1.4);color:#fff;font-size:11.5px;font-weight:500}
+.views:empty{display:none}.views svg{font-size:12px;opacity:.85}
+.title{position:absolute;left:14px;bottom:13px;right:60px;color:#fff;font-weight:500;font-size:14px;letter-spacing:-.005em;text-shadow:0 1px 10px rgba(0,0,0,.3)}
+.big .title,.hero .title{font-size:17px}
+.go{position:absolute;right:10px;bottom:10px;display:grid;place-items:center;width:30px;height:30px;border-radius:50%;background:rgba(20,20,22,.34);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);color:#fff;font-size:14px;transition:transform .4s var(--ease),background .2s}
+.hit:hover .go{transform:rotate(45deg) scale(1.08);background:rgba(255,255,255,.95);color:#111}
+@media (max-width:860px){
+ aside{position:static;width:auto;height:auto;flex-direction:row;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px 18px;padding:16px var(--pad) 8px}
+ .foot{margin-top:0}.grp{flex-direction:row;gap:12px}.grp .lbl{display:none}
+ .bar2{margin:0 calc(-1*var(--pad));padding:10px var(--pad) 12px}.now{gap:12px}
+ main{margin-left:0;padding:0 var(--pad) 32px}
+ .top{display:none}
+}
+@media (max-width:560px){.card.hero{aspect-ratio:16/10}.bar2{flex-wrap:nowrap}.now{gap:10px;padding-right:2px}.now .wd{display:none}.chip{padding:8px 12px}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+
+</style>
+</head>
+<body>
+<div class="shell">
+<aside>
+<a class="brand" href="/"><svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="9" fill="currentColor" stroke="none"/><path d="M10 22V10h6.2a3.6 3.6 0 0 1 0 7.2H10m6 0 6 4.8" stroke="var(--bg)" stroke-width="2.4" fill="none"/></svg>Ryan Sael</a>
+<nav class="grp browse"><span class="lbl">Browse</span><a href="/" class="cat-link on" data-filter="">All<b>57</b></a><a href="/explainers" class="cat-link" data-filter="Explainers">Explainers<b>30</b></a><a href="/worlds" class="cat-link" data-filter="Worlds">Worlds<b>11</b></a><a href="/data" class="cat-link" data-filter="Data">Data<b>7</b></a><a href="/design" class="cat-link" data-filter="Design">Design<b>2</b></a><a href="/play" class="cat-link" data-filter="Play">Play<b>2</b></a><a href="/virtual-tour" class="cat-link" data-filter="Virtual Tour">Virtual Tour<b>1</b></a></nav>
+<div class="grp foot"><span class="lbl">Elsewhere</span><a href="https://x.com/ryansael" rel="me">X ↗</a></div>
+</aside>
+<main>
+<div class="bar2" role="toolbar" aria-label="sort">
+<button class="chip" aria-pressed="true" data-sort="date">Newest</button><button class="chip" aria-pressed="false" data-sort="views">Most viewed</button>
+<span class="now" aria-label="statistics"><a class="live waiting" href="/here" data-umami-event="here-now" title="people on sael.net right now, counted live. Open the map of where they are"><i></i><b data-stat="active">166</b><span class="wd">here now</span></a><span title="views across the works and their X posts"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg><b data-stat="views">6.1M</b> views</span></span>
+<button class="chip snd" aria-pressed="true" aria-label="sound" title="Sound"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4Z"/><path class="w" d="M16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12"/><path class="m" d="m17 9 5 6m0-6-5 6"/></svg></button>
+</div>
+<div class="tags" aria-label="tags"></div>
+<section class="banner" data-for="Explainers" hidden>
+<div><span class="lbl">Open source, soon</span>
+<p>These explainers are becoming an open project: free to use, open to contributions, and moving to a home of its own.</p></div>
+<div class="acts">
+<button class="cta ask" type="button" data-say data-umami-event="banner-say">Got an idea?</button>
+<a class="cta second" href="https://x.com/ryansael" target="_blank" rel="noopener" data-umami-event="banner-follow"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" stroke="none" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>Follow for the launch</a>
+</div>
+</section>
+<div class="dis" data-for="Explainers Simulator" data-note="explainers" hidden>
+<p><b>Heads up:</b> these are simplified models. Plenty is left out on purpose and some of it may be wrong, so check anything you teach or build on.</p>
+<button type="button" data-umami-event="note-dismiss">Got it</button></div>
+<div class="grid">
+<article class="card" data-slug="gigacity" data-date="2026-10-08" data-cat="Worlds" data-tags="city|procedural|webgpu" data-size="" data-views="474450" data-x="458197">
+<a class="hit" href="https://sael.net/gigacity" data-umami-event="open-project" data-umami-event-project="gigacity">
+<span class="media"><img src="/p/gigacity/poster.webp" alt="" fetchpriority="high" decoding="async"><video muted loop playsinline preload="none" aria-hidden="true" data-src="/p/gigacity/loop.webm /p/gigacity/loop.mp4"></video></span>
+<span class="shade" aria-hidden="true"></span>
+<span class="views" title="16,253 on the site + 458,197 on X
+published 8 Oct 2026"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg><b>474k</b></span>
+<span class="title">Gigacity</span>
+<span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+</a>
+
+</article>
+<article class="card" data-slug="fusion-pulse" data-date="2026-10-06" data-cat="Explainers" data-tags="fusion|energy" data-size="" data-views="4975" data-x="4328">
+<a class="hit" href="https://sael.net/fusion-pulse" data-umami-event="open-project" data-umami-event-project="fusion-pulse">
+<span class="media"><img src="/p/fusion-pulse/poster.webp" alt="" fetchpriority="high" decoding="async"><video muted loop playsinline preload="none" aria-hidden="true" data-src="/p/fusion-pulse/loop.mp4 /p/fusion-pulse/loop.webm"></video></span>
+<span class="shade" aria-hidden="true"></span>
+<span class="views" title="647 on the site + 4,328 on X
+published 7 Oct 2026"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg><b>5k</b></span>
+<span class="title">Fusion That Pushes Back</span>
+<span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+</a>
+
+</article>
+<article class="card" data-slug="apple-park" data-date="2026-10-06" data-cat="Virtual Tour" data-tags="architecture|solar|tour" data-size="" data-views="66257" data-x="64956">
+<a class="hit" href="https://sael.net/apple-park" data-umami-event="open-project" data-umami-event-project="apple-park">
+<span class="media"><img src="/p/apple-park/poster.webp" alt="" fetchpriority="high" decoding="async"><video muted loop playsinline preload="none" aria-hidden="true" data-src="/p/apple-park/loop.mp4 /p/apple-park/loop.webm"></video></span>
+<span class="shade" aria-hidden="true"></span>
+<span class="views" title="1,301 on the site + 64,956 on X
+published 6 Oct 2026"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg><b>66k</b></span>
+<span class="title">Apple Park</span>
+<span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+</a>
+
+</article>
+<article class="card" data-slug="here" data-date="2026-10-05" data-cat="Data" data-tags="live|maps" data-size="" data-views="2897" data-x="2609">
+<a class="hit" href="https://sael.net/here" data-umami-event="open-project" data-umami-event-project="here">
+<span class="media"><img src="/p/here/poster.webp" alt="" loading="lazy" decoding="async"><video muted loop playsinline preload="none" aria-hidden="true" data-src="/p/here/loop.webm /p/here/loop.mp4"></video></span>
+<span class="shade" aria-hidden="true"></span>
+<span class="views" title="288 on the site + 2,609 on X
+published 7 Oct 2026"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg><b>2.9k</b></span>
+<span class="title">Here now: the world on sael.net</span>
+<span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+</a>
+
+</article>
+<article class="card" data-slug="moods" data-date="2026-10-05" data-cat="Design" data-tags="ai|companions" data-size="" data-views="2863" data-x="2627">
+<a class="hit" href="https://sael.net/moods" data-umami-event="open-project" data-umami-event-project="moods">
+<span class="media"><img src="/p/moods/poster.webp" alt="" loading="lazy" decoding="async"><video muted loop playsinline preload="none" aria-hidden="true" data-src="/p/moods/loop.mp4 /p/moods/loop.webm"></video></span>
+<span class="shade" aria-hidden="true"></span>
+<span class="views" title="236 on the site + 2,627 on X
+published 5 Oct 2026"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg><b>2.9k</b></span>
+<span class="title">Moods</span>
+<span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+</a>
+
+</article>
+<article class="card" data-slug="gigawatt" data-date="2026-10-02" data-cat="Play" data-tags="game|datacenter|tycoon" data-size="" data-views="30968" data-x="30225">
+<a class="hit" href="https://sael.net/gigawatt" data-umami-event="open-project" data-umami-event-project="gigawatt">
+<span class="media"><img src="/p/gigawatt/poster.webp" alt="" loading="lazy" decoding="async"><video muted loop playsinline preload="none" aria-hidden="true" data-src="/p/gigawatt/loop.mp4 /p/gigawatt/loop.webm"></video></span>
+<span class="shade" aria-hidden="true"></span>
+<span class="views" title="743 on the site + 30,225 on X
+published 4 Oct 2026"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg><b>31k</b></span>
+<span class="title">Garage to Gigawatt</span>
+<span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+</a>
+
+</article>
+<article class="card" data-slug="starlink" data-date="2026-10-01" data-cat="Explainers" data-tags="space|networks" data-size="" data-views="11783" data-x="11030">
+<a class="hit" href="https://sael.net/starlink" data-umami-event="open-project" data-umami-event-project="starlink">
+<span class="media"><img src="/p/starlink/poster.webp" alt="" loading="lazy" decoding="async"><video muted loop playsinline preload="none" aria-hidden="true" data-src="/p/starlink/loop.mp4 /p/starlink/loop.webm"></video></span>
+<span class="shade" aria-hidden="true"></span>
+<span class="views" title="753 on the site + 11,030 on X
+published 2 Oct 2026"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg><b>12k</b></span>
+<span class="title">Starlink: home internet from space</span>
+<span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+</a>
+
+</article>
+<article class="card" data-slug="prompt" data-date="2026-10-01" data-cat="Explainers" data-tags="ai|llm" data-size="" data-views="22733" data-x="21701">
+<a class="hit" href="https://sael.net/prompt" data-umami-event="open-project" data-umami-event-project="prompt">
+<span class="media"><img src="/p/prompt/poster.webp" alt="" loading="lazy" decoding="async"><video muted loop playsinline preload="none" aria-hidden="true" data-src="/p/prompt/loop.mp4 /p/prompt/loop.webm"></video></span>
+<span class="shade" aria-hidden="true"></span>
+<span class="views" title="1,032 on the site + 21,701 on X
+published 1 Oct 2026"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg><b>23k</b></span>
+<span class="title">What Happens When You Send a Prompt</span>
+<span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+</a>
+
+</article>
+<article class="card" data-slug="benchmark-mountain" data-date="2026-09-29" data-cat="Worlds" data-tags="benchmarks|timeline" data-size="" data-views="8298" data-x="7437">
+<a class="hit" href="https://sael.net/benchmark-mountain" data-umami-event="open-project" data-umami-event-project="benchmark-mountain">
+<span class="media"><img src="/p/benchmark-mountain/poster.webp" alt="" loading="lazy" decoding="async"><video muted loop playsinline preload="none" aria-hidden="true" data-src="/p/benchmark-mountain/loop.mp4 /p/benchmark-mountain/loop.webm"></video></span>
+<span class="shade" aria-hidden="true"></span>
+<span class="views" title="861 on the site + 7,437 on X
+published 29 Sept 2026"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg><b>8.3k</b></span>
+<span class="title">Benchmark Mountain</span>
+<span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+</a>
+
+</article>
+<article class="card" data-slug="prism-room" data-date="2026-09-27" data-cat="Explainers" data-tags="optics|light" data-size="" data-views="169154" data-x="168557">
+<a class="hit" href="https://sael.net/prism-room" data-umami-event="open-project" data-umami-event-project="prism-room">
+<span class="media"><img src="/p/prism-room/poster.webp" alt="" loading="lazy" decoding="async"><video muted loop playsinline preload="none" aria-hidden="true" data-src="/p/prism-room/loop.webm /p/prism-room/loop.mp4"></video></span>
+<span class="shade" aria-hidden="true"></span>
+<span class="views" title="597 on the site + 168,557 on X
+published 25 Sept 2026"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg><b>169k</b></span>
+<span class="title">Prism Room</span>
+<span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+</a>
+
+</article>
+<article class="card" data-slug="earthquake-tower" data-date="2026-09-27" data-cat="Explainers" data-tags="structures|physics" data-size="" data-views="19701" data-x="18868">
+<a class="hit" href="https://sael.net/earthquake-tower" data-umami-event="open-project" data-umami-event-project="earthquake-tower">
+<span class="media"><img src="/p/earthquake-tower/poster.webp" alt="" loading="lazy" decoding="async"><video muted loop playsinline preload="none" aria-hidden="true" data-src="/p/earthquake-tower/loop.mp4 /p/earthquake-tower/loop.webm"></video></span>
+<span class="shade" aria-hidden="true"></span>
+<span class="views" title="833 on the site + 18,868 on X
+published 3 Oct 2026"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg><b>20k</b></span>
+<span class="title">Earthquake Tower</span>
+<span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+</a>
+
+</article>
+<article class="card" data-slug="root-finder" data-date="2026-09-27" data-cat="Explainers" data-tags="maths" data-size="" data-views="14379" data-x="13790">
+<a class="hit" href="https://sael.net/root-finder" data-umami-event="open-project" data-umami-event-project="root-finder">
+<span class="media"><img src="/p/root-finder/poster.webp" alt="" loading="lazy" decoding="async"><video muted loop playsinline preload="none" aria-hidden="true" data-src="/p/root-finder/loop.mp4 /p/root-finder/loop.webm"></video></span>
+<span class="shade" aria-hidden="true"></span>
+<span class="views" title="589 on the site + 13,790 on X
+published 4 Oct 2026"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg><b>14k</b></span>
+<span class="title">Root Finder</span>
+<span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+</a>
+
+</article>
+<article class="card" data-slug="rocket-nozzle" data-date="2026-09-27" data-cat="Explainers" data-tags="engineering|flight" data-size="" data-views="10353" data-x="9232">
+<a class="hit" href="https://sael.net/rocket-nozzle" data-umami-event="open-project" data-umami-event-project="rocket-nozzle">
+<span class="media"><img src="/p/rocket-nozzle/poster.webp" alt="" loading="lazy" decoding="async"><video muted loop playsinline preload="none" aria-hidden="true" data-src="/p/rocket-nozzle/loop.mp4 /p/rocket-nozzle/loop.webm"></video></span>
+<span class="shade" aria-hidden="true"></span>
+<span class="views" title="1,121 on the site + 9,232 on X
+published 30 Sept 2026"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg><b>10k</b></span>
+<span class="title">Rocket Nozzle</span>
+<span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+</a>
+
+</article>
+<article class="card" data-slug="soap-bubble" data-date="2026-09-27" data-cat="Explainers" data-tags="surfaces|physics" data-size="" data-views="45836" data-x="44798">
+<a class="hit" href="https://sael.net/soap-bubble" data-umami-event="open-project" data-umami-event-project="soap-bubble">
+<span class="media"><img src="/p/soap-bubble/poster.webp" alt="" loading="lazy" decoding="async"><video muted loop playsinline preload="none" aria-hidden="true" data-src="/p/soap-bubble/loop.mp4 /p/soap-bubble/loop.webm"></video></span>
+<span class="shade" aria-hidden="true"></span>
+<span class="views" title="1,038 on the site + 44,798 on X
+published 1 Oct 2026"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg><b>46k</b></span>
+<span class="title">Soap Bubble</span>
+<span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+</a>
+
+</article>
+<article class="card" data-slug="river-bend" data-date="2026-09-27" data-cat="Explainers" data-tags="geology|water" data-size="" data-views="480532" data-x="470705">
+<a class="hit" href="https://sael.net/river-bend" data-umami-event="open-project" data-umami-event-project="river-bend">
+<span class="media"><img src="/p/river-bend/poster.webp" alt="" loading="lazy" decoding="async"><video muted loop playsinline preload="none" aria-hidden="true" data-src="/p/river-bend/loop.mp4 /p/river-bend/loop.webm"></video></span>
+<span class="shade" aria-hidden="true"></span>
+<span class="views" title="9,827 on the site + 470,705 on X
+published 29 Sept 2026"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg><b>481k</b></span>
+<span class="title">River Bend</span>
+<span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+</a>
+
+</article>
+<article class="card" data-slug="heart-pump" data-date="2026-09-27" data-cat="Explainers" data-tags="biology|anatomy" data-size="" data-views="44449" data-x="42455">
+<a class="hit" href="https://sael.net/heart-pump" data-umami-event="open-project" data-umami-event-project="heart-pump">
+<span class="media"><img src="/p/heart-pump/poster.webp" alt="" loading="lazy" decoding="async"><video muted loop playsinline preload="none" aria-hidden="true" data-src="/p/heart-pump/loop.mp4 /p/heart-pump/loop.webm"></video></span>
+<span class="shade" aria-hidden="true"></span>
+<span class="views" title="1,994 on the site + 42,455 on X
+published 29 Sept 2026"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg><b>44k</b></span>
+<span class="title">Heart Pump</span>
+<span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+</a>
+
+</article>
+<article class="card" data-slug="bike-brake" data-date="2026-09-27" data-cat="Explainers" data-tags="mechanics|bikes" data-size="" data-views="19459" data-x="18685">
+<a class="hit" href="https://sael.net/bike-brake" data-umami-event="open-project" data-umami-event-project="bike-brake">
+<span class="media"><img src="/p/bike-brake/poster.webp" alt="" loading="lazy" decoding="async"><video muted loop playsinline preload="none" aria-hidden="true" data-src="/p/bike-brake/loop.mp4 /p/bike-brake/loop.webm"></video></span>
+<span class="shade" aria-hidden="true"></span>
+<span class="views" title="774 on the site + 18,685 on X
+published 5 Oct 2026"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg><b>19k</b></span>
+<span class="title">Bike Brake</span>
+<span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+</a>
+
+</article>
+<article class="card" data-slug="interior" data-date="2026-09-27" data-cat="Design" data-tags="interiors|light" data-size="" data-views="289470" data-x="273141">
+<a class="hit" href="https://sael.net/interior" data-umami-event="open-project" data-umami-event-project="interior">
+<span class="media"><img src="/p/interior/poster.webp" alt="" loading="lazy" decoding="async"><video muted loop playsinline preload="none" aria-hidden="true" data-src="/p/interior/loop.webm /p/interior/loop.mp4"></video></span>
+<span class="shade" aria-hidden="true"></span>
+<span class="views" title="16,329 on the site + 273,141 on X
+published 27 Sept 2026"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg><b>289k</b></span>
+<span class="title">Set the Mood</span>
+<span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+</a>
+
+</article>
+<article class="card" data-slug="internet" data-date="2026-09-27" data-cat="Explainers" data-tags="networks" data-size="" data-views="27108" data-x="23872">
+<a class="hit" href="https://sael.net/internet" data-umami-event="open-project" data-umami-event-project="internet">
+<span class="media"><img src="/p/internet/poster.webp" alt="" loading="lazy" decoding="async"><video muted loop playsinline preload="none" aria-hidden="true" data-src="/p/internet/loop.webm /p/internet/loop.mp4"></video></span>
+<span class="shade" aria-hidden="true"></span>
+<span class="views" title="3,236 on the site + 23,872 on X
+published 30 Sept 2026"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg><b>27k</b></span>
+<span class="title">How the Internet Works</span>
+<span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+</a>
+
+</article>
+<article class="card" data-slug="a-muse-ment" data-date="2026-09-25" data-cat="Worlds" data-tags="crowd|social" data-size="1x2" data-views="11910" data-x="10200">
+<a class="hit" href="https://sael.net/a-muse-ment" data-umami-event="open-project" data-umami-event-project="a-muse-ment">
+<span class="media"><img src="/p/a-muse-ment/poster.webp" alt="" loading="lazy" decoding="async"><video muted loop playsinline preload="none" aria-hidden="true" data-src="/p/a-muse-ment/loop.mp4 /p/a-muse-ment/loop.webm"></video></span>
+<span class="shade" aria-hidden="true"></span>
+<span class="views" title="1,710 on the site + 10,200 on X
+published 25 Sept 2026"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg><b>12k</b></span>
+<span class="title">X Muse</span>
+<span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+</a>
+
+</article>
+<article class="card" data-slug="traffic" data-date="2026-09-24" data-cat="Explainers" data-tags="systems|cars" data-size="" data-views="17365" data-x="15894">
+<a class="hit" href="https://sael.net/traffic" data-umami-event="open-project" data-umami-event-project="traffic">
+<span class="media"><img src="/p/traffic/poster.webp" alt="" loading="lazy" decoding="async"><video muted loop playsinline preload="none" aria-hidden="true" data-src="/p/traffic/loop.mp4 /p/traffic/loop.webm"></video></span>
+<span class="shade" aria-hidden="true"></span>
+<span class="views" title="1,471 on the site + 15,894 on X
+published 1 Oct 2026"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg><b>17k</b></span>
+<span class="title">Who Gets the Green?</span>
+<span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+</a>
+
+</article>
+<article class="card" data-slug="ai-museum" data-date="2026-09-24" data-cat="Worlds" data-tags="museum|timeline" data-size="" data-views="38231" data-x="33823">
+<a class="hit" href="https://sael.net/ai-museum" data-umami-event="open-project" data-umami-event-project="ai-museum">
+<span class="media"><img src="/p/ai-museum/poster.webp" alt="" loading="lazy" decoding="async"><video muted loop playsinline preload="none" aria-hidden="true" data-src="/p/ai-museum/loop.mp4 /p/ai-museum/loop.webm"></video></span>
+<span class="shade" aria-hidden="true"></span>
+<span class="views" title="4,408 on the site + 33,823 on X
+published 24 Sept 2026"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg><b>38k</b></span>
+<span class="title">Model Museum</span>
+<span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+</a>
+
+</article>
+<article class="card" data-slug="data-center" data-date="2026-09-23" data-cat="Explainers" data-tags="diorama|infrastructure" data-size="" data-views="83882" data-x="79370">
+<a class="hit" href="https://sael.net/data-center" data-umami-event="open-project" data-umami-event-project="data-center">
+<span class="media"><img src="/p/data-center/poster.webp" alt="" loading="lazy" decoding="async"><video muted loop playsinline preload="none" aria-hidden="true" data-src="/p/data-center/loop.mp4 /p/data-center/loop.webm"></video></span>
+<span class="shade" aria-hidden="true"></span>
+<span class="views" title="4,512 on the site + 79,370 on X
+published 23 Sept 2026"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg><b>84k</b></span>
+<span class="title">Inside an AI Data Center</span>
+<span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+</a>
+
+</article>
+<article class="card" data-slug="plane-of-focus" data-date="2026-09-23" data-cat="Explainers" data-tags="optics|camera" data-size="2x2" data-views="3582540" data-x="3514195">
+<a class="hit" href="https://sael.net/plane-of-focus" data-umami-event="open-project" data-umami-event-project="plane-of-focus">
+<span class="media"><img src="/p/plane-of-focus/poster.webp" alt="" loading="lazy" decoding="async"><video muted loop playsinline preload="none" aria-hidden="true" data-src="/p/plane-of-focus/loop.mp4 /p/plane-of-focus/loop.webm"></video></span>
+<span class="shade" aria-hidden="true"></span>
+<span class="views" title="68,345 on the site + 3,514,195 on X
+published 23 Sept 2026"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg><b>3.6M</b></span>
+<span class="title">The Plane of Focus</span>
+<span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+</a>
+
+</article>
+<article class="card" data-slug="model-monsters" data-date="2026-09-22" data-cat="Worlds" data-tags="leaderboard|creatures" data-size="" data-views="26417" data-x="18750">
+<a class="hit" href="https://sael.net/model-monsters" data-umami-event="open-project" data-umami-event-project="model-monsters">
+<span class="media"><img src="/p/model-monsters/poster.webp" alt="" loading="lazy" decoding="async"><video muted loop playsinline preload="none" aria-hidden="true" data-src="/p/model-monsters/loop.mp4 /p/model-monsters/loop.webm"></video></span>
+<span class="shade" aria-hidden="true"></span>
+<span class="views" title="7,667 on the site + 18,750 on X
+published 22 Sept 2026"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg><b>26k</b></span>
+<span class="title">Model Monsters</span>
+<span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+</a>
+
+</article>
+<article class="card" data-slug="final-boss" data-date="2026-09-21" data-cat="Worlds" data-tags="diorama|meme" data-size="" data-views="34072" data-x="29436">
+<a class="hit" href="https://sael.net/final-boss" data-umami-event="open-project" data-umami-event-project="final-boss">
+<span class="media"><img src="/p/final-boss/poster.webp" alt="" loading="lazy" decoding="async"><video muted loop playsinline preload="none" aria-hidden="true" data-src="/p/final-boss/loop.mp4 /p/final-boss/loop.webm"></video></span>
+<span class="shade" aria-hidden="true"></span>
+<span class="views" title="4,636 on the site + 29,436 on X
+published 22 Sept 2026"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg><b>34k</b></span>
+<span class="title">The Final Boss</span>
+<span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+</a>
+
+</article>
+<article class="card" data-slug="ai-office" data-date="2026-09-21" data-cat="Worlds" data-tags="diorama|benchmarks" data-size="2x1" data-views="17324" data-x="14153">
+<a class="hit" href="https://sael.net/ai-office" data-umami-event="open-project" data-umami-event-project="ai-office">
+<span class="media"><img src="/p/ai-office/poster.webp" alt="" loading="lazy" decoding="async"><video muted loop playsinline preload="none" aria-hidden="true" data-src="/p/ai-office/loop.mp4 /p/ai-office/loop.webm"></video></span>
+<span class="shade" aria-hidden="true"></span>
+<span class="views" title="3,171 on the site + 14,153 on X
+published 21 Sept 2026"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg><b>17k</b></span>
+<span class="title">The AI Office</span>
+<span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+</a>
+
+</article>
+<article class="card" data-slug="cube-graph" data-date="2026-09-20" data-cat="" data-tags="maths|puzzle" data-size="" data-views="48616" data-x="44422">
+<a class="hit" href="https://sael.net/cube-graph" data-umami-event="open-project" data-umami-event-project="cube-graph">
+<span class="media"><img src="/p/cube-graph/poster.webp" alt="" loading="lazy" decoding="async"><video muted loop playsinline preload="none" aria-hidden="true" data-src="/p/cube-graph/loop.mp4 /p/cube-graph/loop.webm"></video></span>
+<span class="shade" aria-hidden="true"></span>
+<span class="views" title="4,194 on the site + 44,422 on X
+published 20 Sept 2026"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg><b>49k</b></span>
+<span class="title">Cube Graph</span>
+<span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+</a>
+
+</article>
+<article class="card" data-slug="token-town" data-date="2026-09-16" data-cat="Worlds" data-tags="diorama|live data" data-size="2x1" data-views="238404" data-x="224782">
+<a class="hit" href="https://sael.net/token-town" data-umami-event="open-project" data-umami-event-project="token-town">
+<span class="media"><img src="/p/token-town/poster.webp" alt="" loading="lazy" decoding="async"><video muted loop playsinline preload="none" aria-hidden="true" data-src="/p/token-town/loop.mp4 /p/token-town/loop.webm"></video></span>
+<span class="shade" aria-hidden="true"></span>
+<span class="views" title="13,622 on the site + 224,782 on X
+published 18 Sept 2026"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg><b>238k</b></span>
+<span class="title">Token Town</span>
+<span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+</a>
+
+</article>
+<article class="card" data-slug="prismatic" data-date="2026-09-14" data-cat="" data-tags="optics|light" data-size="" data-views="3397" data-x="2658">
+<a class="hit" href="https://sael.net/prismatic" data-umami-event="open-project" data-umami-event-project="prismatic">
+<span class="media"><img src="/p/prismatic/poster.webp" alt="" loading="lazy" decoding="async"></span>
+<span class="shade" aria-hidden="true"></span>
+<span class="views" title="739 on the site + 2,658 on X
+published 14 Sept 2026"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg><b>3.4k</b></span>
+<span class="title">Prismatic</span>
+<span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+</a>
+
+</article>
+<article class="card" data-slug="airace" data-date="2026-09-13" data-cat="Worlds" data-tags="leaderboard|race" data-size="2x1" data-views="89074" data-x="73696">
+<a class="hit" href="https://airace.lol" data-umami-event="open-project" data-umami-event-project="airace">
+<span class="media"><img src="/p/airace/poster.webp" alt="" loading="lazy" decoding="async"><video muted loop playsinline preload="none" aria-hidden="true" data-src="/p/airace/loop.mp4 /p/airace/loop.webm"></video></span>
+<span class="shade" aria-hidden="true"></span>
+<span class="views" title="15,378 on the site + 73,696 on X
+published 13 Sept 2026"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg><b>89k</b></span>
+<span class="title">AI Race</span>
+<span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+</a>
+
+</article>
+<article class="card" data-slug="paris-inception" data-date="2026-09-07" data-cat="Worlds" data-tags="city|film" data-size="" data-views="36253" data-x="33355">
+<a class="hit" href="https://sael.net/paris-inception" data-umami-event="open-project" data-umami-event-project="paris-inception">
+<span class="media"><img src="/p/paris-inception/poster.webp" alt="" loading="lazy" decoding="async"><video muted loop playsinline preload="none" aria-hidden="true" data-src="/p/paris-inception/loop.mp4 /p/paris-inception/loop.webm"></video></span>
+<span class="shade" aria-hidden="true"></span>
+<span class="views" title="2,898 on the site + 33,355 on X
+published 7 Sept 2026"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg><b>36k</b></span>
+<span class="title">Inception&#39;s Paris</span>
+<span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+</a>
+
+</article>
+<article class="card" data-slug="terraform" data-date="2026-09-06" data-cat="" data-tags="simulation|planet" data-size="" data-views="2317" data-x="653">
+<a class="hit" href="https://sael.net/terraform" data-umami-event="open-project" data-umami-event-project="terraform">
+<span class="media"><img src="/p/terraform/poster.webp" alt="" loading="lazy" decoding="async"><video muted loop playsinline preload="none" aria-hidden="true" data-src="/p/terraform/loop.mp4 /p/terraform/loop.webm"></video></span>
+<span class="shade" aria-hidden="true"></span>
+<span class="views" title="1,664 on the site + 653 on X
+published 5 Sept 2026"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg><b>2.3k</b></span>
+<span class="title">Terraform</span>
+<span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+</a>
+
+</article>
+<article class="card" data-slug="swarm-floor" data-date="2026-09-04" data-cat="" data-tags="logistics|robots" data-size="" data-views="8708" data-x="7404">
+<a class="hit" href="https://sael.net/swarm-floor" data-umami-event="open-project" data-umami-event-project="swarm-floor">
+<span class="media"><img src="/p/swarm-floor/poster.webp" alt="" loading="lazy" decoding="async"><video muted loop playsinline preload="none" aria-hidden="true" data-src="/p/swarm-floor/loop.mp4 /p/swarm-floor/loop.webm"></video></span>
+<span class="shade" aria-hidden="true"></span>
+<span class="views" title="1,304 on the site + 7,404 on X
+published 4 Sept 2026"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg><b>8.7k</b></span>
+<span class="title">Swarm Floor Logistics</span>
+<span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+</a>
+
+</article>
+<article class="card" data-slug="dat-city" data-date="2026-07-06" data-cat="Data" data-tags="city|live data" data-size="" data-views="117714" data-x="94067">
+<a class="hit" href="https://dat.city" data-umami-event="open-project" data-umami-event-project="dat-city">
+<span class="media"><img src="/p/dat-city/poster.webp" alt="" loading="lazy" decoding="async"></span>
+<span class="shade" aria-hidden="true"></span>
+<span class="views" title="23,647 on the site + 94,067 on X
+published 6 Jul 2026"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg><b>118k</b></span>
+<span class="title">dat.city</span>
+<span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+</a>
+
+</article>
+<article class="card" data-slug="token-factory" data-date="2026-10-04" data-cat="Data" data-tags="live data|diorama" data-size="" data-views="79">
+<a class="hit" href="https://sael.net/token-factory" data-umami-event="open-project" data-umami-event-project="token-factory">
+<span class="media"><img src="/p/token-factory/poster.webp" alt="" loading="lazy" decoding="async"><video muted loop playsinline preload="none" aria-hidden="true" data-src="/p/token-factory/loop.mp4 /p/token-factory/loop.webm"></video></span>
+<span class="shade" aria-hidden="true"></span>
+<span class="views" title="79 on the site
+published 4 Oct 2026"></span>
+<span class="title">Token Factory</span>
+<span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+</a>
+
+</article>
+<article class="card" data-slug="mearim-flood" data-date="2026-10-04" data-cat="Explainers" data-tags="water|city" data-size="" data-views="587">
+<a class="hit" href="https://sael.net/mearim-flood" data-umami-event="open-project" data-umami-event-project="mearim-flood">
+<span class="media"><img src="/p/mearim-flood/poster.webp" alt="" loading="lazy" decoding="async"><video muted loop playsinline preload="none" aria-hidden="true" data-src="/p/mearim-flood/loop.mp4 /p/mearim-flood/loop.webm"></video></span>
+<span class="shade" aria-hidden="true"></span>
+<span class="views" title="587 on the site
+published 4 Oct 2026"></span>
+<span class="title">When the Mearim Rises</span>
+<span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+</a>
+
+</article>
+<article class="card" data-slug="robots" data-date="2026-10-04" data-cat="Play" data-tags="game|robots|tycoon" data-size="" data-views="79">
+<a class="hit" href="https://sael.net/robots" data-umami-event="open-project" data-umami-event-project="robots">
+<span class="media"><img src="/p/robots/poster.webp" alt="" loading="lazy" decoding="async"><video muted loop playsinline preload="none" aria-hidden="true" data-src="/p/robots/loop.mp4 /p/robots/loop.webm"></video></span>
+<span class="shade" aria-hidden="true"></span>
+<span class="views" title="79 on the site
+published 4 Oct 2026"></span>
+<span class="title">A Nation of Robots</span>
+<span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+</a>
+
+</article>
+<article class="card" data-slug="mirror-city" data-date="2026-10-04" data-cat="Data" data-tags="tokens|cost" data-size="" data-views="46">
+<a class="hit" href="https://sael.net/mirror-city" data-umami-event="open-project" data-umami-event-project="mirror-city">
+<span class="media"><img src="/p/mirror-city/poster.webp" alt="" loading="lazy" decoding="async"><video muted loop playsinline preload="none" aria-hidden="true" data-src="/p/mirror-city/loop.mp4 /p/mirror-city/loop.webm"></video></span>
+<span class="shade" aria-hidden="true"></span>
+<span class="views" title="46 on the site
+published 4 Oct 2026"></span>
+<span class="title">The Reflection</span>
+<span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+</a>
+
+</article>
+<article class="card" data-slug="supertankers" data-date="2026-10-04" data-cat="Data" data-tags="tokens|requests" data-size="" data-views="55">
+<a class="hit" href="https://sael.net/supertankers" data-umami-event="open-project" data-umami-event-project="supertankers">
+<span class="media"><img src="/p/supertankers/poster.webp" alt="" loading="lazy" decoding="async"><video muted loop playsinline preload="none" aria-hidden="true" data-src="/p/supertankers/loop.mp4 /p/supertankers/loop.webm"></video></span>
+<span class="shade" aria-hidden="true"></span>
+<span class="views" title="55 on the site
+published 4 Oct 2026"></span>
+<span class="title">Supertankers and Dinghies</span>
+<span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+</a>
+
+</article>
+<article class="card" data-slug="long-session" data-date="2026-10-04" data-cat="Data" data-tags="cost|sessions" data-size="" data-views="61">
+<a class="hit" href="https://sael.net/long-session" data-umami-event="open-project" data-umami-event-project="long-session">
+<span class="media"><img src="/p/long-session/poster.webp" alt="" loading="lazy" decoding="async"><video muted loop playsinline preload="none" aria-hidden="true" data-src="/p/long-session/loop.webm /p/long-session/loop.mp4"></video></span>
+<span class="shade" aria-hidden="true"></span>
+<span class="views" title="61 on the site
+published 4 Oct 2026"></span>
+<span class="title">The Long Session</span>
+<span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+</a>
+
+</article>
+<article class="card" data-slug="token-delta" data-date="2026-10-04" data-cat="Data" data-tags="tokens|models" data-size="" data-views="151">
+<a class="hit" href="https://sael.net/token-delta" data-umami-event="open-project" data-umami-event-project="token-delta">
+<span class="media"><img src="/p/token-delta/poster.webp" alt="" loading="lazy" decoding="async"><video muted loop playsinline preload="none" aria-hidden="true" data-src="/p/token-delta/loop.mp4 /p/token-delta/loop.webm"></video></span>
+<span class="shade" aria-hidden="true"></span>
+<span class="views" title="151 on the site
+published 4 Oct 2026"></span>
+<span class="title">Token Delta</span>
+<span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+</a>
+
+</article>
+<article class="card" data-slug="speaker-cone" data-date="2026-09-27" data-cat="Explainers" data-tags="sound|physics" data-size="" data-views="395">
+<a class="hit" href="https://sael.net/speaker-cone" data-umami-event="open-project" data-umami-event-project="speaker-cone">
+<span class="media"><img src="/p/speaker-cone/poster.webp" alt="" loading="lazy" decoding="async"><video muted loop playsinline preload="none" aria-hidden="true" data-src="/p/speaker-cone/loop.mp4 /p/speaker-cone/loop.webm"></video></span>
+<span class="shade" aria-hidden="true"></span>
+<span class="views" title="395 on the site
+published 27 Sept 2026"></span>
+<span class="title">Speaker Cone</span>
+<span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+</a>
+
+</article>
+<article class="card" data-slug="siphon-lab" data-date="2026-09-27" data-cat="Explainers" data-tags="fluids|physics" data-size="" data-views="447">
+<a class="hit" href="https://sael.net/siphon-lab" data-umami-event="open-project" data-umami-event-project="siphon-lab">
+<span class="media"><img src="/p/siphon-lab/poster.webp" alt="" loading="lazy" decoding="async"><video muted loop playsinline preload="none" aria-hidden="true" data-src="/p/siphon-lab/loop.mp4 /p/siphon-lab/loop.webm"></video></span>
+<span class="shade" aria-hidden="true"></span>
+<span class="views" title="447 on the site
+published 27 Sept 2026"></span>
+<span class="title">Siphon Lab</span>
+<span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+</a>
+
+</article>
+<article class="card" data-slug="maglev-track" data-date="2026-09-27" data-cat="Explainers" data-tags="magnets|physics" data-size="" data-views="408">
+<a class="hit" href="https://sael.net/maglev-track" data-umami-event="open-project" data-umami-event-project="maglev-track">
+<span class="media"><img src="/p/maglev-track/poster.webp" alt="" loading="lazy" decoding="async"><video muted loop playsinline preload="none" aria-hidden="true" data-src="/p/maglev-track/loop.mp4 /p/maglev-track/loop.webm"></video></span>
+<span class="shade" aria-hidden="true"></span>
+<span class="views" title="408 on the site
+published 27 Sept 2026"></span>
+<span class="title">Maglev Track</span>
+<span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+</a>
+
+</article>
+<article class="card" data-slug="hummingbird-wing" data-date="2026-09-27" data-cat="Explainers" data-tags="biology|flight" data-size="" data-views="300">
+<a class="hit" href="https://sael.net/hummingbird-wing" data-umami-event="open-project" data-umami-event-project="hummingbird-wing">
+<span class="media"><img src="/p/hummingbird-wing/poster.webp" alt="" loading="lazy" decoding="async"><video muted loop playsinline preload="none" aria-hidden="true" data-src="/p/hummingbird-wing/loop.mp4 /p/hummingbird-wing/loop.webm"></video></span>
+<span class="shade" aria-hidden="true"></span>
+<span class="views" title="300 on the site
+published 27 Sept 2026"></span>
+<span class="title">Hummingbird Wing</span>
+<span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+</a>
+
+</article>
+<article class="card" data-slug="lightning-path" data-date="2026-09-27" data-cat="Explainers" data-tags="electricity|weather" data-size="" data-views="506">
+<a class="hit" href="https://sael.net/lightning-path" data-umami-event="open-project" data-umami-event-project="lightning-path">
+<span class="media"><img src="/p/lightning-path/poster.webp" alt="" loading="lazy" decoding="async"><video muted loop playsinline preload="none" aria-hidden="true" data-src="/p/lightning-path/loop.mp4 /p/lightning-path/loop.webm"></video></span>
+<span class="shade" aria-hidden="true"></span>
+<span class="views" title="506 on the site
+published 27 Sept 2026"></span>
+<span class="title">Lightning Path</span>
+<span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+</a>
+
+</article>
+<article class="card" data-slug="ice-cream-crystal" data-date="2026-09-27" data-cat="Explainers" data-tags="chemistry|food" data-size="" data-views="299">
+<a class="hit" href="https://sael.net/ice-cream-crystal" data-umami-event="open-project" data-umami-event-project="ice-cream-crystal">
+<span class="media"><img src="/p/ice-cream-crystal/poster.webp" alt="" loading="lazy" decoding="async"><video muted loop playsinline preload="none" aria-hidden="true" data-src="/p/ice-cream-crystal/loop.mp4 /p/ice-cream-crystal/loop.webm"></video></span>
+<span class="shade" aria-hidden="true"></span>
+<span class="views" title="299 on the site
+published 27 Sept 2026"></span>
+<span class="title">Ice Cream Crystal</span>
+<span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+</a>
+
+</article>
+<article class="card" data-slug="pendulum-rhythm" data-date="2026-09-27" data-cat="Explainers" data-tags="physics|rhythm" data-size="" data-views="347">
+<a class="hit" href="https://sael.net/pendulum-rhythm" data-umami-event="open-project" data-umami-event-project="pendulum-rhythm">
+<span class="media"><img src="/p/pendulum-rhythm/poster.webp" alt="" loading="lazy" decoding="async"><video muted loop playsinline preload="none" aria-hidden="true" data-src="/p/pendulum-rhythm/loop.mp4 /p/pendulum-rhythm/loop.webm"></video></span>
+<span class="shade" aria-hidden="true"></span>
+<span class="views" title="347 on the site
+published 27 Sept 2026"></span>
+<span class="title">Pendulum Rhythm</span>
+<span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+</a>
+
+</article>
+<article class="card" data-slug="aurora-chamber" data-date="2026-09-27" data-cat="Explainers" data-tags="space|weather" data-size="" data-views="381">
+<a class="hit" href="https://sael.net/aurora-chamber" data-umami-event="open-project" data-umami-event-project="aurora-chamber">
+<span class="media"><img src="/p/aurora-chamber/poster.webp" alt="" loading="lazy" decoding="async"><video muted loop playsinline preload="none" aria-hidden="true" data-src="/p/aurora-chamber/loop.mp4 /p/aurora-chamber/loop.webm"></video></span>
+<span class="shade" aria-hidden="true"></span>
+<span class="views" title="381 on the site
+published 27 Sept 2026"></span>
+<span class="title">Aurora Chamber</span>
+<span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+</a>
+
+</article>
+<article class="card" data-slug="tidal-clock" data-date="2026-09-27" data-cat="Explainers" data-tags="astronomy|water" data-size="" data-views="359">
+<a class="hit" href="https://sael.net/tidal-clock" data-umami-event="open-project" data-umami-event-project="tidal-clock">
+<span class="media"><img src="/p/tidal-clock/poster.webp" alt="" loading="lazy" decoding="async"><video muted loop playsinline preload="none" aria-hidden="true" data-src="/p/tidal-clock/loop.mp4 /p/tidal-clock/loop.webm"></video></span>
+<span class="shade" aria-hidden="true"></span>
+<span class="views" title="359 on the site
+published 27 Sept 2026"></span>
+<span class="title">Tidal Clock</span>
+<span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+</a>
+
+</article>
+<article class="card" data-slug="window-draft" data-date="2026-09-27" data-cat="Explainers" data-tags="heat|buildings" data-size="" data-views="413">
+<a class="hit" href="https://sael.net/window-draft" data-umami-event="open-project" data-umami-event-project="window-draft">
+<span class="media"><img src="/p/window-draft/poster.webp" alt="" loading="lazy" decoding="async"><video muted loop playsinline preload="none" aria-hidden="true" data-src="/p/window-draft/loop.mp4 /p/window-draft/loop.webm"></video></span>
+<span class="shade" aria-hidden="true"></span>
+<span class="views" title="413 on the site
+published 27 Sept 2026"></span>
+<span class="title">Window Draft</span>
+<span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+</a>
+
+</article>
+<article class="card" data-slug="compass-field" data-date="2026-09-27" data-cat="Explainers" data-tags="magnets|navigation" data-size="" data-views="347">
+<a class="hit" href="https://sael.net/compass-field" data-umami-event="open-project" data-umami-event-project="compass-field">
+<span class="media"><img src="/p/compass-field/poster.webp" alt="" loading="lazy" decoding="async"><video muted loop playsinline preload="none" aria-hidden="true" data-src="/p/compass-field/loop.mp4 /p/compass-field/loop.webm"></video></span>
+<span class="shade" aria-hidden="true"></span>
+<span class="views" title="347 on the site
+published 27 Sept 2026"></span>
+<span class="title">Compass Field</span>
+<span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+</a>
+
+</article>
+<article class="card" data-slug="skate-blade" data-date="2026-09-27" data-cat="Explainers" data-tags="friction|ice" data-size="" data-views="363">
+<a class="hit" href="https://sael.net/skate-blade" data-umami-event="open-project" data-umami-event-project="skate-blade">
+<span class="media"><img src="/p/skate-blade/poster.webp" alt="" loading="lazy" decoding="async"><video muted loop playsinline preload="none" aria-hidden="true" data-src="/p/skate-blade/loop.mp4 /p/skate-blade/loop.webm"></video></span>
+<span class="shade" aria-hidden="true"></span>
+<span class="views" title="363 on the site
+published 27 Sept 2026"></span>
+<span class="title">Skate Blade</span>
+<span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+</a>
+
+</article>
+<article class="card" data-slug="wind-tunnel" data-date="2026-09-27" data-cat="Explainers" data-tags="aerodynamics|cars" data-size="" data-views="420">
+<a class="hit" href="https://sael.net/wind-tunnel" data-umami-event="open-project" data-umami-event-project="wind-tunnel">
+<span class="media"><img src="/p/wind-tunnel/poster.webp" alt="" loading="lazy" decoding="async"><video muted loop playsinline preload="none" aria-hidden="true" data-src="/p/wind-tunnel/loop.mp4 /p/wind-tunnel/loop.webm"></video></span>
+<span class="shade" aria-hidden="true"></span>
+<span class="views" title="420 on the site
+published 27 Sept 2026"></span>
+<span class="title">Cheat the Wind</span>
+<span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+</a>
+
+</article>
+<article class="card" data-slug="diff" data-date="2026-09-25" data-cat="Explainers" data-tags="mechanics|cars" data-size="" data-views="481">
+<a class="hit" href="https://sael.net/diff" data-umami-event="open-project" data-umami-event-project="diff">
+<span class="media"><img src="/p/diff/poster.webp" alt="" loading="lazy" decoding="async"><video muted loop playsinline preload="none" aria-hidden="true" data-src="/p/diff/loop.mp4 /p/diff/loop.webm"></video></span>
+<span class="shade" aria-hidden="true"></span>
+<span class="views" title="481 on the site
+published 25 Sept 2026"></span>
+<span class="title">Two Wheels, One Engine</span>
+<span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+</a>
+
+</article>
+<article class="card" data-slug="sky" data-date="2026-09-08" data-cat="Worlds" data-tags="ambient|sky" data-size="" data-views="3377">
+<a class="hit" href="https://sael.net/sky" data-umami-event="open-project" data-umami-event-project="sky">
+<span class="media"><img src="/p/sky/poster.webp" alt="" loading="lazy" decoding="async"><video muted loop playsinline preload="none" aria-hidden="true" data-src="/p/sky/loop.mp4 /p/sky/loop.webm"></video></span>
+<span class="shade" aria-hidden="true"></span>
+<span class="views" title="3,377 on the site
+published 8 Sept 2026"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg><b>3.4k</b></span>
+<span class="title">Sky</span>
+<span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+</a>
+
+</article>
+</div>
+</main>
+
+<div class="say" id="say" aria-hidden="true">
+ <div class="sheet" role="dialog" aria-modal="true" aria-labelledby="say-h">
+  <div class="head">
+   <h2 id="say-h">What should exist next?</h2>
+   <p class="lede">A topic, an app, a change, anything. The more you tell me the better I can build it, though a line is welcome too.</p>
+   <button class="x" type="button" aria-label="Close">✕</button>
+  </div>
+  <form id="say-f" novalidate>
+   <fieldset>
+    <legend>You are</legend>
+    <div class="who">
+     <label><input type="radio" name="who" value="a developer"><span><svg viewBox="0 0 24 24"><path d="m8 7-5 5 5 5M16 7l5 5-5 5"/></svg>Developer</span></label>
+     <label><input type="radio" name="who" value="a teacher"><span><svg viewBox="0 0 24 24"><rect x="3" y="3.5" width="18" height="12.5" rx="1.2"/><path d="M7 7.5h7M7 11h4"/><path d="M12 16v2M8.5 21.5 12 18l3.5 3.5"/></svg>Teacher</span></label>
+     <label><input type="radio" name="who" value="a student"><span><svg viewBox="0 0 24 24"><path d="m12 4 9 5-9 5-9-5 9-5Z"/><path d="M7 11v5c0 1 2.2 2.5 5 2.5s5-1.5 5-2.5v-5"/></svg>Student</span></label>
+     <label><input type="radio" name="who" value="a scientist"><span><svg viewBox="0 0 24 24"><path d="M9 3v6l-5 9a2 2 0 0 0 1.8 3h12.4A2 2 0 0 0 20 18l-5-9V3M8 3h8M7.5 14h9"/></svg>Scientist</span></label>
+     <label><input type="radio" name="who" value="a designer"><span><svg viewBox="0 0 24 24"><path d="M4 20 8.5 6.2a1 1 0 0 1 .6-.6l4.6-1.5a1 1 0 0 1 1.1.3l4.2 4.9a1 1 0 0 1 .1 1.1l-2.3 4.3a1 1 0 0 1-.6.5L4 20Z"/><path d="m4 20 7.3-7.3"/><circle cx="12.8" cy="11.2" r="1.6"/></svg>Designer</span></label>
+     <label><input type="radio" name="who" value="just curious"><span><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9.2 9.4a2.9 2.9 0 1 1 3.9 2.7c-.7.3-1.1.9-1.1 1.6v.5"/><circle cx="12" cy="17.4" r=".85" fill="currentColor" stroke="none"/></svg>Curious</span></label>
+    </div>
+    <div class="who2" id="say-who2w" hidden>
+     <input type="text" id="say-who2" placeholder="What do you do?" maxlength="60" autocomplete="organization-title">
+     <span class="cap">Optional. I am curious about you too.</span>
+    </div>
+   </fieldset>
+   <fieldset>
+    <legend>What would help you?</legend>
+    <textarea id="say-msg" rows="4" maxlength="2000" aria-label="Your idea"></textarea>
+    <p class="hint" id="say-hint">What you would use it for, what is missing, what you are stuck on.</p>
+   </fieldset>
+   <fieldset>
+    <legend>Name and email<em>, both optional</em></legend>
+    <div class="pair">
+     <input type="text" id="say-name" placeholder="Your name" maxlength="60" autocomplete="name">
+     <input type="email" id="say-mail" placeholder="you@example.com" autocomplete="email" inputmode="email">
+    </div>
+   </fieldset>
+   <div class="opts">
+    <div class="opt">
+     <label class="okbox"><input type="checkbox" id="say-share"><span class="box"></span><span class="t"><b>Ryan can post about this idea on X.</b> Never your email.</span></label>
+     <div class="more" id="say-xhw" hidden>
+      <span class="at"><input type="text" id="say-xh" placeholder="your X handle" maxlength="40" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Your X handle"></span>
+      <span class="cap">Optional, so I can tag you when I post it.</span>
+     </div>
+    </div>
+    <div class="opt">
+     <label class="okbox"><input type="checkbox" id="say-news"><span class="box"></span><span class="t"><b>Send me the newsletter.</b> A few emails a year, when something new is built.</span></label>
+     <div class="more" id="say-newsw" hidden><span class="cap need">Add your email above and you are on the list.</span></div>
+    </div>
+   </div>
+   <div class="pot" aria-hidden="true"><label>Website<input type="text" id="say-pot" name="website" tabindex="-1" autocomplete="off"></label></div>
+   <p class="err" id="say-err" hidden></p>
+   <div class="foot">
+    <button class="cta send" type="submit" id="say-send" disabled>Send</button>
+   </div>
+   <p class="note">This lands in my inbox and nowhere else. You only join the <a href="/newsletter">newsletter</a> if you tick the box.</p>
+  </form>
+  <div class="done" id="say-done" hidden>
+   <div class="tick">✓</div>
+   <h3>Got it, thank you</h3>
+   <p id="say-done-p">I read every one of these myself.</p>
+   <div class="row">
+    <a class="cta" href="https://x.com/ryansael" target="_blank" rel="noopener" data-umami-event="say-follow">Follow on X</a>
+    <a class="cta second" href="/newsletter">Hear when it ships</a>
+    <button class="cta second" type="button" id="say-close2">Back to the works</button>
+   </div>
+  </div>
+ </div>
+</div>
+</div>
+
+<script>
+const $$=(q)=>[...document.querySelectorAll(q)];const grid=document.querySelector(".grid");
+const fmt=(n) => (n >= 1e6 ? (n / 1e6).toFixed(n < 1e7 ? 1 : 0) + "M" : n >= 1e3 ? (n / 1e3).toFixed(n < 1e4 ? 1 : 0).replace(/\.0$/, "") + "k" : String(n || 0));const EYE="<svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12Z\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/></svg>";
+// soft synthesized UI sounds (no files): a tick on hover, a tock on press; muted state remembered per visitor
+const S={on:true,ac:null,last:0};try{S.on=localStorage.getItem("sael-sound")!=="0";}catch{}
+const snd=document.querySelector(".snd");snd.setAttribute("aria-pressed",S.on);
+function tone(f,d,g,type="sine",sweep=.55){if(!S.on||!S.ac||S.ac.state!=="running")return;const t=S.ac.currentTime,o=S.ac.createOscillator(),v=S.ac.createGain(),lp=S.ac.createBiquadFilter();
+lp.type="lowpass";lp.frequency.value=f*2.2;o.type=type;o.frequency.setValueAtTime(f,t);o.frequency.exponentialRampToValueAtTime(f*sweep,t+d);
+v.gain.setValueAtTime(0.0001,t);v.gain.exponentialRampToValueAtTime(g,t+.004);v.gain.exponentialRampToValueAtTime(0.0001,t+d);o.connect(lp).connect(v).connect(S.ac.destination);o.start(t);o.stop(t+d+.02);}
+const wake=()=>{try{S.ac=S.ac||new(window.AudioContext||window.webkitAudioContext)();if(S.ac.state==="suspended")S.ac.resume();}catch{}};
+addEventListener("pointerdown",wake,{capture:true});addEventListener("keydown",wake,{capture:true});
+const tick=()=>{const n=performance.now();if(n-S.last<45)return;S.last=n;tone(2600,.03,.025);},tock=()=>tone(640,.09,.09,"triangle",.5),clack=()=>tone(1500,.05,.05,"triangle",.7);
+snd.onclick=()=>{S.on=!S.on;snd.setAttribute("aria-pressed",S.on);try{localStorage.setItem("sael-sound",S.on?"1":"0");}catch{}wake();tone(S.on?1200:500,.08,.06,"triangle",S.on?1.6:.6);};
+const noteOff=(el)=>{try{return localStorage.getItem("sael-note-"+el.dataset.note)==="0";}catch{return false;}};
+{const dis=document.querySelector(".dis");if(dis)dis.querySelector("button").onclick=()=>{
+ dis.hidden=true;clack();try{localStorage.setItem("sael-note-"+dis.dataset.note,"0");}catch{}};}
+{const f=document.querySelector(".ask-box");if(f){const inp=f.querySelector("input"),go=f.querySelector(".ask-go"),msg=document.getElementById("ask-msg");
+ const REPO="https://github.com/rsael/visual-learning";
+ document.querySelectorAll(".ask-try button").forEach((b)=>b.onclick=()=>{inp.value=b.textContent;inp.focus();msg.hidden=true;clack();});
+ inp.oninput=()=>{msg.hidden=true;go.classList.remove("done");};
+ f.onsubmit=async(e)=>{e.preventDefault();const topic=inp.value.replace(/\s+/g," ").trim().replace(/[.?!]+$/,"");
+  if(!topic){f.classList.remove("ask-shake");void f.offsetWidth;f.classList.add("ask-shake");inp.focus();return;}
+  const text="Clone "+REPO+" and follow its AGENTS.md: build me a lab, review it against the collection, and submit it if it passes. The topic: "+topic+".";
+  try{await navigator.clipboard.writeText(text);}catch{const t=document.createElement("textarea");t.value=text;t.style.cssText="position:fixed;opacity:0";document.body.appendChild(t);t.select();document.execCommand("copy");t.remove();}
+  go.classList.add("done");go.querySelector(".t").textContent="Copied";msg.hidden=false;clack();
+  setTimeout(()=>{go.classList.remove("done");go.querySelector(".t").textContent="Copy prompt";},2200);};}}
+let tag="";let cat="",sort=cat?"views":"date";
+const setSort=(v)=>{sort=v;$$("[data-sort]").forEach((x)=>x.setAttribute("aria-pressed",x.dataset.sort===v));};
+setSort(sort);
+function lay(){const all=$$(".card");
+const inCat=(c)=>!cat||c.dataset.cat===cat;
+all.forEach((c)=>{c.hidden=!inCat(c)||(!!tag&&!(c.dataset.tags||"").split("|").includes(tag));});
+// the tag line follows the category: only tags that appear in it, most used first
+const box=document.querySelector(".tags");
+if(box){const count={};all.filter(inCat).forEach((c)=>(c.dataset.tags||"").split("|").filter(Boolean).forEach((t)=>count[t]=(count[t]||0)+1));
+const list=Object.entries(count).filter(([t,n])=>n>1||t===tag).sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0])).slice(0,14);
+box.innerHTML=list.length?list.map(([t])=>'<button data-tag="'+t+'" class="'+(t===tag?"on":"")+'">'+t+'</button>').join("<span>·</span>"):"";
+box.querySelectorAll("[data-tag]").forEach((b)=>b.onclick=()=>{tag=tag===b.dataset.tag?"":b.dataset.tag;clack();glide(lay);});}
+const cards=all.filter((c)=>!c.hidden);
+// in All, a work that has not been posted on X yet sits below the ones that have
+const sunk=(c)=>!cat&&!c.dataset.x?1:0;
+cards.sort((a,b)=>sunk(a)-sunk(b)||(sort==="views"?b.dataset.views-a.dataset.views:b.dataset.date.localeCompare(a.dataset.date)));
+cards.forEach((c)=>{c.classList.remove("big","wide","hero","tall");grid.appendChild(c);});
+const cn=document.querySelector(".count");if(cn)cn.textContent=cards.length+" work"+(cards.length===1?"":"s");
+const ban=document.querySelector(".banner");if(ban)ban.hidden=ban.dataset.for!==cat;
+const dis=document.querySelector(".dis");if(dis)dis.hidden=!dis.dataset.for.split(" ").includes(cat)||noteOff(dis);
+// size by audience: the most-viewed work gets a 2x2 tile and the next two a wide one, with dense
+// packing closing the holes. Narrow screens and short lists stay uniform.
+const cs=getComputedStyle(grid),n=cards.length,cols=cs.gridTemplateColumns.split(" ").length;
+// give every row a height derived from the column width, so a 2x1 or 1x2 tile keeps the 16:10 shape
+// even when it sits in a row with nothing else to stretch it
+const gap=parseFloat(cs.gap)||12,colW=(grid.clientWidth-gap*(cols-1))/cols;
+grid.style.setProperty("--row",Math.round(colW*10/16)+"px");
+if(cols<3||n<5){if(cols===2&&n%2===1&&cards[0])cards[0].classList.add("hero");return;}
+// pinned sizes win; the rest are weighted by views
+const SIZE={"2x2":"big","2x1":"wide","1x2":"tall","full":"hero"};
+const pinned=cards.filter((c)=>c.dataset.size);
+pinned.forEach((c)=>{const k=SIZE[c.dataset.size];if(k)c.classList.add(k);});
+const free=cards.filter((c)=>!c.dataset.size);
+const up=free.filter((c)=>!sunk(c));
+const byViews=(up.length?up:free).sort((a,b)=>b.dataset.views-a.dataset.views);
+const give=(c,k)=>c&&c.classList.add(k);
+if(!pinned.some((c)=>c.classList.contains("big"))){give(byViews[0],"big");give(byViews[1],"wide");give(byViews[2],"wide");}
+else{give(byViews[0],"wide");give(byViews[1],"wide");}
+}
+// No row-straightening pass: it could strip every tile back to 1x1 (pressing "auto" shrank the whole
+// grid). Dense packing already closes holes, and a short last row is normal.
+const glide=(fn)=>{const before=new Map($$(".card").map((c)=>[c,c.getBoundingClientRect()]));fn();
+before.forEach((r,c)=>{if(c.hidden)return;const n=c.getBoundingClientRect();const dx=r.left-n.left,dy=r.top-n.top;
+if(!dx&&!dy&&r.width===n.width)return;
+c.animate([{transform:"translate("+dx+"px,"+dy+"px)",opacity:r.width?1:0},{transform:"none",opacity:1}],{duration:440,easing:"cubic-bezier(.2,.8,.2,1)"});});};
+const pickCat=(v)=>{if(cat===v)return;cat=v;tag="";setSort(v?"views":"date");   // only the chips and the sidebar call this
+$$("[data-filter]").forEach((x)=>{const mine=x.dataset.filter===v;
+ if(x.tagName==="BUTTON")x.setAttribute("aria-pressed",mine);else x.classList.toggle("on",mine);});
+clack();glide(lay);
+const path=v?"/"+v.toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,""):"/";
+if(location.pathname!==path)history.pushState({cat:v},"",path+location.search);};
+history.replaceState({cat},"",location.pathname+location.search);   // the first entry needs to carry its category
+addEventListener("popstate",(e)=>{const v=e.state?.cat??"";if(v!==cat){cat=v;setSort(v?"views":"date");
+$$("[data-filter]").forEach((x)=>{const mine=x.dataset.filter===v;
+ if(x.tagName==="BUTTON")x.setAttribute("aria-pressed",mine);else x.classList.toggle("on",mine);});lay();}});
+$$("[data-filter]").forEach((b)=>b.addEventListener("click",(e)=>{e.preventDefault();pickCat(b.dataset.filter);}));
+// hysteresis: turn the fade on at 24px and off again below 6px, so a page resting near the
+// threshold (or a rubber-band scroll) cannot flick it on and off
+let faded=false;
+const onScroll=()=>{const y=scrollY;if(!faded&&y>24)faded=true;else if(faded&&y<6)faded=false;else return;
+document.body.classList.toggle("scrolled",faded);};
+addEventListener("scroll",onScroll,{passive:true});onScroll();
+$$("[data-sort]").forEach((b)=>b.onclick=()=>{if(sort===b.dataset.sort)return;sort=b.dataset.sort;$$("[data-sort]").forEach((x)=>x.setAttribute("aria-pressed",x===b));clack();
+const before=new Map($$(".card").map((c)=>[c,c.getBoundingClientRect()]));lay();
+// FLIP: cards glide to their new places instead of jumping
+before.forEach((r,c)=>{const n=c.getBoundingClientRect(),dx=r.left-n.left,dy=r.top-n.top;if(!dx&&!dy)return;c.animate([{transform:"translate("+dx+"px,"+dy+"px)"},{transform:"none"}],{duration:520,easing:"cubic-bezier(.2,.8,.2,1)"});});});
+lay();addEventListener("resize",()=>{clearTimeout(lay.t);lay.t=setTimeout(lay,120);});
+$$(".hit").forEach((h)=>{h.addEventListener("pointerenter",(e)=>{if(e.pointerType==="mouse")tick();});h.addEventListener("pointerdown",tock);});
+$$(".chip:not(.snd):not([data-sort])").forEach((c)=>c.addEventListener("pointerdown",clack));
+// loops: only load and play what is on screen; posters only for reduced motion or data saver
+const still=matchMedia("(prefers-reduced-motion: reduce)").matches||navigator.connection?.saveData;
+// Loops take turns. At most THREE play at once, only ones on screen, and every few seconds the
+// longest-running one hands its slot to the next card along. A wall of 40 videos playing together is
+// what made the page heavy; this keeps the movement without the heat.
+if(!still&&"IntersectionObserver"in window){
+const MAX=3,HOLD=6500;
+const seen=new Set(),playing=new Set();
+const arm=(v)=>{if(v.dataset.ready)return;v.dataset.ready=1;
+ v.innerHTML=v.dataset.src.split(" ").map((u)=>'<source src="'+u+'" type="'+(u.endsWith("webm")?'video/webm; codecs=vp9':'video/mp4')+'">').join("");
+ v.load();v.addEventListener("playing",()=>v.classList.add("on"));};   // not once: it fades in again on every turn
+const start=(v)=>{arm(v);playing.add(v);v.play().catch(()=>{});};
+const stop=(v)=>{playing.delete(v);v.classList.remove("on");v.pause();};
+const order=()=>$$(".media video").filter((v)=>seen.has(v)&&!v.closest(".card").hidden);
+function fill(){playing.forEach((v)=>{if(!seen.has(v)||v.closest(".card").hidden)stop(v);});
+ const pool=order();for(const v of pool){if(playing.size>=Math.min(MAX,pool.length))break;if(!playing.has(v))start(v);}}
+function pass(){const pool=order();if(pool.length<=MAX||!playing.size)return;
+ const out=playing.values().next().value;const i=pool.indexOf(out);stop(out);
+ for(let k=1;k<=pool.length;k++){const v=pool[(i+k)%pool.length];if(!playing.has(v)){start(v);break;}}}
+const io=new IntersectionObserver((es)=>{es.forEach((e)=>e.isIntersecting?seen.add(e.target):seen.delete(e.target));fill();},{threshold:.35});
+$$(".media video").forEach((v)=>io.observe(v));
+setInterval(()=>{if(document.hidden)return;fill();pass();},HOLD);
+// hovering a card jumps it to the front of the queue, whatever the rotation is doing
+$$(".card").forEach((c)=>c.addEventListener("pointerenter",()=>{const v=c.querySelector(".media video");
+ if(!v||playing.has(v)||!seen.has(v))return;if(playing.size>=MAX)stop(playing.values().next().value);start(v);},{passive:true}));
+document.addEventListener("visibilitychange",()=>{if(document.hidden)[...playing].forEach(stop);else fill();});
+}
+// counts: the page ships with a snapshot; refresh it, and "viewing" every minute while visible
+// The two endpoints are painted independently: Umami is the slow one, so the X numbers (and the
+// numbers already on the page) never wait for it. Baked figures stand in until each answer lands.
+let SN=null,XN=null;
+function paint(){let sum=0;
+$$(".card").forEach((c)=>{const s=SN&&SN.projects[c.dataset.slug];
+const bx=c.dataset.x?+c.dataset.x:0;
+const x=XN&&XN.projects[c.dataset.slug]?XN.projects[c.dataset.slug].views:bx;
+const site=s?(s.views||0):Math.max(0,(+c.dataset.views||0)-bx);
+const v=site+x;sum+=v;c.dataset.views=v;
+const el=c.querySelector(".views");
+// same rule as the server: a number appears once the work is on X or past a thousand visits
+el.innerHTML=(c.hasAttribute("data-x")||x>0||site>=1000)&&v?EYE+"<b>"+fmt(v)+"</b>":"";
+el.title=site.toLocaleString("en-US")+" on the site"+(x||bx?" + "+x.toLocaleString("en-US")+" on X":"");});
+document.querySelector('[data-stat="views"]').textContent=fmt(sum);
+if(SN&&HERE===null)document.querySelector('[data-stat="active"]').textContent=SN.total.active;}
+let HERE=null;              // once the socket answers, Umami stops writing to the live number
+function stats(){if(document.hidden)return;
+fetch("/api/stats").then((r)=>r.ok?r.json():null).then((s)=>{if(s){SN=s;paint();}}).catch(()=>{});
+fetch("/api/x").then((r)=>r.ok?r.json():null).then((x)=>{if(x){XN=x;paint();}}).catch(()=>{});}
+stats();setInterval(stats,90000);document.addEventListener("visibilitychange",stats);
+
+(() => {
+  const APP = "c1f77e38-c085-4afe-af44-daf47e70855d", HOST = "api-db.d1.tel";
+  if (!APP || !window.WebSocket) return;
+  const rooms = new Map();                 // room id -> { n, by, cbs: [], whos: [] }
+  let ws = null, tries = 0, closed = false;
+
+  // where the corner was served from, so a work hosted on another domain still asks sael.net
+  let ORIGIN = location.origin;
+  try { const s = document.currentScript; if (s && s.src) ORIGIN = new URL(s.src).origin; } catch {}
+
+  const sub = (room, cb, watchOnly) => {
+    const r = get(room); r.cbs.push(cb); if (watchOnly) r.watch = true;
+    if (ws && ws.readyState === 1) join(room);
+    if (r.n !== null) cb(r.n);
+  };
+  // the same room, broken down: { FR: 3, US: 1, "": 2 } — "" is a visitor whose country we never learned
+  const who = (room, cb) => { const r = get(room); r.whos.push(cb); if (r.by) cb(r.by); };
+  const get = (room) => {
+    let r = rooms.get(room);
+    if (!r) { r = { n: null, by: null, cbs: [], whos: [], watch: false }; rooms.set(room, r); }   // null until the server answers
+    return r;
+  };
+  const say = (room) => {
+    const r = rooms.get(room); if (!r) return;
+    if (r.n !== null) r.cbs.forEach((cb) => cb(r.n));
+    if (r.by) r.whos.forEach((cb) => cb(r.by));
+  };
+  // crypto.randomUUID only exists in a secure context, so on the plain-http preview host it threw and
+  // every message, init included, vanished into the catch below. The id only has to be unique per socket.
+  const rnd = (n) => Array.from({ length: n }, () => ((Math.random() * 16) | 0).toString(16)).join("");
+  const uid = () => (crypto.randomUUID ? crypto.randomUUID() : rnd(8) + "-" + rnd(4) + "-4" + rnd(3) + "-a" + rnd(3) + "-" + rnd(12));
+  const send = (m) => { try { ws.send(JSON.stringify({ "client-event-id": uid(), ...m })); } catch {} };
+
+  // whether the socket is up, for anything that wants to say so on screen
+  let linked = false; const linkCbs = [];
+  const setLink = (v) => { if (linked === v) return; linked = v; linkCbs.forEach((cb) => { try { cb(v); } catch {} }); };
+
+  // the country, asked once a session and remembered. An empty answer is a real answer: it means
+  // "not known", and a visitor counts the same either way.
+  let CC = null;
+  try { CC = sessionStorage.getItem("sael-cc"); } catch {}
+  const tell = (room) => {
+    const r = rooms.get(room); if (!r || r.watch || !CC || !ws || ws.readyState !== 1) return;
+    send({ op: "set-presence", "room-id": room, data: { c: CC } });
+  };
+  if (CC === null) {
+    fetch(ORIGIN + "/api/where").then((r) => (r.ok ? r.json() : null)).then((j) => {
+      CC = (j && j.c) || "";
+      try { sessionStorage.setItem("sael-cc", CC); } catch {}
+      rooms.forEach((_, room) => tell(room));
+    }).catch(() => { CC = ""; });
+  }
+
+  let queue = [], draining = false;
+  const join = (room) => { queue.push(room); drain(); };
+  function drain() {
+    if (draining || !queue.length || !ws || ws.readyState !== 1) return;
+    draining = true;
+    const room = queue.shift();
+    send({ op: "join-room", "room-type": "sael", "room-id": room, data: {} });
+    // a watcher says so, and is left out of everyone else's count. Everyone else says where they are.
+    if (rooms.get(room)?.watch) send({ op: "set-presence", "room-id": room, data: { o: 1 } });
+    else tell(room);
+    setTimeout(() => { draining = false; drain(); }, 30);
+  }
+
+  function open() {
+    if (closed) return;
+    try { ws = new WebSocket("wss://" + HOST + "/runtime/session"); } catch { return; }
+    ws.onopen = () => send({ op: "init", "app-id": APP, versions: { sael: "1" } });
+    ws.onmessage = (e) => {
+      let m; try { m = JSON.parse(e.data); } catch { return; }
+      // a reconnect starts every room from "not answered yet", so an empty room's join-room-ok can set it back to zero
+      // (otherwise a room that has since emptied keeps showing the count it had before the socket dropped)
+      if (m.op === "init-ok") { tries = 0; queue = []; setLink(true); rooms.forEach((r, room) => { r.n = null; join(room); }); return; }
+      // an empty room sends nothing at all, so the answer to "how many are here" is zero, not silence
+      if (m.op === "join-room-ok" && m["room-id"]) {
+        const r = rooms.get(m["room-id"]);
+        if (r && r.n === null) { r.n = 0; r.by = {}; say(m["room-id"]); }
+        return;
+      }
+      if (m.op === "refresh-presence" && m["room-id"]) {
+        const r = rooms.get(m["room-id"]); if (!r) return;
+        const here = Object.values(m.data || {}).filter((p) => !(p && p.data && p.data.o));   // watchers do not count
+        r.n = here.length;
+        r.by = here.reduce((o, p) => { const c = (p && p.data && p.data.c) || ""; o[c] = (o[c] || 0) + 1; return o; }, {});
+        say(m["room-id"]);
+      }
+    };
+    // a dropped socket comes back, with a widening gap, and gives up after a few minutes
+    ws.onclose = () => { setLink(false); if (closed || tries > 6) return; setTimeout(open, Math.min(30000, 1000 * 2 ** tries++)); };
+    ws.onerror = () => { try { ws.close(); } catch {} };
+  }
+
+  addEventListener("pagehide", () => { closed = true; try { ws.close(); } catch {} });
+  open();
+  window.__saelHere = sub;                 // __saelHere(room, n => …)
+  window.__saelWho = who;                  // __saelWho(room, by => …)   { FR: 3, "": 1 }
+  window.__saelLink = (cb) => { linkCbs.push(cb); cb(linked); };
+})();
+
+// Umami counts live visitors per site and cannot say who is on this page; presence can, so when the
+// socket is up the number becomes a count of people actually here rather than an estimate.
+const showLive=()=>document.querySelector(".now .live")?.classList.remove("waiting");
+setTimeout(showLive,6000);                     // no socket, or none answering: show what we have
+if(window.__saelHere){const el=document.querySelector('[data-stat="active"]');
+ window.__saelHere("home",()=>{});
+ window.__saelHere("all",(n)=>{HERE=n;if(el)el.textContent=n;showLive();});}
+
+// the dialog: opened from the banner, closed on Escape, backdrop or ✕. Focus goes in and comes back out.
+{const say=document.getElementById("say");
+if(say){const sheet=say.querySelector(".sheet"),form=document.getElementById("say-f"),msg=document.getElementById("say-msg"),
+ send=document.getElementById("say-send"),err=document.getElementById("say-err"),done=document.getElementById("say-done"),
+ who2=document.getElementById("say-who2"),who2w=document.getElementById("say-who2w"),hint=document.getElementById("say-hint");
+let last=null,rot=null,typed=false;
+const PH=["I want one that explains how a jet engine actually makes thrust.","I teach year 9 physics. Can I put this on the classroom projector without the internet?","A phone version my students could poke at on the bus would be perfect.","How does a vaccine train the immune system? That one, please.","I'm writing a chapter on tides. Could I embed this in it?","Can you do one on how GPS knows where I am?","I'd use this in a lab induction if I could add our own equipment.","Something on how antibiotics stop working would help my students a lot.","How do I show this to a room of 30 without everyone needing a laptop?","One on how a battery actually stores energy, for a first-year course."];
+// the placeholder rotates while the field is untouched, so it reads as a list of real asks
+const spin=()=>{let i=Math.floor(Math.random()*PH.length);msg.placeholder=PH[i];
+ rot=setInterval(()=>{if(typed||document.hidden)return;msg.classList.add("ph");msg.style.opacity=".45";
+  setTimeout(()=>{i=(i+1)%PH.length;msg.placeholder=PH[i];msg.style.opacity="1";},350);},4200);};
+const open=()=>{last=document.activeElement;say.opened=Date.now();say.classList.add("on");say.setAttribute("aria-hidden","false");
+ document.body.style.overflow="hidden";typed=false;spin();
+ setTimeout(()=>say.querySelector(".who input").focus(),60);
+ if(window.umami)try{umami.track("say-open")}catch{}};
+const close=()=>{say.classList.remove("on");say.setAttribute("aria-hidden","true");document.body.style.overflow="";
+ clearInterval(rot);last&&last.focus&&last.focus();};
+say.querySelector(".x").onclick=close;
+document.getElementById("say-close2").onclick=close;
+say.addEventListener("click",(e)=>{if(e.target===say)close();});
+addEventListener("keydown",(e)=>{if(e.key==="Escape"&&say.classList.contains("on"))close();});
+// a dialog should not let the tab key wander off behind it
+sheet.addEventListener("keydown",(e)=>{if(e.key!=="Tab")return;
+ const f=[...sheet.querySelectorAll('button,input,textarea,a[href]')].filter((el)=>!el.disabled&&el.offsetParent!==null&&!el.hidden);
+ if(!f.length)return;const first=f[0],lastEl=f[f.length-1];
+ if(e.shiftKey&&document.activeElement===first){e.preventDefault();lastEl.focus();}
+ else if(!e.shiftKey&&document.activeElement===lastEl){e.preventDefault();first.focus();}});
+const mailEl=document.getElementById("say-mail"),share=document.getElementById("say-share"),news=document.getElementById("say-news"),xh=document.getElementById("say-xh");
+const mailOk=()=>/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(mailEl.value.trim());
+const ok=()=>send.disabled=msg.value.trim().length<3||!form.querySelector("input[name=who]:checked")||(news.checked&&!mailOk());
+// the handle only means something once posting is allowed, and the newsletter only once there is an address
+const opts=()=>{document.getElementById("say-xhw").hidden=!share.checked;document.getElementById("say-newsw").hidden=!news.checked||mailOk();ok();};
+share.addEventListener("change",()=>{opts();if(share.checked)setTimeout(()=>xh.focus(),40);});
+news.addEventListener("change",()=>{opts();if(news.checked&&!mailOk())mailEl.focus();});
+mailEl.addEventListener("input",opts);
+[...form.querySelectorAll("input[name=who]")].forEach((r)=>r.addEventListener("change",ok));
+msg.addEventListener("input",()=>{typed=msg.value.length>0;ok();
+ hint.textContent=msg.value.length>1900?(2000-msg.value.length)+" characters left":"Anything goes: a topic, a frustration, a way you would use these.";});
+// Curious is the catch-all, so it is the one that offers a line to say what you actually do
+[...form.querySelectorAll('input[name=who]')].forEach((r)=>r.addEventListener("change",()=>{
+ const curious=form.querySelector('input[name=who]:checked')?.value==="just curious";
+ who2w.hidden=!curious;if(curious)setTimeout(()=>who2.focus(),40);else who2.value="";}));
+// ⌘/Ctrl + Enter sends, like every other message box
+msg.addEventListener("keydown",(e)=>{if((e.metaKey||e.ctrlKey)&&e.key==="Enter"&&!send.disabled)form.requestSubmit();});
+form.addEventListener("submit",async(e)=>{e.preventDefault();
+ const mail=document.getElementById("say-mail").value.trim();
+ if(mail&&!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(mail)){err.textContent="That email address does not look right. Leave it empty if you would rather not say.";err.hidden=false;return;}
+ err.hidden=true;send.disabled=true;send.textContent="Sending…";
+ const whoSel=form.querySelector('input[name=who]:checked')?.value||"";
+ try{
+  const r=await fetch("/api/say",{method:"POST",headers:{"content-type":"application/json"},
+   body:JSON.stringify({kind:"feedback",who:whoSel,does:who2.value.trim(),name:document.getElementById("say-name").value.trim(),message:msg.value.trim(),email:mail,share:share.checked,xh:share.checked?xh.value.trim():"",news:news.checked,from:location.pathname,
+    pot:document.getElementById("say-pot").value,ms:Date.now()-(say.opened||0)})});
+  if(!r.ok)throw new Error(await r.text());
+  form.hidden=true;done.hidden=false;
+  document.getElementById("say-done-p").textContent=mail?"I read every one of these myself, and I'll reply to "+mail+"."+(news.checked?" You are on the newsletter too.":""):"I read every one of these myself. No address, so I cannot write back, but it is read.";
+  clearInterval(rot);
+  if(window.umami)try{umami.track("say-sent",{who:whoSel});if(news.checked)umami.track("say-newsletter")}catch{}
+ }catch(ex){err.textContent="That did not go through. Try again in a moment, or write to hello@sael.net.";err.hidden=false;
+  send.disabled=false;send.textContent="Send it";}
+});
+document.querySelectorAll("[data-say]").forEach((b)=>b.addEventListener("click",(e)=>{e.preventDefault();open();}));
+}}
+
+
+</script>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920" integrity="sha512-L0ha0OXavK/8okipN9F8BtP84dg9DUhPERbBXzwI6dgTA55d2+yweo3pn5CSFYs45/r8md2+xvUPtTdvTNRfjA==" data-cf-beacon='{"version":"2024.11.0","token":"4cdc9d32ffab47c895721522e79f3f69","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,850 @@
+{
+  "schemaVersion": 1,
+  "contentKind": "dat-city.district",
+  "version": 1,
+  "generatedAt": "2026-07-10T07:52:11.714Z",
+  "versionId": "20260710T075211Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "manual",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-07-10T07:52:11.714Z",
+    "versionId": "20260710T075211Z",
+    "adapter": null,
+    "storySlug": "open-source-ai-repo-momentum",
+    "districtId": "open-source-foundry",
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "id": "open-source-foundry",
+  "name": "Open Source Foundry",
+  "storySlug": "open-source-ai-repo-momentum",
+  "storyUrl": "/stories/open-source-ai-repo-momentum/",
+  "publicStoryUrl": "/stories/open-source-ai-repo-momentum.json",
+  "metric": "Stars gained",
+  "metricKey": "stars-gained",
+  "latestFrameLabel": "2026-07-10",
+  "summary": "GitHub AI repositories ranked by daily StoryOps snapshots, using star growth once multiple observations exist.",
+  "taxonomy": {
+    "primaryCategory": "technology",
+    "categories": [
+      "technology",
+      "ai",
+      "open-source",
+      "developer-tools"
+    ],
+    "tags": [
+      "github",
+      "repos",
+      "stars",
+      "llm",
+      "agents",
+      "rag"
+    ],
+    "entityTypes": [
+      "repository",
+      "project"
+    ],
+    "sourceTypes": [
+      "github"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "frontier-language-model-intelligence",
+      "type": "ai-ecosystem",
+      "weight": 0.88,
+      "reason": "Open-source AI projects often react to frontier model capabilities."
+    },
+    {
+      "target": "app-store-takeover",
+      "type": "software-market",
+      "weight": 0.5,
+      "reason": "Both track software products through adoption signals."
+    },
+    {
+      "target": "games-people-are-playing",
+      "type": "developer-and-platform-culture",
+      "weight": 0.36,
+      "reason": "Both are platform ecosystems with fast-moving rankings."
+    },
+    {
+      "target": "deepswe-leaderboard",
+      "type": "ai-ecosystem",
+      "weight": 0.5,
+      "reason": "Coding agent capability drives the developer tooling wave on GitHub."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "ai-technology",
+    "mainland": "technology",
+    "bridgePriority": [
+      "frontier-language-model-intelligence"
+    ]
+  },
+  "thumbnail": "/assets/og/dat-city.webp",
+  "status": "fresh",
+  "lastObservationDate": "2026-07-10",
+  "nextRefreshAt": "2026-07-11T05:00:00.000Z",
+  "confidence": "Observed 25 repositories from GitHub Search at 2026-07-10T07:52:11.714Z.",
+  "methodology": "This adapter searches GitHub repositories across AI, LLM, agent, and RAG topics, stores daily StoryOps snapshots, and ranks repositories by stars gained since the previous snapshot. On the first run, before a prior snapshot exists, it ranks by current stars so the district is immediately usable.",
+  "sources": [
+    {
+      "title": "Search repositories",
+      "publisher": "GitHub REST API",
+      "url": "https://docs.github.com/en/rest/search/search?apiVersion=2022-11-28#search-repositories",
+      "note": "Repository search endpoint used to find AI, LLM, agent, and RAG projects."
+    },
+    {
+      "title": "Repository fields",
+      "publisher": "GitHub REST API",
+      "url": "https://docs.github.com/en/rest/repos/repos?apiVersion=2022-11-28",
+      "note": "Repository metadata includes stars, language, owner, topics, and activity timestamps."
+    }
+  ],
+  "media": {
+    "tileSize": 320,
+    "imageFit": "contain-blur",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-07-10T07:52:11.714Z",
+    "atlasUrl": "/assets/story-atlases/open-source-ai-repo-momentum.webp?v=2026-07-10T07%3A52%3A11.714Z",
+    "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/open-source-ai-repo-momentum.webp?v=2026-07-10T07%3A52%3A11.714Z",
+    "manifestUrl": "/assets/story-atlases/open-source-ai-repo-momentum.json?v=2026-07-10T07%3A52%3A11.714Z",
+    "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/open-source-ai-repo-momentum.json?v=2026-07-10T07%3A52%3A11.714Z",
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 5,
+    "rows": 4,
+    "width": 1600,
+    "height": 1280,
+    "itemCount": 20,
+    "sourcedImageCount": 20,
+    "generatedImageCount": 0,
+    "placeholderCount": 0
+  },
+  "entities": [
+    {
+      "id": "github-firecrawl-firecrawl",
+      "name": "firecrawl/firecrawl",
+      "shortName": "firecrawl",
+      "value": 9235,
+      "rank": 1,
+      "color": "#ef426f",
+      "image": "https://avatars.githubusercontent.com/u/135057108?v=4",
+      "storyUrl": "/stories/open-source-ai-repo-momentum/",
+      "sourceIds": [
+        "Search repositories",
+        "Repository fields"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/open-source-ai-repo-momentum.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/open-source-ai-repo-momentum.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/open-source-ai-repo-momentum.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/open-source-ai-repo-momentum.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.5,
+          "u1": 0.2,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://avatars.githubusercontent.com/u/135057108?v=4",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "github-nousresearch-hermes-agent",
+      "name": "NousResearch/hermes-agent",
+      "shortName": "hermes-agent",
+      "value": 9156,
+      "rank": 2,
+      "color": "#18c871",
+      "image": "https://avatars.githubusercontent.com/u/134168893?v=4",
+      "storyUrl": "/stories/open-source-ai-repo-momentum/",
+      "sourceIds": [
+        "Search repositories",
+        "Repository fields"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/open-source-ai-repo-momentum.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/open-source-ai-repo-momentum.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/open-source-ai-repo-momentum.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/open-source-ai-repo-momentum.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0,
+          "u1": 0.4,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://avatars.githubusercontent.com/u/134168893?v=4",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "github-affaan-m-ecc",
+      "name": "affaan-m/ECC",
+      "shortName": "ECC",
+      "value": 6205,
+      "rank": 3,
+      "color": "#ff5a61",
+      "image": "https://avatars.githubusercontent.com/u/124439313?v=4",
+      "storyUrl": "/stories/open-source-ai-repo-momentum/",
+      "sourceIds": [
+        "Search repositories",
+        "Repository fields"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/open-source-ai-repo-momentum.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/open-source-ai-repo-momentum.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/open-source-ai-repo-momentum.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/open-source-ai-repo-momentum.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.2,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://avatars.githubusercontent.com/u/124439313?v=4",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "github-tauricresearch-tradingagents",
+      "name": "TauricResearch/TradingAgents",
+      "shortName": "TradingAgents",
+      "value": 3471,
+      "rank": 4,
+      "color": "#ff5a61",
+      "image": "https://avatars.githubusercontent.com/u/192884433?v=4",
+      "storyUrl": "/stories/open-source-ai-repo-momentum/",
+      "sourceIds": [
+        "Search repositories",
+        "Repository fields"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/open-source-ai-repo-momentum.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/open-source-ai-repo-momentum.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/open-source-ai-repo-momentum.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/open-source-ai-repo-momentum.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.75,
+          "u1": 0.2,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://avatars.githubusercontent.com/u/192884433?v=4",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "github-browser-use-browser-use",
+      "name": "browser-use/browser-use",
+      "shortName": "browser-use",
+      "value": 3286,
+      "rank": 5,
+      "color": "#e34f59",
+      "image": "https://avatars.githubusercontent.com/u/192012301?v=4",
+      "storyUrl": "/stories/open-source-ai-repo-momentum/",
+      "sourceIds": [
+        "Search repositories",
+        "Repository fields"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/open-source-ai-repo-momentum.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/open-source-ai-repo-momentum.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/open-source-ai-repo-momentum.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/open-source-ai-repo-momentum.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.5,
+          "u1": 0.8,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://avatars.githubusercontent.com/u/192012301?v=4",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "github-thedotmack-claude-mem",
+      "name": "thedotmack/claude-mem",
+      "shortName": "claude-mem",
+      "value": 2325,
+      "rank": 6,
+      "color": "#00a6ff",
+      "image": "https://avatars.githubusercontent.com/u/683968?v=4",
+      "storyUrl": "/stories/open-source-ai-repo-momentum/",
+      "sourceIds": [
+        "Search repositories",
+        "Repository fields"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/open-source-ai-repo-momentum.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/open-source-ai-repo-momentum.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/open-source-ai-repo-momentum.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/open-source-ai-repo-momentum.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.75,
+          "u1": 0.8,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://avatars.githubusercontent.com/u/683968?v=4",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "github-open-webui-open-webui",
+      "name": "open-webui/open-webui",
+      "shortName": "open-webui",
+      "value": 1873,
+      "rank": 7,
+      "color": "#7b9b65",
+      "image": "https://avatars.githubusercontent.com/u/158137808?v=4",
+      "storyUrl": "/stories/open-source-ai-repo-momentum/",
+      "sourceIds": [
+        "Search repositories",
+        "Repository fields"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/open-source-ai-repo-momentum.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/open-source-ai-repo-momentum.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/open-source-ai-repo-momentum.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/open-source-ai-repo-momentum.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.25,
+          "u1": 0.8,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://avatars.githubusercontent.com/u/158137808?v=4",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "github-langgenius-dify",
+      "name": "langgenius/dify",
+      "shortName": "dify",
+      "value": 1758,
+      "rank": 8,
+      "color": "#d78fca",
+      "image": "https://avatars.githubusercontent.com/u/127165244?v=4",
+      "storyUrl": "/stories/open-source-ai-repo-momentum/",
+      "sourceIds": [
+        "Search repositories",
+        "Repository fields"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/open-source-ai-repo-momentum.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/open-source-ai-repo-momentum.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/open-source-ai-repo-momentum.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/open-source-ai-repo-momentum.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.25,
+          "u1": 0.6,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://avatars.githubusercontent.com/u/127165244?v=4",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "github-shubhamsaboo-awesome-llm-apps",
+      "name": "Shubhamsaboo/awesome-llm-apps",
+      "shortName": "awesome-llm-apps",
+      "value": 1578,
+      "rank": 9,
+      "color": "#86bdf4",
+      "image": "https://avatars.githubusercontent.com/u/31396011?v=4",
+      "storyUrl": "/stories/open-source-ai-repo-momentum/",
+      "sourceIds": [
+        "Search repositories",
+        "Repository fields"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/open-source-ai-repo-momentum.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/open-source-ai-repo-momentum.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/open-source-ai-repo-momentum.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/open-source-ai-repo-momentum.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.5,
+          "u1": 0.4,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://avatars.githubusercontent.com/u/31396011?v=4",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "github-vllm-project-vllm",
+      "name": "vllm-project/vllm",
+      "shortName": "vllm",
+      "value": 1501,
+      "rank": 10,
+      "color": "#18c871",
+      "image": "https://avatars.githubusercontent.com/u/136984999?v=4",
+      "storyUrl": "/stories/open-source-ai-repo-momentum/",
+      "sourceIds": [
+        "Search repositories",
+        "Repository fields"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/open-source-ai-repo-momentum.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/open-source-ai-repo-momentum.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/open-source-ai-repo-momentum.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/open-source-ai-repo-momentum.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.75,
+          "u1": 0.4,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://avatars.githubusercontent.com/u/136984999?v=4",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "github-langflow-ai-langflow",
+      "name": "langflow-ai/langflow",
+      "shortName": "langflow",
+      "value": 1435,
+      "rank": 11,
+      "color": "#41a99f",
+      "image": "https://avatars.githubusercontent.com/u/85702467?v=4",
+      "storyUrl": "/stories/open-source-ai-repo-momentum/",
+      "sourceIds": [
+        "Search repositories",
+        "Repository fields"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/open-source-ai-repo-momentum.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/open-source-ai-repo-momentum.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/open-source-ai-repo-momentum.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/open-source-ai-repo-momentum.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.25,
+          "u1": 0.4,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://avatars.githubusercontent.com/u/85702467?v=4",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "github-paddlepaddle-paddleocr",
+      "name": "PaddlePaddle/PaddleOCR",
+      "shortName": "PaddleOCR",
+      "value": 1285,
+      "rank": 12,
+      "color": "#8f6bff",
+      "image": "https://avatars.githubusercontent.com/u/23534030?v=4",
+      "storyUrl": "/stories/open-source-ai-repo-momentum/",
+      "sourceIds": [
+        "Search repositories",
+        "Repository fields"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/open-source-ai-repo-momentum.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/open-source-ai-repo-momentum.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/open-source-ai-repo-momentum.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/open-source-ai-repo-momentum.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 1280,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.75,
+          "u1": 1,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://avatars.githubusercontent.com/u/23534030?v=4",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "github-langchain-ai-langchain",
+      "name": "langchain-ai/langchain",
+      "shortName": "langchain",
+      "value": 1200,
+      "rank": 13,
+      "color": "#2f4858",
+      "image": "https://avatars.githubusercontent.com/u/126733545?v=4",
+      "storyUrl": "/stories/open-source-ai-repo-momentum/",
+      "sourceIds": [
+        "Search repositories",
+        "Repository fields"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/open-source-ai-repo-momentum.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/open-source-ai-repo-momentum.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/open-source-ai-repo-momentum.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/open-source-ai-repo-momentum.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 1280,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.25,
+          "u1": 1,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://avatars.githubusercontent.com/u/126733545?v=4",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "github-infiniflow-ragflow",
+      "name": "infiniflow/ragflow",
+      "shortName": "ragflow",
+      "value": 1079,
+      "rank": 14,
+      "color": "#ffc84a",
+      "image": "https://avatars.githubusercontent.com/u/69962740?v=4",
+      "storyUrl": "/stories/open-source-ai-repo-momentum/",
+      "sourceIds": [
+        "Search repositories",
+        "Repository fields"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/open-source-ai-repo-momentum.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/open-source-ai-repo-momentum.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/open-source-ai-repo-momentum.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/open-source-ai-repo-momentum.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.75,
+          "u1": 0.6,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://avatars.githubusercontent.com/u/69962740?v=4",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "github-rasbt-llms-from-scratch",
+      "name": "rasbt/LLMs-from-scratch",
+      "shortName": "LLMs-from-scratch",
+      "value": 1071,
+      "rank": 15,
+      "color": "#9aa4b2",
+      "image": "https://avatars.githubusercontent.com/u/5618407?v=4",
+      "storyUrl": "/stories/open-source-ai-repo-momentum/",
+      "sourceIds": [
+        "Search repositories",
+        "Repository fields"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/open-source-ai-repo-momentum.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/open-source-ai-repo-momentum.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/open-source-ai-repo-momentum.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/open-source-ai-repo-momentum.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 1280,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.5,
+          "u1": 1,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://avatars.githubusercontent.com/u/5618407?v=4",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "github-ollama-ollama",
+      "name": "ollama/ollama",
+      "shortName": "ollama",
+      "value": 928,
+      "rank": 16,
+      "color": "#00a6ff",
+      "image": "https://avatars.githubusercontent.com/u/151674099?v=4",
+      "storyUrl": "/stories/open-source-ai-repo-momentum/",
+      "sourceIds": [
+        "Search repositories",
+        "Repository fields"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/open-source-ai-repo-momentum.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/open-source-ai-repo-momentum.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/open-source-ai-repo-momentum.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/open-source-ai-repo-momentum.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0,
+          "u1": 0.8,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://avatars.githubusercontent.com/u/151674099?v=4",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "github-f-prompts-chat",
+      "name": "f/prompts.chat",
+      "shortName": "prompts.chat",
+      "value": 845,
+      "rank": 17,
+      "color": "#8f6bff",
+      "image": "https://avatars.githubusercontent.com/u/196477?v=4",
+      "storyUrl": "/stories/open-source-ai-repo-momentum/",
+      "sourceIds": [
+        "Search repositories",
+        "Repository fields"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/open-source-ai-repo-momentum.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/open-source-ai-repo-momentum.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/open-source-ai-repo-momentum.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/open-source-ai-repo-momentum.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 1280,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://avatars.githubusercontent.com/u/196477?v=4",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "github-microsoft-generative-ai-for-beginners",
+      "name": "microsoft/generative-ai-for-beginners",
+      "shortName": "generative-ai-for-beginners",
+      "value": 518,
+      "rank": 18,
+      "color": "#c9a14a",
+      "image": "https://avatars.githubusercontent.com/u/6154722?v=4",
+      "storyUrl": "/stories/open-source-ai-repo-momentum/",
+      "sourceIds": [
+        "Search repositories",
+        "Repository fields"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/open-source-ai-repo-momentum.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/open-source-ai-repo-momentum.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/open-source-ai-repo-momentum.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/open-source-ai-repo-momentum.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.5,
+          "u1": 0.6,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://avatars.githubusercontent.com/u/6154722?v=4",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "github-huggingface-transformers",
+      "name": "huggingface/transformers",
+      "shortName": "transformers",
+      "value": 500,
+      "rank": 19,
+      "color": "#f18c4f",
+      "image": "https://avatars.githubusercontent.com/u/25720743?v=4",
+      "storyUrl": "/stories/open-source-ai-repo-momentum/",
+      "sourceIds": [
+        "Search repositories",
+        "Repository fields"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/open-source-ai-repo-momentum.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/open-source-ai-repo-momentum.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/open-source-ai-repo-momentum.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/open-source-ai-repo-momentum.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.25,
+          "u1": 0.2,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://avatars.githubusercontent.com/u/25720743?v=4",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "github-significant-gravitas-autogpt",
+      "name": "Significant-Gravitas/AutoGPT",
+      "shortName": "AutoGPT",
+      "value": 287,
+      "rank": 20,
+      "color": "#ffc84a",
+      "image": "https://avatars.githubusercontent.com/u/130738209?v=4",
+      "storyUrl": "/stories/open-source-ai-repo-momentum/",
+      "sourceIds": [
+        "Search repositories",
+        "Repository fields"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/open-source-ai-repo-momentum.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/open-source-ai-repo-momentum.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/open-source-ai-repo-momentum.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/open-source-ai-repo-momentum.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0,
+          "u1": 0.6,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://avatars.githubusercontent.com/u/130738209?v=4",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,326 @@
+{
+  "schemaVersion": 1,
+  "contentKind": "dat-city.district",
+  "version": 1,
+  "generatedAt": "2026-07-10T07:52:11.714Z",
+  "versionId": "20260710T075211Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "manual",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-07-10T07:52:11.714Z",
+    "versionId": "20260710T075211Z",
+    "adapter": null,
+    "storySlug": "disney-plus-top-10",
+    "districtId": "disney-plus-harbor",
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "id": "disney-plus-harbor",
+  "name": "Disney Plus Harbor",
+  "storySlug": "disney-plus-top-10",
+  "storyUrl": "/stories/disney-plus-top-10/",
+  "publicStoryUrl": "/stories/disney-plus-top-10.json",
+  "metric": "Wikipedia views",
+  "metricKey": "wikipedia-views",
+  "latestFrameLabel": "2026-07-10",
+  "summary": "Disney Plus originals ranked by Wikipedia attention as a temporary source-backed bootstrap, not an official weekly Top 10.",
+  "taxonomy": {
+    "primaryCategory": "entertainment",
+    "categories": [
+      "entertainment",
+      "streaming",
+      "franchises"
+    ],
+    "tags": [
+      "disney-plus",
+      "streaming",
+      "franchises",
+      "top-10"
+    ],
+    "entityTypes": [
+      "film",
+      "series"
+    ],
+    "sourceTypes": [
+      "wikipedia"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "what-everyone-is-watching",
+      "type": "streaming-platform-peer",
+      "weight": 0.84,
+      "reason": "Disney Plus should compare directly against the Netflix watch district."
+    },
+    {
+      "target": "franchise-hype-index",
+      "type": "franchise-streaming",
+      "weight": 0.82,
+      "reason": "Disney Plus demand is often franchise-led."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "streaming-platforms",
+    "mainland": "culture",
+    "bridgePriority": [
+      "what-everyone-is-watching",
+      "franchise-hype-index"
+    ]
+  },
+  "thumbnail": "/assets/og/dat-city.webp",
+  "status": "fresh",
+  "lastObservationDate": "2026-07-10",
+  "nextRefreshAt": "2026-07-14T07:00:00.000Z",
+  "confidence": "Observed 30 days of en.wikipedia pageviews for titles listed on 2 Wikipedia platform-original page(s) at 2026-07-10T07:52:11.714Z. This is not a weekly or current streaming Top 10.",
+  "methodology": "Wikipedia does not currently provide a durable weekly/current Top 10 page for Disney+. This bootstrap uses the configured Wikipedia original-programming and original-film list pages as the source universe, then ranks titles by recent en.wikipedia pageviews via Wikipedia's PageViewInfo API. Treat the output as public-interest attention among platform originals, not streaming watch time or official platform ranking.",
+  "sources": [
+    {
+      "title": "List of Disney+ original programming",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_Disney%2B_original_programming",
+      "note": "Source universe for Disney Plus original series."
+    },
+    {
+      "title": "List of Disney+ original films",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_Disney%2B_original_films",
+      "note": "Source universe for Disney Plus original films."
+    }
+  ],
+  "media": {
+    "imageFit": "contain",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-07-10T07:52:11.714Z",
+    "atlasUrl": "/assets/story-atlases/disney-plus-top-10.webp?v=2026-07-10T07%3A52%3A11.714Z",
+    "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/disney-plus-top-10.webp?v=2026-07-10T07%3A52%3A11.714Z",
+    "manifestUrl": "/assets/story-atlases/disney-plus-top-10.json?v=2026-07-10T07%3A52%3A11.714Z",
+    "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/disney-plus-top-10.json?v=2026-07-10T07%3A52%3A11.714Z",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 5,
+    "rows": 4,
+    "width": 1600,
+    "height": 1280,
+    "itemCount": 20,
+    "sourcedImageCount": 20,
+    "generatedImageCount": 0,
+    "placeholderCount": 0
+  },
+  "entities": [
+    {
+      "id": "andor-tv-series",
+      "name": "Andor",
+      "value": 109727,
+      "rank": 1,
+      "color": "#7b9b65",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Andor.svg/960px-Andor.svg.png",
+      "storyUrl": "/stories/disney-plus-top-10/",
+      "sourceIds": [
+        "List of Disney+ original programming",
+        "List of Disney+ original films"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/disney-plus-top-10.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/disney-plus-top-10.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/disney-plus-top-10.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/disney-plus-top-10.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0,
+          "u1": 0.6,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Andor.svg/960px-Andor.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "cruella-film",
+      "name": "Cruella",
+      "value": 61416,
+      "rank": 2,
+      "color": "#9aa4b2",
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/f6/Cruella_2021_film_poster.jpg",
+      "storyUrl": "/stories/disney-plus-top-10/",
+      "sourceIds": [
+        "List of Disney+ original programming",
+        "List of Disney+ original films"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/disney-plus-top-10.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/disney-plus-top-10.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/disney-plus-top-10.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/disney-plus-top-10.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 1280,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/f/f6/Cruella_2021_film_poster.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "agatha-all-along",
+      "name": "Agatha All Along",
+      "value": 30742,
+      "rank": 3,
+      "color": "#2f4858",
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/70/Agatha_All_Along_logo.jpg",
+      "storyUrl": "/stories/disney-plus-top-10/",
+      "sourceIds": [
+        "List of Disney+ original programming",
+        "List of Disney+ original films"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/disney-plus-top-10.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/disney-plus-top-10.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/disney-plus-top-10.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/disney-plus-top-10.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 1280,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.25,
+          "u1": 1,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/7/70/Agatha_All_Along_logo.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "aquamarine-film",
+      "name": "Aquamarine",
+      "value": 28960,
+      "rank": 4,
+      "color": "#86bdf4",
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/74/Aquamarine_%28poster%29.jpg",
+      "storyUrl": "/stories/disney-plus-top-10/",
+      "sourceIds": [
+        "List of Disney+ original programming",
+        "List of Disney+ original films"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/disney-plus-top-10.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/disney-plus-top-10.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/disney-plus-top-10.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/disney-plus-top-10.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.5,
+          "u1": 0.4,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/7/74/Aquamarine_%28poster%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "animorphs",
+      "name": "Animorphs",
+      "value": 19424,
+      "rank": 5,
+      "color": "#18c871",
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/c9/The_Invasion_Front_Cover.jpg",
+      "storyUrl": "/stories/disney-plus-top-10/",
+      "sourceIds": [
+        "List of Disney+ original programming",
+        "List of Disney+ original films"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/disney-plus-top-10.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/disney-plus-top-10.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/disney-plus-top-10.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/disney-plus-top-10.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.75,
+          "u1": 0.4,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/c/c9/The_Invasion_Front_Cover.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "chip-n-dale-rescue-rangers-film",
+      "name": "Chip 'n Dale: Rescue Rangers",
+      "value": 17788,
+      "rank": 6,
+      "color": "#00a6ff",
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/46/Chip_n_Dale_Rescue_Rangers_Teaser_poster.jpg",
+      "storyUrl": "/stories/disney-plus-top-10/",
+      "sourceIds": [
+        "List of Disney+ original programming",
+        "List of Disney+ original films"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/disney-plus-top-10.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/disney-plus-top-10.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/disney-plus-top-10.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/disney-plus-top-10.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.75,
+          "u1": 0.8,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/4/46/Chip_n_Dale_Rescue_Rangers_Teaser_poster.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,810 @@
+{
+  "schemaVersion": 1,
+  "contentKind": "dat-city.district",
+  "version": 1,
+  "generatedAt": "2026-07-10T07:52:11.714Z",
+  "versionId": "20260710T075211Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "manual",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-07-10T07:52:11.714Z",
+    "versionId": "20260710T075211Z",
+    "adapter": null,
+    "storySlug": "fortnite-player-earnings",
+    "districtId": "fortnite-prize-island",
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "id": "fortnite-prize-island",
+  "name": "Fortnite Prize Island",
+  "storySlug": "fortnite-player-earnings",
+  "storyUrl": "/stories/fortnite-player-earnings/",
+  "publicStoryUrl": "/stories/fortnite-player-earnings.json",
+  "metric": "Fortnite prize earnings",
+  "metricKey": "fortnite-prize-earnings",
+  "latestFrameLabel": "2026-07-10",
+  "summary": "Fortnite competitors ranked by listed tournament prize earnings.",
+  "taxonomy": {
+    "primaryCategory": "gaming",
+    "categories": [
+      "gaming",
+      "esports",
+      "culture"
+    ],
+    "tags": [
+      "fortnite",
+      "esports",
+      "players",
+      "prize-money"
+    ],
+    "entityTypes": [
+      "player",
+      "athlete"
+    ],
+    "sourceTypes": [
+      "wikipedia"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "esports-athlete-earnings",
+      "type": "competitive-gaming",
+      "weight": 0.94,
+      "reason": "Fortnite player earnings are a game-specific slice of the broader esports prize-money board."
+    },
+    {
+      "target": "games-people-are-playing",
+      "type": "game-attention",
+      "weight": 0.72,
+      "reason": "Fortnite connects competitive prize money with the wider live-games district."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "competitive-gaming",
+    "mainland": "culture",
+    "bridgePriority": [
+      "esports-athlete-earnings",
+      "games-people-are-playing"
+    ]
+  },
+  "thumbnail": "/assets/og/dat-city.webp",
+  "status": "fresh",
+  "lastObservationDate": "2026-07-10",
+  "nextRefreshAt": "2026-07-13T08:00:00.000Z",
+  "confidence": "Observed Competitive Fortnite records and statistics on 2026-07-10T07:52:11.714Z; values are parsed from the \"Competitive Fortnite highest earners\" Wikipedia table.",
+  "methodology": "This StoryOps adapter fetches the rendered Wikipedia table for Competitive Fortnite records and statistics, selects the configured ranking table, parses the configured entity and value columns, and stores observed snapshots so public history grows from repeat refreshes.",
+  "sources": [
+    {
+      "title": "Competitive Fortnite records and statistics",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Competitive_Fortnite_records_and_statistics",
+      "note": "Public Fortnite highest-earners table parsed by the adapter."
+    }
+  ],
+  "media": {
+    "imageFit": "contain",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-07-10T07:52:11.714Z",
+    "atlasUrl": "/assets/story-atlases/fortnite-player-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+    "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/fortnite-player-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+    "manifestUrl": "/assets/story-atlases/fortnite-player-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+    "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/fortnite-player-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 5,
+    "rows": 4,
+    "width": 1600,
+    "height": 1280,
+    "itemCount": 20,
+    "sourcedImageCount": 20,
+    "generatedImageCount": 0,
+    "placeholderCount": 0
+  },
+  "entities": [
+    {
+      "id": "bugha",
+      "name": "Bugha",
+      "shortName": "Bugha",
+      "value": 3784000,
+      "rank": 1,
+      "color": "#ff5a61",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/960px-Flag_of_the_United_States.svg.png",
+      "storyUrl": "/stories/fortnite-player-earnings/",
+      "sourceIds": [
+        "Competitive Fortnite records and statistics"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/fortnite-player-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/fortnite-player-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/fortnite-player-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/fortnite-player-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.2,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/960px-Flag_of_the_United_States.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "aqua",
+      "name": "Aqua",
+      "shortName": "Aqua",
+      "value": 2199000,
+      "rank": 2,
+      "color": "#18c871",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_Austria.svg/960px-Flag_of_Austria.svg.png",
+      "storyUrl": "/stories/fortnite-player-earnings/",
+      "sourceIds": [
+        "Competitive Fortnite records and statistics"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/fortnite-player-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/fortnite-player-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/fortnite-player-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/fortnite-player-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0,
+          "u1": 0.4,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_Austria.svg/960px-Flag_of_Austria.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "psalm",
+      "name": "Psalm",
+      "shortName": "Psalm",
+      "value": 1875000,
+      "rank": 3,
+      "color": "#ffc84a",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/960px-Flag_of_the_United_States.svg.png",
+      "storyUrl": "/stories/fortnite-player-earnings/",
+      "sourceIds": [
+        "Competitive Fortnite records and statistics"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/fortnite-player-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/fortnite-player-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/fortnite-player-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/fortnite-player-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0,
+          "u1": 0.6,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/960px-Flag_of_the_United_States.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "epikwhale",
+      "name": "EpikWhale",
+      "shortName": "EpikWhale",
+      "value": 1866000,
+      "rank": 4,
+      "color": "#00a6ff",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/960px-Flag_of_the_United_States.svg.png",
+      "storyUrl": "/stories/fortnite-player-earnings/",
+      "sourceIds": [
+        "Competitive Fortnite records and statistics"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/fortnite-player-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/fortnite-player-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/fortnite-player-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/fortnite-player-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0,
+          "u1": 0.8,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/960px-Flag_of_the_United_States.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "kami",
+      "name": "Kami",
+      "shortName": "Kami",
+      "value": 1677000,
+      "rank": 5,
+      "color": "#8f6bff",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Flag_of_Poland.svg/960px-Flag_of_Poland.svg.png",
+      "storyUrl": "/stories/fortnite-player-earnings/",
+      "sourceIds": [
+        "Competitive Fortnite records and statistics"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/fortnite-player-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/fortnite-player-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/fortnite-player-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/fortnite-player-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 1280,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Flag_of_Poland.svg/960px-Flag_of_Poland.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "anas",
+      "name": "Anas",
+      "shortName": "Anas",
+      "value": 1623000,
+      "rank": 6,
+      "color": "#f18c4f",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Denmark.svg/960px-Flag_of_Denmark.svg.png",
+      "storyUrl": "/stories/fortnite-player-earnings/",
+      "sourceIds": [
+        "Competitive Fortnite records and statistics"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/fortnite-player-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/fortnite-player-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/fortnite-player-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/fortnite-player-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.25,
+          "u1": 0.2,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Denmark.svg/960px-Flag_of_Denmark.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "nyhrox",
+      "name": "Nyhrox",
+      "shortName": "Nyhrox",
+      "value": 1543000,
+      "rank": 7,
+      "color": "#41a99f",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Norway.svg/960px-Flag_of_Norway.svg.png",
+      "storyUrl": "/stories/fortnite-player-earnings/",
+      "sourceIds": [
+        "Competitive Fortnite records and statistics"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/fortnite-player-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/fortnite-player-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/fortnite-player-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/fortnite-player-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.25,
+          "u1": 0.4,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Norway.svg/960px-Flag_of_Norway.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "queasy",
+      "name": "Queasy",
+      "shortName": "Queasy",
+      "value": 1451000,
+      "rank": 8,
+      "color": "#d78fca",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Serbia.svg/960px-Flag_of_Serbia.svg.png",
+      "storyUrl": "/stories/fortnite-player-earnings/",
+      "sourceIds": [
+        "Competitive Fortnite records and statistics"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/fortnite-player-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/fortnite-player-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/fortnite-player-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/fortnite-player-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.25,
+          "u1": 0.6,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Serbia.svg/960px-Flag_of_Serbia.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "th0mashd",
+      "name": "Th0masHD",
+      "shortName": "Th0masHD",
+      "value": 1404000,
+      "rank": 9,
+      "color": "#7b9b65",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Denmark.svg/960px-Flag_of_Denmark.svg.png",
+      "storyUrl": "/stories/fortnite-player-earnings/",
+      "sourceIds": [
+        "Competitive Fortnite records and statistics"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/fortnite-player-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/fortnite-player-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/fortnite-player-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/fortnite-player-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.25,
+          "u1": 0.8,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Denmark.svg/960px-Flag_of_Denmark.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "wolfiez",
+      "name": "Wolfiez",
+      "shortName": "Wolfiez",
+      "value": 1368000,
+      "rank": 10,
+      "color": "#2f4858",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/960px-Flag_of_the_United_Kingdom_%281-2%29.svg.png",
+      "storyUrl": "/stories/fortnite-player-earnings/",
+      "sourceIds": [
+        "Competitive Fortnite records and statistics"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/fortnite-player-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/fortnite-player-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/fortnite-player-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/fortnite-player-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 1280,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.25,
+          "u1": 1,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/960px-Flag_of_the_United_Kingdom_%281-2%29.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "zayt",
+      "name": "Zayt",
+      "shortName": "Zayt",
+      "value": 1332000,
+      "rank": 11,
+      "color": "#ef426f",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/960px-Flag_of_Canada_%28Pantone%29.svg.png",
+      "storyUrl": "/stories/fortnite-player-earnings/",
+      "sourceIds": [
+        "Competitive Fortnite records and statistics"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/fortnite-player-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/fortnite-player-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/fortnite-player-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/fortnite-player-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.5,
+          "u1": 0.2,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/960px-Flag_of_Canada_%28Pantone%29.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "setty",
+      "name": "Setty",
+      "shortName": "Setty",
+      "value": 1325000,
+      "rank": 12,
+      "color": "#86bdf4",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Flag_of_Poland.svg/960px-Flag_of_Poland.svg.png",
+      "storyUrl": "/stories/fortnite-player-earnings/",
+      "sourceIds": [
+        "Competitive Fortnite records and statistics"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/fortnite-player-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/fortnite-player-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/fortnite-player-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/fortnite-player-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.5,
+          "u1": 0.4,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Flag_of_Poland.svg/960px-Flag_of_Poland.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "malibuca",
+      "name": "Malibuca",
+      "shortName": "Malibuca",
+      "value": 1290000,
+      "rank": 13,
+      "color": "#c9a14a",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/960px-Flag_of_Russia.svg.png",
+      "storyUrl": "/stories/fortnite-player-earnings/",
+      "sourceIds": [
+        "Competitive Fortnite records and statistics"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/fortnite-player-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/fortnite-player-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/fortnite-player-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/fortnite-player-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.5,
+          "u1": 0.6,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/960px-Flag_of_Russia.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "tayson",
+      "name": "TaySon",
+      "shortName": "TaySon",
+      "value": 1276000,
+      "rank": 14,
+      "color": "#e34f59",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Flag_of_Slovenia.svg/960px-Flag_of_Slovenia.svg.png",
+      "storyUrl": "/stories/fortnite-player-earnings/",
+      "sourceIds": [
+        "Competitive Fortnite records and statistics"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/fortnite-player-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/fortnite-player-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/fortnite-player-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/fortnite-player-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.5,
+          "u1": 0.8,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Flag_of_Slovenia.svg/960px-Flag_of_Slovenia.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "k1ng",
+      "name": "K1nG",
+      "shortName": "K1nG",
+      "value": 1257000,
+      "rank": 15,
+      "color": "#9aa4b2",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/960px-Flag_of_Argentina.svg.png",
+      "storyUrl": "/stories/fortnite-player-earnings/",
+      "sourceIds": [
+        "Competitive Fortnite records and statistics"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/fortnite-player-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/fortnite-player-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/fortnite-player-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/fortnite-player-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 1280,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.5,
+          "u1": 1,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/960px-Flag_of_Argentina.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "kreo",
+      "name": "Kreo",
+      "shortName": "Kreo",
+      "value": 1244000,
+      "rank": 16,
+      "color": "#ff5a61",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/960px-Flag_of_the_United_States.svg.png",
+      "storyUrl": "/stories/fortnite-player-earnings/",
+      "sourceIds": [
+        "Competitive Fortnite records and statistics"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/fortnite-player-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/fortnite-player-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/fortnite-player-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/fortnite-player-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.75,
+          "u1": 0.2,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/960px-Flag_of_the_United_States.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "rojo",
+      "name": "Rojo",
+      "shortName": "Rojo",
+      "value": 1216000,
+      "rank": 17,
+      "color": "#18c871",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/960px-Flag_of_the_Netherlands.svg.png",
+      "storyUrl": "/stories/fortnite-player-earnings/",
+      "sourceIds": [
+        "Competitive Fortnite records and statistics"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/fortnite-player-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/fortnite-player-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/fortnite-player-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/fortnite-player-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.75,
+          "u1": 0.4,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/960px-Flag_of_the_Netherlands.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "saf",
+      "name": "Saf",
+      "shortName": "Saf",
+      "value": 1210000,
+      "rank": 18,
+      "color": "#ffc84a",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/960px-Flag_of_the_United_States.svg.png",
+      "storyUrl": "/stories/fortnite-player-earnings/",
+      "sourceIds": [
+        "Competitive Fortnite records and statistics"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/fortnite-player-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/fortnite-player-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/fortnite-player-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/fortnite-player-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.75,
+          "u1": 0.6,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/960px-Flag_of_the_United_States.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "ceice",
+      "name": "Ceice",
+      "shortName": "Ceice",
+      "value": 1210000,
+      "rank": 19,
+      "color": "#00a6ff",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/960px-Flag_of_the_United_States.svg.png",
+      "storyUrl": "/stories/fortnite-player-earnings/",
+      "sourceIds": [
+        "Competitive Fortnite records and statistics"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/fortnite-player-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/fortnite-player-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/fortnite-player-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/fortnite-player-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.75,
+          "u1": 0.8,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/960px-Flag_of_the_United_States.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "mero",
+      "name": "Mero",
+      "shortName": "Mero",
+      "value": 1018999.9999999999,
+      "rank": 20,
+      "color": "#8f6bff",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/960px-Flag_of_Canada_%28Pantone%29.svg.png",
+      "storyUrl": "/stories/fortnite-player-earnings/",
+      "sourceIds": [
+        "Competitive Fortnite records and statistics"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/fortnite-player-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/fortnite-player-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/fortnite-player-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/fortnite-player-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 1280,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.75,
+          "u1": 1,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/960px-Flag_of_Canada_%28Pantone%29.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    }
+  ]
+}

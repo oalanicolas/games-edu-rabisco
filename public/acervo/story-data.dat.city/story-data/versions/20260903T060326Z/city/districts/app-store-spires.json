@@ -1,0 +1,596 @@
+{
+  "schemaVersion": 1,
+  "contentKind": "dat-city.district",
+  "version": 1,
+  "generatedAt": "2026-09-02T08:01:38.701Z",
+  "versionId": "20260902T080138Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "storyops-scheduler",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-09-02T08:01:38.701Z",
+    "versionId": "20260902T080138Z",
+    "adapter": null,
+    "storySlug": "app-store-takeover",
+    "districtId": "app-store-spires",
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "id": "app-store-spires",
+  "name": "App Store Spires",
+  "storySlug": "app-store-takeover",
+  "storyUrl": "/stories/app-store-takeover/",
+  "publicStoryUrl": "/stories/app-store-takeover.json",
+  "metric": "Chart score",
+  "metricKey": "chart-score",
+  "latestFrameLabel": "2026-09-02",
+  "summary": "Top free apps and games by country, tracked as snapshots after dat.city starts collecting them.",
+  "taxonomy": {
+    "primaryCategory": "technology",
+    "categories": [
+      "technology",
+      "consumer-apps",
+      "markets"
+    ],
+    "tags": [
+      "app-store",
+      "apps",
+      "charts",
+      "mobile",
+      "country-rankings"
+    ],
+    "entityTypes": [
+      "app",
+      "game"
+    ],
+    "sourceTypes": [
+      "apple-rss"
+    ],
+    "geoScope": "multi-country"
+  },
+  "relationships": [
+    {
+      "target": "games-people-are-playing",
+      "type": "consumer-apps-and-games",
+      "weight": 0.56,
+      "reason": "App charts and game charts both measure consumer software attention."
+    },
+    {
+      "target": "open-source-ai-repo-momentum",
+      "type": "software-market",
+      "weight": 0.5,
+      "reason": "Both are software adoption rankings from platform data."
+    },
+    {
+      "target": "frontier-language-model-intelligence",
+      "type": "technology-adoption",
+      "weight": 0.48,
+      "reason": "AI capability trends can turn into consumer app adoption trends."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "software-platforms",
+    "mainland": "technology",
+    "bridgePriority": [
+      "games-people-are-playing",
+      "open-source-ai-repo-momentum"
+    ]
+  },
+  "thumbnail": "/assets/og/dat-city.webp",
+  "status": "fresh",
+  "dataUpdatedAt": "2026-09-02T08:01:38.701Z",
+  "staleAfterHours": 30,
+  "dormant": false,
+  "lastObservationDate": "2026-09-02",
+  "nextRefreshAt": "2026-09-03T08:00:00.000Z",
+  "confidence": "Observed Apple top-free app feeds for US, GB, CA, AU at 2026-09-02T08:01:59.849Z.",
+  "methodology": "This story is generated from Apple's public Marketing Tools RSS chart feeds. Each country ranking is converted into a score where rank 1 receives 100 points, rank 2 receives 99, and so on; country scores are summed into the published frame. Scheduled StoryOps runs append snapshots so history grows from observed public charts.",
+  "sources": [
+    {
+      "title": "RSS Feed Generator",
+      "publisher": "Apple Services Performance Partners",
+      "url": "https://performance-partners.apple.com/tools",
+      "note": "Current chart feed source for the production adapter. Longitudinal history is built from dat.city StoryOps snapshots."
+    }
+  ],
+  "media": {
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-09-02T08:01:38.701Z",
+    "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+    "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+    "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+    "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "imageFit": "cover",
+    "columns": 5,
+    "rows": 4,
+    "width": 1600,
+    "height": 1280,
+    "itemCount": 20,
+    "sourcedImageCount": 20,
+    "generatedImageCount": 0,
+    "placeholderCount": 0
+  },
+  "entities": [
+    {
+      "id": "app-6448311069",
+      "name": "ChatGPT",
+      "value": 391,
+      "rank": 1,
+      "color": "#ff5a61",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cb/cc/f6/cbccf633-139f-3201-235f-f176adafbf5f/AppIcon-0-0-1x_U007epad-0-0-0-1-0-P3-85-220.png/512x512bb.png",
+      "storyUrl": "/stories/app-store-takeover/",
+      "sourceIds": [
+        "RSS Feed Generator"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.2,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cb/cc/f6/cbccf633-139f-3201-235f-f176adafbf5f/AppIcon-0-0-1x_U007epad-0-0-0-1-0-P3-85-220.png/512x512bb.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "apple-marketing-tools"
+        }
+      }
+    },
+    {
+      "id": "app-983156458",
+      "name": "Microsoft Authenticator",
+      "value": 376,
+      "rank": 2,
+      "color": "#00a6ff",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ce/51/7d/ce517d96-d52d-0624-9faf-6f6d37eee4ae/AppIcon-0-1x_U007emarketing-0-11-0-sRGB-85-220-0.png/512x512bb.png",
+      "storyUrl": "/stories/app-store-takeover/",
+      "sourceIds": [
+        "RSS Feed Generator"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "x": 1280,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ce/51/7d/ce517d96-d52d-0624-9faf-6f6d37eee4ae/AppIcon-0-1x_U007emarketing-0-11-0-sRGB-85-220-0.png/512x512bb.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "apple-marketing-tools"
+        }
+      }
+    },
+    {
+      "id": "app-6473753684",
+      "name": "Claude by Anthropic",
+      "value": 374,
+      "rank": 3,
+      "color": "#18c871",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/62/27/25/6227259f-86e5-27aa-1a27-d944a140b757/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.png",
+      "storyUrl": "/stories/app-store-takeover/",
+      "sourceIds": [
+        "RSS Feed Generator"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0,
+          "u1": 0.8,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/62/27/25/6227259f-86e5-27aa-1a27-d944a140b757/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "apple-marketing-tools"
+        }
+      }
+    },
+    {
+      "id": "app-1113153706",
+      "name": "Microsoft Teams",
+      "value": 355,
+      "rank": 4,
+      "color": "#7b9b65",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a7/9d/87/a79d878f-c333-9bf4-8458-fb643f004bef/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.png",
+      "storyUrl": "/stories/app-store-takeover/",
+      "sourceIds": [
+        "RSS Feed Generator"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.5,
+          "u1": 0.2,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a7/9d/87/a79d878f-c333-9bf4-8458-fb643f004bef/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "apple-marketing-tools"
+        }
+      }
+    },
+    {
+      "id": "app-6477489729",
+      "name": "Google Gemini",
+      "value": 351,
+      "rank": 5,
+      "color": "#ffc84a",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/45/36/59/45365963-8663-7bca-d951-6532e59d2d24/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-0-85-220.png/512x512bb.png",
+      "storyUrl": "/stories/app-store-takeover/",
+      "sourceIds": [
+        "RSS Feed Generator"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.25,
+          "u1": 0.6,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/45/36/59/45365963-8663-7bca-d951-6532e59d2d24/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-0-85-220.png/512x512bb.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "apple-marketing-tools"
+        }
+      }
+    },
+    {
+      "id": "app-1500855883",
+      "name": "CapCut: Photo & Video Editor",
+      "value": 340,
+      "rank": 6,
+      "color": "#f18c4f",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/19/f4/87/19f48707-395f-3fa6-5745-14330feabdec/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.png",
+      "storyUrl": "/stories/app-store-takeover/",
+      "sourceIds": [
+        "RSS Feed Generator"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "x": 1280,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.25,
+          "u1": 1,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/19/f4/87/19f48707-395f-3fa6-5745-14330feabdec/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "apple-marketing-tools"
+        }
+      }
+    },
+    {
+      "id": "app-1223471316",
+      "name": "Shop: All your favorite brands",
+      "value": 340,
+      "rank": 7,
+      "color": "#8f6bff",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/60/e2/2a/60e22af6-d897-b246-115f-6c76d4e4b2b4/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/512x512bb.png",
+      "storyUrl": "/stories/app-store-takeover/",
+      "sourceIds": [
+        "RSS Feed Generator"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.5,
+          "u1": 0.4,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/60/e2/2a/60e22af6-d897-b246-115f-6c76d4e4b2b4/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/512x512bb.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "apple-marketing-tools"
+        }
+      }
+    },
+    {
+      "id": "app-500003565",
+      "name": "Ticketmaster－Buy, Sell Tickets",
+      "value": 304,
+      "rank": 8,
+      "color": "#9aa4b2",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/40/63/87/406387b7-ecb1-82a6-be6a-aa427b381eee/AppIcon-0-0-1x_U007emarketing-0-1-0-85-220.png/512x512bb.png",
+      "storyUrl": "/stories/app-store-takeover/",
+      "sourceIds": [
+        "RSS Feed Generator"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.5,
+          "u1": 0.6,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/40/63/87/406387b7-ecb1-82a6-be6a-aa427b381eee/AppIcon-0-0-1x_U007emarketing-0-1-0-85-220.png/512x512bb.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "apple-marketing-tools"
+        }
+      }
+    },
+    {
+      "id": "app-6446901002",
+      "name": "Threads",
+      "value": 303,
+      "rank": 9,
+      "color": "#41a99f",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f0/0f/b7/f00fb7b7-f7a0-ec89-aa02-49baa41ec8e6/Prod-0-0-1x_U007ephone-0-0-0-1-0-0-P3-85-220.png/512x512bb.png",
+      "storyUrl": "/stories/app-store-takeover/",
+      "sourceIds": [
+        "RSS Feed Generator"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "x": 1280,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.5,
+          "u1": 1,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f0/0f/b7/f00fb7b7-f7a0-ec89-aa02-49baa41ec8e6/Prod-0-0-1x_U007ephone-0-0-0-1-0-0-P3-85-220.png/512x512bb.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "apple-marketing-tools"
+        }
+      }
+    },
+    {
+      "id": "app-585027354",
+      "name": "Google Maps",
+      "value": 299,
+      "rank": 10,
+      "color": "#ef426f",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/42/38/5b/42385b3b-3cae-d64f-e254-127111aaa7c1/maps_2025-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-0-85-220.png/512x512bb.png",
+      "storyUrl": "/stories/app-store-takeover/",
+      "sourceIds": [
+        "RSS Feed Generator"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "x": 320,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.75,
+          "u1": 0.4,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/42/38/5b/42385b3b-3cae-d64f-e254-127111aaa7c1/maps_2025-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-0-85-220.png/512x512bb.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "apple-marketing-tools"
+        }
+      }
+    },
+    {
+      "id": "app-284815942",
+      "name": "Google",
+      "value": 290,
+      "rank": 11,
+      "color": "#d78fca",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f0/56/7f/f0567fc0-e243-7ac0-54f9-d2ac9ea96ecf/SuperG_ios26-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-0-0-85-220.png/512x512bb.png",
+      "storyUrl": "/stories/app-store-takeover/",
+      "sourceIds": [
+        "RSS Feed Generator"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.5,
+          "u1": 0.8,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f0/56/7f/f0567fc0-e243-7ac0-54f9-d2ac9ea96ecf/SuperG_ios26-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-0-0-85-220.png/512x512bb.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "apple-marketing-tools"
+        }
+      }
+    },
+    {
+      "id": "app-1641486558",
+      "name": "Temu: Shop Like a Billionaire",
+      "value": 272,
+      "rank": 12,
+      "color": "#ffc84a",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/30/2a/df/302adfdb-3920-ba10-573a-31ed73613e1b/AppIcon-0-1x_U007epad-0-1-0-0-85-220-0.png/512x512bb.png",
+      "storyUrl": "/stories/app-store-takeover/",
+      "sourceIds": [
+        "RSS Feed Generator"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "x": 640,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.75,
+          "u1": 0.6,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/30/2a/df/302adfdb-3920-ba10-573a-31ed73613e1b/AppIcon-0-1x_U007epad-0-1-0-0-85-220-0.png/512x512bb.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "apple-marketing-tools"
+        }
+      }
+    },
+    {
+      "id": "app-368677368",
+      "name": "Uber - Request a ride",
+      "value": 264,
+      "rank": 13,
+      "color": "#ff5a61",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/46/5c/63/465c63be-e67b-848e-fbd3-f21b4887a86c/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.png",
+      "storyUrl": "/stories/app-store-takeover/",
+      "sourceIds": [
+        "RSS Feed Generator"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.25,
+          "u1": 0.8,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/46/5c/63/465c63be-e67b-848e-fbd3-f21b4887a86c/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "apple-marketing-tools"
+        }
+      }
+    },
+    {
+      "id": "app-384830320",
+      "name": "Life360: Family Safety & GPS",
+      "value": 261,
+      "rank": 14,
+      "color": "#e34f59",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a4/f6/99/a4f69906-3cc5-722a-a4c3-e7efc5042f57/AppIcon-0-0-1x_U007ephone-0-1-0-0-85-220.png/512x512bb.png",
+      "storyUrl": "/stories/app-store-takeover/",
+      "sourceIds": [
+        "RSS Feed Generator"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/app-store-takeover.json",
+          "x": 960,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.75,
+          "u1": 0.8,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a4/f6/99/a4f69906-3cc5-722a-a4c3-e7efc5042f57/AppIcon-0-0-1x_U007ephone-0-1-0-0-85-220.png/512x512bb.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "apple-marketing-tools"
+        }
+      }
+    }
+  ]
+}

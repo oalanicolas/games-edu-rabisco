@@ -1,0 +1,537 @@
+{
+  "schemaVersion": 1,
+  "contentKind": "dat-city.district",
+  "version": 1,
+  "generatedAt": "2026-09-02T08:01:38.701Z",
+  "versionId": "20260902T080138Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "storyops-scheduler",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-09-02T08:01:38.701Z",
+    "versionId": "20260902T080138Z",
+    "adapter": null,
+    "storySlug": "ai-lab-attention",
+    "districtId": "ai-lab-row",
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "id": "ai-lab-row",
+  "name": "AI Lab Row",
+  "storySlug": "ai-lab-attention",
+  "storyUrl": "/stories/ai-lab-attention/",
+  "publicStoryUrl": "/stories/ai-lab-attention.json",
+  "metric": "Daily pageviews",
+  "metricKey": "daily-pageviews",
+  "latestFrameLabel": "2026-08-31",
+  "summary": "Wikipedia attention for AI labs, companies, and AI products with mass-interest reach.",
+  "taxonomy": {
+    "primaryCategory": "technology",
+    "categories": [
+      "technology",
+      "ai",
+      "business",
+      "internet"
+    ],
+    "tags": [
+      "ai-labs",
+      "ai-companies",
+      "chatgpt",
+      "attention",
+      "wikipedia-pageviews"
+    ],
+    "entityTypes": [
+      "company",
+      "lab",
+      "product"
+    ],
+    "sourceTypes": [
+      "wikimedia"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "frontier-language-model-intelligence",
+      "type": "labs-to-frontier-models",
+      "weight": 0.86,
+      "reason": "The same labs and companies produce many frontier model benchmark entries."
+    },
+    {
+      "target": "ai-model-popularity",
+      "type": "labs-to-models",
+      "weight": 0.64,
+      "reason": "Lab attention can connect to model popularity and downloads."
+    },
+    {
+      "target": "public-company-market-cap",
+      "type": "ai-business",
+      "weight": 0.74,
+      "reason": "Public AI infrastructure companies connect attention to market capitalization."
+    },
+    {
+      "target": "ai-lab-race",
+      "type": "capability-vs-attention",
+      "weight": 0.8,
+      "reason": "One ranks labs by benchmark capability, the other by public attention."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "ai-stack",
+    "mainland": "technology",
+    "bridgePriority": [
+      "frontier-language-model-intelligence",
+      "ai-model-popularity",
+      "public-company-market-cap"
+    ]
+  },
+  "thumbnail": "/assets/og/dat-city-home.png",
+  "status": "fresh",
+  "dataUpdatedAt": "2026-09-02T08:01:38.701Z",
+  "staleAfterHours": 30,
+  "dormant": false,
+  "lastObservationDate": "2026-08-31",
+  "nextRefreshAt": "2026-09-03T08:00:00.000Z",
+  "confidence": "Observed daily English Wikipedia article pageviews through 2026-08-31.",
+  "methodology": "This story is generated from the Wikimedia Pageviews API for selected high-interest English Wikipedia articles. Values are daily all-access, user-agent-filtered pageviews. The story publishes a render-ready projection and keeps raw API responses out of the public payload.",
+  "sources": [
+    {
+      "title": "Page view analytics",
+      "publisher": "Wikimedia Analytics API",
+      "url": "https://doc.wikimedia.org/generated-data-platform/aqs/analytics-api/reference/page-views.html",
+      "note": "Official API for daily article pageview time series."
+    }
+  ],
+  "media": {
+    "imageFit": "contain",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-09-02T08:01:38.701Z",
+    "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.webp",
+    "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.webp",
+    "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.json",
+    "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.json",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 4,
+    "rows": 3,
+    "width": 1280,
+    "height": 960,
+    "itemCount": 12,
+    "sourcedImageCount": 12,
+    "generatedImageCount": 0,
+    "placeholderCount": 0
+  },
+  "entities": [
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "value": 41659,
+      "rank": 1,
+      "color": "#2f4858",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg",
+      "storyUrl": "/stories/ai-lab-attention/",
+      "sourceIds": [
+        "Page view analytics"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.json",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.25,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic",
+      "value": 5874,
+      "rank": 2,
+      "color": "#18c871",
+      "image": "https://cdn.simpleicons.org/anthropic",
+      "storyUrl": "/stories/ai-lab-attention/",
+      "sourceIds": [
+        "Page view analytics"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.json",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/anthropic",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "nvidia",
+      "name": "Nvidia",
+      "value": 5813,
+      "rank": 3,
+      "color": "#7b9b65",
+      "image": "https://cdn.simpleicons.org/nvidia",
+      "storyUrl": "/stories/ai-lab-attention/",
+      "sourceIds": [
+        "Page view analytics"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.json",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0,
+          "u1": 0.75,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/nvidia",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI",
+      "value": 5710,
+      "rank": 4,
+      "color": "#ff5a61",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/66/OpenAI_logo_2025_%28symbol%29.svg",
+      "storyUrl": "/stories/ai-lab-attention/",
+      "sourceIds": [
+        "Page view analytics"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.json",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.333333,
+          "u1": 0.25,
+          "v1": 0.666667
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/66/OpenAI_logo_2025_%28symbol%29.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "hugging-face",
+      "name": "Hugging Face",
+      "value": 4421,
+      "rank": 5,
+      "color": "#f18c4f",
+      "image": "https://cdn.simpleicons.org/huggingface",
+      "storyUrl": "/stories/ai-lab-attention/",
+      "sourceIds": [
+        "Page view analytics"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.json",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0,
+          "u1": 0.5,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/huggingface",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "perplexity-ai",
+      "name": "Perplexity AI",
+      "value": 2315,
+      "rank": 6,
+      "color": "#41a99f",
+      "image": "https://cdn.simpleicons.org/perplexity",
+      "storyUrl": "/stories/ai-lab-attention/",
+      "sourceIds": [
+        "Page view analytics"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.json",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.333333,
+          "u1": 0.5,
+          "v1": 0.666667
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/perplexity",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "microsoft-copilot",
+      "name": "Microsoft Copilot",
+      "value": 1156,
+      "rank": 7,
+      "color": "#86bdf4",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg",
+      "storyUrl": "/stories/ai-lab-attention/",
+      "sourceIds": [
+        "Page view analytics"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.json",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.333333,
+          "u1": 0.75,
+          "v1": 0.666667
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "mistral-ai",
+      "name": "Mistral AI",
+      "value": 939,
+      "rank": 8,
+      "color": "#8f6bff",
+      "image": "https://cdn.simpleicons.org/mistralai",
+      "storyUrl": "/stories/ai-lab-attention/",
+      "sourceIds": [
+        "Page view analytics"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.json",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.666667,
+          "u1": 0.25,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/mistralai",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "google-deepmind",
+      "name": "Google DeepMind",
+      "value": 861,
+      "rank": 9,
+      "color": "#ffc84a",
+      "image": "https://cdn.simpleicons.org/google",
+      "storyUrl": "/stories/ai-lab-attention/",
+      "sourceIds": [
+        "Page view analytics"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.json",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.333333,
+          "u1": 1,
+          "v1": 0.666667
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/google",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "meta-ai",
+      "name": "Meta AI",
+      "value": 450,
+      "rank": 10,
+      "color": "#00a6ff",
+      "image": "https://cdn.simpleicons.org/meta",
+      "storyUrl": "/stories/ai-lab-attention/",
+      "sourceIds": [
+        "Page view analytics"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.json",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.666667,
+          "u1": 0.5,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/meta",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "xai",
+      "name": "xAI",
+      "value": 277,
+      "rank": 11,
+      "color": "#d78fca",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Unsold_Cybertrucks.jpg/960px-Unsold_Cybertrucks.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "storyUrl": "/stories/ai-lab-attention/",
+      "sourceIds": [
+        "Page view analytics"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.json",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.666667,
+          "u1": 0.75,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Unsold_Cybertrucks.jpg/960px-Unsold_Cybertrucks.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "gemini",
+      "name": "Gemini",
+      "value": 142,
+      "rank": 12,
+      "color": "#ef426f",
+      "image": "https://cdn.simpleicons.org/googlegemini",
+      "storyUrl": "/stories/ai-lab-attention/",
+      "sourceIds": [
+        "Page view analytics"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-lab-attention.json",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.666667,
+          "u1": 1,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/googlegemini",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    }
+  ]
+}

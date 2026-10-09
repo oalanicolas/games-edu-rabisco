@@ -1,0 +1,810 @@
+{
+  "schemaVersion": 1,
+  "contentKind": "dat-city.district",
+  "version": 1,
+  "generatedAt": "2026-07-10T07:52:11.714Z",
+  "versionId": "20260710T075211Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "manual",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-07-10T07:52:11.714Z",
+    "versionId": "20260710T075211Z",
+    "adapter": null,
+    "storySlug": "tiktok-account-leaders",
+    "districtId": "tiktok-creator-towers",
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "id": "tiktok-creator-towers",
+  "name": "TikTok Creator Towers",
+  "storySlug": "tiktok-account-leaders",
+  "storyUrl": "/stories/tiktok-account-leaders/",
+  "publicStoryUrl": "/stories/tiktok-account-leaders.json",
+  "metric": "Followers",
+  "metricKey": "followers",
+  "latestFrameLabel": "2026-07-10",
+  "summary": "The most-followed TikTok accounts by public follower counts.",
+  "taxonomy": {
+    "primaryCategory": "culture",
+    "categories": [
+      "culture",
+      "internet",
+      "creators"
+    ],
+    "tags": [
+      "tiktok",
+      "followers",
+      "creators",
+      "social-media"
+    ],
+    "entityTypes": [
+      "creator",
+      "account"
+    ],
+    "sourceTypes": [
+      "wikipedia"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "top-youtubers",
+      "type": "creator-platform-peer",
+      "weight": 0.86,
+      "reason": "Both rank creator-platform scale by audience size."
+    },
+    {
+      "target": "internet-obsession-meter",
+      "type": "social-attention",
+      "weight": 0.72,
+      "reason": "TikTok account scale often overlaps with broader internet attention."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "creator-platforms",
+    "mainland": "culture",
+    "bridgePriority": [
+      "top-youtubers",
+      "internet-obsession-meter"
+    ]
+  },
+  "thumbnail": "/assets/og/dat-city.webp",
+  "status": "fresh",
+  "lastObservationDate": "2026-07-10",
+  "nextRefreshAt": "2026-07-13T07:00:00.000Z",
+  "confidence": "Observed List of most-followed TikTok accounts on 2026-07-10T07:52:11.714Z; follower counts are the rounded million-follower values displayed in the source table.",
+  "methodology": "This story is generated from Wikipedia's current TikTok account ranking table. The adapter resolves redirects, finds the table with username and follower columns, converts displayed million-follower counts to follower totals, and stores StoryOps snapshots so recent history grows from observed public rows.",
+  "sources": [
+    {
+      "title": "List of most-followed TikTok accounts",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_most-followed_TikTok_accounts",
+      "note": "Current public follower table parsed by the StoryOps adapter."
+    }
+  ],
+  "media": {
+    "imageFit": "contain",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-07-10T07:52:11.714Z",
+    "atlasUrl": "/assets/story-atlases/tiktok-account-leaders.webp?v=2026-07-10T07%3A52%3A11.714Z",
+    "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/tiktok-account-leaders.webp?v=2026-07-10T07%3A52%3A11.714Z",
+    "manifestUrl": "/assets/story-atlases/tiktok-account-leaders.json?v=2026-07-10T07%3A52%3A11.714Z",
+    "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/tiktok-account-leaders.json?v=2026-07-10T07%3A52%3A11.714Z",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 5,
+    "rows": 4,
+    "width": 1600,
+    "height": 1280,
+    "itemCount": 20,
+    "sourcedImageCount": 20,
+    "generatedImageCount": 0,
+    "placeholderCount": 0
+  },
+  "entities": [
+    {
+      "id": "khaby-lame-khaby-lame",
+      "name": "Khaby Lame",
+      "shortName": "Khaby Lame",
+      "value": 162300000,
+      "rank": 1,
+      "color": "#ff5a61",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Khaby_Lame%2C_Nov_2025_%28cropped1%29.jpg/960px-Khaby_Lame%2C_Nov_2025_%28cropped1%29.jpg",
+      "storyUrl": "/stories/tiktok-account-leaders/",
+      "sourceIds": [
+        "List of most-followed TikTok accounts"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/tiktok-account-leaders.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/tiktok-account-leaders.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/tiktok-account-leaders.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/tiktok-account-leaders.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.2,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Khaby_Lame%2C_Nov_2025_%28cropped1%29.jpg/960px-Khaby_Lame%2C_Nov_2025_%28cropped1%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "charlidamelio-charli-d-amelio",
+      "name": "Charli D'Amelio",
+      "shortName": "Charli D'Amelio",
+      "value": 159100000,
+      "rank": 2,
+      "color": "#18c871",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Charli_D%27Amelio_3.jpg/960px-Charli_D%27Amelio_3.jpg",
+      "storyUrl": "/stories/tiktok-account-leaders/",
+      "sourceIds": [
+        "List of most-followed TikTok accounts"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/tiktok-account-leaders.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/tiktok-account-leaders.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/tiktok-account-leaders.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/tiktok-account-leaders.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0,
+          "u1": 0.4,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Charli_D%27Amelio_3.jpg/960px-Charli_D%27Amelio_3.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "mrbeast-mrbeast",
+      "name": "MrBeast",
+      "shortName": "MrBeast",
+      "value": 129100000,
+      "rank": 3,
+      "color": "#ffc84a",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/MrBeast_in_2026_%28cropped_4%29.png/960px-MrBeast_in_2026_%28cropped_4%29.png",
+      "storyUrl": "/stories/tiktok-account-leaders/",
+      "sourceIds": [
+        "List of most-followed TikTok accounts"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/tiktok-account-leaders.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/tiktok-account-leaders.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/tiktok-account-leaders.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/tiktok-account-leaders.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0,
+          "u1": 0.6,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/MrBeast_in_2026_%28cropped_4%29.png/960px-MrBeast_in_2026_%28cropped_4%29.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "tiktok-tiktok",
+      "name": "TikTok",
+      "shortName": "TikTok",
+      "value": 94700000,
+      "rank": 4,
+      "color": "#00a6ff",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0e/TikTok_logo_%28white_text%29.svg/960px-TikTok_logo_%28white_text%29.svg.png",
+      "storyUrl": "/stories/tiktok-account-leaders/",
+      "sourceIds": [
+        "List of most-followed TikTok accounts"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/tiktok-account-leaders.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/tiktok-account-leaders.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/tiktok-account-leaders.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/tiktok-account-leaders.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0,
+          "u1": 0.8,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0e/TikTok_logo_%28white_text%29.svg/960px-TikTok_logo_%28white_text%29.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "bellapoarch-bella-poarch",
+      "name": "Bella Poarch",
+      "shortName": "Bella Poarch",
+      "value": 92000000,
+      "rank": 5,
+      "color": "#8f6bff",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/59/Bella_Poarch_-_Pink_Aura_Tour.jpg",
+      "storyUrl": "/stories/tiktok-account-leaders/",
+      "sourceIds": [
+        "List of most-followed TikTok accounts"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/tiktok-account-leaders.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/tiktok-account-leaders.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/tiktok-account-leaders.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/tiktok-account-leaders.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 1280,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Bella_Poarch_-_Pink_Aura_Tour.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "addisonre-addison-rae",
+      "name": "Addison Rae",
+      "shortName": "Addison Rae",
+      "value": 88000000,
+      "rank": 6,
+      "color": "#f18c4f",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/b4/LanaWembley030725-144_-_54640470921_%28Addison_Rae%29.jpg",
+      "storyUrl": "/stories/tiktok-account-leaders/",
+      "sourceIds": [
+        "List of most-followed TikTok accounts"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/tiktok-account-leaders.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/tiktok-account-leaders.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/tiktok-account-leaders.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/tiktok-account-leaders.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.25,
+          "u1": 0.2,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b4/LanaWembley030725-144_-_54640470921_%28Addison_Rae%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "williesalim-willie-salim",
+      "name": "Willie Salim",
+      "shortName": "Willie Salim",
+      "value": 86700000,
+      "rank": 7,
+      "color": "#41a99f",
+      "image": "https://unavatar.io/tiktok/williesalim",
+      "storyUrl": "/stories/tiktok-account-leaders/",
+      "sourceIds": [
+        "List of most-followed TikTok accounts"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/tiktok-account-leaders.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/tiktok-account-leaders.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/tiktok-account-leaders.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/tiktok-account-leaders.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.25,
+          "u1": 0.4,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://unavatar.io/tiktok/williesalim",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "zachking-zach-king",
+      "name": "Zach King",
+      "shortName": "Zach King",
+      "value": 85900000,
+      "rank": 8,
+      "color": "#d78fca",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Zach_King_Photo.jpg/960px-Zach_King_Photo.jpg",
+      "storyUrl": "/stories/tiktok-account-leaders/",
+      "sourceIds": [
+        "List of most-followed TikTok accounts"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/tiktok-account-leaders.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/tiktok-account-leaders.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/tiktok-account-leaders.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/tiktok-account-leaders.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.25,
+          "u1": 0.6,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Zach_King_Photo.jpg/960px-Zach_King_Photo.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "kimberly-loaiza-kimberly-loaiza",
+      "name": "Kimberly Loaiza",
+      "shortName": "Kimberly Loaiza",
+      "value": 83600000,
+      "rank": 9,
+      "color": "#7b9b65",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Kimberly_Loaiza.jpg/960px-Kimberly_Loaiza.jpg",
+      "storyUrl": "/stories/tiktok-account-leaders/",
+      "sourceIds": [
+        "List of most-followed TikTok accounts"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/tiktok-account-leaders.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/tiktok-account-leaders.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/tiktok-account-leaders.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/tiktok-account-leaders.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.25,
+          "u1": 0.8,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Kimberly_Loaiza.jpg/960px-Kimberly_Loaiza.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "bts-official-bighit-bts",
+      "name": "BTS",
+      "shortName": "BTS",
+      "value": 80200000,
+      "rank": 10,
+      "color": "#2f4858",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/BTS_during_a_White_House_press_conference_May_31%2C_2022_%28cropped%29.jpg/960px-BTS_during_a_White_House_press_conference_May_31%2C_2022_%28cropped%29.jpg",
+      "storyUrl": "/stories/tiktok-account-leaders/",
+      "sourceIds": [
+        "List of most-followed TikTok accounts"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/tiktok-account-leaders.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/tiktok-account-leaders.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/tiktok-account-leaders.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/tiktok-account-leaders.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 1280,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.25,
+          "u1": 1,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/BTS_during_a_White_House_press_conference_May_31%2C_2022_%28cropped%29.jpg/960px-BTS_during_a_White_House_press_conference_May_31%2C_2022_%28cropped%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "therock-dwayne-johnson",
+      "name": "Dwayne Johnson",
+      "shortName": "Dwayne Johnson",
+      "value": 79500000,
+      "rank": 11,
+      "color": "#ef426f",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Dwayne_Johnson-1764_%284x5_cropped_with_moderate_headroom%29.jpg/960px-Dwayne_Johnson-1764_%284x5_cropped_with_moderate_headroom%29.jpg",
+      "storyUrl": "/stories/tiktok-account-leaders/",
+      "sourceIds": [
+        "List of most-followed TikTok accounts"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/tiktok-account-leaders.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/tiktok-account-leaders.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/tiktok-account-leaders.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/tiktok-account-leaders.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.5,
+          "u1": 0.2,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Dwayne_Johnson-1764_%284x5_cropped_with_moderate_headroom%29.jpg/960px-Dwayne_Johnson-1764_%284x5_cropped_with_moderate_headroom%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "fifaworldcup-fifa-world-cup",
+      "name": "FIFA World Cup",
+      "shortName": "FIFA World Cup",
+      "value": 79400000,
+      "rank": 12,
+      "color": "#ffc84a",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/1f/ARG_Line-up_-_ARG_vs_MEX_for_2022_FIFA_WC.jpg",
+      "storyUrl": "/stories/tiktok-account-leaders/",
+      "sourceIds": [
+        "List of most-followed TikTok accounts"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/tiktok-account-leaders.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/tiktok-account-leaders.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/tiktok-account-leaders.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/tiktok-account-leaders.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.5,
+          "u1": 0.4,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/ARG_Line-up_-_ARG_vs_MEX_for_2022_FIFA_WC.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "willsmith-will-smith",
+      "name": "Will Smith",
+      "shortName": "Will Smith",
+      "value": 78200000,
+      "rank": 13,
+      "color": "#86bdf4",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/TechCrunch_Disrupt_San_Francisco_2019_-_Day_1_%2848834070763%29_%28cropped%29.jpg/960px-TechCrunch_Disrupt_San_Francisco_2019_-_Day_1_%2848834070763%29_%28cropped%29.jpg",
+      "storyUrl": "/stories/tiktok-account-leaders/",
+      "sourceIds": [
+        "List of most-followed TikTok accounts"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/tiktok-account-leaders.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/tiktok-account-leaders.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/tiktok-account-leaders.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/tiktok-account-leaders.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.5,
+          "u1": 0.6,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/TechCrunch_Disrupt_San_Francisco_2019_-_Day_1_%2848834070763%29_%28cropped%29.jpg/960px-TechCrunch_Disrupt_San_Francisco_2019_-_Day_1_%2848834070763%29_%28cropped%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "domelipa-dominik-lipa",
+      "name": "Dominik Lipa",
+      "shortName": "Dominik Lipa",
+      "value": 75700000,
+      "rank": 14,
+      "color": "#c9a14a",
+      "image": "https://unavatar.io/tiktok/domelipa",
+      "storyUrl": "/stories/tiktok-account-leaders/",
+      "sourceIds": [
+        "List of most-followed TikTok accounts"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/tiktok-account-leaders.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/tiktok-account-leaders.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/tiktok-account-leaders.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/tiktok-account-leaders.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.5,
+          "u1": 0.8,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://unavatar.io/tiktok/domelipa",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "billieeilish-billie-eilish",
+      "name": "Billie Eilish",
+      "shortName": "Billie Eilish",
+      "value": 75300000,
+      "rank": 15,
+      "color": "#e34f59",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/BillieEilishO2140725-39_-_54665577407_%28cropped%29.jpg",
+      "storyUrl": "/stories/tiktok-account-leaders/",
+      "sourceIds": [
+        "List of most-followed TikTok accounts"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/tiktok-account-leaders.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/tiktok-account-leaders.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/tiktok-account-leaders.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/tiktok-account-leaders.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 1280,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.5,
+          "u1": 1,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c7/BillieEilishO2140725-39_-_54665577407_%28cropped%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "realmadrid-real-madrid-cf",
+      "name": "Real Madrid CF",
+      "shortName": "Real Madrid CF",
+      "value": 73600000,
+      "rank": 16,
+      "color": "#ff5a61",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Real_Madrid_CF.svg/960px-Real_Madrid_CF.svg.png",
+      "storyUrl": "/stories/tiktok-account-leaders/",
+      "sourceIds": [
+        "List of most-followed TikTok accounts"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/tiktok-account-leaders.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/tiktok-account-leaders.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/tiktok-account-leaders.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/tiktok-account-leaders.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.75,
+          "u1": 0.4,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Real_Madrid_CF.svg/960px-Real_Madrid_CF.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "cznburak-czn-burak",
+      "name": "CZN Burak",
+      "shortName": "CZN Burak",
+      "value": 73500000,
+      "rank": 17,
+      "color": "#9aa4b2",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/CZN_Burak_2022.jpg",
+      "storyUrl": "/stories/tiktok-account-leaders/",
+      "sourceIds": [
+        "List of most-followed TikTok accounts"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/tiktok-account-leaders.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/tiktok-account-leaders.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/tiktok-account-leaders.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/tiktok-account-leaders.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.75,
+          "u1": 0.2,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6b/CZN_Burak_2022.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "vilmeijuga-meicy-villia",
+      "name": "Meicy Villia",
+      "shortName": "Meicy Villia",
+      "value": 72500000,
+      "rank": 18,
+      "color": "#18c871",
+      "image": "https://unavatar.io/tiktok/vilmeijuga",
+      "storyUrl": "/stories/tiktok-account-leaders/",
+      "sourceIds": [
+        "List of most-followed TikTok accounts"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/tiktok-account-leaders.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/tiktok-account-leaders.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/tiktok-account-leaders.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/tiktok-account-leaders.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.75,
+          "u1": 0.6,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://unavatar.io/tiktok/vilmeijuga",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "fcbarcelona-fc-barcelona",
+      "name": "FC Barcelona",
+      "shortName": "FC Barcelona",
+      "value": 68600000,
+      "rank": 19,
+      "color": "#00a6ff",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/FC_Barcelona_%28crest%29.svg/960px-FC_Barcelona_%28crest%29.svg.png",
+      "storyUrl": "/stories/tiktok-account-leaders/",
+      "sourceIds": [
+        "List of most-followed TikTok accounts"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/tiktok-account-leaders.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/tiktok-account-leaders.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/tiktok-account-leaders.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/tiktok-account-leaders.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.75,
+          "u1": 0.8,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/FC_Barcelona_%28crest%29.svg/960px-FC_Barcelona_%28crest%29.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "jasonderulo-jason-derulo",
+      "name": "Jason Derulo",
+      "shortName": "Jason Derulo",
+      "value": 66100000,
+      "rank": 20,
+      "color": "#8f6bff",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Jason_Derulo_2.0.jpg",
+      "storyUrl": "/stories/tiktok-account-leaders/",
+      "sourceIds": [
+        "List of most-followed TikTok accounts"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/tiktok-account-leaders.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/tiktok-account-leaders.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/tiktok-account-leaders.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/tiktok-account-leaders.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 1280,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.75,
+          "u1": 1,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Jason_Derulo_2.0.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,680 @@
+{
+  "schemaVersion": 1,
+  "contentKind": "dat-city.district",
+  "version": 1,
+  "generatedAt": "2026-07-10T07:52:11.714Z",
+  "versionId": "20260710T075211Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "manual",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-07-10T07:52:11.714Z",
+    "versionId": "20260710T075211Z",
+    "adapter": null,
+    "storySlug": "richest-individuals",
+    "districtId": "wealth-tower",
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "id": "wealth-tower",
+  "name": "Wealth Tower",
+  "storySlug": "richest-individuals",
+  "storyUrl": "/stories/richest-individuals/",
+  "publicStoryUrl": "/stories/richest-individuals.json",
+  "metric": "Net worth",
+  "metricKey": "net-worth",
+  "latestFrameLabel": "2026-07-10",
+  "summary": "Forbes real-time billionaire net worth rankings, refreshed from the current leaderboard.",
+  "taxonomy": {
+    "primaryCategory": "economy",
+    "categories": [
+      "economy",
+      "wealth",
+      "business",
+      "celebrity"
+    ],
+    "tags": [
+      "billionaires",
+      "forbes",
+      "net-worth",
+      "founders",
+      "wealth"
+    ],
+    "entityTypes": [
+      "person",
+      "founder",
+      "investor"
+    ],
+    "sourceTypes": [
+      "forbes",
+      "wikipedia"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "public-company-market-cap",
+      "type": "capital-and-founders",
+      "weight": 0.88,
+      "reason": "Founder wealth and megacap company value are tightly linked."
+    },
+    {
+      "target": "top-athlete-salaries",
+      "type": "money-leaderboards",
+      "weight": 0.58,
+      "reason": "Both translate famous individuals into money rankings."
+    },
+    {
+      "target": "internet-obsession-meter",
+      "type": "public-figure-attention",
+      "weight": 0.36,
+      "reason": "High-profile billionaires often overlap with broader public attention."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "money-and-power",
+    "mainland": "economy",
+    "bridgePriority": [
+      "public-company-market-cap",
+      "top-athlete-salaries"
+    ]
+  },
+  "thumbnail": "/assets/og/dat-city-home.png",
+  "status": "fresh",
+  "lastObservationDate": "2026-07-10",
+  "nextRefreshAt": "2026-07-11T06:00:00.000Z",
+  "confidence": "Observed Forbes real-time billionaire rankings at 2026-07-10T07:52:11.714Z. Values are Forbes finalWorth figures converted from USD millions.",
+  "methodology": "This adapter reads the server-rendered Forbes Real-Time Billionaires page, extracts the embedded billionaire ranking payload, converts finalWorth from USD millions to USD, and stores StoryOps snapshots so the district can replay observed changes over time.",
+  "sources": [
+    {
+      "title": "Forbes Real-Time Billionaires",
+      "publisher": "Forbes",
+      "url": "https://www.forbes.com/real-time-billionaires/",
+      "note": "Primary real-time net worth ranking source for the production adapter."
+    }
+  ],
+  "media": {
+    "imageFit": "contain-blur",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-07-10T07:52:11.714Z",
+    "atlasUrl": "/assets/story-atlases/richest-individuals.webp?v=2026-07-10T07%3A52%3A11.714Z",
+    "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/richest-individuals.webp?v=2026-07-10T07%3A52%3A11.714Z",
+    "manifestUrl": "/assets/story-atlases/richest-individuals.json?v=2026-07-10T07%3A52%3A11.714Z",
+    "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/richest-individuals.json?v=2026-07-10T07%3A52%3A11.714Z",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 4,
+    "rows": 4,
+    "width": 1280,
+    "height": 1280,
+    "itemCount": 16,
+    "sourcedImageCount": 16,
+    "generatedImageCount": 0,
+    "placeholderCount": 0
+  },
+  "entities": [
+    {
+      "id": "elon-musk",
+      "name": "Elon Musk",
+      "shortName": "Elon Musk",
+      "value": 951892284000,
+      "rank": 1,
+      "color": "#ff5a61",
+      "image": "https://specials-images.forbesimg.com/imageserve/62d700cd6094d2c180f269b9/416x416.jpg?background=000000&cropX1=0&cropX2=959&cropY1=0&cropY2=959",
+      "storyUrl": "/stories/richest-individuals/",
+      "sourceIds": [
+        "Forbes Real-Time Billionaires"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/richest-individuals.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/richest-individuals.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/richest-individuals.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/richest-individuals.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.25,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://specials-images.forbesimg.com/imageserve/62d700cd6094d2c180f269b9/416x416.jpg?background=000000&cropX1=0&cropX2=959&cropY1=0&cropY2=959",
+          "sourceStatus": "source-image",
+          "sourceProvider": "forbes"
+        }
+      }
+    },
+    {
+      "id": "larry-page",
+      "name": "Larry Page",
+      "shortName": "Larry Page",
+      "value": 293023411000,
+      "rank": 2,
+      "color": "#18c871",
+      "image": "https://specials-images.forbesimg.com/imageserve/5c76bcaaa7ea43100043c836/416x416.jpg?background=000000&cropX1=227&cropX2=2022&cropY1=22&cropY2=1817",
+      "storyUrl": "/stories/richest-individuals/",
+      "sourceIds": [
+        "Forbes Real-Time Billionaires"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/richest-individuals.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/richest-individuals.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/richest-individuals.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/richest-individuals.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0,
+          "u1": 0.5,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://specials-images.forbesimg.com/imageserve/5c76bcaaa7ea43100043c836/416x416.jpg?background=000000&cropX1=227&cropX2=2022&cropY1=22&cropY2=1817",
+          "sourceStatus": "source-image",
+          "sourceProvider": "forbes"
+        }
+      }
+    },
+    {
+      "id": "sergey-brin",
+      "name": "Sergey Brin",
+      "shortName": "Sergey Brin",
+      "value": 270277418000,
+      "rank": 3,
+      "color": "#ffc84a",
+      "image": "https://specials-images.forbesimg.com/imageserve/5c7d7c254bbe6f78090d831f/416x416.jpg?background=000000&cropX1=475&cropX2=2887&cropY1=168&cropY2=2582",
+      "storyUrl": "/stories/richest-individuals/",
+      "sourceIds": [
+        "Forbes Real-Time Billionaires"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/richest-individuals.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/richest-individuals.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/richest-individuals.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/richest-individuals.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0,
+          "u1": 0.75,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://specials-images.forbesimg.com/imageserve/5c7d7c254bbe6f78090d831f/416x416.jpg?background=000000&cropX1=475&cropX2=2887&cropY1=168&cropY2=2582",
+          "sourceStatus": "source-image",
+          "sourceProvider": "forbes"
+        }
+      }
+    },
+    {
+      "id": "jeff-bezos",
+      "name": "Jeff Bezos",
+      "shortName": "Jeff Bezos",
+      "value": 256418782000,
+      "rank": 4,
+      "color": "#00a6ff",
+      "image": "https://specials-images.forbesimg.com/imageserve/67531eb2b5f7c9e191f632d7/416x416.jpg?background=000000&cropX1=316&cropX2=1027&cropY1=125&cropY2=838",
+      "storyUrl": "/stories/richest-individuals/",
+      "sourceIds": [
+        "Forbes Real-Time Billionaires"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/richest-individuals.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/richest-individuals.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/richest-individuals.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/richest-individuals.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://specials-images.forbesimg.com/imageserve/67531eb2b5f7c9e191f632d7/416x416.jpg?background=000000&cropX1=316&cropX2=1027&cropY1=125&cropY2=838",
+          "sourceStatus": "source-image",
+          "sourceProvider": "forbes"
+        }
+      }
+    },
+    {
+      "id": "michael-dell",
+      "name": "Michael Dell",
+      "shortName": "Michael Dell",
+      "value": 244607251000,
+      "rank": 5,
+      "color": "#f18c4f",
+      "image": "https://specials-images.forbesimg.com/imageserve/615c93f9da61f2ff5b9ecf9b/416x416.jpg?background=000000&cropX1=0&cropX2=1678&cropY1=118&cropY2=1797",
+      "storyUrl": "/stories/richest-individuals/",
+      "sourceIds": [
+        "Forbes Real-Time Billionaires"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/richest-individuals.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/richest-individuals.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/richest-individuals.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/richest-individuals.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.25,
+          "u1": 0.25,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://specials-images.forbesimg.com/imageserve/615c93f9da61f2ff5b9ecf9b/416x416.jpg?background=000000&cropX1=0&cropX2=1678&cropY1=118&cropY2=1797",
+          "sourceStatus": "source-image",
+          "sourceProvider": "forbes"
+        }
+      }
+    },
+    {
+      "id": "mark-zuckerberg",
+      "name": "Mark Zuckerberg",
+      "shortName": "Mark Zuckerberg",
+      "value": 216638598000,
+      "rank": 6,
+      "color": "#41a99f",
+      "image": "https://specials-images.forbesimg.com/imageserve/5c76b7d331358e35dd2773a9/416x416.jpg?background=000000&cropX1=0&cropX2=4401&cropY1=0&cropY2=4401",
+      "storyUrl": "/stories/richest-individuals/",
+      "sourceIds": [
+        "Forbes Real-Time Billionaires"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/richest-individuals.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/richest-individuals.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/richest-individuals.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/richest-individuals.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.25,
+          "u1": 0.75,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://specials-images.forbesimg.com/imageserve/5c76b7d331358e35dd2773a9/416x416.jpg?background=000000&cropX1=0&cropX2=4401&cropY1=0&cropY2=4401",
+          "sourceStatus": "source-image",
+          "sourceProvider": "forbes"
+        }
+      }
+    },
+    {
+      "id": "larry-ellison",
+      "name": "Larry Ellison",
+      "shortName": "Larry Ellison",
+      "value": 187932905000,
+      "rank": 7,
+      "color": "#8f6bff",
+      "image": "https://specials-images.forbesimg.com/imageserve/5e8b62cfc095010007bffea0/416x416.jpg?background=000000&cropX1=0&cropX2=4529&cropY1=652&cropY2=5184",
+      "storyUrl": "/stories/richest-individuals/",
+      "sourceIds": [
+        "Forbes Real-Time Billionaires"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/richest-individuals.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/richest-individuals.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/richest-individuals.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/richest-individuals.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.25,
+          "u1": 1,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://specials-images.forbesimg.com/imageserve/5e8b62cfc095010007bffea0/416x416.jpg?background=000000&cropX1=0&cropX2=4529&cropY1=652&cropY2=5184",
+          "sourceStatus": "source-image",
+          "sourceProvider": "forbes"
+        }
+      }
+    },
+    {
+      "id": "jensen-huang",
+      "name": "Jensen Huang",
+      "shortName": "Jensen Huang",
+      "value": 175329114000,
+      "rank": 8,
+      "color": "#d78fca",
+      "image": "https://specials-images.forbesimg.com/imageserve/68750a2d250de42ce7c5301b/416x416.jpg?background=000000&cropX1=832&cropX2=2632&cropY1=152&cropY2=1951",
+      "storyUrl": "/stories/richest-individuals/",
+      "sourceIds": [
+        "Forbes Real-Time Billionaires"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/richest-individuals.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/richest-individuals.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/richest-individuals.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/richest-individuals.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.5,
+          "u1": 0.25,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://specials-images.forbesimg.com/imageserve/68750a2d250de42ce7c5301b/416x416.jpg?background=000000&cropX1=832&cropX2=2632&cropY1=152&cropY2=1951",
+          "sourceStatus": "source-image",
+          "sourceProvider": "forbes"
+        }
+      }
+    },
+    {
+      "id": "bernard-arnault",
+      "name": "Bernard Arnault & family",
+      "shortName": "Bernard Arnault & family",
+      "value": 150388941000,
+      "rank": 9,
+      "color": "#7b9b65",
+      "image": "https://specials-images.forbesimg.com/imageserve/5dc05518ca425400079c659f/416x416.jpg?background=000000&cropX1=0&cropX2=4000&cropY1=1209&cropY2=5212",
+      "storyUrl": "/stories/richest-individuals/",
+      "sourceIds": [
+        "Forbes Real-Time Billionaires"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/richest-individuals.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/richest-individuals.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/richest-individuals.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/richest-individuals.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.25,
+          "u1": 0.5,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://specials-images.forbesimg.com/imageserve/5dc05518ca425400079c659f/416x416.jpg?background=000000&cropX1=0&cropX2=4000&cropY1=1209&cropY2=5212",
+          "sourceStatus": "source-image",
+          "sourceProvider": "forbes"
+        }
+      }
+    },
+    {
+      "id": "warren-buffett",
+      "name": "Warren Buffett",
+      "shortName": "Warren Buffett",
+      "value": 146221859000,
+      "rank": 10,
+      "color": "#2f4858",
+      "image": "https://specials-images.forbesimg.com/imageserve/5babb7f1a7ea4342a948b79a/416x416.jpg?background=000000&cropX1=748&cropX2=3075&cropY1=1753&cropY2=4082",
+      "storyUrl": "/stories/richest-individuals/",
+      "sourceIds": [
+        "Forbes Real-Time Billionaires"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/richest-individuals.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/richest-individuals.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/richest-individuals.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/richest-individuals.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.5,
+          "u1": 0.5,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://specials-images.forbesimg.com/imageserve/5babb7f1a7ea4342a948b79a/416x416.jpg?background=000000&cropX1=748&cropX2=3075&cropY1=1753&cropY2=4082",
+          "sourceStatus": "source-image",
+          "sourceProvider": "forbes"
+        }
+      }
+    },
+    {
+      "id": "amancio-ortega",
+      "name": "Amancio Ortega",
+      "shortName": "Amancio Ortega",
+      "value": 140333653000,
+      "rank": 11,
+      "color": "#ef426f",
+      "image": "https://specials-images.forbesimg.com/imageserve/5c76b94131358e35dd27748e/416x416.jpg?background=000000&cropX1=179&cropX2=2232&cropY1=216&cropY2=2269",
+      "storyUrl": "/stories/richest-individuals/",
+      "sourceIds": [
+        "Forbes Real-Time Billionaires"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/richest-individuals.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/richest-individuals.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/richest-individuals.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/richest-individuals.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.5,
+          "u1": 0.75,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://specials-images.forbesimg.com/imageserve/5c76b94131358e35dd27748e/416x416.jpg?background=000000&cropX1=179&cropX2=2232&cropY1=216&cropY2=2269",
+          "sourceStatus": "source-image",
+          "sourceProvider": "forbes"
+        }
+      }
+    },
+    {
+      "id": "rob-walton",
+      "name": "Rob Walton & family",
+      "shortName": "Rob Walton & family",
+      "value": 131624288000,
+      "rank": 12,
+      "color": "#86bdf4",
+      "image": "https://specials-images.forbesimg.com/imageserve/59d50a9e4bbe6f37dd9ff712/416x416.jpg?background=000000&cropX1=244&cropX2=1841&cropY1=60&cropY2=1658",
+      "storyUrl": "/stories/richest-individuals/",
+      "sourceIds": [
+        "Forbes Real-Time Billionaires"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/richest-individuals.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/richest-individuals.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/richest-individuals.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/richest-individuals.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.5,
+          "u1": 1,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://specials-images.forbesimg.com/imageserve/59d50a9e4bbe6f37dd9ff712/416x416.jpg?background=000000&cropX1=244&cropX2=1841&cropY1=60&cropY2=1658",
+          "sourceStatus": "source-image",
+          "sourceProvider": "forbes"
+        }
+      }
+    },
+    {
+      "id": "jim-walton",
+      "name": "Jim Walton & family",
+      "shortName": "Jim Walton & family",
+      "value": 128930565000,
+      "rank": 13,
+      "color": "#c9a14a",
+      "image": "https://specials-images.forbesimg.com/imageserve/5c7ef2fea7ea434b351bca5a/416x416.jpg?background=000000&cropX1=49&cropX2=934&cropY1=65&cropY2=951",
+      "storyUrl": "/stories/richest-individuals/",
+      "sourceIds": [
+        "Forbes Real-Time Billionaires"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/richest-individuals.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/richest-individuals.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/richest-individuals.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/richest-individuals.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.75,
+          "u1": 0.25,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://specials-images.forbesimg.com/imageserve/5c7ef2fea7ea434b351bca5a/416x416.jpg?background=000000&cropX1=49&cropX2=934&cropY1=65&cropY2=951",
+          "sourceStatus": "source-image",
+          "sourceProvider": "forbes"
+        }
+      }
+    },
+    {
+      "id": "steve-ballmer",
+      "name": "Steve Ballmer",
+      "shortName": "Steve Ballmer",
+      "value": 124221653000,
+      "rank": 14,
+      "color": "#9aa4b2",
+      "image": "https://specials-images.forbesimg.com/imageserve/59d50c47a7ea436b47b36d66/416x416.jpg?background=000000&cropX1=553&cropX2=2940&cropY1=322&cropY2=2708",
+      "storyUrl": "/stories/richest-individuals/",
+      "sourceIds": [
+        "Forbes Real-Time Billionaires"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/richest-individuals.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/richest-individuals.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/richest-individuals.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/richest-individuals.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.75,
+          "u1": 0.5,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://specials-images.forbesimg.com/imageserve/59d50c47a7ea436b47b36d66/416x416.jpg?background=000000&cropX1=553&cropX2=2940&cropY1=322&cropY2=2708",
+          "sourceStatus": "source-image",
+          "sourceProvider": "forbes"
+        }
+      }
+    },
+    {
+      "id": "carlos-slim-helu",
+      "name": "Carlos Slim Helu & family",
+      "shortName": "Carlos Slim Helu & family",
+      "value": 123151981000,
+      "rank": 15,
+      "color": "#ff5a61",
+      "image": "https://specials-images.forbesimg.com/imageserve/5c76ba144bbe6f24ad99c613/416x416.jpg?background=000000&cropX1=0&cropX2=3005&cropY1=389&cropY2=3395",
+      "storyUrl": "/stories/richest-individuals/",
+      "sourceIds": [
+        "Forbes Real-Time Billionaires"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/richest-individuals.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/richest-individuals.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/richest-individuals.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/richest-individuals.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.75,
+          "u1": 0.75,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://specials-images.forbesimg.com/imageserve/5c76ba144bbe6f24ad99c613/416x416.jpg?background=000000&cropX1=0&cropX2=3005&cropY1=389&cropY2=3395",
+          "sourceStatus": "source-image",
+          "sourceProvider": "forbes"
+        }
+      }
+    },
+    {
+      "id": "alice-walton",
+      "name": "Alice Walton",
+      "shortName": "Alice Walton",
+      "value": 120074252000,
+      "rank": 16,
+      "color": "#e34f59",
+      "image": "https://specials-images.forbesimg.com/imageserve/5c7ef270a7ea434b351bca52/416x416.jpg?background=000000&cropX1=232&cropX2=998&cropY1=222&cropY2=988",
+      "storyUrl": "/stories/richest-individuals/",
+      "sourceIds": [
+        "Forbes Real-Time Billionaires"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/richest-individuals.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/richest-individuals.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/richest-individuals.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/richest-individuals.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.75,
+          "u1": 1,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://specials-images.forbesimg.com/imageserve/5c7ef270a7ea434b351bca52/416x416.jpg?background=000000&cropX1=232&cropX2=998&cropY1=222&cropY2=988",
+          "sourceStatus": "source-image",
+          "sourceProvider": "forbes"
+        }
+      }
+    }
+  ]
+}

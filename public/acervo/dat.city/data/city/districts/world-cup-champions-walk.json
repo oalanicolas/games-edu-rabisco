@@ -1,0 +1,427 @@
+{
+  "schemaVersion": 1,
+  "contentKind": "dat-city.district",
+  "version": 1,
+  "generatedAt": "2026-07-20T08:42:47.787Z",
+  "versionId": "20260720T084247Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "manual",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-07-20T08:42:47.787Z",
+    "versionId": "20260720T084247Z",
+    "adapter": null,
+    "storySlug": "world-cup-champion-nations",
+    "districtId": "world-cup-champions-walk",
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "id": "world-cup-champions-walk",
+  "name": "World Cup Champions Walk",
+  "storySlug": "world-cup-champion-nations",
+  "storyUrl": "/stories/world-cup-champion-nations/",
+  "publicStoryUrl": "/stories/world-cup-champion-nations.json",
+  "metric": "Titles",
+  "metricKey": "titles",
+  "latestFrameLabel": "Through the 2026 final",
+  "summary": "A title-count district for every country that has lifted the men's FIFA World Cup.",
+  "taxonomy": {
+    "primaryCategory": "sports",
+    "categories": [
+      "sports",
+      "football",
+      "history"
+    ],
+    "tags": [
+      "world-cup",
+      "fifa",
+      "champions",
+      "countries"
+    ],
+    "entityTypes": [
+      "national-team"
+    ],
+    "sourceTypes": [
+      "fifa",
+      "wikipedia"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "world-cup-finals-appearances",
+      "type": "finals-record-book",
+      "weight": 0.9,
+      "reason": "Champion nations are a subset of the teams that repeatedly reach World Cup finals."
+    },
+    {
+      "target": "world-cup-team-appearances",
+      "type": "national-team-history",
+      "weight": 0.76,
+      "reason": "Both rank national teams across the history of the tournament."
+    },
+    {
+      "target": "top-athlete-salaries",
+      "type": "sports-context",
+      "weight": 0.34,
+      "reason": "Both sit in global sports culture, though the metrics differ."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "world-cup-records",
+    "mainland": "world-cup",
+    "bridgePriority": [
+      "world-cup-finals-appearances",
+      "world-cup-team-appearances"
+    ]
+  },
+  "thumbnail": "/assets/og/dat-city.webp",
+  "status": "fresh",
+  "dataUpdatedAt": "2026-07-20T08:42:47.787Z",
+  "staleAfterHours": 3120,
+  "dormant": false,
+  "lastObservationDate": "2026-07-19",
+  "nextRefreshAt": "2026-07-21T06:00:00.000Z",
+  "confidence": "Champion counts are complete through the 2026 final, won by Spain — its second men's World Cup title, after 2010.",
+  "methodology": "The adapter walks every men's World Cup final result and emits cumulative title counts for each champion nation.",
+  "sources": [
+    {
+      "title": "FIFA World Cup teams with the most titles",
+      "publisher": "FIFA",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/articles/teams-most-wins-titles-trophies",
+      "note": "FIFA editorial record of men's World Cup champion nations."
+    },
+    {
+      "title": "FIFA World Cup 2026 Final: Spain 1-0 Argentina",
+      "publisher": "FIFA",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/match-centre",
+      "note": "Spain beat Argentina 1-0 in the New York/New Jersey final on 19 July 2026 to win a second World Cup title."
+    },
+    {
+      "title": "List of FIFA World Cup finals",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_finals",
+      "note": "Final match winners, runners-up, venues, and scores by tournament."
+    }
+  ],
+  "media": {
+    "imageFit": "contain",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-07-20T08:42:47.787Z",
+    "atlasUrl": "/assets/story-atlases/world-cup-champion-nations.webp?v=2026-07-20T08%3A42%3A47.787Z",
+    "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-champion-nations.webp?v=2026-07-20T08%3A42%3A47.787Z",
+    "manifestUrl": "/assets/story-atlases/world-cup-champion-nations.json?v=2026-07-20T08%3A42%3A47.787Z",
+    "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-champion-nations.json?v=2026-07-20T08%3A42%3A47.787Z",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 3,
+    "rows": 3,
+    "width": 960,
+    "height": 960,
+    "itemCount": 8,
+    "sourcedImageCount": 8,
+    "generatedImageCount": 0,
+    "placeholderCount": 0
+  },
+  "entities": [
+    {
+      "id": "brazil",
+      "name": "Brazil",
+      "shortName": "Brazil",
+      "value": 5,
+      "rank": 1,
+      "color": "#f3f7f0",
+      "image": "https://flagcdn.com/w320/br.png",
+      "storyUrl": "/stories/world-cup-champion-nations/",
+      "sourceIds": [
+        "FIFA World Cup teams with the most titles",
+        "FIFA World Cup 2026 Final: Spain 1-0 Argentina",
+        "List of FIFA World Cup finals"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-champion-nations.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-champion-nations.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-champion-nations.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-champion-nations.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.333333,
+          "u1": 0.333333,
+          "v1": 0.666667
+        },
+        "image": {
+          "sourceUrl": "https://flagcdn.com/w320/br.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "italy",
+      "name": "Italy",
+      "shortName": "Italy",
+      "value": 4,
+      "rank": 2,
+      "color": "#ffc84a",
+      "image": "https://flagcdn.com/w320/it.png",
+      "storyUrl": "/stories/world-cup-champion-nations/",
+      "sourceIds": [
+        "FIFA World Cup teams with the most titles",
+        "FIFA World Cup 2026 Final: Spain 1-0 Argentina",
+        "List of FIFA World Cup finals"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-champion-nations.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-champion-nations.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-champion-nations.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-champion-nations.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.333333,
+          "v0": 0,
+          "u1": 0.666667,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": "https://flagcdn.com/w320/it.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "germany",
+      "name": "Germany",
+      "shortName": "Germany",
+      "value": 4,
+      "rank": 3,
+      "color": "#00a6ff",
+      "image": "https://flagcdn.com/w320/de.png",
+      "storyUrl": "/stories/world-cup-champion-nations/",
+      "sourceIds": [
+        "FIFA World Cup teams with the most titles",
+        "FIFA World Cup 2026 Final: Spain 1-0 Argentina",
+        "List of FIFA World Cup finals"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-champion-nations.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-champion-nations.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-champion-nations.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-champion-nations.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.666667,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": "https://flagcdn.com/w320/de.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "argentina",
+      "name": "Argentina",
+      "shortName": "Argentina",
+      "value": 3,
+      "rank": 4,
+      "color": "#41a99f",
+      "image": "https://flagcdn.com/w320/ar.png",
+      "storyUrl": "/stories/world-cup-champion-nations/",
+      "sourceIds": [
+        "FIFA World Cup teams with the most titles",
+        "FIFA World Cup 2026 Final: Spain 1-0 Argentina",
+        "List of FIFA World Cup finals"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-champion-nations.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-champion-nations.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-champion-nations.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-champion-nations.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.666667,
+          "v0": 0.333333,
+          "u1": 1,
+          "v1": 0.666667
+        },
+        "image": {
+          "sourceUrl": "https://flagcdn.com/w320/ar.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "uruguay",
+      "name": "Uruguay",
+      "shortName": "Uruguay",
+      "value": 2,
+      "rank": 5,
+      "color": "#18c871",
+      "image": "https://flagcdn.com/w320/uy.png",
+      "storyUrl": "/stories/world-cup-champion-nations/",
+      "sourceIds": [
+        "FIFA World Cup teams with the most titles",
+        "FIFA World Cup 2026 Final: Spain 1-0 Argentina",
+        "List of FIFA World Cup finals"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-champion-nations.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-champion-nations.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-champion-nations.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-champion-nations.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.333333,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": "https://flagcdn.com/w320/uy.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "france",
+      "name": "France",
+      "shortName": "France",
+      "value": 2,
+      "rank": 6,
+      "color": "#86bdf4",
+      "image": "https://flagcdn.com/w320/fr.png",
+      "storyUrl": "/stories/world-cup-champion-nations/",
+      "sourceIds": [
+        "FIFA World Cup teams with the most titles",
+        "FIFA World Cup 2026 Final: Spain 1-0 Argentina",
+        "List of FIFA World Cup finals"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-champion-nations.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-champion-nations.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-champion-nations.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-champion-nations.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.666667,
+          "u1": 0.333333,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://flagcdn.com/w320/fr.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "spain",
+      "name": "Spain",
+      "shortName": "Spain",
+      "value": 2,
+      "rank": 7,
+      "color": "#f18c4f",
+      "image": "https://flagcdn.com/w320/es.png",
+      "storyUrl": "/stories/world-cup-champion-nations/",
+      "sourceIds": [
+        "FIFA World Cup teams with the most titles",
+        "FIFA World Cup 2026 Final: Spain 1-0 Argentina",
+        "List of FIFA World Cup finals"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-champion-nations.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-champion-nations.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-champion-nations.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-champion-nations.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.333333,
+          "v0": 0.666667,
+          "u1": 0.666667,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://flagcdn.com/w320/es.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "england",
+      "name": "England",
+      "shortName": "England",
+      "value": 1,
+      "rank": 8,
+      "color": "#ff5a61",
+      "image": "https://flagcdn.com/w320/gb-eng.png",
+      "storyUrl": "/stories/world-cup-champion-nations/",
+      "sourceIds": [
+        "FIFA World Cup teams with the most titles",
+        "FIFA World Cup 2026 Final: Spain 1-0 Argentina",
+        "List of FIFA World Cup finals"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-champion-nations.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-champion-nations.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-champion-nations.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-champion-nations.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.333333,
+          "v0": 0.333333,
+          "u1": 0.666667,
+          "v1": 0.666667
+        },
+        "image": {
+          "sourceUrl": "https://flagcdn.com/w320/gb-eng.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    }
+  ]
+}

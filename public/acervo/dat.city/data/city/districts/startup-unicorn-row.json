@@ -1,0 +1,644 @@
+{
+  "schemaVersion": 1,
+  "contentKind": "dat-city.district",
+  "version": 1,
+  "generatedAt": "2026-07-10T07:52:11.714Z",
+  "versionId": "20260710T075211Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "manual",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-07-10T07:52:11.714Z",
+    "versionId": "20260710T075211Z",
+    "adapter": null,
+    "storySlug": "startup-unicorns",
+    "districtId": "startup-unicorn-row",
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "id": "startup-unicorn-row",
+  "name": "Startup Unicorn Row",
+  "storySlug": "startup-unicorns",
+  "storyUrl": "/stories/startup-unicorns/",
+  "publicStoryUrl": "/stories/startup-unicorns.json",
+  "metric": "Post-money valuation",
+  "metricKey": "post-money-valuation",
+  "latestFrameLabel": "2026-07-09",
+  "summary": "Private startup unicorns ranked by post-money valuation from the Crunchbase Unicorn Board.",
+  "taxonomy": {
+    "primaryCategory": "economy",
+    "categories": [
+      "economy",
+      "business",
+      "technology",
+      "venture-capital"
+    ],
+    "tags": [
+      "unicorns",
+      "startups",
+      "private-companies",
+      "venture-capital",
+      "post-money-valuation"
+    ],
+    "entityTypes": [
+      "company",
+      "startup"
+    ],
+    "sourceTypes": [
+      "crunchbase"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "public-company-market-cap",
+      "type": "private-public-company-value",
+      "weight": 0.82,
+      "reason": "Both rank company value, with one board private and the other public."
+    },
+    {
+      "target": "richest-individuals",
+      "type": "capital-and-founders",
+      "weight": 0.64,
+      "reason": "Large private-company valuations often connect to founder and investor wealth."
+    },
+    {
+      "target": "ai-lab-attention",
+      "type": "ai-startup-capital",
+      "weight": 0.62,
+      "reason": "Several leading unicorns are AI labs or AI infrastructure companies."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "money-and-power",
+    "mainland": "economy",
+    "bridgePriority": [
+      "public-company-market-cap",
+      "richest-individuals",
+      "ai-lab-attention"
+    ]
+  },
+  "thumbnail": "/assets/og/dat-city-home.png",
+  "status": "fresh",
+  "lastObservationDate": "2026-07-09",
+  "nextRefreshAt": "2026-07-11T07:00:00.000Z",
+  "confidence": "Observed Crunchbase Unicorn Board at 2026-07-10T07:52:11.714Z. Values are parsed from post-money valuation data-sort fields on the 2026-07-09 source update.",
+  "methodology": "This adapter reads the public Crunchbase Unicorn Board table, parses each company's post-money valuation, total equity funding, lead investors, country, continent, Crunchbase profile URL, and organization thumbnail, then snapshots the ranking for StoryOps playback.",
+  "sources": [
+    {
+      "title": "Crunchbase Unicorn Board",
+      "publisher": "Crunchbase News",
+      "url": "https://news.crunchbase.com/unicorn-company-list/",
+      "note": "Public unicorn company list used by the StoryOps adapter."
+    }
+  ],
+  "media": {
+    "imageFit": "contain",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-07-10T07:52:11.714Z",
+    "atlasUrl": "/assets/story-atlases/startup-unicorns.webp?v=2026-07-10T07%3A52%3A11.714Z",
+    "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/startup-unicorns.webp?v=2026-07-10T07%3A52%3A11.714Z",
+    "manifestUrl": "/assets/story-atlases/startup-unicorns.json?v=2026-07-10T07%3A52%3A11.714Z",
+    "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/startup-unicorns.json?v=2026-07-10T07%3A52%3A11.714Z",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 4,
+    "rows": 4,
+    "width": 1280,
+    "height": 1280,
+    "itemCount": 16,
+    "sourcedImageCount": 16,
+    "generatedImageCount": 0,
+    "placeholderCount": 0
+  },
+  "entities": [
+    {
+      "id": "anthropic",
+      "name": "Anthropic",
+      "shortName": "Anthropic",
+      "value": 965000000000,
+      "rank": 1,
+      "color": "#ff5a61",
+      "image": "https://images.crunchbase.com/image/upload/t_cb-default-original/02bb58922b3d4d64b082982f275896c8",
+      "storyUrl": "/stories/startup-unicorns/",
+      "sourceIds": [
+        "Crunchbase Unicorn Board"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/startup-unicorns.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/startup-unicorns.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/startup-unicorns.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/startup-unicorns.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.25,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://images.crunchbase.com/image/upload/t_cb-default-original/02bb58922b3d4d64b082982f275896c8",
+          "sourceStatus": "source-image",
+          "sourceProvider": "crunchbase"
+        }
+      }
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI",
+      "shortName": "OpenAI",
+      "value": 852000000000,
+      "rank": 2,
+      "color": "#18c871",
+      "image": "https://images.crunchbase.com/image/upload/t_cb-default-original/jjykwqqhsscreywea4gb",
+      "storyUrl": "/stories/startup-unicorns/",
+      "sourceIds": [
+        "Crunchbase Unicorn Board"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/startup-unicorns.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/startup-unicorns.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/startup-unicorns.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/startup-unicorns.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0,
+          "u1": 0.5,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://images.crunchbase.com/image/upload/t_cb-default-original/jjykwqqhsscreywea4gb",
+          "sourceStatus": "source-image",
+          "sourceProvider": "crunchbase"
+        }
+      }
+    },
+    {
+      "id": "bytedance",
+      "name": "ByteDance",
+      "shortName": "ByteDance",
+      "value": 480000000000,
+      "rank": 3,
+      "color": "#ffc84a",
+      "image": "https://images.crunchbase.com/image/upload/t_cb-default-original/cglezonqxgqqeirc0nsj",
+      "storyUrl": "/stories/startup-unicorns/",
+      "sourceIds": [
+        "Crunchbase Unicorn Board"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/startup-unicorns.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/startup-unicorns.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/startup-unicorns.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/startup-unicorns.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0,
+          "u1": 0.75,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://images.crunchbase.com/image/upload/t_cb-default-original/cglezonqxgqqeirc0nsj",
+          "sourceStatus": "source-image",
+          "sourceProvider": "crunchbase"
+        }
+      }
+    },
+    {
+      "id": "stripe",
+      "name": "Stripe",
+      "shortName": "Stripe",
+      "value": 159000000000,
+      "rank": 4,
+      "color": "#00a6ff",
+      "image": "https://images.crunchbase.com/image/upload/t_cb-default-original/82700c1a09d149ef87c707c065d73317",
+      "storyUrl": "/stories/startup-unicorns/",
+      "sourceIds": [
+        "Crunchbase Unicorn Board"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/startup-unicorns.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/startup-unicorns.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/startup-unicorns.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/startup-unicorns.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://images.crunchbase.com/image/upload/t_cb-default-original/82700c1a09d149ef87c707c065d73317",
+          "sourceStatus": "source-image",
+          "sourceProvider": "crunchbase"
+        }
+      }
+    },
+    {
+      "id": "ant-group",
+      "name": "Ant Group",
+      "shortName": "Ant Group",
+      "value": 150000000000,
+      "rank": 5,
+      "color": "#8f6bff",
+      "image": "https://images.crunchbase.com/image/upload/t_cb-default-original/sgzmygfsbqgmbxslqreb",
+      "storyUrl": "/stories/startup-unicorns/",
+      "sourceIds": [
+        "Crunchbase Unicorn Board"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/startup-unicorns.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/startup-unicorns.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/startup-unicorns.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/startup-unicorns.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.25,
+          "u1": 0.25,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://images.crunchbase.com/image/upload/t_cb-default-original/sgzmygfsbqgmbxslqreb",
+          "sourceStatus": "source-image",
+          "sourceProvider": "crunchbase"
+        }
+      }
+    },
+    {
+      "id": "databricks",
+      "name": "Databricks",
+      "shortName": "Databricks",
+      "value": 134000000000,
+      "rank": 6,
+      "color": "#f18c4f",
+      "image": "https://images.crunchbase.com/image/upload/t_cb-default-original/bypt5jj3j7aoqyzzf8fo",
+      "storyUrl": "/stories/startup-unicorns/",
+      "sourceIds": [
+        "Crunchbase Unicorn Board"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/startup-unicorns.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/startup-unicorns.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/startup-unicorns.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/startup-unicorns.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.25,
+          "u1": 0.5,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://images.crunchbase.com/image/upload/t_cb-default-original/bypt5jj3j7aoqyzzf8fo",
+          "sourceStatus": "source-image",
+          "sourceProvider": "crunchbase"
+        }
+      }
+    },
+    {
+      "id": "waymo",
+      "name": "Waymo",
+      "shortName": "Waymo",
+      "value": 126000000000,
+      "rank": 7,
+      "color": "#41a99f",
+      "image": "https://images.crunchbase.com/image/upload/t_cb-default-original/v1481654352/rmarcbr8wr1e5qzuhjll.jpg",
+      "storyUrl": "/stories/startup-unicorns/",
+      "sourceIds": [
+        "Crunchbase Unicorn Board"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/startup-unicorns.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/startup-unicorns.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/startup-unicorns.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/startup-unicorns.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.25,
+          "u1": 0.75,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://images.crunchbase.com/image/upload/t_cb-default-original/v1481654352/rmarcbr8wr1e5qzuhjll.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "crunchbase"
+        }
+      }
+    },
+    {
+      "id": "reliance-retail",
+      "name": "Reliance Retail",
+      "shortName": "Reliance Retail",
+      "value": 101446222119,
+      "rank": 8,
+      "color": "#d78fca",
+      "image": "https://images.crunchbase.com/image/upload/t_cb-default-original/c4nfj4rdzj2i2ssx3dg4",
+      "storyUrl": "/stories/startup-unicorns/",
+      "sourceIds": [
+        "Crunchbase Unicorn Board"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/startup-unicorns.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/startup-unicorns.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/startup-unicorns.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/startup-unicorns.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.25,
+          "u1": 1,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://images.crunchbase.com/image/upload/t_cb-default-original/c4nfj4rdzj2i2ssx3dg4",
+          "sourceStatus": "source-image",
+          "sourceProvider": "crunchbase"
+        }
+      }
+    },
+    {
+      "id": "revolut",
+      "name": "Revolut",
+      "shortName": "Revolut",
+      "value": 75000000000,
+      "rank": 9,
+      "color": "#7b9b65",
+      "image": "https://images.crunchbase.com/image/upload/t_cb-default-original/3c729ff2df73401186f327bed9935927",
+      "storyUrl": "/stories/startup-unicorns/",
+      "sourceIds": [
+        "Crunchbase Unicorn Board"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/startup-unicorns.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/startup-unicorns.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/startup-unicorns.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/startup-unicorns.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.5,
+          "u1": 0.25,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://images.crunchbase.com/image/upload/t_cb-default-original/3c729ff2df73401186f327bed9935927",
+          "sourceStatus": "source-image",
+          "sourceProvider": "crunchbase"
+        }
+      }
+    },
+    {
+      "id": "shein",
+      "name": "Shein",
+      "shortName": "Shein",
+      "value": 66000000000,
+      "rank": 10,
+      "color": "#2f4858",
+      "image": "https://images.crunchbase.com/image/upload/t_cb-default-original/wcmfrgcojusflafdtn86",
+      "storyUrl": "/stories/startup-unicorns/",
+      "sourceIds": [
+        "Crunchbase Unicorn Board"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/startup-unicorns.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/startup-unicorns.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/startup-unicorns.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/startup-unicorns.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.5,
+          "u1": 0.5,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://images.crunchbase.com/image/upload/t_cb-default-original/wcmfrgcojusflafdtn86",
+          "sourceStatus": "source-image",
+          "sourceProvider": "crunchbase"
+        }
+      }
+    },
+    {
+      "id": "anduril-industries",
+      "name": "Anduril Industries",
+      "shortName": "Anduril Industries",
+      "value": 61000000000,
+      "rank": 11,
+      "color": "#ef426f",
+      "image": "https://images.crunchbase.com/image/upload/t_cb-default-original/bd95ccwbfdjwwroavzug",
+      "storyUrl": "/stories/startup-unicorns/",
+      "sourceIds": [
+        "Crunchbase Unicorn Board"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/startup-unicorns.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/startup-unicorns.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/startup-unicorns.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/startup-unicorns.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.5,
+          "u1": 0.75,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://images.crunchbase.com/image/upload/t_cb-default-original/bd95ccwbfdjwwroavzug",
+          "sourceStatus": "source-image",
+          "sourceProvider": "crunchbase"
+        }
+      }
+    },
+    {
+      "id": "reliance-jio",
+      "name": "Reliance Jio",
+      "shortName": "Reliance Jio",
+      "value": 58301783299,
+      "rank": 12,
+      "color": "#86bdf4",
+      "image": "https://images.crunchbase.com/image/upload/t_cb-default-original/v1470645091/svnp1bmjnyi5e9pfjezp.png",
+      "storyUrl": "/stories/startup-unicorns/",
+      "sourceIds": [
+        "Crunchbase Unicorn Board"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/startup-unicorns.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/startup-unicorns.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/startup-unicorns.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/startup-unicorns.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.5,
+          "u1": 1,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://images.crunchbase.com/image/upload/t_cb-default-original/v1470645091/svnp1bmjnyi5e9pfjezp.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "crunchbase"
+        }
+      }
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "shortName": "DeepSeek",
+      "value": 49997781164,
+      "rank": 13,
+      "color": "#c9a14a",
+      "image": "https://images.crunchbase.com/image/upload/t_cb-default-original/c2905ebc906840f98955e4acd3d6fbb0",
+      "storyUrl": "/stories/startup-unicorns/",
+      "sourceIds": [
+        "Crunchbase Unicorn Board"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/startup-unicorns.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/startup-unicorns.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/startup-unicorns.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/startup-unicorns.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.75,
+          "u1": 0.25,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://images.crunchbase.com/image/upload/t_cb-default-original/c2905ebc906840f98955e4acd3d6fbb0",
+          "sourceStatus": "source-image",
+          "sourceProvider": "crunchbase"
+        }
+      }
+    },
+    {
+      "id": "ramp",
+      "name": "Ramp",
+      "shortName": "Ramp",
+      "value": 44000000000,
+      "rank": 14,
+      "color": "#e34f59",
+      "image": "https://images.crunchbase.com/image/upload/t_cb-default-original/sshwc4pe2wfsfsm102id",
+      "storyUrl": "/stories/startup-unicorns/",
+      "sourceIds": [
+        "Crunchbase Unicorn Board"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/startup-unicorns.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/startup-unicorns.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/startup-unicorns.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/startup-unicorns.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.75,
+          "u1": 0.5,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://images.crunchbase.com/image/upload/t_cb-default-original/sshwc4pe2wfsfsm102id",
+          "sourceStatus": "source-image",
+          "sourceProvider": "crunchbase"
+        }
+      }
+    },
+    {
+      "id": "prometheus",
+      "name": "Prometheus",
+      "shortName": "Prometheus",
+      "value": 41000000000,
+      "rank": 15,
+      "color": "#ff5a61",
+      "image": "https://images.crunchbase.com/image/upload/t_cb-default-original/d88ae458f97841c284c124cefad0f617",
+      "storyUrl": "/stories/startup-unicorns/",
+      "sourceIds": [
+        "Crunchbase Unicorn Board"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/startup-unicorns.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/startup-unicorns.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/startup-unicorns.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/startup-unicorns.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.75,
+          "u1": 1,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://images.crunchbase.com/image/upload/t_cb-default-original/d88ae458f97841c284c124cefad0f617",
+          "sourceStatus": "source-image",
+          "sourceProvider": "crunchbase"
+        }
+      }
+    }
+  ]
+}

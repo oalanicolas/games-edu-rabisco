@@ -1,0 +1,746 @@
+{
+  "schemaVersion": 1,
+  "contentKind": "dat-city.district",
+  "version": 1,
+  "generatedAt": "2026-07-10T07:52:11.714Z",
+  "versionId": "20260710T075211Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "manual",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-07-10T07:52:11.714Z",
+    "versionId": "20260710T075211Z",
+    "adapter": null,
+    "storySlug": "roblox-player-heat",
+    "districtId": "roblox-player-plaza",
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "id": "roblox-player-plaza",
+  "name": "Roblox Player Plaza",
+  "storySlug": "roblox-player-heat",
+  "storyUrl": "/stories/roblox-player-heat/",
+  "publicStoryUrl": "/stories/roblox-player-heat.json",
+  "metric": "Current players",
+  "metricKey": "current-players",
+  "latestFrameLabel": "2026-07-10",
+  "summary": "Roblox experiences ranked by current public player counts.",
+  "taxonomy": {
+    "primaryCategory": "gaming",
+    "categories": [
+      "gaming",
+      "platforms",
+      "internet"
+    ],
+    "tags": [
+      "roblox",
+      "experiences",
+      "current-players",
+      "live-games"
+    ],
+    "entityTypes": [
+      "game",
+      "experience"
+    ],
+    "sourceTypes": [
+      "public-web"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "games-people-are-playing",
+      "type": "live-game-activity",
+      "weight": 0.9,
+      "reason": "Both rank live game demand by current player activity."
+    },
+    {
+      "target": "mobile-game-revenue",
+      "type": "game-platform-demand",
+      "weight": 0.66,
+      "reason": "Roblox current-player heat complements mobile game reach."
+    },
+    {
+      "target": "best-selling-video-games",
+      "type": "gaming-market",
+      "weight": 0.62,
+      "reason": "Roblox activity adds a live platform view beside all-time game sales."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "game-platforms",
+    "mainland": "culture",
+    "bridgePriority": [
+      "games-people-are-playing",
+      "best-selling-video-games"
+    ]
+  },
+  "thumbnail": "/assets/og/dat-city.webp",
+  "status": "fresh",
+  "lastObservationDate": "2026-07-10",
+  "nextRefreshAt": "2026-07-10T08:00:00.000Z",
+  "confidence": "Observed 20 Roblox experience rows from Rolimon's public game list on 2026-07-10T07:52:11.714Z. The feed exposes current player counts and Roblox CDN game icons.",
+  "methodology": "This StoryOps adapter reads Rolimon's public Roblox game list JSON, ranks experiences by current player count, stores the Roblox place ID and game icon for each row, and appends snapshots so the public history grows from repeated refreshes.",
+  "sources": [
+    {
+      "title": "Rolimon's Roblox game list",
+      "publisher": "Rolimon's",
+      "url": "https://api.rolimons.com/games/v1/gamelist",
+      "note": "Public JSON feed with Roblox experience names, current player counts, and game icons."
+    }
+  ],
+  "media": {
+    "imageFit": "contain",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-07-10T07:52:11.714Z",
+    "atlasUrl": "/assets/story-atlases/roblox-player-heat.webp?v=2026-07-10T07%3A52%3A11.714Z",
+    "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/roblox-player-heat.webp?v=2026-07-10T07%3A52%3A11.714Z",
+    "manifestUrl": "/assets/story-atlases/roblox-player-heat.json?v=2026-07-10T07%3A52%3A11.714Z",
+    "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/roblox-player-heat.json?v=2026-07-10T07%3A52%3A11.714Z",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 5,
+    "rows": 4,
+    "width": 1600,
+    "height": 1280,
+    "itemCount": 20,
+    "sourcedImageCount": 20,
+    "generatedImageCount": 0,
+    "placeholderCount": 0
+  },
+  "entities": [
+    {
+      "id": "roblox-97598239454123",
+      "name": "Grow a Garden 2",
+      "shortName": "Grow a Garden 2",
+      "value": 491769,
+      "rank": 1,
+      "color": "#ff5a61",
+      "image": "https://tr.rbxcdn.com/180DAY-db144d085e1bb5b44200ab91446d5051/150/150/Image/Webp/noFilter",
+      "storyUrl": "/stories/roblox-player-heat/",
+      "sourceIds": [
+        "Rolimon's Roblox game list"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/roblox-player-heat.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/roblox-player-heat.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/roblox-player-heat.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/roblox-player-heat.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.2,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://tr.rbxcdn.com/180DAY-db144d085e1bb5b44200ab91446d5051/150/150/Image/Webp/noFilter",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "roblox-4924922222",
+      "name": "Brookhaven 🏡RP",
+      "shortName": "Brookhaven 🏡RP",
+      "value": 390246,
+      "rank": 2,
+      "color": "#18c871",
+      "image": "https://tr.rbxcdn.com/180DAY-7fb176eb3bcbb4654129b852bfa2f1c6/150/150/Image/Webp/noFilter",
+      "storyUrl": "/stories/roblox-player-heat/",
+      "sourceIds": [
+        "Rolimon's Roblox game list"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/roblox-player-heat.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/roblox-player-heat.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/roblox-player-heat.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/roblox-player-heat.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0,
+          "u1": 0.4,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://tr.rbxcdn.com/180DAY-7fb176eb3bcbb4654129b852bfa2f1c6/150/150/Image/Webp/noFilter",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "roblox-78515283254292",
+      "name": "Animal Hospital (Anomaly) 🧪",
+      "shortName": "Animal Hospital (Anomaly) 🧪",
+      "value": 386329,
+      "rank": 3,
+      "color": "#00a6ff",
+      "image": "https://tr.rbxcdn.com/180DAY-06b6e0dc95a0b41b65a1bf6dd6e63a18/150/150/Image/Webp/noFilter",
+      "storyUrl": "/stories/roblox-player-heat/",
+      "sourceIds": [
+        "Rolimon's Roblox game list"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/roblox-player-heat.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/roblox-player-heat.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/roblox-player-heat.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/roblox-player-heat.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0,
+          "u1": 0.8,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://tr.rbxcdn.com/180DAY-06b6e0dc95a0b41b65a1bf6dd6e63a18/150/150/Image/Webp/noFilter",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "roblox-920587237",
+      "name": "Adopt Me!",
+      "shortName": "Adopt Me!",
+      "value": 336129,
+      "rank": 4,
+      "color": "#41a99f",
+      "image": "https://tr.rbxcdn.com/180DAY-948d8bee6ca5eafd721aad970caf0265/150/150/Image/Webp/noFilter",
+      "storyUrl": "/stories/roblox-player-heat/",
+      "sourceIds": [
+        "Rolimon's Roblox game list"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/roblox-player-heat.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/roblox-player-heat.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/roblox-player-heat.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/roblox-player-heat.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.25,
+          "u1": 0.2,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://tr.rbxcdn.com/180DAY-948d8bee6ca5eafd721aad970caf0265/150/150/Image/Webp/noFilter",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "roblox-79546208627805",
+      "name": "99 Nights in the Forest 🔦",
+      "shortName": "99 Nights in the Forest 🔦",
+      "value": 280776,
+      "rank": 5,
+      "color": "#ffc84a",
+      "image": "https://tr.rbxcdn.com/180DAY-bcbd6209f995ab05d6ecfc9d0690196d/150/150/Image/Webp/noFilter",
+      "storyUrl": "/stories/roblox-player-heat/",
+      "sourceIds": [
+        "Rolimon's Roblox game list"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/roblox-player-heat.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/roblox-player-heat.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/roblox-player-heat.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/roblox-player-heat.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0,
+          "u1": 0.6,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://tr.rbxcdn.com/180DAY-bcbd6209f995ab05d6ecfc9d0690196d/150/150/Image/Webp/noFilter",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "roblox-95082159892680",
+      "name": "W3🌀| +1 Speed Keyboard Escape | Candy & Chocolate",
+      "shortName": "W3🌀| +1 Speed Keyboard Escape | Candy & Chocolate",
+      "value": 238432,
+      "rank": 6,
+      "color": "#8f6bff",
+      "image": "https://tr.rbxcdn.com/180DAY-23fc92f9563c1573d2652a71f8f67c05/150/150/Image/Webp/noFilter",
+      "storyUrl": "/stories/roblox-player-heat/",
+      "sourceIds": [
+        "Rolimon's Roblox game list"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/roblox-player-heat.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/roblox-player-heat.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/roblox-player-heat.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/roblox-player-heat.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 1280,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://tr.rbxcdn.com/180DAY-23fc92f9563c1573d2652a71f8f67c05/150/150/Image/Webp/noFilter",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "roblox-2753915549",
+      "name": "Blox Fruits",
+      "shortName": "Blox Fruits",
+      "value": 225232,
+      "rank": 7,
+      "color": "#f18c4f",
+      "image": "https://tr.rbxcdn.com/180DAY-a64f70da20fc1e80ee76fe5d49c1be0a/150/150/Image/Webp/noFilter",
+      "storyUrl": "/stories/roblox-player-heat/",
+      "sourceIds": [
+        "Rolimon's Roblox game list"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/roblox-player-heat.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/roblox-player-heat.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/roblox-player-heat.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/roblox-player-heat.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.25,
+          "u1": 0.4,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://tr.rbxcdn.com/180DAY-a64f70da20fc1e80ee76fe5d49c1be0a/150/150/Image/Webp/noFilter",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "roblox-142823291",
+      "name": "Murder Mystery 2",
+      "shortName": "Murder Mystery 2",
+      "value": 222934,
+      "rank": 8,
+      "color": "#7b9b65",
+      "image": "https://tr.rbxcdn.com/180DAY-3ac5af325970a745b0156a5358174169/150/150/Image/Webp/noFilter",
+      "storyUrl": "/stories/roblox-player-heat/",
+      "sourceIds": [
+        "Rolimon's Roblox game list"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/roblox-player-heat.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/roblox-player-heat.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/roblox-player-heat.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/roblox-player-heat.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.25,
+          "u1": 0.8,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://tr.rbxcdn.com/180DAY-3ac5af325970a745b0156a5358174169/150/150/Image/Webp/noFilter",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "roblox-109983668079237",
+      "name": "Steal a Brainrot",
+      "shortName": "Steal a Brainrot",
+      "value": 216894,
+      "rank": 9,
+      "color": "#2f4858",
+      "image": "https://tr.rbxcdn.com/180DAY-7788d36f1a09fa3b5c9f9ca082ed2740/150/150/Image/Webp/noFilter",
+      "storyUrl": "/stories/roblox-player-heat/",
+      "sourceIds": [
+        "Rolimon's Roblox game list"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/roblox-player-heat.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/roblox-player-heat.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/roblox-player-heat.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/roblox-player-heat.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 1280,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.25,
+          "u1": 1,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://tr.rbxcdn.com/180DAY-7788d36f1a09fa3b5c9f9ca082ed2740/150/150/Image/Webp/noFilter",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "roblox-17625359962",
+      "name": "RIVALS",
+      "shortName": "RIVALS",
+      "value": 182582,
+      "rank": 10,
+      "color": "#d78fca",
+      "image": "https://tr.rbxcdn.com/180DAY-d9d421c558e5084dd1d7ada2ad21c995/150/150/Image/Webp/noFilter",
+      "storyUrl": "/stories/roblox-player-heat/",
+      "sourceIds": [
+        "Rolimon's Roblox game list"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/roblox-player-heat.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/roblox-player-heat.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/roblox-player-heat.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/roblox-player-heat.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.25,
+          "u1": 0.6,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://tr.rbxcdn.com/180DAY-d9d421c558e5084dd1d7ada2ad21c995/150/150/Image/Webp/noFilter",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "roblox-8737899170",
+      "name": "Pet Simulator 99! ⚽",
+      "shortName": "Pet Simulator 99! ⚽",
+      "value": 168732,
+      "rank": 11,
+      "color": "#c9a14a",
+      "image": "https://tr.rbxcdn.com/180DAY-c45ede7586870cc14124b48a873a3e57/150/150/Image/Webp/noFilter",
+      "storyUrl": "/stories/roblox-player-heat/",
+      "sourceIds": [
+        "Rolimon's Roblox game list"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/roblox-player-heat.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/roblox-player-heat.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/roblox-player-heat.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/roblox-player-heat.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.5,
+          "u1": 0.2,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://tr.rbxcdn.com/180DAY-c45ede7586870cc14124b48a873a3e57/150/150/Image/Webp/noFilter",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "roblox-121864768012064",
+      "name": "Fish It! 🐟",
+      "shortName": "Fish It! 🐟",
+      "value": 124416,
+      "rank": 12,
+      "color": "#86bdf4",
+      "image": "https://tr.rbxcdn.com/180DAY-f31916a3b07ee925b3e4a513df25863c/150/150/Image/Webp/noFilter",
+      "storyUrl": "/stories/roblox-player-heat/",
+      "sourceIds": [
+        "Rolimon's Roblox game list"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/roblox-player-heat.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/roblox-player-heat.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/roblox-player-heat.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/roblox-player-heat.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.5,
+          "u1": 0.6,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://tr.rbxcdn.com/180DAY-f31916a3b07ee925b3e4a513df25863c/150/150/Image/Webp/noFilter",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "roblox-9391468976",
+      "name": "Jujutsu Shenanigans",
+      "shortName": "Jujutsu Shenanigans",
+      "value": 104880,
+      "rank": 13,
+      "color": "#ef426f",
+      "image": "https://tr.rbxcdn.com/180DAY-e27277bbda2ba2efdb47a1863df2da3d/150/150/Image/Webp/noFilter",
+      "storyUrl": "/stories/roblox-player-heat/",
+      "sourceIds": [
+        "Rolimon's Roblox game list"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/roblox-player-heat.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/roblox-player-heat.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/roblox-player-heat.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/roblox-player-heat.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.5,
+          "u1": 0.4,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://tr.rbxcdn.com/180DAY-e27277bbda2ba2efdb47a1863df2da3d/150/150/Image/Webp/noFilter",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "roblox-93978595733734",
+      "name": "Violence District",
+      "shortName": "Violence District",
+      "value": 97680,
+      "rank": 14,
+      "color": "#9aa4b2",
+      "image": "https://tr.rbxcdn.com/180DAY-24a7fe15374c20384a33ba2f9d4dc362/150/150/Image/Webp/noFilter",
+      "storyUrl": "/stories/roblox-player-heat/",
+      "sourceIds": [
+        "Rolimon's Roblox game list"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/roblox-player-heat.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/roblox-player-heat.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/roblox-player-heat.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/roblox-player-heat.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 1280,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.5,
+          "u1": 1,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://tr.rbxcdn.com/180DAY-24a7fe15374c20384a33ba2f9d4dc362/150/150/Image/Webp/noFilter",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "roblox-15101393044",
+      "name": "Dress To Impress⭐",
+      "shortName": "Dress To Impress⭐",
+      "value": 68681,
+      "rank": 15,
+      "color": "#f18c4f",
+      "image": "https://tr.rbxcdn.com/180DAY-682882ef8202ab9daff47e54cbc32f9e/150/150/Image/Webp/noFilter",
+      "storyUrl": "/stories/roblox-player-heat/",
+      "sourceIds": [
+        "Rolimon's Roblox game list"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/roblox-player-heat.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/roblox-player-heat.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/roblox-player-heat.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/roblox-player-heat.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 1280,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.75,
+          "u1": 1,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://tr.rbxcdn.com/180DAY-682882ef8202ab9daff47e54cbc32f9e/150/150/Image/Webp/noFilter",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "roblox-7041939546",
+      "name": "Catalog Avatar Creator",
+      "shortName": "Catalog Avatar Creator",
+      "value": 68529,
+      "rank": 16,
+      "color": "#00a6ff",
+      "image": "https://tr.rbxcdn.com/180DAY-64b7572edf1d42d0f4a0b8dcb49a0a62/150/150/Image/Webp/noFilter",
+      "storyUrl": "/stories/roblox-player-heat/",
+      "sourceIds": [
+        "Rolimon's Roblox game list"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/roblox-player-heat.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/roblox-player-heat.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/roblox-player-heat.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/roblox-player-heat.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.75,
+          "u1": 0.6,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://tr.rbxcdn.com/180DAY-64b7572edf1d42d0f4a0b8dcb49a0a62/150/150/Image/Webp/noFilter",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "roblox-89469502395769",
+      "name": "Kick a Lucky Block",
+      "shortName": "Kick a Lucky Block",
+      "value": 63754,
+      "rank": 17,
+      "color": "#ff5a61",
+      "image": "https://tr.rbxcdn.com/180DAY-c3ba2ec17a384b094c5e7d6fdd42d8e5/150/150/Image/Webp/noFilter",
+      "storyUrl": "/stories/roblox-player-heat/",
+      "sourceIds": [
+        "Rolimon's Roblox game list"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/roblox-player-heat.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/roblox-player-heat.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/roblox-player-heat.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/roblox-player-heat.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.75,
+          "u1": 0.2,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://tr.rbxcdn.com/180DAY-c3ba2ec17a384b094c5e7d6fdd42d8e5/150/150/Image/Webp/noFilter",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "roblox-134381727982611",
+      "name": "Evomon[Release]",
+      "shortName": "Evomon[Release]",
+      "value": 63013,
+      "rank": 18,
+      "color": "#18c871",
+      "image": "https://tr.rbxcdn.com/180DAY-645009a0ed7878ec09816f2b31fb62b0/150/150/Image/Webp/noFilter",
+      "storyUrl": "/stories/roblox-player-heat/",
+      "sourceIds": [
+        "Rolimon's Roblox game list"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/roblox-player-heat.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/roblox-player-heat.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/roblox-player-heat.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/roblox-player-heat.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.75,
+          "u1": 0.4,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://tr.rbxcdn.com/180DAY-645009a0ed7878ec09816f2b31fb62b0/150/150/Image/Webp/noFilter",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    }
+  ]
+}

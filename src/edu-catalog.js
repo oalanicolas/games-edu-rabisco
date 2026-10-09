@@ -1,4 +1,5 @@
 import { portedLessons } from './edu-ports.js';
+import originals from './edu-originals.json' with {type:'json'};
 
 const physics = 'https://openstax.org/books/college-physics-2e/pages/1-introduction-to-science-and-the-realm-of-physics-physical-quantities-and-units';
 export const subjects = [
@@ -63,6 +64,17 @@ export const lessons = [
   lesson('prompt', 'O caminho de uma pergunta', 'tecnologia', 'pipeline', 'prompt', 'Do envio do texto à resposta, há várias etapas.', [c('a','Tokens da resposta',16,128,8,48),c('b','Taxa de geração',4,40,2,16,'tokens/s')], 'Uma resposta longa aparece toda de uma vez?', 'O texto de entrada precisa ser processado. Depois, as unidades da resposta são geradas ao longo do tempo. A bancada separa espera inicial e geração.', 'Etapas e atraso inicial de 0,2 s são hipotéticos. Não chama IA nem reproduz a arquitetura ou a velocidade de um serviço real.', 'Mantenha a taxa e dobre os tokens. Compare o tempo total e a parcela fixa de espera.', { tags: ['tecnologia','portugues','matematica'], scientific: 'https://arxiv.org/abs/1706.03762' }),
 ];
 lessons.push(...portedLessons);
+const originalNames={gigacity:['Uma cidade nasce de uma semente','geografia'],here:['O mundo que visita uma página','geografia'],moods:['Componha uma atmosfera','artes'],robots:['Uma nação de robôs','tecnologia'],'long-session':['Uma conversa cada vez maior','portugues'],'token-delta':['O caminho entre modelos de linguagem','tecnologia'],'benchmark-mountain':['Compare modelos em uma montanha de dados','matematica'],'model-monsters':['Monstros feitos de dados','tecnologia'],'final-boss':['O desafio dos maiores modelos','tecnologia'],'ai-office':['Como trabalha um escritório de IA','tecnologia'],'ai-museum':['Um museu de modelos de IA','tecnologia'],airace:['Uma corrida de modelos','tecnologia'],'dat-city':['Uma cidade feita de dados','geografia'],'paris-inception':['Uma cidade dobra sobre si mesma','artes'],terraform:['Transforme a paisagem de um planeta','geografia']};
+for(const original of originals){
+ let local=lessons.find(l=>!l.portable&&l.source.replace(/\/$/,'')===original.url.replace(/\/$/,''));
+ if(!local){const [title,subject]=originalNames[original.slug]||[original.title,'tecnologia'];local={id:`sael-${original.slug}`,title,subject,tags:[subject],source:original.url,summary:'Explore os controles, as cenas e os efeitos da experiência original de Ryan Sael.',controls:[],mode:'native',level:'Exploração guiada',duration:'20–30 min'};lessons.push(local);}
+ if(original.classroomSummary)local.summary=original.classroomSummary;
+ if(original.classroomQuestion)local.question=original.classroomQuestion;
+ if(original.classroomExplanation)local.explanation=original.classroomExplanation;
+ Object.assign(local,{originalSlug:original.slug,original:true,href:`/originais/${original.slug}/`,poster:original.posterLocal,sourceName:'Ryan Sael',implementation:'Cliente original capturado; caderno e navegação Edu Rabisco.'});
+}
+export const originalLessons=lessons.filter(l=>l.original);
+export const ownLessons=lessons.filter(l=>!l.original);
 export const getLesson = id => lessons.find(l => l.id === id);
 export const lessonUrl = l => l.href || `/aula.html?id=${l.id}`;
 export const subjectOf = l => subjects.find(s => s.id === l.subject);

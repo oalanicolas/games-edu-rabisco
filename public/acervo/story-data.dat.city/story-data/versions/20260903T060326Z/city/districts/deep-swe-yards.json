@@ -1,0 +1,995 @@
+{
+  "schemaVersion": 1,
+  "contentKind": "dat-city.district",
+  "version": 1,
+  "generatedAt": "2026-09-02T07:01:52.367Z",
+  "versionId": "20260902T070152Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "storyops-scheduler",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-09-02T07:01:52.367Z",
+    "versionId": "20260902T070152Z",
+    "adapter": null,
+    "storySlug": "deepswe-leaderboard",
+    "districtId": "deep-swe-yards",
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "id": "deep-swe-yards",
+  "name": "DeepSWE Yards",
+  "storySlug": "deepswe-leaderboard",
+  "storyUrl": "/stories/deepswe-leaderboard/",
+  "publicStoryUrl": "/stories/deepswe-leaderboard.json",
+  "metric": "DeepSWE pass rate (%)",
+  "metricKey": "deepswe-pass-rate-",
+  "latestFrameLabel": "2026-08-26 leaderboard",
+  "summary": "claude-opus-5 leads DeepSWE v1.1, passing 73.6% of long-horizon tasks.",
+  "taxonomy": {
+    "primaryCategory": "technology",
+    "categories": [
+      "technology",
+      "ai",
+      "benchmarks"
+    ],
+    "tags": [
+      "deepswe",
+      "datacurve",
+      "coding-agents",
+      "long-horizon",
+      "frontier-ai"
+    ],
+    "entityTypes": [
+      "model",
+      "ai-system"
+    ],
+    "sourceTypes": [
+      "benchmark"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "frontier-language-model-intelligence",
+      "type": "ai-frontier",
+      "weight": 0.88,
+      "reason": "Both index the frontier model set, one on general intelligence and one on long-horizon coding."
+    },
+    {
+      "target": "lmarena-text-leaderboard",
+      "type": "ai-benchmarks",
+      "weight": 0.7,
+      "reason": "Arena Elo and DeepSWE pass rate rank the same model generations from different angles."
+    },
+    {
+      "target": "open-source-ai-repo-momentum",
+      "type": "ai-ecosystem",
+      "weight": 0.5,
+      "reason": "Coding agent capability drives the developer tooling wave on GitHub."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "ai-technology",
+    "mainland": "technology",
+    "bridgePriority": [
+      "frontier-language-model-intelligence",
+      "lmarena-text-leaderboard"
+    ]
+  },
+  "thumbnail": "/assets/og/dat-city.webp",
+  "status": "fresh",
+  "dataUpdatedAt": "2026-09-02T07:01:52.367Z",
+  "staleAfterHours": 30,
+  "dormant": false,
+  "lastObservationDate": "2026-08-26",
+  "nextRefreshAt": "2026-09-03T07:00:00.000Z",
+  "confidence": "Observed 63 DeepSWE v1.1 runs across 26 models at 2026-08-26T07:38:24.821609+00:00.",
+  "methodology": "This adapter reads the public DeepSWE v1.1 live leaderboard published by Datacurve, keeps each frontier model's best run across reasoning efforts on 113 original long-horizon software engineering tasks, ranks them by pass rate, and stores daily StoryOps snapshots so the skyline replays how the coding frontier moves.",
+  "sources": [
+    {
+      "title": "DeepSWE Leaderboard",
+      "publisher": "Datacurve",
+      "url": "https://deepswe.datacurve.ai/",
+      "note": "Live leaderboard of frontier coding agents on 113 original long-horizon software engineering tasks."
+    }
+  ],
+  "media": {
+    "tileSize": 320,
+    "imageFit": "contain",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-09-02T07:01:52.367Z",
+    "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+    "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+    "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+    "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 6,
+    "rows": 6,
+    "width": 1920,
+    "height": 1920,
+    "itemCount": 32,
+    "sourcedImageCount": 18,
+    "generatedImageCount": 14,
+    "placeholderCount": 0
+  },
+  "entities": [
+    {
+      "id": "dsw-claude-opus-5",
+      "name": "claude-opus-5",
+      "shortName": "claude-opus-5",
+      "value": 73.6,
+      "rank": 1,
+      "color": "#ff5a61",
+      "image": "https://deepswe.datacurve.ai/icons/Anthropic.svg",
+      "storyUrl": "/stories/deepswe-leaderboard/",
+      "sourceIds": [
+        "DeepSWE Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.166667,
+          "v1": 0.166667
+        },
+        "image": {
+          "sourceUrl": "https://deepswe.datacurve.ai/icons/Anthropic.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "dsw-gpt-5-6-sol",
+      "name": "gpt-5-6-sol",
+      "shortName": "gpt-5-6-sol",
+      "value": 72.7,
+      "rank": 2,
+      "color": "#18c871",
+      "image": "https://deepswe.datacurve.ai/icons/OpenAI.svg",
+      "storyUrl": "/stories/deepswe-leaderboard/",
+      "sourceIds": [
+        "DeepSWE Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.166667,
+          "v0": 0,
+          "u1": 0.333333,
+          "v1": 0.166667
+        },
+        "image": {
+          "sourceUrl": "https://deepswe.datacurve.ai/icons/OpenAI.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "dsw-claude-fable-5",
+      "name": "claude-fable-5",
+      "shortName": "claude-fable-5",
+      "value": 69.9,
+      "rank": 3,
+      "color": "#ffc84a",
+      "image": "https://deepswe.datacurve.ai/icons/Anthropic.svg",
+      "storyUrl": "/stories/deepswe-leaderboard/",
+      "sourceIds": [
+        "DeepSWE Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0,
+          "u1": 0.666667,
+          "v1": 0.166667
+        },
+        "image": {
+          "sourceUrl": "https://deepswe.datacurve.ai/icons/Anthropic.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "dsw-gpt-5-6-terra",
+      "name": "gpt-5-6-terra",
+      "shortName": "gpt-5-6-terra",
+      "value": 69.6,
+      "rank": 4,
+      "color": "#00a6ff",
+      "image": "https://deepswe.datacurve.ai/icons/OpenAI.svg",
+      "storyUrl": "/stories/deepswe-leaderboard/",
+      "sourceIds": [
+        "DeepSWE Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "x": 1280,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.666667,
+          "v0": 0,
+          "u1": 0.833333,
+          "v1": 0.166667
+        },
+        "image": {
+          "sourceUrl": "https://deepswe.datacurve.ai/icons/OpenAI.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "dsw-glm-5-3",
+      "name": "glm-5-3",
+      "shortName": "glm-5-3",
+      "value": 69,
+      "rank": 5,
+      "color": "#8f6bff",
+      "image": "https://deepswe.datacurve.ai/icons/ZAI.png",
+      "storyUrl": "/stories/deepswe-leaderboard/",
+      "sourceIds": [
+        "DeepSWE Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "x": 1600,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.833333,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.166667
+        },
+        "image": {
+          "sourceUrl": "https://deepswe.datacurve.ai/icons/ZAI.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "dsw-kimi-k3",
+      "name": "kimi-k3",
+      "shortName": "kimi-k3",
+      "value": 68.5,
+      "rank": 6,
+      "color": "#f18c4f",
+      "image": "https://deepswe.datacurve.ai/icons/Moonshot.png",
+      "storyUrl": "/stories/deepswe-leaderboard/",
+      "sourceIds": [
+        "DeepSWE Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.166667,
+          "u1": 0.166667,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": "https://deepswe.datacurve.ai/icons/Moonshot.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "dsw-grok-4-6",
+      "name": "grok-4-6",
+      "shortName": "grok-4-6",
+      "value": 67.5,
+      "rank": 7,
+      "color": "#41a99f",
+      "image": null,
+      "storyUrl": "/stories/deepswe-leaderboard/",
+      "sourceIds": [
+        "DeepSWE Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.166667,
+          "v0": 0.166667,
+          "u1": 0.333333,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:dsw-grok-4-6",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "dsw-gpt-5-6-luna",
+      "name": "gpt-5-6-luna",
+      "shortName": "gpt-5-6-luna",
+      "value": 67.2,
+      "rank": 8,
+      "color": "#d78fca",
+      "image": "https://deepswe.datacurve.ai/icons/OpenAI.svg",
+      "storyUrl": "/stories/deepswe-leaderboard/",
+      "sourceIds": [
+        "DeepSWE Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.333333,
+          "v0": 0.166667,
+          "u1": 0.5,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": "https://deepswe.datacurve.ai/icons/OpenAI.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "dsw-gpt-5-5",
+      "name": "gpt-5-5",
+      "shortName": "gpt-5-5",
+      "value": 67,
+      "rank": 9,
+      "color": "#7b9b65",
+      "image": "https://deepswe.datacurve.ai/icons/OpenAI.svg",
+      "storyUrl": "/stories/deepswe-leaderboard/",
+      "sourceIds": [
+        "DeepSWE Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.333333,
+          "v0": 0,
+          "u1": 0.5,
+          "v1": 0.166667
+        },
+        "image": {
+          "sourceUrl": "https://deepswe.datacurve.ai/icons/OpenAI.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "dsw-gemini-3-7-flash",
+      "name": "gemini-3-7-flash",
+      "shortName": "gemini-3-7-flash",
+      "value": 65.5,
+      "rank": 10,
+      "color": "#2f4858",
+      "image": "https://deepswe.datacurve.ai/icons/Google.svg",
+      "storyUrl": "/stories/deepswe-leaderboard/",
+      "sourceIds": [
+        "DeepSWE Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.166667,
+          "u1": 0.666667,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": "https://deepswe.datacurve.ai/icons/Google.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "dsw-glm-5-3-flash",
+      "name": "glm-5-3-flash",
+      "shortName": "glm-5-3-flash",
+      "value": 63.4,
+      "rank": 11,
+      "color": "#ef426f",
+      "image": "https://deepswe.datacurve.ai/icons/ZAI.png",
+      "storyUrl": "/stories/deepswe-leaderboard/",
+      "sourceIds": [
+        "DeepSWE Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "x": 1280,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.666667,
+          "v0": 0.166667,
+          "u1": 0.833333,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": "https://deepswe.datacurve.ai/icons/ZAI.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "dsw-deepseek-v4-pro",
+      "name": "deepseek-v4-pro",
+      "shortName": "deepseek-v4-pro",
+      "value": 62.8,
+      "rank": 12,
+      "color": "#86bdf4",
+      "image": null,
+      "storyUrl": "/stories/deepswe-leaderboard/",
+      "sourceIds": [
+        "DeepSWE Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "x": 1600,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.833333,
+          "v0": 0.166667,
+          "u1": 1,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:dsw-deepseek-v4-pro",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "dsw-claude-opus-4-8",
+      "name": "claude-opus-4-8",
+      "shortName": "claude-opus-4-8",
+      "value": 59,
+      "rank": 13,
+      "color": "#c9a14a",
+      "image": "https://deepswe.datacurve.ai/icons/Anthropic.svg",
+      "storyUrl": "/stories/deepswe-leaderboard/",
+      "sourceIds": [
+        "DeepSWE Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.333333,
+          "u1": 0.166667,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://deepswe.datacurve.ai/icons/Anthropic.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "dsw-qwen3-8-max",
+      "name": "qwen3-8-max",
+      "shortName": "qwen3-8-max",
+      "value": 57.5,
+      "rank": 14,
+      "color": "#e34f59",
+      "image": null,
+      "storyUrl": "/stories/deepswe-leaderboard/",
+      "sourceIds": [
+        "DeepSWE Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.166667,
+          "v0": 0.333333,
+          "u1": 0.333333,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:dsw-qwen3-8-max",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "dsw-muse-spark-1-2",
+      "name": "muse-spark-1-2",
+      "shortName": "muse-spark-1-2",
+      "value": 54.9,
+      "rank": 15,
+      "color": "#9aa4b2",
+      "image": null,
+      "storyUrl": "/stories/deepswe-leaderboard/",
+      "sourceIds": [
+        "DeepSWE Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.333333,
+          "u1": 0.666667,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:dsw-muse-spark-1-2",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "dsw-claude-sonnet-5",
+      "name": "claude-sonnet-5",
+      "shortName": "claude-sonnet-5",
+      "value": 53.8,
+      "rank": 16,
+      "color": "#ff5a61",
+      "image": "https://deepswe.datacurve.ai/icons/Anthropic.svg",
+      "storyUrl": "/stories/deepswe-leaderboard/",
+      "sourceIds": [
+        "DeepSWE Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "x": 1600,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.833333,
+          "v0": 0.333333,
+          "u1": 1,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://deepswe.datacurve.ai/icons/Anthropic.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "dsw-grok-4-5",
+      "name": "grok-4-5",
+      "shortName": "grok-4-5",
+      "value": 53.8,
+      "rank": 17,
+      "color": "#18c871",
+      "image": null,
+      "storyUrl": "/stories/deepswe-leaderboard/",
+      "sourceIds": [
+        "DeepSWE Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "x": 0,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.5,
+          "u1": 0.166667,
+          "v1": 0.666667
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:dsw-grok-4-5",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "dsw-muse-spark-1-1",
+      "name": "muse-spark-1-1",
+      "shortName": "muse-spark-1-1",
+      "value": 53.3,
+      "rank": 18,
+      "color": "#00a6ff",
+      "image": null,
+      "storyUrl": "/stories/deepswe-leaderboard/",
+      "sourceIds": [
+        "DeepSWE Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "x": 320,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.166667,
+          "v0": 0.5,
+          "u1": 0.333333,
+          "v1": 0.666667
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:dsw-muse-spark-1-1",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "dsw-deepseek-v4-flash",
+      "name": "deepseek-v4-flash",
+      "shortName": "deepseek-v4-flash",
+      "value": 53.3,
+      "rank": 19,
+      "color": "#ffc84a",
+      "image": null,
+      "storyUrl": "/stories/deepswe-leaderboard/",
+      "sourceIds": [
+        "DeepSWE Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "x": 640,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.333333,
+          "v0": 0.5,
+          "u1": 0.5,
+          "v1": 0.666667
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:dsw-deepseek-v4-flash",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "dsw-gpt-5-4",
+      "name": "gpt-5-4",
+      "shortName": "gpt-5-4",
+      "value": 51.8,
+      "rank": 20,
+      "color": "#8f6bff",
+      "image": "https://deepswe.datacurve.ai/icons/OpenAI.svg",
+      "storyUrl": "/stories/deepswe-leaderboard/",
+      "sourceIds": [
+        "DeepSWE Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.333333,
+          "v0": 0.333333,
+          "u1": 0.5,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://deepswe.datacurve.ai/icons/OpenAI.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "dsw-gemini-3-6-flash",
+      "name": "gemini-3-6-flash",
+      "shortName": "gemini-3-6-flash",
+      "value": 46.7,
+      "rank": 21,
+      "color": "#f18c4f",
+      "image": "https://deepswe.datacurve.ai/icons/Google.svg",
+      "storyUrl": "/stories/deepswe-leaderboard/",
+      "sourceIds": [
+        "DeepSWE Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "x": 960,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.5,
+          "u1": 0.666667,
+          "v1": 0.666667
+        },
+        "image": {
+          "sourceUrl": "https://deepswe.datacurve.ai/icons/Google.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "dsw-glm-5-2",
+      "name": "glm-5-2",
+      "shortName": "glm-5-2",
+      "value": 43.8,
+      "rank": 22,
+      "color": "#41a99f",
+      "image": "https://deepswe.datacurve.ai/icons/ZAI.png",
+      "storyUrl": "/stories/deepswe-leaderboard/",
+      "sourceIds": [
+        "DeepSWE Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "x": 1280,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.666667,
+          "v0": 0.5,
+          "u1": 0.833333,
+          "v1": 0.666667
+        },
+        "image": {
+          "sourceUrl": "https://deepswe.datacurve.ai/icons/ZAI.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "dsw-gemini-3-5-flash",
+      "name": "gemini-3-5-flash",
+      "shortName": "gemini-3-5-flash",
+      "value": 36.1,
+      "rank": 23,
+      "color": "#d78fca",
+      "image": "https://deepswe.datacurve.ai/icons/Google.svg",
+      "storyUrl": "/stories/deepswe-leaderboard/",
+      "sourceIds": [
+        "DeepSWE Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "x": 1600,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.833333,
+          "v0": 0.5,
+          "u1": 1,
+          "v1": 0.666667
+        },
+        "image": {
+          "sourceUrl": "https://deepswe.datacurve.ai/icons/Google.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "dsw-kimi-k2-7-code",
+      "name": "kimi-k2-7-code",
+      "shortName": "kimi-k2-7-code",
+      "value": 30.5,
+      "rank": 24,
+      "color": "#7b9b65",
+      "image": "https://deepswe.datacurve.ai/icons/Moonshot.png",
+      "storyUrl": "/stories/deepswe-leaderboard/",
+      "sourceIds": [
+        "DeepSWE Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "x": 320,
+          "y": 1280,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.166667,
+          "v0": 0.666667,
+          "u1": 0.333333,
+          "v1": 0.833333
+        },
+        "image": {
+          "sourceUrl": "https://deepswe.datacurve.ai/icons/Moonshot.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "dsw-claude-sonnet-4-6",
+      "name": "claude-sonnet-4-6",
+      "shortName": "claude-sonnet-4-6",
+      "value": 29.9,
+      "rank": 25,
+      "color": "#2f4858",
+      "image": "https://deepswe.datacurve.ai/icons/Anthropic.svg",
+      "storyUrl": "/stories/deepswe-leaderboard/",
+      "sourceIds": [
+        "DeepSWE Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/deepswe-leaderboard.json",
+          "x": 0,
+          "y": 1280,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.666667,
+          "u1": 0.166667,
+          "v1": 0.833333
+        },
+        "image": {
+          "sourceUrl": "https://deepswe.datacurve.ai/icons/Anthropic.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    }
+  ]
+}

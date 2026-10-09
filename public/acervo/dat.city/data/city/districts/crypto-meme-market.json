@@ -1,0 +1,188 @@
+{
+  "schemaVersion": 1,
+  "contentKind": "dat-city.district",
+  "version": 1,
+  "generatedAt": "2026-07-10T07:52:11.714Z",
+  "versionId": "20260710T075211Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "manual",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-07-10T07:52:11.714Z",
+    "versionId": "20260710T075211Z",
+    "adapter": null,
+    "storySlug": "crypto-memecoin-heat",
+    "districtId": "crypto-meme-market",
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "id": "crypto-meme-market",
+  "name": "Crypto Meme Market",
+  "storySlug": "crypto-memecoin-heat",
+  "storyUrl": "/stories/crypto-memecoin-heat/",
+  "publicStoryUrl": "/stories/crypto-memecoin-heat.json",
+  "metric": "Trend heat",
+  "metricKey": "trend-heat",
+  "latestFrameLabel": "2026-07-10",
+  "summary": "CoinGecko trending search heat for coins, memecoins, and tokenized narratives.",
+  "taxonomy": {
+    "primaryCategory": "economy",
+    "categories": [
+      "economy",
+      "crypto",
+      "internet",
+      "markets"
+    ],
+    "tags": [
+      "crypto",
+      "memecoins",
+      "coingecko",
+      "search-trends",
+      "markets"
+    ],
+    "entityTypes": [
+      "coin",
+      "token"
+    ],
+    "sourceTypes": [
+      "coingecko"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "public-company-market-cap",
+      "type": "market-attention",
+      "weight": 0.58,
+      "reason": "Both track market-facing attention, but one is public equities and the other is crypto search heat."
+    },
+    {
+      "target": "richest-individuals",
+      "type": "money-and-power",
+      "weight": 0.45,
+      "reason": "Both sit on the money mainland and explain wealth narratives."
+    },
+    {
+      "target": "internet-obsession-meter",
+      "type": "viral-attention",
+      "weight": 0.63,
+      "reason": "Memecoin heat often behaves like broader internet obsession data."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "money-and-memes",
+    "mainland": "markets",
+    "bridgePriority": [
+      "public-company-market-cap",
+      "internet-obsession-meter"
+    ]
+  },
+  "thumbnail": "/assets/og/dat-city-home.png",
+  "status": "fresh",
+  "lastObservationDate": "2026-07-10",
+  "nextRefreshAt": "2026-07-10T08:00:00.000Z",
+  "confidence": "Observed CoinGecko trending coins at 2026-07-10T07:55:32.966Z.",
+  "methodology": "This story is generated from CoinGecko's public trending search endpoint. The published heat score combines the current trending order with positive 24-hour USD price movement when present. Scheduled StoryOps runs append snapshots so history grows from observed public trend lists.",
+  "sources": [
+    {
+      "title": "Trending Search List",
+      "publisher": "CoinGecko API",
+      "url": "https://docs.coingecko.com/reference/trending-search",
+      "note": "Public trending search endpoint for coins, NFTs, and categories."
+    }
+  ],
+  "media": {
+    "imageFit": "contain",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-07-10T07:52:11.714Z",
+    "atlasUrl": "/assets/story-atlases/crypto-memecoin-heat.webp?v=2026-07-10T07%3A52%3A11.714Z",
+    "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/crypto-memecoin-heat.webp?v=2026-07-10T07%3A52%3A11.714Z",
+    "manifestUrl": "/assets/story-atlases/crypto-memecoin-heat.json?v=2026-07-10T07%3A52%3A11.714Z",
+    "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/crypto-memecoin-heat.json?v=2026-07-10T07%3A52%3A11.714Z",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 4,
+    "rows": 3,
+    "width": 1280,
+    "height": 960,
+    "itemCount": 12,
+    "sourcedImageCount": 12,
+    "generatedImageCount": 0,
+    "placeholderCount": 0
+  },
+  "entities": [
+    {
+      "id": "coin-cash-cat",
+      "name": "Cash Cat",
+      "shortName": "CASHCAT",
+      "value": 150,
+      "rank": 1,
+      "color": "#d78fca",
+      "image": "https://coin-images.coingecko.com/coins/images/102174280/large/cashcat-logo.jpg?1782922765",
+      "storyUrl": "/stories/crypto-memecoin-heat/",
+      "sourceIds": [
+        "Trending Search List"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/crypto-memecoin-heat.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/crypto-memecoin-heat.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/crypto-memecoin-heat.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/crypto-memecoin-heat.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.25,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": "https://coin-images.coingecko.com/coins/images/102174280/large/cashcat-logo.jpg?1782922765",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "coin-skale",
+      "name": "SKALE",
+      "shortName": "SKL",
+      "value": 140,
+      "rank": 2,
+      "color": "#7b9b65",
+      "image": "https://coin-images.coingecko.com/coins/images/13245/large/SKALE_token_300x300.png?1696513021",
+      "storyUrl": "/stories/crypto-memecoin-heat/",
+      "sourceIds": [
+        "Trending Search List"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/crypto-memecoin-heat.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/crypto-memecoin-heat.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/crypto-memecoin-heat.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/crypto-memecoin-heat.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0,
+          "u1": 0.75,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": "https://coin-images.coingecko.com/coins/images/13245/large/SKALE_token_300x300.png?1696513021",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    }
+  ]
+}

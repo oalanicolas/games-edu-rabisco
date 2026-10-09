@@ -1,0 +1,788 @@
+{
+  "schemaVersion": 1,
+  "contentKind": "dat-city.district",
+  "version": 1,
+  "generatedAt": "2026-07-10T07:52:11.714Z",
+  "versionId": "20260710T075211Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "manual",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-07-10T07:52:11.714Z",
+    "versionId": "20260710T075211Z",
+    "adapter": null,
+    "storySlug": "playstation-top-games",
+    "districtId": "playstation-arcade",
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "id": "playstation-arcade",
+  "name": "PlayStation Arcade",
+  "storySlug": "playstation-top-games",
+  "storyUrl": "/stories/playstation-top-games/",
+  "publicStoryUrl": "/stories/playstation-top-games.json",
+  "metric": "Copies sold",
+  "metricKey": "copies-sold",
+  "latestFrameLabel": "2026-07-10",
+  "summary": "Best-selling PlayStation games from Wikipedia's platform-specific sales tables.",
+  "taxonomy": {
+    "primaryCategory": "gaming",
+    "categories": [
+      "gaming",
+      "platforms",
+      "entertainment"
+    ],
+    "tags": [
+      "playstation",
+      "games",
+      "store-rankings"
+    ],
+    "entityTypes": [
+      "game"
+    ],
+    "sourceTypes": [
+      "wikipedia"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "games-people-are-playing",
+      "type": "platform-game-chart",
+      "weight": 0.9,
+      "reason": "This is the PlayStation counterpart to the Steam most-played district."
+    },
+    {
+      "target": "franchise-hype-index",
+      "type": "game-franchise-demand",
+      "weight": 0.66,
+      "reason": "Console charts often reflect franchise momentum."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "game-platforms",
+    "mainland": "culture",
+    "bridgePriority": [
+      "games-people-are-playing",
+      "franchise-hype-index"
+    ]
+  },
+  "thumbnail": "/assets/og/dat-city.webp",
+  "status": "fresh",
+  "lastObservationDate": "2026-07-10",
+  "nextRefreshAt": "2026-07-13T08:00:00.000Z",
+  "confidence": "Observed 105 rows across 2 Wikipedia best-selling game page(s) on 2026-07-10T07:52:11.714Z. Values are the displayed sold/shipped copy counts from the source tables.",
+  "methodology": "This story is generated from Wikipedia best-selling video game tables for PlayStation: List of best-selling PlayStation 4 video games, List of best-selling PlayStation 5 video games. The adapter finds tables with game/title and copies-sold columns, converts displayed million-copy values into copy totals, ranks the configured Top 20, and stores StoryOps snapshots so observed history can accumulate over time. When the same game appears on multiple configured platform pages, the adapter sums those platform-specific values into a brand-level total.",
+  "sources": [
+    {
+      "title": "Lists of best-selling video games by platform",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lists_of_best-selling_video_games_by_platform",
+      "note": "Index of platform-specific PlayStation best-selling game pages used by the adapter."
+    }
+  ],
+  "media": {
+    "imageFit": "contain",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-07-10T07:52:11.714Z",
+    "atlasUrl": "/assets/story-atlases/playstation-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+    "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/playstation-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+    "manifestUrl": "/assets/story-atlases/playstation-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+    "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/playstation-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 5,
+    "rows": 4,
+    "width": 1600,
+    "height": 1280,
+    "itemCount": 20,
+    "sourcedImageCount": 20,
+    "generatedImageCount": 0,
+    "placeholderCount": 0
+  },
+  "entities": [
+    {
+      "id": "grand-theft-auto-v",
+      "name": "Grand Theft Auto V",
+      "value": 24660000,
+      "rank": 1,
+      "color": "#ff5a61",
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a5/Grand_Theft_Auto_V.png",
+      "storyUrl": "/stories/playstation-top-games/",
+      "sourceIds": [
+        "Lists of best-selling video games by platform"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/playstation-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/playstation-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/playstation-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/playstation-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.2,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/a/a5/Grand_Theft_Auto_V.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "marvel-s-spider-man-video-game",
+      "name": "Marvel's Spider-Man",
+      "value": 22680000,
+      "rank": 2,
+      "color": "#18c871",
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/e1/Spider-Man_PS4_cover.jpg",
+      "storyUrl": "/stories/playstation-top-games/",
+      "sourceIds": [
+        "Lists of best-selling video games by platform"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/playstation-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/playstation-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/playstation-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/playstation-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0,
+          "u1": 0.4,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/e/e1/Spider-Man_PS4_cover.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "god-of-war-2018-video-game",
+      "name": "God of War",
+      "value": 21020000,
+      "rank": 3,
+      "color": "#ffc84a",
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a7/God_of_War_4_cover.jpg",
+      "storyUrl": "/stories/playstation-top-games/",
+      "sourceIds": [
+        "Lists of best-selling video games by platform"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/playstation-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/playstation-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/playstation-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/playstation-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0,
+          "u1": 0.6,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/a/a7/God_of_War_4_cover.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "horizon-zero-dawn",
+      "name": "Horizon Zero Dawn",
+      "value": 19290000,
+      "rank": 4,
+      "color": "#00a6ff",
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/3e/Horizon_Zero_Dawn_cover_art.jpg",
+      "storyUrl": "/stories/playstation-top-games/",
+      "sourceIds": [
+        "Lists of best-selling video games by platform"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/playstation-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/playstation-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/playstation-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/playstation-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0,
+          "u1": 0.8,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/3/3e/Horizon_Zero_Dawn_cover_art.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "uncharted-4-a-thief-s-end",
+      "name": "Uncharted 4: A Thief's End",
+      "value": 18650000,
+      "rank": 5,
+      "color": "#8f6bff",
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/1a/Uncharted_4_box_artwork.jpg",
+      "storyUrl": "/stories/playstation-top-games/",
+      "sourceIds": [
+        "Lists of best-selling video games by platform"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/playstation-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/playstation-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/playstation-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/playstation-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 1280,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/1/1a/Uncharted_4_box_artwork.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "the-last-of-us-remastered",
+      "name": "The Last of Us Remastered",
+      "value": 18200000,
+      "rank": 6,
+      "color": "#f18c4f",
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/46/Video_Game_Cover_-_The_Last_of_Us.jpg",
+      "storyUrl": "/stories/playstation-top-games/",
+      "sourceIds": [
+        "Lists of best-selling video games by platform"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/playstation-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/playstation-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/playstation-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/playstation-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.25,
+          "u1": 0.2,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/4/46/Video_Game_Cover_-_The_Last_of_Us.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "minecraft-playstation-4-edition",
+      "name": "Minecraft: PlayStation 4 Edition",
+      "value": 17000000,
+      "rank": 7,
+      "color": "#41a99f",
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/be/Minecraft_game_logo_2023.png",
+      "storyUrl": "/stories/playstation-top-games/",
+      "sourceIds": [
+        "Lists of best-selling video games by platform"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/playstation-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/playstation-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/playstation-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/playstation-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.25,
+          "u1": 0.4,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/b/be/Minecraft_game_logo_2023.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "marvel-s-spider-man-2",
+      "name": "Marvel's Spider-Man 2",
+      "value": 17000000,
+      "rank": 8,
+      "color": "#d78fca",
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/0f/SpiderMan2PS5BoxArt.jpeg",
+      "storyUrl": "/stories/playstation-top-games/",
+      "sourceIds": [
+        "Lists of best-selling video games by platform"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/playstation-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/playstation-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/playstation-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/playstation-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.25,
+          "u1": 0.6,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/0/0f/SpiderMan2PS5BoxArt.jpeg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "call-of-duty-black-ops-iii",
+      "name": "Call of Duty: Black Ops III",
+      "value": 15000000,
+      "rank": 9,
+      "color": "#7b9b65",
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/b1/Black_Ops_3.jpg",
+      "storyUrl": "/stories/playstation-top-games/",
+      "sourceIds": [
+        "Lists of best-selling video games by platform"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/playstation-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/playstation-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/playstation-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/playstation-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.25,
+          "u1": 0.8,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/b/b1/Black_Ops_3.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "call-of-duty-wwii",
+      "name": "Call of Duty: WWII",
+      "value": 13400000,
+      "rank": 10,
+      "color": "#2f4858",
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/18/Call_of_Duty_WWII_Cover_Art.jpg",
+      "storyUrl": "/stories/playstation-top-games/",
+      "sourceIds": [
+        "Lists of best-selling video games by platform"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/playstation-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/playstation-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/playstation-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/playstation-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 1280,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.25,
+          "u1": 1,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/1/18/Call_of_Duty_WWII_Cover_Art.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "gran-turismo-sport",
+      "name": "Gran Turismo Sport",
+      "value": 12720000,
+      "rank": 11,
+      "color": "#ef426f",
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/db/Gran_Turismo_Sport_Gameplay.png",
+      "storyUrl": "/stories/playstation-top-games/",
+      "sourceIds": [
+        "Lists of best-selling video games by platform"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/playstation-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/playstation-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/playstation-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/playstation-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.5,
+          "u1": 0.2,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/d/db/Gran_Turismo_Sport_Gameplay.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "gran-turismo-7",
+      "name": "Gran Turismo 7",
+      "value": 11000000,
+      "rank": 12,
+      "color": "#86bdf4",
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/14/Gran_Turismo_7_cover_art.jpg",
+      "storyUrl": "/stories/playstation-top-games/",
+      "sourceIds": [
+        "Lists of best-selling video games by platform"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/playstation-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/playstation-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/playstation-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/playstation-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.5,
+          "u1": 0.4,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/1/14/Gran_Turismo_7_cover_art.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "the-witcher-3-wild-hunt",
+      "name": "The Witcher 3: Wild Hunt",
+      "value": 10800000,
+      "rank": 13,
+      "color": "#c9a14a",
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/0c/Witcher_3_cover_art.jpg",
+      "storyUrl": "/stories/playstation-top-games/",
+      "sourceIds": [
+        "Lists of best-selling video games by platform"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/playstation-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/playstation-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/playstation-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/playstation-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.5,
+          "u1": 0.6,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/0/0c/Witcher_3_cover_art.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "the-last-of-us-part-ii",
+      "name": "The Last of Us Part II",
+      "value": 10000000,
+      "rank": 14,
+      "color": "#e34f59",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/The_Last_of_Us_Part_II_marketing_-_train.jpg/960px-The_Last_of_Us_Part_II_marketing_-_train.jpg",
+      "storyUrl": "/stories/playstation-top-games/",
+      "sourceIds": [
+        "Lists of best-selling video games by platform"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/playstation-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/playstation-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/playstation-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/playstation-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.5,
+          "u1": 0.8,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/The_Last_of_Us_Part_II_marketing_-_train.jpg/960px-The_Last_of_Us_Part_II_marketing_-_train.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "uncharted-the-nathan-drake-collection",
+      "name": "Uncharted: The Nathan Drake Collection",
+      "value": 9980000,
+      "rank": 15,
+      "color": "#9aa4b2",
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/c9/Nathan_Drake_Collection_cover_art.png",
+      "storyUrl": "/stories/playstation-top-games/",
+      "sourceIds": [
+        "Lists of best-selling video games by platform"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/playstation-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/playstation-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/playstation-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/playstation-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 1280,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.5,
+          "u1": 1,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/c/c9/Nathan_Drake_Collection_cover_art.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "ghost-of-tsushima",
+      "name": "Ghost of Tsushima",
+      "value": 9730000,
+      "rank": 16,
+      "color": "#ff5a61",
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/b6/Ghost_of_Tsushima.jpg",
+      "storyUrl": "/stories/playstation-top-games/",
+      "sourceIds": [
+        "Lists of best-selling video games by platform"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/playstation-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/playstation-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/playstation-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/playstation-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.75,
+          "u1": 0.2,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/b/b6/Ghost_of_Tsushima.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "bloodborne",
+      "name": "Bloodborne",
+      "value": 9300000,
+      "rank": 17,
+      "color": "#18c871",
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/68/Bloodborne_Cover_Wallpaper.jpg",
+      "storyUrl": "/stories/playstation-top-games/",
+      "sourceIds": [
+        "Lists of best-selling video games by platform"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/playstation-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/playstation-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/playstation-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/playstation-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.75,
+          "u1": 0.4,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/6/68/Bloodborne_Cover_Wallpaper.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "call-of-duty-infinite-warfare",
+      "name": "Call of Duty: Infinite Warfare",
+      "value": 8480000,
+      "rank": 18,
+      "color": "#ffc84a",
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/87/Call_of_Duty_Infinite_Warfare_cover.jpg",
+      "storyUrl": "/stories/playstation-top-games/",
+      "sourceIds": [
+        "Lists of best-selling video games by platform"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/playstation-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/playstation-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/playstation-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/playstation-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.75,
+          "u1": 0.6,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/8/87/Call_of_Duty_Infinite_Warfare_cover.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "star-wars-battlefront-2015-video-game",
+      "name": "Star Wars Battlefront",
+      "value": 8420000,
+      "rank": 19,
+      "color": "#00a6ff",
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/9b/Star_Wars_Battlefront_2015_gameplay_screenshot.jpg",
+      "storyUrl": "/stories/playstation-top-games/",
+      "sourceIds": [
+        "Lists of best-selling video games by platform"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/playstation-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/playstation-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/playstation-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/playstation-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.75,
+          "u1": 0.8,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/9/9b/Star_Wars_Battlefront_2015_gameplay_screenshot.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "days-gone",
+      "name": "Days Gone",
+      "value": 7320000,
+      "rank": 20,
+      "color": "#8f6bff",
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/16/Days_Gone_cover_art.jpg",
+      "storyUrl": "/stories/playstation-top-games/",
+      "sourceIds": [
+        "Lists of best-selling video games by platform"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/playstation-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/playstation-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/playstation-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/playstation-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 1280,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.75,
+          "u1": 1,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/1/16/Days_Gone_cover_art.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    }
+  ]
+}

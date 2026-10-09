@@ -1,0 +1,800 @@
+{
+  "schemaVersion": 1,
+  "contentKind": "dat-city.district",
+  "version": 1,
+  "generatedAt": "2026-07-10T07:52:11.714Z",
+  "versionId": "20260710T075211Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "manual",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-07-10T07:52:11.714Z",
+    "versionId": "20260710T075211Z",
+    "adapter": null,
+    "storySlug": "youtube-tech-review-subscribers",
+    "districtId": "youtube-tech-review-row",
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "id": "youtube-tech-review-row",
+  "name": "YouTube Tech Review Row",
+  "storySlug": "youtube-tech-review-subscribers",
+  "storyUrl": "/stories/youtube-tech-review-subscribers/",
+  "publicStoryUrl": "/stories/youtube-tech-review-subscribers.json",
+  "metric": "Subscribers",
+  "metricKey": "subscribers",
+  "latestFrameLabel": "2026-07-10",
+  "summary": "Technology and gadget-review YouTubers ranked by public subscriber counts.",
+  "taxonomy": {
+    "primaryCategory": "technology",
+    "categories": [
+      "technology",
+      "internet",
+      "creators"
+    ],
+    "tags": [
+      "youtube",
+      "tech-review",
+      "subscribers",
+      "creators"
+    ],
+    "entityTypes": [
+      "channel",
+      "creator"
+    ],
+    "sourceTypes": [
+      "wikipedia"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "top-youtubers",
+      "type": "youtube-category-subset",
+      "weight": 0.88,
+      "reason": "This is a tech-review category split from the broader YouTube channel leaderboard."
+    },
+    {
+      "target": "app-store-takeover",
+      "type": "consumer-tech-attention",
+      "weight": 0.58,
+      "reason": "Tech reviewers often move attention around consumer apps and devices."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "creator-platforms",
+    "mainland": "culture",
+    "bridgePriority": [
+      "top-youtubers",
+      "app-store-takeover"
+    ]
+  },
+  "thumbnail": "/assets/og/dat-city.webp",
+  "status": "fresh",
+  "lastObservationDate": "2026-07-10",
+  "nextRefreshAt": "2026-07-13T07:00:00.000Z",
+  "confidence": "Observed List of most-subscribed YouTube channels and categories Technology YouTubers on 2026-07-10T07:52:11.714Z; subscriber counts are the rounded public values displayed in Wikipedia tables or article infoboxes.",
+  "methodology": "This StoryOps adapter builds a Tech review YouTube YouTube leaderboard from Wikipedia. It can filter the current most-subscribed YouTube channel table by category and augment it with pages from configured Wikipedia categories, then parses public YouTube subscriber counts from article infoboxes and stores recent StoryOps snapshots.",
+  "sources": [
+    {
+      "title": "Category:Technology YouTubers",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Category:Technology_YouTubers",
+      "note": "Category seed for technology YouTuber pages with public subscriber-count infobox fields."
+    },
+    {
+      "title": "List of most-subscribed YouTube channels",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_most-subscribed_YouTube_channels",
+      "note": "Optional current YouTube table source; useful when category rows overlap the global top-100 table."
+    }
+  ],
+  "media": {
+    "imageFit": "contain",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-07-10T07:52:11.714Z",
+    "atlasUrl": "/assets/story-atlases/youtube-tech-review-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+    "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-tech-review-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+    "manifestUrl": "/assets/story-atlases/youtube-tech-review-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+    "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-tech-review-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 5,
+    "rows": 4,
+    "width": 1600,
+    "height": 1280,
+    "itemCount": 20,
+    "sourcedImageCount": 19,
+    "generatedImageCount": 1,
+    "placeholderCount": 0
+  },
+  "entities": [
+    {
+      "id": "unbox-therapy",
+      "name": "Unbox Therapy",
+      "shortName": "Unbox Therapy",
+      "value": 24700000,
+      "rank": 1,
+      "color": "#ff5a61",
+      "image": "https://unavatar.io/youtube/unboxtherapy",
+      "storyUrl": "/stories/youtube-tech-review-subscribers/",
+      "sourceIds": [
+        "Category:Technology YouTubers",
+        "List of most-subscribed YouTube channels"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/youtube-tech-review-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-tech-review-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/youtube-tech-review-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-tech-review-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.2,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://unavatar.io/youtube/unboxtherapy",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "technical-guruji",
+      "name": "Technical Guruji",
+      "shortName": "Technical Guruji",
+      "value": 23700000,
+      "rank": 2,
+      "color": "#18c871",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Gaurav_Chaudhary.jpg",
+      "storyUrl": "/stories/youtube-tech-review-subscribers/",
+      "sourceIds": [
+        "Category:Technology YouTubers",
+        "List of most-subscribed YouTube channels"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/youtube-tech-review-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-tech-review-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/youtube-tech-review-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-tech-review-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0,
+          "u1": 0.4,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Gaurav_Chaudhary.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "mrwhosetheboss",
+      "name": "Mrwhosetheboss",
+      "shortName": "Mrwhosetheboss",
+      "value": 22600000,
+      "rank": 3,
+      "color": "#ffc84a",
+      "image": "https://unavatar.io/youtube/mrwhosetheboss",
+      "storyUrl": "/stories/youtube-tech-review-subscribers/",
+      "sourceIds": [
+        "Category:Technology YouTubers",
+        "List of most-subscribed YouTube channels"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/youtube-tech-review-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-tech-review-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/youtube-tech-review-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-tech-review-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0,
+          "u1": 0.6,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:mrwhosetheboss",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "marques-brownlee",
+      "name": "Marques Brownlee",
+      "shortName": "Marques Brownlee",
+      "value": 20900000,
+      "rank": 4,
+      "color": "#00a6ff",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Marques_Brownlee_cropped.jpg/960px-Marques_Brownlee_cropped.jpg",
+      "storyUrl": "/stories/youtube-tech-review-subscribers/",
+      "sourceIds": [
+        "Category:Technology YouTubers",
+        "List of most-subscribed YouTube channels"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/youtube-tech-review-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-tech-review-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/youtube-tech-review-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-tech-review-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0,
+          "u1": 0.8,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Marques_Brownlee_cropped.jpg/960px-Marques_Brownlee_cropped.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "linus-tech-tips",
+      "name": "Linus Tech Tips",
+      "shortName": "Linus Tech Tips",
+      "value": 16900000,
+      "rank": 5,
+      "color": "#8f6bff",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Linus_Sebastian_at_LTX_2023_%28cropped%29.jpg/960px-Linus_Sebastian_at_LTX_2023_%28cropped%29.jpg",
+      "storyUrl": "/stories/youtube-tech-review-subscribers/",
+      "sourceIds": [
+        "Category:Technology YouTubers",
+        "List of most-subscribed YouTube channels"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/youtube-tech-review-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-tech-review-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/youtube-tech-review-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-tech-review-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 1280,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Linus_Sebastian_at_LTX_2023_%28cropped%29.jpg/960px-Linus_Sebastian_at_LTX_2023_%28cropped%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "colinfurze",
+      "name": "colinfurze",
+      "shortName": "colinfurze",
+      "value": 13200000,
+      "rank": 6,
+      "color": "#f18c4f",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Colin_Furze_Headshot.jpg/960px-Colin_Furze_Headshot.jpg",
+      "storyUrl": "/stories/youtube-tech-review-subscribers/",
+      "sourceIds": [
+        "Category:Technology YouTubers",
+        "List of most-subscribed YouTube channels"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/youtube-tech-review-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-tech-review-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/youtube-tech-review-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-tech-review-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.25,
+          "u1": 0.2,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Colin_Furze_Headshot.jpg/960px-Colin_Furze_Headshot.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "crazyrussianhacker",
+      "name": "CrazyRussianHacker",
+      "shortName": "CrazyRussianHacker",
+      "value": 12000000,
+      "rank": 7,
+      "color": "#41a99f",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/fb/CrazyRussianHacker_in_2017.jpg",
+      "storyUrl": "/stories/youtube-tech-review-subscribers/",
+      "sourceIds": [
+        "Category:Technology YouTubers",
+        "List of most-subscribed YouTube channels"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/youtube-tech-review-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-tech-review-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/youtube-tech-review-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-tech-review-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.25,
+          "u1": 0.4,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/CrazyRussianHacker_in_2017.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "jerryrigeverything",
+      "name": "JerryRigEverything",
+      "shortName": "JerryRigEverything",
+      "value": 10000000,
+      "rank": 8,
+      "color": "#d78fca",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Nelson_in_2020_%28cropped%29.png",
+      "storyUrl": "/stories/youtube-tech-review-subscribers/",
+      "sourceIds": [
+        "Category:Technology YouTubers",
+        "List of most-subscribed YouTube channels"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/youtube-tech-review-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-tech-review-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/youtube-tech-review-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-tech-review-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.25,
+          "u1": 0.6,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Nelson_in_2020_%28cropped%29.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "michael-reeves",
+      "name": "Michael Reeves",
+      "shortName": "Michael Reeves",
+      "value": 7780000,
+      "rank": 9,
+      "color": "#7b9b65",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Michael_Reeves_at_Haradas_Bar_%282025%29.png",
+      "storyUrl": "/stories/youtube-tech-review-subscribers/",
+      "sourceIds": [
+        "Category:Technology YouTubers",
+        "List of most-subscribed YouTube channels"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/youtube-tech-review-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-tech-review-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/youtube-tech-review-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-tech-review-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.25,
+          "u1": 0.8,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Michael_Reeves_at_Haradas_Bar_%282025%29.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "ijustine",
+      "name": "IJustine",
+      "shortName": "IJustine",
+      "value": 7100000,
+      "rank": 10,
+      "color": "#2f4858",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/2a/IJustine_2015.jpg",
+      "storyUrl": "/stories/youtube-tech-review-subscribers/",
+      "sourceIds": [
+        "Category:Technology YouTubers",
+        "List of most-subscribed YouTube channels"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/youtube-tech-review-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-tech-review-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/youtube-tech-review-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-tech-review-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 1280,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.25,
+          "u1": 1,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/IJustine_2015.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "adam-savage-s-tested",
+      "name": "Adam Savage's Tested",
+      "shortName": "Adam Savage's Tested",
+      "value": 7060000,
+      "rank": 11,
+      "color": "#ef426f",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Tested.com_Logo.png/960px-Tested.com_Logo.png",
+      "storyUrl": "/stories/youtube-tech-review-subscribers/",
+      "sourceIds": [
+        "Category:Technology YouTubers",
+        "List of most-subscribed YouTube channels"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/youtube-tech-review-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-tech-review-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/youtube-tech-review-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-tech-review-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.5,
+          "u1": 0.2,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Tested.com_Logo.png/960px-Tested.com_Logo.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "austin-evans",
+      "name": "Austin Evans",
+      "shortName": "Austin Evans",
+      "value": 5760000,
+      "rank": 12,
+      "color": "#86bdf4",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Crystal_Clear_app_linneighborhood.svg/960px-Crystal_Clear_app_linneighborhood.svg.png",
+      "storyUrl": "/stories/youtube-tech-review-subscribers/",
+      "sourceIds": [
+        "Category:Technology YouTubers",
+        "List of most-subscribed YouTube channels"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/youtube-tech-review-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-tech-review-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/youtube-tech-review-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-tech-review-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.5,
+          "u1": 0.4,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Crystal_Clear_app_linneighborhood.svg/960px-Crystal_Clear_app_linneighborhood.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "louis-rossmann",
+      "name": "Louis Rossmann",
+      "shortName": "Louis Rossmann",
+      "value": 2610000,
+      "rank": 13,
+      "color": "#e34f59",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/ff/DEF_CON_30_Right_to_Repair_-_Louis_Rossmann_40-9_%28cropped%29.png",
+      "storyUrl": "/stories/youtube-tech-review-subscribers/",
+      "sourceIds": [
+        "Category:Technology YouTubers",
+        "List of most-subscribed YouTube channels"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/youtube-tech-review-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-tech-review-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/youtube-tech-review-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-tech-review-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.5,
+          "u1": 0.8,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/ff/DEF_CON_30_Right_to_Repair_-_Louis_Rossmann_40-9_%28cropped%29.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "allen-pan",
+      "name": "Allen Pan",
+      "shortName": "Allen Pan",
+      "value": 2260000,
+      "rank": 14,
+      "color": "#9aa4b2",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Allen_Pan_cropped.jpg/960px-Allen_Pan_cropped.jpg",
+      "storyUrl": "/stories/youtube-tech-review-subscribers/",
+      "sourceIds": [
+        "Category:Technology YouTubers",
+        "List of most-subscribed YouTube channels"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/youtube-tech-review-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-tech-review-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/youtube-tech-review-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-tech-review-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 1280,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.5,
+          "u1": 1,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Allen_Pan_cropped.jpg/960px-Allen_Pan_cropped.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "supersaf",
+      "name": "SuperSaf",
+      "shortName": "SuperSaf",
+      "value": 2250000,
+      "rank": 15,
+      "color": "#ff5a61",
+      "image": "https://unavatar.io/youtube/supersaf",
+      "storyUrl": "/stories/youtube-tech-review-subscribers/",
+      "sourceIds": [
+        "Category:Technology YouTubers",
+        "List of most-subscribed YouTube channels"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/youtube-tech-review-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-tech-review-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/youtube-tech-review-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-tech-review-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.75,
+          "u1": 0.2,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://unavatar.io/youtube/supersaf",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "dankpods",
+      "name": "DankPods",
+      "shortName": "DankPods",
+      "value": 1840000,
+      "rank": 16,
+      "color": "#18c871",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/64/DankPods_profile.webp",
+      "storyUrl": "/stories/youtube-tech-review-subscribers/",
+      "sourceIds": [
+        "Category:Technology YouTubers",
+        "List of most-subscribed YouTube channels"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/youtube-tech-review-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-tech-review-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/youtube-tech-review-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-tech-review-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.75,
+          "u1": 0.4,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/DankPods_profile.webp",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "lgr",
+      "name": "LGR",
+      "shortName": "LGR",
+      "value": 1810000,
+      "rank": 17,
+      "color": "#ffc84a",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Clint_Basinger_Lazy_Game_Reviews_2025_%28cropped%29.jpg",
+      "storyUrl": "/stories/youtube-tech-review-subscribers/",
+      "sourceIds": [
+        "Category:Technology YouTubers",
+        "List of most-subscribed YouTube channels"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/youtube-tech-review-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-tech-review-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/youtube-tech-review-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-tech-review-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.75,
+          "u1": 0.6,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Clint_Basinger_Lazy_Game_Reviews_2025_%28cropped%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "techmoan",
+      "name": "Techmoan",
+      "shortName": "Techmoan",
+      "value": 1450000,
+      "rank": 18,
+      "color": "#00a6ff",
+      "image": "https://unavatar.io/youtube/techmoan",
+      "storyUrl": "/stories/youtube-tech-review-subscribers/",
+      "sourceIds": [
+        "Category:Technology YouTubers",
+        "List of most-subscribed YouTube channels"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/youtube-tech-review-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-tech-review-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/youtube-tech-review-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-tech-review-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.75,
+          "u1": 0.8,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://unavatar.io/youtube/techmoan",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "nostalgia-nerd",
+      "name": "Nostalgia Nerd",
+      "shortName": "Nostalgia Nerd",
+      "value": 578000,
+      "rank": 19,
+      "color": "#8f6bff",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/NNAaward.png/960px-NNAaward.png",
+      "storyUrl": "/stories/youtube-tech-review-subscribers/",
+      "sourceIds": [
+        "Category:Technology YouTubers",
+        "List of most-subscribed YouTube channels"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/youtube-tech-review-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-tech-review-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/youtube-tech-review-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-tech-review-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 1280,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.75,
+          "u1": 1,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/NNAaward.png/960px-NNAaward.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    }
+  ]
+}

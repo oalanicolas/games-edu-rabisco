@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 1,
+  "contentKind": "dat-city.district",
+  "version": 1,
+  "generatedAt": "2026-07-10T07:52:11.714Z",
+  "versionId": "20260710T075211Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "manual",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-07-10T07:52:11.714Z",
+    "versionId": "20260710T075211Z",
+    "adapter": null,
+    "storySlug": "apple-tv-top-10",
+    "districtId": "apple-tv-studio",
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "id": "apple-tv-studio",
+  "name": "Apple TV Studio",
+  "storySlug": "apple-tv-top-10",
+  "storyUrl": "/stories/apple-tv-top-10/",
+  "publicStoryUrl": "/stories/apple-tv-top-10.json",
+  "metric": "Wikipedia views",
+  "metricKey": "wikipedia-views",
+  "latestFrameLabel": "2026-07-10",
+  "summary": "Apple originals ranked by Wikipedia attention as a temporary source-backed bootstrap, not an official weekly Top 10.",
+  "taxonomy": {
+    "primaryCategory": "entertainment",
+    "categories": [
+      "entertainment",
+      "streaming",
+      "television"
+    ],
+    "tags": [
+      "apple-tv",
+      "streaming",
+      "top-10",
+      "watching"
+    ],
+    "entityTypes": [
+      "film",
+      "series"
+    ],
+    "sourceTypes": [
+      "wikipedia"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "what-everyone-is-watching",
+      "type": "streaming-platform-peer",
+      "weight": 0.88,
+      "reason": "This should be a sibling district to the Netflix watch chart."
+    },
+    {
+      "target": "prime-video-top-10",
+      "type": "streaming-platform-peer",
+      "weight": 0.84,
+      "reason": "Both are planned non-Netflix streaming platform Top 10 districts."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "streaming-platforms",
+    "mainland": "culture",
+    "bridgePriority": [
+      "what-everyone-is-watching",
+      "prime-video-top-10"
+    ]
+  },
+  "thumbnail": "/assets/og/dat-city.webp",
+  "status": "fresh",
+  "lastObservationDate": "2026-07-10",
+  "nextRefreshAt": "2026-07-14T07:00:00.000Z",
+  "confidence": "Observed 30 days of en.wikipedia pageviews for titles listed on 2 Wikipedia platform-original page(s) at 2026-07-10T07:52:11.714Z. This is not a weekly or current streaming Top 10.",
+  "methodology": "Wikipedia does not currently provide a durable weekly/current Top 10 page for Apple TV+. This bootstrap uses the configured Wikipedia original-programming and original-film list pages as the source universe, then ranks titles by recent en.wikipedia pageviews via Wikipedia's PageViewInfo API. Treat the output as public-interest attention among platform originals, not streaming watch time or official platform ranking.",
+  "sources": [
+    {
+      "title": "List of Apple TV original programming",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_Apple_TV_original_programming",
+      "note": "Source universe for Apple original series."
+    },
+    {
+      "title": "List of Apple TV original films",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_Apple_TV_original_films",
+      "note": "Source universe for Apple original films."
+    }
+  ],
+  "media": {
+    "imageFit": "contain",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-07-10T07:52:11.714Z",
+    "atlasUrl": "/assets/story-atlases/apple-tv-top-10.webp?v=2026-07-10T07%3A52%3A11.714Z",
+    "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/apple-tv-top-10.webp?v=2026-07-10T07%3A52%3A11.714Z",
+    "manifestUrl": "/assets/story-atlases/apple-tv-top-10.json?v=2026-07-10T07%3A52%3A11.714Z",
+    "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/apple-tv-top-10.json?v=2026-07-10T07%3A52%3A11.714Z",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 5,
+    "rows": 4,
+    "width": 1600,
+    "height": 1280,
+    "itemCount": 20,
+    "sourcedImageCount": 17,
+    "generatedImageCount": 3,
+    "placeholderCount": 0
+  },
+  "entities": [
+    {
+      "id": "cape-fear-tv-series",
+      "name": "Cape Fear",
+      "value": 564998,
+      "rank": 1,
+      "color": "#ff5a61",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Cape_Fear_%28tv_series_logo%29.svg/960px-Cape_Fear_%28tv_series_logo%29.svg.png",
+      "storyUrl": "/stories/apple-tv-top-10/",
+      "sourceIds": [
+        "List of Apple TV original programming",
+        "List of Apple TV original films"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/apple-tv-top-10.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/apple-tv-top-10.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/apple-tv-top-10.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/apple-tv-top-10.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.2,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Cape_Fear_%28tv_series_logo%29.svg/960px-Cape_Fear_%28tv_series_logo%29.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "black-bird-miniseries",
+      "name": "Black Bird",
+      "value": 74813,
+      "rank": 2,
+      "color": "#ffc84a",
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/2f/Black_Bird_%28miniseries%29_Title_Card.png",
+      "storyUrl": "/stories/apple-tv-top-10/",
+      "sourceIds": [
+        "List of Apple TV original programming",
+        "List of Apple TV original films"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/apple-tv-top-10.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/apple-tv-top-10.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/apple-tv-top-10.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/apple-tv-top-10.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.5,
+          "u1": 0.6,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/2/2f/Black_Bird_%28miniseries%29_Title_Card.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    }
+  ]
+}

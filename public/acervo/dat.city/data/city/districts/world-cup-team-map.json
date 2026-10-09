@@ -1,0 +1,700 @@
+{
+  "schemaVersion": 1,
+  "contentKind": "dat-city.district",
+  "version": 1,
+  "generatedAt": "2026-07-20T08:42:47.787Z",
+  "versionId": "20260720T084247Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "manual",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-07-20T08:42:47.787Z",
+    "versionId": "20260720T084247Z",
+    "adapter": null,
+    "storySlug": "world-cup-team-appearances",
+    "districtId": "world-cup-team-map",
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "id": "world-cup-team-map",
+  "name": "World Cup Team Map",
+  "storySlug": "world-cup-team-appearances",
+  "storyUrl": "/stories/world-cup-team-appearances/",
+  "publicStoryUrl": "/stories/world-cup-team-appearances.json",
+  "metric": "Tournament appearances",
+  "metricKey": "tournament-appearances",
+  "latestFrameLabel": "Through the 2026 final",
+  "summary": "The men's World Cup regulars ranked by how many tournaments they have reached.",
+  "taxonomy": {
+    "primaryCategory": "sports",
+    "categories": [
+      "sports",
+      "football",
+      "history"
+    ],
+    "tags": [
+      "world-cup",
+      "fifa",
+      "appearances",
+      "countries"
+    ],
+    "entityTypes": [
+      "national-team"
+    ],
+    "sourceTypes": [
+      "wikipedia"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "world-cup-champion-nations",
+      "type": "national-team-history",
+      "weight": 0.72,
+      "reason": "Both rank countries across the men's World Cup record book."
+    },
+    {
+      "target": "world-cup-finals-appearances",
+      "type": "national-team-history",
+      "weight": 0.68,
+      "reason": "Tournament regulars provide context for repeated finals appearances."
+    },
+    {
+      "target": "world-cup-2026-host-venues",
+      "type": "world-cup-footprint",
+      "weight": 0.5,
+      "reason": "National participation history connects to the expanded 2026 tournament footprint."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "world-cup-records",
+    "mainland": "world-cup",
+    "bridgePriority": [
+      "world-cup-champion-nations",
+      "world-cup-finals-appearances"
+    ]
+  },
+  "thumbnail": "/assets/og/dat-city.webp",
+  "status": "fresh",
+  "dataUpdatedAt": "2026-07-20T08:42:47.787Z",
+  "staleAfterHours": 3120,
+  "dormant": false,
+  "lastObservationDate": "2026-07-19",
+  "nextRefreshAt": "2026-07-21T06:00:00.000Z",
+  "confidence": "National team tournament appearance totals run through the 2026 finals: every 2026 participant is credited a tournament, while non-qualifiers such as Italy and Serbia are unchanged from 2022.",
+  "methodology": "The adapter projects the leading national teams by total men's World Cup appearances using public historical tables plus the 2026 participating field from FIFA match data.",
+  "sources": [
+    {
+      "title": "National team appearances in the FIFA World Cup",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/National_team_appearances_in_the_FIFA_World_Cup",
+      "note": "National team tournament appearance totals and best finishes."
+    },
+    {
+      "title": "FIFA World Cup 2026 match calendar and results",
+      "publisher": "FIFA",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+      "note": "Official 104-match calendar API (competition 17, season 285023) supplying final results, per-match attendance, and the 48-team field."
+    }
+  ],
+  "media": {
+    "imageFit": "contain",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-07-20T08:42:47.787Z",
+    "atlasUrl": "/assets/story-atlases/world-cup-team-appearances.webp?v=2026-07-20T08%3A42%3A47.787Z",
+    "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-team-appearances.webp?v=2026-07-20T08%3A42%3A47.787Z",
+    "manifestUrl": "/assets/story-atlases/world-cup-team-appearances.json?v=2026-07-20T08%3A42%3A47.787Z",
+    "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-team-appearances.json?v=2026-07-20T08%3A42%3A47.787Z",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 4,
+    "rows": 4,
+    "width": 1280,
+    "height": 1280,
+    "itemCount": 16,
+    "sourcedImageCount": 16,
+    "generatedImageCount": 0,
+    "placeholderCount": 0
+  },
+  "entities": [
+    {
+      "id": "brazil",
+      "name": "Brazil",
+      "shortName": "Brazil",
+      "value": 23,
+      "rank": 1,
+      "color": "#18c871",
+      "image": "https://flagcdn.com/w320/br.png",
+      "storyUrl": "/stories/world-cup-team-appearances/",
+      "sourceIds": [
+        "National team appearances in the FIFA World Cup",
+        "FIFA World Cup 2026 match calendar and results"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-team-appearances.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-team-appearances.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-team-appearances.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-team-appearances.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.25,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://flagcdn.com/w320/br.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "germany",
+      "name": "Germany",
+      "shortName": "Germany",
+      "value": 21,
+      "rank": 2,
+      "color": "#ffc84a",
+      "image": "https://flagcdn.com/w320/de.png",
+      "storyUrl": "/stories/world-cup-team-appearances/",
+      "sourceIds": [
+        "National team appearances in the FIFA World Cup",
+        "FIFA World Cup 2026 match calendar and results"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-team-appearances.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-team-appearances.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-team-appearances.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-team-appearances.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0,
+          "u1": 0.5,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://flagcdn.com/w320/de.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "argentina",
+      "name": "Argentina",
+      "shortName": "Argentina",
+      "value": 19,
+      "rank": 3,
+      "color": "#00a6ff",
+      "image": "https://flagcdn.com/w320/ar.png",
+      "storyUrl": "/stories/world-cup-team-appearances/",
+      "sourceIds": [
+        "National team appearances in the FIFA World Cup",
+        "FIFA World Cup 2026 match calendar and results"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-team-appearances.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-team-appearances.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-team-appearances.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-team-appearances.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0,
+          "u1": 0.75,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://flagcdn.com/w320/ar.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "italy",
+      "name": "Italy",
+      "shortName": "Italy",
+      "value": 18,
+      "rank": 4,
+      "color": "#f3f7f0",
+      "image": "https://flagcdn.com/w320/it.png",
+      "storyUrl": "/stories/world-cup-team-appearances/",
+      "sourceIds": [
+        "National team appearances in the FIFA World Cup",
+        "FIFA World Cup 2026 match calendar and results"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-team-appearances.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-team-appearances.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-team-appearances.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-team-appearances.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://flagcdn.com/w320/it.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "mexico",
+      "name": "Mexico",
+      "shortName": "Mexico",
+      "value": 18,
+      "rank": 5,
+      "color": "#ff5a61",
+      "image": "https://flagcdn.com/w320/mx.png",
+      "storyUrl": "/stories/world-cup-team-appearances/",
+      "sourceIds": [
+        "National team appearances in the FIFA World Cup",
+        "FIFA World Cup 2026 match calendar and results"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-team-appearances.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-team-appearances.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-team-appearances.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-team-appearances.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.25,
+          "u1": 0.25,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://flagcdn.com/w320/mx.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "france",
+      "name": "France",
+      "shortName": "France",
+      "value": 17,
+      "rank": 6,
+      "color": "#41a99f",
+      "image": "https://flagcdn.com/w320/fr.png",
+      "storyUrl": "/stories/world-cup-team-appearances/",
+      "sourceIds": [
+        "National team appearances in the FIFA World Cup",
+        "FIFA World Cup 2026 match calendar and results"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-team-appearances.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-team-appearances.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-team-appearances.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-team-appearances.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.25,
+          "u1": 0.5,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://flagcdn.com/w320/fr.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "england",
+      "name": "England",
+      "shortName": "England",
+      "value": 17,
+      "rank": 7,
+      "color": "#86bdf4",
+      "image": "https://flagcdn.com/w320/gb-eng.png",
+      "storyUrl": "/stories/world-cup-team-appearances/",
+      "sourceIds": [
+        "National team appearances in the FIFA World Cup",
+        "FIFA World Cup 2026 match calendar and results"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-team-appearances.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-team-appearances.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-team-appearances.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-team-appearances.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.25,
+          "u1": 0.75,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://flagcdn.com/w320/gb-eng.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "spain",
+      "name": "Spain",
+      "shortName": "Spain",
+      "value": 17,
+      "rank": 8,
+      "color": "#f18c4f",
+      "image": "https://flagcdn.com/w320/es.png",
+      "storyUrl": "/stories/world-cup-team-appearances/",
+      "sourceIds": [
+        "National team appearances in the FIFA World Cup",
+        "FIFA World Cup 2026 match calendar and results"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-team-appearances.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-team-appearances.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-team-appearances.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-team-appearances.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.25,
+          "u1": 1,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://flagcdn.com/w320/es.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "belgium",
+      "name": "Belgium",
+      "shortName": "Belgium",
+      "value": 15,
+      "rank": 9,
+      "color": "#2f4858",
+      "image": "https://flagcdn.com/w320/be.png",
+      "storyUrl": "/stories/world-cup-team-appearances/",
+      "sourceIds": [
+        "National team appearances in the FIFA World Cup",
+        "FIFA World Cup 2026 match calendar and results"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-team-appearances.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-team-appearances.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-team-appearances.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-team-appearances.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.5,
+          "u1": 0.25,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://flagcdn.com/w320/be.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "uruguay",
+      "name": "Uruguay",
+      "shortName": "Uruguay",
+      "value": 15,
+      "rank": 10,
+      "color": "#c9a14a",
+      "image": "https://flagcdn.com/w320/uy.png",
+      "storyUrl": "/stories/world-cup-team-appearances/",
+      "sourceIds": [
+        "National team appearances in the FIFA World Cup",
+        "FIFA World Cup 2026 match calendar and results"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-team-appearances.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-team-appearances.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-team-appearances.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-team-appearances.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.5,
+          "u1": 0.5,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://flagcdn.com/w320/uy.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "sweden",
+      "name": "Sweden",
+      "shortName": "Sweden",
+      "value": 13,
+      "rank": 11,
+      "color": "#ef426f",
+      "image": "https://flagcdn.com/w320/se.png",
+      "storyUrl": "/stories/world-cup-team-appearances/",
+      "sourceIds": [
+        "National team appearances in the FIFA World Cup",
+        "FIFA World Cup 2026 match calendar and results"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-team-appearances.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-team-appearances.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-team-appearances.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-team-appearances.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.5,
+          "u1": 0.75,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://flagcdn.com/w320/se.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "switzerland",
+      "name": "Switzerland",
+      "shortName": "Switzerland",
+      "value": 13,
+      "rank": 12,
+      "color": "#7b9b65",
+      "image": "https://flagcdn.com/w320/ch.png",
+      "storyUrl": "/stories/world-cup-team-appearances/",
+      "sourceIds": [
+        "National team appearances in the FIFA World Cup",
+        "FIFA World Cup 2026 match calendar and results"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-team-appearances.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-team-appearances.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-team-appearances.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-team-appearances.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.5,
+          "u1": 1,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://flagcdn.com/w320/ch.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "serbia",
+      "name": "Serbia/Yugoslavia",
+      "shortName": "Serbia/Yugoslavia",
+      "value": 13,
+      "rank": 13,
+      "color": "#18c871",
+      "image": "https://flagcdn.com/w320/rs.png",
+      "storyUrl": "/stories/world-cup-team-appearances/",
+      "sourceIds": [
+        "National team appearances in the FIFA World Cup",
+        "FIFA World Cup 2026 match calendar and results"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-team-appearances.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-team-appearances.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-team-appearances.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-team-appearances.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 0,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.75,
+          "u1": 0.25,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://flagcdn.com/w320/rs.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "netherlands",
+      "name": "Netherlands",
+      "shortName": "Netherlands",
+      "value": 12,
+      "rank": 14,
+      "color": "#ffc84a",
+      "image": "https://flagcdn.com/w320/nl.png",
+      "storyUrl": "/stories/world-cup-team-appearances/",
+      "sourceIds": [
+        "National team appearances in the FIFA World Cup",
+        "FIFA World Cup 2026 match calendar and results"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-team-appearances.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-team-appearances.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-team-appearances.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-team-appearances.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 320,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.75,
+          "u1": 0.5,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://flagcdn.com/w320/nl.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "southKorea",
+      "name": "South Korea",
+      "shortName": "South Korea",
+      "value": 12,
+      "rank": 15,
+      "color": "#00a6ff",
+      "image": "https://flagcdn.com/w320/kr.png",
+      "storyUrl": "/stories/world-cup-team-appearances/",
+      "sourceIds": [
+        "National team appearances in the FIFA World Cup",
+        "FIFA World Cup 2026 match calendar and results"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-team-appearances.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-team-appearances.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-team-appearances.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-team-appearances.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 640,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.75,
+          "u1": 0.75,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://flagcdn.com/w320/kr.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "unitedStates",
+      "name": "United States",
+      "shortName": "United States",
+      "value": 12,
+      "rank": 16,
+      "color": "#f3f7f0",
+      "image": "https://flagcdn.com/w320/us.png",
+      "storyUrl": "/stories/world-cup-team-appearances/",
+      "sourceIds": [
+        "National team appearances in the FIFA World Cup",
+        "FIFA World Cup 2026 match calendar and results"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-team-appearances.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-team-appearances.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-team-appearances.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-team-appearances.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 960,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.75,
+          "u1": 1,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://flagcdn.com/w320/us.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    }
+  ]
+}

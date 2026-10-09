@@ -1,0 +1,815 @@
+{
+  "schemaVersion": 1,
+  "contentKind": "dat-city.district",
+  "version": 1,
+  "generatedAt": "2026-07-10T07:52:11.714Z",
+  "versionId": "20260710T075211Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "manual",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-07-10T07:52:11.714Z",
+    "versionId": "20260710T075211Z",
+    "adapter": null,
+    "storySlug": "best-selling-video-games",
+    "districtId": "all-time-game-market",
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "id": "all-time-game-market",
+  "name": "All-Time Game Market",
+  "storySlug": "best-selling-video-games",
+  "storyUrl": "/stories/best-selling-video-games/",
+  "publicStoryUrl": "/stories/best-selling-video-games.json",
+  "metric": "Copies sold",
+  "metricKey": "copies-sold",
+  "latestFrameLabel": "2026-07-10",
+  "summary": "Best-selling video games worldwide from Wikipedia's all-time sales table.",
+  "taxonomy": {
+    "primaryCategory": "gaming",
+    "categories": [
+      "gaming",
+      "entertainment",
+      "business"
+    ],
+    "tags": [
+      "video-games",
+      "sales",
+      "all-time",
+      "rankings"
+    ],
+    "entityTypes": [
+      "game"
+    ],
+    "sourceTypes": [
+      "wikipedia"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "games-people-are-playing",
+      "type": "gaming-market",
+      "weight": 0.86,
+      "reason": "All-time unit sales complement the live Steam player-count district."
+    },
+    {
+      "target": "playstation-top-games",
+      "type": "platform-game-sales",
+      "weight": 0.82,
+      "reason": "The all-time sales market should bridge to console platform sales districts."
+    },
+    {
+      "target": "nintendo-switch-top-games",
+      "type": "platform-game-sales",
+      "weight": 0.82,
+      "reason": "Nintendo platform sales are a direct peer to all-time game unit sales."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "game-platforms",
+    "mainland": "culture",
+    "bridgePriority": [
+      "games-people-are-playing",
+      "playstation-top-games"
+    ]
+  },
+  "thumbnail": "/assets/og/dat-city.webp",
+  "status": "fresh",
+  "lastObservationDate": "2026-07-10",
+  "nextRefreshAt": "2026-08-01T08:00:00.000Z",
+  "confidence": "Observed List of best-selling video games on 2026-07-10T07:52:11.714Z; values are parsed from the \"Overview of best-selling video games\" Wikipedia table.",
+  "methodology": "This StoryOps adapter fetches the rendered Wikipedia table for List of best-selling video games, selects the configured ranking table, parses the configured entity and value columns, and stores observed snapshots so public history grows from repeat refreshes.",
+  "sources": [
+    {
+      "title": "List of best-selling video games",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_best-selling_video_games",
+      "note": "Public all-time video game sales table parsed by the adapter."
+    }
+  ],
+  "media": {
+    "imageFit": "contain",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-07-10T07:52:11.714Z",
+    "atlasUrl": "/assets/story-atlases/best-selling-video-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+    "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/best-selling-video-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+    "manifestUrl": "/assets/story-atlases/best-selling-video-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+    "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/best-selling-video-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 5,
+    "rows": 4,
+    "width": 1600,
+    "height": 1280,
+    "itemCount": 20,
+    "sourcedImageCount": 20,
+    "generatedImageCount": 0,
+    "placeholderCount": 0
+  },
+  "entities": [
+    {
+      "id": "tetris",
+      "name": "Tetris",
+      "shortName": "Tetris",
+      "value": 520000000,
+      "rank": 1,
+      "color": "#ff5a61",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Tetris_logo_2019.svg/960px-Tetris_logo_2019.svg.png",
+      "storyUrl": "/stories/best-selling-video-games/",
+      "sourceIds": [
+        "List of best-selling video games"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/best-selling-video-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/best-selling-video-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/best-selling-video-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/best-selling-video-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.2,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Tetris_logo_2019.svg/960px-Tetris_logo_2019.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "grand-theft-auto-v",
+      "name": "Grand Theft Auto V",
+      "shortName": "Grand Theft Auto V",
+      "value": 230000000,
+      "rank": 2,
+      "color": "#18c871",
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a5/Grand_Theft_Auto_V.png",
+      "storyUrl": "/stories/best-selling-video-games/",
+      "sourceIds": [
+        "List of best-selling video games"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/best-selling-video-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/best-selling-video-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/best-selling-video-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/best-selling-video-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0,
+          "u1": 0.4,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/a/a5/Grand_Theft_Auto_V.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "red-dead-redemption-2",
+      "name": "Red Dead Redemption 2",
+      "shortName": "Red Dead Redemption 2",
+      "value": 85000000,
+      "rank": 3,
+      "color": "#ffc84a",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Red_Dead_Redemption_2_bus_advertisement_%E2%80%93_Brisbane%2C_Queensland.png/960px-Red_Dead_Redemption_2_bus_advertisement_%E2%80%93_Brisbane%2C_Queensland.png",
+      "storyUrl": "/stories/best-selling-video-games/",
+      "sourceIds": [
+        "List of best-selling video games"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/best-selling-video-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/best-selling-video-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/best-selling-video-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/best-selling-video-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0,
+          "u1": 0.6,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Red_Dead_Redemption_2_bus_advertisement_%E2%80%93_Brisbane%2C_Queensland.png/960px-Red_Dead_Redemption_2_bus_advertisement_%E2%80%93_Brisbane%2C_Queensland.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "wii-sports",
+      "name": "Wii Sports",
+      "shortName": "Wii Sports",
+      "value": 82900000,
+      "rank": 4,
+      "color": "#00a6ff",
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/e0/Wii_Sports_Europe.jpg",
+      "storyUrl": "/stories/best-selling-video-games/",
+      "sourceIds": [
+        "List of best-selling video games"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/best-selling-video-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/best-selling-video-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/best-selling-video-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/best-selling-video-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0,
+          "u1": 0.8,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/e/e0/Wii_Sports_Europe.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "mario-kart-8",
+      "name": "Mario Kart 8",
+      "shortName": "Mario Kart 8",
+      "value": 79540000,
+      "rank": 5,
+      "color": "#8f6bff",
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/b5/MarioKart8Boxart.jpg",
+      "storyUrl": "/stories/best-selling-video-games/",
+      "sourceIds": [
+        "List of best-selling video games"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/best-selling-video-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/best-selling-video-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/best-selling-video-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/best-selling-video-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 1280,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/b/b5/MarioKart8Boxart.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "pubg-battlegrounds",
+      "name": "PUBG: Battlegrounds",
+      "shortName": "PUBG: Battlegrounds",
+      "value": 75000000,
+      "rank": 6,
+      "color": "#f18c4f",
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/9f/Pubgbattlegrounds.png",
+      "storyUrl": "/stories/best-selling-video-games/",
+      "sourceIds": [
+        "List of best-selling video games"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/best-selling-video-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/best-selling-video-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/best-selling-video-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/best-selling-video-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.25,
+          "u1": 0.2,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/9/9f/Pubgbattlegrounds.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "terraria",
+      "name": "Terraria",
+      "shortName": "Terraria",
+      "value": 70000000,
+      "rank": 7,
+      "color": "#41a99f",
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/b3/Terraria_screenshot.png",
+      "storyUrl": "/stories/best-selling-video-games/",
+      "sourceIds": [
+        "List of best-selling video games"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/best-selling-video-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/best-selling-video-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/best-selling-video-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/best-selling-video-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.25,
+          "u1": 0.4,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/b/b3/Terraria_screenshot.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "the-witcher-3-wild-hunt",
+      "name": "The Witcher 3: Wild Hunt",
+      "shortName": "The Witcher 3: Wild Hunt",
+      "value": 65000000,
+      "rank": 8,
+      "color": "#d78fca",
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/0c/Witcher_3_cover_art.jpg",
+      "storyUrl": "/stories/best-selling-video-games/",
+      "sourceIds": [
+        "List of best-selling video games"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/best-selling-video-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/best-selling-video-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/best-selling-video-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/best-selling-video-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.25,
+          "u1": 0.6,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/0/0c/Witcher_3_cover_art.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "super-mario-bros",
+      "name": "Super Mario Bros.",
+      "shortName": "Super Mario Bros.",
+      "value": 58000000,
+      "rank": 9,
+      "color": "#7b9b65",
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/03/Super_Mario_Bros._box.png",
+      "storyUrl": "/stories/best-selling-video-games/",
+      "sourceIds": [
+        "List of best-selling video games"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/best-selling-video-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/best-selling-video-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/best-selling-video-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/best-selling-video-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.25,
+          "u1": 0.8,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/0/03/Super_Mario_Bros._box.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "human-fall-flat",
+      "name": "Human: Fall Flat",
+      "shortName": "Human: Fall Flat",
+      "value": 55000000,
+      "rank": 10,
+      "color": "#2f4858",
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/e5/Human_Fall_Flat_cover_art.jpg",
+      "storyUrl": "/stories/best-selling-video-games/",
+      "sourceIds": [
+        "List of best-selling video games"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/best-selling-video-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/best-selling-video-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/best-selling-video-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/best-selling-video-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 1280,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.25,
+          "u1": 1,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/e/e5/Human_Fall_Flat_cover_art.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "the-sims",
+      "name": "The Sims",
+      "shortName": "The Sims",
+      "value": 50000000,
+      "rank": 11,
+      "color": "#ef426f",
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/22/The_Sims_Coverart.png",
+      "storyUrl": "/stories/best-selling-video-games/",
+      "sourceIds": [
+        "List of best-selling video games"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/best-selling-video-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/best-selling-video-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/best-selling-video-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/best-selling-video-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.5,
+          "u1": 0.2,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/2/22/The_Sims_Coverart.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "animal-crossing-new-horizons",
+      "name": "Animal Crossing: New Horizons",
+      "shortName": "Animal Crossing: New Horizons",
+      "value": 49910000,
+      "rank": 12,
+      "color": "#86bdf4",
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/1f/Animal_Crossing_New_Horizons.jpg",
+      "storyUrl": "/stories/best-selling-video-games/",
+      "sourceIds": [
+        "List of best-selling video games"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/best-selling-video-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/best-selling-video-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/best-selling-video-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/best-selling-video-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.5,
+          "u1": 0.4,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/1/1f/Animal_Crossing_New_Horizons.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "pokemon-red-blue-yellow",
+      "name": "Pokémon Red / Blue / Yellow",
+      "shortName": "Pokémon Red / Blue / Yellow",
+      "value": 47440000,
+      "rank": 13,
+      "color": "#c9a14a",
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/b1/Pok%C3%A9mon_Red%2C_Blue%2C_and_Yellow_battle_screenshot.png",
+      "storyUrl": "/stories/best-selling-video-games/",
+      "sourceIds": [
+        "List of best-selling video games"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/best-selling-video-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/best-selling-video-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/best-selling-video-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/best-selling-video-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.5,
+          "u1": 0.6,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/b/b1/Pok%C3%A9mon_Red%2C_Blue%2C_and_Yellow_battle_screenshot.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "wii-fit",
+      "name": "Wii Fit",
+      "shortName": "Wii Fit",
+      "value": 43800000,
+      "rank": 14,
+      "color": "#e34f59",
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/5b/Wii_Fit_PAL_boxart.JPG",
+      "storyUrl": "/stories/best-selling-video-games/",
+      "sourceIds": [
+        "List of best-selling video games"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/best-selling-video-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/best-selling-video-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/best-selling-video-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/best-selling-video-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.5,
+          "u1": 0.8,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/5/5b/Wii_Fit_PAL_boxart.JPG",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "call-of-duty-black-ops-iii",
+      "name": "Call of Duty: Black Ops III",
+      "shortName": "Call of Duty: Black Ops III",
+      "value": 43000000,
+      "rank": 15,
+      "color": "#9aa4b2",
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/b1/Black_Ops_3.jpg",
+      "storyUrl": "/stories/best-selling-video-games/",
+      "sourceIds": [
+        "List of best-selling video games"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/best-selling-video-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/best-selling-video-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/best-selling-video-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/best-selling-video-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 1280,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.5,
+          "u1": 1,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/b/b1/Black_Ops_3.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "call-of-duty-modern-warfare",
+      "name": "Call of Duty: Modern Warfare",
+      "shortName": "Call of Duty: Modern Warfare",
+      "value": 41000000,
+      "rank": 16,
+      "color": "#ff5a61",
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/1f/Call_of_Duty_Modern_Warfare_%282019%29_cover.jpg",
+      "storyUrl": "/stories/best-selling-video-games/",
+      "sourceIds": [
+        "List of best-selling video games"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/best-selling-video-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/best-selling-video-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/best-selling-video-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/best-selling-video-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.75,
+          "u1": 0.2,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/1/1f/Call_of_Duty_Modern_Warfare_%282019%29_cover.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "sonic-the-hedgehog",
+      "name": "Sonic the Hedgehog",
+      "shortName": "Sonic the Hedgehog",
+      "value": 40000000,
+      "rank": 17,
+      "color": "#18c871",
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/ba/Sonic_the_Hedgehog_1_Genesis_box_art.jpg",
+      "storyUrl": "/stories/best-selling-video-games/",
+      "sourceIds": [
+        "List of best-selling video games"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/best-selling-video-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/best-selling-video-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/best-selling-video-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/best-selling-video-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.75,
+          "u1": 0.4,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/b/ba/Sonic_the_Hedgehog_1_Genesis_box_art.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "super-smash-bros-ultimate",
+      "name": "Super Smash Bros. Ultimate",
+      "shortName": "Super Smash Bros. Ultimate",
+      "value": 37760000,
+      "rank": 18,
+      "color": "#ffc84a",
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/50/Super_Smash_Bros._Ultimate.jpg",
+      "storyUrl": "/stories/best-selling-video-games/",
+      "sourceIds": [
+        "List of best-selling video games"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/best-selling-video-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/best-selling-video-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/best-selling-video-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/best-selling-video-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.75,
+          "u1": 0.6,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/5/50/Super_Smash_Bros._Ultimate.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "mario-kart-wii",
+      "name": "Mario Kart Wii",
+      "shortName": "Mario Kart Wii",
+      "value": 37380000,
+      "rank": 19,
+      "color": "#00a6ff",
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/d6/Mario_Kart_Wii.png",
+      "storyUrl": "/stories/best-selling-video-games/",
+      "sourceIds": [
+        "List of best-selling video games"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/best-selling-video-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/best-selling-video-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/best-selling-video-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/best-selling-video-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.75,
+          "u1": 0.8,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/d/d6/Mario_Kart_Wii.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "the-legend-of-zelda-breath-of-the-wild",
+      "name": "The Legend of Zelda: Breath of the Wild",
+      "shortName": "The Legend of Zelda: Breath of the Wild",
+      "value": 35540000,
+      "rank": 20,
+      "color": "#8f6bff",
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/c6/The_Legend_of_Zelda_Breath_of_the_Wild.jpg",
+      "storyUrl": "/stories/best-selling-video-games/",
+      "sourceIds": [
+        "List of best-selling video games"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/best-selling-video-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/best-selling-video-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/best-selling-video-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/best-selling-video-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 1280,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.75,
+          "u1": 1,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/c/c6/The_Legend_of_Zelda_Breath_of_the_Wild.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    }
+  ]
+}

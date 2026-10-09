@@ -1,0 +1,863 @@
+{
+  "schemaVersion": 1,
+  "contentKind": "dat-city.district",
+  "version": 1,
+  "generatedAt": "2026-07-10T07:52:11.714Z",
+  "versionId": "20260710T075211Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "manual",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-07-10T07:52:11.714Z",
+    "versionId": "20260710T075211Z",
+    "adapter": null,
+    "storySlug": "youtube-gaming-subscribers",
+    "districtId": "youtube-gaming-heights",
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "id": "youtube-gaming-heights",
+  "name": "YouTube Gaming Heights",
+  "storySlug": "youtube-gaming-subscribers",
+  "storyUrl": "/stories/youtube-gaming-subscribers/",
+  "publicStoryUrl": "/stories/youtube-gaming-subscribers.json",
+  "metric": "Subscribers",
+  "metricKey": "subscribers",
+  "latestFrameLabel": "2026-07-10",
+  "summary": "Gaming-focused YouTube channels and creators ranked by public subscriber counts.",
+  "taxonomy": {
+    "primaryCategory": "culture",
+    "categories": [
+      "culture",
+      "internet",
+      "gaming",
+      "creators"
+    ],
+    "tags": [
+      "youtube",
+      "gaming",
+      "subscribers",
+      "creators"
+    ],
+    "entityTypes": [
+      "channel",
+      "creator"
+    ],
+    "sourceTypes": [
+      "wikipedia"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "top-youtubers",
+      "type": "youtube-category-subset",
+      "weight": 0.92,
+      "reason": "This is a gaming-category split from the broader YouTube channel leaderboard."
+    },
+    {
+      "target": "games-people-are-playing",
+      "type": "gaming-culture",
+      "weight": 0.76,
+      "reason": "Gaming YouTube attention often follows the games people are playing."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "creator-platforms",
+    "mainland": "culture",
+    "bridgePriority": [
+      "top-youtubers",
+      "games-people-are-playing"
+    ]
+  },
+  "thumbnail": "/assets/og/dat-city.webp",
+  "status": "fresh",
+  "lastObservationDate": "2026-07-10",
+  "nextRefreshAt": "2026-07-13T07:00:00.000Z",
+  "confidence": "Observed List of most-subscribed YouTube channels and categories Gaming-related YouTube channels, Gaming YouTubers on 2026-07-10T07:52:11.714Z; subscriber counts are the rounded public values displayed in Wikipedia tables or article infoboxes.",
+  "methodology": "This StoryOps adapter builds a Gaming YouTube YouTube leaderboard from Wikipedia. It can filter the current most-subscribed YouTube channel table by category and augment it with pages from configured Wikipedia categories, then parses public YouTube subscriber counts from article infoboxes and stores recent StoryOps snapshots.",
+  "sources": [
+    {
+      "title": "List of most-subscribed YouTube channels",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_most-subscribed_YouTube_channels",
+      "note": "Current YouTube table with subscriber, category, country, and join-date columns."
+    },
+    {
+      "title": "Category:Gaming-related YouTube channels",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Category:Gaming-related_YouTube_channels",
+      "note": "Category seed for gaming-related channel pages with infobox subscriber counts."
+    },
+    {
+      "title": "Category:Gaming YouTubers",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Category:Gaming_YouTubers",
+      "note": "Category seed for gaming creator pages with infobox subscriber counts."
+    }
+  ],
+  "media": {
+    "imageFit": "contain",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-07-10T07:52:11.714Z",
+    "atlasUrl": "/assets/story-atlases/youtube-gaming-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+    "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-gaming-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+    "manifestUrl": "/assets/story-atlases/youtube-gaming-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+    "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-gaming-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 5,
+    "rows": 4,
+    "width": 1600,
+    "height": 1280,
+    "itemCount": 20,
+    "sourcedImageCount": 20,
+    "generatedImageCount": 0,
+    "placeholderCount": 0
+  },
+  "entities": [
+    {
+      "id": "pewdiepie",
+      "name": "PewDiePie",
+      "shortName": "PewDiePie",
+      "value": 110000000,
+      "rank": 1,
+      "color": "#ff5a61",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/53/Pewdiepie_head_shot.jpg",
+      "storyUrl": "/stories/youtube-gaming-subscribers/",
+      "sourceIds": [
+        "List of most-subscribed YouTube channels",
+        "Category:Gaming-related YouTube channels",
+        "Category:Gaming YouTubers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/youtube-gaming-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-gaming-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/youtube-gaming-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-gaming-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.2,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/Pewdiepie_head_shot.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "panda-boi",
+      "name": "PANDA BOI",
+      "shortName": "PANDA BOI",
+      "value": 62600000,
+      "rank": 2,
+      "color": "#18c871",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/PANDA_BOI_in_2026.jpg/960px-PANDA_BOI_in_2026.jpg",
+      "storyUrl": "/stories/youtube-gaming-subscribers/",
+      "sourceIds": [
+        "List of most-subscribed YouTube channels",
+        "Category:Gaming-related YouTube channels",
+        "Category:Gaming YouTubers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/youtube-gaming-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-gaming-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/youtube-gaming-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-gaming-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0,
+          "u1": 0.4,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/PANDA_BOI_in_2026.jpg/960px-PANDA_BOI_in_2026.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "mikecrack",
+      "name": "Mikecrack",
+      "shortName": "Mikecrack",
+      "value": 58600000,
+      "rank": 3,
+      "color": "#ffc84a",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Mikecrack_opening_title.png/960px-Mikecrack_opening_title.png",
+      "storyUrl": "/stories/youtube-gaming-subscribers/",
+      "sourceIds": [
+        "List of most-subscribed YouTube channels",
+        "Category:Gaming-related YouTube channels",
+        "Category:Gaming YouTubers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/youtube-gaming-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-gaming-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/youtube-gaming-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-gaming-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0,
+          "u1": 0.6,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Mikecrack_opening_title.png/960px-Mikecrack_opening_title.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "mrbeast-gaming",
+      "name": "MrBeast Gaming",
+      "shortName": "MrBeast Gaming",
+      "value": 58200000,
+      "rank": 4,
+      "color": "#00a6ff",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/MrBeast_in_2026_%28cropped_4%29.png/960px-MrBeast_in_2026_%28cropped_4%29.png",
+      "storyUrl": "/stories/youtube-gaming-subscribers/",
+      "sourceIds": [
+        "List of most-subscribed YouTube channels",
+        "Category:Gaming-related YouTube channels",
+        "Category:Gaming YouTubers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/youtube-gaming-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-gaming-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/youtube-gaming-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-gaming-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0,
+          "u1": 0.8,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/MrBeast_in_2026_%28cropped_4%29.png/960px-MrBeast_in_2026_%28cropped_4%29.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "juegagerman",
+      "name": "JuegaGerman",
+      "shortName": "JuegaGerman",
+      "value": 56100000,
+      "rank": 5,
+      "color": "#8f6bff",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/c0/German_Garmendia_2023.png",
+      "storyUrl": "/stories/youtube-gaming-subscribers/",
+      "sourceIds": [
+        "List of most-subscribed YouTube channels",
+        "Category:Gaming-related YouTube channels",
+        "Category:Gaming YouTubers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/youtube-gaming-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-gaming-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/youtube-gaming-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-gaming-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 1280,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/German_Garmendia_2023.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "jess-no-limit",
+      "name": "Jess No Limit",
+      "shortName": "Jess No Limit",
+      "value": 54600000,
+      "rank": 6,
+      "color": "#f18c4f",
+      "image": "https://unavatar.io/youtube/jessnolimit",
+      "storyUrl": "/stories/youtube-gaming-subscribers/",
+      "sourceIds": [
+        "List of most-subscribed YouTube channels",
+        "Category:Gaming-related YouTube channels",
+        "Category:Gaming YouTubers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/youtube-gaming-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-gaming-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/youtube-gaming-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-gaming-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.25,
+          "u1": 0.2,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://unavatar.io/youtube/jessnolimit",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "techno-gamerz",
+      "name": "Techno Gamerz",
+      "shortName": "Techno Gamerz",
+      "value": 52400000,
+      "rank": 7,
+      "color": "#41a99f",
+      "image": "https://unavatar.io/youtube/TechnoGamerzOfficial",
+      "storyUrl": "/stories/youtube-gaming-subscribers/",
+      "sourceIds": [
+        "List of most-subscribed YouTube channels",
+        "Category:Gaming-related YouTube channels",
+        "Category:Gaming YouTubers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/youtube-gaming-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-gaming-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/youtube-gaming-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-gaming-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.25,
+          "u1": 0.4,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://unavatar.io/youtube/TechnoGamerzOfficial",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "beter-bocuk",
+      "name": "BETER BÖCÜK",
+      "shortName": "BETER BÖCÜK",
+      "value": 51800000,
+      "rank": 8,
+      "color": "#d78fca",
+      "image": "https://unavatar.io/youtube/beterbocuk",
+      "storyUrl": "/stories/youtube-gaming-subscribers/",
+      "sourceIds": [
+        "List of most-subscribed YouTube channels",
+        "Category:Gaming-related YouTube channels",
+        "Category:Gaming YouTubers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/youtube-gaming-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-gaming-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/youtube-gaming-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-gaming-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.25,
+          "u1": 0.6,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://unavatar.io/youtube/beterbocuk",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "carryminati",
+      "name": "CarryMinati",
+      "shortName": "CarryMinati",
+      "value": 45200000,
+      "rank": 9,
+      "color": "#7b9b65",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Ajey_Nagar_2022.jpg",
+      "storyUrl": "/stories/youtube-gaming-subscribers/",
+      "sourceIds": [
+        "List of most-subscribed YouTube channels",
+        "Category:Gaming-related YouTube channels",
+        "Category:Gaming YouTubers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/youtube-gaming-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-gaming-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/youtube-gaming-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-gaming-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.25,
+          "u1": 0.8,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Ajey_Nagar_2022.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "dream",
+      "name": "Dream",
+      "shortName": "Dream",
+      "value": 43986000,
+      "rank": 10,
+      "color": "#2f4858",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/98/I_went_to_VidCon_2023_and_it_was..._mid_14-5_screenshot_%28cropped%29.jpg",
+      "storyUrl": "/stories/youtube-gaming-subscribers/",
+      "sourceIds": [
+        "List of most-subscribed YouTube channels",
+        "Category:Gaming-related YouTube channels",
+        "Category:Gaming YouTubers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/youtube-gaming-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-gaming-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/youtube-gaming-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-gaming-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 1280,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.25,
+          "u1": 1,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/I_went_to_VidCon_2023_and_it_was..._mid_14-5_screenshot_%28cropped%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "markiplier",
+      "name": "Markiplier",
+      "shortName": "Markiplier",
+      "value": 38700000,
+      "rank": 11,
+      "color": "#ef426f",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Markiplier_in_We_Tried_Peanut_Free_Candy_from_YouTube_at_0-1-16_%28cropped%29.png/960px-Markiplier_in_We_Tried_Peanut_Free_Candy_from_YouTube_at_0-1-16_%28cropped%29.png",
+      "storyUrl": "/stories/youtube-gaming-subscribers/",
+      "sourceIds": [
+        "List of most-subscribed YouTube channels",
+        "Category:Gaming-related YouTube channels",
+        "Category:Gaming YouTubers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/youtube-gaming-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-gaming-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/youtube-gaming-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-gaming-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.5,
+          "u1": 0.2,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Markiplier_in_We_Tried_Peanut_Free_Candy_from_YouTube_at_0-1-16_%28cropped%29.png/960px-Markiplier_in_We_Tried_Peanut_Free_Candy_from_YouTube_at_0-1-16_%28cropped%29.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "jacksepticeye",
+      "name": "Jacksepticeye",
+      "shortName": "Jacksepticeye",
+      "value": 31200000,
+      "rank": 12,
+      "color": "#86bdf4",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Jacksepticeye_by_Gage_Skidmore_%283x4_cropped%29.jpg/960px-Jacksepticeye_by_Gage_Skidmore_%283x4_cropped%29.jpg",
+      "storyUrl": "/stories/youtube-gaming-subscribers/",
+      "sourceIds": [
+        "List of most-subscribed YouTube channels",
+        "Category:Gaming-related YouTube channels",
+        "Category:Gaming YouTubers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/youtube-gaming-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-gaming-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/youtube-gaming-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-gaming-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.5,
+          "u1": 0.4,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Jacksepticeye_by_Gage_Skidmore_%283x4_cropped%29.jpg/960px-Jacksepticeye_by_Gage_Skidmore_%283x4_cropped%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "lazarbeam",
+      "name": "LazarBeam",
+      "shortName": "LazarBeam",
+      "value": 28902000,
+      "rank": 13,
+      "color": "#c9a14a",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/LazarBeam_sig.svg/960px-LazarBeam_sig.svg.png",
+      "storyUrl": "/stories/youtube-gaming-subscribers/",
+      "sourceIds": [
+        "List of most-subscribed YouTube channels",
+        "Category:Gaming-related YouTube channels",
+        "Category:Gaming YouTubers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/youtube-gaming-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-gaming-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/youtube-gaming-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-gaming-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.5,
+          "u1": 0.6,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/LazarBeam_sig.svg/960px-LazarBeam_sig.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "lyna",
+      "name": "Lyna",
+      "shortName": "Lyna",
+      "value": 24800000,
+      "rank": 14,
+      "color": "#e34f59",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Lyna_2023.jpg/960px-Lyna_2023.jpg",
+      "storyUrl": "/stories/youtube-gaming-subscribers/",
+      "sourceIds": [
+        "List of most-subscribed YouTube channels",
+        "Category:Gaming-related YouTube channels",
+        "Category:Gaming YouTubers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/youtube-gaming-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-gaming-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/youtube-gaming-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-gaming-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.5,
+          "u1": 0.8,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Lyna_2023.jpg/960px-Lyna_2023.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "jelly",
+      "name": "Jelly",
+      "shortName": "Jelly",
+      "value": 23500000,
+      "rank": 15,
+      "color": "#f18c4f",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/83/Jelly_%28YouTuber%29.jpg",
+      "storyUrl": "/stories/youtube-gaming-subscribers/",
+      "sourceIds": [
+        "List of most-subscribed YouTube channels",
+        "Category:Gaming-related YouTube channels",
+        "Category:Gaming YouTubers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/youtube-gaming-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-gaming-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/youtube-gaming-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-gaming-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 1280,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.5,
+          "u1": 1,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/83/Jelly_%28YouTuber%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "zbing-z",
+      "name": "zbing z.",
+      "shortName": "zbing z.",
+      "value": 21800000,
+      "rank": 16,
+      "color": "#9aa4b2",
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/e0/Zbingz_logo.png",
+      "storyUrl": "/stories/youtube-gaming-subscribers/",
+      "sourceIds": [
+        "List of most-subscribed YouTube channels",
+        "Category:Gaming-related YouTube channels",
+        "Category:Gaming YouTubers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/youtube-gaming-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-gaming-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/youtube-gaming-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-gaming-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.75,
+          "u1": 0.2,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/e/e0/Zbingz_logo.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "squeezie",
+      "name": "Squeezie",
+      "shortName": "Squeezie",
+      "value": 20100000,
+      "rank": 17,
+      "color": "#ff5a61",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Squeezie_Zack_en_Roue_Libre_2025.png/960px-Squeezie_Zack_en_Roue_Libre_2025.png",
+      "storyUrl": "/stories/youtube-gaming-subscribers/",
+      "sourceIds": [
+        "List of most-subscribed YouTube channels",
+        "Category:Gaming-related YouTube channels",
+        "Category:Gaming YouTubers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/youtube-gaming-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-gaming-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/youtube-gaming-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-gaming-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.75,
+          "u1": 0.4,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Squeezie_Zack_en_Roue_Libre_2025.png/960px-Squeezie_Zack_en_Roue_Libre_2025.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "ali-a",
+      "name": "Ali-A",
+      "shortName": "Ali-A",
+      "value": 19700000,
+      "rank": 18,
+      "color": "#18c871",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/13/Ali-A_in_2019.png",
+      "storyUrl": "/stories/youtube-gaming-subscribers/",
+      "sourceIds": [
+        "List of most-subscribed YouTube channels",
+        "Category:Gaming-related YouTube channels",
+        "Category:Gaming YouTubers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/youtube-gaming-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-gaming-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/youtube-gaming-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-gaming-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.75,
+          "u1": 0.6,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/13/Ali-A_in_2019.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "hikakin",
+      "name": "Hikakin",
+      "shortName": "Hikakin",
+      "value": 19000000,
+      "rank": 19,
+      "color": "#ffc84a",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/36/HIKAKIN_2023.jpg",
+      "storyUrl": "/stories/youtube-gaming-subscribers/",
+      "sourceIds": [
+        "List of most-subscribed YouTube channels",
+        "Category:Gaming-related YouTube channels",
+        "Category:Gaming YouTubers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/youtube-gaming-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-gaming-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/youtube-gaming-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-gaming-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.75,
+          "u1": 0.8,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/HIKAKIN_2023.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "penguinz0",
+      "name": "penguinz0",
+      "shortName": "penguinz0",
+      "value": 18100000,
+      "rank": 20,
+      "color": "#00a6ff",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Cr1TiKaL_in_2022.jpg",
+      "storyUrl": "/stories/youtube-gaming-subscribers/",
+      "sourceIds": [
+        "List of most-subscribed YouTube channels",
+        "Category:Gaming-related YouTube channels",
+        "Category:Gaming YouTubers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/youtube-gaming-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-gaming-subscribers.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/youtube-gaming-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/youtube-gaming-subscribers.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 1280,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.75,
+          "u1": 1,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Cr1TiKaL_in_2022.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    }
+  ]
+}

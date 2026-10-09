@@ -1,0 +1,517 @@
+{
+  "schemaVersion": 1,
+  "contentKind": "dat-city.district",
+  "version": 1,
+  "generatedAt": "2026-07-10T07:52:11.714Z",
+  "versionId": "20260710T075211Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "manual",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-07-10T07:52:11.714Z",
+    "versionId": "20260710T075211Z",
+    "adapter": null,
+    "storySlug": "sports-brand-power",
+    "districtId": "sports-brand-row",
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "id": "sports-brand-row",
+  "name": "Sports Brand Row",
+  "storySlug": "sports-brand-power",
+  "storyUrl": "/stories/sports-brand-power/",
+  "publicStoryUrl": "/stories/sports-brand-power.json",
+  "metric": "Revenue",
+  "metricKey": "daily-pageviews",
+  "latestFrameLabel": "2026-07-08",
+  "summary": "Sportswear and sporting-goods companies ranked by public revenue values.",
+  "taxonomy": {
+    "primaryCategory": "business",
+    "categories": [
+      "business",
+      "sports",
+      "consumer-brands"
+    ],
+    "tags": [
+      "sportswear",
+      "brands",
+      "brand-value",
+      "rankings"
+    ],
+    "entityTypes": [
+      "brand"
+    ],
+    "sourceTypes": [
+      "wikimedia"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "top-athlete-salaries",
+      "type": "endorsement-economy",
+      "weight": 0.76,
+      "reason": "Sports brand power is tightly connected to athlete endorsements and sponsorship economics."
+    },
+    {
+      "target": "public-company-market-cap",
+      "type": "consumer-company-value",
+      "weight": 0.64,
+      "reason": "Some sports brands are public companies or major public-company subsidiaries."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "sports-money",
+    "mainland": "sports-money",
+    "bridgePriority": [
+      "top-athlete-salaries",
+      "public-company-market-cap"
+    ]
+  },
+  "thumbnail": "/assets/og/dat-city.webp",
+  "status": "fresh",
+  "lastObservationDate": "2026-07-08",
+  "nextRefreshAt": "2026-08-01T07:00:00.000Z",
+  "confidence": "Observed daily English Wikipedia article pageviews through 2026-07-08.",
+  "methodology": "This story is generated from the Wikimedia Pageviews API for selected high-interest English Wikipedia articles. Values are daily all-access, user-agent-filtered pageviews. The story publishes a render-ready projection and keeps raw API responses out of the public payload.",
+  "sources": [
+    {
+      "title": "List of sporting goods manufacturers",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_sporting_goods_manufacturers",
+      "note": "Public company table used as a revenue-based sports-brand proxy."
+    }
+  ],
+  "media": {
+    "imageFit": "contain",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-07-10T07:52:11.714Z",
+    "atlasUrl": "/assets/story-atlases/sports-brand-power.webp?v=2026-07-10T07%3A52%3A11.714Z",
+    "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/sports-brand-power.webp?v=2026-07-10T07%3A52%3A11.714Z",
+    "manifestUrl": "/assets/story-atlases/sports-brand-power.json?v=2026-07-10T07%3A52%3A11.714Z",
+    "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/sports-brand-power.json?v=2026-07-10T07%3A52%3A11.714Z",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 4,
+    "rows": 3,
+    "width": 1280,
+    "height": 960,
+    "itemCount": 12,
+    "sourcedImageCount": 12,
+    "generatedImageCount": 0,
+    "placeholderCount": 0
+  },
+  "entities": [
+    {
+      "id": "adidas",
+      "name": "Adidas",
+      "value": 2962,
+      "rank": 1,
+      "color": "#18c871",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Adidas_2022_logo.svg/960px-Adidas_2022_logo.svg.png",
+      "storyUrl": "/stories/sports-brand-power/",
+      "sourceIds": [
+        "List of sporting goods manufacturers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/sports-brand-power.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/sports-brand-power.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/sports-brand-power.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/sports-brand-power.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.25,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Adidas_2022_logo.svg/960px-Adidas_2022_logo.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "nike",
+      "name": "Nike",
+      "value": 2361,
+      "rank": 2,
+      "color": "#ff5a61",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Nike_Campus%2C_Beaverton_-_DPLA_-_ffa63f1bbaf5cd21aeada3d3978db2b0.jpg/960px-Nike_Campus%2C_Beaverton_-_DPLA_-_ffa63f1bbaf5cd21aeada3d3978db2b0.jpg",
+      "storyUrl": "/stories/sports-brand-power/",
+      "sourceIds": [
+        "List of sporting goods manufacturers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/sports-brand-power.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/sports-brand-power.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/sports-brand-power.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/sports-brand-power.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0,
+          "u1": 0.75,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Nike_Campus%2C_Beaverton_-_DPLA_-_ffa63f1bbaf5cd21aeada3d3978db2b0.jpg/960px-Nike_Campus%2C_Beaverton_-_DPLA_-_ffa63f1bbaf5cd21aeada3d3978db2b0.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "puma",
+      "name": "Puma",
+      "value": 1427,
+      "rank": 3,
+      "color": "#ffc84a",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Zeppelinstra%C3%9Fe_2_Herzogenaurach_03.JPG/960px-Zeppelinstra%C3%9Fe_2_Herzogenaurach_03.JPG",
+      "storyUrl": "/stories/sports-brand-power/",
+      "sourceIds": [
+        "List of sporting goods manufacturers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/sports-brand-power.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/sports-brand-power.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/sports-brand-power.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/sports-brand-power.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Zeppelinstra%C3%9Fe_2_Herzogenaurach_03.JPG/960px-Zeppelinstra%C3%9Fe_2_Herzogenaurach_03.JPG",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "reebok",
+      "name": "Reebok",
+      "value": 937,
+      "rank": 4,
+      "color": "#d78fca",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Reebok_wordmark_%281977%E2%80%931993%29.svg/960px-Reebok_wordmark_%281977%E2%80%931993%29.svg.png",
+      "storyUrl": "/stories/sports-brand-power/",
+      "sourceIds": [
+        "List of sporting goods manufacturers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/sports-brand-power.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/sports-brand-power.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/sports-brand-power.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/sports-brand-power.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0,
+          "u1": 0.5,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Reebok_wordmark_%281977%E2%80%931993%29.svg/960px-Reebok_wordmark_%281977%E2%80%931993%29.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "new-balance",
+      "name": "New Balance",
+      "value": 776,
+      "rank": 5,
+      "color": "#f18c4f",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/New_Balance_logo.svg/960px-New_Balance_logo.svg.png",
+      "storyUrl": "/stories/sports-brand-power/",
+      "sourceIds": [
+        "List of sporting goods manufacturers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/sports-brand-power.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/sports-brand-power.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/sports-brand-power.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/sports-brand-power.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.333333,
+          "u1": 0.25,
+          "v1": 0.666667
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/New_Balance_logo.svg/960px-New_Balance_logo.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "skechers",
+      "name": "Skechers",
+      "value": 576,
+      "rank": 6,
+      "color": "#2f4858",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Skechers_headquarters_in_Manhattan_Beach.jpg/960px-Skechers_headquarters_in_Manhattan_Beach.jpg",
+      "storyUrl": "/stories/sports-brand-power/",
+      "sourceIds": [
+        "List of sporting goods manufacturers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/sports-brand-power.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/sports-brand-power.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/sports-brand-power.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/sports-brand-power.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.333333,
+          "u1": 0.5,
+          "v1": 0.666667
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Skechers_headquarters_in_Manhattan_Beach.jpg/960px-Skechers_headquarters_in_Manhattan_Beach.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "under-armour",
+      "name": "Under Armour",
+      "value": 529,
+      "rank": 7,
+      "color": "#00a6ff",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Under_armour_logo.svg/960px-Under_armour_logo.svg.png",
+      "storyUrl": "/stories/sports-brand-power/",
+      "sourceIds": [
+        "List of sporting goods manufacturers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/sports-brand-power.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/sports-brand-power.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/sports-brand-power.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/sports-brand-power.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.666667,
+          "u1": 0.25,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Under_armour_logo.svg/960px-Under_armour_logo.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "fila",
+      "name": "Fila",
+      "value": 420,
+      "rank": 8,
+      "color": "#7b9b65",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/HK_TPD_%E5%A4%A7%E5%9F%94_Tai_Po_%E5%A4%A7%E5%9F%94%E8%B6%85%E7%B4%9A%E5%9F%8E_Tai_Po_Mega_Mall_zone_A_July_2021_S64_125_FILA_Clothing_Store.jpg/960px-HK_TPD_%E5%A4%A7%E5%9F%94_Tai_Po_%E5%A4%A7%E5%9F%94%E8%B6%85%E7%B4%9A%E5%9F%8E_Tai_Po_Mega_Mall_zone_A_July_2021_S64_125_FILA_Clothing_Store.jpg",
+      "storyUrl": "/stories/sports-brand-power/",
+      "sourceIds": [
+        "List of sporting goods manufacturers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/sports-brand-power.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/sports-brand-power.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/sports-brand-power.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/sports-brand-power.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.666667,
+          "u1": 0.5,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/HK_TPD_%E5%A4%A7%E5%9F%94_Tai_Po_%E5%A4%A7%E5%9F%94%E8%B6%85%E7%B4%9A%E5%9F%8E_Tai_Po_Mega_Mall_zone_A_July_2021_S64_125_FILA_Clothing_Store.jpg/960px-HK_TPD_%E5%A4%A7%E5%9F%94_Tai_Po_%E5%A4%A7%E5%9F%94%E8%B6%85%E7%B4%9A%E5%9F%8E_Tai_Po_Mega_Mall_zone_A_July_2021_S64_125_FILA_Clothing_Store.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "gymshark",
+      "name": "Gymshark",
+      "value": 373,
+      "rank": 9,
+      "color": "#86bdf4",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/Gymshark.svg/960px-Gymshark.svg.png",
+      "storyUrl": "/stories/sports-brand-power/",
+      "sourceIds": [
+        "List of sporting goods manufacturers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/sports-brand-power.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/sports-brand-power.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/sports-brand-power.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/sports-brand-power.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.333333,
+          "u1": 1,
+          "v1": 0.666667
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/Gymshark.svg/960px-Gymshark.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "columbia-sportswear",
+      "name": "Columbia Sportswear",
+      "value": 265,
+      "rank": 10,
+      "color": "#ef426f",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Columbia_Sportswear_headquarters_-_Cedar_Mill%2C_Oregon.jpg/960px-Columbia_Sportswear_headquarters_-_Cedar_Mill%2C_Oregon.jpg",
+      "storyUrl": "/stories/sports-brand-power/",
+      "sourceIds": [
+        "List of sporting goods manufacturers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/sports-brand-power.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/sports-brand-power.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/sports-brand-power.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/sports-brand-power.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.666667,
+          "u1": 0.75,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Columbia_Sportswear_headquarters_-_Cedar_Mill%2C_Oregon.jpg/960px-Columbia_Sportswear_headquarters_-_Cedar_Mill%2C_Oregon.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "lululemon",
+      "name": "Lululemon",
+      "value": 128,
+      "rank": 11,
+      "color": "#8f6bff",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Lululemon_Athletica_logo.svg/960px-Lululemon_Athletica_logo.svg.png",
+      "storyUrl": "/stories/sports-brand-power/",
+      "sourceIds": [
+        "List of sporting goods manufacturers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/sports-brand-power.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/sports-brand-power.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/sports-brand-power.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/sports-brand-power.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.333333,
+          "u1": 0.75,
+          "v1": 0.666667
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Lululemon_Athletica_logo.svg/960px-Lululemon_Athletica_logo.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "asics",
+      "name": "ASICS",
+      "value": 39,
+      "rank": 12,
+      "color": "#41a99f",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Headquarters_of_ASICS_Corporation.JPG/960px-Headquarters_of_ASICS_Corporation.JPG",
+      "storyUrl": "/stories/sports-brand-power/",
+      "sourceIds": [
+        "List of sporting goods manufacturers"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/sports-brand-power.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/sports-brand-power.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/sports-brand-power.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/sports-brand-power.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.666667,
+          "u1": 1,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Headquarters_of_ASICS_Corporation.JPG/960px-Headquarters_of_ASICS_Corporation.JPG",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    }
+  ]
+}

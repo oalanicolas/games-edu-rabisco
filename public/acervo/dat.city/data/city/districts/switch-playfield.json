@@ -1,0 +1,789 @@
+{
+  "schemaVersion": 1,
+  "contentKind": "dat-city.district",
+  "version": 1,
+  "generatedAt": "2026-07-10T07:52:11.714Z",
+  "versionId": "20260710T075211Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "manual",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-07-10T07:52:11.714Z",
+    "versionId": "20260710T075211Z",
+    "adapter": null,
+    "storySlug": "nintendo-switch-top-games",
+    "districtId": "switch-playfield",
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "id": "switch-playfield",
+  "name": "Switch Playfield",
+  "storySlug": "nintendo-switch-top-games",
+  "storyUrl": "/stories/nintendo-switch-top-games/",
+  "publicStoryUrl": "/stories/nintendo-switch-top-games.json",
+  "metric": "Copies sold",
+  "metricKey": "copies-sold",
+  "latestFrameLabel": "2026-07-10",
+  "summary": "Best-selling Nintendo Switch games from Wikipedia's platform-specific sales table.",
+  "taxonomy": {
+    "primaryCategory": "gaming",
+    "categories": [
+      "gaming",
+      "platforms",
+      "entertainment"
+    ],
+    "tags": [
+      "nintendo-switch",
+      "games",
+      "eshop",
+      "rankings"
+    ],
+    "entityTypes": [
+      "game"
+    ],
+    "sourceTypes": [
+      "wikipedia"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "games-people-are-playing",
+      "type": "platform-game-chart",
+      "weight": 0.88,
+      "reason": "This is the Nintendo counterpart to Steam game activity."
+    },
+    {
+      "target": "playstation-top-games",
+      "type": "console-platform-peer",
+      "weight": 0.8,
+      "reason": "Console platform charts should be comparable districts."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "game-platforms",
+    "mainland": "culture",
+    "bridgePriority": [
+      "games-people-are-playing",
+      "playstation-top-games"
+    ]
+  },
+  "thumbnail": "/assets/og/dat-city.webp",
+  "status": "fresh",
+  "lastObservationDate": "2026-07-10",
+  "nextRefreshAt": "2026-07-13T08:00:00.000Z",
+  "confidence": "Observed 107 rows across 1 Wikipedia best-selling game page(s) on 2026-07-10T07:52:11.714Z. Values are the displayed sold/shipped copy counts from the source tables.",
+  "methodology": "This story is generated from Wikipedia best-selling video game tables for Nintendo Switch: List of best-selling Nintendo Switch video games. The adapter finds tables with game/title and copies-sold columns, converts displayed million-copy values into copy totals, ranks the configured Top 20, and stores StoryOps snapshots so observed history can accumulate over time. When the same game appears on multiple configured platform pages, the adapter keeps the largest platform-specific value.",
+  "sources": [
+    {
+      "title": "List of best-selling Nintendo Switch video games",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_best-selling_Nintendo_Switch_video_games",
+      "note": "Platform-specific table parsed by the StoryOps adapter."
+    }
+  ],
+  "media": {
+    "imageFit": "contain",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-07-10T07:52:11.714Z",
+    "atlasUrl": "/assets/story-atlases/nintendo-switch-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+    "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/nintendo-switch-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+    "manifestUrl": "/assets/story-atlases/nintendo-switch-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+    "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/nintendo-switch-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 5,
+    "rows": 4,
+    "width": 1600,
+    "height": 1280,
+    "itemCount": 20,
+    "sourcedImageCount": 20,
+    "generatedImageCount": 0,
+    "placeholderCount": 0
+  },
+  "entities": [
+    {
+      "id": "mario-kart-8-deluxe",
+      "name": "Mario Kart 8 Deluxe",
+      "value": 71080000,
+      "rank": 1,
+      "color": "#ff5a61",
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/b5/MarioKart8Boxart.jpg",
+      "storyUrl": "/stories/nintendo-switch-top-games/",
+      "sourceIds": [
+        "List of best-selling Nintendo Switch video games"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/nintendo-switch-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/nintendo-switch-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/nintendo-switch-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/nintendo-switch-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.2,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/b/b5/MarioKart8Boxart.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "animal-crossing-new-horizons",
+      "name": "Animal Crossing: New Horizons",
+      "value": 49910000,
+      "rank": 2,
+      "color": "#18c871",
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/1f/Animal_Crossing_New_Horizons.jpg",
+      "storyUrl": "/stories/nintendo-switch-top-games/",
+      "sourceIds": [
+        "List of best-selling Nintendo Switch video games"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/nintendo-switch-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/nintendo-switch-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/nintendo-switch-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/nintendo-switch-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0,
+          "u1": 0.4,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/1/1f/Animal_Crossing_New_Horizons.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "super-smash-bros-ultimate",
+      "name": "Super Smash Bros. Ultimate",
+      "value": 37760000,
+      "rank": 3,
+      "color": "#ffc84a",
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/50/Super_Smash_Bros._Ultimate.jpg",
+      "storyUrl": "/stories/nintendo-switch-top-games/",
+      "sourceIds": [
+        "List of best-selling Nintendo Switch video games"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/nintendo-switch-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/nintendo-switch-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/nintendo-switch-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/nintendo-switch-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0,
+          "u1": 0.6,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/5/50/Super_Smash_Bros._Ultimate.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "the-legend-of-zelda-breath-of-the-wild",
+      "name": "The Legend of Zelda: Breath of the Wild",
+      "value": 33840000,
+      "rank": 4,
+      "color": "#00a6ff",
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/c6/The_Legend_of_Zelda_Breath_of_the_Wild.jpg",
+      "storyUrl": "/stories/nintendo-switch-top-games/",
+      "sourceIds": [
+        "List of best-selling Nintendo Switch video games"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/nintendo-switch-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/nintendo-switch-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/nintendo-switch-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/nintendo-switch-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0,
+          "u1": 0.8,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/c/c6/The_Legend_of_Zelda_Breath_of_the_Wild.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "super-mario-odyssey",
+      "name": "Super Mario Odyssey",
+      "value": 30500000,
+      "rank": 5,
+      "color": "#8f6bff",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Super_Mario_Odyssey_Promotional_Road_Trip_Trailer.jpg/960px-Super_Mario_Odyssey_Promotional_Road_Trip_Trailer.jpg",
+      "storyUrl": "/stories/nintendo-switch-top-games/",
+      "sourceIds": [
+        "List of best-selling Nintendo Switch video games"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/nintendo-switch-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/nintendo-switch-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/nintendo-switch-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/nintendo-switch-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 1280,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Super_Mario_Odyssey_Promotional_Road_Trip_Trailer.jpg/960px-Super_Mario_Odyssey_Promotional_Road_Trip_Trailer.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "pok-mon-scarlet-and-violet",
+      "name": "Pokémon Scarlet and Violet",
+      "value": 28280000,
+      "rank": 6,
+      "color": "#f18c4f",
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/00/Pok%C3%A9mon_Scarlet_and_Violet_banner.png",
+      "storyUrl": "/stories/nintendo-switch-top-games/",
+      "sourceIds": [
+        "List of best-selling Nintendo Switch video games"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/nintendo-switch-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/nintendo-switch-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/nintendo-switch-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/nintendo-switch-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.25,
+          "u1": 0.2,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/0/00/Pok%C3%A9mon_Scarlet_and_Violet_banner.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "pok-mon-sword-and-shield",
+      "name": "Pokémon Sword and Shield",
+      "value": 27160000,
+      "rank": 7,
+      "color": "#41a99f",
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/fa/Pok%C3%A9mon_Sword_and_Shield.jpg",
+      "storyUrl": "/stories/nintendo-switch-top-games/",
+      "sourceIds": [
+        "List of best-selling Nintendo Switch video games"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/nintendo-switch-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/nintendo-switch-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/nintendo-switch-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/nintendo-switch-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.25,
+          "u1": 0.4,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/f/fa/Pok%C3%A9mon_Sword_and_Shield.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "the-legend-of-zelda-tears-of-the-kingdom",
+      "name": "The Legend of Zelda: Tears of the Kingdom",
+      "value": 22560000,
+      "rank": 8,
+      "color": "#d78fca",
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/fb/The_Legend_of_Zelda_Tears_of_the_Kingdom_cover.jpg",
+      "storyUrl": "/stories/nintendo-switch-top-games/",
+      "sourceIds": [
+        "List of best-selling Nintendo Switch video games"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/nintendo-switch-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/nintendo-switch-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/nintendo-switch-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/nintendo-switch-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.25,
+          "u1": 0.6,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/f/fb/The_Legend_of_Zelda_Tears_of_the_Kingdom_cover.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "super-mario-party",
+      "name": "Super Mario Party",
+      "value": 21320000,
+      "rank": 9,
+      "color": "#7b9b65",
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/6c/Super_Mario_Party.jpg",
+      "storyUrl": "/stories/nintendo-switch-top-games/",
+      "sourceIds": [
+        "List of best-selling Nintendo Switch video games"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/nintendo-switch-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/nintendo-switch-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/nintendo-switch-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/nintendo-switch-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.25,
+          "u1": 0.8,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/6/6c/Super_Mario_Party.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "new-super-mario-bros-u-deluxe",
+      "name": "New Super Mario Bros. U Deluxe",
+      "value": 18960000,
+      "rank": 10,
+      "color": "#2f4858",
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/03/New_Super_Mario_Bros._U_box_art.png",
+      "storyUrl": "/stories/nintendo-switch-top-games/",
+      "sourceIds": [
+        "List of best-selling Nintendo Switch video games"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/nintendo-switch-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/nintendo-switch-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/nintendo-switch-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/nintendo-switch-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 1280,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.25,
+          "u1": 1,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/0/03/New_Super_Mario_Bros._U_box_art.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "nintendo-switch-sports",
+      "name": "Nintendo Switch Sports",
+      "value": 18320000,
+      "rank": 11,
+      "color": "#ef426f",
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/29/Nintendo_Switch_Sports_cover_art.jpg",
+      "storyUrl": "/stories/nintendo-switch-top-games/",
+      "sourceIds": [
+        "List of best-selling Nintendo Switch video games"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/nintendo-switch-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/nintendo-switch-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/nintendo-switch-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/nintendo-switch-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.5,
+          "u1": 0.2,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/2/29/Nintendo_Switch_Sports_cover_art.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "super-mario-bros-wonder",
+      "name": "Super Mario Bros. Wonder",
+      "value": 17440000,
+      "rank": 12,
+      "color": "#86bdf4",
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/80/SMB_wonder_screenshot.png",
+      "storyUrl": "/stories/nintendo-switch-top-games/",
+      "sourceIds": [
+        "List of best-selling Nintendo Switch video games"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/nintendo-switch-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/nintendo-switch-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/nintendo-switch-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/nintendo-switch-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.5,
+          "u1": 0.4,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/8/80/SMB_wonder_screenshot.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "ring-fit-adventure",
+      "name": "Ring Fit Adventure",
+      "value": 15380000,
+      "rank": 13,
+      "color": "#c9a14a",
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/dc/Ring_Fit_Adventure_Screenshot.jpg",
+      "storyUrl": "/stories/nintendo-switch-top-games/",
+      "sourceIds": [
+        "List of best-selling Nintendo Switch video games"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/nintendo-switch-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/nintendo-switch-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/nintendo-switch-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/nintendo-switch-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.5,
+          "u1": 0.6,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/d/dc/Ring_Fit_Adventure_Screenshot.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "pok-mon-let-s-go-pikachu-and-let-s-go-eevee",
+      "name": "Pokémon: Let's Go, Pikachu! and Let's Go, Eevee!",
+      "value": 15070000,
+      "rank": 14,
+      "color": "#e34f59",
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/47/Pok%C3%A9mon_Let%27s_Go%2C_Pikachu%21_and_Let%27s_Go%2C_Eevee%21.jpg",
+      "storyUrl": "/stories/nintendo-switch-top-games/",
+      "sourceIds": [
+        "List of best-selling Nintendo Switch video games"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/nintendo-switch-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/nintendo-switch-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/nintendo-switch-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/nintendo-switch-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.5,
+          "u1": 0.8,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/4/47/Pok%C3%A9mon_Let%27s_Go%2C_Pikachu%21_and_Let%27s_Go%2C_Eevee%21.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "pok-mon-brilliant-diamond-and-shining-pearl",
+      "name": "Pokémon Brilliant Diamond and Shining Pearl",
+      "value": 15060000,
+      "rank": 15,
+      "color": "#9aa4b2",
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/3e/Pokemon_Brilliant_Diamond_Shining_Pearl.png",
+      "storyUrl": "/stories/nintendo-switch-top-games/",
+      "sourceIds": [
+        "List of best-selling Nintendo Switch video games"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/nintendo-switch-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/nintendo-switch-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/nintendo-switch-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/nintendo-switch-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 1280,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.5,
+          "u1": 1,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/3/3e/Pokemon_Brilliant_Diamond_Shining_Pearl.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "pok-mon-legends-arceus",
+      "name": "Pokémon Legends: Arceus",
+      "value": 14830000,
+      "rank": 16,
+      "color": "#ff5a61",
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/9c/Pokemon_Legends_Arceus_cover.jpg",
+      "storyUrl": "/stories/nintendo-switch-top-games/",
+      "sourceIds": [
+        "List of best-selling Nintendo Switch video games"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/nintendo-switch-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/nintendo-switch-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/nintendo-switch-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/nintendo-switch-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.75,
+          "u1": 0.2,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/9/9c/Pokemon_Legends_Arceus_cover.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "luigi-s-mansion-3",
+      "name": "Luigi's Mansion 3",
+      "value": 14250000,
+      "rank": 17,
+      "color": "#18c871",
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/38/Luigi%27s_Mansion_3.jpg",
+      "storyUrl": "/stories/nintendo-switch-top-games/",
+      "sourceIds": [
+        "List of best-selling Nintendo Switch video games"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/nintendo-switch-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/nintendo-switch-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/nintendo-switch-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/nintendo-switch-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.75,
+          "u1": 0.4,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/3/38/Luigi%27s_Mansion_3.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "mario-party-superstars",
+      "name": "Mario Party Superstars",
+      "value": 14000000,
+      "rank": 18,
+      "color": "#ffc84a",
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/1a/Mario_Party_Superstars_cover_art.jpg",
+      "storyUrl": "/stories/nintendo-switch-top-games/",
+      "sourceIds": [
+        "List of best-selling Nintendo Switch video games"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/nintendo-switch-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/nintendo-switch-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/nintendo-switch-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/nintendo-switch-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.75,
+          "u1": 0.6,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/1/1a/Mario_Party_Superstars_cover_art.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "splatoon-2",
+      "name": "Splatoon 2",
+      "value": 13600000,
+      "rank": 19,
+      "color": "#00a6ff",
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/49/Splatoon_2.jpg",
+      "storyUrl": "/stories/nintendo-switch-top-games/",
+      "sourceIds": [
+        "List of best-selling Nintendo Switch video games"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/nintendo-switch-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/nintendo-switch-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/nintendo-switch-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/nintendo-switch-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.75,
+          "u1": 0.8,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/4/49/Splatoon_2.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "super-mario-3d-world-bowser-s-fury",
+      "name": "Super Mario 3D World + Bowser's Fury",
+      "value": 13470000,
+      "rank": 20,
+      "color": "#8f6bff",
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/5e/Super_Mario_3D_World_box_art.jpg",
+      "storyUrl": "/stories/nintendo-switch-top-games/",
+      "sourceIds": [
+        "List of best-selling Nintendo Switch video games"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/nintendo-switch-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/nintendo-switch-top-games.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/nintendo-switch-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/nintendo-switch-top-games.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 1280,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.75,
+          "u1": 1,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/5/5e/Super_Mario_3D_World_box_art.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    }
+  ]
+}

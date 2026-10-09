@@ -1,0 +1,736 @@
+{
+  "schemaVersion": 1,
+  "contentKind": "dat-city.district",
+  "version": 1,
+  "generatedAt": "2026-07-20T08:42:47.787Z",
+  "versionId": "20260720T084247Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "manual",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-07-20T08:42:47.787Z",
+    "versionId": "20260720T084247Z",
+    "adapter": null,
+    "storySlug": "world-cup-attendance-kings",
+    "districtId": "world-cup-crowd-bowl",
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "id": "world-cup-crowd-bowl",
+  "name": "World Cup Crowd Bowl",
+  "storySlug": "world-cup-attendance-kings",
+  "storyUrl": "/stories/world-cup-attendance-kings/",
+  "publicStoryUrl": "/stories/world-cup-attendance-kings.json",
+  "metric": "Total attendance",
+  "metricKey": "total-attendance",
+  "latestFrameLabel": "Through the 2026 final",
+  "summary": "The men's World Cup tournaments that filled the most seats in total.",
+  "taxonomy": {
+    "primaryCategory": "sports",
+    "categories": [
+      "sports",
+      "football",
+      "history"
+    ],
+    "tags": [
+      "world-cup",
+      "fifa",
+      "attendance",
+      "tournaments"
+    ],
+    "entityTypes": [
+      "tournament"
+    ],
+    "sourceTypes": [
+      "wikipedia"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "world-cup-2026-host-venues",
+      "type": "stadium-footprint",
+      "weight": 0.78,
+      "reason": "Historical crowds connect directly to the venue capacity footprint for 2026."
+    },
+    {
+      "target": "world-cup-tournament-goal-fests",
+      "type": "tournament-scale",
+      "weight": 0.52,
+      "reason": "Both rank whole tournaments and show scale from different angles."
+    },
+    {
+      "target": "top-athlete-salaries",
+      "type": "sports-economy-context",
+      "weight": 0.28,
+      "reason": "Attendance is part of the broader economics around global sport."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "world-cup-records",
+    "mainland": "world-cup",
+    "bridgePriority": [
+      "world-cup-2026-host-venues",
+      "world-cup-tournament-goal-fests"
+    ]
+  },
+  "thumbnail": "/assets/og/dat-city.webp",
+  "status": "fresh",
+  "dataUpdatedAt": "2026-07-20T08:42:47.787Z",
+  "staleAfterHours": 3120,
+  "dormant": false,
+  "lastObservationDate": "2026-07-19",
+  "nextRefreshAt": "2026-07-21T06:00:00.000Z",
+  "confidence": "Attendance totals cover completed men's World Cups through 2026. The 104-match 2026 tournament set an all-time record of about 6.74 million spectators.",
+  "methodology": "The adapter ranks men's World Cup tournaments by total reported stadium attendance, including the 2026 total from FIFA match data.",
+  "sources": [
+    {
+      "title": "FIFA World Cup records and statistics",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/FIFA_World_Cup_records_and_statistics",
+      "note": "Historical tournament, attendance, goal, player, and team record tables."
+    },
+    {
+      "title": "FIFA World Cup 2026 match calendar and results",
+      "publisher": "FIFA",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+      "note": "Official 104-match calendar API (competition 17, season 285023) supplying final results, per-match attendance, and the 48-team field."
+    }
+  ],
+  "media": {
+    "imageFit": "contain-blur",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-07-20T08:42:47.787Z",
+    "atlasUrl": "/assets/story-atlases/world-cup-attendance-kings.webp?v=2026-07-20T08%3A42%3A47.787Z",
+    "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-attendance-kings.webp?v=2026-07-20T08%3A42%3A47.787Z",
+    "manifestUrl": "/assets/story-atlases/world-cup-attendance-kings.json?v=2026-07-20T08%3A42%3A47.787Z",
+    "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-attendance-kings.json?v=2026-07-20T08%3A42%3A47.787Z",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 5,
+    "rows": 4,
+    "width": 1600,
+    "height": 1280,
+    "itemCount": 17,
+    "sourcedImageCount": 17,
+    "generatedImageCount": 0,
+    "placeholderCount": 0
+  },
+  "entities": [
+    {
+      "id": "world-cup-2026",
+      "name": "2026 Canada/Mexico/USA",
+      "shortName": "2026",
+      "value": 6742727,
+      "rank": 1,
+      "color": "#18c871",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Spain_World_Cup_Winners_Argentina_v_Spain_19_July_2026-1.jpg/960px-Spain_World_Cup_Winners_Argentina_v_Spain_19_July_2026-1.jpg",
+      "storyUrl": "/stories/world-cup-attendance-kings/",
+      "sourceIds": [
+        "FIFA World Cup records and statistics",
+        "FIFA World Cup 2026 match calendar and results"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-attendance-kings.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-attendance-kings.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-attendance-kings.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-attendance-kings.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.2,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Spain_World_Cup_Winners_Argentina_v_Spain_19_July_2026-1.jpg/960px-Spain_World_Cup_Winners_Argentina_v_Spain_19_July_2026-1.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "world-cup-1994",
+      "name": "1994 United States",
+      "shortName": "1994",
+      "value": 3587538,
+      "rank": 2,
+      "color": "#ffc84a",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/1994_FIFA_World_Cup.svg/960px-1994_FIFA_World_Cup.svg.png",
+      "storyUrl": "/stories/world-cup-attendance-kings/",
+      "sourceIds": [
+        "FIFA World Cup records and statistics",
+        "FIFA World Cup 2026 match calendar and results"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-attendance-kings.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-attendance-kings.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-attendance-kings.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-attendance-kings.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0,
+          "u1": 0.4,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/1994_FIFA_World_Cup.svg/960px-1994_FIFA_World_Cup.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "world-cup-2014",
+      "name": "2014 Brazil",
+      "shortName": "2014",
+      "value": 3429873,
+      "rank": 3,
+      "color": "#00a6ff",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Germany_and_Argentina_face_off_in_the_final_of_the_World_Cup_2014_-2014-07-13_%285%29.jpg/960px-Germany_and_Argentina_face_off_in_the_final_of_the_World_Cup_2014_-2014-07-13_%285%29.jpg",
+      "storyUrl": "/stories/world-cup-attendance-kings/",
+      "sourceIds": [
+        "FIFA World Cup records and statistics",
+        "FIFA World Cup 2026 match calendar and results"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-attendance-kings.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-attendance-kings.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-attendance-kings.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-attendance-kings.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0,
+          "u1": 0.6,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Germany_and_Argentina_face_off_in_the_final_of_the_World_Cup_2014_-2014-07-13_%285%29.jpg/960px-Germany_and_Argentina_face_off_in_the_final_of_the_World_Cup_2014_-2014-07-13_%285%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "world-cup-2022",
+      "name": "2022 Qatar",
+      "shortName": "2022",
+      "value": 3404252,
+      "rank": 4,
+      "color": "#f3f7f0",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Argentina_3-3_Francia_-_Copa_Mundial_2022_-_Argentina_campe%C3%B3n.jpg/960px-Argentina_3-3_Francia_-_Copa_Mundial_2022_-_Argentina_campe%C3%B3n.jpg",
+      "storyUrl": "/stories/world-cup-attendance-kings/",
+      "sourceIds": [
+        "FIFA World Cup records and statistics",
+        "FIFA World Cup 2026 match calendar and results"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-attendance-kings.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-attendance-kings.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-attendance-kings.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-attendance-kings.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0,
+          "u1": 0.8,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Argentina_3-3_Francia_-_Copa_Mundial_2022_-_Argentina_campe%C3%B3n.jpg/960px-Argentina_3-3_Francia_-_Copa_Mundial_2022_-_Argentina_campe%C3%B3n.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "world-cup-2006",
+      "name": "2006 Germany",
+      "shortName": "2006",
+      "value": 3359439,
+      "rank": 5,
+      "color": "#ff5a61",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Show_Stage_-_Closing_Ceremony_2006_FIFA_World_Cup.jpg/960px-Show_Stage_-_Closing_Ceremony_2006_FIFA_World_Cup.jpg",
+      "storyUrl": "/stories/world-cup-attendance-kings/",
+      "sourceIds": [
+        "FIFA World Cup records and statistics",
+        "FIFA World Cup 2026 match calendar and results"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-attendance-kings.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-attendance-kings.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-attendance-kings.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-attendance-kings.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 1280,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Show_Stage_-_Closing_Ceremony_2006_FIFA_World_Cup.jpg/960px-Show_Stage_-_Closing_Ceremony_2006_FIFA_World_Cup.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "world-cup-2010",
+      "name": "2010 South Africa",
+      "shortName": "2010",
+      "value": 3178856,
+      "rank": 6,
+      "color": "#41a99f",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/FIFA_World_Cup_2010_Spain_with_cup.jpg/960px-FIFA_World_Cup_2010_Spain_with_cup.jpg",
+      "storyUrl": "/stories/world-cup-attendance-kings/",
+      "sourceIds": [
+        "FIFA World Cup records and statistics",
+        "FIFA World Cup 2026 match calendar and results"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-attendance-kings.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-attendance-kings.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-attendance-kings.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-attendance-kings.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.25,
+          "u1": 0.2,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/FIFA_World_Cup_2010_Spain_with_cup.jpg/960px-FIFA_World_Cup_2010_Spain_with_cup.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "world-cup-2018",
+      "name": "2018 Russia",
+      "shortName": "2018",
+      "value": 3031768,
+      "rank": 7,
+      "color": "#86bdf4",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/France_champion_of_the_Football_World_Cup_Russia_2018.jpg/960px-France_champion_of_the_Football_World_Cup_Russia_2018.jpg",
+      "storyUrl": "/stories/world-cup-attendance-kings/",
+      "sourceIds": [
+        "FIFA World Cup records and statistics",
+        "FIFA World Cup 2026 match calendar and results"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-attendance-kings.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-attendance-kings.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-attendance-kings.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-attendance-kings.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.25,
+          "u1": 0.4,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/France_champion_of_the_Football_World_Cup_Russia_2018.jpg/960px-France_champion_of_the_Football_World_Cup_Russia_2018.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "world-cup-1998",
+      "name": "1998 France",
+      "shortName": "1998",
+      "value": 2785100,
+      "rank": 8,
+      "color": "#f18c4f",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/1998_FIFA_World_Cup_France_%28Wordmark%29.svg/960px-1998_FIFA_World_Cup_France_%28Wordmark%29.svg.png",
+      "storyUrl": "/stories/world-cup-attendance-kings/",
+      "sourceIds": [
+        "FIFA World Cup records and statistics",
+        "FIFA World Cup 2026 match calendar and results"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-attendance-kings.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-attendance-kings.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-attendance-kings.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-attendance-kings.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.25,
+          "u1": 0.6,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/1998_FIFA_World_Cup_France_%28Wordmark%29.svg/960px-1998_FIFA_World_Cup_France_%28Wordmark%29.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "world-cup-2002",
+      "name": "2002 Korea/Japan",
+      "shortName": "2002",
+      "value": 2705197,
+      "rank": 9,
+      "color": "#2f4858",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/2002_FIFA_World_Cup_%28Complete_Wordmark%29.svg/960px-2002_FIFA_World_Cup_%28Complete_Wordmark%29.svg.png",
+      "storyUrl": "/stories/world-cup-attendance-kings/",
+      "sourceIds": [
+        "FIFA World Cup records and statistics",
+        "FIFA World Cup 2026 match calendar and results"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-attendance-kings.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-attendance-kings.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-attendance-kings.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-attendance-kings.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.25,
+          "u1": 0.8,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/2002_FIFA_World_Cup_%28Complete_Wordmark%29.svg/960px-2002_FIFA_World_Cup_%28Complete_Wordmark%29.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "world-cup-1990",
+      "name": "1990 Italy",
+      "shortName": "1990",
+      "value": 2516215,
+      "rank": 10,
+      "color": "#c9a14a",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/1990_FIFA_World_Cup_%28Wordmark%29.svg/960px-1990_FIFA_World_Cup_%28Wordmark%29.svg.png",
+      "storyUrl": "/stories/world-cup-attendance-kings/",
+      "sourceIds": [
+        "FIFA World Cup records and statistics",
+        "FIFA World Cup 2026 match calendar and results"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-attendance-kings.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-attendance-kings.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-attendance-kings.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-attendance-kings.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 1280,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.25,
+          "u1": 1,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/1990_FIFA_World_Cup_%28Wordmark%29.svg/960px-1990_FIFA_World_Cup_%28Wordmark%29.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "world-cup-1986",
+      "name": "1986 Mexico",
+      "shortName": "1986",
+      "value": 2394031,
+      "rank": 11,
+      "color": "#ef426f",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Maradona-Mundial_86_con_la_copa.JPG/960px-Maradona-Mundial_86_con_la_copa.JPG",
+      "storyUrl": "/stories/world-cup-attendance-kings/",
+      "sourceIds": [
+        "FIFA World Cup records and statistics",
+        "FIFA World Cup 2026 match calendar and results"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-attendance-kings.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-attendance-kings.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-attendance-kings.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-attendance-kings.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.5,
+          "u1": 0.2,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Maradona-Mundial_86_con_la_copa.JPG/960px-Maradona-Mundial_86_con_la_copa.JPG",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "world-cup-1982",
+      "name": "1982 Spain",
+      "shortName": "1982",
+      "value": 2109723,
+      "rank": 12,
+      "color": "#7b9b65",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/1982_FIFA_World_Cup_Spain_%28Wordmark%29.svg/960px-1982_FIFA_World_Cup_Spain_%28Wordmark%29.svg.png",
+      "storyUrl": "/stories/world-cup-attendance-kings/",
+      "sourceIds": [
+        "FIFA World Cup records and statistics",
+        "FIFA World Cup 2026 match calendar and results"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-attendance-kings.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-attendance-kings.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-attendance-kings.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-attendance-kings.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.5,
+          "u1": 0.4,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/1982_FIFA_World_Cup_Spain_%28Wordmark%29.svg/960px-1982_FIFA_World_Cup_Spain_%28Wordmark%29.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "world-cup-1974",
+      "name": "1974 West Germany",
+      "shortName": "1974",
+      "value": 1774022,
+      "rank": 13,
+      "color": "#18c871",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/FIFA_World_Cup_1974_-_emblem.svg/960px-FIFA_World_Cup_1974_-_emblem.svg.png",
+      "storyUrl": "/stories/world-cup-attendance-kings/",
+      "sourceIds": [
+        "FIFA World Cup records and statistics",
+        "FIFA World Cup 2026 match calendar and results"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-attendance-kings.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-attendance-kings.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-attendance-kings.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-attendance-kings.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.5,
+          "u1": 0.6,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/FIFA_World_Cup_1974_-_emblem.svg/960px-FIFA_World_Cup_1974_-_emblem.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "world-cup-1970",
+      "name": "1970 Mexico",
+      "shortName": "1970",
+      "value": 1603975,
+      "rank": 14,
+      "color": "#ffc84a",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/1970_FIFA_World_Cup.svg/960px-1970_FIFA_World_Cup.svg.png",
+      "storyUrl": "/stories/world-cup-attendance-kings/",
+      "sourceIds": [
+        "FIFA World Cup records and statistics",
+        "FIFA World Cup 2026 match calendar and results"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-attendance-kings.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-attendance-kings.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-attendance-kings.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-attendance-kings.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.5,
+          "u1": 0.8,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/1970_FIFA_World_Cup.svg/960px-1970_FIFA_World_Cup.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "world-cup-1966",
+      "name": "1966 England",
+      "shortName": "1966",
+      "value": 1563135,
+      "rank": 15,
+      "color": "#00a6ff",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/England_germany_entering_pitch.jpg/960px-England_germany_entering_pitch.jpg",
+      "storyUrl": "/stories/world-cup-attendance-kings/",
+      "sourceIds": [
+        "FIFA World Cup records and statistics",
+        "FIFA World Cup 2026 match calendar and results"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-attendance-kings.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-attendance-kings.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-attendance-kings.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-attendance-kings.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 1280,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.5,
+          "u1": 1,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/England_germany_entering_pitch.jpg/960px-England_germany_entering_pitch.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "world-cup-1978",
+      "name": "1978 Argentina",
+      "shortName": "1978",
+      "value": 1545791,
+      "rank": 16,
+      "color": "#f3f7f0",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Logo_Mundial_78.svg/960px-Logo_Mundial_78.svg.png",
+      "storyUrl": "/stories/world-cup-attendance-kings/",
+      "sourceIds": [
+        "FIFA World Cup records and statistics",
+        "FIFA World Cup 2026 match calendar and results"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-attendance-kings.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-attendance-kings.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-attendance-kings.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-attendance-kings.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 0,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.75,
+          "u1": 0.2,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Logo_Mundial_78.svg/960px-Logo_Mundial_78.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "world-cup-1950",
+      "name": "1950 Brazil",
+      "shortName": "1950",
+      "value": 1045246,
+      "rank": 17,
+      "color": "#ff5a61",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Poster_-_World_Cup_1950.jpg/960px-Poster_-_World_Cup_1950.jpg",
+      "storyUrl": "/stories/world-cup-attendance-kings/",
+      "sourceIds": [
+        "FIFA World Cup records and statistics",
+        "FIFA World Cup 2026 match calendar and results"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-attendance-kings.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-attendance-kings.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-attendance-kings.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-attendance-kings.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 320,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.75,
+          "u1": 0.4,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Poster_-_World_Cup_1950.jpg/960px-Poster_-_World_Cup_1950.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    }
+  ]
+}

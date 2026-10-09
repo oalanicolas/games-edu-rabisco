@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="dat.city">
+  <defs>
+    <linearGradient id="bg" x1="8" x2="56" y1="4" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#082034"/>
+      <stop offset="0.58" stop-color="#06131f"/>
+      <stop offset="1" stop-color="#03080d"/>
+    </linearGradient>
+    <linearGradient id="tower" x1="18" x2="50" y1="16" y2="52" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6df6ff"/>
+      <stop offset="0.52" stop-color="#24a8ff"/>
+      <stop offset="1" stop-color="#1864e8"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#bg)"/>
+  <path d="M10 46c8.2-7.7 17.3-11.4 27.5-11.2 6.4.2 11.8 2.1 16.5 5.7" fill="none" stroke="#2fd6ff" stroke-width="3.2" stroke-linecap="round" opacity=".55"/>
+  <g filter="url(#glow)">
+    <rect x="15" y="31" width="7" height="18" rx="2" fill="#f7fbff"/>
+    <rect x="25" y="21" width="8" height="28" rx="2" fill="url(#tower)"/>
+    <rect x="37" y="14" width="9" height="35" rx="2" fill="url(#tower)"/>
+    <rect x="49" y="27" width="6" height="22" rx="2" fill="#55f2d6"/>
+    <circle cx="19" cy="49" r="5.5" fill="#ffbd2e"/>
+  </g>
+  <path d="M15 54h40" fill="none" stroke="#e8f7ff" stroke-width="3" stroke-linecap="round" opacity=".72"/>
+</svg>

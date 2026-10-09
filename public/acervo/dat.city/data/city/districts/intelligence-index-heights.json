@@ -1,0 +1,572 @@
+{
+  "schemaVersion": 1,
+  "contentKind": "dat-city.district",
+  "version": 1,
+  "generatedAt": "2026-07-10T08:17:02.954Z",
+  "versionId": "20260710T081702Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "manual",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-07-10T08:17:02.954Z",
+    "versionId": "20260710T081702Z",
+    "adapter": null,
+    "storySlug": "frontier-language-model-intelligence",
+    "districtId": "intelligence-index-heights",
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "id": "intelligence-index-heights",
+  "name": "Intelligence Index Heights",
+  "storySlug": "frontier-language-model-intelligence",
+  "storyUrl": "/stories/frontier-language-model-intelligence/",
+  "publicStoryUrl": "/stories/frontier-language-model-intelligence.json",
+  "metric": "AA Intelligence Index",
+  "metricKey": "aa-intelligence-index",
+  "latestFrameLabel": "2026-07-09 release map",
+  "summary": "Claude Fable 5 (with fallback) leads the latest Artificial Analysis frontier set at 59.9.",
+  "taxonomy": {
+    "primaryCategory": "technology",
+    "categories": [
+      "technology",
+      "ai",
+      "benchmarks"
+    ],
+    "tags": [
+      "language-models",
+      "frontier-ai",
+      "intelligence-index",
+      "release-dates"
+    ],
+    "entityTypes": [
+      "model",
+      "ai-system"
+    ],
+    "sourceTypes": [
+      "benchmark"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "open-source-ai-repo-momentum",
+      "type": "ai-ecosystem",
+      "weight": 0.88,
+      "reason": "Both track AI progress, one through models and one through developer adoption."
+    },
+    {
+      "target": "app-store-takeover",
+      "type": "technology-adoption",
+      "weight": 0.48,
+      "reason": "AI products can become consumer software adoption stories."
+    },
+    {
+      "target": "games-people-are-playing",
+      "type": "technology-platforms",
+      "weight": 0.28,
+      "reason": "Both sit in software/platform culture, but with different audiences."
+    },
+    {
+      "target": "lmarena-text-leaderboard",
+      "type": "ai-benchmarks",
+      "weight": 0.9,
+      "reason": "Both rank frontier language models, one by benchmark intelligence and one by human preference Elo."
+    },
+    {
+      "target": "deepswe-leaderboard",
+      "type": "ai-frontier",
+      "weight": 0.88,
+      "reason": "Both index the frontier model set, one on general intelligence and one on long-horizon coding."
+    },
+    {
+      "target": "ai-lab-race",
+      "type": "ai-frontier",
+      "weight": 0.92,
+      "reason": "The lab race is the model-level frontier index rolled up to the labs that ship the models."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "ai-technology",
+    "mainland": "technology",
+    "bridgePriority": [
+      "ai-lab-race",
+      "open-source-ai-repo-momentum"
+    ]
+  },
+  "thumbnail": "/assets/og/dat-city.webp",
+  "status": "fresh",
+  "lastObservationDate": "2026-07-09",
+  "nextRefreshAt": "2026-07-11T06:00:00.000Z",
+  "confidence": "Observed 14 Artificial Analysis frontier model rows and 14 scored display rows at 2026-07-10T08:17:02.954Z.",
+  "methodology": "This adapter reads the public Artificial Analysis homepage payload, prioritizes rows explicitly marked as frontier models, ranks them by the current Artificial Analysis Intelligence Index, and plots them by release date so the skyline updates when Artificial Analysis publishes new model evaluations.",
+  "sources": [
+    {
+      "title": "Frontier Language Model Intelligence, Over Time",
+      "publisher": "Artificial Analysis",
+      "url": "https://artificialanalysis.ai/#frontier-language-model-intelligence-over-time",
+      "note": "Homepage section with frontier language model intelligence scores and release-date charting."
+    },
+    {
+      "title": "Artificial Analysis Intelligence Index",
+      "publisher": "Artificial Analysis",
+      "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index",
+      "note": "Methodology and benchmark context for the Artificial Analysis Intelligence Index."
+    }
+  ],
+  "media": {
+    "tileSize": 320,
+    "imageFit": "contain",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-07-10T08:17:02.954Z",
+    "atlasUrl": "/assets/story-atlases/frontier-language-model-intelligence.webp?v=2026-07-10T08%3A17%3A02.954Z",
+    "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/frontier-language-model-intelligence.webp?v=2026-07-10T08%3A17%3A02.954Z",
+    "manifestUrl": "/assets/story-atlases/frontier-language-model-intelligence.json?v=2026-07-10T08%3A17%3A02.954Z",
+    "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/frontier-language-model-intelligence.json?v=2026-07-10T08%3A17%3A02.954Z",
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 4,
+    "rows": 3,
+    "width": 1280,
+    "height": 960,
+    "itemCount": 12,
+    "sourcedImageCount": 12,
+    "generatedImageCount": 0,
+    "placeholderCount": 0
+  },
+  "entities": [
+    {
+      "id": "aa-claude-fable-5",
+      "name": "Claude Fable 5 (Adaptive Reasoning, Max Effort, Opus 4.8 Fallback)",
+      "shortName": "Claude Fable 5 (with fallback)",
+      "value": 59.9,
+      "rank": 1,
+      "color": "#cc785c",
+      "image": "https://artificialanalysis.ai/img/logos/anthropic_small.svg",
+      "storyUrl": "/stories/frontier-language-model-intelligence/",
+      "sourceIds": [
+        "Frontier Language Model Intelligence, Over Time",
+        "Artificial Analysis Intelligence Index"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/frontier-language-model-intelligence.webp?v=2026-07-10T08%3A17%3A02.954Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/frontier-language-model-intelligence.webp?v=2026-07-10T08%3A17%3A02.954Z",
+          "manifestUrl": "/assets/story-atlases/frontier-language-model-intelligence.json?v=2026-07-10T08%3A17%3A02.954Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/frontier-language-model-intelligence.json?v=2026-07-10T08%3A17%3A02.954Z",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.25,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": "https://artificialanalysis.ai/img/logos/anthropic_small.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "artificial-analysis"
+        }
+      }
+    },
+    {
+      "id": "aa-gpt-5-6-sol",
+      "name": "GPT-5.6 Sol (max)",
+      "shortName": "GPT-5.6 Sol (max)",
+      "value": 58.9,
+      "rank": 2,
+      "color": "#1f1f1f",
+      "image": "https://artificialanalysis.ai/img/logos/openai_small.svg",
+      "storyUrl": "/stories/frontier-language-model-intelligence/",
+      "sourceIds": [
+        "Frontier Language Model Intelligence, Over Time",
+        "Artificial Analysis Intelligence Index"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/frontier-language-model-intelligence.webp?v=2026-07-10T08%3A17%3A02.954Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/frontier-language-model-intelligence.webp?v=2026-07-10T08%3A17%3A02.954Z",
+          "manifestUrl": "/assets/story-atlases/frontier-language-model-intelligence.json?v=2026-07-10T08%3A17%3A02.954Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/frontier-language-model-intelligence.json?v=2026-07-10T08%3A17%3A02.954Z",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0,
+          "u1": 0.5,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": "https://artificialanalysis.ai/img/logos/openai_small.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "artificial-analysis"
+        }
+      }
+    },
+    {
+      "id": "aa-claude-opus-4-8",
+      "name": "Claude Opus 4.8 (Adaptive Reasoning, Max Effort)",
+      "shortName": "Claude Opus 4.8 (max)",
+      "value": 55.7,
+      "rank": 3,
+      "color": "#cc785c",
+      "image": "https://artificialanalysis.ai/img/logos/anthropic_small.svg",
+      "storyUrl": "/stories/frontier-language-model-intelligence/",
+      "sourceIds": [
+        "Frontier Language Model Intelligence, Over Time",
+        "Artificial Analysis Intelligence Index"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/frontier-language-model-intelligence.webp?v=2026-07-10T08%3A17%3A02.954Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/frontier-language-model-intelligence.webp?v=2026-07-10T08%3A17%3A02.954Z",
+          "manifestUrl": "/assets/story-atlases/frontier-language-model-intelligence.json?v=2026-07-10T08%3A17%3A02.954Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/frontier-language-model-intelligence.json?v=2026-07-10T08%3A17%3A02.954Z",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0,
+          "u1": 0.75,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": "https://artificialanalysis.ai/img/logos/anthropic_small.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "artificial-analysis"
+        }
+      }
+    },
+    {
+      "id": "aa-gpt-5-6-terra",
+      "name": "GPT-5.6 Terra (max)",
+      "shortName": "GPT-5.6 Terra (max)",
+      "value": 55,
+      "rank": 4,
+      "color": "#1f1f1f",
+      "image": "https://artificialanalysis.ai/img/logos/openai_small.svg",
+      "storyUrl": "/stories/frontier-language-model-intelligence/",
+      "sourceIds": [
+        "Frontier Language Model Intelligence, Over Time",
+        "Artificial Analysis Intelligence Index"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/frontier-language-model-intelligence.webp?v=2026-07-10T08%3A17%3A02.954Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/frontier-language-model-intelligence.webp?v=2026-07-10T08%3A17%3A02.954Z",
+          "manifestUrl": "/assets/story-atlases/frontier-language-model-intelligence.json?v=2026-07-10T08%3A17%3A02.954Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/frontier-language-model-intelligence.json?v=2026-07-10T08%3A17%3A02.954Z",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": "https://artificialanalysis.ai/img/logos/openai_small.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "artificial-analysis"
+        }
+      }
+    },
+    {
+      "id": "aa-gpt-5-5",
+      "name": "GPT-5.5 (xhigh)",
+      "shortName": "GPT-5.5 (xhigh)",
+      "value": 54.8,
+      "rank": 5,
+      "color": "#1f1f1f",
+      "image": "https://artificialanalysis.ai/img/logos/openai_small.svg",
+      "storyUrl": "/stories/frontier-language-model-intelligence/",
+      "sourceIds": [
+        "Frontier Language Model Intelligence, Over Time",
+        "Artificial Analysis Intelligence Index"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/frontier-language-model-intelligence.webp?v=2026-07-10T08%3A17%3A02.954Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/frontier-language-model-intelligence.webp?v=2026-07-10T08%3A17%3A02.954Z",
+          "manifestUrl": "/assets/story-atlases/frontier-language-model-intelligence.json?v=2026-07-10T08%3A17%3A02.954Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/frontier-language-model-intelligence.json?v=2026-07-10T08%3A17%3A02.954Z",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.333333,
+          "u1": 0.25,
+          "v1": 0.666667
+        },
+        "image": {
+          "sourceUrl": "https://artificialanalysis.ai/img/logos/openai_small.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "artificial-analysis"
+        }
+      }
+    },
+    {
+      "id": "aa-grok-4-5",
+      "name": "Grok 4.5 (high)",
+      "shortName": "Grok 4.5 (high)",
+      "value": 53.8,
+      "rank": 6,
+      "color": "#736cd3",
+      "image": "https://artificialanalysis.ai/img/logos/spacexai.svg",
+      "storyUrl": "/stories/frontier-language-model-intelligence/",
+      "sourceIds": [
+        "Frontier Language Model Intelligence, Over Time",
+        "Artificial Analysis Intelligence Index"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/frontier-language-model-intelligence.webp?v=2026-07-10T08%3A17%3A02.954Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/frontier-language-model-intelligence.webp?v=2026-07-10T08%3A17%3A02.954Z",
+          "manifestUrl": "/assets/story-atlases/frontier-language-model-intelligence.json?v=2026-07-10T08%3A17%3A02.954Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/frontier-language-model-intelligence.json?v=2026-07-10T08%3A17%3A02.954Z",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.333333,
+          "u1": 0.5,
+          "v1": 0.666667
+        },
+        "image": {
+          "sourceUrl": "https://artificialanalysis.ai/img/logos/spacexai.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "artificial-analysis"
+        }
+      }
+    },
+    {
+      "id": "aa-claude-sonnet-5",
+      "name": "Claude Sonnet 5 (Adaptive Reasoning, Max Effort)",
+      "shortName": "Claude Sonnet 5 (max)",
+      "value": 53.4,
+      "rank": 7,
+      "color": "#cc785c",
+      "image": "https://artificialanalysis.ai/img/logos/anthropic_small.svg",
+      "storyUrl": "/stories/frontier-language-model-intelligence/",
+      "sourceIds": [
+        "Frontier Language Model Intelligence, Over Time",
+        "Artificial Analysis Intelligence Index"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/frontier-language-model-intelligence.webp?v=2026-07-10T08%3A17%3A02.954Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/frontier-language-model-intelligence.webp?v=2026-07-10T08%3A17%3A02.954Z",
+          "manifestUrl": "/assets/story-atlases/frontier-language-model-intelligence.json?v=2026-07-10T08%3A17%3A02.954Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/frontier-language-model-intelligence.json?v=2026-07-10T08%3A17%3A02.954Z",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.333333,
+          "u1": 0.75,
+          "v1": 0.666667
+        },
+        "image": {
+          "sourceUrl": "https://artificialanalysis.ai/img/logos/anthropic_small.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "artificial-analysis"
+        }
+      }
+    },
+    {
+      "id": "aa-gpt-5-6-luna",
+      "name": "GPT-5.6 Luna (max)",
+      "shortName": "GPT-5.6 Luna (max)",
+      "value": 51.2,
+      "rank": 8,
+      "color": "#1f1f1f",
+      "image": "https://artificialanalysis.ai/img/logos/openai_small.svg",
+      "storyUrl": "/stories/frontier-language-model-intelligence/",
+      "sourceIds": [
+        "Frontier Language Model Intelligence, Over Time",
+        "Artificial Analysis Intelligence Index"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/frontier-language-model-intelligence.webp?v=2026-07-10T08%3A17%3A02.954Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/frontier-language-model-intelligence.webp?v=2026-07-10T08%3A17%3A02.954Z",
+          "manifestUrl": "/assets/story-atlases/frontier-language-model-intelligence.json?v=2026-07-10T08%3A17%3A02.954Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/frontier-language-model-intelligence.json?v=2026-07-10T08%3A17%3A02.954Z",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.333333,
+          "u1": 1,
+          "v1": 0.666667
+        },
+        "image": {
+          "sourceUrl": "https://artificialanalysis.ai/img/logos/openai_small.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "artificial-analysis"
+        }
+      }
+    },
+    {
+      "id": "aa-glm-5-2",
+      "name": "GLM-5.2 (max)",
+      "shortName": "GLM-5.2 (max)",
+      "value": 51.1,
+      "rank": 9,
+      "color": "#1c7ff8",
+      "image": "https://artificialanalysis.ai/img/logos/zai_small.svg",
+      "storyUrl": "/stories/frontier-language-model-intelligence/",
+      "sourceIds": [
+        "Frontier Language Model Intelligence, Over Time",
+        "Artificial Analysis Intelligence Index"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/frontier-language-model-intelligence.webp?v=2026-07-10T08%3A17%3A02.954Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/frontier-language-model-intelligence.webp?v=2026-07-10T08%3A17%3A02.954Z",
+          "manifestUrl": "/assets/story-atlases/frontier-language-model-intelligence.json?v=2026-07-10T08%3A17%3A02.954Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/frontier-language-model-intelligence.json?v=2026-07-10T08%3A17%3A02.954Z",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.666667,
+          "u1": 0.25,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://artificialanalysis.ai/img/logos/zai_small.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "artificial-analysis"
+        }
+      }
+    },
+    {
+      "id": "aa-gemini-3-5-flash",
+      "name": "Gemini 3.5 Flash (high)",
+      "shortName": "Gemini 3.5 Flash",
+      "value": 50.2,
+      "rank": 10,
+      "color": "#34A853",
+      "image": "https://artificialanalysis.ai/img/logos/google_small.svg",
+      "storyUrl": "/stories/frontier-language-model-intelligence/",
+      "sourceIds": [
+        "Frontier Language Model Intelligence, Over Time",
+        "Artificial Analysis Intelligence Index"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/frontier-language-model-intelligence.webp?v=2026-07-10T08%3A17%3A02.954Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/frontier-language-model-intelligence.webp?v=2026-07-10T08%3A17%3A02.954Z",
+          "manifestUrl": "/assets/story-atlases/frontier-language-model-intelligence.json?v=2026-07-10T08%3A17%3A02.954Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/frontier-language-model-intelligence.json?v=2026-07-10T08%3A17%3A02.954Z",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.666667,
+          "u1": 0.5,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://artificialanalysis.ai/img/logos/google_small.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "artificial-analysis"
+        }
+      }
+    },
+    {
+      "id": "aa-gemini-3-1-pro-preview",
+      "name": "Gemini 3.1 Pro Preview",
+      "shortName": "Gemini 3.1 Pro Preview",
+      "value": 46.5,
+      "rank": 11,
+      "color": "#34A853",
+      "image": "https://artificialanalysis.ai/img/logos/google_small.svg",
+      "storyUrl": "/stories/frontier-language-model-intelligence/",
+      "sourceIds": [
+        "Frontier Language Model Intelligence, Over Time",
+        "Artificial Analysis Intelligence Index"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/frontier-language-model-intelligence.webp?v=2026-07-10T08%3A17%3A02.954Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/frontier-language-model-intelligence.webp?v=2026-07-10T08%3A17%3A02.954Z",
+          "manifestUrl": "/assets/story-atlases/frontier-language-model-intelligence.json?v=2026-07-10T08%3A17%3A02.954Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/frontier-language-model-intelligence.json?v=2026-07-10T08%3A17%3A02.954Z",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.666667,
+          "u1": 0.75,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://artificialanalysis.ai/img/logos/google_small.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "artificial-analysis"
+        }
+      }
+    },
+    {
+      "id": "aa-qwen3-7-max",
+      "name": "Qwen3.7 Max",
+      "shortName": "Qwen3.7 Max",
+      "value": 46,
+      "rank": 12,
+      "color": "#ff7018",
+      "image": "https://artificialanalysis.ai/img/logos/alibaba_small.svg",
+      "storyUrl": "/stories/frontier-language-model-intelligence/",
+      "sourceIds": [
+        "Frontier Language Model Intelligence, Over Time",
+        "Artificial Analysis Intelligence Index"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/frontier-language-model-intelligence.webp?v=2026-07-10T08%3A17%3A02.954Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/frontier-language-model-intelligence.webp?v=2026-07-10T08%3A17%3A02.954Z",
+          "manifestUrl": "/assets/story-atlases/frontier-language-model-intelligence.json?v=2026-07-10T08%3A17%3A02.954Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/frontier-language-model-intelligence.json?v=2026-07-10T08%3A17%3A02.954Z",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.666667,
+          "u1": 1,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://artificialanalysis.ai/img/logos/alibaba_small.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "artificial-analysis"
+        }
+      }
+    }
+  ]
+}

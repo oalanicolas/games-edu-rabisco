@@ -13,7 +13,7 @@ export async function prepareOffline(status) {
       });
     });
     await navigator.serviceWorker.ready;
-    if (status) status.textContent = 'Materiais disponíveis sem internet neste endereço. Teste antes da aula; os links externos precisam de conexão.';
+    if (status) status.textContent = 'Materiais disponíveis sem internet neste endereço. Teste antes da aula; dados ao vivo, rádio e serviços externos precisam de conexão.';
   } catch {
     if (status) status.textContent = 'Os materiais ainda não foram guardados para uso offline. Verifique a conexão e recarregue antes da aula.';
   }

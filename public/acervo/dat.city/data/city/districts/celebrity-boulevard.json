@@ -1,0 +1,763 @@
+{
+  "schemaVersion": 1,
+  "contentKind": "dat-city.district",
+  "version": 1,
+  "generatedAt": "2026-07-10T07:52:11.714Z",
+  "versionId": "20260710T075211Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "manual",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-07-10T07:52:11.714Z",
+    "versionId": "20260710T075211Z",
+    "adapter": null,
+    "storySlug": "internet-obsession-meter",
+    "districtId": "celebrity-boulevard",
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "id": "celebrity-boulevard",
+  "name": "Viral Attention Boulevard",
+  "storySlug": "internet-obsession-meter",
+  "storyUrl": "/stories/internet-obsession-meter/",
+  "publicStoryUrl": "/stories/internet-obsession-meter.json",
+  "metric": "Daily pageviews",
+  "metricKey": "daily-pageviews",
+  "latestFrameLabel": "2026-07-08",
+  "summary": "Wikipedia attention spikes for mass-interest people, games, movies, products, teams, and events.",
+  "taxonomy": {
+    "primaryCategory": "culture",
+    "categories": [
+      "culture",
+      "internet",
+      "attention"
+    ],
+    "tags": [
+      "wikipedia-pageviews",
+      "celebrities",
+      "events",
+      "trends"
+    ],
+    "entityTypes": [
+      "person",
+      "event",
+      "topic"
+    ],
+    "sourceTypes": [
+      "wikimedia"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "k-pop-attention",
+      "type": "shared-attention-source",
+      "weight": 0.86,
+      "reason": "Both use Wikimedia pageviews to measure cultural attention."
+    },
+    {
+      "target": "top-youtubers",
+      "type": "internet-popularity",
+      "weight": 0.74,
+      "reason": "Both rank online attention and creator/media prominence."
+    },
+    {
+      "target": "what-everyone-is-watching",
+      "type": "culture-trends",
+      "weight": 0.68,
+      "reason": "Both show what audiences are paying attention to."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "culture-attention",
+    "mainland": "culture",
+    "bridgePriority": [
+      "k-pop-attention",
+      "top-youtubers"
+    ]
+  },
+  "thumbnail": "/assets/og/dat-city.webp",
+  "status": "fresh",
+  "lastObservationDate": "2026-07-08",
+  "nextRefreshAt": "2026-07-11T06:00:00.000Z",
+  "confidence": "Observed daily English Wikipedia article pageviews through 2026-07-08. Skipped 1 missing or renamed configured article(s).",
+  "methodology": "This story is generated from the Wikimedia Pageviews API for selected high-interest English Wikipedia articles. Values are daily all-access, user-agent-filtered pageviews. The story publishes a render-ready projection and keeps raw API responses out of the public payload.",
+  "sources": [
+    {
+      "title": "Page view analytics",
+      "publisher": "Wikimedia Analytics API",
+      "url": "https://doc.wikimedia.org/generated-data-platform/aqs/analytics-api/reference/page-views.html",
+      "note": "Target official API for daily article pageview time series."
+    }
+  ],
+  "media": {
+    "imageFit": "contain",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-07-10T07:52:11.714Z",
+    "atlasUrl": "/assets/story-atlases/internet-obsession-meter.webp?v=2026-07-10T07%3A52%3A11.714Z",
+    "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/internet-obsession-meter.webp?v=2026-07-10T07%3A52%3A11.714Z",
+    "manifestUrl": "/assets/story-atlases/internet-obsession-meter.json?v=2026-07-10T07%3A52%3A11.714Z",
+    "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/internet-obsession-meter.json?v=2026-07-10T07%3A52%3A11.714Z",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 5,
+    "rows": 4,
+    "width": 1600,
+    "height": 1280,
+    "itemCount": 20,
+    "sourcedImageCount": 20,
+    "generatedImageCount": 0,
+    "placeholderCount": 0
+  },
+  "entities": [
+    {
+      "id": "lionel-messi",
+      "name": "Lionel Messi",
+      "value": 237184,
+      "rank": 1,
+      "color": "#9aa4b2",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Lionel_Messi_NE_Revolution_Inter_Miami_7.9.25-178.jpg/960px-Lionel_Messi_NE_Revolution_Inter_Miami_7.9.25-178.jpg",
+      "storyUrl": "/stories/internet-obsession-meter/",
+      "sourceIds": [
+        "Page view analytics"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/internet-obsession-meter.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/internet-obsession-meter.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/internet-obsession-meter.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/internet-obsession-meter.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0,
+          "u1": 0.4,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Lionel_Messi_NE_Revolution_Inter_Miami_7.9.25-178.jpg/960px-Lionel_Messi_NE_Revolution_Inter_Miami_7.9.25-178.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "cristiano-ronaldo",
+      "name": "Cristiano Ronaldo",
+      "value": 212833,
+      "rank": 2,
+      "color": "#e34f59",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Cristiano_Ronaldo_2275_%28cropped%29.jpg/960px-Cristiano_Ronaldo_2275_%28cropped%29.jpg",
+      "storyUrl": "/stories/internet-obsession-meter/",
+      "sourceIds": [
+        "Page view analytics"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/internet-obsession-meter.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/internet-obsession-meter.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/internet-obsession-meter.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/internet-obsession-meter.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.2,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Cristiano_Ronaldo_2275_%28cropped%29.jpg/960px-Cristiano_Ronaldo_2275_%28cropped%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "fifa-world-cup",
+      "name": "FIFA World Cup",
+      "value": 158204,
+      "rank": 3,
+      "color": "#8f6bff",
+      "image": "https://cdn.simpleicons.org/fifa",
+      "storyUrl": "/stories/internet-obsession-meter/",
+      "sourceIds": [
+        "Page view analytics"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/internet-obsession-meter.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/internet-obsession-meter.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/internet-obsession-meter.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/internet-obsession-meter.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0,
+          "u1": 0.8,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/fifa",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "value": 96608,
+      "rank": 4,
+      "color": "#00a6ff",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/OpenAI_logo_2025_%28symbol%29.svg/960px-OpenAI_logo_2025_%28symbol%29.svg.png",
+      "storyUrl": "/stories/internet-obsession-meter/",
+      "sourceIds": [
+        "Page view analytics"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/internet-obsession-meter.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/internet-obsession-meter.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/internet-obsession-meter.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/internet-obsession-meter.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.25,
+          "u1": 0.2,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/OpenAI_logo_2025_%28symbol%29.svg/960px-OpenAI_logo_2025_%28symbol%29.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "taylor-swift",
+      "name": "Taylor Swift",
+      "value": 44975,
+      "rank": 5,
+      "color": "#ffc84a",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%283%29.png/960px-Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%283%29.png",
+      "storyUrl": "/stories/internet-obsession-meter/",
+      "sourceIds": [
+        "Page view analytics"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/internet-obsession-meter.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/internet-obsession-meter.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/internet-obsession-meter.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/internet-obsession-meter.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0,
+          "u1": 0.6,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%283%29.png/960px-Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%283%29.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "donald-trump",
+      "name": "Donald Trump",
+      "value": 39613,
+      "rank": 6,
+      "color": "#c9a14a",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29_%28cropped%29%282%29.jpg/960px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29_%28cropped%29%282%29.jpg",
+      "storyUrl": "/stories/internet-obsession-meter/",
+      "sourceIds": [
+        "Page view analytics"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/internet-obsession-meter.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/internet-obsession-meter.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/internet-obsession-meter.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/internet-obsession-meter.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 1280,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29_%28cropped%29%282%29.jpg/960px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29_%28cropped%29%282%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "instagram",
+      "name": "Instagram",
+      "value": 31496,
+      "rank": 7,
+      "color": "#ff5a61",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/960px-Instagram_logo_2022.svg.png",
+      "storyUrl": "/stories/internet-obsession-meter/",
+      "sourceIds": [
+        "Page view analytics"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/internet-obsession-meter.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/internet-obsession-meter.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/internet-obsession-meter.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/internet-obsession-meter.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.25,
+          "u1": 0.4,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/960px-Instagram_logo_2022.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "google",
+      "name": "Google",
+      "value": 17733,
+      "rank": 8,
+      "color": "#ffc84a",
+      "image": "https://cdn.simpleicons.org/google",
+      "storyUrl": "/stories/internet-obsession-meter/",
+      "sourceIds": [
+        "Page view analytics"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/internet-obsession-meter.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/internet-obsession-meter.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/internet-obsession-meter.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/internet-obsession-meter.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.25,
+          "u1": 0.6,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/google",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "oppenheimer",
+      "name": "Oppenheimer",
+      "value": 10341,
+      "rank": 9,
+      "color": "#18c871",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Oppenheimer_logo.svg",
+      "storyUrl": "/stories/internet-obsession-meter/",
+      "sourceIds": [
+        "Page view analytics"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/internet-obsession-meter.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/internet-obsession-meter.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/internet-obsession-meter.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/internet-obsession-meter.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 1280,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.5,
+          "u1": 1,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Oppenheimer_logo.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "tiktok",
+      "name": "TikTok",
+      "value": 9024,
+      "rank": 10,
+      "color": "#18c871",
+      "image": "https://cdn.simpleicons.org/tiktok",
+      "storyUrl": "/stories/internet-obsession-meter/",
+      "sourceIds": [
+        "Page view analytics"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/internet-obsession-meter.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/internet-obsession-meter.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/internet-obsession-meter.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/internet-obsession-meter.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.25,
+          "u1": 0.8,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/tiktok",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "beyonce",
+      "name": "Beyonce",
+      "value": 7468,
+      "rank": 11,
+      "color": "#ef426f",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Beyonc%C3%A9_-_Tottenham_Hotspur_Stadium_-_1st_June_2023_%2810_of_118%29_%2852946364598%29_%28best_crop%29.jpg",
+      "storyUrl": "/stories/internet-obsession-meter/",
+      "sourceIds": [
+        "Page view analytics"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/internet-obsession-meter.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/internet-obsession-meter.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/internet-obsession-meter.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/internet-obsession-meter.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.5,
+          "u1": 0.6,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Beyonc%C3%A9_-_Tottenham_Hotspur_Stadium_-_1st_June_2023_%2810_of_118%29_%2852946364598%29_%28best_crop%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "minecraft",
+      "name": "Minecraft",
+      "value": 5324,
+      "rank": 12,
+      "color": "#2f4858",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Minecraft_Logo-en.svg",
+      "storyUrl": "/stories/internet-obsession-meter/",
+      "sourceIds": [
+        "Page view analytics"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/internet-obsession-meter.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/internet-obsession-meter.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/internet-obsession-meter.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/internet-obsession-meter.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.5,
+          "u1": 0.8,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Minecraft_Logo-en.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "drake",
+      "name": "Drake",
+      "value": 5283,
+      "rank": 13,
+      "color": "#8f6bff",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/15/Drake_at_The_Carter_Effect_2017_%2836818935200%29_%28cropped%29.jpg",
+      "storyUrl": "/stories/internet-obsession-meter/",
+      "sourceIds": [
+        "Page view analytics"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/internet-obsession-meter.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/internet-obsession-meter.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/internet-obsession-meter.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/internet-obsession-meter.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 1280,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.25,
+          "u1": 1,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Drake_at_The_Carter_Effect_2017_%2836818935200%29_%28cropped%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "olympic-games",
+      "name": "Olympic Games",
+      "value": 3223,
+      "rank": 14,
+      "color": "#41a99f",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Olympic_rings_without_rims.svg/960px-Olympic_rings_without_rims.svg.png",
+      "storyUrl": "/stories/internet-obsession-meter/",
+      "sourceIds": [
+        "Page view analytics"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/internet-obsession-meter.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/internet-obsession-meter.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/internet-obsession-meter.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/internet-obsession-meter.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.5,
+          "u1": 0.2,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Olympic_rings_without_rims.svg/960px-Olympic_rings_without_rims.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "tesla",
+      "name": "Tesla",
+      "value": 2992,
+      "rank": 15,
+      "color": "#00a6ff",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Tesla_Motors.svg/960px-Tesla_Motors.svg.png",
+      "storyUrl": "/stories/internet-obsession-meter/",
+      "sourceIds": [
+        "Page view analytics"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/internet-obsession-meter.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/internet-obsession-meter.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/internet-obsession-meter.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/internet-obsession-meter.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.75,
+          "u1": 0.2,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Tesla_Motors.svg/960px-Tesla_Motors.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "elden-ring",
+      "name": "Elden Ring",
+      "value": 2289,
+      "rank": 16,
+      "color": "#f18c4f",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Elden_Ring_logo_black.svg",
+      "storyUrl": "/stories/internet-obsession-meter/",
+      "sourceIds": [
+        "Page view analytics"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/internet-obsession-meter.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/internet-obsession-meter.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/internet-obsession-meter.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/internet-obsession-meter.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.75,
+          "u1": 0.4,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Elden_Ring_logo_black.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "super-bowl",
+      "name": "Super Bowl",
+      "value": 1912,
+      "rank": 17,
+      "color": "#d78fca",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Super_Bowl_rings_on_display.jpg/960px-Super_Bowl_rings_on_display.jpg",
+      "storyUrl": "/stories/internet-obsession-meter/",
+      "sourceIds": [
+        "Page view analytics"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/internet-obsession-meter.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/internet-obsession-meter.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/internet-obsession-meter.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/internet-obsession-meter.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.5,
+          "u1": 0.4,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Super_Bowl_rings_on_display.jpg/960px-Super_Bowl_rings_on_display.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "fortnite",
+      "name": "Fortnite",
+      "value": 1666,
+      "rank": 18,
+      "color": "#86bdf4",
+      "image": "https://cdn.simpleicons.org/fortnite",
+      "storyUrl": "/stories/internet-obsession-meter/",
+      "sourceIds": [
+        "Page view analytics"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/internet-obsession-meter.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/internet-obsession-meter.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/internet-obsession-meter.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/internet-obsession-meter.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.75,
+          "u1": 0.8,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/fortnite",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "barbie",
+      "name": "Barbie",
+      "value": 1190,
+      "rank": 19,
+      "color": "#ff5a61",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Barbie_Logo.svg/960px-Barbie_Logo.svg.png",
+      "storyUrl": "/stories/internet-obsession-meter/",
+      "sourceIds": [
+        "Page view analytics"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/internet-obsession-meter.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/internet-obsession-meter.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/internet-obsession-meter.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/internet-obsession-meter.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 1280,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.75,
+          "u1": 1,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Barbie_Logo.svg/960px-Barbie_Logo.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    }
+  ]
+}

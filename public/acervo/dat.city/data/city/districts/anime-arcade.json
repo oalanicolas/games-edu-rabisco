@@ -1,0 +1,822 @@
+{
+  "schemaVersion": 1,
+  "contentKind": "dat-city.district",
+  "version": 1,
+  "generatedAt": "2026-07-10T07:52:11.714Z",
+  "versionId": "20260710T075211Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "manual",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-07-10T07:52:11.714Z",
+    "versionId": "20260710T075211Z",
+    "adapter": null,
+    "storySlug": "anime-rankings",
+    "districtId": "anime-arcade",
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "id": "anime-arcade",
+  "name": "Anime Arcade",
+  "storySlug": "anime-rankings",
+  "storyUrl": "/stories/anime-rankings/",
+  "publicStoryUrl": "/stories/anime-rankings.json",
+  "metric": "MAL score x100",
+  "metricKey": "mal-score-x100",
+  "latestFrameLabel": "2026-07-10",
+  "summary": "Top anime ranking snapshots from MyAnimeList via the public Jikan API.",
+  "taxonomy": {
+    "primaryCategory": "entertainment",
+    "categories": [
+      "entertainment",
+      "anime",
+      "fandom"
+    ],
+    "tags": [
+      "anime",
+      "myanimelist",
+      "jikan",
+      "rankings"
+    ],
+    "entityTypes": [
+      "anime-title"
+    ],
+    "sourceTypes": [
+      "jikan",
+      "myanimelist"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "what-everyone-is-watching",
+      "type": "screen-entertainment",
+      "weight": 0.7,
+      "reason": "Both rank screen entertainment titles."
+    },
+    {
+      "target": "games-people-are-playing",
+      "type": "fandom-entertainment",
+      "weight": 0.62,
+      "reason": "Anime and games share fandom and pop-culture audiences."
+    },
+    {
+      "target": "k-pop-attention",
+      "type": "fandom-culture",
+      "weight": 0.58,
+      "reason": "Both are fandom-heavy pop culture rankings."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "screen-entertainment",
+    "mainland": "culture",
+    "bridgePriority": [
+      "what-everyone-is-watching",
+      "games-people-are-playing"
+    ]
+  },
+  "thumbnail": "/assets/og/dat-city.webp",
+  "status": "fresh",
+  "lastObservationDate": "2026-07-10",
+  "nextRefreshAt": "2026-07-11T07:00:00.000Z",
+  "confidence": "Observed Jikan/MyAnimeList top anime rankings at 2026-07-10T07:55:08.057Z.",
+  "methodology": "This adapter reads Jikan's public top anime endpoint, which mirrors MyAnimeList rankings. Scores are multiplied by 100 for the race metric while raw score, rank, popularity, and member counts remain attached to frame values. Scheduled runs append snapshots so changes in rankings can be replayed over time.",
+  "sources": [
+    {
+      "title": "Top Anime",
+      "publisher": "Jikan API",
+      "url": "https://docs.jikan.moe/usage/top/anime/",
+      "note": "Target public endpoint for top anime rankings."
+    },
+    {
+      "title": "Top Anime",
+      "publisher": "MyAnimeList",
+      "url": "https://myanimelist.net/topanime.php",
+      "note": "Underlying community ranking source mirrored by Jikan."
+    }
+  ],
+  "media": {
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-07-10T07:52:11.714Z",
+    "atlasUrl": "/assets/story-atlases/anime-rankings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+    "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/anime-rankings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+    "manifestUrl": "/assets/story-atlases/anime-rankings.json?v=2026-07-10T07%3A52%3A11.714Z",
+    "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/anime-rankings.json?v=2026-07-10T07%3A52%3A11.714Z",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "imageFit": "cover",
+    "columns": 5,
+    "rows": 4,
+    "width": 1600,
+    "height": 1280,
+    "itemCount": 20,
+    "sourcedImageCount": 20,
+    "generatedImageCount": 0,
+    "placeholderCount": 0
+  },
+  "entities": [
+    {
+      "id": "mal-52991",
+      "name": "Frieren: Beyond Journey's End",
+      "value": 926,
+      "rank": 1,
+      "color": "#ff5a61",
+      "image": "https://cdn.myanimelist.net/images/anime/1015/138006l.jpg",
+      "storyUrl": "/stories/anime-rankings/",
+      "sourceIds": [
+        "Top Anime",
+        "Top Anime"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/anime-rankings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/anime-rankings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/anime-rankings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/anime-rankings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.2,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://cdn.myanimelist.net/images/anime/1015/138006l.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "mal-61316",
+      "name": "Re:ZERO -Starting Life in Another World- Season 4",
+      "value": 918,
+      "rank": 2,
+      "color": "#f18c4f",
+      "image": "https://cdn.myanimelist.net/images/anime/1540/155824l.jpg",
+      "storyUrl": "/stories/anime-rankings/",
+      "sourceIds": [
+        "Top Anime",
+        "Top Anime"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/anime-rankings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/anime-rankings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/anime-rankings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/anime-rankings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0,
+          "u1": 0.4,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://cdn.myanimelist.net/images/anime/1540/155824l.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "mal-5114",
+      "name": "Fullmetal Alchemist: Brotherhood",
+      "value": 911,
+      "rank": 3,
+      "color": "#ffc84a",
+      "image": "https://cdn.myanimelist.net/images/anime/1208/94745l.jpg",
+      "storyUrl": "/stories/anime-rankings/",
+      "sourceIds": [
+        "Top Anime",
+        "Top Anime"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/anime-rankings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/anime-rankings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/anime-rankings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/anime-rankings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0,
+          "u1": 0.8,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://cdn.myanimelist.net/images/anime/1208/94745l.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "mal-61469",
+      "name": "Steel Ball Run: JoJo's Bizarre Adventure",
+      "value": 910,
+      "rank": 4,
+      "color": "#18c871",
+      "image": "https://cdn.myanimelist.net/images/anime/1448/154111l.jpg",
+      "storyUrl": "/stories/anime-rankings/",
+      "sourceIds": [
+        "Top Anime",
+        "Top Anime"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/anime-rankings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/anime-rankings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/anime-rankings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/anime-rankings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0,
+          "u1": 0.6,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://cdn.myanimelist.net/images/anime/1448/154111l.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "mal-9253",
+      "name": "Steins;Gate",
+      "value": 907,
+      "rank": 5,
+      "color": "#8f6bff",
+      "image": "https://cdn.myanimelist.net/images/anime/1935/127974l.jpg",
+      "storyUrl": "/stories/anime-rankings/",
+      "sourceIds": [
+        "Top Anime",
+        "Top Anime"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/anime-rankings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/anime-rankings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/anime-rankings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/anime-rankings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.25,
+          "u1": 0.2,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://cdn.myanimelist.net/images/anime/1935/127974l.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "mal-57555",
+      "name": "Chainsaw Man – The Movie: Reze Arc",
+      "value": 906,
+      "rank": 6,
+      "color": "#00a6ff",
+      "image": "https://cdn.myanimelist.net/images/anime/1763/150638l.jpg",
+      "storyUrl": "/stories/anime-rankings/",
+      "sourceIds": [
+        "Top Anime",
+        "Top Anime"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/anime-rankings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/anime-rankings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/anime-rankings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/anime-rankings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 1280,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://cdn.myanimelist.net/images/anime/1763/150638l.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "mal-39486",
+      "name": "Gintama: The Very Final",
+      "value": 905,
+      "rank": 7,
+      "color": "#f18c4f",
+      "image": "https://cdn.myanimelist.net/images/anime/1245/116760l.jpg",
+      "storyUrl": "/stories/anime-rankings/",
+      "sourceIds": [
+        "Top Anime",
+        "Top Anime"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/anime-rankings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/anime-rankings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/anime-rankings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/anime-rankings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.25,
+          "u1": 0.4,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://cdn.myanimelist.net/images/anime/1245/116760l.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "mal-38524",
+      "name": "Attack on Titan Season 3 Part 2",
+      "value": 905,
+      "rank": 8,
+      "color": "#41a99f",
+      "image": "https://cdn.myanimelist.net/images/anime/1517/100633l.jpg",
+      "storyUrl": "/stories/anime-rankings/",
+      "sourceIds": [
+        "Top Anime",
+        "Top Anime"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/anime-rankings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/anime-rankings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/anime-rankings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/anime-rankings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.25,
+          "u1": 0.6,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://cdn.myanimelist.net/images/anime/1517/100633l.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "mal-28977",
+      "name": "Gintama Season 4",
+      "value": 905,
+      "rank": 9,
+      "color": "#d78fca",
+      "image": "https://cdn.myanimelist.net/images/anime/3/72078l.jpg",
+      "storyUrl": "/stories/anime-rankings/",
+      "sourceIds": [
+        "Top Anime",
+        "Top Anime"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/anime-rankings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/anime-rankings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/anime-rankings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/anime-rankings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.25,
+          "u1": 0.8,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://cdn.myanimelist.net/images/anime/3/72078l.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "mal-11061",
+      "name": "Hunter x Hunter",
+      "value": 903,
+      "rank": 10,
+      "color": "#7b9b65",
+      "image": "https://cdn.myanimelist.net/images/anime/1337/99013l.jpg",
+      "storyUrl": "/stories/anime-rankings/",
+      "sourceIds": [
+        "Top Anime",
+        "Top Anime"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/anime-rankings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/anime-rankings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/anime-rankings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/anime-rankings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 1280,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.25,
+          "u1": 1,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://cdn.myanimelist.net/images/anime/1337/99013l.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "mal-9969",
+      "name": "Gintama Season 2",
+      "value": 902,
+      "rank": 11,
+      "color": "#2f4858",
+      "image": "https://cdn.myanimelist.net/images/anime/4/50361l.jpg",
+      "storyUrl": "/stories/anime-rankings/",
+      "sourceIds": [
+        "Top Anime",
+        "Top Anime"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/anime-rankings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/anime-rankings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/anime-rankings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/anime-rankings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.5,
+          "u1": 0.2,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://cdn.myanimelist.net/images/anime/4/50361l.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "mal-15417",
+      "name": "Gintama: Enchousen",
+      "value": 902,
+      "rank": 12,
+      "color": "#ef426f",
+      "image": "https://cdn.myanimelist.net/images/anime/1452/123686l.jpg",
+      "storyUrl": "/stories/anime-rankings/",
+      "sourceIds": [
+        "Top Anime",
+        "Top Anime"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/anime-rankings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/anime-rankings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/anime-rankings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/anime-rankings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.5,
+          "u1": 0.4,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://cdn.myanimelist.net/images/anime/1452/123686l.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "mal-820",
+      "name": "Legend of the Galactic Heroes",
+      "value": 902,
+      "rank": 13,
+      "color": "#86bdf4",
+      "image": "https://cdn.myanimelist.net/images/anime/1976/142016l.jpg",
+      "storyUrl": "/stories/anime-rankings/",
+      "sourceIds": [
+        "Top Anime",
+        "Top Anime"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/anime-rankings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/anime-rankings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/anime-rankings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/anime-rankings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.5,
+          "u1": 0.6,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://cdn.myanimelist.net/images/anime/1976/142016l.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "mal-60022",
+      "name": "One Piece Fan Letter",
+      "value": 901,
+      "rank": 14,
+      "color": "#c9a14a",
+      "image": "https://cdn.myanimelist.net/images/anime/1455/146229l.jpg",
+      "storyUrl": "/stories/anime-rankings/",
+      "sourceIds": [
+        "Top Anime",
+        "Top Anime"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/anime-rankings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/anime-rankings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/anime-rankings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/anime-rankings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.5,
+          "u1": 0.8,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://cdn.myanimelist.net/images/anime/1455/146229l.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "mal-34096",
+      "name": "Gintama Season 5",
+      "value": 898,
+      "rank": 15,
+      "color": "#e34f59",
+      "image": "https://cdn.myanimelist.net/images/anime/3/83528l.jpg",
+      "storyUrl": "/stories/anime-rankings/",
+      "sourceIds": [
+        "Top Anime",
+        "Top Anime"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/anime-rankings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/anime-rankings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/anime-rankings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/anime-rankings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 1280,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.5,
+          "u1": 1,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://cdn.myanimelist.net/images/anime/3/83528l.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "mal-41467",
+      "name": "Bleach: Thousand-Year Blood War",
+      "value": 898,
+      "rank": 16,
+      "color": "#9aa4b2",
+      "image": "https://cdn.myanimelist.net/images/anime/1908/135431l.jpg",
+      "storyUrl": "/stories/anime-rankings/",
+      "sourceIds": [
+        "Top Anime",
+        "Top Anime"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/anime-rankings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/anime-rankings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/anime-rankings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/anime-rankings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.75,
+          "u1": 0.2,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://cdn.myanimelist.net/images/anime/1908/135431l.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "mal-59193",
+      "name": "Mushoku Tensei: Jobless Reincarnation Season 3",
+      "value": 898,
+      "rank": 17,
+      "color": "#41a99f",
+      "image": "https://cdn.myanimelist.net/images/anime/1527/158340l.jpg",
+      "storyUrl": "/stories/anime-rankings/",
+      "sourceIds": [
+        "Top Anime",
+        "Top Anime"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/anime-rankings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/anime-rankings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/anime-rankings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/anime-rankings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.75,
+          "u1": 0.4,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://cdn.myanimelist.net/images/anime/1527/158340l.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "mal-43608",
+      "name": "Kaguya-sama: Love is War -Ultra Romantic-",
+      "value": 895,
+      "rank": 18,
+      "color": "#ff5a61",
+      "image": "https://cdn.myanimelist.net/images/anime/1160/122627l.jpg",
+      "storyUrl": "/stories/anime-rankings/",
+      "sourceIds": [
+        "Top Anime",
+        "Top Anime"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/anime-rankings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/anime-rankings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/anime-rankings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/anime-rankings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.75,
+          "u1": 0.6,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://cdn.myanimelist.net/images/anime/1160/122627l.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "mal-42938",
+      "name": "Fruits Basket: The Final Season",
+      "value": 893,
+      "rank": 19,
+      "color": "#18c871",
+      "image": "https://cdn.myanimelist.net/images/anime/1085/114792l.jpg",
+      "storyUrl": "/stories/anime-rankings/",
+      "sourceIds": [
+        "Top Anime",
+        "Top Anime"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/anime-rankings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/anime-rankings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/anime-rankings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/anime-rankings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.75,
+          "u1": 0.8,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://cdn.myanimelist.net/images/anime/1085/114792l.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "mal-4181",
+      "name": "Clannad: After Story",
+      "value": 893,
+      "rank": 20,
+      "color": "#ffc84a",
+      "image": "https://cdn.myanimelist.net/images/anime/1299/110774l.jpg",
+      "storyUrl": "/stories/anime-rankings/",
+      "sourceIds": [
+        "Top Anime",
+        "Top Anime"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/anime-rankings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/anime-rankings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/anime-rankings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/anime-rankings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 1280,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.75,
+          "u1": 1,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://cdn.myanimelist.net/images/anime/1299/110774l.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    }
+  ]
+}

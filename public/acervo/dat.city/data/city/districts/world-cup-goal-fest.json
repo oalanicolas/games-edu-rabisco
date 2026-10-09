@@ -1,0 +1,736 @@
+{
+  "schemaVersion": 1,
+  "contentKind": "dat-city.district",
+  "version": 1,
+  "generatedAt": "2026-07-20T08:42:47.787Z",
+  "versionId": "20260720T084247Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "manual",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-07-20T08:42:47.787Z",
+    "versionId": "20260720T084247Z",
+    "adapter": null,
+    "storySlug": "world-cup-tournament-goal-fests",
+    "districtId": "world-cup-goal-fest",
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "id": "world-cup-goal-fest",
+  "name": "World Cup Goal Fest",
+  "storySlug": "world-cup-tournament-goal-fests",
+  "storyUrl": "/stories/world-cup-tournament-goal-fests/",
+  "publicStoryUrl": "/stories/world-cup-tournament-goal-fests.json",
+  "metric": "Tournament goals",
+  "metricKey": "tournament-goals",
+  "latestFrameLabel": "Through the 2026 final",
+  "summary": "The highest-scoring men's World Cup tournaments by total goals.",
+  "taxonomy": {
+    "primaryCategory": "sports",
+    "categories": [
+      "sports",
+      "football",
+      "history"
+    ],
+    "tags": [
+      "world-cup",
+      "fifa",
+      "goals",
+      "tournaments"
+    ],
+    "entityTypes": [
+      "tournament"
+    ],
+    "sourceTypes": [
+      "wikipedia"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "world-cup-golden-boot-peaks",
+      "type": "scoring-context",
+      "weight": 0.58,
+      "reason": "Tournament goal volume frames the individual scoring peaks."
+    },
+    {
+      "target": "world-cup-attendance-kings",
+      "type": "tournament-scale",
+      "weight": 0.52,
+      "reason": "Both rank whole tournaments rather than teams or players."
+    },
+    {
+      "target": "world-cup-2026-host-venues",
+      "type": "world-cup-footprint",
+      "weight": 0.38,
+      "reason": "Venue capacity helps frame how future tournaments could scale total goals and crowds."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "world-cup-records",
+    "mainland": "world-cup",
+    "bridgePriority": [
+      "world-cup-golden-boot-peaks",
+      "world-cup-attendance-kings"
+    ]
+  },
+  "thumbnail": "/assets/og/dat-city.webp",
+  "status": "fresh",
+  "dataUpdatedAt": "2026-07-20T08:42:47.787Z",
+  "staleAfterHours": 3120,
+  "dormant": false,
+  "lastObservationDate": "2026-07-19",
+  "nextRefreshAt": "2026-07-21T06:00:00.000Z",
+  "confidence": "Tournament goal totals cover completed men's World Cups through 2026. The 48-team, 104-match 2026 tournament set an all-time record with 308 goals.",
+  "methodology": "The adapter ranks men's World Cup tournaments by total goals scored across the full tournament, including the 2026 total from FIFA match data.",
+  "sources": [
+    {
+      "title": "FIFA World Cup records and statistics",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/FIFA_World_Cup_records_and_statistics",
+      "note": "Historical tournament, attendance, goal, player, and team record tables."
+    },
+    {
+      "title": "FIFA World Cup 2026 match calendar and results",
+      "publisher": "FIFA",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+      "note": "Official 104-match calendar API (competition 17, season 285023) supplying final results, per-match attendance, and the 48-team field."
+    }
+  ],
+  "media": {
+    "imageFit": "contain-blur",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-07-20T08:42:47.787Z",
+    "atlasUrl": "/assets/story-atlases/world-cup-tournament-goal-fests.webp?v=2026-07-20T08%3A42%3A47.787Z",
+    "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-tournament-goal-fests.webp?v=2026-07-20T08%3A42%3A47.787Z",
+    "manifestUrl": "/assets/story-atlases/world-cup-tournament-goal-fests.json?v=2026-07-20T08%3A42%3A47.787Z",
+    "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-tournament-goal-fests.json?v=2026-07-20T08%3A42%3A47.787Z",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 5,
+    "rows": 4,
+    "width": 1600,
+    "height": 1280,
+    "itemCount": 17,
+    "sourcedImageCount": 17,
+    "generatedImageCount": 0,
+    "placeholderCount": 0
+  },
+  "entities": [
+    {
+      "id": "world-cup-2026",
+      "name": "2026 Canada/Mexico/USA",
+      "shortName": "2026",
+      "value": 308,
+      "rank": 1,
+      "color": "#18c871",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Spain_World_Cup_Winners_Argentina_v_Spain_19_July_2026-1.jpg/960px-Spain_World_Cup_Winners_Argentina_v_Spain_19_July_2026-1.jpg",
+      "storyUrl": "/stories/world-cup-tournament-goal-fests/",
+      "sourceIds": [
+        "FIFA World Cup records and statistics",
+        "FIFA World Cup 2026 match calendar and results"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-tournament-goal-fests.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-tournament-goal-fests.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-tournament-goal-fests.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-tournament-goal-fests.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.2,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Spain_World_Cup_Winners_Argentina_v_Spain_19_July_2026-1.jpg/960px-Spain_World_Cup_Winners_Argentina_v_Spain_19_July_2026-1.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "world-cup-2022",
+      "name": "2022 Qatar",
+      "shortName": "2022",
+      "value": 172,
+      "rank": 2,
+      "color": "#ffc84a",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Argentina_3-3_Francia_-_Copa_Mundial_2022_-_Argentina_campe%C3%B3n.jpg/960px-Argentina_3-3_Francia_-_Copa_Mundial_2022_-_Argentina_campe%C3%B3n.jpg",
+      "storyUrl": "/stories/world-cup-tournament-goal-fests/",
+      "sourceIds": [
+        "FIFA World Cup records and statistics",
+        "FIFA World Cup 2026 match calendar and results"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-tournament-goal-fests.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-tournament-goal-fests.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-tournament-goal-fests.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-tournament-goal-fests.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0,
+          "u1": 0.4,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Argentina_3-3_Francia_-_Copa_Mundial_2022_-_Argentina_campe%C3%B3n.jpg/960px-Argentina_3-3_Francia_-_Copa_Mundial_2022_-_Argentina_campe%C3%B3n.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "world-cup-1998",
+      "name": "1998 France",
+      "shortName": "1998",
+      "value": 171,
+      "rank": 3,
+      "color": "#00a6ff",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/1998_FIFA_World_Cup_France_%28Wordmark%29.svg/960px-1998_FIFA_World_Cup_France_%28Wordmark%29.svg.png",
+      "storyUrl": "/stories/world-cup-tournament-goal-fests/",
+      "sourceIds": [
+        "FIFA World Cup records and statistics",
+        "FIFA World Cup 2026 match calendar and results"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-tournament-goal-fests.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-tournament-goal-fests.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-tournament-goal-fests.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-tournament-goal-fests.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0,
+          "u1": 0.6,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/1998_FIFA_World_Cup_France_%28Wordmark%29.svg/960px-1998_FIFA_World_Cup_France_%28Wordmark%29.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "world-cup-2014",
+      "name": "2014 Brazil",
+      "shortName": "2014",
+      "value": 171,
+      "rank": 4,
+      "color": "#f3f7f0",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Germany_and_Argentina_face_off_in_the_final_of_the_World_Cup_2014_-2014-07-13_%285%29.jpg/960px-Germany_and_Argentina_face_off_in_the_final_of_the_World_Cup_2014_-2014-07-13_%285%29.jpg",
+      "storyUrl": "/stories/world-cup-tournament-goal-fests/",
+      "sourceIds": [
+        "FIFA World Cup records and statistics",
+        "FIFA World Cup 2026 match calendar and results"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-tournament-goal-fests.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-tournament-goal-fests.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-tournament-goal-fests.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-tournament-goal-fests.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0,
+          "u1": 0.8,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Germany_and_Argentina_face_off_in_the_final_of_the_World_Cup_2014_-2014-07-13_%285%29.jpg/960px-Germany_and_Argentina_face_off_in_the_final_of_the_World_Cup_2014_-2014-07-13_%285%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "world-cup-2018",
+      "name": "2018 Russia",
+      "shortName": "2018",
+      "value": 169,
+      "rank": 5,
+      "color": "#ff5a61",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/France_champion_of_the_Football_World_Cup_Russia_2018.jpg/960px-France_champion_of_the_Football_World_Cup_Russia_2018.jpg",
+      "storyUrl": "/stories/world-cup-tournament-goal-fests/",
+      "sourceIds": [
+        "FIFA World Cup records and statistics",
+        "FIFA World Cup 2026 match calendar and results"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-tournament-goal-fests.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-tournament-goal-fests.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-tournament-goal-fests.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-tournament-goal-fests.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 1280,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/France_champion_of_the_Football_World_Cup_Russia_2018.jpg/960px-France_champion_of_the_Football_World_Cup_Russia_2018.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "world-cup-2002",
+      "name": "2002 Korea/Japan",
+      "shortName": "2002",
+      "value": 161,
+      "rank": 6,
+      "color": "#41a99f",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/2002_FIFA_World_Cup_%28Complete_Wordmark%29.svg/960px-2002_FIFA_World_Cup_%28Complete_Wordmark%29.svg.png",
+      "storyUrl": "/stories/world-cup-tournament-goal-fests/",
+      "sourceIds": [
+        "FIFA World Cup records and statistics",
+        "FIFA World Cup 2026 match calendar and results"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-tournament-goal-fests.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-tournament-goal-fests.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-tournament-goal-fests.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-tournament-goal-fests.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.25,
+          "u1": 0.2,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/2002_FIFA_World_Cup_%28Complete_Wordmark%29.svg/960px-2002_FIFA_World_Cup_%28Complete_Wordmark%29.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "world-cup-2006",
+      "name": "2006 Germany",
+      "shortName": "2006",
+      "value": 147,
+      "rank": 7,
+      "color": "#86bdf4",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Show_Stage_-_Closing_Ceremony_2006_FIFA_World_Cup.jpg/960px-Show_Stage_-_Closing_Ceremony_2006_FIFA_World_Cup.jpg",
+      "storyUrl": "/stories/world-cup-tournament-goal-fests/",
+      "sourceIds": [
+        "FIFA World Cup records and statistics",
+        "FIFA World Cup 2026 match calendar and results"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-tournament-goal-fests.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-tournament-goal-fests.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-tournament-goal-fests.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-tournament-goal-fests.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.25,
+          "u1": 0.4,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Show_Stage_-_Closing_Ceremony_2006_FIFA_World_Cup.jpg/960px-Show_Stage_-_Closing_Ceremony_2006_FIFA_World_Cup.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "world-cup-1982",
+      "name": "1982 Spain",
+      "shortName": "1982",
+      "value": 146,
+      "rank": 8,
+      "color": "#f18c4f",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/1982_FIFA_World_Cup_Spain_%28Wordmark%29.svg/960px-1982_FIFA_World_Cup_Spain_%28Wordmark%29.svg.png",
+      "storyUrl": "/stories/world-cup-tournament-goal-fests/",
+      "sourceIds": [
+        "FIFA World Cup records and statistics",
+        "FIFA World Cup 2026 match calendar and results"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-tournament-goal-fests.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-tournament-goal-fests.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-tournament-goal-fests.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-tournament-goal-fests.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.25,
+          "u1": 0.6,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/1982_FIFA_World_Cup_Spain_%28Wordmark%29.svg/960px-1982_FIFA_World_Cup_Spain_%28Wordmark%29.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "world-cup-2010",
+      "name": "2010 South Africa",
+      "shortName": "2010",
+      "value": 145,
+      "rank": 9,
+      "color": "#2f4858",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/FIFA_World_Cup_2010_Spain_with_cup.jpg/960px-FIFA_World_Cup_2010_Spain_with_cup.jpg",
+      "storyUrl": "/stories/world-cup-tournament-goal-fests/",
+      "sourceIds": [
+        "FIFA World Cup records and statistics",
+        "FIFA World Cup 2026 match calendar and results"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-tournament-goal-fests.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-tournament-goal-fests.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-tournament-goal-fests.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-tournament-goal-fests.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.25,
+          "u1": 0.8,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/FIFA_World_Cup_2010_Spain_with_cup.jpg/960px-FIFA_World_Cup_2010_Spain_with_cup.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "world-cup-1994",
+      "name": "1994 United States",
+      "shortName": "1994",
+      "value": 141,
+      "rank": 10,
+      "color": "#c9a14a",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/1994_FIFA_World_Cup.svg/960px-1994_FIFA_World_Cup.svg.png",
+      "storyUrl": "/stories/world-cup-tournament-goal-fests/",
+      "sourceIds": [
+        "FIFA World Cup records and statistics",
+        "FIFA World Cup 2026 match calendar and results"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-tournament-goal-fests.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-tournament-goal-fests.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-tournament-goal-fests.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-tournament-goal-fests.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 1280,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.25,
+          "u1": 1,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/1994_FIFA_World_Cup.svg/960px-1994_FIFA_World_Cup.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "world-cup-1954",
+      "name": "1954 Switzerland",
+      "shortName": "1954",
+      "value": 140,
+      "rank": 11,
+      "color": "#ef426f",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/9/96/1954_FIFA_World_Cup_logo.svg/960px-1954_FIFA_World_Cup_logo.svg.png",
+      "storyUrl": "/stories/world-cup-tournament-goal-fests/",
+      "sourceIds": [
+        "FIFA World Cup records and statistics",
+        "FIFA World Cup 2026 match calendar and results"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-tournament-goal-fests.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-tournament-goal-fests.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-tournament-goal-fests.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-tournament-goal-fests.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.5,
+          "u1": 0.2,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/9/96/1954_FIFA_World_Cup_logo.svg/960px-1954_FIFA_World_Cup_logo.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "world-cup-1986",
+      "name": "1986 Mexico",
+      "shortName": "1986",
+      "value": 132,
+      "rank": 12,
+      "color": "#7b9b65",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Maradona-Mundial_86_con_la_copa.JPG/960px-Maradona-Mundial_86_con_la_copa.JPG",
+      "storyUrl": "/stories/world-cup-tournament-goal-fests/",
+      "sourceIds": [
+        "FIFA World Cup records and statistics",
+        "FIFA World Cup 2026 match calendar and results"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-tournament-goal-fests.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-tournament-goal-fests.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-tournament-goal-fests.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-tournament-goal-fests.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.5,
+          "u1": 0.4,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Maradona-Mundial_86_con_la_copa.JPG/960px-Maradona-Mundial_86_con_la_copa.JPG",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "world-cup-1958",
+      "name": "1958 Sweden",
+      "shortName": "1958",
+      "value": 126,
+      "rank": 13,
+      "color": "#18c871",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Pele_v_sweden_1958.jpg/960px-Pele_v_sweden_1958.jpg",
+      "storyUrl": "/stories/world-cup-tournament-goal-fests/",
+      "sourceIds": [
+        "FIFA World Cup records and statistics",
+        "FIFA World Cup 2026 match calendar and results"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-tournament-goal-fests.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-tournament-goal-fests.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-tournament-goal-fests.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-tournament-goal-fests.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.5,
+          "u1": 0.6,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Pele_v_sweden_1958.jpg/960px-Pele_v_sweden_1958.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "world-cup-1990",
+      "name": "1990 Italy",
+      "shortName": "1990",
+      "value": 115,
+      "rank": 14,
+      "color": "#ffc84a",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/1990_FIFA_World_Cup_%28Wordmark%29.svg/960px-1990_FIFA_World_Cup_%28Wordmark%29.svg.png",
+      "storyUrl": "/stories/world-cup-tournament-goal-fests/",
+      "sourceIds": [
+        "FIFA World Cup records and statistics",
+        "FIFA World Cup 2026 match calendar and results"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-tournament-goal-fests.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-tournament-goal-fests.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-tournament-goal-fests.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-tournament-goal-fests.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.5,
+          "u1": 0.8,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/1990_FIFA_World_Cup_%28Wordmark%29.svg/960px-1990_FIFA_World_Cup_%28Wordmark%29.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "world-cup-1978",
+      "name": "1978 Argentina",
+      "shortName": "1978",
+      "value": 102,
+      "rank": 15,
+      "color": "#00a6ff",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Logo_Mundial_78.svg/960px-Logo_Mundial_78.svg.png",
+      "storyUrl": "/stories/world-cup-tournament-goal-fests/",
+      "sourceIds": [
+        "FIFA World Cup records and statistics",
+        "FIFA World Cup 2026 match calendar and results"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-tournament-goal-fests.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-tournament-goal-fests.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-tournament-goal-fests.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-tournament-goal-fests.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 1280,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.5,
+          "u1": 1,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Logo_Mundial_78.svg/960px-Logo_Mundial_78.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "world-cup-1974",
+      "name": "1974 West Germany",
+      "shortName": "1974",
+      "value": 97,
+      "rank": 16,
+      "color": "#f3f7f0",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/FIFA_World_Cup_1974_-_emblem.svg/960px-FIFA_World_Cup_1974_-_emblem.svg.png",
+      "storyUrl": "/stories/world-cup-tournament-goal-fests/",
+      "sourceIds": [
+        "FIFA World Cup records and statistics",
+        "FIFA World Cup 2026 match calendar and results"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-tournament-goal-fests.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-tournament-goal-fests.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-tournament-goal-fests.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-tournament-goal-fests.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 0,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.75,
+          "u1": 0.2,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/FIFA_World_Cup_1974_-_emblem.svg/960px-FIFA_World_Cup_1974_-_emblem.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "world-cup-1970",
+      "name": "1970 Mexico",
+      "shortName": "1970",
+      "value": 95,
+      "rank": 17,
+      "color": "#ff5a61",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/1970_FIFA_World_Cup.svg/960px-1970_FIFA_World_Cup.svg.png",
+      "storyUrl": "/stories/world-cup-tournament-goal-fests/",
+      "sourceIds": [
+        "FIFA World Cup records and statistics",
+        "FIFA World Cup 2026 match calendar and results"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-tournament-goal-fests.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-tournament-goal-fests.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-tournament-goal-fests.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-tournament-goal-fests.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 320,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.75,
+          "u1": 0.4,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/1970_FIFA_World_Cup.svg/960px-1970_FIFA_World_Cup.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    }
+  ]
+}

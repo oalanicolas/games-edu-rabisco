@@ -1,0 +1,961 @@
+{
+  "schemaVersion": 1,
+  "contentKind": "dat-city.district",
+  "version": 1,
+  "generatedAt": "2026-09-02T07:01:52.367Z",
+  "versionId": "20260902T070152Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "storyops-scheduler",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-09-02T07:01:52.367Z",
+    "versionId": "20260902T070152Z",
+    "adapter": null,
+    "storySlug": "ai-video-arena",
+    "districtId": "video-arena-bay",
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "id": "video-arena-bay",
+  "name": "Video Arena Bay",
+  "storySlug": "ai-video-arena",
+  "storyUrl": "/stories/ai-video-arena/",
+  "publicStoryUrl": "/stories/ai-video-arena.json",
+  "metric": "Arena Elo",
+  "metricKey": "arena-elo",
+  "latestFrameLabel": "2026-09-02 arena standings",
+  "summary": "gemini-omni-1.1-flash tops the LMArena video leaderboard at 1515 Elo.",
+  "taxonomy": {
+    "primaryCategory": "technology",
+    "categories": [
+      "technology",
+      "ai",
+      "benchmarks",
+      "creative-tools"
+    ],
+    "tags": [
+      "lmarena",
+      "text-to-video",
+      "video-generation",
+      "elo",
+      "human-preference"
+    ],
+    "entityTypes": [
+      "model",
+      "ai-system"
+    ],
+    "sourceTypes": [
+      "benchmark"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "ai-image-arena",
+      "type": "generative-media",
+      "weight": 0.86,
+      "reason": "Image and video generation arenas track the same generative media race."
+    },
+    {
+      "target": "lmarena-text-leaderboard",
+      "type": "ai-benchmarks",
+      "weight": 0.76,
+      "reason": "Same arena and voting methodology, different modality."
+    },
+    {
+      "target": "what-everyone-is-watching",
+      "type": "media-culture",
+      "weight": 0.3,
+      "reason": "Generated video is starting to flow into the streaming culture economy."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "ai-technology",
+    "mainland": "technology",
+    "bridgePriority": [
+      "ai-image-arena",
+      "lmarena-text-leaderboard"
+    ]
+  },
+  "thumbnail": "/assets/og/dat-city.webp",
+  "status": "fresh",
+  "dataUpdatedAt": "2026-09-02T07:01:52.367Z",
+  "staleAfterHours": 30,
+  "dormant": false,
+  "lastObservationDate": "2026-09-02",
+  "nextRefreshAt": "2026-09-03T07:00:00.000Z",
+  "confidence": "Observed 24 LMArena text-to-video/overall entries at 2026-09-02T07:01:52.367Z; snapshot leaderboard-sets/public/leaderboards/text_to_video-overall-raw/leaderboard-snapshots/latest.",
+  "methodology": "This adapter reads the public LMArena leaderboard payload, keeps the current top models on the text-to-video/overall board ranked by community Elo from head-to-head human votes, and stores daily StoryOps snapshots so the skyline replays how the arena standings move over time.",
+  "sources": [
+    {
+      "title": "LMArena Leaderboard",
+      "publisher": "LMArena",
+      "url": "https://lmarena.ai/leaderboard",
+      "note": "Public leaderboard payload; the text-to-video board ranks video generators by pairwise human votes."
+    }
+  ],
+  "media": {
+    "tileSize": 320,
+    "imageFit": "contain",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-09-02T07:01:52.367Z",
+    "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.webp",
+    "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.webp",
+    "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.json",
+    "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.json",
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 7,
+    "rows": 7,
+    "width": 2240,
+    "height": 2240,
+    "itemCount": 44,
+    "sourcedImageCount": 11,
+    "generatedImageCount": 33,
+    "placeholderCount": 0
+  },
+  "entities": [
+    {
+      "id": "arena-omni-1-1-eap-925h",
+      "name": "gemini-omni-1.1-flash",
+      "shortName": "gemini-omni-1.1-flash",
+      "value": 1515,
+      "rank": 1,
+      "color": "#ff5a61",
+      "image": "https://cdn.simpleicons.org/googlegemini",
+      "storyUrl": "/stories/ai-video-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.json",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.142857,
+          "v0": 0,
+          "u1": 0.285714,
+          "v1": 0.142857
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/googlegemini",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "arena-bouncybohr",
+      "name": "gemini-omni-flash",
+      "shortName": "gemini-omni-flash",
+      "value": 1512,
+      "rank": 2,
+      "color": "#18c871",
+      "image": "https://cdn.simpleicons.org/googlegemini",
+      "storyUrl": "/stories/ai-video-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.json",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.142857,
+          "v1": 0.142857
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/googlegemini",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "arena-latent-sauce-79r5",
+      "name": "flux-3-video",
+      "shortName": "flux-3-video",
+      "value": 1495,
+      "rank": 3,
+      "color": "#ffc84a",
+      "image": null,
+      "storyUrl": "/stories/ai-video-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.json",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.285714,
+          "v0": 0,
+          "u1": 0.428571,
+          "v1": 0.142857
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:arena-latent-sauce-79r5",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "arena-k2",
+      "name": "dreamina-seedance-2.0-720p",
+      "shortName": "dreamina-seedance-2.0-720p",
+      "value": 1479,
+      "rank": 4,
+      "color": "#00a6ff",
+      "image": null,
+      "storyUrl": "/stories/ai-video-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.json",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.428571,
+          "v0": 0,
+          "u1": 0.571429,
+          "v1": 0.142857
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:arena-k2",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "arena-lhotse",
+      "name": "dreamina-seedance-2.5-720p",
+      "shortName": "dreamina-seedance-2.5-720p",
+      "value": 1476,
+      "rank": 5,
+      "color": "#8f6bff",
+      "image": null,
+      "storyUrl": "/stories/ai-video-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.json",
+          "x": 1280,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.571429,
+          "v0": 0,
+          "u1": 0.714286,
+          "v1": 0.142857
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:arena-lhotse",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "arena-hailuo-3-text-to-video",
+      "name": "minimax-h3",
+      "shortName": "minimax-h3",
+      "value": 1460,
+      "rank": 6,
+      "color": "#f18c4f",
+      "image": null,
+      "storyUrl": "/stories/ai-video-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.json",
+          "x": 1600,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.714286,
+          "v0": 0,
+          "u1": 0.857143,
+          "v1": 0.142857
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:arena-hailuo-3-text-to-video",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "arena-cold-brew-vznw",
+      "name": "muse-video",
+      "shortName": "muse-video",
+      "value": 1457,
+      "rank": 7,
+      "color": "#41a99f",
+      "image": "https://cdn.simpleicons.org/meta",
+      "storyUrl": "/stories/ai-video-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.json",
+          "x": 1920,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.857143,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.142857
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/meta",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "arena-model-x-2",
+      "name": "happyhorse-1.0",
+      "shortName": "happyhorse-1.0",
+      "value": 1428,
+      "rank": 8,
+      "color": "#d78fca",
+      "image": null,
+      "storyUrl": "/stories/ai-video-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.json",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.142857,
+          "u1": 0.142857,
+          "v1": 0.285714
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:arena-model-x-2",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "arena-sora-2-pro",
+      "name": "sora-2-pro",
+      "shortName": "sora-2-pro",
+      "value": 1365,
+      "rank": 9,
+      "color": "#7b9b65",
+      "image": "https://cdn.simpleicons.org/openai",
+      "storyUrl": "/stories/ai-video-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.json",
+          "x": 1600,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.714286,
+          "v0": 0.142857,
+          "u1": 0.857143,
+          "v1": 0.285714
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:arena-sora-2-pro",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "arena-veo-3-1-audio",
+      "name": "veo-3.1-audio",
+      "shortName": "veo-3.1-audio",
+      "value": 1364,
+      "rank": 10,
+      "color": "#2f4858",
+      "image": "https://cdn.simpleicons.org/googlegemini",
+      "storyUrl": "/stories/ai-video-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.json",
+          "x": 1280,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.571429,
+          "v0": 0.142857,
+          "u1": 0.714286,
+          "v1": 0.285714
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/googlegemini",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "arena-veo-3-1-audio-1080p",
+      "name": "veo-3.1-audio-1080p",
+      "shortName": "veo-3.1-audio-1080p",
+      "value": 1363,
+      "rank": 11,
+      "color": "#ef426f",
+      "image": "https://cdn.simpleicons.org/googlegemini",
+      "storyUrl": "/stories/ai-video-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.json",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.285714,
+          "u1": 0.142857,
+          "v1": 0.428571
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/googlegemini",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "arena-veo-3-1-fast-audio",
+      "name": "veo-3.1-fast-audio",
+      "shortName": "veo-3.1-fast-audio",
+      "value": 1361,
+      "rank": 12,
+      "color": "#86bdf4",
+      "image": "https://cdn.simpleicons.org/googlegemini",
+      "storyUrl": "/stories/ai-video-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.json",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.428571,
+          "v0": 0.142857,
+          "u1": 0.571429,
+          "v1": 0.285714
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/googlegemini",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "arena-veo-3-1-fast-audio-1080p",
+      "name": "veo-3.1-fast-audio-1080p",
+      "shortName": "veo-3.1-fast-audio-1080p",
+      "value": 1358,
+      "rank": 13,
+      "color": "#c9a14a",
+      "image": "https://cdn.simpleicons.org/googlegemini",
+      "storyUrl": "/stories/ai-video-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.json",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.142857,
+          "v0": 0.285714,
+          "u1": 0.285714,
+          "v1": 0.428571
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/googlegemini",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "arena-veo-3-fast-audio",
+      "name": "veo-3-fast-audio",
+      "shortName": "veo-3-fast-audio",
+      "value": 1347,
+      "rank": 14,
+      "color": "#e34f59",
+      "image": "https://cdn.simpleicons.org/googlegemini",
+      "storyUrl": "/stories/ai-video-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.json",
+          "x": 1920,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.857143,
+          "v0": 0.142857,
+          "u1": 1,
+          "v1": 0.285714
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/googlegemini",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "arena-grok-imagine-video-720p-t2v",
+      "name": "grok-imagine-video-720p",
+      "shortName": "grok-imagine-video-720p",
+      "value": 1344,
+      "rank": 15,
+      "color": "#ff5a61",
+      "image": null,
+      "storyUrl": "/stories/ai-video-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.json",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.285714,
+          "v0": 0.285714,
+          "u1": 0.428571,
+          "v1": 0.428571
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:arena-grok-imagine-video-720p-t2v",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "arena-wan2-7-t2v-2026-04-25",
+      "name": "wan2.7-t2v",
+      "shortName": "wan2.7-t2v",
+      "value": 1344,
+      "rank": 16,
+      "color": "#9aa4b2",
+      "image": null,
+      "storyUrl": "/stories/ai-video-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.json",
+          "x": 1280,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.571429,
+          "v0": 0.285714,
+          "u1": 0.714286,
+          "v1": 0.428571
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:arena-wan2-7-t2v-2026-04-25",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "arena-sora-2",
+      "name": "sora-2",
+      "shortName": "sora-2",
+      "value": 1341,
+      "rank": 17,
+      "color": "#18c871",
+      "image": "https://cdn.simpleicons.org/openai",
+      "storyUrl": "/stories/ai-video-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.json",
+          "x": 1600,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.714286,
+          "v0": 0.285714,
+          "u1": 0.857143,
+          "v1": 0.428571
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:arena-sora-2",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "arena-veo-3-audio",
+      "name": "veo-3-audio",
+      "shortName": "veo-3-audio",
+      "value": 1340,
+      "rank": 18,
+      "color": "#ffc84a",
+      "image": "https://cdn.simpleicons.org/googlegemini",
+      "storyUrl": "/stories/ai-video-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.json",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.428571,
+          "v0": 0.285714,
+          "u1": 0.571429,
+          "v1": 0.428571
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/googlegemini",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "arena-wan2-6-t2v",
+      "name": "wan2.6-t2v",
+      "shortName": "wan2.6-t2v",
+      "value": 1329,
+      "rank": 19,
+      "color": "#00a6ff",
+      "image": null,
+      "storyUrl": "/stories/ai-video-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.json",
+          "x": 1920,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.857143,
+          "v0": 0.285714,
+          "u1": 1,
+          "v1": 0.428571
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:arena-wan2-6-t2v",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "arena-seedance-v1-5-pro",
+      "name": "seedance-v1.5-pro",
+      "shortName": "seedance-v1.5-pro",
+      "value": 1256,
+      "rank": 20,
+      "color": "#8f6bff",
+      "image": null,
+      "storyUrl": "/stories/ai-video-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.json",
+          "x": 1600,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.714286,
+          "v0": 0.428571,
+          "u1": 0.857143,
+          "v1": 0.571429
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:arena-seedance-v1-5-pro",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "arena-veo-3",
+      "name": "veo-3",
+      "shortName": "veo-3",
+      "value": 1253,
+      "rank": 21,
+      "color": "#f18c4f",
+      "image": "https://cdn.simpleicons.org/googlegemini",
+      "storyUrl": "/stories/ai-video-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.json",
+          "x": 0,
+          "y": 1280,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.571429,
+          "u1": 0.142857,
+          "v1": 0.714286
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/googlegemini",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "arena-veo-3-fast",
+      "name": "veo-3-fast",
+      "shortName": "veo-3-fast",
+      "value": 1248,
+      "rank": 22,
+      "color": "#41a99f",
+      "image": "https://cdn.simpleicons.org/googlegemini",
+      "storyUrl": "/stories/ai-video-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.json",
+          "x": 1280,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.571429,
+          "v0": 0.428571,
+          "u1": 0.714286,
+          "v1": 0.571429
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/googlegemini",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "arena-wan2-5-t2v-preview",
+      "name": "wan2.5-t2v-preview",
+      "shortName": "wan2.5-t2v-preview",
+      "value": 1247,
+      "rank": 23,
+      "color": "#d78fca",
+      "image": null,
+      "storyUrl": "/stories/ai-video-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.json",
+          "x": 640,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.285714,
+          "v0": 0.428571,
+          "u1": 0.428571,
+          "v1": 0.571429
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:arena-wan2-5-t2v-preview",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "arena-pixverse-v5-6-text-to-video",
+      "name": "pixverse-v5.6",
+      "shortName": "pixverse-v5.6",
+      "value": 1240,
+      "rank": 24,
+      "color": "#7b9b65",
+      "image": null,
+      "storyUrl": "/stories/ai-video-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-video-arena.json",
+          "x": 640,
+          "y": 1280,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.285714,
+          "v0": 0.571429,
+          "u1": 0.428571,
+          "v1": 0.714286
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:arena-pixverse-v5-6-text-to-video",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    }
+  ]
+}

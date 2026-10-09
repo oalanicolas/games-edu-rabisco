@@ -1,0 +1,521 @@
+{
+  "schemaVersion": 1,
+  "contentKind": "dat-city.district",
+  "version": 1,
+  "generatedAt": "2026-09-02T07:01:52.367Z",
+  "versionId": "20260902T070152Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "storyops-scheduler",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-09-02T07:01:52.367Z",
+    "versionId": "20260902T070152Z",
+    "adapter": null,
+    "storySlug": "ai-consumer-app-rankings",
+    "districtId": "ai-app-raceway",
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "id": "ai-app-raceway",
+  "name": "AI App Raceway",
+  "storySlug": "ai-consumer-app-rankings",
+  "storyUrl": "/stories/ai-consumer-app-rankings/",
+  "publicStoryUrl": "/stories/ai-consumer-app-rankings.json",
+  "metric": "Daily pageviews",
+  "metricKey": "daily-pageviews",
+  "latestFrameLabel": "2026-08-31",
+  "summary": "Consumer AI apps ranked by daily Wikipedia attention.",
+  "taxonomy": {
+    "primaryCategory": "technology",
+    "categories": [
+      "technology",
+      "ai",
+      "consumer-apps"
+    ],
+    "tags": [
+      "ai-apps",
+      "app-store",
+      "consumer-ai",
+      "rankings"
+    ],
+    "entityTypes": [
+      "app",
+      "company"
+    ],
+    "sourceTypes": [
+      "wikimedia"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "app-store-takeover",
+      "type": "app-store-category-subset",
+      "weight": 0.86,
+      "reason": "This can reuse app-store ranking mechanics for the AI app subset."
+    },
+    {
+      "target": "ai-lab-attention",
+      "type": "ai-market-attention",
+      "weight": 0.72,
+      "reason": "Consumer app momentum connects public AI labs to mainstream adoption."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "ai-technology",
+    "mainland": "technology",
+    "bridgePriority": [
+      "app-store-takeover",
+      "ai-lab-attention"
+    ]
+  },
+  "thumbnail": "/assets/og/dat-city.webp",
+  "status": "fresh",
+  "dataUpdatedAt": "2026-09-02T07:01:52.367Z",
+  "staleAfterHours": 30,
+  "dormant": false,
+  "lastObservationDate": "2026-08-31",
+  "nextRefreshAt": "2026-09-03T07:00:00.000Z",
+  "confidence": "Observed daily English Wikipedia article pageviews through 2026-08-31. Skipped 1 missing or renamed configured article(s).",
+  "methodology": "This story is generated from the Wikimedia Pageviews API for selected high-interest English Wikipedia articles. Values are daily all-access, user-agent-filtered pageviews. The story publishes a render-ready projection and keeps raw API responses out of the public payload.",
+  "sources": [
+    {
+      "title": "Page view analytics",
+      "publisher": "Wikimedia Analytics API",
+      "url": "https://doc.wikimedia.org/generated-data-platform/aqs/analytics-api/reference/page-views.html",
+      "note": "Daily article pageview time series for selected consumer AI app articles."
+    }
+  ],
+  "media": {
+    "imageFit": "contain",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-09-02T07:01:52.367Z",
+    "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.webp",
+    "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.webp",
+    "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.json",
+    "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.json",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 4,
+    "rows": 3,
+    "width": 1280,
+    "height": 960,
+    "itemCount": 12,
+    "sourcedImageCount": 12,
+    "generatedImageCount": 0,
+    "placeholderCount": 0
+  },
+  "entities": [
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "value": 41659,
+      "rank": 1,
+      "color": "#ff5a61",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/OpenAI_logo_2025_%28symbol%29.svg/960px-OpenAI_logo_2025_%28symbol%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "storyUrl": "/stories/ai-consumer-app-rankings/",
+      "sourceIds": [
+        "Page view analytics"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.json",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.25,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/OpenAI_logo_2025_%28symbol%29.svg/960px-OpenAI_logo_2025_%28symbol%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "perplexity-ai",
+      "name": "Perplexity AI",
+      "value": 2315,
+      "rank": 2,
+      "color": "#00a6ff",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Perplexity_AI_logo.svg/960px-Perplexity_AI_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "storyUrl": "/stories/ai-consumer-app-rankings/",
+      "sourceIds": [
+        "Page view analytics"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.json",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0,
+          "u1": 0.5,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Perplexity_AI_logo.svg/960px-Perplexity_AI_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "canva",
+      "name": "Canva",
+      "value": 2300,
+      "rank": 3,
+      "color": "#c9a14a",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Canva_Logo.svg/960px-Canva_Logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "storyUrl": "/stories/ai-consumer-app-rankings/",
+      "sourceIds": [
+        "Page view analytics"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.json",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0,
+          "u1": 0.75,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Canva_Logo.svg/960px-Canva_Logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "value": 2046,
+      "rank": 4,
+      "color": "#d78fca",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/DeepSeek_logo.svg/960px-DeepSeek_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "storyUrl": "/stories/ai-consumer-app-rankings/",
+      "sourceIds": [
+        "Page view analytics"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.json",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/DeepSeek_logo.svg/960px-DeepSeek_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "grok",
+      "name": "Grok",
+      "value": 1689,
+      "rank": 5,
+      "color": "#7b9b65",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Grok_chatbot_example_screenshot.webp?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "storyUrl": "/stories/ai-consumer-app-rankings/",
+      "sourceIds": [
+        "Page view analytics"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.json",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.333333,
+          "u1": 0.25,
+          "v1": 0.666667
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Grok_chatbot_example_screenshot.webp?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "microsoft-copilot",
+      "name": "Microsoft Copilot",
+      "value": 1156,
+      "rank": 6,
+      "color": "#ffc84a",
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/13/Microsoft_Copilot_on_Windows_10%2C_11.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "storyUrl": "/stories/ai-consumer-app-rankings/",
+      "sourceIds": [
+        "Page view analytics"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.json",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.333333,
+          "u1": 0.5,
+          "v1": 0.666667
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/1/13/Microsoft_Copilot_on_Windows_10%2C_11.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "elevenlabs",
+      "name": "ElevenLabs",
+      "value": 972,
+      "rank": 7,
+      "color": "#e34f59",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Midtown_Manhattan_March_2023_014.jpg/960px-Midtown_Manhattan_March_2023_014.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "storyUrl": "/stories/ai-consumer-app-rankings/",
+      "sourceIds": [
+        "Page view analytics"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.json",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.333333,
+          "u1": 0.75,
+          "v1": 0.666667
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Midtown_Manhattan_March_2023_014.jpg/960px-Midtown_Manhattan_March_2023_014.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "value": 617,
+      "rank": 8,
+      "color": "#8f6bff",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Claude_AI_logo.svg/960px-Claude_AI_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "storyUrl": "/stories/ai-consumer-app-rankings/",
+      "sourceIds": [
+        "Page view analytics"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.json",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.666667,
+          "u1": 0.25,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Claude_AI_logo.svg/960px-Claude_AI_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "character-ai",
+      "name": "Character.ai",
+      "value": 570,
+      "rank": 9,
+      "color": "#2f4858",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Character_AI_2025_Logo.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "storyUrl": "/stories/ai-consumer-app-rankings/",
+      "sourceIds": [
+        "Page view analytics"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.json",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.333333,
+          "u1": 1,
+          "v1": 0.666667
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Character_AI_2025_Logo.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "sora",
+      "name": "Sora",
+      "value": 530,
+      "rank": 10,
+      "color": "#86bdf4",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/OpenAI_logo_2025_%28symbol%29.svg/960px-OpenAI_logo_2025_%28symbol%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "storyUrl": "/stories/ai-consumer-app-rankings/",
+      "sourceIds": [
+        "Page view analytics"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.json",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.666667,
+          "u1": 0.5,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/OpenAI_logo_2025_%28symbol%29.svg/960px-OpenAI_logo_2025_%28symbol%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "dall-e",
+      "name": "DALL-E",
+      "value": 465,
+      "rank": 11,
+      "color": "#41a99f",
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/41/DALL-E_2_artificial_intelligence_digital_image_generated_photo.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "storyUrl": "/stories/ai-consumer-app-rankings/",
+      "sourceIds": [
+        "Page view analytics"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.json",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.666667,
+          "u1": 1,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/4/41/DALL-E_2_artificial_intelligence_digital_image_generated_photo.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "midjourney",
+      "name": "Midjourney",
+      "value": 457,
+      "rank": 12,
+      "color": "#f18c4f",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/0/06/Midjourney_logo.svg/960px-Midjourney_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "storyUrl": "/stories/ai-consumer-app-rankings/",
+      "sourceIds": [
+        "Page view analytics"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.webp",
+          "atlasAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.webp",
+          "manifestUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.json",
+          "manifestAbsoluteUrl": "https://story-data.dat.city/story-data/versions/20260903T060326Z/assets/story-atlases/ai-consumer-app-rankings.json",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.666667,
+          "u1": 0.75,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/0/06/Midjourney_logo.svg/960px-Midjourney_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    }
+  ]
+}

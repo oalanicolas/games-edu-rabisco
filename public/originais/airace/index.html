@@ -1,0 +1,692 @@
+<!doctype html>
+<html lang="en">
+<head><base href="/acervo/airace.lol/"><script>window.__EDU_SOURCE__={"slug":"airace","source":"https://airace.lol/","title":"Uma corrida de modelos","summary":"Explore os controles, as cenas e os efeitos da experiência original de Ryan Sael.","question":"O que muda quando você altera uma condição?","explanation":"Use a explicação e a ajuda presentes na experiência original para interpretar o que a cena representa. Identifique o que é dado observado, o que é modelo e o que é recurso visual.","challenge":"Localize os controles “OpenAI” e “Alibaba” na experiência original. Registre um estado antes e outro depois de operar um deles. Compare o que mudou nas leituras e na cena; explique usando a ajuda original.","limit":"Esta versão executa o cliente publicado por Ryan Sael. Consulte também os limites descritos na explicação original. Dados externos preservados correspondem à captura, não são uma leitura ao vivo.","published":"2026-09-13","captured":"2026-10-09","sourceEngine":"three","renderAdaptation":"nenhuma","captureDate":"2026-10-09","engine":"three","sourceHash":"22a2754d1b10970887bb7857fddf777f6f412d4f57ec5c44ae5e6cc38bbdbcb8"};</script><script src="/original-routes.js"></script><script src="/original-bridge.js"></script><link rel="stylesheet" href="/original-notebook.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<script>/* the old address and www move to airace.lol, keeping ?circuit= and the rest (race.lab.sael.net stays as is) */
+if (location.hostname === 'ai-race.lab.sael.net' || location.hostname === 'www.airace.lol') location.replace('https://airace.lol' + location.pathname + location.search + location.hash);</script>
+<script>/* Language: ?lang=, else a saved pick, else the browser's first language (Spanish, Simplified Chinese or
+   Japanese), else English. A non-English visit starts fetching its strings here, before the app has loaded. */
+(function () {
+  var V = {"es":"7df419b3b0","zh":"7713c0c024","ja":"84a25844b1"}/*i18n-stamps*/, ok = { en: 1, es: 1, zh: 1, ja: 1 }, c = new URLSearchParams(location.search).get('lang'), s = null;
+  try { s = localStorage.getItem('race:lang'); } catch (e) { /* storage blocked */ }
+  if (!ok[c]) c = ok[s] ? s : null;
+  if (!c) {
+    var n = ((navigator.languages && navigator.languages[0]) || navigator.language || '').toLowerCase();
+    c = /^es(-|$)/.test(n) ? 'es' : /^zh(-|$)/.test(n) && !/hant|-tw|-hk|-mo/.test(n) ? 'zh' : /^ja(-|$)/.test(n) ? 'ja' : 'en';
+  }
+  document.documentElement.lang = c === 'zh' ? 'zh-Hans' : c;
+  var L = window.__lang = { code: c, url: function (x) { return 'i18n/' + x + '.json?v=' + V[x]; } };
+  if (c !== 'en') L.strings = fetch(L.url(c)).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; });
+  // the race data, started here rather than when app.js has finished loading: it is the biggest file
+  var D = {"race":"70cc086157","sponsors":"3e2a76f106"}/*data-stamps*/;
+  window.__data = {
+    race: fetch('race.json?v=' + D.race).then(function (r) { return r.json(); }),
+    sponsors: fetch('sponsors.json?v=' + D.sponsors).then(function (r) { return r.ok ? r.json() : { boards: [] }; }).catch(function () { return { boards: [] }; })
+  };
+})();</script>
+<!-- share:start (rewritten per race by scripts/og.mjs) -->
+<title>Who’s winning the AI race?</title>
+<meta name="description" content="A live cartoon race where every car is a real AI lab: releases, prices and benchmark scores decide who’s in front, refreshed every 6 hours.">
+<link rel="canonical" href="/originais/airace/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AI Race">
+<meta property="og:title" content="Who’s winning the AI race?">
+<meta property="og:description" content="A live cartoon race where every car is a real AI lab: releases, prices and benchmark scores decide who’s in front, refreshed every 6 hours.">
+<meta property="og:url" content="https://airace.lol/">
+<meta property="og:image" content="https://airace.lol/share/home.jpg?v=ea6bd63ded">
+<meta property="og:image:width" content="2400">
+<meta property="og:image:height" content="1260">
+<meta property="og:image:alt" content="Cartoon race cars for Anthropic, OpenAI and Google, level in a photo finish on airace.lol">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@ryansael">
+<meta name="twitter:image" content="https://airace.lol/share/home.jpg?v=ea6bd63ded">
+<!-- share:end -->
+<link rel="preconnect" href="/acervo/fonts.googleapis.com/">
+<link rel="preconnect" href="/acervo/fonts.gstatic.com/" crossorigin>
+<link rel="preconnect" href="/acervo/cdn.jsdelivr.net/" crossorigin>
+<script type="importmap">{"imports":{"https://a.d1.tel/script.js":"/acervo/a.d1.tel/script.js","https://airace.lol/app.js?v=9f4dac41bb":"/acervo/airace.lol/app__query_b9b59b898c28.js","https://airace.lol/i18n.js?v=fdae2b818c":"/acervo/airace.lol/i18n__query_5b121ccbaa17.js","https://airace.lol/kit.js?v=f731741466":"/acervo/airace.lol/kit__query_1d113ebe26e6.js","https://airace.lol/model.js?v=e00cd5caf9":"/acervo/airace.lol/model__query_39e00d615f00.js","https://airace.lol/scene.js?v=849ecc8bec":"/acervo/airace.lol/scene__query_96d1a22c7108.js","https://airace.lol/track-math.js?v=9636839fba":"/acervo/airace.lol/track-math__query_c5df45678d3a.js","https://airace.lol/trackkit.js?v=892f528c5d":"/acervo/airace.lol/trackkit__query_1bf8c6b4b4dd.js","https://airace.lol/world-gp.js?v=410e5ecf00":"/acervo/airace.lol/world-gp__query_9d8ee860d370.js","https://airace.lol/world-mobius.js?v=fa36b4ed65":"/acervo/airace.lol/world-mobius__query_ebfb2434dcd5.js","https://airace.lol/world-planet.js?v=1474a9572f":"/acervo/airace.lol/world-planet__query_c793c98e6ff5.js","https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js":"/acervo/cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js","https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/controls/OrbitControls.js":"/acervo/cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/controls/OrbitControls.js","https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.core.js":"/acervo/cdn.jsdelivr.net/npm/three@0.180.0/build/three.core.min.js","https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.core.min.js":"/acervo/cdn.jsdelivr.net/npm/three@0.180.0/build/three.core.min.js","https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.js":"/acervo/cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.js","https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.min.js":"/acervo/cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.min.js","https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/controls/OrbitControls.js":"/acervo/cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/controls/OrbitControls.js","https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/environments/RoomEnvironment.js":"/acervo/cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/environments/RoomEnvironment.js","https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/math/SimplexNoise.js":"/acervo/cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/math/SimplexNoise.js","https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/postprocessing/BokehPass.js":"/acervo/cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/postprocessing/BokehPass.js","https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/postprocessing/EffectComposer.js":"/acervo/cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/postprocessing/EffectComposer.js","https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/postprocessing/GTAOPass.js":"/acervo/cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/postprocessing/GTAOPass.js","https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/postprocessing/MaskPass.js":"/acervo/cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/postprocessing/MaskPass.js","https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/postprocessing/OutputPass.js":"/acervo/cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/postprocessing/OutputPass.js","https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/postprocessing/Pass.js":"/acervo/cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/postprocessing/Pass.js","https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/postprocessing/RenderPass.js":"/acervo/cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/postprocessing/RenderPass.js","https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/postprocessing/ShaderPass.js":"/acervo/cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/postprocessing/ShaderPass.js","https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/postprocessing/UnrealBloomPass.js":"/acervo/cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/postprocessing/UnrealBloomPass.js","https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/shaders/BokehShader.js":"/acervo/cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/shaders/BokehShader.js","https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/shaders/CopyShader.js":"/acervo/cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/shaders/CopyShader.js","https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/shaders/GTAOShader.js":"/acervo/cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/shaders/GTAOShader.js","https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/shaders/LuminosityHighPassShader.js":"/acervo/cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/shaders/LuminosityHighPassShader.js","https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/shaders/OutputShader.js":"/acervo/cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/shaders/OutputShader.js","https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/shaders/PoissonDenoiseShader.js":"/acervo/cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/shaders/PoissonDenoiseShader.js","https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/utils/BufferGeometryUtils.js":"/acervo/cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/utils/BufferGeometryUtils.js","https://cdn.jsdelivr.net/npm/three@0.183.2/build/three.core.js":"/acervo/cdn.jsdelivr.net/npm/three@0.183.2/build/three.core.js","https://cdn.jsdelivr.net/npm/three@0.183.2/build/three.module.js":"/acervo/cdn.jsdelivr.net/npm/three@0.183.2/build/three.module.js","https://cdn.jsdelivr.net/npm/three@0.183.2/examples/jsm/geometries/ConvexGeometry.js":"/acervo/cdn.jsdelivr.net/npm/three@0.183.2/examples/jsm/geometries/ConvexGeometry.js","https://cdn.jsdelivr.net/npm/three@0.183.2/examples/jsm/geometries/DecalGeometry.js":"/acervo/cdn.jsdelivr.net/npm/three@0.183.2/examples/jsm/geometries/DecalGeometry.js","https://cdn.jsdelivr.net/npm/three@0.183.2/examples/jsm/geometries/RoundedBoxGeometry.js":"/acervo/cdn.jsdelivr.net/npm/three@0.183.2/examples/jsm/geometries/RoundedBoxGeometry.js","https://cdn.jsdelivr.net/npm/three@0.183.2/examples/jsm/loaders/SVGLoader.js":"/acervo/cdn.jsdelivr.net/npm/three@0.183.2/examples/jsm/loaders/SVGLoader.js","https://cdn.jsdelivr.net/npm/three@0.183.2/examples/jsm/math/ConvexHull.js":"/acervo/cdn.jsdelivr.net/npm/three@0.183.2/examples/jsm/math/ConvexHull.js","https://cdn.jsdelivr.net/npm/three@0.183.2/examples/jsm/math/SimplexNoise.js":"/acervo/cdn.jsdelivr.net/npm/three@0.183.2/examples/jsm/math/SimplexNoise.js","https://cdn.jsdelivr.net/npm/three@0.183.2/examples/jsm/objects/Sky.js":"/acervo/cdn.jsdelivr.net/npm/three@0.183.2/examples/jsm/objects/Sky.js","https://cdn.jsdelivr.net/npm/three@0.183.2/examples/jsm/postprocessing/EffectComposer.js":"/acervo/cdn.jsdelivr.net/npm/three@0.183.2/examples/jsm/postprocessing/EffectComposer.js","https://cdn.jsdelivr.net/npm/three@0.183.2/examples/jsm/postprocessing/GTAOPass.js":"/acervo/cdn.jsdelivr.net/npm/three@0.183.2/examples/jsm/postprocessing/GTAOPass.js","https://cdn.jsdelivr.net/npm/three@0.183.2/examples/jsm/postprocessing/MaskPass.js":"/acervo/cdn.jsdelivr.net/npm/three@0.183.2/examples/jsm/postprocessing/MaskPass.js","https://cdn.jsdelivr.net/npm/three@0.183.2/examples/jsm/postprocessing/OutputPass.js":"/acervo/cdn.jsdelivr.net/npm/three@0.183.2/examples/jsm/postprocessing/OutputPass.js","https://cdn.jsdelivr.net/npm/three@0.183.2/examples/jsm/postprocessing/Pass.js":"/acervo/cdn.jsdelivr.net/npm/three@0.183.2/examples/jsm/postprocessing/Pass.js","https://cdn.jsdelivr.net/npm/three@0.183.2/examples/jsm/postprocessing/SMAAPass.js":"/acervo/cdn.jsdelivr.net/npm/three@0.183.2/examples/jsm/postprocessing/SMAAPass.js","https://cdn.jsdelivr.net/npm/three@0.183.2/examples/jsm/postprocessing/ShaderPass.js":"/acervo/cdn.jsdelivr.net/npm/three@0.183.2/examples/jsm/postprocessing/ShaderPass.js","https://cdn.jsdelivr.net/npm/three@0.183.2/examples/jsm/postprocessing/UnrealBloomPass.js":"/acervo/cdn.jsdelivr.net/npm/three@0.183.2/examples/jsm/postprocessing/UnrealBloomPass.js","https://cdn.jsdelivr.net/npm/three@0.183.2/examples/jsm/shaders/CopyShader.js":"/acervo/cdn.jsdelivr.net/npm/three@0.183.2/examples/jsm/shaders/CopyShader.js","https://cdn.jsdelivr.net/npm/three@0.183.2/examples/jsm/shaders/GTAOShader.js":"/acervo/cdn.jsdelivr.net/npm/three@0.183.2/examples/jsm/shaders/GTAOShader.js","https://cdn.jsdelivr.net/npm/three@0.183.2/examples/jsm/shaders/HorizontalBlurShader.js":"/acervo/cdn.jsdelivr.net/npm/three@0.183.2/examples/jsm/shaders/HorizontalBlurShader.js","https://cdn.jsdelivr.net/npm/three@0.183.2/examples/jsm/shaders/LuminosityHighPassShader.js":"/acervo/cdn.jsdelivr.net/npm/three@0.183.2/examples/jsm/shaders/LuminosityHighPassShader.js","https://cdn.jsdelivr.net/npm/three@0.183.2/examples/jsm/shaders/OutputShader.js":"/acervo/cdn.jsdelivr.net/npm/three@0.183.2/examples/jsm/shaders/OutputShader.js","https://cdn.jsdelivr.net/npm/three@0.183.2/examples/jsm/shaders/PoissonDenoiseShader.js":"/acervo/cdn.jsdelivr.net/npm/three@0.183.2/examples/jsm/shaders/PoissonDenoiseShader.js","https://cdn.jsdelivr.net/npm/three@0.183.2/examples/jsm/shaders/SMAAShader.js":"/acervo/cdn.jsdelivr.net/npm/three@0.183.2/examples/jsm/shaders/SMAAShader.js","https://cdn.jsdelivr.net/npm/three@0.183.2/examples/jsm/shaders/VerticalBlurShader.js":"/acervo/cdn.jsdelivr.net/npm/three@0.183.2/examples/jsm/shaders/VerticalBlurShader.js","https://cdn.jsdelivr.net/npm/three@0.183.2/examples/jsm/utils/BufferGeometryUtils.js":"/acervo/cdn.jsdelivr.net/npm/three@0.183.2/examples/jsm/utils/BufferGeometryUtils.js","https://dat.city/_astro/BufferGeometryUtils.D-W2eqw9.js":"/acervo/dat.city/_astro/BufferGeometryUtils.D-W2eqw9.js","https://dat.city/_astro/buildings.CAtXv45y.js":"/acervo/dat.city/_astro/buildings.CAtXv45y.js","https://dat.city/_astro/camera.Bl5Zkk6T.js":"/acervo/dat.city/_astro/camera.Bl5Zkk6T.js","https://dat.city/_astro/city-app.DTEwABxB.js":"/acervo/dat.city/_astro/city-app.DTEwABxB.js","https://dat.city/_astro/city-index.ClvezBZL.js":"/acervo/dat.city/_astro/city-index.ClvezBZL.js","https://dat.city/_astro/config.DkDxwQJL.js":"/acervo/dat.city/_astro/config.DkDxwQJL.js","https://dat.city/_astro/data-city.BC4uyIgu.js":"/acervo/dat.city/_astro/data-city.BC4uyIgu.js","https://dat.city/_astro/events.BJnEyI4N.js":"/acervo/dat.city/_astro/events.BJnEyI4N.js","https://dat.city/_astro/index.TdIfvP3f.js":"/acervo/dat.city/_astro/index.TdIfvP3f.js","https://dat.city/_astro/index.astro_astro_type_script_index_0_lang.T-eO6Wqk.js":"/acervo/dat.city/_astro/index.astro_astro_type_script_index_0_lang.T-eO6Wqk.js","https://dat.city/_astro/islands.kTHtg05J.js":"/acervo/dat.city/_astro/islands.kTHtg05J.js","https://dat.city/_astro/landmarks.csZEpPFU.js":"/acervo/dat.city/_astro/landmarks.csZEpPFU.js","https://dat.city/_astro/post.BPT2gT2f.js":"/acervo/dat.city/_astro/post.BPT2gT2f.js","https://dat.city/_astro/preload-helper.BlTxHScW.js":"/acervo/dat.city/_astro/preload-helper.BlTxHScW.js","https://dat.city/_astro/props.Bt979iQ2.js":"/acervo/dat.city/_astro/props.Bt979iQ2.js","https://dat.city/_astro/public-story-data.CzLolT7L.js":"/acervo/dat.city/_astro/public-story-data.CzLolT7L.js","https://dat.city/_astro/race-stage.Dktj8bOv.js":"/acervo/dat.city/_astro/race-stage.Dktj8bOv.js","https://dat.city/_astro/reveal.CSPFKYIA.js":"/acervo/dat.city/_astro/reveal.CSPFKYIA.js","https://dat.city/_astro/story-transforms.BBBo0GxT.js":"/acervo/dat.city/_astro/story-transforms.BBBo0GxT.js","https://dat.city/_astro/traffic.9ABmkeeb.js":"/acervo/dat.city/_astro/traffic.9ABmkeeb.js","https://dat.city/_astro/trails.B9ozEWGh.js":"/acervo/dat.city/_astro/trails.B9ozEWGh.js","https://dat.city/_astro/utils.C9s8-uzD.js":"/acervo/dat.city/_astro/utils.C9s8-uzD.js","https://dat.d1.tel/script.js":"/acervo/dat.d1.tel/script.js","https://sael.net/lib/three-0.183.2.js":"/acervo/sael.net/lib/three-0.183.2.js","https://sael.net/lib/three-webgpu-0.186.1.js":"/acervo/sael.net/lib/three-webgpu-0.186.1.js","https://sael.net/sael.js":"/acervo/sael.net/sael.js","https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920":"/acervo/static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920","https://unpkg.com/@phosphor-icons/web":"/acervo/unpkg.com/@phosphor-icons/web","https://unpkg.com/@phosphor-icons/web@2.1.2/src/index.js":"/acervo/unpkg.com/@phosphor-icons/web@2.1.2/src/index.js","three":"/acervo/cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.min.js","three/addons/":"/acervo/cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/"}}</script>
+<!-- preload:start (written by scripts/stamp.mjs: the two three.js builds only, and as plain script
+     preloads. Never modulepreload: it compiles the graph before the import map exists on a reload) -->
+<link rel="preload" as="script" href="/acervo/cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.min.js" crossorigin>
+<link rel="preload" as="script" href="/acervo/cdn.jsdelivr.net/npm/three@0.180.0/build/three.core.min.js" crossorigin>
+<!-- preload:end -->
+<link rel="stylesheet" href="/originais/estilos/ee451a3a4de1266bb35b2361158599d9ab6503d911a556d96d5c1a9690320145.css" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="/originais/estilos/ee451a3a4de1266bb35b2361158599d9ab6503d911a556d96d5c1a9690320145.css"></noscript>
+<style>
+/* No backdrop blur on the big always-on panels: each one re-blurs the live canvas every frame, and at
+   Retina density the eleven of them cost more than the race itself (60 fps without them, ~25 with). */
+:root{
+  --sky-top:#16243C; --sky-mid:#5C86B4; --sky-low:#B6CBDD;
+  --sun:#FFD36E; --road:#241A3A;
+  --ink:#1A1130; --paper:#FFF6E9; --paper-dim:#E8D5C4;
+  --lift:0 6px 20px rgba(0,0,0,.42), 0 2px 6px rgba(0,0,0,.3);
+  --lift-sm:0 3px 10px rgba(0,0,0,.34);
+  --display:"Fredoka",system-ui,sans-serif;
+  --ui:"Outfit",system-ui,-apple-system,sans-serif;
+}
+/* Chinese and Japanese use the fonts already on the device (a CJK web font is megabytes); Latin
+   letters and digits keep Fredoka and Outfit. Japanese leans rounded where Hiragino Maru is there. */
+:root:lang(zh-Hans){
+  --display:"Fredoka","PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans SC","Noto Sans CJK SC",system-ui,sans-serif;
+  --ui:"Outfit","PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans SC","Noto Sans CJK SC",system-ui,sans-serif;
+}
+:root:lang(ja){
+  --display:"Fredoka","Hiragino Maru Gothic ProN","Hiragino Sans","Yu Gothic UI","Meiryo","Noto Sans JP","Noto Sans CJK JP",system-ui,sans-serif;
+  --ui:"Outfit","Hiragino Sans","Hiragino Kaku Gothic ProN","Yu Gothic UI","Meiryo","Noto Sans JP","Noto Sans CJK JP",system-ui,sans-serif;
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0; background:#16243C; color:var(--paper);
+  font-family:var(--ui); overflow:hidden;
+  -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility;
+}
+::selection{background:var(--sun); color:var(--ink)}
+:focus-visible{outline:3px solid var(--sun); outline-offset:3px; border-radius:8px}
+
+#stage{position:fixed; inset:0; width:100%; height:100%; display:block; touch-action:pan-y; background:#93cafa}
+/* the world and the headline come up first; the panels fade in when the field lands */
+#board, #dock, #rail{transition:opacity .5s ease}
+body.booting #board, body.booting #dock, body.booting #rail{opacity:0; pointer-events:none}
+#boom{position:fixed; inset:auto 0 50% 0; text-align:center; color:var(--paper); font:600 1rem var(--ui)}
+
+/* Legibility scrim: the headline sits over a live 3D scene whose brightness the
+   copy cannot predict, so it carries its own ground instead of relying on shadow. */
+/* The dock sits over grass now, so it carries its own ground for contrast. */
+#dockscrim{position:fixed; inset:auto 0 0 0; height:min(34vh,270px); pointer-events:none; z-index:0;
+  background:linear-gradient(to top, rgba(12,20,32,.92) 0%, rgba(12,20,32,.72) 38%,
+    rgba(12,20,32,.32) 68%, rgba(12,20,32,0) 100%)}
+#vig{position:fixed; inset:0; pointer-events:none; z-index:0;
+  background:radial-gradient(120% 92% at 50% 46%, rgba(14,22,36,0) 55%, rgba(14,22,36,.16) 100%)}
+/* The gradient must reach zero inside its own box, or the box edge clips it and
+   leaves a hard rectangle across the sky. */
+#scrim{position:fixed; inset:0 auto auto 0; width:min(58rem,72vw); height:min(62vh,580px);
+  background:radial-gradient(ellipse 100% 100% at 0% 0%,
+    rgba(10,16,28,.62) 0%, rgba(10,16,28,.60) 10%, rgba(10,16,28,.54) 20%, rgba(10,16,28,.46) 30%,
+    rgba(10,16,28,.37) 40%, rgba(10,16,28,.27) 50%, rgba(10,16,28,.18) 60%, rgba(10,16,28,.11) 70%,
+    rgba(10,16,28,.06) 80%, rgba(10,16,28,.02) 90%, rgba(10,16,28,0) 97%);
+  pointer-events:none; z-index:0}
+@media (max-width:860px){#scrim{width:100vw; height:min(46vh,380px)}}
+
+/* ---------- overlay ---------- */
+#ui{position:fixed; inset:0; pointer-events:none; display:flex; flex-direction:column;
+    padding:clamp(14px,2.4vw,28px); gap:12px; overflow:hidden}
+#ui > *{pointer-events:auto}
+
+header{max-width:min(40rem,46vw); flex:0 0 auto}
+/* the site's name over the headline: a checkered flag, AIRACE leaning into the corner, and .lol
+   on a sticker in the style of the leader's shout */
+.brandrow{display:flex; align-items:center; gap:12px; margin:0 0 .5em}
+.brand{display:inline-flex; align-items:center; gap:6px; margin:0; color:var(--paper); text-decoration:none;
+  font:700 clamp(1rem,1.45vw,1.2rem)/1 var(--display); letter-spacing:.02em;
+  text-shadow:0 1px 3px rgba(0,0,0,.6)}
+.brand svg{width:1.25em; height:1.25em; overflow:visible; transform-origin:18% 90%;
+  filter:drop-shadow(0 1px 2px rgba(0,0,0,.5))}
+.br-word{display:inline-block; transform:skewX(-9deg); background:linear-gradient(180deg,#fff 30%,var(--sun) 130%);
+  -webkit-background-clip:text; background-clip:text; color:transparent; filter:drop-shadow(0 1px 2px rgba(0,0,0,.55)); text-shadow:none}
+.br-lol{display:inline-block; margin-left:1px; padding:.16em .38em .2em; border-radius:.5em; rotate:-6deg;
+  background:var(--sun); color:#1A1130; font-size:.8em; letter-spacing:.01em; text-shadow:none;
+  border:2px solid #1A1130; box-shadow:0 2.5px 0 #1A1130; transition:rotate .25s cubic-bezier(.2,1.7,.4,1), translate .25s cubic-bezier(.2,1.7,.4,1)}
+.brand:hover .br-lol, .brand:focus-visible .br-lol{rotate:4deg; translate:0 -2px}
+.brand:hover svg, .brand:focus-visible svg{animation:flagwave .7s ease-in-out 2}
+@keyframes flagwave{0%,100%{rotate:0deg} 30%{rotate:-10deg} 70%{rotate:7deg}}
+@media (prefers-reduced-motion:reduce){ .brand:hover svg, .brand:focus-visible svg{animation:none} .br-lol{transition:none} }
+/* language switcher: a quiet pill beside the name, opening a small menu */
+.langbtn{display:inline-flex; align-items:center; gap:4px; height:22px; padding:0 8px 0 6px; border-radius:999px; cursor:pointer;
+  border:1px solid rgba(255,246,233,.22); background:rgba(20,14,38,0.47); color:var(--paper); font:600 .7rem/1 var(--ui); opacity:.82; transition:opacity .15s ease, background .15s ease}
+.langbtn:hover, .langbtn[aria-expanded="true"]{opacity:1; background:rgba(36,26,58,.78)}
+.langbtn svg{width:13px; height:13px; fill:none; stroke:currentColor; stroke-width:1.8; stroke-linecap:round}
+h1{
+  font-family:var(--display); font-weight:700;
+  /* tie the display size to height as well as width: a tall narrow pane must not
+     hand six lines of headline to a race that needs the middle of the screen */
+  font-size:clamp(1.5rem,min(3.6vw,5vh),3.1rem); line-height:1.04; padding-bottom:.05em; letter-spacing:-.04em;
+  margin:0; color:var(--paper);
+  text-shadow:0 2px 0 rgba(0,0,0,.3), 0 8px 22px rgba(0,0,0,.45);
+  text-wrap:balance;
+}
+#callout{
+  margin:.5em 0 0; font-size:clamp(.84rem,2.2vw,1.12rem); font-weight:500;
+  line-height:1.4; color:var(--paper); max-width:34ch;
+  display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:4; overflow:hidden;
+  text-shadow:0 1px 3px rgba(0,0,0,.72), 0 6px 18px rgba(0,0,0,.6);
+}
+#callout b{font-weight:700; color:var(--sun)}
+
+/* "according to [source ▾]" — only shown for races with more than one source */
+#according{display:flex; align-items:center; gap:.5em; flex-wrap:wrap; margin:.45em 0 0;
+  font-size:clamp(.82rem,1.6vw,1rem); font-weight:500; color:var(--paper);
+  text-shadow:0 1px 3px rgba(0,0,0,.72)}
+#according[hidden]{display:none}
+#according .sel{position:relative; display:inline-flex}
+#according .sel::after{content:""; position:absolute; right:.8em; top:50%; width:.42em; height:.42em;
+  border:solid currentColor; border-width:0 2px 2px 0; transform:translateY(-70%) rotate(45deg);
+  pointer-events:none; color:var(--sun)}
+#source{appearance:none; -webkit-appearance:none; font:inherit; font-weight:700; color:var(--sun);
+  background:rgba(20,14,38,0.72); border:1px solid rgba(255,211,110,.45); border-radius:999px;
+  padding:.28em 2.1em .32em .8em; cursor:pointer; max-width:min(19rem,70vw);
+  text-overflow:ellipsis; box-shadow:0 2px 10px rgba(0,0,0,.25)}
+#source:hover{background:rgba(36,26,58,.82); border-color:var(--sun)}
+#source option{color:#231A08; background:#FFF6E9; font-weight:600}
+
+/* ---------- leaderboard ---------- */
+#board{
+  width:290px; margin-top:16px; min-height:0; flex:0 1 auto; overflow:auto;
+  scrollbar-width:thin; scrollbar-color:rgba(255,246,233,.3) transparent; background:rgba(36,26,58,0.92); border:1px solid rgba(255,246,233,.16); border-radius:18px;
+  padding:14px 8px 10px; box-shadow:var(--lift);
+}
+#board h2{
+  font-family:var(--display); font-weight:600; font-size:.8rem; letter-spacing:.01em;
+  margin:0 0 9px 7px; position:sticky; top:0; color:var(--paper-dim); text-transform:none;
+  display:flex; align-items:center; justify-content:space-between; padding-right:7px;
+}
+#toggle{display:none; border:1px solid rgba(255,246,233,.24); background:transparent;
+  color:var(--paper); font-family:var(--display); font-weight:600; font-size:.72rem;
+  border-radius:999px; padding:4px 11px; cursor:pointer}
+#toggle:hover{background:rgba(255,246,233,.12)}
+.row{
+  position:relative; isolation:isolate; overflow:hidden;
+  display:grid; grid-template-columns:1.35rem 1fr auto; align-items:center; gap:9px;
+  padding:6px 9px; border-radius:10px; cursor:pointer; border:0; width:100%;
+  background:transparent; color:var(--paper); font-family:var(--ui); font-size:.9rem;
+  text-align:left; transition:transform .18s cubic-bezier(.2,.9,.25,1);
+}
+/* how far down the track this lab actually is */
+.row::before{
+  content:''; position:absolute; inset:0 auto 0 0; z-index:-1;
+  width:100%; transform:scaleX(var(--t,0)); transform-origin:left center;
+  background:currentColor; opacity:.16; border-radius:10px;
+  transition:transform .7s cubic-bezier(.2,.9,.25,1);
+}
+.row::after{
+  content:''; position:absolute; inset:0; z-index:-2; border-radius:10px;
+  background:rgba(255,246,233,.045);
+}
+.row:hover,.row:focus-visible{transform:translateX(3px)}
+.row:hover::after{background:rgba(255,246,233,.1)}
+.row .nm > span{color:var(--paper)}
+.row .pos{font-weight:700; color:var(--paper-dim); font-variant-numeric:tabular-nums; font-size:.8rem}
+.row .nm{font-weight:600; display:flex; align-items:center; gap:7px; min-width:0}
+.row .nm span{overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+.mk{width:17px; height:17px; flex:none; display:block; border-radius:3px; object-fit:contain}
+.flag{width:16px; height:12px; flex:none; border-radius:2px; display:block;
+  box-shadow:0 0 0 1px rgba(0,0,0,.35)}
+#card h3 .flag{width:21px; height:16px; border-radius:3px}
+.mono{border-radius:50%; display:grid; place-items:center; font-family:var(--display);
+  font-weight:700; font-size:.56rem; color:#1A1130; font-style:normal; letter-spacing:0}
+#card h3 .mk{width:21px; height:21px}
+.row .val{font-variant-numeric:tabular-nums; font-weight:600; color:var(--sun); font-size:.85rem}
+.row.lead .pos{color:var(--sun)}
+.row.lead .nm{font-weight:700}
+.row.lead::after{background:rgba(255,211,110,.1)}
+.crown{width:13px; height:13px; flex:none; fill:var(--sun); margin-left:1px}
+#more{margin:10px 8px 2px; padding-top:9px; border-top:1px solid rgba(255,246,233,.1);
+  font-size:.74rem; color:var(--paper-dim); line-height:1.45}
+
+/* ---------- chips ---------- */
+#dock{margin-top:auto; display:flex; flex-direction:column; gap:12px}
+#chips{display:flex; gap:9px; overflow-x:auto; padding:4px 2px 6px;
+       scrollbar-width:thin; scrollbar-color:rgba(255,246,233,.35) transparent}
+#chips::-webkit-scrollbar{height:6px}
+#chips::-webkit-scrollbar-thumb{background:rgba(255,246,233,.35); border-radius:99px}
+.chip{
+  flex:none; border:1px solid rgba(255,246,233,.18);
+  background:linear-gradient(rgba(46,32,74,.88), rgba(30,20,54,.88));
+  color:var(--paper); border-radius:999px;
+  padding:9px 17px; font-family:var(--display); font-weight:600; font-size:.95rem;
+  cursor:pointer; white-space:nowrap;
+  box-shadow:inset 0 1px 0 rgba(255,246,233,.13), var(--lift-sm);
+  transition:transform .18s cubic-bezier(.2,.9,.25,1), background .18s ease, color .18s ease;
+}
+.chip:hover{transform:translateY(-2px)}
+.chip[aria-pressed="true"]{
+  background:linear-gradient(#FFE9A8,#FFC94D); color:#231A08; border-color:#FFF0BC;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.65), 0 0 0 3px rgba(255,201,77,.28), var(--lift-sm);
+  transform:translateY(-1px)}
+.chip[aria-pressed="true"]:hover{transform:translateY(-3px)}
+#hint{margin:0 2px; font-size:.72rem; color:var(--paper-dim); opacity:.75}
+#foot{display:flex; align-items:center; gap:14px; flex-wrap:wrap;
+      font-size:.76rem; color:var(--paper-dim); line-height:1.5}
+#foot a{color:var(--paper-dim); text-underline-offset:3px}
+#foot a:hover{color:var(--sun)}
+#replay{
+  border:1px solid rgba(255,246,233,.24); background:rgba(36,26,58,.8); color:var(--paper);
+  font-family:var(--display); font-weight:600; font-size:.85rem; border-radius:999px;
+  padding:7px 15px; cursor:pointer; display:inline-flex; align-items:center; gap:7px;
+  box-shadow:var(--lift-sm); transition:transform .18s ease;
+}
+#replay:hover{transform:translateY(-2px)}
+
+/* ---------- model card ---------- */
+#card{
+  position:fixed; left:50%; bottom:120px; transform:translate(-50%,14px);
+  width:min(370px,90vw); overflow:hidden;
+  background:linear-gradient(rgba(46,32,74,.96), rgba(26,17,48,.96));
+  border:1px solid rgba(255,246,233,.18); border-radius:22px; padding:0;
+  box-shadow:inset 0 1px 0 rgba(255,246,233,.16), var(--lift); opacity:0; visibility:hidden;
+  transition:opacity .22s ease, transform .22s cubic-bezier(.2,.9,.25,1), visibility .22s;
+}
+#card.on{opacity:1; visibility:visible; transform:translate(-50%,0)}
+#cardHead{padding:16px 19px 13px; background:var(--wash,transparent);
+  border-bottom:1px solid rgba(255,246,233,.12)}
+#card h3{font-family:var(--display); font-weight:700; font-size:1.26rem; margin:0 0 3px;
+         display:flex; align-items:center; gap:10px; letter-spacing:-.025em}
+#card .sub{color:var(--paper-dim); font-size:.83rem; margin:0; line-height:1.4}
+#card dl{display:grid; grid-template-columns:auto 1fr; gap:9px 16px; margin:0;
+  font-size:.87rem; padding:15px 19px 17px}
+#card dt{color:var(--paper-dim)}
+#card dd{margin:0; font-weight:600; font-variant-numeric:tabular-nums; text-align:right}
+#close{position:absolute; top:13px; right:13px; z-index:2; width:29px; height:29px; border-radius:50%;
+       border:1px solid rgba(255,246,233,.2); background:transparent; color:var(--paper);
+       cursor:pointer; display:grid; place-items:center}
+#close:hover{background:rgba(255,246,233,.14)}
+
+/* CJK headlines: no negative tracking, a little more leading, and Japanese breaks between phrases */
+:lang(zh-Hans) h1, :lang(ja) h1{letter-spacing:0; line-height:1.16}
+:lang(ja) h1, :lang(ja) #callout, :lang(ja) .cm-text{word-break:auto-phrase}
+
+@media (max-width:860px){
+  /* the race owns the middle of the screen; panels hug the edges */
+  /* room for a three-line callout, so the header's height (and the camera fit that
+     reads it) does not change when a race with a longer sentence is selected */
+  header{min-height:6.4rem}
+  #board{width:auto; order:2; margin-top:auto; max-height:46vh; padding:9px 6px 6px;
+         background:rgba(26,17,48,.72)}
+  #toggle{display:inline-block}
+  #board.min .row:nth-child(n+2){display:none}
+  #board.min #more{display:none}
+  #board h2{margin-bottom:6px}
+  #dock{order:3; margin-top:0}
+  header{max-width:none}
+  h1{font-size:clamp(1.25rem,min(5.9vw,3.8vh),2rem); line-height:1.06}
+  #callout{font-size:.88rem; max-width:none; -webkit-line-clamp:3}
+  #ui{gap:8px}
+  #more{font-size:.78rem}
+  .row{font-size:1rem; padding:8px 10px; grid-template-columns:1.6rem 1fr auto}
+  .row .pos{font-size:.92rem}
+  .row .val{font-size:.95rem}
+  .mk{width:21px; height:21px}
+  .flag{width:20px; height:15px}
+  #board h2{font-size:.92rem}
+  #toggle{font-size:.82rem; padding:6px 13px}
+  .chip{font-size:1.02rem; padding:11px 19px}
+  #foot{font-size:.72rem; gap:9px}
+  #card dl{font-size:.95rem}
+  #card h3{font-size:1.35rem}
+  #card{bottom:auto; top:50%; transform:translate(-50%,calc(-50% + 14px))}
+  #card.on{transform:translate(-50%,-50%)}
+}
+@media (prefers-reduced-motion:reduce){
+  *{transition-duration:.01ms !important}
+}
+
+/* ---------- name labels over the cars (positioned by scene.js) ---------- */
+#ui{z-index:2}
+#card{z-index:8}
+#labels{position:fixed; inset:0; pointer-events:none; z-index:1; overflow:hidden}
+.car-label{position:absolute; left:0; top:0; display:none; align-items:center; gap:6px;
+  padding:3px 10px 3px 3px; border:1.5px solid rgba(255,255,255,.93); border-radius:20px;
+  background:var(--car-color); color:#fff; font-family:var(--display); font-weight:700; font-size:13px;
+  line-height:1; white-space:nowrap; pointer-events:auto; cursor:pointer; will-change:transform;
+  box-shadow:0 2px 7px rgba(21,40,61,.22); text-shadow:0 1px 2px rgba(0,0,0,.14);
+  transition:opacity .3s ease, padding .45s cubic-bezier(.2,.8,.2,1), gap .45s cubic-bezier(.2,.8,.2,1)}
+.car-label .label-name{display:inline-block; max-width:16em; overflow:hidden; transition:max-width .45s cubic-bezier(.2,.8,.2,1), opacity .3s ease}
+.car-label .badge{width:20px; height:20px; border-radius:50%; background:#fff; display:grid; place-items:center; overflow:hidden; flex:none}
+.car-label .badge .mk{width:14px; height:14px; margin:0}
+.car-label .badge .mono{font-size:8px; width:20px; height:20px; display:grid; place-items:center; color:#fff; font-style:normal}
+.car-label .crown{position:absolute; top:-20px; left:50%; width:22px; height:18px; transform:translateX(-50%);
+  fill:#FFB32F; stroke:#fff; stroke-width:1.2; display:none; overflow:visible}
+.car-label.first{font-size:15px; padding:4px 12px 4px 4px;
+  box-shadow:0 0 0 3px rgba(255,201,77,.6), 0 3px 12px rgba(21,40,61,.32)}
+.car-label.first .badge{width:23px; height:23px}
+.car-label.first .crown{display:block}
+.car-label.missing{opacity:.45}
+/* all but the top three fold down to a faded logo badge once a race change settles; hovering one,
+   or its standings row, opens the name again */
+.car-label.compact{padding:2px; gap:0; opacity:.62}
+.car-label.compact.missing{opacity:.38}
+.car-label.compact .label-name{max-width:0; opacity:0}
+.car-label.compact:hover, .car-label.compact.hl{opacity:1; padding:3px 10px 3px 3px; gap:6px}
+.car-label.compact:hover .label-name, .car-label.compact.hl .label-name{max-width:16em; opacity:1}
+/* while the field speeds to a new order, the new podium stands out: a pulsing ring in gold, silver and
+   bronze, and a place number on second and third (absolutely placed, so the label keeps its size) */
+.car-label[data-podium="1"]{--podium:#FFC94D; --podium-glow:rgba(255,201,77,.55)}
+.car-label[data-podium="2"]{--podium:#E4E9F0; --podium-glow:rgba(228,233,240,.5)}
+.car-label[data-podium="3"]{--podium:#E7A66A; --podium-glow:rgba(231,166,106,.55)}
+.car-label.hot{box-shadow:0 0 0 3px var(--podium), 0 0 18px 4px var(--podium-glow), 0 3px 12px rgba(21,40,61,.32);
+  animation:podium-pulse .8s ease-in-out infinite alternate}
+.car-label.hot[data-podium="2"]::before, .car-label.hot[data-podium="3"]::before{content:attr(data-podium); position:absolute;
+  left:-8px; top:-9px; width:18px; height:18px; border-radius:50%; display:grid; place-items:center; background:var(--podium);
+  color:#231A08; font:700 11px/1 var(--display); box-shadow:0 1px 4px rgba(0,0,0,.35)}
+@keyframes podium-pulse{from{filter:brightness(1)} to{filter:brightness(1.14)}}
+@media (prefers-reduced-motion:reduce){ .car-label.hot{animation:none} }
+.car-label:focus-visible{outline:3px solid var(--sun); outline-offset:2px}
+@media (max-width:860px){
+  .car-label{font-size:10px; padding:2px 6px 2px 2px; gap:3px}
+  .car-label .badge{width:15px; height:15px}
+  .car-label .badge .mk{width:11px; height:11px}
+  .car-label .label-name{max-width:80px; overflow:hidden; text-overflow:ellipsis}
+  .car-label.first{font-size:12px; padding:3px 8px 3px 3px}
+  .car-label.first .badge{width:18px; height:18px}
+}
+
+/* lighter overlays over the bright world; the dock carries its own panel instead */
+#dockscrim{height:min(26vh,220px);
+  background:linear-gradient(to top, rgba(12,20,32,.62) 0%, rgba(12,20,32,.38) 38%, rgba(12,20,32,.12) 68%, rgba(12,20,32,0) 100%)}
+#srcToggle{display:none; font:inherit; font-weight:600; font-size:.8rem; color:var(--paper);
+  background:rgba(36,26,58,.72); border:1px solid rgba(255,246,233,.22); border-radius:999px; padding:6px 13px; cursor:pointer}
+@media (max-width:860px){
+  #hint{display:none}
+  #foot{flex-wrap:wrap}
+  #srcToggle{display:inline-flex}
+  #src{display:none}
+  #foot.open #src{display:block; flex-basis:100%}
+}
+
+/* chip with an attached "according to" chevron */
+.chipwrap{display:inline-flex; flex:none; align-items:stretch}
+.chipwrap .chip{border-top-right-radius:0; border-bottom-right-radius:0; padding-right:12px}
+.chev{flex:none; display:grid; place-items:center; width:34px; margin-left:-1px; cursor:pointer;
+  border:1px solid rgba(255,246,233,.18); border-left-color:rgba(255,246,233,.1); border-radius:0 999px 999px 0;
+  background:linear-gradient(rgba(46,32,74,.88), rgba(30,20,54,.88)); color:var(--paper);
+  box-shadow:inset 0 1px 0 rgba(255,246,233,.13), var(--lift-sm); transition:transform .18s ease}
+.chev svg{width:14px; height:14px; fill:none; stroke:currentColor; stroke-width:2.6; stroke-linecap:round; stroke-linejoin:round}
+.chev:hover{transform:translateY(-2px)}
+.chev[aria-expanded="true"] svg{transform:rotate(180deg)}
+.chipwrap.on .chev{background:linear-gradient(#FFE9A8,#FFC94D); color:#231A08; border-color:#FFF0BC; transform:translateY(-1px)}
+#srcmenu, #langmenu{position:fixed; z-index:9; min-width:230px; padding:6px; border-radius:14px;
+  background:rgba(26,17,48,.95); backdrop-filter:blur(14px); border:1px solid rgba(255,246,233,.18); box-shadow:var(--lift)}
+#srcmenu .srchead{margin:4px 10px 6px; font-size:.72rem; color:var(--paper-dim); text-transform:uppercase; letter-spacing:.08em}
+#srcmenu .srchint{margin:6px 10px 2px; font-size:.7rem; color:var(--paper-dim); opacity:.8}
+#srcmenu .opt, #langmenu .opt{display:block; width:100%; text-align:left; border:0; background:transparent; color:var(--paper);
+  font:600 .9rem var(--ui); padding:8px 10px; border-radius:9px; cursor:pointer}
+#srcmenu .opt:hover, #srcmenu .opt:focus-visible, #langmenu .opt:hover, #langmenu .opt:focus-visible{background:rgba(255,246,233,.1)}
+#srcmenu .opt[aria-selected="true"]{color:var(--sun)}
+#srcmenu .opt[aria-selected="true"]::after{content:" \2713"}
+#langmenu{min-width:160px}
+#langmenu .opt[aria-checked="true"]{color:var(--sun)}
+#langmenu .opt[aria-checked="true"]::after{content:" \2713"}
+
+/* circuit picker, top right */
+#circuits{position:absolute; top:clamp(14px,2.4vw,28px); right:clamp(14px,2.4vw,28px); display:flex; gap:12px; z-index:3}
+#circuits .tools, #circuits .tracks{display:flex; gap:8px}
+#circuits button{width:40px; height:40px; border-radius:50%; display:grid; place-items:center; cursor:pointer; color:var(--paper);
+  border:1px solid rgba(255,246,233,.2); background:linear-gradient(rgba(46,32,74,.88), rgba(30,20,54,.88));
+  box-shadow:inset 0 1px 0 rgba(255,246,233,.13), var(--lift-sm); transition:transform .18s ease}
+#circuits button:hover{transform:translateY(-2px)}
+#circuits button[aria-pressed="true"]{background:linear-gradient(#FFE9A8,#FFC94D); color:#231A08; border-color:#FFF0BC}
+#circuits svg{width:22px; height:22px; fill:none; stroke:currentColor; stroke-width:1.9; stroke-linecap:round; stroke-linejoin:round}
+body.building #stage{filter:saturate(.55) brightness(.92); transition:filter .15s ease}
+body.building #circuits button{cursor:progress}
+@media (max-width:860px){
+  header{padding-right:152px}
+  #circuits{flex-direction:column; align-items:flex-end; gap:6px}
+  #circuits .tools, #circuits .tracks{gap:5px}
+  #circuits button{width:32px; height:32px}
+  #circuits svg{width:18px; height:18px}
+}
+
+/* sponsor marquee: phones only, where trackside boards are too small to read */
+#marquee{display:none; overflow:hidden; border-radius:12px; background:rgba(20,14,38,0.72);
+  border:1px solid rgba(255,246,233,.16); -webkit-mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent)}
+#marquee .mq-track{display:flex; gap:10px; width:max-content; padding:6px 10px; animation:mq 34s linear infinite}
+#marquee:hover .mq-track, #marquee:focus-within .mq-track{animation-play-state:paused}
+#marquee .mq-item{flex:none; display:inline-flex; align-items:center; height:30px; padding:0 12px; border-radius:8px;
+  font:700 .82rem var(--display); letter-spacing:.02em; text-decoration:none; white-space:nowrap}
+#marquee .mq-item img{height:22px; width:auto; display:block}
+#marquee a.mq-item:focus-visible{outline:2px solid var(--sun); outline-offset:1px}
+@keyframes mq{to{transform:translateX(-50%)}}
+@media (max-width:860px){ #marquee:not([hidden]){display:block} }
+@media (prefers-reduced-motion:reduce){ #marquee{overflow-x:auto} #marquee .mq-track{animation:none} }
+
+/* lab card: beside a hovered standings row, or under the circuit picker with a dashed leader line */
+#card.at-row{left:var(--cx,320px); top:var(--cy,120px); bottom:auto; transform:translate(-8px,0)}
+#card.at-row.on{transform:translate(0,0)}
+#card.at-row::before{content:""; position:absolute; left:-7px; top:calc(var(--ny,40px) - 7px); width:14px; height:14px;
+  background:rgba(46,32,74,.96); border-left:1px solid rgba(255,246,233,.18); border-bottom:1px solid rgba(255,246,233,.18); transform:rotate(45deg)}
+#card.at-row{overflow:visible}
+#card.at-corner{left:auto; right:clamp(14px,2.4vw,28px); top:var(--cy,80px); bottom:auto; transform:translate(0,-8px)}
+#card.at-corner.on{transform:translate(0,0)}
+#annot{position:fixed; inset:0; width:100%; height:100%; pointer-events:none; z-index:7; overflow:visible}
+#annot path{fill:none; stroke:#FFF6E9; stroke-width:2.2; stroke-dasharray:6 6; opacity:0; transition:opacity .15s;
+  filter:drop-shadow(0 1px 2px rgba(0,0,0,.5)); animation:annotdash 1s linear infinite}
+#annot circle{fill:var(--sun); stroke:#1A1130; stroke-width:2; opacity:0; transition:opacity .15s}
+#annot.on #annotPath, #annot.on #annotDot, #annot.rail #railPath, #annot.rail #railDot{opacity:1}
+@keyframes annotdash{to{stroke-dashoffset:-24}}
+.car-label.hl{box-shadow:0 0 0 3px #fff, 0 0 0 6px var(--sun), 0 4px 14px rgba(0,0,0,.35); z-index:300 !important}
+.car-label.offrail{display:none !important}
+
+/* the new leader's shout */
+.shout{position:absolute; left:0; top:0; display:none; pointer-events:none; z-index:250; will-change:transform;
+  background:#fff; color:#1A1130; font:700 15px/1 var(--display); letter-spacing:.01em; white-space:nowrap;
+  padding:8px 13px 9px; border-radius:16px; border:2.5px solid #1A1130; box-shadow:0 4px 0 #1A1130}
+.shout::before, .shout::after{content:""; position:absolute; left:50%; border-style:solid; transform:translateX(-50%)}
+.shout::before{bottom:-14px; border-width:13px 9px 0; border-color:#1A1130 transparent transparent}
+.shout::after{bottom:-9px; border-width:9px 6px 0; border-color:#fff transparent transparent}
+.shout.pop{animation:shoutpop .5s cubic-bezier(.2,1.7,.4,1) both}
+@keyframes shoutpop{0%{scale:.2; rotate:-10deg; opacity:0} 60%{opacity:1} 100%{scale:1; rotate:-3deg; opacity:1}}
+@media (max-width:860px){ .shout{font-size:12px; padding:6px 10px 7px; border-width:2px; box-shadow:0 3px 0 #1A1130} }
+
+/* phone rank rail */
+#rail{position:fixed; left:6px; z-index:3; display:none; flex-direction:column; gap:4px}
+@media (max-width:860px){ #rail:not([hidden]){display:flex} }
+.rail-dot{position:relative; width:var(--dot,26px); height:var(--dot,26px); padding:0; border-radius:50%; cursor:pointer;
+  border:2px solid var(--c); background:#fff; display:grid; place-items:center; box-shadow:0 2px 6px rgba(0,0,0,.32);
+  transition:transform .15s ease, box-shadow .15s ease}
+.rail-dot .mk{width:62%; height:62%; margin:0}
+.rail-dot .mono{width:100%; height:100%; border-radius:50%; font-size:9px; display:grid; place-items:center; color:#fff; font-style:normal}
+.rail-dot .rk{position:absolute; right:-6px; bottom:-4px; min-width:13px; height:13px; padding:0 2px; border-radius:7px;
+  background:#1A1130; color:#FFF6E9; font:700 8px/13px var(--ui); text-align:center}
+.rail-dot.lead{box-shadow:0 0 0 2px var(--sun), 0 2px 6px rgba(0,0,0,.32)}
+.rail-dot.lead .rk{background:var(--sun); color:#231A08}
+.rail-dot.missing{opacity:.5}
+.rail-dot.on{transform:scale(1.18); box-shadow:0 0 0 3px #fff, 0 0 0 5px var(--sun)}
+
+/* follow on X, bottom right */
+#src{flex:1 1 320px; min-width:0}
+#followx{margin-left:auto; flex:none; display:inline-flex; align-items:center; gap:6px; color:var(--paper); text-decoration:none;
+  font:600 .8rem var(--display); padding:6px 12px; border-radius:999px; border:1px solid rgba(255,246,233,.22); background:rgba(11,11,15,.72)}
+#followx svg{width:13px; height:13px; fill:currentColor}
+#followx:hover{background:#000; border-color:rgba(255,246,233,.4)}
+@media (max-width:860px){ #src{order:9} }
+
+/* swipe feedback; vertical swipes must not pull-to-refresh */
+html, body{overscroll-behavior:none}
+canvas{touch-action:none}
+#toast{position:fixed; left:50%; top:120px; z-index:9; pointer-events:none; white-space:nowrap; opacity:0;
+  transform:translate(-50%,-6px); transition:opacity .2s ease, transform .2s ease;
+  background:rgba(26,17,48,.92); color:#FFF6E9; font:600 .82rem/1.2 var(--display); padding:8px 14px;
+  border-radius:999px; border:1px solid rgba(255,246,233,.18); box-shadow:0 6px 18px rgba(0,0,0,.3)}
+#toast.on{opacity:1; transform:translate(-50%,0)}
+
+/* race commentary: one quiet line from the caller, top centre, on a feathered dark blur with no edge */
+#commentary{position:fixed; top:24px; left:12px; right:12px; z-index:6; display:flex; justify-content:center; pointer-events:none}
+#commentary .cm{position:relative; isolation:isolate; display:flex; align-items:flex-start; gap:8px; max-width:min(520px,100%);
+  padding:7px 14px; color:#FFF6E9; font:500 .9rem/1.42 var(--ui); text-shadow:0 1px 2px rgba(8,5,18,.6);
+  opacity:0; transform:translateY(-6px); transition:opacity .35s ease, transform .45s cubic-bezier(.2,.9,.25,1)}
+#commentary .cm::before{content:""; position:absolute; inset:-8px -26px; z-index:-1; border-radius:24px;
+  background:rgba(14,9,30,0.76); -webkit-mask-image:linear-gradient(90deg,transparent,#000 26px,#000 calc(100% - 26px),transparent),linear-gradient(transparent,#000 9px,#000 calc(100% - 9px),transparent);
+  -webkit-mask-composite:source-in;
+  mask-image:linear-gradient(90deg,transparent,#000 26px,#000 calc(100% - 26px),transparent),linear-gradient(transparent,#000 9px,#000 calc(100% - 9px),transparent);
+  mask-composite:intersect}
+#commentary.on .cm{opacity:1; transform:none}
+#commentary .cm b{font-weight:600; color:var(--sun)}
+.cm-icon{flex:none; width:16px; height:16px; margin-top:.2em; color:var(--sun)}
+@media (max-width:860px){
+  #commentary .cm{font-size:.8rem; padding:5px 10px; gap:6px} .cm-icon{width:14px; height:14px}
+  /* a tighter feather, so the backdrop fits between the rank rail and the screen edge */
+  #commentary .cm::before{inset:-6px -14px;
+    -webkit-mask-image:linear-gradient(90deg,transparent,#000 14px,#000 calc(100% - 14px),transparent),linear-gradient(transparent,#000 7px,#000 calc(100% - 7px),transparent);
+    mask-image:linear-gradient(90deg,transparent,#000 14px,#000 calc(100% - 14px),transparent),linear-gradient(transparent,#000 7px,#000 calc(100% - 7px),transparent)}
+}
+
+/* auto-play toggle, first in the chip row and pinned there while the chips scroll */
+.autoplay{flex:none; position:sticky; left:0; z-index:2; width:40px; height:40px; padding:0; border-radius:50%;
+  display:grid; place-items:center; cursor:pointer; color:var(--paper);
+  border:1px solid rgba(255,246,233,.18); background:linear-gradient(rgb(46,32,74), rgb(30,20,54));
+  box-shadow:inset 0 1px 0 rgba(255,246,233,.13), var(--lift-sm); transition:transform .18s cubic-bezier(.2,.9,.25,1)}
+.autoplay:hover{transform:translateY(-2px)}
+.autoplay svg{grid-area:1/1}
+.ap-icon{width:16px; height:16px; fill:currentColor}
+.ap-play, .autoplay.playing .ap-pause{display:block}
+.ap-pause, .autoplay.playing .ap-play{display:none}
+.ap-ring{width:100%; height:100%; transform:rotate(-90deg)}
+.ap-ring circle{fill:none; stroke:var(--sun); stroke-width:2.4; stroke-linecap:round; stroke-dasharray:100.6; stroke-dashoffset:100.6; opacity:0}
+.autoplay.playing.tick .ap-ring circle{opacity:1; animation:apfill 14s linear forwards}
+@keyframes apfill{to{stroke-dashoffset:0}}
+@media (max-width:860px){ .autoplay{width:46px; height:46px} }
+
+/* the bubble's tail tip is its anchor: scale and rotate turn about it (position is set on `translate`) */
+.shout{transform:translate(-50%,-100%); transform-origin:0 0; will-change:translate}
+/* shuffle sits beside auto-play, pinned the same way */
+.shuffle{left:49px}
+.shuffle.on{background:linear-gradient(#FFE9A8,#FFC94D); color:#231A08; border-color:#FFF0BC}
+/* phones: the race picker above the standings, sponsors below; both scrollers run to the screen edge */
+@media (max-width:860px){
+  #dock{display:contents}
+  #chips{order:2; margin:auto calc(-1 * clamp(14px,2.4vw,28px)) 0; padding-inline:clamp(14px,2.4vw,28px);
+    scroll-padding-inline:clamp(14px,2.4vw,28px)}
+  #board{order:3; margin-top:0}
+  #marquee{order:4; margin-inline:calc(-1 * clamp(14px,2.4vw,28px)); border-radius:0; border-left:0; border-right:0}
+  #hint{order:5}
+  #foot{order:6}
+  .autoplay{left:0}                       /* sticky offsets count from the padded edge */
+  .shuffle{left:55px}
+}
+
+/* camera button, left of the circuit picker */
+#circuits .cam{width:auto; padding:0 13px 0 11px; border-radius:999px; display:inline-flex; gap:7px; align-items:center}
+#circuits .cam svg{width:20px; height:20px}
+.cam-name{font:600 .82rem var(--display); white-space:nowrap}
+#circuits .ride{padding:0 13px 0 10px}
+#circuits .ride svg{width:22px; height:22px}
+/* laptop widths: the tool buttons drop their words so the headline keeps its room */
+@media (min-width:861px) and (max-width:1180px){
+  #circuits .cam{width:40px; padding:0; border-radius:50%; justify-content:center}
+  #circuits .cam .cam-name{display:none}
+}
+/* cinematic: letterbox bars over the scene, under the interface */
+#letterbox{position:fixed; inset:0; z-index:1; pointer-events:none}
+#letterbox::before, #letterbox::after{content:""; position:absolute; left:0; right:0; height:0; background:#050308;
+  transition:height .7s cubic-bezier(.2,.9,.25,1)}
+#letterbox::before{top:0}
+#letterbox::after{bottom:0}
+body.cam-cine #letterbox::before, body.cam-cine #letterbox::after{height:max(0px, calc((100vh - 100vw / 2.39) / 2))}
+@media (max-width:860px){
+  header{padding-right:196px}
+  #circuits .cam{width:32px; padding:0; border-radius:50%; justify-content:center}
+  #circuits .cam svg{width:18px; height:18px}
+  .cam-name{display:none}
+  body.cam-cine #letterbox::before, body.cam-cine #letterbox::after{height:8vh}
+}
+
+/* live visitors, beside Follow on X */
+#live{margin-left:auto; display:inline-flex; align-items:center; gap:6px; font:600 .78rem var(--ui); color:var(--paper-dim); white-space:nowrap}
+#live[hidden]{display:none}
+#live:not([hidden]) + #followx{margin-left:0}
+#live b{color:var(--paper); font-weight:700; font-variant-numeric:tabular-nums}
+#live i{width:8px; height:8px; border-radius:50%; background:#3DDC84; animation:livepulse 2.2s ease-out infinite}
+@keyframes livepulse{0%{box-shadow:0 0 0 0 rgba(61,220,132,.55)} 70%, 100%{box-shadow:0 0 0 7px rgba(61,220,132,0)}}
+@media (max-width:860px){ .live-word{display:none} }
+@media (prefers-reduced-motion:reduce){ #live i{animation:none} }
+/* the hidden studio panel (⌘'): after Token Town's playback bar, in the race's own colours */
+#studio{position:fixed; right:24px; bottom:176px; z-index:7; display:flex; flex-direction:column; align-items:flex-end; gap:8px;
+  font:500 .9rem var(--ui); color:var(--paper)}
+#studio[hidden]{display:none}          /* the display above would otherwise beat the hidden attribute */
+#studio .st-keys{margin:0; padding:.3em .8em; border-radius:999px; font-size:.78rem; color:rgba(255,246,233,.9);
+  background:rgba(26,17,48,0.65); }
+#studio kbd{display:inline-block; min-width:1.55em; padding:.05em .38em; border:1px solid rgba(255,246,233,.32); border-radius:6px;
+  background:rgba(26,17,48,.5); font:600 .74rem var(--ui); text-align:center}
+#studio .st-bar{display:flex; align-items:center; gap:14px; padding:9px 18px; border-radius:999px; background:rgba(26,17,48,0.84);
+  border:1px solid rgba(255,246,233,.12); box-shadow:var(--lift)}
+#studio .st-sep{width:1px; height:22px; background:rgba(255,246,233,.18)}
+#studio label{display:flex; align-items:center; gap:8px; cursor:pointer; white-space:nowrap}
+#studio label:has(input:disabled){opacity:.45; cursor:not-allowed}
+#studio input[type=checkbox]{accent-color:var(--sun); width:17px; height:17px; margin:0; cursor:inherit}
+#studio input[type=range]{accent-color:var(--sun); width:104px; margin:0; cursor:pointer}
+#studio .st-clock{font-variant-numeric:tabular-nums; min-width:3.1em}
+#studio .st-focus{font-variant-numeric:tabular-nums; min-width:3.4em; text-align:right}
+#studio .st-auto input[type=range]{opacity:.55}
+#studio .st-lapse{font:600 .82rem var(--ui); color:var(--ink); background:var(--sun); border:0; border-radius:999px; padding:.3em .8em; cursor:pointer; white-space:nowrap}
+body.ui-off #ui, body.ui-off #labels, body.ui-off #scrim, body.ui-off #dockscrim, body.ui-off #commentary,
+body.ui-off #annot, body.ui-off #studio, body.ui-off #toast{display:none!important}
+#studiohint{position:fixed; left:50%; bottom:28px; transform:translate(-50%,8px); margin:0; padding:.5em 1em; border-radius:999px;
+  background:rgba(26,17,48,.74); color:var(--paper); font:500 .85rem var(--ui); opacity:0; pointer-events:none; transition:opacity .3s, transform .3s; z-index:8}
+#studiohint.on{opacity:1; transform:translate(-50%,0)}
+@media (max-width:860px){
+  #studio{left:12px; right:12px; bottom:auto; top:118px; align-items:stretch}
+  #studio .st-keys{display:none}
+  #studio .st-bar{flex-wrap:wrap; justify-content:center; border-radius:18px; gap:10px 12px}
+  #studio .st-sep{display:none}
+}
+</style>
+
+</head>
+<body class="booting">
+<canvas id="stage"></canvas>
+<div id="labels"></div>
+<div id="dockscrim" aria-hidden="true"></div>
+<div id="scrim" aria-hidden="true"></div>
+
+<div id="letterbox" aria-hidden="true"></div>
+<div id="ui" hidden>
+  <nav id="circuits" aria-label="Choose a circuit" data-t-aria-label="nav.circuits"></nav>
+  <header>
+    <div class="brandrow">
+      <a class="brand" href="/originais/airace/" aria-label="AIRACE.lol, home" data-t-aria-label="brand.home"><svg viewBox="0 0 24 24" aria-hidden="true"><defs><clipPath id="brflag"><path d="M5 3.5h15l-2.8 4.5L20 12.5H5z"/></clipPath></defs><g clip-path="url(#brflag)"><rect x="5" y="3.5" width="15" height="9" fill="#FFF6E9"/><path fill="#1A1130" d="M5 3.5h3.75v3H5zM12.5 3.5h3.75v3H12.5zM8.75 6.5h3.75v3H8.75zM16.25 6.5H20v3h-3.75zM5 9.5h3.75v3H5zM12.5 9.5h3.75v3H12.5z"/></g><path d="M5 3.5h15l-2.8 4.5L20 12.5H5z" fill="none" stroke="#FFF6E9" stroke-width="1.1" stroke-linejoin="round"/><path d="M5 21.5V3" stroke="var(--sun)" stroke-width="2.4" stroke-linecap="round"/></svg><span class="br-word">AIRACE</span><span class="br-lol">.lol</span></a>
+      <button id="langBtn" class="langbtn" type="button" aria-haspopup="menu" aria-expanded="false" aria-controls="langmenu"></button>
+    </div>
+    <h1 id="title">Who's winning the AI race?</h1>
+    <label id="according" hidden><span data-t="according">according to</span>
+      <span class="sel"><select id="source" aria-label="Benchmark source" data-t-aria-label="source.aria"></select></span>
+    </label>
+    <p id="callout"></p>
+  </header>
+
+  <section id="board" aria-live="polite">
+    <h2><span data-t="board.title">Standings</span><button id="toggle" type="button" aria-expanded="false">See all 10</button></h2>
+    <div id="rows"></div>
+    <p id="more"></p>
+  </section>
+
+  <div id="dock">
+    <div id="marquee" aria-label="Sponsors" data-t-aria-label="marquee.aria" hidden><div class="mq-track"></div></div>
+    <nav id="chips" aria-label="Pick a race" data-t-aria-label="chips.aria"></nav>
+      <p id="hint" data-t="hint">← → switch race · ↑ ↓ change source on “Who’s smartest?”</p>
+    <div id="foot">
+      <button id="replay" type="button">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 4v5h5"/></svg>
+        <span data-t="foot.replay">Replay</span>
+      </button>
+      <button id="srcToggle" type="button" aria-expanded="false" aria-controls="src" data-t="foot.sources">Sources</button>
+      <span id="src"></span>
+      <span id="live" hidden title="People on the site in the last 5 minutes" data-t-title="live.title"><i aria-hidden="true"></i><b>0</b><span class="live-word" data-t="live.watching"> watching</span></span>
+      <a id="followx" href="https://x.com/ryansael" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.9 2H22l-7.2 8.2L23 22h-6.6l-5.2-6.8L5.2 22H2l7.7-8.8L1.6 2h6.8l4.7 6.2L18.9 2zm-1.2 18h1.8L7.2 3.9H5.3L17.7 20z"/></svg><span data-t="foot.follow">Follow on X</span></a>
+    </div>
+  </div>
+</div>
+
+<nav id="rail" aria-label="Labs by rank" data-t-aria-label="rail.aria" hidden></nav>
+<div id="toast" role="status" aria-live="polite"></div>
+<div id="commentary" aria-hidden="true"><div class="cm"><svg class="cm-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 11 18-5v12L3 14v-3z"/><path d="M11.6 16.8a3 3 0 1 1-5.8-1.6"/></svg><span class="cm-text"></span></div></div>
+<svg id="annot" aria-hidden="true"><path id="annotPath"/><circle id="annotDot" r="5"/><path id="railPath"/><circle id="railDot" r="5"/></svg>
+<div id="srcmenu" role="listbox" aria-label="Benchmark source" data-t-aria-label="source.aria" hidden></div>
+<div id="langmenu" role="menu" aria-label="Language" data-t-aria-label="lang.menu" hidden></div>
+
+<div id="card" role="dialog" aria-label="Lab details" data-t-aria-label="card.aria">
+  <button id="close" type="button" aria-label="Close" data-t-aria-label="card.close">
+    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>
+  </button>
+  <div id="cardHead">
+    <h3 id="cardName"></h3>
+    <p class="sub" id="cardSub"></p>
+  </div>
+  <dl id="cardData"></dl>
+</div>
+
+
+<script type="module" src="/acervo/airace.lol/app__query_b9b59b898c28.js"></script>
+
+<script src="/original-notebook.js" defer></script><script src="/stats.js" defer></script></body>
+</html>

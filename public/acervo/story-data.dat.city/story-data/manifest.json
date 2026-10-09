@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "contentKind": "dat-city.story-data.live-manifest",
+  "generatedAt": "2026-09-03T06:03:26.958Z",
+  "publishedAt": "2026-09-03T06:11:54.218Z",
+  "versionId": "20260903T060326Z",
+  "previousVersionId": null,
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "storyops-scheduler-publish",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-09-03T06:03:26.958Z",
+    "publishedAt": "2026-09-03T06:11:54.218Z",
+    "versionId": "20260903T060326Z",
+    "publicOnly": true,
+    "sourceOfTruth": "Cloudflare R2 live manifest"
+  },
+  "cache": {
+    "live": "public, max-age=60, stale-while-revalidate=300",
+    "immutable": "public, max-age=31536000, immutable"
+  },
+  "latest": {
+    "versionId": "20260903T060326Z",
+    "generatedAt": "2026-09-03T06:03:26.958Z",
+    "publishedAt": "2026-09-03T06:11:54.218Z",
+    "versionBaseUrl": "versions/20260903T060326Z",
+    "versionManifestUrl": "versions/20260903T060326Z/manifest.json",
+    "cityManifestUrl": "versions/20260903T060326Z/city/manifest.json",
+    "storyopsManifestUrl": "versions/20260903T060326Z/storyops/manifest.json",
+    "storyOgBaseUrl": "versions/20260903T060326Z/og/stories/"
+  },
+  "publicBaseUrl": "https://story-data.dat.city/story-data",
+  "localFallback": {
+    "baseUrl": "/data",
+    "cityManifestUrl": "/data/city/manifest.json"
+  },
+  "privateDataPolicy": {
+    "publicOnly": true,
+    "privateEntitlements": false,
+    "excludes": [
+      "raw source snapshots",
+      "private adapter state",
+      "payment entitlements",
+      "customer entitlements"
+    ]
+  },
+  "futurePlacementContract": {
+    "supportedFields": [
+      "districtId",
+      "layoutVersion",
+      "parcelId",
+      "slotId",
+      "placementKind"
+    ],
+    "claimTargetPolicy": "Future sponsor or customer claims must target stable placement ids, not raw coordinates."
+  }
+}

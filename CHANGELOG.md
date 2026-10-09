@@ -1,6 +1,15 @@
 # Changelog
 
-## 2026-10-09
+## 2026-10-09 — correção: clientes originais Sael
+
+- 57 experiências locais com scripts, shaders, modelos, arte e controles originais.
+- 646 recursos preservados por hash; autoria e dependências externas identificadas.
+- Sky convertido para renderização Three.js preservando seus shaders e programa.
+- Caderno em português registra o estado original, exporta CSV/JSON e imprime ficha.
+- Rotas antigas de aulas Sael abrem os clientes reais; outras 20 adaptações separadas.
+- Portal usa prévias originais; maquetes simplificadas saem do catálogo Sael.
+
+## 2026-10-09 — edição anterior
 
 - Vinte novas adaptações em Three.js: moléculas, DNA, frações, probabilidade,
   populações, bandos, trânsito, realimentação, ritmo, circuitos, GPS, órbitas,

@@ -1,0 +1,1 @@
+function i(t,n={}){!t||typeof window>"u"||e(t,n)||window.setTimeout(()=>e(t,n),800)}function e(t,n){const r=window.umami;if(!r||typeof r.track!="function")return!1;try{return r.track(t,n),!0}catch{return!1}}export{i as t};

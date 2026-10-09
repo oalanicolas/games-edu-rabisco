@@ -1,0 +1,679 @@
+{
+  "schemaVersion": 1,
+  "contentKind": "dat-city.district",
+  "version": 1,
+  "generatedAt": "2026-07-10T07:52:11.714Z",
+  "versionId": "20260710T075211Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "manual",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-07-10T07:52:11.714Z",
+    "versionId": "20260710T075211Z",
+    "adapter": null,
+    "storySlug": "public-company-market-cap",
+    "districtId": "market-cap-megacorps",
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "id": "market-cap-megacorps",
+  "name": "Market Cap Megacorps",
+  "storySlug": "public-company-market-cap",
+  "storyUrl": "/stories/public-company-market-cap/",
+  "publicStoryUrl": "/stories/public-company-market-cap.json",
+  "metric": "Market cap",
+  "metricKey": "market-cap",
+  "latestFrameLabel": "2026-07-10",
+  "summary": "Top public companies by market capitalization, useful for tech, AI, and money clusters.",
+  "taxonomy": {
+    "primaryCategory": "economy",
+    "categories": [
+      "economy",
+      "business",
+      "technology",
+      "ai"
+    ],
+    "tags": [
+      "market-cap",
+      "public-companies",
+      "stocks",
+      "nvidia",
+      "megacap"
+    ],
+    "entityTypes": [
+      "company"
+    ],
+    "sourceTypes": [
+      "companiesmarketcap",
+      "wikipedia"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "richest-individuals",
+      "type": "capital-and-founders",
+      "weight": 0.88,
+      "reason": "Megacap company value drives much of the founder wealth board."
+    },
+    {
+      "target": "ai-lab-attention",
+      "type": "ai-business",
+      "weight": 0.74,
+      "reason": "Several market-cap leaders are central to AI infrastructure and attention."
+    },
+    {
+      "target": "app-store-takeover",
+      "type": "platform-economy",
+      "weight": 0.52,
+      "reason": "Large platform companies shape the app and consumer tech charts."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "money-and-power",
+    "mainland": "economy",
+    "bridgePriority": [
+      "richest-individuals",
+      "ai-lab-attention",
+      "app-store-takeover"
+    ]
+  },
+  "thumbnail": "/assets/og/dat-city-home.png",
+  "status": "fresh",
+  "lastObservationDate": "2026-07-10",
+  "nextRefreshAt": "2026-07-11T07:00:00.000Z",
+  "confidence": "Observed CompaniesMarketCap global ranking at 2026-07-10T07:52:11.714Z. Values are parsed from the page's market-cap data-sort fields.",
+  "methodology": "This adapter reads CompaniesMarketCap's global ranking table, uses the current market-cap data-sort value as USD market capitalization, keeps ticker/country/change metadata, and uses the source logo assets for entity media. Scheduled StoryOps runs append daily snapshots so the market-cap district can replay observed changes.",
+  "sources": [
+    {
+      "title": "Largest Companies by Market Cap",
+      "publisher": "CompaniesMarketCap",
+      "url": "https://companiesmarketcap.com/",
+      "note": "Primary live market-cap ranking and company-logo source."
+    }
+  ],
+  "media": {
+    "imageFit": "contain",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-07-10T07:52:11.714Z",
+    "atlasUrl": "/assets/story-atlases/public-company-market-cap.webp?v=2026-07-10T07%3A52%3A11.714Z",
+    "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/public-company-market-cap.webp?v=2026-07-10T07%3A52%3A11.714Z",
+    "manifestUrl": "/assets/story-atlases/public-company-market-cap.json?v=2026-07-10T07%3A52%3A11.714Z",
+    "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/public-company-market-cap.json?v=2026-07-10T07%3A52%3A11.714Z",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 4,
+    "rows": 4,
+    "width": 1280,
+    "height": 1280,
+    "itemCount": 16,
+    "sourcedImageCount": 16,
+    "generatedImageCount": 0,
+    "placeholderCount": 0
+  },
+  "entities": [
+    {
+      "id": "nvda",
+      "name": "NVIDIA",
+      "shortName": "NVIDIA",
+      "value": 4911534178304,
+      "rank": 1,
+      "color": "#ff5a61",
+      "image": "https://companiesmarketcap.com/img/company-logos/64/NVDA.png",
+      "storyUrl": "/stories/public-company-market-cap/",
+      "sourceIds": [
+        "Largest Companies by Market Cap"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/public-company-market-cap.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/public-company-market-cap.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/public-company-market-cap.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/public-company-market-cap.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.25,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://companiesmarketcap.com/img/company-logos/64/NVDA.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "companiesmarketcap"
+        }
+      }
+    },
+    {
+      "id": "aapl",
+      "name": "Apple",
+      "shortName": "Apple",
+      "value": 4644435656704,
+      "rank": 2,
+      "color": "#ffc84a",
+      "image": "https://companiesmarketcap.com/img/company-logos/64/AAPL.png",
+      "storyUrl": "/stories/public-company-market-cap/",
+      "sourceIds": [
+        "Largest Companies by Market Cap"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/public-company-market-cap.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/public-company-market-cap.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/public-company-market-cap.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/public-company-market-cap.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0,
+          "u1": 0.5,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://companiesmarketcap.com/img/company-logos/64/AAPL.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "companiesmarketcap"
+        }
+      }
+    },
+    {
+      "id": "goog",
+      "name": "Alphabet (Google)",
+      "shortName": "Alphabet (Google)",
+      "value": 4347044298752,
+      "rank": 3,
+      "color": "#18c871",
+      "image": "https://companiesmarketcap.com/img/company-logos/64/GOOG.png",
+      "storyUrl": "/stories/public-company-market-cap/",
+      "sourceIds": [
+        "Largest Companies by Market Cap"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/public-company-market-cap.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/public-company-market-cap.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/public-company-market-cap.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/public-company-market-cap.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0,
+          "u1": 0.75,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://companiesmarketcap.com/img/company-logos/64/GOOG.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "companiesmarketcap"
+        }
+      }
+    },
+    {
+      "id": "msft",
+      "name": "Microsoft",
+      "shortName": "Microsoft",
+      "value": 2855193018368,
+      "rank": 4,
+      "color": "#00a6ff",
+      "image": "https://companiesmarketcap.com/img/company-logos/64/MSFT.png",
+      "storyUrl": "/stories/public-company-market-cap/",
+      "sourceIds": [
+        "Largest Companies by Market Cap"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/public-company-market-cap.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/public-company-market-cap.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/public-company-market-cap.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/public-company-market-cap.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://companiesmarketcap.com/img/company-logos/64/MSFT.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "companiesmarketcap"
+        }
+      }
+    },
+    {
+      "id": "amzn",
+      "name": "Amazon",
+      "shortName": "Amazon",
+      "value": 2657436303360,
+      "rank": 5,
+      "color": "#8f6bff",
+      "image": "https://companiesmarketcap.com/img/company-logos/64/AMZN.png",
+      "storyUrl": "/stories/public-company-market-cap/",
+      "sourceIds": [
+        "Largest Companies by Market Cap"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/public-company-market-cap.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/public-company-market-cap.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/public-company-market-cap.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/public-company-market-cap.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.25,
+          "u1": 0.5,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://companiesmarketcap.com/img/company-logos/64/AMZN.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "companiesmarketcap"
+        }
+      }
+    },
+    {
+      "id": "tsm",
+      "name": "TSMC",
+      "shortName": "TSMC",
+      "value": 2266281541632,
+      "rank": 6,
+      "color": "#41a99f",
+      "image": "https://companiesmarketcap.com/img/company-logos/64/TSM.png",
+      "storyUrl": "/stories/public-company-market-cap/",
+      "sourceIds": [
+        "Largest Companies by Market Cap"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/public-company-market-cap.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/public-company-market-cap.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/public-company-market-cap.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/public-company-market-cap.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.25,
+          "u1": 0.75,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://companiesmarketcap.com/img/company-logos/64/TSM.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "companiesmarketcap"
+        }
+      }
+    },
+    {
+      "id": "spcx",
+      "name": "SpaceX",
+      "shortName": "SpaceX",
+      "value": 2004584366080,
+      "rank": 7,
+      "color": "#f18c4f",
+      "image": "https://companiesmarketcap.com/img/company-logos/64/SPCX.png",
+      "storyUrl": "/stories/public-company-market-cap/",
+      "sourceIds": [
+        "Largest Companies by Market Cap"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/public-company-market-cap.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/public-company-market-cap.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/public-company-market-cap.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/public-company-market-cap.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.25,
+          "u1": 0.25,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://companiesmarketcap.com/img/company-logos/64/SPCX.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "companiesmarketcap"
+        }
+      }
+    },
+    {
+      "id": "avgo",
+      "name": "Broadcom",
+      "shortName": "Broadcom",
+      "value": 1908312899584,
+      "rank": 8,
+      "color": "#d78fca",
+      "image": "https://companiesmarketcap.com/img/company-logos/64/AVGO.png",
+      "storyUrl": "/stories/public-company-market-cap/",
+      "sourceIds": [
+        "Largest Companies by Market Cap"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/public-company-market-cap.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/public-company-market-cap.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/public-company-market-cap.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/public-company-market-cap.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.25,
+          "u1": 1,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://companiesmarketcap.com/img/company-logos/64/AVGO.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "companiesmarketcap"
+        }
+      }
+    },
+    {
+      "id": "2222-sr",
+      "name": "Saudi Aramco",
+      "shortName": "Saudi Aramco",
+      "value": 1721788232385,
+      "rank": 9,
+      "color": "#7b9b65",
+      "image": "https://companiesmarketcap.com/img/company-logos/64/2222.SR.png",
+      "storyUrl": "/stories/public-company-market-cap/",
+      "sourceIds": [
+        "Largest Companies by Market Cap"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/public-company-market-cap.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/public-company-market-cap.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/public-company-market-cap.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/public-company-market-cap.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.5,
+          "u1": 0.5,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://companiesmarketcap.com/img/company-logos/64/2222.SR.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "companiesmarketcap"
+        }
+      }
+    },
+    {
+      "id": "meta",
+      "name": "Meta Platforms (Facebook)",
+      "shortName": "Meta Platforms (Facebook)",
+      "value": 1602963505152,
+      "rank": 10,
+      "color": "#ef426f",
+      "image": "https://companiesmarketcap.com/img/company-logos/64/META.png",
+      "storyUrl": "/stories/public-company-market-cap/",
+      "sourceIds": [
+        "Largest Companies by Market Cap"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/public-company-market-cap.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/public-company-market-cap.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/public-company-market-cap.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/public-company-market-cap.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.5,
+          "u1": 0.25,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://companiesmarketcap.com/img/company-logos/64/META.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "companiesmarketcap"
+        }
+      }
+    },
+    {
+      "id": "tsla",
+      "name": "Tesla",
+      "shortName": "Tesla",
+      "value": 1526889447424,
+      "rank": 11,
+      "color": "#2f4858",
+      "image": "https://companiesmarketcap.com/img/company-logos/64/TSLA.png",
+      "storyUrl": "/stories/public-company-market-cap/",
+      "sourceIds": [
+        "Largest Companies by Market Cap"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/public-company-market-cap.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/public-company-market-cap.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/public-company-market-cap.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/public-company-market-cap.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.5,
+          "u1": 1,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://companiesmarketcap.com/img/company-logos/64/TSLA.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "companiesmarketcap"
+        }
+      }
+    },
+    {
+      "id": "005930-ks",
+      "name": "Samsung",
+      "shortName": "Samsung",
+      "value": 1242033004901,
+      "rank": 12,
+      "color": "#86bdf4",
+      "image": "https://companiesmarketcap.com/img/company-logos/64/005930.KS.png",
+      "storyUrl": "/stories/public-company-market-cap/",
+      "sourceIds": [
+        "Largest Companies by Market Cap"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/public-company-market-cap.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/public-company-market-cap.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/public-company-market-cap.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/public-company-market-cap.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.5,
+          "u1": 0.75,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://companiesmarketcap.com/img/company-logos/64/005930.KS.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "companiesmarketcap"
+        }
+      }
+    },
+    {
+      "id": "mu",
+      "name": "Micron Technology",
+      "shortName": "Micron Technology",
+      "value": 1119951388672,
+      "rank": 13,
+      "color": "#c9a14a",
+      "image": "https://companiesmarketcap.com/img/company-logos/64/MU.png",
+      "storyUrl": "/stories/public-company-market-cap/",
+      "sourceIds": [
+        "Largest Companies by Market Cap"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/public-company-market-cap.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/public-company-market-cap.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/public-company-market-cap.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/public-company-market-cap.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.75,
+          "u1": 0.25,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://companiesmarketcap.com/img/company-logos/64/MU.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "companiesmarketcap"
+        }
+      }
+    },
+    {
+      "id": "lly",
+      "name": "Eli Lilly",
+      "shortName": "Eli Lilly",
+      "value": 1085204594688,
+      "rank": 14,
+      "color": "#ff5a61",
+      "image": "https://companiesmarketcap.com/img/company-logos/64/LLY.png",
+      "storyUrl": "/stories/public-company-market-cap/",
+      "sourceIds": [
+        "Largest Companies by Market Cap"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/public-company-market-cap.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/public-company-market-cap.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/public-company-market-cap.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/public-company-market-cap.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.75,
+          "u1": 1,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://companiesmarketcap.com/img/company-logos/64/LLY.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "companiesmarketcap"
+        }
+      }
+    },
+    {
+      "id": "brk-b",
+      "name": "Berkshire Hathaway",
+      "shortName": "Berkshire Hathaway",
+      "value": 1068613238784,
+      "rank": 15,
+      "color": "#9aa4b2",
+      "image": "https://companiesmarketcap.com/img/company-logos/64/BRK-B.png",
+      "storyUrl": "/stories/public-company-market-cap/",
+      "sourceIds": [
+        "Largest Companies by Market Cap"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/public-company-market-cap.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/public-company-market-cap.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/public-company-market-cap.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/public-company-market-cap.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.75,
+          "u1": 0.75,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://companiesmarketcap.com/img/company-logos/64/BRK-B.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "companiesmarketcap"
+        }
+      }
+    },
+    {
+      "id": "000660-ks",
+      "name": "SK Hynix",
+      "shortName": "SK Hynix",
+      "value": 1027013675508,
+      "rank": 16,
+      "color": "#e34f59",
+      "image": "https://companiesmarketcap.com/img/company-logos/64/000660.KS.png",
+      "storyUrl": "/stories/public-company-market-cap/",
+      "sourceIds": [
+        "Largest Companies by Market Cap"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/public-company-market-cap.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/public-company-market-cap.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/public-company-market-cap.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/public-company-market-cap.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.75,
+          "u1": 0.5,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://companiesmarketcap.com/img/company-logos/64/000660.KS.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "companiesmarketcap"
+        }
+      }
+    }
+  ]
+}

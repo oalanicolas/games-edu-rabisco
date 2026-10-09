@@ -1,0 +1,961 @@
+{
+  "schemaVersion": 1,
+  "contentKind": "dat-city.district",
+  "version": 1,
+  "generatedAt": "2026-07-11T15:20:08.831Z",
+  "versionId": "20260711T152008Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "manual",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-07-11T15:20:08.831Z",
+    "versionId": "20260711T152008Z",
+    "adapter": null,
+    "storySlug": "ai-video-arena",
+    "districtId": "video-arena-bay",
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "id": "video-arena-bay",
+  "name": "Video Arena Bay",
+  "storySlug": "ai-video-arena",
+  "storyUrl": "/stories/ai-video-arena/",
+  "publicStoryUrl": "/stories/ai-video-arena.json",
+  "metric": "Arena Elo",
+  "metricKey": "arena-elo",
+  "latestFrameLabel": "2026-07-11 arena standings",
+  "summary": "gemini-omni-flash tops the LMArena video leaderboard at 1527 Elo.",
+  "taxonomy": {
+    "primaryCategory": "technology",
+    "categories": [
+      "technology",
+      "ai",
+      "benchmarks",
+      "creative-tools"
+    ],
+    "tags": [
+      "lmarena",
+      "text-to-video",
+      "video-generation",
+      "elo",
+      "human-preference"
+    ],
+    "entityTypes": [
+      "model",
+      "ai-system"
+    ],
+    "sourceTypes": [
+      "benchmark"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "ai-image-arena",
+      "type": "generative-media",
+      "weight": 0.86,
+      "reason": "Image and video generation arenas track the same generative media race."
+    },
+    {
+      "target": "lmarena-text-leaderboard",
+      "type": "ai-benchmarks",
+      "weight": 0.76,
+      "reason": "Same arena and voting methodology, different modality."
+    },
+    {
+      "target": "what-everyone-is-watching",
+      "type": "media-culture",
+      "weight": 0.3,
+      "reason": "Generated video is starting to flow into the streaming culture economy."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "ai-technology",
+    "mainland": "technology",
+    "bridgePriority": [
+      "ai-image-arena",
+      "lmarena-text-leaderboard"
+    ]
+  },
+  "thumbnail": "/assets/og/dat-city.webp",
+  "status": "fresh",
+  "dataUpdatedAt": "2026-07-11T15:20:08.831Z",
+  "staleAfterHours": 30,
+  "dormant": false,
+  "lastObservationDate": "2026-07-11",
+  "nextRefreshAt": "2026-07-12T07:00:00.000Z",
+  "confidence": "Observed 24 LMArena text-to-video/overall entries at 2026-07-11T15:20:08.831Z; snapshot b97f79f4-75f9-4493-a328-e83a7290ba43.",
+  "methodology": "This adapter reads the public LMArena leaderboard payload, keeps the current top models on the text-to-video/overall board ranked by community Elo from head-to-head human votes, and stores daily StoryOps snapshots so the skyline replays how the arena standings move over time.",
+  "sources": [
+    {
+      "title": "LMArena Leaderboard",
+      "publisher": "LMArena",
+      "url": "https://lmarena.ai/leaderboard",
+      "note": "Public leaderboard payload; the text-to-video board ranks video generators by pairwise human votes."
+    }
+  ],
+  "media": {
+    "tileSize": 320,
+    "imageFit": "contain",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-07-11T15:20:08.831Z",
+    "atlasUrl": "/assets/story-atlases/ai-video-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+    "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-video-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+    "manifestUrl": "/assets/story-atlases/ai-video-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+    "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-video-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 7,
+    "rows": 6,
+    "width": 2240,
+    "height": 1920,
+    "itemCount": 40,
+    "sourcedImageCount": 10,
+    "generatedImageCount": 30,
+    "placeholderCount": 0
+  },
+  "entities": [
+    {
+      "id": "arena-bouncybohr",
+      "name": "gemini-omni-flash",
+      "shortName": "gemini-omni-flash",
+      "value": 1527,
+      "rank": 1,
+      "color": "#ff5a61",
+      "image": "https://cdn.simpleicons.org/googlegemini",
+      "storyUrl": "/stories/ai-video-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/ai-video-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-video-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/ai-video-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-video-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.142857,
+          "v1": 0.166667
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/googlegemini",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "arena-k2",
+      "name": "dreamina-seedance-2.0-720p",
+      "shortName": "dreamina-seedance-2.0-720p",
+      "value": 1482,
+      "rank": 2,
+      "color": "#18c871",
+      "image": null,
+      "storyUrl": "/stories/ai-video-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/ai-video-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-video-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/ai-video-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-video-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.142857,
+          "v0": 0,
+          "u1": 0.285714,
+          "v1": 0.166667
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:arena-k2",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "arena-cold-brew-vznw",
+      "name": "muse-video",
+      "shortName": "muse-video",
+      "value": 1459,
+      "rank": 3,
+      "color": "#ffc84a",
+      "image": "https://cdn.simpleicons.org/meta",
+      "storyUrl": "/stories/ai-video-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/ai-video-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-video-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/ai-video-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-video-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.285714,
+          "v0": 0,
+          "u1": 0.428571,
+          "v1": 0.166667
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/meta",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "arena-model-x-2",
+      "name": "happyhorse-1.0",
+      "shortName": "happyhorse-1.0",
+      "value": 1430,
+      "rank": 4,
+      "color": "#00a6ff",
+      "image": null,
+      "storyUrl": "/stories/ai-video-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/ai-video-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-video-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/ai-video-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-video-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.428571,
+          "v0": 0,
+          "u1": 0.571429,
+          "v1": 0.166667
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:arena-model-x-2",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "arena-sora-2-pro",
+      "name": "sora-2-pro",
+      "shortName": "sora-2-pro",
+      "value": 1366,
+      "rank": 5,
+      "color": "#8f6bff",
+      "image": "https://cdn.simpleicons.org/openai",
+      "storyUrl": "/stories/ai-video-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/ai-video-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-video-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/ai-video-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-video-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.142857,
+          "v0": 0.166667,
+          "u1": 0.285714,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:arena-sora-2-pro",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "arena-veo-3-1-audio",
+      "name": "veo-3.1-audio",
+      "shortName": "veo-3.1-audio",
+      "value": 1364,
+      "rank": 6,
+      "color": "#41a99f",
+      "image": "https://cdn.simpleicons.org/googlegemini",
+      "storyUrl": "/stories/ai-video-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/ai-video-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-video-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/ai-video-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-video-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.166667,
+          "u1": 0.142857,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/googlegemini",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "arena-veo-3-1-audio-1080p",
+      "name": "veo-3.1-audio-1080p",
+      "shortName": "veo-3.1-audio-1080p",
+      "value": 1364,
+      "rank": 7,
+      "color": "#f18c4f",
+      "image": "https://cdn.simpleicons.org/googlegemini",
+      "storyUrl": "/stories/ai-video-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/ai-video-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-video-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/ai-video-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-video-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.428571,
+          "v0": 0.166667,
+          "u1": 0.571429,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/googlegemini",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "arena-veo-3-1-fast-audio",
+      "name": "veo-3.1-fast-audio",
+      "shortName": "veo-3.1-fast-audio",
+      "value": 1362,
+      "rank": 8,
+      "color": "#d78fca",
+      "image": "https://cdn.simpleicons.org/googlegemini",
+      "storyUrl": "/stories/ai-video-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/ai-video-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-video-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/ai-video-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-video-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 1920,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.857143,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.166667
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/googlegemini",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "arena-veo-3-1-fast-audio-1080p",
+      "name": "veo-3.1-fast-audio-1080p",
+      "shortName": "veo-3.1-fast-audio-1080p",
+      "value": 1360,
+      "rank": 9,
+      "color": "#7b9b65",
+      "image": "https://cdn.simpleicons.org/googlegemini",
+      "storyUrl": "/stories/ai-video-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/ai-video-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-video-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/ai-video-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-video-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 1280,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.571429,
+          "v0": 0.166667,
+          "u1": 0.714286,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/googlegemini",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "arena-grok-imagine-video-720p-t2v",
+      "name": "grok-imagine-video-720p",
+      "shortName": "grok-imagine-video-720p",
+      "value": 1352,
+      "rank": 10,
+      "color": "#2f4858",
+      "image": null,
+      "storyUrl": "/stories/ai-video-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/ai-video-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-video-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/ai-video-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-video-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 1600,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.714286,
+          "v0": 0.166667,
+          "u1": 0.857143,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:arena-grok-imagine-video-720p-t2v",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "arena-wan2-7-t2v-2026-04-25",
+      "name": "wan2.7-t2v",
+      "shortName": "wan2.7-t2v",
+      "value": 1348,
+      "rank": 11,
+      "color": "#ef426f",
+      "image": null,
+      "storyUrl": "/stories/ai-video-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/ai-video-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-video-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/ai-video-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-video-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.333333,
+          "u1": 0.142857,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:arena-wan2-7-t2v-2026-04-25",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "arena-veo-3-fast-audio",
+      "name": "veo-3-fast-audio",
+      "shortName": "veo-3-fast-audio",
+      "value": 1347,
+      "rank": 12,
+      "color": "#86bdf4",
+      "image": "https://cdn.simpleicons.org/googlegemini",
+      "storyUrl": "/stories/ai-video-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/ai-video-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-video-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/ai-video-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-video-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.285714,
+          "v0": 0.166667,
+          "u1": 0.428571,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/googlegemini",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "arena-veo-3-audio",
+      "name": "veo-3-audio",
+      "shortName": "veo-3-audio",
+      "value": 1339,
+      "rank": 13,
+      "color": "#c9a14a",
+      "image": "https://cdn.simpleicons.org/googlegemini",
+      "storyUrl": "/stories/ai-video-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/ai-video-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-video-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/ai-video-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-video-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 1920,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.857143,
+          "v0": 0.166667,
+          "u1": 1,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/googlegemini",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "arena-sora-2",
+      "name": "sora-2",
+      "shortName": "sora-2",
+      "value": 1337,
+      "rank": 14,
+      "color": "#e34f59",
+      "image": "https://cdn.simpleicons.org/openai",
+      "storyUrl": "/stories/ai-video-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/ai-video-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-video-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/ai-video-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-video-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.142857,
+          "v0": 0.333333,
+          "u1": 0.285714,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:arena-sora-2",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "arena-wan2-6-t2v",
+      "name": "wan2.6-t2v",
+      "shortName": "wan2.6-t2v",
+      "value": 1333,
+      "rank": 15,
+      "color": "#9aa4b2",
+      "image": null,
+      "storyUrl": "/stories/ai-video-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/ai-video-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-video-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/ai-video-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-video-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.285714,
+          "v0": 0.333333,
+          "u1": 0.428571,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:arena-wan2-6-t2v",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "arena-seedance-v1-5-pro",
+      "name": "seedance-v1.5-pro",
+      "shortName": "seedance-v1.5-pro",
+      "value": 1257,
+      "rank": 16,
+      "color": "#ff5a61",
+      "image": null,
+      "storyUrl": "/stories/ai-video-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/ai-video-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-video-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/ai-video-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-video-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 320,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.142857,
+          "v0": 0.5,
+          "u1": 0.285714,
+          "v1": 0.666667
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:arena-seedance-v1-5-pro",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "arena-wan2-5-t2v-preview",
+      "name": "wan2.5-t2v-preview",
+      "shortName": "wan2.5-t2v-preview",
+      "value": 1254,
+      "rank": 17,
+      "color": "#18c871",
+      "image": null,
+      "storyUrl": "/stories/ai-video-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/ai-video-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-video-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/ai-video-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-video-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 1600,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.714286,
+          "v0": 0.333333,
+          "u1": 0.857143,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:arena-wan2-5-t2v-preview",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "arena-veo-3",
+      "name": "veo-3",
+      "shortName": "veo-3",
+      "value": 1252,
+      "rank": 18,
+      "color": "#ffc84a",
+      "image": "https://cdn.simpleicons.org/googlegemini",
+      "storyUrl": "/stories/ai-video-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/ai-video-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-video-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/ai-video-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-video-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 960,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.428571,
+          "v0": 0.5,
+          "u1": 0.571429,
+          "v1": 0.666667
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/googlegemini",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "arena-veo-3-fast",
+      "name": "veo-3-fast",
+      "shortName": "veo-3-fast",
+      "value": 1248,
+      "rank": 19,
+      "color": "#00a6ff",
+      "image": "https://cdn.simpleicons.org/googlegemini",
+      "storyUrl": "/stories/ai-video-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/ai-video-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-video-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/ai-video-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-video-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 0,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.5,
+          "u1": 0.142857,
+          "v1": 0.666667
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/googlegemini",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "arena-pixverse-v5-6-text-to-video",
+      "name": "pixverse-v5.6",
+      "shortName": "pixverse-v5.6",
+      "value": 1241,
+      "rank": 20,
+      "color": "#8f6bff",
+      "image": null,
+      "storyUrl": "/stories/ai-video-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/ai-video-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-video-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/ai-video-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-video-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 1600,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.714286,
+          "v0": 0.5,
+          "u1": 0.857143,
+          "v1": 0.666667
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:arena-pixverse-v5-6-text-to-video",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "arena-runway-gen-4-5",
+      "name": "runway-gen-4.5",
+      "shortName": "runway-gen-4.5",
+      "value": 1228,
+      "rank": 21,
+      "color": "#f18c4f",
+      "image": null,
+      "storyUrl": "/stories/ai-video-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/ai-video-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-video-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/ai-video-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-video-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 0,
+          "y": 1280,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.666667,
+          "u1": 0.142857,
+          "v1": 0.833333
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:arena-runway-gen-4-5",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "arena-kling-2-5-turbo-1080p",
+      "name": "kling-2.5-turbo-1080p",
+      "shortName": "kling-2.5-turbo-1080p",
+      "value": 1219,
+      "rank": 22,
+      "color": "#41a99f",
+      "image": null,
+      "storyUrl": "/stories/ai-video-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/ai-video-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-video-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/ai-video-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-video-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 320,
+          "y": 1280,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.142857,
+          "v0": 0.666667,
+          "u1": 0.285714,
+          "v1": 0.833333
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:arena-kling-2-5-turbo-1080p",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "arena-kling-2-6-pro",
+      "name": "kling-2.6-pro",
+      "shortName": "kling-2.6-pro",
+      "value": 1218,
+      "rank": 23,
+      "color": "#d78fca",
+      "image": null,
+      "storyUrl": "/stories/ai-video-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/ai-video-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-video-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/ai-video-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-video-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 1920,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.857143,
+          "v0": 0.5,
+          "u1": 1,
+          "v1": 0.666667
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:arena-kling-2-6-pro",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "arena-pixel-parrot",
+      "name": "p-video",
+      "shortName": "p-video",
+      "value": 1207,
+      "rank": 24,
+      "color": "#7b9b65",
+      "image": null,
+      "storyUrl": "/stories/ai-video-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/ai-video-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-video-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/ai-video-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-video-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 1600,
+          "y": 1280,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.714286,
+          "v0": 0.666667,
+          "u1": 0.857143,
+          "v1": 0.833333
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:arena-pixel-parrot",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,961 @@
+{
+  "schemaVersion": 1,
+  "contentKind": "dat-city.district",
+  "version": 1,
+  "generatedAt": "2026-07-11T15:20:08.831Z",
+  "versionId": "20260711T152008Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "manual",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-07-11T15:20:08.831Z",
+    "versionId": "20260711T152008Z",
+    "adapter": null,
+    "storySlug": "ai-image-arena",
+    "districtId": "image-arena-court",
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "id": "image-arena-court",
+  "name": "Image Arena Court",
+  "storySlug": "ai-image-arena",
+  "storyUrl": "/stories/ai-image-arena/",
+  "publicStoryUrl": "/stories/ai-image-arena.json",
+  "metric": "Arena Elo",
+  "metricKey": "arena-elo",
+  "latestFrameLabel": "2026-07-11 arena standings",
+  "summary": "gpt-image-2 (medium) tops the LMArena image leaderboard at 1385 Elo.",
+  "taxonomy": {
+    "primaryCategory": "technology",
+    "categories": [
+      "technology",
+      "ai",
+      "benchmarks",
+      "creative-tools"
+    ],
+    "tags": [
+      "lmarena",
+      "text-to-image",
+      "image-generation",
+      "elo",
+      "human-preference"
+    ],
+    "entityTypes": [
+      "model",
+      "ai-system"
+    ],
+    "sourceTypes": [
+      "benchmark"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "ai-video-arena",
+      "type": "generative-media",
+      "weight": 0.86,
+      "reason": "Image and video generation arenas track the same generative media race."
+    },
+    {
+      "target": "lmarena-text-leaderboard",
+      "type": "ai-benchmarks",
+      "weight": 0.8,
+      "reason": "Same arena and voting methodology, different modality."
+    },
+    {
+      "target": "ai-lab-attention",
+      "type": "labs-to-models",
+      "weight": 0.5,
+      "reason": "The labs people watch also fight the generative image race."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "ai-technology",
+    "mainland": "technology",
+    "bridgePriority": [
+      "lmarena-text-leaderboard",
+      "ai-video-arena"
+    ]
+  },
+  "thumbnail": "/assets/og/dat-city.webp",
+  "status": "fresh",
+  "dataUpdatedAt": "2026-07-11T15:20:08.831Z",
+  "staleAfterHours": 30,
+  "dormant": false,
+  "lastObservationDate": "2026-07-11",
+  "nextRefreshAt": "2026-07-12T07:00:00.000Z",
+  "confidence": "Observed 24 LMArena text-to-image/overall entries at 2026-07-11T15:20:08.831Z; snapshot e18aa42c-2abc-42a5-bd62-420fd6e36c6a.",
+  "methodology": "This adapter reads the public LMArena leaderboard payload, keeps the current top models on the text-to-image/overall board ranked by community Elo from head-to-head human votes, and stores daily StoryOps snapshots so the skyline replays how the arena standings move over time.",
+  "sources": [
+    {
+      "title": "LMArena Leaderboard",
+      "publisher": "LMArena",
+      "url": "https://lmarena.ai/leaderboard",
+      "note": "Public leaderboard payload; the text-to-image board ranks image generators by pairwise human votes."
+    }
+  ],
+  "media": {
+    "tileSize": 320,
+    "imageFit": "contain",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-07-11T15:20:08.831Z",
+    "atlasUrl": "/assets/story-atlases/ai-image-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+    "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-image-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+    "manifestUrl": "/assets/story-atlases/ai-image-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+    "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-image-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 8,
+    "rows": 7,
+    "width": 2560,
+    "height": 2240,
+    "itemCount": 55,
+    "sourcedImageCount": 6,
+    "generatedImageCount": 49,
+    "placeholderCount": 0
+  },
+  "entities": [
+    {
+      "id": "arena-gpt-image-2-medium",
+      "name": "gpt-image-2 (medium)",
+      "shortName": "gpt-image-2 (medium)",
+      "value": 1385,
+      "rank": 1,
+      "color": "#ff5a61",
+      "image": "https://cdn.simpleicons.org/openai",
+      "storyUrl": "/stories/ai-image-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/ai-image-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-image-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/ai-image-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-image-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.125,
+          "v1": 0.142857
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:arena-gpt-image-2-medium",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "arena-carillon-jhq8",
+      "name": "reve-2.1",
+      "shortName": "reve-2.1",
+      "value": 1302,
+      "rank": 2,
+      "color": "#18c871",
+      "image": null,
+      "storyUrl": "/stories/ai-image-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/ai-image-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-image-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/ai-image-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-image-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.125,
+          "v0": 0,
+          "u1": 0.25,
+          "v1": 0.142857
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:arena-carillon-jhq8",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "arena-iron-bloom-kosy",
+      "name": "muse-image",
+      "shortName": "muse-image",
+      "value": 1280,
+      "rank": 3,
+      "color": "#ffc84a",
+      "image": "https://cdn.simpleicons.org/meta",
+      "storyUrl": "/stories/ai-image-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/ai-image-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-image-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/ai-image-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-image-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0,
+          "u1": 0.375,
+          "v1": 0.142857
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/meta",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "arena-babylon-fp95",
+      "name": "reve-2.0",
+      "shortName": "reve-2.0",
+      "value": 1271,
+      "rank": 4,
+      "color": "#00a6ff",
+      "image": null,
+      "storyUrl": "/stories/ai-image-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/ai-image-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-image-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/ai-image-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-image-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.375,
+          "v0": 0,
+          "u1": 0.5,
+          "v1": 0.142857
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:arena-babylon-fp95",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "arena-gemini-3-1-flash-image-nano-banana-2",
+      "name": "gemini-3.1-flash-image (nano-banana-2) [web-search]",
+      "shortName": "gemini-3.1-flash-image (nano-banana-2) [web-search]",
+      "value": 1261,
+      "rank": 5,
+      "color": "#8f6bff",
+      "image": "https://cdn.simpleicons.org/googlegemini",
+      "storyUrl": "/stories/ai-image-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/ai-image-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-image-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/ai-image-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-image-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 1600,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.625,
+          "v0": 0,
+          "u1": 0.75,
+          "v1": 0.142857
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/googlegemini",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "arena-baryonyx-xyv3",
+      "name": "mai-image-2.5",
+      "shortName": "mai-image-2.5",
+      "value": 1257,
+      "rank": 6,
+      "color": "#f18c4f",
+      "image": null,
+      "storyUrl": "/stories/ai-image-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/ai-image-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-image-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/ai-image-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-image-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 1920,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0,
+          "u1": 0.875,
+          "v1": 0.142857
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:arena-baryonyx-xyv3",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "arena-instant-ramen-a85d",
+      "name": "gemini-3.1-flash-lite-image (nano-banana-2-lite)",
+      "shortName": "gemini-3.1-flash-lite-image (nano-banana-2-lite)",
+      "value": 1250,
+      "rank": 7,
+      "color": "#41a99f",
+      "image": "https://cdn.simpleicons.org/googlegemini",
+      "storyUrl": "/stories/ai-image-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/ai-image-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-image-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/ai-image-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-image-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 2240,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.875,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.142857
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/googlegemini",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "arena-gemini-3-pro-image-2k",
+      "name": "gemini-3-pro-image-2k (nano-banana-pro)",
+      "shortName": "gemini-3-pro-image-2k (nano-banana-pro)",
+      "value": 1245,
+      "rank": 8,
+      "color": "#d78fca",
+      "image": "https://cdn.simpleicons.org/googlegemini",
+      "storyUrl": "/stories/ai-image-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/ai-image-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-image-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/ai-image-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-image-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.125,
+          "v0": 0.142857,
+          "u1": 0.25,
+          "v1": 0.285714
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/googlegemini",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "arena-gpt-image-1-5-high-fidelity",
+      "name": "gpt-image-1.5-high-fidelity",
+      "shortName": "gpt-image-1.5-high-fidelity",
+      "value": 1240,
+      "rank": 9,
+      "color": "#7b9b65",
+      "image": "https://cdn.simpleicons.org/openai",
+      "storyUrl": "/stories/ai-image-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/ai-image-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-image-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/ai-image-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-image-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.142857,
+          "u1": 0.375,
+          "v1": 0.285714
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:arena-gpt-image-1-5-high-fidelity",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "arena-gemini-3-pro-image-preview",
+      "name": "gemini-3-pro-image-preview (nano-banana-pro)",
+      "shortName": "gemini-3-pro-image-preview (nano-banana-pro)",
+      "value": 1232,
+      "rank": 10,
+      "color": "#2f4858",
+      "image": "https://cdn.simpleicons.org/googlegemini",
+      "storyUrl": "/stories/ai-image-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/ai-image-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-image-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/ai-image-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-image-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.375,
+          "v0": 0.142857,
+          "u1": 0.5,
+          "v1": 0.285714
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/googlegemini",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "arena-seedream-5-0-pro",
+      "name": "seedream-5.0-pro",
+      "shortName": "seedream-5.0-pro",
+      "value": 1231,
+      "rank": 11,
+      "color": "#ef426f",
+      "image": null,
+      "storyUrl": "/stories/ai-image-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/ai-image-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-image-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/ai-image-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-image-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 1280,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.142857,
+          "u1": 0.625,
+          "v1": 0.285714
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:arena-seedream-5-0-pro",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "arena-jumbo-dungeness",
+      "name": "grok-imagine-image-quality",
+      "shortName": "grok-imagine-image-quality",
+      "value": 1229,
+      "rank": 12,
+      "color": "#86bdf4",
+      "image": null,
+      "storyUrl": "/stories/ai-image-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/ai-image-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-image-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/ai-image-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-image-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 1600,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.625,
+          "v0": 0.142857,
+          "u1": 0.75,
+          "v1": 0.285714
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:arena-jumbo-dungeness",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "arena-nonnas-meatballs-open-weight",
+      "name": "ideogram-4.0-quality",
+      "shortName": "ideogram-4.0-quality",
+      "value": 1207,
+      "rank": 13,
+      "color": "#c9a14a",
+      "image": null,
+      "storyUrl": "/stories/ai-image-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/ai-image-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-image-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/ai-image-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-image-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 1920,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.142857,
+          "u1": 0.875,
+          "v1": 0.285714
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:arena-nonnas-meatballs-open-weight",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "arena-auto-bear-v2-ej1q",
+      "name": "qwen-image-2.0-pro-2026-06-22",
+      "shortName": "qwen-image-2.0-pro-2026-06-22",
+      "value": 1193,
+      "rank": 14,
+      "color": "#e34f59",
+      "image": null,
+      "storyUrl": "/stories/ai-image-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/ai-image-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-image-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/ai-image-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-image-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 2240,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.875,
+          "v0": 0.142857,
+          "u1": 1,
+          "v1": 0.285714
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:arena-auto-bear-v2-ej1q",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "arena-flow-state-5-1y1p",
+      "name": "uni-1.1-max",
+      "shortName": "uni-1.1-max",
+      "value": 1188,
+      "rank": 15,
+      "color": "#9aa4b2",
+      "image": null,
+      "storyUrl": "/stories/ai-image-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/ai-image-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-image-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/ai-image-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-image-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.285714,
+          "u1": 0.125,
+          "v1": 0.428571
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:arena-flow-state-5-1y1p",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "arena-tatertot",
+      "name": "mai-image-2",
+      "shortName": "mai-image-2",
+      "value": 1183,
+      "rank": 16,
+      "color": "#ff5a61",
+      "image": null,
+      "storyUrl": "/stories/ai-image-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/ai-image-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-image-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/ai-image-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-image-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.125,
+          "v0": 0.285714,
+          "u1": 0.25,
+          "v1": 0.428571
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:arena-tatertot",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "arena-uni-1-1",
+      "name": "uni-1.1",
+      "shortName": "uni-1.1",
+      "value": 1177,
+      "rank": 17,
+      "color": "#18c871",
+      "image": null,
+      "storyUrl": "/stories/ai-image-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/ai-image-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-image-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/ai-image-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-image-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.285714,
+          "u1": 0.375,
+          "v1": 0.428571
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:arena-uni-1-1",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "arena-grok-imagine-image-private-text-to-image",
+      "name": "grok-imagine-image",
+      "shortName": "grok-imagine-image",
+      "value": 1173,
+      "rank": 18,
+      "color": "#ffc84a",
+      "image": null,
+      "storyUrl": "/stories/ai-image-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/ai-image-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-image-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/ai-image-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-image-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.375,
+          "v0": 0.285714,
+          "u1": 0.5,
+          "v1": 0.428571
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:arena-grok-imagine-image-private-text-to-image",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "arena-recraft-v4-1-utility-pro",
+      "name": "recraft-v4.1-utility-pro",
+      "shortName": "recraft-v4.1-utility-pro",
+      "value": 1169,
+      "rank": 19,
+      "color": "#00a6ff",
+      "image": null,
+      "storyUrl": "/stories/ai-image-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/ai-image-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-image-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/ai-image-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-image-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 1280,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.285714,
+          "u1": 0.625,
+          "v1": 0.428571
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:arena-recraft-v4-1-utility-pro",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "arena-flux-2-max",
+      "name": "flux-2-max",
+      "shortName": "flux-2-max",
+      "value": 1162,
+      "rank": 20,
+      "color": "#8f6bff",
+      "image": null,
+      "storyUrl": "/stories/ai-image-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/ai-image-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-image-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/ai-image-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-image-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 1600,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.625,
+          "v0": 0.285714,
+          "u1": 0.75,
+          "v1": 0.428571
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:arena-flux-2-max",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "arena-grok-imagine-image-pro-private-text-to-image",
+      "name": "grok-imagine-image-pro",
+      "shortName": "grok-imagine-image-pro",
+      "value": 1161,
+      "rank": 21,
+      "color": "#f18c4f",
+      "image": null,
+      "storyUrl": "/stories/ai-image-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/ai-image-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-image-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/ai-image-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-image-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 2240,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.875,
+          "v0": 0.285714,
+          "u1": 1,
+          "v1": 0.428571
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:arena-grok-imagine-image-pro-private-text-to-image",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "arena-flux-2-flex",
+      "name": "flux-2-flex",
+      "shortName": "flux-2-flex",
+      "value": 1156,
+      "rank": 22,
+      "color": "#41a99f",
+      "image": null,
+      "storyUrl": "/stories/ai-image-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/ai-image-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-image-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/ai-image-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-image-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 0,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.428571,
+          "u1": 0.125,
+          "v1": 0.571429
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:arena-flux-2-flex",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "arena-flux-2-pro",
+      "name": "flux-2-pro",
+      "shortName": "flux-2-pro",
+      "value": 1155,
+      "rank": 23,
+      "color": "#d78fca",
+      "image": null,
+      "storyUrl": "/stories/ai-image-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/ai-image-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-image-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/ai-image-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-image-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 640,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.428571,
+          "u1": 0.375,
+          "v1": 0.571429
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:arena-flux-2-pro",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "arena-left-bank",
+      "name": "reve-v1.5",
+      "shortName": "reve-v1.5",
+      "value": 1154,
+      "rank": 24,
+      "color": "#7b9b65",
+      "image": null,
+      "storyUrl": "/stories/ai-image-arena/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/ai-image-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-image-arena.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/ai-image-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-image-arena.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 960,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.375,
+          "v0": 0.428571,
+          "u1": 0.5,
+          "v1": 0.571429
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:arena-left-bank",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    }
+  ]
+}

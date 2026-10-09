@@ -7,7 +7,9 @@ import { portState, simulationLimits } from './edu-port-models.js';
 
 const app=document.querySelector('#app');
 const lesson=getLesson(new URLSearchParams(location.search).get('id'));
-if(!lesson || lesson.href){
+if(lesson?.originalSlug){
+  const target=new URL(lesson.href,location.origin);const panel=location.hash.slice(1);if(['entender','investigar','professor'].includes(panel))target.searchParams.set('caderno',panel);location.replace(target.href);
+}else if(!lesson || lesson.href){
   app.innerHTML='<main class="container"><div class="no-webgl"><strong>Essa aula não foi encontrada.</strong><p>Escolha uma experiência no catálogo.</p><a class="button" href="/">Voltar às matérias →</a></div></main>';
 }else{
 const subject=subjectOf(lesson),number=String(lessons.indexOf(lesson)+1).padStart(2,'0');

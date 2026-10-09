@@ -1,0 +1,679 @@
+{
+  "schemaVersion": 1,
+  "contentKind": "dat-city.district",
+  "version": 1,
+  "generatedAt": "2026-07-20T08:42:47.787Z",
+  "versionId": "20260720T084247Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "manual",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-07-20T08:42:47.787Z",
+    "versionId": "20260720T084247Z",
+    "adapter": null,
+    "storySlug": "world-cup-2026-host-venues",
+    "districtId": "world-cup-host-grid",
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "id": "world-cup-host-grid",
+  "name": "World Cup Host Grid",
+  "storySlug": "world-cup-2026-host-venues",
+  "storyUrl": "/stories/world-cup-2026-host-venues/",
+  "publicStoryUrl": "/stories/world-cup-2026-host-venues.json",
+  "metric": "Venue capacity",
+  "metricKey": "venue-capacity",
+  "latestFrameLabel": "2026 host venue plan",
+  "summary": "The 2026 World Cup host stadium footprint ranked by capacity.",
+  "taxonomy": {
+    "primaryCategory": "sports",
+    "categories": [
+      "sports",
+      "football",
+      "infrastructure"
+    ],
+    "tags": [
+      "world-cup",
+      "fifa",
+      "2026",
+      "stadiums"
+    ],
+    "entityTypes": [
+      "venue",
+      "stadium"
+    ],
+    "sourceTypes": [
+      "fifa"
+    ],
+    "geoScope": "north-america"
+  },
+  "relationships": [
+    {
+      "target": "world-cup-attendance-kings",
+      "type": "stadium-footprint",
+      "weight": 0.78,
+      "reason": "Venue capacity provides the future-facing context for historical attendance records."
+    },
+    {
+      "target": "world-cup-team-appearances",
+      "type": "world-cup-footprint",
+      "weight": 0.5,
+      "reason": "The expanded 2026 footprint connects to the national-team participation history."
+    },
+    {
+      "target": "top-athlete-salaries",
+      "type": "sports-economy-context",
+      "weight": 0.3,
+      "reason": "Major venues and athlete economics both sit in global sports business context."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "world-cup-records",
+    "mainland": "world-cup",
+    "bridgePriority": [
+      "world-cup-attendance-kings",
+      "world-cup-team-appearances"
+    ]
+  },
+  "thumbnail": "/assets/og/dat-city.webp",
+  "status": "fresh",
+  "dataUpdatedAt": "2026-07-20T08:42:47.787Z",
+  "staleAfterHours": 3120,
+  "dormant": false,
+  "lastObservationDate": "2026",
+  "nextRefreshAt": "2026-07-21T06:00:00.000Z",
+  "confidence": "Host venue capacities are stable planning/reference figures for the 2026 men's World Cup and do not depend on matchday results.",
+  "methodology": "The adapter projects the 2026 host venue footprint as a ranked capacity map for the current tournament cycle.",
+  "sources": [
+    {
+      "title": "FIFA World Cup 2026 stadium information",
+      "publisher": "FIFA",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/stadium-information-details",
+      "note": "Official 2026 host venue overview."
+    }
+  ],
+  "media": {
+    "imageFit": "cover",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-07-20T08:42:47.787Z",
+    "atlasUrl": "/assets/story-atlases/world-cup-2026-host-venues.webp?v=2026-07-20T08%3A42%3A47.787Z",
+    "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-2026-host-venues.webp?v=2026-07-20T08%3A42%3A47.787Z",
+    "manifestUrl": "/assets/story-atlases/world-cup-2026-host-venues.json?v=2026-07-20T08%3A42%3A47.787Z",
+    "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-2026-host-venues.json?v=2026-07-20T08%3A42%3A47.787Z",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 4,
+    "rows": 4,
+    "width": 1280,
+    "height": 1280,
+    "itemCount": 16,
+    "sourcedImageCount": 16,
+    "generatedImageCount": 0,
+    "placeholderCount": 0
+  },
+  "entities": [
+    {
+      "id": "estadio-azteca",
+      "name": "Estadio Azteca",
+      "shortName": "Estadio Azteca",
+      "value": 87523,
+      "rank": 1,
+      "color": "#18c871",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Vista_a%C3%A9rea_del_Estadio_Azteca_-_2026_-_02.jpg/960px-Vista_a%C3%A9rea_del_Estadio_Azteca_-_2026_-_02.jpg",
+      "storyUrl": "/stories/world-cup-2026-host-venues/",
+      "sourceIds": [
+        "FIFA World Cup 2026 stadium information"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-2026-host-venues.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-2026-host-venues.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-2026-host-venues.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-2026-host-venues.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.25,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Vista_a%C3%A9rea_del_Estadio_Azteca_-_2026_-_02.jpg/960px-Vista_a%C3%A9rea_del_Estadio_Azteca_-_2026_-_02.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "metlife-stadium",
+      "name": "MetLife Stadium",
+      "shortName": "MetLife Stadium",
+      "value": 82500,
+      "rank": 2,
+      "color": "#ffc84a",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Metlife_stadium_%28Aerial_view%29.jpg/960px-Metlife_stadium_%28Aerial_view%29.jpg",
+      "storyUrl": "/stories/world-cup-2026-host-venues/",
+      "sourceIds": [
+        "FIFA World Cup 2026 stadium information"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-2026-host-venues.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-2026-host-venues.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-2026-host-venues.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-2026-host-venues.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0,
+          "u1": 0.5,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Metlife_stadium_%28Aerial_view%29.jpg/960px-Metlife_stadium_%28Aerial_view%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "at-and-t-stadium",
+      "name": "AT&T Stadium",
+      "shortName": "AT&T Stadium",
+      "value": 80000,
+      "rank": 3,
+      "color": "#00a6ff",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Arlington_June_2020_4_%28AT%26T_Stadium%29.jpg/960px-Arlington_June_2020_4_%28AT%26T_Stadium%29.jpg",
+      "storyUrl": "/stories/world-cup-2026-host-venues/",
+      "sourceIds": [
+        "FIFA World Cup 2026 stadium information"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-2026-host-venues.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-2026-host-venues.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-2026-host-venues.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-2026-host-venues.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0,
+          "u1": 0.75,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Arlington_June_2020_4_%28AT%26T_Stadium%29.jpg/960px-Arlington_June_2020_4_%28AT%26T_Stadium%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "arrowhead-stadium",
+      "name": "Arrowhead Stadium",
+      "shortName": "Arrowhead Stadium",
+      "value": 76416,
+      "rank": 4,
+      "color": "#f3f7f0",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Aerial_view_of_Arrowhead_Stadium_08-31-2013.jpg/960px-Aerial_view_of_Arrowhead_Stadium_08-31-2013.jpg",
+      "storyUrl": "/stories/world-cup-2026-host-venues/",
+      "sourceIds": [
+        "FIFA World Cup 2026 stadium information"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-2026-host-venues.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-2026-host-venues.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-2026-host-venues.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-2026-host-venues.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Aerial_view_of_Arrowhead_Stadium_08-31-2013.jpg/960px-Aerial_view_of_Arrowhead_Stadium_08-31-2013.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "nrg-stadium",
+      "name": "NRG Stadium",
+      "shortName": "NRG Stadium",
+      "value": 72220,
+      "rank": 5,
+      "color": "#ff5a61",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Nrg_stadium.jpg/960px-Nrg_stadium.jpg",
+      "storyUrl": "/stories/world-cup-2026-host-venues/",
+      "sourceIds": [
+        "FIFA World Cup 2026 stadium information"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-2026-host-venues.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-2026-host-venues.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-2026-host-venues.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-2026-host-venues.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.25,
+          "u1": 0.25,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Nrg_stadium.jpg/960px-Nrg_stadium.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "mercedes-benz-stadium",
+      "name": "Mercedes-Benz Stadium",
+      "shortName": "Mercedes-Benz Stadium",
+      "value": 71000,
+      "rank": 6,
+      "color": "#41a99f",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Mercedes_Benz_Stadium_time_lapse_capture_2017-08-13.jpg/960px-Mercedes_Benz_Stadium_time_lapse_capture_2017-08-13.jpg",
+      "storyUrl": "/stories/world-cup-2026-host-venues/",
+      "sourceIds": [
+        "FIFA World Cup 2026 stadium information"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-2026-host-venues.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-2026-host-venues.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-2026-host-venues.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-2026-host-venues.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.25,
+          "u1": 0.5,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Mercedes_Benz_Stadium_time_lapse_capture_2017-08-13.jpg/960px-Mercedes_Benz_Stadium_time_lapse_capture_2017-08-13.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "sofi-stadium",
+      "name": "SoFi Stadium",
+      "shortName": "SoFi Stadium",
+      "value": 70240,
+      "rank": 7,
+      "color": "#86bdf4",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/SoFi_Stadium_2023.jpg/960px-SoFi_Stadium_2023.jpg",
+      "storyUrl": "/stories/world-cup-2026-host-venues/",
+      "sourceIds": [
+        "FIFA World Cup 2026 stadium information"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-2026-host-venues.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-2026-host-venues.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-2026-host-venues.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-2026-host-venues.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.25,
+          "u1": 0.75,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/SoFi_Stadium_2023.jpg/960px-SoFi_Stadium_2023.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "lincoln-financial-field",
+      "name": "Lincoln Financial Field",
+      "shortName": "Lincoln Financial Field",
+      "value": 69796,
+      "rank": 8,
+      "color": "#f18c4f",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Lincoln_Financial_Field_%28Aerial_view%29.jpg/960px-Lincoln_Financial_Field_%28Aerial_view%29.jpg",
+      "storyUrl": "/stories/world-cup-2026-host-venues/",
+      "sourceIds": [
+        "FIFA World Cup 2026 stadium information"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-2026-host-venues.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-2026-host-venues.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-2026-host-venues.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-2026-host-venues.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.25,
+          "u1": 1,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Lincoln_Financial_Field_%28Aerial_view%29.jpg/960px-Lincoln_Financial_Field_%28Aerial_view%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "lumen-field",
+      "name": "Lumen Field",
+      "shortName": "Lumen Field",
+      "value": 69000,
+      "rank": 9,
+      "color": "#2f4858",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/2026_FIFA_World_Cup_-_Belgium_v._Egypt_in_Seattle_-_04.jpg/960px-2026_FIFA_World_Cup_-_Belgium_v._Egypt_in_Seattle_-_04.jpg",
+      "storyUrl": "/stories/world-cup-2026-host-venues/",
+      "sourceIds": [
+        "FIFA World Cup 2026 stadium information"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-2026-host-venues.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-2026-host-venues.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-2026-host-venues.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-2026-host-venues.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.5,
+          "u1": 0.25,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/2026_FIFA_World_Cup_-_Belgium_v._Egypt_in_Seattle_-_04.jpg/960px-2026_FIFA_World_Cup_-_Belgium_v._Egypt_in_Seattle_-_04.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "levi-s-stadium",
+      "name": "Levi's Stadium",
+      "shortName": "Levi's Stadium",
+      "value": 68500,
+      "rank": 10,
+      "color": "#c9a14a",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Levi%27s_Stadium_in_February_2016_prior_to_Super_Bowl_50_%2824398261729%29.jpg/960px-Levi%27s_Stadium_in_February_2016_prior_to_Super_Bowl_50_%2824398261729%29.jpg",
+      "storyUrl": "/stories/world-cup-2026-host-venues/",
+      "sourceIds": [
+        "FIFA World Cup 2026 stadium information"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-2026-host-venues.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-2026-host-venues.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-2026-host-venues.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-2026-host-venues.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.5,
+          "u1": 0.5,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Levi%27s_Stadium_in_February_2016_prior_to_Super_Bowl_50_%2824398261729%29.jpg/960px-Levi%27s_Stadium_in_February_2016_prior_to_Super_Bowl_50_%2824398261729%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "gillette-stadium",
+      "name": "Gillette Stadium",
+      "shortName": "Gillette Stadium",
+      "value": 65878,
+      "rank": 11,
+      "color": "#ef426f",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Gillette_Stadium_%28Top_View%29.jpg/960px-Gillette_Stadium_%28Top_View%29.jpg",
+      "storyUrl": "/stories/world-cup-2026-host-venues/",
+      "sourceIds": [
+        "FIFA World Cup 2026 stadium information"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-2026-host-venues.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-2026-host-venues.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-2026-host-venues.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-2026-host-venues.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.5,
+          "u1": 0.75,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Gillette_Stadium_%28Top_View%29.jpg/960px-Gillette_Stadium_%28Top_View%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "hard-rock-stadium",
+      "name": "Hard Rock Stadium",
+      "shortName": "Hard Rock Stadium",
+      "value": 64767,
+      "rank": 12,
+      "color": "#7b9b65",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Hard_Rock_Stadium_for_Super_Bowl_LIV_%2849606710103%29.jpg/960px-Hard_Rock_Stadium_for_Super_Bowl_LIV_%2849606710103%29.jpg",
+      "storyUrl": "/stories/world-cup-2026-host-venues/",
+      "sourceIds": [
+        "FIFA World Cup 2026 stadium information"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-2026-host-venues.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-2026-host-venues.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-2026-host-venues.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-2026-host-venues.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.5,
+          "u1": 1,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Hard_Rock_Stadium_for_Super_Bowl_LIV_%2849606710103%29.jpg/960px-Hard_Rock_Stadium_for_Super_Bowl_LIV_%2849606710103%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "bc-place",
+      "name": "BC Place",
+      "shortName": "BC Place",
+      "value": 54500,
+      "rank": 13,
+      "color": "#18c871",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/BC_Place_2015_Women%27s_FIFA_World_Cup.jpg/960px-BC_Place_2015_Women%27s_FIFA_World_Cup.jpg",
+      "storyUrl": "/stories/world-cup-2026-host-venues/",
+      "sourceIds": [
+        "FIFA World Cup 2026 stadium information"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-2026-host-venues.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-2026-host-venues.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-2026-host-venues.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-2026-host-venues.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 0,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.75,
+          "u1": 0.25,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/BC_Place_2015_Women%27s_FIFA_World_Cup.jpg/960px-BC_Place_2015_Women%27s_FIFA_World_Cup.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "estadio-bbva",
+      "name": "Estadio BBVA",
+      "shortName": "Estadio BBVA",
+      "value": 53500,
+      "rank": 14,
+      "color": "#ffc84a",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Mexico_Guadalupe_Monterrey_Estadio_BBVA_Bancomer_fifa_world_cup_2026_6.JPG/960px-Mexico_Guadalupe_Monterrey_Estadio_BBVA_Bancomer_fifa_world_cup_2026_6.JPG",
+      "storyUrl": "/stories/world-cup-2026-host-venues/",
+      "sourceIds": [
+        "FIFA World Cup 2026 stadium information"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-2026-host-venues.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-2026-host-venues.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-2026-host-venues.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-2026-host-venues.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 320,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.75,
+          "u1": 0.5,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Mexico_Guadalupe_Monterrey_Estadio_BBVA_Bancomer_fifa_world_cup_2026_6.JPG/960px-Mexico_Guadalupe_Monterrey_Estadio_BBVA_Bancomer_fifa_world_cup_2026_6.JPG",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "estadio-akron",
+      "name": "Estadio Akron",
+      "shortName": "Estadio Akron",
+      "value": 49850,
+      "rank": 15,
+      "color": "#00a6ff",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Estadio_Akron_02-07-2022_cabecera_sur_lado_derecho_%283%29.jpg/960px-Estadio_Akron_02-07-2022_cabecera_sur_lado_derecho_%283%29.jpg",
+      "storyUrl": "/stories/world-cup-2026-host-venues/",
+      "sourceIds": [
+        "FIFA World Cup 2026 stadium information"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-2026-host-venues.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-2026-host-venues.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-2026-host-venues.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-2026-host-venues.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 640,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.75,
+          "u1": 0.75,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Estadio_Akron_02-07-2022_cabecera_sur_lado_derecho_%283%29.jpg/960px-Estadio_Akron_02-07-2022_cabecera_sur_lado_derecho_%283%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "bmo-field",
+      "name": "BMO Field",
+      "shortName": "BMO Field",
+      "value": 45736,
+      "rank": 16,
+      "color": "#f3f7f0",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Toronto_BMO_Field_in_2024.jpg/960px-Toronto_BMO_Field_in_2024.jpg",
+      "storyUrl": "/stories/world-cup-2026-host-venues/",
+      "sourceIds": [
+        "FIFA World Cup 2026 stadium information"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/world-cup-2026-host-venues.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-2026-host-venues.webp?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestUrl": "/assets/story-atlases/world-cup-2026-host-venues.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/world-cup-2026-host-venues.json?v=2026-07-20T08%3A42%3A47.787Z",
+          "x": 960,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.75,
+          "u1": 1,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Toronto_BMO_Field_in_2024.jpg/960px-Toronto_BMO_Field_in_2024.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    }
+  ]
+}

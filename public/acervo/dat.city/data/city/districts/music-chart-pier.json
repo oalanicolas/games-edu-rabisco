@@ -1,0 +1,469 @@
+{
+  "schemaVersion": 1,
+  "contentKind": "dat-city.district",
+  "version": 1,
+  "generatedAt": "2026-07-10T07:52:11.714Z",
+  "versionId": "20260710T075211Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "manual",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-07-10T07:52:11.714Z",
+    "versionId": "20260710T075211Z",
+    "adapter": null,
+    "storySlug": "apple-music-chart-heat",
+    "districtId": "music-chart-pier",
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "id": "music-chart-pier",
+  "name": "Music Chart Pier",
+  "storySlug": "apple-music-chart-heat",
+  "storyUrl": "/stories/apple-music-chart-heat/",
+  "publicStoryUrl": "/stories/apple-music-chart-heat.json",
+  "metric": "Chart score",
+  "metricKey": "chart-score",
+  "latestFrameLabel": "2026-07-10",
+  "summary": "Apple Music top-song chart heat across selected storefronts.",
+  "taxonomy": {
+    "primaryCategory": "culture",
+    "categories": [
+      "culture",
+      "music",
+      "entertainment",
+      "charts"
+    ],
+    "tags": [
+      "apple-music",
+      "songs",
+      "charts",
+      "pop-culture",
+      "storefronts"
+    ],
+    "entityTypes": [
+      "song",
+      "artist"
+    ],
+    "sourceTypes": [
+      "apple-rss"
+    ],
+    "geoScope": "multi-country"
+  },
+  "relationships": [
+    {
+      "target": "k-pop-attention",
+      "type": "music-fandom",
+      "weight": 0.74,
+      "reason": "Both measure music attention and fandom movement."
+    },
+    {
+      "target": "what-everyone-is-watching",
+      "type": "entertainment-charts",
+      "weight": 0.62,
+      "reason": "Both are cross-market entertainment ranking districts."
+    },
+    {
+      "target": "top-youtubers",
+      "type": "creator-culture",
+      "weight": 0.52,
+      "reason": "Music chart heat often overlaps with creator and media attention."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "music-attention",
+    "mainland": "culture",
+    "bridgePriority": [
+      "k-pop-attention",
+      "what-everyone-is-watching",
+      "internet-obsession-meter"
+    ]
+  },
+  "thumbnail": "/assets/og/dat-city-home.png",
+  "status": "fresh",
+  "lastObservationDate": "2026-07-10",
+  "nextRefreshAt": "2026-07-11T07:00:00.000Z",
+  "confidence": "Observed Apple Music most-played song feeds for US, GB, JP, KR, ID at 2026-07-10T07:55:36.538Z.",
+  "methodology": "This story is generated from Apple's public Marketing Tools RSS music chart feeds. Each country ranking is converted into a score where rank 1 receives 100 points, rank 2 receives 99, and so on; country scores are summed into the published frame. Scheduled StoryOps runs append snapshots so history grows from observed public charts.",
+  "sources": [
+    {
+      "title": "RSS Feed Generator",
+      "publisher": "Apple Services Performance Partners",
+      "url": "https://rss.marketingtools.apple.com/",
+      "note": "Public Apple chart feed generator for music, apps, podcasts, books, and other media feeds."
+    }
+  ],
+  "media": {
+    "imageFit": "contain",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-07-10T07:52:11.714Z",
+    "atlasUrl": "/assets/story-atlases/apple-music-chart-heat.webp?v=2026-07-10T07%3A52%3A11.714Z",
+    "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/apple-music-chart-heat.webp?v=2026-07-10T07%3A52%3A11.714Z",
+    "manifestUrl": "/assets/story-atlases/apple-music-chart-heat.json?v=2026-07-10T07%3A52%3A11.714Z",
+    "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/apple-music-chart-heat.json?v=2026-07-10T07%3A52%3A11.714Z",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 4,
+    "rows": 4,
+    "width": 1280,
+    "height": 1280,
+    "itemCount": 16,
+    "sourcedImageCount": 16,
+    "generatedImageCount": 0,
+    "placeholderCount": 0
+  },
+  "entities": [
+    {
+      "id": "song-6763656876",
+      "name": "hate that i made you love me",
+      "shortName": "hate that i made you love me",
+      "value": 350,
+      "rank": 1,
+      "color": "#ff5a61",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7e/e6/82/7ee682bd-1b17-6adc-be63-b5af1bdff369/26UMGIM51126.rgb.jpg/512x512bb.jpg",
+      "storyUrl": "/stories/apple-music-chart-heat/",
+      "sourceIds": [
+        "RSS Feed Generator"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/apple-music-chart-heat.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/apple-music-chart-heat.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/apple-music-chart-heat.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/apple-music-chart-heat.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.25,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7e/e6/82/7ee682bd-1b17-6adc-be63-b5af1bdff369/26UMGIM51126.rgb.jpg/512x512bb.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "apple-marketing-tools"
+        }
+      }
+    },
+    {
+      "id": "song-1889992115",
+      "name": "stupid song",
+      "shortName": "stupid song",
+      "value": 280,
+      "rank": 2,
+      "color": "#18c871",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/512x512bb.jpg",
+      "storyUrl": "/stories/apple-music-chart-heat/",
+      "sourceIds": [
+        "RSS Feed Generator"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/apple-music-chart-heat.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/apple-music-chart-heat.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/apple-music-chart-heat.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/apple-music-chart-heat.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0,
+          "u1": 0.5,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/512x512bb.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "apple-marketing-tools"
+        }
+      }
+    },
+    {
+      "id": "song-1889992123",
+      "name": "the cure",
+      "shortName": "the cure",
+      "value": 275,
+      "rank": 3,
+      "color": "#00a6ff",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/512x512bb.jpg",
+      "storyUrl": "/stories/apple-music-chart-heat/",
+      "sourceIds": [
+        "RSS Feed Generator"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/apple-music-chart-heat.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/apple-music-chart-heat.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/apple-music-chart-heat.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/apple-music-chart-heat.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/512x512bb.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "apple-marketing-tools"
+        }
+      }
+    },
+    {
+      "id": "song-1889992113",
+      "name": "drop dead",
+      "shortName": "drop dead",
+      "value": 259,
+      "rank": 4,
+      "color": "#ffc84a",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/512x512bb.jpg",
+      "storyUrl": "/stories/apple-music-chart-heat/",
+      "sourceIds": [
+        "RSS Feed Generator"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/apple-music-chart-heat.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/apple-music-chart-heat.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/apple-music-chart-heat.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/apple-music-chart-heat.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0,
+          "u1": 0.75,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/512x512bb.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "apple-marketing-tools"
+        }
+      }
+    },
+    {
+      "id": "song-1440650961",
+      "name": "Beauty and a Beat (feat. Nicki Minaj)",
+      "shortName": "Beauty and a Beat (feat. Nicki Minaj)",
+      "value": 241,
+      "rank": 5,
+      "color": "#ef426f",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/73/08/1a/73081a96-0f7c-b5f8-2757-5c17fb714323/12UMGIM31899.rgb.jpg/512x512bb.jpg",
+      "storyUrl": "/stories/apple-music-chart-heat/",
+      "sourceIds": [
+        "RSS Feed Generator"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/apple-music-chart-heat.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/apple-music-chart-heat.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/apple-music-chart-heat.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/apple-music-chart-heat.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.5,
+          "u1": 0.5,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/73/08/1a/73081a96-0f7c-b5f8-2757-5c17fb714323/12UMGIM31899.rgb.jpg/512x512bb.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "apple-marketing-tools"
+        }
+      }
+    },
+    {
+      "id": "song-6775527443",
+      "name": "I Knew It, I Knew You",
+      "shortName": "I Knew It, I Knew You",
+      "value": 226,
+      "rank": 6,
+      "color": "#d78fca",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/34/35/6c/34356cb4-bd0b-3bac-b118-1a6d7264dc64/26UMGIM69942.rgb.jpg/512x512bb.jpg",
+      "storyUrl": "/stories/apple-music-chart-heat/",
+      "sourceIds": [
+        "RSS Feed Generator"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/apple-music-chart-heat.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/apple-music-chart-heat.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/apple-music-chart-heat.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/apple-music-chart-heat.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.5,
+          "u1": 0.25,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/34/35/6c/34356cb4-bd0b-3bac-b118-1a6d7264dc64/26UMGIM69942.rgb.jpg/512x512bb.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "apple-marketing-tools"
+        }
+      }
+    },
+    {
+      "id": "song-1889992116",
+      "name": "honeybee",
+      "shortName": "honeybee",
+      "value": 207,
+      "rank": 7,
+      "color": "#8f6bff",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/512x512bb.jpg",
+      "storyUrl": "/stories/apple-music-chart-heat/",
+      "sourceIds": [
+        "RSS Feed Generator"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/apple-music-chart-heat.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/apple-music-chart-heat.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/apple-music-chart-heat.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/apple-music-chart-heat.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.25,
+          "u1": 0.25,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/512x512bb.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "apple-marketing-tools"
+        }
+      }
+    },
+    {
+      "id": "song-1844932150",
+      "name": "Choosin' Texas",
+      "shortName": "Choosin' Texas",
+      "value": 197,
+      "rank": 8,
+      "color": "#ff5a61",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e2/91/4d/e2914d0a-7f1d-f04c-fbf4-c50b38548838/196873638690.jpg/512x512bb.jpg",
+      "storyUrl": "/stories/apple-music-chart-heat/",
+      "sourceIds": [
+        "RSS Feed Generator"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/apple-music-chart-heat.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/apple-music-chart-heat.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/apple-music-chart-heat.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/apple-music-chart-heat.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.75,
+          "u1": 0.5,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e2/91/4d/e2914d0a-7f1d-f04c-fbf4-c50b38548838/196873638690.jpg/512x512bb.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "apple-marketing-tools"
+        }
+      }
+    },
+    {
+      "id": "song-6769568596",
+      "name": "Janice STFU",
+      "shortName": "Janice STFU",
+      "value": 194,
+      "rank": 9,
+      "color": "#c9a14a",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/35/b9/06/35b90629-a873-14f8-4789-ffc324960038/26UMGIM63614.rgb.jpg/512x512bb.jpg",
+      "storyUrl": "/stories/apple-music-chart-heat/",
+      "sourceIds": [
+        "RSS Feed Generator"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/apple-music-chart-heat.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/apple-music-chart-heat.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/apple-music-chart-heat.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/apple-music-chart-heat.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.75,
+          "u1": 0.75,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/35/b9/06/35b90629-a873-14f8-4789-ffc324960038/26UMGIM63614.rgb.jpg/512x512bb.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "apple-marketing-tools"
+        }
+      }
+    },
+    {
+      "id": "song-269573364",
+      "name": "Billie Jean",
+      "shortName": "Billie Jean",
+      "value": 189,
+      "rank": 10,
+      "color": "#18c871",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/32/4f/fd/324ffda2-9e51-8f6a-0c2d-c6fd2b41ac55/074643811224.jpg/512x512bb.jpg",
+      "storyUrl": "/stories/apple-music-chart-heat/",
+      "sourceIds": [
+        "RSS Feed Generator"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/apple-music-chart-heat.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/apple-music-chart-heat.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/apple-music-chart-heat.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/apple-music-chart-heat.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.5,
+          "u1": 0.75,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/32/4f/fd/324ffda2-9e51-8f6a-0c2d-c6fd2b41ac55/074643811224.jpg/512x512bb.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "apple-marketing-tools"
+        }
+      }
+    }
+  ]
+}

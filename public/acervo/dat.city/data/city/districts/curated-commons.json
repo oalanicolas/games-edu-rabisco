@@ -1,0 +1,456 @@
+{
+  "schemaVersion": 1,
+  "contentKind": "dat-city.district",
+  "version": 1,
+  "generatedAt": "2026-07-10T07:52:11.714Z",
+  "versionId": "20260710T075211Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "manual",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-07-10T07:52:11.714Z",
+    "versionId": "20260710T075211Z",
+    "adapter": null,
+    "storySlug": "why-everything-feels-expensive",
+    "districtId": "curated-commons",
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "id": "curated-commons",
+  "name": "Cost of Living Commons",
+  "storySlug": "why-everything-feels-expensive",
+  "storyUrl": "/stories/why-everything-feels-expensive/",
+  "publicStoryUrl": "/stories/why-everything-feels-expensive.json",
+  "metric": "Indexed prices",
+  "metricKey": "index-2019-100",
+  "latestFrameLabel": "2026 index",
+  "summary": "Everyday CPI categories and wages indexed against a shared 2019 baseline.",
+  "taxonomy": {
+    "primaryCategory": "economy",
+    "categories": [
+      "economy",
+      "cost-of-living",
+      "public-indicators"
+    ],
+    "tags": [
+      "cpi",
+      "inflation",
+      "prices",
+      "wages",
+      "bls"
+    ],
+    "entityTypes": [
+      "price-index",
+      "economic-indicator"
+    ],
+    "sourceTypes": [
+      "government-statistics"
+    ],
+    "geoScope": "united-states"
+  },
+  "relationships": [
+    {
+      "target": "world-stopped-making-babies",
+      "type": "society-indicator",
+      "weight": 0.7,
+      "reason": "Both use public indicators to explain large social pressure."
+    },
+    {
+      "target": "top-athlete-salaries",
+      "type": "money-and-earnings",
+      "weight": 0.44,
+      "reason": "Both involve earnings and money, though one is household costs and one is elite sports pay."
+    },
+    {
+      "target": "app-store-takeover",
+      "type": "consumer-market-context",
+      "weight": 0.3,
+      "reason": "Consumer spending pressure can frame software and app markets."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "society-indicators",
+    "mainland": "civic",
+    "bridgePriority": [
+      "world-stopped-making-babies"
+    ]
+  },
+  "thumbnail": "/assets/og/dat-city.webp",
+  "status": "fresh",
+  "lastObservationDate": "2026-06",
+  "nextRefreshAt": "2026-07-15T06:00:00.000Z",
+  "confidence": "Observed BLS monthly series through 2026-06. Values are indexed to 2019 averages.",
+  "methodology": "This story is generated from the BLS Public Data API. CPI categories and average hourly earnings are normalized to a 2019=100 index so everyday costs and wages can be compared on the same visual scale. Missing or unavailable BLS months are skipped rather than interpolated by the adapter.",
+  "sources": [
+    {
+      "title": "BLS Public Data API",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "url": "https://www.bls.gov/developers/api_signature_v2.htm",
+      "note": "Official API for CPI and wage-related time series used by the production adapter."
+    }
+  ],
+  "media": {
+    "imageFit": "contain",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-07-10T07:52:11.714Z",
+    "atlasUrl": "/assets/story-atlases/why-everything-feels-expensive.webp?v=2026-07-10T07%3A52%3A11.714Z",
+    "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/why-everything-feels-expensive.webp?v=2026-07-10T07%3A52%3A11.714Z",
+    "manifestUrl": "/assets/story-atlases/why-everything-feels-expensive.json?v=2026-07-10T07%3A52%3A11.714Z",
+    "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/why-everything-feels-expensive.json?v=2026-07-10T07%3A52%3A11.714Z",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 4,
+    "rows": 3,
+    "width": 1280,
+    "height": 960,
+    "itemCount": 10,
+    "sourcedImageCount": 10,
+    "generatedImageCount": 0,
+    "placeholderCount": 0
+  },
+  "entities": [
+    {
+      "id": "gasoline",
+      "name": "Gasoline",
+      "value": 171.10148241457824,
+      "rank": 1,
+      "color": "#ffc84a",
+      "image": null,
+      "storyUrl": "/stories/why-everything-feels-expensive/",
+      "sourceIds": [
+        "BLS Public Data API"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/why-everything-feels-expensive.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/why-everything-feels-expensive.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/why-everything-feels-expensive.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/why-everything-feels-expensive.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0,
+          "u1": 0.75,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": null,
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "motor-insurance",
+      "name": "Car Insurance",
+      "value": 153.63022456703402,
+      "rank": 2,
+      "color": "#f18c4f",
+      "image": null,
+      "storyUrl": "/stories/why-everything-feels-expensive/",
+      "sourceIds": [
+        "BLS Public Data API"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/why-everything-feels-expensive.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/why-everything-feels-expensive.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/why-everything-feels-expensive.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/why-everything-feels-expensive.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.333333,
+          "u1": 0.5,
+          "v1": 0.666667
+        },
+        "image": {
+          "sourceUrl": null,
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "electricity",
+      "name": "Electricity",
+      "value": 143.99278222270829,
+      "rank": 3,
+      "color": "#00a6ff",
+      "image": null,
+      "storyUrl": "/stories/why-everything-feels-expensive/",
+      "sourceIds": [
+        "BLS Public Data API"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/why-everything-feels-expensive.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/why-everything-feels-expensive.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/why-everything-feels-expensive.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/why-everything-feels-expensive.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": null,
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "restaurants",
+      "name": "Dining Out",
+      "value": 138.7885315665548,
+      "rank": 4,
+      "color": "#8f6bff",
+      "image": null,
+      "storyUrl": "/stories/why-everything-feels-expensive/",
+      "sourceIds": [
+        "BLS Public Data API"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/why-everything-feels-expensive.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/why-everything-feels-expensive.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/why-everything-feels-expensive.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/why-everything-feels-expensive.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.333333,
+          "u1": 0.25,
+          "v1": 0.666667
+        },
+        "image": {
+          "sourceUrl": null,
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "rent",
+      "name": "Rent",
+      "value": 134.80760591772713,
+      "rank": 5,
+      "color": "#ff5a61",
+      "image": null,
+      "storyUrl": "/stories/why-everything-feels-expensive/",
+      "sourceIds": [
+        "BLS Public Data API"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/why-everything-feels-expensive.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/why-everything-feels-expensive.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/why-everything-feels-expensive.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/why-everything-feels-expensive.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.25,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": null,
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "wages",
+      "name": "Wages",
+      "value": 134.43657360557177,
+      "rank": 6,
+      "color": "#2f4858",
+      "image": null,
+      "storyUrl": "/stories/why-everything-feels-expensive/",
+      "sourceIds": [
+        "BLS Public Data API"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/why-everything-feels-expensive.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/why-everything-feels-expensive.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/why-everything-feels-expensive.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/why-everything-feels-expensive.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.666667,
+          "u1": 0.5,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": null,
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "groceries",
+      "name": "Groceries",
+      "value": 132.78778365791266,
+      "rank": 7,
+      "color": "#18c871",
+      "image": null,
+      "storyUrl": "/stories/why-everything-feels-expensive/",
+      "sourceIds": [
+        "BLS Public Data API"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/why-everything-feels-expensive.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/why-everything-feels-expensive.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/why-everything-feels-expensive.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/why-everything-feels-expensive.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0,
+          "u1": 0.5,
+          "v1": 0.333333
+        },
+        "image": {
+          "sourceUrl": null,
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "used-cars",
+      "name": "Used Cars",
+      "value": 129.1857589957291,
+      "rank": 8,
+      "color": "#d78fca",
+      "image": null,
+      "storyUrl": "/stories/why-everything-feels-expensive/",
+      "sourceIds": [
+        "BLS Public Data API"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/why-everything-feels-expensive.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/why-everything-feels-expensive.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/why-everything-feels-expensive.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/why-everything-feels-expensive.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.333333,
+          "u1": 1,
+          "v1": 0.666667
+        },
+        "image": {
+          "sourceUrl": null,
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "airfare",
+      "name": "Flights",
+      "value": 124.27387370867532,
+      "rank": 9,
+      "color": "#41a99f",
+      "image": null,
+      "storyUrl": "/stories/why-everything-feels-expensive/",
+      "sourceIds": [
+        "BLS Public Data API"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/why-everything-feels-expensive.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/why-everything-feels-expensive.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/why-everything-feels-expensive.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/why-everything-feels-expensive.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.333333,
+          "u1": 0.75,
+          "v1": 0.666667
+        },
+        "image": {
+          "sourceUrl": null,
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "medical-care",
+      "name": "Medical Care",
+      "value": 119.02550761081831,
+      "rank": 10,
+      "color": "#7b9b65",
+      "image": null,
+      "storyUrl": "/stories/why-everything-feels-expensive/",
+      "sourceIds": [
+        "BLS Public Data API"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/why-everything-feels-expensive.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/why-everything-feels-expensive.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/why-everything-feels-expensive.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/why-everything-feels-expensive.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.666667,
+          "u1": 0.25,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": null,
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    }
+  ]
+}

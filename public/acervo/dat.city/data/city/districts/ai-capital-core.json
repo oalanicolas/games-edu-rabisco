@@ -1,0 +1,553 @@
+{
+  "schemaVersion": 1,
+  "contentKind": "dat-city.district",
+  "version": 1,
+  "generatedAt": "2026-07-11T16:53:01.622Z",
+  "versionId": "20260711T165301Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "manual",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-07-11T16:53:01.622Z",
+    "versionId": "20260711T165301Z",
+    "adapter": null,
+    "storySlug": "ai-lab-race",
+    "districtId": "ai-capital-core",
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "id": "ai-capital-core",
+  "name": "AI Capital Core",
+  "storySlug": "ai-lab-race",
+  "storyUrl": "/stories/ai-lab-race/",
+  "publicStoryUrl": "/stories/ai-lab-race.json",
+  "metric": "Best model AA Intelligence Index",
+  "metricKey": "best-model-aa-intelligence-index",
+  "latestFrameLabel": "2026-07-09 lab standings",
+  "summary": "Anthropic leads the AI lab race with Claude Fable 5 (Adaptive Reasoning, Max Effort, Opus 4.8 Fallback) at 59.9.",
+  "taxonomy": {
+    "primaryCategory": "technology",
+    "categories": [
+      "technology",
+      "ai",
+      "benchmarks",
+      "business"
+    ],
+    "tags": [
+      "ai-labs",
+      "frontier-ai",
+      "intelligence-index",
+      "capability-race"
+    ],
+    "entityTypes": [
+      "lab",
+      "company"
+    ],
+    "sourceTypes": [
+      "benchmark"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "frontier-language-model-intelligence",
+      "type": "ai-frontier",
+      "weight": 0.92,
+      "reason": "The lab race is the model-level frontier index rolled up to the labs that ship the models."
+    },
+    {
+      "target": "ai-lab-attention",
+      "type": "capability-vs-attention",
+      "weight": 0.8,
+      "reason": "One ranks labs by benchmark capability, the other by public attention."
+    },
+    {
+      "target": "lmarena-text-leaderboard",
+      "type": "ai-benchmarks",
+      "weight": 0.74,
+      "reason": "The same labs fight for the top of the arena Elo board."
+    },
+    {
+      "target": "deepswe-leaderboard",
+      "type": "ai-benchmarks",
+      "weight": 0.72,
+      "reason": "Lab capability shows up directly in long-horizon coding pass rates."
+    },
+    {
+      "target": "ai-model-popularity",
+      "type": "labs-to-models",
+      "weight": 0.6,
+      "reason": "Frontier lab strength drives which models people download and use."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "ai-technology",
+    "mainland": "technology",
+    "bridgePriority": [
+      "frontier-language-model-intelligence",
+      "lmarena-text-leaderboard",
+      "deepswe-leaderboard"
+    ]
+  },
+  "thumbnail": "/assets/og/dat-city.webp",
+  "status": "fresh",
+  "dataUpdatedAt": "2026-07-11T16:53:01.622Z",
+  "staleAfterHours": 30,
+  "dormant": false,
+  "lastObservationDate": "2026-07-09",
+  "nextRefreshAt": "2026-07-12T06:00:00.000Z",
+  "confidence": "Observed 28 scored Artificial Analysis model rows across 15 labs at 2026-07-11T16:53:01.622Z.",
+  "methodology": "This adapter reads the public Artificial Analysis homepage payload, groups scored models by the lab that created them, and ranks each lab by the Artificial Analysis Intelligence Index of its best released model. Historical frames are Internet Archive captures of the same homepage, so past standings reflect what Artificial Analysis actually published at the time. Recent frames replay model release dates, so a lab's tower jumps the day it ships a stronger frontier model.",
+  "sources": [
+    {
+      "title": "Artificial Analysis",
+      "publisher": "Artificial Analysis",
+      "url": "https://artificialanalysis.ai/",
+      "note": "Homepage model benchmark payload; labs are ranked by their best model's Intelligence Index."
+    }
+  ],
+  "media": {
+    "tileSize": 320,
+    "imageFit": "contain",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-07-11T16:53:01.622Z",
+    "atlasUrl": "/assets/story-atlases/ai-lab-race.webp?v=2026-07-11T16%3A53%3A01.622Z",
+    "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-lab-race.webp?v=2026-07-11T16%3A53%3A01.622Z",
+    "manifestUrl": "/assets/story-atlases/ai-lab-race.json?v=2026-07-11T16%3A53%3A01.622Z",
+    "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-lab-race.json?v=2026-07-11T16%3A53%3A01.622Z",
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 4,
+    "rows": 4,
+    "width": 1280,
+    "height": 1280,
+    "itemCount": 15,
+    "sourcedImageCount": 12,
+    "generatedImageCount": 3,
+    "placeholderCount": 0
+  },
+  "entities": [
+    {
+      "id": "lab-anthropic",
+      "name": "Anthropic",
+      "shortName": "Anthropic",
+      "value": 59.9,
+      "rank": 1,
+      "color": "#cc785c",
+      "image": "https://artificialanalysis.ai/img/logos/anthropic_small.svg",
+      "storyUrl": "/stories/ai-lab-race/",
+      "sourceIds": [
+        "Artificial Analysis"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/ai-lab-race.webp?v=2026-07-11T16%3A53%3A01.622Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-lab-race.webp?v=2026-07-11T16%3A53%3A01.622Z",
+          "manifestUrl": "/assets/story-atlases/ai-lab-race.json?v=2026-07-11T16%3A53%3A01.622Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-lab-race.json?v=2026-07-11T16%3A53%3A01.622Z",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.25,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://artificialanalysis.ai/img/logos/anthropic_small.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "artificial-analysis"
+        }
+      }
+    },
+    {
+      "id": "lab-openai",
+      "name": "OpenAI",
+      "shortName": "OpenAI",
+      "value": 58.9,
+      "rank": 2,
+      "color": "#1f1f1f",
+      "image": "https://artificialanalysis.ai/img/logos/openai_small.svg",
+      "storyUrl": "/stories/ai-lab-race/",
+      "sourceIds": [
+        "Artificial Analysis"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/ai-lab-race.webp?v=2026-07-11T16%3A53%3A01.622Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-lab-race.webp?v=2026-07-11T16%3A53%3A01.622Z",
+          "manifestUrl": "/assets/story-atlases/ai-lab-race.json?v=2026-07-11T16%3A53%3A01.622Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-lab-race.json?v=2026-07-11T16%3A53%3A01.622Z",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0,
+          "u1": 0.5,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://artificialanalysis.ai/img/logos/openai_small.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "artificial-analysis"
+        }
+      }
+    },
+    {
+      "id": "lab-xai",
+      "name": "SpaceXAI",
+      "shortName": "SpaceXAI",
+      "value": 53.8,
+      "rank": 3,
+      "color": "#736cd3",
+      "image": "https://artificialanalysis.ai/img/logos/spacexai.svg",
+      "storyUrl": "/stories/ai-lab-race/",
+      "sourceIds": [
+        "Artificial Analysis"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/ai-lab-race.webp?v=2026-07-11T16%3A53%3A01.622Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-lab-race.webp?v=2026-07-11T16%3A53%3A01.622Z",
+          "manifestUrl": "/assets/story-atlases/ai-lab-race.json?v=2026-07-11T16%3A53%3A01.622Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-lab-race.json?v=2026-07-11T16%3A53%3A01.622Z",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0,
+          "u1": 0.75,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://artificialanalysis.ai/img/logos/spacexai.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "artificial-analysis"
+        }
+      }
+    },
+    {
+      "id": "lab-zai",
+      "name": "Z AI",
+      "shortName": "Z AI",
+      "value": 51.1,
+      "rank": 4,
+      "color": "#1c7ff8",
+      "image": "https://artificialanalysis.ai/img/logos/zai_small.svg",
+      "storyUrl": "/stories/ai-lab-race/",
+      "sourceIds": [
+        "Artificial Analysis"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/ai-lab-race.webp?v=2026-07-11T16%3A53%3A01.622Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-lab-race.webp?v=2026-07-11T16%3A53%3A01.622Z",
+          "manifestUrl": "/assets/story-atlases/ai-lab-race.json?v=2026-07-11T16%3A53%3A01.622Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-lab-race.json?v=2026-07-11T16%3A53%3A01.622Z",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://artificialanalysis.ai/img/logos/zai_small.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "artificial-analysis"
+        }
+      }
+    },
+    {
+      "id": "lab-meta",
+      "name": "Meta",
+      "shortName": "Meta",
+      "value": 50.6,
+      "rank": 5,
+      "color": "#0089f4",
+      "image": "https://artificialanalysis.ai/img/logos/meta_small.svg",
+      "storyUrl": "/stories/ai-lab-race/",
+      "sourceIds": [
+        "Artificial Analysis"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/ai-lab-race.webp?v=2026-07-11T16%3A53%3A01.622Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-lab-race.webp?v=2026-07-11T16%3A53%3A01.622Z",
+          "manifestUrl": "/assets/story-atlases/ai-lab-race.json?v=2026-07-11T16%3A53%3A01.622Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-lab-race.json?v=2026-07-11T16%3A53%3A01.622Z",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.25,
+          "u1": 0.25,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://artificialanalysis.ai/img/logos/meta_small.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "artificial-analysis"
+        }
+      }
+    },
+    {
+      "id": "lab-google",
+      "name": "Google",
+      "shortName": "Google",
+      "value": 50.2,
+      "rank": 6,
+      "color": "#34A853",
+      "image": "https://artificialanalysis.ai/img/logos/google_small.svg",
+      "storyUrl": "/stories/ai-lab-race/",
+      "sourceIds": [
+        "Artificial Analysis"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/ai-lab-race.webp?v=2026-07-11T16%3A53%3A01.622Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-lab-race.webp?v=2026-07-11T16%3A53%3A01.622Z",
+          "manifestUrl": "/assets/story-atlases/ai-lab-race.json?v=2026-07-11T16%3A53%3A01.622Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-lab-race.json?v=2026-07-11T16%3A53%3A01.622Z",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.25,
+          "u1": 0.5,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://artificialanalysis.ai/img/logos/google_small.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "artificial-analysis"
+        }
+      }
+    },
+    {
+      "id": "lab-alibaba",
+      "name": "Alibaba",
+      "shortName": "Alibaba",
+      "value": 46,
+      "rank": 7,
+      "color": "#ff7018",
+      "image": "https://artificialanalysis.ai/img/logos/alibaba_small.svg",
+      "storyUrl": "/stories/ai-lab-race/",
+      "sourceIds": [
+        "Artificial Analysis"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/ai-lab-race.webp?v=2026-07-11T16%3A53%3A01.622Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-lab-race.webp?v=2026-07-11T16%3A53%3A01.622Z",
+          "manifestUrl": "/assets/story-atlases/ai-lab-race.json?v=2026-07-11T16%3A53%3A01.622Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-lab-race.json?v=2026-07-11T16%3A53%3A01.622Z",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.25,
+          "u1": 0.75,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://artificialanalysis.ai/img/logos/alibaba_small.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "artificial-analysis"
+        }
+      }
+    },
+    {
+      "id": "lab-minimax",
+      "name": "MiniMax",
+      "shortName": "MiniMax",
+      "value": 44.4,
+      "rank": 8,
+      "color": "#EB3568",
+      "image": "https://artificialanalysis.ai/img/logos/minimax_small.svg",
+      "storyUrl": "/stories/ai-lab-race/",
+      "sourceIds": [
+        "Artificial Analysis"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/ai-lab-race.webp?v=2026-07-11T16%3A53%3A01.622Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-lab-race.webp?v=2026-07-11T16%3A53%3A01.622Z",
+          "manifestUrl": "/assets/story-atlases/ai-lab-race.json?v=2026-07-11T16%3A53%3A01.622Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-lab-race.json?v=2026-07-11T16%3A53%3A01.622Z",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.25,
+          "u1": 1,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://artificialanalysis.ai/img/logos/minimax_small.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "artificial-analysis"
+        }
+      }
+    },
+    {
+      "id": "lab-deepseek",
+      "name": "DeepSeek",
+      "shortName": "DeepSeek",
+      "value": 44.3,
+      "rank": 9,
+      "color": "#2243e6",
+      "image": "https://artificialanalysis.ai/img/logos/deepseek_small.svg",
+      "storyUrl": "/stories/ai-lab-race/",
+      "sourceIds": [
+        "Artificial Analysis"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/ai-lab-race.webp?v=2026-07-11T16%3A53%3A01.622Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-lab-race.webp?v=2026-07-11T16%3A53%3A01.622Z",
+          "manifestUrl": "/assets/story-atlases/ai-lab-race.json?v=2026-07-11T16%3A53%3A01.622Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-lab-race.json?v=2026-07-11T16%3A53%3A01.622Z",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.5,
+          "u1": 0.25,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://artificialanalysis.ai/img/logos/deepseek_small.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "artificial-analysis"
+        }
+      }
+    },
+    {
+      "id": "lab-kimi",
+      "name": "Kimi",
+      "shortName": "Kimi",
+      "value": 44.2,
+      "rank": 10,
+      "color": "#047AFE",
+      "image": "https://artificialanalysis.ai/img/logos/kimi_small.png",
+      "storyUrl": "/stories/ai-lab-race/",
+      "sourceIds": [
+        "Artificial Analysis"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/ai-lab-race.webp?v=2026-07-11T16%3A53%3A01.622Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-lab-race.webp?v=2026-07-11T16%3A53%3A01.622Z",
+          "manifestUrl": "/assets/story-atlases/ai-lab-race.json?v=2026-07-11T16%3A53%3A01.622Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-lab-race.json?v=2026-07-11T16%3A53%3A01.622Z",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.5,
+          "u1": 0.5,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://artificialanalysis.ai/img/logos/kimi_small.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "artificial-analysis"
+        }
+      }
+    },
+    {
+      "id": "lab-xiaomi",
+      "name": "Xiaomi",
+      "shortName": "Xiaomi",
+      "value": 42.2,
+      "rank": 11,
+      "color": "#ff6900",
+      "image": "https://artificialanalysis.ai/img/logos/xiaomi_small.svg",
+      "storyUrl": "/stories/ai-lab-race/",
+      "sourceIds": [
+        "Artificial Analysis"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/ai-lab-race.webp?v=2026-07-11T16%3A53%3A01.622Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-lab-race.webp?v=2026-07-11T16%3A53%3A01.622Z",
+          "manifestUrl": "/assets/story-atlases/ai-lab-race.json?v=2026-07-11T16%3A53%3A01.622Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-lab-race.json?v=2026-07-11T16%3A53%3A01.622Z",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.5,
+          "u1": 0.75,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://artificialanalysis.ai/img/logos/xiaomi_small.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "artificial-analysis"
+        }
+      }
+    },
+    {
+      "id": "lab-nvidia",
+      "name": "NVIDIA",
+      "shortName": "NVIDIA",
+      "value": 37.8,
+      "rank": 12,
+      "color": "#86b737",
+      "image": "https://artificialanalysis.ai/img/logos/nvidia_small.svg",
+      "storyUrl": "/stories/ai-lab-race/",
+      "sourceIds": [
+        "Artificial Analysis"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/ai-lab-race.webp?v=2026-07-11T16%3A53%3A01.622Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-lab-race.webp?v=2026-07-11T16%3A53%3A01.622Z",
+          "manifestUrl": "/assets/story-atlases/ai-lab-race.json?v=2026-07-11T16%3A53%3A01.622Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/ai-lab-race.json?v=2026-07-11T16%3A53%3A01.622Z",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.5,
+          "u1": 1,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://artificialanalysis.ai/img/logos/nvidia_small.svg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "artificial-analysis"
+        }
+      }
+    }
+  ]
+}

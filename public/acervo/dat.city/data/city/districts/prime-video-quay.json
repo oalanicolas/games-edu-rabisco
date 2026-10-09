@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "contentKind": "dat-city.district",
+  "version": 1,
+  "generatedAt": "2026-07-10T07:52:11.714Z",
+  "versionId": "20260710T075211Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "manual",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-07-10T07:52:11.714Z",
+    "versionId": "20260710T075211Z",
+    "adapter": null,
+    "storySlug": "prime-video-top-10",
+    "districtId": "prime-video-quay",
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "id": "prime-video-quay",
+  "name": "Prime Video Quay",
+  "storySlug": "prime-video-top-10",
+  "storyUrl": "/stories/prime-video-top-10/",
+  "publicStoryUrl": "/stories/prime-video-top-10.json",
+  "metric": "Wikipedia views",
+  "metricKey": "wikipedia-views",
+  "latestFrameLabel": "2026-07-10",
+  "summary": "Prime Video originals ranked by Wikipedia attention as a temporary source-backed bootstrap, not an official weekly Top 10.",
+  "taxonomy": {
+    "primaryCategory": "entertainment",
+    "categories": [
+      "entertainment",
+      "streaming",
+      "television"
+    ],
+    "tags": [
+      "prime-video",
+      "streaming",
+      "top-10",
+      "watching"
+    ],
+    "entityTypes": [
+      "film",
+      "series"
+    ],
+    "sourceTypes": [
+      "wikipedia"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "what-everyone-is-watching",
+      "type": "streaming-platform-peer",
+      "weight": 0.9,
+      "reason": "This should sit next to the existing Netflix Top 10 watch district."
+    },
+    {
+      "target": "movie-tv-search-heat",
+      "type": "screen-demand",
+      "weight": 0.7,
+      "reason": "Platform charts can be compared with public movie and TV search attention."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "streaming-platforms",
+    "mainland": "culture",
+    "bridgePriority": [
+      "what-everyone-is-watching",
+      "movie-tv-search-heat"
+    ]
+  },
+  "thumbnail": "/assets/og/dat-city.webp",
+  "status": "fresh",
+  "lastObservationDate": "2026-07-10",
+  "nextRefreshAt": "2026-07-14T07:00:00.000Z",
+  "confidence": "Observed 30 days of en.wikipedia pageviews for titles listed on 2 Wikipedia platform-original page(s) at 2026-07-10T07:52:11.714Z. This is not a weekly or current streaming Top 10.",
+  "methodology": "Wikipedia does not currently provide a durable weekly/current Top 10 page for Prime Video. This bootstrap uses the configured Wikipedia original-programming and original-film list pages as the source universe, then ranks titles by recent en.wikipedia pageviews via Wikipedia's PageViewInfo API. Treat the output as public-interest attention among platform originals, not streaming watch time or official platform ranking.",
+  "sources": [
+    {
+      "title": "List of Amazon Prime Video original programming",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_Amazon_Prime_Video_original_programming",
+      "note": "Source universe for Prime Video original series."
+    },
+    {
+      "title": "List of Amazon Prime Video original films",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_Amazon_Prime_Video_original_films",
+      "note": "Source universe for Prime Video original films."
+    }
+  ],
+  "media": {
+    "imageFit": "contain",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-07-10T07:52:11.714Z",
+    "atlasUrl": "/assets/story-atlases/prime-video-top-10.webp?v=2026-07-10T07%3A52%3A11.714Z",
+    "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/prime-video-top-10.webp?v=2026-07-10T07%3A52%3A11.714Z",
+    "manifestUrl": "/assets/story-atlases/prime-video-top-10.json?v=2026-07-10T07%3A52%3A11.714Z",
+    "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/prime-video-top-10.json?v=2026-07-10T07%3A52%3A11.714Z",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 5,
+    "rows": 4,
+    "width": 1600,
+    "height": 1280,
+    "itemCount": 20,
+    "sourcedImageCount": 19,
+    "generatedImageCount": 1,
+    "placeholderCount": 0
+  },
+  "entities": [
+    {
+      "id": "air-2023-american-film",
+      "name": "Air",
+      "value": 35172,
+      "rank": 1,
+      "color": "#c9a14a",
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/de/AirFilmPoster.png",
+      "storyUrl": "/stories/prime-video-top-10/",
+      "sourceIds": [
+        "List of Amazon Prime Video original programming",
+        "List of Amazon Prime Video original films"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/prime-video-top-10.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/prime-video-top-10.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/prime-video-top-10.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/prime-video-top-10.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.75,
+          "u1": 0.2,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/d/de/AirFilmPoster.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    }
+  ]
+}

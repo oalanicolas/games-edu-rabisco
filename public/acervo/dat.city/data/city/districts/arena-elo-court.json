@@ -1,0 +1,973 @@
+{
+  "schemaVersion": 1,
+  "contentKind": "dat-city.district",
+  "version": 1,
+  "generatedAt": "2026-07-11T15:20:08.831Z",
+  "versionId": "20260711T152008Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "manual",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-07-11T15:20:08.831Z",
+    "versionId": "20260711T152008Z",
+    "adapter": null,
+    "storySlug": "lmarena-text-leaderboard",
+    "districtId": "arena-elo-court",
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "id": "arena-elo-court",
+  "name": "Arena Elo Court",
+  "storySlug": "lmarena-text-leaderboard",
+  "storyUrl": "/stories/lmarena-text-leaderboard/",
+  "publicStoryUrl": "/stories/lmarena-text-leaderboard.json",
+  "metric": "Arena Elo",
+  "metricKey": "arena-elo",
+  "latestFrameLabel": "2026-07-11 arena standings",
+  "summary": "claude-fable-5 tops the LMArena text leaderboard at 1509 Elo.",
+  "taxonomy": {
+    "primaryCategory": "technology",
+    "categories": [
+      "technology",
+      "ai",
+      "benchmarks"
+    ],
+    "tags": [
+      "lmarena",
+      "chatbot-arena",
+      "elo",
+      "language-models",
+      "human-preference"
+    ],
+    "entityTypes": [
+      "model",
+      "ai-system"
+    ],
+    "sourceTypes": [
+      "benchmark"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "frontier-language-model-intelligence",
+      "type": "ai-benchmarks",
+      "weight": 0.9,
+      "reason": "Both rank frontier language models, one by benchmark intelligence and one by human preference Elo."
+    },
+    {
+      "target": "ai-model-popularity",
+      "type": "ai-model-layer",
+      "weight": 0.7,
+      "reason": "Arena standings and Hugging Face downloads both track which models people actually reach for."
+    },
+    {
+      "target": "ai-lab-attention",
+      "type": "labs-to-models",
+      "weight": 0.62,
+      "reason": "The labs people watch are the ones fighting for the top of the arena."
+    },
+    {
+      "target": "deepswe-leaderboard",
+      "type": "ai-benchmarks",
+      "weight": 0.7,
+      "reason": "Arena Elo and DeepSWE pass rate rank the same model generations from different angles."
+    },
+    {
+      "target": "ai-image-arena",
+      "type": "ai-benchmarks",
+      "weight": 0.8,
+      "reason": "Same arena and voting methodology, different modality."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "ai-technology",
+    "mainland": "technology",
+    "bridgePriority": [
+      "frontier-language-model-intelligence",
+      "ai-image-arena",
+      "deepswe-leaderboard"
+    ]
+  },
+  "thumbnail": "/assets/og/dat-city.webp",
+  "status": "fresh",
+  "dataUpdatedAt": "2026-07-11T15:20:08.831Z",
+  "staleAfterHours": 30,
+  "dormant": false,
+  "lastObservationDate": "2026-07-11",
+  "nextRefreshAt": "2026-07-12T07:00:00.000Z",
+  "confidence": "Observed 24 LMArena text/overall entries at 2026-07-11T15:20:08.831Z; snapshot leaderboard-sets/public/leaderboards/text-overall-style_control/leaderboard-snapshots/latest.",
+  "methodology": "This adapter reads the public LMArena leaderboard payload, keeps the current top models on the text/overall board ranked by community Elo from head-to-head human votes, and stores daily StoryOps snapshots so the skyline replays how the arena standings move over time.",
+  "sources": [
+    {
+      "title": "LMArena Leaderboard",
+      "publisher": "LMArena",
+      "url": "https://lmarena.ai/leaderboard",
+      "note": "Public leaderboard payload with Elo ratings, vote counts, and rank intervals for the text arena."
+    }
+  ],
+  "media": {
+    "tileSize": 320,
+    "imageFit": "contain",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-07-11T15:20:08.831Z",
+    "atlasUrl": "/assets/story-atlases/lmarena-text-leaderboard.webp?v=2026-07-11T15%3A20%3A08.831Z",
+    "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/lmarena-text-leaderboard.webp?v=2026-07-11T15%3A20%3A08.831Z",
+    "manifestUrl": "/assets/story-atlases/lmarena-text-leaderboard.json?v=2026-07-11T15%3A20%3A08.831Z",
+    "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/lmarena-text-leaderboard.json?v=2026-07-11T15%3A20%3A08.831Z",
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 8,
+    "rows": 8,
+    "width": 2560,
+    "height": 2560,
+    "itemCount": 61,
+    "sourcedImageCount": 16,
+    "generatedImageCount": 45,
+    "placeholderCount": 0
+  },
+  "entities": [
+    {
+      "id": "arena-claude-fable-5-text",
+      "name": "claude-fable-5",
+      "shortName": "claude-fable-5",
+      "value": 1509,
+      "rank": 1,
+      "color": "#ff5a61",
+      "image": "https://cdn.simpleicons.org/anthropic",
+      "storyUrl": "/stories/lmarena-text-leaderboard/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/lmarena-text-leaderboard.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/lmarena-text-leaderboard.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/lmarena-text-leaderboard.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/lmarena-text-leaderboard.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.125,
+          "v1": 0.125
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/anthropic",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "arena-claude-opus-4-6-thinking",
+      "name": "claude-opus-4-6-thinking",
+      "shortName": "claude-opus-4-6-thinking",
+      "value": 1504,
+      "rank": 2,
+      "color": "#18c871",
+      "image": "https://cdn.simpleicons.org/anthropic",
+      "storyUrl": "/stories/lmarena-text-leaderboard/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/lmarena-text-leaderboard.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/lmarena-text-leaderboard.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/lmarena-text-leaderboard.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/lmarena-text-leaderboard.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.125,
+          "v0": 0,
+          "u1": 0.25,
+          "v1": 0.125
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/anthropic",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "arena-claude-opus-4-7-thinking",
+      "name": "claude-opus-4-7-thinking",
+      "shortName": "claude-opus-4-7-thinking",
+      "value": 1503,
+      "rank": 3,
+      "color": "#ffc84a",
+      "image": "https://cdn.simpleicons.org/anthropic",
+      "storyUrl": "/stories/lmarena-text-leaderboard/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/lmarena-text-leaderboard.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/lmarena-text-leaderboard.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/lmarena-text-leaderboard.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/lmarena-text-leaderboard.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0,
+          "u1": 0.375,
+          "v1": 0.125
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/anthropic",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "arena-claude-opus-4-6",
+      "name": "claude-opus-4-6",
+      "shortName": "claude-opus-4-6",
+      "value": 1498,
+      "rank": 4,
+      "color": "#00a6ff",
+      "image": "https://cdn.simpleicons.org/anthropic",
+      "storyUrl": "/stories/lmarena-text-leaderboard/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/lmarena-text-leaderboard.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/lmarena-text-leaderboard.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/lmarena-text-leaderboard.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/lmarena-text-leaderboard.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.375,
+          "v0": 0,
+          "u1": 0.5,
+          "v1": 0.125
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/anthropic",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "arena-claude-opus-4-7",
+      "name": "claude-opus-4-7",
+      "shortName": "claude-opus-4-7",
+      "value": 1494,
+      "rank": 5,
+      "color": "#8f6bff",
+      "image": "https://cdn.simpleicons.org/anthropic",
+      "storyUrl": "/stories/lmarena-text-leaderboard/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/lmarena-text-leaderboard.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/lmarena-text-leaderboard.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/lmarena-text-leaderboard.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/lmarena-text-leaderboard.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 1280,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0,
+          "u1": 0.625,
+          "v1": 0.125
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/anthropic",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "arena-super-nova-ext-3tam-text",
+      "name": "muse-spark-1.1",
+      "shortName": "muse-spark-1.1",
+      "value": 1490,
+      "rank": 6,
+      "color": "#f18c4f",
+      "image": "https://cdn.simpleicons.org/meta",
+      "storyUrl": "/stories/lmarena-text-leaderboard/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/lmarena-text-leaderboard.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/lmarena-text-leaderboard.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/lmarena-text-leaderboard.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/lmarena-text-leaderboard.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 1920,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0,
+          "u1": 0.875,
+          "v1": 0.125
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/meta",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "arena-eureka",
+      "name": "muse-spark",
+      "shortName": "muse-spark",
+      "value": 1488,
+      "rank": 7,
+      "color": "#41a99f",
+      "image": "https://cdn.simpleicons.org/meta",
+      "storyUrl": "/stories/lmarena-text-leaderboard/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/lmarena-text-leaderboard.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/lmarena-text-leaderboard.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/lmarena-text-leaderboard.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/lmarena-text-leaderboard.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 2240,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.875,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.125
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/meta",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "arena-gemini-3-pro",
+      "name": "gemini-3-pro",
+      "shortName": "gemini-3-pro",
+      "value": 1486,
+      "rank": 8,
+      "color": "#7b9b65",
+      "image": "https://cdn.simpleicons.org/googlegemini",
+      "storyUrl": "/stories/lmarena-text-leaderboard/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/lmarena-text-leaderboard.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/lmarena-text-leaderboard.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/lmarena-text-leaderboard.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/lmarena-text-leaderboard.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 1600,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.625,
+          "v0": 0,
+          "u1": 0.75,
+          "v1": 0.125
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/googlegemini",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "arena-gpt-5-6-sol-xhigh",
+      "name": "gpt-5.6-sol-xhigh",
+      "shortName": "gpt-5.6-sol-xhigh",
+      "value": 1486,
+      "rank": 9,
+      "color": "#d78fca",
+      "image": "https://cdn.simpleicons.org/openai",
+      "storyUrl": "/stories/lmarena-text-leaderboard/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/lmarena-text-leaderboard.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/lmarena-text-leaderboard.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/lmarena-text-leaderboard.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/lmarena-text-leaderboard.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.125,
+          "v0": 0.125,
+          "u1": 0.25,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:arena-gpt-5-6-sol-xhigh",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "arena-gemini-3-1-pro-preview",
+      "name": "gemini-3.1-pro-preview",
+      "shortName": "gemini-3.1-pro-preview",
+      "value": 1485,
+      "rank": 10,
+      "color": "#2f4858",
+      "image": "https://cdn.simpleicons.org/googlegemini",
+      "storyUrl": "/stories/lmarena-text-leaderboard/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/lmarena-text-leaderboard.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/lmarena-text-leaderboard.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/lmarena-text-leaderboard.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/lmarena-text-leaderboard.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.125,
+          "u1": 0.125,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/googlegemini",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "arena-claude-opus-4-8-thinking-text",
+      "name": "claude-opus-4-8-thinking",
+      "shortName": "claude-opus-4-8-thinking",
+      "value": 1482,
+      "rank": 11,
+      "color": "#ef426f",
+      "image": "https://cdn.simpleicons.org/anthropic",
+      "storyUrl": "/stories/lmarena-text-leaderboard/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/lmarena-text-leaderboard.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/lmarena-text-leaderboard.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/lmarena-text-leaderboard.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/lmarena-text-leaderboard.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.125,
+          "u1": 0.375,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/anthropic",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "arena-gpt-5-5-high-text",
+      "name": "gpt-5.5-high",
+      "shortName": "gpt-5.5-high",
+      "value": 1481,
+      "rank": 12,
+      "color": "#86bdf4",
+      "image": "https://cdn.simpleicons.org/openai",
+      "storyUrl": "/stories/lmarena-text-leaderboard/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/lmarena-text-leaderboard.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/lmarena-text-leaderboard.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/lmarena-text-leaderboard.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/lmarena-text-leaderboard.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 1280,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.125,
+          "u1": 0.625,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:arena-gpt-5-5-high-text",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "arena-gpt-5-4-high-no-system-prompt",
+      "name": "gpt-5.4-high",
+      "shortName": "gpt-5.4-high",
+      "value": 1476,
+      "rank": 13,
+      "color": "#c9a14a",
+      "image": "https://cdn.simpleicons.org/openai",
+      "storyUrl": "/stories/lmarena-text-leaderboard/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/lmarena-text-leaderboard.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/lmarena-text-leaderboard.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/lmarena-text-leaderboard.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/lmarena-text-leaderboard.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 2240,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.875,
+          "v0": 0.125,
+          "u1": 1,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:arena-gpt-5-4-high-no-system-prompt",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "arena-gpt-5-2-chat-latest",
+      "name": "gpt-5.2-chat-latest-20260210",
+      "shortName": "gpt-5.2-chat-latest-20260210",
+      "value": 1476,
+      "rank": 14,
+      "color": "#ff5a61",
+      "image": "https://cdn.simpleicons.org/openai",
+      "storyUrl": "/stories/lmarena-text-leaderboard/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/lmarena-text-leaderboard.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/lmarena-text-leaderboard.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/lmarena-text-leaderboard.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/lmarena-text-leaderboard.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.125,
+          "v0": 0.25,
+          "u1": 0.25,
+          "v1": 0.375
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:arena-gpt-5-2-chat-latest",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "arena-gemini-3-5-flash-high",
+      "name": "gemini-3.5-flash-high",
+      "shortName": "gemini-3.5-flash-high",
+      "value": 1476,
+      "rank": 15,
+      "color": "#e34f59",
+      "image": "https://cdn.simpleicons.org/googlegemini",
+      "storyUrl": "/stories/lmarena-text-leaderboard/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/lmarena-text-leaderboard.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/lmarena-text-leaderboard.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/lmarena-text-leaderboard.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/lmarena-text-leaderboard.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.25,
+          "v0": 0.25,
+          "u1": 0.375,
+          "v1": 0.375
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/googlegemini",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "arena-gemini-3-5-flash-medium",
+      "name": "gemini-3.5-flash-medium",
+      "shortName": "gemini-3.5-flash-medium",
+      "value": 1476,
+      "rank": 16,
+      "color": "#9aa4b2",
+      "image": "https://cdn.simpleicons.org/googlegemini",
+      "storyUrl": "/stories/lmarena-text-leaderboard/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/lmarena-text-leaderboard.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/lmarena-text-leaderboard.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/lmarena-text-leaderboard.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/lmarena-text-leaderboard.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.375,
+          "v0": 0.25,
+          "u1": 0.5,
+          "v1": 0.375
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/googlegemini",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "arena-claude-opus-4-8-text",
+      "name": "claude-opus-4-8",
+      "shortName": "claude-opus-4-8",
+      "value": 1475,
+      "rank": 17,
+      "color": "#ffc84a",
+      "image": "https://cdn.simpleicons.org/anthropic",
+      "storyUrl": "/stories/lmarena-text-leaderboard/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/lmarena-text-leaderboard.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/lmarena-text-leaderboard.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/lmarena-text-leaderboard.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/lmarena-text-leaderboard.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.25,
+          "u1": 0.125,
+          "v1": 0.375
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/anthropic",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "arena-melyora-9qr6",
+      "name": "qwen3.7-max-preview",
+      "shortName": "qwen3.7-max-preview",
+      "value": 1475,
+      "rank": 18,
+      "color": "#18c871",
+      "image": null,
+      "storyUrl": "/stories/lmarena-text-leaderboard/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/lmarena-text-leaderboard.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/lmarena-text-leaderboard.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/lmarena-text-leaderboard.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/lmarena-text-leaderboard.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 1280,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.25,
+          "u1": 0.625,
+          "v1": 0.375
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:arena-melyora-9qr6",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "arena-clanker-text",
+      "name": "grok-4.20-beta1",
+      "shortName": "grok-4.20-beta1",
+      "value": 1475,
+      "rank": 19,
+      "color": "#00a6ff",
+      "image": null,
+      "storyUrl": "/stories/lmarena-text-leaderboard/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/lmarena-text-leaderboard.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/lmarena-text-leaderboard.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/lmarena-text-leaderboard.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/lmarena-text-leaderboard.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 2240,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.875,
+          "v0": 0.25,
+          "u1": 1,
+          "v1": 0.375
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:arena-clanker-text",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "arena-gpt-5-5-text",
+      "name": "gpt-5.5",
+      "shortName": "gpt-5.5",
+      "value": 1474,
+      "rank": 20,
+      "color": "#8f6bff",
+      "image": "https://cdn.simpleicons.org/openai",
+      "storyUrl": "/stories/lmarena-text-leaderboard/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/lmarena-text-leaderboard.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/lmarena-text-leaderboard.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/lmarena-text-leaderboard.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/lmarena-text-leaderboard.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 1600,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.625,
+          "v0": 0.25,
+          "u1": 0.75,
+          "v1": 0.375
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:arena-gpt-5-5-text",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "arena-grok-4-20-beta-0309-reasoning",
+      "name": "grok-4.20-beta-0309-reasoning",
+      "shortName": "grok-4.20-beta-0309-reasoning",
+      "value": 1474,
+      "rank": 21,
+      "color": "#f18c4f",
+      "image": null,
+      "storyUrl": "/stories/lmarena-text-leaderboard/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/lmarena-text-leaderboard.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/lmarena-text-leaderboard.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/lmarena-text-leaderboard.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/lmarena-text-leaderboard.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 1920,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.75,
+          "v0": 0.25,
+          "u1": 0.875,
+          "v1": 0.375
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:arena-grok-4-20-beta-0309-reasoning",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "arena-gemini-3-flash",
+      "name": "gemini-3-flash",
+      "shortName": "gemini-3-flash",
+      "value": 1473,
+      "rank": 22,
+      "color": "#41a99f",
+      "image": "https://cdn.simpleicons.org/googlegemini",
+      "storyUrl": "/stories/lmarena-text-leaderboard/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/lmarena-text-leaderboard.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/lmarena-text-leaderboard.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/lmarena-text-leaderboard.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/lmarena-text-leaderboard.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 1600,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.625,
+          "v0": 0.125,
+          "u1": 0.75,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/googlegemini",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "arena-claude-opus-4-5-20251101-thinking-32k",
+      "name": "claude-opus-4-5-20251101-thinking-32k",
+      "shortName": "claude-opus-4-5-20251101-thinking-32k",
+      "value": 1473,
+      "rank": 23,
+      "color": "#7b9b65",
+      "image": "https://cdn.simpleicons.org/anthropic",
+      "storyUrl": "/stories/lmarena-text-leaderboard/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/lmarena-text-leaderboard.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/lmarena-text-leaderboard.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/lmarena-text-leaderboard.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/lmarena-text-leaderboard.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 0,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.375,
+          "u1": 0.125,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://cdn.simpleicons.org/anthropic",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "arena-gpt-5-5-instant",
+      "name": "gpt-5.5-instant",
+      "shortName": "gpt-5.5-instant",
+      "value": 1473,
+      "rank": 24,
+      "color": "#d78fca",
+      "image": "https://cdn.simpleicons.org/openai",
+      "storyUrl": "/stories/lmarena-text-leaderboard/",
+      "sourceIds": [
+        "LMArena Leaderboard"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/lmarena-text-leaderboard.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/lmarena-text-leaderboard.webp?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestUrl": "/assets/story-atlases/lmarena-text-leaderboard.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/lmarena-text-leaderboard.json?v=2026-07-11T15%3A20%3A08.831Z",
+          "x": 320,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.125,
+          "v0": 0.375,
+          "u1": 0.25,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:arena-gpt-5-5-instant",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,810 @@
+{
+  "schemaVersion": 1,
+  "contentKind": "dat-city.district",
+  "version": 1,
+  "generatedAt": "2026-07-10T07:52:11.714Z",
+  "versionId": "20260710T075211Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "manual",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-07-10T07:52:11.714Z",
+    "versionId": "20260710T075211Z",
+    "adapter": null,
+    "storySlug": "esports-athlete-earnings",
+    "districtId": "esports-prize-arena",
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "id": "esports-prize-arena",
+  "name": "Esports Prize Arena",
+  "storySlug": "esports-athlete-earnings",
+  "storyUrl": "/stories/esports-athlete-earnings/",
+  "publicStoryUrl": "/stories/esports-athlete-earnings.json",
+  "metric": "Prize earnings",
+  "metricKey": "prize-earnings",
+  "latestFrameLabel": "2026-07-10",
+  "summary": "Competitive-gaming players ranked by public tournament prize totals.",
+  "taxonomy": {
+    "primaryCategory": "sports",
+    "categories": [
+      "sports",
+      "gaming",
+      "culture"
+    ],
+    "tags": [
+      "esports",
+      "players",
+      "prize-money",
+      "rankings"
+    ],
+    "entityTypes": [
+      "player",
+      "athlete"
+    ],
+    "sourceTypes": [
+      "wikipedia"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "games-people-are-playing",
+      "type": "competitive-gaming",
+      "weight": 0.9,
+      "reason": "Both rank games culture through active play and competitive performance."
+    },
+    {
+      "target": "top-athlete-salaries",
+      "type": "sports-earnings",
+      "weight": 0.74,
+      "reason": "Both compare individual athlete earnings, with esports as the gaming counterpart."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "competitive-gaming",
+    "mainland": "culture",
+    "bridgePriority": [
+      "games-people-are-playing",
+      "top-athlete-salaries"
+    ]
+  },
+  "thumbnail": "/assets/og/dat-city.webp",
+  "status": "fresh",
+  "lastObservationDate": "2026-07-10",
+  "nextRefreshAt": "2026-07-13T07:00:00.000Z",
+  "confidence": "Observed Liste der erfolgreichsten E-Sportler nach Preisgeld on 2026-07-10T07:52:11.714Z; values are parsed from the \"Liste der erfolgreichsten E-Sportler nach Preisgeld\" Wikipedia table.",
+  "methodology": "This StoryOps adapter fetches the rendered Wikipedia table for Liste der erfolgreichsten E-Sportler nach Preisgeld, selects the configured ranking table, parses the configured entity and value columns, and stores observed snapshots so public history grows from repeat refreshes.",
+  "sources": [
+    {
+      "title": "Liste der erfolgreichsten E-Sportler nach Preisgeld",
+      "publisher": "Wikipedia",
+      "url": "https://de.wikipedia.org/wiki/Liste_der_erfolgreichsten_E-Sportler_nach_Preisgeld",
+      "note": "German Wikipedia player prize-money table parsed by the adapter."
+    }
+  ],
+  "media": {
+    "imageFit": "contain",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-07-10T07:52:11.714Z",
+    "atlasUrl": "/assets/story-atlases/esports-athlete-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+    "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/esports-athlete-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+    "manifestUrl": "/assets/story-atlases/esports-athlete-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+    "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/esports-athlete-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 5,
+    "rows": 4,
+    "width": 1600,
+    "height": 1280,
+    "itemCount": 20,
+    "sourcedImageCount": 14,
+    "generatedImageCount": 6,
+    "placeholderCount": 0
+  },
+  "entities": [
+    {
+      "id": "n0tail",
+      "name": "n0tail",
+      "shortName": "n0tail",
+      "value": 7100000,
+      "rank": 1,
+      "color": "#ff5a61",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/The_International_2018_%2842413912070%29.jpg/960px-The_International_2018_%2842413912070%29.jpg",
+      "storyUrl": "/stories/esports-athlete-earnings/",
+      "sourceIds": [
+        "Liste der erfolgreichsten E-Sportler nach Preisgeld"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/esports-athlete-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/esports-athlete-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/esports-athlete-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/esports-athlete-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.2,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/The_International_2018_%2842413912070%29.jpg/960px-The_International_2018_%2842413912070%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "jerax",
+      "name": "JerAx",
+      "shortName": "JerAx",
+      "value": 6400000,
+      "rank": 2,
+      "color": "#18c871",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/JerAx.jpeg/960px-JerAx.jpeg",
+      "storyUrl": "/stories/esports-athlete-earnings/",
+      "sourceIds": [
+        "Liste der erfolgreichsten E-Sportler nach Preisgeld"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/esports-athlete-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/esports-athlete-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/esports-athlete-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/esports-athlete-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0,
+          "u1": 0.4,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/JerAx.jpeg/960px-JerAx.jpeg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "ana",
+      "name": "ana",
+      "shortName": "ana",
+      "value": 6000000,
+      "rank": 3,
+      "color": "#ffc84a",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Ana_The_International_2018.jpg/960px-Ana_The_International_2018.jpg",
+      "storyUrl": "/stories/esports-athlete-earnings/",
+      "sourceIds": [
+        "Liste der erfolgreichsten E-Sportler nach Preisgeld"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/esports-athlete-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/esports-athlete-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/esports-athlete-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/esports-athlete-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0,
+          "u1": 0.6,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Ana_The_International_2018.jpg/960px-Ana_The_International_2018.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "ceb",
+      "name": "Ceb",
+      "shortName": "Ceb",
+      "value": 5800000,
+      "rank": 4,
+      "color": "#00a6ff",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/61/Dota_2_desk_analysis_-_ESL_One_Frankfurt_2014_%28cropped_to_Ceb%29.jpg",
+      "storyUrl": "/stories/esports-athlete-earnings/",
+      "sourceIds": [
+        "Liste der erfolgreichsten E-Sportler nach Preisgeld"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/esports-athlete-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/esports-athlete-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/esports-athlete-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/esports-athlete-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0,
+          "u1": 0.8,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/Dota_2_desk_analysis_-_ESL_One_Frankfurt_2014_%28cropped_to_Ceb%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "topson",
+      "name": "Topson",
+      "shortName": "Topson",
+      "value": 5600000,
+      "rank": 5,
+      "color": "#8f6bff",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Topson_at_The_International_2018_%28color_corrected%29.jpg/960px-Topson_at_The_International_2018_%28color_corrected%29.jpg",
+      "storyUrl": "/stories/esports-athlete-earnings/",
+      "sourceIds": [
+        "Liste der erfolgreichsten E-Sportler nach Preisgeld"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/esports-athlete-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/esports-athlete-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/esports-athlete-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/esports-athlete-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 1280,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Topson_at_The_International_2018_%28color_corrected%29.jpg/960px-Topson_at_The_International_2018_%28color_corrected%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "miposhka",
+      "name": "Miposhka",
+      "shortName": "Miposhka",
+      "value": 5600000,
+      "rank": 6,
+      "color": "#f18c4f",
+      "image": null,
+      "storyUrl": "/stories/esports-athlete-earnings/",
+      "sourceIds": [
+        "Liste der erfolgreichsten E-Sportler nach Preisgeld"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/esports-athlete-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/esports-athlete-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/esports-athlete-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/esports-athlete-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.25,
+          "u1": 0.2,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:miposhka",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "yatoro",
+      "name": "Yatoro",
+      "shortName": "Yatoro",
+      "value": 5300000,
+      "rank": 7,
+      "color": "#41a99f",
+      "image": null,
+      "storyUrl": "/stories/esports-athlete-earnings/",
+      "sourceIds": [
+        "Liste der erfolgreichsten E-Sportler nach Preisgeld"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/esports-athlete-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/esports-athlete-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/esports-athlete-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/esports-athlete-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.25,
+          "u1": 0.4,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:yatoro",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "collapse",
+      "name": "CoLLapse",
+      "shortName": "CoLLapse",
+      "value": 5300000,
+      "rank": 8,
+      "color": "#d78fca",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Collapse_PGL_Wallachia_Season_1.png",
+      "storyUrl": "/stories/esports-athlete-earnings/",
+      "sourceIds": [
+        "Liste der erfolgreichsten E-Sportler nach Preisgeld"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/esports-athlete-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/esports-athlete-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/esports-athlete-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/esports-athlete-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.25,
+          "u1": 0.6,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Collapse_PGL_Wallachia_Season_1.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "mira",
+      "name": "Mira",
+      "shortName": "Mira",
+      "value": 5300000,
+      "rank": 9,
+      "color": "#7b9b65",
+      "image": null,
+      "storyUrl": "/stories/esports-athlete-earnings/",
+      "sourceIds": [
+        "Liste der erfolgreichsten E-Sportler nach Preisgeld"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/esports-athlete-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/esports-athlete-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/esports-athlete-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/esports-athlete-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.25,
+          "u1": 0.8,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:mira",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "kuroky",
+      "name": "KuroKy",
+      "shortName": "KuroKy",
+      "value": 5200000,
+      "rank": 10,
+      "color": "#2f4858",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/9a/KuroKy_2014_interview.jpg",
+      "storyUrl": "/stories/esports-athlete-earnings/",
+      "sourceIds": [
+        "Liste der erfolgreichsten E-Sportler nach Preisgeld"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/esports-athlete-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/esports-athlete-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/esports-athlete-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/esports-athlete-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 1280,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.25,
+          "u1": 1,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/KuroKy_2014_interview.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "miracle",
+      "name": "Miracle-",
+      "shortName": "Miracle-",
+      "value": 4800000,
+      "rank": 11,
+      "color": "#ef426f",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/The_International_2018_%2829274193217%29.jpg/960px-The_International_2018_%2829274193217%29.jpg",
+      "storyUrl": "/stories/esports-athlete-earnings/",
+      "sourceIds": [
+        "Liste der erfolgreichsten E-Sportler nach Preisgeld"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/esports-athlete-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/esports-athlete-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/esports-athlete-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/esports-athlete-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.5,
+          "u1": 0.2,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/The_International_2018_%2829274193217%29.jpg/960px-The_International_2018_%2829274193217%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "matumbaman",
+      "name": "Matumbaman",
+      "shortName": "Matumbaman",
+      "value": 4800000,
+      "rank": 12,
+      "color": "#86bdf4",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/MATUMBAMAN_at_The_International_2018.jpg/960px-MATUMBAMAN_at_The_International_2018.jpg",
+      "storyUrl": "/stories/esports-athlete-earnings/",
+      "sourceIds": [
+        "Liste der erfolgreichsten E-Sportler nach Preisgeld"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/esports-athlete-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/esports-athlete-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/esports-athlete-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/esports-athlete-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.5,
+          "u1": 0.4,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/MATUMBAMAN_at_The_International_2018.jpg/960px-MATUMBAMAN_at_The_International_2018.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "mind-control",
+      "name": "MinD_ContRoL",
+      "shortName": "MinD_ContRoL",
+      "value": 4600000,
+      "rank": 13,
+      "color": "#c9a14a",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Mind_Control_%28Iwan_Iwanow%29_at_TI_2018.jpg/960px-Mind_Control_%28Iwan_Iwanow%29_at_TI_2018.jpg",
+      "storyUrl": "/stories/esports-athlete-earnings/",
+      "sourceIds": [
+        "Liste der erfolgreichsten E-Sportler nach Preisgeld"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/esports-athlete-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/esports-athlete-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/esports-athlete-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/esports-athlete-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.5,
+          "u1": 0.6,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Mind_Control_%28Iwan_Iwanow%29_at_TI_2018.jpg/960px-Mind_Control_%28Iwan_Iwanow%29_at_TI_2018.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "puppey",
+      "name": "Puppey",
+      "shortName": "Puppey",
+      "value": 4300000,
+      "rank": 14,
+      "color": "#e34f59",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/The_International_2018_%2843509512714%29.jpg/960px-The_International_2018_%2843509512714%29.jpg",
+      "storyUrl": "/stories/esports-athlete-earnings/",
+      "sourceIds": [
+        "Liste der erfolgreichsten E-Sportler nach Preisgeld"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/esports-athlete-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/esports-athlete-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/esports-athlete-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/esports-athlete-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.5,
+          "u1": 0.8,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/The_International_2018_%2843509512714%29.jpg/960px-The_International_2018_%2843509512714%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "gh",
+      "name": "GH",
+      "shortName": "GH",
+      "value": 4200000,
+      "rank": 15,
+      "color": "#9aa4b2",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Gh_%28Maroun_Merhej%29_at_TI_2018.jpg/960px-Gh_%28Maroun_Merhej%29_at_TI_2018.jpg",
+      "storyUrl": "/stories/esports-athlete-earnings/",
+      "sourceIds": [
+        "Liste der erfolgreichsten E-Sportler nach Preisgeld"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/esports-athlete-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/esports-athlete-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/esports-athlete-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/esports-athlete-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 1280,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.5,
+          "u1": 1,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Gh_%28Maroun_Merhej%29_at_TI_2018.jpg/960px-Gh_%28Maroun_Merhej%29_at_TI_2018.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "zai",
+      "name": "Zai",
+      "shortName": "Zai",
+      "value": 4200000,
+      "rank": 16,
+      "color": "#ff5a61",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/The_International_2018_%2843507163864%29.jpg/960px-The_International_2018_%2843507163864%29.jpg",
+      "storyUrl": "/stories/esports-athlete-earnings/",
+      "sourceIds": [
+        "Liste der erfolgreichsten E-Sportler nach Preisgeld"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/esports-athlete-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/esports-athlete-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/esports-athlete-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/esports-athlete-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.75,
+          "u1": 0.2,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/The_International_2018_%2843507163864%29.jpg/960px-The_International_2018_%2843507163864%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "torontotokyo",
+      "name": "TORONTOTOKYO",
+      "shortName": "TORONTOTOKYO",
+      "value": 4200000,
+      "rank": 17,
+      "color": "#18c871",
+      "image": null,
+      "storyUrl": "/stories/esports-athlete-earnings/",
+      "sourceIds": [
+        "Liste der erfolgreichsten E-Sportler nach Preisgeld"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/esports-athlete-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/esports-athlete-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/esports-athlete-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/esports-athlete-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.75,
+          "u1": 0.4,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:torontotokyo",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "sumail",
+      "name": "SumaiL",
+      "shortName": "SumaiL",
+      "value": 4000000,
+      "rank": 18,
+      "color": "#ffc84a",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/EG.SumaiL_%2832945940994%29_%28cropped%29.jpg/960px-EG.SumaiL_%2832945940994%29_%28cropped%29.jpg",
+      "storyUrl": "/stories/esports-athlete-earnings/",
+      "sourceIds": [
+        "Liste der erfolgreichsten E-Sportler nach Preisgeld"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/esports-athlete-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/esports-athlete-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/esports-athlete-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/esports-athlete-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.75,
+          "u1": 0.6,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/EG.SumaiL_%2832945940994%29_%28cropped%29.jpg/960px-EG.SumaiL_%2832945940994%29_%28cropped%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "y",
+      "name": "y`",
+      "shortName": "y`",
+      "value": 3900000,
+      "rank": 19,
+      "color": "#00a6ff",
+      "image": null,
+      "storyUrl": "/stories/esports-athlete-earnings/",
+      "sourceIds": [
+        "Liste der erfolgreichsten E-Sportler nach Preisgeld"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/esports-athlete-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/esports-athlete-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/esports-athlete-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/esports-athlete-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.75,
+          "u1": 0.8,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:y",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "ame",
+      "name": "Ame",
+      "shortName": "Ame",
+      "value": 3800000,
+      "rank": 20,
+      "color": "#8f6bff",
+      "image": null,
+      "storyUrl": "/stories/esports-athlete-earnings/",
+      "sourceIds": [
+        "Liste der erfolgreichsten E-Sportler nach Preisgeld"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/esports-athlete-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/esports-athlete-earnings.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/esports-athlete-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/esports-athlete-earnings.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 1280,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.75,
+          "u1": 1,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:ame",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    }
+  ]
+}

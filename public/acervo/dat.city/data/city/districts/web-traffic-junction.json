@@ -1,0 +1,820 @@
+{
+  "schemaVersion": 1,
+  "contentKind": "dat-city.district",
+  "version": 1,
+  "generatedAt": "2026-07-12T03:16:46.043Z",
+  "versionId": "20260712T031646Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "manual",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-07-12T03:16:46.043Z",
+    "versionId": "20260712T031646Z",
+    "adapter": null,
+    "storySlug": "most-visited-websites",
+    "districtId": "web-traffic-junction",
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "id": "web-traffic-junction",
+  "name": "Web Traffic Junction",
+  "storySlug": "most-visited-websites",
+  "storyUrl": "/stories/most-visited-websites/",
+  "publicStoryUrl": "/stories/most-visited-websites.json",
+  "metric": "Traffic rank score",
+  "metricKey": "traffic-rank-score",
+  "latestFrameLabel": "June 2026 global traffic ranking",
+  "summary": "google.com is the most visited website on Earth in the June 2026 Similarweb ranking.",
+  "taxonomy": {
+    "primaryCategory": "technology",
+    "categories": [
+      "technology",
+      "internet",
+      "consumer-apps"
+    ],
+    "tags": [
+      "similarweb",
+      "websites",
+      "web-traffic",
+      "internet-attention",
+      "rankings"
+    ],
+    "entityTypes": [
+      "website"
+    ],
+    "sourceTypes": [
+      "traffic-panel"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "internet-obsession-meter",
+      "type": "internet-attention",
+      "weight": 0.7,
+      "reason": "Wikipedia pageviews and website traffic ranks both measure where global internet attention goes."
+    },
+    {
+      "target": "x-account-leaders",
+      "type": "platform-attention",
+      "weight": 0.6,
+      "reason": "The social platforms with the biggest accounts are themselves among the most visited websites."
+    },
+    {
+      "target": "app-store-takeover",
+      "type": "consumer-apps",
+      "weight": 0.55,
+      "reason": "App charts and website traffic ranks track the same consumer attention across app and web surfaces."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "creator-platforms",
+    "mainland": "culture",
+    "bridgePriority": [
+      "x-social-square",
+      "instagram-fame-row",
+      "podcast-chart-pier"
+    ]
+  },
+  "thumbnail": "/assets/og/dat-city.webp",
+  "status": "fresh",
+  "dataUpdatedAt": "2026-07-12T03:16:46.043Z",
+  "staleAfterHours": 192,
+  "dormant": false,
+  "lastObservationDate": "2026-06-01",
+  "nextRefreshAt": "2026-07-14T09:00:00.000Z",
+  "confidence": "Observed 30 ranked domains on the Similarweb global top websites board at 2026-07-12T03:16:46.043Z; source data month June 2026.",
+  "methodology": "This adapter reads Similarweb's public global top websites ranking and converts each monthly ranking into a score where rank 1 receives 100 points, rank 2 receives 99, and so on. Similarweb refreshes the board monthly; scheduled StoryOps runs append one frame per source data month so the skyline replays how the world's most visited websites trade places.",
+  "sources": [
+    {
+      "title": "Top Websites Ranking",
+      "publisher": "Similarweb",
+      "url": "https://www.similarweb.com/top-websites/",
+      "note": "Public global ranking of the most visited websites, refreshed monthly with engagement metrics."
+    }
+  ],
+  "media": {
+    "tileSize": 320,
+    "imageFit": "contain",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-07-12T03:16:46.043Z",
+    "atlasUrl": "/assets/story-atlases/most-visited-websites.webp?v=2026-07-12T03%3A16%3A46.043Z",
+    "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/most-visited-websites.webp?v=2026-07-12T03%3A16%3A46.043Z",
+    "manifestUrl": "/assets/story-atlases/most-visited-websites.json?v=2026-07-12T03%3A16%3A46.043Z",
+    "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/most-visited-websites.json?v=2026-07-12T03%3A16%3A46.043Z",
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 5,
+    "rows": 4,
+    "width": 1600,
+    "height": 1280,
+    "itemCount": 20,
+    "sourcedImageCount": 19,
+    "generatedImageCount": 1,
+    "placeholderCount": 0
+  },
+  "entities": [
+    {
+      "id": "site-google-com",
+      "name": "google.com",
+      "shortName": "google.com",
+      "value": 100,
+      "rank": 1,
+      "color": "#ff5a61",
+      "image": "https://www.google.com/s2/favicons?domain=google.com&sz=128",
+      "storyUrl": "/stories/most-visited-websites/",
+      "sourceIds": [
+        "Top Websites Ranking"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/most-visited-websites.webp?v=2026-07-12T03%3A16%3A46.043Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/most-visited-websites.webp?v=2026-07-12T03%3A16%3A46.043Z",
+          "manifestUrl": "/assets/story-atlases/most-visited-websites.json?v=2026-07-12T03%3A16%3A46.043Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/most-visited-websites.json?v=2026-07-12T03%3A16%3A46.043Z",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.2,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://www.google.com/s2/favicons?domain=google.com&sz=128",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "site-youtube-com",
+      "name": "youtube.com",
+      "shortName": "youtube.com",
+      "value": 99,
+      "rank": 2,
+      "color": "#18c871",
+      "image": "https://www.google.com/s2/favicons?domain=youtube.com&sz=128",
+      "storyUrl": "/stories/most-visited-websites/",
+      "sourceIds": [
+        "Top Websites Ranking"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/most-visited-websites.webp?v=2026-07-12T03%3A16%3A46.043Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/most-visited-websites.webp?v=2026-07-12T03%3A16%3A46.043Z",
+          "manifestUrl": "/assets/story-atlases/most-visited-websites.json?v=2026-07-12T03%3A16%3A46.043Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/most-visited-websites.json?v=2026-07-12T03%3A16%3A46.043Z",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0,
+          "u1": 0.4,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://www.google.com/s2/favicons?domain=youtube.com&sz=128",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "site-facebook-com",
+      "name": "facebook.com",
+      "shortName": "facebook.com",
+      "value": 98,
+      "rank": 3,
+      "color": "#ffc84a",
+      "image": "https://www.google.com/s2/favicons?domain=facebook.com&sz=128",
+      "storyUrl": "/stories/most-visited-websites/",
+      "sourceIds": [
+        "Top Websites Ranking"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/most-visited-websites.webp?v=2026-07-12T03%3A16%3A46.043Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/most-visited-websites.webp?v=2026-07-12T03%3A16%3A46.043Z",
+          "manifestUrl": "/assets/story-atlases/most-visited-websites.json?v=2026-07-12T03%3A16%3A46.043Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/most-visited-websites.json?v=2026-07-12T03%3A16%3A46.043Z",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0,
+          "u1": 0.6,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://www.google.com/s2/favicons?domain=facebook.com&sz=128",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "site-instagram-com",
+      "name": "instagram.com",
+      "shortName": "instagram.com",
+      "value": 97,
+      "rank": 4,
+      "color": "#00a6ff",
+      "image": "https://www.google.com/s2/favicons?domain=instagram.com&sz=128",
+      "storyUrl": "/stories/most-visited-websites/",
+      "sourceIds": [
+        "Top Websites Ranking"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/most-visited-websites.webp?v=2026-07-12T03%3A16%3A46.043Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/most-visited-websites.webp?v=2026-07-12T03%3A16%3A46.043Z",
+          "manifestUrl": "/assets/story-atlases/most-visited-websites.json?v=2026-07-12T03%3A16%3A46.043Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/most-visited-websites.json?v=2026-07-12T03%3A16%3A46.043Z",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0,
+          "u1": 0.8,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://www.google.com/s2/favicons?domain=instagram.com&sz=128",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "site-chatgpt-com",
+      "name": "chatgpt.com",
+      "shortName": "chatgpt.com",
+      "value": 96,
+      "rank": 5,
+      "color": "#8f6bff",
+      "image": "https://www.google.com/s2/favicons?domain=chatgpt.com&sz=128",
+      "storyUrl": "/stories/most-visited-websites/",
+      "sourceIds": [
+        "Top Websites Ranking"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/most-visited-websites.webp?v=2026-07-12T03%3A16%3A46.043Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/most-visited-websites.webp?v=2026-07-12T03%3A16%3A46.043Z",
+          "manifestUrl": "/assets/story-atlases/most-visited-websites.json?v=2026-07-12T03%3A16%3A46.043Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/most-visited-websites.json?v=2026-07-12T03%3A16%3A46.043Z",
+          "x": 1280,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://www.google.com/s2/favicons?domain=chatgpt.com&sz=128",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "site-x-com",
+      "name": "x.com",
+      "shortName": "x.com",
+      "value": 95,
+      "rank": 6,
+      "color": "#f18c4f",
+      "image": "https://www.google.com/s2/favicons?domain=x.com&sz=128",
+      "storyUrl": "/stories/most-visited-websites/",
+      "sourceIds": [
+        "Top Websites Ranking"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/most-visited-websites.webp?v=2026-07-12T03%3A16%3A46.043Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/most-visited-websites.webp?v=2026-07-12T03%3A16%3A46.043Z",
+          "manifestUrl": "/assets/story-atlases/most-visited-websites.json?v=2026-07-12T03%3A16%3A46.043Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/most-visited-websites.json?v=2026-07-12T03%3A16%3A46.043Z",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.25,
+          "u1": 0.2,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://www.google.com/s2/favicons?domain=x.com&sz=128",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "site-reddit-com",
+      "name": "reddit.com",
+      "shortName": "reddit.com",
+      "value": 94,
+      "rank": 7,
+      "color": "#41a99f",
+      "image": "https://www.google.com/s2/favicons?domain=reddit.com&sz=128",
+      "storyUrl": "/stories/most-visited-websites/",
+      "sourceIds": [
+        "Top Websites Ranking"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/most-visited-websites.webp?v=2026-07-12T03%3A16%3A46.043Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/most-visited-websites.webp?v=2026-07-12T03%3A16%3A46.043Z",
+          "manifestUrl": "/assets/story-atlases/most-visited-websites.json?v=2026-07-12T03%3A16%3A46.043Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/most-visited-websites.json?v=2026-07-12T03%3A16%3A46.043Z",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.25,
+          "u1": 0.4,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://www.google.com/s2/favicons?domain=reddit.com&sz=128",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "site-whatsapp-com",
+      "name": "whatsapp.com",
+      "shortName": "whatsapp.com",
+      "value": 93,
+      "rank": 8,
+      "color": "#d78fca",
+      "image": "https://www.google.com/s2/favicons?domain=whatsapp.com&sz=128",
+      "storyUrl": "/stories/most-visited-websites/",
+      "sourceIds": [
+        "Top Websites Ranking"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/most-visited-websites.webp?v=2026-07-12T03%3A16%3A46.043Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/most-visited-websites.webp?v=2026-07-12T03%3A16%3A46.043Z",
+          "manifestUrl": "/assets/story-atlases/most-visited-websites.json?v=2026-07-12T03%3A16%3A46.043Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/most-visited-websites.json?v=2026-07-12T03%3A16%3A46.043Z",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.25,
+          "u1": 0.6,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://www.google.com/s2/favicons?domain=whatsapp.com&sz=128",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "site-bing-com",
+      "name": "bing.com",
+      "shortName": "bing.com",
+      "value": 92,
+      "rank": 9,
+      "color": "#7b9b65",
+      "image": "https://www.google.com/s2/favicons?domain=bing.com&sz=128",
+      "storyUrl": "/stories/most-visited-websites/",
+      "sourceIds": [
+        "Top Websites Ranking"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/most-visited-websites.webp?v=2026-07-12T03%3A16%3A46.043Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/most-visited-websites.webp?v=2026-07-12T03%3A16%3A46.043Z",
+          "manifestUrl": "/assets/story-atlases/most-visited-websites.json?v=2026-07-12T03%3A16%3A46.043Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/most-visited-websites.json?v=2026-07-12T03%3A16%3A46.043Z",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.25,
+          "u1": 0.8,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://www.google.com/s2/favicons?domain=bing.com&sz=128",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "site-tiktok-com",
+      "name": "tiktok.com",
+      "shortName": "tiktok.com",
+      "value": 91,
+      "rank": 10,
+      "color": "#2f4858",
+      "image": "https://www.google.com/s2/favicons?domain=tiktok.com&sz=128",
+      "storyUrl": "/stories/most-visited-websites/",
+      "sourceIds": [
+        "Top Websites Ranking"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/most-visited-websites.webp?v=2026-07-12T03%3A16%3A46.043Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/most-visited-websites.webp?v=2026-07-12T03%3A16%3A46.043Z",
+          "manifestUrl": "/assets/story-atlases/most-visited-websites.json?v=2026-07-12T03%3A16%3A46.043Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/most-visited-websites.json?v=2026-07-12T03%3A16%3A46.043Z",
+          "x": 1280,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.25,
+          "u1": 1,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://www.google.com/s2/favicons?domain=tiktok.com&sz=128",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "site-wikipedia-org",
+      "name": "wikipedia.org",
+      "shortName": "wikipedia.org",
+      "value": 90,
+      "rank": 11,
+      "color": "#ef426f",
+      "image": "https://www.google.com/s2/favicons?domain=wikipedia.org&sz=128",
+      "storyUrl": "/stories/most-visited-websites/",
+      "sourceIds": [
+        "Top Websites Ranking"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/most-visited-websites.webp?v=2026-07-12T03%3A16%3A46.043Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/most-visited-websites.webp?v=2026-07-12T03%3A16%3A46.043Z",
+          "manifestUrl": "/assets/story-atlases/most-visited-websites.json?v=2026-07-12T03%3A16%3A46.043Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/most-visited-websites.json?v=2026-07-12T03%3A16%3A46.043Z",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.5,
+          "u1": 0.2,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://www.google.com/s2/favicons?domain=wikipedia.org&sz=128",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "site-gemini-google-com",
+      "name": "gemini.google.com",
+      "shortName": "gemini.google.com",
+      "value": 89,
+      "rank": 12,
+      "color": "#86bdf4",
+      "image": "https://www.google.com/s2/favicons?domain=gemini.google.com&sz=128",
+      "storyUrl": "/stories/most-visited-websites/",
+      "sourceIds": [
+        "Top Websites Ranking"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/most-visited-websites.webp?v=2026-07-12T03%3A16%3A46.043Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/most-visited-websites.webp?v=2026-07-12T03%3A16%3A46.043Z",
+          "manifestUrl": "/assets/story-atlases/most-visited-websites.json?v=2026-07-12T03%3A16%3A46.043Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/most-visited-websites.json?v=2026-07-12T03%3A16%3A46.043Z",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.5,
+          "u1": 0.4,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://www.google.com/s2/favicons?domain=gemini.google.com&sz=128",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "site-yahoo-co-jp",
+      "name": "yahoo.co.jp",
+      "shortName": "yahoo.co.jp",
+      "value": 88,
+      "rank": 13,
+      "color": "#c9a14a",
+      "image": "https://www.google.com/s2/favicons?domain=yahoo.co.jp&sz=128",
+      "storyUrl": "/stories/most-visited-websites/",
+      "sourceIds": [
+        "Top Websites Ranking"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/most-visited-websites.webp?v=2026-07-12T03%3A16%3A46.043Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/most-visited-websites.webp?v=2026-07-12T03%3A16%3A46.043Z",
+          "manifestUrl": "/assets/story-atlases/most-visited-websites.json?v=2026-07-12T03%3A16%3A46.043Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/most-visited-websites.json?v=2026-07-12T03%3A16%3A46.043Z",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.5,
+          "u1": 0.6,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://www.google.com/s2/favicons?domain=yahoo.co.jp&sz=128",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "site-yahoo-com",
+      "name": "yahoo.com",
+      "shortName": "yahoo.com",
+      "value": 87,
+      "rank": 14,
+      "color": "#e34f59",
+      "image": "https://www.google.com/s2/favicons?domain=yahoo.com&sz=128",
+      "storyUrl": "/stories/most-visited-websites/",
+      "sourceIds": [
+        "Top Websites Ranking"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/most-visited-websites.webp?v=2026-07-12T03%3A16%3A46.043Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/most-visited-websites.webp?v=2026-07-12T03%3A16%3A46.043Z",
+          "manifestUrl": "/assets/story-atlases/most-visited-websites.json?v=2026-07-12T03%3A16%3A46.043Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/most-visited-websites.json?v=2026-07-12T03%3A16%3A46.043Z",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.5,
+          "u1": 0.8,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://www.google.com/s2/favicons?domain=yahoo.com&sz=128",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "site-yandex-ru",
+      "name": "yandex.ru",
+      "shortName": "yandex.ru",
+      "value": 86,
+      "rank": 15,
+      "color": "#9aa4b2",
+      "image": "https://www.google.com/s2/favicons?domain=yandex.ru&sz=128",
+      "storyUrl": "/stories/most-visited-websites/",
+      "sourceIds": [
+        "Top Websites Ranking"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/most-visited-websites.webp?v=2026-07-12T03%3A16%3A46.043Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/most-visited-websites.webp?v=2026-07-12T03%3A16%3A46.043Z",
+          "manifestUrl": "/assets/story-atlases/most-visited-websites.json?v=2026-07-12T03%3A16%3A46.043Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/most-visited-websites.json?v=2026-07-12T03%3A16%3A46.043Z",
+          "x": 1280,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.5,
+          "u1": 1,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://www.google.com/s2/favicons?domain=yandex.ru&sz=128",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "site-amazon-com",
+      "name": "amazon.com",
+      "shortName": "amazon.com",
+      "value": 85,
+      "rank": 16,
+      "color": "#ff5a61",
+      "image": "https://www.google.com/s2/favicons?domain=amazon.com&sz=128",
+      "storyUrl": "/stories/most-visited-websites/",
+      "sourceIds": [
+        "Top Websites Ranking"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/most-visited-websites.webp?v=2026-07-12T03%3A16%3A46.043Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/most-visited-websites.webp?v=2026-07-12T03%3A16%3A46.043Z",
+          "manifestUrl": "/assets/story-atlases/most-visited-websites.json?v=2026-07-12T03%3A16%3A46.043Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/most-visited-websites.json?v=2026-07-12T03%3A16%3A46.043Z",
+          "x": 0,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.75,
+          "u1": 0.2,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://www.google.com/s2/favicons?domain=amazon.com&sz=128",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "site-linkedin-com",
+      "name": "linkedin.com",
+      "shortName": "linkedin.com",
+      "value": 84,
+      "rank": 17,
+      "color": "#18c871",
+      "image": "https://www.google.com/s2/favicons?domain=linkedin.com&sz=128",
+      "storyUrl": "/stories/most-visited-websites/",
+      "sourceIds": [
+        "Top Websites Ranking"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/most-visited-websites.webp?v=2026-07-12T03%3A16%3A46.043Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/most-visited-websites.webp?v=2026-07-12T03%3A16%3A46.043Z",
+          "manifestUrl": "/assets/story-atlases/most-visited-websites.json?v=2026-07-12T03%3A16%3A46.043Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/most-visited-websites.json?v=2026-07-12T03%3A16%3A46.043Z",
+          "x": 320,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.75,
+          "u1": 0.4,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://www.google.com/s2/favicons?domain=linkedin.com&sz=128",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "site-baidu-com",
+      "name": "baidu.com",
+      "shortName": "baidu.com",
+      "value": 83,
+      "rank": 18,
+      "color": "#ffc84a",
+      "image": "https://www.google.com/s2/favicons?domain=baidu.com&sz=128",
+      "storyUrl": "/stories/most-visited-websites/",
+      "sourceIds": [
+        "Top Websites Ranking"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/most-visited-websites.webp?v=2026-07-12T03%3A16%3A46.043Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/most-visited-websites.webp?v=2026-07-12T03%3A16%3A46.043Z",
+          "manifestUrl": "/assets/story-atlases/most-visited-websites.json?v=2026-07-12T03%3A16%3A46.043Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/most-visited-websites.json?v=2026-07-12T03%3A16%3A46.043Z",
+          "x": 640,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.75,
+          "u1": 0.6,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://www.google.com/s2/favicons?domain=baidu.com&sz=128",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    },
+    {
+      "id": "site-bet-br",
+      "name": "bet.br",
+      "shortName": "bet.br",
+      "value": 82,
+      "rank": 19,
+      "color": "#00a6ff",
+      "image": "https://www.google.com/s2/favicons?domain=bet.br&sz=128",
+      "storyUrl": "/stories/most-visited-websites/",
+      "sourceIds": [
+        "Top Websites Ranking"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/most-visited-websites.webp?v=2026-07-12T03%3A16%3A46.043Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/most-visited-websites.webp?v=2026-07-12T03%3A16%3A46.043Z",
+          "manifestUrl": "/assets/story-atlases/most-visited-websites.json?v=2026-07-12T03%3A16%3A46.043Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/most-visited-websites.json?v=2026-07-12T03%3A16%3A46.043Z",
+          "x": 960,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.75,
+          "u1": 0.8,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:site-bet-br",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "site-naver-com",
+      "name": "naver.com",
+      "shortName": "naver.com",
+      "value": 81,
+      "rank": 20,
+      "color": "#8f6bff",
+      "image": "https://www.google.com/s2/favicons?domain=naver.com&sz=128",
+      "storyUrl": "/stories/most-visited-websites/",
+      "sourceIds": [
+        "Top Websites Ranking"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/most-visited-websites.webp?v=2026-07-12T03%3A16%3A46.043Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/most-visited-websites.webp?v=2026-07-12T03%3A16%3A46.043Z",
+          "manifestUrl": "/assets/story-atlases/most-visited-websites.json?v=2026-07-12T03%3A16%3A46.043Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/most-visited-websites.json?v=2026-07-12T03%3A16%3A46.043Z",
+          "x": 1280,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.75,
+          "u1": 1,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://www.google.com/s2/favicons?domain=naver.com&sz=128",
+          "sourceStatus": "source-image",
+          "sourceProvider": "configured-image"
+        }
+      }
+    }
+  ]
+}

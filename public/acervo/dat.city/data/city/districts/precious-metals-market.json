@@ -1,0 +1,253 @@
+{
+  "schemaVersion": 1,
+  "contentKind": "dat-city.district",
+  "version": 1,
+  "generatedAt": "2026-07-12T12:47:01.987Z",
+  "versionId": "20260712T124701Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "manual-cli",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-07-12T12:47:01.987Z",
+    "versionId": "20260712T124701Z",
+    "adapter": null,
+    "storySlug": "precious-metals-prices",
+    "districtId": "precious-metals-market",
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "id": "precious-metals-market",
+  "name": "Precious Metals Market",
+  "storySlug": "precious-metals-prices",
+  "storyUrl": "/stories/precious-metals-prices/",
+  "publicStoryUrl": "/stories/precious-metals-prices.json",
+  "metric": "USD/kg",
+  "metricKey": "usd-kg",
+  "latestFrameLabel": "2026-07-10",
+  "summary": "Bullion metals ranked by their LBMA auction price in USD per kilogram.",
+  "taxonomy": {
+    "primaryCategory": "markets",
+    "categories": [
+      "markets",
+      "commodities",
+      "finance"
+    ],
+    "tags": [
+      "gold",
+      "silver",
+      "platinum",
+      "palladium",
+      "metals"
+    ],
+    "entityTypes": [
+      "commodity"
+    ],
+    "sourceTypes": [
+      "market-data"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "crypto-memecoin-heat",
+      "type": "alternative-asset-attention",
+      "weight": 0.62,
+      "reason": "Both sit in markets where narratives and price movements drive public attention."
+    },
+    {
+      "target": "why-everything-feels-expensive",
+      "type": "price-indicator",
+      "weight": 0.52,
+      "reason": "Commodity prices can be read alongside household cost and inflation indicators."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "markets",
+    "mainland": "markets",
+    "bridgePriority": [
+      "crypto-memecoin-heat",
+      "why-everything-feels-expensive"
+    ]
+  },
+  "thumbnail": "/assets/og/dat-city.webp",
+  "status": "fresh",
+  "dataUpdatedAt": "2026-07-12T12:47:01.987Z",
+  "staleAfterHours": 30,
+  "dormant": false,
+  "lastObservationDate": "2026-07-10",
+  "nextRefreshAt": "2026-07-12T16:00:00.000Z",
+  "confidence": "Observed the LBMA USD auction fixes through 2026-07-10. Prices are the published USD/ozt fix converted to USD/kg (x32.1507466).",
+  "methodology": "This adapter reads the LBMA free JSON price feeds (gold, silver, platinum, palladium), takes the latest published USD auction fix per metal, and converts USD per troy ounce to USD per kilogram. Deep annual history comes from the LBMA backfill; scheduled StoryOps runs append daily fixes so the district replays observed price moves.",
+  "sources": [
+    {
+      "title": "LBMA precious metal prices",
+      "publisher": "London Bullion Market Association",
+      "url": "https://www.lbma.org.uk/prices-and-data/precious-metal-prices",
+      "note": "Free daily USD auction fixes converted from USD/ozt to USD/kg."
+    }
+  ],
+  "media": {
+    "imageFit": "contain",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-07-12T12:47:01.987Z",
+    "atlasUrl": "/assets/story-atlases/precious-metals-prices.webp?v=2026-07-12T12%3A47%3A01.987Z",
+    "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/precious-metals-prices.webp?v=2026-07-12T12%3A47%3A01.987Z",
+    "manifestUrl": "/assets/story-atlases/precious-metals-prices.json?v=2026-07-12T12%3A47%3A01.987Z",
+    "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/precious-metals-prices.json?v=2026-07-12T12%3A47%3A01.987Z",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 2,
+    "rows": 2,
+    "width": 640,
+    "height": 640,
+    "itemCount": 4,
+    "sourcedImageCount": 4,
+    "generatedImageCount": 0,
+    "placeholderCount": 0
+  },
+  "entities": [
+    {
+      "id": "gold",
+      "name": "Gold",
+      "shortName": "Gold",
+      "value": 131790.73292538998,
+      "rank": 1,
+      "color": "#ffc84a",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Gold-crystals.jpg/960px-Gold-crystals.jpg",
+      "storyUrl": "/stories/precious-metals-prices/",
+      "sourceIds": [
+        "LBMA precious metal prices"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/precious-metals-prices.webp?v=2026-07-12T12%3A47%3A01.987Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/precious-metals-prices.webp?v=2026-07-12T12%3A47%3A01.987Z",
+          "manifestUrl": "/assets/story-atlases/precious-metals-prices.json?v=2026-07-12T12%3A47%3A01.987Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/precious-metals-prices.json?v=2026-07-12T12%3A47%3A01.987Z",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.5,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Gold-crystals.jpg/960px-Gold-crystals.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "platinum",
+      "name": "Platinum",
+      "shortName": "Platinum",
+      "value": 52034.37583477,
+      "rank": 2,
+      "color": "#86bdf4",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Platinum_crystals.jpg/960px-Platinum_crystals.jpg",
+      "storyUrl": "/stories/precious-metals-prices/",
+      "sourceIds": [
+        "LBMA precious metal prices"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/precious-metals-prices.webp?v=2026-07-12T12%3A47%3A01.987Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/precious-metals-prices.webp?v=2026-07-12T12%3A47%3A01.987Z",
+          "manifestUrl": "/assets/story-atlases/precious-metals-prices.json?v=2026-07-12T12%3A47%3A01.987Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/precious-metals-prices.json?v=2026-07-12T12%3A47%3A01.987Z",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Platinum_crystals.jpg/960px-Platinum_crystals.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "palladium",
+      "name": "Palladium",
+      "shortName": "Palladium",
+      "value": 40974.51900437,
+      "rank": 3,
+      "color": "#d78fca",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Palladium_%2846_Pd%29.jpg",
+      "storyUrl": "/stories/precious-metals-prices/",
+      "sourceIds": [
+        "LBMA precious metal prices"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/precious-metals-prices.webp?v=2026-07-12T12%3A47%3A01.987Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/precious-metals-prices.webp?v=2026-07-12T12%3A47%3A01.987Z",
+          "manifestUrl": "/assets/story-atlases/precious-metals-prices.json?v=2026-07-12T12%3A47%3A01.987Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/precious-metals-prices.json?v=2026-07-12T12%3A47%3A01.987Z",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.5,
+          "u1": 0.5,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Palladium_%2846_Pd%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "silver",
+      "name": "Silver",
+      "shortName": "Silver",
+      "value": 1907.9860569769999,
+      "rank": 4,
+      "color": "#9aa4b2",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Silver_crystal.jpg/960px-Silver_crystal.jpg",
+      "storyUrl": "/stories/precious-metals-prices/",
+      "sourceIds": [
+        "LBMA precious metal prices"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/precious-metals-prices.webp?v=2026-07-12T12%3A47%3A01.987Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/precious-metals-prices.webp?v=2026-07-12T12%3A47%3A01.987Z",
+          "manifestUrl": "/assets/story-atlases/precious-metals-prices.json?v=2026-07-12T12%3A47%3A01.987Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/precious-metals-prices.json?v=2026-07-12T12%3A47%3A01.987Z",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.5,
+          "v0": 0.5,
+          "u1": 1,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Silver_crystal.jpg/960px-Silver_crystal.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    }
+  ]
+}

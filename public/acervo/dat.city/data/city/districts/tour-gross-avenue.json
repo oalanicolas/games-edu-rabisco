@@ -1,0 +1,810 @@
+{
+  "schemaVersion": 1,
+  "contentKind": "dat-city.district",
+  "version": 1,
+  "generatedAt": "2026-07-10T07:52:11.714Z",
+  "versionId": "20260710T075211Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "manual",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-07-10T07:52:11.714Z",
+    "versionId": "20260710T075211Z",
+    "adapter": null,
+    "storySlug": "highest-grossing-music-tours",
+    "districtId": "tour-gross-avenue",
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "id": "tour-gross-avenue",
+  "name": "Tour Gross Avenue",
+  "storySlug": "highest-grossing-music-tours",
+  "storyUrl": "/stories/highest-grossing-music-tours/",
+  "publicStoryUrl": "/stories/highest-grossing-music-tours.json",
+  "metric": "Tour gross",
+  "metricKey": "tour-gross",
+  "latestFrameLabel": "2026-07-10",
+  "summary": "Concert tours ranked by actual worldwide gross from Wikipedia's highest-grossing concert tours table.",
+  "taxonomy": {
+    "primaryCategory": "culture",
+    "categories": [
+      "culture",
+      "music",
+      "entertainment"
+    ],
+    "tags": [
+      "concert-tours",
+      "box-office",
+      "music",
+      "artists"
+    ],
+    "entityTypes": [
+      "tour",
+      "artist"
+    ],
+    "sourceTypes": [
+      "wikipedia"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "apple-music-chart-heat",
+      "type": "music-demand",
+      "weight": 0.78,
+      "reason": "Both track music demand, one via listening charts and one via live touring revenue."
+    },
+    {
+      "target": "k-pop-attention",
+      "type": "fandom-economy",
+      "weight": 0.58,
+      "reason": "Large tours often reflect strong global fandom and attention."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "music-attention",
+    "mainland": "culture",
+    "bridgePriority": [
+      "apple-music-chart-heat",
+      "k-pop-attention"
+    ]
+  },
+  "thumbnail": "/assets/og/dat-city.webp",
+  "status": "fresh",
+  "lastObservationDate": "2026-07-10",
+  "nextRefreshAt": "2026-08-01T07:00:00.000Z",
+  "confidence": "Observed List of highest-grossing concert tours on 2026-07-10T07:52:11.714Z; values are parsed from the \"Top 20 highest-grossing tours of all time\" Wikipedia table.",
+  "methodology": "This StoryOps adapter fetches the rendered Wikipedia table for List of highest-grossing concert tours, selects the configured ranking table, parses the configured entity and value columns, and stores observed snapshots so public history grows from repeat refreshes.",
+  "sources": [
+    {
+      "title": "List of highest-grossing concert tours",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_highest-grossing_concert_tours",
+      "note": "Source table for all-time actual concert-tour gross."
+    }
+  ],
+  "media": {
+    "imageFit": "contain",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-07-10T07:52:11.714Z",
+    "atlasUrl": "/assets/story-atlases/highest-grossing-music-tours.webp?v=2026-07-10T07%3A52%3A11.714Z",
+    "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/highest-grossing-music-tours.webp?v=2026-07-10T07%3A52%3A11.714Z",
+    "manifestUrl": "/assets/story-atlases/highest-grossing-music-tours.json?v=2026-07-10T07%3A52%3A11.714Z",
+    "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/highest-grossing-music-tours.json?v=2026-07-10T07%3A52%3A11.714Z",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 5,
+    "rows": 4,
+    "width": 1600,
+    "height": 1280,
+    "itemCount": 20,
+    "sourcedImageCount": 20,
+    "generatedImageCount": 0,
+    "placeholderCount": 0
+  },
+  "entities": [
+    {
+      "id": "the-eras-tour-taylor-swift-2023-2024",
+      "name": "The Eras Tour",
+      "shortName": "The Eras Tour",
+      "value": 2077618725,
+      "rank": 1,
+      "color": "#ff5a61",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%283%29.png/960px-Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%283%29.png",
+      "storyUrl": "/stories/highest-grossing-music-tours/",
+      "sourceIds": [
+        "List of highest-grossing concert tours"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/highest-grossing-music-tours.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/highest-grossing-music-tours.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/highest-grossing-music-tours.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/highest-grossing-music-tours.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.2,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%283%29.png/960px-Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%283%29.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "music-of-the-spheres-world-tour-coldplay-2022-2025",
+      "name": "Music of the Spheres World Tour",
+      "shortName": "Music of the Spheres World Tour",
+      "value": 1524423018,
+      "rank": 2,
+      "color": "#18c871",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/ColdplayWembley120925_%28cropped%29.jpg/960px-ColdplayWembley120925_%28cropped%29.jpg",
+      "storyUrl": "/stories/highest-grossing-music-tours/",
+      "sourceIds": [
+        "List of highest-grossing concert tours"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/highest-grossing-music-tours.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/highest-grossing-music-tours.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/highest-grossing-music-tours.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/highest-grossing-music-tours.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0,
+          "u1": 0.4,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/ColdplayWembley120925_%28cropped%29.jpg/960px-ColdplayWembley120925_%28cropped%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "farewell-yellow-brick-road-elton-john-2018-2023",
+      "name": "Farewell Yellow Brick Road",
+      "shortName": "Farewell Yellow Brick Road",
+      "value": 939100000,
+      "rank": 3,
+      "color": "#ffc84a",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/61/EltonDocBFILFF101024_%284_of_17%29_%28cropped%29.jpg",
+      "storyUrl": "/stories/highest-grossing-music-tours/",
+      "sourceIds": [
+        "List of highest-grossing concert tours"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/highest-grossing-music-tours.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/highest-grossing-music-tours.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/highest-grossing-music-tours.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/highest-grossing-music-tours.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0,
+          "u1": 0.6,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/EltonDocBFILFF101024_%284_of_17%29_%28cropped%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "tour-ed-sheeran-2022-2025",
+      "name": "+−=÷× Tour",
+      "shortName": "+−=÷× Tour",
+      "value": 875700000,
+      "rank": 4,
+      "color": "#00a6ff",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Ed_Sheeran-6886_%28cropped%29.jpg/960px-Ed_Sheeran-6886_%28cropped%29.jpg",
+      "storyUrl": "/stories/highest-grossing-music-tours/",
+      "sourceIds": [
+        "List of highest-grossing concert tours"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/highest-grossing-music-tours.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/highest-grossing-music-tours.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/highest-grossing-music-tours.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/highest-grossing-music-tours.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0,
+          "u1": 0.8,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Ed_Sheeran-6886_%28cropped%29.jpg/960px-Ed_Sheeran-6886_%28cropped%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "tour-ed-sheeran-2017-2019",
+      "name": "÷ Tour",
+      "shortName": "÷ Tour",
+      "value": 776200000,
+      "rank": 5,
+      "color": "#8f6bff",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Ed_Sheeran-6886_%28cropped%29.jpg/960px-Ed_Sheeran-6886_%28cropped%29.jpg",
+      "storyUrl": "/stories/highest-grossing-music-tours/",
+      "sourceIds": [
+        "List of highest-grossing concert tours"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/highest-grossing-music-tours.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/highest-grossing-music-tours.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/highest-grossing-music-tours.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/highest-grossing-music-tours.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 1280,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Ed_Sheeran-6886_%28cropped%29.jpg/960px-Ed_Sheeran-6886_%28cropped%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "360-tour-u2-2009-2011",
+      "name": "360° Tour",
+      "shortName": "360° Tour",
+      "value": 736421586,
+      "rank": 6,
+      "color": "#f18c4f",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/U2_on_Joshua_Tree_Tour_2017_Brussels_8-1-17.jpg/960px-U2_on_Joshua_Tree_Tour_2017_Brussels_8-1-17.jpg",
+      "storyUrl": "/stories/highest-grossing-music-tours/",
+      "sourceIds": [
+        "List of highest-grossing concert tours"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/highest-grossing-music-tours.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/highest-grossing-music-tours.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/highest-grossing-music-tours.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/highest-grossing-music-tours.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.25,
+          "u1": 0.2,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/U2_on_Joshua_Tree_Tour_2017_Brussels_8-1-17.jpg/960px-U2_on_Joshua_Tree_Tour_2017_Brussels_8-1-17.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "after-hours-til-dawn-tour-the-weeknd-2022-2026",
+      "name": "After Hours til Dawn Tour",
+      "shortName": "After Hours til Dawn Tour",
+      "value": 735800000,
+      "rank": 7,
+      "color": "#41a99f",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/The_Weeknd_Portrait_by_Brian_Ziff.jpg/960px-The_Weeknd_Portrait_by_Brian_Ziff.jpg",
+      "storyUrl": "/stories/highest-grossing-music-tours/",
+      "sourceIds": [
+        "List of highest-grossing concert tours"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/highest-grossing-music-tours.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/highest-grossing-music-tours.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/highest-grossing-music-tours.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/highest-grossing-music-tours.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.25,
+          "u1": 0.4,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/The_Weeknd_Portrait_by_Brian_Ziff.jpg/960px-The_Weeknd_Portrait_by_Brian_Ziff.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "2023-2025-tour-bruce-springsteen-and-e-street-band-2023-2025",
+      "name": "2023–2025 Tour",
+      "shortName": "2023–2025 Tour",
+      "value": 729700000,
+      "rank": 8,
+      "color": "#d78fca",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Bruce_Springsteen_Springsteen-79_%28cropped%29.jpg/960px-Bruce_Springsteen_Springsteen-79_%28cropped%29.jpg",
+      "storyUrl": "/stories/highest-grossing-music-tours/",
+      "sourceIds": [
+        "List of highest-grossing concert tours"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/highest-grossing-music-tours.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/highest-grossing-music-tours.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/highest-grossing-music-tours.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/highest-grossing-music-tours.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.25,
+          "u1": 0.6,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Bruce_Springsteen_Springsteen-79_%28cropped%29.jpg/960px-Bruce_Springsteen_Springsteen-79_%28cropped%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "love-on-tour-harry-styles-2021-2023",
+      "name": "Love On Tour",
+      "shortName": "Love On Tour",
+      "value": 617325000,
+      "rank": 9,
+      "color": "#7b9b65",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/HarryStylesWembley170623_%2865_of_93%29_%2852982678051%29_%28cropped_2%29.jpg/960px-HarryStylesWembley170623_%2865_of_93%29_%2852982678051%29_%28cropped_2%29.jpg",
+      "storyUrl": "/stories/highest-grossing-music-tours/",
+      "sourceIds": [
+        "List of highest-grossing concert tours"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/highest-grossing-music-tours.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/highest-grossing-music-tours.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/highest-grossing-music-tours.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/highest-grossing-music-tours.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.25,
+          "u1": 0.8,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/HarryStylesWembley170623_%2865_of_93%29_%2852982678051%29_%28cropped_2%29.jpg/960px-HarryStylesWembley170623_%2865_of_93%29_%2852982678051%29_%28cropped_2%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "m72-world-tour-metallica-2023-2026",
+      "name": "M72 World Tour",
+      "shortName": "M72 World Tour",
+      "value": 590100000,
+      "rank": 10,
+      "color": "#18c871",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Metallica_March_2024.jpg/960px-Metallica_March_2024.jpg",
+      "storyUrl": "/stories/highest-grossing-music-tours/",
+      "sourceIds": [
+        "List of highest-grossing concert tours"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/highest-grossing-music-tours.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/highest-grossing-music-tours.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/highest-grossing-music-tours.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/highest-grossing-music-tours.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 1280,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.25,
+          "u1": 1,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Metallica_March_2024.jpg/960px-Metallica_March_2024.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "summer-carnival-pink-2023-2024",
+      "name": "Summer Carnival",
+      "shortName": "Summer Carnival",
+      "value": 584700000,
+      "rank": 11,
+      "color": "#2f4858",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/PinkSpurs160624_%2833_of_156%29_%28cropped%29.jpg/960px-PinkSpurs160624_%2833_of_156%29_%28cropped%29.jpg",
+      "storyUrl": "/stories/highest-grossing-music-tours/",
+      "sourceIds": [
+        "List of highest-grossing concert tours"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/highest-grossing-music-tours.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/highest-grossing-music-tours.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/highest-grossing-music-tours.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/highest-grossing-music-tours.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.5,
+          "u1": 0.2,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/PinkSpurs160624_%2833_of_156%29_%28cropped%29.jpg/960px-PinkSpurs160624_%2833_of_156%29_%28cropped%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "not-in-this-lifetime-tour-guns-n-roses-2016-2019",
+      "name": "Not in This Lifetime... Tour",
+      "shortName": "Not in This Lifetime... Tour",
+      "value": 584200000,
+      "rank": 12,
+      "color": "#ef426f",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/GNR_Belgrade_2025_05_%28cropped%29.jpg/960px-GNR_Belgrade_2025_05_%28cropped%29.jpg",
+      "storyUrl": "/stories/highest-grossing-music-tours/",
+      "sourceIds": [
+        "List of highest-grossing concert tours"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/highest-grossing-music-tours.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/highest-grossing-music-tours.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/highest-grossing-music-tours.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/highest-grossing-music-tours.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.5,
+          "u1": 0.4,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/GNR_Belgrade_2025_05_%28cropped%29.jpg/960px-GNR_Belgrade_2025_05_%28cropped%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "renaissance-world-tour-beyonce-2023",
+      "name": "Renaissance World Tour",
+      "shortName": "Renaissance World Tour",
+      "value": 579879268,
+      "rank": 13,
+      "color": "#86bdf4",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Beyonc%C3%A9_-_Tottenham_Hotspur_Stadium_-_1st_June_2023_%2810_of_118%29_%2852946364598%29_%28best_crop%29.jpg",
+      "storyUrl": "/stories/highest-grossing-music-tours/",
+      "sourceIds": [
+        "List of highest-grossing concert tours"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/highest-grossing-music-tours.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/highest-grossing-music-tours.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/highest-grossing-music-tours.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/highest-grossing-music-tours.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.5,
+          "u1": 0.6,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Beyonc%C3%A9_-_Tottenham_Hotspur_Stadium_-_1st_June_2023_%2810_of_118%29_%2852946364598%29_%28best_crop%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "stadium-tour-rammstein-2019-2024",
+      "name": "Stadium Tour",
+      "shortName": "Stadium Tour",
+      "value": 563000000,
+      "rank": 14,
+      "color": "#c9a14a",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Rammstein_at_Wacken_Open_Air_2013_06.jpg/960px-Rammstein_at_Wacken_Open_Air_2013_06.jpg",
+      "storyUrl": "/stories/highest-grossing-music-tours/",
+      "sourceIds": [
+        "List of highest-grossing concert tours"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/highest-grossing-music-tours.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/highest-grossing-music-tours.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/highest-grossing-music-tours.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/highest-grossing-music-tours.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.5,
+          "u1": 0.8,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Rammstein_at_Wacken_Open_Air_2013_06.jpg/960px-Rammstein_at_Wacken_Open_Air_2013_06.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "a-bigger-bang-tour-the-rolling-stones-2005-2007",
+      "name": "A Bigger Bang Tour",
+      "shortName": "A Bigger Bang Tour",
+      "value": 558255524,
+      "rank": 15,
+      "color": "#e34f59",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/10/The_Rolling_Stones_Summerfest_in_Milwaukee_-_2015.jpg",
+      "storyUrl": "/stories/highest-grossing-music-tours/",
+      "sourceIds": [
+        "List of highest-grossing concert tours"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/highest-grossing-music-tours.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/highest-grossing-music-tours.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/highest-grossing-music-tours.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/highest-grossing-music-tours.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 1280,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.5,
+          "u1": 1,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/The_Rolling_Stones_Summerfest_in_Milwaukee_-_2015.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "no-filter-tour-the-rolling-stones-2017-2021",
+      "name": "No Filter Tour",
+      "shortName": "No Filter Tour",
+      "value": 546500000,
+      "rank": 16,
+      "color": "#9aa4b2",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/10/The_Rolling_Stones_Summerfest_in_Milwaukee_-_2015.jpg",
+      "storyUrl": "/stories/highest-grossing-music-tours/",
+      "sourceIds": [
+        "List of highest-grossing concert tours"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/highest-grossing-music-tours.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/highest-grossing-music-tours.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/highest-grossing-music-tours.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/highest-grossing-music-tours.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.75,
+          "u1": 0.2,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/The_Rolling_Stones_Summerfest_in_Milwaukee_-_2015.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "a-head-full-of-dreams-tour-coldplay-2016-2017",
+      "name": "A Head Full of Dreams Tour",
+      "shortName": "A Head Full of Dreams Tour",
+      "value": 523033675,
+      "rank": 17,
+      "color": "#ff5a61",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/ColdplayWembley120925_%28cropped%29.jpg/960px-ColdplayWembley120925_%28cropped%29.jpg",
+      "storyUrl": "/stories/highest-grossing-music-tours/",
+      "sourceIds": [
+        "List of highest-grossing concert tours"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/highest-grossing-music-tours.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/highest-grossing-music-tours.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/highest-grossing-music-tours.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/highest-grossing-music-tours.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.75,
+          "u1": 0.4,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/ColdplayWembley120925_%28cropped%29.jpg/960px-ColdplayWembley120925_%28cropped%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "the-wall-live-roger-waters-2010-2013",
+      "name": "The Wall Live",
+      "shortName": "The Wall Live",
+      "value": 459000000,
+      "rank": 18,
+      "color": "#ffc84a",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Roger_Waters_Newport_Folk_Festival_2015.jpg/960px-Roger_Waters_Newport_Folk_Festival_2015.jpg",
+      "storyUrl": "/stories/highest-grossing-music-tours/",
+      "sourceIds": [
+        "List of highest-grossing concert tours"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/highest-grossing-music-tours.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/highest-grossing-music-tours.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/highest-grossing-music-tours.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/highest-grossing-music-tours.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.75,
+          "u1": 0.6,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Roger_Waters_Newport_Folk_Festival_2015.jpg/960px-Roger_Waters_Newport_Folk_Festival_2015.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "black-ice-world-tour-ac-dc-2008-2010",
+      "name": "Black Ice World Tour",
+      "shortName": "Black Ice World Tour",
+      "value": 441900000,
+      "rank": 19,
+      "color": "#00a6ff",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/AC_DC_Black_Ice_Tour_2009_Buenos_Aires_4_de_Diciembre_%284238680962%29.jpg/960px-AC_DC_Black_Ice_Tour_2009_Buenos_Aires_4_de_Diciembre_%284238680962%29.jpg",
+      "storyUrl": "/stories/highest-grossing-music-tours/",
+      "sourceIds": [
+        "List of highest-grossing concert tours"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/highest-grossing-music-tours.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/highest-grossing-music-tours.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/highest-grossing-music-tours.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/highest-grossing-music-tours.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.75,
+          "u1": 0.8,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/AC_DC_Black_Ice_Tour_2009_Buenos_Aires_4_de_Diciembre_%284238680962%29.jpg/960px-AC_DC_Black_Ice_Tour_2009_Buenos_Aires_4_de_Diciembre_%284238680962%29.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "worldwired-tour-metallica-2016-2019",
+      "name": "WorldWired Tour",
+      "shortName": "WorldWired Tour",
+      "value": 430000000,
+      "rank": 20,
+      "color": "#8f6bff",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Metallica_March_2024.jpg/960px-Metallica_March_2024.jpg",
+      "storyUrl": "/stories/highest-grossing-music-tours/",
+      "sourceIds": [
+        "List of highest-grossing concert tours"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/highest-grossing-music-tours.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/highest-grossing-music-tours.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/highest-grossing-music-tours.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/highest-grossing-music-tours.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 1280,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.75,
+          "u1": 1,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Metallica_March_2024.jpg/960px-Metallica_March_2024.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    }
+  ]
+}

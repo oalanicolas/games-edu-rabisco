@@ -1,0 +1,810 @@
+{
+  "schemaVersion": 1,
+  "contentKind": "dat-city.district",
+  "version": 1,
+  "generatedAt": "2026-07-10T07:52:11.714Z",
+  "versionId": "20260710T075211Z",
+  "source": {
+    "name": "dat.city StoryOps public projection",
+    "runSource": "manual",
+    "generatedBy": "scripts/sync-stories/index.mjs",
+    "generatedAt": "2026-07-10T07:52:11.714Z",
+    "versionId": "20260710T075211Z",
+    "adapter": null,
+    "storySlug": "mobile-game-revenue",
+    "districtId": "mobile-game-market",
+    "publicOnly": true,
+    "sourceOfTruth": "generated StoryOps cache until published, then Cloudflare R2 live manifest"
+  },
+  "id": "mobile-game-market",
+  "name": "Mobile Game Market",
+  "storySlug": "mobile-game-revenue",
+  "storyUrl": "/stories/mobile-game-revenue/",
+  "publicStoryUrl": "/stories/mobile-game-revenue.json",
+  "metric": "Players",
+  "metricKey": "players",
+  "latestFrameLabel": "2026-07-10",
+  "summary": "Mobile games ranked by public player-count rows.",
+  "taxonomy": {
+    "primaryCategory": "gaming",
+    "categories": [
+      "gaming",
+      "mobile-apps",
+      "business"
+    ],
+    "tags": [
+      "mobile-games",
+      "grossing",
+      "revenue",
+      "app-stores"
+    ],
+    "entityTypes": [
+      "game",
+      "app"
+    ],
+    "sourceTypes": [
+      "wikipedia"
+    ],
+    "geoScope": "global"
+  },
+  "relationships": [
+    {
+      "target": "app-store-takeover",
+      "type": "app-store-chart",
+      "weight": 0.82,
+      "reason": "Mobile game rankings can reuse the app-store chart family."
+    },
+    {
+      "target": "games-people-are-playing",
+      "type": "gaming-market",
+      "weight": 0.7,
+      "reason": "Mobile game demand complements PC and console game activity."
+    }
+  ],
+  "layoutHints": {
+    "cluster": "game-platforms",
+    "mainland": "culture",
+    "bridgePriority": [
+      "app-store-takeover",
+      "games-people-are-playing"
+    ]
+  },
+  "thumbnail": "/assets/og/dat-city.webp",
+  "status": "fresh",
+  "lastObservationDate": "2026-07-10",
+  "nextRefreshAt": "2026-07-10T08:00:00.000Z",
+  "confidence": "Observed List of most-played mobile games by player count on 2026-07-10T07:52:11.714Z; values are parsed from the \"Most-played mobile games by player count (with at least 50 million)\" Wikipedia table.",
+  "methodology": "This StoryOps adapter fetches the rendered Wikipedia table for List of most-played mobile games by player count, selects the configured ranking table, parses the configured entity and value columns, and stores observed snapshots so public history grows from repeat refreshes.",
+  "sources": [
+    {
+      "title": "List of most-played mobile games by player count",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_most-played_mobile_games_by_player_count",
+      "note": "Public mobile-game player-count table used as a Wikipedia-safe fallback for the suggested mobile-game revenue district."
+    }
+  ],
+  "media": {
+    "imageFit": "contain",
+    "version": 1,
+    "kind": "story-media-atlas",
+    "generatedAt": "2026-07-10T07:52:11.714Z",
+    "atlasUrl": "/assets/story-atlases/mobile-game-revenue.webp?v=2026-07-10T07%3A52%3A11.714Z",
+    "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/mobile-game-revenue.webp?v=2026-07-10T07%3A52%3A11.714Z",
+    "manifestUrl": "/assets/story-atlases/mobile-game-revenue.json?v=2026-07-10T07%3A52%3A11.714Z",
+    "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/mobile-game-revenue.json?v=2026-07-10T07%3A52%3A11.714Z",
+    "tileSize": 320,
+    "tileWidth": 320,
+    "tileHeight": 320,
+    "tileAspectRatio": 1,
+    "columns": 5,
+    "rows": 4,
+    "width": 1600,
+    "height": 1280,
+    "itemCount": 20,
+    "sourcedImageCount": 18,
+    "generatedImageCount": 2,
+    "placeholderCount": 0
+  },
+  "entities": [
+    {
+      "id": "call-of-duty-mobile",
+      "name": "Call of Duty: Mobile",
+      "shortName": "Call of Duty: Mobile",
+      "value": 1000000000,
+      "rank": 1,
+      "color": "#ff5a61",
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/07/CODM_logo.png",
+      "storyUrl": "/stories/mobile-game-revenue/",
+      "sourceIds": [
+        "List of most-played mobile games by player count"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/mobile-game-revenue.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/mobile-game-revenue.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/mobile-game-revenue.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/mobile-game-revenue.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0,
+          "u1": 0.2,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/0/07/CODM_logo.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "mini-world",
+      "name": "Mini World",
+      "shortName": "Mini World",
+      "value": 400000000,
+      "rank": 2,
+      "color": "#18c871",
+      "image": null,
+      "storyUrl": "/stories/mobile-game-revenue/",
+      "sourceIds": [
+        "List of most-played mobile games by player count"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/mobile-game-revenue.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/mobile-game-revenue.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/mobile-game-revenue.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/mobile-game-revenue.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0,
+          "u1": 0.4,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:mini-world",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "dragon-ball-z-dokkan-battle",
+      "name": "Dragon Ball Z: Dokkan Battle",
+      "shortName": "Dragon Ball Z: Dokkan Battle",
+      "value": 350000000,
+      "rank": 3,
+      "color": "#ffc84a",
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/67/Dragon_Ball_Z_Dokkan_Battle_logo.png",
+      "storyUrl": "/stories/mobile-game-revenue/",
+      "sourceIds": [
+        "List of most-played mobile games by player count"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/mobile-game-revenue.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/mobile-game-revenue.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/mobile-game-revenue.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/mobile-game-revenue.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0,
+          "u1": 0.6,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/6/67/Dragon_Ball_Z_Dokkan_Battle_logo.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "sonic-dash",
+      "name": "Sonic Dash",
+      "shortName": "Sonic Dash",
+      "value": 350000000,
+      "rank": 4,
+      "color": "#00a6ff",
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/39/Sonic_Dash.jpg",
+      "storyUrl": "/stories/mobile-game-revenue/",
+      "sourceIds": [
+        "List of most-played mobile games by player count"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/mobile-game-revenue.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/mobile-game-revenue.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/mobile-game-revenue.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/mobile-game-revenue.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0,
+          "u1": 0.8,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/3/39/Sonic_Dash.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "helix-jump",
+      "name": "Helix Jump",
+      "shortName": "Helix Jump",
+      "value": 334000000,
+      "rank": 5,
+      "color": "#8f6bff",
+      "image": null,
+      "storyUrl": "/stories/mobile-game-revenue/",
+      "sourceIds": [
+        "List of most-played mobile games by player count"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/mobile-game-revenue.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/mobile-game-revenue.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/mobile-game-revenue.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/mobile-game-revenue.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 1280,
+          "y": 0,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0,
+          "u1": 1,
+          "v1": 0.25
+        },
+        "image": {
+          "sourceUrl": "dat-city-generated-title-card:helix-jump",
+          "sourceStatus": "generated-image",
+          "sourceProvider": "dat-city-generated-title-card"
+        }
+      }
+    },
+    {
+      "id": "gardenscapes-new-acres",
+      "name": "Gardenscapes: New Acres",
+      "shortName": "Gardenscapes: New Acres",
+      "value": 324000000,
+      "rank": 6,
+      "color": "#f18c4f",
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/fe/Gardenscapes%2C_New_Acres_%28video_game%29_screenshot.png",
+      "storyUrl": "/stories/mobile-game-revenue/",
+      "sourceIds": [
+        "List of most-played mobile games by player count"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/mobile-game-revenue.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/mobile-game-revenue.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/mobile-game-revenue.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/mobile-game-revenue.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.25,
+          "u1": 0.2,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/f/fe/Gardenscapes%2C_New_Acres_%28video_game%29_screenshot.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "homescapes",
+      "name": "Homescapes",
+      "shortName": "Homescapes",
+      "value": 312000000,
+      "rank": 7,
+      "color": "#41a99f",
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/7e/Homescapes_icon.png",
+      "storyUrl": "/stories/mobile-game-revenue/",
+      "sourceIds": [
+        "List of most-played mobile games by player count"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/mobile-game-revenue.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/mobile-game-revenue.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/mobile-game-revenue.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/mobile-game-revenue.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.25,
+          "u1": 0.4,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/7/7e/Homescapes_icon.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "pubg-mobile",
+      "name": "PUBG Mobile",
+      "shortName": "PUBG Mobile",
+      "value": 300000000,
+      "rank": 8,
+      "color": "#d78fca",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/PUBG_Mobile_booth_20210130a.jpg/960px-PUBG_Mobile_booth_20210130a.jpg",
+      "storyUrl": "/stories/mobile-game-revenue/",
+      "sourceIds": [
+        "List of most-played mobile games by player count"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/mobile-game-revenue.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/mobile-game-revenue.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/mobile-game-revenue.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/mobile-game-revenue.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.25,
+          "u1": 0.6,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/PUBG_Mobile_booth_20210130a.jpg/960px-PUBG_Mobile_booth_20210130a.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "super-mario-run",
+      "name": "Super Mario Run",
+      "shortName": "Super Mario Run",
+      "value": 300000000,
+      "rank": 9,
+      "color": "#7b9b65",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Super_Mario_Run_logo.svg/960px-Super_Mario_Run_logo.svg.png",
+      "storyUrl": "/stories/mobile-game-revenue/",
+      "sourceIds": [
+        "List of most-played mobile games by player count"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/mobile-game-revenue.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/mobile-game-revenue.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/mobile-game-revenue.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/mobile-game-revenue.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.25,
+          "u1": 0.8,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Super_Mario_Run_logo.svg/960px-Super_Mario_Run_logo.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "township",
+      "name": "Township",
+      "shortName": "Township",
+      "value": 274000000,
+      "rank": 10,
+      "color": "#2f4858",
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/f7/Township_App_Icon.jpg",
+      "storyUrl": "/stories/mobile-game-revenue/",
+      "sourceIds": [
+        "List of most-played mobile games by player count"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/mobile-game-revenue.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/mobile-game-revenue.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/mobile-game-revenue.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/mobile-game-revenue.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 1280,
+          "y": 320,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.25,
+          "u1": 1,
+          "v1": 0.5
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/f/f7/Township_App_Icon.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "knives-out",
+      "name": "Knives Out",
+      "shortName": "Knives Out",
+      "value": 250000000,
+      "rank": 11,
+      "color": "#ef426f",
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/1f/Knives_Out_poster.jpeg",
+      "storyUrl": "/stories/mobile-game-revenue/",
+      "sourceIds": [
+        "List of most-played mobile games by player count"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/mobile-game-revenue.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/mobile-game-revenue.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/mobile-game-revenue.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/mobile-game-revenue.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.5,
+          "u1": 0.2,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/1/1f/Knives_Out_poster.jpeg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "angry-birds-2",
+      "name": "Angry Birds 2",
+      "shortName": "Angry Birds 2",
+      "value": 230000000,
+      "rank": 12,
+      "color": "#86bdf4",
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/97/Angry_Birds_2.png",
+      "storyUrl": "/stories/mobile-game-revenue/",
+      "sourceIds": [
+        "List of most-played mobile games by player count"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/mobile-game-revenue.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/mobile-game-revenue.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/mobile-game-revenue.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/mobile-game-revenue.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.5,
+          "u1": 0.4,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/9/97/Angry_Birds_2.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "honor-of-kings",
+      "name": "Honor of Kings",
+      "shortName": "Honor of Kings",
+      "value": 200000000,
+      "rank": 13,
+      "color": "#c9a14a",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7d/Honor_of_Kings_logo.png/960px-Honor_of_Kings_logo.png",
+      "storyUrl": "/stories/mobile-game-revenue/",
+      "sourceIds": [
+        "List of most-played mobile games by player count"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/mobile-game-revenue.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/mobile-game-revenue.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/mobile-game-revenue.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/mobile-game-revenue.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.5,
+          "u1": 0.6,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7d/Honor_of_Kings_logo.png/960px-Honor_of_Kings_logo.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "qq-speed-mobile-speed-drifters",
+      "name": "QQ Speed Mobile / Speed Drifters",
+      "shortName": "QQ Speed Mobile / Speed Drifters",
+      "value": 200000000,
+      "rank": 14,
+      "color": "#e34f59",
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a9/SpeedDrifters_game_screenshot.jpg",
+      "storyUrl": "/stories/mobile-game-revenue/",
+      "sourceIds": [
+        "List of most-played mobile games by player count"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/mobile-game-revenue.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/mobile-game-revenue.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/mobile-game-revenue.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/mobile-game-revenue.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.5,
+          "u1": 0.8,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/a/a9/SpeedDrifters_game_screenshot.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "rise-up",
+      "name": "Rise Up",
+      "shortName": "Rise Up",
+      "value": 162000000,
+      "rank": 15,
+      "color": "#9aa4b2",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Wiktionary-logo-en-v2.svg/960px-Wiktionary-logo-en-v2.svg.png",
+      "storyUrl": "/stories/mobile-game-revenue/",
+      "sourceIds": [
+        "List of most-played mobile games by player count"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/mobile-game-revenue.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/mobile-game-revenue.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/mobile-game-revenue.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/mobile-game-revenue.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 1280,
+          "y": 640,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.5,
+          "u1": 1,
+          "v1": 0.75
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Wiktionary-logo-en-v2.svg/960px-Wiktionary-logo-en-v2.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "free-fire",
+      "name": "Free Fire",
+      "shortName": "Free Fire",
+      "value": 150000000,
+      "rank": 16,
+      "color": "#ff5a61",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/3/38/Free_Fire_New_Logo.svg/960px-Free_Fire_New_Logo.svg.png",
+      "storyUrl": "/stories/mobile-game-revenue/",
+      "sourceIds": [
+        "List of most-played mobile games by player count"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/mobile-game-revenue.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/mobile-game-revenue.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/mobile-game-revenue.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/mobile-game-revenue.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 0,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0,
+          "v0": 0.75,
+          "u1": 0.2,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/3/38/Free_Fire_New_Logo.svg/960px-Free_Fire_New_Logo.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "pes-2018-mobile",
+      "name": "PES 2018 Mobile",
+      "shortName": "PES 2018 Mobile",
+      "value": 150000000,
+      "rank": 17,
+      "color": "#18c871",
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/f7/Pro_Evolution_Soccer_2018_Cover_Art.png",
+      "storyUrl": "/stories/mobile-game-revenue/",
+      "sourceIds": [
+        "List of most-played mobile games by player count"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/mobile-game-revenue.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/mobile-game-revenue.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/mobile-game-revenue.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/mobile-game-revenue.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 320,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.2,
+          "v0": 0.75,
+          "u1": 0.4,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/f/f7/Pro_Evolution_Soccer_2018_Cover_Art.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "war-robots",
+      "name": "War Robots",
+      "shortName": "War Robots",
+      "value": 150000000,
+      "rank": 18,
+      "color": "#ffc84a",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/War_Robots_cover_art.jpg/960px-War_Robots_cover_art.jpg",
+      "storyUrl": "/stories/mobile-game-revenue/",
+      "sourceIds": [
+        "List of most-played mobile games by player count"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/mobile-game-revenue.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/mobile-game-revenue.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/mobile-game-revenue.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/mobile-game-revenue.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 640,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.4,
+          "v0": 0.75,
+          "u1": 0.6,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/War_Robots_cover_art.jpg/960px-War_Robots_cover_art.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "mario-kart-tour",
+      "name": "Mario Kart Tour",
+      "shortName": "Mario Kart Tour",
+      "value": 123900000,
+      "rank": 19,
+      "color": "#00a6ff",
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/03/Mario_Kart_Tour_gameplay_screenshot.jpg",
+      "storyUrl": "/stories/mobile-game-revenue/",
+      "sourceIds": [
+        "List of most-played mobile games by player count"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/mobile-game-revenue.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/mobile-game-revenue.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/mobile-game-revenue.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/mobile-game-revenue.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 960,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.6,
+          "v0": 0.75,
+          "u1": 0.8,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/0/03/Mario_Kart_Tour_gameplay_screenshot.jpg",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    },
+    {
+      "id": "ice-age-village",
+      "name": "Ice Age Village",
+      "shortName": "Ice Age Village",
+      "value": 120000000,
+      "rank": 20,
+      "color": "#8f6bff",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Iceage-logo.svg/960px-Iceage-logo.svg.png",
+      "storyUrl": "/stories/mobile-game-revenue/",
+      "sourceIds": [
+        "List of most-played mobile games by player count"
+      ],
+      "media": {
+        "sprite": {
+          "atlasUrl": "/assets/story-atlases/mobile-game-revenue.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "atlasAbsoluteUrl": "https://data.dat.city/assets/story-atlases/mobile-game-revenue.webp?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestUrl": "/assets/story-atlases/mobile-game-revenue.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "manifestAbsoluteUrl": "https://data.dat.city/assets/story-atlases/mobile-game-revenue.json?v=2026-07-10T07%3A52%3A11.714Z",
+          "x": 1280,
+          "y": 960,
+          "width": 320,
+          "height": 320,
+          "aspectRatio": 1,
+          "u0": 0.8,
+          "v0": 0.75,
+          "u1": 1,
+          "v1": 1
+        },
+        "image": {
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Iceage-logo.svg/960px-Iceage-logo.svg.png",
+          "sourceStatus": "source-image",
+          "sourceProvider": "wikimedia"
+        }
+      }
+    }
+  ]
+}
