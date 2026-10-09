@@ -46,3 +46,9 @@ test('páginas de histórias do Dat City preservam todos os scripts internos e a
   assert.ok(page.includes('/original-bridge.js'));
  }
 });
+
+test('prévia relacionada usa mídia original arquivada, inclusive quando o endereço antigo foi removido',async()=>{
+ const aliases=JSON.parse(await readFile(new URL('acervo/aliases.json',root),'utf8')),network=JSON.parse(await readFile(new URL('acervo/network.json',root),'utf8'));
+ assert.equal(aliases.length,24);
+ for(const alias of aliases){assert.ok(network[alias.archived]);assert.equal(network[new URL(alias.reference,alias.page).href],network[alias.archived]);}
+});

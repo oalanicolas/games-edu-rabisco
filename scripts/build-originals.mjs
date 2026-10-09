@@ -8,7 +8,7 @@ const styles=new Map(manifest.files.filter(f=>f.type.includes('css')).map(f=>[f.
 const nativeImports=Object.fromEntries(manifest.files.filter(f=>f.type.includes('javascript')).map(f=>[f.url,f.path]));
 const storyPages=manifest.files.filter(f=>f.type.includes('html')&&f.url.startsWith('https://dat.city/stories/')).map(f=>({slug:'dat-city/stories'+(new URL(f.url).pathname.split('/')[2]?'/'+new URL(f.url).pathname.split('/')[2]:''),source:f.url,url:f.url,sourcePath:f.path.replace(/^\/acervo\//,'site/'),sha256:f.sha256,engine:'three'}));
 const allPages=[...originals,...storyPages];
-const originalByUrl=new Map(allPages.flatMap(o=>[[o.url.replace(/\/$/,''),o],[o.source.replace(/\/$/,''),o]]));
+const originalByUrl=new Map(allPages.flatMap(o=>[[o.url.replace(/\/$/,''),o],[o.source.replace(/\/$/,''),o],...o.canonical?[[o.canonical.replace(/\/$/,''),o]]:[]]));
 const map=(value,base)=>{
  if(!value||value.includes('${')||value.startsWith('#')||value.startsWith('data:')||value.startsWith('blob:'))return value;
  try{
@@ -27,7 +27,7 @@ for(const file of manifest.files.filter(f=>f.type.includes('css'))){
  await writeFile(new URL(styles.get(file.url).slice(1),root),css(raw,file.url));
 }
 const routedNetwork={...network,...Object.fromEntries(styles)};
-await writeFile(new URL('original-routes.js',root),`window.__EDU_NETWORK__=${JSON.stringify(routedNetwork)};window.__EDU_PAGES__=${JSON.stringify(Object.fromEntries(allPages.flatMap(o=>[[o.url.replace(/\/$/,''),`/originais/${o.slug}/`],[o.source.replace(/\/$/,''),`/originais/${o.slug}/`]])))};\n`);
+await writeFile(new URL('original-routes.js',root),`window.__EDU_NETWORK__=${JSON.stringify(routedNetwork)};window.__EDU_PAGES__=${JSON.stringify(Object.fromEntries(allPages.flatMap(o=>[[o.url.replace(/\/$/,''),`/originais/${o.slug}/`],[o.source.replace(/\/$/,''),`/originais/${o.slug}/`],...o.canonical?[[o.canonical.replace(/\/$/,''),`/originais/${o.slug}/`]]:[]])))};\n`);
 const pages=[];
 for(const o of allPages){
  const raw=await readFile(new URL(o.sourcePath.replace(/^site\//,'acervo/'),root),'utf8');

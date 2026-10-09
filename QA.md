@@ -39,3 +39,7 @@ Capturas temporárias serão apagadas após inspeção; JSON/texto e recibos per
 - Índice “All stories” e sete músicas públicas do Dat City preservados localmente; leituras e imagens de bairros conferidas também após o carregamento completo em mobile.
 
 - Fontes do índice Dat City: stylesheet precisa responder com CSS, além de HTTP 200. Não aceitar HTML de fallback como arquivo de fonte carregado.
+
+- Todas as 24 prévias relacionadas usam mídias originais arquivadas da mesma experiência; as origens antigas redirecionam a endereços removidos. Conferência pública inclui respostas tardias no total de falhas, além da atribuição por página.
+
+- URLs locais já convertidas: uma URL absoluta do acervo conserva seu endereço quando passa novamente pela ponte; nunca duplicar `/acervo/` nem aceitar HTML como mídia.

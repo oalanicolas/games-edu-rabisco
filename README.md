@@ -41,7 +41,7 @@ Os controles e textos originais continuam no idioma publicado pelo autor.
 
 ## Captura e limites
 
-A captura contém 1084 recursos, incluindo 91 arquivos JavaScript externos e todos os
+A captura contém 1148 recursos, incluindo 91 arquivos JavaScript externos e todos os
 scripts internos das 57 páginas. Os hashes são verificados no `doctor`.
 38 requisições da origem falharam durante a captura; estão listadas no manifest,
 incluindo recomendações/OG inexistentes, telemetria e uma consulta DNS.

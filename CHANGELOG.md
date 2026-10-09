@@ -39,3 +39,5 @@
 - Índice de histórias e sete faixas originais do rádio arquivados; navegação permanece local.
 
 - Capturada a folha original Google Sans Flex/Oxanium do índice Dat City e reforçada a conferência de tipo das folhas CSS.
+
+- Arquivados os 64 atlas locais antigos referidos nos dados originais. Prévias removidas usam imagens e vídeos originais da mesma experiência no portfólio; links canônicos abrem os clientes locais.

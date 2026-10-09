@@ -9,6 +9,7 @@
     if (typeof value !== 'string' || /^(?:data:|blob:|#|mailto:|tel:)/.test(value)) return value;
     if (value.startsWith('/acervo/') || value.startsWith('/originais/') || value.startsWith('/original-') || value.startsWith('/stats.js')) return value;
     let url = new URL(value, source.source);
+    if(url.origin===location.origin&&(url.pathname.startsWith('/acervo/')||url.pathname.startsWith('/originais/')||url.pathname.startsWith('/original-')||url.pathname==='/stats.js'))return url.href;
     if (url.origin === location.origin) url = new URL(url.pathname + url.search + url.hash, source.source);
     if (navigation) {
       if (url.origin === 'https://sael.net' && url.pathname === '/') return '/';
@@ -52,7 +53,7 @@
       inner.set.call(this,value);
     }});
   }
-  for (const [type, property] of [[HTMLImageElement,'src'],[HTMLImageElement,'srcset'],[HTMLScriptElement,'src'],[HTMLMediaElement,'src'],[HTMLSourceElement,'src'],[HTMLSourceElement,'srcset'],[HTMLLinkElement,'href'],[HTMLIFrameElement,'src'],[HTMLAnchorElement,'href']]) {
+  for (const [type, property] of [[HTMLImageElement,'src'],[HTMLImageElement,'srcset'],[HTMLScriptElement,'src'],[HTMLMediaElement,'src'],[HTMLVideoElement,'poster'],[HTMLSourceElement,'src'],[HTMLSourceElement,'srcset'],[HTMLLinkElement,'href'],[HTMLIFrameElement,'src'],[HTMLAnchorElement,'href']]) {
     const descriptor = Object.getOwnPropertyDescriptor(type.prototype, property);
     if (!descriptor?.set) continue;
     Object.defineProperty(type.prototype, property, {...descriptor,set(value){descriptor.set.call(this,property==='srcset'?srcset(value):local(String(value),type === HTMLAnchorElement));}});

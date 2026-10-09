@@ -59,7 +59,19 @@ try{
   for(const type of ['csv','json']){const pending=page.waitForEvent('download');await page.locator('#edu-'+type).click();const d=await pending;assert.ok((await readFile(await d.path(),'utf8')).includes('sourceHash'));}
   await page.locator('#edu-notes').fill('Minha hipótese');await page.evaluate(()=>window.dispatchEvent(new Event('beforeprint')));await page.emulateMedia({media:'print'});assert.equal(await page.locator('#edu-print').isVisible(),true);assert.equal(await page.locator('canvas').first().isVisible(),false);assert.match(await page.locator('#edu-print').innerText(),/Minha hipótese/);await page.emulateMedia({media:'screen'});
  });
+ await check('24 prévias originais: poster, vídeo, MIME e URL local sem duplicação',async()=>{
+  for(const slug of ['data-center','final-boss','model-monsters','plane-of-focus']){
+   await page.goto(new URL('/originais/'+slug+'/',base).href,{waitUntil:'domcontentloaded'});await ready();
+   const assets=await page.evaluate(async()=>{
+    const aliases=await (await fetch('/acervo/aliases.json')).json(),results=[];
+    for(const item of aliases.filter(a=>a.page===window.__EDU_SOURCE__.source)){
+     const poster=item.reference.endsWith('.jpg'),element=document.createElement(poster?'video':'source');element[poster?'poster':'src']=item.reference;const url=element[poster?'poster':'src'],mapped=window.__EDU_ORIGINAL__.local(url);const response=await fetch(url,{method:'HEAD'});results.push({url,mapped,status:response.status,type:response.headers.get('content-type')});
+    }
+    return results;
+   });assert.equal(assets.length,6);for(const asset of assets){assert.equal(asset.mapped,asset.url);assert.equal(asset.status,200);assert.match(asset.type,/^(image|video)\//);assert.match(asset.url,/\/acervo\/sael\.net\/p\//);}
+  }
+ });
  await check('rota antiga da bússola abre cliente real e aba investigar',async()=>{await page.goto(new URL('/aula.html?id=bussola#investigar',base).href);await page.waitForURL('**/originais/compass-field/?caderno=investigar');await ready();assert.equal(await page.locator('#edu-body').isVisible(),true);});
- const report={base,total:originals.length,controlsOnly:process.env.EDU_QA_CONTROLS_ONLY==='1',desktop:rows.filter(r=>r.desktop).length,mobile:rows.filter(r=>r.mobile).length,checks,rows,controlErrors:row.errors,missing:[...missing],device:'mobile emulado; não testado em aparelho real',passed:rows.every(r=>r.desktop&&r.mobile&&!r.failure&&!r.errors.length&&!r.missing.length)&&!row.errors.length};
+ const report={base,total:originals.length,controlsOnly:process.env.EDU_QA_CONTROLS_ONLY==='1',desktop:rows.filter(r=>r.desktop).length,mobile:rows.filter(r=>r.mobile).length,checks,rows,controlErrors:row.errors,missing:[...missing],device:'mobile emulado; não testado em aparelho real',passed:rows.every(r=>r.desktop&&r.mobile&&!r.failure&&!r.errors.length&&!r.missing.length)&&!row.errors.length&&!missing.size};
  await writeFile(new URL(process.env.EDU_QA_CONTROLS_ONLY==='1'?'controls.json':'report.json',destination),JSON.stringify(report,null,2));await writeFile(new URL('missing.txt',destination),[...missing].join('\n'));console.log(JSON.stringify({...report,rows:undefined}));assert.equal(report.passed,true);
 }finally{await browser.close();}
