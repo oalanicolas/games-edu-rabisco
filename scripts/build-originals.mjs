@@ -38,6 +38,7 @@ for(const o of originals){
   const tag=script.slice(0,script.indexOf('>')+1);
   if(/\bsrc=/.test(tag)&&/dat\.d1\.tel|a\.d1\.tel|cloudflareinsights|googletagmanager/.test(tag))return '';
   let adapted=attributes(tag)+script.slice(tag.length);
+  if(o.slug==='gigacity'&&tag.includes('/sael.js'))adapted=adapted.replace('<script','<script type="text/plain" data-edu-late');
   if(/type=['"]importmap['"]/.test(tag)){
    hasImportMap=true;
    const data=JSON.parse(script.slice(tag.length,script.lastIndexOf('</script>')));
