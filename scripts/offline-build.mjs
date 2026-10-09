@@ -8,6 +8,8 @@ async function list(path = '') {
 }
 const files = await list();
 const hash = createHash('sha256');
+hash.update('.htaccess');
+hash.update(await readFile(new URL('.htaccess', root)));
 for (const file of files) { hash.update(file); hash.update(await readFile(new URL(file, root))); }
 const cache = `edu-rabisco-${hash.digest('hex').slice(0, 16)}`;
 const paths = ['/', ...files.map(f => `/${f}`), ...files.filter(f=>f.endsWith('/index.html')&&f.startsWith('originais/')).map(f=>'/'+f.slice(0,-10))];

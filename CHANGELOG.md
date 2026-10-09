@@ -43,3 +43,7 @@
 - Arquivados os 64 atlas locais antigos referidos nos dados originais. Prévias removidas usam imagens e vídeos originais da mesma experiência no portfólio; links canônicos abrem os clientes locais.
 
 - O caderno preserva também a câmera automática e os demais estados iniciais definidos pelo cliente original.
+
+- Tipos de mídia explícitos no servidor para WebM, MP4, MP3 e fontes TTF; vídeos WebM não são mais enviados como texto.
+
+- O cache offline também muda quando muda a configuração de tipos de mídia, garantindo a atualização dos headers dos arquivos guardados.
