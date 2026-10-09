@@ -43,7 +43,8 @@ Diferenças assumidas nos pares (Sael à esquerda, Edu Rabisco à direita):
 3. Duas variáveis por investigação, ensaios, ficha e roteiro docente em português.
 
 Não constituem prova de paridade ou aprovação. Os pares preservam a referência
-identificada e deixam as diferenças visíveis.
+identificada e deixam as diferenças visíveis durante a revisão. Após a conferência,
+as capturas temporárias e os pacotes de QA são apagados; ficam resultados e recibos.
 
 ## Limites e publicação
 
@@ -52,8 +53,10 @@ certificação curricular ou piloto em turma. História, Português e Educação
 Física têm conexões interdisciplinares. Não representam um currículo completo.
 As 16 referências externas ainda não têm laboratório independente neste portal.
 
-Destino previsto: `edu.rabisco.net`. Não houve push nem deploy. O servidor local
+Destino público: `edu.rabisco.net`. O recibo de publicação registra a versão
+e a conferência no domínio; `EDU_QA_URL` permite repetir o ciclo nesse endereço. O servidor local
 é aberto pelo comando do README; portas e endereço saem da execução, não são fixos.
 
 Pesquisa e fontes: `docs/pesquisas/Edu Rabisco — laboratórios visuais por matéria a partir do Sael.md`
-no hub. Capturas ficam fora do Git e são arquivadas no Acervo do estúdio.
+no hub. Capturas ficam fora do Git e são apagadas após comparação, assim como
+pacotes exclusivos de QA e suas cópias no Drive. Resultados e recibos permanecem.

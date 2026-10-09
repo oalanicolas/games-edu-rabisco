@@ -6,7 +6,7 @@ import assert from 'node:assert/strict';
 import {lessons,subjects,lessonUrl} from '../src/edu-catalog.js';
 import {defaults,evaluateLesson} from '../src/edu-models.js';
 const hub=fileURLToPath(new URL('../../../',import.meta.url));
-const served=JSON.parse(execFileSync('python3',['framework/scripts/game.py','serve','apps/edu-rabisco','--json'],{cwd:hub,encoding:'utf8'}));
+const served=process.env.EDU_QA_URL?{url:process.env.EDU_QA_URL}:JSON.parse(execFileSync('python3',['framework/scripts/game.py','serve','apps/edu-rabisco','--json'],{cwd:hub,encoding:'utf8'}));
 const base=served.url,destination=new URL('../../../output/edu-rabisco/qa/',import.meta.url);await mkdir(destination,{recursive:true});
 const browser=await chromium.launch({channel:'chrome',headless:process.env.QA_HEADED!=='1',args:['--use-angle=metal','--ignore-gpu-blocklist']});
 const context=await browser.newContext({viewport:{width:1440,height:1050},deviceScaleFactor:1});

@@ -31,7 +31,13 @@ npm run qa
 
 O servidor serve a produção em `dist/`; os recursos do portal não dependem do Sael.
 `npm run dev` é o desenvolvimento. O destino público está declarado em
-`workspace.json`: `edu.rabisco.net`. Não houve push nem deploy nesta criação.
+`workspace.json`: [edu.rabisco.net](https://edu.rabisco.net/). A publicação usa
+`python3 framework/scripts/gameops.py deploy edu-rabisco` depois do push do módulo.
+O recibo no hub registra o commit e a conferência efetiva da versão servida.
+
+Para verificar o site público: `EDU_QA_URL=https://edu.rabisco.net/ npm run qa`.
+Após comparar as capturas, remova as imagens e os pacotes exclusivos de QA,
+inclusive cópias no Drive. Preserve resultados JSON/texto e recibo de limpeza.
 
 ## Usar em aula
 

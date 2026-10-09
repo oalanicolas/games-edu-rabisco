@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-10-09
+
+- Preparação da publicação em edu.rabisco.net pelo fluxo do estúdio.
+- Verificação completa pode apontar para o domínio público com `EDU_QA_URL`.
+- Capturas de QA temporárias; resultados e recibos preservados após limpeza.
+
 ## 2026-10-08
 
 - Portal Edu Rabisco com filtros por matérias e pesquisa sem distinguir acentos.

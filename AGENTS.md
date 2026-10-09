@@ -9,7 +9,8 @@ Código e arte próprios; referência de perguntas em `src/edu-inventory.json`.
 - Servir pelo hub: `python3 framework/scripts/game.py serve apps/edu-rabisco`.
 - QA headless com Chrome e GPU Metal; `QA_HEADED=1` somente quando solicitado.
 - API de QA: `window.__EDU__.observe()`, `set(id, valor)`, `advance(segundos)`; portal: `window.__EDU_HOME__`.
-- Capturas em `output/edu-rabisco/qa` do hub, nunca no Git; arquivar no Acervo autorizado.
+- Capturas em `output/edu-rabisco/qa` do hub, nunca no Git. Após comparação, apagar capturas e pacotes de QA locais e no Drive; preservar resultados JSON/texto e recibo de limpeza.
+- `EDU_QA_URL=https://edu.rabisco.net/ npm run qa` verifica a produção pública; sem essa variável, abre o servidor local oficial.
 - Amazonas e Terremotos foram reutilizados do módulo Rio Amazonas, commit `0e38e7a33d69`; a origem permanece preservada.
 - Distinguir laboratório local e referência externa. Números de cobertura saem de contagem sobre a coleção inteira.
 - Movimento pode ser desacelerado ou ampliado. Leituras físicas declaram unidade; índices fictícios são explícitos.
