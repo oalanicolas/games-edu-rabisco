@@ -13,7 +13,7 @@ const browser=await chromium.launch({channel:'chrome',headless:process.env.QA_HE
 const context=await browser.newContext({viewport:{width:1440,height:1050},serviceWorkers:'block'});
 const page=await context.newPage(),rows=resumed.filter(r=>r.desktop&&r.mobile&&!r.errors.length&&!r.missing.length&&!r.failure),checks=[],missing=new Set();let row;
 page.on('pageerror',e=>row?.errors.push(String(e)));
-page.on('response',r=>{if(r.status()>=400){const u=new URL(r.url());if(u.origin===new URL(base).origin){row?.missing.push({url:r.url(),status:r.status()});missing.add(r.url());}else row?.external.push({url:r.url(),status:r.status()});}});
+page.on('response',r=>{if(r.status()>=400||(r.status()>=200&&r.status()<300&&r.request().resourceType()==='stylesheet'&&!r.headers()['content-type']?.includes('css'))){const u=new URL(r.url());if(u.origin===new URL(base).origin){row?.missing.push({url:r.url(),status:r.status()});missing.add(r.url());}else row?.external.push({url:r.url(),status:r.status()});}});
 const ready=async()=>{await page.waitForFunction(()=>window.__EDU_ORIGINAL__?.ready,{timeout:60000});await page.waitForTimeout(1500);assert.ok(await page.locator('canvas').count());};
 const shot=async name=>{await page.waitForTimeout(800);return page.screenshot({path:fileURLToPath(new URL(`${name}.png`,destination))});};
 try{

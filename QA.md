@@ -37,3 +37,5 @@ Capturas temporárias serão apagadas após inspeção; JSON/texto e recibos per
 - A origem desliga os dados publicados em localhost (`city-app.DTEwABxB.js`, `no()`): QA local usa `edu-qa.test` apontado ao servidor do projeto. O original tem 65 bairros configurados: 64 no manifesto público e o bairro local Curated Commons. A asserção compara a configuração original inteira, em vez de supor que os totais dos dois catálogos são iguais.
 
 - Índice “All stories” e sete músicas públicas do Dat City preservados localmente; leituras e imagens de bairros conferidas também após o carregamento completo em mobile.
+
+- Fontes do índice Dat City: stylesheet precisa responder com CSS, além de HTTP 200. Não aceitar HTML de fallback como arquivo de fonte carregado.

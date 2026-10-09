@@ -37,3 +37,5 @@
 - Preservadas as 64 páginas de histórias do Dat City e suas prévias Three.js; links antigos de atlas removidos pelo autor usam o atlas original atual, sem imagens inventadas.
 
 - Índice de histórias e sete faixas originais do rádio arquivados; navegação permanece local.
+
+- Capturada a folha original Google Sans Flex/Oxanium do índice Dat City e reforçada a conferência de tipo das folhas CSS.

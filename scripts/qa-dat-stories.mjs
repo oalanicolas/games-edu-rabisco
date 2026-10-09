@@ -15,7 +15,7 @@ try{
  await Promise.all([0,1].map(async()=>{
   const context=await browser.newContext({viewport:{width:1440,height:1050},serviceWorkers:'block'}),page=await context.newPage();let row;
   page.on('pageerror',e=>row?.errors.push(String(e)));
-  page.on('response',r=>{if(r.status()>=400&&new URL(r.url()).origin===new URL(base).origin)row?.missing.push({url:r.url(),status:r.status()});});
+  page.on('response',r=>{if((r.status()>=400||(r.status()>=200&&r.status()<300&&r.request().resourceType()==='stylesheet'&&!r.headers()['content-type']?.includes('css')))&&new URL(r.url()).origin===new URL(base).origin)row?.missing.push({url:r.url(),status:r.status()});});
   while(next<pages.length){const source=pages[next++];row={slug:source.slug,errors:[],missing:[],desktop:false,mobile:false};rows.push(row);
    try{
     await page.setViewportSize({width:1440,height:1050});await page.goto(new URL(source.url,base).href,{waitUntil:'domcontentloaded'});
@@ -26,7 +26,7 @@ try{
     row.desktop=true;await page.setViewportSize({width:390,height:844});await page.waitForTimeout(700);const bounds=await embed.boundingBox();assert.ok(bounds.width<=390);assert.ok(await page.locator('[data-story-district-embed] canvas.is-ready').count());row.mobile=true;
     if(source.slug.endsWith('/top-youtubers')){
      await page.screenshot({path:new URL('top-youtubers.png',output).pathname});
-     await page.getByRole('link',{name:'All stories',exact:true}).click();await page.waitForURL('**/originais/dat-city/stories/');
+     await page.getByRole('link',{name:'All stories',exact:true}).click();await page.waitForURL('**/originais/dat-city/stories/');await page.waitForTimeout(800);
      assert.ok(await page.locator('a[href^="/originais/dat-city/stories/"]').count()>=64);navigation.push('All stories abre índice original local com 64 histórias');
     }
    }catch(e){row.failure=String(e);}
